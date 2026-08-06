@@ -1,0 +1,16 @@
+[
+  {
+    "old_url": "http://visitbondibeach.com/*",
+    "new_url": "https://www.visitbondibeach.com/*",
+    "redirect_status": 301,
+    "reason": "Force HTTPS + canonical www host (apex -> www)",
+    "validation_status": "to-test-on-staging"
+  },
+  {
+    "old_url": "https://visitbondibeach.com/*",
+    "new_url": "https://www.visitbondibeach.com/*",
+    "redirect_status": 301,
+    "reason": "Canonical host: apex -> www (matches sitemap canonical host)",
+    "validation_status": "to-test-on-staging"
+  }
+]

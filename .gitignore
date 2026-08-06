@@ -1,0 +1,11 @@
+/node_modules
+/.next
+/out
+/build
+.env*.local
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+# Regenerable crawl output
+migration/extracted/
+migration/crawl.log

@@ -1,0 +1,3 @@
+old_url,new_url,redirect_status,reason,validation_status
+http://visitbondibeach.com/*,https://www.visitbondibeach.com/*,301,Force HTTPS + canonical www host (apex -> www),to-test-on-staging
+https://visitbondibeach.com/*,https://www.visitbondibeach.com/*,301,Canonical host: apex -> www (matches sitemap canonical host),to-test-on-staging

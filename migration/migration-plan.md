@@ -1,0 +1,102 @@
+# VisitBondiBeach.com Migration — Initial Output Package
+
+**Prepared:** 2026-08-05 · **Author:** Claude Code (migration lead)
+**Scope of this pass:** Non-destructive Phase-1 audit + project planning. No build has been made live; the Squarespace site is untouched.
+
+This document delivers the six "Initial output required" items from the brief: (1) current-state assessment, (2) proposed architecture, (3) migration plan, (4) required access, (5) risks & mitigations, (6) estimated workload.
+
+---
+
+## 1. Current-state assessment
+
+See `current-site-audit.md` for the detailed inventory. Summary:
+
+- **Platform:** Squarespace, canonical host `https://www.visitbondibeach.com`.
+- **Size:** 440 indexable URLs — **203 substantive articles**, 1 blog index, 6 categories, **223 auto-generated tag pages**, 7 core static pages.
+- **Automatable:** URL/slug preservation, content + metadata extraction (via crawler script), sitemap generation.
+- **Manual:** tag-page strategy (223 pages), 16 case-sensitive URLs, 1 non-ASCII URL, 5 junk slugs, volatile-fact re-verification, image licensing/re-hosting.
+- **Top SEO risk:** silent 404s from case/slug drift, and index bloat vs. lost link-equity on tag pages.
+- **Blocking issue:** the migration is currently staged inside the unrelated `japan-travel` repo (see Owner Input #1).
+
+## 2. Proposed architecture
+
+Aligned with the brief's recommended stack — and, usefully, with the stack this session's `japan-travel` project already proves out (Next.js App Router + TypeScript + Tailwind + Vercel + zod-validated content), so the patterns are known-good.
+
+| Concern | Choice | Rationale |
+|---|---|---|
+| Framework | **Next.js (App Router) + TypeScript** | SSG/ISR per page, server components, first-class SEO/metadata API, Vercel-native. |
+| Styling | **Tailwind CSS** | Fast, consistent, small CSS; matches brief's "editorial not corporate" via a custom design token set, not a template. |
+| Hosting | **Vercel** | Auto-deploy from GitHub; preview deployments for staging; easy custom-domain + SSL. |
+| Content model | **Headless CMS — Sanity** (recommended) *or* typed in-repo content (MDX/TS + zod), owner's call | Sanity gives the non-technical owner scheduling/preview/media. In-repo content is simpler/cheaper and is what `japan-travel` uses. Decide in Owner Input #2. |
+| Rendering | **SSG + ISR** for articles; static for core pages | Excellent Core Web Vitals; content editable without redeploy (ISR/CMS webhook). |
+| Images | **next/image** + re-hosted originals, explicit dimensions, responsive `sizes`, lazy-below-fold | Fixes CLS/LCP; removes Squarespace CDN dependency. |
+| URLs | **1:1 preservation**; App Router catch-all routes mapping `/bondi-blog/[...slug]` and core paths; case-sensitive routes preserved | Zero-loss URL rule. |
+| Redirects | `next.config` / Vercel: apex→www, http→https, plus any per-URL 301s if a slug must change | Single-hop, permanent. |
+| Structured data | Generated from page content: `WebSite`, `Organization`, `BlogPosting`/`Article`, `BreadcrumbList`, `FAQPage`, `TouristAttraction`/`Beach`, `LocalBusiness` where the page genuinely supports it | No fabricated ratings/hours. |
+| Sitemap/robots | `app/sitemap.ts` + env-aware `robots.ts` (staging = `noindex`/`Disallow: /`) | Prevent staging indexation. |
+| Analytics | Re-add GA4 + Search Console verification once IDs supplied; GTM optional | No duplicate tags; documented in tracking audit. |
+| Deployment | GitHub → Vercel; `main` = production, PR previews = staging | Standard, reversible. |
+
+**Content-model sketch (article):** `slug` (exact, case-preserved), `title`, `metaTitle`, `metaDescription`, `h1`, `body` (portable text / MDX), `heroImage` (key → media registry, alt required), `ogImage`, `category`, `tags[]`, `author`, `publishedAt`, `updatedAt`, `canonical`, `indexable`, `sources[]`, `lastVerified`, `confidence`. Validation: required SEO fields, alt-text required on images, `indexable=false` warns loudly.
+
+## 3. Migration plan (phased)
+
+- **Audit** ✅ *(this pass)* — inventory, classification, redirect strategy, risks. Artifacts committed under `/migration`.
+- **Extraction** — run `scripts/crawl-inventory.mjs` against the live site to capture full per-URL content + metadata + images to `migration/extracted/`. Faithful first-pass, no rewriting.
+- **Build** — scaffold the Next.js app (in its **own repo** — Owner Input #1), design system, routes, content model, structured-data + sitemap/robots.
+- **Content migration** — load extracted content 1:1; re-host images; wire internal links; re-verify volatile facts; resolve the 223 tag pages and junk slugs.
+- **Testing** — automated live-vs-staging parity report (`migration/parity-report.{md,csv}`): status, title, H1, canonical, content presence, redirects, robots. Gate: no critical page missing/noindexed/mis-canonicalised/404.
+- **Launch** — freeze/record late Squarespace edits, final re-crawl + sync, back up DNS, add domain in Vercel, cut DNS, verify SSL, test priority URLs + redirects, submit sitemap in Search Console.
+- **Monitoring** — 24h/72h/7d/14d/30d/60d reports: 404s/500s, indexing, CWV, rankings, broken links, form + analytics events.
+
+## 4. Required access (none needed to continue the audit/build; all needed before launch)
+
+Provide via a secrets manager / owner-performed steps — **never paste passwords in chat or commit credentials.**
+
+- **Squarespace admin** — export, verify late edits, confirm connected services (forms/newsletter/commerce/members).
+- **Domain registrar + DNS provider** — record current A/AAAA/CNAME/**MX/TXT/SPF/DKIM/DMARC** before any change; perform the cutover.
+- **GitHub** — a dedicated repo for the Bondi site (Owner Input #1).
+- **Vercel** — project + domain attach.
+- **Google Analytics (GA4)** — measurement ID.
+- **Google Search Console** — verification method + existing property (for backlink/tag data).
+- **Google Tag Manager** — container ID (if used).
+- **Newsletter / forms provider** — to preserve signup + notifications.
+- **CMS account** (if Sanity chosen) — project + dataset.
+
+## 5. Risks & mitigations
+
+| Risk | Likelihood | Impact | Mitigation | Validation |
+|---|---|---|---|---|
+| Case-sensitive/non-ASCII URLs 404 after migration | High | High | Preserve exact-case routes; add exact 301s as backup | Parity crawl asserts 200 on all 16+1 flagged URLs |
+| 223 tag pages cause index bloat or lost link equity | Medium | Medium | `noindex,follow` by default; promote only data-backed tags | Search Console index report post-launch |
+| Metadata regenerated instead of preserved | Medium | High | Crawl + carry titles/descriptions/OG verbatim, then improve | Parity report title/description diff |
+| Staging site indexed / competes with live | Medium | High | Env-aware robots `Disallow: /` + `noindex` + access protection | Fetch staging robots.txt; site: query check |
+| DNS/email broken at cutover | Low | High | Snapshot all records; change only A/CNAME for web; never touch MX/SPF/DKIM/DMARC without approval | Post-cutover mail send/receive test |
+| Volatile facts (prices/hours) stale | High | Medium | Re-verify at migration; `sources`+`lastVerified` required | Content QA before launch |
+| Image rights unclear | Medium | Medium | Confirm ownership before re-hosting; replace where unclear | Pre-launch licensing check |
+| Built into wrong repo (japan-travel) | **Present now** | High | Move to dedicated repo before build (Owner Input #1) | Repo created + CI green |
+
+## 6. Estimated workload (by phase)
+
+Sized to the real site (203 articles + 223 tag pages + 7 core pages).
+
+| Phase | Effort | Notes |
+|---|---|---|
+| Audit | ~0.5 day | ✅ done this pass |
+| Extraction (scripted crawl + QA) | 1–2 days | 440 URLs; script exists, needs a run + spot-check |
+| Build (app, design system, routes, schema, sitemap/robots) | 4–7 days | New repo; design is the long pole |
+| Content migration (load, re-host images, links, verify facts, tag strategy) | 4–6 days | 203 articles dominate; image re-hosting is bulk work |
+| Testing (parity harness + fixes) | 2–3 days | Automated diff live vs staging |
+| Launch (freeze, sync, DNS, verify) | 0.5–1 day | Plus owner-scheduled window |
+| Monitoring (60-day windowed reports) | ongoing, low | Automatable |
+
+**Rough total to launch-ready:** ~12–20 working days depending on CMS choice and design depth.
+
+---
+
+### What happens next (no owner input required for these)
+1. Owner resolves Input #1–#2 (repo + CMS).
+2. Run the extraction crawl and commit `migration/extracted/`.
+3. Scaffold the app and build the parity harness.
+
+Everything above is reversible and non-destructive. The Squarespace site stays live and authoritative until a fully-audited, approved cutover.

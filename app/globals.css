@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --content-max: 68ch;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  @apply bg-sand-50 text-ink-900 font-sans antialiased;
+}
+
+/* Editorial long-form defaults */
+.prose-editorial {
+  @apply text-ink-700 leading-relaxed;
+}
+.prose-editorial h2 {
+  @apply font-display text-2xl md:text-3xl text-ink-900 mt-10 mb-3 tracking-tight;
+}
+.prose-editorial h3 {
+  @apply font-display text-xl text-ink-900 mt-8 mb-2;
+}
+.prose-editorial p {
+  @apply my-4 max-w-prose;
+}
+.prose-editorial a {
+  @apply text-ocean-600 underline underline-offset-2 hover:text-ocean-700;
+}
+.prose-editorial ul {
+  @apply list-disc pl-6 my-4 max-w-prose space-y-1;
+}
+
+/* Accessible focus ring */
+a:focus-visible,
+button:focus-visible {
+  @apply outline-none ring-2 ring-ocean-500 ring-offset-2 ring-offset-sand-50 rounded-sm;
+}
+
+/* Prevent horizontal overflow on small screens */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}

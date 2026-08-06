@@ -1,0 +1,29 @@
+{
+  "name": "visitbondibeach",
+  "version": "0.1.0",
+  "private": true,
+  "description": "VisitBondiBeach.com — modern Next.js rebuild migrated from Squarespace",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "crawl": "node migration/scripts/crawl-inventory.mjs",
+    "build:content": "node scripts/build-content.mjs"
+  },
+  "dependencies": {
+    "next": "^16.3.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7"
+  }
+}
