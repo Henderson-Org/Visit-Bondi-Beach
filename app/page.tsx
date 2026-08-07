@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { recentArticles } from '@/lib/content';
+import { featuredArticles } from '@/lib/content';
 import { ArticleCard } from '@/components/ArticleCard';
 import { SITE } from '@/lib/site';
 
@@ -16,7 +16,7 @@ const QUICK_LINKS = [
 ];
 
 export default function HomePage() {
-  const featured = recentArticles(9);
+  const featured = featuredArticles(9);
   return (
     <>
       <section className="relative isolate flex min-h-[78vh] items-end overflow-hidden">
@@ -57,7 +57,7 @@ export default function HomePage() {
 
       <section className="mx-auto max-w-6xl px-4 pb-8">
         <div className="flex items-baseline justify-between">
-          <h2 className="font-display text-2xl md:text-3xl text-ink-900">Latest from Bondi</h2>
+          <h2 className="font-display text-2xl md:text-3xl text-ink-900">Popular Bondi guides</h2>
           <Link href="/bondi-blog" className="text-sm text-ocean-700 hover:underline">
             View all →
           </Link>

@@ -63,6 +63,12 @@ async function main() {
   try { overrides = JSON.parse(await readFile(join(ROOT, 'content', 'overrides.json'), 'utf8')); }
   catch { /* none yet */ }
 
+  // Search-demand data (Search Console impressions/clicks per URL), keyed by path.
+  // Powers demand-based homepage ranking; absent entries fall back to recency.
+  let demand = {};
+  try { demand = JSON.parse(await readFile(join(ROOT, 'content', 'search-demand.json'), 'utf8')); }
+  catch { /* no demand data */ }
+
   const pages = [];
   let overrideCount = 0;
   let bodyCount = 0;
@@ -93,6 +99,8 @@ async function main() {
       jsonLdTypes: ex.jsonLdTypes || [],
       publishedAt: publishedFromPath(inv.path),
       lastmod: inv.lastmod || null,
+      impressions: demand[inv.path]?.impressions || 0,
+      clicks: demand[inv.path]?.clicks || 0,
       // Tag archives stay noindex,follow per the audit (thin auto-taxonomy).
       indexable: typeof ov.indexable === 'boolean' ? ov.indexable : isTag ? false : indexable,
       status: ex.status ?? null,

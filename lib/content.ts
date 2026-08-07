@@ -41,6 +41,8 @@ export interface Page {
   jsonLdTypes: string[];
   publishedAt: string | null;
   lastmod: string | null;
+  impressions?: number;
+  clicks?: number;
   indexable: boolean;
   status: number | null;
   liveUrl: string;
@@ -94,6 +96,31 @@ export function recentArticles(limit = 12): Page[] {
   return [...articles()]
     .sort((a, b) => (b.publishedAt || '').localeCompare(a.publishedAt || ''))
     .slice(0, limit);
+}
+
+/**
+ * Homepage featured articles, ranked by real search demand (Search Console
+ * impressions) rather than recency. Order: impressions → clicks → recency
+ * (recency is only a tie-breaker). Articles with no demand data fall back to
+ * the existing recency ordering to keep the homepage full and functional.
+ */
+export function featuredArticles(limit = 12): Page[] {
+  const arts = articles();
+  const byDemand = arts
+    .filter((p) => (p.impressions || 0) > 0)
+    .sort(
+      (a, b) =>
+        (b.impressions || 0) - (a.impressions || 0) ||
+        (b.clicks || 0) - (a.clicks || 0) ||
+        (b.publishedAt || '').localeCompare(a.publishedAt || '')
+    );
+  if (byDemand.length >= limit) return byDemand.slice(0, limit);
+  // Graceful fallback: top up with the existing recency logic.
+  const chosen = new Set(byDemand.map((p) => p.path));
+  const byRecency = arts
+    .filter((p) => !chosen.has(p.path))
+    .sort((a, b) => (b.publishedAt || '').localeCompare(a.publishedAt || ''));
+  return [...byDemand, ...byRecency].slice(0, limit);
 }
 
 export function categories(): Page[] {
