@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
+import { AdsenseScript } from '@/components/Adsense';
 import { SITE, siteOrigin, isProduction } from '@/lib/site';
 import { organizationJsonLd, websiteJsonLd } from '@/lib/structured-data';
 
@@ -45,6 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteHeader />
         <main id="main">{children}</main>
         <SiteFooter />
+        <AdsenseScript />
       </body>
     </html>
   );

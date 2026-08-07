@@ -6,6 +6,8 @@ import {
   getPageBySegments,
   displayTitle,
   recentArticles,
+  relatedPages,
+  breadcrumbs,
   articles,
   categories,
   type Page,
@@ -13,6 +15,8 @@ import {
 import { isProduction } from '@/lib/site';
 import { articleJsonLd, breadcrumbJsonLd } from '@/lib/structured-data';
 import { ArticleCard } from '@/components/ArticleCard';
+import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { RelatedGuides } from '@/components/RelatedGuides';
 
 export const dynamicParams = true;
 
@@ -78,26 +82,21 @@ function MigrationNote({ page }: { page: Page }) {
 
 function ArticlePage({ page }: { page: Page }) {
   const title = displayTitle(page);
-  const crumbs = [
-    { name: 'Home', path: '/' },
-    { name: "What's On", path: '/bondi-blog' },
-    { name: title, path: page.path },
-  ];
+  const crumbs = breadcrumbs(page);
+  const isArticle = page.section === 'blog';
   return (
     <article className="mx-auto max-w-3xl px-4 py-10">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd(page)) }}
-      />
+      {isArticle && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd(page)) }}
+        />
+      )}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(crumbs)) }}
       />
-      <nav aria-label="Breadcrumb" className="text-xs text-ink-500">
-        <Link href="/bondi-blog" className="hover:text-ocean-700">
-          What&rsquo;s On
-        </Link>
-      </nav>
+      <Breadcrumbs items={crumbs} />
       <h1 className="mt-2 font-display text-3xl md:text-4xl leading-tight tracking-tight text-ink-900">
         {title}
       </h1>
@@ -131,6 +130,7 @@ function ArticlePage({ page }: { page: Page }) {
           </>
         )}
       </div>
+      <RelatedGuides pages={relatedPages(page)} />
       <MigrationNote page={page} />
     </article>
   );

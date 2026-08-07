@@ -1,15 +1,38 @@
 import Link from 'next/link';
 import { NAV } from '@/lib/site';
 
+const TOP_GUIDES = [
+  { label: 'Ultimate Bondi Beach travel guide', href: '/bondi-blog/2026/2/21/the-ultimate-bondi-beach-travel-guide-2026-edition' },
+  { label: 'Getting to Bondi from the airport', href: '/bondi-blog/getting-from-sydney-airport-to-bondi-beach' },
+  { label: 'Where to swim at Bondi', href: '/where-to-swim-at-bondi-beach' },
+  { label: 'Bondi Icebergs guide', href: '/bondi-icebergs' },
+  { label: 'Bondi to Bronte coastal walk', href: '/bondi-blog/2023/9/21/walking-on-sunshine-the-ultimate-guide-to-the-bondi-to-bronte-coastal-walk' },
+  { label: 'Bondi parking guide', href: '/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days' },
+];
+
 export default function NotFound() {
   return (
-    <div className="mx-auto max-w-2xl px-4 py-20 text-center">
+    <div className="mx-auto max-w-2xl px-4 py-16">
       <p className="font-display text-6xl text-ocean-600">404</p>
       <h1 className="mt-4 font-display text-3xl text-ink-900">This page took a swim</h1>
       <p className="mt-3 text-ink-700">
-        We couldn&rsquo;t find that page. Try one of these instead:
+        We couldn&rsquo;t find that page. It may have moved during our site upgrade. Try a
+        popular guide below, or start from a main section.
       </p>
-      <nav aria-label="Helpful links" className="mt-6 flex flex-wrap justify-center gap-2">
+
+      <h2 className="mt-8 text-sm uppercase tracking-wide text-ink-500">Popular guides</h2>
+      <ul className="mt-3 grid gap-2 sm:grid-cols-2">
+        {TOP_GUIDES.map((g) => (
+          <li key={g.href}>
+            <Link href={g.href} className="block rounded-lg border border-sand-200 bg-white p-3 text-sm text-ink-800 hover:border-ocean-500">
+              {g.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+
+      <h2 className="mt-8 text-sm uppercase tracking-wide text-ink-500">Sections</h2>
+      <nav aria-label="Main sections" className="mt-3 flex flex-wrap gap-2">
         {NAV.map((i) => (
           <Link
             key={i.href}

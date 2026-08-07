@@ -10,7 +10,8 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "crawl": "node migration/scripts/crawl-inventory.mjs",
-    "build:content": "node scripts/build-content.mjs"
+    "build:content": "node scripts/build-content.mjs",
+    "seo:qa": "node scripts/seo-qa.mjs"
   },
   "dependencies": {
     "next": "^16.3.0",
