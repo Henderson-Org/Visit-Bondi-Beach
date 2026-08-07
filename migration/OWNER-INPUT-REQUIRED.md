@@ -2,7 +2,23 @@
 
 Only genuinely blocking questions are listed. Work continues on everything else.
 
-## 1. Which repository should the Bondi site live in? (blocks the *build* phase)
+## ✅ Resolved (2026-08-07)
+- **Repo:** dedicated `Visit-Bondi-Beach` created (push blocked only by a Claude infra outage).
+- **CMS:** code-based, no Sanity. Content in `content/*.json`, edited via Git.
+- **Google Ads:** AdSense direct (pub-3425864271290233). Preserved; natural fit — no Auto Ads.
+- **Analytics:** GA4 `G-KQ2SFKV2EZ` wired (production-only).
+- **Editorial voice:** first-person local (owner's own opinion) — byline + schema wired.
+
+## Still needed
+- **Search Console export** (Performance 12 mo + Top linked pages) — prioritise 172 missing descriptions, resolve cannibalisation, decide tag-page keepers.
+- **AdSense ad-unit id** → `NEXT_PUBLIC_AD_SLOT_INARTICLE` (no ad renders until set).
+- **Author name/bio** (optional E-E-A-T) → `NEXT_PUBLIC_AUTHOR_NAME` + type `Person`.
+- **Image licensing** — OK to re-host existing Squarespace photos?
+- **Domain/DNS + any newsletter/forms provider** — launch only.
+
+---
+
+## 1. Which repository should the Bondi site live in? (RESOLVED — kept for history)
 
 This session is running inside the **`njhenderson-dev/japan-travel`** repository — the live
 "Small Steps Japan" platform (its `CLAUDE.md` auto-deploys `main` to `www.smallstepsjapan.com`).

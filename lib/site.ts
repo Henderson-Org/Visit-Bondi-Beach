@@ -39,6 +39,19 @@ export const SITE = {
   instagram: 'https://instagram.com/visitbondibeach',
 } as const;
 
+/**
+ * Editorial author. Content is written in a first-person local voice (the owner's
+ * own opinion / local knowledge), so first-person is legitimate. Default attributes
+ * to the local brand; set NEXT_PUBLIC_AUTHOR_NAME to a real person + switch `type`
+ * to 'Person' for stronger E-E-A-T once a named author + bio is provided.
+ */
+export const AUTHOR = {
+  name: process.env.NEXT_PUBLIC_AUTHOR_NAME || 'The Visit Bondi Beach team',
+  type: (process.env.NEXT_PUBLIC_AUTHOR_TYPE as 'Person' | 'Organization') || 'Organization',
+  url: `${PROD_ORIGIN}/visit-bondi-beach`,
+  tagline: 'Bondi locals',
+} as const;
+
 export const NAV = [
   { label: 'Bondi Guide', href: '/' },
   { label: "What's On", href: '/bondi-blog' },

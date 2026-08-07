@@ -2,7 +2,7 @@
  * Structured-data helpers. Only emit schema that the visible page genuinely
  * supports — never fabricate ratings, prices, hours or reviews.
  */
-import { SITE, siteOrigin } from './site';
+import { SITE, AUTHOR, siteOrigin } from './site';
 import type { Page } from './content';
 
 export function organizationJsonLd() {
@@ -35,6 +35,8 @@ export function articleJsonLd(page: Page) {
     mainEntityOfPage: url,
     isPartOf: { '@type': 'Blog', name: `${SITE.name} — What's On`, url: `${siteOrigin()}/bondi-blog` },
   };
+  data.author = { '@type': AUTHOR.type, name: AUTHOR.name, url: AUTHOR.url };
+  data.publisher = { '@type': 'Organization', name: SITE.name, url: siteOrigin() };
   if (page.metaDescription) data.description = page.metaDescription;
   if (page.publishedAt) data.datePublished = page.publishedAt;
   if (page.lastmod) data.dateModified = page.lastmod;

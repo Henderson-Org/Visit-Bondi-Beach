@@ -12,11 +12,12 @@ import {
   categories,
   type Page,
 } from '@/lib/content';
-import { isProduction } from '@/lib/site';
+import { isProduction, AUTHOR } from '@/lib/site';
 import { articleJsonLd, breadcrumbJsonLd } from '@/lib/structured-data';
 import { ArticleCard } from '@/components/ArticleCard';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { RelatedGuides } from '@/components/RelatedGuides';
+import { AdSlot } from '@/components/AdSlot';
 
 export const dynamicParams = true;
 
@@ -100,14 +101,34 @@ function ArticlePage({ page }: { page: Page }) {
       <h1 className="mt-2 font-display text-3xl md:text-4xl leading-tight tracking-tight text-ink-900">
         {title}
       </h1>
-      {page.publishedAt && (
-        <time className="mt-2 block text-sm text-ink-500" dateTime={page.publishedAt}>
-          {new Date(page.publishedAt).toLocaleDateString('en-AU', {
-            day: 'numeric',
-            month: 'long',
-            year: 'numeric',
-          })}
-        </time>
+      {isArticle && (
+        <p className="mt-2 text-sm text-ink-500">
+          By {AUTHOR.name}
+          {page.publishedAt && (
+            <>
+              {' · '}
+              <time dateTime={page.publishedAt}>
+                {new Date(page.publishedAt).toLocaleDateString('en-AU', {
+                  day: 'numeric',
+                  month: 'long',
+                  year: 'numeric',
+                })}
+              </time>
+            </>
+          )}
+          {page.lastmod && page.lastmod !== page.publishedAt && (
+            <>
+              {' · Updated '}
+              <time dateTime={page.lastmod}>
+                {new Date(page.lastmod).toLocaleDateString('en-AU', {
+                  day: 'numeric',
+                  month: 'long',
+                  year: 'numeric',
+                })}
+              </time>
+            </>
+          )}
+        </p>
       )}
       {page.heroImage && (
         // eslint-disable-next-line @next/next/no-img-element
@@ -119,6 +140,7 @@ function ArticlePage({ page }: { page: Page }) {
       )}
       <div className="prose-editorial mt-6">
         {page.intro && <p className="text-lg text-ink-700">{page.intro}</p>}
+        {isArticle && <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE} />}
         {page.headings.length > 0 && (
           <>
             <h2>In this guide</h2>

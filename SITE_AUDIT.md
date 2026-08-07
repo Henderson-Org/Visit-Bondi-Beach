@@ -14,7 +14,7 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 - 440 URLs · 217 indexable · 223 `noindex,follow` tag pages
 - **172/217 indexable pages have no meta description** → single biggest quick SEO win
 - 16 case-sensitive URLs + 1 non-ASCII URL preserved exactly (would 404 on any lowercasing)
-- Live site's only schema was `WebSite`; rebuild adds Organization/BlogPosting/Breadcrumb/FAQ
+- Live schema (verified across all 440 pages): `WebSite` on every page + `Article` on all 203 blog posts; core/static pages were `WebSite`-only. Rebuild preserves article schema (as `BlogPosting`) and **adds** `Organization`, `BreadcrumbList`, `FAQPage`, so it's a net gain, not a regression.
 - Google AdSense `ca-pub-3425864271290233` preserved via `public/ads.txt` + production-gated script
 
 ---
@@ -32,7 +32,7 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 | 19 | Canonicals | ✅ | Self-referencing canonical per page via `metadataBase` + `alternates.canonical`. |
 | 20 | Indexation control | ✅ | Env-gated: staging `noindex` + robots disallow; production flips on `NEXT_PUBLIC_IS_PRODUCTION=true`. Tags `noindex,follow`. |
 | 21 | XML sitemap | ✅ | `app/sitemap.ts` — indexable only, production domain, excludes tags. Segment if it grows. |
-| 22 | Structured data | 🟡 | Reusable utils: Organization, WebSite, BlogPosting, BreadcrumbList, FAQPage. Place/TouristAttraction/Restaurant/Hotel pending structured location data (§14). |
+| 22 | Structured data | 🟡 | Reusable utils: Organization, WebSite, BlogPosting (preserves live `Article`), BreadcrumbList, FAQPage, +author `Person`. Place/TouristAttraction/Restaurant/Hotel pending structured location data (§14). |
 | 23 | AEO / AI-answerable | 🟡 | Semantic HTML + breadcrumbs in place. Direct-answer openings depend on full body import (§61). |
 | 46 | Search Console readiness | 🟡 | Sitemap/robots/canonicals ready. **Owner: GSC verification + property access.** |
 | 50 | Automated SEO QA | ✅ | `npm run seo:qa` flags dup titles/descs, missing meta/H1, long titles, thin pages. |
@@ -87,7 +87,7 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 | 35 | Maps | ⬜ | Not added; use lightweight/static-first when built. |
 | 36 | Location page UX | ⬜ | Depends on structured entities (§14). |
 | 44 | Custom 404 | ✅ | Useful 404 with top guides + sections. |
-| 45 | Analytics | ⬜ | **Owner: GA4 measurement ID** (+ event plan for affiliate/planner clicks). |
+| 45 | Analytics | 🟡 | GA4 `G-KQ2SFKV2EZ` wired (production-only, `afterInteractive`). Custom events (affiliate/planner clicks) pending those features. Verify live after launch. |
 | 70 | Design system | 🟡 | Tokens + components consistent; expand as pages grow. |
 | 71 | Responsive QA | 🟡 | Built responsive; formal multi-breakpoint QA pending. |
 | 72 | Dark mode | ✅ | Intentionally light-first for destination presentation (not implemented — a deliberate choice). |
@@ -98,8 +98,9 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 
 | # | Item | Status | Notes / next action |
 |---|---|---|---|
-| 39/40 | Commercialisation & trust | 🔎 | **Owner runs Google Ads (AdSense pub-3425864271290233)** — preserved. Affiliate disclosure + editorial policy pages pending. Discuss ad placements/units. |
-| 48 | Content model | 🟡 | Content in `content/pages.json` (separated from components). Sanity CMS recommended for owner editing (see `OWNER-INPUT-REQUIRED.md`). |
+| 39/40 | Commercialisation & trust | 🟡 | **AdSense direct** (pub-3425864271290233) preserved. Owner wants natural fit → **Auto Ads deliberately NOT used**; one labelled in-article `AdSlot` with reserved space (no CLS), inert until owner creates the ad unit + sets `NEXT_PUBLIC_AD_SLOT_INARTICLE`. Affiliate disclosure + editorial-policy pages pending. |
+| 48 | Content model | ✅ | **Decision: code-based** (no Sanity) — content in `content/*.json`, separated from components, edited via Git. Simple, fast, versioned. |
+| 9 | Author / voice | 🟡 | **Decision: first-person local voice** (owner's own opinion). Author byline + `Person`/`Organization` schema wired (`AUTHOR` in `lib/site.ts`). Owner can supply a real author name/bio → set `NEXT_PUBLIC_AUTHOR_NAME` + type `Person`. |
 | 49 | Component system | ✅ | Reusable blocks built; more to come with entities. |
 | 54 | Security / code quality | ✅ | Lean deps; no secrets in repo; env-gated config. Next upgraded off CVE build. |
 | 55 | Don't overengineer | ✅ | Static-first, minimal deps. |

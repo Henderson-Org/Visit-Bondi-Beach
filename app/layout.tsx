@@ -3,6 +3,7 @@ import './globals.css';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { AdsenseScript } from '@/components/Adsense';
+import { Analytics } from '@/components/Analytics';
 import { SITE, siteOrigin, isProduction } from '@/lib/site';
 import { organizationJsonLd, websiteJsonLd } from '@/lib/structured-data';
 
@@ -47,6 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main">{children}</main>
         <SiteFooter />
         <AdsenseScript />
+        <Analytics />
       </body>
     </html>
   );
