@@ -27,7 +27,7 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 | 3 | Redirect map, no chains | 🟡 | Host normalization (apex→www, http→https) documented in `migration/redirect-map.*`. Per-URL 301s not needed (URLs preserved). Wire host redirects at Vercel/DNS at launch. |
 | 6 | Cannibalisation audit | 🔎 | Multiple overlapping "ultimate guide"/"things to do"/parking/itinerary posts exist (e.g. several travel-guide + parking articles). Needs GSC data to pick the canonical winner per intent, then consolidate + 301. **Owner: Search Console access.** |
 | 16 | Unique SEO titles | 🟡 | Real titles carried over; 0 duplicates. Many exceed 60 chars — rewrite pass pending. |
-| 17 | Meta descriptions | 🟡 | **172/217 missing** (never set in Squarespace). Authoring pass needed — highest-leverage quick win. |
+| 17 | Meta descriptions | 🟡 | Was 172/217 missing. Authoring underway via `content/overrides.json` (survives re-crawl); **14 top-impression pages done → 162 remaining**, prioritised by GSC (see CONTENT_STRATEGY.md). |
 | 18 | Heading structure (1×H1) | ✅ | One H1 per template; H2/H3 via `.prose-editorial`. |
 | 19 | Canonicals | ✅ | Self-referencing canonical per page via `metadataBase` + `alternates.canonical`. |
 | 20 | Indexation control | ✅ | Env-gated: staging `noindex` + robots disallow; production flips on `NEXT_PUBLIC_IS_PRODUCTION=true`. Tags `noindex,follow`. |
@@ -76,7 +76,7 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 |---|---|---|---|
 | 25 | Design direction | 🟡 | Coastal editorial system (sand/ocean tokens, serif display) in Tailwind config + globals. Photographic hierarchy needs real re-hosted imagery. |
 | 26 | Typography | ✅ | Editorial scale, readable line lengths (`max-w-prose`), system serif display + sans. |
-| 27 | Photography | 🟡 | Currently Squarespace-CDN originals (allowed in `next.config`). **Re-host + optimise before launch; confirm licensing.** |
+| 27 | Photography | 🟡 | **Owner confirmed image rights ✅** — cleared to re-host. Download Squarespace originals → optimise → serve via `next/image`. Roadmap task. |
 | 28 | Image SEO | 🟡 | Alt text carried where present; `next/image` + dimensions/lazy come with re-host pass. |
 | 29 | Performance / CWV | ✅ | Static SSG, minimal JS, no heavy libs, no blocking webfonts, AdSense `afterInteractive`. Re-check after imagery. |
 | 30 | Mobile-first | ✅ | Mobile nav, tap targets, no horizontal overflow, responsive grids. |

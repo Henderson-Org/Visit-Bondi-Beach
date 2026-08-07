@@ -1,0 +1,60 @@
+{
+  "_comment": "Authored SEO overrides merged over crawled data by build-content.mjs. Prioritised from Search Console (high impressions, low CTR). Titles omit the brand (template adds it). Descriptions summarise real page intent — no invented prices/hours.",
+
+  "/bondi-blog/bondi-rescue-who-are-the-lifeguards": {
+    "title": "Bondi Rescue Lifeguards: Who's Who on the Beach",
+    "metaDescription": "Meet the Bondi Rescue lifeguards — who's who, their real names and roles, and how the team keeps Bondi Beach safe. A local guide to the faces behind the show."
+  },
+  "/bondi-blog/meet-bondi-lifeguards": {
+    "title": "Meet the Bondi Beach Lifeguards",
+    "metaDescription": "The Bondi lifeguards behind Bondi Rescue — names, faces and what they actually do each day patrolling Australia's most famous beach."
+  },
+  "/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue": {
+    "title": "The 20 Most Dramatic Bondi Rescue Moments",
+    "metaDescription": "The most dramatic rescues and moments from Bondi Rescue, ranked — the shark alarms, mass rescues and close calls that made the show famous."
+  },
+  "/bondi-blog/2025/4/29/behind-the-scenes-at-bondi-rescue-20-things-you-may-not-know-about-the-show": {
+    "title": "Bondi Rescue: 20 Behind-the-Scenes Facts",
+    "metaDescription": "20 things you didn't know about Bondi Rescue — how it's filmed, whether it's staged, and what really happens behind the scenes at Bondi Beach."
+  },
+  "/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue": {
+    "title": "20 Obscure Facts About Bondi Rescue",
+    "metaDescription": "20 obscure facts about Bondi Rescue most fans don't know — from the lifeguards' nicknames to the filming secrets behind Australia's iconic beach show."
+  },
+  "/bondi-blog/2025/7/19/insider-guide-to-sundays-bondi-opening-hours-top-flavours-queue-hacks": {
+    "title": "Sundays Bondi: What to Order, Hours & Queue Tips",
+    "metaDescription": "A local's guide to Sundays in Bondi — top menu picks, opening hours and how to beat the queue at one of Bondi Beach's busiest spots."
+  },
+  "/bondi-blog/ultimate-guide-city-to-surf": {
+    "title": "City2Surf: The Ultimate Runner's Guide",
+    "metaDescription": "Your complete guide to Sydney's City2Surf — the 14km route, Heartbreak Hill, start times, training tips and finishing strong at Bondi Beach."
+  },
+  "/bondi-blog/2024/4/1/city2surf-course-map": {
+    "title": "City2Surf Course Map & Route Guide",
+    "metaDescription": "The City2Surf course map explained — the full 14km route from the CBD to Bondi, elevation, Heartbreak Hill and the best spots to watch or push hard."
+  },
+  "/bondi-blog/how-to-pronounce-bondi-beach": {
+    "title": "How to Pronounce Bondi Beach",
+    "metaDescription": "How do you say Bondi? It's 'BON-dye', not 'BON-dee'. Here's how to pronounce Bondi Beach like a local — and what the name actually means."
+  },
+  "/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy": {
+    "title": "Free Parking at Bondi Beach: Local Tips",
+    "metaDescription": "Where to actually find free parking near Bondi Beach — the streets locals use, the time limits to watch, and when to arrive to get a spot."
+  },
+  "/where-to-swim-at-bondi-beach": {
+    "title": "Where to Swim at Bondi Beach",
+    "metaDescription": "The best places to swim at Bondi Beach — between the flags, the Icebergs ocean pool and the North Bondi kids' pool. A local guide to swimming safely."
+  },
+  "/bondi-icebergs": {
+    "title": "Bondi Icebergs: Ocean Pool Visitor Guide",
+    "metaDescription": "An insider's guide to Bondi Icebergs, the famous ocean pool at Bondi Beach — who can swim, what to expect, the restaurant, and how to visit."
+  },
+  "/bondi-blog/why-is-bondi-beach-famous": {
+    "title": "Why Is Bondi Beach So Famous?",
+    "metaDescription": "Why is Bondi Beach famous? From Bondi Rescue and the Icebergs to the surf, coastal walk and its history — here's what makes Bondi world-famous."
+  },
+  "/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide": {
+    "title": "Bondi Beach Sea Temperatures Month by Month",
+    "metaDescription": "Average sea temperatures at Bondi Beach, month by month — when the water's warmest, when you'll want a wetsuit, and the best months to swim."
+  }
+}

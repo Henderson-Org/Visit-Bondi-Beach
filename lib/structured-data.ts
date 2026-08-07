@@ -35,7 +35,7 @@ export function articleJsonLd(page: Page) {
     mainEntityOfPage: url,
     isPartOf: { '@type': 'Blog', name: `${SITE.name} — What's On`, url: `${siteOrigin()}/bondi-blog` },
   };
-  data.author = { '@type': AUTHOR.type, name: AUTHOR.name, url: AUTHOR.url };
+  data.author = { '@type': AUTHOR.type, name: AUTHOR.name, url: AUTHOR.url, description: AUTHOR.bio };
   data.publisher = { '@type': 'Organization', name: SITE.name, url: siteOrigin() };
   if (page.metaDescription) data.description = page.metaDescription;
   if (page.publishedAt) data.datePublished = page.publishedAt;

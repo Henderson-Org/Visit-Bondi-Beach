@@ -42,19 +42,28 @@ async function main() {
     } catch {}
   }
 
+  // Editorial overrides (authored SEO title/description, indexability, etc.) merged
+  // ON TOP of crawled data so hand-authored fields survive a re-crawl. Keyed by path.
+  let overrides = {};
+  try { overrides = JSON.parse(await readFile(join(ROOT, 'content', 'overrides.json'), 'utf8')); }
+  catch { /* none yet */ }
+
   const pages = [];
+  let overrideCount = 0;
   for (const inv of inventory) {
     const ex = extractedByPath.get(inv.path) || {};
+    const ov = overrides[inv.path] || {};
+    if (Object.keys(ov).length) overrideCount++;
     const isTag = inv.content_type === 'tag';
     const indexable = !isTag && ex.status ? ex.status < 300 : !isTag;
     pages.push({
       path: inv.path,
       contentType: inv.content_type,
       section: inv.section,
-      title: (ex.title || '').trim(),
-      metaDescription: (ex.metaDescription || '').trim(),
+      title: (ov.title || ex.title || '').trim(),
+      metaDescription: (ov.metaDescription || ex.metaDescription || '').trim(),
       canonical: (ex.canonical || '').trim(),
-      h1: Array.isArray(ex.h1) ? ex.h1[0] || '' : ex.h1 || '',
+      h1: (ov.h1 || (Array.isArray(ex.h1) ? ex.h1[0] : ex.h1) || '').trim(),
       headings: Array.isArray(ex.h2) ? ex.h2.slice(0, 20) : [],
       ogImage: ex.og?.image || '',
       heroImage: ex.images?.find((i) => i.src && /squarespace-cdn/.test(i.src))?.src || ex.og?.image || '',
@@ -64,7 +73,7 @@ async function main() {
       publishedAt: publishedFromPath(inv.path),
       lastmod: inv.lastmod || null,
       // Tag archives stay noindex,follow per the audit (thin auto-taxonomy).
-      indexable: isTag ? false : indexable,
+      indexable: typeof ov.indexable === 'boolean' ? ov.indexable : isTag ? false : indexable,
       status: ex.status ?? null,
       liveUrl: `https://www.visitbondibeach.com${inv.path}`,
     });
@@ -74,6 +83,6 @@ async function main() {
   await writeFile(join(OUT_DIR, 'pages.json'), JSON.stringify(pages, null, 2));
 
   const withData = pages.filter((p) => p.title).length;
-  console.log(`content/pages.json: ${pages.length} pages (${withData} with crawled metadata, ${pages.length - withData} inventory-only).`);
+  console.log(`content/pages.json: ${pages.length} pages (${withData} with metadata, ${overrideCount} with editorial overrides).`);
 }
 main().catch((e) => { console.error(e); process.exit(1); });

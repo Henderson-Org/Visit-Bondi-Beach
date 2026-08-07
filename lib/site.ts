@@ -46,10 +46,11 @@ export const SITE = {
  * to 'Person' for stronger E-E-A-T once a named author + bio is provided.
  */
 export const AUTHOR = {
-  name: process.env.NEXT_PUBLIC_AUTHOR_NAME || 'The Visit Bondi Beach team',
+  name: process.env.NEXT_PUBLIC_AUTHOR_NAME || 'Visit Bondi Beach Editorial Team',
   type: (process.env.NEXT_PUBLIC_AUTHOR_TYPE as 'Person' | 'Organization') || 'Organization',
   url: `${PROD_ORIGIN}/visit-bondi-beach`,
   tagline: 'Bondi locals',
+  bio: 'We’re a team of five Bondi locals with more than 60 years of living at Bondi Beach between us — writing the guides we wish visitors had.',
 } as const;
 
 export const NAV = [

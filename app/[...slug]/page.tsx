@@ -152,6 +152,12 @@ function ArticlePage({ page }: { page: Page }) {
           </>
         )}
       </div>
+      {isArticle && (
+        <aside className="mt-10 rounded-xl border border-sand-200 bg-sand-100 p-4">
+          <p className="text-sm font-semibold text-ink-900">{AUTHOR.name}</p>
+          <p className="mt-1 text-sm text-ink-500">{AUTHOR.bio}</p>
+        </aside>
+      )}
       <RelatedGuides pages={relatedPages(page)} />
       <MigrationNote page={page} />
     </article>
