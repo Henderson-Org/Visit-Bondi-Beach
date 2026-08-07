@@ -1,0 +1,38 @@
+{
+  "path": "/things-to-do-in-bondi",
+  "contentType": "hub",
+  "section": "guide",
+  "title": "Things to Do in Bondi Beach",
+  "metaDescription": "The best things to do in Bondi Beach — from the coastal walk, swimming and surfing to snorkelling, whale watching and the hidden gems only locals know.",
+  "h1": "Things to do in Bondi Beach",
+  "intro": "There's far more to Bondi than lying on the sand. Whether you've got three hours or three days, here's what we'd actually do — the essentials first, then the water, then the bits most visitors miss.",
+  "sections": [
+    {
+      "heading": "Start here",
+      "intro": "If it's your first time, or you're short on time.",
+      "links": [
+        { "title": "34 of the best things to do in Bondi", "path": "/bondi-blog/34-best-things-to-do-bondi-beach" },
+        { "title": "24 hours in Bondi: top things to do", "path": "/bondi-blog/24-hours-in-bondi-beach" },
+        { "title": "Bondi Beach day-trip tips", "path": "/bondi-blog/day-trip-bondi-beach-top-tips" }
+      ]
+    },
+    {
+      "heading": "On the water",
+      "intro": "Swimming, surfing and what's out beyond the break.",
+      "links": [
+        { "title": "Surfing at Bondi: a complete guide", "path": "/bondi-blog/bondi-beach-surf-guide" },
+        { "title": "The best places to snorkel around Bondi", "path": "/bondi-blog/2025/1/10/the-best-places-to-snorkel-in-and-around-bondi" },
+        { "title": "Whale watching season at Bondi", "path": "/bondi-blog/2025/4/27/whale-watching-season-at-bondi-2025-everything-you-need-to-know" }
+      ]
+    },
+    {
+      "heading": "Beyond the sand",
+      "intro": "The local secrets and the unexpected.",
+      "links": [
+        { "title": "The hidden gems of Bondi Beach", "path": "/bondi-blog/hidden-gems-bondi-beach" },
+        { "title": "9 unique Bondi experiences beyond the surf", "path": "/bondi-blog/2025/4/25/9-unique-bondi-beach-experiences-to-try-beyond-the-sand-and-surf" },
+        { "title": "Hidden gem: Bondi Beach Golf Course", "path": "/bondi-blog/bondi-beach-golf-course" }
+      ]
+    }
+  ]
+}

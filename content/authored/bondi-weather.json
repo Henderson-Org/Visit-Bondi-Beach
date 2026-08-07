@@ -1,0 +1,36 @@
+{
+  "path": "/bondi-weather",
+  "contentType": "hub",
+  "section": "guide",
+  "title": "Bondi Beach Weather & Best Time to Visit",
+  "metaDescription": "Bondi Beach weather and the best time to visit — season by season, month-by-month sea temperatures, what to expect in summer, winter and the rain.",
+  "h1": "Bondi Beach weather & the best time to visit",
+  "intro": "Bondi is good year-round, but it's a very different beach in January than in July. Here's what the weather actually does through the year, how warm the water gets, and when we'd tell a friend to come.",
+  "sections": [
+    {
+      "heading": "When to visit",
+      "intro": "Season by season, and the trade-offs of each.",
+      "links": [
+        { "title": "The best time to visit Bondi Beach", "path": "/bondi-blog/best-time-to-visit-bondi-beach" },
+        { "title": "Seasonal guide to weather & events", "path": "/bondi-blog/2025/3/8/best-time-to-visit-bondi-beach-seasonal-guide-to-weather-events" }
+      ]
+    },
+    {
+      "heading": "Water & temperature",
+      "intro": "How warm it gets, and when you'll want a wetsuit.",
+      "links": [
+        { "title": "Sea temperatures month by month", "path": "/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide" },
+        { "title": "Average temperatures at Bondi Beach", "path": "/bondi-blog/Bondi-beach-temperature" }
+      ]
+    },
+    {
+      "heading": "Rain, winter & golden hour",
+      "intro": "Making the most of Bondi when the sun isn't blazing.",
+      "links": [
+        { "title": "Ultimate wet-weather guide to Bondi", "path": "/bondi-blog/2025/4/29/ultimate-wet-weather-guide-to-bondi-rainy-day-activities-tips" },
+        { "title": "Bondi winter magic", "path": "/bondi-blog/bondi-winter-magic" },
+        { "title": "The best sunrise & sunset spots", "path": "/bondi-blog/sunrise-sunset-bondi" }
+      ]
+    }
+  ]
+}

@@ -28241,6 +28241,75 @@
     "authored": true
   },
   {
+    "path": "/bondi-weather",
+    "contentType": "hub",
+    "section": "guide",
+    "title": "Bondi Beach Weather & Best Time to Visit",
+    "metaDescription": "Bondi Beach weather and the best time to visit — season by season, month-by-month sea temperatures, what to expect in summer, winter and the rain.",
+    "canonical": "",
+    "h1": "Bondi Beach weather & the best time to visit",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "Bondi is good year-round, but it's a very different beach in January than in July. Here's what the weather actually does through the year, how warm the water gets, and when we'd tell a friend to come.",
+    "wordCount": 0,
+    "jsonLdTypes": [],
+    "publishedAt": null,
+    "lastmod": null,
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "sections": [
+      {
+        "heading": "When to visit",
+        "intro": "Season by season, and the trade-offs of each.",
+        "links": [
+          {
+            "title": "The best time to visit Bondi Beach",
+            "path": "/bondi-blog/best-time-to-visit-bondi-beach"
+          },
+          {
+            "title": "Seasonal guide to weather & events",
+            "path": "/bondi-blog/2025/3/8/best-time-to-visit-bondi-beach-seasonal-guide-to-weather-events"
+          }
+        ]
+      },
+      {
+        "heading": "Water & temperature",
+        "intro": "How warm it gets, and when you'll want a wetsuit.",
+        "links": [
+          {
+            "title": "Sea temperatures month by month",
+            "path": "/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide"
+          },
+          {
+            "title": "Average temperatures at Bondi Beach",
+            "path": "/bondi-blog/Bondi-beach-temperature"
+          }
+        ]
+      },
+      {
+        "heading": "Rain, winter & golden hour",
+        "intro": "Making the most of Bondi when the sun isn't blazing.",
+        "links": [
+          {
+            "title": "Ultimate wet-weather guide to Bondi",
+            "path": "/bondi-blog/2025/4/29/ultimate-wet-weather-guide-to-bondi-rainy-day-activities-tips"
+          },
+          {
+            "title": "Bondi winter magic",
+            "path": "/bondi-blog/bondi-winter-magic"
+          },
+          {
+            "title": "The best sunrise & sunset spots",
+            "path": "/bondi-blog/sunrise-sunset-bondi"
+          }
+        ]
+      }
+    ],
+    "authored": true
+  },
+  {
     "path": "/bondi-with-kids",
     "contentType": "hub",
     "section": "guide",
@@ -28372,6 +28441,83 @@
           {
             "title": "Sydney airport taxi scams to avoid",
             "path": "/bondi-blog/2025/6/4/sydney-airport-taxi-scams-how-to-spot-avoid-costly-rip-offs-for-a-hassle-free-arrival"
+          }
+        ]
+      }
+    ],
+    "authored": true
+  },
+  {
+    "path": "/things-to-do-in-bondi",
+    "contentType": "hub",
+    "section": "guide",
+    "title": "Things to Do in Bondi Beach",
+    "metaDescription": "The best things to do in Bondi Beach — from the coastal walk, swimming and surfing to snorkelling, whale watching and the hidden gems only locals know.",
+    "canonical": "",
+    "h1": "Things to do in Bondi Beach",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "There's far more to Bondi than lying on the sand. Whether you've got three hours or three days, here's what we'd actually do — the essentials first, then the water, then the bits most visitors miss.",
+    "wordCount": 0,
+    "jsonLdTypes": [],
+    "publishedAt": null,
+    "lastmod": null,
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "sections": [
+      {
+        "heading": "Start here",
+        "intro": "If it's your first time, or you're short on time.",
+        "links": [
+          {
+            "title": "34 of the best things to do in Bondi",
+            "path": "/bondi-blog/34-best-things-to-do-bondi-beach"
+          },
+          {
+            "title": "24 hours in Bondi: top things to do",
+            "path": "/bondi-blog/24-hours-in-bondi-beach"
+          },
+          {
+            "title": "Bondi Beach day-trip tips",
+            "path": "/bondi-blog/day-trip-bondi-beach-top-tips"
+          }
+        ]
+      },
+      {
+        "heading": "On the water",
+        "intro": "Swimming, surfing and what's out beyond the break.",
+        "links": [
+          {
+            "title": "Surfing at Bondi: a complete guide",
+            "path": "/bondi-blog/bondi-beach-surf-guide"
+          },
+          {
+            "title": "The best places to snorkel around Bondi",
+            "path": "/bondi-blog/2025/1/10/the-best-places-to-snorkel-in-and-around-bondi"
+          },
+          {
+            "title": "Whale watching season at Bondi",
+            "path": "/bondi-blog/2025/4/27/whale-watching-season-at-bondi-2025-everything-you-need-to-know"
+          }
+        ]
+      },
+      {
+        "heading": "Beyond the sand",
+        "intro": "The local secrets and the unexpected.",
+        "links": [
+          {
+            "title": "The hidden gems of Bondi Beach",
+            "path": "/bondi-blog/hidden-gems-bondi-beach"
+          },
+          {
+            "title": "9 unique Bondi experiences beyond the surf",
+            "path": "/bondi-blog/2025/4/25/9-unique-bondi-beach-experiences-to-try-beyond-the-sand-and-surf"
+          },
+          {
+            "title": "Hidden gem: Bondi Beach Golf Course",
+            "path": "/bondi-blog/bondi-beach-golf-course"
           }
         ]
       }

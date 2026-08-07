@@ -5,12 +5,13 @@ import { ArticleCard } from '@/components/ArticleCard';
 import { SITE } from '@/lib/site';
 
 const QUICK_LINKS = [
+  { label: 'Things to do', href: '/things-to-do-in-bondi' },
   { label: 'Where to swim', href: '/where-to-swim-at-bondi-beach' },
-  { label: 'Bondi Icebergs', href: '/bondi-icebergs' },
   { label: 'Bondi Rescue', href: '/bondi-rescue' },
   { label: 'Coastal walk', href: '/bondi-coastal-walk' },
+  { label: 'With kids', href: '/bondi-with-kids' },
+  { label: 'Weather', href: '/bondi-weather' },
   { label: 'Accommodation', href: '/accommodation' },
-  { label: 'Tours', href: '/tours' },
   { label: "What's on", href: '/bondi-blog' },
 ];
 
