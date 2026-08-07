@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   allContentPaths,
   getPageBySegments,
@@ -170,12 +171,16 @@ function ArticlePage({ page }: { page: Page }) {
         </p>
       )}
       {page.heroImage && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={page.heroImage}
-          alt={title}
-          className="mt-6 w-full rounded-xl object-cover"
-        />
+        <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden rounded-xl bg-sand-200">
+          <Image
+            src={page.heroImage}
+            alt={title}
+            fill
+            sizes="(max-width: 768px) 100vw, 768px"
+            priority
+            className="object-cover"
+          />
+        </div>
       )}
       {page.blocks && page.blocks.length > 0 ? (
         <>

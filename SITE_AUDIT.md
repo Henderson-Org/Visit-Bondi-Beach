@@ -77,7 +77,7 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 | 25 | Design direction | 🟡 | Coastal editorial system (sand/ocean tokens, serif display) in Tailwind config + globals. Photographic hierarchy needs real re-hosted imagery. |
 | 26 | Typography | ✅ | Editorial scale, readable line lengths (`max-w-prose`), system serif display + sans. |
 | 27 | Photography | 🟡 | **Owner confirmed image rights ✅** — cleared to re-host. Download Squarespace originals → optimise → serve via `next/image`. Roadmap task. |
-| 28 | Image SEO | 🟡 | Alt text carried where present; `next/image` + dimensions/lazy come with re-host pass. |
+| 28 | Image SEO | 🟡 | **Cards + article heroes now use `next/image`** (fill + `sizes`, lazy below fold, modern formats, no CLS). Hero image fully re-hosted. Bulk re-host of remaining images to owned storage is optional (cuts the Squarespace-CDN dependency) — next/image already optimises them in place. |
 | 29 | Performance / CWV | ✅ | Static SSG, minimal JS, no heavy libs, no blocking webfonts, AdSense `afterInteractive`. Re-check after imagery. |
 | 30 | Mobile-first | ✅ | Mobile nav, tap targets, no horizontal overflow, responsive grids. |
 | 31 | Accessibility | 🟡 | Semantic landmarks, skip link, visible focus, reduced-motion. Full WCAG audit pending. |

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Page } from '@/lib/content';
 import { displayTitle } from '@/lib/content';
 
@@ -7,15 +8,14 @@ export function ArticleCard({ page }: { page: Page }) {
   return (
     <article className="group">
       <Link href={page.path} className="block">
-        <div className="aspect-[4/3] w-full overflow-hidden rounded-lg bg-sand-200">
+        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg bg-sand-200">
           {page.heroImage ? (
-            // Migration note: Squarespace-hosted original; re-host before launch.
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
+            <Image
               src={page.heroImage}
               alt={title}
-              loading="lazy"
-              className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+              fill
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              className="object-cover transition-transform duration-300 group-hover:scale-105"
             />
           ) : (
             <div className="h-full w-full bg-gradient-to-br from-ocean-500/20 to-sand-200" />
