@@ -1,0 +1,38 @@
+{
+  "path": "/bondi-eat-and-drink",
+  "contentType": "hub",
+  "section": "guide",
+  "title": "Where to Eat & Drink in Bondi",
+  "metaDescription": "Where to eat and drink in Bondi — the best cafés, breakfast spots, coffee, restaurants, bars and ice cream, ranked and reviewed by Bondi locals.",
+  "h1": "Where to eat & drink in Bondi",
+  "intro": "Bondi eats well, but not everything living off the view is worth your money. These are the cafés, restaurants and bars we actually send friends to.",
+  "sections": [
+    {
+      "heading": "Cafés, coffee & breakfast",
+      "intro": "The morning end of Bondi — where the coffee's good and the queue's worth it.",
+      "links": [
+        { "title": "Bondi's best cafés right now", "path": "/bondi-blog/2026/3/24/bondis-best-cafs-right-now-where-to-eat-sip-and-soak-up-the-beach-vibe" },
+        { "title": "The best breakfast in Bondi right now", "path": "/bondi-blog/best-breakfast-bondi-right-now" },
+        { "title": "Ranked: Bondi's top 10 coffee spots", "path": "/bondi-blog/2025/6/26/ranked-bondis-top-10-coffee-spots-you-cant-miss" }
+      ]
+    },
+    {
+      "heading": "Restaurants & bars",
+      "intro": "Where to eat dinner and where to drink after.",
+      "links": [
+        { "title": "The definitive guide to Bondi's best restaurants", "path": "/bondi-blog/2023/11/8/definitive-guide-to-bondis-best-restaurants" },
+        { "title": "Bondi's top 10 restaurants, ranked", "path": "/bondi-blog/2025/4/25/must-experience-bondi-restaurants-our-top-10-best-restaurants-ranked" },
+        { "title": "10 must-try Bondi Beach bars", "path": "/bondi-blog/2025/4/25/10-must-try-bondi-beach-bars-backed-in-2025" }
+      ]
+    },
+    {
+      "heading": "Treats & budget eats",
+      "intro": "Ice cream, cheap feeds and plant-based options.",
+      "links": [
+        { "title": "Bondi Beach's best ice cream", "path": "/bondi-blog/2024/9/21/locals-guide-to-bondi-beachs-best-ice-cream" },
+        { "title": "The best cheap eats in Bondi", "path": "/bondi-blog/bondi-beach-cheap-food" },
+        { "title": "Best vegetarian & vegan restaurants", "path": "/bondi-blog/2024/9/7/the-best-vegetarian-and-vegan-restaurants-in-bondi-beach" }
+      ]
+    }
+  ]
+}

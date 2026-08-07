@@ -45,7 +45,7 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 | # | Item | Status | Notes / next action |
 |---|---|---|---|
 | 2 | Product positioning | 🟡 | Homepage + copy pitched as local destination guide, not blog feed. Deepens with hubs. |
-| 4 | Information architecture | 🟡 | **Hub infrastructure built** — authored-page pipeline (`content/authored/*.json`) + `hub` template with curated sections. First hub live: **Bondi Rescue** (`/bondi-rescue`). Remaining sections (Things to Do, Beaches, Walks, Eat & Drink, Families, Transport, Parking, Weather, Itineraries) to follow the same pattern. |
+| 4 | Information architecture | 🟡 | **5 hubs live** via the authored-page pipeline + `hub` template: Bondi Rescue, Coastal Walk & Eastern Beaches, With Kids, Eat & Drink, Getting to Bondi. Nav restructured around them. Remaining: Things to Do / Bondi essentials, Weather/Seasons, Itineraries, Accommodation hub. |
 | 4 | Breadcrumbs | 🟡 | Component + JSON-LD live (Home → What's On → article). Richer topical trails need the §4 taxonomy. |
 | 5 | Topical authority | 🟡 | Started with the Bondi Rescue hub (the ~40k-impression cluster) linking the lifeguards/rescue posts into one authoritative entry point. Extend to other clusters. |
 | 7 | Content quality standard | 🟡 | Templates + blocks support scannable structure; bodies not yet imported. |
@@ -81,7 +81,7 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 | 29 | Performance / CWV | ✅ | Static SSG, minimal JS, no heavy libs, no blocking webfonts, AdSense `afterInteractive`. Re-check after imagery. |
 | 30 | Mobile-first | ✅ | Mobile nav, tap targets, no horizontal overflow, responsive grids. |
 | 31 | Accessibility | 🟡 | Semantic landmarks, skip link, visible focus, reduced-motion. Full WCAG audit pending. |
-| 32 | Navigation | 🟡 | Intent-led nav; will slim once §4 hubs exist. Search pending. |
+| 32 | Navigation | 🟡 | **Restructured around hubs** (Swim, Eat & Drink, With Kids, Coastal Walk, Getting Here, Stay, What's On). On-site search still pending. |
 | 33 | Homepage | 🟡 | Not a chronological feed: hero + quick links + latest. Add "plan by time", essential guides, itineraries once built. |
 | 34 | Category/hub pages | 🟡 | Hub template with intro + curated sections built (not thin card walls). Bondi Rescue hub live; more to come. |
 | 35 | Maps | ⬜ | Not added; use lightweight/static-first when built. |

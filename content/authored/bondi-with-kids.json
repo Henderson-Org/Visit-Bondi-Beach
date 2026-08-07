@@ -1,0 +1,36 @@
+{
+  "path": "/bondi-with-kids",
+  "contentType": "hub",
+  "section": "guide",
+  "title": "Bondi Beach With Kids: A Family Guide",
+  "metaDescription": "Bondi Beach with kids — the safest swimming, the best playgrounds, family-friendly cafés and things to do with children, from a team of Bondi locals.",
+  "h1": "Bondi Beach with kids",
+  "intro": "Bondi is a brilliant beach for families once you know where to go. Here's where we take our own kids — the calmest water, the best playgrounds, and the cafés that actually welcome a pram.",
+  "sections": [
+    {
+      "heading": "Swimming with children",
+      "intro": "The safest, calmest water for little ones.",
+      "links": [
+        { "title": "Can kids swim at Bondi Icebergs?", "path": "/bondi-blog/2025/4/29/can-kids-swim-at-bondi-icebergs-family-swimming-guide" },
+        { "title": "The safest place to swim at Bondi", "path": "/bondi-blog/2023/11/7/the-safest-place-to-swim-at-bondi-beach" }
+      ]
+    },
+    {
+      "heading": "Playgrounds & things to do",
+      "intro": "Where to burn off energy when you're off the sand.",
+      "links": [
+        { "title": "The best kids' playgrounds around Bondi", "path": "/bondi-blog/2024/9/23/locals-guide-to-the-best-kids-playgrounds-around-bondi" },
+        { "title": "Waverley Park: Sydney's best playground", "path": "/bondi-blog/2024/1/7/sydneys-best-playground-in-the-heart-of-bondi" },
+        { "title": "Things to do with kids in the school holidays", "path": "/bondi-blog/2025/1/7/top-things-to-do-in-bondi-for-kids-during-school-holidays" }
+      ]
+    },
+    {
+      "heading": "Eating out with the family",
+      "intro": "Where a high chair and a fussy eater are no problem.",
+      "links": [
+        { "title": "Kids eat free: 12 family dining deals", "path": "/bondi-blog/2025/5/6/kids-eat-free-in-sydneys-eastern-suburbs-12-family-friendly-dining-deals" },
+        { "title": "A parent's guide to Bondi: eats & entertainment", "path": "/bondi-blog/2023/11/17/a-parents-guide-to-bondi-beach-activities-eats-and-entertainment-for-kids" }
+      ]
+    }
+  ]
+}

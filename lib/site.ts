@@ -54,11 +54,11 @@ export const AUTHOR = {
 } as const;
 
 export const NAV = [
-  { label: 'Bondi Guide', href: '/' },
-  { label: "What's On", href: '/bondi-blog' },
   { label: 'Swim', href: '/where-to-swim-at-bondi-beach' },
-  { label: 'Accommodation', href: '/accommodation' },
-  { label: 'Tours', href: '/tours' },
-  { label: 'Bondi Icebergs', href: '/bondi-icebergs' },
-  { label: 'About', href: '/visit-bondi-beach' },
+  { label: 'Eat & Drink', href: '/bondi-eat-and-drink' },
+  { label: 'With Kids', href: '/bondi-with-kids' },
+  { label: 'Coastal Walk', href: '/bondi-coastal-walk' },
+  { label: 'Getting Here', href: '/getting-to-bondi' },
+  { label: 'Stay', href: '/accommodation' },
+  { label: "What's On", href: '/bondi-blog' },
 ] as const;

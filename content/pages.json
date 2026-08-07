@@ -9998,6 +9998,83 @@
     "authored": true
   },
   {
+    "path": "/bondi-eat-and-drink",
+    "contentType": "hub",
+    "section": "guide",
+    "title": "Where to Eat & Drink in Bondi",
+    "metaDescription": "Where to eat and drink in Bondi — the best cafés, breakfast spots, coffee, restaurants, bars and ice cream, ranked and reviewed by Bondi locals.",
+    "canonical": "",
+    "h1": "Where to eat & drink in Bondi",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "Bondi eats well, but not everything living off the view is worth your money. These are the cafés, restaurants and bars we actually send friends to.",
+    "wordCount": 0,
+    "jsonLdTypes": [],
+    "publishedAt": null,
+    "lastmod": null,
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "sections": [
+      {
+        "heading": "Cafés, coffee & breakfast",
+        "intro": "The morning end of Bondi — where the coffee's good and the queue's worth it.",
+        "links": [
+          {
+            "title": "Bondi's best cafés right now",
+            "path": "/bondi-blog/2026/3/24/bondis-best-cafs-right-now-where-to-eat-sip-and-soak-up-the-beach-vibe"
+          },
+          {
+            "title": "The best breakfast in Bondi right now",
+            "path": "/bondi-blog/best-breakfast-bondi-right-now"
+          },
+          {
+            "title": "Ranked: Bondi's top 10 coffee spots",
+            "path": "/bondi-blog/2025/6/26/ranked-bondis-top-10-coffee-spots-you-cant-miss"
+          }
+        ]
+      },
+      {
+        "heading": "Restaurants & bars",
+        "intro": "Where to eat dinner and where to drink after.",
+        "links": [
+          {
+            "title": "The definitive guide to Bondi's best restaurants",
+            "path": "/bondi-blog/2023/11/8/definitive-guide-to-bondis-best-restaurants"
+          },
+          {
+            "title": "Bondi's top 10 restaurants, ranked",
+            "path": "/bondi-blog/2025/4/25/must-experience-bondi-restaurants-our-top-10-best-restaurants-ranked"
+          },
+          {
+            "title": "10 must-try Bondi Beach bars",
+            "path": "/bondi-blog/2025/4/25/10-must-try-bondi-beach-bars-backed-in-2025"
+          }
+        ]
+      },
+      {
+        "heading": "Treats & budget eats",
+        "intro": "Ice cream, cheap feeds and plant-based options.",
+        "links": [
+          {
+            "title": "Bondi Beach's best ice cream",
+            "path": "/bondi-blog/2024/9/21/locals-guide-to-bondi-beachs-best-ice-cream"
+          },
+          {
+            "title": "The best cheap eats in Bondi",
+            "path": "/bondi-blog/bondi-beach-cheap-food"
+          },
+          {
+            "title": "Best vegetarian & vegan restaurants",
+            "path": "/bondi-blog/2024/9/7/the-best-vegetarian-and-vegan-restaurants-in-bondi-beach"
+          }
+        ]
+      }
+    ],
+    "authored": true
+  },
+  {
     "path": "/bondi-rescue",
     "contentType": "hub",
     "section": "guide",
@@ -10056,6 +10133,144 @@
           {
             "title": "Ranked: the 20 most dramatic rescues",
             "path": "/bondi-blog/2024/12/1/ranked-20-most-dramatic-bondi-rescue-rescues"
+          }
+        ]
+      }
+    ],
+    "authored": true
+  },
+  {
+    "path": "/bondi-with-kids",
+    "contentType": "hub",
+    "section": "guide",
+    "title": "Bondi Beach With Kids: A Family Guide",
+    "metaDescription": "Bondi Beach with kids — the safest swimming, the best playgrounds, family-friendly cafés and things to do with children, from a team of Bondi locals.",
+    "canonical": "",
+    "h1": "Bondi Beach with kids",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "Bondi is a brilliant beach for families once you know where to go. Here's where we take our own kids — the calmest water, the best playgrounds, and the cafés that actually welcome a pram.",
+    "wordCount": 0,
+    "jsonLdTypes": [],
+    "publishedAt": null,
+    "lastmod": null,
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "sections": [
+      {
+        "heading": "Swimming with children",
+        "intro": "The safest, calmest water for little ones.",
+        "links": [
+          {
+            "title": "Can kids swim at Bondi Icebergs?",
+            "path": "/bondi-blog/2025/4/29/can-kids-swim-at-bondi-icebergs-family-swimming-guide"
+          },
+          {
+            "title": "The safest place to swim at Bondi",
+            "path": "/bondi-blog/2023/11/7/the-safest-place-to-swim-at-bondi-beach"
+          }
+        ]
+      },
+      {
+        "heading": "Playgrounds & things to do",
+        "intro": "Where to burn off energy when you're off the sand.",
+        "links": [
+          {
+            "title": "The best kids' playgrounds around Bondi",
+            "path": "/bondi-blog/2024/9/23/locals-guide-to-the-best-kids-playgrounds-around-bondi"
+          },
+          {
+            "title": "Waverley Park: Sydney's best playground",
+            "path": "/bondi-blog/2024/1/7/sydneys-best-playground-in-the-heart-of-bondi"
+          },
+          {
+            "title": "Things to do with kids in the school holidays",
+            "path": "/bondi-blog/2025/1/7/top-things-to-do-in-bondi-for-kids-during-school-holidays"
+          }
+        ]
+      },
+      {
+        "heading": "Eating out with the family",
+        "intro": "Where a high chair and a fussy eater are no problem.",
+        "links": [
+          {
+            "title": "Kids eat free: 12 family dining deals",
+            "path": "/bondi-blog/2025/5/6/kids-eat-free-in-sydneys-eastern-suburbs-12-family-friendly-dining-deals"
+          },
+          {
+            "title": "A parent's guide to Bondi: eats & entertainment",
+            "path": "/bondi-blog/2023/11/17/a-parents-guide-to-bondi-beach-activities-eats-and-entertainment-for-kids"
+          }
+        ]
+      }
+    ],
+    "authored": true
+  },
+  {
+    "path": "/getting-to-bondi",
+    "contentType": "hub",
+    "section": "guide",
+    "title": "Getting to Bondi Beach: Transport & Parking",
+    "metaDescription": "How to get to Bondi Beach — from Sydney Airport and the CBD by train, bus, taxi and car, plus where to park and how far Bondi is from key spots.",
+    "canonical": "",
+    "h1": "Getting to Bondi Beach",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "There's no train to Bondi Beach itself — the trick most visitors miss. Here's how to get here from the airport or the city, and where to actually put the car if you drive.",
+    "wordCount": 0,
+    "jsonLdTypes": [],
+    "publishedAt": null,
+    "lastmod": null,
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "sections": [
+      {
+        "heading": "How to get here",
+        "intro": "By public transport from the airport and the city.",
+        "links": [
+          {
+            "title": "How to get to Bondi Beach",
+            "path": "/bondi-blog/how-to-get-to-bondi-beach"
+          },
+          {
+            "title": "Sydney Airport to Bondi Beach",
+            "path": "/bondi-blog/getting-from-sydney-airport-to-bondi-beach"
+          },
+          {
+            "title": "The nearest train station to Bondi Beach",
+            "path": "/bondi-blog/nearest-train-station-bondi-beach"
+          }
+        ]
+      },
+      {
+        "heading": "Parking",
+        "intro": "Free and paid options, and how to avoid a fine.",
+        "links": [
+          {
+            "title": "Ultimate Bondi Beach parking guide",
+            "path": "/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days"
+          },
+          {
+            "title": "Finding free parking at Bondi, made easy",
+            "path": "/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy"
+          }
+        ]
+      },
+      {
+        "heading": "Distances & arrival tips",
+        "intro": "How far Bondi is, and one scam to watch for.",
+        "links": [
+          {
+            "title": "How far is Bondi from key Sydney spots?",
+            "path": "/bondi-blog/2025/1/2/how-far-is-bondi-beach-from-key-sydney-locations"
+          },
+          {
+            "title": "Sydney airport taxi scams to avoid",
+            "path": "/bondi-blog/2025/6/4/sydney-airport-taxi-scams-how-to-spot-avoid-costly-rip-offs-for-a-hassle-free-arrival"
           }
         ]
       }

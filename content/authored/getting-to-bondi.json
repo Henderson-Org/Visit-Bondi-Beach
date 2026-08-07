@@ -1,0 +1,36 @@
+{
+  "path": "/getting-to-bondi",
+  "contentType": "hub",
+  "section": "guide",
+  "title": "Getting to Bondi Beach: Transport & Parking",
+  "metaDescription": "How to get to Bondi Beach — from Sydney Airport and the CBD by train, bus, taxi and car, plus where to park and how far Bondi is from key spots.",
+  "h1": "Getting to Bondi Beach",
+  "intro": "There's no train to Bondi Beach itself — the trick most visitors miss. Here's how to get here from the airport or the city, and where to actually put the car if you drive.",
+  "sections": [
+    {
+      "heading": "How to get here",
+      "intro": "By public transport from the airport and the city.",
+      "links": [
+        { "title": "How to get to Bondi Beach", "path": "/bondi-blog/how-to-get-to-bondi-beach" },
+        { "title": "Sydney Airport to Bondi Beach", "path": "/bondi-blog/getting-from-sydney-airport-to-bondi-beach" },
+        { "title": "The nearest train station to Bondi Beach", "path": "/bondi-blog/nearest-train-station-bondi-beach" }
+      ]
+    },
+    {
+      "heading": "Parking",
+      "intro": "Free and paid options, and how to avoid a fine.",
+      "links": [
+        { "title": "Ultimate Bondi Beach parking guide", "path": "/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days" },
+        { "title": "Finding free parking at Bondi, made easy", "path": "/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy" }
+      ]
+    },
+    {
+      "heading": "Distances & arrival tips",
+      "intro": "How far Bondi is, and one scam to watch for.",
+      "links": [
+        { "title": "How far is Bondi from key Sydney spots?", "path": "/bondi-blog/2025/1/2/how-far-is-bondi-beach-from-key-sydney-locations" },
+        { "title": "Sydney airport taxi scams to avoid", "path": "/bondi-blog/2025/6/4/sydney-airport-taxi-scams-how-to-spot-avoid-costly-rip-offs-for-a-hassle-free-arrival" }
+      ]
+    }
+  ]
+}
