@@ -6,6 +6,7 @@ const nextConfig = {
     remotePatterns: [
       { protocol: 'https', hostname: 'images.squarespace-cdn.com' },
       { protocol: 'https', hostname: '**.squarespace-cdn.com' },
+      { protocol: 'https', hostname: 'static1.squarespace.com' },
     ],
   },
   async redirects() {

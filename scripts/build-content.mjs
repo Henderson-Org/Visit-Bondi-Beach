@@ -18,6 +18,9 @@ const EXTRACTED = join(ROOT, 'migration', 'extracted', 'pages');
 const OUT_DIR = join(ROOT, 'content');
 
 const stripHost = (u = '') => u.replace(/^https?:\/\/(www\.)?visitbondibeach\.com/i, '') || '/';
+// Force image URLs to https (Squarespace serves some over http://static1.squarespace.com,
+// which is mixed-content + not in next/image's allow-list otherwise).
+const httpsify = (u = '') => u.replace(/^http:\/\//i, 'https://');
 
 function publishedFromPath(path) {
   const m = path.match(/^\/bondi-blog\/(\d{4})\/(\d{1,2})\/(\d{1,2})\//);
@@ -80,8 +83,10 @@ async function main() {
       canonical: (ex.canonical || '').trim(),
       h1: (ov.h1 || (Array.isArray(ex.h1) ? ex.h1[0] : ex.h1) || '').trim(),
       headings: Array.isArray(ex.h2) ? ex.h2.slice(0, 20) : [],
-      ogImage: ex.og?.image || '',
-      heroImage: ex.images?.find((i) => i.src && /squarespace-cdn/.test(i.src))?.src || ex.og?.image || '',
+      ogImage: httpsify(ex.og?.image || ''),
+      heroImage: httpsify(
+        ex.images?.find((i) => i.src && /squarespace/.test(i.src))?.src || ex.og?.image || ''
+      ),
       intro: (ex.contentPreview || '').trim(),
       blocks: body?.blocks || null,
       wordCount: (body && body.words) || ex.wordCount || 0,
