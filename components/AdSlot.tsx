@@ -14,6 +14,8 @@ import { useEffect } from 'react';
  * the numeric `data-ad-slot` id via env (e.g. NEXT_PUBLIC_AD_SLOT_INARTICLE).
  */
 const CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || 'ca-pub-3425864271290233';
+// In-article ad unit (owner-provided). Overridable via env; falls back to the real unit.
+const DEFAULT_SLOT = process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE || '2638734601';
 const PROD = process.env.NEXT_PUBLIC_IS_PRODUCTION === 'true';
 
 declare global {
@@ -23,15 +25,16 @@ declare global {
 }
 
 export function AdSlot({ slot, label = 'In-article' }: { slot?: string; label?: string }) {
+  const adSlot = slot || DEFAULT_SLOT;
   useEffect(() => {
-    if (PROD && slot) {
+    if (PROD && adSlot) {
       try {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
       } catch {
         /* AdSense not ready — ignore */
       }
     }
-  }, [slot]);
+  }, [adSlot]);
 
   if (!PROD) {
     return (
@@ -44,19 +47,18 @@ export function AdSlot({ slot, label = 'In-article' }: { slot?: string; label?: 
     );
   }
 
-  if (!slot) return null; // production, but no ad unit configured yet — render nothing
+  if (!adSlot) return null; // production, but no ad unit configured — render nothing
 
   return (
     <aside aria-label="Advertisement" className="my-8">
       <p className="mb-1 text-center text-[10px] uppercase tracking-wide text-ink-500">Advertisement</p>
       <ins
-        className="adsbygoogle block"
-        style={{ display: 'block', minHeight: 120 }}
+        className="adsbygoogle"
+        style={{ display: 'block', textAlign: 'center', minHeight: 120 }}
         data-ad-client={CLIENT}
-        data-ad-slot={slot}
+        data-ad-slot={adSlot}
         data-ad-format="fluid"
         data-ad-layout="in-article"
-        data-full-width-responsive="true"
       />
     </aside>
   );

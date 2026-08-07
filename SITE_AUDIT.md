@@ -98,7 +98,7 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 
 | # | Item | Status | Notes / next action |
 |---|---|---|---|
-| 39/40 | Commercialisation & trust | 🟡 | **AdSense direct** (pub-3425864271290233) preserved. Owner wants natural fit → **Auto Ads deliberately NOT used**; one labelled in-article `AdSlot` with reserved space (no CLS), inert until owner creates the ad unit + sets `NEXT_PUBLIC_AD_SLOT_INARTICLE`. Affiliate disclosure + editorial-policy pages pending. |
+| 39/40 | Commercialisation & trust | 🟡 | **AdSense direct** (pub-3425864271290233) preserved. Natural fit → **Auto Ads deliberately NOT used**; one labelled in-article `AdSlot` (unit `2638734601`, fluid/in-article) with reserved space (no CLS), production-only. Affiliate disclosure + editorial-policy pages still pending. |
 | 48 | Content model | ✅ | **Decision: code-based** (no Sanity) — content in `content/*.json`, separated from components, edited via Git. Simple, fast, versioned. |
 | 9 | Author / voice | 🟡 | **Decision: first-person local voice** (owner's own opinion). Author byline + `Person`/`Organization` schema wired (`AUTHOR` in `lib/site.ts`). Owner can supply a real author name/bio → set `NEXT_PUBLIC_AUTHOR_NAME` + type `Person`. |
 | 49 | Component system | ✅ | Reusable blocks built; more to come with entities. |
