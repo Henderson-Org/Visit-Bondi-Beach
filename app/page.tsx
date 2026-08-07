@@ -6,6 +6,7 @@ import { SITE } from '@/lib/site';
 const QUICK_LINKS = [
   { label: 'Where to swim', href: '/where-to-swim-at-bondi-beach' },
   { label: 'Bondi Icebergs', href: '/bondi-icebergs' },
+  { label: 'Bondi Rescue', href: '/bondi-rescue' },
   { label: 'Accommodation', href: '/accommodation' },
   { label: 'Tours', href: '/tours' },
   { label: "What's on", href: '/bondi-blog' },

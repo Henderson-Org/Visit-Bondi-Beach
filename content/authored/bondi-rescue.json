@@ -1,0 +1,35 @@
+{
+  "path": "/bondi-rescue",
+  "contentType": "hub",
+  "section": "guide",
+  "title": "Bondi Rescue: The Lifeguards & The Show",
+  "metaDescription": "Everything about Bondi Rescue and the lifeguards who patrol Bondi Beach — who they are, whether the show is staged, the most dramatic rescues, and the real story behind the series.",
+  "h1": "Bondi Rescue: the lifeguards, the show, the real story",
+  "intro": "Bondi Rescue put our beach on televisions around the world — but how much of it is real? We're a team of Bondi locals who watch the lifeguards work these flags every day. Here's who they are, what the cameras don't always show, and the rescues that made the show famous.",
+  "sections": [
+    {
+      "heading": "Meet the lifeguards",
+      "intro": "The faces behind the show — who they are and what they actually do on patrol.",
+      "links": [
+        { "title": "Who are the Bondi Rescue lifeguards?", "path": "/bondi-blog/bondi-rescue-who-are-the-lifeguards" },
+        { "title": "Meet the Bondi Beach lifeguards", "path": "/bondi-blog/meet-bondi-lifeguards" }
+      ]
+    },
+    {
+      "heading": "Is Bondi Rescue real, or staged?",
+      "intro": "What's genuine, what's filmed for TV, and the trivia most fans never hear.",
+      "links": [
+        { "title": "Behind the scenes: 20 things you didn't know", "path": "/bondi-blog/2025/4/29/behind-the-scenes-at-bondi-rescue-20-things-you-may-not-know-about-the-show" },
+        { "title": "20 obscure facts about Bondi Rescue", "path": "/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue" }
+      ]
+    },
+    {
+      "heading": "The most dramatic rescues",
+      "intro": "The shark alarms, mass rescues and close calls that defined the series.",
+      "links": [
+        { "title": "The 20 most dramatic moments on Bondi Rescue", "path": "/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue" },
+        { "title": "Ranked: the 20 most dramatic rescues", "path": "/bondi-blog/2024/12/1/ranked-20-most-dramatic-bondi-rescue-rescues" }
+      ]
+    }
+  ]
+}

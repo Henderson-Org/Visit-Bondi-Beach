@@ -79,8 +79,43 @@ async function main() {
     });
   }
 
+  // Authored net-new pages (hubs / new guides) — full records under content/authored/*.json.
+  // These don't come from the crawl; they're first-class indexable pages.
+  let authoredCount = 0;
+  try {
+    const adir = join(ROOT, 'content', 'authored');
+    for (const f of (await readdir(adir)).filter((x) => x.endsWith('.json'))) {
+      const rec = JSON.parse(await readFile(join(adir, f), 'utf8'));
+      if (!rec.path) continue;
+      authoredCount++;
+      pages.push({
+        path: rec.path,
+        contentType: rec.contentType || 'hub',
+        section: rec.section || 'guide',
+        title: (rec.title || '').trim(),
+        metaDescription: (rec.metaDescription || '').trim(),
+        canonical: '',
+        h1: (rec.h1 || rec.title || '').trim(),
+        headings: rec.headings || [],
+        ogImage: rec.ogImage || '',
+        heroImage: rec.heroImage || '',
+        intro: rec.intro || '',
+        wordCount: rec.wordCount || 0,
+        jsonLdTypes: [],
+        publishedAt: rec.publishedAt || null,
+        lastmod: rec.lastmod || null,
+        indexable: rec.indexable !== false,
+        status: 200,
+        liveUrl: '',
+        sections: rec.sections || null,
+        authored: true,
+      });
+    }
+  } catch { /* no authored dir yet */ }
+
   await mkdir(OUT_DIR, { recursive: true });
   await writeFile(join(OUT_DIR, 'pages.json'), JSON.stringify(pages, null, 2));
+  if (authoredCount) console.log(`+ ${authoredCount} authored page(s).`);
 
   const withData = pages.filter((p) => p.title).length;
   console.log(`content/pages.json: ${pages.length} pages (${withData} with metadata, ${overrideCount} with editorial overrides).`);

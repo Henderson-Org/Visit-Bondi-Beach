@@ -27,7 +27,7 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 | 3 | Redirect map, no chains | 🟡 | Host normalization (apex→www, http→https) documented in `migration/redirect-map.*`. Per-URL 301s not needed (URLs preserved). Wire host redirects at Vercel/DNS at launch. |
 | 6 | Cannibalisation audit | 🔎 | Multiple overlapping "ultimate guide"/"things to do"/parking/itinerary posts exist (e.g. several travel-guide + parking articles). Needs GSC data to pick the canonical winner per intent, then consolidate + 301. **Owner: Search Console access.** |
 | 16 | Unique SEO titles | 🟡 | Real titles carried over; 0 duplicates. Many exceed 60 chars — rewrite pass pending. |
-| 17 | Meta descriptions | 🟡 | Was 172/217 missing. Authoring underway via `content/overrides.json` (survives re-crawl); **14 top-impression pages done → 162 remaining**, prioritised by GSC (see CONTENT_STRATEGY.md). |
+| 17 | Meta descriptions | 🟡 | Was 172 missing. Authoring underway via `content/overrides.json` (survives re-crawl); **40 highest-impression pages done → 136 remaining**, prioritised by GSC (see CONTENT_STRATEGY.md). |
 | 18 | Heading structure (1×H1) | ✅ | One H1 per template; H2/H3 via `.prose-editorial`. |
 | 19 | Canonicals | ✅ | Self-referencing canonical per page via `metadataBase` + `alternates.canonical`. |
 | 20 | Indexation control | ✅ | Env-gated: staging `noindex` + robots disallow; production flips on `NEXT_PUBLIC_IS_PRODUCTION=true`. Tags `noindex,follow`. |
@@ -45,9 +45,9 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 | # | Item | Status | Notes / next action |
 |---|---|---|---|
 | 2 | Product positioning | 🟡 | Homepage + copy pitched as local destination guide, not blog feed. Deepens with hubs. |
-| 4 | Information architecture | ⬜ | Topical sections (Things to Do, Beaches, Walks, Eat & Drink, Families, Transport, Parking, Weather, Itineraries…) not built. Current IA is blog + core pages. **Major roadmap item.** |
+| 4 | Information architecture | 🟡 | **Hub infrastructure built** — authored-page pipeline (`content/authored/*.json`) + `hub` template with curated sections. First hub live: **Bondi Rescue** (`/bondi-rescue`). Remaining sections (Things to Do, Beaches, Walks, Eat & Drink, Families, Transport, Parking, Weather, Itineraries) to follow the same pattern. |
 | 4 | Breadcrumbs | 🟡 | Component + JSON-LD live (Home → What's On → article). Richer topical trails need the §4 taxonomy. |
-| 5 | Topical authority | ⬜ | Requires the hub/entity buildout + content depth. Roadmap. |
+| 5 | Topical authority | 🟡 | Started with the Bondi Rescue hub (the ~40k-impression cluster) linking the lifeguards/rescue posts into one authoritative entry point. Extend to other clusters. |
 | 7 | Content quality standard | 🟡 | Templates + blocks support scannable structure; bodies not yet imported. |
 | 8 | Practical info components | ✅ | `QuickFacts`, `LocalTip`, `Callout`, `Faq`, `ItineraryTimeline` built (`components/blocks.tsx`). Ready to populate. |
 | 9 | First-hand local authority | 🟡 | LocalTip block ready; author/about signals + "last checked" dates pending (needs content model fields). |
@@ -83,7 +83,7 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 | 31 | Accessibility | 🟡 | Semantic landmarks, skip link, visible focus, reduced-motion. Full WCAG audit pending. |
 | 32 | Navigation | 🟡 | Intent-led nav; will slim once §4 hubs exist. Search pending. |
 | 33 | Homepage | 🟡 | Not a chronological feed: hero + quick links + latest. Add "plan by time", essential guides, itineraries once built. |
-| 34 | Category/hub pages | ⬜ | Real hubs pending (§4). |
+| 34 | Category/hub pages | 🟡 | Hub template with intro + curated sections built (not thin card walls). Bondi Rescue hub live; more to come. |
 | 35 | Maps | ⬜ | Not added; use lightweight/static-first when built. |
 | 36 | Location page UX | ⬜ | Depends on structured entities (§14). |
 | 44 | Custom 404 | ✅ | Useful 404 with top guides + sections. |

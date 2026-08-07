@@ -10,7 +10,14 @@ export type ContentType =
   | 'blog-post-dated'
   | 'blog-post-legacy'
   | 'category'
-  | 'tag';
+  | 'tag'
+  | 'hub';
+
+export interface HubSection {
+  heading: string;
+  intro?: string;
+  links: { title: string; path: string }[];
+}
 
 export interface Page {
   path: string;
@@ -31,6 +38,8 @@ export interface Page {
   indexable: boolean;
   status: number | null;
   liveUrl: string;
+  sections?: HubSection[] | null;
+  authored?: boolean;
 }
 
 const PAGES = pagesData as unknown as Page[];
