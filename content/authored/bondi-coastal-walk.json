@@ -1,0 +1,38 @@
+{
+  "path": "/bondi-coastal-walk",
+  "contentType": "hub",
+  "section": "guide",
+  "title": "The Bondi Coastal Walk & Eastern Beaches",
+  "metaDescription": "A local's guide to the Bondi to Bronte coastal walk and Sydney's Eastern Beaches — the route, Sculpture by the Sea, the ocean pools, parking, patrol hours and where to swim along the way.",
+  "h1": "The Bondi coastal walk & Sydney's Eastern Beaches",
+  "intro": "The clifftop walk south from Bondi is the best thing you can do here for free. We've walked it in every season — here's the route, the beaches and ocean pools worth stopping for, and what to sort before you set off.",
+  "sections": [
+    {
+      "heading": "The walk",
+      "intro": "The famous coastal path and how far you can take it.",
+      "links": [
+        { "title": "The ultimate Bondi to Bronte coastal walk guide", "path": "/bondi-blog/2023/9/21/walking-on-sunshine-the-ultimate-guide-to-the-bondi-to-bronte-coastal-walk" },
+        { "title": "Sculpture by the Sea along the walk", "path": "/bondi-blog/2023/9/21/sculptures-by-the-sea-at-bondi-a-comprehensive-guide-to-art-by-the-ocean" },
+        { "title": "The 80km Bondi to Manly walk", "path": "/bondi-blog/Bondi-to-manly-walk-guide" }
+      ]
+    },
+    {
+      "heading": "Beaches & ocean pools along the way",
+      "intro": "Where to stop, swim and cool off between Bondi and Coogee.",
+      "links": [
+        { "title": "A guide to Sydney's Eastern Suburbs beaches", "path": "/bondi-blog/2023/8/10/a-guide-to-sydneys-eastern-suburbs-beaches" },
+        { "title": "Insider's guide to the Bronte ocean pool", "path": "/bondi-blog/2023/11/16/insiders-guide-to-the-bronte-ocean-pool" },
+        { "title": "Nielsen Park: a beloved coastal escape", "path": "/bondi-blog/2025/1/4/nielsen-park-your-guide-to-sydneys-beloved-coastal-escape" }
+      ]
+    },
+    {
+      "heading": "Before you set off",
+      "intro": "The practical bits that make the day easier.",
+      "links": [
+        { "title": "Parking at Tamarama, Coogee & Clovelly", "path": "/bondi-blog/2025/6/4/tamarama-coogee-clovelly-beach-parking-ultimate-guide-to-free-paid-spots" },
+        { "title": "Surf lifesaving patrol hours", "path": "/bondi-blog/2025/1/5/surf-lifesaving-patrol-hours-at-bondi-bronte-tamarama" },
+        { "title": "Free BBQ spots at Bondi, Bronte & Tamarama", "path": "/bondi-blog/2025/1/20/locals-guide-to-free-bbq-spots-at-bondi-bronte-tamarama" }
+      ]
+    }
+  ]
+}
