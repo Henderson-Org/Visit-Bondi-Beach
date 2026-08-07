@@ -33,7 +33,7 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 | 20 | Indexation control | ✅ | Env-gated: staging `noindex` + robots disallow; production flips on `NEXT_PUBLIC_IS_PRODUCTION=true`. Tags `noindex,follow`. |
 | 21 | XML sitemap | ✅ | `app/sitemap.ts` — indexable only, production domain, excludes tags. Segment if it grows. |
 | 22 | Structured data | 🟡 | Reusable utils: Organization, WebSite, BlogPosting (preserves live `Article`), BreadcrumbList, FAQPage, +author `Person`. Place/TouristAttraction/Restaurant/Hotel pending structured location data (§14). |
-| 23 | AEO / AI-answerable | 🟡 | Semantic HTML + breadcrumbs in place. Direct-answer openings depend on full body import (§61). |
+| 23 | AEO / AI-answerable | 🟡 | Semantic HTML + breadcrumbs + full body text now in place; `wordCount` in schema. Direct-answer opening rewrites (§61) are the next content pass. |
 | 46 | Search Console readiness | 🟡 | Sitemap/robots/canonicals ready. **Owner: GSC verification + property access.** |
 | 50 | Automated SEO QA | ✅ | `npm run seo:qa` flags dup titles/descs, missing meta/H1, long titles, thin pages. |
 | 51 | Broken-link checking | ⬜ | Add a link crawler over built output (roadmap). |
@@ -48,7 +48,7 @@ A production-ready Next.js 16 + TypeScript + Tailwind app rebuilds the Squarespa
 | 4 | Information architecture | 🟡 | **5 hubs live** via the authored-page pipeline + `hub` template: Bondi Rescue, Coastal Walk & Eastern Beaches, With Kids, Eat & Drink, Getting to Bondi. Nav restructured around them. Remaining: Things to Do / Bondi essentials, Weather/Seasons, Itineraries, Accommodation hub. |
 | 4 | Breadcrumbs | 🟡 | Component + JSON-LD live (Home → What's On → article). Richer topical trails need the §4 taxonomy. |
 | 5 | Topical authority | 🟡 | Started with the Bondi Rescue hub (the ~40k-impression cluster) linking the lifeguards/rescue posts into one authoritative entry point. Extend to other clusters. |
-| 7 | Content quality standard | 🟡 | Templates + blocks support scannable structure; bodies not yet imported. |
+| 7 | Content quality standard | 🟡 | **Full article bodies imported** — all 203 articles + 6 core pages now render real content (safe structured blocks), interim notes removed. Editorial polish/formatting pass still to come. |
 | 8 | Practical info components | ✅ | `QuickFacts`, `LocalTip`, `Callout`, `Faq`, `ItineraryTimeline` built (`components/blocks.tsx`). Ready to populate. |
 | 9 | First-hand local authority | 🟡 | LocalTip block ready; author/about signals + "last checked" dates pending (needs content model fields). |
 | 10 | Freshness system | 🟡 | Content model carries published/lastmod; add `lastVerified` + `reviewPriority` fields + stale flag. |

@@ -40,6 +40,7 @@ export function articleJsonLd(page: Page) {
   if (page.metaDescription) data.description = page.metaDescription;
   if (page.publishedAt) data.datePublished = page.publishedAt;
   if (page.lastmod) data.dateModified = page.lastmod;
+  if (page.wordCount) data.wordCount = page.wordCount;
   if (page.heroImage) data.image = page.heroImage;
   return data;
 }

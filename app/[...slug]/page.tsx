@@ -18,6 +18,7 @@ import { ArticleCard } from '@/components/ArticleCard';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { RelatedGuides } from '@/components/RelatedGuides';
 import { AdSlot } from '@/components/AdSlot';
+import { BodyBlocks } from '@/components/BodyBlocks';
 
 export const dynamicParams = true;
 
@@ -176,20 +177,28 @@ function ArticlePage({ page }: { page: Page }) {
           className="mt-6 w-full rounded-xl object-cover"
         />
       )}
-      <div className="prose-editorial mt-6">
-        {page.intro && <p className="text-lg text-ink-700">{page.intro}</p>}
-        {isArticle && <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE} />}
-        {page.headings.length > 0 && (
-          <>
-            <h2>In this guide</h2>
-            <ul>
-              {page.headings.map((h, i) => (
-                <li key={i}>{h}</li>
-              ))}
-            </ul>
-          </>
-        )}
-      </div>
+      {page.blocks && page.blocks.length > 0 ? (
+        <>
+          <BodyBlocks blocks={page.blocks.slice(0, 3)} />
+          {isArticle && <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE} />}
+          <BodyBlocks blocks={page.blocks.slice(3)} />
+        </>
+      ) : (
+        <div className="prose-editorial mt-6">
+          {page.intro && <p className="text-lg text-ink-700">{page.intro}</p>}
+          {isArticle && <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE} />}
+          {page.headings.length > 0 && (
+            <>
+              <h2>In this guide</h2>
+              <ul>
+                {page.headings.map((h, i) => (
+                  <li key={i}>{h}</li>
+                ))}
+              </ul>
+            </>
+          )}
+        </div>
+      )}
       {isArticle && (
         <aside className="mt-10 rounded-xl border border-sand-200 bg-sand-100 p-4">
           <p className="text-sm font-semibold text-ink-900">{AUTHOR.name}</p>
@@ -197,7 +206,7 @@ function ArticlePage({ page }: { page: Page }) {
         </aside>
       )}
       <RelatedGuides pages={relatedPages(page)} />
-      <MigrationNote page={page} />
+      {!(page.blocks && page.blocks.length > 0) && <MigrationNote page={page} />}
     </article>
   );
 }

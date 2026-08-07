@@ -19,6 +19,11 @@ export interface HubSection {
   links: { title: string; path: string }[];
 }
 
+export interface Block {
+  type: 'p' | 'h2' | 'h3' | 'li' | 'quote';
+  text: string;
+}
+
 export interface Page {
   path: string;
   contentType: ContentType;
@@ -31,6 +36,7 @@ export interface Page {
   ogImage: string;
   heroImage: string;
   intro: string;
+  blocks?: Block[] | null;
   wordCount: number;
   jsonLdTypes: string[];
   publishedAt: string | null;

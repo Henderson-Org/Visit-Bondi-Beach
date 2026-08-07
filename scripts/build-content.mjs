@@ -42,6 +42,18 @@ async function main() {
     } catch {}
   }
 
+  // Full body content (structured blocks) from crawl-bodies.mjs, keyed by path.
+  const bodyByPath = new Map();
+  try {
+    const bdir = join(ROOT, 'migration', 'extracted', 'bodies');
+    for (const f of (await readdir(bdir)).filter((x) => x.endsWith('.json'))) {
+      const rec = JSON.parse(await readFile(join(bdir, f), 'utf8'));
+      if (rec.url && Array.isArray(rec.blocks) && rec.blocks.length) {
+        bodyByPath.set(stripHost(rec.url), rec);
+      }
+    }
+  } catch { /* bodies not crawled yet */ }
+
   // Editorial overrides (authored SEO title/description, indexability, etc.) merged
   // ON TOP of crawled data so hand-authored fields survive a re-crawl. Keyed by path.
   let overrides = {};
@@ -50,8 +62,11 @@ async function main() {
 
   const pages = [];
   let overrideCount = 0;
+  let bodyCount = 0;
   for (const inv of inventory) {
     const ex = extractedByPath.get(inv.path) || {};
+    const body = bodyByPath.get(inv.path);
+    if (body) bodyCount++;
     const ov = overrides[inv.path] || {};
     if (Object.keys(ov).length) overrideCount++;
     const isTag = inv.content_type === 'tag';
@@ -68,7 +83,8 @@ async function main() {
       ogImage: ex.og?.image || '',
       heroImage: ex.images?.find((i) => i.src && /squarespace-cdn/.test(i.src))?.src || ex.og?.image || '',
       intro: (ex.contentPreview || '').trim(),
-      wordCount: ex.wordCount || 0,
+      blocks: body?.blocks || null,
+      wordCount: (body && body.words) || ex.wordCount || 0,
       jsonLdTypes: ex.jsonLdTypes || [],
       publishedAt: publishedFromPath(inv.path),
       lastmod: inv.lastmod || null,
@@ -118,6 +134,6 @@ async function main() {
   if (authoredCount) console.log(`+ ${authoredCount} authored page(s).`);
 
   const withData = pages.filter((p) => p.title).length;
-  console.log(`content/pages.json: ${pages.length} pages (${withData} with metadata, ${overrideCount} with editorial overrides).`);
+  console.log(`content/pages.json: ${pages.length} pages (${withData} with metadata, ${overrideCount} overrides, ${bodyCount} with full body).`);
 }
 main().catch((e) => { console.error(e); process.exit(1); });
