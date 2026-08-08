@@ -27,7 +27,7 @@
     { "type": "list", "items": [
       "Door-to-door shuttles and pre-booked private transfers exist and can be handy for groups or early flights — book ahead and confirm the price when you reserve.",
       "Hiring a car makes sense only if you're touring beyond Sydney. Around Bondi, parking is tight and metered, so a car you're not using is more hassle than help.",
-      "Route 350 bus links the Domestic terminal directly to Bondi Junction if you'd rather skip the train — then it's the 333/380/381 down to the beach."
+      "A public bus also links the airport to Bondi Junction if you'd rather skip the train — check the route on the Transport NSW Trip Planner, then take the 333/380/381 to the beach."
     ] },
     { "type": "itinerary", "stops": [
       { "time": "0:00", "title": "Land & tap on", "detail": "Follow signs to the station under your terminal; board the T8 towards the city." },
@@ -40,7 +40,7 @@
       { "q": "What's the cheapest way from the airport to Bondi?", "a": "Public transport: the T8 train to Central, change to the T4 to Bondi Junction, then a bus to the beach. Just note the airport Station Access Fee adds a fixed charge on top of the fare — check the current amount on the Opal website." },
       { "q": "How long does it take?", "a": "Roughly 30 to 50 minutes by taxi or rideshare, and about 60 to 90 minutes by train and bus once you factor in connections and waiting time." },
       { "q": "Do I need an Opal card?", "a": "You don't need a physical Opal card — you can tap on and off with a contactless credit/debit card or a phone/watch. Adult fares are the same either way." },
-      { "q": "Can I get a direct bus from the airport?", "a": "There's no single bus straight to Bondi Beach, but Route 350 connects the Domestic terminal to Bondi Junction, where you swap to the 333, 380 or 381 for the beach. Use the Transport NSW Trip Planner for live times." }
+      { "q": "Can I get a direct bus from the airport?", "a": "There's no single bus straight to Bondi Beach, but a public bus links the airport to Bondi Junction, where you swap to the 333, 380 or 381 for the beach — check the current route on the Transport NSW Trip Planner." }
     ] },
     { "type": "p", "text": "However you come in, the moment you crest the hill and Campbell Parade opens onto that big blue arc of beach, you'll know the journey was worth it. See you down there." }
   ]
