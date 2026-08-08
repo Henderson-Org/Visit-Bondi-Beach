@@ -48,11 +48,11 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
   );
 }
 
-export function PreferenceCards({ onSubmit }: { onSubmit: (p: Preferences) => void }) {
+export function PreferenceCards({ onSubmit, initialInterests }: { onSubmit: (p: Preferences) => void; initialInterests?: Interest[] }) {
   const [date, setDate] = useState(todayISO());
   const [startTime, setStartTime] = useState<StartTime>('morning');
   const [duration, setDuration] = useState<Duration>('full');
-  const [interests, setInterests] = useState<Interest[]>(['food', 'swimming', 'iconic']);
+  const [interests, setInterests] = useState<Interest[]>(initialInterests && initialInterests.length ? initialInterests : ['food', 'swimming', 'iconic']);
   const [foodStyles, setFoodStyles] = useState<FoodStyle[]>([]);
   const [budget, setBudget] = useState<Budget>(3);
   const [walking, setWalking] = useState<Walking>('medium');

@@ -46,6 +46,10 @@ function plannedSlots(prefs: Preferences, o: AnchorOpts): MealSlot[] {
     prefs.foodStyles.includes('cocktails') ||
     prefs.foodStyles.includes('sunset-drinks');
 
+  // A short visit for someone who didn't ask about food shouldn't be forced into a full
+  // meal — let experiences (a coffee/viewpoint) fill it instead.
+  if (!o.foodPriority && !wantCoffee && o.windowEnd - o.windowStart <= 150) return [];
+
   const slots: MealSlot[] = [];
 
   // Morning meal (one of coffee / breakfast / brunch), placed at or just after arrival.

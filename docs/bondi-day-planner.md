@@ -82,6 +82,52 @@ It's part of the main site. `npm run dev`, then open `/plan`.
 - **Debug mode:** `/plan?debug=true` shows each stop's score, breakdown and alternatives.
 - **Tests:** `npm run test` (see `lib/generateBondiItinerary.test.ts`).
 
+## Redundancy & preference fulfilment (v2)
+The planner tracks which interests are already satisfied and favours stops that cover **new**
+interests (`marginalPreferenceValue`). It won't stack three same-"family" experiences (beach
++ swim + pool) back to back:
+- **Families** live in `data/bondiExperiences.ts` (`ACTIVITY_FAMILY`): swim-water, beach,
+  coastal-walk, views, markets-shopping, culture, downtime.
+- Tuning in `config/scoringWeights.ts → REDUNDANCY`: `marginalPreferenceValue` (reward new
+  interests), `sameFamilyAdjacent` (penalty for repeating a family within `adjacentWindow`
+  slots), `alreadyFulfilled` (penalty when every interest a stop covers is already done),
+  `distinctMustDo` (iconic stops like Icebergs are allowed to repeat a family).
+
+## Gap-free scheduling
+No unexplained multi-hour gaps. Any gap ≥ `MAX_UNEXPLAINED_GAP` (config, default 50 min) that
+sits **before an anchor** is filled with a labelled "Free time on the beach" downtime block.
+A `validate()` pass flags unexplained gaps, overlaps, too many swims/walks/meals and excess
+affiliates (surfaced in `?debug=true`).
+
+## Klook / affiliate activities
+- Data: `data/klookActivities.ts`. **Paste your real Klook affiliate URLs into `affiliateUrl`.**
+  Empty = the activity still appears but shows a non-linked "Bookable experience" label (no
+  fabricated URLs).
+- Scoring: `lib/scoreKlook.ts` — quality-first. Commercial term is `KLOOK.commercialBonus`
+  (small). A meaningful boost (`KLOOK.intentBoost`) only applies to active/iconic/family
+  intent. Affiliate status never changes an activity's tier (`TIER_ONE/THREE`).
+- Caps: `MAX_AFFILIATE_ACTIVITIES` = { 2h:1, half:1, full:2 }.
+- CTA: `components/KlookCard.tsx` — "Book on Klook ↗" (`rel="sponsored nofollow noopener"`),
+  plus a persistent affiliate disclosure in the results.
+
+## Promotion
+- Homepage: `<DayPlannerPromo variant="homepage" />` directly under the hero.
+- Every article/hub: `<ContentPlannerPromo context={path+title} />` (end of article), which
+  deep-links to `/plan?interests=…` with topic-appropriate interests pre-selected
+  (`lib/plannerContext.ts`). `/plan` reads `?interests=` and pre-ticks them.
+
+## Analytics (reuses GA4 via `lib/analytics.track`)
+`planner_cta_click`, `planner_started`, `itinerary_generated`, `klook_activity_shown`,
+`affiliate_click` — no new dependency; no-ops when GA isn't loaded.
+
+## Key config values to tune (`config/scoringWeights.ts`)
+- `REDUNDANCY.marginalPreferenceValue` (9), `sameFamilyAdjacent` (26), `alreadyFulfilled` (16),
+  `distinctMustDo` (9), `fulfilmentThreshold` (1)
+- `MAX_UNEXPLAINED_GAP` (50)
+- `KLOOK.commercialBonus` (4), `intentBoost` (22), `preferenceFit` (12)
+- `MAX_AFFILIATE_ACTIVITIES` (2h:1 / half:1 / full:2)
+- `PACE_TARGET`, `TIER_ONE` / `TIER_THREE` / `TIER_BOOST`
+
 ## Data caveats
 Editorial scores are our opinionated weightings (by design). Opening hours are structured but
 only a few are marked `hoursVerified: true` (Sean's, North Bondi Fish, bills) — the rest are

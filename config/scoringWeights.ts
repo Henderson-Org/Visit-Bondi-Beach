@@ -60,3 +60,54 @@ export const PACE_TARGET: Record<'relaxed' | 'balanced' | 'max', { min: number; 
   balanced: { min: 4, max: 6 },
   max: { min: 6, max: 8 },
 };
+
+/**
+ * Redundancy control — stops the planner stacking experiences that satisfy the same
+ * thing. Tune these to make the day more or less varied.
+ */
+export const REDUNDANCY = {
+  /** Bonus per still-unfulfilled preference an activity satisfies (marginal value). */
+  marginalPreferenceValue: 9,
+  /** Penalty when an activity's family already appeared in the last N slots (adjacency). */
+  sameFamilyAdjacent: 26,
+  adjacentWindow: 2,
+  /** Medium penalty when every preference an activity satisfies is already fulfilled. */
+  alreadyFulfilled: 16,
+  /** A preference is "sufficiently fulfilled" once this many activities have satisfied it. */
+  fulfilmentThreshold: 1,
+  /** Experiences this iconic (mustDoScore) are allowed to repeat a family (distinct enough). */
+  distinctMustDo: 9,
+} as const;
+
+/** Any unexplained gap longer than this (minutes) gets a downtime block inserted. */
+export const MAX_UNEXPLAINED_GAP = 50;
+
+/** Klook / affiliate scoring — quality-first with a deliberately small commercial bonus. */
+export const KLOOK = {
+  editorialWeight: 2.2, // editorialScore (0–10) × this
+  preferenceFit: 12, // per matched preference (capped)
+  preferenceFitCap: 3,
+  /** Extra boost when the visitor explicitly wants active/guided/learning experiences. */
+  intentBoost: 22,
+  geographicFit: 10,
+  /** The ONLY commercial term — kept small so commission can't outrank quality. */
+  commercialBonus: 4, // commercialScore (0–10) × (this / 10)
+} as const;
+
+/** Max affiliate activities per itinerary by duration (defaults; tunable). */
+export const MAX_AFFILIATE_ACTIVITIES: Record<'2h' | 'half' | 'full', number> = {
+  '2h': 1,
+  half: 1,
+  full: 2,
+};
+
+/** Activity priority tiers. Affiliate status NEVER moves an activity up a tier. */
+export const TIER_ONE = new Set(['bondi-beach', 'icebergs-pool', 'bondi-bronte-walk', 'bondi-tamarama-walk', 'bondi-markets', 'bondi-farmers-market', 'beach-swim']);
+export const TIER_THREE = new Set(['bondi-promenade', 'skate-park', 'beach-downtime']);
+export const TIER_BOOST = { 1: 8, 2: 0, 3: -6 } as const;
+
+export function tierOf(id: string): 1 | 2 | 3 {
+  if (TIER_ONE.has(id)) return 1;
+  if (TIER_THREE.has(id)) return 3;
+  return 2;
+}

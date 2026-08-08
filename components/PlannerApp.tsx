@@ -4,7 +4,10 @@ import { useEffect, useMemo, useState } from 'react';
 import { PreferenceCards } from '@/components/PreferenceCards';
 import { ItineraryTimeline } from '@/components/ItineraryTimeline';
 import { generateItinerary, swapExperience, swapVenue, type Itinerary } from '@/lib/generateBondiItinerary';
-import type { Preferences } from '@/types/preferences';
+import { track } from '@/lib/analytics';
+import type { Interest, Preferences } from '@/types/preferences';
+
+const VALID_INTERESTS = new Set<Interest>(['swimming', 'beach', 'coastal-walks', 'food', 'coffee', 'markets', 'shopping', 'photography', 'relaxing', 'fitness', 'iconic', 'family', 'nightlife']);
 
 const START_LABEL: Record<string, string> = { sunrise: 'Sunrise', morning: 'Morning', midday: 'Midday', afternoon: 'Afternoon', evening: 'Evening' };
 const DUR_LABEL: Record<string, string> = { '2h': '2 hours', half: 'Half day', full: 'Full day' };
@@ -18,14 +21,27 @@ export function PlannerApp() {
   const [prefs, setPrefs] = useState<Preferences | null>(null);
   const [itinerary, setItinerary] = useState<Itinerary | null>(null);
   const [debug, setDebug] = useState(false);
+  const [preset, setPreset] = useState<Interest[] | null>(null);
 
   useEffect(() => {
-    if (typeof window !== 'undefined') setDebug(new URLSearchParams(window.location.search).get('debug') === 'true');
+    if (typeof window === 'undefined') return;
+    const q = new URLSearchParams(window.location.search);
+    setDebug(q.get('debug') === 'true');
+    const raw = q.get('interests');
+    if (raw) {
+      const list = raw.split(',').map((s) => s.trim()).filter((s): s is Interest => VALID_INTERESTS.has(s as Interest));
+      if (list.length) { setPreset(list); track('planner_started', { placement: 'query', interests: list.join(',') }); }
+    }
   }, []);
 
   const build = (p: Preferences) => {
+    const generated = generateItinerary(p);
     setPrefs(p);
-    setItinerary(generateItinerary(p));
+    setItinerary(generated);
+    track('itinerary_generated', {
+      interests: p.interests.join(','), duration: p.duration, pace: p.pace,
+      stops: generated.items.length, affiliate_shown: generated.hasAffiliate ? 1 : 0,
+    });
     if (typeof window !== 'undefined') window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -43,7 +59,7 @@ export function PlannerApp() {
         <h2 className="font-display text-2xl text-ink-900">Tell us about your day</h2>
         <p className="mt-1 text-sm text-ink-600">A few quick taps and we’ll build a Bondi day around you.</p>
         <div className="mt-4">
-          <PreferenceCards onSubmit={build} />
+          <PreferenceCards key={preset ? preset.join(',') : 'default'} initialInterests={preset ?? undefined} onSubmit={build} />
         </div>
       </div>
     );
@@ -78,7 +94,14 @@ export function PlannerApp() {
         <ItineraryTimeline itinerary={itinerary} debug={debug} onSwap={onSwap} />
       </div>
 
-      <p className="mt-6 text-center text-xs text-ink-400">
+      {itinerary.hasAffiliate && (
+        <p className="mt-5 rounded-lg border border-sand-200 bg-sand-100 px-3 py-2 text-xs text-ink-500">
+          Some activities are bookable experiences with affiliate links. We may earn a commission if you book,
+          at no extra cost to you — and it never changes what we recommend.
+        </p>
+      )}
+
+      <p className="mt-4 text-center text-xs text-ink-400">
         Built around Bondi’s best — swap anything you’re not sure about. Opening hours can change; confirm before you go.
       </p>
     </div>

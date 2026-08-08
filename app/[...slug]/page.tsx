@@ -29,6 +29,7 @@ import { BodyBlocks } from '@/components/BodyBlocks';
 import { HubView } from '@/components/HubView';
 import { EditorialHero } from '@/components/EditorialHero';
 import { GuideCard, excerptFor } from '@/components/GuideCard';
+import { ContentPlannerPromo } from '@/components/ContentPlannerPromo';
 
 export const dynamicParams = true;
 
@@ -207,6 +208,7 @@ async function CorePageHubView({ page }: { page: Page }) {
             <GuideCard key={c.href} card={c} />
           ))}
         </div>
+        <ContentPlannerPromo context={`${page.path} ${title}`} placement="core-page" />
         <RelatedGuides pages={relatedPages(page)} />
       </div>
     </div>
@@ -342,6 +344,7 @@ function ArticlePage({ page }: { page: Page }) {
           <p className="mt-1 text-sm text-ink-500">{AUTHOR.bio}</p>
         </aside>
       )}
+      <ContentPlannerPromo context={`${page.path} ${title}`} placement="article" />
       <RelatedGuides pages={relatedPages(page)} />
       {!(page.blocks && page.blocks.length > 0) && <MigrationNote page={page} />}
     </article>

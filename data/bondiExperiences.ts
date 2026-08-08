@@ -180,3 +180,39 @@ export const BONDI_EXPERIENCES: Experience[] = [
 export function getExperience(id: string): Experience | undefined {
   return BONDI_EXPERIENCES.find((e) => e.id === id);
 }
+
+/**
+ * Activity "family" — used for redundancy control so the planner doesn't stack three
+ * experiences that all satisfy the same thing (e.g. beach + swim + pool back to back).
+ */
+export type Family = 'swim-water' | 'beach' | 'coastal-walk' | 'views' | 'markets-shopping' | 'culture' | 'downtime';
+
+export const ACTIVITY_FAMILY: Record<string, Family> = {
+  'bondi-beach': 'beach',
+  'beach-swim': 'swim-water',
+  'icebergs-pool': 'swim-water',
+  'bondi-bronte-walk': 'coastal-walk',
+  'bondi-tamarama-walk': 'coastal-walk',
+  'tamarama-beach': 'beach',
+  'bronte-beach': 'beach',
+  'north-bondi-beach': 'beach',
+  'ben-buckler': 'views',
+  'bondi-pavilion': 'culture',
+  'bondi-markets': 'markets-shopping',
+  'bondi-farmers-market': 'markets-shopping',
+  'gould-street': 'markets-shopping',
+  'bondi-promenade': 'views',
+  'bondi-sunrise': 'views',
+  'bondi-sunset': 'views',
+  'beach-downtime': 'downtime',
+  'skate-park': 'culture',
+};
+
+export function familyOf(id: string): Family {
+  return ACTIVITY_FAMILY[id] ?? 'culture';
+}
+
+/** `fulfillsPreferences` for an experience = its categories (the interests it satisfies). */
+export function fulfilledBy(e: Experience): Interest[] {
+  return e.categories;
+}

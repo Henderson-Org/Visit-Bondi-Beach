@@ -5,6 +5,7 @@ import { GuideCard, guideCardFromPage } from '@/components/GuideCard';
 import { WeatherSurfSummary } from '@/components/WeatherSurfSummary';
 import { TodayRecommendations } from '@/components/TodayRecommendations';
 import { UpcomingEvents } from '@/components/events/UpcomingEvents';
+import { DayPlannerPromo } from '@/components/DayPlannerPromo';
 import { SITE } from '@/lib/site';
 
 const QUICK_LINKS = [
@@ -62,6 +63,12 @@ export default function HomePage() {
       {/* Daily Weather & Surf Summary — a slim, unobtrusive bar (scrolls sideways on
           mobile). The full forecast lives on the /bondi-weather hub. */}
       <WeatherSurfSummary destination="bondi" variant="bar" />
+
+      {/* Day Planner — a prominent product entry point, directly under the hero and
+          above the articles. One of the most prominent homepage modules. */}
+      <div className="pt-8">
+        <DayPlannerPromo variant="homepage" placement="homepage" />
+      </div>
 
       <section className="mx-auto max-w-6xl px-4 pb-8 pt-10">
         <div className="flex items-baseline justify-between">

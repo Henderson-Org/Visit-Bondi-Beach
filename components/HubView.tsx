@@ -16,6 +16,7 @@ import { RelatedGuides } from '@/components/RelatedGuides';
 import { WeatherSurfSummary } from '@/components/WeatherSurfSummary';
 import { RouteMap } from '@/components/RouteMap';
 import { GuideCard, FeatureCard, cleanText, excerptFor, type GuideCardData } from '@/components/GuideCard';
+import { ContentPlannerPromo } from '@/components/ContentPlannerPromo';
 
 const slugify = (s: string) =>
   s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -217,6 +218,7 @@ export function HubView({ page }: { page: Page }) {
           </section>
         )}
 
+        <ContentPlannerPromo context={`${page.path} ${title}`} placement="hub" />
         <div className="pb-12">
           <RelatedGuides pages={relatedPages(page)} />
         </div>

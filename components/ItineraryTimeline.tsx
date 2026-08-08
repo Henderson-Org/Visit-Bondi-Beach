@@ -3,6 +3,7 @@
 import type { Itinerary } from '@/lib/generateBondiItinerary';
 import { VenueCard } from '@/components/VenueCard';
 import { ExperienceCard } from '@/components/ExperienceCard';
+import { KlookCard } from '@/components/KlookCard';
 
 function formatClock(min: number): string {
   let h = Math.floor(min / 60);
@@ -27,6 +28,8 @@ export function ItineraryTimeline({
         <li key={`${item.key}-${i}`}>
           {item.kind === 'venue' ? (
             <VenueCard item={item} timeLabel={formatClock(item.startMin)} debug={debug} onSwap={() => onSwap(i)} />
+          ) : item.kind === 'klook' ? (
+            <KlookCard item={item} timeLabel={formatClock(item.startMin)} debug={debug} onSwap={() => onSwap(i)} />
           ) : (
             <ExperienceCard item={item} timeLabel={formatClock(item.startMin)} debug={debug} onSwap={() => onSwap(i)} />
           )}
