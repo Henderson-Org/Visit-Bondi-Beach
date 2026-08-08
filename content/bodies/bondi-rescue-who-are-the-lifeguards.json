@@ -1,0 +1,38 @@
+{
+  "path": "/bondi-blog/bondi-rescue-who-are-the-lifeguards",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Bondi Beach (the council runs the professional lifeguard service)", "url": "https://www.waverley.nsw.gov.au/residents/precinct_committees/meetings_docs/bondi_beach" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "The blokes and women in the blue-and-yellow are the reason half the world knows Bondi at all. I get asked about them constantly — who's the boss, is so-and-so still here, are they actually real? So here's my local rundown of the Bondi Rescue lifeguards, who they are, and how the team really works." },
+    { "type": "p", "text": "First, the thing people are always surprised to learn: they're real. The lifeguards you see on Bondi Rescue are genuine professional lifeguards employed by Waverley Council, patrolling Bondi year-round. The TV cameras just follow their actual working day. The show has been running since 2006, but these people were saving lives here long before the first episode aired — and they'll be here long after the cameras pack up." },
+    { "type": "quickFacts", "items": [
+      { "label": "Head lifeguard", "value": "Bruce \"Hoppo\" Hopkins" },
+      { "label": "The show", "value": "Bondi Rescue (since 2006)" },
+      { "label": "Who employs them", "value": "Waverley Council" },
+      { "label": "On patrol", "value": "Every day, year-round" }
+    ] },
+    { "type": "h2", "text": "The lifeguards you'll recognise from the show" },
+    { "type": "p", "text": "The roster changes from season to season, but a handful of faces have become the heart of Bondi Rescue. These are the ones you're most likely to spot on the sand." },
+    { "type": "h3", "text": "Bruce \"Hoppo\" Hopkins — head lifeguard" },
+    { "type": "p", "text": "Hoppo runs the show — literally. He's the head lifeguard at Bondi, one of Australia's longest-serving, and he's been on the beach since the early 1990s. He was named Australian Lifeguard of the Year back in 2006, and he's appeared in every season of Bondi Rescue. Calm, no-drama, deeply respected by his team — if you only know one Bondi lifeguard, it's Hoppo." },
+    { "type": "h3", "text": "Anthony \"Harries\" Carroll — senior lifeguard" },
+    { "type": "p", "text": "Harries is the show's biggest personality and its most quotable rescuer, famous for throwing everything he has into a rescue. Off the beach he's spoken openly about overcoming dyslexia and bullying, and he's since written a children's book about that journey. Love him or find him a lot, he's Bondi Rescue's beating heart." },
+    { "type": "h3", "text": "Trent \"Maxi\" Maxwell" },
+    { "type": "p", "text": "Maxi is one of the most popular of the younger lifeguards and has become a familiar face well beyond the beach — he even co-authored a book of stories from the Bondi lifeguard team." },
+    { "type": "h3", "text": "The wider crew" },
+    { "type": "p", "text": "Plenty of other lifeguards have become fan favourites over the years — names like Deano, Whippet, Reidy, Kerrbox, Jesse and Chappo have all had their moments on screen. Some are veterans mentoring the next generation; others are up-and-comers earning their stripes in heavy surf. Between them they cover thousands of rescues a season." },
+    { "type": "callout", "tone": "note", "title": "They're working, not performing", "text": "When you see the lifeguards sprinting down the sand or launching a ski, give them room — that's a real emergency, not a scene. The best way to make their job easier is simple: always swim between the red-and-yellow flags." },
+    { "type": "h2", "text": "So who's on the beach right now?" },
+    { "type": "p", "text": "Because the team rotates and new lifeguards come through each season, the surest way to know exactly who's patrolling is to look for yourself — the lifeguards are on duty at the tower every day. For the current line-up featured on the show, the official Bondi Rescue broadcaster and Waverley Council's lifeguard service are the sources I'd trust over any fan list (including older versions of this page)." },
+    { "type": "faq", "items": [
+      { "q": "Who is the head lifeguard at Bondi Beach?", "a": "Bruce \"Hoppo\" Hopkins. He's the head lifeguard at Bondi, one of Australia's longest-serving lifeguards, and was named Australian Lifeguard of the Year in 2006." },
+      { "q": "Is Hoppo still on Bondi Rescue?", "a": "Hoppo has been the show's one constant — head lifeguard and a fixture in every season to date. He's the most recognisable member of the Bondi team." },
+      { "q": "Are the Bondi Rescue lifeguards real lifeguards?", "a": "Yes. They're genuine professional lifeguards employed by Waverley Council who patrol Bondi year-round. The show films their real working shifts." },
+      { "q": "How many seasons of Bondi Rescue are there?", "a": "The series has run since 2006 and produced 18 seasons through 2024, making it one of Australia's longest-running factual TV shows." }
+    ] },
+    { "type": "p", "text": "Whether you're a fan of the show or just here for a swim, it's worth a quiet nod to the crew in the tower. They're the reason Bondi is one of the safest famous beaches in the world — and yes, they really are that good." }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "path": "/bondi-blog/how-to-pronounce-bondi-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Bondi Beach (name origin)", "url": "https://www.waverley.nsw.gov.au/residents/precinct_committees/meetings_docs/bondi_beach" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "I hear it mangled at least once a day down at the beach, usually from a visitor asking directions. So let me settle it for you: Bondi is said \"BON-dye\" — the last bit rhymes with \"eye\", not \"ee\"." },
+    { "type": "quickFacts", "items": [
+      { "label": "Say it", "value": "BON-dye" },
+      { "label": "Rhymes with", "value": "\"bond\" + \"eye\"" },
+      { "label": "Stress", "value": "First syllable: BON" },
+      { "label": "Not", "value": "\"BON-dee\"" }
+    ] },
+    { "type": "p", "text": "For Australians who grew up with Bondi, there's no question about it — but the spelling trips up overseas visitors, who very reasonably read the \"i\" on the end as \"ee\". It isn't. Think \"bond\" (like a secret agent) followed by \"eye\", with the emphasis on that first syllable: BON-dye." },
+    { "type": "h2", "text": "What \"Bondi\" actually means" },
+    { "type": "p", "text": "The name is Aboriginal. Waverley Council, which looks after the beach, records that Bondi comes from a local Aboriginal word meaning \"the sound of the waves breaking on the beach\" (you'll also see it given as \"water breaking over rocks\"). Once you know that, the name makes perfect sense — stand on the promenade for a minute and the meaning is all around you." },
+    { "type": "localTip", "text": "Easy way to lock it in: it rhymes with \"Aussie hi\" — Bon-dye, not Bon-dee. Get the ending right and you'll sound like you've been coming here for years." },
+    { "type": "faq", "items": [
+      { "q": "How do you pronounce Bondi?", "a": "\"BON-dye\" — \"bond\" followed by \"eye\", with the stress on the first syllable. The \"i\" at the end sounds like \"eye\", not \"ee\"." },
+      { "q": "Is it BON-dee or BON-dye?", "a": "BON-dye. \"BON-dee\" is the most common mispronunciation among overseas visitors, but locals say BON-dye." },
+      { "q": "What does Bondi mean?", "a": "It's from a local Aboriginal word. Waverley Council records the meaning as \"the sound of the waves breaking on the beach\" (also commonly translated as \"water breaking over rocks\")." }
+    ] },
+    { "type": "p", "text": "Hope that helps — now say it with confidence and enjoy the beach." }
+  ]
+}
