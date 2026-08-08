@@ -67,7 +67,7 @@ export function articleJsonLd(page: Page) {
     headline: page.h1 || page.title,
     url,
     mainEntityOfPage: url,
-    isPartOf: { '@type': 'Blog', name: `${SITE.name} — What's On`, url: `${siteOrigin()}/bondi-blog` },
+    isPartOf: { '@type': 'Blog', name: `${SITE.name} — Articles`, url: `${siteOrigin()}/articles` },
   };
   data.author = { '@type': AUTHOR.type, name: AUTHOR.name, url: AUTHOR.url, description: AUTHOR.bio };
   data.publisher = { '@type': 'Organization', name: SITE.name, url: siteOrigin() };
@@ -120,6 +120,64 @@ export function itemListJsonLd(
       },
     })),
   };
+}
+
+/**
+ * Event schema for an event page. Only emitted with a concrete startDate — never for
+ * annual events whose exact date is unconfirmed (no fabricated dates/offers/organisers).
+ * Times are combined with the Sydney offset by the caller-supplied startDate/times.
+ */
+export function eventJsonLd(opts: {
+  name: string;
+  description?: string;
+  startDate: string; // ISO 8601 (with time+offset when known)
+  endDate?: string;
+  url: string;
+  venue: string;
+  suburb: string;
+  address?: string;
+  status: 'scheduled' | 'cancelled' | 'postponed';
+  priceType: 'free' | 'paid' | 'varies';
+  ticketUrl?: string;
+  organiser?: string;
+  officialUrl?: string;
+}) {
+  const statusMap = {
+    scheduled: 'https://schema.org/EventScheduled',
+    cancelled: 'https://schema.org/EventCancelled',
+    postponed: 'https://schema.org/EventPostponed',
+  } as const;
+  const data: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'Event',
+    name: opts.name,
+    startDate: opts.startDate,
+    eventStatus: statusMap[opts.status],
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    url: opts.url,
+    location: {
+      '@type': 'Place',
+      name: opts.venue,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: opts.address,
+        addressLocality: opts.suburb,
+        addressRegion: 'NSW',
+        addressCountry: 'AU',
+      },
+    },
+  };
+  if (opts.endDate) data.endDate = opts.endDate;
+  if (opts.description) data.description = opts.description;
+  if (opts.organiser) data.organizer = { '@type': 'Organization', name: opts.organiser, ...(opts.officialUrl ? { url: opts.officialUrl } : {}) };
+  // Only advertise an Offer for genuinely free events (price 0). Paid/varies link out
+  // instead — we never publish a fabricated price.
+  if (opts.priceType === 'free') {
+    data.offers = { '@type': 'Offer', price: '0', priceCurrency: 'AUD', availability: 'https://schema.org/InStock', url: opts.ticketUrl || opts.officialUrl || opts.url };
+  } else if (opts.ticketUrl) {
+    data.offers = { '@type': 'Offer', url: opts.ticketUrl, availability: 'https://schema.org/InStock' };
+  }
+  return data;
 }
 
 export function breadcrumbJsonLd(items: { name: string; path: string }[]) {

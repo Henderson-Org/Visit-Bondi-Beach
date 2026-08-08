@@ -4,6 +4,7 @@ import { featuredArticles } from '@/lib/content';
 import { GuideCard, guideCardFromPage } from '@/components/GuideCard';
 import { WeatherSurfSummary } from '@/components/WeatherSurfSummary';
 import { TodayRecommendations } from '@/components/TodayRecommendations';
+import { UpcomingEvents } from '@/components/events/UpcomingEvents';
 import { SITE } from '@/lib/site';
 
 const QUICK_LINKS = [
@@ -14,7 +15,7 @@ const QUICK_LINKS = [
   { label: 'With kids', href: '/bondi-with-kids' },
   { label: 'Weather', href: '/bondi-weather' },
   { label: 'Where to stay', href: '/stay' },
-  { label: "What's on", href: '/bondi-blog' },
+  { label: "What's on", href: '/whats-on' },
 ];
 
 export default function HomePage() {
@@ -64,7 +65,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 pb-8 pt-10">
         <div className="flex items-baseline justify-between">
           <h2 className="font-display text-2xl md:text-3xl text-ink-900">Popular Bondi guides</h2>
-          <Link href="/bondi-blog" className="text-sm text-ocean-700 hover:underline">
+          <Link href="/articles" className="text-sm text-ocean-700 hover:underline">
             View all →
           </Link>
         </div>
@@ -73,6 +74,12 @@ export default function HomePage() {
             <GuideCard key={p.path} card={guideCardFromPage(p)} />
           ))}
         </div>
+      </section>
+
+      {/* What's on — surface current events on the homepage (date-aware; renders
+          nothing if there's nothing on). */}
+      <section className="mx-auto max-w-6xl px-4 pb-4">
+        <UpcomingEvents heading="What's on in Bondi" limit={3} />
       </section>
 
       {/* Conditions-driven suggestions — kept below the main guides so it doesn't

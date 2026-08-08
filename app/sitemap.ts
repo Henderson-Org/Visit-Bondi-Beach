@@ -3,6 +3,7 @@ import { allPages } from '@/lib/content';
 import { PROD_ORIGIN } from '@/lib/site';
 import { stayCategorySlugs } from '@/data/stay-categories';
 import { guideSlugs } from '@/data/accommodation-guides';
+import { eventSlugs } from '@/data/events';
 
 /**
  * XML sitemap generated from the content index. Only indexable pages are included
@@ -11,17 +12,24 @@ import { guideSlugs } from '@/data/accommodation-guides';
  */
 
 // Paths that redirect (301) and must NOT appear in the sitemap.
-const REDIRECTED = new Set(['/accommodation']);
+const REDIRECTED = new Set(['/accommodation', '/bondi-blog']);
 
-// Code-defined Stay routes (app/stay/*), not in the content index.
+// Code-defined routes (app/*), not in the content index.
 const STATIC_ROUTES: { path: string; priority: number }[] = [
+  // Stay section
   { path: '/stay', priority: 0.8 },
   { path: '/stay/bondi-beach-vs-bondi-junction', priority: 0.6 },
   { path: '/stay/hostels-bondi-beach', priority: 0.6 },
-  // SEO category landing pages
   ...stayCategorySlugs().map((slug) => ({ path: `/stay/${slug}`, priority: 0.7 })),
-  // Individual property review/guide pages
   ...guideSlugs().map((slug) => ({ path: `/stay/${slug}`, priority: 0.6 })),
+  // What's On (events) + Articles hub
+  { path: '/whats-on', priority: 0.9 },
+  { path: '/whats-on/today', priority: 0.6 },
+  { path: '/whats-on/this-weekend', priority: 0.7 },
+  { path: '/whats-on/free', priority: 0.6 },
+  { path: '/whats-on/markets', priority: 0.7 },
+  ...eventSlugs().map((slug) => ({ path: `/whats-on/${slug}`, priority: 0.6 })),
+  { path: '/articles', priority: 0.7 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

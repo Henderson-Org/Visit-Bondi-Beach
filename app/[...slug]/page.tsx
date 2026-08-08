@@ -36,7 +36,7 @@ export const dynamicParams = true;
 // category/tag archives) are resolved on demand to avoid build-time encoding issues.
 // Paths handled elsewhere (a dedicated app route + a 301) — don't statically
 // generate them here or they'd shadow the redirect with a dead page.
-const REDIRECTED_PATHS = new Set(['/accommodation']);
+const REDIRECTED_PATHS = new Set(['/accommodation', '/bondi-blog']);
 
 export function generateStaticParams() {
   return allContentPaths()

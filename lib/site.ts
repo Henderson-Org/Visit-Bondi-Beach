@@ -64,5 +64,6 @@ export const NAV = [
   { label: 'With Kids', href: '/bondi-with-kids' },
   { label: 'Getting Here', href: '/getting-to-bondi' },
   { label: 'Stay', href: '/stay' },
-  { label: "What's On", href: '/bondi-blog' },
+  { label: "What's On", href: '/whats-on' },
+  { label: 'Articles', href: '/articles' },
 ] as const;

@@ -273,10 +273,12 @@ export function relatedPages(page: Page, limit = 4): Page[] {
 /** Breadcrumb trail for a page. Richer topical IA is a roadmap item (see SITE_AUDIT.md). */
 export function breadcrumbs(page: Page): { name: string; path: string }[] {
   const home = { name: 'Home', path: '/' };
+  // Editorial posts now live under the Articles hub in the site IA (their URLs are
+  // unchanged; only the section framing moved). "What's On" is events-only.
   if (page.section === 'blog' && page.contentType !== 'blog-index') {
-    return [home, { name: "What's On", path: '/bondi-blog' }, { name: displayTitle(page), path: page.path }];
+    return [home, { name: 'Articles', path: '/articles' }, { name: displayTitle(page), path: page.path }];
   }
-  if (page.contentType === 'blog-index') return [home, { name: "What's On", path: '/bondi-blog' }];
+  if (page.contentType === 'blog-index') return [home, { name: 'Articles', path: '/articles' }];
   return [home, { name: displayTitle(page), path: page.path }];
 }
 
