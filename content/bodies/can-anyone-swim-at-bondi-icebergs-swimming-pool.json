@@ -7,7 +7,7 @@
     { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" }
   ],
   "blocks": [
-    { "type": "p", "text": "Yes — anyone can swim at the Bondi Icebergs pool. It's the question I get asked more than almost any other, usually by someone squinting up at that famous ocean pool from the promenade, assuming it must be a members-only club. It isn't. The Icebergs Club upstairs has members, but the pool below is open to the public seven days a week, you just pay at the door and walk down to the water. Here's everything I'd want a friend to know before their first swim." },
+    { "type": "p", "text": "Yes — anyone can swim at the Bondi Icebergs pool. It's the question I get asked most, usually by someone squinting up at that famous ocean pool and assuming it must be a members-only club. It isn't. The Icebergs Club upstairs has members, but the pool below is open to the public seven days a week — you pay at the door and walk down to the water. Here's what I'd want a friend to know before their first swim." },
     { "type": "quickFacts", "items": [
       { "label": "Public access", "value": "Yes — no membership needed" },
       { "label": "Where", "value": "1 Notts Ave, southern end of Bondi Beach" },
@@ -24,7 +24,7 @@
     { "type": "p", "text": "There is a modest entry fee that goes towards maintaining the pool, with separate adult, child and family rates, plus discounted multi-visit passes if you're staying a while. Prices do get reviewed from time to time, so rather than quote a number that might be stale by the time you read this, I'd point you straight to the Icebergs pool-conditions page for the current rates. Towel and locker hire is available on the day if you've travelled light." },
     { "type": "localTip", "text": "Come mid-morning on a clear day and swim east-to-west so you're looking back at the beach and the Icebergs building on your return lap — it's the best free view in Bondi. And go early if you want the deck quiet; by late morning in summer it fills up fast." },
     { "type": "h2", "text": "What else is down there" },
-    { "type": "p", "text": "Your entry gets you the pools, changing rooms, showers and the sauna (there's a short time limit on sauna use, and you'll need a towel) — a proper treat after a cold-season swim. On the deck overlooking the water is The Crabbe Hole, a tiny café that does excellent coffee and a good post-swim snack. The upstairs Icebergs Dining Room and bar are a separate operation with their own hours if you fancy a longer sit-down with the view." },
+    { "type": "p", "text": "Your entry gets you the pools, changing rooms, showers and the sauna (bring a towel; there's a time limit) — a proper treat after a cold-season swim. On the deck overlooking the water is The Crabbe Hole, a tiny café that does excellent coffee and a good post-swim snack. The upstairs Icebergs Dining Room and bar are a separate operation with their own hours if you fancy a longer sit-down with the view." },
     { "type": "list", "items": [
       "Bring swimmers, a towel, and cash or card for entry",
       "Goggles are worth it — it's saltwater, and the sun sits low over the water morning and evening"
@@ -36,6 +36,6 @@
       { "q": "Is the Icebergs pool safe for kids and beginners?", "a": "There's a shallow children's pool alongside the 50m lap pool, and lifeguards patrol during opening hours. It is an ocean pool, though, so on big-swell days waves wash over the wall — keep a close eye on little ones and swim within your limits." },
       { "q": "Is Bondi Icebergs pool heated?", "a": "No — it's an unheated saltwater ocean pool filled from the sea, so it's refreshingly cool. The on-site sauna, included with entry, is the classic way to warm up before or after your swim." }
     ] },
-    { "type": "p", "text": "So next time you're standing on the promenade wondering whether that iconic pool is off-limits, it isn't. Grab your swimmers, check it's not a Thursday, and go have one of the best swims of your life." }
+    { "type": "p", "text": "So next time you're on the promenade wondering whether that iconic pool is off-limits — it isn't. Grab your swimmers, check it's not a Thursday, and go have one of the best swims of your life." }
   ]
 }

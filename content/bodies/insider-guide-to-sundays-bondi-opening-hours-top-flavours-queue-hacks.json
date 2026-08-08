@@ -1,0 +1,52 @@
+{
+  "path": "/bondi-blog/2025/7/19/insider-guide-to-sundays-bondi-opening-hours-top-flavours-queue-hacks",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Broadsheet — Sundays, a Scroll Micro-Bakery in Bondi", "url": "https://www.broadsheet.com.au/sydney/bondi/cafes/sundays" },
+    { "label": "Broadsheet — Everyone's Queuing For the Cinnamon Scrolls at Sundays", "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/sundays-bondi-new-cinnamon-scroll-micro-bakery" },
+    { "label": "sundays bondi (@sundaysbondi) on Instagram", "url": "https://www.instagram.com/sundaysbondi/" },
+    { "label": "Transport for NSW trip planner", "url": "https://transportnsw.info/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you want a scroll from Sundays Bondi without wasting your whole morning in a line, the short answer is this: go early, go on a day they've actually announced they're open, and know exactly what you're ordering before you reach the window. Sundays is the tiny micro-bakery at 211 Bondi Road that founder Laetitia Loefti turned into a genuine phenomenon, and on a good day it can sell out within about an hour of opening. Here's how I'd play it." },
+    { "type": "quickFacts", "items": [
+      { "label": "Where", "value": "211 Bondi Road, Bondi" },
+      { "label": "Known for", "value": "Cinnamon & matcha scrolls" },
+      { "label": "Style", "value": "Small-batch micro-bakery" },
+      { "label": "Golden rule", "value": "Arrive early — they sell out" },
+      { "label": "Hours & days", "value": "Check @sundaysbondi before you go" }
+    ] },
+    { "type": "h2", "text": "First, the thing nobody tells you: check the hours before you leave" },
+    { "type": "p", "text": "This is the single most important tip. Sundays opens a limited number of days a week — usually weekend mornings from 9am until 2pm or until they sell out — but the exact days have shifted since they opened, and I've seen listings disagree on which days they trade. So don't take my word for it or an old blog post's: open their Instagram (@sundaysbondi) the night before and confirm they're baking. It's a two-minute check that saves a wasted trip across town." },
+    { "type": "callout", "tone": "warning", "title": "They genuinely do sell out", "text": "On busy days Sundays has cleared out well before the 2pm close — reports from opening weekend had them gone within the first hour. If you turn up at lunchtime expecting a leisurely scroll, there's a real chance the case is empty. Treat the posted closing time as a maximum, not a guarantee." },
+    { "type": "h2", "text": "What to order" },
+    { "type": "p", "text": "The scrolls here aren't your dense, heavy bakery version — they're light and airy, almost pancake-like, because the dough is cold-fermented overnight and given extra time to rise before baking. That texture is the whole point, so order at least one classic to understand what the fuss is about." },
+    { "type": "list", "items": [
+      "Classic cinnamon with cream cheese — the signature and the one I'd never skip. Order it first; it goes first.",
+      "Biscoff — one of the core flavours, rich and caramelised if you like things sweeter.",
+      "Kinder chocolate — the other regular in the rotation, and a hit with kids (and, honestly, most adults).",
+      "Rotating specials like pistachio — these are the ones that vanish fastest, so grab one if it's on the day you visit.",
+      "Matcha — Sundays leans hard into matcha, so a matcha scroll or matcha drink alongside your cinnamon is the classic Bondi order."
+    ] },
+    { "type": "p", "text": "Prices sit at the premium end for a scroll, which is what you'd expect from small-batch baking with good ingredients. Rather than quote a number that may have moved, I'd just check the board on the day — but go in expecting boutique-bakery pricing, not servo-pastry pricing." },
+    { "type": "localTip", "text": "Seating is tiny to non-existent, so I always get mine takeaway and walk the five-ish minutes down Bondi Road to the promenade. A warm cinnamon scroll eaten on the grass above the sand, coffee in hand, is one of my favourite cheap-thrill Bondi mornings." },
+    { "type": "h2", "text": "How I'd time a queue-free-ish visit" },
+    { "type": "itinerary", "stops": [
+      { "time": "Night before", "title": "Check Instagram", "detail": "Confirm @sundaysbondi is open the next day and note the flavours they're teasing." },
+      { "time": "~8:40am", "title": "Arrive before opening", "detail": "The line starts before the doors do. Being there before 9am is the difference between first batch and no batch." },
+      { "time": "9:00am", "title": "Order everything you want in one go", "detail": "Know your order before you reach the window — it keeps the line moving and means you won't miss out on a special." },
+      { "time": "9:15am", "title": "Walk it to the beach", "detail": "Takeaway down Bondi Road to the promenade and eat with a view instead of squeezing inside." }
+    ] },
+    { "type": "h2", "text": "Getting there" },
+    { "type": "p", "text": "Sundays sits at 211 Bondi Road, roughly halfway between Bondi Junction and the beach. Buses run frequently along Bondi Road from Bondi Junction interchange (which connects to the train line), and it's an easy walk up from the sand. Parking is metered and competitive on weekends, so if you can avoid driving, do — plug '211 Bondi Road' into the Transport for NSW trip planner for live bus times." },
+    { "type": "faq", "items": [
+      { "q": "What days is Sundays Bondi open?", "a": "It's a limited-days micro-bakery — generally weekend mornings from 9am to 2pm or until sold out — but the days have changed since opening and different listings disagree. Always confirm on their Instagram (@sundaysbondi) before you make the trip." },
+      { "q": "What time should I arrive to beat the queue?", "a": "Before 9am. On busy days the first batch can be gone quickly and they've sold out within about an hour, so arriving right at (or just before) opening gives you the best shot at the full range of flavours." },
+      { "q": "What should I order at Sundays Bondi?", "a": "Start with the classic cinnamon scroll with cream cheese — it's the signature. The core line-up also includes Biscoff and Kinder chocolate, plus rotating specials like pistachio, and matcha in both scroll and drink form." },
+      { "q": "Do they sell out?", "a": "Yes, regularly, often well before the posted 2pm close. Treat closing time as a maximum and go early rather than turning up at lunch and hoping." },
+      { "q": "Where exactly is Sundays Bondi?", "a": "211 Bondi Road, Bondi — about halfway between Bondi Junction and Bondi Beach, walkable from the promenade and served by buses running along Bondi Road." }
+    ] },
+    { "type": "p", "text": "That's the whole game with Sundays: it's small, it's genuinely good, and it rewards a bit of planning. Check they're open, show up early, know your order, and take it down to the beach. Do that and you'll skip the disappointment I see on faces at 1pm — and you'll understand why the line forms in the first place." }
+  ]
+}
