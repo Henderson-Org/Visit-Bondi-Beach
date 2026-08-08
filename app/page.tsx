@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { featuredArticles } from '@/lib/content';
 import { ArticleCard } from '@/components/ArticleCard';
+import { WeatherSurfSummary } from '@/components/WeatherSurfSummary';
 import { SITE } from '@/lib/site';
 
 const QUICK_LINKS = [
@@ -55,7 +56,13 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 pb-8">
+      {/* Daily Weather & Surf Summary — prominent, high on the page. The card lifts
+          over the hero's lower edge. Compact so it doesn't push guides far down. */}
+      <section className="relative z-10 mx-auto -mt-12 max-w-3xl px-4 sm:-mt-16">
+        <WeatherSurfSummary destination="bondi" />
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 pb-8 pt-12">
         <div className="flex items-baseline justify-between">
           <h2 className="font-display text-2xl md:text-3xl text-ink-900">Popular Bondi guides</h2>
           <Link href="/bondi-blog" className="text-sm text-ocean-700 hover:underline">

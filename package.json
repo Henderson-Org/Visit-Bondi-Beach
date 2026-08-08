@@ -12,7 +12,8 @@
     "crawl": "node migration/scripts/crawl-inventory.mjs",
     "build:content": "node scripts/build-content.mjs",
     "build:bodies": "node scripts/build-bodies.mjs",
-    "seo:qa": "node scripts/seo-qa.mjs"
+    "seo:qa": "node scripts/seo-qa.mjs",
+    "test": "vitest run"
   },
   "dependencies": {
     "next": "^16.3.0",
@@ -26,6 +27,7 @@
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5.7"
+    "typescript": "^5.7",
+    "vitest": "^2.1.8"
   }
 }
