@@ -46,7 +46,7 @@ export const STAY_CATEGORIES: StayCategory[] = [
     intro: [
       'Bondi’s hotels are smaller and more characterful than a typical city strip — you’re choosing between beachfront boutiques, an apartment-hotel or a landmark pub hotel, not a row of chains. What almost all the best options share is walkability: on or just behind Campbell Parade, with the sand, the cafés and the coastal walk on your doorstep.',
     ],
-    select: () => PROPERTIES.filter((p) => p.type === 'hotel' || p.type === 'boutique-hotel' || p.type === 'pub-hotel').sort(byGuideThenBeach),
+    select: () => PROPERTIES.filter((p) => p.type === 'hotel' || p.type === 'pub-hotel').sort(byGuideThenBeach),
     faqs: [
       { q: 'What is the best hotel in Bondi Beach?', a: 'For location and style, QT Bondi — a beachfront boutique hotel on Campbell Parade. For families or longer stays, an apartment-hotel such as Adina Bondi Beach is often the better fit.' },
       { q: 'Are there five-star hotels in Bondi Beach?', a: 'Bondi is a boutique beach town rather than a big five-star hotel strip. The top end is stylish boutique hotels like QT Bondi and Hotel Ravesis, plus premium serviced apartments.' },

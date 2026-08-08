@@ -23,7 +23,7 @@
 
 export type Provider = 'booking' | 'hostelworld' | 'tripadvisor';
 
-export type StayType = 'hotel' | 'boutique-hotel' | 'apartments' | 'hostel' | 'pub-hotel';
+export type StayType = 'hotel' | 'apartments' | 'hostel' | 'pub-hotel';
 
 export type PriceBand = '$' | '$$' | '$$$' | '$$$$';
 
@@ -42,7 +42,6 @@ export type Tag =
 
 export const STAY_TYPE_LABEL: Record<StayType, string> = {
   hotel: 'Hotel',
-  'boutique-hotel': 'Boutique hotel',
   apartments: 'Serviced apartments',
   hostel: 'Hostel',
   'pub-hotel': 'Pub hotel',
@@ -50,7 +49,6 @@ export const STAY_TYPE_LABEL: Record<StayType, string> = {
 
 export const STAY_TYPE_PLURAL: Record<StayType, string> = {
   hotel: 'Hotels',
-  'boutique-hotel': 'Boutique hotels',
   apartments: 'Serviced apartments',
   hostel: 'Hostels',
   'pub-hotel': 'Pub hotels',
@@ -201,7 +199,7 @@ export const PROPERTIES: Property[] = [
     slug: 'qt-bondi',
     name: 'QT Bondi',
     area: 'bondi-beach',
-    type: 'boutique-hotel',
+    type: 'hotel',
     priceBand: '$$$',
     neighbourhood: 'Campbell Parade beachfront',
     walkMinutes: 1,
@@ -245,7 +243,7 @@ export const PROPERTIES: Property[] = [
     bestFor: ['families', 'longer-stays', 'groups', 'beach-access'],
     amenities: { kitchen: true, parking: 'paid', oceanViews: true },
     providers: ['booking', 'tripadvisor'],
-    hasGuide: false,
+    hasGuide: true,
     image: null,
     lastReviewed: REVIEWED,
   },
@@ -253,7 +251,7 @@ export const PROPERTIES: Property[] = [
     slug: 'hotel-ravesis',
     name: 'Hotel Ravesis',
     area: 'bondi-beach',
-    type: 'boutique-hotel',
+    type: 'hotel',
     priceBand: '$$$',
     neighbourhood: 'Corner of Campbell Parade & Hall Street',
     address: '118 Campbell Parade, Bondi Beach NSW 2026',
@@ -264,7 +262,7 @@ export const PROPERTIES: Property[] = [
     amenities: { oceanViews: true, parking: 'limited' },
     providers: ['booking', 'tripadvisor'],
     officialUrl: 'https://www.hotelravesis.com/',
-    hasGuide: false,
+    hasGuide: true,
     image: null,
     active: true,
     source: 'https://www.sydney.com/destinations/sydney/sydney-east/bondi/food-and-drink/hotel-ravesis',
@@ -283,7 +281,7 @@ export const PROPERTIES: Property[] = [
     bestFor: ['budget', 'groups', 'first-time'],
     amenities: { parking: 'none' },
     providers: ['booking'],
-    hasGuide: false,
+    hasGuide: true,
     image: null,
     lastReviewed: REVIEWED,
   },
@@ -300,7 +298,7 @@ export const PROPERTIES: Property[] = [
     bestFor: ['budget', 'groups', 'beach-access'],
     amenities: { kitchen: true, oceanViews: true },
     providers: ['hostelworld', 'booking'],
-    hasGuide: false,
+    hasGuide: true,
     image: null,
     lastReviewed: REVIEWED,
   },
@@ -317,7 +315,7 @@ export const PROPERTIES: Property[] = [
     bestFor: ['budget', 'groups'],
     amenities: { kitchen: true },
     providers: ['hostelworld', 'booking'],
-    hasGuide: false,
+    hasGuide: true,
     image: null,
     lastReviewed: REVIEWED,
   },
@@ -334,7 +332,7 @@ export const PROPERTIES: Property[] = [
     bestFor: ['budget', 'groups', 'ocean-views'],
     amenities: { kitchen: true, oceanViews: true },
     providers: ['hostelworld', 'booking'],
-    hasGuide: false,
+    hasGuide: true,
     image: null,
     lastReviewed: REVIEWED,
   },
@@ -352,7 +350,7 @@ export const PROPERTIES: Property[] = [
     amenities: { pool: true, parking: 'onsite', kitchen: true, oceanViews: true },
     providers: ['booking', 'tripadvisor'],
     officialUrl: 'https://www.meritonsuites.com.au/our-hotels/sydney/bondi-junction/',
-    hasGuide: false,
+    hasGuide: true,
     image: null,
     active: true,
     source: 'https://www.meritonsuites.com.au/our-hotels/sydney/bondi-junction/',
@@ -374,7 +372,7 @@ export const PROPERTIES: Property[] = [
     providers: ['hostelworld', 'booking'],
     // Owner-supplied Klook affiliate booking link — used directly for "Check availability".
     bookingUrl: 'https://s.klook.com/c/2XALb2zD3l',
-    hasGuide: false,
+    hasGuide: true,
     image: null,
     active: true,
     source: 'https://www.klook.com/hotels/detail/494294-wake-up-bondi-beach--hostel/',
@@ -394,7 +392,7 @@ export const PROPERTIES: Property[] = [
     bestFor: ['families', 'longer-stays', 'budget', 'pool'],
     amenities: { pool: true, kitchen: true, parking: 'onsite' },
     providers: ['booking', 'tripadvisor'],
-    hasGuide: false,
+    hasGuide: true,
     image: null,
     active: true,
     source: 'https://www.travelocity.com/Sydney-Hotels-Ultimate-Apartments-Bondi-Beach.h1426897.Hotel-Reviews',
@@ -414,7 +412,7 @@ export const PROPERTIES: Property[] = [
     amenities: { kitchen: true, parking: 'paid' },
     providers: ['booking', 'tripadvisor'],
     officialUrl: 'https://www.questapartments.com.au/venues/sydney/bondi-junction',
-    hasGuide: false,
+    hasGuide: true,
     image: null,
     active: true,
     source: 'https://www.questapartments.com.au/venues/sydney/bondi-junction',
@@ -434,7 +432,7 @@ export const PROPERTIES: Property[] = [
     amenities: { pool: true, parking: 'paid' },
     providers: ['booking', 'tripadvisor'],
     officialUrl: 'https://www.ihg.com/holidayinn/hotels/us/en/sydney/sydbj/hoteldetail',
-    hasGuide: false,
+    hasGuide: true,
     image: null,
     active: true,
     source: 'https://www.hrs.com/en/hotel/787013',

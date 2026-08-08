@@ -8,7 +8,6 @@ import { getArea, type Property, type StayType } from '@/data/accommodation';
 
 const LODGING_TYPE: Record<StayType, string> = {
   hotel: 'Hotel',
-  'boutique-hotel': 'Hotel',
   'pub-hotel': 'Hotel',
   hostel: 'Hostel',
   apartments: 'LodgingBusiness',

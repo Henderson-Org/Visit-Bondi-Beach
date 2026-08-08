@@ -1,16 +1,19 @@
 import { PRICE_LABEL, TAG_LABEL, type PriceBand, type Tag } from '@/data/accommodation';
 
-/** Price positioning shown as $ / $$ / $$$ / $$$$ (active glyphs inked, rest muted). */
+/**
+ * Price positioning shown as the band's dollar glyphs followed by the plain-English
+ * label (e.g. "$ Budget", "$$$ Upper mid-range"). We render only the active glyphs —
+ * padding out to four with muted signs made cheap places read as "$$$$" at a glance.
+ */
 export function PriceBadge({ band, className = '' }: { band: PriceBand; className?: string }) {
-  const active = band.length;
   return (
     <span
-      className={`font-medium tabular-nums ${className}`}
+      className={`inline-flex items-baseline gap-1.5 font-medium tabular-nums ${className}`}
       title={`${band} · ${PRICE_LABEL[band]}`}
       aria-label={`Price ${PRICE_LABEL[band]}`}
     >
-      <span className="text-ink-900">{'$'.repeat(active)}</span>
-      <span className="text-ink-300">{'$'.repeat(4 - active)}</span>
+      <span className="text-ink-900">{band}</span>
+      <span className="text-[0.85em] font-normal text-ink-500">{PRICE_LABEL[band]}</span>
     </span>
   );
 }

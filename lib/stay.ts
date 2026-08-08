@@ -74,7 +74,7 @@ export const FILTER_TAGS: Tag[] = [
   'groups',
 ];
 
-export const FILTER_TYPES: StayType[] = ['hotel', 'boutique-hotel', 'apartments', 'hostel'];
+export const FILTER_TYPES: StayType[] = ['hotel', 'apartments', 'hostel', 'pub-hotel'];
 
 export const tagLabel = (t: Tag) => TAG_LABEL[t];
 export const typePluralLabel = (t: StayType) => STAY_TYPE_PLURAL[t];
