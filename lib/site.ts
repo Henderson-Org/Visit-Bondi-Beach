@@ -17,6 +17,10 @@ export const PROD_ORIGIN = `https://${PROD_HOST}`;
 export function siteOrigin(): string {
   const explicit = process.env.NEXT_PUBLIC_SITE_ORIGIN;
   if (explicit) return explicit.replace(/\/$/, '');
+  // In production, always emit the real canonical domain — even when the request
+  // is served from a *.vercel.app alias — so canonicals/OG/JSON-LD never point at
+  // the Vercel URL. This means launch needs only NEXT_PUBLIC_IS_PRODUCTION=true.
+  if (isProduction()) return PROD_ORIGIN;
   const vercel = process.env.VERCEL_URL;
   if (vercel) return `https://${vercel}`;
   return 'http://localhost:3000';
