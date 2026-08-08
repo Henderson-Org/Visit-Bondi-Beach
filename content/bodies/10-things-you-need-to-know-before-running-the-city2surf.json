@@ -1,0 +1,37 @@
+{
+  "path": "/bondi-blog/2025/5/6/10-things-you-need-to-know-before-running-the-city2surf",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Voltaren City2Surf — official site (entries, waves, course)", "url": "https://city2surf.com.au/" },
+    { "label": "Bureau of Meteorology — Sydney forecast", "url": "http://www.bom.gov.au/nsw/forecasts/sydney.shtml" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "The City2Surf draws tens of thousands of runners every August for its atmosphere, its city-to-sea course, and one very famous hill. Whether it's your first or you're chasing a personal best, a bit of preparation goes a long way. Here are the ten things I'd tell any mate before they line up." },
+    { "type": "h3", "text": "1. Know the course" },
+    { "type": "p", "text": "It's 14 km from the CBD to Bondi. The opening kilometres are fast and net downhill, then around the middle you hit Heartbreak Hill — roughly a 2 km climb from Rose Bay to Vaucluse. Knowing where the hill sits helps you save energy for it instead of blowing up early." },
+    { "type": "h3", "text": "2. Enter early and pick the right wave" },
+    { "type": "p", "text": "Entries open earlier in the year and sell out — the 2026 event sold out well before race day. Register as soon as entries open, and choose a start wave that matches your realistic finish time so you're not weaving through slower runners (or holding up faster ones)." },
+    { "type": "h3", "text": "3. Train for the hill" },
+    { "type": "p", "text": "Heartbreak Hill is what people remember. Add hill repeats to your training once a week in the lead-up so both your legs and your head know what a sustained climb feels like. It's the single best thing you can do for your time." },
+    { "type": "h3", "text": "4. Build up gradually" },
+    { "type": "p", "text": "Increase your weekly distance slowly rather than cramming. A mix of one longer run, some faster efforts and easy recovery jogs beats a couple of heroic long runs. Consistency is what gets you to 14 km comfortably." },
+    { "type": "h3", "text": "5. Sort your hydration and fuelling" },
+    { "type": "p", "text": "Hydrate in the days before, not just on the morning. Have a light, familiar breakfast a couple of hours before the start. Whatever gels or drinks you plan to use, practise with them in training first." },
+    { "type": "h3", "text": "6. Gear you've tested — and sunscreen" },
+    { "type": "p", "text": "Wear well-broken-in shoes and light, moisture-wicking clothing. Nothing brand new on race day. And even in August, put on sweat-resistant sunscreen before the start — the sun really shows up by the time you reach Bondi." },
+    { "type": "h3", "text": "7. Plan your transport" },
+    { "type": "p", "text": "Roads close and the nearest stations fill early. Give yourself a solid hour of buffer to get to the start, find the gear check, queue for the loo and warm up. Public transport beats driving every time on race day." },
+    { "type": "h3", "text": "8. Check the weather" },
+    { "type": "p", "text": "Early-August Sydney can swing from cool and grey to surprisingly warm. Check the Bureau of Meteorology forecast and dress accordingly — a cheap layer you can shed at the start line is a good friend on a cold morning." },
+    { "type": "h3", "text": "9. Pace it in thirds" },
+    { "type": "p", "text": "Start conservatively, run the hill on effort rather than staring at your pace, and use the downhills to recover without over-striding. Break the run into thirds and reassess how you feel at each. Negative-splitting the City2Surf feels a lot better than fading." },
+    { "type": "h3", "text": "10. Recover and celebrate" },
+    { "type": "p", "text": "Keep walking for a few minutes after the line rather than stopping dead, grab water and a snack, and agree a meeting spot with your crew in advance — phone signal gets patchy in the crowd. Then reward yourself: brunch, a swim, or a dip at the Icebergs pool. You've earned it." },
+    { "type": "faq", "items": [
+      { "q": "How long is the City2Surf and how hilly is it?", "a": "14 km, and hillier than first-timers expect. The main climb is Heartbreak Hill, about 2 km from Rose Bay to Vaucluse near halfway, with a few more short rises after it." },
+      { "q": "Do City2Surf entries sell out?", "a": "Yes — it's very popular and sells out ahead of race day, so enter early through city2surf.com.au and pick a start wave matching your expected finish time." },
+      { "q": "What should I not do on race day?", "a": "Don't wear or eat anything you haven't tested in training, don't go out too fast, and don't skip sunscreen — the Sydney sun is strong by the Bondi finish." }
+    ] }
+  ]
+}

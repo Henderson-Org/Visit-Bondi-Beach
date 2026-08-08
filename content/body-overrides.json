@@ -1,4 +1,88 @@
 {
+  "/bondi-blog/2024/4/1/city2surf-course-map": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "If you're trying to picture the City2Surf course before race day, here's the route the way I'd talk you through it as a local — section by section, from the city start to the Bondi finish. For the official downloadable map with water stations and split points, head to city2surf.com.au; what follows is the lay of the land."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Distance",
+            "value": "14 km"
+          },
+          {
+            "label": "Start",
+            "value": "Park & College St, Sydney CBD"
+          },
+          {
+            "label": "Finish",
+            "value": "Queen Elizabeth Dr, Bondi"
+          },
+          {
+            "label": "Big climb",
+            "value": "Heartbreak Hill (~2 km)"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The course, section by section"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Start — near Hyde Park, at Park and College Streets in the CBD, then a fast downhill along William Street.",
+          "Kings Cross — through the tunnel and out toward the harbour; this early stretch is quick, so don't get carried away.",
+          "Rose Bay — along New South Head Road beside the water. Enjoy it, because the hill is next.",
+          "Heartbreak Hill — an approximately 2 km climb from Rose Bay up to Vaucluse. This is the halfway point and the toughest part of the day.",
+          "Vaucluse to the coast — onto Old South Head Road and Military Road, with a few short sharp pinches before a rewarding downhill and big ocean views.",
+          "Bondi finish — a turnaround near Curlewis Street and roughly a final kilometre of flat switchback to the line on Queen Elizabeth Drive above the beach."
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Reading the profile",
+        "text": "The first few kilometres are net downhill and deceptively fast. The climbing is concentrated in the middle around Heartbreak Hill — and there are more little rises after it — so plan your effort to peak through the hills, not before them."
+      },
+      {
+        "type": "h2",
+        "text": "Best spots to watch or push hard"
+      },
+      {
+        "type": "p",
+        "text": "Rose Bay and the foot of Heartbreak Hill are my favourite places to spectate — the crowd support there genuinely carries runners up the climb. If you're racing, treat the top of the hill at Vaucluse as your cue to reassess your pace, and remember the sneaky final switchback at Bondi before you spend everything."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Where can I get the official City2Surf course map?",
+            "a": "From the official site, city2surf.com.au, which publishes the current downloadable map with water stations, drink stations and split points."
+          },
+          {
+            "q": "Where does the City2Surf start and finish?",
+            "a": "It starts near Hyde Park in the Sydney CBD (Park and College Streets) and finishes on Queen Elizabeth Drive above Bondi Beach, 14 km later."
+          },
+          {
+            "q": "How much of the course is uphill?",
+            "a": "The signature climb is Heartbreak Hill, about 2 km from Rose Bay to Vaucluse near halfway, but there are also several shorter rises afterward before the downhill to Bondi."
+          }
+        ]
+      }
+    ],
+    "wordCount": 420,
+    "sources": [
+      {
+        "label": "Voltaren City2Surf — official course map & route",
+        "url": "https://city2surf.com.au/"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
   "/bondi-blog/2025/10/13/are-there-snakes-in-bondi": {
     "blocks": [
       {
@@ -77,6 +161,124 @@
       }
     ],
     "wordCount": 539,
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
+  "/bondi-blog/2025/5/6/10-things-you-need-to-know-before-running-the-city2surf": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "The City2Surf draws tens of thousands of runners every August for its atmosphere, its city-to-sea course, and one very famous hill. Whether it's your first or you're chasing a personal best, a bit of preparation goes a long way. Here are the ten things I'd tell any mate before they line up."
+      },
+      {
+        "type": "h3",
+        "text": "1. Know the course"
+      },
+      {
+        "type": "p",
+        "text": "It's 14 km from the CBD to Bondi. The opening kilometres are fast and net downhill, then around the middle you hit Heartbreak Hill — roughly a 2 km climb from Rose Bay to Vaucluse. Knowing where the hill sits helps you save energy for it instead of blowing up early."
+      },
+      {
+        "type": "h3",
+        "text": "2. Enter early and pick the right wave"
+      },
+      {
+        "type": "p",
+        "text": "Entries open earlier in the year and sell out — the 2026 event sold out well before race day. Register as soon as entries open, and choose a start wave that matches your realistic finish time so you're not weaving through slower runners (or holding up faster ones)."
+      },
+      {
+        "type": "h3",
+        "text": "3. Train for the hill"
+      },
+      {
+        "type": "p",
+        "text": "Heartbreak Hill is what people remember. Add hill repeats to your training once a week in the lead-up so both your legs and your head know what a sustained climb feels like. It's the single best thing you can do for your time."
+      },
+      {
+        "type": "h3",
+        "text": "4. Build up gradually"
+      },
+      {
+        "type": "p",
+        "text": "Increase your weekly distance slowly rather than cramming. A mix of one longer run, some faster efforts and easy recovery jogs beats a couple of heroic long runs. Consistency is what gets you to 14 km comfortably."
+      },
+      {
+        "type": "h3",
+        "text": "5. Sort your hydration and fuelling"
+      },
+      {
+        "type": "p",
+        "text": "Hydrate in the days before, not just on the morning. Have a light, familiar breakfast a couple of hours before the start. Whatever gels or drinks you plan to use, practise with them in training first."
+      },
+      {
+        "type": "h3",
+        "text": "6. Gear you've tested — and sunscreen"
+      },
+      {
+        "type": "p",
+        "text": "Wear well-broken-in shoes and light, moisture-wicking clothing. Nothing brand new on race day. And even in August, put on sweat-resistant sunscreen before the start — the sun really shows up by the time you reach Bondi."
+      },
+      {
+        "type": "h3",
+        "text": "7. Plan your transport"
+      },
+      {
+        "type": "p",
+        "text": "Roads close and the nearest stations fill early. Give yourself a solid hour of buffer to get to the start, find the gear check, queue for the loo and warm up. Public transport beats driving every time on race day."
+      },
+      {
+        "type": "h3",
+        "text": "8. Check the weather"
+      },
+      {
+        "type": "p",
+        "text": "Early-August Sydney can swing from cool and grey to surprisingly warm. Check the Bureau of Meteorology forecast and dress accordingly — a cheap layer you can shed at the start line is a good friend on a cold morning."
+      },
+      {
+        "type": "h3",
+        "text": "9. Pace it in thirds"
+      },
+      {
+        "type": "p",
+        "text": "Start conservatively, run the hill on effort rather than staring at your pace, and use the downhills to recover without over-striding. Break the run into thirds and reassess how you feel at each. Negative-splitting the City2Surf feels a lot better than fading."
+      },
+      {
+        "type": "h3",
+        "text": "10. Recover and celebrate"
+      },
+      {
+        "type": "p",
+        "text": "Keep walking for a few minutes after the line rather than stopping dead, grab water and a snack, and agree a meeting spot with your crew in advance — phone signal gets patchy in the crowd. Then reward yourself: brunch, a swim, or a dip at the Icebergs pool. You've earned it."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "How long is the City2Surf and how hilly is it?",
+            "a": "14 km, and hillier than first-timers expect. The main climb is Heartbreak Hill, about 2 km from Rose Bay to Vaucluse near halfway, with a few more short rises after it."
+          },
+          {
+            "q": "Do City2Surf entries sell out?",
+            "a": "Yes — it's very popular and sells out ahead of race day, so enter early through city2surf.com.au and pick a start wave matching your expected finish time."
+          },
+          {
+            "q": "What should I not do on race day?",
+            "a": "Don't wear or eat anything you haven't tested in training, don't go out too fast, and don't skip sunscreen — the Sydney sun is strong by the Bondi finish."
+          }
+        ]
+      }
+    ],
+    "wordCount": 637,
+    "sources": [
+      {
+        "label": "Voltaren City2Surf — official site (entries, waves, course)",
+        "url": "https://city2surf.com.au/"
+      },
+      {
+        "label": "Bureau of Meteorology — Sydney forecast",
+        "url": "http://www.bom.gov.au/nsw/forecasts/sydney.shtml"
+      }
+    ],
     "lastReviewed": "2026-08-08",
     "voice": "first-person"
   },
@@ -271,6 +473,210 @@
       {
         "label": "Waverley Council — Bondi Beach (name origin)",
         "url": "https://www.waverley.nsw.gov.au/residents/precinct_committees/meetings_docs/bondi_beach"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
+  "/bondi-blog/ultimate-guide-city-to-surf": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Every August, my end of Sydney turns into a finish line. The City2Surf is the run that ends at Bondi, and whether I'm out on the course or cheering from the promenade, it's one of my favourite days of the year. Here's my local guide to running it well — and enjoying it."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Distance",
+            "value": "14 km"
+          },
+          {
+            "label": "Route",
+            "value": "Sydney CBD → Bondi Beach"
+          },
+          {
+            "label": "When",
+            "value": "Annually in August"
+          },
+          {
+            "label": "2026",
+            "value": "Sun 9 August (sold out)"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The City2Surf is one of the world's largest fun runs — tens of thousands of people, from elite racers to first-timers in fancy dress, all making the 14 km journey from the city to the sea. It starts near Hyde Park in the CBD (at Park and College Streets) and finishes on the grass above Bondi Beach. Part race, part street party, it's Sydney at its most joyful."
+      },
+      {
+        "type": "h2",
+        "text": "The route — and yes, Heartbreak Hill"
+      },
+      {
+        "type": "p",
+        "text": "From the start you drop down William Street, through the Kings Cross tunnel, then out along New South Head Road with the harbour glinting beside you through Rose Bay. Then comes the bit everyone's heard about: Heartbreak Hill, a roughly 2 km climb from Rose Bay up to Vaucluse. It's the halfway point and the make-or-break section. From Vaucluse you head along Old South Head Road and Military Road before a glorious downhill toward the coast, a turnaround near Curlewis Street, and the finish on Queen Elizabeth Drive at Bondi."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Two things first-timers don't expect",
+        "text": "Heartbreak Hill isn't the end of the climbing — there are several short, sharp pinches after it, so keep something in reserve. And don't empty the tank on the final downhill: after you reach the bottom there's still around a kilometre of flat, switchback running to the line. Save a little for it."
+      },
+      {
+        "type": "h2",
+        "text": "Getting there and home"
+      },
+      {
+        "type": "p",
+        "text": "Public transport is by far the easiest option — roads close across the eastern suburbs and parking near the start or finish is a nightmare. Bring an Opal card or tap on with a card or phone. For the start, trains to St James, Museum or Town Hall put you a short walk from the assembly area. Getting home from Bondi, there are usually free shuttle buses to Bondi Junction where you can pick up the T4 line back to the city. Because the exact shuttle and closure details change each year, I check Transport for NSW's event page in the days before."
+      },
+      {
+        "type": "h2",
+        "text": "My tips for a strong run"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Train on hills. Even a few weeks of hill repeats makes Heartbreak Hill far less scary.",
+          "Go out easy. Aim to run the second half faster than the first — the crowd energy will tempt you to sprint the opening kilometres; don't.",
+          "On the hill, shorten your stride and hold a steady effort. People who charge past you early are usually the ones walking it near the top.",
+          "Don't experiment on race day — no new shoes, gear or energy gels you haven't tried in training.",
+          "At water stations, keep moving through rather than stopping dead; it keeps you and everyone behind you safe.",
+          "Sunscreen and a cap. It's August, but the Sydney sun still bites by the time you reach Bondi."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The finish (and the afterparty)"
+      },
+      {
+        "type": "p",
+        "text": "Crossing the line above Bondi Beach, salt air in your lungs and the ocean right there, never gets old. Once you've caught your breath, the celebrating begins — the Bondi pubs and the Pavilion turn on afterparties every year. I've written a separate guide to the best spots to recover and celebrate, and a companion piece on the things I wish I'd known before my first City2Surf."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "How long is the City2Surf?",
+            "a": "14 kilometres, from Sydney's CBD (near Hyde Park) to the finish above Bondi Beach."
+          },
+          {
+            "q": "When is City2Surf 2026?",
+            "a": "Sunday 9 August 2026. The 2026 event is sold out — for entries and future dates, check the official site at city2surf.com.au."
+          },
+          {
+            "q": "Where is Heartbreak Hill?",
+            "a": "It's an approximately 2 km climb along New South Head Road from Rose Bay up to Vaucluse, at roughly the halfway mark of the course."
+          },
+          {
+            "q": "How do I get to the start and back from Bondi?",
+            "a": "Use public transport — roads close and parking is very limited. Trains reach the CBD start; from the Bondi finish there are usually free shuttles to Bondi Junction for the train home. Check Transport for NSW for the current year's details."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Whether you're chasing a personal best or just want to say you've run from the city to the surf, City2Surf is a Sydney rite of passage. Train a little, pace it smart, and I'll see you at the Bondi end."
+      }
+    ],
+    "wordCount": 764,
+    "sources": [
+      {
+        "label": "Voltaren City2Surf — official site (dates, entries, waves, results)",
+        "url": "https://city2surf.com.au/"
+      },
+      {
+        "label": "Transport for NSW — City2Surf event transport & road closures",
+        "url": "https://transportnsw.info/events/2026/08/city2surf-2026"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
+  "/bondi-blog/where-to-go-afterparty-city-to-surf": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "You've survived the 14 km from the city to the sea — now for the best part. The Bondi afterparty is a City2Surf tradition, and as a local I can tell you the whole beachfront turns into one big celebration the moment the runners start pouring in. Here's where I'd point you."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Get in early",
+        "text": "Every good spot fills fast as tens of thousands of people flood into Bondi. By midday you're looking at long queues, so head straight from the finish to your chosen venue — or, if you're just here for the party, aim to be in place by around 11am. The specific line-ups, DJ sets and drink deals change every year, so check each venue's own socials for what they've got on this time."
+      },
+      {
+        "type": "h2",
+        "text": "The reliable Bondi afterparty spots"
+      },
+      {
+        "type": "h3",
+        "text": "Hotel Ravesis"
+      },
+      {
+        "type": "p",
+        "text": "The long-standing go-to for runners and their support crew, right on the corner overlooking the beach. Those balcony tables are gold and go early — it's a short dash from the finish, so don't stop running just yet."
+      },
+      {
+        "type": "h3",
+        "text": "Royal Bondi"
+      },
+      {
+        "type": "p",
+        "text": "A Merivale venue that reliably throws one of the bigger, livelier parties, with DJs and a buzzing crowd. Always a safe bet for atmosphere."
+      },
+      {
+        "type": "h3",
+        "text": "Beach Road Hotel"
+      },
+      {
+        "type": "p",
+        "text": "\"The Beachy\" is a Bondi institution and often hosts the biggest afterparty of the lot. It's a little further from the finish, so it rewards those with legs left in them — and be warned, the queue can be the biggest too."
+      },
+      {
+        "type": "h3",
+        "text": "North Bondi Fish & North Bondi RSL"
+      },
+      {
+        "type": "p",
+        "text": "Up the quieter northern end of the beach, these two are my pick for views and a slightly more relaxed vibe. North Bondi Fish does the beachfront-dining thing with DJs and ocean views; the RSL next door is simply one of the best-value, most easygoing spots on Bondi for a post-race beer."
+      },
+      {
+        "type": "h3",
+        "text": "Hotel Bondi & the Bondi Pavilion"
+      },
+      {
+        "type": "p",
+        "text": "If your legs have completely seized up, Hotel Bondi sits close to the finish and is always lively. The Bondi Pavilion, right on the sand, also regularly hosts finish-line celebrations — worth a look for something a bit different."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Where's the best City2Surf afterparty in Bondi?",
+            "a": "The perennial favourites are Hotel Ravesis and Royal Bondi near the finish, and the Beach Road Hotel a little further on for the biggest party. North Bondi RSL and North Bondi Fish are great for a more relaxed celebration with a view."
+          },
+          {
+            "q": "What time should I get there?",
+            "a": "As early as you can — venues fill and queues build by midday. Head straight from the finish, or be in place by around 11am if you're just coming for the party."
+          },
+          {
+            "q": "How do I find out this year's events and deals?",
+            "a": "Line-ups, DJs and drink specials change each year. Check each venue's own social media, or the official City2Surf channels, for the current year's finish-line events."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "However you celebrate, pace the day like you paced the run — plenty of water between drinks, and soak up that unbeatable Bondi finish-line feeling. You earned it."
+      }
+    ],
+    "wordCount": 497,
+    "sources": [
+      {
+        "label": "Voltaren City2Surf — official site (finish-line & event info)",
+        "url": "https://city2surf.com.au/"
       }
     ],
     "lastReviewed": "2026-08-08",

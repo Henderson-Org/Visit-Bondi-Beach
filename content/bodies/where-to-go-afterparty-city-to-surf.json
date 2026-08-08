@@ -1,0 +1,29 @@
+{
+  "path": "/bondi-blog/where-to-go-afterparty-city-to-surf",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Voltaren City2Surf — official site (finish-line & event info)", "url": "https://city2surf.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "You've survived the 14 km from the city to the sea — now for the best part. The Bondi afterparty is a City2Surf tradition, and as a local I can tell you the whole beachfront turns into one big celebration the moment the runners start pouring in. Here's where I'd point you." },
+    { "type": "callout", "tone": "note", "title": "Get in early", "text": "Every good spot fills fast as tens of thousands of people flood into Bondi. By midday you're looking at long queues, so head straight from the finish to your chosen venue — or, if you're just here for the party, aim to be in place by around 11am. The specific line-ups, DJ sets and drink deals change every year, so check each venue's own socials for what they've got on this time." },
+    { "type": "h2", "text": "The reliable Bondi afterparty spots" },
+    { "type": "h3", "text": "Hotel Ravesis" },
+    { "type": "p", "text": "The long-standing go-to for runners and their support crew, right on the corner overlooking the beach. Those balcony tables are gold and go early — it's a short dash from the finish, so don't stop running just yet." },
+    { "type": "h3", "text": "Royal Bondi" },
+    { "type": "p", "text": "A Merivale venue that reliably throws one of the bigger, livelier parties, with DJs and a buzzing crowd. Always a safe bet for atmosphere." },
+    { "type": "h3", "text": "Beach Road Hotel" },
+    { "type": "p", "text": "\"The Beachy\" is a Bondi institution and often hosts the biggest afterparty of the lot. It's a little further from the finish, so it rewards those with legs left in them — and be warned, the queue can be the biggest too." },
+    { "type": "h3", "text": "North Bondi Fish & North Bondi RSL" },
+    { "type": "p", "text": "Up the quieter northern end of the beach, these two are my pick for views and a slightly more relaxed vibe. North Bondi Fish does the beachfront-dining thing with DJs and ocean views; the RSL next door is simply one of the best-value, most easygoing spots on Bondi for a post-race beer." },
+    { "type": "h3", "text": "Hotel Bondi & the Bondi Pavilion" },
+    { "type": "p", "text": "If your legs have completely seized up, Hotel Bondi sits close to the finish and is always lively. The Bondi Pavilion, right on the sand, also regularly hosts finish-line celebrations — worth a look for something a bit different." },
+    { "type": "faq", "items": [
+      { "q": "Where's the best City2Surf afterparty in Bondi?", "a": "The perennial favourites are Hotel Ravesis and Royal Bondi near the finish, and the Beach Road Hotel a little further on for the biggest party. North Bondi RSL and North Bondi Fish are great for a more relaxed celebration with a view." },
+      { "q": "What time should I get there?", "a": "As early as you can — venues fill and queues build by midday. Head straight from the finish, or be in place by around 11am if you're just coming for the party." },
+      { "q": "How do I find out this year's events and deals?", "a": "Line-ups, DJs and drink specials change each year. Check each venue's own social media, or the official City2Surf channels, for the current year's finish-line events." }
+    ] },
+    { "type": "p", "text": "However you celebrate, pace the day like you paced the run — plenty of water between drinks, and soak up that unbeatable Bondi finish-line feeling. You earned it." }
+  ]
+}

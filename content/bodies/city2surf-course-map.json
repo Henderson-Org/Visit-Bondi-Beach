@@ -1,0 +1,34 @@
+{
+  "path": "/bondi-blog/2024/4/1/city2surf-course-map",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Voltaren City2Surf — official course map & route", "url": "https://city2surf.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you're trying to picture the City2Surf course before race day, here's the route the way I'd talk you through it as a local — section by section, from the city start to the Bondi finish. For the official downloadable map with water stations and split points, head to city2surf.com.au; what follows is the lay of the land." },
+    { "type": "quickFacts", "items": [
+      { "label": "Distance", "value": "14 km" },
+      { "label": "Start", "value": "Park & College St, Sydney CBD" },
+      { "label": "Finish", "value": "Queen Elizabeth Dr, Bondi" },
+      { "label": "Big climb", "value": "Heartbreak Hill (~2 km)" }
+    ] },
+    { "type": "h2", "text": "The course, section by section" },
+    { "type": "list", "items": [
+      "Start — near Hyde Park, at Park and College Streets in the CBD, then a fast downhill along William Street.",
+      "Kings Cross — through the tunnel and out toward the harbour; this early stretch is quick, so don't get carried away.",
+      "Rose Bay — along New South Head Road beside the water. Enjoy it, because the hill is next.",
+      "Heartbreak Hill — an approximately 2 km climb from Rose Bay up to Vaucluse. This is the halfway point and the toughest part of the day.",
+      "Vaucluse to the coast — onto Old South Head Road and Military Road, with a few short sharp pinches before a rewarding downhill and big ocean views.",
+      "Bondi finish — a turnaround near Curlewis Street and roughly a final kilometre of flat switchback to the line on Queen Elizabeth Drive above the beach."
+    ] },
+    { "type": "callout", "tone": "note", "title": "Reading the profile", "text": "The first few kilometres are net downhill and deceptively fast. The climbing is concentrated in the middle around Heartbreak Hill — and there are more little rises after it — so plan your effort to peak through the hills, not before them." },
+    { "type": "h2", "text": "Best spots to watch or push hard" },
+    { "type": "p", "text": "Rose Bay and the foot of Heartbreak Hill are my favourite places to spectate — the crowd support there genuinely carries runners up the climb. If you're racing, treat the top of the hill at Vaucluse as your cue to reassess your pace, and remember the sneaky final switchback at Bondi before you spend everything." },
+    { "type": "faq", "items": [
+      { "q": "Where can I get the official City2Surf course map?", "a": "From the official site, city2surf.com.au, which publishes the current downloadable map with water stations, drink stations and split points." },
+      { "q": "Where does the City2Surf start and finish?", "a": "It starts near Hyde Park in the Sydney CBD (Park and College Streets) and finishes on Queen Elizabeth Drive above Bondi Beach, 14 km later." },
+      { "q": "How much of the course is uphill?", "a": "The signature climb is Heartbreak Hill, about 2 km from Rose Bay to Vaucluse near halfway, but there are also several shorter rises afterward before the downhill to Bondi." }
+    ] }
+  ]
+}
