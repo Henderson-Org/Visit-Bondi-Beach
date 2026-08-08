@@ -42,9 +42,13 @@ export function DayPlannerPromo({
                 ))}
               </div>
             </div>
-            <Link href={href} onClick={onClick} className="shrink-0 rounded-xl bg-ocean-600 px-5 py-3.5 text-center text-base font-semibold text-white transition hover:bg-ocean-700">
-              Build my Bondi day
-            </Link>
+            <div className="shrink-0 sm:text-center">
+              <Link href={href} onClick={onClick} className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-ocean-600 px-6 py-3.5 text-base font-semibold text-white shadow-sm transition hover:bg-ocean-700 sm:w-auto">
+                Build my free Bondi itinerary
+                <span aria-hidden="true">→</span>
+              </Link>
+              <p className="mt-2 text-xs text-ink-500">Free · takes under a minute</p>
+            </div>
           </div>
         </div>
       </section>
