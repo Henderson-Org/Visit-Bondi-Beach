@@ -11,6 +11,7 @@
  * Degrades gracefully: weather-only for inland destinations, and if a provider
  * is unavailable the module still renders whatever data it has.
  */
+import Link from 'next/link';
 import { getConditions } from '@/lib/conditions/service';
 import { surfBand, roundTemp } from '@/lib/conditions/geo';
 import type { Conditions } from '@/lib/conditions/types';
@@ -70,16 +71,63 @@ function detailRows(c: Conditions): Labelled[] {
   return rows;
 }
 
-export async function WeatherSurfSummary({ destination }: { destination?: string }) {
+/**
+ * Compact single-line bar (horizontally scrollable on small screens). Kept
+ * deliberately unobtrusive — used high on the homepage where the full card would
+ * dominate. The full written summary lives on the /bondi-weather hub.
+ */
+function ConditionsBar({ c }: { c: Conditions }) {
+  const { location, current } = c;
+  const temp = roundTemp(current?.temperatureC ?? null);
+  const emoji = current?.weather?.emoji ?? c.today?.weather?.emoji ?? '🌤️';
+  const label = current?.weather?.label ?? c.today?.weather?.label ?? null;
+  const updated = clockTime(c.weatherMeta?.providerUpdatedAt ?? null);
+
+  return (
+    <section
+      aria-label={`Today's weather and surf in ${location.displayName}`}
+      className="border-b border-sand-200 bg-sand-50"
+    >
+      <div className="mx-auto max-w-6xl overflow-x-auto px-4">
+        <div className="flex items-center gap-x-3 whitespace-nowrap py-2 text-sm text-ink-700">
+          <span className="shrink-0 font-semibold text-ink-900">
+            <span aria-hidden="true">{emoji}</span> {temp != null ? `${temp}°` : '—'}
+          </span>
+          {label && <span className="shrink-0 text-ink-500">{label}</span>}
+          {compactRow(c).map((r) => (
+            <span key={r.label} className="shrink-0 border-l border-sand-200 pl-3">
+              <span className="text-ink-500">{r.label} </span>
+              <span className="font-medium text-ink-900">{r.value}</span>
+            </span>
+          ))}
+          {updated && <span className="shrink-0 border-l border-sand-200 pl-3 text-[11px] text-ink-500">Updated {updated}</span>}
+          <Link href="/bondi-weather" className="shrink-0 border-l border-sand-200 pl-3 font-medium text-ocean-700 hover:underline">
+            Full forecast →
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export async function WeatherSurfSummary({
+  destination,
+  variant = 'full',
+}: {
+  destination?: string;
+  variant?: 'full' | 'bar';
+}) {
   const c = await getConditions(destination);
   const { location, current, summary } = c;
+
+  // If we truly have nothing, render nothing rather than an empty shell.
+  if (!current && !c.today && !c.surf) return null;
+
+  if (variant === 'bar') return <ConditionsBar c={c} />;
 
   const temp = roundTemp(current?.temperatureC ?? null);
   const emoji = current?.weather?.emoji ?? c.today?.weather?.emoji ?? '🌤️';
   const label = current?.weather?.label ?? c.today?.weather?.label ?? null;
-
-  // If we truly have nothing, render nothing rather than an empty shell.
-  if (!current && !c.today && !c.surf) return null;
 
   return (
     <section

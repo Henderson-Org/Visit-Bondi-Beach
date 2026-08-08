@@ -160,28 +160,65 @@ export function recentArticles(limit = 12): Page[] {
 }
 
 /**
+ * Coarse topic key for an article, used to keep the homepage topically diverse.
+ * Known clusters are matched by keyword first (so, e.g., all five City2Surf
+ * pieces collapse to one topic); everything else falls back to its most
+ * distinctive slug/title term. Editorial, deliberately simple.
+ */
+function topicKey(p: Page): string {
+  const s = `${p.path} ${p.h1} ${p.title}`.toLowerCase();
+  const rules: [RegExp, string][] = [
+    [/city-?2-?surf|city[- ]to[- ]surf|heartbreak/, 'city2surf'],
+    [/marathon/, 'marathon'],
+    [/car-?park|parking/, 'parking'],
+    [/coffee|caf[eé]|espresso|barista/, 'coffee'],
+    [/lifeguard|bondi-rescue|\brescue\b/, 'bondi-rescue'],
+    [/icebergs/, 'icebergs'],
+    [/bronte|tamarama|coogee|coastal[- ]walk/, 'coastal-walk'],
+    [/snorkel|where-to-swim|\bswim(ming)?\b/, 'swimming'],
+    [/accommodation|hotel|stay|airbnb/, 'accommodation'],
+    [/restaurant|eat|dining|brunch|food/, 'eat-drink'],
+    [/pub|bar|nightlife|drink/, 'nightlife'],
+    [/weather|temperature|rain|sunrise|sunset/, 'weather'],
+    [/kid|family|children/, 'family'],
+    [/history|famous|history/, 'history'],
+    [/park(ing)?-ranger/, 'parking'],
+  ];
+  for (const [re, key] of rules) if (re.test(s)) return key;
+  const t = [...tokens(p)];
+  return t[0] || p.path;
+}
+
+/**
  * Homepage featured articles, ranked by real search demand (Search Console
- * impressions) rather than recency. Order: impressions → clicks → recency
- * (recency is only a tie-breaker). Articles with no demand data fall back to
- * the existing recency ordering to keep the homepage full and functional.
+ * impressions), then de-duplicated so each TOPIC appears only once — we keep the
+ * highest-ranked article per topic and pull in the next distinct topic for the
+ * remaining slots (so the homepage isn't five City2Surf posts). Order within the
+ * candidate pool: impressions → clicks → recency; articles with no demand data
+ * sort last, keeping the grid full and functional.
  */
 export function featuredArticles(limit = 12): Page[] {
-  const arts = articles();
-  const byDemand = arts
-    .filter((p) => (p.impressions || 0) > 0)
-    .sort(
-      (a, b) =>
-        (b.impressions || 0) - (a.impressions || 0) ||
-        (b.clicks || 0) - (a.clicks || 0) ||
-        (b.publishedAt || '').localeCompare(a.publishedAt || '')
-    );
-  if (byDemand.length >= limit) return byDemand.slice(0, limit);
-  // Graceful fallback: top up with the existing recency logic.
-  const chosen = new Set(byDemand.map((p) => p.path));
-  const byRecency = arts
-    .filter((p) => !chosen.has(p.path))
-    .sort((a, b) => (b.publishedAt || '').localeCompare(a.publishedAt || ''));
-  return [...byDemand, ...byRecency].slice(0, limit);
+  const ranked = [...articles()].sort(
+    (a, b) =>
+      (b.impressions || 0) - (a.impressions || 0) ||
+      (b.clicks || 0) - (a.clicks || 0) ||
+      (b.publishedAt || '').localeCompare(a.publishedAt || '')
+  );
+  const seenTopics = new Set<string>();
+  const out: Page[] = [];
+  const overflow: Page[] = [];
+  for (const p of ranked) {
+    const key = topicKey(p);
+    if (seenTopics.has(key)) {
+      overflow.push(p); // keep as backfill in case we run short of distinct topics
+      continue;
+    }
+    seenTopics.add(key);
+    out.push(p);
+    if (out.length >= limit) return out;
+  }
+  // Fewer distinct topics than slots (unlikely): backfill to keep the grid full.
+  return [...out, ...overflow].slice(0, limit);
 }
 
 export function categories(): Page[] {

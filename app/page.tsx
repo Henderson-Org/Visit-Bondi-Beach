@@ -57,18 +57,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Daily Weather & Surf Summary — prominent, high on the page. The card lifts
-          over the hero's lower edge. Compact so it doesn't push guides far down. */}
-      <section className="relative z-10 mx-auto -mt-12 max-w-3xl px-4 sm:-mt-16">
-        <WeatherSurfSummary destination="bondi" />
-      </section>
+      {/* Daily Weather & Surf Summary — a slim, unobtrusive bar (scrolls sideways on
+          mobile). The full forecast lives on the /bondi-weather hub. */}
+      <WeatherSurfSummary destination="bondi" variant="bar" />
 
-      {/* Conditions-driven recommendations — weather/surf as an input to what we surface. */}
-      <section className="mx-auto mt-6 max-w-3xl px-4">
-        <TodayRecommendations destination="bondi" />
-      </section>
-
-      <section className="mx-auto max-w-6xl px-4 pb-8 pt-12">
+      <section className="mx-auto max-w-6xl px-4 pb-8 pt-10">
         <div className="flex items-baseline justify-between">
           <h2 className="font-display text-2xl md:text-3xl text-ink-900">Popular Bondi guides</h2>
           <Link href="/bondi-blog" className="text-sm text-ocean-700 hover:underline">
@@ -80,6 +73,12 @@ export default function HomePage() {
             <ArticleCard key={p.path} page={p} />
           ))}
         </div>
+      </section>
+
+      {/* Conditions-driven suggestions — kept below the main guides so it doesn't
+          crowd the top of the page. */}
+      <section className="mx-auto max-w-6xl px-4 pb-12">
+        <TodayRecommendations destination="bondi" />
       </section>
     </>
   );
