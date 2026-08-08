@@ -26,6 +26,20 @@ export const DESTINATIONS: Record<string, ConditionsLocation> = {
 
 export const DEFAULT_DESTINATION = 'bondi';
 
+/**
+ * Pages (by path) that render the Daily Weather & Surf Summary module in-body,
+ * mapped to the destination whose conditions to show. Editable here — add a path
+ * to surface the module on another page. (The homepage renders it directly.)
+ */
+export const CONDITIONS_PAGES: Record<string, string> = {
+  '/bondi-weather': 'bondi',
+};
+
+/** Destination key to show conditions for on a given page path, or null. */
+export function conditionsDestinationForPath(path: string): string | null {
+  return CONDITIONS_PAGES[path] ?? null;
+}
+
 /** Resolve a destination by key, falling back to the site default. */
 export function getDestination(key?: string | null): ConditionsLocation {
   if (key && DESTINATIONS[key]) return DESTINATIONS[key];

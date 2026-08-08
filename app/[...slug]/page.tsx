@@ -21,6 +21,8 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { RelatedGuides } from '@/components/RelatedGuides';
 import { AdSlot } from '@/components/AdSlot';
 import { BodyBlocks } from '@/components/BodyBlocks';
+import { WeatherSurfSummary } from '@/components/WeatherSurfSummary';
+import { conditionsDestinationForPath } from '@/lib/conditions/locations';
 
 export const dynamicParams = true;
 
@@ -76,6 +78,7 @@ export default async function CatchAllPage({ params }: Props) {
 
 function HubPage({ page }: { page: Page }) {
   const crumbs = breadcrumbs(page);
+  const conditionsDest = conditionsDestinationForPath(page.path);
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
       <script
@@ -87,6 +90,11 @@ function HubPage({ page }: { page: Page }) {
         {displayTitle(page)}
       </h1>
       {page.intro && <p className="mt-4 text-lg text-ink-700 max-w-prose">{page.intro}</p>}
+      {conditionsDest && (
+        <div className="mt-6">
+          <WeatherSurfSummary destination={conditionsDest} />
+        </div>
+      )}
       {(page.sections || []).map((sec) => (
         <section key={sec.heading} className="mt-10">
           <h2 className="font-display text-2xl text-ink-900">{sec.heading}</h2>

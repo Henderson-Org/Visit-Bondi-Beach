@@ -113,9 +113,10 @@ general guidance only. Rules are unit-tested in `lib/conditions/conditions.test.
 
 The written summary is real server-rendered text (not client-only, not an image),
 so search engines and AI assistants can read statements like "Surf at Bondi today
-is around 1–1.5m." Weather text is **not** put in the page `<title>`/meta, and the
-module lives only on the homepage — so no rapidly-changing weather text becomes the
-page's primary SEO content, and no weather-specific URLs are created or indexed.
+is around 1–1.5m." Weather text is **not** put in any page's `<title>`/meta, and the
+module appears on just two curated pages (the homepage and the `/bondi-weather`
+hub) — so no rapidly-changing weather text becomes a page's primary SEO content,
+and no weather-specific URLs are created or indexed.
 
 ## Analytics
 
@@ -144,6 +145,14 @@ rather than an isolated widget.
 - `components/WeatherSurfSummary.tsx` — server component (renders summary text)
 - `components/ConditionsFooter.tsx` — client component (expand + analytics + links)
 - `app/page.tsx` — placement near the top of the homepage
+- `app/[...slug]/page.tsx` — renders the module on hub pages listed in
+  `CONDITIONS_PAGES` (currently the `/bondi-weather` hub)
+
+## Where the module appears
+
+The homepage renders it directly. For other pages, add the path (→ destination
+key) to `CONDITIONS_PAGES` in `lib/conditions/locations.ts`; hub pages in that map
+render it automatically. Today it shows on the homepage and the `/bondi-weather` hub.
 
 ## Config / keys still required
 
