@@ -18,6 +18,8 @@ export type ContentType =
 export interface HubSection {
   heading: string;
   intro?: string;
+  /** Optional small category label shown above the heading (editorial eyebrow). */
+  eyebrow?: string;
   links: { title: string; path: string }[];
 }
 

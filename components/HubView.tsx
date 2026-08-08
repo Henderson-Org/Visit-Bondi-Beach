@@ -52,8 +52,18 @@ function SectionBlock({ section, layout }: { section: HubSection; layout: Sectio
   return (
     <section id={slugify(section.heading)} className="scroll-mt-24">
       <div className="max-w-prose">
-        <h2 className="font-display text-2xl md:text-3xl text-ink-900">{section.heading}</h2>
-        {section.intro && <p className="mt-2 text-ink-700">{section.intro}</p>}
+        {section.eyebrow && (
+          <div className="flex items-center gap-3">
+            <span className="h-px w-7 bg-ocean-500" aria-hidden="true" />
+            <span className="text-xs font-semibold uppercase tracking-widest text-ocean-600">
+              {section.eyebrow}
+            </span>
+          </div>
+        )}
+        <h2 className={`font-display text-2xl md:text-[1.75rem] leading-tight text-ink-900 ${section.eyebrow ? 'mt-3' : ''}`}>
+          {section.heading}
+        </h2>
+        {section.intro && <p className="mt-2.5 text-lg leading-relaxed text-ink-600">{section.intro}</p>}
       </div>
 
       {layout === 'featured' && cards.length > 1 ? (
@@ -165,8 +175,10 @@ export function HubView({ page }: { page: Page }) {
 
         {/* "Perfect for…" quick discovery — contextual entry points into the sections. */}
         {design.discovery && design.discovery.items.length > 0 && (
-          <div className="mt-8 flex flex-wrap items-center gap-2">
-            <span className="mr-1 text-sm font-semibold text-ink-900">{design.discovery.intro}</span>
+          <div className="mt-8 flex flex-wrap items-center gap-x-2 gap-y-2.5">
+            <span className="mr-1 text-xs font-semibold uppercase tracking-widest text-ink-500">
+              {design.discovery.intro}
+            </span>
             {design.discovery.items.map((d) => {
               const target = sections[d.section];
               if (!target) return null;
@@ -183,8 +195,9 @@ export function HubView({ page }: { page: Page }) {
           </div>
         )}
 
-        {/* Sections */}
-        <div className="mt-12 space-y-14 pb-4">
+        {/* Sections — separated from the quick-browse strip above by a hairline so the
+            guide proper reads as its own composed block. */}
+        <div className="mt-10 border-t border-sand-200 pt-12 space-y-16 pb-4">
           {sections.map((s, i) => (
             <SectionBlock key={s.heading} section={s} layout={design.sectionLayouts[i] ?? 'grid'} />
           ))}

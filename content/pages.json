@@ -29348,8 +29348,9 @@
     "liveUrl": "",
     "sections": [
       {
-        "heading": "Start here",
-        "intro": "If it's your first time, or you're short on time.",
+        "eyebrow": "New to Bondi",
+        "heading": "The Bondi essentials",
+        "intro": "The guides we'd hand a first-time visitor — enough to make the most of a few spare hours or a whole day by the beach.",
         "links": [
           {
             "title": "34 of the best things to do in Bondi",
@@ -29366,6 +29367,7 @@
         ]
       },
       {
+        "eyebrow": "Sea & surf",
         "heading": "On the water",
         "intro": "Swimming, surfing and what's out beyond the break.",
         "links": [
@@ -29384,8 +29386,9 @@
         ]
       },
       {
+        "eyebrow": "Like a local",
         "heading": "Beyond the sand",
-        "intro": "The local secrets and the unexpected.",
+        "intro": "The local secrets and the spots most visitors walk straight past.",
         "links": [
           {
             "title": "The hidden gems of Bondi Beach",

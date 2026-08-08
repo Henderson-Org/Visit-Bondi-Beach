@@ -8,8 +8,9 @@
   "intro": "There's far more to Bondi than lying on the sand. Whether you've got three hours or three days, here's what we'd actually do — the essentials first, then the water, then the bits most visitors miss.",
   "sections": [
     {
-      "heading": "Start here",
-      "intro": "If it's your first time, or you're short on time.",
+      "eyebrow": "New to Bondi",
+      "heading": "The Bondi essentials",
+      "intro": "The guides we'd hand a first-time visitor — enough to make the most of a few spare hours or a whole day by the beach.",
       "links": [
         { "title": "34 of the best things to do in Bondi", "path": "/bondi-blog/34-best-things-to-do-bondi-beach" },
         { "title": "24 hours in Bondi: top things to do", "path": "/bondi-blog/24-hours-in-bondi-beach" },
@@ -17,6 +18,7 @@
       ]
     },
     {
+      "eyebrow": "Sea & surf",
       "heading": "On the water",
       "intro": "Swimming, surfing and what's out beyond the break.",
       "links": [
@@ -26,8 +28,9 @@
       ]
     },
     {
+      "eyebrow": "Like a local",
       "heading": "Beyond the sand",
-      "intro": "The local secrets and the unexpected.",
+      "intro": "The local secrets and the spots most visitors walk straight past.",
       "links": [
         { "title": "The hidden gems of Bondi Beach", "path": "/bondi-blog/hidden-gems-bondi-beach" },
         { "title": "9 unique Bondi experiences beyond the surf", "path": "/bondi-blog/2025/4/25/9-unique-bondi-beach-experiences-to-try-beyond-the-sand-and-surf" },
