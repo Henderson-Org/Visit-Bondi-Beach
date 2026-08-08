@@ -372,10 +372,12 @@ export const PROPERTIES: Property[] = [
     bestFor: ['budget', 'groups', 'beach-access', 'ocean-views'],
     amenities: { kitchen: true, oceanViews: true },
     providers: ['hostelworld', 'booking'],
+    // Owner-supplied Klook affiliate booking link — used directly for "Check availability".
+    bookingUrl: 'https://s.klook.com/c/2XALb2zD3l',
     hasGuide: false,
     image: null,
     active: true,
-    source: 'https://www.hotels.com/ho504920/',
+    source: 'https://www.klook.com/hotels/detail/494294-wake-up-bondi-beach--hostel/',
     lastReviewed: REVIEWED,
   },
   {

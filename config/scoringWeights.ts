@@ -92,6 +92,12 @@ export const KLOOK = {
   geographicFit: 10,
   /** The ONLY commercial term — kept small so commission can't outrank quality. */
   commercialBonus: 4, // commercialScore (0–10) × (this / 10)
+  /**
+   * Boost for an editorially "featured" affiliate activity (e.g. the Bondi surf lesson) so it
+   * is suggested across a large share of relevant itineraries. Still only applies when the
+   * activity matches the visitor — it never appears on an unrelated day.
+   */
+  featuredBoost: 20,
 } as const;
 
 /** Max affiliate activities per itinerary by duration (defaults; tunable). */

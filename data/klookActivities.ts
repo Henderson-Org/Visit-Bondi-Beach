@@ -38,6 +38,8 @@ export interface KlookActivity {
   bookingDuration: string; // human, e.g. "1.5–2 hours"
   bookingLocation: string;
   commissionCategory?: string;
+  /** Editorially featured — surfaced across a large share of relevant itineraries. */
+  featured?: boolean;
   shortDescription: string;
   whyGo: string;
   lastVerified: string;
@@ -48,24 +50,25 @@ const V = '2026-08-08';
 export const KLOOK_ACTIVITIES: KlookActivity[] = [
   {
     id: 'bondi-surf-lesson',
-    name: 'Bondi Beach surf lesson',
+    name: 'Bondi Beach 2-hour surf lesson',
     activityType: 'surf-lesson',
     zone: 'central-bondi',
     family: 'swim-water',
-    fulfillsPreferences: ['fitness', 'iconic', 'beach'],
-    durationMins: 105,
+    fulfillsPreferences: ['fitness', 'iconic', 'beach', 'family', 'photography'],
+    durationMins: 120,
     idealTimeOfDay: ['early', 'morning', 'midday'],
-    editorialScore: 8,
+    editorialScore: 8.5,
     commercialScore: 8,
     isAffiliate: true,
     affiliateProvider: 'klook',
-    affiliateUrl: '',
+    affiliateUrl: 'https://s.klook.com/c/VweQkBrDwJ',
     bookingRecommended: true,
-    bookingDuration: '1.5–2 hours',
+    bookingDuration: '2 hours',
     bookingLocation: 'Bondi Beach',
     commissionCategory: 'activities',
-    shortDescription: 'A beginner-friendly group surf lesson on Bondi Beach with boards and wetsuits included.',
-    whyGo: 'The classic active, iconic Bondi experience — learn to surf where Bondi Rescue is filmed.',
+    featured: true,
+    shortDescription: 'A beginner-friendly 2-hour small-group surf lesson on Bondi Beach with boards and wetsuits included.',
+    whyGo: 'The classic active, iconic Bondi experience — learn to surf on the most famous beach in Australia.',
     lastVerified: V,
   },
   {

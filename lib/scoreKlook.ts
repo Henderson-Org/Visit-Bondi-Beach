@@ -32,6 +32,10 @@ export function scoreKlook(a: KlookActivity, prefs: Preferences, ctx: { timeOfDa
 
   b.commercialBonus = (a.commercialScore / 10) * KLOOK.commercialBonus;
 
+  // Featured activities are surfaced broadly — but only when they actually match the visitor
+  // (matched > 0), so a featured surf lesson never lands on an unrelated food-only day.
+  b.featuredBoost = a.featured && matched > 0 ? KLOOK.featuredBoost : 0;
+
   const total = Object.values(b).reduce((s, n) => s + n, 0);
   return { total, breakdown: b };
 }

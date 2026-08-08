@@ -97,3 +97,34 @@ describe('regression — anchors, ordering, markets date-awareness, swap', () =>
     expect(after.items[idx].refId).not.toBe(before);
   });
 });
+
+import { getProperty } from '@/data/accommodation';
+import { bookingLinkFor } from '@/lib/stay';
+
+describe('Klook links (owner-supplied)', () => {
+  const common = [
+    P({ interests: ['iconic', 'beach', 'swimming'] }),
+    P({ interests: ['beach', 'photography', 'family'] }),
+    P({ interests: ['iconic', 'coastal-walks', 'photography'] }),
+    P({ interests: ['fitness', 'iconic'], duration: 'half' }),
+  ];
+  it('featured Bondi surf lesson is suggested across a large share of relevant itineraries', () => {
+    const hits = common.filter((s) => generateItinerary(s).items.some((i) => i.refId === 'bondi-surf-lesson')).length;
+    expect(hits).toBeGreaterThanOrEqual(3);
+  });
+  it('surf lesson carries the real Klook affiliate URL', () => {
+    const it2 = generateItinerary(P({ interests: ['iconic', 'beach', 'fitness'] }));
+    const surf = it2.items.find((i) => i.refId === 'bondi-surf-lesson');
+    expect(surf?.affiliateUrl).toBe('https://s.klook.com/c/VweQkBrDwJ');
+  });
+  it('does NOT appear on an unrelated food/relaxing day', () => {
+    const it2 = generateItinerary(P({ interests: ['food', 'relaxing'], foodStyles: ['modern-au'] }));
+    expect(it2.items.some((i) => i.refId === 'bondi-surf-lesson')).toBe(false);
+  });
+  it("Wake Up! Bondi Beach 'Check availability' uses the Klook booking link (not Travelpayouts-wrapped)", () => {
+    const p = getProperty('wake-up-bondi-beach')!;
+    const link = bookingLinkFor(p, 'stay-card');
+    expect(link.href).toBe('https://s.klook.com/c/2XALb2zD3l');
+    expect(link.label).toBe('Klook');
+  });
+});

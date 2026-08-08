@@ -123,6 +123,13 @@ export function getAffiliateLink(req: AffiliateRequest): AffiliateLink {
   const provider = PROVIDERS[req.provider];
   const target = req.targetUrl || provider.targetUrl(req);
   const campaign = req.campaign ?? req.placement;
+
+  // A direct Klook affiliate deep link is already monetised — use it as-is (never wrap it
+  // in Travelpayouts) and label it as Klook so the CTA is accurate.
+  if (/klook\.com/.test(target)) {
+    return { provider: req.provider, label: 'Klook', cta: provider.cta, href: target, tracked: true };
+  }
+
   const href = wrap(provider, target, campaign);
   return {
     provider: req.provider,
