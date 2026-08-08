@@ -108,6 +108,15 @@ export const MAX_AFFILIATE_ACTIVITIES: Record<'2h' | 'half' | 'full', number> = 
 };
 
 /** Activity priority tiers. Affiliate status NEVER moves an activity up a tier. */
+/**
+ * Featured experiences — surfaced across most itineraries via a boost (like a signature
+ * must-do). The coastal walk is featured: the full Bondi→Bronte when time/walking allow,
+ * otherwise the shorter Bondi→Tamarama return (both listed; the generator picks whichever
+ * fits the time and walking tolerance, and the redundancy rule stops both appearing).
+ */
+export const FEATURED_EXPERIENCES = new Set(['bondi-bronte-walk', 'bondi-tamarama-walk']);
+export const FEATURED_EXPERIENCE_BOOST = 16;
+
 export const TIER_ONE = new Set(['bondi-beach', 'icebergs-pool', 'bondi-bronte-walk', 'bondi-tamarama-walk', 'bondi-markets', 'bondi-farmers-market', 'beach-swim']);
 export const TIER_THREE = new Set(['bondi-promenade', 'skate-park', 'beach-downtime']);
 export const TIER_BOOST = { 1: 8, 2: 0, 3: -6 } as const;

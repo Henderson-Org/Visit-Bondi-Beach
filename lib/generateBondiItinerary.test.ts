@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { generateItinerary, swapVenue } from './generateBondiItinerary';
+import { generateItinerary, swapVenue, useAlternative } from './generateBondiItinerary';
 import { familyOf } from '@/data/bondiExperiences';
 import type { Preferences } from '@/types/preferences';
 
@@ -126,5 +126,32 @@ describe('Klook links (owner-supplied)', () => {
     const link = bookingLinkFor(p, 'stay-card');
     expect(link.href).toBe('https://s.klook.com/c/2XALb2zD3l');
     expect(link.label).toBe('Klook');
+  });
+});
+
+describe('surf lesson offers a free alternative; coastal walk features broadly', () => {
+  const morningActive = P({ interests: ['fitness', 'iconic', 'beach'], duration: 'half', startTime: 'morning' });
+  it('the surf lesson carries a non-affiliate alternative to switch to', () => {
+    const it2 = generateItinerary(morningActive);
+    const surf = it2.items.find((i) => i.refId === 'bondi-surf-lesson');
+    expect(surf?.alt?.refId).toBeTruthy();
+  });
+  it('useAlternative swaps the bookable surf lesson for its free experience', () => {
+    const it2 = generateItinerary(morningActive);
+    const idx = it2.items.findIndex((i) => i.refId === 'bondi-surf-lesson');
+    expect(idx).toBeGreaterThanOrEqual(0);
+    const after = useAlternative(it2, idx, morningActive);
+    expect(after.items[idx].kind).toBe('experience');
+    expect(after.items[idx].isAffiliate).toBeFalsy();
+    expect(after.items[idx].refId).not.toBe('bondi-surf-lesson');
+  });
+  it('a featured coastal walk appears across most walk/photography full days', () => {
+    const scenarios = [
+      P({ interests: ['coastal-walks', 'photography'], walking: 'high', duration: 'full' }),
+      P({ interests: ['iconic', 'photography', 'coastal-walks'], walking: 'medium', duration: 'full' }),
+      P({ interests: ['beach', 'coastal-walks', 'relaxing'], walking: 'high', duration: 'full' }),
+    ];
+    const hits = scenarios.filter((s) => generateItinerary(s).items.some((i) => i.family === 'coastal-walk')).length;
+    expect(hits).toBeGreaterThanOrEqual(2);
   });
 });

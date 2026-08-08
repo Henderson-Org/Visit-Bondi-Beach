@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { PreferenceCards } from '@/components/PreferenceCards';
 import { ItineraryTimeline } from '@/components/ItineraryTimeline';
-import { generateItinerary, swapExperience, swapVenue, type Itinerary } from '@/lib/generateBondiItinerary';
+import { generateItinerary, swapExperience, swapVenue, swapKlook, useAlternative, type Itinerary } from '@/lib/generateBondiItinerary';
 import { track } from '@/lib/analytics';
 import type { Interest, Preferences } from '@/types/preferences';
 
@@ -48,7 +48,19 @@ export function PlannerApp() {
   const onSwap = (index: number) => {
     if (!itinerary || !prefs) return;
     const item = itinerary.items[index];
-    setItinerary(item.kind === 'venue' ? swapVenue(itinerary, index, prefs) : swapExperience(itinerary, index, prefs));
+    const next = item.kind === 'venue' ? swapVenue(itinerary, index, prefs)
+      : item.kind === 'klook' ? swapKlook(itinerary, index, prefs)
+      : swapExperience(itinerary, index, prefs);
+    setItinerary(next);
+    track('itinerary_swap', { kind: item.kind, from: item.refId });
+  };
+
+  // Switch a bookable to its free alternative — the "surf lesson or the coastal walk" fallback.
+  const onAlt = (index: number) => {
+    if (!itinerary || !prefs) return;
+    const item = itinerary.items[index];
+    setItinerary(useAlternative(itinerary, index, prefs));
+    track('itinerary_use_alternative', { from: item.refId, to: item.alt?.refId });
   };
 
   const interestSummary = useMemo(() => prefs?.interests.map((i) => i.replace('-', ' ')).join(' · '), [prefs]);
@@ -91,7 +103,7 @@ export function PlannerApp() {
       )}
 
       <div className="mt-6">
-        <ItineraryTimeline itinerary={itinerary} debug={debug} onSwap={onSwap} />
+        <ItineraryTimeline itinerary={itinerary} debug={debug} onSwap={onSwap} onAlt={onAlt} />
       </div>
 
       {itinerary.hasAffiliate && (

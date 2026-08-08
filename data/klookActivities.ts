@@ -54,7 +54,7 @@ export const KLOOK_ACTIVITIES: KlookActivity[] = [
     activityType: 'surf-lesson',
     zone: 'central-bondi',
     family: 'swim-water',
-    fulfillsPreferences: ['fitness', 'iconic', 'beach', 'family', 'photography'],
+    fulfillsPreferences: ['fitness', 'iconic', 'beach', 'family', 'photography', 'swimming'],
     durationMins: 120,
     idealTimeOfDay: ['early', 'morning', 'midday'],
     editorialScore: 8.5,

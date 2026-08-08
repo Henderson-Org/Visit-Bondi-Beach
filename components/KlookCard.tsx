@@ -10,7 +10,7 @@ import type { ItineraryItem } from '@/lib/generateBondiItinerary';
  * real affiliateUrl is set; otherwise it shows a non-linked bookable label (no fabricated
  * URLs). Fires GA4 klook_shown on render and affiliate_click on the CTA.
  */
-export function KlookCard({ item, timeLabel, debug, onSwap }: { item: ItineraryItem; timeLabel: string; debug?: boolean; onSwap: () => void }) {
+export function KlookCard({ item, timeLabel, debug, onSwap, onAlt }: { item: ItineraryItem; timeLabel: string; debug?: boolean; onSwap: () => void; onAlt: () => void }) {
   useEffect(() => {
     track('klook_activity_shown', { activity: item.refId, activity_type: item.activityType });
   }, [item.refId, item.activityType]);
@@ -47,6 +47,16 @@ export function KlookCard({ item, timeLabel, debug, onSwap }: { item: ItineraryI
           Change activity
         </button>
       </div>
+
+      {item.alt && (
+        <p className="mt-2.5 text-xs text-ink-500">
+          Not into surfing?{' '}
+          <button type="button" onClick={onAlt} className="font-medium text-ocean-700 underline decoration-ocean-300 underline-offset-2 hover:decoration-ocean-600">
+            Swap for {item.alt.title.toLowerCase()}
+          </button>{' '}
+          instead.
+        </p>
+      )}
 
       {debug && item.debug && (
         <pre className="mt-3 overflow-x-auto rounded-lg bg-ink-900/90 p-3 text-[11px] leading-relaxed text-sand-50">{JSON.stringify(item.debug, null, 2)}</pre>

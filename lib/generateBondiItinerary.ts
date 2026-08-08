@@ -16,7 +16,7 @@ import { scoreVenue } from '@/lib/scoreVenue';
 import { scoreKlook } from '@/lib/scoreKlook';
 import { selectMealAnchor, toHHMM } from '@/lib/selectMealAnchor';
 import { walkMinutes, ZONE_LABEL, type Zone } from '@/lib/bondiZones';
-import { PACE_TARGET, REDUNDANCY, MAX_UNEXPLAINED_GAP, MAX_AFFILIATE_ACTIVITIES, TIER_BOOST, tierOf } from '@/config/scoringWeights';
+import { PACE_TARGET, REDUNDANCY, MAX_UNEXPLAINED_GAP, MAX_AFFILIATE_ACTIVITIES, TIER_BOOST, tierOf, FEATURED_EXPERIENCES, FEATURED_EXPERIENCE_BOOST } from '@/config/scoringWeights';
 import { activeBundles, bundleBonus } from '@/lib/bundles';
 import { foodIsPriority, type Interest, type MealSlot, type Preferences, type StartTime, type Duration } from '@/types/preferences';
 
@@ -65,6 +65,8 @@ export interface ItineraryItem {
   activityType?: string;
   walkToNextMins?: number;
   hoursVerified?: boolean;
+  /** A non-affiliate fallback the visitor can switch to (e.g. "surf lesson or the coastal walk"). */
+  alt?: { refId: string; title: string };
   debug?: Record<string, unknown>;
 }
 
@@ -189,6 +191,8 @@ export function generateItinerary(prefs: Preferences): Itinerary {
       const recent = familySeq.slice(-REDUNDANCY.adjacentWindow);
       if (recent.includes(fam)) v -= mustDo >= REDUNDANCY.distinctMustDo ? REDUNDANCY.sameFamilyAdjacent * 0.4 : REDUNDANCY.sameFamilyAdjacent;
       v += TIER_BOOST[tierOf(id)];
+      // Featured signature experiences (the coastal walk) surface across most itineraries.
+      if (FEATURED_EXPERIENCES.has(id)) v += FEATURED_EXPERIENCE_BOOST;
       v -= detour(prevZoneOf(), zone, nextAnchor?.zone ?? null) * 1.2;
       if (!isAffiliate) v += (anchorExpPairs.has(id) ? 10 : 0) + bundleBonus(id, bundles);
       return v;
@@ -214,6 +218,8 @@ export function generateItinerary(prefs: Preferences): Itinerary {
       if (affiliateCount < maxAffiliate) {
         for (const a of KLOOK_ACTIVITIES) {
           if (used.has(a.id) || a.durationMins > remaining + 10) continue;
+          // Only place a bookable at a time of day it actually suits (surf lessons are morning-ish).
+          if (!a.idealTimeOfDay.includes(tod)) continue;
           const sc = scoreKlook(a, prefs, { timeOfDay: tod, plannedZones });
           const adjusted = adjust(sc.total, a.id, a.zone, a.family, a.fulfillsPreferences, 5, true);
           cands.push({ kind: 'klook', id: a.id, zone: a.zone, family: a.family, dur: a.durationMins, fulfils: a.fulfillsPreferences, adjusted, base: sc.total, mustDo: 5, isAffiliate: true, breakdown: sc.breakdown });
@@ -242,11 +248,16 @@ export function generateItinerary(prefs: Preferences): Itinerary {
         cursor += e.durationMins + 10;
       } else {
         const a = KLOOK_ACTIVITIES.find((k) => k.id === pick.id)!;
+        // Offer a free, non-affiliate fallback ("surf lesson or …") — the strongest experience
+        // that would otherwise fit this slot, so the visitor is never boxed into the paid option.
+        const altCand = cands.find((c) => c.kind === 'experience' && c.dur <= a.durationMins + 30);
+        const alt = altCand ? { refId: altCand.id, title: getExperience(altCand.id)!.name } : undefined;
         expItems.push({
           key: `k-${a.id}`, kind: 'klook', refId: a.id, title: a.name, zone: a.zone, family: pick.family,
           startMin: cursor, durationMins: a.durationMins, why: whyKlook(a, prefs),
           isAffiliate: true, affiliateUrl: a.affiliateUrl || undefined, affiliateProvider: a.affiliateProvider,
           bookingDuration: a.bookingDuration, activityType: a.activityType, booking: a.bookingRecommended ? 'recommended' : undefined,
+          alt,
           debug: { total: Math.round(pick.base), adjusted: Math.round(pick.adjusted), marginal: newly.length, affiliate: true, breakdown: pick.breakdown },
         });
         cursor += a.durationMins + 10;
@@ -338,6 +349,59 @@ export function swapVenue(it: Itinerary, index: number, prefs: Preferences): Iti
   const items = it.items.slice();
   items[index] = { ...item, key: `v-${v.id}`, refId: v.id, title: v.name, zone: v.zone, why: whyVenue(v, prefs, item.slot),
     booking: v.bookingRequired ? 'essential' : v.bookingRecommended ? 'recommended' : undefined, priceLevel: v.priceLevel, websiteUrl: v.websiteUrl, hoursVerified: v.hoursVerified, debug: { total: Math.round(ranked[0].s.total) } };
+  recomputeWalks(items);
+  return { ...it, items };
+}
+
+/**
+ * Switch a bookable (Klook) stop to its free, non-affiliate alternative — the "surf lesson or …"
+ * fallback. Uses the stored `alt` if present, otherwise falls back to the best-fitting experience.
+ */
+export function useAlternative(it: Itinerary, index: number, prefs: Preferences): Itinerary {
+  const item = it.items[index];
+  if (!item || item.kind !== 'klook') return it;
+  const usedIds = new Set(it.items.map((i) => i.refId));
+  let e = item.alt ? getExperience(item.alt.refId) : undefined;
+  if (!e || usedIds.has(e.id)) {
+    const tod = timeOfDay(item.startMin);
+    const plannedZones = it.items.filter((_, i) => i !== index).map((i) => i.zone);
+    const ranked = BONDI_EXPERIENCES.filter((x) => !usedIds.has(x.id) && x.durationMins <= item.durationMins + 40)
+      .map((x) => ({ x, sc: scoreExperience(x, prefs, { weekday: it.weekday, timeOfDay: tod, plannedZones, usedCategoryCounts: {} }) }))
+      .filter((c) => c.sc.available && c.sc.breakdown.walkingMismatchPenalty === 0)
+      .sort((a, b) => b.sc.total - a.sc.total);
+    e = ranked[0]?.x;
+  }
+  if (!e) return it;
+  const items = it.items.slice();
+  items[index] = {
+    key: `e-${e.id}`, kind: 'experience', refId: e.id, title: e.name, zone: e.zone, family: familyOf(e.id),
+    startMin: item.startMin, durationMins: e.durationMins,
+    why: whyExperience(e, e.categories.filter((c) => prefs.interests.includes(c))),
+    debug: { total: 0, swappedFrom: item.refId },
+  };
+  recomputeWalks(items);
+  return { ...it, items };
+}
+
+/** Swap a bookable (Klook) stop for a different bookable of similar length; else its free alternative. */
+export function swapKlook(it: Itinerary, index: number, prefs: Preferences): Itinerary {
+  const item = it.items[index];
+  if (!item || item.kind !== 'klook') return it;
+  const usedIds = new Set(it.items.map((i) => i.refId));
+  const tod = timeOfDay(item.startMin);
+  const plannedZones = it.items.filter((_, i) => i !== index).map((i) => i.zone);
+  const ranked = KLOOK_ACTIVITIES.filter((a) => !usedIds.has(a.id) && a.durationMins <= item.durationMins + 40 && a.idealTimeOfDay.includes(tod))
+    .map((a) => ({ a, sc: scoreKlook(a, prefs, { timeOfDay: tod, plannedZones }) }))
+    .sort((x, y) => y.sc.total - x.sc.total);
+  if (!ranked.length) return useAlternative(it, index, prefs);
+  const a = ranked[0].a;
+  const items = it.items.slice();
+  items[index] = {
+    ...item, key: `k-${a.id}`, refId: a.id, title: a.name, zone: a.zone, family: a.family,
+    why: whyKlook(a, prefs), isAffiliate: true, affiliateUrl: a.affiliateUrl || undefined, affiliateProvider: a.affiliateProvider,
+    bookingDuration: a.bookingDuration, activityType: a.activityType, booking: a.bookingRecommended ? 'recommended' : undefined,
+    debug: { total: Math.round(ranked[0].sc.total) },
+  };
   recomputeWalks(items);
   return { ...it, items };
 }

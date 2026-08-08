@@ -17,10 +17,12 @@ export function ItineraryTimeline({
   itinerary,
   debug,
   onSwap,
+  onAlt,
 }: {
   itinerary: Itinerary;
   debug?: boolean;
   onSwap: (index: number) => void;
+  onAlt: (index: number) => void;
 }) {
   return (
     <ol className="space-y-0">
@@ -29,7 +31,7 @@ export function ItineraryTimeline({
           {item.kind === 'venue' ? (
             <VenueCard item={item} timeLabel={formatClock(item.startMin)} debug={debug} onSwap={() => onSwap(i)} />
           ) : item.kind === 'klook' ? (
-            <KlookCard item={item} timeLabel={formatClock(item.startMin)} debug={debug} onSwap={() => onSwap(i)} />
+            <KlookCard item={item} timeLabel={formatClock(item.startMin)} debug={debug} onSwap={() => onSwap(i)} onAlt={() => onAlt(i)} />
           ) : (
             <ExperienceCard item={item} timeLabel={formatClock(item.startMin)} debug={debug} onSwap={() => onSwap(i)} />
           )}
