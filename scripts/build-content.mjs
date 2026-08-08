@@ -21,6 +21,7 @@ const stripHost = (u = '') => u.replace(/^https?:\/\/(www\.)?visitbondibeach\.co
 // Force image URLs to https (Squarespace serves some over http://static1.squarespace.com,
 // which is mixed-content + not in next/image's allow-list otherwise).
 const httpsify = (u = '') => u.replace(/^http:\/\//i, 'https://');
+const stripQuery = (u = '') => u.split('?')[0].split('#')[0];
 
 function publishedFromPath(path) {
   const m = path.match(/^\/bondi-blog\/(\d{4})\/(\d{1,2})\/(\d{1,2})\//);
@@ -69,6 +70,19 @@ async function main() {
   try { demand = JSON.parse(await readFile(join(ROOT, 'content', 'search-demand.json'), 'utf8')); }
   catch { /* no demand data */ }
 
+  // Image re-hosting map (base Squarespace URL → local /images/articles/... path),
+  // produced by scripts/rehost-images.mjs. The site is self-hosted: rewrite every
+  // crawled image URL to its local copy so nothing depends on the Squarespace CDN.
+  // A URL missing from the map (download failed) falls back to the original remote.
+  let imageMap = {};
+  try { imageMap = JSON.parse(await readFile(join(ROOT, 'content', 'image-map.json'), 'utf8')); }
+  catch { /* not re-hosted yet — images stay remote */ }
+  const localImage = (u = '') => {
+    if (!u) return '';
+    const local = imageMap[stripQuery(httpsify(u))];
+    return local || httpsify(u);
+  };
+
   const pages = [];
   let overrideCount = 0;
   let bodyCount = 0;
@@ -89,8 +103,8 @@ async function main() {
       canonical: (ex.canonical || '').trim(),
       h1: (ov.h1 || (Array.isArray(ex.h1) ? ex.h1[0] : ex.h1) || '').trim(),
       headings: Array.isArray(ex.h2) ? ex.h2.slice(0, 20) : [],
-      ogImage: httpsify(ex.og?.image || ''),
-      heroImage: httpsify(
+      ogImage: localImage(ex.og?.image || ''),
+      heroImage: localImage(
         ex.images?.find((i) => i.src && /squarespace/.test(i.src))?.src || ex.og?.image || ''
       ),
       intro: (ex.contentPreview || '').trim(),
@@ -141,6 +155,26 @@ async function main() {
       });
     }
   } catch { /* no authored dir yet */ }
+
+  // Safety guard: the migration crawl output (migration/extracted/) is gitignored
+  // and regenerable, so in a fresh clone it's absent. Without it we'd rebuild a
+  // gutted index (crawled titles/bodies/images all dropped — only overrides and
+  // authored pages survive) and clobber the committed pages.json. If the crawl is
+  // absent but an existing pages.json holds crawled content (full body blocks),
+  // refuse to overwrite it. Re-run `npm run crawl` first, or apply targeted edits
+  // (e.g. scripts/apply-image-map.mjs) that don't need the crawl.
+  if (files.length === 0) {
+    let existing = [];
+    try { existing = JSON.parse(await readFile(join(OUT_DIR, 'pages.json'), 'utf8')); } catch {}
+    if (existing.some((p) => Array.isArray(p.blocks) && p.blocks.length)) {
+      console.error(
+        'Refusing to overwrite content/pages.json: migration/extracted/ is missing, so ' +
+        'this rebuild has no crawled content and would strip the committed index. Run ' +
+        '`npm run crawl` to regenerate the crawl output first. Aborting to protect content.'
+      );
+      process.exit(1);
+    }
+  }
 
   await mkdir(OUT_DIR, { recursive: true });
   await writeFile(join(OUT_DIR, 'pages.json'), JSON.stringify(pages, null, 2));
