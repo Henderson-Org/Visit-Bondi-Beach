@@ -1,0 +1,74 @@
+{
+  "path": "/bondi-blog/2025/4/25/must-experience-bondi-restaurants-our-top-10-best-restaurants-ranked",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Urban List — The Best Restaurants in Bondi for 2026", "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-bondi" },
+    { "label": "Time Out Sydney — Best restaurants in Sydney", "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney" },
+    { "label": "Icebergs Dining Room and Bar", "url": "https://idrb.com/" },
+    { "label": "Sean's (formerly Sean's Panorama)", "url": "https://seansbondi.com/" },
+    { "label": "North Bondi Fish", "url": "https://northbondifish.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Bondi's dining goes well beyond fish and chips on the sand. There's cliff-top Italian, produce-driven fine dining that's been going since the early '90s, beachfront seafood and a new wave of share-plate spots on Hall Street. Below is the shortlist I'd steer a visitor towards — grouped by the kind of night you're after, with what each place is known for and who it suits. I write as a local curator rather than claiming to have dined at each one this month, so book ahead for the big ones and check current details before you go." },
+    { "type": "quickFacts", "items": [
+      { "label": "Special occasion", "value": "Icebergs" },
+      { "label": "Best view", "value": "Icebergs / North Bondi Fish" },
+      { "label": "Beachfront seafood", "value": "North Bondi Fish" },
+      { "label": "Newer pick", "value": "LULU" }
+    ] },
+    { "type": "callout", "tone": "note", "title": "A living guide", "text": "Restaurants change — menus, chefs and hours shift, and the best tables book out. I last reviewed this in August 2026; confirm opening days and book ahead on the venue's own channels before a special trip." },
+
+    { "type": "h2", "text": "Best for a special occasion" },
+    { "type": "h3", "text": "Icebergs Dining Room and Bar" },
+    { "type": "p", "text": "Icebergs is the Bondi bucket-list dinner — a glamorous, glass-walled Italian dining room on the southern cliff, looking straight down over the Icebergs pool and the ocean. Overseen by hospitality figure Maurice Terzini, it's polished coastal Italian with one of the best views of any restaurant in Sydney. Best for: a celebration, a long lunch, or impressing visitors — book well ahead, and it's at the premium end. You can pair it with a look at the [Icebergs pool and where to swim](/where-to-swim-at-bondi-beach) below." },
+    { "type": "h3", "text": "Sean's (formerly Sean's Panorama)" },
+    { "type": "p", "text": "A genuine Bondi institution: chef Sean Moran has run this small, produce-led restaurant on Campbell Parade since 1993 (now simply \"Sean's\"). The short, hand-written menu changes with what's good, much of it from the chef's own farm. It's understated and beloved rather than flashy. Best for: a considered, ingredient-first dinner or weekend lunch — a small room, so booking is wise." },
+
+    { "type": "h2", "text": "Beachfront seafood" },
+    { "type": "h3", "text": "North Bondi Fish" },
+    { "type": "p", "text": "About as beachfront as dining gets — right on Ramsgate Avenue at the north end, with the sand almost at the door. The menu is easy-going seafood: sashimi, calamari, tacos, and fish and chips, plus cocktails. Best for: a relaxed lunch or early dinner with a view, and a solid choice with kids in tow." },
+    { "type": "h3", "text": "Fish Shop" },
+    { "type": "p", "text": "A casual, nautical-themed seafood spot a short walk back from the beach — the more laid-back, everyday alternative to a big seafood night out. Best for: an unfussy seafood feed without a special-occasion price tag." },
+
+    { "type": "h2", "text": "Italian & share plates" },
+    { "type": "h3", "text": "Totti's Bondi" },
+    { "type": "p", "text": "Totti's, behind The Royal on Bondi Road, is the crowd-pleasing Italian everyone seems to end up at — famous for its pillowy wood-fired bread and generous, family-style plates in a sunny, convivial room. Best for: a group, a birthday, or a long boozy lunch — it's popular, so book ahead." },
+
+    { "type": "h2", "text": "Newer and something different" },
+    { "type": "h3", "text": "LULU" },
+    { "type": "p", "text": "One of the newer names worth knowing, LULU is a funky Pan-Asian bar and kitchen on Hall Street built around share plates — think Vietnamese-style prawn banh mi, Korean fried chicken and fresh sashimi, with drinks to match. Best for: a livelier, share-and-graze dinner away from the beachfront. (As a newer venue, check its days and hours before you rely on it.)" },
+
+    { "type": "h2", "text": "What's changed recently" },
+    { "type": "p", "text": "A couple of things to note for 2026. Hall Street has picked up newer, more casual share-plate venues like LULU, which are worth a look alongside the classics. Sean's Panorama now trades simply as \"Sean's\" — same chef, same Campbell Parade address, so don't be thrown by the shorter name. And the refurbished Bondi Pavilion has reopened on the beachfront with its food and drink line-up reshuffled since the works, so check who's trading there now rather than trusting older guides." },
+
+    { "type": "h2", "text": "What to know before you go" },
+    { "type": "list", "items": [
+      "Book ahead for the big ones: Icebergs, Totti's and Sean's fill up, especially for weekend lunch and warm evenings.",
+      "Timing: sunset tables with a view (Icebergs, North Bondi Fish) are the most sought-after — reserve early or aim for lunch.",
+      "Price: Icebergs and Sean's sit at the premium end; North Bondi Fish, Fish Shop and LULU are more mid-range.",
+      "Getting there: it's an easy night out on foot or by bus — see [getting to Bondi](/getting-to-bondi) if you're coming from the city.",
+      "Make a day of it: line up a swim or the coastal walk first — see [things to do in Bondi](/things-to-do-in-bondi)."
+    ] },
+
+    { "type": "h2", "text": "Which Bondi restaurant is right for you?" },
+    { "type": "list", "items": [
+      "Special occasion with a view: Icebergs Dining Room and Bar.",
+      "Ingredient-led, understated dinner: Sean's (Campbell Parade).",
+      "Beachfront seafood: North Bondi Fish.",
+      "Casual, everyday seafood: Fish Shop.",
+      "Group Italian / long lunch: Totti's Bondi.",
+      "Livelier newer share plates: LULU (Hall Street)."
+    ] },
+
+    { "type": "faq", "items": [
+      { "q": "What is the best restaurant in Bondi?", "a": "For a special-occasion dinner with a view, Icebergs Dining Room and Bar is the classic pick. For understated, produce-driven cooking, Sean's on Campbell Parade has been a favourite since 1993." },
+      { "q": "Where can I eat right on Bondi Beach?", "a": "North Bondi Fish is the most beachfront option, on Ramsgate Avenue at the north end. Icebergs sits above the pool on the southern cliff with the best elevated view." },
+      { "q": "Which Bondi restaurant has the best view?", "a": "Icebergs Dining Room and Bar, looking over the Icebergs pool and the ocean, is hard to beat; North Bondi Fish gets you closest to the sand." },
+      { "q": "Are there any newer restaurants in Bondi?", "a": "Yes — Hall Street has picked up newer share-plate spots such as LULU, a Pan-Asian bar and kitchen. Note that Sean's Panorama now trades simply as \"Sean's\"." },
+      { "q": "Do I need to book a Bondi restaurant?", "a": "For Icebergs, Totti's and Sean's, yes — book ahead, especially for weekend lunch and warm evenings. Casual spots like Fish Shop and North Bondi Fish are more forgiving." }
+    ] },
+
+    { "type": "p", "text": "Whether it's a big night at Icebergs or fish and chips on the sand, Bondi eats well. For cafés and coffee, see my [Bondi eat & drink guide](/bondi-eat-and-drink); for the rest of your visit, [things to do in Bondi](/things-to-do-in-bondi) and [what's on](/whats-on); and if you're still choosing a base, [where to stay in Bondi](/stay)." }
+  ]
+}
