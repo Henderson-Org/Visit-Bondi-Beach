@@ -11,12 +11,14 @@
     "metaDescription": "Where to park at Bondi Beach — the free streets locals use, the closest paid stations, what parking roughly costs, and the best spots to try on busy days."
   },
   "/bondi-blog/bondi-rescue-who-are-the-lifeguards": {
-    "title": "Bondi Rescue Lifeguards: Who's Who on the Beach",
-    "metaDescription": "Meet the Bondi Rescue lifeguards — who's who, their real names and roles, and how the team keeps Bondi Beach safe. A local guide to the faces behind the show."
+    "title": "Bondi Rescue Lifeguards: Who Are They? Bios, Facts & the Show",
+    "metaDescription": "Meet the Bondi Rescue lifeguards — bios of Hoppo, Harries, Reidy, Maxi and Deano, facts about the show, key moments, and how to see the real Waverley Council team at Bondi.",
+    "h1": "Bondi Rescue Lifeguards: Who Are They?"
   },
   "/bondi-blog/meet-bondi-lifeguards": {
     "title": "Meet the Bondi Beach Lifeguards",
-    "metaDescription": "The Bondi lifeguards behind Bondi Rescue — names, faces and what they actually do each day patrolling Australia's most famous beach."
+    "metaDescription": "The Bondi lifeguards behind Bondi Rescue — names, faces and what they actually do each day patrolling Australia's most famous beach.",
+    "indexable": false
   },
   "/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue": {
     "title": "The 20 Most Dramatic Bondi Rescue Moments",
@@ -24,7 +26,8 @@
   },
   "/bondi-blog/2025/4/29/behind-the-scenes-at-bondi-rescue-20-things-you-may-not-know-about-the-show": {
     "title": "Bondi Rescue: 20 Behind-the-Scenes Facts",
-    "metaDescription": "20 things you didn't know about Bondi Rescue — how it's filmed, whether it's staged, and what really happens behind the scenes at Bondi Beach."
+    "metaDescription": "20 things you didn't know about Bondi Rescue — how it's filmed, whether it's staged, and what really happens behind the scenes at Bondi Beach.",
+    "indexable": false
   },
   "/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue": {
     "title": "20 Obscure Facts About Bondi Rescue",
@@ -275,7 +278,8 @@
     "metaDescription": "How to catch the perfect Bondi Beach sunrise — the weather conditions that make it glow, the best time to arrive and where to stand."
   },
   "/bondi-blog/2026/3/24/bondis-best-cafs-right-now-where-to-eat-sip-and-soak-up-the-beach-vibe": {
-    "metaDescription": "Bondi's best cafés right now — where locals go for coffee, brunch and a post-swim feed, from beachfront hotspots to hidden laneway gems."
+    "metaDescription": "Bondi's best cafés right now — where locals go for coffee, brunch and a post-swim feed, from beachfront hotspots to hidden laneway gems.",
+    "indexable": false
   },
   "/bondi-blog/2025/8/9/the-best-places-to-carb-load-before-the-sydney-marathon": {
     "metaDescription": "Where to carb-load in Bondi before the Sydney Marathon — the best pasta, pizza and pre-race feeds near the course, from a local."
@@ -323,7 +327,8 @@
     "metaDescription": "The ultimate Bondi Beach travel guide — where to swim, eat, stay and explore, plus local tips for your trip to Sydney's famous beach."
   },
   "/bondi-blog/2025/6/26/ranked-bondis-top-10-coffee-spots-you-cant-miss": {
-    "metaDescription": "Ranked: Bondi's top 10 coffee spots — the best cafés and roasters for a proper flat white, from beachfront to backstreet, chosen by locals."
+    "metaDescription": "Ranked: Bondi's top 10 coffee spots — the best cafés and roasters for a proper flat white, from beachfront to backstreet, chosen by locals.",
+    "indexable": false
   },
   "/bondi-blog/2025/5/25/10-hidden-gems-at-bondi-beach-youll-wish-you-discovered-sooner": {
     "metaDescription": "10 hidden gems at Bondi Beach you'll wish you'd found sooner — the local spots beyond the surf and the sunbathers, from a Bondi insider."
@@ -386,7 +391,8 @@
     "metaDescription": "50 frequently asked questions about Bondi Beach, answered — location, getting there, swimming, costs and everything first-time visitors need."
   },
   "/bondi-blog/2024/12/1/ranked-20-most-dramatic-bondi-rescue-rescues": {
-    "metaDescription": "Ranked: the 20 most dramatic Bondi Rescue rescues — the biggest moments from the Bondi lifeguards and the show that made them famous."
+    "metaDescription": "Ranked: the 20 most dramatic Bondi Rescue rescues — the biggest moments from the Bondi lifeguards and the show that made them famous.",
+    "indexable": false
   },
   "/bondi-blog/2024/10/1/the-great-bondi-crumbl-cookie-scam": {
     "metaDescription": "The great Bondi Crumbl cookie saga — how a cult-brand pop-up left locals queuing for day-old cookies, and what really happened."
@@ -434,7 +440,8 @@
     "metaDescription": "Bondi's secret eats — the off-menu items and locals-only orders you didn't know you could get at Bondi Beach's cafés and takeaways."
   },
   "/bondi-blog/2024/1/19/bondis-best-coffee-shops": {
-    "metaDescription": "10 must-try Bondi cafés for coffee lovers — the beachfront hotspots and cosy hideaways for the best brew, rain or shine."
+    "metaDescription": "10 must-try Bondi cafés for coffee lovers — the beachfront hotspots and cosy hideaways for the best brew, rain or shine.",
+    "indexable": false
   },
   "/bondi-blog/2025/5/23/rain-or-shine-7-must-do-indoor-activities-in-bondi-beach-on-a-rainy-day": {
     "metaDescription": "Rain or shine — 7 must-do indoor activities in Bondi on a rainy day, from art and wellness to long lunches and shopping."

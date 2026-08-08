@@ -206,7 +206,7 @@ function topicKey(p: Page): string {
  * sort last, keeping the grid full and functional.
  */
 export function featuredArticles(limit = 12): Page[] {
-  const ranked = [...articles()].sort(
+  const ranked = [...articles()].filter((p) => p.indexable).sort(
     (a, b) =>
       (b.impressions || 0) - (a.impressions || 0) ||
       (b.clicks || 0) - (a.clicks || 0) ||

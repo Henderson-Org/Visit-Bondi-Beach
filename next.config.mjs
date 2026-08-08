@@ -20,6 +20,18 @@ const nextConfig = {
       // Only the index redirects — individual /bondi-blog/[post] article URLs are
       // preserved exactly to keep their rankings and backlinks.
       { source: '/bondi-blog', destination: '/articles', statusCode: 301 },
+
+      // Content consolidation (301s to the stronger page in each cluster) — removes
+      // keyword cannibalisation between near-duplicate articles. No redirect chains:
+      // every destination is a canonical page that is not itself redirected.
+      // Café / coffee cluster → the canonical Bondi cafés guide:
+      { source: '/bondi-blog/2026/3/24/bondis-best-cafs-right-now-where-to-eat-sip-and-soak-up-the-beach-vibe', destination: '/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach', statusCode: 301 },
+      { source: '/bondi-blog/2025/6/26/ranked-bondis-top-10-coffee-spots-you-cant-miss', destination: '/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach', statusCode: 301 },
+      { source: '/bondi-blog/2024/1/19/bondis-best-coffee-shops', destination: '/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach', statusCode: 301 },
+      // Bondi Rescue cluster → the stronger page in each pair:
+      { source: '/bondi-blog/2024/12/1/ranked-20-most-dramatic-bondi-rescue-rescues', destination: '/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue', statusCode: 301 },
+      { source: '/bondi-blog/2025/4/29/behind-the-scenes-at-bondi-rescue-20-things-you-may-not-know-about-the-show', destination: '/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue', statusCode: 301 },
+      { source: '/bondi-blog/meet-bondi-lifeguards', destination: '/bondi-blog/bondi-rescue-who-are-the-lifeguards', statusCode: 301 },
     ];
   },
 };

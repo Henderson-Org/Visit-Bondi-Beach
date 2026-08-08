@@ -36,7 +36,17 @@ export const dynamicParams = true;
 // category/tag archives) are resolved on demand to avoid build-time encoding issues.
 // Paths handled elsewhere (a dedicated app route + a 301) — don't statically
 // generate them here or they'd shadow the redirect with a dead page.
-const REDIRECTED_PATHS = new Set(['/accommodation', '/bondi-blog']);
+const REDIRECTED_PATHS = new Set([
+  '/accommodation',
+  '/bondi-blog',
+  // Consolidated duplicates (301 to a stronger page — see next.config.mjs).
+  '/bondi-blog/2026/3/24/bondis-best-cafs-right-now-where-to-eat-sip-and-soak-up-the-beach-vibe',
+  '/bondi-blog/2025/6/26/ranked-bondis-top-10-coffee-spots-you-cant-miss',
+  '/bondi-blog/2024/1/19/bondis-best-coffee-shops',
+  '/bondi-blog/2024/12/1/ranked-20-most-dramatic-bondi-rescue-rescues',
+  '/bondi-blog/2025/4/29/behind-the-scenes-at-bondi-rescue-20-things-you-may-not-know-about-the-show',
+  '/bondi-blog/meet-bondi-lifeguards',
+]);
 
 export function generateStaticParams() {
   return allContentPaths()
