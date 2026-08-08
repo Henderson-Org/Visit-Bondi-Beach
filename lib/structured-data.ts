@@ -41,7 +41,11 @@ export function articleJsonLd(page: Page) {
   if (page.publishedAt) data.datePublished = page.publishedAt;
   if (page.lastmod) data.dateModified = page.lastmod;
   if (page.wordCount) data.wordCount = page.wordCount;
-  if (page.heroImage) data.image = page.heroImage;
+  // Schema image must be an absolute, canonical URL on the production domain.
+  // heroImage is a local path (/images/...), so resolve it against the origin.
+  if (page.heroImage) {
+    data.image = page.heroImage.startsWith('http') ? page.heroImage : `${siteOrigin()}${page.heroImage}`;
+  }
   return data;
 }
 

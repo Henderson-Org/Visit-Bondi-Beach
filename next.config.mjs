@@ -2,12 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    // Squarespace CDN originals are read during migration; re-host before launch.
-    remotePatterns: [
-      { protocol: 'https', hostname: 'images.squarespace-cdn.com' },
-      { protocol: 'https', hostname: '**.squarespace-cdn.com' },
-      { protocol: 'https', hostname: 'static1.squarespace.com' },
-    ],
+    // All images are self-hosted under /public/images and optimised by Vercel's
+    // next/image. No remote hosts are allowed — in particular NO Squarespace CDN:
+    // if a Squarespace image URL ever slipped back into the content, next/image
+    // would refuse to render it (a build/runtime error) rather than silently
+    // loading from Squarespace. This makes the independence enforced, not incidental.
+    remotePatterns: [],
   },
   async redirects() {
     // Host normalization (apex -> www, http -> https) is handled at the Vercel/DNS
