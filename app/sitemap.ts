@@ -1,6 +1,8 @@
 import type { MetadataRoute } from 'next';
 import { allPages } from '@/lib/content';
 import { PROD_ORIGIN } from '@/lib/site';
+import { stayCategorySlugs } from '@/data/stay-categories';
+import { guideSlugs } from '@/data/accommodation-guides';
 
 /**
  * XML sitemap generated from the content index. Only indexable pages are included
@@ -11,11 +13,15 @@ import { PROD_ORIGIN } from '@/lib/site';
 // Paths that redirect (301) and must NOT appear in the sitemap.
 const REDIRECTED = new Set(['/accommodation']);
 
-// Code-defined section routes that live in app/* rather than the content index.
+// Code-defined Stay routes (app/stay/*), not in the content index.
 const STATIC_ROUTES: { path: string; priority: number }[] = [
   { path: '/stay', priority: 0.8 },
   { path: '/stay/bondi-beach-vs-bondi-junction', priority: 0.6 },
   { path: '/stay/hostels-bondi-beach', priority: 0.6 },
+  // SEO category landing pages
+  ...stayCategorySlugs().map((slug) => ({ path: `/stay/${slug}`, priority: 0.7 })),
+  // Individual property review/guide pages
+  ...guideSlugs().map((slug) => ({ path: `/stay/${slug}`, priority: 0.6 })),
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

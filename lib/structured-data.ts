@@ -4,6 +4,40 @@
  */
 import { SITE, AUTHOR, siteOrigin } from './site';
 import type { Page } from './content';
+import { getArea, type Property, type StayType } from '@/data/accommodation';
+
+const LODGING_TYPE: Record<StayType, string> = {
+  hotel: 'Hotel',
+  'boutique-hotel': 'Hotel',
+  'pub-hotel': 'Hotel',
+  hostel: 'Hostel',
+  apartments: 'LodgingBusiness',
+};
+
+/**
+ * LodgingBusiness schema for a property page. Names durable facts only — name, type,
+ * locality, price range, official/booking URL. Deliberately NO aggregateRating or
+ * review: we don't hold compliant guest-review data, and our editorial score is not a
+ * schema.org Rating, so emitting one would be a fake rich-result signal.
+ */
+export function lodgingBusinessJsonLd(p: Property, path: string) {
+  const area = getArea(p.area);
+  return {
+    '@context': 'https://schema.org',
+    '@type': LODGING_TYPE[p.type],
+    name: p.name,
+    url: `${siteOrigin()}${path}`,
+    ...(p.officialUrl ? { sameAs: p.officialUrl } : {}),
+    priceRange: p.priceBand,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: area?.name ?? 'Bondi Beach',
+      addressRegion: 'NSW',
+      addressCountry: 'AU',
+    },
+    areaServed: 'Bondi Beach, Sydney',
+  };
+}
 
 export function organizationJsonLd() {
   return {

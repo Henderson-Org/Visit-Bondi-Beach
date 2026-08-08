@@ -1,74 +1,87 @@
-import { getAffiliateLink } from '@/lib/affiliate';
-import {
-  STAY_TYPE_LABEL,
-  TRAVELLER_LABEL,
-  getArea,
-  type Property,
-} from '@/data/accommodation';
-import { AffiliateButton } from './AffiliateButton';
+import Link from 'next/link';
+import Image from 'next/image';
+import { STAY_TYPE_LABEL, type Property } from '@/data/accommodation';
+import { cardTarget } from '@/lib/stay';
+import { PriceBadge, TagChips } from './primitives';
+import { ExternalCardLink } from './ExternalCardLink';
 
 /**
- * Typographic accommodation card — NO hotel imagery (we don't scrape or license
- * property photos). It shows durable facts only (name, type, area, neutral summary)
- * and generates a search-based affiliate CTA per provider via getAffiliateLink().
- *
- * This is a server component: affiliate hrefs are built here (server-side) and only
- * the resolved href/label are passed to the client AffiliateButton.
+ * Rich, whole-card-clickable accommodation card.
+ *  - Properties with an internal editorial guide link to that guide first.
+ *  - Others link straight to the best booking destination (external, sponsored/nofollow,
+ *    new tab, clearly marked as leaving the site).
+ * No scraped photography: when a rights-cleared `image` isn't held, the card is a clean
+ * text-led design rather than a stand-in photo pretending to be the property.
  */
-export function AccommodationCard({
-  property,
-  campaign,
-}: {
-  property: Property;
-  campaign?: string;
-}) {
-  const area = getArea(property.area);
-  const destination = 'Bondi Beach';
-  const place = campaign || 'stay';
+export function AccommodationCard({ property, campaign = 'stay' }: { property: Property; campaign?: string }) {
+  const target = cardTarget(property, campaign);
+
+  const shell =
+    'group flex h-full flex-col overflow-hidden rounded-xl border border-sand-200 bg-white transition hover:border-ocean-500 hover:shadow-sm';
+
+  const body = (
+    <>
+      {property.image && (
+        <div className="relative aspect-[4/3] w-full overflow-hidden bg-sand-200">
+          <Image
+            src={property.image}
+            alt={property.name}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 360px"
+            className="object-cover transition duration-500 group-hover:scale-105"
+          />
+        </div>
+      )}
+      <div className="flex flex-1 flex-col p-5">
+        <div className="flex items-center justify-between gap-3">
+          <span className="text-xs font-semibold uppercase tracking-wide text-ocean-600">
+            {STAY_TYPE_LABEL[property.type]}
+          </span>
+          <PriceBadge band={property.priceBand} className="text-sm" />
+        </div>
+
+        <h3 className="mt-1.5 font-display text-lg leading-snug text-ink-900 group-hover:text-ocean-700">
+          {property.name}
+        </h3>
+
+        <p className="mt-1 text-sm text-ink-500">
+          {property.neighbourhood} · <span className="text-ink-700">{property.walkText}</span>
+        </p>
+
+        <p className="mt-2 text-sm text-ink-700 line-clamp-2">{property.summary}</p>
+
+        <div className="mt-3">
+          <TagChips tags={property.bestFor} />
+        </div>
+
+        <p className="mt-4 pt-1 text-sm font-medium text-ocean-700">
+          {target.external ? (
+            <>Check availability <span aria-hidden="true">↗</span></>
+          ) : (
+            <>Read our guide <span aria-hidden="true">→</span></>
+          )}
+        </p>
+      </div>
+    </>
+  );
+
+  if (!target.external) {
+    return (
+      <Link href={target.href} className={shell} aria-label={`${property.name} — read our guide`}>
+        {body}
+      </Link>
+    );
+  }
 
   return (
-    <article className="flex h-full flex-col rounded-xl border border-sand-200 bg-white p-5">
-      <div className="flex items-start justify-between gap-3">
-        <h3 className="font-display text-lg leading-snug text-ink-900">{property.name}</h3>
-        <span className="shrink-0 rounded-full bg-sand-100 px-2.5 py-1 text-[11px] font-medium text-ink-700">
-          {STAY_TYPE_LABEL[property.type]}
-        </span>
-      </div>
-      {area && <p className="mt-1 text-xs uppercase tracking-wide text-ocean-600">{area.name}</p>}
-      <p className="mt-2 text-sm text-ink-700">{property.summary}</p>
-
-      {property.bestFor.length > 0 && (
-        <ul className="mt-3 flex flex-wrap gap-1.5" aria-label="Best for">
-          {property.bestFor.map((t) => (
-            <li key={t} className="rounded-full border border-sand-200 px-2 py-0.5 text-[11px] text-ink-500">
-              {TRAVELLER_LABEL[t]}
-            </li>
-          ))}
-        </ul>
-      )}
-
-      <div className="mt-4 flex flex-wrap gap-2 pt-1">
-        {property.providers.map((provider, i) => {
-          const link = getAffiliateLink({
-            provider,
-            destination,
-            property: property.name,
-            campaign: `${place}-${property.slug}`,
-          });
-          return (
-            <AffiliateButton
-              key={provider}
-              href={link.href}
-              label={link.label}
-              cta={i === 0 ? link.cta : `Search on ${link.label}`}
-              provider={provider}
-              item={property.slug}
-              campaign={place}
-              variant={i === 0 ? 'solid' : 'outline'}
-            />
-          );
-        })}
-      </div>
-    </article>
+    <ExternalCardLink
+      href={target.href}
+      provider={target.provider}
+      item={property.slug}
+      campaign={campaign}
+      className={shell}
+    >
+      {body}
+    </ExternalCardLink>
   );
 }
