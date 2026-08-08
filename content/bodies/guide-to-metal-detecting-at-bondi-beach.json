@@ -10,7 +10,7 @@
     { "label": "Bureau of Meteorology — NSW tide predictions", "url": "http://www.bom.gov.au/australia/tides/" }
   ],
   "blocks": [
-    { "type": "p", "text": "Can you go metal detecting at Bondi Beach? In short, yes — swinging a detector across the open sand at Bondi is a hobby plenty of locals quietly enjoy, and you don't need a special licence to do it on a public NSW beach. But there are a few sensible rules and courtesies that keep it legal and keep the lifeguards on your side, so before you start digging I want to walk you through exactly how to do it properly." },
+    { "type": "p", "text": "Can you go metal detecting at Bondi Beach? In short, yes — swinging a detector across the open sand is a hobby plenty of locals quietly enjoy, and you don't need a special licence to do it on a public NSW beach. But a few sensible rules and courtesies keep it legal and keep the lifeguards on your side, so before you start digging, here's how to do it properly." },
     { "type": "quickFacts", "items": [
       { "label": "Licence needed?", "value": "No licence for public-beach detecting in NSW" },
       { "label": "Best time", "value": "Early morning, at or near low tide" },
