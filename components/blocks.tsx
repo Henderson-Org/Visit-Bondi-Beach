@@ -13,17 +13,17 @@ export interface QuickFact {
 /** Editorial "quick facts" strip — Best for / Cost / Time / etc. */
 export function QuickFacts({ items }: { items: QuickFact[] }) {
   if (!items?.length) return null;
+  // Separate tiles (not a divided grid) so any number of facts wraps cleanly —
+  // a divided grid leaves broken partial borders when the last row isn't full.
   return (
-    <aside aria-label="Quick facts" className="my-6 rounded-xl border border-sand-200 bg-white overflow-hidden">
-      <dl className="grid grid-cols-2 sm:grid-cols-3 divide-x divide-y divide-sand-200">
-        {items.map((f) => (
-          <div key={f.label} className="p-4">
-            <dt className="text-[11px] uppercase tracking-wide text-ink-500">{f.label}</dt>
-            <dd className="mt-1 text-sm font-medium text-ink-900">{f.value}</dd>
-          </div>
-        ))}
-      </dl>
-    </aside>
+    <dl aria-label="Quick facts" className="my-6 grid grid-cols-2 gap-2.5 sm:grid-cols-4">
+      {items.map((f) => (
+        <div key={f.label} className="rounded-xl border border-sand-200 bg-white p-4">
+          <dt className="text-[11px] uppercase tracking-wide text-ink-500">{f.label}</dt>
+          <dd className="mt-1 text-sm font-medium text-ink-900">{f.value}</dd>
+        </div>
+      ))}
+    </dl>
   );
 }
 

@@ -39,11 +39,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
-        {!isProduction() && (
-          <div className="bg-ocean-900 text-sand-50 text-center text-xs py-1.5 px-4">
-            Staging preview · not indexed · content migrating from Squarespace
-          </div>
-        )}
         <SiteHeader />
         <main id="main">{children}</main>
         <SiteFooter />

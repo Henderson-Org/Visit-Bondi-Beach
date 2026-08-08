@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { featuredArticles } from '@/lib/content';
-import { ArticleCard } from '@/components/ArticleCard';
+import { GuideCard, guideCardFromPage } from '@/components/GuideCard';
 import { WeatherSurfSummary } from '@/components/WeatherSurfSummary';
 import { TodayRecommendations } from '@/components/TodayRecommendations';
 import { SITE } from '@/lib/site';
@@ -68,9 +68,9 @@ export default function HomePage() {
             View all →
           </Link>
         </div>
-        <div className="mt-6 grid gap-x-6 gap-y-9 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {featured.map((p) => (
-            <ArticleCard key={p.path} page={p} />
+            <GuideCard key={p.path} card={guideCardFromPage(p)} />
           ))}
         </div>
       </section>

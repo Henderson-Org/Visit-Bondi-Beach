@@ -15,44 +15,18 @@ import { conditionsDestinationForPath } from '@/lib/conditions/locations';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { RelatedGuides } from '@/components/RelatedGuides';
 import { WeatherSurfSummary } from '@/components/WeatherSurfSummary';
-
-interface CardData {
-  title: string;
-  path: string;
-  image: string | null;
-  excerpt: string;
-}
+import { GuideCard, FeatureCard, cleanText, excerptFor, type GuideCardData } from '@/components/GuideCard';
 
 const slugify = (s: string) =>
   s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
-// Decode the handful of HTML entities that survive in crawled text, and strip the
-// brand/nav boilerplate ("… — Visit Bondi Beach Visit Bondi Beach What's On …")
-// that pollutes some crawled intros. Authored meta/body text is already clean.
-function cleanText(s = ''): string {
-  return s
-    .replace(/&mdash;/g, '—').replace(/&ndash;/g, '–')
-    .replace(/&amp;/g, '&').replace(/&#39;|&rsquo;|&apos;/g, '’')
-    .replace(/&quot;|&ldquo;|&rdquo;/g, '"').replace(/&hellip;/g, '…').replace(/&nbsp;/g, ' ')
-    .replace(/\s*[—-]?\s*Visit Bondi Beach\b.*$/i, '') // cut brand suffix + any trailing nav dump
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-// Excerpt from authored meta description, else the first paragraph of an authored
-// body — never the raw crawled intro (which is nav boilerplate). Empty is fine.
-function excerptFor(target: Page | undefined): string {
-  const md = cleanText(target?.metaDescription || '');
-  if (md.length >= 20) return md;
-  const firstP = (target?.blocks || []).find((b) => b.type === 'p' && 'text' in b && b.text);
-  return firstP && 'text' in firstP ? cleanText(firstP.text) : '';
-}
-
-function cardFor(link: { title: string; path: string }): CardData {
+// Card data for a hub link — keeps the curated section title, pulls the target
+// page's image + a clean excerpt (shared helpers, so hubs and homepage match).
+function cardFor(link: { title: string; path: string }): GuideCardData {
   const target = getPage(link.path);
   return {
     title: cleanText(link.title) || (target ? displayTitle(target) : link.path),
-    path: link.path,
+    href: link.path,
     image: target?.heroImage || null,
     excerpt: excerptFor(target),
   };
@@ -67,58 +41,6 @@ function heroImageFor(page: Page): string | null {
     }
   }
   return null;
-}
-
-/* ---------------------------- cards ---------------------------- */
-
-function FeatureCard({ card }: { card: CardData }) {
-  return (
-    <Link
-      href={card.path}
-      className="group relative flex h-full min-h-[15rem] flex-col justify-end overflow-hidden rounded-2xl bg-ink-900 sm:min-h-[20rem]"
-    >
-      {card.image && (
-        <Image
-          src={card.image}
-          alt={card.title}
-          fill
-          sizes="(max-width: 1024px) 100vw, 640px"
-          className="object-cover opacity-90 transition duration-500 group-hover:scale-105 group-hover:opacity-100"
-        />
-      )}
-      <div className="absolute inset-0 bg-gradient-to-t from-ink-900/90 via-ink-900/30 to-transparent" aria-hidden="true" />
-      <div className="relative p-5 sm:p-6">
-        <h3 className="font-display text-2xl leading-tight text-white sm:text-3xl">{card.title}</h3>
-        {card.excerpt && <p className="mt-2 max-w-prose text-sm text-sand-50/90 line-clamp-2">{card.excerpt}</p>}
-        <span className="mt-3 inline-block text-sm font-medium text-sand-50 group-hover:underline">Read the guide →</span>
-      </div>
-    </Link>
-  );
-}
-
-function Card({ card }: { card: CardData }) {
-  return (
-    <Link
-      href={card.path}
-      className="group flex h-full flex-col overflow-hidden rounded-xl border border-sand-200 bg-white transition hover:border-ocean-500 hover:shadow-sm"
-    >
-      <div className="relative aspect-[4/3] w-full overflow-hidden bg-sand-200">
-        {card.image && (
-          <Image
-            src={card.image}
-            alt={card.title}
-            fill
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 360px"
-            className="object-cover transition duration-500 group-hover:scale-105"
-          />
-        )}
-      </div>
-      <div className="flex flex-1 flex-col p-4">
-        <h3 className="font-display text-lg leading-snug text-ink-900 group-hover:text-ocean-700">{card.title}</h3>
-        {card.excerpt && <p className="mt-1.5 text-sm text-ink-500 line-clamp-2">{card.excerpt}</p>}
-      </div>
-    </Link>
-  );
 }
 
 /* --------------------------- sections -------------------------- */
@@ -141,7 +63,7 @@ function SectionBlock({ section, layout }: { section: HubSection; layout: Sectio
           </div>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1">
             {cards.slice(1).map((c) => (
-              <Card key={c.path} card={c} />
+              <GuideCard key={c.href} card={c} />
             ))}
           </div>
         </div>
@@ -149,8 +71,8 @@ function SectionBlock({ section, layout }: { section: HubSection; layout: Sectio
         <div className="mt-6 -mx-4 overflow-x-auto px-4">
           <div className="flex snap-x gap-4 pb-2">
             {cards.map((c) => (
-              <div key={c.path} className="w-64 shrink-0 snap-start sm:w-72">
-                <Card card={c} />
+              <div key={c.href} className="w-64 shrink-0 snap-start sm:w-72">
+                <GuideCard card={c} />
               </div>
             ))}
           </div>
@@ -158,7 +80,7 @@ function SectionBlock({ section, layout }: { section: HubSection; layout: Sectio
       ) : (
         <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {cards.map((c) => (
-            <Card key={c.path} card={c} />
+            <GuideCard key={c.href} card={c} />
           ))}
         </div>
       )}
