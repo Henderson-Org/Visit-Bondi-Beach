@@ -82,7 +82,7 @@ const HUB_DESIGN: Record<string, HubDesign> = {
       ],
     },
     practical: [
-      { label: 'Calmest swim', value: 'South Bondi & the pools' },
+      { label: 'Calmest swim', value: 'North Bondi & the pools' },
       { label: 'Facilities', value: 'Playground · pool · toilets' },
       { label: 'Best for', value: 'All ages' },
       { label: 'Pram-friendly', value: 'Promenade & north end' },
