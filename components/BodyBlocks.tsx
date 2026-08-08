@@ -1,5 +1,35 @@
+import Link from 'next/link';
+import type { ReactNode } from 'react';
 import type { Block } from '@/lib/content';
 import { QuickFacts, LocalTip, Callout, Faq, ItineraryTimeline } from '@/components/blocks';
+
+/**
+ * Render inline Markdown-style links in body text: `[label](/internal-path)` becomes a
+ * Next <Link> (internal, /-prefixed) and `[label](https://…)` an external anchor with
+ * rel="nofollow noopener". Everything else passes through as plain text. Lets authored
+ * bodies carry real internal links for SEO without an HTML pipeline.
+ */
+const LINK_RE = /\[([^\]]+)\]\((\/[^)\s]+|https?:\/\/[^)\s]+)\)/g;
+
+export function renderText(text: string): ReactNode {
+  const parts: ReactNode[] = [];
+  let last = 0;
+  let m: RegExpExecArray | null;
+  LINK_RE.lastIndex = 0;
+  let i = 0;
+  while ((m = LINK_RE.exec(text)) !== null) {
+    if (m.index > last) parts.push(text.slice(last, m.index));
+    const [, label, href] = m;
+    if (href.startsWith('/')) {
+      parts.push(<Link key={i++} href={href} className="text-ocean-700 underline hover:text-ocean-800">{label}</Link>);
+    } else {
+      parts.push(<a key={i++} href={href} target="_blank" rel="nofollow noopener" className="text-ocean-700 underline">{label}</a>);
+    }
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return parts.length === 1 ? parts[0] : parts;
+}
 
 /**
  * Renders article content from safe structured blocks (no raw HTML).
@@ -17,7 +47,7 @@ export function BodyBlocks({ blocks }: { blocks: Block[] }) {
       out.push(
         <ul key={key}>
           {list.map((t, i) => (
-            <li key={i}>{t}</li>
+            <li key={i}>{renderText(t)}</li>
           ))}
         </ul>
       );
@@ -49,7 +79,7 @@ export function BodyBlocks({ blocks }: { blocks: Block[] }) {
         out.push(
           <ul key={i}>
             {b.items.map((t, j) => (
-              <li key={j}>{t}</li>
+              <li key={j}>{renderText(t)}</li>
             ))}
           </ul>
         );
@@ -74,7 +104,7 @@ export function BodyBlocks({ blocks }: { blocks: Block[] }) {
         out.push(<ItineraryTimeline key={i} stops={b.stops} />);
         break;
       default:
-        out.push(<p key={i}>{b.text}</p>);
+        out.push(<p key={i}>{renderText(b.text)}</p>);
     }
   });
   flush('ul-end');
