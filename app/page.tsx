@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { featuredArticles } from '@/lib/content';
@@ -7,6 +8,19 @@ import { TodayRecommendations } from '@/components/TodayRecommendations';
 import { UpcomingEvents } from '@/components/events/UpcomingEvents';
 import { DayPlannerPromo } from '@/components/DayPlannerPromo';
 import { SITE } from '@/lib/site';
+
+const META_TITLE = 'Bondi Beach Sydney: Experience It Like You Live Here';
+const META_DESCRIPTION =
+  'Discover Bondi Beach like a local. Where to swim, eat and walk, what to see, and the local tips worth knowing before you visit Sydney’s most famous beach.';
+
+export const metadata: Metadata = {
+  // Absolute title so the homepage uses this verbatim instead of the site-name template.
+  title: { absolute: META_TITLE },
+  description: META_DESCRIPTION,
+  alternates: { canonical: '/' },
+  openGraph: { title: META_TITLE, description: META_DESCRIPTION, type: 'website' },
+  twitter: { title: META_TITLE, description: META_DESCRIPTION },
+};
 
 const QUICK_LINKS = [
   { label: 'Things to do', href: '/things-to-do-in-bondi' },
@@ -42,8 +56,8 @@ export default function HomePage() {
           <p className="text-sand-100 font-medium tracking-wide uppercase text-sm drop-shadow">
             Sydney · Eastern Beaches
           </p>
-          <h1 className="mt-3 font-display text-4xl md:text-6xl leading-[1.05] tracking-tight text-white max-w-3xl drop-shadow-md">
-            The local&rsquo;s guide to Bondi Beach
+          <h1 className="mt-3 font-display text-4xl md:text-6xl leading-[1.05] tracking-tight text-white max-w-4xl drop-shadow-md">
+            Bondi Beach Like You Live Here: The Best of Sydney&rsquo;s Most Famous Beach
           </h1>
           <p className="mt-5 text-lg text-sand-50/95 max-w-prose drop-shadow">{SITE.description}</p>
           <nav aria-label="Quick links" className="mt-7 flex flex-wrap gap-2">
