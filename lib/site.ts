@@ -63,6 +63,6 @@ export const NAV = [
   { label: 'Eat & Drink', href: '/bondi-eat-and-drink' },
   { label: 'With Kids', href: '/bondi-with-kids' },
   { label: 'Getting Here', href: '/getting-to-bondi' },
-  { label: 'Stay', href: '/accommodation' },
+  { label: 'Stay', href: '/stay' },
   { label: "What's On", href: '/bondi-blog' },
 ] as const;

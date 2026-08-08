@@ -31,9 +31,13 @@ export const dynamicParams = true;
 
 // Statically generate all clean paths. Percent/plus-encoded slugs (a handful of
 // category/tag archives) are resolved on demand to avoid build-time encoding issues.
+// Paths handled elsewhere (a dedicated app route + a 301) — don't statically
+// generate them here or they'd shadow the redirect with a dead page.
+const REDIRECTED_PATHS = new Set(['/accommodation']);
+
 export function generateStaticParams() {
   return allContentPaths()
-    .filter((p) => !/[%+]/.test(p))
+    .filter((p) => !/[%+]/.test(p) && !REDIRECTED_PATHS.has(p))
     .map((p) => ({ slug: p.split('/').filter(Boolean) }));
 }
 

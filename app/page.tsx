@@ -13,7 +13,7 @@ const QUICK_LINKS = [
   { label: 'Coastal walk', href: '/bondi-coastal-walk' },
   { label: 'With kids', href: '/bondi-with-kids' },
   { label: 'Weather', href: '/bondi-weather' },
-  { label: 'Accommodation', href: '/accommodation' },
+  { label: 'Where to stay', href: '/stay' },
   { label: "What's on", href: '/bondi-blog' },
 ];
 

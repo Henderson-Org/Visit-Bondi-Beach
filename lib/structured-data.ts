@@ -62,6 +62,32 @@ export function faqJsonLd(items: { q: string; a: string }[]) {
   };
 }
 
+/**
+ * ItemList schema for a curated list (e.g. accommodation options). Names + optional
+ * descriptions only — deliberately NO ratings, prices or review counts, so we never
+ * emit an unsupported AggregateRating/Offer (Stay brief: no fake ratings).
+ */
+export function itemListJsonLd(
+  name: string,
+  items: { name: string; description?: string }[]
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name,
+    numberOfItems: items.length,
+    itemListElement: items.map((it, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'LodgingBusiness',
+        name: it.name,
+        ...(it.description ? { description: it.description } : {}),
+      },
+    })),
+  };
+}
+
 export function breadcrumbJsonLd(items: { name: string; path: string }[]) {
   return {
     '@context': 'https://schema.org',

@@ -254,21 +254,9 @@ const CORE_PAGE_HUBS: Record<string, CorePageHub> = {
       ],
     },
   },
-  '/accommodation': {
-    kicker: 'Stay',
-    heroImage: '/images/articles/0886b63eac692e12.webp',
-    intro:
-      'Where to stay in Bondi — from beachfront hotels to easygoing hostels. Find your base, then let the beach, the coast walk and the cafés do the rest.',
-    explore: {
-      heading: 'Make the most of your stay',
-      links: [
-        { title: 'Things to do in Bondi', path: '/things-to-do-in-bondi' },
-        { title: 'Where to eat & drink', path: '/bondi-eat-and-drink' },
-        { title: 'The Bondi to Coogee coastal walk', path: '/bondi-coastal-walk' },
-        { title: 'Getting to Bondi', path: '/getting-to-bondi' },
-      ],
-    },
-  },
+  // NOTE: /accommodation was replaced by the dedicated /stay section (app/stay/*)
+  // and 301-redirects there (see next.config.mjs). It is intentionally not a
+  // core-page hub any more.
 };
 
 export function getCorePageHub(path: string): CorePageHub | undefined {

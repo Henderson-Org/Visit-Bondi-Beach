@@ -2,7 +2,9 @@
 /.next
 /out
 /build
-.env*.local
+# Never commit real env files (secrets). Keep only the committed example.
+.env*
+!.env.example
 .DS_Store
 *.tsbuildinfo
 next-env.d.ts
