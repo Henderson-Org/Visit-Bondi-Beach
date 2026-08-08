@@ -1,7 +1,8 @@
 import { describe, it, expect } from 'vitest';
 import { buildSummary, type SummaryInput } from './summary';
 import { degToCompass, windEffectOnSurf, surfBand, windStrengthWord } from './geo';
-import type { WeatherConditions, DailyWeatherForecast, SurfConditions, ConditionsLocation } from './types';
+import { pickCategory, recommendFromConditions } from './recommend';
+import type { WeatherConditions, DailyWeatherForecast, SurfConditions, ConditionsLocation, Conditions } from './types';
 
 const BONDI: ConditionsLocation = {
   key: 'bondi', label: 'Bondi', displayName: 'Bondi', inland: false,
@@ -150,5 +151,61 @@ describe('written-summary engine', () => {
     const s = buildSummary(input({}));
     expect(s.headline.length).toBeGreaterThan(0);
     expect(s.paragraph.length).toBeGreaterThan(0);
+  });
+});
+
+function conditions(o: Partial<SummaryInput>): Conditions {
+  const i = input(o);
+  return {
+    location: i.location, current: i.current, today: i.today, surf: i.surf,
+    weatherMeta: null, surfMeta: null, summary: buildSummary(i),
+  };
+}
+
+describe('conditions-driven recommendations', () => {
+  it('recommends indoor options when rain is likely', () => {
+    const r = recommendFromConditions(conditions({ today: daily({ rainChancePct: 80 }) }));
+    expect(r.category).toBe('wet');
+    expect(r.links.some((l) => /indoor/i.test(l.title))).toBe(true);
+  });
+
+  it('treats a wet weather code as wet even if rain % is low', () => {
+    const c = conditions({
+      current: weather({ weather: { code: 63, label: 'Rain', emoji: '🌧️' } }),
+      today: daily({ rainChancePct: 10 }),
+    });
+    expect(pickCategory(c)).toBe('wet');
+  });
+
+  it('suggests getting outside on a warm, clear day', () => {
+    const r = recommendFromConditions(conditions({
+      current: weather({ weather: { code: 0, label: 'Clear', emoji: '☀️' }, temperatureC: 27 }),
+      today: daily({ weather: { code: 0, label: 'Clear', emoji: '☀️' }, maxTempC: 28, rainChancePct: 5 }),
+    }));
+    expect(r.category).toBe('great-outdoors');
+  });
+
+  it('points to relaxed swim spots when surf is small and clean (and it is not a peak beach day)', () => {
+    // Partly cloudy + mild so the "great outdoors" branch doesn't take priority,
+    // isolating the small-surf branch.
+    const r = recommendFromConditions(conditions({
+      current: weather({ weather: { code: 2, label: 'Partly cloudy', emoji: '⛅' }, temperatureC: 19, windSpeedKmh: 8, windDirectionDeg: 270, windCompass: 'W' }),
+      today: daily({ weather: { code: 2, label: 'Partly cloudy', emoji: '⛅' }, maxTempC: 20, rainChancePct: 10 }),
+      surf: surf({ waveHeightM: 0.6, waveHeightMaxM: 0.8 }),
+    }));
+    expect(r.category).toBe('small-surf');
+    expect(r.links.some((l) => /swim|pool/i.test(l.title))).toBe(true);
+  });
+
+  it('flags a cold day', () => {
+    const c = conditions({ today: daily({ maxTempC: 13, rainChancePct: 10 }) });
+    expect(pickCategory(c)).toBe('cold');
+  });
+
+  it('always returns a non-empty message and at least one real link', () => {
+    const r = recommendFromConditions(conditions({}));
+    expect(r.message.length).toBeGreaterThan(0);
+    expect(r.links.length).toBeGreaterThan(0);
+    for (const l of r.links) expect(l.path.startsWith('/')).toBe(true);
   });
 });

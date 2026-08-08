@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { featuredArticles } from '@/lib/content';
 import { ArticleCard } from '@/components/ArticleCard';
 import { WeatherSurfSummary } from '@/components/WeatherSurfSummary';
+import { TodayRecommendations } from '@/components/TodayRecommendations';
 import { SITE } from '@/lib/site';
 
 const QUICK_LINKS = [
@@ -60,6 +61,11 @@ export default function HomePage() {
           over the hero's lower edge. Compact so it doesn't push guides far down. */}
       <section className="relative z-10 mx-auto -mt-12 max-w-3xl px-4 sm:-mt-16">
         <WeatherSurfSummary destination="bondi" />
+      </section>
+
+      {/* Conditions-driven recommendations — weather/surf as an input to what we surface. */}
+      <section className="mx-auto mt-6 max-w-3xl px-4">
+        <TodayRecommendations destination="bondi" />
       </section>
 
       <section className="mx-auto max-w-6xl px-4 pb-8 pt-12">

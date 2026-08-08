@@ -124,12 +124,20 @@ and no weather-specific URLs are created or indexed.
 `weather_summary_expanded`, `surf_details_opened`, `beach_safety_clicked` — never
 on load. `gtag` exists only in production, so these are no-ops in staging.
 
-## Future extension
+## Conditions-driven recommendations
 
-The normalized `Conditions` model is designed to feed the recommendation engine
-later — e.g. "it's raining today → best indoor things to do", or "small surf today
-→ beginner-friendly beaches". Weather/surf becomes an input to recommendations
-rather than an isolated widget.
+The first step of "weather as an input to the site" is built:
+`lib/conditions/recommend.ts` turns today's `Conditions` into a short contextual
+nudge plus a curated set of real on-site guides — e.g. wet day → indoor things to
+do; warm & clear → get outside; small clean surf → relaxed swim spots. It's
+deterministic (no LLM), priority-ordered (wet > cold > great-outdoors > good-surf >
+small-surf > default), and grounded: `components/TodayRecommendations.tsx` filters
+links against real pages (`getPage`) so nothing dead or invented is shown. Rendered
+under the summary on the homepage; rule coverage is in `conditions.test.ts`.
+
+To tune it, edit the `BUCKETS` (messages + links) and `pickCategory` thresholds in
+`recommend.ts`. The same `Conditions` model can feed a fuller recommendation engine
+later (per-page contextual suggestions, seasonal logic, etc.).
 
 ## Files
 
