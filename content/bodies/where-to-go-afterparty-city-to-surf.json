@@ -3,26 +3,38 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Voltaren City2Surf — official site (finish-line & event info)", "url": "https://city2surf.com.au/" }
+    { "label": "Voltaren City2Surf — official event site", "url": "https://city2surf.com.au/" },
+    { "label": "Waverley Council — City2Surf 2026", "url": "https://www.waverley.nsw.gov.au/recreation/events/events/city2surf_2026" },
+    { "label": "Transport for NSW — City2Surf 2026 travel", "url": "https://transportnsw.info/events/2026/08/city2surf-2026" }
   ],
   "blocks": [
-    { "type": "p", "text": "You've survived the 14 km from the city to the sea — now for the best part. The Bondi afterparty is a City2Surf tradition, and as a local I can tell you the whole beachfront turns into one big celebration the moment the runners start pouring in. Here's where I'd point you." },
-    { "type": "callout", "tone": "note", "title": "Get in early", "text": "Every good spot fills fast as tens of thousands of people flood into Bondi. By midday you're looking at long queues, so head straight from the finish to your chosen venue — or, if you're just here for the party, aim to be in place by around 11am. The specific line-ups, DJ sets and drink deals change every year, so check each venue's own socials for what they've got on this time." },
+    { "type": "p", "text": "You've survived the 14 km from the city to the sea — now for the best part. This year's Voltaren City2Surf lands on Sunday 9 August 2026, and once again it finishes right here on Queen Elizabeth Drive at Bondi Beach. As a local I can tell you the whole beachfront turns into one big celebration the moment the runners start pouring in. Here's where I'd point you the second you cross that line." },
+    { "type": "quickFacts", "items": [
+      { "label": "Event", "value": "Voltaren City2Surf 2026 (56th running)" },
+      { "label": "Date", "value": "Sunday 9 August 2026" },
+      { "label": "Course", "value": "14 km, Hyde Park in the CBD to Bondi Beach" },
+      { "label": "Finish", "value": "Queen Elizabeth Drive, Bondi Beach" },
+      { "label": "Crowd", "value": "Around 90,000 runners, walkers & supporters" }
+    ] },
+    { "type": "p", "text": "For context on the run itself: the elite, preferred and red starting groups set off from around 7:35am, with the final waves away by about 9:27am, so the bulk of finishers flood into Bondi from mid-morning into the early afternoon. Heartbreak Hill on Old South Head Road is the notorious mid-course climb — get up that and the downhill run to the sand is your reward." },
+    { "type": "callout", "tone": "note", "title": "Get in early", "text": "Every good spot fills fast as tens of thousands of people flood into Bondi. By midday you're looking at long queues, so head straight from the finish to your chosen venue — or, if you're just here for the party, aim to be in place by around 11am. The specific line-ups, DJ sets and drink deals change every year, so check each venue's own socials for what they've got on for 2026." },
     { "type": "h2", "text": "The reliable Bondi afterparty spots" },
     { "type": "h3", "text": "Hotel Ravesis" },
     { "type": "p", "text": "The long-standing go-to for runners and their support crew, right on the corner overlooking the beach. Those balcony tables are gold and go early — it's a short dash from the finish, so don't stop running just yet." },
     { "type": "h3", "text": "Royal Bondi" },
-    { "type": "p", "text": "A Merivale venue that reliably throws one of the bigger, livelier parties, with DJs and a buzzing crowd. Always a safe bet for atmosphere." },
+    { "type": "p", "text": "A Merivale venue that reliably throws one of the bigger, livelier parties, with DJs and a buzzing crowd. Always a safe bet for atmosphere on City2Surf day." },
     { "type": "h3", "text": "Beach Road Hotel" },
     { "type": "p", "text": "\"The Beachy\" is a Bondi institution and often hosts the biggest afterparty of the lot. It's a little further from the finish, so it rewards those with legs left in them — and be warned, the queue can be the biggest too." },
     { "type": "h3", "text": "North Bondi Fish & North Bondi RSL" },
-    { "type": "p", "text": "Up the quieter northern end of the beach, these two are my pick for views and a slightly more relaxed vibe. North Bondi Fish does the beachfront-dining thing with DJs and ocean views; the RSL next door is simply one of the best-value, most easygoing spots on Bondi for a post-race beer." },
+    { "type": "p", "text": "Up the quieter northern end of the beach, these two are my pick for views and a slightly more relaxed vibe. North Bondi Fish does the beachfront-dining thing with ocean views; the RSL next door is simply one of the best-value, most easygoing spots on Bondi for a post-race beer." },
     { "type": "h3", "text": "Hotel Bondi & the Bondi Pavilion" },
-    { "type": "p", "text": "If your legs have completely seized up, Hotel Bondi sits close to the finish and is always lively. The Bondi Pavilion, right on the sand, also regularly hosts finish-line celebrations — worth a look for something a bit different." },
+    { "type": "p", "text": "If your legs have completely seized up, Hotel Bondi sits close to the finish and is always lively. The Bondi Pavilion, right on the sand, also regularly hosts finish-line and community events — worth a look for something a bit different." },
+    { "type": "localTip", "text": "Mobile coverage around the finish gets swamped when 90,000 people arrive at once, so agree a meeting point with your crew before the race rather than relying on a text landing. The northern end of the promenade, away from the finish chute, is the easiest place to actually find each other." },
     { "type": "faq", "items": [
+      { "q": "When is City2Surf 2026 and where does it finish?", "a": "The 2026 Voltaren City2Surf is on Sunday 9 August 2026. It's a 14 km course from Hyde Park in the Sydney CBD, finishing on Queen Elizabeth Drive at Bondi Beach — which is why the whole beachfront becomes one big afterparty." },
       { "q": "Where's the best City2Surf afterparty in Bondi?", "a": "The perennial favourites are Hotel Ravesis and Royal Bondi near the finish, and the Beach Road Hotel a little further on for the biggest party. North Bondi RSL and North Bondi Fish are great for a more relaxed celebration with a view." },
-      { "q": "What time should I get there?", "a": "As early as you can — venues fill and queues build by midday. Head straight from the finish, or be in place by around 11am if you're just coming for the party." },
-      { "q": "How do I find out this year's events and deals?", "a": "Line-ups, DJs and drink specials change each year. Check each venue's own social media, or the official City2Surf channels, for the current year's finish-line events." }
+      { "q": "What time should I get there?", "a": "As early as you can — finishers pour in from mid-morning, and venues fill and queues build by midday. Head straight from the finish, or be in place by around 11am if you're just coming for the party." },
+      { "q": "How do I find out this year's events and deals?", "a": "Line-ups, DJs and drink specials change each year. Check each venue's own social media, or the official City2Surf channels, for the 2026 finish-line events." }
     ] },
     { "type": "p", "text": "However you celebrate, pace the day like you paced the run — plenty of water between drinks, and soak up that unbeatable Bondi finish-line feeling. You earned it." }
   ]

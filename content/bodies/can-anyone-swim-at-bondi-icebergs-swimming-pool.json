@@ -1,0 +1,41 @@
+{
+  "path": "/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bondi Icebergs — Pool Conditions & Info", "url": "https://icebergs.com.au/pool-conditions/" },
+    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Yes — anyone can swim at the Bondi Icebergs pool. It's the question I get asked more than almost any other, usually by someone squinting up at that famous ocean pool from the promenade, assuming it must be a members-only club. It isn't. The Icebergs Club upstairs has members, but the pool below is open to the public seven days a week, you just pay at the door and walk down to the water. Here's everything I'd want a friend to know before their first swim." },
+    { "type": "quickFacts", "items": [
+      { "label": "Public access", "value": "Yes — no membership needed" },
+      { "label": "Where", "value": "1 Notts Ave, southern end of Bondi Beach" },
+      { "label": "Pools", "value": "50m saltwater lap pool + shallow kids' pool" },
+      { "label": "Closed", "value": "Thursdays for cleaning (tides permitting)" },
+      { "label": "Lifeguards", "value": "On patrol during opening hours, year-round" }
+    ] },
+    { "type": "h2", "text": "So who can actually swim here?" },
+    { "type": "p", "text": "Everyone. Kids, grandparents, first-timers, serious squad swimmers doing their pre-dawn laps — I've shared the water with all of them. You don't need to be a member of the Icebergs Club and you don't need to book. You simply turn up, pay the entry fee at the kiosk, and head down to the pool deck. There's a 50-metre saltwater lap pool for proper swimming and a smaller, shallower pool that's perfect for little ones and anyone who just wants a gentle dip." },
+    { "type": "p", "text": "The one thing worth knowing: this is an ocean pool, not a heated indoor lane pool. On a calm day it's glassy and gorgeous. When there's a big swell running, waves break clean over the eastern wall and the water gets lively — bracing, salty and genuinely wonderful, but something to respect if you're not a confident swimmer. Qualified lifeguards patrol during opening hours all year round, so you're in good hands, but always swim within your ability." },
+    { "type": "h2", "text": "Hours, fees and the famous Thursday closure" },
+    { "type": "p", "text": "The pool opens early — from 6am on weekdays and 6.30am on weekends — and runs through to early evening. The catch every visitor needs to hear: Icebergs closes on Thursdays for its weekly clean, when the pool is drained, scrubbed and refilled with fresh seawater. In summer it can reopen once the tide cooperates, but I'd never bank on it. If your only free day is a Thursday, check the official site first." },
+    { "type": "callout", "tone": "warning", "title": "Don't get caught out on a Thursday", "text": "The regular Thursday cleaning closure is the number-one reason visitors turn up to a closed pool. Hours, tide-related closures and swim-race days can all change, so check the current status on the Bondi Icebergs pool-conditions page before you go." },
+    { "type": "p", "text": "There is a modest entry fee that goes towards maintaining the pool, with separate adult, child and family rates, plus discounted multi-visit passes if you're staying a while. Prices do get reviewed from time to time, so rather than quote a number that might be stale by the time you read this, I'd point you straight to the Icebergs pool-conditions page for the current rates. Towel and locker hire is available on the day if you've travelled light." },
+    { "type": "localTip", "text": "Come mid-morning on a clear day and swim east-to-west so you're looking back at the beach and the Icebergs building on your return lap — it's the best free view in Bondi. And go early if you want the deck quiet; by late morning in summer it fills up fast." },
+    { "type": "h2", "text": "What else is down there" },
+    { "type": "p", "text": "Your entry gets you the pools, changing rooms, showers and the sauna (there's a short time limit on sauna use, and you'll need a towel) — a proper treat after a cold-season swim. On the deck overlooking the water is The Crabbe Hole, a tiny café that does excellent coffee and a good post-swim snack. The upstairs Icebergs Dining Room and bar are a separate operation with their own hours if you fancy a longer sit-down with the view." },
+    { "type": "list", "items": [
+      "Bring swimmers, a towel, and cash or card for entry",
+      "Goggles are worth it — it's saltwater, and the sun sits low over the water morning and evening"
+    ] },
+    { "type": "faq", "items": [
+      { "q": "Do you have to be a member to swim at Bondi Icebergs?", "a": "No. The pool is open to the public seven days a week — you just pay the entry fee at the kiosk. Membership relates to the Icebergs Club upstairs, not to using the pool." },
+      { "q": "Is Bondi Icebergs pool open every day?", "a": "It's open daily except Thursdays, when it closes for its weekly clean and refill. In summer it sometimes reopens on Thursday afternoon if the tide allows, but that's never guaranteed — check the official pool-conditions page." },
+      { "q": "How much does it cost to swim at Bondi Icebergs?", "a": "There's a small entry fee with separate adult, child and family rates and cheaper multi-visit passes. Because prices are reviewed periodically, check the current rates on the Icebergs pool-conditions page rather than relying on an old figure." },
+      { "q": "Is the Icebergs pool safe for kids and beginners?", "a": "There's a shallow children's pool alongside the 50m lap pool, and lifeguards patrol during opening hours. It is an ocean pool, though, so on big-swell days waves wash over the wall — keep a close eye on little ones and swim within your limits." },
+      { "q": "Is Bondi Icebergs pool heated?", "a": "No — it's an unheated saltwater ocean pool filled from the sea, so it's refreshingly cool. The on-site sauna, included with entry, is the classic way to warm up before or after your swim." }
+    ] },
+    { "type": "p", "text": "So next time you're standing on the promenade wondering whether that iconic pool is off-limits, it isn't. Grab your swimmers, check it's not a Thursday, and go have one of the best swims of your life." }
+  ]
+}

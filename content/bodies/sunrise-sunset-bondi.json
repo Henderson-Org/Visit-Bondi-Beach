@@ -1,0 +1,48 @@
+{
+  "path": "/bondi-blog/sunrise-sunset-bondi",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Geoscience Australia — sunrise/sunset times", "url": "https://geodesyapps.ga.gov.au/sunrise" },
+    { "label": "Waverley Council — Bondi to Bronte Coastal Walk", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/coastal_walks" },
+    { "label": "NSW National Parks — whale watching seasons", "url": "https://www.nationalparks.nsw.gov.au/things-to-do/whale-watching" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you only have time for one, come at sunrise. Bondi faces almost due east onto the Pacific, so the sun climbs straight out of the ocean here — the single best light show the beach gives you all day. Sunset is a quieter, sneakier pleasure: the sun drops behind the suburbs at your back, but the sky and the sandstone cliffs catch a soft pink glow that, honestly, I love just as much. Here are my favourite spots for both, and how to actually time them." },
+    { "type": "quickFacts", "items": [
+      { "label": "Sunrise", "value": "Over the ocean — the main event" },
+      { "label": "Sunset", "value": "Behind you; watch the afterglow on the cliffs" },
+      { "label": "Best all-rounder", "value": "Mackenzies Point / south headland" },
+      { "label": "Cost", "value": "Free" },
+      { "label": "Whale season", "value": "Roughly May–November" }
+    ] },
+    { "type": "h2", "text": "Where I go for sunrise" },
+    { "type": "p", "text": "The whole eastern edge of Bondi is a front-row seat, but a few spots lift it from lovely to unforgettable." },
+    { "type": "h3", "text": "Mackenzies Point (the south headland)" },
+    { "type": "p", "text": "This is my desert-island pick. From the little clifftop lookout at the southern end of the beach — the first real headland on the Bondi to Bronte walk — you look back across the whole arc of sand with the sun coming up over the water beyond Ben Buckler. The rugged sandstone catches the first light beautifully, and between roughly May and November you've a genuine chance of spotting migrating whales offshore while you wait." },
+    { "type": "h3", "text": "Bondi Icebergs and the south corner" },
+    { "type": "p", "text": "You don't need to be swimming to get the shot every visitor wants: the ocean pool in the foreground, waves washing over its edge, sky on fire behind. Stand on the promenade above the pool at the south end of the beach. If you'd like to actually swim laps at first light, check the Icebergs website for current pool session times and closures before you rely on it — they change seasonally and the pool shuts for cleaning." },
+    { "type": "h3", "text": "North Bondi and Ben Buckler" },
+    { "type": "p", "text": "The northern end is calmer and less photographed. The rocks below the North Bondi headland and around Ben Buckler give you crashing surf in the foreground and an uninterrupted eastern horizon — a peaceful alternative if the south corner is busy with a photo crew." },
+    { "type": "localTip", "text": "Check the exact sunrise time the night before (Geoscience Australia's sun times tool is spot-on for Sydney) and arrive 30–40 minutes early. The richest colour — the 'blue hour' and first pink — happens well before the sun actually clears the horizon, and the best clifftop parking fills fast on clear mornings." },
+    { "type": "h2", "text": "Sunset at an east-facing beach" },
+    { "type": "p", "text": "Here's the thing nobody tells you: you won't see the sun sink into the sea at Bondi, because it sets behind the land to the west. So chase the afterglow instead. As the sun goes down at your back, the eastern sky over the ocean turns soft lilac and rose, and the cliffs and the pale Icebergs building light up gold. Marks Park, on the grassy clifftop just past Mackenzies Point, is my go-to — spread out a picnic, face the sea, and watch the colour deepen. The Bondi to Bronte path itself has a dozen little lookouts that do the same job." },
+    { "type": "callout", "tone": "note", "title": "For actual sunset-over-water", "text": "If watching the sun drop into the horizon is the whole point for you, Sydney's west-facing harbour spots do that far better than any east-coast beach. At Bondi, come for sunrise over the ocean and stay for the pastel afterglow — that's what this coastline does best." },
+    { "type": "h2", "text": "A simple golden-hour plan" },
+    { "type": "itinerary", "stops": [
+      { "time": "~40 min before sunrise", "title": "South headland / Mackenzies Point", "detail": "Settle in for the blue hour and first colour over the ocean." },
+      { "time": "Sunrise", "title": "Icebergs corner", "detail": "The classic ocean-pool-and-sky frame as the sun clears the horizon." },
+      { "time": "After", "title": "Coffee on Campbell Parade", "detail": "Warm up at one of the beachfront cafés once the light goes flat." },
+      { "time": "Golden hour, evening", "title": "Marks Park", "detail": "Picnic on the clifftop and watch the afterglow paint the cliffs pink." }
+    ] },
+    { "type": "callout", "tone": "warning", "title": "Mind the edge", "text": "The clifftop lookouts are unfenced in places and the rock platforms below can be hit by sudden waves. Stay back from wet rock, keep well clear of the edge in the low light, and never turn your back on the surf for a photo." },
+    { "type": "faq", "items": [
+      { "q": "Can you watch the sun set over the ocean at Bondi Beach?", "a": "No — Bondi faces east, so the sun rises over the water and sets behind the suburbs to the west. Come at sunrise for the sun-over-ocean show; at sunset, watch the pink afterglow light up the eastern sky and the cliffs instead." },
+      { "q": "What's the best spot for sunrise at Bondi?", "a": "My pick is Mackenzies Point, the south headland at the start of the Bondi to Bronte walk, for the view back across the whole beach. The promenade above Bondi Icebergs is best for the classic ocean-pool-and-sky photo." },
+      { "q": "What time is sunrise and sunset at Bondi?", "a": "It shifts through the year — from around 4:40am in midsummer to about 7am in winter for sunrise. Check Geoscience Australia's sun times tool for the exact time on your date rather than guessing." },
+      { "q": "Might I see whales while watching the sunrise?", "a": "Possibly, roughly between May and November during the humpback migration. Mackenzies Point is one of the better clifftop vantage points — bring binoculars and scan the horizon." },
+      { "q": "Do I need to pay or book?", "a": "No. Every spot here is free public headland or promenade. The only thing worth checking ahead is Bondi Icebergs' pool session times if you plan to swim, as those change seasonally." }
+    ] },
+    { "type": "p", "text": "Whichever end you choose, do yourself a favour and put your phone down for the last few minutes. There's a particular hush at Bondi just as the sky turns — joggers slow, the surfers sit up on their boards, and for a moment the whole beach seems to hold its breath. That's the bit you'll actually remember." }
+  ]
+}
