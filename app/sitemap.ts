@@ -30,6 +30,8 @@ const STATIC_ROUTES: { path: string; priority: number }[] = [
   { path: '/whats-on/markets', priority: 0.7 },
   ...eventSlugs().map((slug) => ({ path: `/whats-on/${slug}`, priority: 0.6 })),
   { path: '/articles', priority: 0.7 },
+  // Bondi Day Planner
+  { path: '/plan', priority: 0.7 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -16,6 +16,7 @@ const QUICK_LINKS = [
   { label: 'Weather', href: '/bondi-weather' },
   { label: 'Where to stay', href: '/stay' },
   { label: "What's on", href: '/whats-on' },
+  { label: 'Plan your day', href: '/plan' },
 ];
 
 export default function HomePage() {
