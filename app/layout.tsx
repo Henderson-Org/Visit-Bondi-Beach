@@ -4,6 +4,7 @@ import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { AdsenseScript } from '@/components/Adsense';
 import { Analytics } from '@/components/Analytics';
+import { TravelpayoutsEmbed } from '@/components/TravelpayoutsEmbed';
 import { SITE, siteOrigin, isProduction } from '@/lib/site';
 import { organizationJsonLd, websiteJsonLd } from '@/lib/structured-data';
 
@@ -44,6 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteFooter />
         <AdsenseScript />
         <Analytics />
+        <TravelpayoutsEmbed />
       </body>
     </html>
   );
