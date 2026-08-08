@@ -4,8 +4,7 @@
   "lastReviewed": "2026-08-08",
   "sources": [
     { "label": "Totti's Bondi — Merivale (official venue page)", "url": "https://merivale.com/venues/tottis/" },
-    { "label": "Totti's Bondi FAQs — Merivale", "url": "https://merivale.com/venues/tottis/faqs/" },
-    { "label": "Totti's Bondi Menu — Merivale", "url": "https://merivale.com/venues/tottis/menu/" }
+    { "label": "Totti's Bondi Private Dining Room — Merivale", "url": "https://merivale.com/venues/tottis/bondi-private-dining-room/" }
   ],
   "blocks": [
     { "type": "p", "text": "The short version: the surest way to score a table at Totti's Bondi is to book online through Merivale the moment the calendar opens, and to stay flexible on your day and time — but if you've left it late, same-day walk-ins are genuinely welcome, and cancellations pop up online all the time. I've talked friends and visitors through this reservation more times than I can count, so here's exactly how I'd go about it, without the midnight stress." },
@@ -27,13 +26,13 @@
     { "type": "localTip", "text": "Keep a browser tab on the Totti's booking page even after you've missed out for your ideal night. Totti's is a largely outdoor venue, so when Bondi's weather turns, last-minute cancellations reappear online — I've grabbed a Saturday table on the Thursday before simply by refreshing at the right moment." },
     { "type": "h2", "text": "Be flexible — it's your biggest advantage" },
     { "type": "p", "text": "If you can bend on timing, the whole thing gets easier. An earlier lunch or a later dinner sitting is far more likely to have space than the 7pm-on-a-Saturday sweet spot everyone else is chasing. Midweek is calmer than the weekend, and smaller groups of two or three slot in where a table of eight simply won't. None of this is a secret — it's just how a busy room breathes." },
-    { "type": "callout", "tone": "note", "title": "Larger groups and special occasions", "text": "Big tables, birthdays and set-menu events work differently from a regular booking, and Totti's has a private dining option too. For anything beyond a standard table, contact the venue directly on +61 2 9114 7371 or email reservations@merivale.com rather than relying on the standard online form." },
+    { "type": "callout", "tone": "note", "title": "Larger groups and special occasions", "text": "Big tables, birthdays and set-menu events work differently from a regular booking, and Totti's has a private dining option too. For anything beyond a standard table, contact the venue directly on +61 2 9114 7371 or use the enquiry form on Totti's private dining page rather than the standard online booking." },
     { "type": "h2", "text": "No booking? You still have options" },
     { "type": "p", "text": "Don't write off a spontaneous visit. Same-day walk-ins are welcome at Totti's, with a limited number of tables held back each day — your odds are best if you turn up early rather than at peak, keep the group small, and are happy to perch wherever they can seat you. A weekday afternoon is your friend here. And if it's genuinely last-minute, a quick phone call the morning of can turn up a cancellation the website hasn't caught up with yet." },
     { "type": "quote", "text": "Book if you can, walk in if you can't, and either way — order the bread." },
     { "type": "p", "text": "One last piece of honesty: opening hours, menus and the exact booking window all shift from season to season, so before you build a whole day around it, check the current details on the official Totti's page. Get the reservation sorted, arrive a touch early to soak up the courtyard buzz, and the hard part's done." },
     { "type": "faq", "items": [
-      { "q": "How do I book a table at Totti's Bondi?", "a": "Through Merivale's online booking system on the Totti's venue page (merivale.com/venues/tottis). You can also phone the venue on +61 2 9114 7371 or email reservations@merivale.com. Booking online is the most reliable route for a standard table." },
+      { "q": "How do I book a table at Totti's Bondi?", "a": "Through Merivale's online booking system on the Totti's venue page (merivale.com/venues/tottis). You can also phone the venue on +61 2 9114 7371. Booking online is the most reliable route for a standard table." },
       { "q": "How far in advance do bookings open?", "a": "Tables are released a set window ahead of your date, and that window can change over time. Rather than trusting a fixed number, open the booking calendar, scroll to the furthest date you can select, and plan to book the moment your date first appears." },
       { "q": "Does Totti's Bondi take walk-ins?", "a": "Yes — same-day walk-in guests are welcome, with a limited number of tables held for them. Arrive early rather than at peak, keep your group small, and you'll give yourself the best shot." },
       { "q": "What should I do if I can't get a table for the night I want?", "a": "Keep watching the online booking page — Totti's is largely outdoor, so cancellations reappear when the weather turns. You can also call the venue on the day to ask about no-shows and last-minute openings." },

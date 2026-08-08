@@ -1,4 +1,159 @@
 {
+  "/bondi-blog/2023/10/18/bondi-beach-etiquette-guide": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Bondi has a rhythm, and the quickest way to enjoy your day here is to fall into step with it. The etiquette isn't complicated — swim between the red and yellow flags, keep your music to yourself, take your rubbish home, and remember the beach belongs to everyone. Get those right and you'll blend in like you've been coming for years. Here's how we actually do things on our patch of sand."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Golden rule",
+            "value": "Swim between the red & yellow flags"
+          },
+          {
+            "label": "Alcohol",
+            "value": "Not permitted on the beach or in Bondi Park"
+          },
+          {
+            "label": "Dogs",
+            "value": "Not allowed on the beach at any time"
+          },
+          {
+            "label": "Smoking & vaping",
+            "value": "No — keep it off the sand"
+          },
+          {
+            "label": "Rubbish",
+            "value": "Bin it or take it with you"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Safety first: swim between the flags"
+      },
+      {
+        "type": "p",
+        "text": "If you take one thing from this whole guide, make it this. The red and yellow flags mark the patrolled swimming area, and the lifeguards set them where it's safest on any given day — which changes constantly with the surf and the rips. Swim between them and you're in the eyes of the professionals who've made Bondi famous. Wander outside them and you're on your own, often right where the rips run. Surfers, meanwhile, stay well clear of the flagged zone; boards and swimmers don't mix."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Respect the lifeguards",
+        "text": "The lifeguards are here to keep everyone safe, so follow their instructions without argument — if they wave you in or move the flags, there's a reason. If they're busy and can't stop for a chat, don't take it personally. Their job comes before conversation."
+      },
+      {
+        "type": "localTip",
+        "text": "New to ocean swimming or travelling with kids? North Bondi, near the flags at the northern end, tends to be gentler and shallower, which is why families cluster there. It's also where the surf school and the kids' pool area sit."
+      },
+      {
+        "type": "h2",
+        "text": "Sharing the sand"
+      },
+      {
+        "type": "p",
+        "text": "Bondi gets packed in summer, and the unwritten rules are really just common courtesy dialled up for a crowd. A few that matter most:"
+      },
+      {
+        "type": "li",
+        "text": "Leave the speaker at home. There's nowhere on this beach your playlist won't carry, and the person next to you didn't come to hear it. Headphones if you must."
+      },
+      {
+        "type": "li",
+        "text": "Choose your spot with the crowd in mind. If you want breathing room, the middle of the beach or the southern end gives you more space than the busy northern corner near the flags."
+      },
+      {
+        "type": "li",
+        "text": "Set up your tent or umbrella from the midpoint toward the back of the beach so you're not blocking anyone's view of the water — and if someone parks in front of you, let it go. It's a public beach."
+      },
+      {
+        "type": "li",
+        "text": "Be sun smart. That first-day-in-Australia sunburn is brutal and entirely avoidable. Our UV is fierce even on cool days, so slip, slop, slap and reapply."
+      },
+      {
+        "type": "li",
+        "text": "Watch out for the little ones. There are kids everywhere in summer, darting in and out — keep an eye out when you're moving around, throwing a ball or bodysurfing in."
+      },
+      {
+        "type": "h2",
+        "text": "The things that'll actually get you in trouble"
+      },
+      {
+        "type": "p",
+        "text": "Some Bondi rules aren't just etiquette — they're enforced by Waverley Council, and rangers do patrol. Alcohol is not permitted on Bondi Beach or in Bondi Park; the area sits within the council's alcohol-free and alcohol-prohibited zones, so leave the esky drinks at home. Smoking and vaping don't belong on the sand either. And dogs are not allowed on Bondi Beach at any time, though you're welcome to walk them on a lead along the promenade and through the park."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Parking: don't risk the big fine",
+        "text": "After circling for a park it's tempting to chance it — don't. Blocking a driveway or a no-parking zone can land you a hefty fine and, if you box someone in, a call to the police. And please don't idle at the car park entrance waiting for a spot to open; it gridlocks Campbell Parade and makes everyone's day worse."
+      },
+      {
+        "type": "p",
+        "text": "Rules and specifics can change, so if you're unsure about alcohol zones, dog areas or seasonal restrictions, the Waverley Council beach pages are the source of truth — I've linked them below."
+      },
+      {
+        "type": "h2",
+        "text": "The little local courtesies"
+      },
+      {
+        "type": "p",
+        "text": "Beyond the official stuff, there's the Bondi finishing school. Take your rubbish with you — bins line the promenade, so you're never more than a short walk from one, and the gulls and the ocean will thank you. Don't hover in the car park stalking someone's spot. If you've left a pram in the North Bondi rack, double-check you're grabbing your own before you wheel off; there are always dozens of near-identical black prams, and a mix-up ruins two families' afternoons."
+      },
+      {
+        "type": "quote",
+        "text": "The whole ethos is simple: the beach isn't here to watch you, it's here for everyone. Come to have fun, not to be seen."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Can you drink alcohol on Bondi Beach?",
+            "a": "No. Bondi Beach and Bondi Park fall within Waverley Council's alcohol-free and alcohol-prohibited zones, so drinking on the sand or in the park isn't allowed and rangers do enforce it. Check the Waverley Council website for the exact zones and current rules."
+          },
+          {
+            "q": "Are dogs allowed on Bondi Beach?",
+            "a": "Dogs aren't permitted on Bondi Beach at any time. You can walk a dog on a lead along the promenade and through the park, and there's an off-leash area at nearby Marks Park, a short walk south toward Tamarama."
+          },
+          {
+            "q": "Why does everyone say to swim between the flags?",
+            "a": "The red and yellow flags mark the area the lifeguards patrol and have judged safest that day. Bondi is famous for its rips, which shift with the conditions, so swimming between the flags keeps you in the safest water and in the lifeguards' line of sight."
+          },
+          {
+            "q": "Can you smoke or vape on Bondi Beach?",
+            "a": "Keep it off the sand — smoking and vaping aren't welcome on the beach. It's both an etiquette and a health issue on a crowded family beach, and butts are a genuine pollution problem for the ocean."
+          },
+          {
+            "q": "What's the most common tourist mistake at Bondi?",
+            "a": "Two stand out: getting badly sunburnt on day one because the Australian UV is far stronger than most visitors expect, and swimming outside the flags. Sort those and you're already ahead of most first-timers."
+          }
+        ]
+      }
+    ],
+    "wordCount": 1009,
+    "sources": [
+      {
+        "label": "Waverley Council — Beach safety",
+        "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety"
+      },
+      {
+        "label": "Waverley Council — Bondi Park",
+        "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/bondi_park"
+      },
+      {
+        "label": "Waverley Council — Alcohol Free Zones and Prohibited Areas",
+        "url": "https://haveyoursay.waverley.nsw.gov.au/trial-alcohol-prohibited-areas"
+      },
+      {
+        "label": "Surf Life Saving NSW — Beachsafe",
+        "url": "https://beachsafe.org.au/beach/nsw/waverley/north-bondi/bondi-beach"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
   "/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy": {
     "blocks": [
       {
@@ -292,6 +447,146 @@
     "lastReviewed": "2026-08-08",
     "voice": "first-person"
   },
+  "/bondi-blog/2023/12/13/christmas-day-at-bondi-beach": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Christmas Day at Bondi Beach is exactly the Aussie summer Christmas the postcards promise — sunshine instead of snow, Santa hats over swimmers, and the sand packed with families, backpackers and homesick travellers all sharing the same patch of coast. If you're weighing up whether to come down on the 25th, my short answer is yes: it's one of my favourite days of the year here. But there are a few things I always tell people first, because a Bondi Christmas rewards anyone who turns up prepared."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "When",
+            "value": "December 25, all day"
+          },
+          {
+            "label": "Vibe",
+            "value": "Busy, festive, friendly"
+          },
+          {
+            "label": "Alcohol",
+            "value": "Not permitted — alcohol-free zone"
+          },
+          {
+            "label": "Cost",
+            "value": "Free (the beach itself)"
+          },
+          {
+            "label": "Don't forget",
+            "value": "Sunscreen, hat, water, shade"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What Christmas Day actually feels like here"
+      },
+      {
+        "type": "p",
+        "text": "The beach doesn't run on a schedule on Christmas Day — people drift down from mid-morning and stay until the light goes. You'll see picnics and beach barbecues (seafood and salads far more than roast turkey), pick-up volleyball games, surfers in Santa hats, and groups of travellers who've adopted each other for the day. If you're far from home and feeling it, this is the place to be: almost everyone around you is in the same boat, and Bondi has a warm, come-as-you-are spirit that makes it easy to fall in with a crowd."
+      },
+      {
+        "type": "p",
+        "text": "For a quieter version of the day, walk it off — the Bondi to Coogee coastal walk is stunning in the morning light, and the northern end of the beach near the children's pool is usually calmer than the busy middle."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Bondi is an alcohol-free zone",
+        "text": "Bondi Beach is an alcohol-free zone under Waverley Council rules, and glass is a no-go on the sand. Police and rangers do patrol on Christmas Day. Plan for a booze-free beach day and keep the celebrating for a licensed venue or a private place afterwards — check Waverley Council for the current alcohol-free zone details."
+      },
+      {
+        "type": "h2",
+        "text": "Swim safety comes first"
+      },
+      {
+        "type": "p",
+        "text": "Bondi is patrolled every day of the year by Waverley Council's professional lifeguards, and through summer they're backed up by volunteer surf lifesavers. Wherever you swim, get in between the red and yellow flags — that's the stretch the lifeguards have judged safest and are actively watching. If there are no flags up, the message is simple: don't swim."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Alcohol and the ocean don't mix",
+        "text": "Every Christmas the lifeguards deal with avoidable rescues, and alcohol is behind a lot of them — it slows your reactions and clouds your judgement, and even confident swimmers get caught out. If you've had a drink, stay out of the water. Rips at Bondi are real and can pull hard."
+      },
+      {
+        "type": "localTip",
+        "text": "The Sydney sun in late December is fierce — much stronger than a northern-hemisphere winter sun, which catches a lot of visitors out. Slip on a shirt, slop on SPF50+ and reapply every couple of hours, grab a hat, and bring your own shade and water. A patch of umbrella and a full bottle will save your whole afternoon."
+      },
+      {
+        "type": "h2",
+        "text": "What's open (and what to plan around)"
+      },
+      {
+        "type": "p",
+        "text": "Christmas Day is a public holiday in New South Wales, so treat the surrounding shops, cafés and venues as closed or on reduced hours unless you've confirmed otherwise. Don't count on grabbing lunch or a coffee on the strip — bring what you need with you. Public transport also runs to a holiday timetable, so check Transport for NSW before you set out rather than turning up at the bus stop and hoping."
+      },
+      {
+        "type": "p",
+        "text": "The famous Bondi Icebergs pool and its restaurant keep their own festive-season hours, which change year to year, so I won't quote a time that might be wrong — check the Icebergs website directly if you're hoping to swim laps or book a table over Christmas."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Pack in: sunscreen, hat, water, snacks or picnic food, shade, a rubbish bag.",
+          "Leave at home: alcohol and anything glass — both are prohibited on the beach.",
+          "Arrive earlier for parking and a good spot; it fills up fast on a warm 25th.",
+          "Bin your rubbish or take it with you — the clean-up after big beach days is brutal."
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Can I drink alcohol on Bondi Beach on Christmas Day?",
+            "a": "No. Bondi Beach is an alcohol-free zone under Waverley Council rules, and glass isn't allowed on the sand either. Police and rangers patrol on Christmas Day, so keep any celebrating to a licensed venue."
+          },
+          {
+            "q": "Is it safe to swim at Bondi on Christmas Day?",
+            "a": "Yes, if you swim between the red and yellow flags where the lifeguards are watching, and only if you're sober. Bondi is patrolled year-round, but rips are real — if there are no flags, don't swim."
+          },
+          {
+            "q": "Will cafés and shops be open?",
+            "a": "Assume most are closed or on reduced hours, since Christmas Day is a NSW public holiday. Bring your own food and water rather than relying on grabbing something nearby."
+          },
+          {
+            "q": "How do I get to Bondi on Christmas Day?",
+            "a": "Public transport runs to a holiday timetable, so check Transport for NSW before you travel. If you're driving, arrive early — parking near the beach disappears fast on a warm Christmas."
+          },
+          {
+            "q": "What's the one thing first-timers forget?",
+            "a": "Sun protection. The late-December Sydney sun is much stronger than a European winter sun. Bring SPF50+, a hat, shade and water, and reapply sunscreen every couple of hours."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "That's the whole trick to a Bondi Christmas: come prepared, respect the ocean and the sun, take your rubbish with you, and let the day carry you. Whether you're a local or a traveller far from home, Christmas on Bondi has a way of becoming one you remember for all the right reasons."
+      }
+    ],
+    "wordCount": 926,
+    "sources": [
+      {
+        "label": "Waverley Council — Beach safety",
+        "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety"
+      },
+      {
+        "label": "Waverley Council — Alcohol Free Zones and Alcohol Prohibited Areas",
+        "url": "https://haveyoursay.waverley.nsw.gov.au/trial-alcohol-prohibited-areas"
+      },
+      {
+        "label": "Bondi Lifeguards — Surf Safety",
+        "url": "https://www.bondilifeguards.com/surf-safety"
+      },
+      {
+        "label": "Bondi Icebergs Club",
+        "url": "https://icebergs.com.au/"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
   "/bondi-blog/2023/9/21/sculptures-by-the-sea-at-bondi-a-comprehensive-guide-to-art-by-the-ocean": {
     "blocks": [
       {
@@ -570,6 +865,137 @@
     "lastReviewed": "2026-08-08",
     "voice": "first-person"
   },
+  "/bondi-blog/2024/1/7/sydneys-best-playground-in-the-heart-of-bondi": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "If you ask me where to take kids for a big, joyful morning out near Bondi, my answer is always the same: the rebuilt playground at Waverley Park, up the hill in Bondi Junction. It's the one with the rocket ship, and it has a fair claim to being the best playground in Sydney. Since the upgrade was finished in late 2023 it's the spot I send every visiting family to first."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Where",
+            "value": "Waverley Park, off Paul St, Bondi Junction"
+          },
+          {
+            "label": "Star attraction",
+            "value": "Multi-storey rocket ship & launch tower"
+          },
+          {
+            "label": "Cost",
+            "value": "Free"
+          },
+          {
+            "label": "Great for",
+            "value": "Toddlers through primary-age kids"
+          },
+          {
+            "label": "Fenced",
+            "value": "Yes — fully enclosed"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The rocket ship everyone comes for"
+      },
+      {
+        "type": "p",
+        "text": "The centrepiece is a bespoke, multi-storey rocket ship with a launch tower and a mission control station — a modern tribute to the beloved 1960s rocket that stood here for decades. The new one was craned into place in October 2023, and it's a proper piece of imaginative play, not just a slide with a paint job."
+      },
+      {
+        "type": "p",
+        "text": "Press the launch button and \"steam\" (harmless water vapour) billows out so it looks like a genuine blast-off. There's a control panel of knobs, dials and lights for little commanders to take charge of, and a climbing route up through the tower that's challenging enough to feel like an achievement before kids reach the big slide at the top. My nephews would happily launch that rocket a hundred times in a row."
+      },
+      {
+        "type": "h2",
+        "text": "Why it works for every age"
+      },
+      {
+        "type": "p",
+        "text": "What makes this playground special is that it genuinely caters to a wide range of ages and abilities — designed by Proludic in partnership with Waverley Council. Beyond the rocket you'll find slides, swings (including accessible ones), climbing structures, spinners, a dedicated toddler zone, and sensory touches like musical instruments and water play woven through. Older kids test themselves on the tower while little ones potter safely nearby, which is exactly what you want when you've brought siblings of different ages."
+      },
+      {
+        "type": "list",
+        "items": [
+          "A multi-storey rocket ship, launch tower and mission control station",
+          "Slides, swings and accessible swing options",
+          "Climbing structures, spinners and a separate toddler area",
+          "Sensory play — musical instruments and water play",
+          "Plenty of seating and shade trees around the edges for parents"
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "It's Bondi Junction, not the beachfront",
+        "text": "Despite the 'heart of Bondi' billing, Waverley Park sits up in Bondi Junction, off Paul Street — roughly a 10-minute walk from Bondi Junction station and moments from Westfield. It's an easy pairing with a shopping run or a trip to Waverley Library next door."
+      },
+      {
+        "type": "h2",
+        "text": "Practical bits: shade, toilets and coffee"
+      },
+      {
+        "type": "p",
+        "text": "The playground is fully fenced, which is a relief with fast toddlers about — though I'll warn you the accessible gate latches sit low, and I've watched determined two-year-olds work them out and make a break for it, so keep an eye on the exits. The one honest gripe is shade: much of the play equipment sits in open sun, so this is a hat-and-sunscreen destination, and I'd aim for morning or late afternoon in summer rather than the middle of the day."
+      },
+      {
+        "type": "localTip",
+        "text": "Come early on a weekend. By mid-morning on a sunny Saturday the rocket ship has a queue and the shady bench spots go fast. Arrive by 9am and you'll get the run of the place — plus cooler equipment before the sun bakes the metal slides."
+      },
+      {
+        "type": "p",
+        "text": "There's a kiosk in the park for coffee and a snack, and public toilets nearby, so you can settle in for a proper morning without packing up early. Hours for the kiosk can change, so I wouldn't plan your whole visit around it."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Where exactly is the Bondi rocket ship playground?",
+            "a": "It's at Waverley Park, off Paul Street in Bondi Junction — about a 10-minute walk from Bondi Junction train station and close to Westfield Bondi Junction, not down on the beachfront itself."
+          },
+          {
+            "q": "Is the playground fenced and good for toddlers?",
+            "a": "Yes, it's fully fenced with a dedicated toddler area, so it's well suited to little ones. Just note the accessible gate latches sit low and small kids can sometimes open them, so watch the exits."
+          },
+          {
+            "q": "Is there shade at Waverley Park playground?",
+            "a": "Shade is limited over the main equipment — its one real weakness. Bring hats and sunscreen, and visit in the morning or late afternoon in summer to avoid the harshest sun."
+          },
+          {
+            "q": "Are there toilets and coffee at the park?",
+            "a": "There's a kiosk serving coffee and snacks and public toilets nearby. Kiosk hours can vary, so treat it as a bonus rather than something to rely on."
+          },
+          {
+            "q": "How much does it cost to visit?",
+            "a": "Nothing — the playground is free and open to the public. You only pay if you grab a coffee or snack from the kiosk."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For a free morning out near Bondi, this is hard to beat. Pack the hats, let the kids launch that rocket until their arms give out, and grab a coffee while they do. It earns the hype."
+      }
+    ],
+    "wordCount": 812,
+    "sources": [
+      {
+        "label": "Waverley Council — Waverley Park play space upgrade",
+        "url": "https://haveyoursay.waverley.nsw.gov.au/waverley-park-play-space-upgrade"
+      },
+      {
+        "label": "Proludic — Waverley Park Playground case study",
+        "url": "https://www.proludic.com.au/inspirations/case-studies/waverley-park-playground/"
+      },
+      {
+        "label": "National Public Toilet Map — Waverley Park",
+        "url": "https://toiletmap.gov.au/542"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
   "/bondi-blog/2024/4/1/city2surf-course-map": {
     "blocks": [
       {
@@ -649,6 +1075,149 @@
       {
         "label": "Voltaren City2Surf — official course map & route",
         "url": "https://city2surf.com.au/"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
+  "/bondi-blog/2024/6/9/the-best-time-to-visit-bondi-beach-a-seasonal-guide": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "The honest answer to \"when's the best time to visit Bondi?\" is that there isn't a bad one — but if you want the classic sun-on-sand experience, come between December and February, and if you want Bondi at its most relaxed, come in autumn. I've lived a short walk from the sand for years, and every season here has its own personality. This is how I'd time your visit depending on what you're after."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Peak season",
+            "value": "Dec–Feb (summer)"
+          },
+          {
+            "label": "Quietest & mildest",
+            "value": "Autumn (Mar–May)"
+          },
+          {
+            "label": "Whale season",
+            "value": "Roughly mid-May–Nov"
+          },
+          {
+            "label": "Southern hemisphere",
+            "value": "Seasons are flipped"
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Remember the seasons are reversed",
+        "text": "Bondi is in the southern hemisphere, so summer falls over Christmas and New Year, and winter runs June to August. If you're coming from the north, mentally flip the calendar."
+      },
+      {
+        "type": "h2",
+        "text": "Summer (December to February): the full Bondi in bloom"
+      },
+      {
+        "type": "p",
+        "text": "This is Bondi at its loudest and most alive — warm water, long evenings, and the promenade buzzing well past sunset. It's when the beach genuinely earns its reputation. It's also when everyone else has the same idea, so the sand fills fast and accommodation prices climb."
+      },
+      {
+        "type": "p",
+        "text": "Two summer fixtures are worth planning around: the New Year's Eve celebrations, when the whole coastline turns festive, and the open-air cinema season up on the hill at Dudley Page Reserve with the city skyline behind the screen. Dates and programs change year to year, so check the official listings before you build a night around them."
+      },
+      {
+        "type": "localTip",
+        "text": "In summer I never arrive between 11am and 2pm expecting a good patch of sand. Come before 9am or after 4pm — the light is softer, the crowds thinner, and the swim just as good. And always swim between the red-and-yellow flags."
+      },
+      {
+        "type": "h2",
+        "text": "Autumn (March to May): my quiet favourite"
+      },
+      {
+        "type": "p",
+        "text": "If you asked me to pick one window, it'd be autumn. The ocean holds onto its summer warmth for weeks, the fierce midday heat eases off, and the tourist crush thins out noticeably. It's the sweet spot for swimming, for walking the Bondi to Bronte coastal path without dodging crowds, and for actually getting a table at the cafés along Campbell Parade."
+      },
+      {
+        "type": "p",
+        "text": "You trade the peak-season events for calm, and to me that's a fair swap. Some businesses trim their hours as the season winds down, but the beach itself is arguably at its most enjoyable."
+      },
+      {
+        "type": "h2",
+        "text": "Winter (June to August): coastal walks and whales"
+      },
+      {
+        "type": "p",
+        "text": "Bondi winters are mild by world standards — cool and crisp rather than freezing — and the beach takes on a completely different, quieter character. Swimming in the open ocean is bracing (this is when the Icebergs pool and its winter swimmers come into their own), but winter has one spectacular payoff: whales."
+      },
+      {
+        "type": "p",
+        "text": "Humpbacks migrate up and down the coast roughly from mid-May into November, and the clifftops along the Bondi to Coogee walk are one of Sydney's best free vantage points to spot them. Bring a jacket, walk the coastal path on a clear morning, and keep one eye on the horizon for a spout or a breach."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Winter isn't beach-lazing weather",
+        "text": "You can absolutely enjoy Bondi in winter, but pack layers and don't count on sunbathing. The wind off the water has a bite, and patrol hours and flagged swimming areas are reduced compared with summer — check conditions before you go in."
+      },
+      {
+        "type": "h2",
+        "text": "Spring (September to November): events and rising warmth"
+      },
+      {
+        "type": "p",
+        "text": "Spring is when Bondi wakes back up. The water warms, the days lengthen, and two of the area's marquee events land in this window. The Festival of the Winds — Waverley Council's huge, free kite festival — fills the sky with colour in September. Then in late October and early November, Sculpture by the Sea turns the Bondi-to-Tamarama clifftop into the world's largest free outdoor sculpture exhibition."
+      },
+      {
+        "type": "p",
+        "text": "Both draw crowds on their peak days and shift dates each year, so confirm them on the official sites before locking in travel. Outside those weekends, spring gives you warm weather with fewer people than the summer peak."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "What is the overall best time to visit Bondi Beach?",
+            "a": "For classic warm beach weather, December to February. For the best balance of warm water, good weather and smaller crowds, I'd choose autumn (March to May) or the shoulder weeks of spring."
+          },
+          {
+            "q": "When is Bondi the least crowded?",
+            "a": "Winter (June to August) is quietest overall, and autumn weekdays are wonderfully calm while the water is still swimmable. Summer weekends and public holidays are the busiest by far."
+          },
+          {
+            "q": "When can I see whales at Bondi?",
+            "a": "Roughly from mid-May to November, as humpbacks migrate along the coast. The Bondi to Coogee clifftop walk is one of the best free land-based spots to watch for them. See Destination NSW for tips."
+          },
+          {
+            "q": "Is the water warm enough to swim in winter?",
+            "a": "The ocean is cool but swimmable for the hardy — you'll see year-round swimmers, especially at the Icebergs pool. Most visitors find spring through autumn far more comfortable for a proper swim."
+          },
+          {
+            "q": "What are the big annual events and when are they?",
+            "a": "The Festival of the Winds kite festival is in September, and Sculpture by the Sea runs from late October into early November. New Year's Eve is the summer highlight. Always confirm exact dates on the official event sites."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Whenever you come, match the season to the trip you want — sun and buzz, quiet swims, whale-watching walks, or spring festivals — and you'll get the version of Bondi you came for."
+      }
+    ],
+    "wordCount": 892,
+    "sources": [
+      {
+        "label": "Waverley Council — Festival of the Winds",
+        "url": "https://www.waverley.nsw.gov.au/recreation/arts_and_culture/major_annual_events/fotw"
+      },
+      {
+        "label": "Sculpture by the Sea, Bondi",
+        "url": "https://sculpturebythesea.com/bondi/"
+      },
+      {
+        "label": "Destination NSW — Whale watching in Sydney",
+        "url": "https://www.sydney.com/things-to-do/nature-and-parks/whale-watching"
+      },
+      {
+        "label": "Bureau of Meteorology — Sydney climate",
+        "url": "http://www.bom.gov.au/nsw/"
       }
     ],
     "lastReviewed": "2026-08-08",
@@ -890,11 +1459,141 @@
     "lastReviewed": "2026-08-08",
     "voice": "first-person"
   },
+  "/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "People ask me all the time which are the most dramatic moments on Bondi Rescue, and the honest answer is that the drama I remember best isn't any single ranked episode — it's the recurring, real situations that unfold on my home beach every summer: the mass rescues off the Backpackers Express, the resuscitations on the sand, the shark alarms that clear the water in seconds. Bondi Rescue has followed the Waverley Council lifeguards since 2006, and after nearly two decades I still can't watch a rip-current save without holding my breath."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Show",
+            "value": "Bondi Rescue (Network 10)"
+          },
+          {
+            "label": "On air since",
+            "value": "2006"
+          },
+          {
+            "label": "Filmed at",
+            "value": "Bondi (plus Bronte & Tamarama)"
+          },
+          {
+            "label": "The lifeguards",
+            "value": "Waverley Council professionals"
+          },
+          {
+            "label": "Seen in",
+            "value": "Around 100 countries"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The show was the idea of part-time lifeguard Ben Davies, made with producer Michael Cordell and narrated by Osher Günsberg. What makes it grip you isn't manufactured — it's that these are genuine emergencies on Australia's busiest beach, filmed as they happen. Below are the kinds of dramatic moments that, for me, define the series. I'm not going to invent episode numbers or dress up outcomes; if you want the specific saves, they're on 10 Play and the official Bondi Rescue YouTube channel."
+      },
+      {
+        "type": "h2",
+        "text": "The moments that made the show"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Mass rescues on the Backpackers Express — a wall of swimmers dragged out at once, boards and jet skis working overtime.",
+          "Resuscitations on the sand — CPR in front of a stunned crowd, the whole beach willing a stranger back.",
+          "Shark alarms — the siren, the scramble, the water emptying in under a minute.",
+          "Bluebottle days — a nor'easter blows in thousands of stingers and the first-aid room never stops.",
+          "Missing children — the fastest, quietest panic on the beach, and the relief when a small face turns up.",
+          "Rock-ledge and cliff rescues at the south end, where the surf meets the sandstone.",
+          "Big-swell days when the flags come down and the ocean simply wins.",
+          "First-aid dramas up on the promenade that have nothing to do with the water at all."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If there's a single villain across all of it, it's a rip current at the southern end of the beach the lifeguards call the Backpackers Express — named because it so reliably sweeps up newly arrived travellers who don't yet read the water. It's the setting for many of the show's most frantic sequences, and it's the reason the lifeguards move their flags where they do each morning."
+      },
+      {
+        "type": "h2",
+        "text": "Why the drama is real (and useful)"
+      },
+      {
+        "type": "p",
+        "text": "Head lifeguard Bruce \"Hoppo\" Hopkins has more resuscitations to his name than anyone on the team, and early in the show's life the crew filmed a complete, real resuscitation that later became international training material. That's the part I love: the series isn't just adrenaline, it's quietly taught millions of people worldwide how a rip works and why you swim between the red-and-yellow flags. Charismatic senior guards like Anthony \"Harries\" Carroll gave it heart, but the beach itself supplies the stakes."
+      },
+      {
+        "type": "localTip",
+        "text": "Want to see where the drama happens? Stand at the south end of Bondi near the Icebergs and look for the deceptively calm, darker channel of water pushing out to sea between the sandbanks — that's the classic rip signature. Then walk back to the flags and swim there. The lifeguards put them in the safest spot on the day for a reason."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "The show is entertainment — the ocean isn't",
+        "text": "It's easy to binge Bondi Rescue and feel like you know the beach. You don't until you're in it. Always swim between the red-and-yellow flags, never swim alone or after drinking, and if you're ever caught in a rip, stay calm, raise an arm and let the current carry you until it releases — then signal for help. On a patrolled beach, a lifeguard will reach you."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Is Bondi Rescue real or staged?",
+            "a": "It's real. The show films the actual Waverley Council lifeguards responding to genuine incidents at Bondi, Bronte and Tamarama. Faces are sometimes blurred and consent is managed, but the rescues themselves aren't staged."
+          },
+          {
+            "q": "Can I watch the lifeguards film while I'm at Bondi?",
+            "a": "Sometimes. Filming happens across the summer season around the lifeguard tower at the centre of the beach. There's no set schedule for visitors, and you should never crowd or interfere with an actual rescue — give the guards room to work."
+          },
+          {
+            "q": "What is the Backpackers Express?",
+            "a": "It's the nickname for a persistent rip current at the southern end of Bondi Beach, close to the backpacker hostels. It regularly sweeps unaware swimmers out to sea and features in many of the show's rescues, which is exactly why you should swim between the flags."
+          },
+          {
+            "q": "Where can I watch the most dramatic rescues?",
+            "a": "Full episodes stream on 10 Play in Australia, and the official Bondi Rescue YouTube channel posts many of the standout rescues as clips. It airs in around 100 countries, so check your local broadcaster too."
+          },
+          {
+            "q": "Who is the head lifeguard on Bondi Rescue?",
+            "a": "Bruce \"Hoppo\" Hopkins heads the Waverley Council lifeguard team and has appeared throughout the series. He's credited with more resuscitations than any other lifeguard on the crew."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "So if you're chasing a definitive top twenty, my advice is to watch a season with fresh eyes and make your own. But when you come down to Bondi in person, do me one favour: skip the Backpackers Express and swim between the flags. The most dramatic rescue is always the one that never has to happen."
+      }
+    ],
+    "wordCount": 898,
+    "sources": [
+      {
+        "label": "Bondi Rescue — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bondi_Rescue"
+      },
+      {
+        "label": "Bondi Rescue — Network 10",
+        "url": "https://10.com.au/bondi-rescue"
+      },
+      {
+        "label": "Bruce Hopkins (surf lifesaver) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bruce_Hopkins_(surf_lifesaver)"
+      },
+      {
+        "label": "Science of the Surf — The Backpackers Express, Bondi",
+        "url": "https://www.scienceofthesurf.com/rip-of-the-month-2009/june-2009-backpackersbondi"
+      },
+      {
+        "label": "UNSW Newsroom — More than reality TV: educating the world about beach safety",
+        "url": "https://www.unsw.edu.au/newsroom/news/2016/12/more-than-reality-tv--educating-the-world-about-beach-safety"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
   "/bondi-blog/2025/1/2/how-far-is-bondi-beach-from-key-sydney-locations": {
     "blocks": [
       {
         "type": "p",
-        "text": "The short answer: Bondi Beach sits about 7 km east of the Sydney CBD and roughly 14 km from Sydney Airport, and from either one you're realistically 30 to 60 minutes away depending on how you travel and what the traffic's doing. I've made every one of these trips more times than I can count, so here's my honest, local take on how far Bondi really is from the places you're most likely to be starting from — and the smartest way to close the gap."
+        "text": "The short answer: Bondi Beach sits about 7 km east of the Sydney CBD and roughly 14 km from Sydney Airport, and from either one you're realistically 30 to 60 minutes away depending on how you travel and what the traffic's doing. Here's my honest local take on how far Bondi really is from wherever you're starting — and the smartest way to close the gap."
       },
       {
         "type": "quickFacts",
@@ -913,13 +1612,13 @@
           },
           {
             "label": "Beach buses",
-            "value": "333, 380, 381, 382"
+            "value": "333, 380, 381"
           }
         ]
       },
       {
         "type": "p",
-        "text": "The single most important thing to know before you plan anything: there is no train station at Bondi Beach itself. The name catches a lot of visitors out. The closest station is Bondi Junction, about 3 km up the hill, and from there you hop on a bus down to the sand. Once that clicks, the whole city opens up."
+        "text": "The single most important thing to know: there's no train station at Bondi Beach itself, and the name catches a lot of visitors out. The closest station is Bondi Junction, about 3 km up the hill, and from there you hop on a bus down to the sand. Once that clicks, the whole city opens up."
       },
       {
         "type": "h2",
@@ -927,15 +1626,15 @@
       },
       {
         "type": "p",
-        "text": "Bondi Junction is the eastern terminus of the T4 Eastern Suburbs & Illawarra line, so trains from the CBD, the airport line and the southern and inner-west suburbs all funnel through it. When you step off the train, follow the signs to the bus interchange upstairs and jump on a 333, 380, 381 or 382 — every one of them rolls down Bondi Road to Campbell Parade, right along the beachfront. It's a short ride, and buses run frequently through the day."
+        "text": "Bondi Junction is the eastern terminus of the T4 Eastern Suburbs & Illawarra line, so trains from the CBD and the airport line all funnel through it. Step off, follow the signs upstairs to the bus interchange, and jump on a 333, 380 or 381 — each one rolls down Bondi Road to Campbell Parade, right along the beachfront. It's a short ride and buses run frequently through the day."
       },
       {
         "type": "p",
-        "text": "The 333 is the one I steer people towards: it's the limited-stops express that runs all the way from the CBD (Circular Quay, Wynyard, Town Hall) through Bondi Junction to the beach, so if you're coming from the city centre you can often skip the train entirely and stay on one bus."
+        "text": "The 333 is the one I steer people towards: it's the limited-stops express that runs from the CBD — Circular Quay, Wynyard, Town Hall — through Bondi Junction to the beach. If you're coming from the city centre you can often skip the train and stay on one bus."
       },
       {
         "type": "localTip",
-        "text": "Tap on with a contactless credit/debit card or your phone — you don't need a physical Opal card anymore, and the daily fare cap and Sunday cap apply just the same. One tap covers the train, and a second tap covers the connecting bus. Keep the kids' Opal cards handy though, as child concession fares still need a card."
+        "text": "Tap on with a contactless credit/debit card or your phone — you don't need a physical Opal card anymore, and the daily and Sunday fare caps apply just the same. One tap covers the train, a second covers the connecting bus. Child concession fares still need a physical card, so keep those handy."
       },
       {
         "type": "h2",
@@ -943,7 +1642,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi is one of the closer beaches to the airport — around 14 km by road. In a taxi or rideshare it's usually a 25 to 40 minute drive, though the Eastern Distributor and General Holmes Drive can bunch up badly in peak hour, so leave yourself a buffer if you've got a flight. On public transport, the reliable route is the airport train to Central or straight through to Bondi Junction (note the airport stations charge a separate station access fee on top of the normal fare), then a beach bus down. It takes longer than a car but it's cheap and it never gets stuck in traffic."
+        "text": "Bondi is one of the closer beaches to the airport, around 14 km by road. A taxi or rideshare is usually 25 to 40 minutes, though the Eastern Distributor can bunch up in peak hour, so leave a buffer if you've got a flight. On public transport, take the airport train to Bondi Junction — the airport stations charge a separate station access fee on top of the normal fare — then a beach bus down. Slower than a car, but cheap, and it never gets stuck in traffic."
       },
       {
         "type": "callout",
@@ -957,7 +1656,7 @@
       },
       {
         "type": "p",
-        "text": "This is the easy one. From the heart of the city you've got two good options: catch the 333 straight from the CBD to the beach, or take a T4 train to Bondi Junction and change to a bus. Either way you're generally looking at somewhere in the 30 to 50 minute range. If you've been sightseeing around the Opera House and Circular Quay, the 333 conveniently starts near there, so you can go from harbour to surf without ever needing to work out a connection."
+        "text": "This is the easy one. You've got two good options: catch the 333 straight to the beach, or take a T4 train to Bondi Junction and change to a bus. Either way you're generally looking at 30 to 50 minutes. The 333 starts near Circular Quay, so if you've been sightseeing around the Opera House you can go from harbour to surf without working out a connection."
       },
       {
         "type": "h2",
@@ -965,11 +1664,11 @@
       },
       {
         "type": "p",
-        "text": "Manly and Bondi are Sydney's two most famous beaches and they sit on opposite sides of the harbour, so this is the longest of the common trips — comfortably over an hour on public transport. My favourite way to do it is also the most scenic: catch the Manly ferry across to Circular Quay (a gorgeous ride in its own right), then pick up the 333 out to Bondi. You turn a logistical slog into one of the best half-days in the city."
+        "text": "Manly and Bondi are Sydney's two most famous beaches, on opposite sides of the harbour, so this is the longest of the common trips — comfortably over an hour on public transport. My favourite way is also the most scenic: catch the Manly ferry to Circular Quay, then pick up the 333 out to Bondi. It turns a logistical slog into one of the best half-days in the city."
       },
       {
         "type": "p",
-        "text": "By car the two beaches are only around 20 km apart as the crow flies, but you have to cross the Harbour Bridge or the tunnel to get between them, and that stretch is genuinely unpredictable. I'd budget 45 to 75 minutes and not be surprised by either end of that."
+        "text": "By car the two beaches are only around 20 km apart, but you have to cross the Harbour Bridge or the tunnel to get between them, and that stretch is genuinely unpredictable. I'd budget 45 to 75 minutes and not be surprised by either end of that."
       },
       {
         "type": "h2",
@@ -977,39 +1676,39 @@
       },
       {
         "type": "p",
-        "text": "You can absolutely drive to Bondi, but I rarely recommend it unless you're staying out this way or heading somewhere public transport doesn't reach. Street parking around Campbell Parade is metered, time-limited and fiercely contested, especially on warm weekends and over summer. Nine times out of ten, taking the train to Bondi Junction and busing down is faster and far less stressful than circling for a space."
+        "text": "You can drive to Bondi, but I rarely recommend it unless you're staying out this way or heading somewhere public transport doesn't reach. Street parking around Campbell Parade is metered, time-limited and fiercely contested, especially on warm weekends and over summer. Nine times out of ten, the train to Bondi Junction and a bus down is faster and less stressful than circling for a space."
       },
       {
         "type": "faq",
         "items": [
           {
             "q": "Is there a train station at Bondi Beach?",
-            "a": "No — this trips a lot of visitors up. The nearest station is Bondi Junction on the T4 line, about 3 km from the sand. From there you take a 333, 380, 381 or 382 bus down to the beachfront."
+            "a": "No — the name trips a lot of visitors up. The nearest is Bondi Junction on the T4 line, about 3 km from the sand. From there a 333, 380 or 381 bus runs down to the beachfront."
           },
           {
             "q": "How far is Bondi Beach from Sydney city centre?",
-            "a": "About 7 km east of the CBD. The 333 express bus runs from the city straight to the beach, or you can take a T4 train to Bondi Junction and change to a bus — usually somewhere in the 30 to 50 minute range."
+            "a": "About 7 km east of the CBD. The 333 express runs from the city straight to the beach, or take a T4 train to Bondi Junction and change to a bus — usually 30 to 50 minutes."
           },
           {
             "q": "How do I get from Sydney Airport to Bondi Beach?",
-            "a": "It's roughly 14 km. A taxi or rideshare is the quickest at around 25 to 40 minutes depending on traffic. By public transport, take the airport train to Bondi Junction (a station access fee applies at the airport) and connect to a beach bus."
+            "a": "It's roughly 14 km. A taxi or rideshare is quickest at around 25 to 40 minutes depending on traffic. By public transport, take the airport train to Bondi Junction (a station access fee applies at the airport) and connect to a beach bus."
           },
           {
             "q": "What's the best way to get from Manly to Bondi?",
-            "a": "My pick is the Manly ferry to Circular Quay followed by the 333 bus to Bondi — scenic and simple. Allow well over an hour either by ferry-and-bus or by car, since you have to cross the harbour."
+            "a": "My pick is the Manly ferry to Circular Quay, then the 333 to Bondi — scenic and simple. Allow well over an hour, since you have to cross the harbour either way."
           },
           {
             "q": "Do I need an Opal card?",
-            "a": "Not necessarily. You can tap on with a contactless credit or debit card or a phone/watch, and the fare caps still apply. A physical Opal card is only essential for child, concession or senior fares."
+            "a": "Not necessarily. You can tap on with a contactless card or a phone, and the fare caps still apply. A physical Opal card is only essential for child, concession or senior fares."
           }
         ]
       },
       {
         "type": "p",
-        "text": "So while Bondi feels like its own little world once you're there with your toes in the sand, it's genuinely well connected — a short bus from a major train station and an easy hop from almost anywhere in Sydney. Sort out the Bondi Junction connection in your head, tap on with a card, and the distance takes care of itself."
+        "text": "So while Bondi feels like its own world once you're there with your toes in the sand, it's genuinely well connected — a short bus from a major train station and an easy hop from almost anywhere in Sydney. Sort out the Bondi Junction connection, tap on with a card, and the distance takes care of itself."
       }
     ],
-    "wordCount": 1141,
+    "wordCount": 1013,
     "sources": [
       {
         "label": "Transport for NSW — Trip Planner",
@@ -1672,7 +2371,7 @@
         "type": "callout",
         "tone": "note",
         "title": "Larger groups and special occasions",
-        "text": "Big tables, birthdays and set-menu events work differently from a regular booking, and Totti's has a private dining option too. For anything beyond a standard table, contact the venue directly on +61 2 9114 7371 or email reservations@merivale.com rather than relying on the standard online form."
+        "text": "Big tables, birthdays and set-menu events work differently from a regular booking, and Totti's has a private dining option too. For anything beyond a standard table, contact the venue directly on +61 2 9114 7371 or use the enquiry form on Totti's private dining page rather than the standard online booking."
       },
       {
         "type": "h2",
@@ -1695,7 +2394,7 @@
         "items": [
           {
             "q": "How do I book a table at Totti's Bondi?",
-            "a": "Through Merivale's online booking system on the Totti's venue page (merivale.com/venues/tottis). You can also phone the venue on +61 2 9114 7371 or email reservations@merivale.com. Booking online is the most reliable route for a standard table."
+            "a": "Through Merivale's online booking system on the Totti's venue page (merivale.com/venues/tottis). You can also phone the venue on +61 2 9114 7371. Booking online is the most reliable route for a standard table."
           },
           {
             "q": "How far in advance do bookings open?",
@@ -1716,19 +2415,15 @@
         ]
       }
     ],
-    "wordCount": 867,
+    "wordCount": 869,
     "sources": [
       {
         "label": "Totti's Bondi — Merivale (official venue page)",
         "url": "https://merivale.com/venues/tottis/"
       },
       {
-        "label": "Totti's Bondi FAQs — Merivale",
-        "url": "https://merivale.com/venues/tottis/faqs/"
-      },
-      {
-        "label": "Totti's Bondi Menu — Merivale",
-        "url": "https://merivale.com/venues/tottis/menu/"
+        "label": "Totti's Bondi Private Dining Room — Merivale",
+        "url": "https://merivale.com/venues/tottis/bondi-private-dining-room/"
       }
     ],
     "lastReviewed": "2026-08-08",
@@ -3297,6 +3992,135 @@
     "lastReviewed": "2026-08-08",
     "voice": "first-person"
   },
+  "/bondi-blog/how-to-get-to-bondi-beach": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "The simplest way to get to Bondi Beach without a car is to catch a train to Bondi Junction and hop on a bus down the hill — the 333, 380 or 381 will drop you right on Campbell Parade. It's one of my favourite things about living here: for a beach this famous, Bondi is genuinely easy to reach from almost anywhere in Sydney, and you don't need to hire a car to do it."
+      },
+      {
+        "type": "p",
+        "text": "There's no train station at the beach itself (a common surprise for first-timers), so nearly every public-transport route funnels through Bondi Junction first. Here's exactly how I'd do it, whether you're coming from the CBD, the airport, or driving in for the day."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Nearest station",
+            "value": "Bondi Junction (T4 line)"
+          },
+          {
+            "label": "Buses to the sand",
+            "value": "333, 380, 381"
+          },
+          {
+            "label": "Junction to beach",
+            "value": "About 10–15 min by bus"
+          },
+          {
+            "label": "Pay with",
+            "value": "Opal card or contactless (tap on)"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "By public transport (my usual pick)"
+      },
+      {
+        "type": "p",
+        "text": "From the city, take a T4 Eastern Suburbs line train to Bondi Junction — the end of the line and a big interchange. Follow the signs down to the bus stands, where the 333, 380 and 381 all run to Bondi Beach and back. The 333 is the frequent, limited-stops service and the one I aim for; the 380 and 381 stop more often. All three end up at the same place: Campbell Parade, right across from the sand."
+      },
+      {
+        "type": "p",
+        "text": "The 333 and 380 also run all the way from the CBD (Circular Quay through to Bondi Beach), so if you'd rather stay on one bus the whole way you can skip the train entirely. It's slower than train-then-bus, but you get the harbour-to-ocean view for the trouble."
+      },
+      {
+        "type": "localTip",
+        "text": "On a hot summer weekend, the bus down from Bondi Junction can crawl and fill up fast. If it's a gorgeous day and you're able, the walk from Bondi Junction to the beach is roughly 25–30 minutes downhill — sometimes genuinely quicker than waiting for a packed bus, and a nice way to arrive."
+      },
+      {
+        "type": "h3",
+        "text": "Paying your fare"
+      },
+      {
+        "type": "p",
+        "text": "You don't need a paper ticket, and drivers don't sell them. Just tap on with an Opal card or any contactless card or phone (Apple Pay, Google Pay and the like) as you board. On buses you tap on only. Opal cards are sold at convenience stores, supermarkets and stations if you'd prefer one, but for most visitors the card already in your pocket is the easiest option. Fares are distance-based and there are daily and weekly caps — check Transport for NSW for the current amounts before you travel."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Coming from Sydney Airport?",
+        "text": "Take the train from the airport to Central, then change to a T4 train to Bondi Junction, and finish on a 333/380/381 bus. Note the airport stations charge an extra station-access fee on top of the normal fare — that's an airport thing, not a Bondi thing."
+      },
+      {
+        "type": "h2",
+        "text": "By car (and the parking reality)"
+      },
+      {
+        "type": "p",
+        "text": "Driving is easy enough — Bondi sits only a handful of kilometres east of the CBD — but I'll be honest about parking, because it's the catch. There's metered street parking around Campbell Parade and the surrounding streets plus a car park behind the beach, but on any warm weekend it fills early and you'll be circling. Most of the metered spots are paid and time-limited, so read the signs carefully and check current rates and time limits with Waverley Council."
+      },
+      {
+        "type": "localTip",
+        "text": "If you're set on driving in summer, arrive before about 9am or you'll spend your morning hunting for a space. Better yet, park at Bondi Junction and bus or walk down — it saves the beachfront scramble entirely."
+      },
+      {
+        "type": "h2",
+        "text": "By rideshare or taxi"
+      },
+      {
+        "type": "p",
+        "text": "Uber, taxis and other rideshare services all serve Bondi and will take you door to sand. It's the most convenient option if you're carrying gear or travelling as a group, though fares climb with demand — expect to pay noticeably more on hot afternoons and event weekends when everyone's heading the same way."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Is there a train station at Bondi Beach?",
+            "a": "No. The closest station is Bondi Junction on the T4 line, about 3km uphill from the sand. From there you take a 333, 380 or 381 bus, or walk down in roughly 25–30 minutes."
+          },
+          {
+            "q": "Which bus goes to Bondi Beach?",
+            "a": "The 333, 380 and 381 all run to Bondi Beach. From Bondi Junction any of them work; the 333 is the fastest as it makes fewer stops. The 333 and 380 also run all the way from the CBD."
+          },
+          {
+            "q": "Do I need an Opal card, or can I tap my phone?",
+            "a": "Either works. You can tap on with a physical Opal card or with a contactless bank card or phone wallet — same fares and the same daily caps. On buses you only tap on."
+          },
+          {
+            "q": "How long does it take to get to Bondi from the city?",
+            "a": "Allow roughly 40–50 minutes by train-then-bus from the CBD, longer on busy summer weekends when traffic and crowds slow the buses down. Check Transport for NSW's trip planner for live times."
+          },
+          {
+            "q": "Is it worth driving to Bondi Beach?",
+            "a": "Only if you arrive early. Parking is metered, time-limited and fills fast on warm days. Public transport is usually the less stressful choice — or park at Bondi Junction and finish the trip by bus."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "However you come, my advice is the same: travel light, go early on a summer weekend, and let the bus or train do the work so you can save your energy for the water. Bondi's genuinely one of the easiest world-famous beaches to reach — the hardest part is leaving."
+      }
+    ],
+    "wordCount": 918,
+    "sources": [
+      {
+        "label": "Transport for NSW — trip planner & timetables",
+        "url": "https://transportnsw.info/"
+      },
+      {
+        "label": "Transport for NSW — Opal & contactless payments",
+        "url": "https://transportnsw.info/tickets-opal"
+      },
+      {
+        "label": "Sydney bus route 333 (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Sydney_bus_route_333"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
   "/bondi-blog/how-to-pronounce-bondi-beach": {
     "blocks": [
       {
@@ -3367,6 +4191,119 @@
       {
         "label": "Waverley Council — Bondi Beach (name origin)",
         "url": "https://www.waverley.nsw.gov.au/residents/precinct_committees/meetings_docs/bondi_beach"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
+  "/bondi-blog/is-bondi-icebergs-pool-heated": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Let me save you the goosebumps: no, the Bondi Icebergs pool is not heated. It's an ocean pool, filled straight from the Tasman Sea, so whatever the water is doing out the front of Bondi that day is pretty much what you'll be diving into. On a still February morning that's glorious. In the depths of a Sydney winter, it's the sort of cold that makes you gasp, laugh, and feel very alive — which, honestly, is the whole point of the place."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Heated?",
+            "value": "No — unheated ocean pool"
+          },
+          {
+            "label": "Water",
+            "value": "Natural saltwater, fed by the sea"
+          },
+          {
+            "label": "Where",
+            "value": "1 Notts Avenue, Bondi Beach"
+          },
+          {
+            "label": "Pools",
+            "value": "50m lap pool + smaller children's pool"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "So how cold does it actually get?"
+      },
+      {
+        "type": "p",
+        "text": "Because the pool takes its water from the ocean, its temperature tracks the sea temperature off Bondi. Broadly, the water is warmest in late summer (roughly December to March) and coldest in winter (around June to August). On a warm, sunny day the shallow ends can take the edge off as the sun works on them, but don't expect a spa — the sea sets the tone here, not a boiler."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Want the real number before you go?",
+        "text": "Sea temperature swings from day to day with tides, swell and wind. Rather than trust a figure that's weeks out of date, check the Bureau of Meteorology's Sydney sea-temperature reading, or the club's own Pool Conditions page, on the morning of your swim."
+      },
+      {
+        "type": "p",
+        "text": "Every so often a big swell washes right over the edge and floods the pool with fresh, cold ocean water — part of what keeps it so clean, and part of why the temperature can shift between visits. It's a living pool, not a climate-controlled one."
+      },
+      {
+        "type": "h2",
+        "text": "Why isn't it heated — and why locals love that"
+      },
+      {
+        "type": "p",
+        "text": "Icebergs earned its name honestly. The winter swimming club that gives the place its identity has been meeting here since 1929, and the tradition is built on cold water: members famously swim right through winter, and the folklore is that they'd drop actual blocks of ice into the pool to keep the season honest. Heating it would rather miss the point. For a lot of us, that bracing hit of cold saltwater — with waves crashing over the sea wall beside you and the whole sweep of Bondi in front — is exactly what makes a lap here feel different from any indoor pool."
+      },
+      {
+        "type": "localTip",
+        "text": "If you feel the cold, go for a mid-to-late morning swim on a sunny day, when the sun has been on the water for a few hours and the wind is usually lightest. Bring a towel you can wrap up in fast, and a coffee from the promenade afterwards is non-negotiable."
+      },
+      {
+        "type": "h2",
+        "text": "Warming up: is there anything heated here?"
+      },
+      {
+        "type": "p",
+        "text": "The swimming is cold, but the building above it is not. The Icebergs complex houses a sauna and hot showers, plus the club and the well-known dining room upstairs, so you can thaw out and look back down over the pool you just braved. If a heated indoor swim is what you're truly after, Bondi's ocean pools aren't it — you'd want a standard indoor aquatic centre elsewhere. Icebergs is about the ocean, cold and honest."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Is the Bondi Icebergs pool heated?",
+            "a": "No. It's an unheated ocean pool filled with natural saltwater straight from the sea, so its temperature follows the ocean — warmest in summer, genuinely cold in winter."
+          },
+          {
+            "q": "How cold is Icebergs in winter?",
+            "a": "Cold enough to take your breath away — it mirrors the winter sea temperature off Bondi. For the actual reading on any given day, check the Bureau of Meteorology's Sydney sea temperature or the club's Pool Conditions page before you go."
+          },
+          {
+            "q": "Is the water salt or chlorine?",
+            "a": "Saltwater. The pool is fed directly by the ocean rather than treated with chlorine like a suburban pool, which is a big part of its character."
+          },
+          {
+            "q": "Is there anywhere warm to recover after a swim?",
+            "a": "Yes — the Icebergs complex has a sauna and hot showers, and the club and dining room upstairs are a lovely spot to warm up with a view over the pool."
+          },
+          {
+            "q": "Can I still swim there in winter?",
+            "a": "Absolutely — winter swimming is the whole tradition at Icebergs. The pool is open to the public year-round; just check current hours and any cleaning-day closures on the official Icebergs website first."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "My honest advice? Don't let \"unheated\" put you off. Pick a bright morning, walk down the steps, and take the plunge — cold water and all. It's one of those Bondi experiences that's far better felt than described, and you'll be talking about it long after you've warmed up."
+      }
+    ],
+    "wordCount": 769,
+    "sources": [
+      {
+        "label": "Bondi Icebergs — Pool Conditions",
+        "url": "https://icebergs.com.au/pool-conditions/"
+      },
+      {
+        "label": "Bondi Icebergs Club",
+        "url": "https://icebergs.com.au/"
+      },
+      {
+        "label": "Bureau of Meteorology — Sydney sea temperatures",
+        "url": "http://www.bom.gov.au/nsw/observations/sydney.shtml"
       }
     ],
     "lastReviewed": "2026-08-08",

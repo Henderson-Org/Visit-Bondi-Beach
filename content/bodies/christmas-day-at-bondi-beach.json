@@ -1,0 +1,46 @@
+{
+  "path": "/bondi-blog/2023/12/13/christmas-day-at-bondi-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
+    { "label": "Waverley Council — Alcohol Free Zones and Alcohol Prohibited Areas", "url": "https://haveyoursay.waverley.nsw.gov.au/trial-alcohol-prohibited-areas" },
+    { "label": "Bondi Lifeguards — Surf Safety", "url": "https://www.bondilifeguards.com/surf-safety" },
+    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Christmas Day at Bondi Beach is exactly the Aussie summer Christmas the postcards promise — sunshine instead of snow, Santa hats over swimmers, and the sand packed with families, backpackers and homesick travellers all sharing the same patch of coast. If you're weighing up whether to come down on the 25th, my short answer is yes: it's one of my favourite days of the year here. But there are a few things I always tell people first, because a Bondi Christmas rewards anyone who turns up prepared." },
+    { "type": "quickFacts", "items": [
+      { "label": "When", "value": "December 25, all day" },
+      { "label": "Vibe", "value": "Busy, festive, friendly" },
+      { "label": "Alcohol", "value": "Not permitted — alcohol-free zone" },
+      { "label": "Cost", "value": "Free (the beach itself)" },
+      { "label": "Don't forget", "value": "Sunscreen, hat, water, shade" }
+    ] },
+    { "type": "h2", "text": "What Christmas Day actually feels like here" },
+    { "type": "p", "text": "The beach doesn't run on a schedule on Christmas Day — people drift down from mid-morning and stay until the light goes. You'll see picnics and beach barbecues (seafood and salads far more than roast turkey), pick-up volleyball games, surfers in Santa hats, and groups of travellers who've adopted each other for the day. If you're far from home and feeling it, this is the place to be: almost everyone around you is in the same boat, and Bondi has a warm, come-as-you-are spirit that makes it easy to fall in with a crowd." },
+    { "type": "p", "text": "For a quieter version of the day, walk it off — the Bondi to Coogee coastal walk is stunning in the morning light, and the northern end of the beach near the children's pool is usually calmer than the busy middle." },
+    { "type": "callout", "tone": "warning", "title": "Bondi is an alcohol-free zone", "text": "Bondi Beach is an alcohol-free zone under Waverley Council rules, and glass is a no-go on the sand. Police and rangers do patrol on Christmas Day. Plan for a booze-free beach day and keep the celebrating for a licensed venue or a private place afterwards — check Waverley Council for the current alcohol-free zone details." },
+    { "type": "h2", "text": "Swim safety comes first" },
+    { "type": "p", "text": "Bondi is patrolled every day of the year by Waverley Council's professional lifeguards, and through summer they're backed up by volunteer surf lifesavers. Wherever you swim, get in between the red and yellow flags — that's the stretch the lifeguards have judged safest and are actively watching. If there are no flags up, the message is simple: don't swim." },
+    { "type": "callout", "tone": "warning", "title": "Alcohol and the ocean don't mix", "text": "Every Christmas the lifeguards deal with avoidable rescues, and alcohol is behind a lot of them — it slows your reactions and clouds your judgement, and even confident swimmers get caught out. If you've had a drink, stay out of the water. Rips at Bondi are real and can pull hard." },
+    { "type": "localTip", "text": "The Sydney sun in late December is fierce — much stronger than a northern-hemisphere winter sun, which catches a lot of visitors out. Slip on a shirt, slop on SPF50+ and reapply every couple of hours, grab a hat, and bring your own shade and water. A patch of umbrella and a full bottle will save your whole afternoon." },
+    { "type": "h2", "text": "What's open (and what to plan around)" },
+    { "type": "p", "text": "Christmas Day is a public holiday in New South Wales, so treat the surrounding shops, cafés and venues as closed or on reduced hours unless you've confirmed otherwise. Don't count on grabbing lunch or a coffee on the strip — bring what you need with you. Public transport also runs to a holiday timetable, so check Transport for NSW before you set out rather than turning up at the bus stop and hoping." },
+    { "type": "p", "text": "The famous Bondi Icebergs pool and its restaurant keep their own festive-season hours, which change year to year, so I won't quote a time that might be wrong — check the Icebergs website directly if you're hoping to swim laps or book a table over Christmas." },
+    { "type": "list", "items": [
+      "Pack in: sunscreen, hat, water, snacks or picnic food, shade, a rubbish bag.",
+      "Leave at home: alcohol and anything glass — both are prohibited on the beach.",
+      "Arrive earlier for parking and a good spot; it fills up fast on a warm 25th.",
+      "Bin your rubbish or take it with you — the clean-up after big beach days is brutal."
+    ] },
+    { "type": "faq", "items": [
+      { "q": "Can I drink alcohol on Bondi Beach on Christmas Day?", "a": "No. Bondi Beach is an alcohol-free zone under Waverley Council rules, and glass isn't allowed on the sand either. Police and rangers patrol on Christmas Day, so keep any celebrating to a licensed venue." },
+      { "q": "Is it safe to swim at Bondi on Christmas Day?", "a": "Yes, if you swim between the red and yellow flags where the lifeguards are watching, and only if you're sober. Bondi is patrolled year-round, but rips are real — if there are no flags, don't swim." },
+      { "q": "Will cafés and shops be open?", "a": "Assume most are closed or on reduced hours, since Christmas Day is a NSW public holiday. Bring your own food and water rather than relying on grabbing something nearby." },
+      { "q": "How do I get to Bondi on Christmas Day?", "a": "Public transport runs to a holiday timetable, so check Transport for NSW before you travel. If you're driving, arrive early — parking near the beach disappears fast on a warm Christmas." },
+      { "q": "What's the one thing first-timers forget?", "a": "Sun protection. The late-December Sydney sun is much stronger than a European winter sun. Bring SPF50+, a hat, shade and water, and reapply sunscreen every couple of hours." }
+    ] },
+    { "type": "p", "text": "That's the whole trick to a Bondi Christmas: come prepared, respect the ocean and the sun, take your rubbish with you, and let the day carry you. Whether you're a local or a traveller far from home, Christmas on Bondi has a way of becoming one you remember for all the right reasons." }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "path": "/bondi-blog/is-bondi-icebergs-pool-heated",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bondi Icebergs — Pool Conditions", "url": "https://icebergs.com.au/pool-conditions/" },
+    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" },
+    { "label": "Bureau of Meteorology — Sydney sea temperatures", "url": "http://www.bom.gov.au/nsw/observations/sydney.shtml" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Let me save you the goosebumps: no, the Bondi Icebergs pool is not heated. It's an ocean pool, filled straight from the Tasman Sea, so whatever the water is doing out the front of Bondi that day is pretty much what you'll be diving into. On a still February morning that's glorious. In the depths of a Sydney winter, it's the sort of cold that makes you gasp, laugh, and feel very alive — which, honestly, is the whole point of the place." },
+    { "type": "quickFacts", "items": [
+      { "label": "Heated?", "value": "No — unheated ocean pool" },
+      { "label": "Water", "value": "Natural saltwater, fed by the sea" },
+      { "label": "Where", "value": "1 Notts Avenue, Bondi Beach" },
+      { "label": "Pools", "value": "50m lap pool + smaller children's pool" }
+    ] },
+    { "type": "h2", "text": "So how cold does it actually get?" },
+    { "type": "p", "text": "Because the pool takes its water from the ocean, its temperature tracks the sea temperature off Bondi. Broadly, the water is warmest in late summer (roughly December to March) and coldest in winter (around June to August). On a warm, sunny day the shallow ends can take the edge off as the sun works on them, but don't expect a spa — the sea sets the tone here, not a boiler." },
+    { "type": "callout", "tone": "note", "title": "Want the real number before you go?", "text": "Sea temperature swings from day to day with tides, swell and wind. Rather than trust a figure that's weeks out of date, check the Bureau of Meteorology's Sydney sea-temperature reading, or the club's own Pool Conditions page, on the morning of your swim." },
+    { "type": "p", "text": "Every so often a big swell washes right over the edge and floods the pool with fresh, cold ocean water — part of what keeps it so clean, and part of why the temperature can shift between visits. It's a living pool, not a climate-controlled one." },
+    { "type": "h2", "text": "Why isn't it heated — and why locals love that" },
+    { "type": "p", "text": "Icebergs earned its name honestly. The winter swimming club that gives the place its identity has been meeting here since 1929, and the tradition is built on cold water: members famously swim right through winter, and the folklore is that they'd drop actual blocks of ice into the pool to keep the season honest. Heating it would rather miss the point. For a lot of us, that bracing hit of cold saltwater — with waves crashing over the sea wall beside you and the whole sweep of Bondi in front — is exactly what makes a lap here feel different from any indoor pool." },
+    { "type": "localTip", "text": "If you feel the cold, go for a mid-to-late morning swim on a sunny day, when the sun has been on the water for a few hours and the wind is usually lightest. Bring a towel you can wrap up in fast, and a coffee from the promenade afterwards is non-negotiable." },
+    { "type": "h2", "text": "Warming up: is there anything heated here?" },
+    { "type": "p", "text": "The swimming is cold, but the building above it is not. The Icebergs complex houses a sauna and hot showers, plus the club and the well-known dining room upstairs, so you can thaw out and look back down over the pool you just braved. If a heated indoor swim is what you're truly after, Bondi's ocean pools aren't it — you'd want a standard indoor aquatic centre elsewhere. Icebergs is about the ocean, cold and honest." },
+    { "type": "faq", "items": [
+      { "q": "Is the Bondi Icebergs pool heated?", "a": "No. It's an unheated ocean pool filled with natural saltwater straight from the sea, so its temperature follows the ocean — warmest in summer, genuinely cold in winter." },
+      { "q": "How cold is Icebergs in winter?", "a": "Cold enough to take your breath away — it mirrors the winter sea temperature off Bondi. For the actual reading on any given day, check the Bureau of Meteorology's Sydney sea temperature or the club's Pool Conditions page before you go." },
+      { "q": "Is the water salt or chlorine?", "a": "Saltwater. The pool is fed directly by the ocean rather than treated with chlorine like a suburban pool, which is a big part of its character." },
+      { "q": "Is there anywhere warm to recover after a swim?", "a": "Yes — the Icebergs complex has a sauna and hot showers, and the club and dining room upstairs are a lovely spot to warm up with a view over the pool." },
+      { "q": "Can I still swim there in winter?", "a": "Absolutely — winter swimming is the whole tradition at Icebergs. The pool is open to the public year-round; just check current hours and any cleaning-day closures on the official Icebergs website first." }
+    ] },
+    { "type": "p", "text": "My honest advice? Don't let \"unheated\" put you off. Pick a bright morning, walk down the steps, and take the plunge — cold water and all. It's one of those Bondi experiences that's far better felt than described, and you'll be talking about it long after you've warmed up." }
+  ]
+}

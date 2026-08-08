@@ -1,0 +1,45 @@
+{
+  "path": "/bondi-blog/2024/1/7/sydneys-best-playground-in-the-heart-of-bondi",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Waverley Park play space upgrade", "url": "https://haveyoursay.waverley.nsw.gov.au/waverley-park-play-space-upgrade" },
+    { "label": "Proludic — Waverley Park Playground case study", "url": "https://www.proludic.com.au/inspirations/case-studies/waverley-park-playground/" },
+    { "label": "National Public Toilet Map — Waverley Park", "url": "https://toiletmap.gov.au/542" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you ask me where to take kids for a big, joyful morning out near Bondi, my answer is always the same: the rebuilt playground at Waverley Park, up the hill in Bondi Junction. It's the one with the rocket ship, and it has a fair claim to being the best playground in Sydney. Since the upgrade was finished in late 2023 it's the spot I send every visiting family to first." },
+    { "type": "quickFacts", "items": [
+      { "label": "Where", "value": "Waverley Park, off Paul St, Bondi Junction" },
+      { "label": "Star attraction", "value": "Multi-storey rocket ship & launch tower" },
+      { "label": "Cost", "value": "Free" },
+      { "label": "Great for", "value": "Toddlers through primary-age kids" },
+      { "label": "Fenced", "value": "Yes — fully enclosed" }
+    ] },
+    { "type": "h2", "text": "The rocket ship everyone comes for" },
+    { "type": "p", "text": "The centrepiece is a bespoke, multi-storey rocket ship with a launch tower and a mission control station — a modern tribute to the beloved 1960s rocket that stood here for decades. The new one was craned into place in October 2023, and it's a proper piece of imaginative play, not just a slide with a paint job." },
+    { "type": "p", "text": "Press the launch button and \"steam\" (harmless water vapour) billows out so it looks like a genuine blast-off. There's a control panel of knobs, dials and lights for little commanders to take charge of, and a climbing route up through the tower that's challenging enough to feel like an achievement before kids reach the big slide at the top. My nephews would happily launch that rocket a hundred times in a row." },
+    { "type": "h2", "text": "Why it works for every age" },
+    { "type": "p", "text": "What makes this playground special is that it genuinely caters to a wide range of ages and abilities — designed by Proludic in partnership with Waverley Council. Beyond the rocket you'll find slides, swings (including accessible ones), climbing structures, spinners, a dedicated toddler zone, and sensory touches like musical instruments and water play woven through. Older kids test themselves on the tower while little ones potter safely nearby, which is exactly what you want when you've brought siblings of different ages." },
+    { "type": "list", "items": [
+      "A multi-storey rocket ship, launch tower and mission control station",
+      "Slides, swings and accessible swing options",
+      "Climbing structures, spinners and a separate toddler area",
+      "Sensory play — musical instruments and water play",
+      "Plenty of seating and shade trees around the edges for parents"
+    ] },
+    { "type": "callout", "tone": "note", "title": "It's Bondi Junction, not the beachfront", "text": "Despite the 'heart of Bondi' billing, Waverley Park sits up in Bondi Junction, off Paul Street — roughly a 10-minute walk from Bondi Junction station and moments from Westfield. It's an easy pairing with a shopping run or a trip to Waverley Library next door." },
+    { "type": "h2", "text": "Practical bits: shade, toilets and coffee" },
+    { "type": "p", "text": "The playground is fully fenced, which is a relief with fast toddlers about — though I'll warn you the accessible gate latches sit low, and I've watched determined two-year-olds work them out and make a break for it, so keep an eye on the exits. The one honest gripe is shade: much of the play equipment sits in open sun, so this is a hat-and-sunscreen destination, and I'd aim for morning or late afternoon in summer rather than the middle of the day." },
+    { "type": "localTip", "text": "Come early on a weekend. By mid-morning on a sunny Saturday the rocket ship has a queue and the shady bench spots go fast. Arrive by 9am and you'll get the run of the place — plus cooler equipment before the sun bakes the metal slides." },
+    { "type": "p", "text": "There's a kiosk in the park for coffee and a snack, and public toilets nearby, so you can settle in for a proper morning without packing up early. Hours for the kiosk can change, so I wouldn't plan your whole visit around it." },
+    { "type": "faq", "items": [
+      { "q": "Where exactly is the Bondi rocket ship playground?", "a": "It's at Waverley Park, off Paul Street in Bondi Junction — about a 10-minute walk from Bondi Junction train station and close to Westfield Bondi Junction, not down on the beachfront itself." },
+      { "q": "Is the playground fenced and good for toddlers?", "a": "Yes, it's fully fenced with a dedicated toddler area, so it's well suited to little ones. Just note the accessible gate latches sit low and small kids can sometimes open them, so watch the exits." },
+      { "q": "Is there shade at Waverley Park playground?", "a": "Shade is limited over the main equipment — its one real weakness. Bring hats and sunscreen, and visit in the morning or late afternoon in summer to avoid the harshest sun." },
+      { "q": "Are there toilets and coffee at the park?", "a": "There's a kiosk serving coffee and snacks and public toilets nearby. Kiosk hours can vary, so treat it as a bonus rather than something to rely on." },
+      { "q": "How much does it cost to visit?", "a": "Nothing — the playground is free and open to the public. You only pay if you grab a coffee or snack from the kiosk." }
+    ] },
+    { "type": "p", "text": "For a free morning out near Bondi, this is hard to beat. Pack the hats, let the kids launch that rocket until their arms give out, and grab a coffee while they do. It earns the hype." }
+  ]
+}
