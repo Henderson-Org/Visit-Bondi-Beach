@@ -1,0 +1,40 @@
+{
+  "path": "/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Manly Hydraulics Laboratory (NSW Government) — Sydney ocean water temperatures", "url": "https://mhl.nsw.gov.au/Data-Water-Temperature" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "\"How cold is the water?\" is the question I get asked most before someone's first Bondi swim. So here's my month-by-month rundown of what the sea usually does through the year. One handy thing to know: Bondi Icebergs isn't heated, so these figures double as a rough guide to the pool temperature too." },
+    { "type": "quickFacts", "items": [
+      { "label": "Warmest", "value": "February (~23–24°C)" },
+      { "label": "Coldest", "value": "July–Aug (~17–18°C)" },
+      { "label": "Wetsuit weather", "value": "Roughly May–Sept" },
+      { "label": "Today's temp", "value": "See our beach conditions" }
+    ] },
+    { "type": "p", "text": "The numbers below are approximate long-term monthly averages — the actual water on any given day varies with currents, wind and the season, sometimes by a couple of degrees. For today's real reading, check the live water temperature in our daily Bondi weather & surf summary." },
+    { "type": "h2", "text": "Bondi sea temperature, month by month" },
+    { "type": "list", "items": [
+      "January — around 23°C. Peak summer swimming; warm and inviting.",
+      "February — around 23–24°C. Usually the warmest water of the year.",
+      "March — around 23°C. Still lovely, easing off as autumn nears.",
+      "April — around 21–22°C. Pleasant for most swimmers, cooler than the summer peak.",
+      "May — around 20°C. The cool-down begins; many switch to a wetsuit.",
+      "June — around 18–19°C. Winter setting in; better for surfers and hardy swimmers.",
+      "July — around 17–18°C. Typically the coldest of the year; wetsuit recommended.",
+      "August — around 17–18°C. A touch above July, but still properly cold.",
+      "September — around 18°C. Spring begins and the water slowly turns the corner.",
+      "October — around 19°C. Noticeably warmer; the regulars start coming back.",
+      "November — around 20–21°C. Building toward summer; increasingly comfortable.",
+      "December — around 22°C. Warm again — one of the best months to be in the water."
+    ] },
+    { "type": "callout", "tone": "note", "title": "Warm air, cool water", "text": "Sydney's sea lags the seasons. Autumn water often feels warmer than you'd expect because it's still holding summer's heat, while spring can stay chilly even on a hot day. Don't judge the water by the air temperature." },
+    { "type": "faq", "items": [
+      { "q": "What is the warmest month to swim at Bondi?", "a": "February, when the water averages around 23–24°C. January to March are all reliably warm." },
+      { "q": "How cold does Bondi get in winter?", "a": "The water bottoms out around 17–18°C in July and August. It's swimmable for the hardy, but most people wear a wetsuit from about May to September." },
+      { "q": "Is Bondi Icebergs pool heated?", "a": "No — Icebergs is an unheated ocean pool, so its temperature tracks the sea. These monthly averages are a good guide to what the pool will feel like." }
+    ] },
+    { "type": "p", "text": "Warm water or bracing winter dip, Bondi delivers something worth swimming for all year. Just pick your month — and maybe your wetsuit — to match." }
+  ]
+}

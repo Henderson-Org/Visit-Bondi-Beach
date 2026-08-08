@@ -1,0 +1,22 @@
+{
+  "path": "/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "blocks": [
+    { "type": "p", "text": "Everyone assumes you have to pay to park at Bondi. You don't — and this is the local secret I share with visiting friends every summer." },
+    { "type": "quickFacts", "items": [
+      { "label": "Where", "value": "North of Blair Street" },
+      { "label": "Cost", "value": "Free, unrestricted 24h" },
+      { "label": "Walk to sand", "value": "About 5–7 minutes" },
+      { "label": "Get in by", "value": "9am on weekends" }
+    ] },
+    { "type": "p", "text": "The spot is the residential streets north of Blair Street — that is, the blocks heading away from the beach. Punch \"Blair Street\" into your maps app, then simply head north (away from the water) and start looking. The parking here is free and unrestricted around the clock, no meters, no time limits." },
+    { "type": "p", "text": "On weekdays there are spaces until late afternoon, when residents start arriving home from work. On weekends it's busier, but the constant coming and going means you can usually snag something if you're patient — and much more easily if you're early." },
+    { "type": "localTip", "text": "From about 9am on a Saturday or Sunday, parking anywhere near Bondi becomes a genuine challenge. Beat the rush: get here early, grab a free spot north of Blair Street, and enjoy a quiet morning on the sand before the crowds roll in." },
+    { "type": "p", "text": "One caveat — always read the signs. As you get closer to the beach you'll hit timed and permit-only zones, so keep heading north until the restrictions drop off. For every other way to get to Bondi (train, bus, and the rest), see my full guide to parking and getting here." },
+    { "type": "faq", "items": [
+      { "q": "Where is the free parking at Bondi Beach?", "a": "The residential streets north of Blair Street, heading away from the beach. It's free and unrestricted 24 hours, roughly a 5–7 minute walk to the sand." },
+      { "q": "What time should I arrive for a free spot?", "a": "Before 9am on weekends. Weekdays are easier until the late afternoon, when residents return home." }
+    ] }
+  ]
+}

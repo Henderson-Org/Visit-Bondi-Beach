@@ -1,4 +1,164 @@
 {
+  "/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Everyone assumes you have to pay to park at Bondi. You don't — and this is the local secret I share with visiting friends every summer."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Where",
+            "value": "North of Blair Street"
+          },
+          {
+            "label": "Cost",
+            "value": "Free, unrestricted 24h"
+          },
+          {
+            "label": "Walk to sand",
+            "value": "About 5–7 minutes"
+          },
+          {
+            "label": "Get in by",
+            "value": "9am on weekends"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The spot is the residential streets north of Blair Street — that is, the blocks heading away from the beach. Punch \"Blair Street\" into your maps app, then simply head north (away from the water) and start looking. The parking here is free and unrestricted around the clock, no meters, no time limits."
+      },
+      {
+        "type": "p",
+        "text": "On weekdays there are spaces until late afternoon, when residents start arriving home from work. On weekends it's busier, but the constant coming and going means you can usually snag something if you're patient — and much more easily if you're early."
+      },
+      {
+        "type": "localTip",
+        "text": "From about 9am on a Saturday or Sunday, parking anywhere near Bondi becomes a genuine challenge. Beat the rush: get here early, grab a free spot north of Blair Street, and enjoy a quiet morning on the sand before the crowds roll in."
+      },
+      {
+        "type": "p",
+        "text": "One caveat — always read the signs. As you get closer to the beach you'll hit timed and permit-only zones, so keep heading north until the restrictions drop off. For every other way to get to Bondi (train, bus, and the rest), see my full guide to parking and getting here."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Where is the free parking at Bondi Beach?",
+            "a": "The residential streets north of Blair Street, heading away from the beach. It's free and unrestricted 24 hours, roughly a 5–7 minute walk to the sand."
+          },
+          {
+            "q": "What time should I arrive for a free spot?",
+            "a": "Before 9am on weekends. Weekdays are easier until the late afternoon, when residents return home."
+          }
+        ]
+      }
+    ],
+    "wordCount": 286,
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
+  "/bondi-blog/2023/11/16/insiders-guide-to-the-bronte-ocean-pool": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Bondi's Icebergs gets all the postcards, but if you ask me, Bronte Baths just down the coast is the more soulful swim. It's a saltwater pool carved straight into the sandstone at the southern end of Bronte Beach — free, unpretentious, and my favourite place for an early lap when I want to skip the crowds."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Where",
+            "value": "South end of Bronte Beach"
+          },
+          {
+            "label": "Cost",
+            "value": "Free"
+          },
+          {
+            "label": "Pool",
+            "value": "~30m ocean (saltwater) pool"
+          },
+          {
+            "label": "On",
+            "value": "Bondi to Coogee walk"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Bronte sits on the Eastern Beaches strip between Bondi to the north and Coogee to the south. The pool is cut into the rock shelf at the southern headland, so it fills and refreshes with the ocean — you're swimming in the sea, just with a wall between you and the swell. There's a shallower end that's good for kids, and it's a genuine lap-swimmer's pool the rest of the time."
+      },
+      {
+        "type": "h2",
+        "text": "Getting there"
+      },
+      {
+        "type": "list",
+        "items": [
+          "On foot — it's right on the Bondi to Coogee coastal walk, one of the best ways to arrive.",
+          "Public transport — train to Bondi Junction, then a bus down to Bronte. Easy and it skips the parking headache.",
+          "By car — there's parking around Bronte Road and the park, but it's limited and fills fast on a nice day, so come early."
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Check before you go",
+        "text": "Bronte Baths has been through staged upgrade works (over recent winters), and ocean pools are also periodically drained for cleaning — so it can be closed, especially in the cooler months. Check Waverley Council's ocean-pool status before you make a special trip."
+      },
+      {
+        "type": "h2",
+        "text": "Is it free? And can anyone use it?"
+      },
+      {
+        "type": "p",
+        "text": "Yes on both counts — Bronte Baths is completely free and open to the public, no entry fee. There are showers and changing facilities nearby (some may be coin-operated). It's an easygoing, welcoming spot for locals and visitors alike."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "A word on the water",
+        "text": "Bronte is a beautiful beach but a serious one — it's known for a strong permanent rip (the \"Bronte Express\"). The pool is calmer than the open beach, but conditions in and around it still change with the surf and tide. On the beach, swim between the red and yellow flags when lifeguards are patrolling, and check Beachsafe for current conditions."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Is Bronte Ocean Pool free?",
+            "a": "Yes — Bronte Baths is completely free and open to the public. Showers and changing facilities nearby may be coin-operated."
+          },
+          {
+            "q": "Where is the Bronte Ocean Pool?",
+            "a": "It's carved into the rock at the southern end of Bronte Beach, in Sydney's Eastern Suburbs, right on the Bondi to Coogee coastal walk."
+          },
+          {
+            "q": "Is the Bronte pool open all year?",
+            "a": "It's generally open year-round in daylight hours, but it closes periodically for cleaning and has had staged upgrade works, mainly in winter. Check Waverley Council's ocean-pool status before a special trip."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Pack your bathers, walk a stretch of the coast to get there, and have a dip in one of Sydney's loveliest ocean pools. Bronte doesn't shout about itself — which is exactly why I love it."
+      }
+    ],
+    "wordCount": 494,
+    "sources": [
+      {
+        "label": "Waverley Council — ocean pools & cleaning schedules (status/closures)",
+        "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/pool_cleaning_schedules"
+      },
+      {
+        "label": "Beachsafe — Bronte Beach (patrol & conditions)",
+        "url": "https://beachsafe.org.au/beach/bronte-beach"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
   "/bondi-blog/2024/4/1/city2surf-course-map": {
     "blocks": [
       {
@@ -78,6 +238,96 @@
       {
         "label": "Voltaren City2Surf — official course map & route",
         "url": "https://city2surf.com.au/"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
+  "/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "\"How cold is the water?\" is the question I get asked most before someone's first Bondi swim. So here's my month-by-month rundown of what the sea usually does through the year. One handy thing to know: Bondi Icebergs isn't heated, so these figures double as a rough guide to the pool temperature too."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Warmest",
+            "value": "February (~23–24°C)"
+          },
+          {
+            "label": "Coldest",
+            "value": "July–Aug (~17–18°C)"
+          },
+          {
+            "label": "Wetsuit weather",
+            "value": "Roughly May–Sept"
+          },
+          {
+            "label": "Today's temp",
+            "value": "See our beach conditions"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The numbers below are approximate long-term monthly averages — the actual water on any given day varies with currents, wind and the season, sometimes by a couple of degrees. For today's real reading, check the live water temperature in our daily Bondi weather & surf summary."
+      },
+      {
+        "type": "h2",
+        "text": "Bondi sea temperature, month by month"
+      },
+      {
+        "type": "list",
+        "items": [
+          "January — around 23°C. Peak summer swimming; warm and inviting.",
+          "February — around 23–24°C. Usually the warmest water of the year.",
+          "March — around 23°C. Still lovely, easing off as autumn nears.",
+          "April — around 21–22°C. Pleasant for most swimmers, cooler than the summer peak.",
+          "May — around 20°C. The cool-down begins; many switch to a wetsuit.",
+          "June — around 18–19°C. Winter setting in; better for surfers and hardy swimmers.",
+          "July — around 17–18°C. Typically the coldest of the year; wetsuit recommended.",
+          "August — around 17–18°C. A touch above July, but still properly cold.",
+          "September — around 18°C. Spring begins and the water slowly turns the corner.",
+          "October — around 19°C. Noticeably warmer; the regulars start coming back.",
+          "November — around 20–21°C. Building toward summer; increasingly comfortable.",
+          "December — around 22°C. Warm again — one of the best months to be in the water."
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Warm air, cool water",
+        "text": "Sydney's sea lags the seasons. Autumn water often feels warmer than you'd expect because it's still holding summer's heat, while spring can stay chilly even on a hot day. Don't judge the water by the air temperature."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "What is the warmest month to swim at Bondi?",
+            "a": "February, when the water averages around 23–24°C. January to March are all reliably warm."
+          },
+          {
+            "q": "How cold does Bondi get in winter?",
+            "a": "The water bottoms out around 17–18°C in July and August. It's swimmable for the hardy, but most people wear a wetsuit from about May to September."
+          },
+          {
+            "q": "Is Bondi Icebergs pool heated?",
+            "a": "No — Icebergs is an unheated ocean pool, so its temperature tracks the sea. These monthly averages are a good guide to what the pool will feel like."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Warm water or bracing winter dip, Bondi delivers something worth swimming for all year. Just pick your month — and maybe your wetsuit — to match."
+      }
+    ],
+    "wordCount": 415,
+    "sources": [
+      {
+        "label": "Manly Hydraulics Laboratory (NSW Government) — Sydney ocean water temperatures",
+        "url": "https://mhl.nsw.gov.au/Data-Water-Temperature"
       }
     ],
     "lastReviewed": "2026-08-08",
@@ -589,6 +839,114 @@
       {
         "label": "Transport for NSW — City2Surf event transport & road closures",
         "url": "https://transportnsw.info/events/2026/08/city2surf-2026"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
+  "/bondi-blog/where-to-find-carpark-bondi-beach": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I'll be honest: parking at Bondi on a sunny weekend can test your patience like nothing else. But after years of doing it, I've got a system. Here's where I actually park, from free spots to the paid stations, and the tricks I use on the busiest days."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Free parking",
+            "value": "Streets north of Blair St"
+          },
+          {
+            "label": "Closest paid",
+            "value": "Queen Elizabeth Dr station"
+          },
+          {
+            "label": "Best time",
+            "value": "Before 9am on weekends"
+          },
+          {
+            "label": "Watch for",
+            "value": "Timed & permit zones"
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Read the signs",
+        "text": "Parking inspectors patrol Bondi constantly and the fines are steep — and never block a driveway (that's around a $500 penalty). Always check the sign for time limits and permit zones before you walk off."
+      },
+      {
+        "type": "h2",
+        "text": "Free parking"
+      },
+      {
+        "type": "p",
+        "text": "My go-to: the residential streets north of Blair Street, away from the beach. It's free and unrestricted 24 hours, and it's about a 5–7 minute walk down to the sand. On weekdays it's easy until around 6pm when residents get home; on weekends it fills through the morning, so get in early."
+      },
+      {
+        "type": "h2",
+        "text": "Paid parking"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Bondi Beach Parking Station (Queen Elizabeth Drive) — the closest and largest, right behind the beach. It fills fast on a nice day, so arrive early.",
+          "Pacific Bondi car park — directly opposite the Bondi Pavilion, a two-minute walk to the sand, open long hours daily. Booking online is usually cheaper than driving up.",
+          "Wilson Parking at The Hub (Hall Street) — often overlooked; pricey, but a solid option for an hour or two on a hectic day.",
+          "Street meters near the shops and along the beachfront — handy but the priciest per hour, and time-limited."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "A tip that's saved me plenty: use a parking app like Parkopedia or the operators' own apps to see availability and pre-book a bay before you leave home."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "What does it cost?",
+        "text": "Beachfront and beach-adjacent meters are the dearest — recently in the order of $7–11 per hour depending on the zone and the season — and they get cheaper the further back from the sand you go. Council adjusts these rates periodically, so check Waverley Council's current parking meter fees rather than trusting a fixed figure (including mine)."
+      },
+      {
+        "type": "h2",
+        "text": "Where I park on the really busy days"
+      },
+      {
+        "type": "list",
+        "items": [
+          "South Bondi — around Edward Street, Francis Street and the surrounding blocks. Most people head for the middle of the beach, so these can be surprisingly lucky.",
+          "Around the Beach Road Hotel — always busy, but it doesn't pull the beach crowd the way the streets closer to the sand do.",
+          "North of Blair Street — North Bondi is the hardest area to park, but once you're past Blair Street heading away from the beach, spots open up (and they're free)."
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Is there free parking at Bondi Beach?",
+            "a": "Yes — the residential streets north of Blair Street are free and unrestricted 24 hours, about a 5–7 minute walk to the beach. Get there early on weekends."
+          },
+          {
+            "q": "How much does it cost to park at Bondi Beach?",
+            "a": "Beach-adjacent meters and the Queen Elizabeth Drive station are the priciest (recently roughly $7–11 per hour depending on zone and season). Rates change, so check Waverley Council for the current figure."
+          },
+          {
+            "q": "What's the closest car park to Bondi Beach?",
+            "a": "The Bondi Beach Parking Station on Queen Elizabeth Drive, right behind the sand. It fills quickly on sunny days, so arrive early."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "My honest advice? On a perfect summer's day, skip the parking lottery altogether and catch the train to Bondi Junction then the bus down — you'll be on the sand while everyone else is still circling the block."
+      }
+    ],
+    "wordCount": 577,
+    "sources": [
+      {
+        "label": "Waverley Council — parking (current meter rates & permits)",
+        "url": "https://www.waverley.nsw.gov.au/residents/parking"
       }
     ],
     "lastReviewed": "2026-08-08",

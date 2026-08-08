@@ -1,0 +1,35 @@
+{
+  "path": "/bondi-blog/2023/11/16/insiders-guide-to-the-bronte-ocean-pool",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — ocean pools & cleaning schedules (status/closures)", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/pool_cleaning_schedules" },
+    { "label": "Beachsafe — Bronte Beach (patrol & conditions)", "url": "https://beachsafe.org.au/beach/bronte-beach" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Bondi's Icebergs gets all the postcards, but if you ask me, Bronte Baths just down the coast is the more soulful swim. It's a saltwater pool carved straight into the sandstone at the southern end of Bronte Beach — free, unpretentious, and my favourite place for an early lap when I want to skip the crowds." },
+    { "type": "quickFacts", "items": [
+      { "label": "Where", "value": "South end of Bronte Beach" },
+      { "label": "Cost", "value": "Free" },
+      { "label": "Pool", "value": "~30m ocean (saltwater) pool" },
+      { "label": "On", "value": "Bondi to Coogee walk" }
+    ] },
+    { "type": "p", "text": "Bronte sits on the Eastern Beaches strip between Bondi to the north and Coogee to the south. The pool is cut into the rock shelf at the southern headland, so it fills and refreshes with the ocean — you're swimming in the sea, just with a wall between you and the swell. There's a shallower end that's good for kids, and it's a genuine lap-swimmer's pool the rest of the time." },
+    { "type": "h2", "text": "Getting there" },
+    { "type": "list", "items": [
+      "On foot — it's right on the Bondi to Coogee coastal walk, one of the best ways to arrive.",
+      "Public transport — train to Bondi Junction, then a bus down to Bronte. Easy and it skips the parking headache.",
+      "By car — there's parking around Bronte Road and the park, but it's limited and fills fast on a nice day, so come early."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "Check before you go", "text": "Bronte Baths has been through staged upgrade works (over recent winters), and ocean pools are also periodically drained for cleaning — so it can be closed, especially in the cooler months. Check Waverley Council's ocean-pool status before you make a special trip." },
+    { "type": "h2", "text": "Is it free? And can anyone use it?" },
+    { "type": "p", "text": "Yes on both counts — Bronte Baths is completely free and open to the public, no entry fee. There are showers and changing facilities nearby (some may be coin-operated). It's an easygoing, welcoming spot for locals and visitors alike." },
+    { "type": "callout", "tone": "note", "title": "A word on the water", "text": "Bronte is a beautiful beach but a serious one — it's known for a strong permanent rip (the \"Bronte Express\"). The pool is calmer than the open beach, but conditions in and around it still change with the surf and tide. On the beach, swim between the red and yellow flags when lifeguards are patrolling, and check Beachsafe for current conditions." },
+    { "type": "faq", "items": [
+      { "q": "Is Bronte Ocean Pool free?", "a": "Yes — Bronte Baths is completely free and open to the public. Showers and changing facilities nearby may be coin-operated." },
+      { "q": "Where is the Bronte Ocean Pool?", "a": "It's carved into the rock at the southern end of Bronte Beach, in Sydney's Eastern Suburbs, right on the Bondi to Coogee coastal walk." },
+      { "q": "Is the Bronte pool open all year?", "a": "It's generally open year-round in daylight hours, but it closes periodically for cleaning and has had staged upgrade works, mainly in winter. Check Waverley Council's ocean-pool status before a special trip." }
+    ] },
+    { "type": "p", "text": "Pack your bathers, walk a stretch of the coast to get there, and have a dip in one of Sydney's loveliest ocean pools. Bronte doesn't shout about itself — which is exactly why I love it." }
+  ]
+}
