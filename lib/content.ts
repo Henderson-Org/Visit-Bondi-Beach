@@ -1,8 +1,10 @@
 /**
  * Content access layer. Reads the committed content/pages.json produced by
- * scripts/build-content.mjs from the migration crawl.
+ * scripts/build-content.mjs from the migration crawl, then overlays authored
+ * first-person bodies from content/body-overrides.json (see below).
  */
 import pagesData from '@/content/pages.json';
+import bodyOverridesData from '@/content/body-overrides.json';
 
 export type ContentType =
   | 'core-page'
@@ -19,9 +21,37 @@ export interface HubSection {
   links: { title: string; path: string }[];
 }
 
-export interface Block {
-  type: 'p' | 'h2' | 'h3' | 'li' | 'quote';
-  text: string;
+export interface QuickFact {
+  label: string;
+  value: string;
+}
+export interface FaqItem {
+  q: string;
+  a: string;
+}
+export interface ItineraryStop {
+  time: string;
+  title: string;
+  detail?: string;
+}
+
+/**
+ * A content block. The first form (text-bearing) covers migrated crawl content
+ * (p/h2/h3/li/quote). The richer forms are used by authored first-person bodies
+ * (content/bodies/*.json) to drive the editorial components in components/blocks.tsx.
+ */
+export type Block =
+  | { type: 'p' | 'h2' | 'h3' | 'li' | 'quote'; text: string }
+  | { type: 'list'; items: string[] }
+  | { type: 'localTip'; text: string }
+  | { type: 'callout'; tone?: 'note' | 'warning'; title?: string; text: string }
+  | { type: 'quickFacts'; items: QuickFact[] }
+  | { type: 'faq'; items: FaqItem[] }
+  | { type: 'itinerary'; stops: ItineraryStop[] };
+
+export interface Source {
+  label: string;
+  url: string;
 }
 
 export interface Page {
@@ -48,9 +78,40 @@ export interface Page {
   liveUrl: string;
   sections?: HubSection[] | null;
   authored?: boolean;
+  // Set when an authored first-person body (content/bodies/*.json) replaces the
+  // crawled body for this page. `sources`/`lastReviewed` back the editorial
+  // provenance rules (carry a "last checked" date; cite authoritative sources).
+  authoredBody?: boolean;
+  sources?: Source[] | null;
+  lastReviewed?: string | null;
 }
 
-const PAGES = pagesData as unknown as Page[];
+interface BodyOverride {
+  blocks: Block[];
+  wordCount?: number;
+  sources?: Source[];
+  lastReviewed?: string;
+  voice?: string;
+}
+
+// Authored first-person bodies, keyed by page path. Compiled from the per-article
+// files in content/bodies/*.json by scripts/build-bodies.mjs. Merged here at load
+// time (not in the crawl pipeline) so authored bodies replace crawled content and
+// survive a re-crawl regardless of how content/pages.json was rebuilt.
+const BODY_OVERRIDES = bodyOverridesData as unknown as Record<string, BodyOverride>;
+
+const PAGES = (pagesData as unknown as Page[]).map((p) => {
+  const ov = BODY_OVERRIDES[p.path];
+  if (!ov) return p;
+  return {
+    ...p,
+    blocks: ov.blocks,
+    wordCount: ov.wordCount ?? p.wordCount,
+    sources: ov.sources ?? null,
+    lastReviewed: ov.lastReviewed ?? null,
+    authoredBody: true,
+  } as Page;
+});
 const BY_PATH = new Map(PAGES.map((p) => [p.path, p]));
 
 function normalize(p: string): string {
@@ -172,6 +233,17 @@ export function breadcrumbs(page: Page): { name: string; path: string }[] {
   }
   if (page.contentType === 'blog-index') return [home, { name: "What's On", path: '/bondi-blog' }];
   return [home, { name: displayTitle(page), path: page.path }];
+}
+
+/**
+ * FAQ items declared in an authored body's `faq` blocks. Used to emit FAQPage
+ * schema only when the same Q&As are visibly rendered on the page (brief §24).
+ */
+export function faqItems(page: Page): FaqItem[] {
+  if (!page.blocks) return [];
+  const out: FaqItem[] = [];
+  for (const b of page.blocks) if (b.type === 'faq') out.push(...b.items);
+  return out;
 }
 
 /** Human title with sensible fallbacks when crawl metadata is absent. */

@@ -1,6 +1,10 @@
 {
   "_comment": "Authored SEO overrides merged over crawled data by build-content.mjs. Prioritised from Search Console (high impressions, low CTR). Titles omit the brand (template adds it). Descriptions summarise real page intent — no invented prices/hours.",
 
+  "/bondi-blog/2025/10/13/are-there-snakes-in-bondi": {
+    "metaDescription": "Are there snakes in Bondi? Only one — Blake, the Blair Street Snake, a free community painted-rock art trail. Here's where to find him and how to add your own rock."
+  },
+
   "/bondi-blog/bondi-rescue-who-are-the-lifeguards": {
     "title": "Bondi Rescue Lifeguards: Who's Who on the Beach",
     "metaDescription": "Meet the Bondi Rescue lifeguards — who's who, their real names and roles, and how the team keeps Bondi Beach safe. A local guide to the faces behind the show."

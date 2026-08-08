@@ -11,10 +11,11 @@ import {
   breadcrumbs,
   articles,
   categories,
+  faqItems,
   type Page,
 } from '@/lib/content';
 import { isProduction, AUTHOR } from '@/lib/site';
-import { articleJsonLd, breadcrumbJsonLd } from '@/lib/structured-data';
+import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from '@/lib/structured-data';
 import { ArticleCard } from '@/components/ArticleCard';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { RelatedGuides } from '@/components/RelatedGuides';
@@ -125,12 +126,21 @@ function ArticlePage({ page }: { page: Page }) {
   const title = displayTitle(page);
   const crumbs = breadcrumbs(page);
   const isArticle = page.section === 'blog';
+  // FAQPage schema is emitted only when the same Q&As are visibly rendered on the
+  // page (i.e. an authored body includes a `faq` block).
+  const faqs = faqItems(page);
   return (
     <article className="mx-auto max-w-3xl px-4 py-10">
       {isArticle && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd(page)) }}
+        />
+      )}
+      {faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd(faqs)) }}
         />
       )}
       <script
@@ -203,6 +213,37 @@ function ArticlePage({ page }: { page: Page }) {
             </>
           )}
         </div>
+      )}
+      {page.authoredBody && (page.lastReviewed || (page.sources && page.sources.length > 0)) && (
+        <footer className="mt-8 border-t border-sand-200 pt-4 text-sm text-ink-500">
+          {page.lastReviewed && (
+            <p>
+              Last reviewed{' '}
+              <time dateTime={page.lastReviewed}>
+                {new Date(page.lastReviewed).toLocaleDateString('en-AU', {
+                  day: 'numeric',
+                  month: 'long',
+                  year: 'numeric',
+                })}
+              </time>
+              .
+            </p>
+          )}
+          {page.sources && page.sources.length > 0 && (
+            <div className="mt-2">
+              <p className="font-medium text-ink-700">Sources</p>
+              <ul className="mt-1 list-disc pl-5">
+                {page.sources.map((s) => (
+                  <li key={s.url}>
+                    <a href={s.url} className="text-ocean-700 underline" rel="nofollow noopener" target="_blank">
+                      {s.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </footer>
       )}
       {isArticle && (
         <aside className="mt-10 rounded-xl border border-sand-200 bg-sand-100 p-4">
