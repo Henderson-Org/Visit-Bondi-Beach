@@ -15,8 +15,33 @@
 import type { Zone } from '@/lib/bondiZones';
 import type { FoodStyle, Interest, MealSlot } from '@/types/preferences';
 
-export type VenueType = 'cafe' | 'restaurant' | 'bar' | 'takeaway' | 'bakery';
+export type VenueType = 'cafe' | 'restaurant' | 'bar' | 'takeaway' | 'bakery' | 'pub';
 export type Weekday = 0 | 1 | 2 | 3 | 4 | 5 | 6; // 0 = Sunday
+
+/**
+ * Collection tags — the visitor-facing dining taxonomy that powers the eat & drink
+ * category pages, hub sections and in-article venue lists. A venue can carry several.
+ * Editorial, durable groupings (NOT volatile facts).
+ */
+export type DiningTag =
+  | 'best-restaurants'
+  | 'fine-dining'
+  | 'cheap-eats'
+  | 'breakfast-brunch'
+  | 'cafe-coffee'
+  | 'waterfront-dining'
+  | 'seafood'
+  | 'best-bars'
+  | 'cocktail-bars'
+  | 'sunset-drinks'
+  | 'pubs'
+  | 'sports-bars'
+  | 'late-night'
+  | 'vegan-vegetarian'
+  | 'family-friendly'
+  | 'date-night'
+  | 'groups'
+  | 'bakery-sweets';
 
 export interface Venue {
   id: string;
@@ -51,6 +76,24 @@ export interface Venue {
   websiteUrl: string;
   image: string | null;
   lastVerified: string;
+
+  /* ---- Article/guide engine fields (optional; the planner ignores these) ---- */
+  /** Human neighbourhood/street orientation (durable geography), e.g. "Hall Street". */
+  neighbourhood?: string;
+  /** Street address where verified (durable public fact); omitted otherwise. */
+  address?: string;
+  /** Collection memberships that drive category pages, hub sections and in-article lists. */
+  diningTags?: DiningTag[];
+  /** One durable, factual "known for" note (a signature dish/drink/feature) — never invented. */
+  signatureNote?: string;
+  /** Official booking/reservation URL (or affiliate deep link) when verified. */
+  bookingUrl?: string;
+  /** True when a full editorial venue guide exists at /bondi-eat-and-drink/<id>. */
+  hasGuide?: boolean;
+  /** Directory status. Inactive venues are hidden from listings but kept for the record. */
+  active?: boolean;
+  /** Where the venue's durable details were verified. */
+  sources?: { label: string; url: string }[];
 }
 
 const V = '2026-08-08';
