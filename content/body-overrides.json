@@ -1063,7 +1063,8 @@
           },
           {
             "label": "Water temp",
-            "value": "See today's conditions"
+            "value": "See today's forecast",
+            "live": "waterTemp"
           }
         ]
       },
@@ -1148,6 +1149,10 @@
       {
         "label": "Beachsafe (Surf Life Saving) — Bondi Beach conditions",
         "url": "https://beachsafe.org.au/beach/bondi-beach"
+      },
+      {
+        "label": "Open-Meteo — marine (sea-surface temperature)",
+        "url": "https://open-meteo.com/"
       }
     ],
     "lastReviewed": "2026-08-08",

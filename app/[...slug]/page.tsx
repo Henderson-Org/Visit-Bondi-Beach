@@ -18,6 +18,9 @@ import {
 import { isProduction, AUTHOR } from '@/lib/site';
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from '@/lib/structured-data';
 import { getCorePageHub } from '@/lib/hubs';
+import { getConditions } from '@/lib/conditions/service';
+import { roundTemp } from '@/lib/conditions/geo';
+import type { Block } from '@/lib/content';
 import { ArticleCard } from '@/components/ArticleCard';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { RelatedGuides } from '@/components/RelatedGuides';
@@ -95,15 +98,43 @@ function MigrationNote({ page }: { page: Page }) {
   );
 }
 
+/** True if any quickFacts block declares a live-injected value (e.g. water temp). */
+function hasLiveFacts(blocks?: Block[] | null): boolean {
+  return Boolean(blocks?.some((b) => b.type === 'quickFacts' && b.items.some((it) => it.live)));
+}
+
+/** Replace live-marked quickFacts values with today's readings (kept as fallback if absent). */
+function injectLiveFacts(blocks: Block[], live: { waterTemp?: string | null }): Block[] {
+  return blocks.map((b) => {
+    if (b.type !== 'quickFacts') return b;
+    return {
+      ...b,
+      items: b.items.map((it) =>
+        it.live === 'waterTemp' && live.waterTemp ? { ...it, value: live.waterTemp } : it
+      ),
+    };
+  });
+}
+
 /**
- * Hub-styled core page (Swim, Stay): editorial hero + curated "explore" cards,
- * while keeping the page's existing body content (so no crawlable SEO copy is lost).
+ * Hub-styled core page (Swim): editorial hero + curated "explore" cards, while
+ * keeping the page's existing body content (so no crawlable SEO copy is lost).
+ * When the body has a live-marked quick fact (e.g. "Water temp"), today's Bondi
+ * sea-surface temperature is fetched server-side (cached ~30 min) and injected —
+ * so the box shows a current reading and the page revalidates (ISR) with it.
  */
-function CorePageHubView({ page }: { page: Page }) {
+async function CorePageHubView({ page }: { page: Page }) {
   const coreHub = getCorePageHub(page.path)!;
   const crumbs = breadcrumbs(page);
   const title = displayTitle(page);
   const faqs = faqItems(page);
+
+  let blocks = page.blocks ?? null;
+  if (hasLiveFacts(blocks)) {
+    const c = await getConditions('bondi');
+    const t = roundTemp(c.surf?.waterTempC ?? null);
+    blocks = injectLiveFacts(blocks!, { waterTemp: t != null ? `≈ ${t}°C today` : null });
+  }
   const cards = coreHub.explore.links.map((l) => {
     const target = getPage(l.path);
     return { title: l.title, href: l.path, image: target?.heroImage || null, excerpt: excerptFor(target) };
@@ -127,9 +158,9 @@ function CorePageHubView({ page }: { page: Page }) {
         intro={coreHub.intro}
         crumbs={crumbs}
       />
-      {page.blocks && page.blocks.length > 0 && (
+      {blocks && blocks.length > 0 && (
         <div className="mx-auto max-w-3xl px-4 pt-10">
-          <BodyBlocks blocks={page.blocks} />
+          <BodyBlocks blocks={blocks} />
           {page.authoredBody && (page.lastReviewed || (page.sources && page.sources.length > 0)) && (
             <footer className="mt-8 border-t border-sand-200 pt-4 text-sm text-ink-500">
               {page.lastReviewed && (

@@ -4,7 +4,8 @@
   "lastReviewed": "2026-08-08",
   "sources": [
     { "label": "Bondi Icebergs Club — pool hours & closures", "url": "https://www.icebergs.com.au/" },
-    { "label": "Beachsafe (Surf Life Saving) — Bondi Beach conditions", "url": "https://beachsafe.org.au/beach/bondi-beach" }
+    { "label": "Beachsafe (Surf Life Saving) — Bondi Beach conditions", "url": "https://beachsafe.org.au/beach/bondi-beach" },
+    { "label": "Open-Meteo — marine (sea-surface temperature)", "url": "https://open-meteo.com/" }
   ],
   "blocks": [
     { "type": "p", "text": "A day at Bondi isn't complete without getting in the water — and you've really got three choices: the beach itself, the famous Icebergs ocean pool, or the calm little kids' pool at North Bondi. Here's how I'd pick, and how to do it safely." },
@@ -12,7 +13,7 @@
       { "label": "Calmest swim", "value": "North Bondi & the kids' pool" },
       { "label": "Ocean pool", "value": "Bondi Icebergs" },
       { "label": "On the beach", "value": "Free · swim between the flags" },
-      { "label": "Water temp", "value": "See today's conditions" }
+      { "label": "Water temp", "value": "See today's forecast", "live": "waterTemp" }
     ] },
     { "type": "h2", "text": "Swimming on the beach" },
     { "type": "p", "text": "The beach is free and open to everyone, and Bondi is patrolled by professional lifeguards year-round. The single most important rule: always swim between the red-and-yellow flags, where the lifeguards have judged it safest and are watching. The northern end of the beach is usually the more sheltered, calmer spot — my pick for a relaxed dip and for families. The southern end tends to be for stronger swimmers and surfers, and it's where the beach's notorious rip (the \"Backpackers' Express\") runs, so it's not the place to wade in if you're unsure." },

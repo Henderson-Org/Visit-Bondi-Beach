@@ -26,6 +26,12 @@ export interface HubSection {
 export interface QuickFact {
   label: string;
   value: string;
+  /**
+   * When set, the `value` is replaced at render time with a live reading (server
+   * fetched + cached). Currently only 'waterTemp' (today's Bondi sea-surface temp).
+   * `value` is kept as the fallback shown when the live reading is unavailable.
+   */
+  live?: 'waterTemp';
 }
 export interface FaqItem {
   q: string;

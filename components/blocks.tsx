@@ -8,6 +8,8 @@ import type { ReactNode } from 'react';
 export interface QuickFact {
   label: string;
   value: string;
+  /** Marks a fact whose value is injected live at render (see lib/content QuickFact). */
+  live?: 'waterTemp';
 }
 
 /** Editorial "quick facts" strip — Best for / Cost / Time / etc. */
