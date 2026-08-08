@@ -1626,11 +1626,11 @@
       },
       {
         "type": "p",
-        "text": "Bondi Junction is the eastern terminus of the T4 Eastern Suburbs & Illawarra line, so trains from the CBD and the airport line all funnel through it. Step off, follow the signs upstairs to the bus interchange, and jump on a 333, 380 or 381 — each one rolls down Bondi Road to Campbell Parade, right along the beachfront. It's a short ride and buses run frequently through the day."
+        "text": "Bondi Junction is the eastern terminus of the T4 Eastern Suburbs & Illawarra line, so trains from the CBD and the airport line all funnel through it. Step off, follow the signs upstairs to the bus interchange, and jump on a 333, 380 or 381 — each rolls down Bondi Road to Campbell Parade, right along the beachfront. It's a short ride, and buses run frequently through the day."
       },
       {
         "type": "p",
-        "text": "The 333 is the one I steer people towards: it's the limited-stops express that runs from the CBD — Circular Quay, Wynyard, Town Hall — through Bondi Junction to the beach. If you're coming from the city centre you can often skip the train and stay on one bus."
+        "text": "The 333 is the one I steer people towards: it's the limited-stops express that runs from the CBD through Bondi Junction to the beach, so from the city centre you can often skip the train and stay on one bus."
       },
       {
         "type": "localTip",
@@ -1642,7 +1642,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi is one of the closer beaches to the airport, around 14 km by road. A taxi or rideshare is usually 25 to 40 minutes, though the Eastern Distributor can bunch up in peak hour, so leave a buffer if you've got a flight. On public transport, take the airport train to Bondi Junction — the airport stations charge a separate station access fee on top of the normal fare — then a beach bus down. Slower than a car, but cheap, and it never gets stuck in traffic."
+        "text": "Bondi is one of the closer beaches to the airport, around 14 km by road. A taxi or rideshare is usually 25 to 40 minutes, though the Eastern Distributor can bunch up in peak hour, so leave a buffer if you've got a flight. On public transport, take the airport train to Bondi Junction — the airport stations charge a separate access fee on top of the normal fare — then a beach bus down. Slower than a car, but cheap, and never stuck in traffic."
       },
       {
         "type": "callout",
@@ -1656,7 +1656,7 @@
       },
       {
         "type": "p",
-        "text": "This is the easy one. You've got two good options: catch the 333 straight to the beach, or take a T4 train to Bondi Junction and change to a bus. Either way you're generally looking at 30 to 50 minutes. The 333 starts near Circular Quay, so if you've been sightseeing around the Opera House you can go from harbour to surf without working out a connection."
+        "text": "This is the easy one. Catch the 333 straight to the beach, or take a T4 train to Bondi Junction and change to a bus — either way you're generally looking at 30 to 50 minutes. The 333 starts near Circular Quay, so if you've been sightseeing around the Opera House you can go from harbour to surf without working out a connection."
       },
       {
         "type": "h2",
@@ -1708,7 +1708,7 @@
         "text": "So while Bondi feels like its own world once you're there with your toes in the sand, it's genuinely well connected — a short bus from a major train station and an easy hop from almost anywhere in Sydney. Sort out the Bondi Junction connection, tap on with a card, and the distance takes care of itself."
       }
     ],
-    "wordCount": 1013,
+    "wordCount": 996,
     "sources": [
       {
         "label": "Transport for NSW — Trip Planner",
