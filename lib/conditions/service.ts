@@ -11,14 +11,17 @@
  * Swapping providers: change the two factory calls below. Any object implementing
  * WeatherProvider / SurfProvider works; nothing else in the app needs to change.
  */
-import type { Conditions, ConditionsLocation, WeatherProvider, SurfProvider } from './types';
+import type { Conditions, ConditionsLocation, ProviderMeta, WeatherProvider, SurfProvider, TideProvider } from './types';
 import { getDestination } from './locations';
 import { createOpenMeteoWeatherProvider } from './providers/open-meteo-weather';
 import { createOpenMeteoSurfProvider } from './providers/open-meteo-surf';
+import { createWorldTidesProvider } from './providers/worldtides';
 import { buildSummary } from './summary';
 
-/** Cache window for upstream data (seconds). 30 min balances freshness vs. load. */
+/** Cache window for upstream weather/surf data (seconds). 30 min balances freshness vs. load. */
 export const REVALIDATE_SECONDS = 1800;
+/** Tide is astronomical prediction — cache it much longer to conserve API credits. */
+export const TIDE_REVALIDATE_SECONDS = 6 * 60 * 60;
 
 const cachingFetch = (input: string): Promise<Response> =>
   fetch(input, {
@@ -26,9 +29,20 @@ const cachingFetch = (input: string): Promise<Response> =>
     headers: { accept: 'application/json' },
   });
 
-// --- Active providers. Replace these two lines to change data sources. ---
+const tideFetch = (input: string): Promise<Response> =>
+  fetch(input, {
+    next: { revalidate: TIDE_REVALIDATE_SECONDS },
+    headers: { accept: 'application/json' },
+  });
+
+// --- Active providers. Replace these to change data sources. ---
 const weatherProvider: WeatherProvider = createOpenMeteoWeatherProvider(cachingFetch);
 const surfProvider: SurfProvider = createOpenMeteoSurfProvider(cachingFetch);
+// Tide is optional: it activates only when TIDE_API_KEY is configured. With no key,
+// tide stays null and the UI omits it — never fabricated.
+const tideProvider: TideProvider | null = process.env.TIDE_API_KEY
+  ? createWorldTidesProvider(tideFetch, process.env.TIDE_API_KEY, () => Date.now())
+  : null;
 
 async function loadWeather(loc: ConditionsLocation) {
   try {
@@ -44,13 +58,28 @@ async function loadWeather(loc: ConditionsLocation) {
 }
 
 async function loadSurf(loc: ConditionsLocation) {
-  if (loc.inland || !loc.surf) return { surf: null, meta: null };
+  if (loc.inland || !loc.surf) return { surf: null, meta: null, tideMeta: null };
+  const surfLoc = loc.surf;
   try {
-    const { surf, meta } = await surfProvider.getSurfConditions(loc.surf);
-    return { surf, meta };
+    const [{ surf, meta }, tideResult] = await Promise.all([
+      surfProvider.getSurfConditions(surfLoc),
+      loadTide(surfLoc),
+    ]);
+    if (tideResult) surf.tide = tideResult.tide;
+    return { surf, meta, tideMeta: tideResult?.meta ?? null };
   } catch (err) {
     console.error('[conditions] surf provider failed:', err);
-    return { surf: null, meta: null };
+    return { surf: null, meta: null, tideMeta: null };
+  }
+}
+
+async function loadTide(loc: ConditionsLocation['surf']) {
+  if (!tideProvider || !loc) return null;
+  try {
+    return await tideProvider.getTide(loc);
+  } catch (err) {
+    console.error('[conditions] tide provider failed:', err);
+    return null;
   }
 }
 
@@ -73,6 +102,7 @@ export async function getConditions(destinationKey?: string): Promise<Conditions
     surf: surfResult.surf,
     weatherMeta: weather.meta,
     surfMeta: surfResult.meta,
+    tideMeta: surfResult.tideMeta,
     summary,
   };
 }

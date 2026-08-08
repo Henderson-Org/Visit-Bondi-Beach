@@ -44,10 +44,15 @@ Australia) for official beach safety. Those links live in `lib/conditions/locati
   at launch, or a switch to another provider. This is a licensing decision, not a
   code change — the adapter abstraction makes swapping trivial (see below). No
   paid API has been added.
-- **Tide is not yet available.** No permitted free tide API is configured, so
-  `SurfConditions.tide` is `null` and tide is omitted from the UI (never
-  fabricated). Adding a tide provider (e.g. WillyWeather/Stormglass with a key, or
-  Fort Denison harmonic predictions) lights it up — the schema field already exists.
+- **Tide is optional and off by default.** No permitted *free* tide API exists
+  (BOM's API forbids reuse; Open-Meteo has no tides), so tide ships disabled: a
+  `TideProvider` interface + a **WorldTides adapter** are implemented and wired,
+  but activate only when `TIDE_API_KEY` is set. With no key, `SurfConditions.tide`
+  stays `null` and the UI omits tide — never fabricated. When enabled, tide is
+  cached ~6h (it's astronomical prediction) to conserve API credits, the summary
+  gains a "tide is coming in/going out" note, and the detail row + source line show
+  it. An Australian-specific alternative (WillyWeather) drops in behind the same
+  interface. State derivation (`lib/conditions/tide.ts`) is unit-tested.
 
 ## Caching
 
@@ -147,6 +152,9 @@ later (per-page contextual suggestions, seasonal logic, etc.).
 - `lib/conditions/geo.ts` — compass, wind-effect, surf-banding helpers
 - `lib/conditions/providers/open-meteo-weather.ts` — weather adapter
 - `lib/conditions/providers/open-meteo-surf.ts` — marine adapter
+- `lib/conditions/providers/worldtides.ts` — tide adapter (key-gated, optional)
+- `lib/conditions/tide.ts` — pure tide-state derivation
+- `lib/conditions/recommend.ts` — conditions-driven recommendations
 - `lib/conditions/summary.ts` — deterministic summary engine
 - `lib/conditions/service.ts` — orchestration + caching + fallback
 - `lib/conditions/conditions.test.ts` — summary + helper tests
@@ -164,6 +172,6 @@ render it automatically. Today it shows on the homepage and the `/bondi-weather`
 
 ## Config / keys still required
 
-None for the current providers. For launch, decide on Open-Meteo's commercial
-terms (may add an API key) and optionally add a tide provider. Both are localized
-to `lib/conditions/` per the notes above.
+None for the default setup. Optional: set `TIDE_API_KEY` (WorldTides) to enable
+tide. For launch, decide on Open-Meteo's commercial terms (may add an API key).
+All localized to `lib/conditions/` per the notes above.

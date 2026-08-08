@@ -2,6 +2,8 @@ import { describe, it, expect } from 'vitest';
 import { buildSummary, type SummaryInput } from './summary';
 import { degToCompass, windEffectOnSurf, surfBand, windStrengthWord } from './geo';
 import { pickCategory, recommendFromConditions } from './recommend';
+import { resolveTide } from './tide';
+import type { TideExtreme } from './types';
 import type { WeatherConditions, DailyWeatherForecast, SurfConditions, ConditionsLocation, Conditions } from './types';
 
 const BONDI: ConditionsLocation = {
@@ -158,7 +160,7 @@ function conditions(o: Partial<SummaryInput>): Conditions {
   const i = input(o);
   return {
     location: i.location, current: i.current, today: i.today, surf: i.surf,
-    weatherMeta: null, surfMeta: null, summary: buildSummary(i),
+    weatherMeta: null, surfMeta: null, tideMeta: null, summary: buildSummary(i),
   };
 }
 
@@ -207,5 +209,39 @@ describe('conditions-driven recommendations', () => {
     expect(r.message.length).toBeGreaterThan(0);
     expect(r.links.length).toBeGreaterThan(0);
     for (const l of r.links) expect(l.path.startsWith('/')).toBe(true);
+  });
+});
+
+describe('tide resolution', () => {
+  const now = Date.parse('2026-01-15T10:00:00Z');
+  const extremes: TideExtreme[] = [
+    { type: 'low', time: '2026-01-15T08:00:00Z', heightM: 0.3 },
+    { type: 'high', time: '2026-01-15T14:00:00Z', heightM: 1.6 },
+    { type: 'low', time: '2026-01-15T20:00:00Z', heightM: 0.4 },
+  ];
+
+  it('reports rising when the next extreme is a high', () => {
+    const t = resolveTide(extremes, 0.9, now);
+    expect(t.state).toBe('rising');
+    expect(t.nextHighTime).toBe('2026-01-15T14:00:00Z');
+    expect(t.heightM).toBe(0.9);
+  });
+
+  it('reports falling when the next extreme is a low', () => {
+    const t = resolveTide(extremes, 1.4, Date.parse('2026-01-15T15:00:00Z'));
+    expect(t.state).toBe('falling');
+    expect(t.nextLowTime).toBe('2026-01-15T20:00:00Z');
+  });
+
+  it('reports the extreme itself when we are essentially at it', () => {
+    const t = resolveTide(extremes, 1.6, Date.parse('2026-01-15T13:55:00Z'));
+    expect(t.state).toBe('high');
+  });
+
+  it('adds a tide note to the written summary when tide is known', () => {
+    const s = buildSummary(input({
+      surf: surf({ tide: { state: 'rising', heightM: 0.9, nextHighTime: '2026-01-15T14:00:00Z', nextLowTime: '2026-01-15T20:00:00Z' } }),
+    }));
+    expect(s.paragraph).toContain('tide is coming in');
   });
 });

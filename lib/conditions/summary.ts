@@ -126,6 +126,19 @@ function surfQualitySentence(input: SummaryInput, bestTime: string | null): stri
   return null;
 }
 
+/** Optional tide note — only when a tide source supplied a state. */
+function tideSentence(surf: SurfConditions | null): string | null {
+  const state = surf?.tide?.state;
+  if (!state) return null;
+  const map: Record<string, string> = {
+    rising: 'The tide is coming in.',
+    falling: 'The tide is going out.',
+    high: "It's around high tide.",
+    low: "It's around low tide.",
+  };
+  return map[state] ?? null;
+}
+
 function computeBestSurfTime(input: SummaryInput): string | null {
   const cur = input.current?.windSpeedKmh ?? null;
   const max = input.today?.windMaxKmh ?? null;
@@ -193,6 +206,7 @@ export function buildSummary(input: SummaryInput): ConditionsSummary {
     windRainSentence(input),
     surfSentence(input.surf),
     surfQualitySentence(input, bestSurfTime),
+    tideSentence(input.surf),
     safetyNote,
   ].filter((s): s is string => Boolean(s));
 

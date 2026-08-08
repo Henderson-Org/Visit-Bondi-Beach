@@ -64,8 +64,9 @@ export interface DailyWeatherForecast {
 
 export interface TideInfo {
   state: 'rising' | 'falling' | 'high' | 'low' | null;
-  nextHighTime: string | null;
-  nextLowTime: string | null;
+  heightM: number | null;
+  nextHighTime: string | null; // ISO
+  nextLowTime: string | null; // ISO
 }
 
 export interface SurfConditions {
@@ -123,6 +124,7 @@ export interface Conditions {
   surf: SurfConditions | null;
   weatherMeta: ProviderMeta | null;
   surfMeta: ProviderMeta | null;
+  tideMeta: ProviderMeta | null;
   summary: ConditionsSummary;
 }
 
@@ -139,4 +141,17 @@ export interface WeatherProvider {
 export interface SurfProvider {
   readonly name: string;
   getSurfConditions(loc: GeoPoint): Promise<{ surf: SurfConditions; meta: ProviderMeta }>;
+}
+
+/** Optional tide source (activated when configured — see service.ts). */
+export interface TideProvider {
+  readonly name: string;
+  getTide(loc: GeoPoint): Promise<{ tide: TideInfo; meta: ProviderMeta }>;
+}
+
+/** A tide extreme (high or low) at a point in time. */
+export interface TideExtreme {
+  type: 'high' | 'low';
+  time: string; // ISO
+  heightM: number | null;
 }

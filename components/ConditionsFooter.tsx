@@ -21,6 +21,7 @@ export interface ConditionsFooterProps {
   weatherUpdated: string | null;
   surfSource: string | null;
   surfUpdated: string | null;
+  tideSource: string | null;
   safetyUrl: string | null;
 }
 
@@ -31,7 +32,7 @@ function track(event: string) {
 }
 
 export function ConditionsFooter(props: ConditionsFooterProps) {
-  const { details, hasSurf, weatherSource, weatherUpdated, surfSource, surfUpdated, safetyUrl } = props;
+  const { details, hasSurf, weatherSource, weatherUpdated, surfSource, surfUpdated, tideSource, safetyUrl } = props;
   const [open, setOpen] = useState(false);
 
   const toggle = () => {
@@ -82,6 +83,12 @@ export function ConditionsFooter(props: ConditionsFooterProps) {
               Surf: {surfSource}
               {surfUpdated ? ` · Updated ${surfUpdated}` : ''}
             </span>
+          </>
+        )}
+        {tideSource && (
+          <>
+            <span aria-hidden="true"> · </span>
+            <span>Tide: {tideSource}</span>
           </>
         )}
       </p>

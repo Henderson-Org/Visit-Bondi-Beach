@@ -59,6 +59,13 @@ function detailRows(c: Conditions): Labelled[] {
     rows.push({ label: 'Swell', value: `${dir}${c.surf.swellHeightM.toFixed(1)}m` });
   }
   if (c.surf?.swellPeriodS != null) rows.push({ label: 'Swell period', value: `${Math.round(c.surf.swellPeriodS)}s` });
+  const tide = c.surf?.tide;
+  if (tide?.state) {
+    const nextTime = tide.state === 'rising' ? tide.nextHighTime : tide.nextLowTime;
+    const label = { rising: 'Rising', falling: 'Falling', high: 'High', low: 'Low' }[tide.state] ?? '';
+    const next = clockTime(nextTime);
+    rows.push({ label: 'Tide', value: next ? `${label} (${tide.state === 'rising' ? 'high' : 'low'} ${next})` : label });
+  }
   if (c.summary.surfOutlook) rows.push({ label: 'Outlook', value: c.summary.surfOutlook.replace(/^Surf outlook:\s*/, '') });
   return rows;
 }
@@ -113,6 +120,7 @@ export async function WeatherSurfSummary({ destination }: { destination?: string
         weatherUpdated={clockTime(c.weatherMeta?.providerUpdatedAt ?? null)}
         surfSource={c.surfMeta?.name ?? null}
         surfUpdated={clockTime(c.surfMeta?.providerUpdatedAt ?? null)}
+        tideSource={c.surf?.tide?.state ? (c.tideMeta?.name ?? null) : null}
         safetyUrl={location.safetyUrl}
       />
     </section>
