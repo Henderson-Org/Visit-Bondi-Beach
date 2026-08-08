@@ -4,6 +4,7 @@ import { PROD_ORIGIN } from '@/lib/site';
 import { stayCategorySlugs } from '@/data/stay-categories';
 import { guideSlugs } from '@/data/accommodation-guides';
 import { eventSlugs } from '@/data/events';
+import { collectionSlugs as diningCollectionSlugs, venuesWithGuide } from '@/lib/eatDrink';
 
 /**
  * XML sitemap generated from the content index. Only indexable pages are included
@@ -22,6 +23,9 @@ const STATIC_ROUTES: { path: string; priority: number }[] = [
   { path: '/stay/hostels-bondi-beach', priority: 0.6 },
   ...stayCategorySlugs().map((slug) => ({ path: `/stay/${slug}`, priority: 0.7 })),
   ...guideSlugs().map((slug) => ({ path: `/stay/${slug}`, priority: 0.6 })),
+  // Eat & Drink engine — collection (category) pages + individual venue guides
+  ...diningCollectionSlugs().map((slug) => ({ path: `/bondi-eat-and-drink/${slug}`, priority: 0.7 })),
+  ...venuesWithGuide().map((v) => ({ path: `/bondi-eat-and-drink/${v.id}`, priority: 0.6 })),
   // What's On (events) + Articles hub
   { path: '/whats-on', priority: 0.9 },
   { path: '/whats-on/today', priority: 0.6 },
