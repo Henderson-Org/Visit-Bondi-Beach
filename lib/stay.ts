@@ -18,13 +18,18 @@ function primaryProvider(p: Property): ProviderId {
   return (p.providers[0] as ProviderId) ?? 'booking';
 }
 
-/** The booking search link (affiliate-wrapped when configured) for a property. */
-export function bookingLinkFor(p: Property, campaign: string) {
+/**
+ * The Booking.com (or primary provider) link for a property, affiliate-wrapped when
+ * configured. Uses the exact property deep link when we hold a verified `bookingUrl`
+ * (priority 1), otherwise a property-name search — never a generic page.
+ */
+export function bookingLinkFor(p: Property, placement: string) {
   return getAffiliateLink({
     provider: primaryProvider(p),
     destination: 'Bondi Beach',
     property: p.name,
-    campaign,
+    targetUrl: p.bookingUrl,
+    placement,
   });
 }
 
@@ -83,6 +88,7 @@ export interface Facet {
   tags: Tag[];
   price: number; // 1–4
   walk: number; // walking minutes, big number when it's a ride
+  hasGuide: boolean;
 }
 
 export function facetFor(p: Property): Facet {
@@ -94,5 +100,6 @@ export function facetFor(p: Property): Facet {
     tags: p.bestFor,
     price: p.priceBand.length,
     walk: p.walkMinutes ?? 999,
+    hasGuide: Boolean(p.hasGuide),
   };
 }

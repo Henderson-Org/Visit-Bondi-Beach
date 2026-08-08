@@ -98,6 +98,11 @@ export interface Property {
   priceBand: PriceBand;
   /** Human neighbourhood/street orientation (durable geography). */
   neighbourhood: string;
+  /** Street address where verified (durable public fact); omitted otherwise. */
+  address?: string;
+  /** Coordinates where confidently known; omitted rather than guessed. */
+  lat?: number;
+  lon?: number;
   /** Approx. walking minutes to Bondi Beach sand; null when it's a ride, not a walk. */
   walkMinutes: number | null;
   /** Short walk phrasing shown on cards (e.g. "2 min walk", "~10 min by bus"). */
@@ -107,12 +112,29 @@ export interface Property {
   bestFor: Tag[];
   amenities: Amenities;
   providers: Provider[];
-  /** Official website, when confidently known; otherwise omitted (CTA falls back to a booking search). */
+  /**
+   * Exact Booking.com property URL, when verified. Used to build a property-specific
+   * affiliate deep link (priority 1). Omitted → the CTA falls back to a property-name
+   * Booking.com search (still property-specific), never a generic page. Never fabricated.
+   */
+  bookingUrl?: string;
+  /** Booking.com/Travelpayouts property identifier, when known (for deep links). */
+  bookingPropertyId?: string;
+  /** Provider-specific ids for precise deep links, when known. */
+  travelpayoutsId?: string;
+  hostelworldId?: string;
+  tripadvisorId?: string;
+  /** Official website, when confidently known; otherwise omitted. */
   officialUrl?: string;
   /** True when a full editorial guide exists at /stay/[slug] (see accommodation-guides.ts). */
   hasGuide?: boolean;
   /** Rights-cleared property photo path; null → non-photographic card fallback. */
   image?: string | null;
+  imageAlt?: string;
+  /** Directory status. Inactive properties are hidden from listings but kept for the record. */
+  active?: boolean;
+  /** Where the property's details were last verified from. */
+  source?: string;
   lastReviewed: string;
 }
 
@@ -201,7 +223,7 @@ export const PROPERTIES: Property[] = [
     neighbourhood: 'Just behind Campbell Parade',
     walkMinutes: 3,
     walkText: '3 min walk',
-    summary: 'Apartment-hotel with kitchens and an indoor pool, a short walk back from the beach.',
+    summary: 'Apartment-hotel with kitchens and an outdoor pool, a short walk back from the beach.',
     bestFor: ['families', 'longer-stays', 'couples', 'beach-access', 'pool'],
     amenities: { pool: true, parking: 'paid', kitchen: true, oceanViews: false },
     providers: ['booking', 'tripadvisor'],
@@ -234,14 +256,18 @@ export const PROPERTIES: Property[] = [
     type: 'boutique-hotel',
     priceBand: '$$$',
     neighbourhood: 'Corner of Campbell Parade & Hall Street',
+    address: '118 Campbell Parade, Bondi Beach NSW 2026',
     walkMinutes: 1,
     walkText: 'On the beachfront',
-    summary: 'Small beachfront boutique hotel on the Campbell Parade / Hall Street corner.',
+    summary: 'Intimate 12-room beachfront boutique hotel on the Campbell Parade / Hall Street corner, with ocean views and a restaurant.',
     bestFor: ['couples', 'first-time', 'beach-access', 'ocean-views', 'luxury'],
     amenities: { oceanViews: true, parking: 'limited' },
     providers: ['booking', 'tripadvisor'],
+    officialUrl: 'https://www.hotelravesis.com/',
     hasGuide: false,
     image: null,
+    active: true,
+    source: 'https://www.sydney.com/destinations/sydney/sydney-east/bondi/food-and-drink/hotel-ravesis',
     lastReviewed: REVIEWED,
   },
   {
@@ -328,11 +354,98 @@ export const PROPERTIES: Property[] = [
     officialUrl: 'https://www.meritonsuites.com.au/our-hotels/sydney/bondi-junction/',
     hasGuide: false,
     image: null,
+    active: true,
+    source: 'https://www.meritonsuites.com.au/our-hotels/sydney/bondi-junction/',
+    lastReviewed: REVIEWED,
+  },
+  {
+    slug: 'wake-up-bondi-beach',
+    name: 'Wake Up! Bondi Beach',
+    area: 'bondi-beach',
+    type: 'hostel',
+    priceBand: '$',
+    neighbourhood: 'Campbell Parade, opposite the beach',
+    address: '110 Campbell Parade, Bondi Beach NSW 2026',
+    walkMinutes: 1,
+    walkText: '1 min walk',
+    summary: 'Modern beachfront hostel on Campbell Parade with dorms, private rooms, a rooftop terrace and a bar.',
+    bestFor: ['budget', 'groups', 'beach-access', 'ocean-views'],
+    amenities: { kitchen: true, oceanViews: true },
+    providers: ['hostelworld', 'booking'],
+    hasGuide: false,
+    image: null,
+    active: true,
+    source: 'https://www.hotels.com/ho504920/',
+    lastReviewed: REVIEWED,
+  },
+  {
+    slug: 'ultimate-apartments-bondi-beach',
+    name: 'Ultimate Apartments Bondi Beach',
+    area: 'bondi-beach',
+    type: 'apartments',
+    priceBand: '$$',
+    neighbourhood: "O'Brien Street, a short walk back from the sand",
+    address: "59 O'Brien Street, Bondi Beach NSW 2026",
+    walkMinutes: 6,
+    walkText: '~6 min walk',
+    summary: 'Self-contained apartments with kitchenettes, a seasonal outdoor pool and parking, a short walk from the beach.',
+    bestFor: ['families', 'longer-stays', 'budget', 'pool'],
+    amenities: { pool: true, kitchen: true, parking: 'onsite' },
+    providers: ['booking', 'tripadvisor'],
+    hasGuide: false,
+    image: null,
+    active: true,
+    source: 'https://www.travelocity.com/Sydney-Hotels-Ultimate-Apartments-Bondi-Beach.h1426897.Hotel-Reviews',
+    lastReviewed: REVIEWED,
+  },
+  {
+    slug: 'quest-bondi-junction',
+    name: 'Quest Bondi Junction',
+    area: 'bondi-junction',
+    type: 'apartments',
+    priceBand: '$$$',
+    neighbourhood: 'By the Bondi Junction transport interchange',
+    walkMinutes: null,
+    walkText: '~10 min by bus',
+    summary: 'Self-contained studio aparthotel about 200 m from the Bondi Junction interchange — handy for transport and value.',
+    bestFor: ['longer-stays', 'families', 'budget'],
+    amenities: { kitchen: true, parking: 'paid' },
+    providers: ['booking', 'tripadvisor'],
+    officialUrl: 'https://www.questapartments.com.au/venues/sydney/bondi-junction',
+    hasGuide: false,
+    image: null,
+    active: true,
+    source: 'https://www.questapartments.com.au/venues/sydney/bondi-junction',
+    lastReviewed: REVIEWED,
+  },
+  {
+    slug: 'holiday-inn-bondi-junction',
+    name: 'Holiday Inn & Suites Sydney Bondi Junction',
+    area: 'bondi-junction',
+    type: 'hotel',
+    priceBand: '$$$',
+    neighbourhood: 'Bondi Junction, by the shopping & transport hub',
+    walkMinutes: null,
+    walkText: '~10 min by bus',
+    summary: 'Full-service hotel in Bondi Junction, close to the train and Westfield — a practical, well-connected base.',
+    bestFor: ['families', 'first-time', 'longer-stays'],
+    amenities: { pool: true, parking: 'paid' },
+    providers: ['booking', 'tripadvisor'],
+    officialUrl: 'https://www.ihg.com/holidayinn/hotels/us/en/sydney/sydbj/hoteldetail',
+    hasGuide: false,
+    image: null,
+    active: true,
+    source: 'https://www.hrs.com/en/hotel/787013',
     lastReviewed: REVIEWED,
   },
 ];
 
 /* --------------------------------- lookups -------------------------------- */
+
+/** Properties shown in listings (active by default; inactive kept for the record only). */
+export function activeProperties(): Property[] {
+  return PROPERTIES.filter((p) => p.active !== false);
+}
 
 export function getArea(slug: string): Area | undefined {
   return AREAS.find((a) => a.slug === slug);

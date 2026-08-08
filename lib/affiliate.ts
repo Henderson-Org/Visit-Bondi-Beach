@@ -29,10 +29,16 @@ export interface AffiliateRequest {
   destination: string;
   /** Optional specific property name to search for, e.g. "QT Bondi". */
   property?: string;
+  /**
+   * Exact provider property URL for a precise deep link (priority 1). When set, this is
+   * used as the target instead of a search. Only pass verified URLs — never fabricated.
+   */
+  targetUrl?: string;
   /** Optional provider-specific id/url for a precise deep link (future use). */
   providerId?: string;
-  /** Sub-tracking: where the click came from (page + placement). */
+  /** Sub-tracking: where the click came from (page + placement). Alias: `placement`. */
   campaign?: string;
+  placement?: string;
 }
 
 interface ProviderConfig {
@@ -104,11 +110,20 @@ export interface AffiliateLink {
   tracked: boolean;
 }
 
-/** The single entry point the UI uses. Never construct provider URLs elsewhere. */
+/**
+ * The single entry point the UI uses. Never construct provider URLs elsewhere.
+ *
+ * Target priority:
+ *  1. `req.targetUrl` — an exact, verified provider property URL (deep link).
+ *  2. property-name search on the provider (still property-specific).
+ * The chosen target is then wrapped in a Travelpayouts affiliate redirect when
+ * configured. We never fall back to a generic, unrelated provider page.
+ */
 export function getAffiliateLink(req: AffiliateRequest): AffiliateLink {
   const provider = PROVIDERS[req.provider];
-  const target = provider.targetUrl(req);
-  const href = wrap(provider, target, req.campaign);
+  const target = req.targetUrl || provider.targetUrl(req);
+  const campaign = req.campaign ?? req.placement;
+  const href = wrap(provider, target, campaign);
   return {
     provider: req.provider,
     label: provider.label,

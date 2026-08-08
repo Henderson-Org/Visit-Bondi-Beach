@@ -130,20 +130,20 @@ export const GUIDES: Record<string, PropertyGuide> = {
   'adina-bondi-beach': {
     slug: 'adina-bondi-beach',
     verdict:
-      'A dependable apartment-hotel for families and longer stays — kitchens, an indoor pool and the beach a few minutes away.',
+      'A dependable apartment-hotel for families and longer stays — kitchens, a pool and the beach a few minutes away.',
     intro:
-      'Adina Apartment Hotel Bondi Beach is a serviced apartment-hotel just behind Campbell Parade, a short walk from the sand. Because the apartments have kitchens and there is an indoor pool, it is one of the more practical Bondi bases for families and for anyone staying more than a couple of nights — you get space, self-catering and a swim without paying beachfront-hotel rates for a room you only sleep in.',
+      'Adina Apartment Hotel Bondi Beach is a serviced apartment-hotel just behind Campbell Parade, a short walk from the sand. Because the apartments have kitchens and there is a pool, it is one of the more practical Bondi bases for families and for anyone staying more than a couple of nights — you get space, self-catering and a swim without paying beachfront-hotel rates for a room you only sleep in.',
     scores: [
       { key: 'location', label: 'Location', score: 8.5, note: 'Just behind Campbell Parade — central but a step back from the beachfront bustle.' },
       { key: 'beach', label: 'Proximity to Bondi Beach', score: 9, note: 'Roughly a three-minute walk to the sand.' },
-      { key: 'family', label: 'Family friendliness', score: 9, note: 'Apartment layouts, kitchens and an indoor pool make family stays easy.' },
+      { key: 'family', label: 'Family friendliness', score: 9, note: 'Apartment layouts, kitchens and a pool make family stays easy.' },
       { key: 'dining', label: 'Food & drink nearby', score: 9, note: 'Campbell Parade and Hall Street cafés and restaurants are a few minutes away.' },
       { key: 'transport', label: 'Transport convenience', score: 7, note: 'Buses along Campbell Parade; train up at Bondi Junction.' },
       { key: 'views', label: 'Views', score: 5, note: 'A practical base rather than a view stay — set back from the seafront.' },
     ],
     whyStay: [
       'The apartments have kitchens and laundry, which changes how a stay feels: you can do breakfast in, keep kids’ routines, and not eat every meal out — a big deal over a week or with young children.',
-      'There is an indoor pool, so a swim is not weather- or surf-dependent, and you are still only a few minutes’ walk from the beach, the promenade and the cafés.',
+      'There is an outdoor pool, so a calm swim doesn’t depend on the surf, and you are still only a few minutes’ walk from the beach, the promenade and the cafés.',
     ],
     bestForProse:
       'Families and longer-stay visitors who want space, a kitchen and a pool, and don’t mind being a short walk back from the seafront rather than directly on it. Couples after a self-catering base will like it too.',
@@ -153,7 +153,7 @@ export const GUIDES: Record<string, PropertyGuide> = {
     ],
     beachDistance: 'About a three-minute walk to the sand, just behind Campbell Parade.',
     family:
-      'This is one of the more family-friendly options at Bondi Beach: self-contained apartments with kitchens give you room and routine, and the indoor pool is a reliable back-up when the surf is too big for little ones. Pair it with our Bondi-with-kids guide for the calmest swim spots and the playground.',
+      'This is one of the more family-friendly options at Bondi Beach: self-contained apartments with kitchens give you room and routine, and the pool is a reliable back-up when the surf is too big for little ones. Pair it with our Bondi-with-kids guide for the calmest swim spots and the playground.',
     nearby: [
       'Bondi Beach and the promenade — a few minutes on foot',
       'Campbell Parade and Hall Street cafés — close by',
@@ -176,7 +176,7 @@ export const GUIDES: Record<string, PropertyGuide> = {
     ],
     faqs: [
       { q: 'How far is Adina Bondi Beach from the beach?', a: 'About a three-minute walk — it is just behind Campbell Parade.' },
-      { q: 'Does Adina Bondi Beach have a pool?', a: 'Yes, there is an indoor pool, which makes it a reliable option when the surf is too rough for young children.' },
+      { q: 'Does Adina Bondi Beach have a pool?', a: 'Yes, there is a pool, which makes it a reliable option when the surf is too rough for young children.' },
       { q: 'Is Adina Bondi Beach good for families?', a: 'Yes — self-contained apartments with kitchens, laundry and a pool make it one of the more practical family bases at Bondi Beach.' },
       { q: 'Do the apartments have kitchens?', a: 'Yes — the apartment layouts include kitchen facilities, so you can self-cater, which suits longer stays.' },
     ],

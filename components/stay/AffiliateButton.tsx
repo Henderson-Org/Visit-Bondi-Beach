@@ -3,25 +3,29 @@
 import type { ProviderId } from '@/lib/affiliate';
 
 /**
- * The single affiliate CTA used across the Stay section. It renders a resolved
- * affiliate href (built server-side by lib/affiliate.getAffiliateLink so no env/
- * URL logic runs in the browser) and fires a GA4 `affiliate_click` event on click.
+ * The affiliate CTA used across the Stay section. Renders a resolved affiliate href
+ * (built server-side by lib/affiliate.getAffiliateLink) and fires a GA4 `affiliate_click`
+ * event on click with rich dimensions for reporting.
  *
- * Compliance:
- *  - rel="sponsored nofollow noopener" — sponsored+nofollow tell search engines this
- *    is a monetised link; noopener is a security default for target=_blank.
- *  - target="_blank" — the provider opens in a new tab so the guide stays put.
+ * Compliance: rel="sponsored nofollow noopener" (sponsored+nofollow mark the monetised
+ * link for search engines; noopener is a security default), target="_blank".
  */
 export interface AffiliateButtonProps {
   href: string;
   label: string;
   cta: string;
   provider: ProviderId;
-  /** Property or area this CTA is for — sent to analytics, not required. */
-  item?: string;
-  /** Where on the site the click came from (placement), sent to analytics. */
-  campaign?: string;
+  /** Analytics dimensions. */
+  propertyName?: string;
+  propertySlug?: string;
+  page?: string;
+  placement?: string;
+  /** CTA identifier for analytics, e.g. "check_availability". */
+  ctaId?: string;
   variant?: 'solid' | 'outline';
+  block?: boolean;
+  /** Show the provider label as a subtle suffix ("· Booking.com"). */
+  showLabel?: boolean;
 }
 
 declare global {
@@ -35,34 +39,39 @@ export function AffiliateButton({
   label,
   cta,
   provider,
-  item,
-  campaign,
+  propertyName,
+  propertySlug,
+  page,
+  placement,
+  ctaId = 'check_availability',
   variant = 'solid',
+  block = false,
+  showLabel = true,
 }: AffiliateButtonProps) {
-  const base =
-    'inline-flex items-center justify-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium transition';
-  const style =
-    variant === 'solid'
-      ? 'bg-ocean-600 text-white hover:bg-ocean-700'
-      : 'border border-sand-300 bg-white text-ink-900 hover:border-ocean-500';
+  const base = 'inline-flex items-center justify-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium transition';
+  const style = variant === 'solid' ? 'bg-ocean-600 text-white hover:bg-ocean-700' : 'border border-sand-300 bg-white text-ink-900 hover:border-ocean-500';
+  const width = block ? 'w-full' : '';
   return (
     <a
       href={href}
       target="_blank"
       rel="sponsored nofollow noopener"
-      className={`${base} ${style}`}
+      className={`${base} ${style} ${width}`}
       onClick={() => {
         if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
           window.gtag('event', 'affiliate_click', {
             provider,
-            item: item || undefined,
-            campaign: campaign || undefined,
+            cta: ctaId,
+            property_name: propertyName,
+            property_slug: propertySlug,
+            page,
+            placement: placement || undefined,
           });
         }
       }}
     >
       {cta}
-      <span className="text-xs opacity-80">· {label}</span>
+      {showLabel && <span className="text-xs opacity-80">· {label}</span>}
     </a>
   );
 }

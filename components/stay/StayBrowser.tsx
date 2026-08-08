@@ -30,6 +30,7 @@ export function StayBrowser({
   const [area, setArea] = useState<string | null>(null);
   const [tag, setTag] = useState<Tag | null>(null);
   const [type, setType] = useState<StayType | null>(null);
+  const [guideOnly, setGuideOnly] = useState(false);
   const [sort, setSort] = useState<SortKey>('featured');
 
   const items = Children.toArray(children);
@@ -41,13 +42,15 @@ export function StayBrowser({
       if (area && f.area !== area) return false;
       if (tag && !f.tags.includes(tag)) return false;
       if (type && f.type !== type) return false;
+      if (guideOnly && !f.hasGuide) return false;
       return true;
     });
     if (sort === 'nearest') visible.sort((a, b) => facets[a].walk - facets[b].walk);
     return visible;
-  }, [facets, area, tag, type, sort]);
+  }, [facets, area, tag, type, guideOnly, sort]);
 
-  const anyFilter = area || tag || type;
+  const anyFilter = area || tag || type || guideOnly;
+  const clearAll = () => { setArea(null); setTag(null); setType(null); setGuideOnly(false); };
 
   const chip = (active: boolean) =>
     `rounded-full border px-3.5 py-1.5 text-sm transition ${
@@ -82,6 +85,9 @@ export function StayBrowser({
               {STAY_TYPE_PLURAL[t]}
             </button>
           ))}
+          <button type="button" className={chip(guideOnly)} aria-pressed={guideOnly} onClick={() => setGuideOnly((v) => !v)}>
+            Has our guide
+          </button>
         </FilterRow>
 
         <div className="mt-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-2 border-t border-sand-200 pt-3">
@@ -93,7 +99,7 @@ export function StayBrowser({
           <div className="flex items-center gap-3 text-sm text-ink-500">
             <span aria-live="polite">{order.length} {order.length === 1 ? 'place' : 'places'}</span>
             {anyFilter && (
-              <button type="button" className="text-ocean-700 hover:underline" onClick={() => { setArea(null); setTag(null); setType(null); }}>
+              <button type="button" className="text-ocean-700 hover:underline" onClick={clearAll}>
                 Clear
               </button>
             )}

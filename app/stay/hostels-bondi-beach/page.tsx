@@ -98,8 +98,9 @@ export default function HostelsBondi() {
             label={hostelworldSearch.label}
             cta="See all Bondi hostels"
             provider="hostelworld"
-            item="bondi-hostels-all"
-            campaign="hostels-all"
+            page="hostels"
+            placement="hostels-hero"
+            ctaId="see_all_hostels"
           />
         </div>
         <div className="mt-4">

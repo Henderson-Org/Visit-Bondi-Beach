@@ -145,7 +145,7 @@ export const STAY_CATEGORIES: StayCategory[] = [
     heroKicker: 'Stay · Apartments',
     heroImage: HERO_BEACH,
     answer:
-      'For a serviced apartment in Bondi Beach with a kitchen and space, Adina Bondi Beach (with an indoor pool) and Bondi 38 sit just off Campbell Parade near the sand, while Meriton Suites Bondi Junction offers high-rise apartments with a pool by the transport hub. Apartments suit families and anyone staying more than a couple of nights.',
+      'For a serviced apartment in Bondi Beach with a kitchen and space, Adina Bondi Beach (with a pool) and Bondi 38 sit just off Campbell Parade near the sand, while Meriton Suites Bondi Junction offers high-rise apartments with a pool by the transport hub. Apartments suit families and anyone staying more than a couple of nights.',
     intro: [
       'A serviced apartment is the sweet spot for families and longer stays: you get a kitchen, laundry and more room than a hotel, usually for a comparable rate. Near the beach you’ve got Adina and Bondi 38 just behind Campbell Parade; up at Bondi Junction, Meriton Suites trades beachfront for space, a pool and easy transport.',
     ],

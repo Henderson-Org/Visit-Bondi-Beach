@@ -66,6 +66,39 @@ Edit **`data/accommodation.ts`** and add an entry to `PROPERTIES`:
 
 Cards, affiliate CTAs, `ItemList` schema and internal links update automatically.
 
+## Check availability CTA & Booking.com deep links
+
+Every property card shows a **Check availability** affiliate CTA. Where an editorial
+guide exists, it sits directly beneath a primary **Read our guide** button; where none
+exists, Check availability is the only CTA (no dead guide button).
+
+`bookingLinkFor(property, placement)` builds the link with this priority:
+1. **Exact Booking.com property deep link** — when the property has a verified
+   `bookingUrl` (wrapped via Travelpayouts when configured).
+2. **Property-name Booking.com search** — always property-specific, never a generic page.
+
+To upgrade a property from search → exact deep link, add its verified `bookingUrl`
+(and optionally `bookingPropertyId`) in `data/accommodation.ts`. No component changes.
+
+Analytics: clicks fire GA4 `affiliate_click` with `provider`, `cta`, `property_name`,
+`property_slug`, `page`, `placement`.
+
+## Directory & reconciliation
+
+The directory aims to cover the legitimate Bondi accommodation market, not just guided
+properties. Each record carries `active`, `source` and `lastReviewed`.
+
+- `npm run audit:stay` — lists every property (active / has-guide / booking-link type /
+  last-verified / age), flags records older than 180 days, and fails on duplicate slugs or
+  missing fields.
+- `npm run audit:stay path/to/inventory.json` — diffs the dataset against a permitted
+  Travelpayouts/Booking.com inventory export (`[{name}|{slug}]`): reports which of ours are
+  absent from the feed (review — never auto-deleted) and which feed items are new
+  candidates. Reporting only; it never mutates data.
+
+**Inactive, not deleted:** a property that temporarily disappears should be set
+`active: false` (hidden from listings, kept for the record), not removed.
+
 ## Editorial rules (do not break)
 
 - **No invented facts.** Store only durable, public facts (type + rough location). No

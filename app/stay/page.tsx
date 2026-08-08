@@ -11,7 +11,7 @@ import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from '@/lib/structured-da
 import { facetFor, FILTER_TAGS, FILTER_TYPES } from '@/lib/stay';
 import {
   AREAS,
-  PROPERTIES,
+  activeProperties,
   areasWithProperties,
   byBeachProximity,
   propertiesByArea,
@@ -70,11 +70,12 @@ const FAQS = [
 ];
 
 export default function StayHub() {
-  const facets = PROPERTIES.map(facetFor);
+  const props = activeProperties();
+  const facets = props.map(facetFor);
   const areaOptions = areasWithProperties().map((a) => ({ slug: a.slug, name: a.name }));
-  const tagOptions = FILTER_TAGS.filter((t) => PROPERTIES.some((p) => p.bestFor.includes(t)));
-  const typeOptions = FILTER_TYPES.filter((t) => PROPERTIES.some((p) => p.type === t));
-  const nearest = [...PROPERTIES].sort(byBeachProximity).slice(0, 6);
+  const tagOptions = FILTER_TAGS.filter((t) => props.some((p) => p.bestFor.includes(t)));
+  const typeOptions = FILTER_TYPES.filter((t) => props.some((p) => p.type === t));
+  const nearest = [...props].sort(byBeachProximity).slice(0, 6);
 
   return (
     <div>
@@ -83,7 +84,7 @@ export default function StayHub() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(itemListJsonLd('Places to stay in Bondi Beach', PROPERTIES.map((p) => ({ name: p.name, description: p.summary })))),
+          __html: JSON.stringify(itemListJsonLd('Places to stay in Bondi Beach', props.map((p) => ({ name: p.name, description: p.summary })))),
         }}
       />
 
@@ -126,7 +127,7 @@ export default function StayHub() {
         </p>
         <div className="mt-6">
           <StayBrowser facets={facets} areas={areaOptions} tags={tagOptions} types={typeOptions}>
-            {PROPERTIES.map((p) => (
+            {props.map((p) => (
               <AccommodationCard key={p.slug} property={p} campaign="stay-hub" />
             ))}
           </StayBrowser>

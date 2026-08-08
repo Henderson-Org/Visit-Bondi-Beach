@@ -149,8 +149,10 @@ export default async function PropertyGuidePage({ params }: Props) {
             label={booking.label}
             cta={property.officialUrl ? 'Check prices' : 'Check availability & prices'}
             provider={booking.provider}
-            item={property.slug}
-            campaign={`guide-${slug}`}
+            propertyName={property.name}
+            propertySlug={property.slug}
+            page={`guide-${slug}`}
+            placement="guide-hero"
             variant={property.officialUrl ? 'outline' : 'solid'}
           />
         </div>

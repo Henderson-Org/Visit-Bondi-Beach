@@ -125,8 +125,9 @@ export default function BeachVsJunction() {
                 label={beachSearch.label}
                 cta="Search Bondi Beach stays"
                 provider="booking"
-                item="bondi-beach-area"
-                campaign="vs-beach"
+                page="vs-beach-junction"
+                placement="vs-beach"
+                ctaId="search_area"
               />
             </div>
           </div>
@@ -142,8 +143,9 @@ export default function BeachVsJunction() {
                 label={junctionSearch.label}
                 cta="Search Bondi Junction stays"
                 provider="booking"
-                item="bondi-junction-area"
-                campaign="vs-junction"
+                page="vs-beach-junction"
+                placement="vs-junction"
+                ctaId="search_area"
               />
             </div>
           </div>
