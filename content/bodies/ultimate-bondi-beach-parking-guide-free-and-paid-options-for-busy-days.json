@@ -15,30 +15,30 @@
       { "label": "Golden hour", "value": "Before 9am or after 4pm" },
       { "label": "Backup plan", "value": "Park at Bondi Junction, bus down" }
     ] },
-    { "type": "callout", "tone": "warning", "title": "Read every sign before you walk off", "text": "Inspectors patrol Bondi hard, especially on weekends, and fines add up fast — blocking a driveway is among the priciest mistakes you can make. Time limits, permit-only zones and no-stopping lines change street by street, so read the closest sign before you leave the car." },
+    { "type": "callout", "tone": "warning", "title": "Read every sign before you walk off", "text": "Inspectors patrol Bondi hard, especially on weekends, and fines add up fast — blocking a driveway is one of the costliest. Time limits, permit-only zones and no-stopping lines change street by street, so read the closest sign before you leave the car." },
     { "type": "h2", "text": "The free parking that actually exists" },
-    { "type": "p", "text": "Bondi does have genuinely free, unrestricted parking — you just have to walk for it. My go-to is the residential grid north and west of Blair Street, a 6–10 minute stroll from the sand and free around the clock in the unrestricted sections. On weekdays it holds until residents come home in the late afternoon; on sunny weekends it fills from mid-morning, which is exactly why arriving early matters." },
+    { "type": "p", "text": "Bondi does have genuinely free, unrestricted parking — you just have to walk for it. My go-to is the residential grid north and west of Blair Street, a 6–10 minute stroll from the sand and free around the clock. On weekdays it holds until residents come home in the late afternoon; on sunny weekends it fills from mid-morning, which is why arriving early matters." },
     { "type": "p", "text": "One honest caveat: the streets closest to the water slip into resident-permit and timed zones without much warning — Waverley runs Resident Parking Schemes across Bondi, so a free-looking bay can be permit-only. Accept the walk and you'll find far more room." },
-    { "type": "localTip", "text": "South Bondi is my secret. Everyone aims for the middle of the beach, so the blocks around Francis Street often have space when the north end is chaos. It's a slightly longer stroll, but I'd rather walk five minutes than do another lap." },
+    { "type": "localTip", "text": "South Bondi is my secret. Everyone aims for the middle of the beach, so the blocks around Francis Street often have space when the north end is chaos. It's a slightly longer stroll, but I'd rather walk than do another lap." },
     { "type": "h2", "text": "Paid parking, closest to furthest" },
     { "type": "p", "text": "When I don't want the walk — beach gear, kids, a cold day — I pay. Roughly by closeness to the sand:" },
     { "type": "list", "items": [
-      "Queen Elizabeth Drive station — Waverley Council's own car park right behind the beach, around 500 bays. The closest and most convenient, and the first to fill on a nice day.",
-      "Pacific Bondi car park — opposite the Pavilion, a two-minute walk to the sand. Booking online ahead is usually cheaper than paying the gate rate.",
-      "Wilson Parking at The Hub on Hall Street — undercover and often overlooked; handy when the beachfront lots are full, especially for a shorter stay.",
-      "On-street meters along Campbell Parade — the most convenient and the priciest per hour, and time-limited, so they suit a quick visit rather than a full beach day."
+      "Queen Elizabeth Drive station — Waverley Council's own car park right behind the beach. The closest and most convenient, and the first to fill on a nice day.",
+      "Pacific Bondi car park — on Campbell Parade opposite the beach, a short walk to the sand. Booking online ahead is often cheaper than the gate rate.",
+      "Undercover parking a block back around Hall Street — often overlooked, and handy when the beachfront stations are full; check the posted rates at the entrance.",
+      "On-street meters along Campbell Parade — convenient but the priciest per hour, and time-limited, so they suit a quick visit rather than a full beach day."
     ] },
-    { "type": "callout", "tone": "note", "title": "What will it cost?", "text": "Waverley Council sets the meter rates, and they run higher for beach-adjacent bays in summer than for streets further back. The council reviews these fees regularly, so rather than trust a fixed figure — including any you read here — check the current rates on Waverley's parking page and budget for a daily cap." },
+    { "type": "callout", "tone": "note", "title": "What will it cost?", "text": "Waverley Council sets the meter rates, and they run higher for beach-adjacent bays in summer than for streets further back. Rates change, so rather than trust a fixed figure — including any you read here — check the current rates on Waverley's parking page and budget for a daily cap." },
     { "type": "h2", "text": "My busy-day plan, hour by hour" },
     { "type": "itinerary", "stops": [
       { "time": "Before 9am", "title": "Arrive early, park anywhere", "detail": "Both the free streets and the Queen Elizabeth Drive station still have room. Swim, walk, coffee — you've beaten the crush." },
       { "time": "9am–3pm", "title": "The hard window", "detail": "This is when you'll circle. Arriving now, skip the beachfront and head straight for South Bondi streets, a paid station, or the park-and-ride below." },
       { "time": "After 4pm", "title": "It opens up again", "detail": "The morning crowd starts leaving and bays free up — perfect for a late swim, sunset and dinner on Hall Street." }
     ] },
-    { "type": "p", "text": "If it's a perfect summer Saturday, don't fight it: drive to Bondi Junction, park there, and jump on the 333, 380 or 381 bus down — about a 10–15 minute ride. You'll be on the sand while everyone else is still nosing around the block. Check Transport for NSW for timetables and tap on with an Opal card or contactless." },
+    { "type": "p", "text": "If it's a perfect summer Saturday, don't fight it: drive to Bondi Junction, park there, and jump on the 333, 380 or 381 bus down — about a 10–15 minute ride, often quicker than circling for a beachfront bay. Check Transport for NSW for timetables and tap on with an Opal card or contactless." },
     { "type": "faq", "items": [
       { "q": "Is there free parking at Bondi Beach?", "a": "Yes — the residential streets north and west of Blair Street have free, unrestricted bays about a 6–10 minute walk from the sand. Watch for resident-permit and timed zones nearer the beach, and arrive early on weekends." },
-      { "q": "What's the closest car park to Bondi Beach?", "a": "Waverley Council's Queen Elizabeth Drive station, right behind the beach with around 500 bays. It's the first to fill on a sunny day, so arrive early or book a nearby lot online." },
+      { "q": "What's the closest car park to Bondi Beach?", "a": "Waverley Council's Queen Elizabeth Drive station, the large pay car park right behind the beach. It's the first to fill on a sunny day, so arrive early or book a nearby lot online." },
       { "q": "How much does it cost to park at Bondi Beach?", "a": "Waverley Council sets the meter rates — higher for beach-adjacent bays in summer than for streets further back — and the paid stations have daily caps. Rates change, so check the council's parking page before you go." },
       { "q": "When should I arrive to actually find a spot?", "a": "Before 9am or after about 4pm on busy weekends and holidays. The 9am–3pm window is hardest; arriving then, plan on a paid station, South Bondi streets, or the Bondi Junction park-and-ride." },
       { "q": "Is there a park-and-ride option?", "a": "Effectively, yes. Park at or near Bondi Junction and take the 333, 380 or 381 bus down — roughly a 10–15 minute trip, and on a hot weekend genuinely faster than hunting for a beachfront bay." }

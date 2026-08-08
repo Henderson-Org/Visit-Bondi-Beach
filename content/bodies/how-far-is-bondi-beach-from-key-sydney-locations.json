@@ -8,7 +8,7 @@
     { "label": "Waverley Council — Bondi Beach", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beaches/bondi_beach" }
   ],
   "blocks": [
-    { "type": "p", "text": "The short answer: Bondi Beach sits about 7 km east of the Sydney CBD and roughly 14 km from Sydney Airport, and from either one you're realistically 30 to 60 minutes away depending on how you travel and the traffic. Here's my honest local take on how far Bondi really is from wherever you're starting — and the smartest way to close the gap." },
+    { "type": "p", "text": "The short answer: Bondi Beach sits about 7 km east of the Sydney CBD and roughly 14 km from Sydney Airport, and from either you're realistically 30 to 60 minutes away, depending on how you travel. Here's my local take on how far Bondi really is — and the smartest way to close the gap." },
     { "type": "quickFacts", "items": [
       { "label": "From Sydney CBD", "value": "~7 km east" },
       { "label": "From Sydney Airport", "value": "~14 km" },
@@ -17,19 +17,19 @@
     ] },
     { "type": "p", "text": "The single most important thing to know: there's no train station at Bondi Beach itself, and the name catches a lot of visitors out. The closest station is Bondi Junction, about 3 km up the hill, and from there you hop on a bus down to the sand." },
     { "type": "h2", "text": "The Bondi Junction hop (how nearly everyone arrives)" },
-    { "type": "p", "text": "Bondi Junction is the eastern terminus of the T4 Eastern Suburbs & Illawarra line, so trains from the CBD and the airport line all funnel through it. Follow the signs upstairs to the bus interchange and jump on a 333, 380 or 381 — each rolls down Bondi Road to Campbell Parade, right along the beachfront, and they run frequently through the day." },
-    { "type": "p", "text": "The 333 is the one I steer people towards: it's the limited-stops express that runs from the CBD through Bondi Junction to the beach, so from the city you can often skip the train and stay on one bus." },
-    { "type": "localTip", "text": "Tap on with a contactless card or your phone — you don't need a physical Opal card anymore, and the daily and Sunday fare caps apply just the same. One tap covers the train, a second the connecting bus. Child concession fares still need a physical card, so keep those handy." },
+    { "type": "p", "text": "Bondi Junction is the eastern terminus of the T4 Eastern Suburbs & Illawarra line, so trains from the CBD and the airport line all funnel through it. Follow the signs upstairs to the bus interchange and jump on a 333, 380 or 381 — each runs frequently down Bondi Road to Campbell Parade, right along the beachfront." },
+    { "type": "p", "text": "The 333 is the one I steer people towards: a limited-stops express that runs from the CBD through Bondi Junction to the beach, so you can often skip the train and stay on one bus." },
+    { "type": "localTip", "text": "Tap on with a contactless card or your phone — you don't need a physical Opal card anymore, and the daily and Sunday fare caps apply just the same. One tap covers the train, a second the connecting bus. Child and concession fares still need a physical card." },
     { "type": "h2", "text": "From Sydney Airport" },
-    { "type": "p", "text": "Bondi is one of the closer beaches to the airport, around 14 km by road. A taxi or rideshare is usually 25 to 40 minutes, though the Eastern Distributor can bunch up in peak hour, so leave a buffer if you've got a flight. On public transport, take the airport train to Bondi Junction — the airport stations charge a separate access fee on top of the normal fare — then a beach bus down. Slower than a car, but cheap." },
+    { "type": "p", "text": "Bondi is one of the closer beaches to the airport, around 14 km by road. A taxi or rideshare is usually 25 to 40 minutes, though the Eastern Distributor can bunch up in peak hour, so leave a buffer if you've got a flight. On public transport, take the airport train to Bondi Junction — the airport stations charge a separate access fee on top of the normal fare — then a beach bus down — slower than a car, but cheap." },
     { "type": "callout", "tone": "note", "title": "Check live times before you commit", "text": "Bus and train frequencies shift by time of day, and roadworks around the Eastern Suburbs come and go. For an exact door-to-door time, plug your start point into the free Transport for NSW Trip Planner — it accounts for the current timetable and any disruptions." },
     { "type": "h2", "text": "From the CBD, Opera House and Circular Quay" },
-    { "type": "p", "text": "This is the easy one. Catch the 333 straight to the beach, or take a T4 train to Bondi Junction and change to a bus — either way you're generally looking at 30 to 50 minutes. The 333 starts near Circular Quay, so after sightseeing around the Opera House you can go from harbour to surf without working out a connection." },
+    { "type": "p", "text": "This is the easy one. Catch the 333 straight to the beach, or take a T4 train to Bondi Junction and change to a bus — either way, generally 30 to 50 minutes. The 333 starts near Circular Quay, so after the Opera House you can go from harbour to surf without working out a connection." },
     { "type": "h2", "text": "From Manly and the Northern Beaches" },
-    { "type": "p", "text": "Manly and Bondi are Sydney's two most famous beaches, on opposite sides of the harbour, so this is the longest of the common trips — comfortably over an hour on public transport. My favourite way is also the most scenic: catch the Manly ferry to Circular Quay, then pick up the 333 out to Bondi, turning a logistical slog into one of the best half-days in the city." },
-    { "type": "p", "text": "By car you cross the Harbour Bridge or the tunnel, and that stretch is genuinely unpredictable — I'd budget 45 to 75 minutes." },
+    { "type": "p", "text": "Manly and Bondi are Sydney's two most famous beaches, on opposite sides of the harbour, so this is the longest common trip — comfortably over an hour on public transport. My favourite way is also the most scenic: catch the Manly ferry to Circular Quay, then pick up the 333 out to Bondi, turning a slog into one of the best half-days in the city." },
+    { "type": "p", "text": "By car you cross the Harbour Bridge or the tunnel — genuinely unpredictable, so I'd budget 45 to 75 minutes." },
     { "type": "h2", "text": "A quick word on driving and parking" },
-    { "type": "p", "text": "You can drive, but I rarely recommend it unless you're staying out this way. Street parking around Campbell Parade is metered, time-limited and fiercely contested, especially on warm weekends and over summer — nine times out of ten the train-and-bus combo is faster and far less stressful than circling for a space." },
+    { "type": "p", "text": "You can drive, but I rarely recommend it unless you're staying out this way. Street parking around Campbell Parade is metered, time-limited and fiercely contested, especially on warm weekends — nine times out of ten the train-and-bus combo is faster and far less stressful than circling for a space." },
     { "type": "faq", "items": [
       { "q": "Is there a train station at Bondi Beach?", "a": "No — the name trips a lot of visitors up. The nearest is Bondi Junction on the T4 line, about 3 km from the sand. From there a 333, 380 or 381 bus runs down to the beachfront." },
       { "q": "How far is Bondi Beach from Sydney city centre?", "a": "About 7 km east of the CBD. The 333 express runs from the city straight to the beach, or take a T4 train to Bondi Junction and change to a bus — usually 30 to 50 minutes." },
@@ -37,6 +37,6 @@
       { "q": "What's the best way to get from Manly to Bondi?", "a": "My pick is the Manly ferry to Circular Quay, then the 333 to Bondi — scenic and simple. Allow well over an hour, since you have to cross the harbour either way." },
       { "q": "Do I need an Opal card?", "a": "Not necessarily. You can tap on with a contactless card or a phone, and the fare caps still apply. A physical Opal card is only essential for child, concession or senior fares." }
     ] },
-    { "type": "p", "text": "Bondi feels like its own world once your toes are in the sand, but it's genuinely well connected — a short bus from a major train station and an easy hop from almost anywhere in Sydney. Sort out the Bondi Junction connection, tap on with a card, and the distance takes care of itself." }
+    { "type": "p", "text": "Bondi feels like its own world once your toes are in the sand, but it's genuinely well connected — a short bus from a major train station, an easy hop from almost anywhere in Sydney. Sort out the Bondi Junction connection, tap on with a card, and the distance takes care of itself." }
   ]
 }
