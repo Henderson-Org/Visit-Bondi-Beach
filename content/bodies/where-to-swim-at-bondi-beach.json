@@ -1,0 +1,36 @@
+{
+  "path": "/where-to-swim-at-bondi-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bondi Icebergs Club — pool hours & closures", "url": "https://www.icebergs.com.au/" },
+    { "label": "Beachsafe (Surf Life Saving) — Bondi Beach conditions", "url": "https://beachsafe.org.au/beach/bondi-beach" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "A day at Bondi isn't complete without getting in the water — and you've really got three choices: the beach itself, the famous Icebergs ocean pool, or the calm little kids' pool at North Bondi. Here's how I'd pick, and how to do it safely." },
+    { "type": "quickFacts", "items": [
+      { "label": "Calmest swim", "value": "North Bondi & the kids' pool" },
+      { "label": "Ocean pool", "value": "Bondi Icebergs" },
+      { "label": "On the beach", "value": "Free · swim between the flags" },
+      { "label": "Water temp", "value": "See today's conditions" }
+    ] },
+    { "type": "h2", "text": "Swimming on the beach" },
+    { "type": "p", "text": "The beach is free and open to everyone, and Bondi is patrolled by professional lifeguards year-round. The single most important rule: always swim between the red-and-yellow flags, where the lifeguards have judged it safest and are watching. The northern end of the beach is usually the more sheltered, calmer spot — my pick for a relaxed dip and for families. The southern end tends to be for stronger swimmers and surfers, and it's where the beach's notorious rip (the \"Backpackers' Express\") runs, so it's not the place to wade in if you're unsure." },
+    { "type": "callout", "tone": "warning", "title": "Read the water first", "text": "Bondi has rips that can pull even confident swimmers out fast. Swim between the flags, never swim alone or after drinking, and if you're caught in a rip stay calm, raise an arm and float — don't fight it. Check Beachsafe for the day's conditions before you go in." },
+    { "type": "h2", "text": "Bondi Icebergs ocean pool" },
+    { "type": "p", "text": "The Icebergs is the postcard — a 50-metre ocean pool cut into the rocks at the southern headland, filled and refreshed by the sea, with a shallower pool beside it for little ones. The public is welcome (it's not members-only), there's a sauna to thaw out in winter, and the Crabbe Hole café is a lovely spot for a coffee afterwards. One thing to know: the pool sits right on the ocean, so it closes for cleaning and when big swells or repairs are needed — check the Icebergs website for current opening hours before you make a special trip." },
+    { "type": "h2", "text": "The kids' pool at North Bondi" },
+    { "type": "p", "text": "If you've got young children, head to the north end. The little sandy-bottomed children's pool there (the Wally Weekes pool) is shallow, calm and sheltered — by far the most relaxed place at Bondi to let small kids splash without the waves." },
+    { "type": "h2", "text": "Rock pools, and swims nearby" },
+    { "type": "p", "text": "At low tide you'll find rock pools along the edges of the beach worth exploring. And if you're up for a short walk, the coastal path south leads to Bronte and its own free ocean baths — one of my favourite swims in the whole city." },
+    { "type": "h2", "text": "A lap swim, rain or shine" },
+    { "type": "p", "text": "If you just want to do laps regardless of the surf or the weather, there's an indoor pool a short distance from the beach — handy on a grey day or when the ocean's too rough." },
+    { "type": "faq", "items": [
+      { "q": "Can the public swim at Bondi Icebergs?", "a": "Yes — Bondi Icebergs is open to the public, not just members. There's a small entry fee, a 50m lap pool and a shallow kids' pool. Check the Icebergs website for current hours, as it closes for cleaning and big swells." },
+      { "q": "Where is the calmest place to swim at Bondi?", "a": "The northern end of the beach and the shallow children's pool at North Bondi are the calmest, most sheltered spots — ideal for families and less confident swimmers." },
+      { "q": "Where should I swim if I have young kids?", "a": "The kids' pool at North Bondi (the Wally Weekes pool) is shallow and calm. On the beach, stay at the north end and always between the flags." },
+      { "q": "Is it safe to swim at Bondi Beach?", "a": "Bondi is patrolled by lifeguards daily, but the ocean always carries risk. Swim between the red-and-yellow flags, check conditions on Beachsafe, don't swim alone, and never underestimate the rips — especially at the southern end." }
+    ] },
+    { "type": "p", "text": "However you like your swim — a bracing lap in the Icebergs, a gentle float at the north end, or riding the shore break — Bondi has a spot for it. Just read the water, swim between the flags, and you'll have the swim of the trip." }
+  ]
+}

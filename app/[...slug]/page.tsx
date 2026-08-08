@@ -99,6 +99,7 @@ function CorePageHubView({ page }: { page: Page }) {
   const coreHub = getCorePageHub(page.path)!;
   const crumbs = breadcrumbs(page);
   const title = displayTitle(page);
+  const faqs = faqItems(page);
   const cards = coreHub.explore.links.map((l) => {
     const target = getPage(l.path);
     return { title: l.title, href: l.path, image: target?.heroImage || null, excerpt: excerptFor(target) };
@@ -109,6 +110,12 @@ function CorePageHubView({ page }: { page: Page }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(crumbs)) }}
       />
+      {faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd(faqs)) }}
+        />
+      )}
       <EditorialHero
         image={coreHub.heroImage}
         kicker={coreHub.kicker}
@@ -119,6 +126,33 @@ function CorePageHubView({ page }: { page: Page }) {
       {page.blocks && page.blocks.length > 0 && (
         <div className="mx-auto max-w-3xl px-4 pt-10">
           <BodyBlocks blocks={page.blocks} />
+          {page.authoredBody && (page.lastReviewed || (page.sources && page.sources.length > 0)) && (
+            <footer className="mt-8 border-t border-sand-200 pt-4 text-sm text-ink-500">
+              {page.lastReviewed && (
+                <p>
+                  Last reviewed{' '}
+                  <time dateTime={page.lastReviewed}>
+                    {new Date(page.lastReviewed).toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' })}
+                  </time>
+                  .
+                </p>
+              )}
+              {page.sources && page.sources.length > 0 && (
+                <div className="mt-2">
+                  <p className="font-medium text-ink-700">Sources</p>
+                  <ul className="mt-1 list-disc pl-5">
+                    {page.sources.map((s) => (
+                      <li key={s.url}>
+                        <a href={s.url} className="text-ocean-700 underline" rel="nofollow noopener" target="_blank">
+                          {s.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </footer>
+          )}
         </div>
       )}
       <div className="mx-auto max-w-5xl px-4 py-12">
