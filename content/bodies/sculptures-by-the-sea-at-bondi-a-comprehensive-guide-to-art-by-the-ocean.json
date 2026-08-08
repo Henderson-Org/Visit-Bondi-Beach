@@ -1,0 +1,45 @@
+{
+  "path": "/bondi-blog/2023/9/21/sculptures-by-the-sea-at-bondi-a-comprehensive-guide-to-art-by-the-ocean",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Sculpture by the Sea — official site", "url": "https://sculpturebythesea.com/bondi/" },
+    { "label": "Sculpture by the Sea — history", "url": "https://sculpturebythesea.com/about/history/" },
+    { "label": "NSW Government — Sculpture by the Sea event listing", "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/nsw-events/sculpture-by-sea" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Every spring my favourite stretch of coastline turns into the world's most beautiful open-air gallery: Sculpture by the Sea transforms the Bondi to Tamarama coastal walk into a free, two-kilometre exhibition of more than 100 works, and in 2026 it runs from 16 October to 2 November. If you do one cultural thing in Sydney this October, walk this — I've done it most years and it still stops me in my tracks." },
+    { "type": "quickFacts", "items": [
+      { "label": "What", "value": "Free outdoor sculpture exhibition" },
+      { "label": "Where", "value": "Bondi to Tamarama coastal walk (2 km)" },
+      { "label": "2026 dates", "value": "16 October – 2 November" },
+      { "label": "Works on show", "value": "100+ sculptures" },
+      { "label": "Cost", "value": "Free (donations welcomed)" }
+    ] },
+    { "type": "p", "text": "It began back in 1997, when founder David Handley staged the very first exhibition here — 64 sculptures, open for a single day, that drew around 25,000 people. Nearly three decades on it's one of the largest free public art events in the world, and the 2026 edition marks a milestone anniversary. The idea has never changed: put ambitious art from Australian and international artists against the Tasman Sea and let the ocean do half the work." },
+    { "type": "h2", "text": "How to get there" },
+    { "type": "p", "text": "The exhibition threads along the clifftop between Bondi Beach and Tamarama, and you can start from either end. Most people begin at Bondi: take a train to Bondi Junction, then the 333 or 380 bus down to the beach, and pick up the walk at the southern headland by the Icebergs pool. If you'd rather beat the crowd, start at the Tamarama end and walk against the flow — Tamarama is quieter, more residential, and the on-street parking around it fills fast, so public transport is genuinely the smarter call during the festival." },
+    { "type": "localTip", "text": "Come at sunrise. The path is emptiest in the first hour after dawn, the light is soft and gold for photos, and you'll have the big headline sculptures almost to yourself before the tour groups arrive. Weekday mornings beat weekends by a mile." },
+    { "type": "h2", "text": "What to expect on the walk" },
+    { "type": "p", "text": "The full loop is about two kilometres one way, but give yourself far longer than a normal coastal stroll — you'll stop constantly. The path is sealed but narrow in places, with plenty of steps and a few steep pinches, so wear proper shoes rather than thongs. Works are dotted across the sand, perched on the cliffs, tucked into Marks Park up on the headland and sometimes half-submerged at the water's edge. Part of the joy is that the setting changes each piece as the light and tide move." },
+    { "type": "p", "text": "A few things worth knowing before you set off:" },
+    { "type": "list", "items": [
+      "It's an active clifftop — stay behind barriers and keep kids and dogs close near the edges.",
+      "Toilets are at Bondi and Tamarama beaches, but there's little in between, so go before you start.",
+      "There's plenty of food and coffee at the Bondi end; Tamarama has far fewer options, so pack water and a snack.",
+      "Most sculptures are for sale, and many artists are exhibiting works you genuinely can't see anywhere else."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "Check the current dates and any ticketed extras", "text": "Exhibition dates, opening hours, and paid add-ons like early-access or twilight tours change year to year and can shift with the weather. Before you plan your day, confirm the details on the official Sculpture by the Sea website rather than relying on last year's schedule." },
+    { "type": "h2", "text": "Making the most of your visit" },
+    { "type": "p", "text": "If you can, go on a clear, calm day — this is a coastal walk with real exposure, and it's very different in driving wind or rain. Bring a hat, sunscreen and water even in October; the Sydney sun is stronger than it looks. I like to walk the sculptures slowly one way, grab a coffee or a swim at the far end, then wander back as the crowd thins. The artist labels are worth reading for the story behind each piece." },
+    { "type": "quote", "text": "The best sculpture here is never just the object — it's the object, the cliff and the sea, all at once." },
+    { "type": "faq", "items": [
+      { "q": "When is Sculpture by the Sea Bondi 2026?", "a": "The 2026 exhibition runs from 16 October to 2 November along the Bondi to Tamarama coastal walk. Always double-check the exact dates and any weather-related changes on the official Sculpture by the Sea website before you go." },
+      { "q": "Is Sculpture by the Sea free?", "a": "Yes — walking the exhibition is free and open to the public. Donations are warmly welcomed to help fund the event, and there are sometimes optional paid extras such as guided or early-access tours, which you can book through the official site." },
+      { "q": "How long is the walk and how long does it take?", "a": "The exhibition follows the roughly two-kilometre coastal path between Bondi and Tamarama. As a plain walk it's 30–40 minutes, but with more than 100 sculptures to stop and admire, most people spend two to three hours end to end." },
+      { "q": "When is the best time to avoid the crowds?", "a": "Early on a weekday morning is by far the quietest. Weekends, public holidays and the middle of the day get very busy and the narrow sections can bottleneck, so start at sunrise or late afternoon if you want space to breathe." },
+      { "q": "Is the walk suitable for kids and prams?", "a": "Families do it every year and children love the scale of the works, but steps and steep, narrow sections make prams hard going — a carrier is easier for little ones. Keep everyone close to the barriers near the cliff edges." }
+    ] },
+    { "type": "p", "text": "Grab your hat, your camera and a sense of curiosity, and give yourself a whole morning. Of all the things I recommend to visitors, a slow walk through Sculpture by the Sea is the one people come back and thank me for — art, ocean and my favourite coastline in one unforgettable stroll." }
+  ]
+}

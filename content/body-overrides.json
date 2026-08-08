@@ -159,6 +159,273 @@
     "lastReviewed": "2026-08-08",
     "voice": "first-person"
   },
+  "/bondi-blog/2023/11/7/the-safest-place-to-swim-at-bondi-beach": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "The safest place to swim at Bondi Beach is between the red-and-yellow flags, and — nine days out of ten — that means heading up to the calmer northern end of the beach. The flags aren't decoration: the lifeguards plant them each morning over the patch of water they've judged safest that day, and they move them as the surf shifts. If you take one thing from me, take that. Swim between the flags and you're swimming where trained eyes are watching."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Safest swim",
+            "value": "Between the red-and-yellow flags"
+          },
+          {
+            "label": "Calmest end",
+            "value": "North Bondi"
+          },
+          {
+            "label": "Best for young kids",
+            "value": "The North Bondi children's pool"
+          },
+          {
+            "label": "Avoid if unsure",
+            "value": "The southern end near the rocks"
+          },
+          {
+            "label": "Patrol",
+            "value": "Lifeguards on duty year-round"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Why the flags matter more than the spot"
+      },
+      {
+        "type": "p",
+        "text": "People often ask me to point at a fixed \"safe corner\" of Bondi, but the honest answer is that the safe zone moves. The ocean here changes hour to hour: a gentle shore break at breakfast can turn into churning white water and rip by lunchtime. That's why Bondi is patrolled by professional lifeguards, and why the flags are re-set through the day. The safest place isn't a GPS pin — it's wherever those flags are standing right now."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Bondi's rips are the real danger",
+        "text": "Most rescues here are people caught in rip currents — fast, narrow rivers of water pulling straight out to sea. Bondi's most notorious is the 'Backpackers' Express', which usually forms toward the southern end near the rocks and has caught out countless visitors. If you're ever in one, don't fight it: stay calm, keep floating, raise an arm for the lifeguards, then swim across it parallel to the beach back toward the flags."
+      },
+      {
+        "type": "h2",
+        "text": "North end vs south end"
+      },
+      {
+        "type": "p",
+        "text": "As a rule I send families and less-confident swimmers to the northern end, up toward North Bondi. It's the more sheltered stretch, the water tends to be shallower and gentler, and it's usually where the flags go for general swimming. The southern end — down by the rocks and the Icebergs headland — is where the surf is punchier and where rips like to set up along the edge of the rocks. That end draws the surfers and strong swimmers, and it's not where I'd wade in if I wasn't sure of myself."
+      },
+      {
+        "type": "localTip",
+        "text": "Before you get changed, walk down to the flags and just watch the water for two minutes. Look for a darker, flatter, choppy-looking channel cutting out through the breaking waves with fewer waves in it — that calm-looking gap is often a rip, not a safe lane. When in doubt, ask a lifeguard; they'd far rather point you to the right spot than pull you out of the wrong one."
+      },
+      {
+        "type": "h2",
+        "text": "The safest swim of all: the North Bondi children's pool"
+      },
+      {
+        "type": "p",
+        "text": "If you've got little ones, skip the open surf entirely and head to the far northern end, where there's a small, shallow, sandy-bottomed children's pool (locals know it as the Wally Weekes pool). It's sheltered from the waves, it's gentle, and it's by a distance the most relaxed place at Bondi to let small kids splash about. It's my first recommendation for anyone travelling with toddlers."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Supervision still comes first",
+        "text": "Even in the calmest, shallowest water, young children need an adult within arm's reach the whole time. Drowning is silent and fast — it can happen in the blink of an eye and in surprisingly little water. Stay off your phone, stay close, and take turns watching if you're in a group."
+      },
+      {
+        "type": "h2",
+        "text": "A few habits that keep you safe"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Always swim between the red-and-yellow flags, and follow whatever the lifeguards tell you.",
+          "Never swim alone, at night, or after drinking alcohol.",
+          "Check the day's conditions on Beachsafe before you go in — surf, wind and hazard warnings change constantly.",
+          "If you're not a strong ocean swimmer, stay where you can comfortably touch the bottom.",
+          "If you get into trouble, don't wave and thrash — float, stay calm, and raise one arm to signal for help."
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Where exactly is the safest place to swim at Bondi?",
+            "a": "Between the red-and-yellow flags, which the lifeguards set up over the safest water each day. That's usually toward the calmer northern end of the beach. For young children, the small sheltered children's pool at the far north end is safer still."
+          },
+          {
+            "q": "Is the north or south end of Bondi safer for swimming?",
+            "a": "The northern end is generally the more sheltered, calmer stretch and is where I'd send families and casual swimmers. The southern end, near the rocks and the Icebergs headland, has stronger surf and is where rips commonly form, so it suits surfers and confident swimmers."
+          },
+          {
+            "q": "What is the 'Backpackers' Express' at Bondi?",
+            "a": "It's the nickname for Bondi's most infamous rip current, which typically forms toward the southern end of the beach. It has caught out many visitors over the years. Swimming between the flags keeps you clear of it and in view of the lifeguards."
+          },
+          {
+            "q": "What should I do if I'm caught in a rip current?",
+            "a": "Don't fight it. Stay calm, keep floating and raise one arm to signal the lifeguards. Let the rip carry you until it weakens, then swim across it — parallel to the shore — back toward the flags."
+          },
+          {
+            "q": "Is Bondi Beach patrolled by lifeguards all year?",
+            "a": "Yes — Bondi is patrolled by professional lifeguards year-round, with longer hours over the warmer months. Times vary by season, so check current hours before an early or late swim and always stay between the flags."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Bondi is one of the great swims on earth, but it's a serious ocean beach too. Read the water, swim between the flags at the calmer north end, keep the kids in the shallow children's pool, and never take your eyes off the little ones — do that, and you'll get the postcard swim without the scare."
+      }
+    ],
+    "wordCount": 958,
+    "sources": [
+      {
+        "label": "Beachsafe (Surf Life Saving Australia) — Bondi Beach conditions",
+        "url": "https://beachsafe.org.au/beach/bondi-beach"
+      },
+      {
+        "label": "Bondi Lifeguards — Surf safety",
+        "url": "https://www.bondilifeguards.com/surf-safety"
+      },
+      {
+        "label": "Waverley Council — beaches & coast",
+        "url": "https://www.waverley.nsw.gov.au/"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
+  "/bondi-blog/2023/9/21/sculptures-by-the-sea-at-bondi-a-comprehensive-guide-to-art-by-the-ocean": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Every spring my favourite stretch of coastline turns into the world's most beautiful open-air gallery: Sculpture by the Sea transforms the Bondi to Tamarama coastal walk into a free, two-kilometre exhibition of more than 100 works, and in 2026 it runs from 16 October to 2 November. If you do one cultural thing in Sydney this October, walk this — I've done it most years and it still stops me in my tracks."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "What",
+            "value": "Free outdoor sculpture exhibition"
+          },
+          {
+            "label": "Where",
+            "value": "Bondi to Tamarama coastal walk (2 km)"
+          },
+          {
+            "label": "2026 dates",
+            "value": "16 October – 2 November"
+          },
+          {
+            "label": "Works on show",
+            "value": "100+ sculptures"
+          },
+          {
+            "label": "Cost",
+            "value": "Free (donations welcomed)"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "It began back in 1997, when founder David Handley staged the very first exhibition here — 64 sculptures, open for a single day, that drew around 25,000 people. Nearly three decades on it's one of the largest free public art events in the world, and the 2026 edition marks a milestone anniversary. The idea has never changed: put ambitious art from Australian and international artists against the Tasman Sea and let the ocean do half the work."
+      },
+      {
+        "type": "h2",
+        "text": "How to get there"
+      },
+      {
+        "type": "p",
+        "text": "The exhibition threads along the clifftop between Bondi Beach and Tamarama, and you can start from either end. Most people begin at Bondi: take a train to Bondi Junction, then the 333 or 380 bus down to the beach, and pick up the walk at the southern headland by the Icebergs pool. If you'd rather beat the crowd, start at the Tamarama end and walk against the flow — Tamarama is quieter, more residential, and the on-street parking around it fills fast, so public transport is genuinely the smarter call during the festival."
+      },
+      {
+        "type": "localTip",
+        "text": "Come at sunrise. The path is emptiest in the first hour after dawn, the light is soft and gold for photos, and you'll have the big headline sculptures almost to yourself before the tour groups arrive. Weekday mornings beat weekends by a mile."
+      },
+      {
+        "type": "h2",
+        "text": "What to expect on the walk"
+      },
+      {
+        "type": "p",
+        "text": "The full loop is about two kilometres one way, but give yourself far longer than a normal coastal stroll — you'll stop constantly. The path is sealed but narrow in places, with plenty of steps and a few steep pinches, so wear proper shoes rather than thongs. Works are dotted across the sand, perched on the cliffs, tucked into Marks Park up on the headland and sometimes half-submerged at the water's edge. Part of the joy is that the setting changes each piece as the light and tide move."
+      },
+      {
+        "type": "p",
+        "text": "A few things worth knowing before you set off:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "It's an active clifftop — stay behind barriers and keep kids and dogs close near the edges.",
+          "Toilets are at Bondi and Tamarama beaches, but there's little in between, so go before you start.",
+          "There's plenty of food and coffee at the Bondi end; Tamarama has far fewer options, so pack water and a snack.",
+          "Most sculptures are for sale, and many artists are exhibiting works you genuinely can't see anywhere else."
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Check the current dates and any ticketed extras",
+        "text": "Exhibition dates, opening hours, and paid add-ons like early-access or twilight tours change year to year and can shift with the weather. Before you plan your day, confirm the details on the official Sculpture by the Sea website rather than relying on last year's schedule."
+      },
+      {
+        "type": "h2",
+        "text": "Making the most of your visit"
+      },
+      {
+        "type": "p",
+        "text": "If you can, go on a clear, calm day — this is a coastal walk with real exposure, and it's very different in driving wind or rain. Bring a hat, sunscreen and water even in October; the Sydney sun is stronger than it looks. I like to walk the sculptures slowly one way, grab a coffee or a swim at the far end, then wander back as the crowd thins. The artist labels are worth reading for the story behind each piece."
+      },
+      {
+        "type": "quote",
+        "text": "The best sculpture here is never just the object — it's the object, the cliff and the sea, all at once."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "When is Sculpture by the Sea Bondi 2026?",
+            "a": "The 2026 exhibition runs from 16 October to 2 November along the Bondi to Tamarama coastal walk. Always double-check the exact dates and any weather-related changes on the official Sculpture by the Sea website before you go."
+          },
+          {
+            "q": "Is Sculpture by the Sea free?",
+            "a": "Yes — walking the exhibition is free and open to the public. Donations are warmly welcomed to help fund the event, and there are sometimes optional paid extras such as guided or early-access tours, which you can book through the official site."
+          },
+          {
+            "q": "How long is the walk and how long does it take?",
+            "a": "The exhibition follows the roughly two-kilometre coastal path between Bondi and Tamarama. As a plain walk it's 30–40 minutes, but with more than 100 sculptures to stop and admire, most people spend two to three hours end to end."
+          },
+          {
+            "q": "When is the best time to avoid the crowds?",
+            "a": "Early on a weekday morning is by far the quietest. Weekends, public holidays and the middle of the day get very busy and the narrow sections can bottleneck, so start at sunrise or late afternoon if you want space to breathe."
+          },
+          {
+            "q": "Is the walk suitable for kids and prams?",
+            "a": "Families do it every year and children love the scale of the works, but steps and steep, narrow sections make prams hard going — a carrier is easier for little ones. Keep everyone close to the barriers near the cliff edges."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Grab your hat, your camera and a sense of curiosity, and give yourself a whole morning. Of all the things I recommend to visitors, a slow walk through Sculpture by the Sea is the one people come back and thank me for — art, ocean and my favourite coastline in one unforgettable stroll."
+      }
+    ],
+    "wordCount": 944,
+    "sources": [
+      {
+        "label": "Sculpture by the Sea — official site",
+        "url": "https://sculpturebythesea.com/bondi/"
+      },
+      {
+        "label": "Sculpture by the Sea — history",
+        "url": "https://sculpturebythesea.com/about/history/"
+      },
+      {
+        "label": "NSW Government — Sculpture by the Sea event listing",
+        "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/nsw-events/sculpture-by-sea"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
   "/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue": {
     "blocks": [
       {
@@ -623,6 +890,302 @@
     "lastReviewed": "2026-08-08",
     "voice": "first-person"
   },
+  "/bondi-blog/2025/1/2/how-far-is-bondi-beach-from-key-sydney-locations": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "The short answer: Bondi Beach sits about 7 km east of the Sydney CBD and roughly 14 km from Sydney Airport, and from either one you're realistically 30 to 60 minutes away depending on how you travel and what the traffic's doing. I've made every one of these trips more times than I can count, so here's my honest, local take on how far Bondi really is from the places you're most likely to be starting from — and the smartest way to close the gap."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "From Sydney CBD",
+            "value": "~7 km east"
+          },
+          {
+            "label": "From Sydney Airport",
+            "value": "~14 km"
+          },
+          {
+            "label": "Nearest train station",
+            "value": "Bondi Junction (then a bus)"
+          },
+          {
+            "label": "Beach buses",
+            "value": "333, 380, 381, 382"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The single most important thing to know before you plan anything: there is no train station at Bondi Beach itself. The name catches a lot of visitors out. The closest station is Bondi Junction, about 3 km up the hill, and from there you hop on a bus down to the sand. Once that clicks, the whole city opens up."
+      },
+      {
+        "type": "h2",
+        "text": "The Bondi Junction hop (how nearly everyone arrives)"
+      },
+      {
+        "type": "p",
+        "text": "Bondi Junction is the eastern terminus of the T4 Eastern Suburbs & Illawarra line, so trains from the CBD, the airport line and the southern and inner-west suburbs all funnel through it. When you step off the train, follow the signs to the bus interchange upstairs and jump on a 333, 380, 381 or 382 — every one of them rolls down Bondi Road to Campbell Parade, right along the beachfront. It's a short ride, and buses run frequently through the day."
+      },
+      {
+        "type": "p",
+        "text": "The 333 is the one I steer people towards: it's the limited-stops express that runs all the way from the CBD (Circular Quay, Wynyard, Town Hall) through Bondi Junction to the beach, so if you're coming from the city centre you can often skip the train entirely and stay on one bus."
+      },
+      {
+        "type": "localTip",
+        "text": "Tap on with a contactless credit/debit card or your phone — you don't need a physical Opal card anymore, and the daily fare cap and Sunday cap apply just the same. One tap covers the train, and a second tap covers the connecting bus. Keep the kids' Opal cards handy though, as child concession fares still need a card."
+      },
+      {
+        "type": "h2",
+        "text": "From Sydney Airport"
+      },
+      {
+        "type": "p",
+        "text": "Bondi is one of the closer beaches to the airport — around 14 km by road. In a taxi or rideshare it's usually a 25 to 40 minute drive, though the Eastern Distributor and General Holmes Drive can bunch up badly in peak hour, so leave yourself a buffer if you've got a flight. On public transport, the reliable route is the airport train to Central or straight through to Bondi Junction (note the airport stations charge a separate station access fee on top of the normal fare), then a beach bus down. It takes longer than a car but it's cheap and it never gets stuck in traffic."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Check live times before you commit",
+        "text": "Bus and train frequencies shift by time of day, and roadworks around the Eastern Suburbs come and go. For an exact door-to-door time for your specific trip, plug your start point into the free Transport for NSW Trip Planner — it accounts for the current timetable and any disruptions."
+      },
+      {
+        "type": "h2",
+        "text": "From the CBD, Opera House and Circular Quay"
+      },
+      {
+        "type": "p",
+        "text": "This is the easy one. From the heart of the city you've got two good options: catch the 333 straight from the CBD to the beach, or take a T4 train to Bondi Junction and change to a bus. Either way you're generally looking at somewhere in the 30 to 50 minute range. If you've been sightseeing around the Opera House and Circular Quay, the 333 conveniently starts near there, so you can go from harbour to surf without ever needing to work out a connection."
+      },
+      {
+        "type": "h2",
+        "text": "From Manly and the Northern Beaches"
+      },
+      {
+        "type": "p",
+        "text": "Manly and Bondi are Sydney's two most famous beaches and they sit on opposite sides of the harbour, so this is the longest of the common trips — comfortably over an hour on public transport. My favourite way to do it is also the most scenic: catch the Manly ferry across to Circular Quay (a gorgeous ride in its own right), then pick up the 333 out to Bondi. You turn a logistical slog into one of the best half-days in the city."
+      },
+      {
+        "type": "p",
+        "text": "By car the two beaches are only around 20 km apart as the crow flies, but you have to cross the Harbour Bridge or the tunnel to get between them, and that stretch is genuinely unpredictable. I'd budget 45 to 75 minutes and not be surprised by either end of that."
+      },
+      {
+        "type": "h2",
+        "text": "A quick word on driving and parking"
+      },
+      {
+        "type": "p",
+        "text": "You can absolutely drive to Bondi, but I rarely recommend it unless you're staying out this way or heading somewhere public transport doesn't reach. Street parking around Campbell Parade is metered, time-limited and fiercely contested, especially on warm weekends and over summer. Nine times out of ten, taking the train to Bondi Junction and busing down is faster and far less stressful than circling for a space."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Is there a train station at Bondi Beach?",
+            "a": "No — this trips a lot of visitors up. The nearest station is Bondi Junction on the T4 line, about 3 km from the sand. From there you take a 333, 380, 381 or 382 bus down to the beachfront."
+          },
+          {
+            "q": "How far is Bondi Beach from Sydney city centre?",
+            "a": "About 7 km east of the CBD. The 333 express bus runs from the city straight to the beach, or you can take a T4 train to Bondi Junction and change to a bus — usually somewhere in the 30 to 50 minute range."
+          },
+          {
+            "q": "How do I get from Sydney Airport to Bondi Beach?",
+            "a": "It's roughly 14 km. A taxi or rideshare is the quickest at around 25 to 40 minutes depending on traffic. By public transport, take the airport train to Bondi Junction (a station access fee applies at the airport) and connect to a beach bus."
+          },
+          {
+            "q": "What's the best way to get from Manly to Bondi?",
+            "a": "My pick is the Manly ferry to Circular Quay followed by the 333 bus to Bondi — scenic and simple. Allow well over an hour either by ferry-and-bus or by car, since you have to cross the harbour."
+          },
+          {
+            "q": "Do I need an Opal card?",
+            "a": "Not necessarily. You can tap on with a contactless credit or debit card or a phone/watch, and the fare caps still apply. A physical Opal card is only essential for child, concession or senior fares."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "So while Bondi feels like its own little world once you're there with your toes in the sand, it's genuinely well connected — a short bus from a major train station and an easy hop from almost anywhere in Sydney. Sort out the Bondi Junction connection in your head, tap on with a card, and the distance takes care of itself."
+      }
+    ],
+    "wordCount": 1141,
+    "sources": [
+      {
+        "label": "Transport for NSW — Trip Planner",
+        "url": "https://transportnsw.info/trip"
+      },
+      {
+        "label": "Transport for NSW — Opal fares & travel",
+        "url": "https://transportnsw.info/tickets-opal"
+      },
+      {
+        "label": "Waverley Council — Bondi Beach",
+        "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beaches/bondi_beach"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
+  "/bondi-blog/2025/1/5/catch-the-waves-live-bondi-beach-surf-cam": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "If you just want to see what Bondi is doing right now, the quickest way is a live surf cam — and my go-to is the Swellnet Bondi camera, which streams the beach in real time along with the current swell and wind. I check it most mornings before I decide whether to bring the board, the towel, or just my coffee. Below I'll walk you through the cams I actually trust, what they can (and can't) tell you, and how to read the picture before you head down."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Best live cam",
+            "value": "Swellnet Bondi surfcam"
+          },
+          {
+            "label": "Also good",
+            "value": "Surfline, Bondi & North Bondi SLSC"
+          },
+          {
+            "label": "Cost",
+            "value": "Free to view (some replays/HD need a subscription)"
+          },
+          {
+            "label": "Best for",
+            "value": "Surfers, swimmers, crowd-checkers"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The Bondi surf cams I actually use"
+      },
+      {
+        "type": "p",
+        "text": "There's no single \"official\" Bondi cam — a few different feeds point at the beach, and each has its own angle and quirks. These are the ones I keep bookmarked:"
+      },
+      {
+        "type": "li",
+        "text": "Swellnet — my first check. A live HD stream looking across the beach, paired with the current surf report, swell and wind readings. It's the one I'd send a visiting mate."
+      },
+      {
+        "type": "li",
+        "text": "Surfline — another solid live cam bundled with a multi-day forecast for swell, wind and tide. Handy if you're planning a few days ahead."
+      },
+      {
+        "type": "li",
+        "text": "Bondi Surf Bathers' Life Saving Club — a stream from the club at the south end, near the Icebergs corner where the surfers gather."
+      },
+      {
+        "type": "li",
+        "text": "North Bondi Surf Life Saving Club — a free community feed looking over the quieter northern end, which is usually the gentler side for a swim."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Streams move around",
+        "text": "Cam operators occasionally change hosting, go offline for maintenance, or move a feed behind a subscription. If a link's down, open the club or Swellnet/Surfline homepage and follow their current cam link rather than trusting an old bookmark."
+      },
+      {
+        "type": "h2",
+        "text": "How to read Bondi before you leave home"
+      },
+      {
+        "type": "p",
+        "text": "A surf cam is brilliant for a gut-check, but it flattens the ocean — waves always look smaller on a screen than they feel when you're standing in the shorebreak. Here's how I get more out of the picture:"
+      },
+      {
+        "type": "h3",
+        "text": "For surfers"
+      },
+      {
+        "type": "p",
+        "text": "I watch a few sets roll through rather than judging on a single frame, then cross-check the cam against the swell and wind figures on Swellnet or Surfline. Bondi is exposed to south and east swells, and a light offshore (westerly) wind is what cleans it up. The southern end near the point tends to hold the better banks, but it's also where it gets crowded and competitive."
+      },
+      {
+        "type": "h3",
+        "text": "For swimmers and families"
+      },
+      {
+        "type": "p",
+        "text": "Look for the red-and-yellow flags on the cam — that's the patrolled zone, and it's the only place you should swim. If the water looks churned up or you can spot a darker, calmer channel cutting out through the whitewater, that's often a rip. Patrol hours and current flag positions change with the season, so I confirm them on Surf Life Saving NSW's Beachsafe page rather than eyeballing the screen."
+      },
+      {
+        "type": "localTip",
+        "text": "Cam glare is real. Around sunrise the low sun blows out the eastern-facing feeds, and after dark most of them are useless. Mid-morning gives the clearest read of both the surf and how busy the sand already is."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "A cam is not a lifeguard",
+        "text": "Never let a calm-looking screen talk you into swimming outside the flags or when the beach isn't patrolled. Conditions at Bondi can change fast, and rips aren't always visible on camera. When in doubt, ask a lifeguard on the sand."
+      },
+      {
+        "type": "h2",
+        "text": "Pair the cam with a forecast"
+      },
+      {
+        "type": "p",
+        "text": "The cam tells you now; a forecast tells you later. Before a dawn patrol I'll glance at the swell and wind outlook on Swellnet or Surfline, and check the Bureau of Meteorology for Sydney weather, wind and tide times. Tide matters more than people expect at Bondi — the same swell can look playful at one stage of the tide and closed-out at another."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Where can I watch a live Bondi Beach surf cam?",
+            "a": "The most reliable free live feeds are the Swellnet and Surfline Bondi cams, plus community streams from the Bondi Surf Bathers' Life Saving Club and North Bondi Surf Life Saving Club. Each looks at a slightly different part of the beach."
+          },
+          {
+            "q": "Is the Bondi surf cam free to watch?",
+            "a": "Viewing the live streams is generally free. Some platforms put HD, replays or detailed long-range forecasts behind a paid subscription, but you don't need to pay just to check current conditions."
+          },
+          {
+            "q": "Does the surf cam show how crowded the beach is?",
+            "a": "Yes — that's one of the best uses. A quick look tells you roughly how packed the sand and the car parks are, which is gold on a hot summer weekend or a public holiday."
+          },
+          {
+            "q": "Can I rely on the cam to decide it's safe to swim?",
+            "a": "No. Use it as a first look, but always swim between the red-and-yellow flags during patrol hours, and check current patrol times and safety alerts on Surf Life Saving NSW's Beachsafe page. A camera can't spot every rip."
+          },
+          {
+            "q": "What's the best time of day to check the cam?",
+            "a": "Mid-morning gives the clearest image. Early sunrise light can wash out the eastern-facing cameras, and after dark most Bondi feeds are too dim to read."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "So bookmark a cam or two, learn to read the sets, and back it up with a forecast — then you'll know whether today's a board day, a swim day, or a stay-in-bed day before you've even left the house. See you in the water."
+      }
+    ],
+    "wordCount": 902,
+    "sources": [
+      {
+        "label": "Swellnet — Bondi live surfcam",
+        "url": "https://www.swellnet.com/surfcams/bondi"
+      },
+      {
+        "label": "Surfline — Bondi Beach surf report & cams",
+        "url": "https://www.surfline.com/surf-report/bondi-beach/5842041f4e65fad6a7708bf8"
+      },
+      {
+        "label": "Bondi Surf Bathers' Life Saving Club — Bondi Surf Cam",
+        "url": "https://bondisurfclub.com/bondi-surf-cam/"
+      },
+      {
+        "label": "North Bondi Surf Life Saving Club — Webcams",
+        "url": "https://northbondisurfclub.com/webcam/"
+      },
+      {
+        "label": "Bureau of Meteorology — Sydney forecast & tides",
+        "url": "http://www.bom.gov.au/nsw/forecasts/sydney.shtml"
+      },
+      {
+        "label": "Surf Life Saving NSW — Beachsafe (Bondi)",
+        "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi/bondi-beach"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
   "/bondi-blog/2025/10/13/are-there-snakes-in-bondi": {
     "blocks": [
       {
@@ -889,6 +1452,283 @@
       {
         "label": "North Bondi Fish",
         "url": "https://northbondifish.com.au/"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
+  "/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "The short version, if you're in a hurry: on a busy Bondi day, park for free in the residential streets north and west of Blair Street and walk down, or take the Queen Elizabeth Drive station if you want to be right behind the sand. But the real trick isn't where you park — it's when you arrive. Get here before 9am or after about 4pm and the whole thing gets easy. I've circled these blocks more times than I'd like to admit, so here's exactly how I do it now."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Free option",
+            "value": "Streets north/west of Blair St"
+          },
+          {
+            "label": "Closest paid",
+            "value": "Queen Elizabeth Dr station"
+          },
+          {
+            "label": "Golden hour",
+            "value": "Before 9am or after 4pm"
+          },
+          {
+            "label": "Backup plan",
+            "value": "Park at Bondi Junction, bus down"
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Read every sign before you walk off",
+        "text": "Inspectors patrol Bondi hard, especially on weekends, and the fines add up fast. Blocking a driveway is one of the most expensive mistakes you can make. Time limits, permit-only zones and no-stopping lines change street by street, so read the closest sign — not the one you saw a block ago — before you leave the car."
+      },
+      {
+        "type": "h2",
+        "text": "The free parking that actually exists"
+      },
+      {
+        "type": "p",
+        "text": "Bondi does have genuinely free, unrestricted parking — you just have to walk a bit for it. My go-to is the residential grid north and west of Blair Street, away from the beach. It's free 24 hours in the unrestricted sections and usually a 6–10 minute walk down to the sand. On weekdays it stays open until the late afternoon when residents come home; on sunny weekends it fills from mid-morning, which is exactly why arriving early matters so much."
+      },
+      {
+        "type": "p",
+        "text": "Two honest caveats. First, the streets closest to the beach slip into resident-permit and timed zones without much warning — Waverley runs Resident Parking Schemes across Bondi Beach, so a free-looking bay can be permit-only. Read the sign. Second, 'free' shrinks the closer you get to the water, so accept the walk and you'll find far more room."
+      },
+      {
+        "type": "localTip",
+        "text": "South Bondi is my secret. Everyone aims for the middle of the beach, so the blocks around Edward and Francis Streets often have space when the north end is chaos. It's a slightly longer stroll along the promenade, but I'd rather walk five extra minutes than do another lap."
+      },
+      {
+        "type": "h2",
+        "text": "Paid parking, closest to furthest"
+      },
+      {
+        "type": "p",
+        "text": "When I don't want the walk — beach gear, kids, a cold day — I pay. Rough order of closeness to the sand:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Queen Elizabeth Drive station — Waverley Council's own car park running right behind the beach (around 500 bays). The closest and most convenient, and the first to fill on a nice day.",
+          "Pacific Bondi car park — opposite the Pavilion, a two-minute walk to the sand. Booking online ahead of time is usually cheaper than driving up and paying the gate rate.",
+          "Wilson Parking at The Hub (Hall Street) — undercover and often overlooked; handy when the beachfront lots are full, especially for a shorter stay.",
+          "On-street meters along Campbell Parade and the beachfront — the most convenient and the priciest per hour, and time-limited so they suit a quick visit, not a full beach day."
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "What will it cost?",
+        "text": "Waverley Council sets the meter rates and they run higher for beach-adjacent bays in the summer season than for the streets further back. Council reviews these fees regularly, so rather than trust a fixed figure — including any you read here — check the current meter rates on Waverley Council's parking page before you go, and factor in a daily cap at the paid stations."
+      },
+      {
+        "type": "h2",
+        "text": "My busy-day plan, hour by hour"
+      },
+      {
+        "type": "itinerary",
+        "stops": [
+          {
+            "time": "Before 9am",
+            "title": "Arrive early, park anywhere",
+            "detail": "Both free streets and the Queen Elizabeth Drive station still have room. Swim, walk, coffee — you've beaten the crush entirely."
+          },
+          {
+            "time": "9am–3pm",
+            "title": "The hard window",
+            "detail": "This is when you'll circle. If you're rolling in now, skip the beachfront and go straight to South Bondi streets or a paid station, or take the park-and-ride below."
+          },
+          {
+            "time": "After 4pm",
+            "title": "It opens up again",
+            "detail": "The morning crowd starts leaving and bays free up. Perfect for a late swim, sunset and dinner on Hall Street."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If it's a perfect summer Saturday, my honest advice is to not fight it at all: drive to Bondi Junction, park there, and jump on the 333, 380 or 381 bus down to the beach — it's about a 10–15 minute ride. You'll be on the sand while everyone else is still nosing around the block. Check Transport for NSW for current timetables and tap on with an Opal card or contactless."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Is there free parking at Bondi Beach?",
+            "a": "Yes — the residential streets north and west of Blair Street have free, unrestricted bays about a 6–10 minute walk from the sand. Watch for resident-permit and timed zones closer to the beach, and get there early on weekends because they fill through the morning."
+          },
+          {
+            "q": "What's the closest car park to Bondi Beach?",
+            "a": "Waverley Council's Queen Elizabeth Drive station, right behind the beach with around 500 bays. It's the most convenient and the first to fill on a sunny day, so arrive early or book a nearby lot online instead."
+          },
+          {
+            "q": "How much does it cost to park at Bondi Beach?",
+            "a": "Waverley Council sets the meter rates, which are higher for beach-adjacent bays in summer than for streets further back, and the paid stations have daily caps. Rates change, so check Waverley Council's parking page for the current figure before you go."
+          },
+          {
+            "q": "When should I arrive to actually find a spot?",
+            "a": "Before 9am or after about 4pm on busy weekends and holidays. The 9am–3pm window is when both free and paid parking are hardest, so if you're arriving then, plan on a paid station, South Bondi streets, or the park-and-ride from Bondi Junction."
+          },
+          {
+            "q": "Is there a park-and-ride option?",
+            "a": "Effectively, yes. Park at or near Bondi Junction and take the 333, 380 or 381 bus down to the beach — roughly a 10–15 minute trip. On a hot weekend it's genuinely faster than hunting for a beachfront bay. Check Transport for NSW for timetables."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Parking at Bondi rewards planning far more than luck. Come early, know your free streets, keep a paid station and the Bondi Junction bus as backups, and always — always — read the sign. Do that and you'll spend your day in the water instead of behind the wheel."
+      }
+    ],
+    "wordCount": 1038,
+    "sources": [
+      {
+        "label": "Waverley Council — parking (meter rates, permits & resident zones)",
+        "url": "https://www.waverley.nsw.gov.au/residents/parking"
+      },
+      {
+        "label": "Waverley Council — beach parking permit",
+        "url": "https://www.waverley.nsw.gov.au/residents/parking/permits/beach_parking_permit"
+      },
+      {
+        "label": "Transport for NSW — trip planner (buses & trains)",
+        "url": "https://transportnsw.info"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
+  "/bondi-blog/2025/4/27/how-to-score-a-booking-at-tottis-bondi-without-the-stress": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "The short version: the surest way to score a table at Totti's Bondi is to book online through Merivale the moment the calendar opens, and to stay flexible on your day and time — but if you've left it late, same-day walk-ins are genuinely welcome, and cancellations pop up online all the time. I've talked friends and visitors through this reservation more times than I can count, so here's exactly how I'd go about it, without the midnight stress."
+      },
+      {
+        "type": "p",
+        "text": "Totti's sits inside The Royal Bondi on Bondi Road, a short stroll up from the sand, and it has become one of those Sydney rooms everyone wants a piece of — sun-warmed, loud in the best way, and built around that famous woodfired bread. That popularity is exactly why a little planning goes a long way."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Where",
+            "value": "Inside The Royal Bondi, 283 Bondi Road, Bondi"
+          },
+          {
+            "label": "Book via",
+            "value": "Merivale online booking (merivale.com/venues/tottis)"
+          },
+          {
+            "label": "Phone",
+            "value": "+61 2 9114 7371"
+          },
+          {
+            "label": "Walk-ins",
+            "value": "Same-day walk-ins welcome (limited)"
+          },
+          {
+            "label": "Style",
+            "value": "Share-style Italian; the bread is non-negotiable"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Booking online: the reliable way in"
+      },
+      {
+        "type": "p",
+        "text": "Reservations run through Merivale's own booking system on the Totti's venue page — that's the one platform I'd point anyone to. Tables are released a set window ahead of time, so the trick is simply to be ready when your date first becomes available rather than trying weeks later once the prime slots are gone. Because that release window can change, I'd open the booking calendar, scroll to the furthest bookable date, and work backwards from there rather than trusting a number you read on a blog."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Jump on the booking page the day your date opens — lunch and prime dinner slots go fast.",
+          "Have your details (name, phone, card if requested) ready so you're not fumbling as tables vanish.",
+          "Set a phone reminder for the morning the window opens, then book first, deliberate later — you can always adjust."
+        ]
+      },
+      {
+        "type": "localTip",
+        "text": "Keep a browser tab on the Totti's booking page even after you've missed out for your ideal night. Totti's is a largely outdoor venue, so when Bondi's weather turns, last-minute cancellations reappear online — I've grabbed a Saturday table on the Thursday before simply by refreshing at the right moment."
+      },
+      {
+        "type": "h2",
+        "text": "Be flexible — it's your biggest advantage"
+      },
+      {
+        "type": "p",
+        "text": "If you can bend on timing, the whole thing gets easier. An earlier lunch or a later dinner sitting is far more likely to have space than the 7pm-on-a-Saturday sweet spot everyone else is chasing. Midweek is calmer than the weekend, and smaller groups of two or three slot in where a table of eight simply won't. None of this is a secret — it's just how a busy room breathes."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Larger groups and special occasions",
+        "text": "Big tables, birthdays and set-menu events work differently from a regular booking, and Totti's has a private dining option too. For anything beyond a standard table, contact the venue directly on +61 2 9114 7371 or email reservations@merivale.com rather than relying on the standard online form."
+      },
+      {
+        "type": "h2",
+        "text": "No booking? You still have options"
+      },
+      {
+        "type": "p",
+        "text": "Don't write off a spontaneous visit. Same-day walk-ins are welcome at Totti's, with a limited number of tables held back each day — your odds are best if you turn up early rather than at peak, keep the group small, and are happy to perch wherever they can seat you. A weekday afternoon is your friend here. And if it's genuinely last-minute, a quick phone call the morning of can turn up a cancellation the website hasn't caught up with yet."
+      },
+      {
+        "type": "quote",
+        "text": "Book if you can, walk in if you can't, and either way — order the bread."
+      },
+      {
+        "type": "p",
+        "text": "One last piece of honesty: opening hours, menus and the exact booking window all shift from season to season, so before you build a whole day around it, check the current details on the official Totti's page. Get the reservation sorted, arrive a touch early to soak up the courtyard buzz, and the hard part's done."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "How do I book a table at Totti's Bondi?",
+            "a": "Through Merivale's online booking system on the Totti's venue page (merivale.com/venues/tottis). You can also phone the venue on +61 2 9114 7371 or email reservations@merivale.com. Booking online is the most reliable route for a standard table."
+          },
+          {
+            "q": "How far in advance do bookings open?",
+            "a": "Tables are released a set window ahead of your date, and that window can change over time. Rather than trusting a fixed number, open the booking calendar, scroll to the furthest date you can select, and plan to book the moment your date first appears."
+          },
+          {
+            "q": "Does Totti's Bondi take walk-ins?",
+            "a": "Yes — same-day walk-in guests are welcome, with a limited number of tables held for them. Arrive early rather than at peak, keep your group small, and you'll give yourself the best shot."
+          },
+          {
+            "q": "What should I do if I can't get a table for the night I want?",
+            "a": "Keep watching the online booking page — Totti's is largely outdoor, so cancellations reappear when the weather turns. You can also call the venue on the day to ask about no-shows and last-minute openings."
+          },
+          {
+            "q": "Where exactly is Totti's Bondi?",
+            "a": "Inside The Royal Bondi at 283 Bondi Road, Bondi, a short walk up from the beach. Check the official Merivale page for current opening hours before you go, as they change seasonally."
+          }
+        ]
+      }
+    ],
+    "wordCount": 867,
+    "sources": [
+      {
+        "label": "Totti's Bondi — Merivale (official venue page)",
+        "url": "https://merivale.com/venues/tottis/"
+      },
+      {
+        "label": "Totti's Bondi FAQs — Merivale",
+        "url": "https://merivale.com/venues/tottis/faqs/"
+      },
+      {
+        "label": "Totti's Bondi Menu — Merivale",
+        "url": "https://merivale.com/venues/tottis/menu/"
       }
     ],
     "lastReviewed": "2026-08-08",
@@ -2304,6 +3144,154 @@
       {
         "label": "Ausrunning — City to Surf rankings and results archive",
         "url": "https://ausrunning.net/misc/city-to-surf/"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
+  "/bondi-blog/getting-from-sydney-airport-to-bondi-beach": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "The quickest way from Sydney Airport to Bondi Beach is a taxi or rideshare, which takes roughly 30 to 50 minutes depending on traffic; the cheapest is the train to Bondi Junction followed by a short bus, which usually runs around 60 to 90 minutes door to door. I've done this run more times than I can count picking up friends and family, so here's exactly how I'd get you from the terminal to the sand."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Distance",
+            "value": "About 15 km"
+          },
+          {
+            "label": "Fastest",
+            "value": "Taxi / rideshare, ~30-50 min"
+          },
+          {
+            "label": "Cheapest",
+            "value": "Train + bus via Bondi Junction"
+          },
+          {
+            "label": "You'll need",
+            "value": "An Opal card or a contactless card/phone"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Train to Bondi Junction, then a bus (my pick for value)"
+      },
+      {
+        "type": "p",
+        "text": "Bondi Beach doesn't have its own train station — the closest is Bondi Junction, about 3 km up the hill. From either the Domestic (T2/T3) or International (T1) terminal, follow the signs to the station right under the terminal and catch the T8 Airport & South Line towards the city. At Central, change to the T4 Eastern Suburbs & Illawarra Line and ride it to Bondi Junction. The T8 runs frequently every day from roughly 5am to midnight, so you rarely wait long."
+      },
+      {
+        "type": "p",
+        "text": "At Bondi Junction, walk up to the bus interchange above the station and jump on the 333, 380 or 381 — all three run down to Bondi Beach in about 10 to 15 minutes. Tap the same Opal card or contactless card/phone on and off and you're done."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Watch the airport Station Access Fee",
+        "text": "Both airport stations charge a Station Access Fee on top of your normal fare — it's a significant extra per adult trip and it sits OUTSIDE the daily and weekly Opal travel caps. It also isn't covered by the 60-minute transfer discount. Check the current amount on the Opal website before you budget, as it changes each year."
+      },
+      {
+        "type": "localTip",
+        "text": "If you're travelling light and want to dodge the airport rail fee, locals sometimes walk a few minutes to the public bus stops outside the terminal and take a bus to nearby Mascot station, then ride the T8 from there — the ordinary train fare, no access fee. Use the Transport NSW Trip Planner on the day to check the current stop and route."
+      },
+      {
+        "type": "h2",
+        "text": "Taxi or rideshare (fastest, door to door)"
+      },
+      {
+        "type": "p",
+        "text": "If you've got luggage, kids, or you land late, I'd just take a taxi or an Uber/rideshare. It's the only truly door-to-door option and drops you right at your accommodation. Taxis queue at the rank outside each terminal; rideshare has its own signed pickup zones — follow the app. Expect somewhere in the 30 to 50 minute range depending on traffic and time of day."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "On price",
+        "text": "Taxis run on a metered fare, and rideshare quotes you before you confirm. I won't put a fixed dollar figure here because both move with traffic, time of day and demand surges. A metered taxi and an off-peak rideshare are usually in a similar ballpark; rideshare can spike at busy times, so check the in-app quote first."
+      },
+      {
+        "type": "h2",
+        "text": "Other options: shuttle, private transfer and car hire"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Door-to-door shuttles and pre-booked private transfers exist and can be handy for groups or early flights — book ahead and confirm the price when you reserve.",
+          "Hiring a car makes sense only if you're touring beyond Sydney. Around Bondi, parking is tight and metered, so a car you're not using is more hassle than help.",
+          "Route 350 bus links the Domestic terminal directly to Bondi Junction if you'd rather skip the train — then it's the 333/380/381 down to the beach."
+        ]
+      },
+      {
+        "type": "itinerary",
+        "stops": [
+          {
+            "time": "0:00",
+            "title": "Land & tap on",
+            "detail": "Follow signs to the station under your terminal; board the T8 towards the city."
+          },
+          {
+            "time": "~0:15",
+            "title": "Central Station",
+            "detail": "Change to the T4 Eastern Suburbs & Illawarra Line for Bondi Junction."
+          },
+          {
+            "time": "~0:35",
+            "title": "Bondi Junction",
+            "detail": "Head up to the bus interchange above the station."
+          },
+          {
+            "time": "~0:50",
+            "title": "Bondi Beach",
+            "detail": "Ride the 333, 380 or 381 down the hill to Campbell Parade."
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Is there a train station at Bondi Beach?",
+            "a": "No. The nearest station is Bondi Junction, around 3 km from the sand. From there it's a 10 to 15 minute bus (333, 380 or 381) or a short taxi ride down to the beach."
+          },
+          {
+            "q": "What's the cheapest way from the airport to Bondi?",
+            "a": "Public transport: the T8 train to Central, change to the T4 to Bondi Junction, then a bus to the beach. Just note the airport Station Access Fee adds a fixed charge on top of the fare — check the current amount on the Opal website."
+          },
+          {
+            "q": "How long does it take?",
+            "a": "Roughly 30 to 50 minutes by taxi or rideshare, and about 60 to 90 minutes by train and bus once you factor in connections and waiting time."
+          },
+          {
+            "q": "Do I need an Opal card?",
+            "a": "You don't need a physical Opal card — you can tap on and off with a contactless credit/debit card or a phone/watch. Adult fares are the same either way."
+          },
+          {
+            "q": "Can I get a direct bus from the airport?",
+            "a": "There's no single bus straight to Bondi Beach, but Route 350 connects the Domestic terminal to Bondi Junction, where you swap to the 333, 380 or 381 for the beach. Use the Transport NSW Trip Planner for live times."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "However you come in, the moment you crest the hill and Campbell Parade opens onto that big blue arc of beach, you'll know the journey was worth it. See you down there."
+      }
+    ],
+    "wordCount": 888,
+    "sources": [
+      {
+        "label": "Transport for NSW — Getting to & from Sydney Airport",
+        "url": "https://transportnsw.info/tickets-fares/getting-to-from-sydney-airport"
+      },
+      {
+        "label": "Opal — Sydney Airport Station Access Fee",
+        "url": "https://www.opal.com.au/en/opal-fares/airport_station_access_fee/"
+      },
+      {
+        "label": "Transport for NSW — Trip Planner",
+        "url": "https://transportnsw.info/trip"
       }
     ],
     "lastReviewed": "2026-08-08",
