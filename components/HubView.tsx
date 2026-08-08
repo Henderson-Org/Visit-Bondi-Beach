@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import {
   getPage,
   displayTitle,
@@ -12,9 +11,10 @@ import { breadcrumbJsonLd } from '@/lib/structured-data';
 import { siteOrigin } from '@/lib/site';
 import { getHubDesign, type SectionLayout } from '@/lib/hubs';
 import { conditionsDestinationForPath } from '@/lib/conditions/locations';
-import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { EditorialHero } from '@/components/EditorialHero';
 import { RelatedGuides } from '@/components/RelatedGuides';
 import { WeatherSurfSummary } from '@/components/WeatherSurfSummary';
+import { RouteMap } from '@/components/RouteMap';
 import { GuideCard, FeatureCard, cleanText, excerptFor, type GuideCardData } from '@/components/GuideCard';
 
 const slugify = (s: string) =>
@@ -94,7 +94,7 @@ export function HubView({ page }: { page: Page }) {
   const design = getHubDesign(page.path);
   const crumbs = breadcrumbs(page);
   const title = displayTitle(page);
-  const hero = heroImageFor(page);
+  const hero = design.heroImage ?? heroImageFor(page);
   const sections = page.sections || [];
   const conditionsDest = conditionsDestinationForPath(page.path);
 
@@ -127,38 +127,14 @@ export function HubView({ page }: { page: Page }) {
         />
       )}
 
-      {/* Editorial hero */}
-      <section className="relative isolate overflow-hidden bg-ink-900">
-        {hero && (
-          <Image src={hero} alt="" fill priority sizes="100vw" className="object-cover opacity-55" />
-        )}
-        <div className="absolute inset-0 bg-gradient-to-t from-ink-900/95 via-ink-900/60 to-ink-900/40" aria-hidden="true" />
-        <div className="relative mx-auto max-w-5xl px-4 pb-10 pt-8 md:pb-14 md:pt-10">
-          <div className="[&_*]:!text-sand-50/80">
-            <Breadcrumbs items={crumbs} />
-          </div>
-          <p className="mt-4 text-xs font-semibold uppercase tracking-widest text-ocean-500 [text-shadow:0_1px_2px_rgb(0_0_0/40%)]">
-            {design.kicker}
-          </p>
-          <h1 className="mt-2 max-w-3xl font-display text-4xl leading-[1.05] tracking-tight text-white md:text-6xl">
-            {title}
-          </h1>
-          {page.intro && <p className="mt-4 max-w-prose text-lg text-sand-50/95">{page.intro}</p>}
-          {sections.length > 1 && (
-            <nav aria-label="On this page" className="mt-6 flex flex-wrap gap-2">
-              {sections.map((s) => (
-                <a
-                  key={s.heading}
-                  href={`#${slugify(s.heading)}`}
-                  className="rounded-full border border-white/30 bg-white/10 px-3.5 py-1.5 text-sm text-white backdrop-blur-sm hover:border-white hover:bg-white/20"
-                >
-                  {s.heading}
-                </a>
-              ))}
-            </nav>
-          )}
-        </div>
-      </section>
+      <EditorialHero
+        image={hero}
+        kicker={design.kicker}
+        title={title}
+        intro={page.intro}
+        crumbs={crumbs}
+        chips={sections.map((s) => ({ label: s.heading, href: `#${slugify(s.heading)}` }))}
+      />
 
       <div className="mx-auto max-w-5xl px-4">
         {/* Practical facts strip */}
@@ -177,6 +153,13 @@ export function HubView({ page }: { page: Page }) {
         {conditionsDest && (
           <div className={design.practical ? 'mt-6' : '-mt-6 relative z-10'}>
             <WeatherSurfSummary destination={conditionsDest} />
+          </div>
+        )}
+
+        {/* Light route / where-things-are module (Coastal Walk, Getting Here). */}
+        {design.route && (
+          <div className={design.practical || conditionsDest ? 'mt-6' : '-mt-6 relative z-10'}>
+            <RouteMap title={design.route.title} stops={design.route.stops} note={design.route.note} />
           </div>
         )}
 

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import {
   allContentPaths,
+  getPage,
   getPageBySegments,
   displayTitle,
   recentArticles,
@@ -16,12 +17,15 @@ import {
 } from '@/lib/content';
 import { isProduction, AUTHOR } from '@/lib/site';
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from '@/lib/structured-data';
+import { getCorePageHub } from '@/lib/hubs';
 import { ArticleCard } from '@/components/ArticleCard';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { RelatedGuides } from '@/components/RelatedGuides';
 import { AdSlot } from '@/components/AdSlot';
 import { BodyBlocks } from '@/components/BodyBlocks';
 import { HubView } from '@/components/HubView';
+import { EditorialHero } from '@/components/EditorialHero';
+import { GuideCard, excerptFor } from '@/components/GuideCard';
 
 export const dynamicParams = true;
 
@@ -71,7 +75,7 @@ export default async function CatchAllPage({ params }: Props) {
     case 'tag':
       return <ArchivePage page={page} />;
     default:
-      return <ArticlePage page={page} />;
+      return getCorePageHub(page.path) ? <CorePageHubView page={page} /> : <ArticlePage page={page} />;
   }
 }
 
@@ -84,6 +88,49 @@ function MigrationNote({ page }: { page: Page }) {
       </a>{' '}
       while the content import completes.
     </p>
+  );
+}
+
+/**
+ * Hub-styled core page (Swim, Stay): editorial hero + curated "explore" cards,
+ * while keeping the page's existing body content (so no crawlable SEO copy is lost).
+ */
+function CorePageHubView({ page }: { page: Page }) {
+  const coreHub = getCorePageHub(page.path)!;
+  const crumbs = breadcrumbs(page);
+  const title = displayTitle(page);
+  const cards = coreHub.explore.links.map((l) => {
+    const target = getPage(l.path);
+    return { title: l.title, href: l.path, image: target?.heroImage || null, excerpt: excerptFor(target) };
+  });
+  return (
+    <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(crumbs)) }}
+      />
+      <EditorialHero
+        image={coreHub.heroImage}
+        kicker={coreHub.kicker}
+        title={title}
+        intro={coreHub.intro}
+        crumbs={crumbs}
+      />
+      {page.blocks && page.blocks.length > 0 && (
+        <div className="mx-auto max-w-3xl px-4 pt-10">
+          <BodyBlocks blocks={page.blocks} />
+        </div>
+      )}
+      <div className="mx-auto max-w-5xl px-4 py-12">
+        <h2 className="font-display text-2xl md:text-3xl text-ink-900">{coreHub.explore.heading}</h2>
+        <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {cards.map((c) => (
+            <GuideCard key={c.href} card={c} />
+          ))}
+        </div>
+        <RelatedGuides pages={relatedPages(page)} />
+      </div>
+    </div>
   );
 }
 
