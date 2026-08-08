@@ -21,8 +21,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { RelatedGuides } from '@/components/RelatedGuides';
 import { AdSlot } from '@/components/AdSlot';
 import { BodyBlocks } from '@/components/BodyBlocks';
-import { WeatherSurfSummary } from '@/components/WeatherSurfSummary';
-import { conditionsDestinationForPath } from '@/lib/conditions/locations';
+import { HubView } from '@/components/HubView';
 
 export const dynamicParams = true;
 
@@ -67,55 +66,13 @@ export default async function CatchAllPage({ params }: Props) {
     case 'blog-index':
       return <BlogIndex />;
     case 'hub':
-      return <HubPage page={page} />;
+      return <HubView page={page} />;
     case 'category':
     case 'tag':
       return <ArchivePage page={page} />;
     default:
       return <ArticlePage page={page} />;
   }
-}
-
-function HubPage({ page }: { page: Page }) {
-  const crumbs = breadcrumbs(page);
-  const conditionsDest = conditionsDestinationForPath(page.path);
-  return (
-    <div className="mx-auto max-w-3xl px-4 py-10">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(crumbs)) }}
-      />
-      <Breadcrumbs items={crumbs} />
-      <h1 className="mt-2 font-display text-3xl md:text-4xl leading-tight tracking-tight text-ink-900">
-        {displayTitle(page)}
-      </h1>
-      {page.intro && <p className="mt-4 text-lg text-ink-700 max-w-prose">{page.intro}</p>}
-      {conditionsDest && (
-        <div className="mt-6">
-          <WeatherSurfSummary destination={conditionsDest} />
-        </div>
-      )}
-      {(page.sections || []).map((sec) => (
-        <section key={sec.heading} className="mt-10">
-          <h2 className="font-display text-2xl text-ink-900">{sec.heading}</h2>
-          {sec.intro && <p className="mt-2 text-ink-700 max-w-prose">{sec.intro}</p>}
-          <ul className="mt-4 grid gap-3 sm:grid-cols-2">
-            {sec.links.map((l) => (
-              <li key={l.path}>
-                <Link
-                  href={l.path}
-                  className="block rounded-lg border border-sand-200 bg-white p-4 font-medium text-ink-900 hover:border-ocean-500"
-                >
-                  {l.title}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
-      <RelatedGuides pages={relatedPages(page)} />
-    </div>
-  );
 }
 
 function MigrationNote({ page }: { page: Page }) {
