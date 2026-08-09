@@ -1,0 +1,47 @@
+{
+  "path": "/bondi-blog/2023/9/28/bondi-beach-and-the-shark-question-unraveling-the-mystery",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "SharkSmart NSW — Shark Nets", "url": "https://www.sharksmart.nsw.gov.au/shark-nets" },
+    { "label": "SharkSmart NSW — Current Program", "url": "https://www.sharksmart.nsw.gov.au/current-program" },
+    { "label": "NSW Government — NSW shark mitigation this summer", "url": "https://www.nsw.gov.au/media-releases/nsw-shark-mitigation-summer" },
+    { "label": "Surf Life Saving NSW — Beachsafe", "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi/bondi-beach" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "I get asked this at least once a week, usually by someone eyeing the water a little nervously: are there sharks at Bondi Beach? The honest answer is yes — Bondi is open ocean. But the risk to swimmers is genuinely tiny: the last fatal attack here was back in 1929, and between the flags, the lifeguards and one of the most heavily monitored stretches of coast in the world, Bondi is about as safe a place to swim as you'll find." },
+    { "type": "quickFacts", "items": [
+      { "label": "Sharks present?", "value": "Yes — mostly harmless species" },
+      { "label": "Last fatal attack", "value": "1929" },
+      { "label": "Shark net", "value": "Part of the NSW Shark Meshing Program" },
+      { "label": "Stay safest", "value": "Swim between the red & yellow flags" }
+    ] },
+    { "type": "h2", "text": "What actually lives out there" },
+    { "type": "p", "text": "Most of what cruises past Bondi is completely uninterested in you. The regulars are Port Jackson sharks — small, slow, bottom-dwelling and harmless — along with wobbegongs, the carpet sharks that doze on the reef and that divers see all the time. The species people actually worry about — white, tiger and bull sharks — are the ocean's wanderers: they pass along this coast, but an encounter with a swimmer is extraordinarily rare." },
+    { "type": "p", "text": "For context, there have been only a couple of hundred recorded shark bites across the whole of New South Wales in roughly two centuries, spread over thousands of kilometres of coast. On any given day, the drive to the beach is comfortably the most dangerous part of your trip." },
+    { "type": "h2", "text": "How Bondi is protected" },
+    { "type": "p", "text": "Bondi sits inside the NSW Shark Meshing (Bather Protection) Program, the net scheme first rolled out along the Sydney coast in the 1930s after the fatal attacks of 1929. It's worth understanding what the net actually is, because there's a common myth about it." },
+    { "type": "callout", "tone": "note", "title": "The net isn't a fence", "text": "Bondi's shark net doesn't wall off the swimming area or run from the surface to the seabed. It's a mesh panel set out in the bay to deter sharks from settling close to shore — they can and do swim over, under and around it. It reduces risk but is not a solid barrier, so never assume the water is 'sealed off'." },
+    { "type": "p", "text": "The netting only runs during the warmer meshing season, so it isn't in the water year-round — check SharkSmart NSW for the current dates. Far more useful are the human eyes and the technology: Bondi's professional lifeguards and volunteer surf lifesavers watch the water constantly, and NSW keeps expanding drone surveillance, shark-listening stations and tagged-shark alerts along the coast." },
+    { "type": "h3", "text": "The SharkSmart App" },
+    { "type": "p", "text": "If you like to know before you go, download the free SharkSmart NSW app. When a tagged white, tiger or bull shark passes a listening station, it pushes an alert, and drone and lifeguard sightings feed in too. It's the same information the beach team works from." },
+    { "type": "localTip", "text": "If you ever hear the shark alarm — a long, distinctive siren — don't overthink it. Make your way to the sand, walking not thrashing, and wait for the all-clear. Nine times out of ten it's a precaution, and the drill is always the same: out, calm, wait." },
+    { "type": "h2", "text": "How I swim here without a second thought" },
+    { "type": "p", "text": "I'm in the water at Bondi most weeks and the shark question doesn't cross my mind — the simple habits that keep you safe from rips keep you safe here too." },
+    { "type": "list", "items": [
+      "Swim between the red and yellow flags — the patrolled zone lifeguards are watching, and the single most important thing you can do.",
+      "Avoid dawn and dusk swims far from shore, when low light makes sightings harder and some sharks are more active.",
+      "Stay out of murky water after heavy rain, near river or stormwater mouths, and away from schools of baitfish or diving birds.",
+      "Don't swim alone, and skip shiny jewellery that can flash like fish scales.",
+      "Follow the lifeguards. If they clear the water, get out — they can see what you can't."
+    ] },
+    { "type": "faq", "items": [
+      { "q": "Are there sharks at Bondi Beach?", "a": "Yes — Bondi is open ocean. The vast majority are harmless species like Port Jackson sharks and wobbegongs, and a bite on a swimmer is extremely rare." },
+      { "q": "When was the last shark attack at Bondi?", "a": "The last fatal attack at Bondi was in 1929. There was a rare non-fatal attack on a surfer in 2009 — the first at Bondi in decades — which shows just how uncommon they are." },
+      { "q": "Does the shark net make Bondi completely safe?", "a": "No net makes any beach 100% safe. Bondi's net is a deterrent, not a solid fence — sharks can swim around it, and it's only in the water during the meshing season. Your real protection is swimming between the flags under the lifeguards' watch." },
+      { "q": "How will I know if a shark is spotted?", "a": "Lifeguards sound a distinctive shark siren and clear the water. You can also get real-time alerts on the free SharkSmart NSW app, which draws on tagged-shark listening stations, drones and sightings." },
+      { "q": "What should I do if I see a shark?", "a": "Stay calm, don't splash wildly, and swim steadily back to shore. Alert a lifeguard immediately so they can warn others and, if needed, clear the water." }
+    ] },
+    { "type": "p", "text": "So yes, there are sharks at Bondi — as at every ocean beach in Australia. But between a near-century without a fatality, the flags, the lifeguards and the tech watching the water, it's a question I'd park at the back of your mind. Get in, swim between the flags, and enjoy it." }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "path": "/bondi-blog/2025/1/20/locals-guide-to-free-bbq-spots-at-bondi-bronte-tamarama",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Parks & reserves", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves" },
+    { "label": "NSW Rural Fire Service — Fire danger & Total Fire Bans", "url": "https://www.rfs.nsw.gov.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Yes — there are free public electric barbecues at all three beaches, and the best of them sit at Bronte Park, Tamarama and the north end of Bondi. They're the push-button kind maintained by Waverley Council, and on a good weekend they're the beating heart of the coast: sausages sizzling, kids everywhere, someone's uncle guarding the hotplate. Here's exactly where I'd send you, and how to actually land one." },
+    { "type": "quickFacts", "items": [
+      { "label": "Where", "value": "Bronte Park, Tamarama Beach, North Bondi" },
+      { "label": "Cost", "value": "Free public electric BBQs" },
+      { "label": "System", "value": "First-come, first-served" },
+      { "label": "Busiest", "value": "Weekends & public holidays" },
+      { "label": "Managed by", "value": "Waverley Council" }
+    ] },
+    { "type": "h2", "text": "Bronte Park — the family favourite" },
+    { "type": "p", "text": "If you only pick one, make it Bronte. The park curves behind the beach in a big green amphitheatre, with the barbecues among picnic shelters and shady grass, and the playground and Bronte Baths a short toddle away. It's my pick for families — you cook, the kids run, and there's a saltwater pool for the post-lunch swim. There are only a couple of hotplates, though, so on a sunny Saturday they go early." },
+
+    { "type": "list", "items": [
+      "Picnic shelters and plenty of shaded grass for the eskies",
+      "Playground and the Bronte Baths ocean pool right there",
+      "Bronte Gully behind you if you want quieter, leafier tables",
+      "The kiosk and cafés on Bronte Road for coffee and forgotten supplies"
+    ] },
+    { "type": "localTip", "text": "Bronte is the hardest of the three to park near. Come on the 379 bus, or arrive before 9am and walk in — circling the streets at midday on a hot Sunday is a special kind of misery." },
+    { "type": "h2", "text": "Tamarama — small, scenic and underrated" },
+    { "type": "p", "text": "Little Tamarama — \"Glamarama\" to the regulars — has barbecue facilities tucked behind the beach, with sheltered tables and that dramatic view up the gully. It's a smaller beach and park, which is exactly why I like it: fewer hotplates, but far fewer people fighting for them than at Bondi or Bronte. There's a little playground in the gully and a grassy slope made for a rug." },
+    { "type": "callout", "tone": "note", "title": "Swim between the flags", "text": "Tamarama is one of the most powerful little beaches in Sydney and rips are common. It's patrolled, so always swim between the red-and-yellow flags and watch kids in the shallows, even on a calm-looking day." },
+    { "type": "h2", "text": "North Bondi — barbecues with the big view" },
+    { "type": "p", "text": "The northern end of Bondi is where the barbecues cluster, on the grassy foreshore near the children's playground and skate area. It's the spot for a bigger group — the most cooking capacity of the three, ocean pools nearby, and that full sweep of Bondi in front of you. It's also the busiest, so start early." },
+    { "type": "list", "items": [
+      "Foreshore BBQs near the North Bondi playground and skate park",
+      "A short stroll to the North Bondi end of the Bondi to Bronte coastal walk",
+      "Ocean pools and the surf club within easy reach",
+      "Cafés and public toilets close by"
+    ] },
+    { "type": "h2", "text": "How to actually get a hotplate" },
+    { "type": "p", "text": "The barbecues are free and there's no booking — genuinely first-come, first-served. On a warm weekend or public holiday the good ones are gone by mid-morning, so if a cook-up is the plan, get there early and hold the fort." },
+    { "type": "list", "items": [
+      "Arrive before 10am on weekends and holidays, earlier on a scorcher",
+      "Send one person ahead to claim a plate while the others park",
+      "Bring your own oil, foil, tongs, paper towel and a rubbish bag",
+      "Have a picnic backup in case every hotplate's taken"
+    ] },
+    { "type": "callout", "tone": "warning", "title": "Leave it clean, and check the fire rules", "text": "Rangers patrol these parks, and leaving a filthy hotplate or littering can earn a fine. On extreme-danger days a Total Fire Ban can also change what's allowed in public parks, so check the NSW Rural Fire Service first. For current facilities and any bring-your-own-gas rules, Waverley Council is the source of truth." },
+    { "type": "localTip", "text": "Charcoal and wood fires aren't the go in these parks — stick to the council electric plates or a compliant gas BBQ. And pack patience: the push-button plates take a while to heat, so fire them up before you start chopping onions." },
+    { "type": "faq", "items": [
+      { "q": "Are the BBQs at Bondi, Bronte and Tamarama free?", "a": "Yes — the electric barbecues in the council parks are free public facilities from Waverley Council. There's no booking, so the only real cost is getting there early enough to grab one." },
+      { "q": "Can you book a public barbecue at Bronte or Bondi?", "a": "No — the individual hotplates can't be reserved; it's first-come, first-served. For a larger event, contact Waverley Council about park hire and permits." },
+      { "q": "Which spot is best for a family with young kids?", "a": "Bronte Park, for my money — the barbecues sit right by the playground, the Bronte Baths ocean pool and shaded grass. Tamarama is a lovely quieter alternative." },
+      { "q": "Can I bring my own gas BBQ or charcoal?", "a": "Charcoal and open fires aren't permitted in these coastal parks. A portable gas BBQ may be allowed in some areas, but check with Waverley Council first — and remember a Total Fire Ban can override everything on extreme days." },
+      { "q": "Are dogs allowed near the barbecues?", "a": "Dogs are welcome on-leash across much of the Waverley area, with off-leash times in spots like Bronte Gully, but they're generally kept away from the barbecue, playground and beach areas. Check the council's current dog rules." }
+    ] },
+    { "type": "p", "text": "That's the local playbook: Bronte for families, Tamarama for a quieter view, North Bondi for a big group. Get there early, cook something simple, and leave the hotplate cleaner than you found it. See you at the grill." }
+  ]
+}

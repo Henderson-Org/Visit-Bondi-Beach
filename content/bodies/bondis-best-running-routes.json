@@ -1,0 +1,39 @@
+{
+  "path": "/bondi-blog/2024/3/19/bondis-best-running-routes",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bondi to Coogee Coastal Walk — Sydney.com (Destination NSW)", "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk" },
+    { "label": "The Federation Cliff Walk — Sydney.com (Destination NSW)", "url": "https://www.sydney.com/destinations/sydney/sydney-east/watsons-bay/attractions/the-federation-cliff-walk" },
+    { "label": "Macquarie Lightstation — Harbour Trust", "url": "https://www.harbourtrust.gov.au/our-places/macquarie-lightstation/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you want my honest answer to \"where should I run in Bondi?\", it's this: the clifftop coastal path south toward Coogee for the views, and the flat promenade along the beach when you just want to move. Those two cover most runners, but there are a few more I reach for — so here are the five Bondi running routes I actually use, with rough distances and where to start each one." },
+    { "type": "quickFacts", "items": [
+      { "label": "Best for views", "value": "Bondi to Coogee coastal walk" },
+      { "label": "Best flat run", "value": "Beachfront promenade loop" },
+      { "label": "Best hill session", "value": "Up to Dover Heights / Bellevue Hill" },
+      { "label": "Start point", "value": "Bondi Pavilion / south end steps" }
+    ] },
+    { "type": "h2", "text": "1. Bondi to Coogee (the one everyone means)" },
+    { "type": "p", "text": "This is the run that put Bondi on the map for anyone in trainers. It's roughly 6km one-way to Coogee, or about 12km if you turn around, hugging the coast past Tamarama, Bronte and the Waverley cliffs. It is genuinely undulating — plenty of stairs and short sharp climbs — so it runs slower than the distance suggests. Start at the southern end of Bondi Beach near the Icebergs and follow the paved path south." },
+    { "type": "localTip", "text": "The path is narrow and shared with walkers, prams and photo-takers, especially mid-morning. I run it early — before about 8am — when the boardwalk past Bronte is quiet and the light off the water is best. For a one-way run, buses connect Coogee back to Bondi Junction, so you can ride home instead of doubling back." },
+    { "type": "h2", "text": "2. The beachfront promenade loop (flat and fast)" },
+    { "type": "p", "text": "When I want a flat effort without stairs or road crossings, I stick to Bondi itself. Start at the Pavilion, run the length of the promenade above the sand, and loop back along Campbell Parade for a lap of around 3-4km. It's dead flat, well-lit into the evening, and never far from a water bubbler or a coffee — perfect for intervals, an easy recovery jog, or a first run in the area." },
+    { "type": "h2", "text": "3. North to the Macquarie Lighthouse (and the Federation Cliff Walk)" },
+    { "type": "p", "text": "Head north instead of south and the crowds thin out fast. From Bondi you climb up through the streets toward the Macquarie Lightstation — Australia's first and longest-serving lighthouse site — and pick up the clifftop Federation Cliff Walk toward Dover Heights and Watsons Bay. It's a mix of quiet residential streets and dramatic sandstone cliff edges over the Tasman Sea. Treat the full push to Watsons Bay as a longer outing of around 8-9km one-way; on a shorter day I just run to the lighthouse and back." },
+    { "type": "callout", "tone": "warning", "title": "Mind the cliff edges", "text": "The northern clifftops are spectacular but genuinely exposed, with unfenced drops in places. Stay on the formed path, keep well back from the edge, and don't run this stretch in the dark or in strong wind — it's not worth it. If you're chasing a sunrise photo, arrive with enough light to see your footing." },
+    { "type": "h2", "text": "4. Bondi to Rose Bay via Bellevue Hill (harbour side)" },
+    { "type": "p", "text": "For a change from ocean to harbour, I head inland and up toward Bellevue Hill — roughly 7km one-way to Rose Bay. It's a real climb through some of Sydney's leafiest streets, rewarded near the top with wide harbour views, before dropping down to the calm waterfront parks at Rose Bay. Come back the same way for hill repeats, or wind along the harbour's edge for a gentler, longer return." },
+    { "type": "h2", "text": "5. The Dover Heights hill grind" },
+    { "type": "p", "text": "If it's a hill day and I only have half an hour, this is the one: up Bondi Road and out toward the ocean cliffs of Dover Heights, about 5km all up if you loop back. It's uphill work in one direction, but the payoff is a long line of clifftop parkland with uninterrupted sea views — a short, honest effort that leaves you feeling like you earned breakfast." },
+    { "type": "faq", "items": [
+      { "q": "What's the best beginner-friendly running route in Bondi?", "a": "The beachfront promenade loop. It's flat, well-lit, has water bubblers and toilets nearby, and you can make it as short or long as you like — start with a couple of laps between the Pavilion and the south end and build from there." },
+      { "q": "How long is the Bondi to Coogee run?", "a": "About 6km one-way, or roughly 12km return. Because it's constantly up and down with several flights of stairs, it feels tougher and slower than a flat 6km, so allow extra time and take water." },
+      { "q": "When is the best time to run the coastal path?", "a": "Early morning, ideally before about 8am. The path is shared with walkers and gets very busy later in the day, and Bondi sun is strong — running early means cooler air, quieter trails and lovely light off the water." },
+      { "q": "Are there drink taps and toilets along the way?", "a": "Yes, around Bondi Beach itself — near the Pavilion and along the promenade — and at the beaches down the Coogee walk like Bronte and Coogee. Once you're up on the northern clifftops facilities are sparser, so top up before you head out." },
+      { "q": "Do I need to bring water and sun protection?", "a": "Absolutely. Much of the coastline is exposed with little shade, so I run with a cap and sunscreen even in the cooler months, and carry water on anything longer than the promenade loop." }
+    ] },
+    { "type": "p", "text": "Whichever you pick, that's the joy of running here — you're never far from the water, and the scenery does half the work. Lace up, start at the Pavilion, and point yourself along the coast." }
+  ]
+}

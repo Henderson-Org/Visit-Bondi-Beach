@@ -29051,6 +29051,40 @@
             "path": "/bondi-blog/2024/9/7/the-best-vegetarian-and-vegan-restaurants-in-bondi-beach"
           }
         ]
+      },
+      {
+        "heading": "Browse by what you're after",
+        "intro": "Our curated shortlists, each with the venues we rate and who they suit.",
+        "links": [
+          {
+            "title": "The best restaurants in Bondi Beach",
+            "path": "/bondi-eat-and-drink/best-restaurants-bondi-beach"
+          },
+          {
+            "title": "The best bars in Bondi Beach",
+            "path": "/bondi-eat-and-drink/best-bars-bondi-beach"
+          },
+          {
+            "title": "The best breakfast & brunch",
+            "path": "/bondi-eat-and-drink/breakfast-brunch-bondi-beach"
+          },
+          {
+            "title": "Ocean-view dining",
+            "path": "/bondi-eat-and-drink/waterfront-dining-bondi-beach"
+          },
+          {
+            "title": "Cheap eats in Bondi",
+            "path": "/bondi-eat-and-drink/cheap-eats-bondi-beach"
+          },
+          {
+            "title": "The best Bondi pubs",
+            "path": "/bondi-eat-and-drink/pubs-bondi-beach"
+          },
+          {
+            "title": "Vegan & vegetarian in Bondi",
+            "path": "/bondi-eat-and-drink/vegan-vegetarian-bondi-beach"
+          }
+        ]
       }
     ],
     "authored": true
