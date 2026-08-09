@@ -8,7 +8,7 @@
     { "label": "Wikipedia — Waverley Cemetery", "url": "https://en.wikipedia.org/wiki/Waverley_Cemetery" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you ask me for the most quietly spectacular spot on the whole Bondi coastline, I'll send you to Waverley Cemetery every time. Perched on the clifftops just south of Bondi, its rows of white marble headstones tumble down toward the Tasman Sea in a way that stops most people mid-stride. Established in 1877, it's one of the great Victorian cemeteries of the world — and, happily for us, it sits right on the Bondi to Coogee coastal walk, so you can wander straight through it." },
+    { "type": "p", "text": "If you ask me for the most quietly spectacular spot on the whole Bondi coastline, I'll send you to Waverley Cemetery every time. Perched on the clifftops just south of Bondi, its rows of white marble headstones tumble down toward the Tasman Sea in a way that stops most people mid-stride. Established in 1877, it's one of the great Victorian cemeteries of the world — and it sits right on the Bondi to Coogee coastal walk, so you can wander straight through." },
     { "type": "quickFacts", "items": [
       { "label": "Where", "value": "Clifftop between Bronte & Clovelly (St Thomas St, Bronte)" },
       { "label": "Established", "value": "1877" },
@@ -19,7 +19,7 @@
     { "type": "h2", "text": "A little history on the cliff" },
     { "type": "p", "text": "Waverley opened its gates in 1877, with the first burial that August, and it's been in continuous use ever since. Spread across roughly 16 hectares of clifftop, it holds tens of thousands of graves and is celebrated for having one of the most intact collections of Victorian and Edwardian monuments anywhere — soaring marble angels, Celtic crosses, draped urns and ornate ironwork, all bleached bright by more than a century of salt and sun." },
     { "type": "p", "text": "What I find most moving is who's here. This is the resting place of poet Henry Lawson, whose 1922 funeral drew enormous crowds; Dorothea Mackellar, who gave us \"I love a sunburnt country\"; cricketing legend Victor Trumper; and Fanny Durack, the first Australian woman to win Olympic gold. Aviation pioneer Lawrence Hargrave is here too. Walking the paths really does feel like leafing through a stone version of Australia's story." },
-    { "type": "localTip", "text": "Come in the late afternoon. As the sun drops behind you, it lights the marble to a warm gold and throws the headstones into long shadow against the deep blue of the sea — it's the hour photographers dream about, and the crowds have usually thinned." },
+    { "type": "localTip", "text": "Come in the late afternoon. As the sun drops behind you, it lights the marble to a warm gold and throws long shadows against the deep blue of the sea — the hour photographers dream about, and the crowds have usually thinned." },
     { "type": "h2", "text": "How to visit — and the walk that runs through it" },
     { "type": "p", "text": "The easiest way to see Waverley is on foot. From Bondi Beach, pick up the coastal walk at the southern headland and follow it past Tamarama and Bronte; the cemetery sits on the next stretch of cliff, roughly 30–40 minutes' easy walking south. You can also drive or bus to Bronte and stroll in from there. The main entrance is on St Thomas Street." },
     { "type": "p", "text": "Waverley Council notes the cemetery is open to pedestrians at all times, while the main gates open for vehicles during daylight hours and the office keeps shorter weekday hours. Because those details can change, I'd check the council's cemeteries page before you rely on a specific time, especially for driving or office visits." },
@@ -41,6 +41,6 @@
       { "q": "Who is buried at Waverley Cemetery?", "a": "Notable Australians here include poets Henry Lawson and Dorothea Mackellar, cricketer Victor Trumper, Olympic swimmer Fanny Durack, and aviation pioneer Lawrence Hargrave, among many others." },
       { "q": "Can I take photos there?", "a": "Yes, respectful photography is fine and the light on the marble is stunning. Remember it's a working cemetery — keep to the paths, be mindful of anyone attending a service, and don't climb the monuments." }
     ] },
-    { "type": "p", "text": "Whether you come for the history, the extraordinary monuments or simply that view of headstones against endless ocean, Waverley rewards a slow wander. It's one of those Bondi places that quietly reframes how you think about the coast — and it's right there on the walk, waiting." }
+    { "type": "p", "text": "Whether you come for the history, the monuments or that view of headstones against endless ocean, Waverley rewards a slow wander. It's one of those Bondi places that quietly reframes the coast — right there on the walk, waiting." }
   ]
 }

@@ -293,7 +293,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Here's the short version so you can get on with your day: in Sydney, clocks go forward one hour on the first Sunday of October, at 2:00am, which instantly becomes 3:00am. You lose an hour of sleep but gain a summer's worth of long, golden evenings — and down here at Bondi, that trade is the best deal going. This is my quick local guide to the October clock change and how to make it work for your trip."
+        "text": "Here's the short version so you can get on with your day: in Sydney, clocks go forward one hour on the first Sunday of October, at 2:00am, which instantly becomes 3:00am. You lose an hour of sleep but gain a summer's worth of long, golden evenings — and down here at Bondi, that trade is the best deal going. Here's my quick local guide to making the October clock change work for your trip."
       },
       {
         "type": "quickFacts",
@@ -308,7 +308,7 @@
           },
           {
             "label": "In 2026",
-            "value": "Sunday 5 October (check NSW Government for the exact year)"
+            "value": "Sunday 4 October (check NSW Government for the exact year)"
           },
           {
             "label": "Time zone",
@@ -326,7 +326,7 @@
       },
       {
         "type": "p",
-        "text": "Daylight saving in New South Wales runs from the first Sunday in October to the first Sunday in April, and the switch always happens in the small hours of Sunday morning so it barely interrupts anyone's week. At 2:00am you skip straight to 3:00am. The original version of this article was written for 1 October 2023, but the rule is the same every year — only the calendar date shifts. For the coming season the NSW Government has it landing on the first Sunday of October, which falls on Sunday 5 October in 2026 (handily, right on the October long weekend). If you want the exact date for the year you're visiting, the NSW Government daylight saving page is the source I trust."
+        "text": "Daylight saving in New South Wales runs from the first Sunday in October to the first Sunday in April, and the switch always happens in the small hours of Sunday morning so it barely interrupts anyone's week. At 2:00am you skip straight to 3:00am. The original version of this article was written for 1 October 2023, but the rule is the same every year — only the calendar date shifts. For the coming season the NSW Government has it landing on the first Sunday of October, which falls on Sunday 4 October in 2026 (handily, right on the October long weekend). If you want the exact date for the year you're visiting, the NSW Government daylight saving page is the source I trust."
       },
       {
         "type": "callout",
@@ -361,13 +361,13 @@
       },
       {
         "type": "p",
-        "text": "Your phone, laptop and most modern devices update themselves automatically overnight — so does the clock in a hire car built in the last decade. The things that catch people out are the analogue holdouts: a wristwatch, an oven clock, a hotel-room alarm, or an older car dashboard. Give them a nudge forward on the Sunday and you're sorted."
+        "text": "Your phone, laptop and most modern devices update themselves automatically overnight, as does a recent hire car. The things that catch people out are the analogue holdouts: a wristwatch, an oven clock, a hotel-room alarm, an older car dashboard. Nudge them forward on the Sunday and you're sorted."
       },
       {
         "type": "callout",
         "tone": "warning",
         "title": "Double-check time-sensitive bookings",
-        "text": "The morning of the change is the classic trap for early flights, airport transfers, tours and ferries. Devices usually handle it, but if you're relying on a manual alarm, set two — and confirm any pre-booked pickup is working to the new local time."
+        "text": "The morning of the change is the classic trap for early flights, airport transfers, tours and ferries. Devices usually handle it, but if you're relying on a manual alarm, set two — and confirm any pre-booked pickup runs on the new local time."
       },
       {
         "type": "p",
@@ -378,7 +378,7 @@
         "items": [
           {
             "q": "When do the clocks change in Sydney in October?",
-            "a": "On the first Sunday of October, clocks go forward one hour at 2:00am, becoming 3:00am. The exact date shifts each year — it's Sunday 5 October in 2026 — so confirm on the NSW Government daylight saving page for the year you're visiting."
+            "a": "On the first Sunday of October, clocks go forward one hour at 2:00am, becoming 3:00am. The exact date shifts each year — it's Sunday 4 October in 2026 — so confirm on the NSW Government daylight saving page for the year you're visiting."
           },
           {
             "q": "Do I move the clocks forward or back in October?",
@@ -400,10 +400,10 @@
       },
       {
         "type": "p",
-        "text": "So set your watch forward, forgive yourself the lost hour, and come find me on the sand around six. Daylight saving is the unofficial start of Bondi's best season — and there's no better place to spend a long summer evening."
+        "text": "So set your watch forward, forgive yourself the lost hour, and come find me on the sand around six. Daylight saving is the unofficial start of Bondi's best season — and there's nowhere better to spend a long summer evening."
       }
     ],
-    "wordCount": 909,
+    "wordCount": 891,
     "sources": [
       {
         "label": "NSW Government — Daylight saving",
@@ -1282,7 +1282,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "If you only do one thing at the southern end of Bondi, make it Icebergs — the cliff-hugging ocean pool where waves crash straight over the lap lanes and swimmers keep ploughing on regardless. It's part public swimming pool, part winter-swimming institution, and part fine-dining destination, and after years of living around the corner I still think it's the most photographed 50 metres of water in Australia. Here's how I'd tackle the whole complex: the pool, the bistro, and the famous dining room upstairs."
+        "text": "If you only do one thing at the southern end of Bondi, make it Icebergs — the cliff-hugging ocean pool where waves crash straight over the lap lanes and swimmers plough on regardless. It's part public pool, part winter-swimming institution, part fine-dining destination, and after years living around the corner I still rate it the most photographed 50 metres of water in Australia. Here's how I'd tackle the whole complex: pool, bistro, and the famous dining room upstairs."
       },
       {
         "type": "quickFacts",
@@ -1315,21 +1315,21 @@
       },
       {
         "type": "p",
-        "text": "The Bondi Baths sit carved into the rocks at the beach's quiet southern corner, and the setup is simple: a full 50-metre saltwater lap pool refreshed by the ocean, plus a smaller shallow pool that's perfect for little kids. Qualified lifeguards are on duty during opening hours year-round, there's a sauna and hot showers, and towel and locker hire if you've turned up empty-handed. On a big swell the sea washes right over the eastern wall, which is exactly why the underwater footage from here goes viral every winter."
+        "text": "The Bondi Baths are carved into the rocks at the beach's quiet southern corner, and the setup is simple: a full 50-metre saltwater lap pool refreshed by the ocean, plus a smaller shallow pool that's perfect for little kids. Lifeguards are on duty during opening hours, there's a sauna and hot showers, and towel and locker hire if you've turned up empty-handed. On a big swell the sea washes over the eastern wall — which is why the underwater footage from here goes viral every winter."
       },
       {
         "type": "p",
-        "text": "Admission is refreshingly cheap for something this iconic — think a small single-visit fee with concession rates for children and families, and multi-visit passes if you're staying a while. Because prices and hours do shift seasonally, and the pool closes on Thursdays for cleaning (with summer exceptions when the tides allow), I always tell people to check the official Pool Conditions page the morning of their swim rather than trust a number they read online months ago."
+        "text": "Admission is refreshingly cheap for something this iconic — a small single-visit fee, with concession rates for kids and families and multi-visit passes if you're staying a while. Prices and hours shift seasonally and the pool closes Thursdays for cleaning, so I always check the official Pool Conditions page the morning of a swim rather than trust a number read online months ago."
       },
       {
         "type": "localTip",
-        "text": "Go early. I love a 7am lap when the sun is coming up over the water and the pool is nearly empty — by mid-morning in summer the deck fills with sunbathers and the lanes get busy. The pool also closes for competitive swim-club events on some weekends, so a quick look at the club's site saves a wasted walk down the hill."
+        "text": "Go early. I love a 7am lap when the sun is coming up and the pool is nearly empty — by mid-morning in summer the deck fills with sunbathers and the lanes get busy. The pool also closes for swim-club events on some weekends, so check the club's site first."
       },
       {
         "type": "callout",
         "tone": "note",
         "title": "Pool and dining room are different bookings",
-        "text": "The swimming pool is walk-up entry (no booking). The upstairs Dining Room and Bar is a separate business with its own reservations — you don't need to swim to eat there, and you can't wander up in your swimmers for a table."
+        "text": "The pool is walk-up entry (no booking). The upstairs Dining Room and Bar is a separate business with its own reservations — you don't need to swim to eat there, but you can't wander up in your swimmers for a table."
       },
       {
         "type": "h2",
@@ -1337,7 +1337,7 @@
       },
       {
         "type": "p",
-        "text": "The Bondi Icebergs Swimming Club was founded in 1929 by a group of local lifesavers who wanted a way to stay fit through the cold months, and winter swimming has been the heart of the place ever since. Club membership famously hinges on a commitment to turning up and swimming right through the Sydney winter — the sort of stubborn, salty tradition that makes Bondi, Bondi. On the club's opening day each season, members still toss chunks of ice into the pool to properly earn the name. You don't have to be a member to swim, though; the pool is open to the public."
+        "text": "The Bondi Icebergs Swimming Club was founded in 1929 by local lifesavers who wanted to stay fit through the cold months, and winter swimming has been its heart ever since. Membership famously hinges on turning up to swim right through the Sydney winter — the stubborn, salty tradition that makes Bondi, Bondi. On opening day each season, members still toss chunks of ice into the pool to earn the name. You don't need to be a member to swim, though — the pool is open to all."
       },
       {
         "type": "h2",
@@ -1345,34 +1345,34 @@
       },
       {
         "type": "p",
-        "text": "There are really two ways to eat here, and people mix them up constantly. Upstairs is Icebergs Dining Room and Bar, the glass-walled modern-Italian restaurant opened by restaurateur Maurice Terzini back in 2002. It's a proper special-occasion room — floor-to-ceiling views straight down the length of the beach, a serious wine list, and prices to match. Book ahead, dress up a little, and aim for a window table at golden hour. Menus and sittings change often, so I check idrb.com for the current offering before I promise anyone a specific dish."
+        "text": "There are two ways to eat here, and people mix them up constantly. Upstairs is Icebergs Dining Room and Bar, the glass-walled modern-Italian restaurant opened by restaurateur Maurice Terzini in 2002. It's a proper special-occasion room — floor-to-ceiling views down the length of the beach, a serious wine list, and prices to match. Book ahead, dress up a little, and aim for a window table at golden hour. Menus change often, so I check idrb.com for the current offering before promising anyone a specific dish."
       },
       {
         "type": "p",
-        "text": "If you want the same view for a fraction of the price, the club's own bistro downstairs is the local's move — relaxed, family-friendly and easy on the wallet. Between a swim, a sauna, a casual lunch and a sunset drink, you can happily lose a whole day here."
+        "text": "If you want the same view for a fraction of the price, the club's own bistro downstairs is the local's move — relaxed, family-friendly and easy on the wallet."
       },
       {
         "type": "localTip",
-        "text": "For the postcard photo of the pool with the whole beach curving behind it, walk five minutes up onto the start of the Bondi to Bronte coastal path. That elevated angle from the clifftop is the shot everyone recognises — and it's completely free."
+        "text": "For the postcard photo of the pool with the whole beach curving behind it, walk up onto the start of the Bondi to Bronte coastal path. That elevated clifftop angle is the shot everyone recognises — and it's free."
       },
       {
         "type": "faq",
         "items": [
           {
             "q": "Do I have to be a member to swim at Bondi Icebergs?",
-            "a": "No. The pool is open to the public for a modest entry fee, with concession rates for children and families and multi-visit passes available. Membership of the Icebergs Swimming Club is a separate thing tied to winter-swimming commitments — you don't need it just to have a swim."
+            "a": "No. The pool is open to the public for a modest entry fee, with concession rates for kids and families. Membership of the Icebergs Swimming Club is a separate thing tied to winter-swimming commitments — you don't need it to swim."
           },
           {
             "q": "How much does the Icebergs pool cost and what are the hours?",
-            "a": "It's inexpensive — a small single-visit fee with cheaper rates for kids and families. Because prices and opening hours change seasonally, and the pool closes on Thursdays for cleaning (tides permitting in summer), check the official Pool Conditions page at icebergs.com.au before you go."
+            "a": "It's inexpensive — a small single-visit fee with cheaper rates for kids and families. Because prices and hours change seasonally, and the pool closes Thursdays for cleaning (tides permitting in summer), check the official Pool Conditions page at icebergs.com.au before you go."
           },
           {
             "q": "Is the swimming pool the same as the famous restaurant?",
-            "a": "No — they're separate. The Dining Room and Bar is the upmarket modern-Italian restaurant upstairs (book at idrb.com), while the pool is the walk-up ocean baths below. There's also a more casual, cheaper club bistro if you just want lunch with the view."
+            "a": "No — they're separate. The Dining Room and Bar is the upmarket modern-Italian restaurant upstairs (book at idrb.com); the pool is the walk-up ocean baths below. There's also a casual, cheaper club bistro if you just want lunch with the view."
           },
           {
             "q": "Is Bondi Icebergs good for kids?",
-            "a": "Yes. Alongside the 50-metre lap pool there's a smaller, shallower children's pool, and lifeguards are on duty during opening hours. The casual bistro is family-friendly too — just note the pool can get crowded on hot summer afternoons."
+            "a": "Yes. Alongside the 50-metre lap pool there's a smaller, shallower children's pool, and lifeguards are on duty during opening hours. The casual bistro is family-friendly too, though the pool gets crowded on hot summer afternoons."
           },
           {
             "q": "When is the pool closed?",
@@ -1382,10 +1382,10 @@
       },
       {
         "type": "p",
-        "text": "That's the whole complex in a nutshell: swim the ocean pool, warm up in the sauna, grab a bistro lunch, then linger over a drink upstairs as the light turns gold over Bondi. Few places let you do all of that in one spot — which is exactly why Icebergs has stayed my favourite corner of the beach."
+        "text": "That's the whole complex: swim the ocean pool, warm up in the sauna, grab a bistro lunch, then linger over a drink as the light turns gold over Bondi — which is exactly why Icebergs stays my favourite corner of the beach."
       }
     ],
-    "wordCount": 1007,
+    "wordCount": 892,
     "sources": [
       {
         "label": "Bondi Icebergs Club — Pool Conditions",
@@ -3369,7 +3369,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "If you're thinking about moving to Bondi, here's the honest version from someone who lives here: it's every bit as good as the postcard, but you trade a chunk of your budget for the privilege of waking up near that water. Bondi is a small, walkable beachside pocket of Sydney's eastern suburbs — surf out front, cafes on every corner, and a genuine village feel underneath the fame. This is my local's guide to what daily life is actually like, and what to sort out before you sign a lease."
+        "text": "If you're thinking about moving to Bondi, here's the honest version from someone who lives here: it's as good as the postcard, but you trade a real chunk of your budget for waking up near that water. Bondi is a small, walkable beachside pocket of Sydney's eastern suburbs — surf out front, cafes everywhere, a village feel under the fame. Here's my local's guide to daily life here, and what to sort before you sign a lease."
       },
       {
         "type": "quickFacts",
@@ -3398,15 +3398,15 @@
       },
       {
         "type": "p",
-        "text": "The thing people underestimate is how much of Bondi life happens outdoors. A normal morning here means a swim or a walk before work — I'll often do the Bondi to Coogee coastal walk as far as Bronte and back before I've properly woken up. Weekends revolve around the beach, the ocean pools, and the markets. The famous Bondi Markets run at Bondi Beach Public School on Sundays (and a farmers' market on Saturdays); check bondimarkets.com.au for current times before you head down."
+        "text": "What people underestimate is how much of Bondi life happens outdoors. A normal morning means a swim or a walk before work — I'll often do the Bondi to Coogee coastal walk as far as Bronte and back before I've woken up. Weekends revolve around the beach, the ocean pools and the markets. The Bondi Markets run at Bondi Beach Public School on Sundays, with a farmers' market on Saturdays; check bondimarkets.com.au for current times."
       },
       {
         "type": "p",
-        "text": "It's a health-conscious, active, slightly showy crowd — lots of joggers, ocean swimmers, yoga, and coffee culture taken very seriously. If that's your speed, you'll feel at home fast. If you want quiet suburbia, Bondi probably isn't it: it's busy, especially in summer, and the beach belongs to the whole city on a hot Saturday."
+        "text": "It's a health-conscious, active, slightly showy crowd — joggers, ocean swimmers, yoga, and coffee culture taken seriously. If that's your speed, you'll settle in fast. If you want quiet suburbia, Bondi isn't it: it's busy in summer, and the beach belongs to the whole city on a hot Saturday."
       },
       {
         "type": "localTip",
-        "text": "Live one street back from Campbell Parade rather than directly on it. You keep the two-minute beach walk but escape the tour buses, the 3am revellers and the summer traffic that idles along the beachfront strip."
+        "text": "Live one street back from Campbell Parade rather than directly on it. You keep the two-minute beach walk but escape the tour buses, the 3am revellers and the summer traffic on the beachfront strip."
       },
       {
         "type": "h2",
@@ -3419,15 +3419,15 @@
       {
         "type": "list",
         "items": [
-          "North Bondi — quieter, more residential and family-leaning, up the calmer northern end of the beach near the golf club and Ben Buckler.",
-          "Bondi Beach / Campbell Parade — the heart of the action, walk-to-sand living, best if you want cafes and nightlife on your doorstep.",
-          "Bondi Road corridor — the everyday high street: grocers, pubs, cheaper eats, and easier buses toward Bondi Junction.",
-          "Tamarama & Bronte — a short walk south along the coastal path, leafier and more low-key while still being on the water."
+          "North Bondi — quieter and family-leaning, near the golf club and Ben Buckler at the calm northern end.",
+          "Bondi Beach / Campbell Parade — the heart of the action, walk-to-sand living with cafes and nightlife on your doorstep.",
+          "Bondi Road corridor — the everyday high street: grocers, pubs, cheaper eats and easier buses to Bondi Junction.",
+          "Tamarama & Bronte — a short walk south along the coastal path, leafier and lower-key while still on the water."
         ]
       },
       {
         "type": "p",
-        "text": "My advice: rent for six months before you commit to buying anywhere. Which end of Bondi suits you depends entirely on whether you prioritise nightlife, family calm, or transport."
+        "text": "My advice: rent for six months before you commit to buying. Which end of Bondi suits you depends on whether you prioritise nightlife, family calm, or transport."
       },
       {
         "type": "h2",
@@ -3435,13 +3435,13 @@
       },
       {
         "type": "p",
-        "text": "There's no way around it — Bondi is expensive, and beachfront apartments command a serious premium that eases the further inland you go. Rents and sale prices move constantly, so I won't quote a number that'll be stale next month; for current figures pull up the Bondi Beach suburb profile on Domain or realestate.com.au, which track live medians for units and houses. The rental market here is competitive, so come to inspections with your application, ID, references and payslips ready to lodge on the spot."
+        "text": "There's no way around it — Bondi is expensive, and beachfront apartments command a premium that eases the further inland you go. Rents and prices move constantly, so I won't quote a number that'll be stale next month; for current figures pull up the Bondi Beach suburb profile on Domain or realestate.com.au. The rental market is competitive, so come to inspections with your application, ID, references and payslips ready to lodge on the spot."
       },
       {
         "type": "callout",
         "tone": "note",
         "title": "Budget beyond the rent",
-        "text": "Groceries, dining out and gym/wellness memberships all run higher in Bondi than in Sydney's outer suburbs. Cook at home, use the ALDI and Coles on Bondi Road, and shop the markets for produce to keep the lifestyle affordable."
+        "text": "Groceries, dining out and gym or wellness memberships all run higher in Bondi than in Sydney's outer suburbs. Cook at home, use the supermarkets on Bondi Road, and shop the markets for produce to keep costs down."
       },
       {
         "type": "h2",
@@ -3449,43 +3449,43 @@
       },
       {
         "type": "p",
-        "text": "Most locals I know either don't own a car or barely use one. The 333 (plus the 380/381/382) runs frequently down Bondi Road to the city, and Bondi Junction is the transport hub — from there the T4 Eastern Suburbs & Illawarra train line gets you into the CBD in well under 20 minutes. Tap on and off with any contactless card or Opal; check transportnsw.info for live timetables and fares. Parking near the beach is genuinely painful and residents need a Waverley Council parking permit, so factor that in before you bring a car."
+        "text": "Most locals I know don't own a car, or barely use one. Frequent buses run down Bondi Road to the city — the 333 is the express — and Bondi Junction is the transport hub, where the T4 Eastern Suburbs & Illawarra train line reaches the CBD in well under 20 minutes. Tap on with any contactless card or Opal, and check transportnsw.info for live timetables and fares. Parking near the beach is painful and residents need a Waverley Council permit, so factor that in before you bring a car."
       },
       {
         "type": "localTip",
-        "text": "If you do keep a car, apply for your residential parking permit through Waverley Council as soon as your lease starts — you'll need proof of address, and beachside parking without one is a fast track to fines in summer."
+        "text": "If you keep a car, apply for your Waverley Council residential parking permit as soon as your lease starts — you'll need proof of address, and beachside parking without one is a fast track to fines in summer."
       },
       {
         "type": "faq",
         "items": [
           {
             "q": "Is it expensive to live in Bondi?",
-            "a": "Yes — Bondi is one of Sydney's pricier suburbs, with a premium on anything close to the beach. Rents and prices ease as you move inland toward Bondi Junction. For current medians, check live suburb data on Domain or realestate.com.au rather than any fixed figure, since they shift month to month."
+            "a": "Yes — it's one of Sydney's pricier suburbs, with a premium on anything close to the beach that eases as you move inland toward Bondi Junction. For current medians, check live suburb data on Domain or realestate.com.au rather than any fixed figure."
           },
           {
             "q": "Do I need a car if I live in Bondi?",
-            "a": "Not really. Frequent buses (the 333 and others) and the T4 train from nearby Bondi Junction cover most trips, and the suburb is very walkable. Parking is limited and requires a Waverley Council resident permit, so many locals skip car ownership altogether."
+            "a": "Not really. Frequent buses and the T4 train from nearby Bondi Junction cover most trips, and the suburb is walkable. Parking is limited and needs a Waverley Council resident permit, so many locals skip car ownership."
           },
           {
             "q": "How far is Bondi from the Sydney CBD?",
-            "a": "Bondi Beach sits about 7km east of the city centre. Door to door it's roughly 30–40 minutes by bus, or faster if you take a bus to Bondi Junction and switch to the T4 train. Check transportnsw.info for current times."
+            "a": "Bondi Beach sits about 7km east of the city centre — roughly 30–40 minutes door to door by bus, or faster if you switch to the T4 train at Bondi Junction. Check transportnsw.info for current times."
           },
           {
             "q": "Which part of Bondi is best to live in?",
-            "a": "It depends on your priorities. North Bondi is quieter and family-friendly, Campbell Parade puts you in the middle of the cafes and nightlife, the Bondi Road corridor is the practical everyday high street, and Tamarama or Bronte offer a calmer coastal feel a short walk south."
+            "a": "It depends on your priorities. North Bondi is quieter and family-friendly, Campbell Parade puts you among the cafes and nightlife, the Bondi Road corridor is the everyday high street, and Tamarama or Bronte offer a calmer coastal feel a short walk south."
           },
           {
             "q": "What's the best way to find a rental in Bondi?",
-            "a": "Watch Domain and realestate.com.au daily, and come to inspections with a complete application ready to submit — the market moves quickly. A local agent who knows the eastern suburbs can also flag listings before they're widely advertised."
+            "a": "Watch Domain and realestate.com.au daily, and come to inspections with a complete application ready to submit — the market moves quickly. A local agent who knows the eastern suburbs can also flag listings early."
           }
         ]
       },
       {
         "type": "p",
-        "text": "Moving to Bondi isn't the cheapest decision you'll make, but for the right person it's the easiest to justify: you're paying for a life lived outdoors, salt water on tap, and a community that genuinely uses its beach every single day. Rent first, pick your end of the sand, and welcome to the neighbourhood."
+        "text": "Moving to Bondi isn't the cheapest decision you'll make, but for the right person it's the easiest to justify: you're paying for a life lived outdoors, salt water on tap, and a community that uses its beach every day. Rent first, pick your end of the sand, and welcome to the neighbourhood."
       }
     ],
-    "wordCount": 1007,
+    "wordCount": 919,
     "sources": [
       {
         "label": "Transport for NSW",
@@ -5209,11 +5209,11 @@
     "blocks": [
       {
         "type": "p",
-        "text": "If you want the honest answer to where to snorkel around Bondi, it's this: Bondi Beach itself is a surf beach, not a snorkelling one, so I send people a short walk south to the calm, protected coves — Clovelly and Gordons Bay above all, with Shelly Beach at Manly as the trophy day trip. Those are the spots where the water goes glassy, the wave energy drops away, and you'll actually see fish, rays and the famous blue groper cruising past your mask."
+        "text": "The honest answer to where to snorkel around Bondi: Bondi Beach itself is a surf beach, not a snorkelling one, so I send people a short walk south to the calm, protected coves — Clovelly and Gordons Bay above all, with Shelly Beach at Manly as the trophy day trip. Those are the spots where the water goes glassy and you'll see fish, rays and the blue groper cruising past your mask."
       },
       {
         "type": "p",
-        "text": "I've pulled on flippers at all of these over the years, and the pattern never changes: the sheltered bays reward you, the open surf beaches hand you a mouthful of sand. Here's where I go, and how to get the most out of each."
+        "text": "I've snorkelled all of these over the years, and the pattern never changes: the sheltered bays reward you, the surf beaches hand you a mouthful of sand."
       },
       {
         "type": "quickFacts",
@@ -5246,15 +5246,15 @@
       },
       {
         "type": "p",
-        "text": "Clovelly is where I take anyone who's nervous. It's a narrow inlet with concrete platforms down both sides, and those rock-and-concrete walls soak up the swell so the channel behind them stays calm even on a choppy day. That makes it one of the best beginner snorkels in Sydney — you can wade in, keep the shore close, and still be floating over rocky reef and seagrass in a few kicks."
+        "text": "Clovelly is where I take anyone who's nervous. It's a narrow inlet with concrete platforms down both sides that soak up the swell, so the channel behind them stays calm even on a choppy day. That makes it one of the best beginner snorkels in Sydney — wade in, keep the shore close, and you're over rocky reef and seagrass in a few kicks."
       },
       {
         "type": "p",
-        "text": "The star here is the resident eastern blue groper — locals have long had one they call Bluey. These big, curious fish are genuinely friendly and will often come and have a look at you. A quick but important note: the eastern blue groper is protected in NSW and Clovelly sits inside the Bronte-Coogee Aquatic Reserve, so it's look-don't-touch. Alongside the gropers you'll spot wrasse, mado, the odd stingray gliding over the sand and, if you're patient around the crevices, an octopus."
+        "text": "The star is the eastern blue groper — big, curious fish, often unbothered by snorkellers, that will come and look at you. Note it's protected in NSW and Clovelly sits inside the Bronte-Coogee Aquatic Reserve, so it's look-don't-touch. Alongside them you'll spot wrasse, the odd stingray over the sand and, if you're patient around the crevices, an octopus."
       },
       {
         "type": "localTip",
-        "text": "Go on a rising or high tide and aim for a low-swell morning before the wind gets up — that's when Clovelly's water is clearest. Enter down the steps or ramp rather than trying to climb the concrete edges when it's wet, and always give the groper space rather than chasing it."
+        "text": "Aim for a low-swell morning before the wind gets up, ideally on a rising or high tide — that's when Clovelly's water is clearest. Use the steps or ramp rather than the wet concrete edges, and give the groper space."
       },
       {
         "type": "h2",
@@ -5262,17 +5262,17 @@
       },
       {
         "type": "p",
-        "text": "A little further along the Bondi-to-Coogee coastal walk, Gordons Bay is the one snorkel that feels like a proper expedition. It's also part of the Bronte-Coogee Aquatic Reserve, and it's home to an underwater nature trail — a marked route of roughly 600 metres laid out along the seafloor by a chain of concrete drums, each with a plaque about the marine life around it. You follow it like a self-guided tour through sandy patches, rocky reef and swaying kelp."
+        "text": "A little further along the Bondi-to-Coogee coastal walk, Gordons Bay is the one snorkel that feels like a proper expedition. It's also part of the Bronte-Coogee Aquatic Reserve, with an underwater nature trail — a marked route along the seafloor laid out by concrete drums, each with a plaque about the marine life. You follow it like a self-guided tour through sandy patches, rocky reef and swaying kelp."
       },
       {
         "type": "p",
-        "text": "Because it's a reserve, the life here is abundant — more gropers, old wife fish, wrasse and plenty of smaller reef fish. It's a touch more exposed and deeper than Clovelly, so I'd file it under 'confident snorkeller' rather than 'first-timer', and I'd only go on a calm day. The bay has no sand-beach shallows to speak of, so you're straight into deeper water off the boat ramp."
+        "text": "Because it's a reserve, the life here is abundant — gropers, old wife, wrasse and smaller reef fish. It's more exposed and deeper than Clovelly, so it's one for confident snorkellers rather than first-timers, and only on a calm day. There are no sand shallows — you're straight into deeper water off the boat ramp."
       },
       {
         "type": "callout",
         "tone": "warning",
         "title": "Read the water first",
-        "text": "These are ocean sites with no dedicated snorkelling lifeguard. Never snorkel alone, check the swell and wind before you go, and if the water looks stirred-up or surgey around the rocks, skip it. Conditions change fast on this coast."
+        "text": "These are ocean sites with no dedicated snorkelling lifeguard. Never snorkel alone, check the swell and wind first, and if the water looks stirred-up or surgey around the rocks, skip it."
       },
       {
         "type": "h2",
@@ -5280,27 +5280,27 @@
       },
       {
         "type": "p",
-        "text": "A few more spots round out the map, depending on your mood and the swell:"
+        "text": "A few more spots round out the map, depending on the swell:"
       },
       {
         "type": "list",
         "items": [
-          "Bronte — the ocean pool and the sheltered corner beside it give you a controlled place to practise, with small fish around the rock edges. The beach itself has a strong rip, so stay in the calm end.",
-          "Tamarama — small, pretty and rocky, but it's a powerful little beach with serious surf. Only worth a snorkel on a genuinely flat day, and never a beginner spot.",
-          "Bondi's northern end — near the rock shelf and Icebergs pool you can sometimes find calmer water and small fish, but honestly it's the weakest snorkel of the bunch; treat it as a bonus, not a destination.",
-          "Shelly Beach, Manly — a ferry-and-a-walk away, but the payoff is huge. It sits in the Cabbage Tree Bay Aquatic Reserve, faces back toward the harbour so it's beautifully sheltered, and teems with fish. If you only do one 'big' snorkel on your trip, make it this."
+          "Bronte — the ocean pool and the sheltered corner beside it give you a controlled place to practise, with small fish around the rock edges. The beach has a strong rip, so stay in the calm end.",
+          "Tamarama — small, pretty and rocky, but a powerful beach with serious surf. Only worth a snorkel on a genuinely flat day, never for beginners.",
+          "Bondi's northern end — near the rock shelf and Icebergs pool you can sometimes find calmer water and small fish, but it's the weakest of the bunch; a bonus, not a destination.",
+          "Shelly Beach, Manly — a ferry-and-a-walk away, but the payoff is huge. It sits in the Cabbage Tree Bay Aquatic Reserve, sheltered and teeming with fish. If you do one 'big' snorkel on your trip, make it this."
         ]
       },
       {
         "type": "p",
-        "text": "One thing I'll gently correct from the guidebooks: you won't find tropical coral reefs down here. Sydney's underwater world is temperate — kelp forests, sponge gardens, sea urchins and rocky reef. It's less postcard-technicolour than the Great Barrier Reef and, to me, far more interesting, because the fish are big, bold and close."
+        "text": "One thing I'll gently correct: you won't find tropical coral down here. Sydney's underwater world is temperate — kelp forests, sponge gardens, sea urchins and rocky reef. Less postcard-technicolour than the Great Barrier Reef, but to me far more interesting, because the fish are big, bold and close."
       },
       {
         "type": "faq",
         "items": [
           {
             "q": "Can you actually snorkel at Bondi Beach itself?",
-            "a": "Not really — Bondi is a surf beach, so visibility is usually poor and the shore break makes it hard work. For clear water and marine life, walk south to Clovelly or Gordons Bay, both sheltered bays in the Bronte-Coogee Aquatic Reserve."
+            "a": "Not really — Bondi is a surf beach, so visibility is usually poor and the shore break makes it hard work. For clear water and marine life, walk south to Clovelly or Gordons Bay in the Bronte-Coogee Aquatic Reserve."
           },
           {
             "q": "Where's the best snorkelling for beginners near Bondi?",
@@ -5308,24 +5308,24 @@
           },
           {
             "q": "Will I see the blue groper, and can I touch it?",
-            "a": "You've got a good chance at Clovelly and Gordons Bay, where friendly resident gropers often approach snorkellers. The eastern blue groper is protected in NSW and these are marine reserves, so it's strictly look-don't-touch — give it space and never feed or handle it."
+            "a": "You've a good chance at Clovelly and Gordons Bay, where gropers often approach snorkellers. The eastern blue groper is protected in NSW and these are marine reserves, so it's strictly look-don't-touch — give it space and never feed or handle it."
           },
           {
             "q": "When is the water clearest for snorkelling?",
-            "a": "Aim for a low-swell, low-wind morning on a rising or high tide. After a big swell or heavy rain the water turns murky, so pick a calm, settled day for the best visibility."
+            "a": "Aim for a low-swell, low-wind morning on a rising or high tide; after a big swell or heavy rain the water turns murky."
           },
           {
             "q": "Is Shelly Beach worth the trip from Bondi?",
-            "a": "Yes, if you want the best single snorkel in Sydney. It's in the Cabbage Tree Bay Aquatic Reserve at Manly, sheltered and full of fish — a ferry ride and short walk, but well worth the effort."
+            "a": "Yes, if you want the best single snorkel in Sydney. It's in the Cabbage Tree Bay Aquatic Reserve at Manly — sheltered, full of fish, and well worth the ferry ride and short walk."
           }
         ]
       },
       {
         "type": "p",
-        "text": "Whichever you choose, treat these reserves gently — no touching, no taking, no standing on the reef. They stay this good because people look after them. Bring a mate, watch the water, and go find your own Bluey."
+        "text": "Whichever you choose, treat these reserves gently — no touching, no taking, no standing on the reef. They stay this good because people look after them. Bring a mate, watch the water, and go say hello to a groper."
       }
     ],
-    "wordCount": 1046,
+    "wordCount": 896,
     "sources": [
       {
         "label": "NSW DPI — Bronte-Coogee Aquatic Reserve",
@@ -6416,7 +6416,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "If you only have one day at Bondi, spend the morning swimming between the flags on the south end, walk the cliff path toward Tamarama before lunch, and save sunset for the grassy hill above the Icebergs pool — that's the version of Bondi I send everyone off with, and it hits the famous stuff and the quiet corners in a single loop. I've lived and wandered this stretch of coast for years, so this is my honest, local-first guide: the must-see spots that earn the hype, the hidden gems most visitors walk straight past, and the practical bits that make the difference between a good day and a great one."
+        "text": "If you only have one day at Bondi, spend the morning swimming between the flags at the south end, walk the cliff path toward Tamarama before lunch, and save sunset for the grassy hill above the Icebergs pool — that single loop hits the famous stuff and the quiet corners both. I've wandered this coast for years, so here's my honest, local-first guide: the must-see spots that earn the hype, the hidden gems most visitors walk straight past, and the practical bits that make the day."
       },
       {
         "type": "quickFacts",
@@ -6449,15 +6449,15 @@
       },
       {
         "type": "p",
-        "text": "Start where Bondi shows off. The southern end, near the Bondi Icebergs, is where the postcard photos happen — the ocean pool sits right on the rocks and the waves wash straight into it at high tide. Icebergs is a working swimming club with a public pool, so anyone can go for a lap swim; session times and entry can change with the seasons and events, so I'd check the Icebergs website before you build your morning around it."
+        "text": "Start where Bondi shows off. The southern end, near the Bondi Icebergs, is where the postcard photos happen — the ocean pool sits right on the rocks and the waves wash straight into it at high tide. Icebergs is a working swimming club with a public pool anyone can swim in, but session times and entry change with the seasons, so check the Icebergs website before you build your morning around it."
       },
       {
         "type": "p",
-        "text": "From there, the Bondi to Coogee Coastal Walk is the one thing I'd never let a first-timer skip. It runs roughly 6 km along the cliff tops, linking Bondi to Tamarama, Bronte, Clovelly and finally Coogee, with sea views the whole way. You don't have to do all of it — even the first stretch to Tamarama and Bronte is worth the trip, and there are ocean pools and cafés to stop at along the route. Wear proper shoes, bring water, and go early in summer before the sun and the crowds arrive."
+        "text": "From there, the Bondi to Coogee Coastal Walk is the one thing I'd never let a first-timer skip. It runs roughly 6 km along the cliff tops, linking Bondi to Tamarama, Bronte, Clovelly and Coogee, with sea views the whole way. You don't have to do all of it — even the first stretch to Bronte is worth it, with ocean pools and cafés to stop at. Wear proper shoes, bring water, and go early in summer."
       },
       {
         "type": "p",
-        "text": "Back at the beach itself, the Bondi Pavilion is the grand old building on the promenade — a community and cultural hub with event spaces after a major restoration. Wander the promenade for the Instagram-famous graffiti wall, grab a coffee, and just watch Bondi be Bondi."
+        "text": "Back at the beach, the Bondi Pavilion is the grand old building on the promenade — a community and cultural hub with event spaces since its restoration. Wander the promenade for the famous graffiti wall, grab a coffee, and just watch Bondi be Bondi."
       },
       {
         "type": "h2",
@@ -6465,7 +6465,7 @@
       },
       {
         "type": "p",
-        "text": "Most visitors cluster in the middle of the beach and never move. The locals I know drift to the ends. North Bondi is calmer and more relaxed, with the free North Bondi ocean pools (the \"kiddie pools\") tucked into the rocks — lovely for families and gentler swimming when the surf's up. It's also my pick for a quiet coffee away from the Campbell Parade bustle."
+        "text": "Most visitors cluster in the middle of the beach and never move; the locals I know drift to the ends. North Bondi is calmer, with the free ocean pools (the \"kiddie pools\") tucked into the rocks — lovely for families and gentler swimming when the surf's up, and my pick for a quiet coffee away from the Campbell Parade bustle."
       },
       {
         "type": "li",
@@ -6473,7 +6473,7 @@
       },
       {
         "type": "li",
-        "text": "The laneways and walls behind Campbell Parade, where Bondi's ever-changing street art lives. It's refreshed constantly, so no two visits look the same."
+        "text": "The laneways and walls behind Campbell Parade, where Bondi's ever-changing street art lives — no two visits look the same."
       },
       {
         "type": "li",
@@ -6485,7 +6485,7 @@
       },
       {
         "type": "localTip",
-        "text": "Come on a weekday if you possibly can. Bondi on a summer Saturday is a different animal — parking is brutal and the sand fills fast. Midweek mornings you get the same beach with half the people, and the cafés aren't slammed."
+        "text": "Come on a weekday if you can. Bondi on a summer Saturday is a different animal — parking is brutal and the sand fills fast. Midweek mornings you get the same beach with half the people."
       },
       {
         "type": "h2",
@@ -6493,17 +6493,17 @@
       },
       {
         "type": "p",
-        "text": "There's no train directly to the beach. The usual route is a train to Bondi Junction, then a short bus (the 333 or 380) down to Campbell Parade — check Transport for NSW for live timetables and to tap on with an Opal card or contactless card. Driving is possible but parking near the sand is limited and metered, so I only drive here off-peak."
+        "text": "There's no train to the sand itself. Take a train to Bondi Junction, then a short bus (the 333 or 380) down to Campbell Parade — check Transport for NSW for live timetables and to tap on with an Opal or contactless card. Parking near the beach is limited and metered, so I only drive here off-peak."
       },
       {
         "type": "callout",
         "tone": "warning",
         "title": "Swim between the flags",
-        "text": "Bondi has real rip currents. Always swim between the red-and-yellow flags, where lifeguards are watching. If you're ever caught in a rip, don't fight it — stay calm, raise an arm for help, and float or swim parallel to the beach until you're free of it."
+        "text": "Bondi has real rip currents. Always swim between the red-and-yellow flags, where lifeguards are watching. If you're caught in a rip, don't fight it — stay calm, raise an arm for help, and float or swim parallel to the beach until you're free."
       },
       {
         "type": "p",
-        "text": "Bondi is patrolled by professional lifeguards year-round, backed by volunteer surf lifesavers in the busy months, but the ocean still deserves respect — conditions change quickly and the north end can be deceptively strong. If in doubt, ask a lifeguard where it's safest to swim that day."
+        "text": "Bondi is patrolled by professional lifeguards year-round, backed by volunteer surf lifesavers in the busy months, but conditions change quickly — if in doubt, ask a lifeguard where it's safest to swim that day."
       },
       {
         "type": "faq",
@@ -6532,10 +6532,10 @@
       },
       {
         "type": "p",
-        "text": "That's my Bondi — famous for a reason, but far richer once you step past the middle of the beach. Do the walk, find the quiet ends, eat a street back from the sand, and give the ocean the respect it's due, and you'll leave with the real version of this place rather than just the postcard."
+        "text": "That's my Bondi — famous for a reason, but far richer once you step past the middle of the beach. Do the walk, find the quiet ends, eat a street back from the sand, and respect the ocean, and you'll leave with the real version, not just the postcard."
       }
     ],
-    "wordCount": 1029,
+    "wordCount": 932,
     "sources": [
       {
         "label": "Waverley Council — Bondi Beach",
@@ -7473,7 +7473,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Every year I get asked the same thing the moment the mornings turn crisp: when is whale season at Bondi? The short answer is roughly May to November, and the best part is you don't need a boat to see them — some of the finest whale watching in Sydney happens for free, right from the headlands either side of the beach. This is my local guide to when the humpbacks pass, where I stand to watch them, and how to give yourself the best chance of a breach."
+        "text": "Every year I get asked the same thing the moment the mornings turn crisp: when is whale season at Bondi? The short answer is roughly May to November — and the best part is you don't need a boat. Some of the finest whale watching in Sydney happens for free, right from the headlands either side of the beach. This is my local guide to when the humpbacks pass, where I stand to watch them, and how to give yourself the best chance of a breach."
       },
       {
         "type": "quickFacts",
@@ -7506,11 +7506,11 @@
       },
       {
         "type": "p",
-        "text": "Sydney's whale-watching season runs from around mid-May to early November as tens of thousands of humpbacks migrate along the NSW coast. It splits into two acts. On the northbound leg — roughly May to July — the whales are heading to warmer breeding waters and tend to travel with real purpose, so June and July are wonderful for sheer numbers. On the southbound return — around September to November — mothers bring their new calves back down toward Antarctic feeding grounds, often hugging the coastline and moving slower, which for my money makes for the most tender sightings of the year."
+        "text": "Sydney's whale-watching season runs from around mid-May to early November as tens of thousands of humpbacks migrate along the NSW coast. It splits into two acts. On the northbound leg — roughly May to July — the whales head to warmer breeding waters and travel with real purpose, so June and July are wonderful for sheer numbers. On the southbound return — around September to November — mothers bring their new calves back toward Antarctic feeding grounds, often hugging the coastline and moving slower, which for my money makes the most tender sightings of the year."
       },
       {
         "type": "localTip",
-        "text": "I always aim for the first couple of hours after sunrise on a clear, calm day. The light is behind you, the sea is glassier so spouts and breaches stand out, and the headland crowds haven't arrived yet. A gentle offshore wind and low swell make an enormous difference."
+        "text": "I always aim for the first couple of hours after sunrise on a clear, calm day. The light is behind you, the sea is glassier so spouts and breaches stand out, and the crowds haven't arrived. A gentle offshore wind and low swell make an enormous difference."
       },
       {
         "type": "h2",
@@ -7524,9 +7524,9 @@
         "type": "list",
         "items": [
           "Ben Buckler Point (North Bondi) — Bondi's most easterly headland and my first choice. It sits high above the water at the end of Ramsgate Avenue, with an open outlook over the Pacific where locals gather with binoculars all season.",
-          "Mackenzies Point — the small headland between Bondi and Tamarama on the coastal walk, with a wide southern view that's ideal for scanning.",
+          "Mackenzies Point — the small headland between Bondi and Tamarama, with a wide southern view that's ideal for scanning.",
           "Waverley Cemetery clifftop — a dramatic, unobstructed stretch of the coastal walk perched right above the ocean.",
-          "The Bondi to Bronte (and on to Coogee) coastal walk — not one spot but a whole string of them; I often walk slowly and stop wherever I see other people looking out to sea."
+          "The Bondi to Bronte (and on to Coogee) coastal walk — not one spot but a whole string of them; I walk slowly and stop wherever I see others looking out to sea."
         ]
       },
       {
@@ -7541,7 +7541,7 @@
       },
       {
         "type": "p",
-        "text": "There are no whale-watching cruises that leave from Bondi Beach itself — the boats depart from Sydney Harbour, mostly Circular Quay and Darling Harbour, and head out through the Heads to the migration route. If you'd rather get close to the action, a half-day tour is a lovely way to do it. I'd point you to the operators' own websites for current departure times, durations and prices, as these change every season — Destination NSW's Sydney.com whale-watching page is a good, up-to-date starting point for reputable operators."
+        "text": "No whale-watching cruises leave from Bondi Beach itself — the boats depart from Sydney Harbour, mostly Circular Quay and Darling Harbour, and head out through the Heads to the migration route. If you'd rather get close, a half-day tour is a lovely way to do it. For current departure times, durations and prices, which change every season, check the operators' own websites — Destination NSW's Sydney.com whale-watching page is a good starting point."
       },
       {
         "type": "h2",
@@ -7565,7 +7565,7 @@
       },
       {
         "type": "p",
-        "text": "Scan the horizon slowly and let your eyes settle rather than darting about; binoculars help enormously. Give it time — sightings come in waves, and the people who see the most are simply the ones who stayed longest. If the sea is rough and grey, spotting is genuinely hard, so I'll happily come back another morning rather than strain for nothing."
+        "text": "Scan the horizon slowly and let your eyes settle rather than darting about; binoculars help enormously. Give it time — sightings come in waves, and the people who see the most are the ones who stayed longest. If the sea is rough and grey, spotting is hard, so I'll happily come back another morning rather than strain for nothing."
       },
       {
         "type": "faq",
@@ -7580,7 +7580,7 @@
           },
           {
             "q": "What kind of whales pass Bondi?",
-            "a": "The vast majority are humpback whales, with occasional southern right whales. Tens of thousands of humpbacks migrate along the NSW coast each season."
+            "a": "The vast majority are humpback whales, with occasional southern right whales, and tens of thousands migrate along the NSW coast each season."
           },
           {
             "q": "Do whale-watching cruises leave from Bondi?",
@@ -7594,10 +7594,10 @@
       },
       {
         "type": "p",
-        "text": "There's something I never tire of about standing on Ben Buckler with the wind off the water, waiting — and then that first white blow appears on the horizon and the whole headland goes quiet. Pick a calm morning between May and November, wrap up warm, and give yourself an hour. Bondi will do the rest."
+        "text": "There's something I never tire of: standing on Ben Buckler with the wind off the water, waiting — and then that first white blow appears and the whole headland goes quiet. Pick a calm morning between May and November, wrap up warm, and give yourself an hour. Bondi will do the rest."
       }
     ],
-    "wordCount": 942,
+    "wordCount": 905,
     "sources": [
       {
         "label": "NSW National Parks — Whale watching",
@@ -7878,7 +7878,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Everyone who visits Bondi finds the beach, the surf and the crowds along Campbell Parade — but the Bondi I love most is the one just off the main drag. If you want the local version, here are ten hidden-ish gems I send friends to first: quiet headland lookouts, a free art gallery, a Saturday market, a sauna most people walk straight past, and a few pockets of calm the day-trippers never find."
+        "text": "Everyone who visits Bondi finds the beach, the surf and the crowds on Campbell Parade — but the Bondi I love is the one just off the main drag. Here are ten hidden-ish gems I send friends to first: quiet headland lookouts, a free gallery, a Saturday market, a sauna most people walk straight past, and a few pockets of calm the day-trippers never find."
       },
       {
         "type": "quickFacts",
@@ -7911,7 +7911,7 @@
       },
       {
         "type": "p",
-        "text": "At the northern tip of the beach the land rises into the Ben Buckler headland, home to a string of little lookouts — Ray O'Keefe Reserve and Sam Fiszman Park among them — that stare straight down the length of Bondi. It's my favourite sunrise spot in the whole suburb: rugged, breezy, usually empty, and completely free. Follow the footpath up from the North Bondi end and just keep bearing towards the point."
+        "text": "At the beach's northern tip, the Ben Buckler headland strings together little lookouts — Ray O'Keefe Reserve and Sam Fiszman Park among them — staring down the length of Bondi. It's my favourite sunrise spot: rugged, usually empty and free. Follow the footpath up from North Bondi towards the point."
       },
       {
         "type": "h3",
@@ -7919,7 +7919,7 @@
       },
       {
         "type": "p",
-        "text": "Walk south on the coastal path for about ten minutes and you drop into Tamarama — 'Glamarama' to locals — a tiny, dramatic cove tucked between the cliffs. It's a fraction of Bondi's size with a fraction of the crowd. The surf can be punchy here, so read the flags and swim between them, but for a quieter towel spot with knockout views it's hard to beat."
+        "text": "Walk south on the coastal path about ten minutes and you drop into Tamarama — 'Glamarama' to locals — a tiny, dramatic cove between the cliffs, a fraction of Bondi's size and crowd. The surf can be punchy, so read the flags and swim between them."
       },
       {
         "type": "h3",
@@ -7927,11 +7927,11 @@
       },
       {
         "type": "p",
-        "text": "Everyone knows Sculpture by the Sea, the free open-air exhibition that turns the Bondi-to-Tamarama walk into a sculpture park each spring (dates change year to year — check the official site before you plan around it). What fewer people notice is the art that stays. Around Marks Park you'll find 'Rise', a permanent memorial on the headland, plus the everyday drama of the cliffs themselves. Walk it slowly and it rewards you."
+        "text": "Everyone knows Sculpture by the Sea, the free open-air show that lines the Bondi-to-Tamarama walk each spring (dates shift year to year — check the official site). Fewer notice the art that stays: near Marks Park is 'Rise', the permanent Bondi Memorial to victims of gay-hate violence."
       },
       {
         "type": "localTip",
-        "text": "Do the coastal walk south-to-north in the late afternoon. The light comes off the water behind you, Bondi opens up ahead as you round the last headland, and you finish right where the good coffee is."
+        "text": "Walk the coast south-to-north in the late afternoon: the light's behind you, Bondi opens up as you round the last headland, and you finish right where the good coffee is."
       },
       {
         "type": "h2",
@@ -7943,7 +7943,7 @@
       },
       {
         "type": "p",
-        "text": "The Pavilion reopened after a major multi-year restoration and most beach-goers still treat it as just a place to change and grab an ice cream. Go inside. There's a free art gallery, the Bondi Story Room telling the area's history, a theatre, a pottery studio and cultural spaces — genuinely one of the best free things to do here on a windy or rainy day. Opening hours vary by space, so glance at the Pavilion website before you go."
+        "text": "The Pavilion reopened after a major multi-year restoration, yet most beach-goers still treat it as somewhere to change and grab an ice cream. Go inside: a free art gallery, the Bondi Story Room on local history, a theatre and a pottery studio. Hours vary by space, so check the Waverley Council page first."
       },
       {
         "type": "h3",
@@ -7951,7 +7951,7 @@
       },
       {
         "type": "p",
-        "text": "One block back from the sand, Gould Street is where locals actually shop — small Australian labels and independent design stores instead of chain-store sameness. It's an easy, low-pressure browse away from the promenade crush."
+        "text": "One block back from the sand, Gould Street is where locals actually shop — small Australian labels and independent design stores instead of chain-store sameness. An easy, low-pressure browse away from the promenade crush."
       },
       {
         "type": "h3",
@@ -7959,7 +7959,7 @@
       },
       {
         "type": "p",
-        "text": "Also on Gould Street, the Bondi Wash flagship is a lovely little detour even if you buy nothing. Founded by a local, the brand builds its home and body products around native Australian botanicals, and the store is set up almost like a perfumery — fresh natives dotted about so you can smell the plants behind each scent."
+        "text": "Also on Gould Street, the Bondi Wash flagship is worth a detour even if you buy nothing. Founded by a local, it builds its home and body products around native Australian botanicals, with fresh natives dotted about so you can smell the plants behind each scent."
       },
       {
         "type": "h3",
@@ -7967,7 +7967,7 @@
       },
       {
         "type": "p",
-        "text": "Every Saturday morning the grounds of Bondi Beach Public School on Campbell Parade fill with a farmers market — seasonal produce, bread, cheese, flowers, coffee and a very good breakfast crowd. It runs from around 9am, but confirm the current times on the official listing. Grab a coffee, wander the stalls, then cross the road to the sand."
+        "text": "Every Saturday morning the grounds of Bondi Beach Public School on Campbell Parade fill with a farmers market — produce, bread, cheese, flowers and coffee. It runs from around 9am, but confirm current times on the official listing, then cross the road to the sand."
       },
       {
         "type": "h2",
@@ -7979,7 +7979,7 @@
       },
       {
         "type": "p",
-        "text": "You've seen the Icebergs ocean pool in a thousand photos, but here's the bit visitors miss: your pool admission also gets you into the sauna and hot showers on the pool deck. After a cold swim or a chilly morning surf it's blissful, and it's a fraction of what a boutique sauna would charge. Entry fees, hours and pool closures change (Thursdays are often maintenance days), so check the Icebergs Club site for the current session details."
+        "text": "You've seen the Icebergs ocean pool in a thousand photos, but here's what visitors miss: your pool admission also covers the sauna and hot showers on the deck. After a cold swim it's blissful. Fees, hours and closures change (Thursdays are often maintenance days), so check the Icebergs Club site."
       },
       {
         "type": "h3",
@@ -7987,7 +7987,7 @@
       },
       {
         "type": "p",
-        "text": "The northern end has a gentler rhythm than the tourist strip. Get there before 9am on a weekday and you'll find the real Bondi — surfers checking the sets, dog-walkers, people reading over a coffee. Speedos and the other North Bondi cafés are at their best in that quiet window."
+        "text": "The northern end has a gentler rhythm than the tourist strip. Get there before 9am on a weekday and you'll find the real Bondi — surfers checking the sets, dog-walkers, people reading over a coffee. Speedos and the North Bondi cafés shine in that quiet window."
       },
       {
         "type": "h3",
@@ -7995,45 +7995,41 @@
       },
       {
         "type": "p",
-        "text": "When I need a breather from salt and sunscreen I head up to the Waverley Community Garden at Clementson Park, near Bondi Junction — a pocket of plots, native borders and shade most visitors never realise is there. It's a Council-run community space rather than a formal attraction, so treat it gently, but it's a lovely patch of calm uphill from the beach."
+        "text": "When I need a break from salt and sunscreen I head up to the Waverley Community Garden at Clementson Park, near Bondi Junction — plots, native borders and shade most visitors never realise is there. It's a Council-run community space, so treat it gently."
       },
       {
         "type": "callout",
         "tone": "note",
         "title": "A note on the 'secret' Bondi",
-        "text": "Half of what makes these spots special is that locals use them daily. Take your rubbish, keep the noise down at the lookouts early in the morning, and swim between the flags — the friendlier you are to the neighbourhood, the more of it opens up to you."
+        "text": "Half of what makes these spots special is that locals use them daily. Take your rubbish, keep the noise down at the lookouts early, and swim between the flags — the friendlier you are, the more the neighbourhood opens up."
       },
       {
         "type": "faq",
         "items": [
           {
             "q": "What's the best hidden gem in Bondi that's actually free?",
-            "a": "The Ben Buckler headland lookouts at the northern end are my pick — free, uncrowded and the best sunrise view over the beach. The Bondi Pavilion's art gallery and Story Room are also free and are perfect if the weather turns."
+            "a": "The Ben Buckler headland lookouts at the northern end — free, uncrowded and the best sunrise view over the beach. The Bondi Pavilion's art gallery and Story Room are free too, and perfect if the weather turns."
           },
           {
             "q": "Is there a sauna at Bondi Icebergs, and can the public use it?",
-            "a": "Yes. A sauna and hot showers on the pool deck are included with public pool admission at Bondi Icebergs. Fees, opening hours and maintenance closures change, so check the official Icebergs Club website for the current details before you go."
+            "a": "Yes — a sauna and hot showers on the pool deck come with public pool admission. Fees, hours and maintenance closures change, so check the official Icebergs Club site before you go."
           },
           {
             "q": "When is the Bondi Farmers Market on?",
-            "a": "It runs on Saturday mornings at Bondi Beach Public School on Campbell Parade, typically from around 9am. Confirm the current times on the official Sydney.com or market listing, as they can change."
+            "a": "Saturday mornings at Bondi Beach Public School on Campbell Parade, typically from around 9am. Confirm current times on the official listing, as they can change."
           },
           {
             "q": "Where can I go in Bondi to escape the crowds?",
-            "a": "Head for the edges: Tamarama beach just south along the coastal walk is far quieter than Bondi itself, North Bondi is calmer early in the morning, and the Ben Buckler lookouts are usually near-empty at sunrise."
-          },
-          {
-            "q": "Is Sculpture by the Sea on all year?",
-            "a": "No — it's an annual free exhibition held for a couple of weeks each spring along the Bondi-to-Tamarama coastal walk, and the dates shift year to year, so check the Sculpture by the Sea site. A few works, like the 'Rise' memorial near Marks Park, are permanent."
+            "a": "Head for the edges: Tamarama just south along the coastal walk, North Bondi early in the morning, and the Ben Buckler lookouts, usually near-empty at sunrise."
           }
         ]
       },
       {
         "type": "p",
-        "text": "That's my short list, but Bondi keeps handing out new favourites the longer you slow down here. Step one street back, get up before the crowds, and you'll find a suburb that's far more than its famous stretch of sand."
+        "text": "That's my short list, but Bondi keeps handing out new favourites the longer you slow down. Step one street back, beat the crowds, and you'll find a suburb far more than its famous sand."
       }
     ],
-    "wordCount": 1181,
+    "wordCount": 898,
     "sources": [
       {
         "label": "Bondi Icebergs Club",
@@ -8041,7 +8037,7 @@
       },
       {
         "label": "Bondi Pavilion (Waverley Council)",
-        "url": "https://www.bondipavilion.com.au/"
+        "url": "https://www.waverley.nsw.gov.au/recreation/places_of_interest/bondi_pavilion"
       },
       {
         "label": "Bondi Wash flagship store",
@@ -8067,13 +8063,13 @@
     "blocks": [
       {
         "type": "p",
-        "text": "If you want to watch English football in Bondi, the short answer is that your two most reliable bets are The Royal Bondi and the Beach Road Hotel — both proper pubs with big screens, cold taps and a crowd that actually cares who wins. I've watched more late-night Premier League here than I'd like to admit, so below is my honest, local rundown of where to go, plus the one thing that catches every visitor out: the kickoff times."
+        "text": "If you want to watch English football in Bondi, your two most reliable bets are The Royal Bondi and the Beach Road Hotel — both proper pubs with big screens, cold taps and a crowd that cares. I've watched more late-night Premier League here than I'd like to admit, so here's my honest local rundown, plus the thing that catches every visitor out: the kickoff times."
       },
       {
         "type": "callout",
         "tone": "warning",
         "title": "The rights have changed — this matters in 2025/26",
-        "text": "Optus Sport shut down in August 2025. The Premier League and the Emirates FA Cup are now shown in Australia by Stan Sport, with a handful of marquee matches also on free-to-air Channel 9. So when you ask a venue \"are you showing the football?\", what you're really asking is whether they've got the Stan Sport (or Channel 9) feed on that night. Always confirm the specific fixture before you head down."
+        "text": "Optus Sport shut down in August 2025. The Premier League and the Emirates FA Cup are now shown in Australia by Stan Sport, with a handful of marquee matches also free-to-air on the Nine Network. So when you ask a venue \"are you showing the football?\", you're really asking whether they've got the Stan Sport (or Nine) feed on that night. Always confirm the specific fixture before you head down."
       },
       {
         "type": "h2",
@@ -8085,7 +8081,7 @@
       },
       {
         "type": "p",
-        "text": "Up on Bondi Road, The Royal is the closest thing Bondi has to a dedicated footy local. It's a Merivale pub with a classic front bar, plenty of screens and a genuine sports schedule they publish online — which is exactly what you want, because it means you can see in advance whether your team's game is going up before you leave the house. It gets loud and good-natured on a big matchday, which is half the fun. Check their live-sport page (linked in my sources) for what's actually on."
+        "text": "Up on Bondi Road, The Royal is the closest thing Bondi has to a dedicated footy local — a Merivale pub with a classic front bar, plenty of screens and a live-sport schedule they publish online — so you can check whether your team's game is going up before you leave the house. It gets loud and good-natured on a big matchday, which is half the fun. See their live-sport page (linked in my sources) for what's on."
       },
       {
         "type": "h3",
@@ -8093,7 +8089,7 @@
       },
       {
         "type": "p",
-        "text": "A couple of blocks back from the sand, the Beach Road Hotel is the big, buzzy, sprawling option — multiple bars over multiple levels, so there's usually room even when something major is on. It leans party-pub as the night goes on, which suits those late European kickoffs perfectly. Ring ahead or check their socials to make sure your match is being screened, since which games go on which screens can vary week to week."
+        "text": "A couple of blocks back from the sand, the Beach Road Hotel is the big, buzzy option — multiple bars over multiple levels, so there's usually room even when something major is on. It leans party-pub later in the night, which suits those late European kickoffs. Check their socials or ring ahead to confirm your match is being screened, since which games go where can vary week to week."
       },
       {
         "type": "quickFacts",
@@ -8108,7 +8104,7 @@
           },
           {
             "label": "Broadcaster (AU)",
-            "value": "Stan Sport; select games on Channel 9"
+            "value": "Stan Sport; select games free-to-air on Nine"
           },
           {
             "label": "Golden rule",
@@ -8122,11 +8118,11 @@
       },
       {
         "type": "p",
-        "text": "Here's the thing nobody tells visitors: the UK is roughly nine to ten hours behind Sydney, so English football almost never lands at a civilised hour here. A Saturday 3pm kickoff in England is around midnight in Bondi. Early Premier League kickoffs can mean the small hours of the morning, and only the biggest late-window games fall at a friendly Bondi evening time. That's why I never assume — I check the local kickoff time first, then check the venue is opening its doors and putting that specific game on."
+        "text": "Here's what nobody tells visitors: Sydney is roughly nine to ten hours ahead of the UK, so English football rarely lands at a civilised hour here. A Saturday 3pm kickoff in England is around midnight in Bondi, and early kickoffs can mean the small hours. Only the biggest late-window games fall at a friendly Bondi evening time — so I check the local kickoff first, then check the venue is open and putting that game on."
       },
       {
         "type": "localTip",
-        "text": "For the truly antisocial kickoffs, ask the pub directly whether they're opening early or staying open late for that fixture — some will, some won't, and it depends entirely on the match. A quick call or DM the day before saves you a wasted trip across Bondi at 2am."
+        "text": "For the truly antisocial kickoffs, ask the pub directly whether they're opening early or staying open late for that fixture — some will, some won't, depending on the match. A quick call or DM the day before saves a wasted 2am trek across Bondi."
       },
       {
         "type": "h2",
@@ -8134,24 +8130,24 @@
       },
       {
         "type": "p",
-        "text": "If you're staying nearby and the kickoff is brutal, streaming from the couch is a perfectly good shout. In Australia the Premier League lives on Stan Sport, so a subscription (or a login you can legitimately use) plus decent WiFi is all you need. Grab a few things from the bottle shop on the way home, and you've got your own private Bondi viewing party without the 3am walk back up the hill."
+        "text": "If you're staying nearby and the kickoff is brutal, streaming from the couch is a perfectly good shout. In Australia the Premier League lives on Stan Sport, so a subscription plus decent WiFi is all you need. Grab a few things from the bottle shop on the way home and you've got your own Bondi viewing party — without the 3am walk back up the hill."
       },
       {
         "type": "callout",
         "tone": "note",
         "title": "A note on the other spots you'll see listed",
-        "text": "Older guides to Bondi footy-watching point at various beachfront bars and clubs. Plenty of Bondi venues will happily put a big game on if you ask early enough, but few of them commit to it the way a sports-focused pub does. If watching your team is the whole point of the night, start with The Royal or Beach Road, and treat everywhere else as a bonus that depends on the night and the staff on shift."
+        "text": "Older guides point at various beachfront bars and clubs. Plenty of Bondi venues will put a big game on if you ask early enough, but few commit the way a sports-focused pub does. If watching your team is the whole point of the night, start with The Royal or Beach Road and treat everywhere else as a bonus."
       },
       {
         "type": "faq",
         "items": [
           {
             "q": "Where's the best place to watch the Premier League in Bondi?",
-            "a": "For a reliable big-screen atmosphere, I'd point you to The Royal Bondi on Bondi Road or the Beach Road Hotel. Both are proper pubs that regularly show live football — just confirm your specific fixture is going on before you head down."
+            "a": "For a reliable big-screen atmosphere, I'd point you to The Royal Bondi on Bondi Road or the Beach Road Hotel. Both are proper pubs that regularly show live football — confirm your fixture is going on before you head down."
           },
           {
             "q": "How do I watch English football in Australia now that Optus Sport has closed?",
-            "a": "From August 2025 the Premier League and FA Cup are shown in Australia by Stan Sport, with a selection of matches also broadcast free-to-air on Channel 9. Optus Sport has shut down. Pubs showing the football will be running the Stan Sport or Channel 9 feed."
+            "a": "From August 2025 the Premier League and FA Cup are shown in Australia by Stan Sport, with select matches also free-to-air on the Nine Network. Optus Sport has shut down, so pubs will be running the Stan Sport or Nine feed."
           },
           {
             "q": "What time do Premier League games kick off in Bondi?",
@@ -8159,7 +8155,7 @@
           },
           {
             "q": "Do I need to book or call ahead?",
-            "a": "You don't usually need a booking, but I'd always call or message ahead for anything other than a marquee fixture. Which games go on which screens varies, and some pubs only open early or stay late for the bigger matches."
+            "a": "You don't usually need a booking, but I'd always call or message ahead for anything other than a marquee fixture. Which games go on which screens varies, and some pubs only open early or stay late for bigger matches."
           },
           {
             "q": "Can I watch the football at my Bondi accommodation instead?",
@@ -8169,14 +8165,14 @@
       },
       {
         "type": "p",
-        "text": "That's my playbook: pick The Royal or Beach Road, confirm the exact game and the local kickoff time, and know that the rights now sit with Stan Sport rather than Optus. Do that, and you'll be shoulder-to-shoulder with fellow supporters when the whistle blows — or tucked up on the couch with the surf just down the road. Either way, up the football."
+        "text": "That's my playbook: pick The Royal or Beach Road, confirm the exact game and the local kickoff time, and remember the rights now sit with Stan Sport rather than Optus. Do that and you'll be shoulder-to-shoulder with fellow supporters when the whistle blows — or on the couch with the surf just down the road. Up the football."
       }
     ],
-    "wordCount": 999,
+    "wordCount": 908,
     "sources": [
       {
-        "label": "The Royal Bondi (Merivale) — live sport schedule",
-        "url": "https://merivale.com/venues/theroyal/sports-schedule/"
+        "label": "The Royal Bondi (Merivale) — venue page",
+        "url": "https://merivale.com/venues/theroyal/"
       },
       {
         "label": "Beach Road Hotel",
@@ -11503,7 +11499,7 @@
       },
       {
         "type": "p",
-        "text": "The 50-metre length isn't a coincidence. Bondi Icebergs has been a home for winter ocean swimming since 1929, and the pool was rebuilt and expanded to full Olympic dimensions in the 1930s. That heritage is why it still draws lap swimmers, triathletes in training and the famous Icebergs winter swimming club, who take the plunge through the coldest months of the year. If you want to actually clock your distance, one length is 50 metres and a there-and-back lap is 100 metres — handy maths if you're setting yourself a target."
+        "text": "The 50-metre length isn't a coincidence. Bondi Icebergs has been a home for winter ocean swimming since the club formed in 1929, and the main pool has long been built to full Olympic lap length. That heritage is why it still draws lap swimmers, triathletes in training and the famous Icebergs winter swimming club, who take the plunge through the coldest months of the year. If you want to actually clock your distance, one length is 50 metres and a there-and-back lap is 100 metres — handy maths if you're setting yourself a target."
       },
       {
         "type": "callout",
@@ -11549,7 +11545,7 @@
         "text": "So next time someone asks you how long the Icebergs pool is, you'll know: 50 metres of Olympic-length, wave-topped seawater, hanging off the rocks at the end of one of the most famous beaches in the world. There aren't many better places to knock out a few laps."
       }
     ],
-    "wordCount": 789,
+    "wordCount": 792,
     "sources": [
       {
         "label": "Bondi Icebergs Club (official)",
@@ -12567,7 +12563,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "If you ask me for the most quietly spectacular spot on the whole Bondi coastline, I'll send you to Waverley Cemetery every time. Perched on the clifftops just south of Bondi, its rows of white marble headstones tumble down toward the Tasman Sea in a way that stops most people mid-stride. Established in 1877, it's one of the great Victorian cemeteries of the world — and, happily for us, it sits right on the Bondi to Coogee coastal walk, so you can wander straight through it."
+        "text": "If you ask me for the most quietly spectacular spot on the whole Bondi coastline, I'll send you to Waverley Cemetery every time. Perched on the clifftops just south of Bondi, its rows of white marble headstones tumble down toward the Tasman Sea in a way that stops most people mid-stride. Established in 1877, it's one of the great Victorian cemeteries of the world — and it sits right on the Bondi to Coogee coastal walk, so you can wander straight through."
       },
       {
         "type": "quickFacts",
@@ -12608,7 +12604,7 @@
       },
       {
         "type": "localTip",
-        "text": "Come in the late afternoon. As the sun drops behind you, it lights the marble to a warm gold and throws the headstones into long shadow against the deep blue of the sea — it's the hour photographers dream about, and the crowds have usually thinned."
+        "text": "Come in the late afternoon. As the sun drops behind you, it lights the marble to a warm gold and throws long shadows against the deep blue of the sea — the hour photographers dream about, and the crowds have usually thinned."
       },
       {
         "type": "h2",
@@ -12698,10 +12694,10 @@
       },
       {
         "type": "p",
-        "text": "Whether you come for the history, the extraordinary monuments or simply that view of headstones against endless ocean, Waverley rewards a slow wander. It's one of those Bondi places that quietly reframes how you think about the coast — and it's right there on the walk, waiting."
+        "text": "Whether you come for the history, the monuments or that view of headstones against endless ocean, Waverley rewards a slow wander. It's one of those Bondi places that quietly reframes the coast — right there on the walk, waiting."
       }
     ],
-    "wordCount": 893,
+    "wordCount": 877,
     "sources": [
       {
         "label": "Waverley Council — Cemeteries",

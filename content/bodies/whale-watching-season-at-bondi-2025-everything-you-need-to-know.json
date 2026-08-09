@@ -8,7 +8,7 @@
     { "label": "Waverley Council — Bondi to Bronte coastal walk", "url": "https://www.waverley.nsw.gov.au/recreation/out_and_about/bondi_to_bronte_coastal_walk" }
   ],
   "blocks": [
-    { "type": "p", "text": "Every year I get asked the same thing the moment the mornings turn crisp: when is whale season at Bondi? The short answer is roughly May to November, and the best part is you don't need a boat to see them — some of the finest whale watching in Sydney happens for free, right from the headlands either side of the beach. This is my local guide to when the humpbacks pass, where I stand to watch them, and how to give yourself the best chance of a breach." },
+    { "type": "p", "text": "Every year I get asked the same thing the moment the mornings turn crisp: when is whale season at Bondi? The short answer is roughly May to November — and the best part is you don't need a boat. Some of the finest whale watching in Sydney happens for free, right from the headlands either side of the beach. This is my local guide to when the humpbacks pass, where I stand to watch them, and how to give yourself the best chance of a breach." },
     { "type": "quickFacts", "items": [
       { "label": "Season", "value": "Roughly May to November" },
       { "label": "Species", "value": "Mostly humpbacks; occasional southern rights" },
@@ -17,32 +17,32 @@
       { "label": "Bring", "value": "Binoculars, layers, patience" }
     ] },
     { "type": "h2", "text": "When whales pass Bondi" },
-    { "type": "p", "text": "Sydney's whale-watching season runs from around mid-May to early November as tens of thousands of humpbacks migrate along the NSW coast. It splits into two acts. On the northbound leg — roughly May to July — the whales are heading to warmer breeding waters and tend to travel with real purpose, so June and July are wonderful for sheer numbers. On the southbound return — around September to November — mothers bring their new calves back down toward Antarctic feeding grounds, often hugging the coastline and moving slower, which for my money makes for the most tender sightings of the year." },
-    { "type": "localTip", "text": "I always aim for the first couple of hours after sunrise on a clear, calm day. The light is behind you, the sea is glassier so spouts and breaches stand out, and the headland crowds haven't arrived yet. A gentle offshore wind and low swell make an enormous difference." },
+    { "type": "p", "text": "Sydney's whale-watching season runs from around mid-May to early November as tens of thousands of humpbacks migrate along the NSW coast. It splits into two acts. On the northbound leg — roughly May to July — the whales head to warmer breeding waters and travel with real purpose, so June and July are wonderful for sheer numbers. On the southbound return — around September to November — mothers bring their new calves back toward Antarctic feeding grounds, often hugging the coastline and moving slower, which for my money makes the most tender sightings of the year." },
+    { "type": "localTip", "text": "I always aim for the first couple of hours after sunrise on a clear, calm day. The light is behind you, the sea is glassier so spouts and breaches stand out, and the crowds haven't arrived. A gentle offshore wind and low swell make an enormous difference." },
     { "type": "h2", "text": "The best land-based spots near Bondi" },
     { "type": "p", "text": "You genuinely don't need to pay for a cruise to see whales here. These are the free vantage points I return to, all within a short walk of the beach:" },
     { "type": "list", "items": [
       "Ben Buckler Point (North Bondi) — Bondi's most easterly headland and my first choice. It sits high above the water at the end of Ramsgate Avenue, with an open outlook over the Pacific where locals gather with binoculars all season.",
-      "Mackenzies Point — the small headland between Bondi and Tamarama on the coastal walk, with a wide southern view that's ideal for scanning.",
+      "Mackenzies Point — the small headland between Bondi and Tamarama, with a wide southern view that's ideal for scanning.",
       "Waverley Cemetery clifftop — a dramatic, unobstructed stretch of the coastal walk perched right above the ocean.",
-      "The Bondi to Bronte (and on to Coogee) coastal walk — not one spot but a whole string of them; I often walk slowly and stop wherever I see other people looking out to sea."
+      "The Bondi to Bronte (and on to Coogee) coastal walk — not one spot but a whole string of them; I walk slowly and stop wherever I see others looking out to sea."
     ] },
     { "type": "callout", "tone": "warning", "title": "Mind the edge", "text": "These clifftops are stunning but the rock is uneven and the drops are real. Stay behind fences and well back from wet or crumbling edges, keep an eye on children, and never turn your back on the ocean to line up a photo. No whale is worth a slip." },
     { "type": "h2", "text": "Cruises from nearby Sydney" },
-    { "type": "p", "text": "There are no whale-watching cruises that leave from Bondi Beach itself — the boats depart from Sydney Harbour, mostly Circular Quay and Darling Harbour, and head out through the Heads to the migration route. If you'd rather get close to the action, a half-day tour is a lovely way to do it. I'd point you to the operators' own websites for current departure times, durations and prices, as these change every season — Destination NSW's Sydney.com whale-watching page is a good, up-to-date starting point for reputable operators." },
+    { "type": "p", "text": "No whale-watching cruises leave from Bondi Beach itself — the boats depart from Sydney Harbour, mostly Circular Quay and Darling Harbour, and head out through the Heads to the migration route. If you'd rather get close, a half-day tour is a lovely way to do it. For current departure times, durations and prices, which change every season, check the operators' own websites — Destination NSW's Sydney.com whale-watching page is a good starting point." },
     { "type": "h2", "text": "How to actually spot one" },
     { "type": "p", "text": "The trick is learning what to look for. Whales usually give themselves away before you see the animal itself:" },
     { "type": "li", "text": "A blow — a puff of white mist hanging above the water is often the very first sign." },
     { "type": "li", "text": "A breach — the full-body leap and enormous splash that everyone hopes for." },
     { "type": "li", "text": "A tail or pectoral fin slapping the surface, and dark backs rolling as they travel." },
-    { "type": "p", "text": "Scan the horizon slowly and let your eyes settle rather than darting about; binoculars help enormously. Give it time — sightings come in waves, and the people who see the most are simply the ones who stayed longest. If the sea is rough and grey, spotting is genuinely hard, so I'll happily come back another morning rather than strain for nothing." },
+    { "type": "p", "text": "Scan the horizon slowly and let your eyes settle rather than darting about; binoculars help enormously. Give it time — sightings come in waves, and the people who see the most are the ones who stayed longest. If the sea is rough and grey, spotting is hard, so I'll happily come back another morning rather than strain for nothing." },
     { "type": "faq", "items": [
       { "q": "When is the best time for whale watching at Bondi?", "a": "The season runs roughly May to November. June and July bring the biggest northbound numbers, while September to November is best for mothers with calves travelling close to shore. Early morning on a calm, clear day is ideal." },
       { "q": "Can you see whales from Bondi Beach for free?", "a": "Yes — that's the beauty of it. Head to a headland like Ben Buckler Point at North Bondi, Mackenzies Point, or anywhere along the Bondi to Coogee coastal walk. No ticket required, just bring binoculars and a bit of patience." },
-      { "q": "What kind of whales pass Bondi?", "a": "The vast majority are humpback whales, with occasional southern right whales. Tens of thousands of humpbacks migrate along the NSW coast each season." },
+      { "q": "What kind of whales pass Bondi?", "a": "The vast majority are humpback whales, with occasional southern right whales, and tens of thousands migrate along the NSW coast each season." },
       { "q": "Do whale-watching cruises leave from Bondi?", "a": "No cruises depart from Bondi Beach itself. Boats leave from Sydney Harbour — mainly Circular Quay and Darling Harbour — and head out through the Heads. Check the operator's website for current times and prices." },
       { "q": "What should I bring for land-based whale watching?", "a": "Binoculars, warm layers and a windproof jacket (headlands are exposed and cool in winter), sun protection, and patience. A thermos never hurts." }
     ] },
-    { "type": "p", "text": "There's something I never tire of about standing on Ben Buckler with the wind off the water, waiting — and then that first white blow appears on the horizon and the whole headland goes quiet. Pick a calm morning between May and November, wrap up warm, and give yourself an hour. Bondi will do the rest." }
+    { "type": "p", "text": "There's something I never tire of: standing on Ben Buckler with the wind off the water, waiting — and then that first white blow appears and the whole headland goes quiet. Pick a calm morning between May and November, wrap up warm, and give yourself an hour. Bondi will do the rest." }
   ]
 }
