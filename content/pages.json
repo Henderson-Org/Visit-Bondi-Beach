@@ -29228,13 +29228,13 @@
     "contentType": "hub",
     "section": "guide",
     "title": "Bondi Beach With Kids: A Family Guide",
-    "metaDescription": "Bondi Beach with kids — the safest swimming, the best playgrounds, family-friendly cafés and things to do with children, from a team of Bondi locals.",
+    "metaDescription": "Bondi Beach with kids, from local parents — the calmest swimming, the best playgrounds, family-friendly cafés, and where to find toilets, showers and change rooms.",
     "canonical": "",
     "h1": "Bondi Beach with kids",
     "headings": [],
     "ogImage": "",
     "heroImage": "",
-    "intro": "Bondi is a brilliant beach for families once you know where to go. Here's where we take our own kids — the calmest water, the best playgrounds, and the cafés that actually welcome a pram.",
+    "intro": "Bondi is a brilliant beach for families once you know where to go. Here's where we take our own kids — the calmest water up the north end, the best playgrounds, the cafés that actually welcome a pram, and where to find the toilets, showers and change rooms when you need them.",
     "wordCount": 0,
     "jsonLdTypes": [],
     "publishedAt": null,
@@ -29244,22 +29244,26 @@
     "liveUrl": "",
     "sections": [
       {
-        "heading": "Swimming with children",
-        "intro": "The safest, calmest water for little ones.",
+        "heading": "Where to swim with children",
+        "intro": "The northern end is the calmest, safest water for little ones — the sheltered North Bondi children's pool and the area between the red-and-yellow flags. The southern end has the rips, so keep the kids up north.",
         "links": [
+          {
+            "title": "The safest place to swim at Bondi",
+            "path": "/bondi-blog/2023/11/7/the-safest-place-to-swim-at-bondi-beach"
+          },
           {
             "title": "Can kids swim at Bondi Icebergs?",
             "path": "/bondi-blog/2025/4/29/can-kids-swim-at-bondi-icebergs-family-swimming-guide"
           },
           {
-            "title": "The safest place to swim at Bondi",
-            "path": "/bondi-blog/2023/11/7/the-safest-place-to-swim-at-bondi-beach"
+            "title": "Where to swim at Bondi (all spots)",
+            "path": "/where-to-swim-at-bondi-beach"
           }
         ]
       },
       {
         "heading": "Playgrounds & things to do",
-        "intro": "Where to burn off energy when you're off the sand.",
+        "intro": "Where to burn off energy when you're off the sand — the big Waverley Park playground, plus rainy-day and school-holiday ideas.",
         "links": [
           {
             "title": "The best kids' playgrounds around Bondi",
@@ -29277,7 +29281,7 @@
       },
       {
         "heading": "Eating out with the family",
-        "intro": "Where a high chair and a fussy eater are no problem.",
+        "intro": "Where a high chair, a pram and a fussy eater are all no problem — plus where the kids can eat for free.",
         "links": [
           {
             "title": "Kids eat free: 12 family dining deals",
@@ -29286,6 +29290,20 @@
           {
             "title": "A parent's guide to Bondi: eats & entertainment",
             "path": "/bondi-blog/2023/11/17/a-parents-guide-to-bondi-beach-activities-eats-and-entertainment-for-kids"
+          }
+        ]
+      },
+      {
+        "heading": "Toilets, showers & change rooms",
+        "intro": "The practical stuff every parent needs to find fast: where the public toilets and baby-change are, the free beachfront showers to rinse the sand off, and step-free, accessible access on and off the sand.",
+        "links": [
+          {
+            "title": "Bondi's public toilets, showers & change rooms",
+            "path": "/bondi-blog/bondi-beach-toilets-showers-change-rooms"
+          },
+          {
+            "title": "Bondi Beach accessibility & wheelchair guide",
+            "path": "/bondi-blog/2025/1/5/exploring-bondi-beach-a-guide-to-wheelchair-access"
           }
         ]
       }

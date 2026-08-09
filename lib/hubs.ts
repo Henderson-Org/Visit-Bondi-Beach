@@ -74,11 +74,11 @@ const HUB_DESIGN: Record<string, HubDesign> = {
     discovery: {
       intro: 'Perfect for…',
       items: [
-        { label: 'Toddlers', section: 0 },
         { label: 'A calm swim', section: 0 },
         { label: 'Burning energy', section: 1 },
         { label: 'A rainy day', section: 1 },
         { label: 'Family dinner', section: 2 },
+        { label: 'Toilets & change rooms', section: 3 },
       ],
     },
     practical: [
