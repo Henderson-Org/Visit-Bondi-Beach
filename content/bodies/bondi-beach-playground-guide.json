@@ -1,0 +1,44 @@
+{
+  "path": "/bondi-blog/bondi-beach-playground-guide",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Parks & reserves", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves" },
+    { "label": "Waverley Council — Access & inclusion at Waverley Park Playground", "url": "https://www.waverley.nsw.gov.au/top/news_and_media/media_releases/all/2024/wairoa_school_celebrates_access_and_inclusion_at_waverley_park_playground" },
+    { "label": "Waverley Council — Major projects: parks & playgrounds", "url": "https://waverley.nsw.gov.au/planning/major_projects/parks_and_playgrounds" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you're after the short version: the best all-round playground right on the sand is the fenced Bondi Park playground beside the Pavilion, while the grandest day out is Waverley Park in Bondi Junction with its rocket ship and inclusive equipment. I've pushed a pram around every one of these with a coffee in hand, so here's my honest local's guide to which Bondi playground suits which kid — and where you'll actually find shade and toilets." },
+    { "type": "quickFacts", "items": [
+      { "label": "Best on the beach", "value": "Bondi Park playground (fenced)" },
+      { "label": "Best for a big day", "value": "Waverley Park, Bondi Junction" },
+      { "label": "Best views", "value": "Biddigal Reserve, North Bondi" },
+      { "label": "Cost", "value": "All free" }
+    ] },
+    { "type": "h2", "text": "Right on the beach: Bondi Park playground" },
+    { "type": "p", "text": "This is the one most visitors mean when they say \"the Bondi playground\". It sits in Bondi Park between Campbell Parade and the sand, a stone's throw from the Pavilion, and it's fully fenced with double gates at each entrance — which, if you've ever chased a bolting toddler toward a busy road, you'll appreciate enormously. There's a good spread of equipment across soft-fall, sand and grass: swings, slides, climbing frames, spring toys and a little musical corner." },
+    { "type": "p", "text": "The combination unit closest to Campbell Parade was upgraded by Waverley Council with more inclusive play in mind, so it works for a broader range of kids and abilities. My honest tip: the shade here is patchy, so come early or late in summer, and remember the closest toilets (including an accessible one) are a short walk away by the Pavilion rather than in the playground itself." },
+    { "type": "localTip", "text": "Do the beach first, playground second. Rinse the sand off at the promenade showers, then let the kids burn off their last bit of energy at the playground before you walk back up to Campbell Parade for the bus — it saves a lot of sandy-car misery." },
+    { "type": "h2", "text": "Worth the short trip: Waverley Park" },
+    { "type": "p", "text": "When my family wants a proper morning out rather than a quick swing-and-slide, we head up the hill to Waverley Park on Paul Street in Bondi Junction. It's fully fenced and genuinely one of the best playgrounds in the Eastern Suburbs — the centrepiece rocket ship and launch tower are the stuff of local legend, and there's water play, spinners, climbing, a dedicated toddler zone and a lot of open grass for a picnic." },
+    { "type": "callout", "tone": "note", "title": "A standout for accessibility", "text": "Waverley Park was designed with access and inclusion front of mind, with equipment like an inclusive multi-bay swing set (including a carer swing and an accessible swing) and step-free paths. It's the one I'd point families with a wheelchair user or sensory needs toward first — see Waverley Council's access and inclusion notes for the detail." },
+    { "type": "h2", "text": "The best views, and the ones for older kids" },
+    { "type": "p", "text": "Up at the northern end, tucked into leafy Biddigal Reserve, the North Bondi playground is small but special. It's perched high with some of the best beach and sunset views in Bondi, and it's dotted with wonderful bespoke play sculptures — a sea dragon, turtle, fish and octopus among them. It's a lovely one to pair with a barbecue on the grassy knoll." },
+    { "type": "p", "text": "Right next door is the Bondi Beach Skate Park at the northern end of the beach, with its bowl and open street area — brilliant for skaters, scooters and BMX, and honestly just a great free show to watch even if your kids aren't riding. It's not a fenced toddler space, so keep the little ones close." },
+    { "type": "p", "text": "Further south along the coastal walk toward Tamarama, Marks Park has a modest sand-based playground with big shady trees, seating and a toilet block nearby. It's not a destination playground, but as a mid-walk breather with headland whale-watching views in winter, it's hard to beat." },
+    { "type": "list", "items": [
+      "Toddlers & pre-schoolers: Bondi Park playground (fenced) or the toddler zone at Waverley Park.",
+      "Big kids wanting variety: Waverley Park, or North Bondi at Biddigal Reserve.",
+      "Tweens & teens: Bondi Beach Skate Park at the north end.",
+      "A picnic with a view: Biddigal Reserve or Marks Park."
+    ] },
+    { "type": "faq", "items": [
+      { "q": "Is the Bondi Beach playground fenced?", "a": "Yes — the main Bondi Park playground beside the Pavilion is fully fenced, with two gates at each entrance to stop little ones wandering toward Campbell Parade. Waverley Park in Bondi Junction is fully fenced too. The North Bondi playground and skate park are not enclosed." },
+      { "q": "Where are the nearest toilets to the Bondi Beach playground?", "a": "The closest public toilets, including an accessible toilet, are by the Bondi Pavilion, a short walk from the playground rather than inside it. Waverley Park and Marks Park each have toilets nearby as well." },
+      { "q": "Which Bondi playground is best for kids with a disability?", "a": "Waverley Park in Bondi Junction was designed with access and inclusion in mind, including inclusive swings and step-free paths. The upgraded unit at the Bondi Park playground also added inclusive play features. Check Waverley Council for the current detail." },
+      { "q": "Do the playgrounds cost anything?", "a": "No. Every playground here is free, council-run public space. You'll only pay for parking, food or a coffee if you choose to." },
+      { "q": "Which playground has the best views?", "a": "The North Bondi playground at Biddigal Reserve, up on the northern headland, has the best outlook over the beach and is a favourite of mine at sunset." }
+    ] },
+    { "type": "p", "text": "That's the lot — six very different spots, all free, all within a short hop of the sand. Pack sunscreen, a hat and a picnic, keep an eye on the shade, and you've got a full day of play sorted the Bondi way." }
+  ]
+}

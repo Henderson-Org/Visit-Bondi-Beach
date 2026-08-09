@@ -1,0 +1,41 @@
+{
+  "path": "/bondi-blog/2025/3/8/best-time-to-visit-bondi-beach-seasonal-guide-to-weather-events",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Major Annual Events", "url": "https://www.waverley.nsw.gov.au/recreation/arts_and_culture/major_annual_events" },
+    { "label": "Sculpture by the Sea, Bondi", "url": "https://sculpturebythesea.com/bondi/" },
+    { "label": "Bureau of Meteorology — Sydney climate", "url": "http://www.bom.gov.au/nsw/" },
+    { "label": "Surf Life Saving NSW", "url": "https://www.surflifesaving.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "The honest answer is that there is no single best time to visit Bondi Beach — it depends entirely on the Bondi you're after. If you want warm water, packed sand and long lit-up evenings, come in summer (December to February). If you'd rather have the coastal walk mostly to yourself, mild sunny days and whales offshore, I'd send you in autumn or winter. After years of watching the beach shift with the seasons, here's how I'd time your trip." },
+    { "type": "quickFacts", "items": [
+      { "label": "Warmest & busiest", "value": "Dec–Feb (summer)" },
+      { "label": "Mild & quiet", "value": "Mar–May (autumn)" },
+      { "label": "Whales & surf", "value": "Jun–Aug (winter)" },
+      { "label": "Best balance", "value": "Sep–Nov (spring)" }
+    ] },
+    { "type": "h2", "text": "Summer (December to February): peak Bondi" },
+    { "type": "p", "text": "This is Bondi at full volume — warm days generally in the mid-to-high 20s°C, the ocean at its most swimmable, and the sand busy from mid-morning. It's my pick if you love a crackling atmosphere: everyone's out, the promenade hums until late, and the water is genuinely inviting. The trade-off is crowds. Christmas Day and New Year draw huge numbers, and on a hot January weekend the good spots vanish early." },
+    { "type": "localTip", "text": "In summer I get down by 8–9am, claim a patch between the red-and-yellow flags, and I'm swimming before the car parks fill. By midday parking near the beach is a lost cause — take the bus, or park up the hill and walk down." },
+    { "type": "callout", "tone": "warning", "title": "Always swim between the flags", "text": "Bondi has rip currents, and they catch strong swimmers too. Swim between the red-and-yellow flags where the lifeguards are watching, and check current conditions with Surf Life Saving before you go in." },
+    { "type": "h2", "text": "Autumn (March to May): my quiet favourite" },
+    { "type": "p", "text": "Autumn is Bondi's best-kept secret. The summer heat eases into mild, settled days, the ocean still holds plenty of its summer warmth well into April, and the crowds thin out noticeably. This is when I do the Bondi to Coogee coastal walk without dodging anyone, linger over a long breakfast, and actually get a table. If you want warm-enough beach weather without the peak-season scrum, this is your window." },
+    { "type": "h2", "text": "Winter (June to August): whales, waves and space" },
+    { "type": "p", "text": "Winter days at Bondi are cooler and the beach empties out, which is exactly why some of us love it. Swimming is bracing (the Icebergs pool crowd will tell you that's the point), but the surf often gets bigger and cleaner, and the light on a crisp morning is beautiful. The headline act is whale watching: humpbacks migrate along the NSW coast roughly May to November, and from the elevated coastal path or Ben Buckler headland you can often spot them without a boat." },
+    { "type": "localTip", "text": "Bring binoculars and walk up to the northern headland (Ben Buckler) on a clear winter morning. Look for the puff of a blow or a splash on the horizon, then wait — where there's one whale there's usually another." },
+    { "type": "h2", "text": "Spring (September to November): the sweet spot" },
+    { "type": "p", "text": "Spring is where the balance tips just right — warming days, water climbing back toward swimmable, and crowds that haven't yet hit summer levels. It's also the strongest stretch for events. September brings Festival of the Winds, Waverley Council's free family kite-flying day on the sand, and in October–November the coastal walk between Bondi and Tamarama becomes the open-air gallery of Sculpture by the Sea, the world's largest free outdoor sculpture exhibition." },
+    { "type": "callout", "tone": "note", "title": "Event dates move each year", "text": "Festival of the Winds and Sculpture by the Sea run on dates that shift annually, and sometimes change format. Before you build a trip around one, confirm the current dates on the Waverley Council and Sculpture by the Sea websites listed in my sources." },
+    { "type": "h2", "text": "So when should you actually come?" },
+    { "type": "p", "text": "If forced to choose, I'd point most first-timers at late spring or early autumn: you get warm, swimmable days and Bondi's easy outdoor energy, but without summer's shoulder-to-shoulder sand. Come in summer for maximum buzz and warmest water, and in winter if you want dramatic surf, whales and a beach that feels like it's yours." },
+    { "type": "faq", "items": [
+      { "q": "What is the best month to visit Bondi Beach?", "a": "For the best balance of warm, swimmable weather and manageable crowds, I'd pick March (early autumn) or late October–November (spring). January is warmest and liveliest but by far the busiest, while June–August is quiet and best for whales and surf rather than swimming." },
+      { "q": "When is Bondi Beach least crowded?", "a": "Winter (June to August) is the quietest, followed by autumn weekdays. If you want space on the sand and the coastal walk without a warm-weather trade-off you can't accept, autumn is the sweet spot." },
+      { "q": "Can you swim at Bondi in winter?", "a": "Yes — plenty of locals do, and the beach is patrolled. The water is cold, so most winter swimmers keep it short or use the Icebergs ocean pool. Always swim between the flags and check conditions with Surf Life Saving first." },
+      { "q": "When can you see whales from Bondi?", "a": "Humpback whales migrate along the NSW coast roughly from May to November, with strong sightings through the winter months. You can often see them from the coastal walk or Ben Buckler headland — no boat required, just clear conditions and a bit of patience." },
+      { "q": "What are the big events at Bondi Beach?", "a": "Spring is the busiest for events: Festival of the Winds (a free kite-flying day) in September, and Sculpture by the Sea along the Bondi-to-Tamarama coastal walk in October–November. Dates change each year, so check the official sites before planning around them." }
+    ] }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "path": "/bondi-blog/2023/9/20/chasing-sunrise-bondi-beachs-perfect-weather-conditions",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "timeanddate.com — Sunrise & sunset, Bondi Beach", "url": "https://www.timeanddate.com/sun/@2174949" },
+    { "label": "Bureau of Meteorology — Sydney forecast", "url": "http://www.bom.gov.au/nsw/forecasts/sydney.shtml" },
+    { "label": "Bureau of Meteorology — MetEye", "url": "http://www.bom.gov.au/australia/meteye/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you want the best chance at a jaw-dropping sunrise at Bondi Beach, chase a morning that's partly cloudy after an overnight change — a sky with scattered high cloud for the light to set on fire, and clean air behind a passing front. That's the combination I've watched turn the whole eastern horizon pink and gold more times than a clear sky ever has. Bondi faces due east across the Pacific, so the sun climbs straight out of the water in front of you; the only variable that really changes the show is the weather." },
+    { "type": "h2", "text": "The weather conditions that make Bondi glow" },
+    { "type": "p", "text": "A completely clear sky gives you a clean, fiery orb lifting out of the ocean — beautiful, but the colour is often over in minutes. A completely overcast sky usually means a flat grey lid and no show at all. The magic lives in between." },
+    { "type": "list", "items": [
+      "Partly cloudy with high or mid-level cloud — the clouds catch the light before the sun even breaches the horizon, and the colour can last 20-30 minutes.",
+      "A gap on the eastern horizon under a cloudy sky — if the deck of cloud stops short of the sea, the first rays fire up under it from below. These are often the most dramatic mornings of all.",
+      "The morning after an overnight storm or southerly change — the air is scrubbed clean and clear, so the colours read more saturated.",
+      "Low humidity — crisp autumn and spring mornings tend to deliver cleaner light than muggy summer ones."
+    ] },
+    { "type": "localTip", "text": "Don't write off a cloudy forecast. The mornings I've cancelled on turned out spectacular as often as not — a break in the cloud right on the horizon is unpredictable and produces the best light. If in doubt, get up and go; the walk is worth it either way." },
+    { "type": "callout", "tone": "warning", "title": "Coffee comes later", "text": "Most Campbell Parade cafes open after first light, not before it. Bring a thermos, or plan to reward yourself once the beachfront wakes up — you'll be down there a good while before anything's serving." },
+    { "type": "h2", "text": "When to set your alarm" },
+    { "type": "p", "text": "Sunrise time swings by roughly two and a half hours across the year, so the season completely changes your alarm. Around the December solstice the sun is up not long after 5:40am; around the June solstice it's closer to 7am. Because those times drift day to day, I always check the exact time for the morning I'm going rather than guessing." },
+    { "type": "quickFacts", "items": [
+      { "label": "Aspect", "value": "Faces due east — sun rises over the ocean" },
+      { "label": "Best light", "value": "The 20-40 min around sunrise (civil twilight into golden hour)" },
+      { "label": "Arrive", "value": "About 30 minutes before sunrise" },
+      { "label": "Peak seasons", "value": "Autumn & spring — crisp, lower humidity" },
+      { "label": "Check first", "value": "Exact sunrise time + cloud forecast the night before" }
+    ] },
+    { "type": "p", "text": "Aim to be in position around half an hour before the listed sunrise time. The pre-dawn glow during civil twilight is frequently better than the moment the sun actually clears the horizon, and you don't want to be still walking down when it happens." },
+    { "type": "h2", "text": "Where I stand" },
+    { "type": "p", "text": "For a sunrise directly over the water, the southern end near the Bondi Icebergs and the start of the Bondi to Bronte coastal walk is my favourite — you get the ocean pool, the headland and the sun all in one frame. The northern headland and the promenade itself work beautifully too. Wherever you settle, give yourself room to reframe as the sun climbs; it moves faster than you expect." },
+    { "type": "localTip", "text": "Check the swell and tide as well as the light. A bigger swell exploding against the Icebergs pool at dawn is a photo in itself, and a low tide opens up wet-sand reflections along the main beach that double the colour in the sky." },
+    { "type": "faq", "items": [
+      { "q": "What's the best weather for a Bondi sunrise?", "a": "Partly cloudy — enough high or mid-level cloud for the light to catch, ideally with a gap on the eastern horizon so the first rays fire up under the cloud. Clear skies give a short, clean sunrise; fully overcast skies usually give nothing. The morning after an overnight change is often the clearest and most colourful." },
+      { "q": "What time is sunrise at Bondi Beach?", "a": "It ranges from roughly 5:40am around the December solstice to about 7am around the June solstice, and shifts a little every day. Check the exact time for your date on a source like timeanddate.com or the Bureau of Meteorology before you go." },
+      { "q": "What time should I arrive?", "a": "About 30 minutes before the listed sunrise. The pre-dawn twilight glow is often the best colour of the whole morning, so you want to be in position and settled before the sun actually breaks the horizon." },
+      { "q": "Does Bondi Beach face the sunrise?", "a": "Yes. Bondi faces due east across the Pacific Ocean, so the sun rises straight out of the water in front of the beach — which is exactly why it's a sunrise beach rather than a sunset one." }
+    ] },
+    { "type": "p", "text": "So the honest answer to \"what's the perfect condition?\" is: a bit of cloud, clean air, and a horizon that isn't sealed shut. Read the forecast the night before, set the alarm for half an hour before sunrise, and go. Even the mornings that don't ignite are quiet, salty and worth being awake for — and the ones that do will stop you in your tracks." }
+  ]
+}

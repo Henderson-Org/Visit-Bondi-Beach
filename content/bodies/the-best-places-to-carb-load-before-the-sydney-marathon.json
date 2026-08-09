@@ -1,0 +1,48 @@
+{
+  "path": "/bondi-blog/2025/8/9/the-best-places-to-carb-load-before-the-sydney-marathon",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "TCS Sydney Marathon (official)", "url": "https://www.tcssydneymarathon.com/" },
+    { "label": "Abbott World Marathon Majors — Sydney", "url": "https://www.worldmarathonmajors.com/sydney-major" },
+    { "label": "Pompei's Bondi", "url": "https://pompeis.com.au/" },
+    { "label": "Sonoma Bakery", "url": "https://sonoma.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you're running the Sydney Marathon and basing yourself in Bondi, my honest advice is simple: keep your carb-loading meals early, familiar and low-fuss, and you don't have to leave the beach to eat well. My go-to picks are Pompei's for handmade pasta, Bondi Trattoria for a relaxed sit-down feed, and Sonoma Bakery for portable sourdough to graze on the day before. Below is exactly where I'd send a friend in town for race weekend." },
+    { "type": "p", "text": "The Sydney Marathon has become a genuinely big deal — it joined the Abbott World Marathon Majors in 2025 as the seventh Major, alongside Tokyo, Boston, London, Berlin, Chicago and New York. That means more runners flying in, more first-timers, and a lot of people asking me the same thing over a flat white: where do I load up the night before? The start and finish are over in the city, not out here, but plenty of runners stay in Bondi for the sea air and the recovery swim afterwards, so it's a fair question." },
+    { "type": "callout", "tone": "note", "title": "Check your race date first", "text": "The Sydney Marathon is usually held on a Sunday in late winter/early spring, but the exact date moves year to year — confirm it, along with start times and the expo, on the official TCS Sydney Marathon website before you lock in any dinner bookings." },
+    { "type": "h2", "text": "My favourite carb-loading spots in Bondi" },
+    { "type": "h3", "text": "Pompei's — handmade pasta and thin-crust pizza" },
+    { "type": "p", "text": "Pompei's on Roscoe Street is where I'd start. The pasta is made in-house and the pizza bases are thin and crisp rather than heavy, which is exactly what you want the night before 42.2 kilometres — carbs without the concrete-in-the-stomach feeling. A simple pomodoro or margherita is easy to digest and easy to order. It's popular and doesn't take bookings the way a fine-diner does, so get there early on a Friday or Saturday; check their current hours and days on the Pompei's site, as they've been known to close Mondays." },
+    { "type": "h3", "text": "Bondi Trattoria — the relaxed Campbell Parade classic" },
+    { "type": "p", "text": "Bondi Trattoria is a long-standing local institution right on Campbell Parade, looking out over the beach. It's my pick if you want to actually sit down, book a table and make a proper evening of it with a group. There's plenty of pasta on the menu, and the vibe is calm rather than boozy — helpful when you're trying to be in bed by nine. Book ahead on race weekend; the beachfront tables go fast." },
+    { "type": "h3", "text": "Sonoma Bakery — grab-and-go sourdough" },
+    { "type": "p", "text": "For the day before, when you're grazing rather than sitting down to one big meal, I stock up at Sonoma. Their sourdough, fruit loaf and banana bread are perfect if you're self-catering in an apartment and want familiar, gentle carbs on hand for breakfast and snacks. Bonus: they're an easy stroll from the beach, so you can combine it with a shake-out walk along the promenade." },
+    { "type": "localTip", "text": "Book your Saturday-night dinner earlier than feels necessary — a 6pm table beats a 8:30 one when you've got a pre-dawn alarm. And eat the meal your gut already knows. Race weekend is not the moment to try a new cuisine or a rich, unfamiliar sauce." },
+    { "type": "h2", "text": "How to actually carb-load (without overdoing it)" },
+    { "type": "p", "text": "The classic mistake is treating carb-loading as a single enormous bowl of pasta the night before. It isn't. The idea is to top up the glycogen in your muscles gradually over the two to three days before the race by raising the proportion of carbohydrate in your meals — not to eat until you're uncomfortable. Sports-nutrition guidance changes and depends on your body weight and training, so if you want precise numbers, talk to a sports dietitian rather than trusting a blog (including mine)." },
+    { "type": "list", "items": [
+      "Spread carbs across several normal-sized meals over 2–3 days rather than one huge feed.",
+      "Choose foods your stomach already tolerates well — familiar beats fancy.",
+      "Go easy on high-fibre, very rich or very fatty dishes the night before.",
+      "Keep hydration steady, and don't experiment with new supplements or alcohol.",
+      "Have a portable breakfast sorted for the morning — a bagel, banana bread or toast you know sits well."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "Getting to the start line", "text": "Race-morning road closures around the CBD are significant and public transport runs to a special timetable. Plan your trip in from Bondi the night before using Transport for NSW and the official race travel information — don't assume your usual bus route will run as normal." },
+    { "type": "quickFacts", "items": [
+      { "label": "Race", "value": "TCS Sydney Marathon (Abbott World Marathon Major)" },
+      { "label": "Distance", "value": "42.2 km" },
+      { "label": "Where to load in Bondi", "value": "Pompei's, Bondi Trattoria, Sonoma" },
+      { "label": "Best strategy", "value": "Gradual carbs over 2–3 days, not one big meal" }
+    ] },
+    { "type": "faq", "items": [
+      { "q": "Where's the best place to carb-load in Bondi before the Sydney Marathon?", "a": "For a proper pasta dinner I'd book Bondi Trattoria on Campbell Parade or head to Pompei's for handmade pasta and thin-crust pizza. For portable, easy-to-digest carbs the day before, Sonoma Bakery's sourdough and banana bread are ideal, especially if you're self-catering." },
+      { "q": "When is the Sydney Marathon held?", "a": "It's run once a year, typically on a Sunday in late winter or early spring, but the exact date changes annually. Always confirm the current date, start times and expo details on the official TCS Sydney Marathon website." },
+      { "q": "Is the Sydney Marathon a World Marathon Major?", "a": "Yes. In 2025 the Sydney Marathon became the seventh Abbott World Marathon Major, joining Tokyo, Boston, London, Berlin, Chicago and New York." },
+      { "q": "Should I eat a big pasta dinner the night before?", "a": "Not one enormous one. It's better to raise your carbohydrate intake gradually across the two to three days before the race with normal-sized, familiar meals. For personalised numbers, see a sports dietitian." },
+      { "q": "Can I stay in Bondi and still get to the start line easily?", "a": "Plenty of runners do, but the start and finish are in the city, not Bondi. Road closures and a special public-transport timetable apply on race morning, so plan your route in advance using Transport for NSW and the official race travel information." }
+    ] },
+    { "type": "p", "text": "Whatever you choose, keep it boring and keep it early — the exciting part is the finish line by the Opera House, not Saturday's dinner. Fuel simply, sleep well, and enjoy your run. I'll be somewhere along the way cheering." }
+  ]
+}

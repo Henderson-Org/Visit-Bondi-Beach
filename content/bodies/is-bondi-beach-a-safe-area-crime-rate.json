@@ -1,0 +1,47 @@
+{
+  "path": "/bondi-blog/2024/1/21/is-bondi-beach-a-safe-area-crime-rate",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "NSW Bureau of Crime Statistics and Research (BOCSAR) — Crime Maps", "url": "https://crimetool.bocsar.nsw.gov.au/bocsar/" },
+    { "label": "NSW Police Force — Crime Statistics", "url": "https://www.police.nsw.gov.au/about_us/publications/publications/crime_statistics" },
+    { "label": "Waverley Council — Beach Safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
+    { "label": "Surf Life Saving NSW — Beach Safety Hub", "url": "https://beachsafetyhub.org.au/learn-&-play/learn-play-in-your-language/staying-safe-at-the-beach/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Is Bondi Beach a safe area? Yes — Bondi is a safe, welcoming suburb, and in the years I've lived and worked around here I've always felt comfortable walking the promenade, day or night. It sits in the Waverley local government area, one of Sydney's most desirable pockets, and the everyday reality is exactly what you'd hope: families on the grass, joggers at dawn, and a steady, friendly crowd. The honest truth is that the biggest genuine danger at Bondi isn't crime at all — it's the ocean, and I'll come to that." },
+    { "type": "quickFacts", "items": [
+      { "label": "Suburb", "value": "Bondi (Waverley LGA), Sydney" },
+      { "label": "Overall feel", "value": "Very safe, busy day and night" },
+      { "label": "Most common issue", "value": "Opportunistic theft of unattended items" },
+      { "label": "Biggest real risk", "value": "Rip currents in the surf" },
+      { "label": "Emergency", "value": "000 (police, fire, ambulance)" }
+    ] },
+    { "type": "h2", "text": "What the crime picture actually looks like" },
+    { "type": "p", "text": "Bondi is a densely populated, heavily visited beach suburb, so — like anywhere popular — it isn't crime-free. But the offences that do occur are overwhelmingly at the lower end: opportunistic theft, the odd bit of property damage, and alcohol-related incidents late at night around the bars. Serious crime against visitors is rare, and there's a visible community-and-police presence that keeps the mood relaxed rather than edgy." },
+    { "type": "p", "text": "Crime numbers shift quarter to quarter, and I'd rather send you to the source than quote a figure that's out of date by the time you read this. The NSW Bureau of Crime Statistics and Research (BOCSAR) publishes an interactive crime map and reports crime by suburb and local government area — you can look up Bondi and Waverley yourself and see the latest trend. NSW Police also publish their own statistics. That's the authoritative picture; anything else is second-hand." },
+    { "type": "callout", "tone": "note", "title": "Where the numbers live", "text": "For current, official crime data by suburb, use the BOCSAR Crime Maps tool and search \"Bondi\" or the \"Waverley\" LGA. It's free, updated regularly, and far more reliable than any single blog's snapshot." },
+    { "type": "h3", "text": "Keeping your gear safe on the sand" },
+    { "type": "p", "text": "If there's one practical thing I nag visitors about, it's this: the classic Bondi mishap is leaving a phone, wallet or bag unattended on your towel while you dash in for a swim. That's the opening opportunistic thieves look for, and it's the easiest risk in the world to design out. Bring as little of value to the beach as you can, keep essentials on you or with a friend who stays out of the water, and don't advertise a bag full of gear left alone on the sand." },
+    { "type": "list", "items": [
+      "Take the minimum to the beach — leave passports and spare cards at your accommodation.",
+      "Never leave phones, keys or wallets loose on a towel while you swim; swap swim shifts with a friend so someone's always watching your things.",
+      "Split your cash and cards so a single loss isn't a disaster.",
+      "At night, stick to the well-lit promenade and Campbell Parade rather than cutting through dark, empty spots — same common sense you'd use in any city.",
+      "Save 000 in your phone; it's the number for police, ambulance and fire in Australia."
+    ] },
+    { "type": "localTip", "text": "A cheap waterproof phone pouch on a lanyard is the single best Bondi purchase you'll make. You keep your phone and a card on you in the water, and you stop worrying about your towel entirely. It pays for itself in peace of mind on day one." },
+    { "type": "h2", "text": "The real risk: respect the ocean, not the streets" },
+    { "type": "p", "text": "Here's where I get serious. Bondi's surf is beautiful and deceptively powerful, and rip currents — narrow channels of water pulling back out to sea — are the number-one hazard on Australian beaches. Almost every dramatic rescue you hear about here involves someone who underestimated the water, and very often someone swimming outside the patrolled area." },
+    { "type": "p", "text": "The rule is simple and it genuinely saves lives: always swim between the red-and-yellow flags. That's the stretch the lifeguards have assessed as safest and are actively watching. If you're ever caught in a rip, don't fight it — stay calm, float, raise an arm and call for help, and let the lifeguards do what they're brilliant at. Patrol times vary by season, so check Waverley Council's beach safety page or the flags on the day before you go in." },
+    { "type": "callout", "tone": "warning", "title": "Swim between the flags — every time", "text": "Never swim outside the flagged area, and don't swim alone or after drinking. If in doubt about conditions, ask a lifeguard. Confirm current patrol hours via Waverley Council rather than assuming the beach is patrolled when you arrive." },
+    { "type": "faq", "items": [
+      { "q": "Is Bondi Beach safe for tourists?", "a": "Yes. Bondi is a very safe, busy suburb and tourists are a huge part of the crowd. The main things to manage are ordinary big-city sense — don't leave valuables unattended on the sand — and, far more importantly, ocean safety: always swim between the red-and-yellow flags." },
+      { "q": "Is Bondi safe to walk around at night?", "a": "Generally, yes. Campbell Parade and the promenade stay busy and well-lit well into the evening. As anywhere, stick to lit, populated streets, keep an eye on your belongings around the late-night bars, and use normal caution." },
+      { "q": "What is Bondi's crime rate?", "a": "Bondi is considered a low-crime, safe suburb, with most offences being minor and theft-related. Exact figures change over time, so I'd check the official BOCSAR Crime Maps for Bondi and the Waverley LGA rather than rely on a fixed number." },
+      { "q": "Are pickpockets a problem at Bondi Beach?", "a": "Serious pickpocketing is uncommon, but opportunistic theft of unattended phones, wallets and bags does happen on any busy beach. Keep valuables on you or with a friend, and consider a waterproof pouch so you can take your essentials into the water." },
+      { "q": "What's the most dangerous thing at Bondi?", "a": "The surf, not crime. Rip currents are the real hazard here. Swim only between the flags, never swim alone or after alcohol, and if you're caught in a rip, stay calm, float and signal for help." }
+    ] },
+    { "type": "p", "text": "So — is Bondi a safe area? Comfortably yes. Treat your belongings with the same sense you would in any world-famous city, give the ocean the respect it deserves, and you'll have exactly the easy, sun-soaked Bondi day the rest of us come back for again and again." }
+  ]
+}
