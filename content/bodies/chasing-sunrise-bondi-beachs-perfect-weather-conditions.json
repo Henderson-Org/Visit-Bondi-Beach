@@ -3,7 +3,7 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "timeanddate.com — Sunrise & sunset, Bondi Beach", "url": "https://www.timeanddate.com/sun/@2174949" },
+    { "label": "timeanddate.com — Sunrise & sunset, Sydney", "url": "https://www.timeanddate.com/sun/australia/sydney" },
     { "label": "Bureau of Meteorology — Sydney forecast", "url": "http://www.bom.gov.au/nsw/forecasts/sydney.shtml" },
     { "label": "Bureau of Meteorology — MetEye", "url": "http://www.bom.gov.au/australia/meteye/" }
   ],
@@ -20,7 +20,7 @@
     { "type": "localTip", "text": "Don't write off a cloudy forecast. The mornings I've cancelled on turned out spectacular as often as not — a break in the cloud right on the horizon is unpredictable and produces the best light. If in doubt, get up and go; the walk is worth it either way." },
     { "type": "callout", "tone": "warning", "title": "Coffee comes later", "text": "Most Campbell Parade cafes open after first light, not before it. Bring a thermos, or plan to reward yourself once the beachfront wakes up — you'll be down there a good while before anything's serving." },
     { "type": "h2", "text": "When to set your alarm" },
-    { "type": "p", "text": "Sunrise time swings by roughly two and a half hours across the year, so the season completely changes your alarm. Around the December solstice the sun is up not long after 5:40am; around the June solstice it's closer to 7am. Because those times drift day to day, I always check the exact time for the morning I'm going rather than guessing." },
+    { "type": "p", "text": "Sunrise time swings by well over an hour across the year, so the season completely changes your alarm. Around the December solstice the sun is up not long after 5:40am; around the June solstice it's closer to 7am. Because those times drift day to day, I always check the exact time for the morning I'm going rather than guessing." },
     { "type": "quickFacts", "items": [
       { "label": "Aspect", "value": "Faces due east — sun rises over the ocean" },
       { "label": "Best light", "value": "The 20-40 min around sunrise (civil twilight into golden hour)" },

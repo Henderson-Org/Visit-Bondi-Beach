@@ -3,15 +3,15 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Hotel Ravesis (QT Hotels)", "url": "https://www.qthotels.com/bondi-beach/things-to-do/ravesis/" },
+    { "label": "Hotel Ravesis", "url": "https://hotelravesis.com/" },
     { "label": "Icebergs Dining Room and Bar", "url": "https://idrb.com/bondi-bar/" },
     { "label": "North Bondi RSL", "url": "https://www.northbondirsl.com.au/" },
-    { "label": "Curly Lewis Brewing Co.", "url": "https://www.curlylewis.beer/" },
-    { "label": "Beach Road Hotel", "url": "https://www.beachroadbondi.com.au/" },
+    { "label": "Curly Lewis Brewing Co.", "url": "https://curlylewis.com.au/" },
+    { "label": "Beach Road Hotel", "url": "https://www.beachroadhotel.com.au/" },
     { "label": "Broadsheet — Best Bars in Bondi", "url": "https://www.broadsheet.com.au/sydney/guides/best-bars-bondi" }
   ],
   "blocks": [
-    { "type": "p", "text": "Ask me where to drink in Bondi and I'll answer before you finish the question: start beachfront with a sundowner, then wander inland as the night warms up. After years of living a few streets back from the sand, these are the ten bars I actually send friends to — a mix of ocean-view balconies, a proper microbrewery, a couple of cosy locals' corners and one or two that keep going long after the surf lights switch off." },
+    { "type": "p", "text": "Ask me where to drink in Bondi and I'll answer before you finish: start beachfront for a sundowner, then wander inland as the night warms up. After years living just back from the sand, these are the ten bars I actually send friends to — ocean-view balconies, a proper microbrewery, cosy locals' corners and one or two that run late." },
     { "type": "quickFacts", "items": [
       { "label": "Best for views", "value": "Icebergs, North Bondi RSL, Hotel Ravesis" },
       { "label": "Best for craft beer", "value": "Curly Lewis Brewing Co." },
@@ -20,42 +20,42 @@
     ] },
     { "type": "h2", "text": "My beachfront big-hitters" },
     { "type": "h3", "text": "1. Hotel Ravesis" },
-    { "type": "p", "text": "You can't miss the flamingo-pink corner where Hall Street meets Campbell Parade. Ravesis is the one I aim for when I want the whole spectrum in a single building — an easy schooner or a glass of rosé on the terrace early, then upstairs as the DJs get going and it tips into the small hours. Grab a spot on the front terrace for that classic wide-open view over the promenade to the water." },
+    { "type": "p", "text": "You can't miss the flamingo-pink corner where Hall Street meets Campbell Parade. Ravesis is my pick for the whole spectrum in one building — a schooner or a rosé on the terrace early, then upstairs as the DJs get going and it tips into the small hours. Grab a front-terrace spot for the wide view." },
     { "type": "h3", "text": "2. Icebergs (the Bondi Bar balcony)" },
-    { "type": "p", "text": "For the postcard, nothing beats the balcony bar at Icebergs, perched above the famous ocean pool at the south end. It's a dress-up-a-little kind of place and the drinks are priced for the view, but a negroni at golden hour looking down the length of the beach is one of those genuinely Sydney moments. It's popular and often booked, so check the Icebergs website and reserve ahead if you want a table." },
+    { "type": "p", "text": "For the postcard, nothing beats the balcony bar at Icebergs, above the famous ocean pool at the south end. It's dress-up-a-little and priced for the view, but a negroni at golden hour is a genuinely Sydney moment. It books out — reserve ahead through the Icebergs site." },
     { "type": "h3", "text": "3. North Bondi RSL" },
-    { "type": "p", "text": "My honest tip for the best value view in Bondi: the RSL at the north end. Sign in as a guest, head up to the wrap-around glass balcony and you get the same knockout beach outlook at a fraction of the price. Sunset here with the surfers still out is hard to beat. Sign-in and hours can vary, so glance at the North Bondi RSL site before you head over." },
-    { "type": "localTip", "text": "Bondi faces east, so the sun sets behind you over the rooftops, not the sea. The magic light is actually the glow ON the water and the headlands — aim to have a drink in hand by about 30 minutes before sunset and watch the whole beach turn gold." },
+    { "type": "p", "text": "My tip for the best-value view in Bondi: the RSL at the north end. Sign in as a guest, head to the wrap-around glass balcony and you get the same knockout beach outlook for far less. Check the North Bondi RSL site for sign-in and hours first." },
+    { "type": "localTip", "text": "Bondi faces east, so the sun sets behind you over the rooftops, not the sea. The magic is the glow on the water and the headlands — have a drink in hand about half an hour before sunset and watch the beach turn gold." },
     { "type": "h2", "text": "Craft beer, cocktails and cosy corners" },
     { "type": "h3", "text": "4. Curly Lewis Brewing Co." },
-    { "type": "p", "text": "Bondi's own microbrewery, tucked just back from Campbell Parade, brews everything on-site — the tanks are right there behind the bar. I come for a tasting paddle to work out my mood before committing to a pint, usually landing on whatever hazy pale they've got pouring. Communal tables, an easy beer-garden feel, and the sort of place where a quick one turns into three." },
+    { "type": "p", "text": "Bondi's own microbrewery, just back from Campbell Parade, brews everything on-site, the tanks right behind the bar. I come for a tasting paddle before committing to a pint, usually landing on whatever hazy they've got pouring. Communal tables and an easy beer-garden feel." },
     { "type": "h3", "text": "5. The Anchor" },
-    { "type": "p", "text": "A small, buzzy cocktail spot on Campbell Parade that locals took to quickly. It's tight, it's loud in the best way, and the drinks list rewards a bit of adventurousness — good for kicking off a night rather than settling in for hours. Get there earlier on weekends if you want a seat." },
+    { "type": "p", "text": "A small, buzzy agave-and-cocktail spot at the south end of Campbell Parade that locals took to fast. It's tight and loud in the best way, with a margarita list that rewards a bit of adventurousness — great for kicking off a night." },
     { "type": "h3", "text": "6. Beach Road Hotel" },
-    { "type": "p", "text": "A couple of streets back on Beach Road, this big multi-level pub is the reliable all-rounder — cold schooners, pub classics on the plate, live sport, and DJs and bands upstairs on weekends. It's where a lot of Bondi nights quietly end up. Check their site for what's on before you commit your evening to the top floor." },
+    { "type": "p", "text": "A couple of streets back on Beach Road, this big multi-level pub is the reliable all-rounder — cold schooners, pub classics, live sport, and DJs and bands upstairs on weekends. It's where a lot of Bondi nights quietly end up." },
     { "type": "h2", "text": "The rest of my ten" },
-    { "type": "p", "text": "These four round out the list — different moods for different nights:" },
+    { "type": "p", "text": "These four round out the list — a different mood for each night." },
     { "type": "list", "items": [
-      "The Bucket List — the sprawling open-air bar right in the Bondi Pavilion, feet-in-the-sand spritzes and one of the best spots for an afternoon session in summer.",
-      "Bondi Pavilion Front Yard Bar — the heritage pavilion's casual outdoor bar, festoon lights and a relaxed post-swim crowd.",
-      "The Shop (Curlewis Street) — café by day, snug little wine bar by night; my pick for a quiet drink and a cheese plate away from the crowds.",
-      "The Beaver — an unpretentious, good-fun bar for burgers, mezcal and a night that doesn't take itself too seriously."
+      "The Bucket List — the sprawling open-air bar in the Bondi Pavilion, feet-in-the-sand spritzes and a great afternoon-session spot in summer.",
+      "Neighbourhood (Curlewis Street) — a lively little local back from the sand, good for a natural wine with the after-beach crowd.",
+      "The Shop & Wine Bar (Curlewis Street) — café by day, snug wine bar by night; my pick for a quiet drink and a cheese plate.",
+      "The Stuffed Beaver (Bondi Road) — an unpretentious, good-fun bar for burgers, mezcal and a night that doesn't take itself too seriously."
     ] },
-    { "type": "callout", "tone": "note", "title": "Summer weekends fill fast", "text": "From roughly December through February the beachfront venues can hit capacity by mid-afternoon on a hot day. If a table matters — especially at Icebergs or for a big group — book ahead through the venue's own website, and always confirm current opening hours there, as they shift with the season." },
+    { "type": "callout", "tone": "note", "title": "Summer weekends fill fast", "text": "From December through February the beachfront venues can hit capacity by mid-afternoon on a hot day. If a table matters — especially at Icebergs or for a big group — book ahead through the venue's own site and confirm current hours." },
     { "type": "h2", "text": "How I'd string them together" },
     { "type": "itinerary", "stops": [
-      { "time": "4:30pm", "title": "North Bondi RSL", "detail": "Start at the north end for the best-value beach view while the light is still high." },
-      { "time": "6:00pm", "title": "The Bucket List / Pavilion", "detail": "Drift down to the sand for a spritz as the beach turns gold." },
-      { "time": "7:30pm", "title": "Curly Lewis or The Anchor", "detail": "Head inland — a pint at the brewery or a cocktail to shift gears." },
-      { "time": "9:30pm", "title": "Hotel Ravesis or Beach Road", "detail": "Finish where the DJs are for a proper late one." }
+      { "time": "4:30pm", "title": "North Bondi RSL", "detail": "Best-value beach view while the light is still high." },
+      { "time": "6:00pm", "title": "The Bucket List / Pavilion", "detail": "Down to the sand for a spritz as the beach turns gold." },
+      { "time": "7:30pm", "title": "Curly Lewis or The Anchor", "detail": "Head inland — a pint or a cocktail to shift gears." },
+      { "time": "9:30pm", "title": "Hotel Ravesis or Beach Road", "detail": "Finish where the DJs are for a late one." }
     ] },
     { "type": "faq", "items": [
-      { "q": "Which Bondi bar has the best beach view?", "a": "For the postcard shot, the balcony bar at Icebergs above the ocean pool is unbeatable. For the same beach outlook at a much lower price, the upstairs balcony at North Bondi RSL is my go-to. Hotel Ravesis' front terrace is the pick if you want the view with a livelier crowd." },
-      { "q": "Where can I drink late in Bondi?", "a": "Hotel Ravesis and the Beach Road Hotel are the two that reliably keep going into the night on weekends, with DJs upstairs. Closing times vary by night and season, so check each venue's own website for current hours." },
-      { "q": "Is there craft beer brewed in Bondi?", "a": "Yes — Curly Lewis Brewing Co. is Bondi's own microbrewery, brewing on-site just back from Campbell Parade. A tasting paddle is the best way to find your favourite before committing to a pint." },
-      { "q": "How do I get to Bondi Beach for a night out?", "a": "The easiest route from the city is the 333 or 380 bus to Bondi Beach, or catch the train to Bondi Junction and change to a beach-bound bus. Check Transport for NSW for current timetables, and plan your trip home before the last service if you're not grabbing a rideshare." },
-      { "q": "Do I need to book ahead?", "a": "For most pubs and casual bars you can just turn up. For Icebergs, or for larger groups on summer weekends, book directly through the venue's website — the beachfront spots fill quickly on hot days." }
+      { "q": "Which Bondi bar has the best beach view?", "a": "The balcony bar at Icebergs, above the ocean pool, wins for the postcard shot. For the same outlook at a much lower price, head to North Bondi RSL's upstairs balcony. Ravesis' front terrace pairs the view with a livelier crowd." },
+      { "q": "Where can I drink late in Bondi?", "a": "Hotel Ravesis and the Beach Road Hotel reliably keep going into the night on weekends, with DJs upstairs. Closing times vary by season, so check each venue's own site for current hours." },
+      { "q": "Is there craft beer brewed in Bondi?", "a": "Yes — Curly Lewis Brewing Co. is Bondi's own microbrewery, brewing on-site just back from Campbell Parade. A tasting paddle is the best way in." },
+      { "q": "How do I get to Bondi Beach for a night out?", "a": "The easiest route from the city is the 333 or 380 bus, or the train to Bondi Junction and a beach-bound bus. Check Transport for NSW for timetables and plan your way home before the last service." },
+      { "q": "Do I need to book ahead?", "a": "For most pubs and casual bars you can just turn up. For Icebergs, or larger groups on summer weekends, book directly through the venue's site." }
     ] },
-    { "type": "p", "text": "That's my ten — enough range to build any kind of Bondi night, from a quiet wine after the beach to a full sunset-to-late crawl. Hours, session times and prices do move around with the seasons, so treat this as the shortlist and confirm the details on each venue's own site. Then grab a spot facing the water, get a drink in hand before the light goes, and enjoy the best hour in Bondi." }
+    { "type": "p", "text": "That's my ten — enough range for any kind of Bondi night, from a quiet wine after the beach to a full sunset-to-late crawl. Hours and prices move with the seasons, so treat this as the shortlist and confirm details on each venue's own site." }
   ]
 }

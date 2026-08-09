@@ -9,8 +9,8 @@
     { "label": "Transport for NSW — trip planner", "url": "https://transportnsw.info/" }
   ],
   "blocks": [
-    { "type": "p", "text": "When people ask me for the calmest, prettiest swim near Bondi, I send them straight over the headland to Nielsen Park and its little harbour cove, Shark Beach — a netted, gentle-water beach in Sydney Harbour National Park at Vaucluse, wrapped in fig-shaded lawns with the city skyline glinting across the water. It's the antidote to a big surf day: no crashing waves, just clear green water, a long grassy picnic slope and one of the loveliest views in Sydney." },
-    { "type": "p", "text": "If you'd tried to visit anytime in the last few years you may have found it fenced off. Shark Beach was closed for a major rebuild of its near-100-year-old seawall and reopened to swimmers on 12 December 2024, complete with a new seawall, refreshed grounds, extra promenade seating and a wheelchair-accessible ramp down to the sand. It's back — and honestly, better than I remember it." },
+    { "type": "p", "text": "When people ask me for the calmest, prettiest swim near Bondi, I send them over the headland to Nielsen Park and its harbour cove, Shark Beach — a netted, gentle-water beach in Sydney Harbour National Park at Vaucluse, wrapped in fig-shaded lawns with the city skyline glinting across the water. It's the antidote to a big surf day: no crashing waves, just clear green water and one of the loveliest views in Sydney." },
+    { "type": "p", "text": "If you'd tried to visit in the last few years you may have found it fenced off. Shark Beach was closed for a major rebuild of its near-100-year-old seawall and reopened to swimmers on 12 December 2024, with refreshed grounds, extra promenade seating and a wheelchair-accessible ramp down to the sand. It's back — and honestly, better than I remember it." },
     { "type": "quickFacts", "items": [
       { "label": "Where", "value": "Nielsen Park, Vaucluse (Sydney Harbour National Park)" },
       { "label": "The beach", "value": "Shark Beach — netted harbour swimming" },
@@ -19,15 +19,15 @@
       { "label": "Great for", "value": "Families, calm-water swimmers, picnics" }
     ] },
     { "type": "h2", "text": "Why I love Shark Beach" },
-    { "type": "p", "text": "Don't let the name spook you — the \"shark\" here is the net, not the resident. A marine net curves out from the shore during the warmer months, so you're swimming in a sheltered pocket of the harbour with sailboats and kayaks drifting just beyond it. Because it's harbour rather than open ocean, there's no shore dump and barely a ripple, which makes it my go-to when I've got little kids in tow or just want a float rather than a fight with the surf." },
-    { "type": "p", "text": "Behind the sand is the bit that keeps me coming back: a wide, sloping lawn under enormous Moreton Bay figs, a promenade to stroll, and grassy terraces perfect for laying out a blanket. Above it all sits Greycliffe House, a grand 19th-century sandstone mansion (it's not open as a casual attraction, but it's a beautiful backdrop for a picnic)." },
-    { "type": "localTip", "text": "The shark net is a summer fixture — it's typically removed over the cooler months for maintenance and can come out temporarily after big swells. If a netted swim is the whole point of your trip, check the NSW National Parks alerts page for the day before you commit." },
+    { "type": "p", "text": "Don't let the name spook you — the \"shark\" here is the net, not the resident. A marine net curves out from the shore in the warmer months, so you swim in a sheltered pocket of the harbour with sailboats and kayaks drifting just beyond it. Because it's harbour rather than open ocean, there's no shore dump and barely a ripple — my go-to when I've got little kids in tow or just want a float rather than a fight with the surf." },
+    { "type": "p", "text": "Behind the sand is the bit that keeps me coming back: a wide, sloping lawn under enormous Moreton Bay figs and grassy terraces made for a blanket. Above it sits Greycliffe House, a grand 19th-century sandstone mansion — not open as a casual attraction, but a beautiful backdrop for a picnic." },
+    { "type": "localTip", "text": "The shark net is a summer fixture — it's typically removed over the cooler months and can come out temporarily after big swells. If a netted swim is the whole point of your trip, check the NSW National Parks alerts page before you commit." },
     { "type": "h2", "text": "Getting there and parking" },
     { "type": "p", "text": "By car from Bondi it's a short, pretty run north through Vaucluse — but parking is the catch. There's a limited car park and some accessible spaces off Greycliffe Avenue, and on a warm weekend they fill early. My honest advice: arrive before mid-morning or plan to circle." },
     { "type": "p", "text": "By public transport, the 325 bus runs through Vaucluse and stops near the park entrance, and you can connect to it from Bondi Junction or the city. Because bus routes and timetables change, I'd plug your start point into the Transport for NSW trip planner rather than trusting a fixed time — it'll give you the current route and connections." },
     { "type": "callout", "tone": "note", "title": "Come by foot if you can", "text": "Nielsen Park sits on the Hermitage Foreshore Walk, an easy harbourside track linking it toward Rose Bay with knockout views of the Harbour Bridge and city. Walking in and swimming to cool off is one of my favourite half-days in the eastern suburbs." },
     { "type": "h2", "text": "Food, facilities and the kiosk" },
-    { "type": "p", "text": "The historic kiosk has reopened as The Nielsen, a café-restaurant serving casual bites like fish and chips and ice creams through to a sit-down menu. Hours and menus shift with the season, so check The Nielsen's own site before you count on a meal there. There are also public toilets, picnic tables and barbecues around the grounds, so a bring-your-own picnic works just as well." },
+    { "type": "p", "text": "The historic kiosk has reopened as The Nielsen, a café-restaurant serving casual bites like fish and chips through to a sit-down menu. Hours and menus shift with the season, so check its site before counting on a meal there. There are also public toilets, picnic tables and barbecues around the grounds, so a bring-your-own picnic works just as well." },
     { "type": "list", "items": [
       "Pack reef shoes or thongs — the sand gives way to some rocky, seagrassy patches near the edges.",
       "Shade goes fast under the figs on hot days; a small sun shelter is worth bringing.",
@@ -40,6 +40,6 @@
       { "q": "Is there food at Nielsen Park?", "a": "Yes — the historic kiosk has reopened as The Nielsen, a café-restaurant serving casual bites through to a dine-in menu. Hours vary seasonally, so check their website. There are also barbecues and picnic tables if you'd rather bring your own." },
       { "q": "When did Shark Beach reopen?", "a": "Shark Beach reopened on 12 December 2024 after a multi-year closure to rebuild its ageing seawall, along with refreshed grounds and a new accessible ramp to the sand." }
     ] },
-    { "type": "p", "text": "So if the Bondi surf is pumping and you fancy the opposite — glassy water, a shady lawn and a view worth lingering over — point yourself north to Nielsen Park. After years behind the fences, it's a joy to have it back." }
+    { "type": "p", "text": "So if the Bondi surf is pumping and you fancy the opposite — glassy water, a shady lawn and a view worth lingering over — point yourself north to Nielsen Park. It's a joy to have it back." }
   ]
 }

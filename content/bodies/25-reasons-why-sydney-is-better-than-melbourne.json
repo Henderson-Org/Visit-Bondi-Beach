@@ -9,7 +9,7 @@
     { "label": "Waverley Council — Bondi Beach", "url": "https://www.waverley.nsw.gov.au/" }
   ],
   "blocks": [
-    { "type": "p", "text": "Let me be upfront: I write this from a towel on Bondi Beach, so I'm about as impartial as a magpie in spring. But if you've ever argued Sydney versus Melbourne over a schooner, here's my honest, only-slightly-biased answer — Sydney wins, and the case starts with the sand between my toes. Melbourne has its charms (I'll give them the coffee, and the trams), yet nothing there wakes you up like a Sydney morning where the harbour, the headlands and half a dozen surf beaches are all within a short ride." },
+    { "type": "p", "text": "Let me be upfront: I write this from a towel on Bondi Beach, so I'm about as impartial as a magpie in spring. But if you've ever argued Sydney versus Melbourne over a schooner, here's my honest answer — Sydney wins, and the case starts with the sand between my toes. Melbourne has its charms (I'll give them the coffee and the trams), yet nothing there wakes you up like a Sydney morning, with the harbour, the headlands and half a dozen surf beaches all a short ride away." },
     { "type": "quickFacts", "items": [
       { "label": "The clincher", "value": "Ocean beaches in the city" },
       { "label": "Icon", "value": "Opera House + Harbour Bridge" },
@@ -17,8 +17,8 @@
       { "label": "Best walk", "value": "Bondi to Bronte coastal path" }
     ] },
     { "type": "h2", "text": "It always comes back to the water" },
-    { "type": "p", "text": "This is the whole argument in one sentence: Sydney has genuine ocean beaches inside the city, and Melbourne doesn't. I can finish a workday, be swimming between the flags at Bondi within the hour, and dry off with an ice cream on the promenade. Manly, Coogee, Bronte, Tamarama — a string of them, each with its own personality, all reachable on a bus, ferry or a good pair of legs. Melbourne's bay beaches are pleasant, but they're not the same as a Pacific swell rolling in under a headland." },
-    { "type": "p", "text": "Then there's the harbour. I still catch the ferry sometimes just for the joy of it, watching the Opera House and the Bridge slide past like they're posing for a postcard. The Opera House is a UNESCO World Heritage Site — the only one you can sit beside with a gelato — and no amount of laneway street art quite competes with that skyline at golden hour." },
+    { "type": "p", "text": "This is the whole argument in one sentence: Sydney has genuine ocean beaches inside the city, and Melbourne doesn't. I can finish a workday and be swimming between the flags at Bondi within the hour. Manly, Coogee, Bronte, Tamarama — a string of them, each with its own personality, all reachable on a bus, ferry or a good pair of legs. Melbourne's bay beaches are pleasant, but they're not a Pacific swell rolling in under a headland." },
+    { "type": "p", "text": "Then there's the harbour. I still catch the ferry sometimes just for the joy of it, watching the Opera House and the Bridge slide past like a postcard. The Opera House is a UNESCO World Heritage Site, and no amount of laneway street art quite competes with that skyline at golden hour." },
     { "type": "h2", "text": "My 25 (cheerfully partisan) reasons" },
     { "type": "list", "items": [
       "Ocean beaches you can reach on public transport.",
@@ -32,7 +32,7 @@
       "The Bondi Rescue lifeguards keeping the flags honest.",
       "Winter whale-watching straight off the headlands.",
       "The Blue Mountains a short drive west for a nature reset.",
-      "Royal National Park — the world's second-oldest — on the doorstep.",
+      "Royal National Park — one of the world's oldest — on the doorstep.",
       "Coastal cliff walks with a new sea view around every bend.",
       "Ocean pools dotted right along the eastern beaches.",
       "Harbourside picnics with a skyline most cities would kill for.",
@@ -50,7 +50,7 @@
     { "type": "localTip", "text": "If you're settling the debate with a visiting Melburnian, don't argue — just walk them from Bondi to Bronte at sunrise. By the second cove, with the swimmers doing laps in the ocean pool below, the case tends to make itself." },
     { "type": "callout", "tone": "note", "title": "In fairness to Melbourne", "text": "I'll concede the coffee, the laneways, the live music and the sport. This is a love letter to Sydney, not a hit piece — Melbourne's a great weekend, just one without a surf beach at the end of the tram line." },
     { "type": "h2", "text": "The everyday, not just the postcard" },
-    { "type": "p", "text": "What really tips it for me isn't the big-ticket stuff — it's the ordinary Tuesday. A dawn dip before work, a coastal walk with a takeaway coffee, a swim between the flags on a lunch break. Sydney folds the outdoors into daily life in a way that's hard to match when the weather keeps you indoors, and that's the quiet reason locals here are so smug about it." },
+    { "type": "p", "text": "What really tips it for me isn't the big-ticket stuff — it's the ordinary Tuesday. A dawn dip before work, a coastal walk with a takeaway coffee, a swim between the flags on a lunch break. Sydney folds the outdoors into daily life, and that's the quiet reason locals here are so smug about it." },
     { "type": "p", "text": "So is Sydney objectively better than Melbourne? Of course not — it's a matter of taste, and half the fun is the arguing. But if your idea of a good life includes salt water, headlands and sun on your back, I know which side of the Hume Highway I'm staying on." },
     { "type": "faq", "items": [
       { "q": "Is Sydney really better than Melbourne?", "a": "It's a friendly, unwinnable rivalry — but if you love ocean beaches, harbour views and an outdoor lifestyle, Sydney is hard to beat. Melbourne counters with coffee, laneways, live music and sport. This guide is happily biased toward the beach." },

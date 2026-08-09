@@ -9,25 +9,25 @@
     { "label": "NSW Fair Trading — Taxi complaints", "url": "https://www.nsw.gov.au/departments-and-agencies/fair-trading" }
   ],
   "blocks": [
-    { "type": "p", "text": "Here's the short answer if you're reading this on the plane: to avoid taxi scams at Sydney Airport, ignore anyone who approaches you inside the terminal offering a ride, walk straight to the official taxi rank outside your arrivals hall, and make sure the meter is running before you pull away. Do those three things and you've sidestepped almost every rip-off I've heard travellers complain about. I meet a lot of people who've just landed and made their way out to Bondi, and the taxi horror stories nearly always start the same way — with a friendly stranger in the baggage hall." },
+    { "type": "p", "text": "Here's the short answer if you're reading this on the plane: to avoid taxi scams at Sydney Airport, ignore anyone who approaches you inside the terminal offering a ride, walk straight to the official taxi rank outside your arrivals hall, and make sure the meter is running before you pull away. Do those three things and you've sidestepped almost every rip-off I hear about. The horror stories from travellers heading to Bondi nearly always start the same way — with a friendly stranger in the baggage hall." },
     { "type": "h2", "text": "The scams I hear about most" },
-    { "type": "p", "text": "None of these are exotic. They're the same handful of tricks, and once you can name them they lose their power." },
+    { "type": "p", "text": "None of these are exotic — they're the same handful of tricks, and once you can name them they lose their power." },
     { "type": "list", "items": [
-      "The terminal tout. Someone approaches you at the carousel or just past customs asking \"Taxi? Best price?\" Genuine Sydney taxis never solicit inside the terminal — they wait at the rank. Anyone touting is almost certainly unlicensed, uninsured and unmetered.",
-      "\"The meter's broken\" flat fare. A driver claims the meter is out or won't take cards, then quotes a fat flat rate. In a NSW rank-and-hail taxi the meter must run unless you've genuinely agreed a set fare in advance.",
-      "The scenic route. A jet-lagged passenger who isn't watching the map is easy to loop around extra kilometres or unnecessary toll roads.",
-      "Invented surcharges. Real fees exist — an airport pick-up fee and tolls among them — but \"baggage handling\" charges and mystery add-ons are not standard.",
+      "The terminal tout. Someone approaches you at the carousel asking \"Taxi? Best price?\" Genuine Sydney taxis never solicit inside the terminal — they wait at the rank. Anyone touting is almost certainly unlicensed, uninsured and unmetered.",
+      "\"The meter's broken\" flat fare. A driver claims the meter is out or won't take cards, then quotes a fat flat rate. In a NSW rank-and-hail taxi the meter must run unless you've agreed a set fare in advance.",
+      "The scenic route. A jet-lagged passenger who isn't watching the map is easy to loop around extra kilometres or unnecessary tolls.",
+      "Invented surcharges. Real fees exist — an airport pick-up fee and tolls among them — but \"baggage handling\" charges and mystery add-ons are not.",
       "The card-machine \"failure\". At drop-off the terminal suddenly won't work, pushing you into cash at a rounded-up number."
     ] },
-    { "type": "callout", "tone": "warning", "title": "The golden rule", "text": "A licensed Sydney taxi will never chase you for business inside the terminal. If someone approaches you offering a ride before you've reached the rank, that alone is your signal to say no thanks and keep walking." },
+    { "type": "callout", "tone": "warning", "title": "The golden rule", "text": "A licensed Sydney taxi will never chase you for business inside the terminal. If someone offers you a ride before you've reached the rank, that alone is your signal to say no thanks and keep walking." },
     { "type": "h2", "text": "How to catch a taxi the right way" },
-    { "type": "p", "text": "The official ranks are supervised and easy to find — signposted outside T1 (International) and between T2 and T3 (Domestic). Follow the \"Taxi\" signs on the arrivals level and join the queue; during busy periods there are marshals on hand." },
+    { "type": "p", "text": "The official ranks are supervised and easy to find — signposted outside T1 (International) and between T2 and T3 (Domestic). Follow the \"Taxi\" signs on the arrivals level and join the queue; marshals are on hand at busy times." },
     { "type": "list", "items": [
-      "Use only the official rank. Don't accept a lift arranged anywhere else in the building.",
-      "Confirm the meter is on before you move, or agree a set fare up front and hold the driver to it.",
-      "Open your maps app and glance at the route now and then — Bondi Beach is roughly 20–30 minutes from the airport in normal traffic.",
-      "Pay by card where you can, and ask for a receipt. It's your evidence if anything's off.",
-      "Trust your gut. If a driver won't run the meter, get out and take the next cab — there's always another."
+      "Use only the official rank — don't accept a lift arranged elsewhere in the building.",
+      "Confirm the meter is on before you move, or agree a set fare up front and hold them to it.",
+      "Glance at your maps app now and then — Bondi is roughly 20–30 minutes away in normal traffic.",
+      "Pay by card where you can and ask for a receipt — it's your evidence if anything's off.",
+      "Trust your gut. If a driver won't run the meter, take the next cab — there's always another."
     ] },
     { "type": "quickFacts", "items": [
       { "label": "Where to queue", "value": "Official rank on the arrivals level, outside each terminal" },
@@ -35,21 +35,20 @@
       { "label": "Airport to Bondi", "value": "Roughly 20–30 min in normal traffic" },
       { "label": "If something's wrong", "value": "Get the receipt; report to NSW Fair Trading" }
     ] },
-    { "type": "localTip", "text": "Fares to Bondi are metered, not a fixed CBD flat fare, so the exact cost shifts with traffic, tolls and time of day. Rather than trust a number a driver invents, screenshot an estimate from your rideshare or maps app before you land — then you'll know instantly if a quote is out of line. For current regulated rates and surcharges, check the Transport for NSW taxi fares page." },
+    { "type": "localTip", "text": "Fares to Bondi are metered, not a fixed CBD flat fare, so the cost shifts with traffic, tolls and time of day. Screenshot an estimate from your maps app before you land, and you'll know instantly if a driver's quote is out of line. For current regulated rates, check the Transport for NSW taxi fares page." },
     { "type": "h2", "text": "Cheaper, calmer alternatives" },
-    { "type": "p", "text": "A taxi is easy but rarely the cheapest way to Bondi. If you're watching the budget or just want zero negotiation, you've got good options." },
+    { "type": "p", "text": "A taxi is easy but rarely the cheapest way to Bondi. If you're watching the budget or want zero negotiation, you've got options." },
     { "type": "list", "items": [
-      "Train. The T8 Airport Line runs from stations right under the terminals; change at Central onto the T4 for Bondi Junction, then a short bus or cab to the beach. Note there's a station access fee on top of the normal fare at the airport stops — check Transport for NSW for current pricing.",
-      "Rideshare. Uber, Ola and others use designated priority pick-up zones — follow the app's directions to the pick-up point rather than the taxi rank. The price is fixed in-app before you commit, which removes the meter argument entirely.",
-      "Pre-booked transfer. A little pricier, but a named driver meeting you with a set price is genuinely reassuring after a long-haul flight."
+      "Train. The T8 Airport Line runs from stations right under the terminals; change at Central onto the T4 for Bondi Junction, then a short bus or cab to the beach. There's a station access fee on top of the fare at the airport stops — check Transport for NSW for current pricing.",
+      "Rideshare. Uber, Ola and others use designated pick-up zones — follow the app's directions rather than the taxi rank. The price is fixed in-app before you commit, which removes the meter argument entirely.",
+      "Pre-booked transfer. Pricier, but a named driver with a set price is genuinely reassuring after a long-haul flight."
     ] },
     { "type": "faq", "items": [
-      { "q": "Are the taxis at Sydney Airport safe?", "a": "The licensed taxis waiting at the official ranks are regulated, metered and insured — they're safe and fine to use. The risk comes from unlicensed touts who approach you inside the terminal. Stick to the official rank and you're using a properly regulated service." },
-      { "q": "How much is a taxi from Sydney Airport to Bondi?", "a": "It's a metered fare rather than the fixed CBD flat fare, so it varies with traffic, tolls and time of day. Check an in-app estimate before you land, and see the Transport for NSW fares page for the current regulated rates." },
-      { "q": "What should I do if a driver refuses to use the meter?", "a": "Politely decline the trip and take the next taxi from the rank. In a NSW rank-and-hail taxi the meter must run unless you've agreed a set fare first. There's no need to argue — just step out and grab another cab." },
-      { "q": "Is the train cheaper than a taxi to Bondi?", "a": "Usually, yes — even with the airport station access fee, the T8 train to Bondi Junction (changing at Central) tends to work out cheaper than a cab, especially solo. A taxi wins on convenience if you've got heavy bags or a group splitting the fare." },
-      { "q": "How do I report a dodgy taxi driver?", "a": "Keep your receipt or note the cab's plate and details, then lodge a complaint with NSW Fair Trading or the taxi network. Paying by card and asking for a receipt gives you the paper trail you'll need." }
+      { "q": "Are the taxis at Sydney Airport safe?", "a": "The licensed taxis waiting at the official ranks are regulated, metered and insured — safe and fine to use. The risk comes from unlicensed touts who approach you inside the terminal. Stick to the official rank and you're on a properly regulated service." },
+      { "q": "How much is a taxi from Sydney Airport to Bondi?", "a": "It's a metered fare, not the fixed CBD flat fare, so it varies with traffic, tolls and time of day. Check an in-app estimate before you land, and see the Transport for NSW fares page for current regulated rates." },
+      { "q": "What should I do if a driver refuses to use the meter?", "a": "Politely decline and take the next taxi from the rank. In a NSW rank-and-hail taxi the meter must run unless you've agreed a set fare first — no need to argue, just step out and grab another cab." },
+      { "q": "How do I report a dodgy taxi driver?", "a": "Keep your receipt or note the cab's plate, then lodge a complaint with NSW Fair Trading or the taxi network. Paying by card and asking for a receipt gives you the paper trail." }
     ] },
-    { "type": "p", "text": "Don't let any of this put you on edge — the vast majority of Sydney drivers are honest, and most arrivals are completely uneventful. Know the rank, insist on the meter, keep half an eye on the map, and your first ride into Bondi will be exactly what it should be: the easy, sunny start to your trip." }
+    { "type": "p", "text": "Don't let any of this put you on edge — most Sydney drivers are honest and most arrivals are completely uneventful. Know the rank, insist on the meter, keep half an eye on the map, and your first ride into Bondi will be the easy, sunny start to your trip that it should be." }
   ]
 }
