@@ -1,0 +1,47 @@
+{
+  "path": "/bondi-blog/2024/9/7/getting-to-sydney-marathon-from-bondi-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "TCS Sydney Marathon — official site", "url": "https://www.tcssydneymarathon.com/" },
+    { "label": "TCS Sydney Marathon — Marathon course", "url": "https://www.tcssydneymarathon.com/marathon" },
+    { "label": "Transport for NSW — trip planner", "url": "https://transportnsw.info/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you're staying in Bondi and running (or cheering at) the Sydney Marathon, the simplest way to reach the start line is public transport: bus from Bondi Beach up to Bondi Junction, then the train through the city and over to the North Shore. Race morning brings big road closures around the Harbour Bridge and the CBD, so leave the car behind — this is one day where the train genuinely is faster than driving." },
+    { "type": "p", "text": "The TCS Sydney Marathon is now an Abbott World Marathon Major, so tens of thousands of runners and supporters funnel toward the same corner of the harbour on one morning. A little planning from Bondi is the difference between a calm warm-up and a stressful scramble." },
+    { "type": "quickFacts", "items": [
+      { "label": "Start line", "value": "North Sydney (Miller Street)" },
+      { "label": "Finish line", "value": "Sydney Opera House forecourt" },
+      { "label": "From Bondi", "value": "Bus to Bondi Junction, then train" },
+      { "label": "Get around", "value": "Opal card / contactless tap on & off" },
+      { "label": "Check first", "value": "Official road closures & start waves" }
+    ] },
+    { "type": "h2", "text": "Getting to the start line in North Sydney" },
+    { "type": "p", "text": "The marathon starts in North Sydney, on the northern side of the Harbour Bridge, and the course crosses the bridge before finishing at the Opera House. From Bondi the cleanest route is a two-leg public-transport trip." },
+    { "type": "h3", "text": "Step 1 — Bus up to Bondi Junction" },
+    { "type": "p", "text": "Get from the beach to Bondi Junction interchange. The 333 (limited-stop) and 380 both run this corridor along Bondi Road and Campbell Parade, and on a clear early morning the hop up the hill is quick. Bondi Junction is where the buses meet the train line — that's your connection point." },
+    { "type": "h3", "text": "Step 2 — Train through the city to the North Shore" },
+    { "type": "p", "text": "At Bondi Junction, jump on a T4 Eastern Suburbs & Illawarra line train to Central or Town Hall, then change to a T1 North Shore line service running north across the bridge to North Sydney station. From there it's a short walk to the start precinct, following the crowds and marshals." },
+    { "type": "callout", "tone": "warning", "title": "Timetables change for the event", "text": "Transport for NSW usually adds extra early services on race morning, and closures can alter normal routes. I won't quote a fixed departure time because it shifts year to year — plug your start wave into the trip planner the week of the race and build in a buffer." },
+    { "type": "localTip", "text": "Set up your Opal or contactless card the night before and check the balance. Tap on and off with the same card each leg — the last thing you want on a cold Bondi morning is to be fumbling at a top-up machine while your wave is called." },
+    { "type": "h2", "text": "Getting back to Bondi after the finish" },
+    { "type": "p", "text": "The finish is at the Sydney Opera House forecourt, and Circular Quay station and the ferry wharves are a short, gentle walk away once you've collected your medal and found your people. To get home, reverse the journey: a T4 train from Circular Quay or Town Hall toward Bondi Junction, then the 333 or 380 bus down to the beach." },
+    { "type": "callout", "tone": "note", "title": "Expect crowds on the way home", "text": "Everyone finishes in roughly the same window, so Circular Quay and the trains get busy. If your legs allow, walk to a quieter station or let the peak ease over a coffee first." },
+    { "type": "h2", "text": "Race-morning tips from a local" },
+    { "type": "list", "items": [
+      "Leave earlier than feels necessary — road closures and crowds slow everything down, and you can't sprint to a start wave the way you can a normal train.",
+      "Don't drive toward the bridge or CBD; closures are extensive and parking near the start is a headache. Public transport is the plan.",
+      "Screenshot the official course and closure maps before you set off, in case mobile coverage is patchy in the crush.",
+      "If friends are spectating, agree a meeting point at the finish beforehand; phone signal near the Opera House can be jammed with everyone messaging at once."
+    ] },
+    { "type": "faq", "items": [
+      { "q": "Where does the Sydney Marathon start and finish?", "a": "The marathon starts in North Sydney on the northern side of the Harbour Bridge and finishes at the Sydney Opera House forecourt. The course crosses the Harbour Bridge, so road closures on race morning are significant." },
+      { "q": "What's the best way to get from Bondi Beach to the start line?", "a": "Take the 333 or 380 bus from Bondi Beach to Bondi Junction, then a T4 train into the city, changing to a T1 North Shore line service to North Sydney station. Public transport beats driving because of the closures." },
+      { "q": "Should I drive to the marathon from Bondi?", "a": "No. Widespread road closures around the bridge and CBD make driving slow and parking scarce on race morning. Public transport is genuinely the faster and less stressful option." },
+      { "q": "How do I get back to Bondi after finishing at the Opera House?", "a": "Walk to Circular Quay, catch a T4 train toward Bondi Junction, then the 333 or 380 bus down to Bondi Beach. Expect crowds, so allow extra time or let the post-race peak ease first." },
+      { "q": "How early should I leave Bondi on race day?", "a": "Earlier than you think. Check your start-wave time and route in the Transport for NSW trip planner the week of the race, then add a buffer for crowds and the walk to the start line." }
+    ] },
+    { "type": "p", "text": "For anything that changes year to year — the date, your start-wave time, the full road-closure map and any event transport — check the official TCS Sydney Marathon site and the Transport for NSW trip planner before race day. Get those right and the trip in from Bondi is the easy part. See you on the other side of the bridge." }
+  ]
+}

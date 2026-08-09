@@ -1,0 +1,46 @@
+{
+  "path": "/bondi-blog/bondi-commonly-asked-questions",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Transport for NSW — trip planner", "url": "https://transportnsw.info/" },
+    { "label": "Waverley Council — Bondi Beach", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
+    { "label": "Waverley Council — dogs", "url": "https://www.waverley.nsw.gov.au/residents/pets_animals/dogs" },
+    { "label": "Beachsafe — Surf Life Saving Australia", "url": "https://beachsafe.org.au/" },
+    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "After years of pointing lost visitors toward the sand, I've heard just about every Bondi question there is. So here's my local cheat sheet: the quickest way in is the 333 bus from the city or the train to Bondi Junction, the beach is patrolled by professional lifeguards, and the single most important rule is to always swim between the red and yellow flags. Everything else — the coastal walk, the Icebergs pool, dogs, parking — I've rounded up below." },
+    { "type": "quickFacts", "items": [
+      { "label": "Getting here", "value": "333 bus from the CBD, or train to Bondi Junction + bus" },
+      { "label": "Swimming", "value": "Lifeguard-patrolled — swim between the flags" },
+      { "label": "Coastal walk", "value": "Bondi to Coogee, roughly 6 km" },
+      { "label": "Dogs", "value": "Not permitted on the sand" }
+    ] },
+    { "type": "h2", "text": "Getting to Bondi and getting around" },
+    { "type": "p", "text": "The easiest way in from Sydney's CBD is the 333 bus, which runs from the city down Oxford Street and drops you right at Campbell Parade beside the beach — it's the express of the Bondi bus routes. If you'd rather take the train, ride the T4 line to Bondi Junction, then jump on the 333, 380 or 381 bus for the last stretch down to the water. Because timetables shift, I always tell people to check the live times in the Transport for NSW trip planner before they set out." },
+    { "type": "p", "text": "Driving? It can be done, but parking near the beach is metered, tightly timed and brutal on a sunny weekend. My advice: skip it and let public transport do the work." },
+    { "type": "h2", "text": "Swimming, safety and the Icebergs pool" },
+    { "type": "p", "text": "Yes, Bondi is patrolled by lifeguards, and yes, it's one of the safest beaches in Sydney to swim at — but only if you play by the flags. The red and yellow flags mark the supervised zone where lifeguards are actively watching, and it's the one part of the beach they can reach you fastest. Bondi is famous for its rips, so this genuinely matters." },
+    { "type": "callout", "tone": "warning", "title": "Swim between the flags", "text": "If you're caught in a rip, don't fight it — stay calm, raise an arm to signal for help, and float. Never swim outside the patrolled flagged area, and if in doubt, ask a lifeguard where it's safe to go in that day." },
+    { "type": "p", "text": "At the southern headland you'll find the Bondi Icebergs — the ocean pool you've seen in a thousand photos, with waves crashing over the edge of a 50-metre lap pool. It's a public pool, not a private club-only affair, so visitors are welcome to swim for an entry fee. It closes periodically for cleaning, so check the Icebergs website for current session times and prices before you go." },
+    { "type": "localTip", "text": "Early morning is my favourite window at Bondi — the light is gorgeous, the crowds haven't arrived, and the lifeguards are already on duty. For a swim without surf, the calmer northern end near the kids' pool is gentler than the wave-battered south." },
+    { "type": "h2", "text": "The coastal walk, dogs and the everyday essentials" },
+    { "type": "p", "text": "The Bondi to Coogee coastal walk is the walk everyone means when they say \"the walk\" — a clifftop path of roughly six kilometres that strings together Bondi, Tamarama, Bronte, Clovelly and Coogee, with ocean pools and cafés along the way. Take your time; the views are the whole point. You don't need the full length either — Bondi to Bronte is a lovely shorter taste." },
+    { "type": "p", "text": "A few of the rapid-fire ones I get asked constantly:" },
+    { "type": "list", "items": [
+      "Dogs on the beach? Not on the Bondi sand — it's off-limits to dogs. Check Waverley Council for the nearest designated off-leash areas.",
+      "Toilets and showers? Yes — there are public amenities and rinse-off showers around the Bondi Pavilion and along the promenade.",
+      "Surfboard hire? Several surf shops and surf schools operate along and just off Campbell Parade — you can hire a board or book a lesson easily.",
+      "Best time to visit? I love the shoulder seasons — spring and autumn — for warm days without the peak-summer crush."
+    ] },
+    { "type": "faq", "items": [
+      { "q": "How do I get to Bondi Beach from Sydney city?", "a": "The simplest route is the 333 bus from the CBD straight to the beach. Alternatively, take the T4 train to Bondi Junction and transfer to the 333, 380 or 381 bus for the final leg. Check the Transport for NSW trip planner for live times." },
+      { "q": "Are there lifeguards at Bondi Beach?", "a": "Yes. Bondi is patrolled by professional lifeguards, and it's one of Sydney's most closely watched beaches. Always swim inside the red and yellow flags, which mark the supervised zone." },
+      { "q": "Can the public swim at Bondi Icebergs?", "a": "Yes — the Icebergs ocean pool is open to the public for an entry fee, not just to club members. It closes at times for cleaning, so check the Icebergs website for current opening hours and prices before you go." },
+      { "q": "Are dogs allowed on Bondi Beach?", "a": "No, dogs aren't permitted on the sand at Bondi. There are designated off-leash areas elsewhere in the Waverley area, so check Waverley Council for the closest one." },
+      { "q": "How long is the Bondi to Coogee coastal walk?", "a": "It's roughly six kilometres one way along the clifftops, linking Bondi, Tamarama, Bronte, Clovelly and Coogee. Allow a couple of hours if you want to stop for the views, a swim or a coffee." }
+    ] },
+    { "type": "p", "text": "That's the short version of the Bondi bible. Whatever brings you down here — a swim, the walk, or a coffee with a sea view — come early, respect the flags, and you'll have a Bondi day worth coming back for." }
+  ]
+}

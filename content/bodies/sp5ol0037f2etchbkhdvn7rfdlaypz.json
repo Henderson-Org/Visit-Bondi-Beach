@@ -1,0 +1,55 @@
+{
+  "path": "/bondi-blog/2023/4/1/sp5ol0037f2etchbkhdvn7rfdlaypz",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Icebergs Dining Room and Bar (official)", "url": "https://idrb.com/" },
+    { "label": "Sean's (Sean Moran, Bondi)", "url": "https://seansbondi.com/" },
+    { "label": "bills — Bondi Beach", "url": "https://www.bills.com.au/locations/bondi-beach" },
+    { "label": "North Bondi Fish (official)", "url": "https://northbondifish.com.au/" },
+    { "label": "Da Orazio Pizza + Porchetta (official)", "url": "https://www.daorazio.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Ask me where to eat in Bondi and I'll give the same answer every time: the best table is one where you can smell the salt and hear the surf. From Sean Moran's dining room above North Bondi to a wood-fired pizza on Hall Street, here's my personal top ten — the places I send hungry friends to." },
+    { "type": "p", "text": "One honest caveat first: Bondi's food scene moves fast, and hours, menus and prices shift with the seasons. I've linked each venue's own site below — check the details there before you set your heart on a booking. Now, the good stuff." },
+    { "type": "h2", "text": "The special-occasion tables" },
+    { "type": "h3", "text": "1. Icebergs Dining Room and Bar" },
+    { "type": "p", "text": "Perched above the ocean pool at the south end, this is the Bondi view everyone pictures — the pool below, the whole crescent of beach beyond. It's polished Italian and a genuine occasion. Book ahead and dress up; if the budget's tight, come for a drink at the bar and soak up the same view." },
+    { "type": "h3", "text": "2. Sean's" },
+    { "type": "p", "text": "Sean Moran has cooked on this North Bondi corner since 1993, and Sean's is still my sentimental favourite. The menu is short, handwritten and driven by whatever's best that week, much of it from his own farm in the Blue Mountains. It feels less like a restaurant than being fed generously in someone's home." },
+    { "type": "h3", "text": "3. North Bondi Fish" },
+    { "type": "p", "text": "Right on Ramsgate Avenue with the sand at your feet, this is where I bring visitors who want seafood with a proper beach view. Oysters, whole fish, a crisp glass of white — long lunches here slide happily into the afternoon." },
+    { "type": "h2", "text": "Brunch, pizza and the everyday classics" },
+    { "type": "h3", "text": "4. bills, Bondi" },
+    { "type": "p", "text": "Bill Granger's ricotta hotcakes and creamy scrambled eggs more or less wrote the rulebook for Sydney brunch, and the Hall Street room is bright, buzzy and reliably lovely. Yes, it's popular; yes, it's worth it." },
+    { "type": "h3", "text": "5. Da Orazio Pizza + Porchetta" },
+    { "type": "p", "text": "Da Orazio is back on Hall Street, now with the little wine bar Orazietto next door. Blistered wood-fired pizza, that legendary porchetta and a properly Italian racket of a room — my go-to for a lively group dinner." },
+    { "type": "h3", "text": "6. Bondi Trattoria" },
+    { "type": "p", "text": "The \"Tratt\" is a Campbell Parade institution — pasta, pizza and people-watching from tables that spill toward the beach. It isn't reinventing anything; it's just a warm, dependable Italian that's fed locals for decades. I love it for an unfussy weeknight spaghetti." },
+    { "type": "h2", "text": "Cafés, casual bites and something sweet" },
+    { "type": "h3", "text": "7. Speedo's Cafe" },
+    { "type": "p", "text": "Tucked at the quiet north end, Speedo's is the classic post-swim café — acai bowls, big breakfasts and a health-leaning menu, steps from the sand near Ben Buckler. Grab a table outside and watch the ocean-pool crowd stroll by." },
+    { "type": "h3", "text": "8. Porch and Parlour" },
+    { "type": "p", "text": "Just around the corner, Porch and Parlour has done generous, produce-led breakfasts and lunches for years. It's my pick when I want somewhere calmer than the main drag but still unmistakably North Bondi." },
+    { "type": "h3", "text": "9. Totti's Bondi" },
+    { "type": "p", "text": "The Merivale crowd's Bondi trattoria is all about pillowy wood-fired bread and a table full of Italian sharing plates. A fun, boisterous room — best with friends and no plans for the afternoon." },
+    { "type": "h3", "text": "10. Gelato Messina" },
+    { "type": "p", "text": "No Bondi food day of mine ends without gelato, and Messina's Hall Street scoop shop is the reward after a long beach walk. The flavour board changes constantly, so just ask what's new." },
+    { "type": "quickFacts", "items": [
+      { "label": "Best view", "value": "Icebergs & North Bondi Fish" },
+      { "label": "Best brunch", "value": "bills & Porch and Parlour" },
+      { "label": "Best group dinner", "value": "Da Orazio & Totti's" },
+      { "label": "Book ahead", "value": "Icebergs, Sean's, Da Orazio, Totti's" }
+    ] },
+    { "type": "localTip", "text": "For beachfront tables at the popular spots — weekend brunch at bills, a sunset seat at North Bondi Fish — book a few days ahead or arrive on opening. Walk in at 12:30 on a sunny Saturday and you'll join the queue with everyone else." },
+    { "type": "callout", "tone": "note", "title": "Check before you go", "text": "Opening hours, session times and menus in Bondi change often. I've linked each venue's official site in the sources — always confirm current details and book directly there rather than trusting a number in any guide, including this one." },
+    { "type": "faq", "items": [
+      { "q": "What is the most famous restaurant in Bondi Beach?", "a": "Icebergs Dining Room and Bar is the most iconic, thanks to its perch above the ocean pool and its sweeping view across the beach. Sean's and bills are close behind as long-standing institutions." },
+      { "q": "Where's the best breakfast or brunch in Bondi?", "a": "bills on Hall Street is the classic for hotcakes and scrambled eggs. For somewhere quieter, Porch and Parlour and Speedo's Cafe at the north end do generous, produce-led breakfasts near the sand." },
+      { "q": "Do I need to book restaurants in Bondi?", "a": "For the sit-down favourites — Icebergs, Sean's, Da Orazio and Totti's — yes, especially on weekends and in summer. Cafés like Speedo's and Porch and Parlour are walk-in, but expect a wait at peak brunch times." },
+      { "q": "Where can I eat with a beach view in Bondi?", "a": "North Bondi Fish sits right on the sand at Ramsgate Avenue, and Icebergs overlooks the ocean pool at the south end. Bondi Trattoria's front tables also look out to the water." },
+      { "q": "Is there good pizza in Bondi?", "a": "Da Orazio Pizza + Porchetta on Hall Street is the local benchmark for wood-fired pizza. Bondi Trattoria and Totti's are also solid for a relaxed Italian dinner." }
+    ] },
+    { "type": "p", "text": "That's my ten — splurge-worthy views, honest neighbourhood classics and a scoop of gelato to finish. Eat from the north end to the south and you'll have tasted the real Bondi, salt air and all." }
+  ]
+}

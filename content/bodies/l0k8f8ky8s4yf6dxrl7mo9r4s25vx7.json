@@ -1,0 +1,45 @@
+{
+  "path": "/bondi-blog/2023/4/1/l0k8f8ky8s4yf6dxrl7mo9r4s25vx7",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Transport for NSW — trip planner", "url": "https://transportnsw.info/" },
+    { "label": "Wikipedia — Bondi Junction railway station", "url": "https://en.wikipedia.org/wiki/Bondi_Junction_railway_station" },
+    { "label": "Wikipedia — Sydney bus route 333", "url": "https://en.wikipedia.org/wiki/Sydney_bus_route_333" },
+    { "label": "Wikipedia — Bondi Beach", "url": "https://en.wikipedia.org/wiki/Bondi_Beach" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "The short answer: Bondi Beach is the sand — the world-famous coastal strip you picture when someone says \"Bondi\" — while Bondi Junction is a busy inland shopping and transport hub about 2 kilometres uphill, with no beach in sight. They're two separate suburbs, roughly a 10–15 minute bus ride apart, and mixing them up is the single most common mistake I see visitors make when they book accommodation or plan their day." },
+    { "type": "p", "text": "I've lived around here long enough to have given these directions more times than I can count — usually to someone standing at Bondi Junction with a suitcase, wondering where the ocean went. So here's how the two differ and, more usefully, which one you actually want." },
+    { "type": "quickFacts", "items": [
+      { "label": "Bondi Beach", "value": "Coastal suburb — the sand, surf & promenade" },
+      { "label": "Bondi Junction", "value": "Inland shopping & transport hub, ~2 km uphill" },
+      { "label": "Apart", "value": "About 2 km / a 10–15 min bus ride" },
+      { "label": "Train station", "value": "Bondi Junction only — Bondi Beach has none" }
+    ] },
+    { "type": "h2", "text": "Bondi Beach: the one you've seen on postcards" },
+    { "type": "p", "text": "Bondi Beach is the coastal suburb about 7 kilometres east of Sydney's CBD. This is the crescent of golden sand, the Icebergs pool, the Bondi to Coogee coastal walk, Campbell Parade's cafés and the surf culture the name is famous for. It's low-rise, salty and relaxed — people come here to swim, sunbake, surf, walk the cliffs and eat with a sea view." },
+    { "type": "p", "text": "Crucially, Bondi Beach has no train station. You reach it by bus, car, bike or on foot. So if your reason for coming to Sydney is the beach, this is the suburb you want to be near — ideally within walking distance of Campbell Parade or Bondi Road." },
+    { "type": "h2", "text": "Bondi Junction: the shopping and transport hub" },
+    { "type": "p", "text": "Bondi Junction sits inland, roughly 2 kilometres up the hill from the sand and about 6–7 kilometres from the CBD. It's the urban, high-rise end of \"Bondi\": office towers, apartment blocks and the enormous Westfield Bondi Junction shopping centre. There is no beach here — just a genuinely excellent place to shop, and the main gateway you pass through on the way to the coast." },
+    { "type": "p", "text": "What makes the Junction matter to visitors is transport. It's the eastern terminus of the T4 Eastern Suburbs line, so trains from Central and the city terminate here, and the bus–rail interchange fans out to the beaches. In practice, most people arriving by train ride to Bondi Junction and then hop on a bus for the final leg down to the sand." },
+    { "type": "callout", "tone": "note", "title": "Getting from the Junction to the Beach", "text": "From the interchange above Bondi Junction station, frequent buses run down to Bondi Beach — the 333 is the fast, limited-stops service most visitors use. The ride is short, but times shift with traffic, so check live routes and departures in the Transport for NSW trip planner before you head down." },
+    { "type": "h2", "text": "So which one do you actually want?" },
+    { "type": "p", "text": "It comes down to why you're here. If you've come for sand, surf and the coastal walk, base yourself at Bondi Beach — waking up a two-minute stroll from the water beats a daily bus commute every time. If you're after big-brand shopping, a train connection into the city, or simply cheaper, quieter accommodation with easy transport, Bondi Junction is a smart, practical base." },
+    { "type": "list", "items": [
+      "Here for the beach, surf or coastal walk → stay at Bondi Beach.",
+      "Here for shopping, city train links or better-value stays → Bondi Junction works well.",
+      "Arriving by train → you'll pass through Bondi Junction and bus down to the beach.",
+      "Driving → the beach has limited, pricey parking; the Junction's Westfield car park is larger."
+    ] },
+    { "type": "localTip", "text": "Double-check your booking says \"Bondi Beach\" and not \"Bondi Junction\" if the beach is your priority. I've met travellers who booked a Junction hotel expecting to open the curtains to the ocean — and got a shopping-centre view and a bus timetable instead." },
+    { "type": "faq", "items": [
+      { "q": "How far is Bondi Junction from Bondi Beach?", "a": "About 2 kilometres — a short bus ride, a quick drive in light traffic, or a 25–30 minute downhill walk. Frequent buses, including the 333, connect the two; check the Transport for NSW trip planner for current routes and times." },
+      { "q": "Does Bondi Beach have a train station?", "a": "No. Bondi Beach has no train station. The nearest is Bondi Junction, the terminus of the T4 Eastern Suburbs line, and from there you take a bus down to the sand." },
+      { "q": "Can you walk from Bondi Junction to Bondi Beach?", "a": "Yes. It's about 2 kilometres, mostly downhill toward the water, and takes roughly 25–30 minutes. It's an easy walk down; the uphill return is a bit more of a workout, so many people bus back." },
+      { "q": "Should I stay in Bondi Beach or Bondi Junction?", "a": "Stay at Bondi Beach if the ocean and beach lifestyle are the point. Choose Bondi Junction if you want major shopping, a direct train line into the city, or more affordable, transport-friendly accommodation." },
+      { "q": "Is Bondi Junction the same as Bondi Beach?", "a": "No — they're two distinct suburbs. Bondi Beach is the coastal one with the sand and surf; Bondi Junction is an inland shopping and transport hub with no beach, about 2 kilometres away." }
+    ] },
+    { "type": "p", "text": "Once the map's straight in your head, the two work brilliantly together: shop and catch your train at the Junction, then ride ten minutes downhill to swim and walk the cliffs. Same name, two very different Bondis — and now you know which is which." }
+  ]
+}

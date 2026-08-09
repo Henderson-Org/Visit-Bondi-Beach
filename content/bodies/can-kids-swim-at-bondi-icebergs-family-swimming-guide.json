@@ -1,0 +1,45 @@
+{
+  "path": "/bondi-blog/2025/4/29/can-kids-swim-at-bondi-icebergs-family-swimming-guide",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bondi Icebergs — official site (pool hours, conditions & fees)", "url": "https://icebergs.com.au/" },
+    { "label": "Waverley Council — Bondi Beach", "url": "https://www.waverley.nsw.gov.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Yes — kids can absolutely swim at Bondi Icebergs, and it's one of my favourite spots to bring young families in Bondi. Alongside the famous 50-metre ocean pool you've seen on a thousand postcards, there's a separate, shallower children's pool, and lifeguards are on duty during opening hours. It's a public pool, not a members-only club, so you and the little ones can buy a day pass and jump straight in." },
+    { "type": "p", "text": "That said, this is real ocean swimming, not a heated leisure centre. The water is pumped straight in from the surf, so it's bracingly cold in winter and lively when a big swell is running. Below I'll walk you through the kids' pool, safety, costs and the practical tips I share with visiting families." },
+    { "type": "h2", "text": "The children's pool: a gentler place to start" },
+    { "type": "p", "text": "The reason I happily recommend Icebergs for families is the separate kids' pool that sits beside the main lap pool. It's smaller and shallower, which keeps little swimmers out of the deep water and away from the serious lap-swimmers ploughing up and down the 50-metre pool. For a first taste of ocean swimming it's ideal — the salty, sun-on-the-water Bondi experience without the deep end, literally." },
+    { "type": "p", "text": "Because both pools are fed by the sea, the kids' pool is unheated and its temperature shifts with the ocean through the year. On a warm summer morning it's glorious; in winter it's genuinely chilly, so I always pack extra layers for afterwards." },
+    { "type": "callout", "tone": "warning", "title": "Watch the swell and the wall", "text": "On big-surf days waves can wash right over the pool's ocean edge, and the pool sits below the promenade with steps down. Keep young kids close, hold hands on wet edges, and if the sea looks wild, the flagged lifeguard-patrolled area on Bondi Beach itself may be the safer call." },
+    { "type": "h2", "text": "Safety and supervision" },
+    { "type": "p", "text": "Lifeguards are on duty at the pool during opening hours, which is a big part of why I trust it with families. But lifeguards are a backstop, not a babysitter — the water is real ocean, cold enough to take a small body's breath away, so active adult supervision is the golden rule." },
+    { "type": "list", "items": [
+      "Stay within arm's reach of young or non-swimming children the whole time.",
+      "Ease kids in slowly — cold saltwater is a shock after a warm beach.",
+      "Mind the slippery pool edges and the steps down from the promenade.",
+      "Check the day's conditions before you commit little ones to the water."
+    ] },
+    { "type": "localTip", "text": "Go early on a summer weekday if you can. The pool is calmest, the deck is quiet, and you'll have space to help a nervous swimmer find their feet before the crowds and the lap-swimming regulars arrive." },
+    { "type": "h2", "text": "Costs, hours and what to bring" },
+    { "type": "p", "text": "Entry is by day pass and it's an affordable outing for a family. Prices and hours change with the season, so treat everything below as a rough guide and confirm the current figures on the official Icebergs pool page before you go." },
+    { "type": "quickFacts", "items": [
+      { "label": "Entry", "value": "Day passes for adults, children and families; multi-visit passes too. Check current rates on the official pool page" },
+      { "label": "Hours", "value": "Early morning to evening most days — confirm the day's hours on the official page" },
+      { "label": "Cleaning day", "value": "Closed one weekday each week (traditionally Thursday); double-check before you go" },
+      { "label": "Water", "value": "Unheated, ocean-fed saltwater that tracks the sea temperature" }
+    ] },
+    { "type": "p", "text": "The one that catches people out is the weekly cleaning closure — I've watched families arrive with towels and toddlers only to find the gates shut, so check the pool page the day before. Towel and locker hire are usually available for a small charge if you travel light." },
+    { "type": "p", "text": "For a family swim I'd pack: warm layers and a spare towel each (that ocean chill lingers), rashies and sunscreen for the exposed deck, water and snacks, and thongs for the walk down. The deck offers little shade and the glare off the water is fierce." },
+    { "type": "h2", "text": "Frequently asked questions" },
+    { "type": "faq", "items": [
+      { "q": "Can toddlers and young children swim at Bondi Icebergs?", "a": "Yes. There's a separate, shallower children's pool beside the main lap pool that suits young and less-confident swimmers, but it's unheated ocean water, so keep toddlers within arm's reach and supervise them closely at all times." },
+      { "q": "Is Bondi Icebergs pool heated?", "a": "No. Both the main pool and the kids' pool are filled with seawater straight from the ocean, so the temperature changes with the sea — pleasant in summer and very cold in winter. Pack warm layers for afterwards." },
+      { "q": "How much does it cost for a family to swim?", "a": "Entry is by day pass, with separate adult, child and family rates and cheaper multi-visit passes available. Prices change from time to time, so check the official Icebergs pool page for current rates before you visit." },
+      { "q": "When is the pool closed?", "a": "The pool closes one weekday each week for cleaning (traditionally Thursday), and it can also close during rough surf or maintenance, so always check the day's pool conditions before setting out." },
+      { "q": "Are there lifeguards on duty?", "a": "Yes — lifeguards are on duty during opening hours. They're there for emergencies, but parents and carers remain responsible for actively supervising their own children in and around the water." }
+    ] },
+    { "type": "p", "text": "Bottom line: Icebergs is a wonderful introduction to ocean swimming for kids, as long as you go in clear-eyed about cold water and changing conditions. Pick a calm summer morning, bring the layers, keep the little ones close, and you'll have one of those salty Bondi mornings the whole family remembers." }
+  ]
+}
