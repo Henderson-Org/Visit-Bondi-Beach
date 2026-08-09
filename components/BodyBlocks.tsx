@@ -4,26 +4,33 @@ import type { Block } from '@/lib/content';
 import { QuickFacts, LocalTip, Callout, Faq, ItineraryTimeline } from '@/components/blocks';
 
 /**
- * Render inline Markdown-style links in body text: `[label](/internal-path)` becomes a
- * Next <Link> (internal, /-prefixed) and `[label](https://…)` an external anchor with
- * rel="nofollow noopener". Everything else passes through as plain text. Lets authored
- * bodies carry real internal links for SEO without an HTML pipeline.
+ * Render inline Markdown in body text: `[label](/internal-path)` becomes a Next <Link>
+ * (internal, /-prefixed), `[label](https://…)` an external anchor with rel="nofollow
+ * noopener", and `**bold**` a <strong>. A link may be wrapped in `**…**` to be bold.
+ * Everything else passes through as plain text. Lets authored bodies carry real internal
+ * links and emphasis for SEO without an HTML pipeline.
  */
-const LINK_RE = /\[([^\]]+)\]\((\/[^)\s]+|https?:\/\/[^)\s]+)\)/g;
+// A link (optionally wrapped in **…**), OR a plain **bold** run.
+const TOKEN_RE = /(\*\*)?\[([^\]]+)\]\((\/[^)\s]+|https?:\/\/[^)\s]+)\)(\*\*)?|\*\*([^*]+)\*\*/g;
 
 export function renderText(text: string): ReactNode {
   const parts: ReactNode[] = [];
   let last = 0;
   let m: RegExpExecArray | null;
-  LINK_RE.lastIndex = 0;
+  TOKEN_RE.lastIndex = 0;
   let i = 0;
-  while ((m = LINK_RE.exec(text)) !== null) {
+  while ((m = TOKEN_RE.exec(text)) !== null) {
     if (m.index > last) parts.push(text.slice(last, m.index));
-    const [, label, href] = m;
-    if (href.startsWith('/')) {
-      parts.push(<Link key={i++} href={href} className="text-ocean-700 underline hover:text-ocean-800">{label}</Link>);
-    } else {
-      parts.push(<a key={i++} href={href} target="_blank" rel="nofollow noopener" className="text-ocean-700 underline">{label}</a>);
+    if (m[2] !== undefined) {
+      const label = m[2];
+      const href = m[3];
+      let node: ReactNode = href.startsWith('/')
+        ? <Link key={i++} href={href} className="text-ocean-700 underline hover:text-ocean-800">{label}</Link>
+        : <a key={i++} href={href} target="_blank" rel="nofollow noopener" className="text-ocean-700 underline">{label}</a>;
+      if (m[1] && m[4]) node = <strong key={i++}>{node}</strong>; // link wrapped in **…**
+      parts.push(node);
+    } else if (m[5] !== undefined) {
+      parts.push(<strong key={i++}>{m[5]}</strong>);
     }
     last = m.index + m[0].length;
   }
@@ -71,7 +78,7 @@ export function BodyBlocks({ blocks }: { blocks: Block[] }) {
       case 'quote':
         out.push(
           <blockquote key={i} className="border-l-4 border-ocean-500 pl-4 italic text-ink-700">
-            {b.text}
+            {renderText(b.text)}
           </blockquote>
         );
         break;
@@ -85,12 +92,12 @@ export function BodyBlocks({ blocks }: { blocks: Block[] }) {
         );
         break;
       case 'localTip':
-        out.push(<LocalTip key={i}>{b.text}</LocalTip>);
+        out.push(<LocalTip key={i}>{renderText(b.text)}</LocalTip>);
         break;
       case 'callout':
         out.push(
           <Callout key={i} tone={b.tone} title={b.title}>
-            {b.text}
+            {renderText(b.text)}
           </Callout>
         );
         break;
