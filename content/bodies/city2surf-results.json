@@ -3,12 +3,15 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
+    { "label": "City2Surf 2026 results — Multisport Australia", "url": "https://www.multisportaustralia.com.au/races/city2surf-2026" },
     { "label": "City2Surf — official site (results & event history)", "url": "https://city2surf.com.au/" },
+    { "label": "Multisport Australia — City2Surf race listings", "url": "https://www.multisportaustralia.com.au/" },
     { "label": "City2Surf (Sydney) — Wikipedia (records, history, distance)", "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)" },
     { "label": "Ausrunning — City to Surf rankings and results archive", "url": "https://ausrunning.net/misc/city-to-surf/" }
   ],
   "blocks": [
-    { "type": "p", "text": "Looking for City2Surf results from a particular year between 2000 and 2024? The quickest way to find your own finish time or bib number is the official City2Surf results portal at city2surf.com.au, which lets you search past events by name — and for the deep historical picture, the Ausrunning archive tracks placings and times back to the very first run. Below are the landmarks that actually matter, and where to dig for the year you want." },
+    { "type": "callout", "tone": "note", "title": "2026 City2Surf results — search here", "text": "The 2026 results are live: **[Official City2Surf 2026 results on Multisport Australia →](https://www.multisportaustralia.com.au/races/city2surf-2026)**. Open it, then search by your name or bib number to pull up your finish time, category place and splits." },
+    { "type": "p", "text": "**Looking for a different year?** The [official City2Surf results portal](https://city2surf.com.au/) and the [Multisport Australia race listings](https://www.multisportaustralia.com.au/) both let you search past City2Surf events — choose the year you ran, then enter your name or bib number. For historical placings and elite times going back to the first run in 1971, the [Ausrunning archive](https://ausrunning.net/misc/city-to-surf/) is the most complete public record. Below: the landmarks that actually matter, and how to read your result like a local." },
     { "type": "h2", "text": "Where to find your result, year by year" },
     { "type": "p", "text": "I get asked this a lot, usually by someone who ran once years ago and wants to prove to their kids they did it. The good news: the results don't disappear. Rather than re-type tens of thousands of times and inevitably get one wrong, here's where the accurate records live:" },
     { "type": "list", "items": [
@@ -33,7 +36,7 @@
     { "type": "h2", "text": "Reading your result like a local" },
     { "type": "p", "text": "When you pull up an old result, look past the gun time. Your net (chip) time — from when you actually crossed the start mat — is the fairer number if you started in a back wave. Your category placing shows how you fared against your own age group, not the elites. And if you ran more than one year, line the net times up side by side: that's the real story of your City2Surf." },
     { "type": "faq", "items": [
-      { "q": "Where can I find City2Surf results for a specific year like 2019 or 2024?", "a": "Use the official results search at city2surf.com.au and enter your name or bib number, choosing the event year you want. For historical placings and elite times going back decades, the Ausrunning City to Surf archive is the most complete public record." },
+      { "q": "Where can I find City2Surf results for a specific year?", "a": "For 2026, use the Multisport Australia results page at multisportaustralia.com.au/races/city2surf-2026. For other years, search the official portal at city2surf.com.au or the Multisport Australia race listings, entering your name or bib number and choosing the event year. For historical placings and elite times going back decades, the Ausrunning City to Surf archive is the most complete public record." },
       { "q": "What is the City2Surf course record?", "a": "The men's record is 40:02, set by Steve Moneghetti in 1991; the women's is 45:08, set by Susie Power in 2001. Both were set at or before the start of this 2000–2024 archive and still stand." },
       { "q": "Why can't I find my result in the search?", "a": "Almost always it's a name mismatch. Try your surname alone, any nickname or maiden name you may have registered under, and double-check the year. If you have your old bib number, searching by that is the most reliable method." },
       { "q": "How long is the City2Surf and where does it finish?", "a": "It's about 14 km (officially 13.907 km), running from Sydney's CBD out to the finish at Bondi Beach, with the famous Heartbreak Hill climb near the halfway point." },
