@@ -3,44 +3,42 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Transport for NSW — Getting to & from Sydney Airport", "url": "https://transportnsw.info/tickets-fares/getting-to-from-sydney-airport" },
-    { "label": "Opal — Sydney Airport Station Access Fee", "url": "https://www.opal.com.au/en/opal-fares/airport_station_access_fee/" },
-    { "label": "Transport for NSW — Trip Planner", "url": "https://transportnsw.info/trip" }
+    { "label": "Transport for NSW — Getting to and from Sydney Airport", "url": "https://transportnsw.info/tickets-fares/getting-to-from-sydney-airport" },
+    { "label": "Opal — Sydney Airport station access fee", "url": "https://www.opal.com.au/en/opal-fares/airport_station_access_fee/" },
+    { "label": "Transport for NSW Trip Planner", "url": "https://transportnsw.info/trip" }
   ],
   "blocks": [
-    { "type": "p", "text": "The quickest way from Sydney Airport to Bondi Beach is a taxi or rideshare, which takes roughly 30 to 50 minutes depending on traffic; the cheapest is the train to Bondi Junction followed by a short bus, which usually runs around 60 to 90 minutes door to door. I've done this run more times than I can count picking up friends and family, so here's exactly how I'd get you from the terminal to the sand." },
+    { "type": "p", "text": "The fastest way from Sydney Airport to Bondi Beach is a taxi or rideshare — roughly 30 to 50 minutes door to door depending on traffic — while the cheapest is the train to Bondi Junction and a short bus down to the sand, usually around 60 to 90 minutes all up. I've done this run more times than I can count collecting friends and family off flights, so here's every realistic option compared, honestly, with who each one actually suits." },
     { "type": "quickFacts", "items": [
       { "label": "Distance", "value": "About 15 km" },
       { "label": "Fastest", "value": "Taxi / rideshare, ~30-50 min" },
       { "label": "Cheapest", "value": "Train + bus via Bondi Junction" },
-      { "label": "You'll need", "value": "An Opal card or a contactless card/phone" }
+      { "label": "You'll need", "value": "An Opal card or a contactless card / phone" }
+    ] },
+    { "type": "h2", "text": "The five options at a glance" },
+    { "type": "list", "items": [
+      "Train + bus (via Bondi Junction) — cheapest on public transport, ~60-90 min, but note the airport station access fee. Best for solo/budget travellers packing light.",
+      "Taxi — metered, door to door, ~30-50 min. Best for luggage, families and late arrivals.",
+      "Rideshare (Uber / DiDi / Ola) — app-quoted, door to door, ~30-50 min. Best value when there's no surge; check the in-app price first.",
+      "Pre-booked private transfer / shuttle — fixed price confirmed at booking, door to door. Best for groups and very early flights.",
+      "Car hire — only worth it if you're touring beyond Sydney; around Bondi parking is tight and metered."
     ] },
     { "type": "h2", "text": "Train to Bondi Junction, then a bus (my pick for value)" },
-    { "type": "p", "text": "Bondi Beach doesn't have its own train station — the closest is Bondi Junction, about 3 km up the hill. From either the Domestic (T2/T3) or International (T1) terminal, follow the signs to the station right under the terminal and catch the T8 Airport & South Line towards the city. At Central, change to the T4 Eastern Suburbs & Illawarra Line and ride it to Bondi Junction. The T8 runs frequently every day from roughly 5am to midnight, so you rarely wait long." },
-    { "type": "p", "text": "At Bondi Junction, walk up to the bus interchange above the station and jump on the 333, 380 or 381 — all three run down to Bondi Beach in about 10 to 15 minutes. Tap the same Opal card or contactless card/phone on and off and you're done." },
-    { "type": "callout", "tone": "warning", "title": "Watch the airport Station Access Fee", "text": "Both airport stations charge a Station Access Fee on top of your normal fare — it's a significant extra per adult trip and it sits OUTSIDE the daily and weekly Opal travel caps. It also isn't covered by the 60-minute transfer discount. Check the current amount on the Opal website before you budget, as it changes each year." },
-    { "type": "localTip", "text": "If you're travelling light and want to dodge the airport rail fee, locals sometimes walk a few minutes to the public bus stops outside the terminal and take a bus to nearby Mascot station, then ride the T8 from there — the ordinary train fare, no access fee. Use the Transport NSW Trip Planner on the day to check the current stop and route." },
+    { "type": "p", "text": "Bondi Beach doesn't have its own train station — the nearest is Bondi Junction, about 3 km up the hill. From either the Domestic (T2/T3) or International (T1) terminal, follow the signs to the station directly under the terminal and catch the T8 Airport & South Line towards the city. At Central, change to the T4 Eastern Suburbs & Illawarra Line and ride it to Bondi Junction. The T8 runs frequently every day from early morning until around midnight, so you rarely wait long." },
+    { "type": "p", "text": "At Bondi Junction, head up to the bus interchange above the station and jump on the **333**, **380** or **381** — all three roll down to Bondi Beach in about 10 to 15 minutes. Tap the same Opal card or contactless card/phone on and off, and you're on the sand." },
+    { "type": "callout", "tone": "warning", "title": "Watch the airport station access fee", "text": "Both airport train stations add a Station Access Fee per adult on top of your normal fare. It sits OUTSIDE the daily and weekly Opal travel caps and isn't covered by the 60-minute transfer discount, so it's a real chunk of the trip cost. It changes periodically — check the current amount on the Opal website before you budget." },
+    { "type": "localTip", "text": "Travelling light? To dodge the airport rail fee, some locals walk a few minutes to the public bus stops outside the terminal and ride a bus to nearby Mascot station, then catch the T8 from there at the ordinary fare with no access fee. Use the Transport for NSW Trip Planner on the day to confirm the current stop and route." },
     { "type": "h2", "text": "Taxi or rideshare (fastest, door to door)" },
-    { "type": "p", "text": "If you've got luggage, kids, or you land late, I'd just take a taxi or an Uber/rideshare. It's the only truly door-to-door option and drops you right at your accommodation. Taxis queue at the rank outside each terminal; rideshare has its own signed pickup zones — follow the app. Expect somewhere in the 30 to 50 minute range depending on traffic and time of day." },
-    { "type": "callout", "tone": "note", "title": "On price", "text": "Taxis run on a metered fare, and rideshare quotes you before you confirm. I won't put a fixed dollar figure here because both move with traffic, time of day and demand surges. A metered taxi and an off-peak rideshare are usually in a similar ballpark; rideshare can spike at busy times, so check the in-app quote first." },
-    { "type": "h2", "text": "Other options: shuttle, private transfer and car hire" },
-    { "type": "list", "items": [
-      "Door-to-door shuttles and pre-booked private transfers exist and can be handy for groups or early flights — book ahead and confirm the price when you reserve.",
-      "Hiring a car makes sense only if you're touring beyond Sydney. Around Bondi, parking is tight and metered, so a car you're not using is more hassle than help.",
-      "A public bus also links the airport to Bondi Junction if you'd rather skip the train — check the route on the Transport NSW Trip Planner, then take the 333/380/381 to the beach."
-    ] },
-    { "type": "itinerary", "stops": [
-      { "time": "0:00", "title": "Land & tap on", "detail": "Follow signs to the station under your terminal; board the T8 towards the city." },
-      { "time": "~0:15", "title": "Central Station", "detail": "Change to the T4 Eastern Suburbs & Illawarra Line for Bondi Junction." },
-      { "time": "~0:35", "title": "Bondi Junction", "detail": "Head up to the bus interchange above the station." },
-      { "time": "~0:50", "title": "Bondi Beach", "detail": "Ride the 333, 380 or 381 down the hill to Campbell Parade." }
-    ] },
+    { "type": "p", "text": "If you've got luggage, kids, or you land late, I'd just take a taxi or a rideshare. It's the only truly door-to-door option and drops you right at your accommodation. Taxis queue at the rank outside each terminal; rideshare has its own signed pickup zones — follow the prompts in your app. Expect somewhere in the 30 to 50 minute range depending on traffic and time of day." },
+    { "type": "p", "text": "Taxis run on a metered fare, and rideshare quotes you before you confirm. I won't put a fixed dollar figure here because both move with traffic, time of day and demand surges — a metered taxi and an off-peak rideshare are usually in a similar ballpark, but rideshare can spike at busy times, so check the in-app quote first. And if you're taking a taxi, it's worth a two-minute read of my guide to [Sydney Airport taxi scams and how to avoid them](/bondi-blog/2025/6/4/sydney-airport-taxi-scams-how-to-spot-avoid-costly-rip-offs-for-a-hassle-free-arrival) so you start your trip on the right foot." },
+    { "type": "h2", "text": "Private transfers, shuttles and car hire" },
+    { "type": "p", "text": "Door-to-door shuttles and pre-booked private transfers can be handy for groups or pre-dawn flights — book ahead and lock in the price when you reserve so there are no surprises. Hiring a car really only makes sense if you're touring beyond Sydney; around Bondi, parking is tight and metered, so a car you're not using is more hassle than help. If you'd rather skip the train, a public bus also links the airport to Bondi Junction — check the route on the Trip Planner, then take the 333/380/381 to the beach." },
     { "type": "faq", "items": [
       { "q": "Is there a train station at Bondi Beach?", "a": "No. The nearest station is Bondi Junction, around 3 km from the sand. From there it's a 10 to 15 minute bus (333, 380 or 381) or a short taxi ride down to the beach." },
       { "q": "What's the cheapest way from the airport to Bondi?", "a": "Public transport: the T8 train to Central, change to the T4 to Bondi Junction, then a bus to the beach. Just note the airport Station Access Fee adds a fixed charge on top of the fare — check the current amount on the Opal website." },
-      { "q": "How long does it take?", "a": "Roughly 30 to 50 minutes by taxi or rideshare, and about 60 to 90 minutes by train and bus once you factor in connections and waiting time." },
-      { "q": "Do I need an Opal card?", "a": "You don't need a physical Opal card — you can tap on and off with a contactless credit/debit card or a phone/watch. Adult fares are the same either way." },
-      { "q": "Can I get a direct bus from the airport?", "a": "There's no single bus straight to Bondi Beach, but a public bus links the airport to Bondi Junction, where you swap to the 333, 380 or 381 for the beach — check the current route on the Transport NSW Trip Planner." }
+      { "q": "How long does it take?", "a": "Roughly 30 to 50 minutes by taxi or rideshare, and about 60 to 90 minutes by train and bus once you factor in the connection at Central and any waiting." },
+      { "q": "Do I need an Opal card?", "a": "No — you can tap on and off with a contactless credit/debit card or a phone/watch. Adult fares are the same either way." },
+      { "q": "Can I get a direct bus from the airport to Bondi Beach?", "a": "There's no single bus straight to the beach, but a public bus links the airport to Bondi Junction, where you swap to the 333, 380 or 381. Check the current route on the Transport for NSW Trip Planner." }
     ] },
     { "type": "p", "text": "However you come in, the moment you crest the hill and Campbell Parade opens onto that big blue arc of beach, you'll know the journey was worth it. See you down there." }
   ]
