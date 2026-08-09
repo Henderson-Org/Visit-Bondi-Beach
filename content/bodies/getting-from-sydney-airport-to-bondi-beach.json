@@ -4,7 +4,7 @@
   "lastReviewed": "2026-08-08",
   "sources": [
     { "label": "Transport for NSW — Getting to and from Sydney Airport", "url": "https://transportnsw.info/tickets-fares/getting-to-from-sydney-airport" },
-    { "label": "Opal — Sydney Airport station access fee", "url": "https://www.opal.com.au/en/opal-fares/airport_station_access_fee/" },
+    { "label": "Transport for NSW — Opal fares", "url": "https://transportnsw.info/tickets-fares/opal" },
     { "label": "Transport for NSW Trip Planner", "url": "https://transportnsw.info/trip" }
   ],
   "blocks": [
