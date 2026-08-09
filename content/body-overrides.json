@@ -12480,13 +12480,19 @@
       },
       {
         "type": "p",
-        "text": "From the start you drop down William Street, through the Kings Cross tunnel, then out along New South Head Road with the harbour glinting beside you through Rose Bay. Then comes the bit everyone's heard about: Heartbreak Hill, a roughly 2 km climb from Rose Bay up to Vaucluse. It's the halfway point and the make-or-break section. From Vaucluse you head along Old South Head Road and Military Road before a glorious downhill toward the coast, a turnaround near Curlewis Street, and the finish on Queen Elizabeth Drive at Bondi."
+        "text": "From the start you drop down William Street, through the Kings Cross tunnel, then out along New South Head Road with the harbour glinting beside you through Rose Bay. What first-timers never expect is how hilly the whole thing is — there are plenty of climbs before you even reach the famous one. Then comes the bit everyone's heard about: Heartbreak Hill, a roughly 2 km climb from Rose Bay up to Vaucluse. It's twisty and gets steeper in parts near the top, and the truly cruel bit is psychological — just when you're certain you've crested it, it keeps going. From Vaucluse you head along Old South Head Road and Military Road before a glorious downhill toward the coast, a turnaround near Curlewis Street, and the finish on Queen Elizabeth Drive at Bondi."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "The local trick: run to the house, not the top",
+        "text": "Here's the insider tip I give every first-timer. Somewhere up on the high part of the course there's a striking, futuristic-looking house you can't miss — and it's your signal that the worst of the climbing is behind you. The moment you pass it, the hard hills are done: there's just one last gentle incline before the sharp downhill into Bondi. I stop counting down to the 'top' of Heartbreak Hill and count down to that house instead — it's a much more honest finish line for the climbing."
       },
       {
         "type": "callout",
         "tone": "warning",
-        "title": "Two things first-timers don't expect",
-        "text": "Heartbreak Hill isn't the end of the climbing — there are several short, sharp pinches after it, so keep something in reserve. And don't empty the tank on the final downhill: after you reach the bottom there's still around a kilometre of flat, switchback running to the line. Save a little for it."
+        "title": "Two more things that catch people out",
+        "text": "Heartbreak Hill still isn't the end of the climbing — there are several short, sharp pinches after it, so keep something in reserve. And whatever you do, don't empty the tank sprinting the final downhill when you spot the water: once you reach the bottom there's still around a kilometre to run, in a nasty flat switchback that doubles you back to the line. More runners than you'd think blow up here because they thought they were finished — save a little for it."
       },
       {
         "type": "h2",
@@ -12532,7 +12538,15 @@
           },
           {
             "q": "Where is Heartbreak Hill?",
-            "a": "It's an approximately 2 km climb along New South Head Road from Rose Bay up to Vaucluse, at roughly the halfway mark of the course."
+            "a": "It's an approximately 2 km climb along New South Head Road from Rose Bay up to Vaucluse, at roughly the halfway mark of the course. It's twisty and steepens near the top, and it tends to keep going just when you think you've finished it."
+          },
+          {
+            "q": "How do I know when the hard climbing is over?",
+            "a": "Watch for the striking, futuristic-looking house up on the high part of the course — it's the local landmark that signals the worst of the climbing is behind you. After it, there's only one gentle incline left before the downhill into Bondi. Note that Heartbreak Hill itself isn't the last climb: a few short, sharp pinches follow it."
+          },
+          {
+            "q": "Is the finish really downhill?",
+            "a": "Mostly — but don't sprint the final descent with everything you've got. After you reach the bottom there's still roughly a kilometre of flat running in a switchback back to the line, and it catches out runners who spent everything thinking they were done. Save a little in the tank."
           },
           {
             "q": "How do I get to the start and back from Bondi?",
@@ -12545,7 +12559,7 @@
         "text": "Whether you're chasing a personal best or just want to say you've run from the city to the surf, City2Surf is a Sydney rite of passage. Train a little, pace it smart, and I'll see you at the Bondi end."
       }
     ],
-    "wordCount": 764,
+    "wordCount": 1083,
     "sources": [
       {
         "label": "Voltaren City2Surf — official site (dates, entries, waves, results)",
