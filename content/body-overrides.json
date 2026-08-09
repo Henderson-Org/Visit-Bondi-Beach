@@ -501,6 +501,136 @@
     "lastReviewed": "2026-08-08",
     "voice": "first-person"
   },
+  "/bondi-blog/2023/11/16/hxnovb41qon8zebftsjodt0g8tvhde": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I've lived alongside this stretch of sand for years, and the thing that still surprises me is how much history is packed into one kilometre of coastline. Bondi isn't just a pretty beach — its name means the sound of the surf, it's home to Australia's first surf lifesaving club, the whole place is on the National Heritage List, and there's a winter swimming pool you can only truly belong to after five years of Sunday races. Here are the facts about Bondi Beach that genuinely surprise the people I show around."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Length",
+            "value": "About 1 km of sand"
+          },
+          {
+            "label": "Name origin",
+            "value": "Aboriginal word 'Boondi'"
+          },
+          {
+            "label": "First surf club",
+            "value": "1907"
+          },
+          {
+            "label": "National Heritage listed",
+            "value": "2008"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The name itself means the sound of the waves"
+      },
+      {
+        "type": "p",
+        "text": "This is my favourite one to open with. \"Bondi\" comes from the Aboriginal word usually written as \"Boondi\", and the meaning most often given is tied to the sound and motion of water tumbling over rocks — the noise of the surf breaking on the shore. Sources vary on the precise translation, and you'll see slightly different wordings depending on who's telling it, but the through-line is lovely: the beach is essentially named after the sound you hear the moment you arrive. Stand on the promenade at dawn and you're hearing the very thing the name describes."
+      },
+      {
+        "type": "h2",
+        "text": "Bondi is where Australian surf lifesaving began"
+      },
+      {
+        "type": "p",
+        "text": "The red-and-yellow flags feel timeless, but they had to start somewhere — and that somewhere was here. The Bondi Surf Bathers' Life Saving Club was formed in February 1907 and is recognised as Australia's first surf lifesaving club, born out of the simple, urgent idea that ocean bathing needed people trained to pull swimmers out of trouble. Everything that spread up and down the Australian coast, and the culture the whole world now associates with our beaches, traces back to that decision on this sand."
+      },
+      {
+        "type": "list",
+        "items": [
+          "The Bondi Surf Bathers' Life Saving Club (1907) is regarded as Australia's first.",
+          "Bondi Beach was added to the National Heritage List in 2008.",
+          "The beach is roughly one kilometre long — deceptively compact for how famous it is.",
+          "It's one of the most filmed beaches in the country, thanks in no small part to 'Bondi Rescue'."
+        ]
+      },
+      {
+        "type": "localTip",
+        "text": "Want the history without the crowds? Walk the promenade early — before about 8am in summer — and you'll have the lifesaving murals, the Pavilion and the whole sweep of the beach almost to yourself, plus the best light of the day."
+      },
+      {
+        "type": "h2",
+        "text": "Black Sunday and a pool that takes five years to belong to"
+      },
+      {
+        "type": "p",
+        "text": "Two stories always stop visitors in their tracks. The first is Black Sunday, in February 1938, when a series of freak waves dragged a huge number of bathers — reportedly around 250 people — off the sandbank and out to sea in minutes. What followed became one of the most famous mass rescues in surf lifesaving history, with lifesavers hauling people back to shore in an extraordinary coordinated effort. It's a sobering reminder that even a beach this beloved has to be respected."
+      },
+      {
+        "type": "p",
+        "text": "The second is happier but almost as demanding. At the Bondi Icebergs, the winter swimming club at the southern end, there's a long-standing rule that to earn lifetime swimming membership you have to turn up and compete on three Sundays out of every four, right through the cold months, for five straight years. Five winters of ice blocks dropped into the pool before the season starts, just to belong. If you ever needed proof Bondi locals are a certain breed, that's it."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Volatile facts change — check before you plan",
+        "text": "Session times, entry fees and membership rules at venues like the Icebergs can change. I've kept the surprising history here and left the day-to-day specifics to the official sources listed below, so always confirm current details on the venue's own website before you go."
+      },
+      {
+        "type": "p",
+        "text": "One myth-buster while I'm here: you'll sometimes read that Bondi hit a scorching 47-degree day. Sydney did record extreme heat in early January 2018, but the headline 47.3°C reading belonged to Penrith in the city's west, not the beach — the ocean keeps Bondi noticeably milder. It's a good example of why I always check a fact before repeating it."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "What does the name 'Bondi' mean?",
+            "a": "It comes from the Aboriginal word 'Boondi'. The meaning most commonly given relates to the sound and motion of water breaking over rocks — essentially the noise of the surf. Different sources record slightly different translations, but they share that connection to the waves."
+          },
+          {
+            "q": "Is Bondi really the birthplace of surf lifesaving?",
+            "a": "The Bondi Surf Bathers' Life Saving Club was formed in 1907 and is recognised as Australia's first surf lifesaving club, so Bondi has a strong claim as the home of the movement in this country."
+          },
+          {
+            "q": "What was Black Sunday at Bondi?",
+            "a": "In February 1938, freak waves swept a large group of bathers — reported as around 250 people — off the sandbank. Lifesavers rescued the vast majority in what's remembered as one of the great mass rescues in surf lifesaving history."
+          },
+          {
+            "q": "How do you become a member of the Bondi Icebergs winter swimming club?",
+            "a": "By tradition, earning lifetime swimming membership means competing on three Sundays out of four through the winter season for five consecutive years. Check the Icebergs website for the current membership details before counting on any specifics."
+          },
+          {
+            "q": "How long is Bondi Beach?",
+            "a": "It's about one kilometre of sand — surprisingly compact given how internationally famous it is, which is partly why it feels so busy on a hot summer day."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "That's what I love about this place: you can come for a swim and leave with a head full of stories. A beach named after the sound of its own waves, the cradle of Australian surf lifesaving, heritage-listed sand, and a pool you have to earn over five winters. Bondi rewards anyone curious enough to look past the postcard."
+      }
+    ],
+    "wordCount": 968,
+    "sources": [
+      {
+        "label": "Bondi Surf Bathers' Life Saving Club — History",
+        "url": "https://bondisurfclub.com/the-club/history/"
+      },
+      {
+        "label": "NSW Environment & Heritage — Establishment of the first surf life saving club",
+        "url": "https://www.environment.nsw.gov.au/topics/heritage/blue-plaques/establishment-of-the-first-surf-life-saving-club"
+      },
+      {
+        "label": "DCCEEW — Bondi Beach National Heritage listing",
+        "url": "https://www.dcceew.gov.au/parks-heritage/heritage/places/national/bondi"
+      },
+      {
+        "label": "Bondi Icebergs — Swimming Membership",
+        "url": "https://icebergs.com.au/swimming-membership/"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
   "/bondi-blog/2023/11/16/insiders-guide-to-the-bronte-ocean-pool": {
     "blocks": [
       {
@@ -7067,6 +7197,149 @@
     "lastReviewed": "2026-08-08",
     "voice": "first-person"
   },
+  "/bondi-blog/2025/6/23/bondi-to-bronte-swim-the-ultimate-beginners-guide-to-sydneys-most-iconic-ocean-race": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "If you're eyeing off the Bondi to Bronte for your first proper ocean swim, here's the short version: it's a roughly 2 km point-to-point race that starts on my home beach at Bondi, rounds the rocks at Mackenzie's Point, and finishes in the little cove at Bronte — and yes, a first-timer can absolutely do it, provided you can already swim a couple of kilometres in open water without stopping. I've watched this swim from the Bronte hill more summers than I can count, and it never loses its magic."
+      },
+      {
+        "type": "p",
+        "text": "It's run by Bronte Surf Life Saving Club (these days alongside World Series Swims), and it's one of the oldest and most loved races on Sydney's ocean-swim calendar. What makes it special isn't the distance — plenty of swims are longer — it's the water. This is a real ocean course: swell, the odd rip, deep dark-blue sections over reef, and that beautiful, slightly intimidating moment when you round the headland and Bronte finally comes into view."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Route",
+            "value": "Bondi Beach → Mackenzie's Point → Bronte Beach"
+          },
+          {
+            "label": "Distance",
+            "value": "~2 km (buoy position varies with conditions)"
+          },
+          {
+            "label": "Organiser",
+            "value": "Bronte Surf Life Saving Club / World Series Swims"
+          },
+          {
+            "label": "Season",
+            "value": "Sydney summer — check official site for the date"
+          },
+          {
+            "label": "Entries",
+            "value": "bonditobronte.com.au"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The course, and why it earns its reputation"
+      },
+      {
+        "type": "p",
+        "text": "You start on the sand at Bondi, near the Pavilion end, and swim out and south. The first landmark is Mackenzie's Point, the rocky headland between the two beaches — you keep it on your left and follow the coast down. From there it's open water over reef until you drop into Bronte's surf zone and sprint up the sand. The organisers describe the course as somewhere between 2.0 and 2.4 km depending on where they set the buoys on the day, so treat \"about 2 km\" as your training target and don't be surprised if it swims a touch longer."
+      },
+      {
+        "type": "p",
+        "text": "The honest truth is that Bondi to Bronte swims harder than its distance on paper. If there's a swell running, the middle section past the headland can get lumpy, and the finish funnels you into a smaller, punchier beach. That's exactly why it's such a satisfying first ocean race — it feels like a genuine adventure, not a lap of a pool."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Be honest about your ability",
+        "text": "This is an ocean race, not flat water. You should be able to swim 2 km continuously in open water, stay calm when you can't touch the bottom, and float and signal for help if you need to. If that's not you yet, spend a season building up first — the swim will still be here next summer."
+      },
+      {
+        "type": "h2",
+        "text": "Training as a beginner"
+      },
+      {
+        "type": "p",
+        "text": "Ocean swimming is a different sport to pool swimming, and the gap catches people out. You can be fit in the pool and still feel wobbly the first time there's swell and no black line to follow. Give yourself a solid run-in — a couple of months is realistic if you're already swimming — and make sure some of it happens in the sea."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Build your pool base: two to three swims a week, mixing steady distance with intervals so 2 km stops feeling long.",
+          "Get in the ocean weekly: nothing replaces practising in real swell, sighting off landmarks, and getting used to salt water and colder temps.",
+          "Practise sighting: lift your eyes every handful of strokes to spot a buoy or headland so you swim straight instead of zig-zagging.",
+          "Rehearse the surf: practise wading out through small waves and body-surfing a wave in — the start and finish are where beginners lose time and composure.",
+          "Do a dress rehearsal: at least one continuous 1.5–2 km ocean swim before race week so the distance is nothing new."
+        ]
+      },
+      {
+        "type": "localTip",
+        "text": "The best free training partner is the Bondi to Bronte coastal path itself — walk it before you swim it. Seeing Mackenzie's Point, the reef sections and the Bronte finish from above makes the course far less daunting when you're out there at water level. And join a local ocean swim squad if you can; swimming with others in the surf builds confidence faster than anything."
+      },
+      {
+        "type": "h2",
+        "text": "Race day, entries and spectating"
+      },
+      {
+        "type": "p",
+        "text": "Entries open online at bonditobronte.com.au, usually well ahead of the event, and popular swims like this can fill before race day — so enter early rather than banking on entering on the morning. There are typically shorter options too (a bay swim and a junior swim) if the full 2 km feels like a stretch this year; check the official entries page for the current distances, categories and fees, as these change season to season."
+      },
+      {
+        "type": "p",
+        "text": "On the day, get there early — parking around Bondi and Bronte is genuinely tight on a summer weekend, so walk, bus or train if you can. Warm up with an easy few hundred metres, start a little wider than the pack to avoid the washing-machine scramble, sight often, and stay between the flags and follow the surf lifesavers' directions at the Bronte finish. The event is well patrolled with lifesavers and rescue craft on the water, but the ocean still deserves respect."
+      },
+      {
+        "type": "p",
+        "text": "If you're not swimming, Bronte is the place to watch. Grab a spot on the grassy hill above the beach, bring coffee, and you'll get the whole drama of the finish — the sprint up the sand and the very happy, very salty faces."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "How far is the Bondi to Bronte swim?",
+            "a": "It's a point-to-point ocean course of roughly 2 km — the organisers list it as around 2.0 to 2.4 km depending on where the buoys are set on the day. Train for about 2 km and be ready for it to swim slightly longer."
+          },
+          {
+            "q": "Do I need to be super fit or a competitive swimmer?",
+            "a": "No, but you do need to be a confident open-water swimmer. If you can comfortably swim 2 km non-stop in the ocean and stay calm out of your depth, you're the right kind of prepared. It's more about water confidence than speed."
+          },
+          {
+            "q": "When is the Bondi to Bronte swim held?",
+            "a": "It runs during Sydney's summer ocean-swim season, but the exact date moves year to year — I'd check bonditobronte.com.au for the current date rather than relying on last season's."
+          },
+          {
+            "q": "How do I enter, and can I enter on the day?",
+            "a": "Enter online through the official site, bonditobronte.com.au. Don't count on entering on race morning — it's a popular swim and can sell out, so register early."
+          },
+          {
+            "q": "Is it safe for a first-timer?",
+            "a": "It's professionally run and well patrolled by surf lifesavers with rescue craft on the course, so the safety net is strong. The main risk is overestimating yourself — make sure you can genuinely swim the distance in open water before you enter."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Done the training and picked your date? Then all that's left is to back yourself, round Mackenzie's Point, and enjoy that grin when your feet hit the Bronte sand. It's a rite of passage for a reason."
+      }
+    ],
+    "wordCount": 1153,
+    "sources": [
+      {
+        "label": "Macquarie Bondi to Bronte Ocean Swim — official site",
+        "url": "https://www.bonditobronte.com.au/"
+      },
+      {
+        "label": "Bondi to Bronte — course details",
+        "url": "https://www.bonditobronte.com.au/b2b-course"
+      },
+      {
+        "label": "World Series Swims — Bondi to Bronte",
+        "url": "https://worldseriesswims.com.au/bondi-to-bronte/"
+      },
+      {
+        "label": "Surf Life Saving NSW — beach safety",
+        "url": "https://www.surflifesaving.com.au/"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
   "/bondi-blog/2025/6/4/sydney-airport-taxi-scams-how-to-spot-avoid-costly-rip-offs-for-a-hassle-free-arrival": {
     "blocks": [
       {
@@ -7941,6 +8214,135 @@
       {
         "label": "Manly Hydraulics Laboratory (NSW Government) — Sydney ocean water temperatures",
         "url": "https://mhl.nsw.gov.au/Data-Water-Temperature"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
+  "/bondi-blog/Sydney’s-best-bookstore-gertude-alice": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "If you asked me to name Sydney's best bookstore, I wouldn't hesitate: Gertrude & Alice, a wonderfully rambling second-hand-and-new bookshop and café at 46 Hall Street, just a couple of minutes' walk back from the sand at Bondi Beach. It's the sort of place where you come in for one book, order a coffee, and lose a whole afternoon between the shelves — and honestly, that's the point."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Where",
+            "value": "46 Hall Street, Bondi Beach"
+          },
+          {
+            "label": "What",
+            "value": "Second-hand & new bookshop + café"
+          },
+          {
+            "label": "Opened",
+            "value": "2001"
+          },
+          {
+            "label": "Great for",
+            "value": "Browsing, coffee, book lovers"
+          },
+          {
+            "label": "Hours & menu",
+            "value": "Check the official site (they change seasonally)"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "A Bondi institution with a Parisian soul"
+      },
+      {
+        "type": "p",
+        "text": "Gertrude & Alice opened its doors in 2001, founded by friends Jane Turner and Katerina Cosgrove, who between them had amassed a small mountain of books and were waiting for the right premises to appear. When an old surf shop on Hall Street came up for lease, the name chose itself. The store is named after Gertrude Stein and Alice B. Toklas, whose apartment on the Rue de Fleurus in 1920s Paris became a legendary salon for writers and artists. That's the spirit the shop still runs on — books as a reason for people to gather, argue, read aloud and linger."
+      },
+      {
+        "type": "p",
+        "text": "Step inside and the first thing you notice is that there's no slick retail polish here. Books are stacked floor to ceiling, spill across tables and cluster in happy little towers on the floor. New releases sit alongside battered second-hand paperbacks and the occasional collectable, so half the fun is the treasure hunt — you never quite know what you'll turn up in the fiction section or tucked away in philosophy, poetry or the kids' corner."
+      },
+      {
+        "type": "localTip",
+        "text": "Go on a weekday morning if you actually want to browse in peace. Weekends after a beach session get busy, and the good armchairs and café tables fill up fast. Bring a tote — you will buy more than you planned to."
+      },
+      {
+        "type": "h2",
+        "text": "The café: coffee among the shelves"
+      },
+      {
+        "type": "p",
+        "text": "What sets Gertrude & Alice apart from every other bookshop I know is that the café isn't bolted on as an afterthought — it's woven right through the store. You order a coffee and settle in at a communal table surrounded by books, and nobody's rushing you along. It's genuinely one of my favourite spots in Bondi to sit with a flat white and whatever I've just pulled off the shelf."
+      },
+      {
+        "type": "p",
+        "text": "They do all-day breakfast, lunch and the usual espresso-based coffee, plus cakes and sweet things. The menu shifts with the seasons, so rather than quote you dishes and prices that might be out of date by the time you read this, I'll point you straight at their café menu online for the current line-up."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Before you go",
+        "text": "Opening hours, the café menu and event line-ups all change through the year. Check the official Gertrude & Alice website for current hours and menu, and their Humanitix page for upcoming author talks and book clubs, before you make a special trip."
+      },
+      {
+        "type": "h2",
+        "text": "More than a shop — a community"
+      },
+      {
+        "type": "p",
+        "text": "The reason Gertrude & Alice has become such a fixture of the eastern suburbs is that it's never just been about selling books. It runs a busy calendar of book clubs, author talks, book launches and readings, and over the years it's grown into a genuine community hub — the kind of independent bookshop that a neighbourhood rallies around. In an age of online everything, there's something quietly radical about a room full of strangers who'd rather talk about a novel in person."
+      },
+      {
+        "type": "p",
+        "text": "If you're building a Bondi day around it, I'd pair a morning swim with a wander up Hall Street, an hour lost in the shelves, and lunch or coffee at the café before heading back to the beach. It's the perfect antidote to a scorching afternoon — cool, shady, and full of stories."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Where is Gertrude & Alice bookstore?",
+            "a": "At 46 Hall Street, Bondi Beach, only a short walk back from the beachfront. Hall Street is the main café-and-shops strip that runs up from Campbell Parade."
+          },
+          {
+            "q": "Does Gertrude & Alice sell second-hand books?",
+            "a": "Yes — it stocks both new and second-hand titles, along with the odd collectable, so it's a great spot for a browse and a bargain rather than just new releases."
+          },
+          {
+            "q": "Is there a café inside the bookshop?",
+            "a": "There is, and it's central to the whole experience. You can order coffee, breakfast or lunch and sit among the shelves. Because the menu changes seasonally, check their official café menu online for what's on now."
+          },
+          {
+            "q": "Does Gertrude & Alice host events?",
+            "a": "Yes — it runs book clubs, author talks, launches and readings, and has done for years. Their Humanitix page lists upcoming events and lets you book a spot."
+          },
+          {
+            "q": "When did Gertrude & Alice open?",
+            "a": "It opened in 2001, founded by Jane Turner and Katerina Cosgrove, and is named after writer Gertrude Stein and her partner Alice B. Toklas, whose 1920s Paris salon inspired the shop."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "So that's my pick for Sydney's best bookstore — not the biggest, not the flashiest, but the one with the most heart. Come for a book, stay for the coffee, and don't be surprised if Gertrude & Alice becomes the reason you keep coming back to Bondi that has nothing to do with the surf."
+      }
+    ],
+    "wordCount": 876,
+    "sources": [
+      {
+        "label": "Gertrude & Alice Cafe Bookstore (official)",
+        "url": "https://www.gertrudeandalice.com.au/"
+      },
+      {
+        "label": "Gertrude & Alice — Our Story",
+        "url": "https://www.gertrudeandalice.com.au/the-story/our-story/"
+      },
+      {
+        "label": "Gertrude & Alice — Cafe Menu",
+        "url": "https://www.gertrudeandalice.com.au/cafe-menu/"
+      },
+      {
+        "label": "Gertrude & Alice — Events (Humanitix)",
+        "url": "https://events.humanitix.com/host/gertrude-and-alice-cafe-bookstore"
       }
     ],
     "lastReviewed": "2026-08-08",
