@@ -1,0 +1,44 @@
+{
+  "path": "/bondi-blog/2023/9/19/a-guide-to-the-bondi-beach-sunday-drummer",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bondi Sunset Music (Facebook)", "url": "https://www.facebook.com/bondisunsetmusic/" },
+    { "label": "Bondi Sunset Music (Instagram)", "url": "https://www.instagram.com/bondisunsetmusic/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you hear a wall of drums rolling up off North Bondi on a Sunday afternoon, don't go looking for a festival — that's Bondi Sunset Music, a free, come-as-you-are drum circle that gathers on the grassy knoll at the northern end of the beach and plays until the sun drops into the sea. It's my favourite unscripted thing in Bondi all week — no ticket, no instrument, and not the faintest idea of how to keep a beat required." },
+    { "type": "p", "text": "It started the way the best local things do: by accident. A couple of musicians drumming solo up on the knoll one gold-lit evening decided to play together instead, came back the next Sunday, and kept going as more people joined. Now it's a rolling circle of djembes, congas, samba surdos and whatever anyone thinks to bring, with dancers barefoot in the grass and a crowd that swells as the sun drops lower." },
+    { "type": "quickFacts", "items": [
+      { "label": "What", "value": "Bondi Sunset Music — free community drum circle" },
+      { "label": "Where", "value": "The grassy knoll, northern end of Bondi Beach" },
+      { "label": "When", "value": "Sunday afternoons into sunset (weather dependent)" },
+      { "label": "Cost", "value": "Free — bring an instrument or just come to listen" },
+      { "label": "Great for", "value": "Families, dancers, sunset watchers, everyone" }
+    ] },
+    { "type": "h2", "text": "Where and when to find them" },
+    { "type": "p", "text": "They set up on the grassy hill above the northern end of the promenade, near North Bondi, where the lawn looks down over the sand. It's the natural amphitheatre of the beach — you'll hear them before you see them. Sessions run on Sunday afternoons through to sunset, but this is a weather-and-vibe thing rather than a fixed timetable: rain or a big southerly can move or cancel it, and I've seen them shift down onto the sand between the ramps when the knoll's busy." },
+    { "type": "callout", "tone": "note", "title": "Times shift with the season and sky", "text": "Because start and finish track the sunset, the hours drift across the year and a wet forecast can call it off. Check the Bondi Sunset Music Facebook or Instagram page before you head down — that's where they post any change." },
+    { "type": "h2", "text": "What it's actually like" },
+    { "type": "p", "text": "Warm. That's the word I keep coming back to. There's a loose structure to keep everyone roughly in rhythm, but no audition and no gatekeeping — kids get handed shakers, first-timers get shown a simple pattern, and dancers just find space in the middle. It runs as a deliberately sober, alcohol- and drug-free gathering, which is a big part of why it works for all ages. Grandparents, toddlers, backpackers and Bondi lifers all end up in the same circle." },
+    { "type": "quote", "text": "The idea is simple: reconnect with yourself and each other through rhythm, bare feet in the grass, and a beach sunset. No looking cool required." },
+    { "type": "p", "text": "Drum circles are one of humanity's oldest social rituals, and this is less a performance you watch than a thing you join. On a good Sunday you'll see a proper little community: regulars who've made friends here, visitors who wandered up by chance, and onlookers spread across the grass with the ocean glowing behind the drummers." },
+    { "type": "h2", "text": "How to join in (and be a good guest)" },
+    { "type": "list", "items": [
+      "Anyone can play — bring a djembe, a shaker, a tambourine, or empty hands and dancing feet.",
+      "Come a bit before sunset so you can find the circle, settle in and catch the light at its best.",
+      "Bring a picnic rug, water and warm layer — the knoll cools off fast once the sun's gone.",
+      "Follow the group's lead on volume and breaks; they keep sets to a few hours out of respect for neighbours.",
+      "Kids are genuinely welcome — there are usually spare instruments to hand around."
+    ] },
+    { "type": "localTip", "text": "Pair it with an early swim or the Bondi to Bronte walk, then drift up to the knoll for the drums as the day winds down. A takeaway feed and a spot on the grass is about as good as a free Sunday in Sydney gets." },
+    { "type": "faq", "items": [
+      { "q": "Where exactly is the Bondi Sunday drum circle?", "a": "On the grassy knoll at the northern end of Bondi Beach — the lawn on the hill above the promenade near North Bondi. When it's crowded they sometimes move down onto the sand near the northern ramps." },
+      { "q": "What time do the drummers play?", "a": "Sunday afternoons through to sunset, so the exact hours shift with the season. It's weather dependent — check the Bondi Sunset Music Facebook or Instagram page before heading down, as rain or a strong southerly can cancel or relocate a session." },
+      { "q": "Do I need to bring an instrument or pay anything?", "a": "No on both counts. It's completely free, and you're just as welcome to listen, dance, or watch the sunset as to play. If you have a hand drum or shaker, bring it — but there are usually spare instruments floating around." },
+      { "q": "Is it family and kid friendly?", "a": "Very. It's a deliberately sober, alcohol- and drug-free gathering for all ages, and the group actively hands instruments to kids to get them involved." },
+      { "q": "Can I join in even if I've never drummed before?", "a": "Absolutely — that's the whole point. There's a simple structure to keep everyone in rhythm, and regulars are happy to show newcomers an easy pattern. No experience needed." }
+    ] },
+    { "type": "p", "text": "So if you're in Bondi on a Sunday as the afternoon softens, follow the drums up to the knoll. Sit on the grass, or grab a shaker and join in. It's free, it's unpretentious, and one of the truest bits of Bondi you'll find all week." }
+  ]
+}

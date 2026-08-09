@@ -1,0 +1,40 @@
+{
+  "path": "/bondi-blog/2025/1/5/who-can-swim-at-bondi-icebergs-ocean-pool",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bondi Icebergs — Pool Conditions & Hours", "url": "https://icebergs.com.au/pool-conditions/" },
+    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Who can swim at the Bondi Icebergs ocean pool? Everyone. That's the honest, one-word answer, and it surprises people every time. The famous \"Club\" sign over the door makes visitors assume the pool is members-only, or that you need to book, or know someone. You don't. You walk down to the southern end of Bondi Beach, pay at the kiosk, and swim in the most photographed pool in the country." },
+    { "type": "p", "text": "The confusion comes from two separate things that share a name. One is the Icebergs Swimming Club, the winter-swimming institution that's been going for the better part of a century. The other is the ocean pool itself, a public facility open to anyone who pays to get in. You do not need to be a member to swim — membership is about competing in the winter races, not earning a spot in the water." },
+    { "type": "quickFacts", "items": [
+      { "label": "Who can swim", "value": "Anyone — no membership or booking needed" },
+      { "label": "Where", "value": "Southern end of Bondi Beach, Notts Avenue" },
+      { "label": "The pools", "value": "50m lap pool plus a separate shallow children's pool" },
+      { "label": "Lifeguards", "value": "On patrol during opening hours" },
+      { "label": "Usually closed", "value": "Thursdays for cleaning — check before you go" }
+    ] },
+    { "type": "h2", "text": "Families and beginners" },
+    { "type": "p", "text": "This is a genuinely good spot for kids and nervous swimmers. Alongside the deep 50-metre lap pool there's a smaller, shallower children's pool with the same headland view, so little ones can paddle safely while you keep an eye on them. Because the water sits inside walls cut into the rock, it's calmer and more predictable than the open surf a few metres away. On rough days, though, keep children well clear of the ocean-facing edge." },
+    { "type": "h2", "text": "Lap swimmers and fitness folk" },
+    { "type": "p", "text": "If you're here to train, the main pool is a full 50 metres, which is why you'll spot serious swimmers grinding out lengths at dawn. It's divided into lanes, so there's room for everyone from the once-a-week breaststroker to the squad swimmer. Swimming a saltwater 50 with the Pacific crashing over the far wall is why regulars keep coming back." },
+    { "type": "h2", "text": "The winter swimming club is a separate thing" },
+    { "type": "p", "text": "Here's the part people most often get wrong. Becoming a full member of the winter swimming club means committing to swim through the cold months over a number of seasons — a real endurance tradition, which is how the club earned its name. The precise requirements change over time, so rather than repeat a number that might be out of date, I'd point you at the official [Bondi Icebergs Club site](https://icebergs.com.au/) for the current rules. None of it affects your ability to swim: membership is for the races, not for entry to the pool." },
+    { "type": "callout", "tone": "warning", "title": "The pool usually closes on Thursdays", "text": "Icebergs typically closes the pool on Thursdays for cleaning, and it can also close during big swells or club races. If a specific day is the whole plan, check the official pool-conditions page that morning first." },
+    { "type": "h2", "text": "Fees and opening hours" },
+    { "type": "p", "text": "Entry is cheap — an adult swim costs less than a decent coffee, with a lower rate for children, a discounted family pass, and towel and locker hire on top. I won't quote exact figures, because pool prices creep up over time; check the current rates on the official [Icebergs pool page](https://icebergs.com.au/pool-conditions/) before you go. The pool keeps long days, but the exact times shift with the season, tides and swell, so I check the official page the day before I go." },
+    { "type": "localTip", "text": "Go early. I aim for the 7 to 8am window on a weekday — the light is unreal, the lanes are calm, and you'll get the classic empty-pool photo before the tour groups arrive." },
+    { "type": "h3", "text": "A word on rough-swell days" },
+    { "type": "p", "text": "Because the pool is topped up by the ocean, a strong swell sends water surging over the southern wall — spectacular to watch and genuinely powerful near the edge. On big-surf days the lifeguards may restrict swimming or close the pool. If the sea looks angry and you're not a confident swimmer, keep to the shallow end or come back when it has settled." },
+    { "type": "faq", "items": [
+      { "q": "Do you have to be a member to swim at Bondi Icebergs?", "a": "No. The ocean pool is open to everyone — pay the entry fee at the kiosk and swim. Club membership is separate, tied to the winter-swimming races, and isn't needed for a normal swim." },
+      { "q": "Do I need to book in advance?", "a": "No. Entry is first-come, first-served — turn up, pay at the entrance and go in. There's no reservation system for the pool." },
+      { "q": "Can children swim there?", "a": "Yes. There's a separate shallow children's pool beside the main 50-metre pool, and lifeguards patrol during opening hours. On rough-surf days, keep kids away from the ocean-facing edge." },
+      { "q": "How much does it cost?", "a": "Single-visit entry is modest — cheaper for children, with a discounted family pass — and towel and locker hire cost extra. Prices change, so confirm the current rates on the official Icebergs pool page before you visit." },
+      { "q": "When is the pool closed?", "a": "It usually closes Thursdays for cleaning, and can close during big swells or club races. Check the official pool-conditions page if you're planning around a particular day." }
+    ] },
+    { "type": "p", "text": "So the short answer holds: anyone can swim at Bondi Icebergs. Whether you're a lap-counting regular, a family with toddlers, or a visitor chasing that one perfect photo, the pool is yours for the price of entry. Pick a calmer day, get there early, dodge the Thursday cleaning, and you'll see why this rectangle of ocean has drawn swimmers for generations." }
+  ]
+}

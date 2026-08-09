@@ -1,0 +1,47 @@
+{
+  "path": "/bondi-blog/2024/12/13/bondi-beach-travel-guide-50-frequently-asked-questions-for-first-time-visitors",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Transport for NSW — Trip Planner", "url": "https://transportnsw.info/trip" },
+    { "label": "Waverley Council — Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
+    { "label": "Waverley Council — Public transport", "url": "https://www.waverley.nsw.gov.au/environment/transport/public_transport" },
+    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "I get asked the same handful of questions every week by first-time visitors, so here's my honest local answer to all of them in one place. In short: Bondi Beach sits in Sydney's eastern suburbs, roughly 7 km from the CBD, it's free to visit, the easiest way in is the 333 bus or a train to Bondi Junction then a short bus down the hill, and the single most important thing is to swim between the red and yellow flags. Everything below is the detail I wish someone had told me before my first day." },
+    { "type": "quickFacts", "items": [
+      { "label": "Where", "value": "Eastern suburbs, ~7 km from Sydney CBD" },
+      { "label": "Beach entry", "value": "Free" },
+      { "label": "Easiest transport", "value": "333 bus, or train to Bondi Junction + bus" },
+      { "label": "Peak season", "value": "December–February (Aussie summer)" },
+      { "label": "Golden rule", "value": "Swim between the red & yellow flags" }
+    ] },
+    { "type": "h2", "text": "Getting here from the city" },
+    { "type": "p", "text": "You've got two reliable routes. The first is the 333 express bus from the city, my go-to when I'm not in a rush — it drops you right at Campbell Parade, steps from the sand. The second is faster in peak hour: take a train to Bondi Junction, then jump on one of the frequent buses (the 333, 380 or 381) for the short ride down to the beach. There's no train that goes all the way to Bondi Beach itself, so that last leg is always a bus, a rideshare or a 25-minute walk downhill." },
+    { "type": "callout", "tone": "note", "title": "Tap on, tap off", "text": "Sydney buses and trains don't take cash — you tap on and off with an Opal card or a contactless bank card or phone. Fares depend on distance and time of day, and daily and weekly caps apply. Check current fares and live timetables on the Transport for NSW Trip Planner before you set out." },
+    { "type": "h2", "text": "When to come and what it costs" },
+    { "type": "p", "text": "The warm months from November to April are the classic beach window, peaking December to February — sunny, busy and buzzing. To dodge the crowds, I love a bright winter's day here: the water's cold but the coastal walk is glorious and the cafés are quiet. Winter mornings can be genuinely chilly, so bring a layer." },
+    { "type": "p", "text": "The beach itself costs nothing — no entry fee, no beach-chair racket. Your real budget goes on food, wetsuit hire or a surf lesson, and parking if you drive (which I'd avoid; street parking is metered, limited and fiercely contested on a sunny weekend). For accommodation, staying a few blocks back from Campbell Parade usually beats the beachfront rate." },
+    { "type": "h2", "text": "Swimming, safety and the surf" },
+    { "type": "p", "text": "This is the part I never soften. Bondi is a surf beach with real rip currents, and the flags exist for a reason. Waverley Council's professional lifeguards patrol Bondi year-round, but they can only watch over you properly if you're in the patrolled zone. Always swim between the red and yellow flags." },
+    { "type": "callout", "tone": "warning", "title": "If you're caught in a rip", "text": "Don't fight it and don't try to swim straight back to shore against the current. Stay calm, float to conserve energy, raise an arm and call for help, and let the lifeguards come to you. A rip pulls you out, not under." },
+    { "type": "localTip", "text": "If waves aren't your thing, walk to the southern end and swim at the Bondi Icebergs ocean pool, or use the free rock pool beside it — it's a far gentler introduction to the water than the shorebreak. Check the Icebergs website for current public swim times and pool fees before you go." },
+    { "type": "h2", "text": "What to actually do while you're here" },
+    { "type": "list", "items": [
+      "Walk the Bondi to Coogee coastal path — clifftops, beaches and ocean pools the whole way; give yourself a couple of hours.",
+      "Book a beginner surf lesson; long-running local schools supply the board and wetsuit so you turn up with nothing.",
+      "Cool off in the Bondi Icebergs ocean pool at the beach's southern end.",
+      "Browse the Sunday markets and the café strip on the streets just behind Campbell Parade.",
+      "Hunt down the street art and murals along the promenade and back lanes."
+    ] },
+    { "type": "faq", "items": [
+      { "q": "How far is Bondi Beach from Sydney's city centre?", "a": "It's in the eastern suburbs, about 7 km from the CBD. Depending on traffic and which route you take, allow roughly 20–40 minutes door to door by public transport." },
+      { "q": "Is there a train station at Bondi Beach?", "a": "No. The nearest station is Bondi Junction, which is up the hill. From there you connect to the beach by bus (333, 380 or 381), rideshare, or about a 25-minute walk down." },
+      { "q": "Is Bondi Beach free?", "a": "Yes. There's no charge to enter the beach or use the sand and public promenade. You only pay for extras like food, surf hire, ocean-pool entry or parking." },
+      { "q": "Is it safe to swim at Bondi?", "a": "It can be, if you swim between the red and yellow flags where the lifeguards patrol. Bondi has genuine rip currents, so never swim outside the flags, especially if you're not a strong ocean swimmer." },
+      { "q": "When is the best time to visit?", "a": "For beach weather, November to April, peaking December to February. For fewer crowds and better café tables, a clear winter's day is underrated — just pack a warm layer." }
+    ] },
+    { "type": "p", "text": "That's the shortlist I'd give any friend flying in. Get the transport sorted, respect the flags, and leave room to just sit on the sand and watch Bondi do its thing — the bit no guide can plan for you." }
+  ]
+}

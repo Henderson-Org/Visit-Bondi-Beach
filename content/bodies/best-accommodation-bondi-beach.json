@@ -1,0 +1,47 @@
+{
+  "path": "/bondi-blog/best-accommodation-bondi-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "QT Bondi (official)", "url": "https://www.qthotels.com/bondi/" },
+    { "label": "Adina Apartment Hotel Bondi Beach (official)", "url": "https://www.adinahotels.com/en/apartments/bondi-beach-sydney/" },
+    { "label": "Wake Up! Bondi Beach (official)", "url": "https://www.wakeup.com.au/bondi/" },
+    { "label": "Transport for NSW — trip planner", "url": "https://transportnsw.info/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you want to fall asleep to the sound of the surf and walk to the sand in your thongs, stay right in the beach village between Campbell Parade and Hall Street — the heart of Bondi and where I send first-timers. But the honest answer to \"where should I stay in Bondi?\" depends on your budget and how close to the water you need to be, so here's how I'd choose, from a beachfront splurge to a bed in a buzzing hostel." },
+    { "type": "quickFacts", "items": [
+      { "label": "Postcode", "value": "Bondi Beach NSW 2026" },
+      { "label": "Beachfront pick", "value": "QT Bondi / Adina" },
+      { "label": "Best for families", "value": "Self-contained apartments" },
+      { "label": "Budget", "value": "Hostels on Campbell Parade" },
+      { "label": "Book ahead", "value": "Dec–Feb & long weekends" }
+    ] },
+    { "type": "h2", "text": "Right on the beach: hotels and apartment-hotels" },
+    { "type": "p", "text": "For the classic Bondi arrival — bags down, swimmers on, feet in the sand within minutes — nothing beats staying inside the beach village. QT Bondi sits on Beach Road above the retail arcade, a short stroll from the promenade, and it's the polished, design-led option if you want a proper hotel by the water. A minute back from the sand on Hall Street, Adina Apartment Hotel Bondi Beach gives you self-contained studios and apartments with kitchens and laundries — my go-to for families or anyone staying more than a couple of nights, since cooking a few meals genuinely saves money." },
+    { "type": "p", "text": "Rates in the beach village swing hard with the season, so I won't quote a number that'll be wrong by the time you read this — check each hotel's own site for live pricing, and expect summer, school holidays and long weekends to be dearest." },
+    { "type": "localTip", "text": "The gap between a room \"with ocean views\" and one facing the street can be significant. If you'll be out at the beach all day anyway, book the cheaper aspect and spend the saving on breakfast at a Hall Street café." },
+    { "type": "h2", "text": "Boutique stays and guesthouses" },
+    { "type": "p", "text": "If you'd rather something smaller and more characterful, Bondi has a handful of boutique places and small guesthouses tucked into the streets behind the beach — designed rooms and a neighbourhood feel rather than a lobby-and-lifts experience. They come and go and vary wildly, so read recent reviews and confirm what's included (parking in particular is tight and often paid) before you commit." },
+    { "type": "h2", "text": "Backpackers and budget beds" },
+    { "type": "p", "text": "Bondi has a long, genuine backpacker culture, and the hostels are clustered right on Campbell Parade opposite the sand. Wake Up! Bondi Beach is the big, social, well-run choice — dorms and private rooms, and the kind of place where solo travellers actually meet people. For a bed this close to the water the Campbell Parade hostels are unbeatable value; just book early over summer — the good-value dorms sell out first." },
+    { "type": "callout", "tone": "note", "title": "Bondi Beach vs Bondi Junction", "text": "Bondi Junction sits a few kilometres inland — a different place from the beach. It's a major transport interchange (train plus buses), so it's handy and often cheaper for a bed, but you'll ride a bus or train to reach the sand. If waking up near the water matters, book in the beach village." },
+    { "type": "h2", "text": "How I'd choose" },
+    { "type": "list", "items": [
+      "Want to walk to the surf in seconds and don't mind paying — a beachfront hotel or apartment-hotel.",
+      "Travelling as a family or staying a week — a self-contained apartment with a kitchen and laundry.",
+      "After character over polish — a boutique hotel or guesthouse in the back streets.",
+      "On a budget or travelling solo — a Campbell Parade hostel.",
+      "Chasing the lowest price and happy to commute — Bondi Junction, then the bus in."
+    ] },
+    { "type": "p", "text": "Whatever you pick, book well ahead for December through February and any long weekend — Bondi fills up and the closer-to-the-sand rooms go first. Getting here without a car is easy: plan trains and the frequent Bondi buses on the Transport for NSW trip planner and skip Bondi's notoriously scarce parking." },
+    { "type": "faq", "items": [
+      { "q": "Where is the best area to stay in Bondi Beach?", "a": "For the full Bondi experience, stay in the beach village between Campbell Parade and Hall Street — you can walk to the sand, the cafés and the coastal walk. Bondi Junction, a few kilometres inland, is cheaper and a transport hub but isn't at the beach." },
+      { "q": "How much does accommodation in Bondi cost?", "a": "It varies a lot by season and how close to the water you are, so I won't quote a figure that dates quickly. Hostels are cheapest, apartment-hotels and boutique stays sit in the middle, and beachfront hotels are the top end. Check each property's own website for live rates." },
+      { "q": "Is Bondi good for families?", "a": "Yes. A self-contained apartment with a kitchen and laundry — such as an apartment-hotel on Hall Street — makes family stays far easier and cheaper than eating out every meal, and you're still walking distance from the patrolled beach." },
+      { "q": "Do I need a car to stay in Bondi?", "a": "No — you're better off without one. Parking is scarce and often paid, while trains to Bondi Junction and frequent buses to the beach make getting around easy. Plan trips on the Transport for NSW trip planner." },
+      { "q": "How far ahead should I book?", "a": "For summer (December to February), school holidays and long weekends, book as far ahead as you can — the best-value and closest-to-the-beach rooms sell out first. Outside peak times you have far more flexibility." }
+    ] },
+    { "type": "p", "text": "Staying in Bondi is really about the walk to the water — pick the closest bed your budget allows and let the beach be the first thing you see each morning." }
+  ]
+}
