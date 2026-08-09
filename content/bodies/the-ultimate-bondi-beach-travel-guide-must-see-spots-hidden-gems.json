@@ -1,0 +1,45 @@
+{
+  "path": "/bondi-blog/2025/3/8/the-ultimate-bondi-beach-travel-guide-must-see-spots-hidden-gems",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Bondi Beach", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beaches/bondi_beach" },
+    { "label": "Sydney.com — Bondi to Coogee Coastal Walk", "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk" },
+    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" },
+    { "label": "Bondi Markets", "url": "https://www.bondimarkets.com.au/" },
+    { "label": "Transport for NSW", "url": "https://transportnsw.info/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you only have one day at Bondi, spend the morning swimming between the flags at the south end, walk the cliff path toward Tamarama before lunch, and save sunset for the grassy hill above the Icebergs pool — that single loop hits the famous stuff and the quiet corners both. I've wandered this stretch of coast for years, so here's my honest, local-first guide: the must-see spots that earn the hype, the hidden gems most visitors walk straight past, and the practical bits that make a good day a great one." },
+    { "type": "quickFacts", "items": [
+      { "label": "Where", "value": "Bondi Beach, eastern suburbs of Sydney, NSW" },
+      { "label": "Getting here", "value": "Train to Bondi Junction, then the 333/380 bus" },
+      { "label": "Beach length", "value": "About 1 km of sand" },
+      { "label": "Patrols", "value": "Lifeguards year-round; swim between the red-and-yellow flags" },
+      { "label": "Best for", "value": "Swimming, the coastal walk, cafés and people-watching" }
+    ] },
+    { "type": "h2", "text": "The must-see spots" },
+    { "type": "p", "text": "Start where Bondi shows off. The southern end, near the Bondi Icebergs, is where the postcard photos happen — the ocean pool sits right on the rocks and the waves wash straight into it at high tide. Icebergs is a working swimming club with a public pool anyone can swim in, but session times and entry change with the seasons and events, so check the Icebergs website before you build your morning around it." },
+    { "type": "p", "text": "From there, the Bondi to Coogee Coastal Walk is the one thing I'd never let a first-timer skip. It runs roughly 6 km along the cliff tops, linking Bondi to Tamarama, Bronte, Clovelly and finally Coogee, with sea views the whole way. You don't have to do all of it — even the first stretch to Bronte is worth the trip, with ocean pools and cafés to stop at. Wear proper shoes, bring water, and go early in summer before the sun and crowds arrive." },
+    { "type": "p", "text": "Back at the beach itself, the Bondi Pavilion is the grand old building on the promenade — a community and cultural hub with event spaces after a major restoration. Wander the promenade for the Instagram-famous graffiti wall, grab a coffee, and just watch Bondi be Bondi." },
+    { "type": "h2", "text": "Hidden gems the crowds miss" },
+    { "type": "p", "text": "Most visitors cluster in the middle of the beach and never move. The locals I know drift to the ends. North Bondi is calmer and more relaxed, with the free North Bondi ocean pools (the \"kiddie pools\") tucked into the rocks — lovely for families and gentler swimming when the surf's up. It's also my pick for a quiet coffee away from the Campbell Parade bustle." },
+    { "type": "li", "text": "The Sunday Bondi Markets at Bondi Beach Public School — vintage, jewellery, art and food, and a genuine slice of the local creative scene. Check the Bondi Markets site for current days and hours." },
+    { "type": "li", "text": "The laneways and walls behind Campbell Parade, where Bondi's ever-changing street art lives. It's refreshed constantly, so no two visits look the same." },
+    { "type": "li", "text": "Hall Street and the streets just back from the sand, where the café and food scene is far better value than the beachfront strip." },
+    { "type": "li", "text": "Ben Buckler, the rocky headland at the far north end, for wide clifftop views and a whale-watching chance in the winter migration months." },
+    { "type": "localTip", "text": "Come on a weekday if you possibly can. Bondi on a summer Saturday is a different animal — parking is brutal and the sand fills fast. Midweek mornings you get the same beach with half the people, and the cafés aren't slammed." },
+    { "type": "h2", "text": "Getting here and staying safe" },
+    { "type": "p", "text": "There's no train directly to the beach. The usual route is a train to Bondi Junction, then a short bus (the 333 or 380) down to Campbell Parade — check Transport for NSW for live timetables and to tap on with an Opal card or contactless card. Driving is possible but parking near the sand is limited and metered, so I only drive here off-peak." },
+    { "type": "callout", "tone": "warning", "title": "Swim between the flags", "text": "Bondi has real rip currents. Always swim between the red-and-yellow flags, where lifeguards are watching. If you're ever caught in a rip, don't fight it — stay calm, raise an arm for help, and float or swim parallel to the beach until you're free of it." },
+    { "type": "p", "text": "Bondi is patrolled by professional lifeguards year-round, backed by volunteer surf lifesavers in the busy months, but the ocean still deserves respect — conditions change quickly and the north end can be deceptively strong. If in doubt, ask a lifeguard where it's safest to swim that day." },
+    { "type": "faq", "items": [
+      { "q": "What are the absolute must-sees at Bondi Beach?", "a": "The Bondi Icebergs ocean pool at the south end, the Bondi to Coogee Coastal Walk, the Bondi Pavilion and promenade, and a swim between the flags on the main beach. If you add one hidden gem, make it quieter North Bondi." },
+      { "q": "How do I get to Bondi Beach from the Sydney CBD?", "a": "Take a train to Bondi Junction, then the 333 or 380 bus down to Bondi Beach. Use an Opal card or contactless payment and check Transport for NSW for current timetables. There's no train that goes all the way to the sand." },
+      { "q": "How long is the Bondi to Coogee coastal walk?", "a": "It's roughly 6 km one way along the cliff tops, typically taking a couple of hours at a relaxed pace with stops. You can do just the first section to Tamarama and Bronte if you're short on time." },
+      { "q": "Is Bondi Beach safe for swimming?", "a": "Yes, when you swim between the red-and-yellow flags where lifeguards patrol. Bondi is patrolled year-round, but it does have rip currents, so avoid unpatrolled areas and always check conditions before you go in." },
+      { "q": "When is the best time to visit Bondi to avoid crowds?", "a": "Weekday mornings, especially outside the peak summer weekends. You get the same beach and cafés with far fewer people and much easier parking." }
+    ] },
+    { "type": "p", "text": "That's my Bondi — famous for a reason, but far richer once you step past the middle of the beach. Do the walk, find the quiet ends, eat a street back from the sand, and give the ocean the respect it's due, and you'll leave with the real version of this place rather than just the postcard." }
+  ]
+}

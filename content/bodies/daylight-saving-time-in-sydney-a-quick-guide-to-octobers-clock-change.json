@@ -1,0 +1,44 @@
+{
+  "path": "/bondi-blog/2023/10/1/daylight-saving-time-in-sydney-a-quick-guide-to-octobers-clock-change",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "NSW Government — Daylight saving", "url": "https://www.nsw.gov.au/about-nsw/daylight-saving" },
+    { "label": "Bureau of Meteorology — Sydney sunrise/sunset times", "url": "http://www.bom.gov.au/nsw/observations/sydney.shtml" },
+    { "label": "Surf Life Saving NSW — Beachsafe", "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi/bondi-beach" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Here's the short version so you can get on with your day: in Sydney, clocks go forward one hour on the first Sunday of October, at 2:00am, which instantly becomes 3:00am. You lose an hour of sleep but gain a summer's worth of long, golden evenings — and down here at Bondi, that trade is the best deal going. This is my quick local guide to the October clock change and how to make it work for your trip." },
+    { "type": "quickFacts", "items": [
+      { "label": "What changes", "value": "Clocks forward 1 hour (spring forward)" },
+      { "label": "When", "value": "First Sunday of October, 2:00am → 3:00am" },
+      { "label": "In 2026", "value": "Sunday 5 October (check NSW Government for the exact year)" },
+      { "label": "Time zone", "value": "AEST (UTC+10) becomes AEDT (UTC+11)" },
+      { "label": "It ends", "value": "First Sunday of April" }
+    ] },
+    { "type": "h2", "text": "When the clocks actually change" },
+    { "type": "p", "text": "Daylight saving in New South Wales runs from the first Sunday in October to the first Sunday in April, and the switch always happens in the small hours of Sunday morning so it barely interrupts anyone's week. At 2:00am you skip straight to 3:00am. The original version of this article was written for 1 October 2023, but the rule is the same every year — only the calendar date shifts. For the coming season the NSW Government has it landing on the first Sunday of October, which falls on Sunday 5 October in 2026 (handily, right on the October long weekend). If you want the exact date for the year you're visiting, the NSW Government daylight saving page is the source I trust." },
+    { "type": "callout", "tone": "note", "title": "Not every state joins in", "text": "Queensland, the Northern Territory and Western Australia don't observe daylight saving. So for roughly six months of the year, Sydney is an hour ahead of Brisbane — worth remembering if you're booking a connecting flight, a phone call home, or a Zoom with the Gold Coast." },
+    { "type": "h2", "text": "Why it's brilliant for a Bondi trip" },
+    { "type": "p", "text": "The whole point of shifting the clock is to push an hour of daylight from the early morning — when most of us are asleep — into the evening, when we can actually use it. For a beach town, that's transformational. Suddenly the sun is still up well into the evening, and Bondi shakes off its daytime crowds to reveal my favourite version of itself: warm light on the sand, the promenade humming, and the water often at its glassiest." },
+    { "type": "list", "items": [
+      "An after-work (or after-sightseeing) swim while it's still bright and lifeguard-patrolled hours are longer through summer.",
+      "A slow walk along the Bondi to Bronte coastal path with the cliffs glowing gold — early evening is the sweet spot for light and cooler air.",
+      "Dinner outdoors on Campbell Parade or up in North Bondi without the midday heat.",
+      "Sunset from the Icebergs headland, which drifts later and later as summer deepens."
+    ] },
+    { "type": "localTip", "text": "The flip side of long evenings is early, punishing sun. On daylight-saving mornings the UV climbs fast — I'd rather swim at 7am or after 5pm than bake between 11 and 3. Always swim between the red-and-yellow flags, and check current Bondi conditions on Surf Life Saving's Beachsafe before you go in." },
+    { "type": "h2", "text": "Practical stuff so the change doesn't catch you out" },
+    { "type": "p", "text": "Your phone, laptop and most modern devices update themselves automatically overnight — so does the clock in a hire car built in the last decade. The things that catch people out are the analogue holdouts: a wristwatch, an oven clock, a hotel-room alarm, or an older car dashboard. Give them a nudge forward on the Sunday and you're sorted." },
+    { "type": "callout", "tone": "warning", "title": "Double-check time-sensitive bookings", "text": "The morning of the change is the classic trap for early flights, airport transfers, tours and ferries. Devices usually handle it, but if you're relying on a manual alarm, set two — and confirm any pre-booked pickup is working to the new local time." },
+    { "type": "p", "text": "Public transport runs to the new time automatically, though overnight timetables around the changeover can shift — if you're travelling in the small hours of that Sunday, check with Transport for NSW. For everyone else, daylight saving asks very little: lose an hour of sleep once, and enjoy the longest evenings Bondi has to offer." },
+    { "type": "faq", "items": [
+      { "q": "When do the clocks change in Sydney in October?", "a": "On the first Sunday of October, clocks go forward one hour at 2:00am, becoming 3:00am. The exact date shifts each year — it's Sunday 5 October in 2026 — so confirm on the NSW Government daylight saving page for the year you're visiting." },
+      { "q": "Do I move the clocks forward or back in October?", "a": "Forward. In spring you 'spring forward' one hour, which is why you lose an hour of sleep but gain lighter evenings. In April you 'fall back' an hour when daylight saving ends." },
+      { "q": "What time zone is Sydney on during daylight saving?", "a": "Australian Eastern Daylight Time (AEDT), which is UTC+11. For the rest of the year Sydney is on Australian Eastern Standard Time (AEST), UTC+10." },
+      { "q": "Does all of Australia use daylight saving?", "a": "No. New South Wales, Victoria, the ACT, Tasmania and South Australia observe it, but Queensland, the Northern Territory and Western Australia do not. That's why Sydney sits an hour ahead of Brisbane over summer." },
+      { "q": "When does daylight saving end?", "a": "On the first Sunday of April, when clocks go back one hour and Sydney returns to AEST. Right up until then you'll get those long Bondi evenings." }
+    ] },
+    { "type": "p", "text": "So set your watch forward, forgive yourself the lost hour, and come find me on the sand around six. Daylight saving is the unofficial start of Bondi's best season — and there's no better place to spend a long summer evening." }
+  ]
+}

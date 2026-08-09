@@ -1,0 +1,55 @@
+{
+  "path": "/bondi-blog/2025/5/25/10-hidden-gems-at-bondi-beach-youll-wish-you-discovered-sooner",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/icebergs-club/" },
+    { "label": "Bondi Pavilion (Waverley Council)", "url": "https://www.bondipavilion.com.au/" },
+    { "label": "Bondi Wash flagship store", "url": "https://bondiwash.com.au/blogs/news/bondi-wash-flagship-store" },
+    { "label": "Bondi Farmers Market (Sydney.com)", "url": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/events/bondi-farmers-market" },
+    { "label": "Sculpture by the Sea, Bondi", "url": "https://sculpturebythesea.com/bondi/" },
+    { "label": "Waverley Community Garden", "url": "https://communitygarden.org.au/listing/waverley-community-garden/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Everyone who visits Bondi finds the beach, the surf and the crowds along Campbell Parade — but the Bondi I love most is the one just off the main drag. If you want the local version, here are ten hidden-ish gems I send friends to first: quiet headland lookouts, a free art gallery, a Saturday market, a sauna most people walk straight past, and a few pockets of calm the day-trippers never find." },
+    { "type": "quickFacts", "items": [
+      { "label": "Best for", "value": "Slow mornings, sunrise, wandering" },
+      { "label": "Cost", "value": "Most of these are free" },
+      { "label": "My tip", "value": "Go early — Bondi belongs to the locals before 9am" },
+      { "label": "Getting here", "value": "333/380 bus or a short walk from Bondi Junction" }
+    ] },
+    { "type": "h2", "text": "The headland, the views and the wild edges" },
+    { "type": "h3", "text": "1. Ben Buckler headland and its lookouts" },
+    { "type": "p", "text": "At the northern tip of the beach the land rises into the Ben Buckler headland, home to a string of little lookouts — Ray O'Keefe Reserve and Sam Fiszman Park among them — that stare straight down the length of Bondi. It's my favourite sunrise spot in the whole suburb: rugged, breezy, usually empty, and completely free. Follow the footpath up from the North Bondi end and just keep bearing towards the point." },
+    { "type": "h3", "text": "2. Tamarama, the beach next door" },
+    { "type": "p", "text": "Walk south on the coastal path for about ten minutes and you drop into Tamarama — 'Glamarama' to locals — a tiny, dramatic cove tucked between the cliffs. It's a fraction of Bondi's size with a fraction of the crowd. The surf can be punchy here, so read the flags and swim between them, but for a quieter towel spot with knockout views it's hard to beat." },
+    { "type": "h3", "text": "3. Public art along the coastal walk" },
+    { "type": "p", "text": "Everyone knows Sculpture by the Sea, the free open-air exhibition that turns the Bondi-to-Tamarama walk into a sculpture park each spring (dates change year to year — check the official site before you plan around it). What fewer people notice is the art that stays. Around Marks Park you'll find 'Rise', a permanent memorial on the headland, plus the everyday drama of the cliffs themselves. Walk it slowly and it rewards you." },
+    { "type": "localTip", "text": "Do the coastal walk south-to-north in the late afternoon. The light comes off the water behind you, Bondi opens up ahead as you round the last headland, and you finish right where the good coffee is." },
+    { "type": "h2", "text": "Culture, shopping and a proper market" },
+    { "type": "h3", "text": "4. Bondi Pavilion" },
+    { "type": "p", "text": "The Pavilion reopened after a major multi-year restoration and most beach-goers still treat it as just a place to change and grab an ice cream. Go inside. There's a free art gallery, the Bondi Story Room telling the area's history, a theatre, a pottery studio and cultural spaces — genuinely one of the best free things to do here on a windy or rainy day. Opening hours vary by space, so glance at the Pavilion website before you go." },
+    { "type": "h3", "text": "5. Gould Street's independent boutiques" },
+    { "type": "p", "text": "One block back from the sand, Gould Street is where locals actually shop — small Australian labels and independent design stores instead of chain-store sameness. It's an easy, low-pressure browse away from the promenade crush." },
+    { "type": "h3", "text": "6. Bondi Wash flagship" },
+    { "type": "p", "text": "Also on Gould Street, the Bondi Wash flagship is a lovely little detour even if you buy nothing. Founded by a local, the brand builds its home and body products around native Australian botanicals, and the store is set up almost like a perfumery — fresh natives dotted about so you can smell the plants behind each scent." },
+    { "type": "h3", "text": "7. The Saturday Farmers Market" },
+    { "type": "p", "text": "Every Saturday morning the grounds of Bondi Beach Public School on Campbell Parade fill with a farmers market — seasonal produce, bread, cheese, flowers, coffee and a very good breakfast crowd. It runs from around 9am, but confirm the current times on the official listing. Grab a coffee, wander the stalls, then cross the road to the sand." },
+    { "type": "h2", "text": "Calm, water and a warm-up" },
+    { "type": "h3", "text": "8. The Icebergs sauna" },
+    { "type": "p", "text": "You've seen the Icebergs ocean pool in a thousand photos, but here's the bit visitors miss: your pool admission also gets you into the sauna and hot showers on the pool deck. After a cold swim or a chilly morning surf it's blissful, and it's a fraction of what a boutique sauna would charge. Entry fees, hours and pool closures change (Thursdays are often maintenance days), so check the Icebergs Club site for the current session details." },
+    { "type": "h3", "text": "9. North Bondi's early-morning café scene" },
+    { "type": "p", "text": "The northern end has a gentler rhythm than the tourist strip. Get there before 9am on a weekday and you'll find the real Bondi — surfers checking the sets, dog-walkers, people reading over a coffee. Speedos and the other North Bondi cafés are at their best in that quiet window." },
+    { "type": "h3", "text": "10. A green escape at Waverley Community Garden" },
+    { "type": "p", "text": "When I need a breather from salt and sunscreen I head up to the Waverley Community Garden at Clementson Park, near Bondi Junction — a pocket of plots, native borders and shade most visitors never realise is there. It's a Council-run community space rather than a formal attraction, so treat it gently, but it's a lovely patch of calm uphill from the beach." },
+    { "type": "callout", "tone": "note", "title": "A note on the 'secret' Bondi", "text": "Half of what makes these spots special is that locals use them daily. Take your rubbish, keep the noise down at the lookouts early in the morning, and swim between the flags — the friendlier you are to the neighbourhood, the more of it opens up to you." },
+    { "type": "faq", "items": [
+      { "q": "What's the best hidden gem in Bondi that's actually free?", "a": "The Ben Buckler headland lookouts at the northern end are my pick — free, uncrowded and the best sunrise view over the beach. The Bondi Pavilion's art gallery and Story Room are also free and are perfect if the weather turns." },
+      { "q": "Is there a sauna at Bondi Icebergs, and can the public use it?", "a": "Yes. A sauna and hot showers on the pool deck are included with public pool admission at Bondi Icebergs. Fees, opening hours and maintenance closures change, so check the official Icebergs Club website for the current details before you go." },
+      { "q": "When is the Bondi Farmers Market on?", "a": "It runs on Saturday mornings at Bondi Beach Public School on Campbell Parade, typically from around 9am. Confirm the current times on the official Sydney.com or market listing, as they can change." },
+      { "q": "Where can I go in Bondi to escape the crowds?", "a": "Head for the edges: Tamarama beach just south along the coastal walk is far quieter than Bondi itself, North Bondi is calmer early in the morning, and the Ben Buckler lookouts are usually near-empty at sunrise." },
+      { "q": "Is Sculpture by the Sea on all year?", "a": "No — it's an annual free exhibition held for a couple of weeks each spring along the Bondi-to-Tamarama coastal walk, and the dates shift year to year, so check the Sculpture by the Sea site. A few works, like the 'Rise' memorial near Marks Park, are permanent." }
+    ] },
+    { "type": "p", "text": "That's my short list, but Bondi keeps handing out new favourites the longer you slow down here. Step one street back, get up before the crowds, and you'll find a suburb that's far more than its famous stretch of sand." }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "path": "/bondi-blog/2025/1/10/the-best-places-to-snorkel-in-and-around-bondi",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "NSW DPI — Bronte-Coogee Aquatic Reserve", "url": "https://www.dpi.nsw.gov.au/fishing/marine-protected-areas/aquatic-reserves/bronte-coogee-aquatic-reserve" },
+    { "label": "NSW DPI — Cabbage Tree Bay Aquatic Reserve", "url": "https://www.dpi.nsw.gov.au/fishing/marine-protected-areas/aquatic-reserves/cabbage-tree-bay-aquatic-reserve" },
+    { "label": "Sydney.com — Bronte & Clovelly", "url": "https://www.sydney.com/destinations/sydney/sydney-east/bronte-and-clovelly" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you want the honest answer to where to snorkel around Bondi, it's this: Bondi Beach itself is a surf beach, not a snorkelling one, so I send people a short walk south to the calm, protected coves — Clovelly and Gordons Bay above all, with Shelly Beach at Manly as the trophy day trip. Those are the spots where the water goes glassy, the wave energy drops away, and you'll actually see fish, rays and the famous blue groper cruising past your mask." },
+    { "type": "p", "text": "I've pulled on flippers at all of these over the years, and the pattern never changes: the sheltered bays reward you, the open surf beaches hand you a mouthful of sand. Here's where I go, and how to get the most out of each." },
+    { "type": "quickFacts", "items": [
+      { "label": "Best for beginners", "value": "Clovelly Beach" },
+      { "label": "Best marine life", "value": "Gordons Bay & Clovelly" },
+      { "label": "Trophy day trip", "value": "Shelly Beach, Manly" },
+      { "label": "Look for", "value": "Eastern blue groper (NSW state fish)" },
+      { "label": "Bring", "value": "Mask, fins, rashie or wetsuit" }
+    ] },
+    { "type": "h2", "text": "Clovelly Beach — the easiest, friendliest snorkel" },
+    { "type": "p", "text": "Clovelly is where I take anyone who's nervous. It's a narrow inlet with concrete platforms down both sides, and those rock-and-concrete walls soak up the swell so the channel behind them stays calm even on a choppy day. That makes it one of the best beginner snorkels in Sydney — you can wade in, keep the shore close, and still be floating over rocky reef and seagrass in a few kicks." },
+    { "type": "p", "text": "The star here is the resident eastern blue groper — locals have long had one they call Bluey. These big, curious fish are genuinely friendly and will often come and have a look at you. A quick but important note: the eastern blue groper is protected in NSW and Clovelly sits inside the Bronte-Coogee Aquatic Reserve, so it's look-don't-touch. Alongside the gropers you'll spot wrasse, mado, the odd stingray gliding over the sand and, if you're patient around the crevices, an octopus." },
+    { "type": "localTip", "text": "Go on a rising or high tide and aim for a low-swell morning before the wind gets up — that's when Clovelly's water is clearest. Enter down the steps or ramp rather than trying to climb the concrete edges when it's wet, and always give the groper space rather than chasing it." },
+    { "type": "h2", "text": "Gordons Bay — Sydney's underwater nature trail" },
+    { "type": "p", "text": "A little further along the Bondi-to-Coogee coastal walk, Gordons Bay is the one snorkel that feels like a proper expedition. It's also part of the Bronte-Coogee Aquatic Reserve, and it's home to an underwater nature trail — a marked route of roughly 600 metres laid out along the seafloor by a chain of concrete drums, each with a plaque about the marine life around it. You follow it like a self-guided tour through sandy patches, rocky reef and swaying kelp." },
+    { "type": "p", "text": "Because it's a reserve, the life here is abundant — more gropers, old wife fish, wrasse and plenty of smaller reef fish. It's a touch more exposed and deeper than Clovelly, so I'd file it under 'confident snorkeller' rather than 'first-timer', and I'd only go on a calm day. The bay has no sand-beach shallows to speak of, so you're straight into deeper water off the boat ramp." },
+    { "type": "callout", "tone": "warning", "title": "Read the water first", "text": "These are ocean sites with no dedicated snorkelling lifeguard. Never snorkel alone, check the swell and wind before you go, and if the water looks stirred-up or surgey around the rocks, skip it. Conditions change fast on this coast." },
+    { "type": "h2", "text": "The others worth a look" },
+    { "type": "p", "text": "A few more spots round out the map, depending on your mood and the swell:" },
+    { "type": "list", "items": [
+      "Bronte — the ocean pool and the sheltered corner beside it give you a controlled place to practise, with small fish around the rock edges. The beach itself has a strong rip, so stay in the calm end.",
+      "Tamarama — small, pretty and rocky, but it's a powerful little beach with serious surf. Only worth a snorkel on a genuinely flat day, and never a beginner spot.",
+      "Bondi's northern end — near the rock shelf and Icebergs pool you can sometimes find calmer water and small fish, but honestly it's the weakest snorkel of the bunch; treat it as a bonus, not a destination.",
+      "Shelly Beach, Manly — a ferry-and-a-walk away, but the payoff is huge. It sits in the Cabbage Tree Bay Aquatic Reserve, faces back toward the harbour so it's beautifully sheltered, and teems with fish. If you only do one 'big' snorkel on your trip, make it this."
+    ] },
+    { "type": "p", "text": "One thing I'll gently correct from the guidebooks: you won't find tropical coral reefs down here. Sydney's underwater world is temperate — kelp forests, sponge gardens, sea urchins and rocky reef. It's less postcard-technicolour than the Great Barrier Reef and, to me, far more interesting, because the fish are big, bold and close." },
+    { "type": "faq", "items": [
+      { "q": "Can you actually snorkel at Bondi Beach itself?", "a": "Not really — Bondi is a surf beach, so visibility is usually poor and the shore break makes it hard work. For clear water and marine life, walk south to Clovelly or Gordons Bay, both sheltered bays in the Bronte-Coogee Aquatic Reserve." },
+      { "q": "Where's the best snorkelling for beginners near Bondi?", "a": "Clovelly Beach. The concrete-lined inlet dissipates the swell, so the channel stays calm and you can keep close to shore while still floating over reef, seagrass and fish." },
+      { "q": "Will I see the blue groper, and can I touch it?", "a": "You've got a good chance at Clovelly and Gordons Bay, where friendly resident gropers often approach snorkellers. The eastern blue groper is protected in NSW and these are marine reserves, so it's strictly look-don't-touch — give it space and never feed or handle it." },
+      { "q": "When is the water clearest for snorkelling?", "a": "Aim for a low-swell, low-wind morning on a rising or high tide. After a big swell or heavy rain the water turns murky, so pick a calm, settled day for the best visibility." },
+      { "q": "Is Shelly Beach worth the trip from Bondi?", "a": "Yes, if you want the best single snorkel in Sydney. It's in the Cabbage Tree Bay Aquatic Reserve at Manly, sheltered and full of fish — a ferry ride and short walk, but well worth the effort." }
+    ] },
+    { "type": "p", "text": "Whichever you choose, treat these reserves gently — no touching, no taking, no standing on the reef. They stay this good because people look after them. Bring a mate, watch the water, and go find your own Bluey." }
+  ]
+}
