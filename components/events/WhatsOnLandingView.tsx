@@ -34,7 +34,7 @@ export function WhatsOnLandingView({
     <div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(crumbs)) }} />
       {events.length > 0 && (
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd(h1, events.map((r) => ({ name: r.event.title, description: r.event.summary })), 'Event')) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd(h1, events.map((r) => ({ name: r.event.title, description: r.event.summary, url: `/whats-on/${r.event.slug}` })), 'Event')) }} />
       )}
 
       <EditorialHero image="/images/articles/41ae0d79fa63d41a.webp" kicker={kicker} title={h1} intro={intro} crumbs={crumbs} />
