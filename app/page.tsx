@@ -8,6 +8,7 @@ import { TodayRecommendations } from '@/components/TodayRecommendations';
 import { UpcomingEvents } from '@/components/events/UpcomingEvents';
 import { DayPlannerPromo } from '@/components/DayPlannerPromo';
 import { SITE } from '@/lib/site';
+import { bondiPlaceJsonLd } from '@/lib/structured-data';
 
 const META_TITLE = 'Bondi Beach Sydney: Experience It Like You Live Here';
 const META_DESCRIPTION =
@@ -38,6 +39,10 @@ export default function HomePage() {
   const featured = featuredArticles(9);
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(bondiPlaceJsonLd()) }}
+      />
       <section className="relative isolate flex min-h-[78vh] items-end overflow-hidden">
         <Image
           src="/images/hero-bondi-sunrise.webp"

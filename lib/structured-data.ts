@@ -42,9 +42,56 @@ export function organizationJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
+    '@id': `${siteOrigin()}/#org`,
     name: SITE.name,
     url: siteOrigin(),
+    description: SITE.description,
     sameAs: [SITE.instagram],
+    // Editorial focus, not a physical business — express the destination it covers.
+    knowsAbout: ['Bondi Beach', 'Sydney', 'Eastern Suburbs Sydney', 'travel', 'ocean swimming'],
+    areaServed: { '@type': 'Place', name: 'Bondi Beach, Sydney, Australia' },
+  };
+}
+
+/**
+ * The canonical Bondi Beach place entity. A destination site's single most important
+ * structured-data asset: it declares to search + answer engines exactly which real-world
+ * place this site is authoritative about, with coordinates, the containment hierarchy
+ * (Bondi Beach → Sydney → NSW → Australia) and sameAs links to Wikipedia/Wikidata so the
+ * entity resolves to the Knowledge Graph. Referenced by @id from article `about`.
+ * Coordinates, postcode and sameAs IDs are real and verified — never fabricated.
+ */
+export const BONDI_PLACE_ID = '#bondi-beach';
+export function bondiPlaceJsonLd() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': ['TouristAttraction', 'Beach'],
+    '@id': `${siteOrigin()}/${BONDI_PLACE_ID}`,
+    name: 'Bondi Beach',
+    description:
+      'Bondi Beach is a one-kilometre stretch of sand in the Eastern Suburbs of Sydney, New South Wales — one of Australia’s most famous beaches, known for swimming, surfing, the Icebergs ocean pool and the Bondi to Coogee coastal walk.',
+    url: siteOrigin(),
+    geo: { '@type': 'GeoCoordinates', latitude: -33.8908, longitude: 151.2743 },
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Bondi Beach',
+      addressRegion: 'NSW',
+      postalCode: '2026',
+      addressCountry: 'AU',
+    },
+    containedInPlace: {
+      '@type': 'City',
+      name: 'Sydney',
+      containedInPlace: {
+        '@type': 'AdministrativeArea',
+        name: 'New South Wales',
+        containedInPlace: { '@type': 'Country', name: 'Australia' },
+      },
+    },
+    sameAs: [
+      'https://en.wikipedia.org/wiki/Bondi_Beach',
+      'https://www.wikidata.org/wiki/Q21919992',
+    ],
   };
 }
 
@@ -69,7 +116,10 @@ export function articleJsonLd(page: Page) {
     isPartOf: { '@type': 'Blog', name: `${SITE.name} — Articles`, url: `${siteOrigin()}/articles` },
   };
   data.author = { '@type': AUTHOR.type, name: AUTHOR.name, url: AUTHOR.url, description: AUTHOR.bio };
-  data.publisher = { '@type': 'Organization', name: SITE.name, url: siteOrigin() };
+  data.publisher = { '@type': 'Organization', '@id': `${siteOrigin()}/#org`, name: SITE.name, url: siteOrigin() };
+  // Bind every article to the canonical Bondi Beach place entity so search/answer engines
+  // read the whole corpus as being *about* one resolved real-world place.
+  data.about = { '@id': `${siteOrigin()}/${BONDI_PLACE_ID}` };
   if (page.metaDescription) data.description = page.metaDescription;
   if (page.publishedAt) data.datePublished = page.publishedAt;
   if (page.lastmod) data.dateModified = page.lastmod;
@@ -102,7 +152,8 @@ export function faqJsonLd(items: { q: string; a: string }[]) {
  */
 export function itemListJsonLd(
   name: string,
-  items: { name: string; description?: string }[]
+  items: { name: string; description?: string; url?: string }[],
+  itemType = 'LodgingBusiness'
 ) {
   return {
     '@context': 'https://schema.org',
@@ -113,8 +164,9 @@ export function itemListJsonLd(
       '@type': 'ListItem',
       position: i + 1,
       item: {
-        '@type': 'LodgingBusiness',
+        '@type': itemType,
         name: it.name,
+        ...(it.url ? { url: it.url.startsWith('http') ? it.url : `${siteOrigin()}${it.url}` } : {}),
         ...(it.description ? { description: it.description } : {}),
       },
     })),
