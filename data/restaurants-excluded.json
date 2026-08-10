@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Beachouse Bondi",
+    "status": "not-found",
+    "note": "",
+    "sources": [
+      "https://www.beachousebondi.com/",
+      "https://www.instagram.com/beachousebondi/?hl=en"
+    ]
+  },
+  {
+    "name": "Eden Bondi",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.happycow.net/reviews/eden-bondi-beach-174759",
+      "https://concreteplayground.com/sydney/restaurants/eden-bondi"
+    ]
+  },
+  {
+    "name": "Bondi Pizza",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.yelp.com/biz/bondi-pizza-bondi-beach",
+      "https://www.bondipizza.com.au/"
+    ]
+  },
+  {
+    "name": "Easy Tiger",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.instagram.com/easytigerbondibeach/",
+      "https://concreteplayground.com/sydney/food-drink/easy-tiger-bondi-now-open-campbell-parade"
+    ]
+  },
+  {
+    "name": "Beach Burrito Company",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.beachburritocompany.com/",
+      "https://wanderlog.com/place/details/3521019/beach-burrito-co-bondi"
+    ]
+  },
+  {
+    "name": "Aqua Bar (brand now sells retail salad dressing only)",
+    "status": "permanently-closed",
+    "note": "Aquabar",
+    "sources": [
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d4053146-Reviews-Aquabar-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://foursquare.com/v/bondi-aqua-bar/4c93ff3672dd224b61f09591"
+    ]
+  }
+]

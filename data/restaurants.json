@@ -1,1 +1,660 @@
-[]
+[
+  {
+    "id": "shuk-by-the-beach",
+    "name": "Shuk by the Beach",
+    "status": "open",
+    "type": "cafe",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "Pacific Bondi Beach, Shop G07/180 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Israeli",
+      "Middle Eastern",
+      "Mediterranean"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "cafe",
+      "fast-casual",
+      "casual",
+      "takeaway",
+      "beachfront"
+    ],
+    "suitability": [
+      "families",
+      "kids",
+      "solo",
+      "tourists",
+      "locals",
+      "groups"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "attributes": [
+      "beachfront",
+      "ocean-views",
+      "outdoor-seating",
+      "takeaway",
+      "delivery",
+      "lively",
+      "walk-ins"
+    ],
+    "website": "https://www.shuk.com.au",
+    "menuUrl": "https://www.shuk.com.au/venues",
+    "summary": "A beachfront outpost of Sydney's SHUK group serving Israeli-inspired falafel, hummus bowls and bakery items grab-and-go style, directly across Campbell Parade from Bondi Beach (it also trades as Shuk Falafel).",
+    "whyGo": "SHUK is one of Sydney's better-known Israeli kitchens, and this Campbell Parade location puts its falafel wraps, hummus bowls and weekend shakshuka right where you want them, opposite the sand at Pacific Bondi Beach. It began as a pop-up and stuck around as a permanent spot, leaning into a fast, street-food format that suits a beach day rather than a long sit-down. We'd choose this over a big brunch when you want something fresh, vegetable-forward and quick to carry.",
+    "bestFor": "A quick, fresh Israeli bite straight off the beach",
+    "whatToOrder": "Falafel or sabich in a pita or wrap, a hummus bowl with pita and pickles, cauliflower shawarma, weekend shakshuka, and house-baked bread and pastries; coffee for the walk.",
+    "atmosphere": "Casual, lively street-food counter with limited seating, built for takeaway",
+    "localTip": "Seating is minimal and the format is grab-and-go, so order to take away and eat it across the road on the promenade or the grass above the beach.",
+    "tradeOff": "It's a quick counter-service spot rather than a sit-down restaurant, so don't come expecting a leisurely table with a view.",
+    "ranking": {
+      "foodScore": 7.5,
+      "localReputation": 8,
+      "uniqueness": 7,
+      "value": 7,
+      "viewScore": 7,
+      "visitorUsefulness": 8.5,
+      "kidFriendliness": 7
+    },
+    "score": 7.7,
+    "confidence": "high",
+    "sources": [
+      "https://www.broadsheet.com.au/sydney/food-and-drink/article/israeli-bakery-shuk-has-opened-its-first-pop-bondi-beach",
+      "https://www.shuk.com.au/venues",
+      "https://www.agfg.com.au/restaurant/shuk-falafel-93797",
+      "https://www.theinfatuation.com/sydney/reviews/shuk",
+      "https://www.vacationstravel.com/sydney-favourite-shuk-is-opening-at-bondi-beach/",
+      "https://www.corner.inc/place/550665"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "china-diner",
+    "name": "China Diner",
+    "formerName": "China Diner (Hall Street)",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "Level 1, Pacific Building, 180 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Cantonese",
+      "Chinese",
+      "Modern Asian"
+    ],
+    "meals": [
+      "dinner",
+      "lunch",
+      "brunch"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "casual",
+      "beachfront",
+      "bar"
+    ],
+    "suitability": [
+      "couples",
+      "groups",
+      "celebrations",
+      "tourists",
+      "locals"
+    ],
+    "dietary": [
+      "vegan",
+      "vegetarian"
+    ],
+    "attributes": [
+      "ocean-views",
+      "beachfront",
+      "reservations",
+      "delivery",
+      "takeaway",
+      "lively",
+      "romantic"
+    ],
+    "menuUrl": "https://chinadiner.bitebusiness.com/",
+    "summary": "A longstanding modern-Cantonese diner that has swapped its old Hall Street room for a first-floor beachfront space on Campbell Parade, trading in steamed dumplings, XO stir-fries and a serious cocktail and sake list.",
+    "whyGo": "After a decade as a Hall Street favourite, China Diner moved down to the Pacific building overlooking the sand, and the upgrade suits it: moody 1930s-Shanghai styling, an ocean outlook and a kitchen that does contemporary Cantonese with more polish than the \"diner\" name suggests. We'd choose this when you want a proper sit-down dinner near the beach rather than a quick bite, or for a leisurely Sunday yum cha. The drinks list is a genuine draw, so it works as much for a cocktail-and-dumplings evening as a full meal.",
+    "bestFor": "A polished modern-Cantonese dinner or Sunday yum cha near the beach",
+    "whatToOrder": "Our steer is the steamed dumpling selection to start, then the XO king prawns and the twice-cooked crispy chicken; the chicken-and-sesame spring rolls are a signature, and the Sunday yum cha service is the move if you're in on a weekend.",
+    "atmosphere": "Dim, moody and cocktail-bar-ish at night, brighter and more relaxed for weekend lunch and yum cha.",
+    "localTip": "Book the weekend lunch or Sunday yum cha sitting if you want the beach view in daylight — the evening service leans dark and loungey, so the ocean outlook is more of a night-time backdrop than the main event.",
+    "tradeOff": "It sits at the pricier end for the precinct ($$$, mains around the mid-$30s), and the dark, drinks-led evening room is less suited to young kids than the daytime yum cha.",
+    "ranking": {
+      "foodScore": 7.5,
+      "localReputation": 8,
+      "uniqueness": 7,
+      "value": 6,
+      "viewScore": 7,
+      "visitorUsefulness": 8,
+      "kidFriendliness": 6
+    },
+    "score": 7.5,
+    "confidence": "high",
+    "sources": [
+      "https://www.opentable.com/r/china-diner-bondi-sydney",
+      "https://www.yelp.com/biz/china-diner-bondi-bondi-beach",
+      "https://concreteplayground.com/sydney/restaurants/china-diner",
+      "https://www.bestrestaurants.com.au/nsw/sydney/bondi-beach/restaurant/china-diner-bondi"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "ikaria-bondi",
+    "name": "Ikaria Bondi",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "70 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Greek",
+      "Mediterranean"
+    ],
+    "meals": [
+      "lunch",
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "casual",
+      "beachfront",
+      "bar"
+    ],
+    "suitability": [
+      "groups",
+      "couples",
+      "tourists",
+      "locals",
+      "celebrations"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "attributes": [
+      "ocean-views",
+      "outdoor-seating",
+      "reservations",
+      "lively",
+      "takeaway"
+    ],
+    "website": "https://ikariabondi.com",
+    "bookingUrl": "https://www.opentable.com.au/r/ikaria-reservations-bondi-beach",
+    "instagram": "https://www.instagram.com/ikariabondi/",
+    "summary": "A lively Greek taverna-style restaurant perched high on Campbell Parade with Bondi Beach views, built around house-made meze, shared plates and Mediterranean spritzes.",
+    "whyGo": "Named after the Greek \"Blue Zone\" island, Ikaria leans into long, unhurried island-style dining: pita and house-made dips, saganaki, seafood like kingfish crudo and grilled prawns, all designed to share. It sits elevated across from the sand, so you get the beach outlook without being in the thick of the beachfront crush. With a late kitchen and cheap late-night drinks, it works as both an easy post-beach lunch and a group launchpad for a Bondi night out.",
+    "bestFor": "Shared Greek plates and spritzes with a beach view",
+    "whatToOrder": "The house-made pita-and-dip trio (hummus, taramasalata, muhammara), saganaki, and the shareable seafood plates such as calamari and grilled prawns.",
+    "atmosphere": "Relaxed, sun-washed Mediterranean-island feel — terracotta, clay pots, archways and rattan — that gets lively into the evening.",
+    "localTip": "Come for the happy hour window from 5pm for discounted spritzes and pita with dips, or roll in after 10pm when margaritas drop to a flat cheap price — a rare late, affordable option this close to the sand.",
+    "tradeOff": "It's a meze-and-drinks share format that skews toward evenings and groups, so it's less suited to a quiet, sit-down solo meal or young families after bedtime.",
+    "ranking": {
+      "foodScore": 7.5,
+      "localReputation": 7,
+      "uniqueness": 6.5,
+      "value": 6.5,
+      "viewScore": 7,
+      "visitorUsefulness": 8,
+      "kidFriendliness": 5
+    },
+    "score": 7.3,
+    "confidence": "high",
+    "sources": [
+      "https://eatdrinkplay.com/venue/ikaria-bondi/",
+      "https://ikariabondi.com",
+      "https://www.timeout.com/sydney/news/this-little-greek-taverna-style-restaurant-has-views-of-a-gorgeous-sydney-beach-plus-a-euro-summer-happy-hour-080125",
+      "https://www.opentable.com.au/r/ikaria-reservations-bondi-beach",
+      "https://www.instagram.com/ikariabondi/"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "rocker-bondi",
+    "name": "Rocker",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "5/39-53 Campbell Parade, North Bondi NSW 2026",
+    "cuisines": [
+      "Mediterranean",
+      "Italian",
+      "Modern Australian",
+      "European"
+    ],
+    "meals": [
+      "brunch",
+      "lunch",
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "casual",
+      "bar"
+    ],
+    "suitability": [
+      "groups",
+      "couples",
+      "locals",
+      "tourists",
+      "celebrations"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan"
+    ],
+    "attributes": [
+      "lively",
+      "reservations",
+      "walk-ins"
+    ],
+    "website": "https://www.rockerbondi.com.au/",
+    "bookingUrl": "https://www.rockerbondi.com.au/reservations",
+    "instagram": "https://www.instagram.com/rockerbondi",
+    "menuUrl": "https://www.rockerbondi.com.au/rocker-menu",
+    "summary": "A buzzy all-day Mediterranean bar-and-diner at the northern end of Campbell Parade, from Darren Robertson (Three Blue Ducks) and Stuart Toon.",
+    "whyGo": "Rocker does that versatile Bondi thing well: light-timber dining room and a proper cocktail bar under one roof, with a produce-driven Mediterranean menu that shifts from focaccia-and-snacks brunches into house-made pastas and feasting plates by night. The founders' pedigree shows in the cooking, and the drinks program (margaritas shaken every which way, a wide wine list) means it works equally as a long lunch or a late session. We'd choose this when you want somewhere that can flex from a relaxed midday bite to a lively dinner without changing venues.",
+    "bestFor": "Bottomless brunch, group dinners and drinks-led all-day sessions",
+    "whatToOrder": "House-baked focaccia with confit garlic butter to start, then the house-made pastas (ox-cheek pappardelle is a signature) or a shared feasting plate; the Sunday roast is the standout weekend order, and there's a well-regarded vegan roast alternative.",
+    "atmosphere": "Light, airy timber dining room paired with a lively cocktail bar; relaxed by day, buzzier with music by night.",
+    "localTip": "Our pick is a Sunday: the roast is genuinely one of Bondi's better ones and the room settles into an easy afternoon session, but book ahead because that's when it fills fastest.",
+    "tradeOff": "Closed Mondays, and being a popular spot on busy Campbell Parade it gets loud and crowded at peak times, so it's not the pick for a quiet, intimate dinner.",
+    "ranking": {
+      "foodScore": 7.5,
+      "localReputation": 8,
+      "uniqueness": 6,
+      "value": 6,
+      "viewScore": 4,
+      "visitorUsefulness": 8,
+      "kidFriendliness": 4
+    },
+    "score": 7.3,
+    "confidence": "high",
+    "sources": [
+      "https://www.rockerbondi.com.au/",
+      "https://www.rockerbondi.com.au/rocker-menu",
+      "https://www.broadsheet.com.au/sydney/bondi/restaurants/rocker",
+      "https://www.tripadvisor.com.au/Restaurant_Review-g33054268-d12713566-Reviews-Rocker-North_Bondi_Waverley_Greater_Sydney_New_South_Wales.html",
+      "https://www.opentable.com/r/rocker-north-bondi"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "fishbowl",
+    "name": "Fishbowl",
+    "status": "open",
+    "type": "takeaway",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "180 Campbell Parade, The Pacific Bondi, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Poke",
+      "Healthy",
+      "Japanese-inspired",
+      "Salads"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "fast-casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "solo",
+      "locals",
+      "couples",
+      "groups",
+      "tourists",
+      "families"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "attributes": [
+      "takeaway",
+      "delivery",
+      "walk-ins"
+    ],
+    "website": "https://www.fishbowl.com.au/",
+    "menuUrl": "https://order.fishbowl.com.au/",
+    "summary": "The original Fishbowl, a build-your-own poke and fresh-salad bar on Campbell Parade that kicked off Bondi's poke craze back in 2016.",
+    "whyGo": "This is where the Fishbowl chain started, and it's still the one we'd point people to when they want something fresh, fast and genuinely good straight after the beach. You build your own bowl from a base of cabbage, brown rice or glass noodles, add raw salmon, tuna, kingfish or tofu, then load up on pickled ginger, herbs, seaweed, a dressing and a crunchy element. It's quick, customisable and light enough that you don't feel weighed down for the rest of the day.",
+    "bestFor": "A fast, fresh, customisable lunch off the beach",
+    "whatToOrder": "A build-your-own poke bowl — salmon or tuna over brown rice with ginger, seaweed and a crunchy topping; the tofu base makes it an easy vegan pick.",
+    "atmosphere": "Bright, busy, order-at-the-counter fast-casual; mostly grab-and-go",
+    "localTip": "Order ahead on the Fishbowl app or website to skip the lunchtime queue, then eat it on the grass at the south end of the beach a two-minute walk away.",
+    "tradeOff": "It's counter-service takeaway with limited seating, so it's for a quick bowl rather than a sit-down meal.",
+    "ranking": {
+      "foodScore": 7.5,
+      "localReputation": 8,
+      "uniqueness": 6,
+      "value": 7,
+      "viewScore": 2,
+      "visitorUsefulness": 8,
+      "kidFriendliness": 6
+    },
+    "score": 7.2,
+    "confidence": "high",
+    "sources": [
+      "https://www.fishbowl.com.au/",
+      "https://www.timeout.com/sydney/restaurants/fishbowl",
+      "https://www.yelp.com/biz/fishbowl-bondi-beach-sydney",
+      "https://www.tripadvisor.com.au/Restaurant_Review-g255060-d12174876-Reviews-Fishbowl-Sydney_New_South_Wales.html",
+      "https://www.happycow.net/reviews/fishbowl-bondi-beach-189136",
+      "https://gourmantic.com/fishbowl-poke-bar-bondi-beach/"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "anita-gelato-bondi-beach",
+    "name": "Anita Gelato (Bondi Beach)",
+    "status": "open",
+    "type": "dessert",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "180 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Gelato",
+      "Dessert",
+      "Ice Cream"
+    ],
+    "meals": [
+      "late-night"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "takeaway",
+      "casual",
+      "fast-casual"
+    ],
+    "suitability": [
+      "kids",
+      "families",
+      "couples",
+      "tourists",
+      "groups",
+      "solo"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "dairy-free"
+    ],
+    "attributes": [
+      "takeaway",
+      "walk-ins",
+      "delivery",
+      "lively"
+    ],
+    "website": "https://www.anita-gelato.com/au/our-locations/campbell-parade-bondi-beach/",
+    "instagram": "https://www.instagram.com/anitagelato_australia/",
+    "menuUrl": "https://www.doordash.com/store/anita-gelato-bondi-beach-968273/",
+    "summary": "A buzzy, Tel Aviv-born gelateria on Campbell Parade churning 150-plus handmade flavours a stroll from the sand.",
+    "whyGo": "This is the Bondi Beach outpost of Anita's globe-spanning gelato brand, and it earns its queue: everything is made on site, the flavour wall runs deep, and the sauce-and-topping theatre makes it a genuine treat for kids. If you're coming straight off the sand and want a cold hit with more range than the average scoop shop, we'd choose this on the strip.",
+    "bestFor": "A post-beach dessert stroll along the promenade",
+    "whatToOrder": "A two-scoop cup or cone mixing a nut-based classic (pistachio, hazelnut) with a fruit sorbet; ask about the halva and Middle-Eastern-leaning flavours that set Anita apart, and the frozen yoghurt if you want it lighter.",
+    "atmosphere": "Bright, busy, family-friendly counter service with a lively queue on warm evenings",
+    "localTip": "The line looks long but moves fast, and the staff are happy to let you taste before you commit, so don't be shy about sampling one of the off-beat flavours before ordering. Come on the earlier side of the evening if you want a quieter counter.",
+    "tradeOff": "It's a premium global chain rather than a hidden local secret, prices sit above a basic scoop, and seating is minimal, so this is really a takeaway-and-walk spot.",
+    "ranking": {
+      "foodScore": 8,
+      "localReputation": 7,
+      "uniqueness": 6,
+      "value": 5,
+      "viewScore": 4,
+      "visitorUsefulness": 8,
+      "kidFriendliness": 9
+    },
+    "score": 7.1,
+    "confidence": "high",
+    "sources": [
+      "https://www.anita-gelato.com/au/our-locations/campbell-parade-bondi-beach/",
+      "https://www.tripadvisor.com/Restaurant_Review-g255060-d11751346-Reviews-Anita_Gelato_Bondi_Beach-Sydney_New_South_Wales.html",
+      "https://www.yelp.com/biz/la-mamma-del-gelato-anita-bondi-beach",
+      "https://www.doordash.com/store/anita-gelato-bondi-beach-968273/",
+      "https://www.instagram.com/anitagelato_australia/",
+      "https://www.sydney.com/destinations/sydney/sydney-east/bondi/food-and-drink/anita-gelato-bondi-junction"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "pocket-bondi",
+    "name": "Pocket Bondi",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "1/266 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Modern Australian",
+      "Cafe",
+      "Cocktail Bar"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch",
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "cafe",
+      "casual",
+      "bar"
+    ],
+    "suitability": [
+      "couples",
+      "groups",
+      "solo",
+      "locals",
+      "tourists",
+      "celebrations"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "attributes": [
+      "ocean-views",
+      "outdoor-seating",
+      "sunset",
+      "lively",
+      "reservations",
+      "walk-ins"
+    ],
+    "website": "https://www.pocketbondi.com/",
+    "bookingUrl": "https://www.opentable.com.au/restref/client/?rid=267365&restref=267365&lang=en-AU&ot_source=Restaurant%20website",
+    "instagram": "https://www.instagram.com/pocketbondi/",
+    "menuUrl": "https://www.pocketbondi.com/",
+    "summary": "An all-day café, bar and Modern Australian restaurant on Campbell Parade that runs from sunrise coffee straight through to late-night cocktails opposite the beach.",
+    "whyGo": "We'd choose Pocket for its versatility: it's the rare Bondi spot you can drop into for a morning flat white, a casual lunch, or a buzzy dinner-and-drinks without changing venues. The kitchen leans Modern Australian with crowd-pleasing plates and a proper cocktail list, and there's a genuine local-hangout energy rather than a tourist-trap feel. Midweek deals like Wednesday burger night and Tuesday steak night make it easy on the wallet for what's a prime beachfront position.",
+    "bestFor": "Casual all-day eating and sunset drinks across from the sand",
+    "whatToOrder": "The PKT cheeseburger is the signature (especially on Wednesday burger night); other regulars point to the raw kingfish, beef tartare, chimichurri sirloin and the miso-glazed eggplant, with a Sunday roast and tiramisu rounding out the menu. Groups of eight-plus can opt for the shared set menu.",
+    "atmosphere": "Buzzy, friendly and compact — lively and social, especially at sunset and on deal nights.",
+    "localTip": "Come for the early shift — coffee and breakfast from 6am is a calmer, sunnier way to enjoy the beachfront position before the evening crowd fills the small room.",
+    "tradeOff": "The space is small, so it gets noisy and tight during peak evening service — not the pick for a quiet, intimate dinner.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 7.5,
+      "uniqueness": 5,
+      "value": 7,
+      "viewScore": 6,
+      "visitorUsefulness": 8,
+      "kidFriendliness": 5.5
+    },
+    "score": 6.8,
+    "confidence": "high",
+    "sources": [
+      "https://www.opentable.com/r/pocket-bondi-beach",
+      "https://www.pocketbondi.com/",
+      "https://www.corner.inc/place/pLMjBwD9wnDq",
+      "https://www.agfg.com.au/restaurant/pocket-bondi-135101",
+      "https://www.tripadvisor.com/Restaurant_Review-g19681254-d33337861-Reviews-Pocket-Bondi_Beach_Waverley_Greater_Sydney_New_South_Wales.html",
+      "https://eatdrinkcheap.com.au/sydney/pocket-bondi"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "the-depot-bondi",
+    "name": "The Depot",
+    "status": "open",
+    "type": "cafe",
+    "precinct": "north-bondi",
+    "street": "Warners Avenue",
+    "address": "132A Warners Avenue, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Cafe",
+      "Modern Australian",
+      "Bakery"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "cafe",
+      "casual",
+      "bakery"
+    ],
+    "suitability": [
+      "families",
+      "locals",
+      "couples",
+      "solo",
+      "groups"
+    ],
+    "dietary": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "attributes": [
+      "outdoor-seating",
+      "reservations",
+      "walk-ins",
+      "takeaway"
+    ],
+    "website": "https://thedepotbondi.com/",
+    "bookingUrl": "https://bookings.obeeapp.com",
+    "instagram": "https://www.instagram.com/thedepotbondi/",
+    "menuUrl": "https://order.platform.hungryhungry.com/thedepot2/menu",
+    "summary": "A long-running family-run Bondi cafe on Warners Avenue doing all-day breakfast, bistro-style lunches and an in-house bakery, with a small Wednesday-to-Friday dinner service.",
+    "whyGo": "The Depot has been a genuine local fixture since 2008, and the cooking leans on seasonal produce and its own bakery rather than the see-and-be-seen theatre of the Campbell Parade strip. We'd choose it for an unhurried weekday breakfast or brunch away from the tourist crush, and it's one of the few neighbourhood cafes here that also flips into a proper sit-down bistro dinner later in the week. It reads as a place locals actually return to, not a one-visit photo stop.",
+    "bestFor": "Relaxed local breakfast and brunch, plus a low-key midweek dinner",
+    "whatToOrder": "All-day breakfast plates and cafe classics like a halloumi stack or eggs benedict, the in-house bakery goods, and the well-regarded coffee; they're also known for gluten-free pancakes.",
+    "atmosphere": "Warm, unpretentious neighbourhood cafe; busy but not frantic",
+    "localTip": "It sits a couple of blocks back from the sand on Warners Avenue, so it stays calmer than the beachfront cafes on a busy morning — worth the short walk if you want a table without the wait. Note the dinner service only runs Wednesday to Friday, so book ahead for evenings.",
+    "tradeOff": "Off the beachfront with no ocean views, so it's a food-and-coffee destination rather than a spot for a sea outlook.",
+    "ranking": {
+      "foodScore": 7,
+      "localReputation": 8,
+      "uniqueness": 6,
+      "value": 6.5,
+      "viewScore": 2,
+      "visitorUsefulness": 6,
+      "kidFriendliness": 7
+    },
+    "score": 6.7,
+    "confidence": "high",
+    "sources": [
+      "https://thedepotbondi.com/",
+      "https://thedepotbondi.com/pages/the-depot-about-us",
+      "https://order.platform.hungryhungry.com/thedepot2/menu",
+      "https://www.instagram.com/thedepotbondi/",
+      "https://eatdrinkplay.com/sydney/the-depot-north-bondi/",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d4096842-Reviews-The_Depot_Bondi-Bondi_Greater_Sydney_New_South_Wales.html"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "yo-chi-bondi-beach",
+    "name": "Yo-Chi Bondi Beach",
+    "status": "open",
+    "type": "dessert",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "Shop 13, 180 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Frozen Yoghurt",
+      "Açaí",
+      "Dessert"
+    ],
+    "meals": [
+      "late-night"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "fast-casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "kids",
+      "families",
+      "couples",
+      "groups",
+      "tourists",
+      "locals"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "dairy-free",
+      "gluten-free"
+    ],
+    "attributes": [
+      "takeaway",
+      "walk-ins",
+      "lively"
+    ],
+    "website": "https://yochi.com.au",
+    "instagram": "https://www.instagram.com/iloveyochi/",
+    "menuUrl": "https://yochi.com.au/yogurts/",
+    "summary": "A self-serve frozen yoghurt and açaí shop on Campbell Parade where you build your own bowl from a wall of soft-serve flavours and a 30-plus topping bar, priced by weight.",
+    "whyGo": "Yo-Chi landed on Campbell Parade in mid-2024, right beside Anita gelato, and it's become the default post-beach or after-dinner sweet stop for the strip. The draw is control: you pull your own swirls of probiotic froyo (including coconut- and almond-based vegan flavours) and pile on fruit, compotes, mochi, popping pearls and sauces, so a fussy kids' table and a health-leaning adult can both walk out happy. We'd choose this over a sit-down dessert when the group can't agree and everyone wants something slightly different.",
+    "bestFor": "Customisable froyo for families, groups and late beach-strip cravings",
+    "whatToOrder": "Build-your-own frozen yoghurt or an açaí base; the signature tart yoghurt is the house benchmark, and the dairy-free coconut/açaí flavours cover vegan and dairy-free eaters.",
+    "atmosphere": "Bright, casual, self-serve and buzzy — queues build on warm summer evenings.",
+    "localTip": "It's pay-by-weight, so a bowl that looks modest can climb fast once you load the toppings bar — go easy on the heavy sauces and fruit compotes if you're watching the cost. It's open late (to around 10:30–11pm), making it one of the more reliable after-dinner options on the Parade.",
+    "tradeOff": "It's a national chain rather than a one-off Bondi original, and there's no ocean view despite being a block from the sand — this is a grab-and-stroll treat, not a destination sit-down.",
+    "ranking": {
+      "foodScore": 7,
+      "localReputation": 7,
+      "uniqueness": 5,
+      "value": 6,
+      "viewScore": 2,
+      "visitorUsefulness": 8,
+      "kidFriendliness": 9
+    },
+    "score": 6.6,
+    "confidence": "high",
+    "sources": [
+      "https://yochi.com.au/yochi-venues/new-south-wales/",
+      "https://yochi.com.au/",
+      "https://yochi.com.au/yogurts/",
+      "https://www.ubereats.com/au/store/yo-chi-frozen-yogurt-bondi-beach/5JegH-LwVO-9Y-uWvPx7WQ",
+      "https://sydneytimes.net.au/st-food-wine-guide/yo-chi-makes-waves-in-bondi-beach/",
+      "https://www.tiktok.com/@foodsfortwo/video/7389181918308322567"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  }
+]
