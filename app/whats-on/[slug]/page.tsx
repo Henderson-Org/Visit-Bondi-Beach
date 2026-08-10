@@ -67,11 +67,17 @@ export default async function EventDetailPage({ params }: Props) {
 
   // Event schema only when we have a concrete date — never fabricate one.
   const startIso = r.nextDate ? `${r.nextDate}${e.startTime ? `T${e.startTime}:00${sydneyOffset(r.nextDate)}` : ''}` : null;
+  // For an announced multi-day edition, emit the published end date too.
+  const endIso =
+    r.nextDate && e.startDate && e.endDate && e.endDate !== e.startDate && r.nextDate === e.startDate
+      ? `${e.endDate}${e.endTime ? `T${e.endTime}:00${sydneyOffset(e.endDate)}` : ''}`
+      : undefined;
   const eventLd = startIso
     ? eventJsonLd({
         name: e.title,
         description: e.summary,
         startDate: startIso,
+        endDate: endIso,
         url: `${siteOrigin()}${path}`,
         venue: e.venue,
         suburb: e.suburb,
@@ -103,16 +109,16 @@ export default async function EventDetailPage({ params }: Props) {
       <div className="mx-auto max-w-3xl px-4 pt-8">
         {/* When / where / price at a glance */}
         <dl className="grid grid-cols-2 gap-2.5 sm:grid-cols-4">
-          <GlanceItem label="When" value={r.nextDate ? whenLabel(r) : e.whenText || 'To be confirmed'} />
+          <GlanceItem label="When" value={r.nextDate ? whenLabel(r) : e.whenText || e.typicalTiming || 'To be confirmed'} />
           <GlanceItem label="Where" value={e.venue} />
           <GlanceItem label="Price" value={priceLine(e)} />
           <GlanceItem label="Good for" value={e.audience.map((a) => AUDIENCE_LABEL[a]).join(' · ')} />
         </dl>
 
-        {e.datesToConfirm && (
+        {!r.nextDate && (
           <p className="mt-4 rounded-lg border-l-4 border-amber-500 bg-amber-500/5 px-4 py-3 text-sm text-ink-700">
-            This is an annual event — {e.whenText?.toLowerCase()}. Exact dates change each year, so
-            confirm on the official site before planning around it.
+            This is an annual event — {(e.typicalTiming || e.whenText || 'dates vary each year').toLowerCase()}.
+            The next edition’s exact dates aren’t published yet, so confirm on the official site before planning around it.
           </p>
         )}
 
