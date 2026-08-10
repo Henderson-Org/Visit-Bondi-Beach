@@ -53,6 +53,19 @@ export function articleTopic(p: Page): ArticleTopic {
   return 'general';
 }
 
+/**
+ * The topical hub an article belongs to, for spoke→hub internal linking + breadcrumbs.
+ * Returns null for unmapped ('general') topics or when the page IS the hub, so we never
+ * self-link. Drives both the topical breadcrumb parent and the "part of {hub}" up-link,
+ * giving all ~200 blog spokes an intentional link to their subject hub (concentrating
+ * topical authority) instead of only the flat /articles index.
+ */
+export function articleHub(p: Page): { label: string; path: string } | null {
+  const path = TOPIC_SECTION[articleTopic(p)];
+  if (!path || p.path === path) return null;
+  return { label: TOPIC_LABEL[articleTopic(p)], path };
+}
+
 export interface ArticleFacet {
   path: string;
   title: string;

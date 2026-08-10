@@ -7,7 +7,7 @@ import {
   type Page,
   type HubSection,
 } from '@/lib/content';
-import { breadcrumbJsonLd } from '@/lib/structured-data';
+import { breadcrumbJsonLd, bondiPlaceJsonLd } from '@/lib/structured-data';
 import { siteOrigin } from '@/lib/site';
 import { getHubDesign, type SectionLayout } from '@/lib/hubs';
 import { conditionsDestinationForPath } from '@/lib/conditions/locations';
@@ -130,6 +130,10 @@ export function HubView({ page }: { page: Page }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(crumbs)) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(bondiPlaceJsonLd()) }}
       />
       {listItems.length > 0 && (
         <script

@@ -58,7 +58,7 @@ export default function WhatsOnHub() {
     <div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(CRUMBS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd("What's on in Bondi", upcoming.map((r) => ({ name: r.event.title, description: r.event.summary })))) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd("What's on in Bondi", upcoming.map((r) => ({ name: r.event.title, description: r.event.summary })), 'Event')) }} />
 
       <EditorialHero
         image={HERO}

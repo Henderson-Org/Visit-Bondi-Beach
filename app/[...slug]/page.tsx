@@ -16,8 +16,9 @@ import {
   type Page,
 } from '@/lib/content';
 import { isProduction, AUTHOR } from '@/lib/site';
-import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from '@/lib/structured-data';
-import { getCorePageHub } from '@/lib/hubs';
+import { articleJsonLd, breadcrumbJsonLd, faqJsonLd, bondiPlaceJsonLd } from '@/lib/structured-data';
+import { getCorePageHub, getHubDesign } from '@/lib/hubs';
+import { articleHub } from '@/lib/articles';
 import { getConditions } from '@/lib/conditions/service';
 import { roundTemp } from '@/lib/conditions/geo';
 import type { Block } from '@/lib/content';
@@ -61,20 +62,36 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const page = getPageBySegments(slug);
   if (!page) return { title: 'Page not found' };
-  const title = page.title
+  const clean = page.title
     ? page.title.replace(/\s*[—-]\s*Visit Bondi Beach\s*$/i, '').trim()
     : displayTitle(page);
+  // The layout appends " — Visit Bondi Beach" (20 chars) via the title template. That
+  // pushes ~43% of titles past Google's ~60-char SERP cutoff, truncating keywords and
+  // costing CTR (the site's #1 problem: 1.2% site-wide CTR). So keep the brand suffix
+  // only when the result still fits; otherwise emit an `absolute` title (no suffix) so
+  // the descriptive, keyword-bearing title renders in full. Small brand, weak on its own —
+  // the keyword earns the click, not the suffix.
+  const BRAND_SUFFIX = ' — Visit Bondi Beach';
+  const title = clean.length + BRAND_SUFFIX.length > 60 ? { absolute: clean } : clean;
   const indexable = page.indexable && isProduction();
+  // Hub/core landing pages carry no ogImage/heroImage in pages.json — their hero lives in
+  // lib/hubs.ts. Wire it in so these (the most-shared nav URLs) get proper social/Discover cards.
+  const ogImage =
+    page.ogImage ||
+    page.heroImage ||
+    (page.contentType === 'hub' ? getHubDesign(page.path).heroImage : undefined) ||
+    getCorePageHub(page.path)?.heroImage ||
+    undefined;
   return {
     title,
     description: page.metaDescription || undefined,
     alternates: { canonical: page.path },
     robots: indexable ? undefined : { index: false, follow: true },
     openGraph: {
-      title,
+      title: clean,
       description: page.metaDescription || undefined,
       type: page.section === 'blog' ? 'article' : 'website',
-      images: page.ogImage || page.heroImage || undefined,
+      images: ogImage,
     },
   };
 }
@@ -156,6 +173,10 @@ async function CorePageHubView({ page }: { page: Page }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(crumbs)) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(bondiPlaceJsonLd()) }}
+      />
       {faqs.length > 0 && (
         <script
           type="application/ld+json"
@@ -222,6 +243,10 @@ function ArticlePage({ page }: { page: Page }) {
   // FAQPage schema is emitted only when the same Q&As are visibly rendered on the
   // page (i.e. an authored body includes a `faq` block).
   const faqs = faqItems(page);
+  // Spoke→hub up-link: a visible, descriptive-anchor contextual link from every article
+  // to its subject hub (concentrates topical authority; most articles otherwise have no
+  // curated inbound link beyond the flat /articles index).
+  const hub = isArticle ? articleHub(page) : null;
   return (
     <article className="mx-auto max-w-3xl px-4 py-10">
       {isArticle && (
@@ -271,6 +296,15 @@ function ArticlePage({ page }: { page: Page }) {
               </time>
             </>
           )}
+        </p>
+      )}
+      {hub && (
+        <p className="mt-3 text-sm text-ink-500">
+          Part of our{' '}
+          <Link href={hub.path} className="font-medium text-ocean-700 underline underline-offset-2">
+            {hub.label} guide
+          </Link>
+          .
         </p>
       )}
       {page.heroImage && (

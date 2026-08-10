@@ -5,6 +5,9 @@
  */
 import pagesData from '@/content/pages.json';
 import bodyOverridesData from '@/content/body-overrides.json';
+// Note: articles.ts imports from this module too; the cycle is safe because both sides
+// only use the other's bindings at call time (never at module init).
+import { articleHub } from '@/lib/articles';
 
 export type ContentType =
   | 'core-page'
@@ -276,7 +279,12 @@ export function breadcrumbs(page: Page): { name: string; path: string }[] {
   // Editorial posts now live under the Articles hub in the site IA (their URLs are
   // unchanged; only the section framing moved). "What's On" is events-only.
   if (page.section === 'blog' && page.contentType !== 'blog-index') {
-    return [home, { name: 'Articles', path: '/articles' }, { name: displayTitle(page), path: page.path }];
+    // Route each article to its TOPICAL hub as the immediate parent (Home › {Hub} › post)
+    // so the breadcrumb — the most reliable spoke→hub signal — reinforces the subject hub
+    // rather than the generic /articles index. Falls back to Articles for unmapped topics.
+    const hub = articleHub(page);
+    const parent = hub ? { name: hub.label, path: hub.path } : { name: 'Articles', path: '/articles' };
+    return [home, parent, { name: displayTitle(page), path: page.path }];
   }
   if (page.contentType === 'blog-index') return [home, { name: 'Articles', path: '/articles' }];
   return [home, { name: displayTitle(page), path: page.path }];
