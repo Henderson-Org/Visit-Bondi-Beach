@@ -3,10 +3,10 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-10",
   "sources": [
-    { "label": "Beachsafe (Surf Life Saving Australia) — Bondi Beach conditions", "url": "https://beachsafe.org.au/beach/bondi-beach" },
+    { "label": "Beachsafe (Surf Life Saving Australia) — Bondi Beach conditions", "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi-beach/bondi-beach" },
     { "label": "Bondi Lifeguards — Surf safety", "url": "https://www.bondilifeguards.com/surf-safety" },
     { "label": "Waverley Council — Biddigal Reserve, North Bondi", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/biddigal_reserve" },
-    { "label": "All Into Ocean Pools — North Bondi Children's Pool (Mermaid Pool) history", "url": "https://allintooceanpoolsinc.org/ocean-pools/north-bondi-childrens-pool-%E2%80%A8mermaid-pool-mermaid-baths/" },
+    { "label": "Australia Unseen — North Bondi Children's Pool (Mermaid Pool, built 1947) history", "url": "https://australiaunseen.com/en-us/pages/rock-pool/north-bondi-childrens-pool" },
     { "label": "Science of the Surf — the 'Backpackers Express' rip at Bondi", "url": "https://www.scienceofthesurf.com/rip-of-the-month-2009/june-2009-backpackersbondi" }
   ],
   "blocks": [

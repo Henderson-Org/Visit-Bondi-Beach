@@ -4,10 +4,10 @@
   "lastReviewed": "2026-08-10",
   "sources": [
     { "label": "Geoscience Australia — sunrise/sunset times calculator", "url": "https://geodesyapps.ga.gov.au/sunrise" },
-    { "label": "Waverley Council — Bondi to Bronte Coastal Walk", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/coastal_walks" },
+    { "label": "Waverley Council — Beaches & coast (Bondi to Bronte walk)", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
     { "label": "NSW National Parks — whale watching seasons", "url": "https://www.nationalparks.nsw.gov.au/things-to-do/whale-watching" },
     { "label": "Bondi Icebergs Club — Wikipedia (founded 1929; 50m ocean pool)", "url": "https://en.wikipedia.org/wiki/Bondi_Icebergs_Club" },
-    { "label": "Sculpture by the Sea — Bondi to Tamarama (Marks Park)", "url": "https://sculpturebythesea.com/bondi/" }
+    { "label": "Sculpture by the Sea — Bondi to Tamarama (Marks Park)", "url": "https://sculpturebythesea.com/" }
   ],
   "blocks": [
     { "type": "p", "text": "If you only set one early alarm in Bondi, make it for sunrise. The beach faces almost due east onto the Pacific, so the sun climbs straight out of the ocean — no suburbs or headland in the way, just the horizon and a slow build of colour. Sunset is the quieter cousin: the sun drops behind the land to the west, so you never see it hit the sea, but the afterglow on the cliffs earns a stay. Here's where I stand for both." },

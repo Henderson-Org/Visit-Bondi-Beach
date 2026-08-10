@@ -1428,7 +1428,7 @@
         "type": "callout",
         "tone": "warning",
         "title": "Read the signs — not every street is free",
-        "text": "Waverley Council runs a resident parking scheme across parts of North Bondi, with 2-hour limits and \"Permit Holders Excepted\" signs on streets including the north side of Blair Street, Wairoa Avenue and Gould Street. Those blocks aren't free for visitors, so keep going until the restrictions drop off, and always check the sign on the pole before you walk away."
+        "text": "Waverley Council operates resident parking schemes across parts of North Bondi, with 2-hour limits and \"Permit Holders Excepted\" signs — the council's North Bondi scheme covers streets such as the north side of Blair Street, Wairoa Avenue and Gould Street. Wherever those signs are up, the block isn't free for visitors, so keep going until the restrictions drop off, and always check the sign on the pole before you walk away. Waverley reviews and expands these schemes over time, so the official council parking pages are the last word."
       },
       {
         "type": "faq",
@@ -1448,7 +1448,7 @@
         ]
       }
     ],
-    "wordCount": 405,
+    "wordCount": 434,
     "sources": [
       {
         "label": "Waverley Council — Resident Parking Scheme, North Bondi",
@@ -2332,7 +2332,7 @@
     "sources": [
       {
         "label": "Beachsafe (Surf Life Saving Australia) — Bondi Beach conditions",
-        "url": "https://beachsafe.org.au/beach/bondi-beach"
+        "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi-beach/bondi-beach"
       },
       {
         "label": "Bondi Lifeguards — Surf safety",
@@ -2343,8 +2343,8 @@
         "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/biddigal_reserve"
       },
       {
-        "label": "All Into Ocean Pools — North Bondi Children's Pool (Mermaid Pool) history",
-        "url": "https://allintooceanpoolsinc.org/ocean-pools/north-bondi-childrens-pool-%E2%80%A8mermaid-pool-mermaid-baths/"
+        "label": "Australia Unseen — North Bondi Children's Pool (Mermaid Pool, built 1947) history",
+        "url": "https://australiaunseen.com/en-us/pages/rock-pool/north-bondi-childrens-pool"
       },
       {
         "label": "Science of the Surf — the 'Backpackers Express' rip at Bondi",
@@ -5352,7 +5352,7 @@
           },
           {
             "label": "Distance",
-            "value": "About 1.4 km from Bondi Icebergs to Tamarama"
+            "value": "About 2 km along the Bondi to Tamarama coastal walk (check the official site)"
           },
           {
             "label": "When",
@@ -5374,7 +5374,7 @@
       },
       {
         "type": "p",
-        "text": "It's roughly 1.4 kilometres one way, from the Icebergs pool at the southern end of Bondi around to Tamarama. As a plain stroll that's about 20 minutes, but you won't stroll — you'll stop constantly, so give yourself two to three hours. Works are scattered across the sand, perched on the cliffs, and clustered through Marks Park on Mackenzies Point, the grassy headland roughly halfway along with uninterrupted views north and south. Part of the joy is watching the light and tide reshape each piece as you go."
+        "text": "It's roughly 2 kilometres one way, from the Icebergs pool at the southern end of Bondi around to Tamarama. As a plain stroll that's about 25 minutes, but you won't stroll — you'll stop constantly, so give yourself two to three hours. Works are scattered across the sand, perched on the cliffs, and clustered through Marks Park on Mackenzies Point, the grassy headland roughly halfway along with uninterrupted views north and south. Part of the joy is watching the light and tide reshape each piece as you go."
       },
       {
         "type": "p",
@@ -5416,7 +5416,7 @@
           },
           {
             "q": "How long does it take?",
-            "a": "The route is about 1.4 kilometres between Bondi and Tamarama — around 20 minutes as a plain walk, but with 100-plus sculptures to stop for, most people spend two to three hours end to end."
+            "a": "The route is about 2 kilometres between Bondi and Tamarama — around 25 minutes as a plain walk, but with 100-plus sculptures to stop for, most people spend two to three hours end to end."
           },
           {
             "q": "Is the walk suitable for kids and prams?",
@@ -5429,7 +5429,7 @@
         "text": "The best sculpture here is never just the object — it's the object, the cliff and the sea, all at once."
       }
     ],
-    "wordCount": 688,
+    "wordCount": 694,
     "sources": [
       {
         "label": "Sculpture by the Sea — official site",
@@ -6069,7 +6069,7 @@
           "2. It wasn't a broadcaster's idea. It was created by Ben Davies, a part-time Bondi lifeguard, together with documentary-maker Michael Cordell — the first crew were filming their own workmates.",
           "3. It's made by Cordell Jigsaw Productions, the house behind a long run of Australian documentary hits.",
           "4. The narration is by Osher Günsberg — the presenter many older viewers still remember as 'Andrew G'.",
-          "5. It's a serious awards magnet: it won the Logie for Most Popular Factual Program five years running, from 2008 to 2012.",
+          "5. It's a serious awards magnet: it won the Logie for Most Popular Factual Program six years running, from 2008 to 2013.",
           "6. By its 2024 run it had reached 18 seasons and more than 200 episodes — a remarkable innings for any unscripted show.",
           "7. It screens in dozens of countries, which is why I regularly meet visitors who came to Bondi because of the telly."
         ]
@@ -11478,7 +11478,7 @@
           },
           {
             "label": "Beach buses",
-            "value": "333 / 380 / 381 to Campbell Parade"
+            "value": "333 and 380 (plus other Bondi Beach services)"
           }
         ]
       },
@@ -11486,7 +11486,7 @@
         "type": "callout",
         "tone": "note",
         "title": "There is no Bondi Beach train station",
-        "text": "The name catches people out. The closest station is Bondi Junction — the eastern terminus of the T4 Eastern Suburbs & Illawarra line — about 3 km up the hill. From the interchange upstairs you take a 333, 380 or 381 bus down Bondi Road to Campbell Parade, getting off around the Lamrock Avenue stop for the main stretch of sand. It's roughly a 10-minute ride."
+        "text": "The name catches people out. The closest station is Bondi Junction — the eastern terminus of the T4 Eastern Suburbs & Illawarra line — about 3 km up the hill. From the interchange upstairs you take a 333, 380 or another Bondi Beach bus down Bondi Road to Campbell Parade, getting off around the Lamrock Avenue stop for the main stretch of sand. It's roughly a 10-minute ride."
       },
       {
         "type": "h2",
@@ -11498,7 +11498,7 @@
       },
       {
         "type": "p",
-        "text": "The easy one. The 333 is a limited-stops express that runs from Circular Quay straight through the city to the beach, so you can skip the train entirely and stay on one bus. The 380 and 381 leave from Alfred Street just below Circular Quay station too. Allow 30 to 50 minutes; after the Opera House you can go from harbour to surf without working out a single connection."
+        "text": "The easy one. The 333 is a limited-stops bus that runs from Alfred Street at Circular Quay straight through the city to the beach, so you can skip the train entirely and stay on one bus — it's the direct city service to Bondi. Allow roughly 30 to 50 minutes; after the Opera House you can go from harbour to surf without working out a single connection. Check the Transport for NSW Trip Planner for the current departure stop and times before you set off."
       },
       {
         "type": "h3",
@@ -11535,7 +11535,7 @@
         "items": [
           {
             "q": "Is there a train station at Bondi Beach?",
-            "a": "No. The nearest is Bondi Junction, the eastern terminus of the T4 line, about 3 km up the hill. From there a 333, 380 or 381 bus runs down to Campbell Parade in around 10 minutes."
+            "a": "No. The nearest is Bondi Junction, the eastern terminus of the T4 line, about 3 km up the hill. From there a 333, 380 or another Bondi Beach bus runs down to Campbell Parade in around 10 minutes."
           },
           {
             "q": "How far is Bondi Beach from Sydney city centre?",
@@ -11552,7 +11552,7 @@
         ]
       }
     ],
-    "wordCount": 755,
+    "wordCount": 775,
     "sources": [
       {
         "label": "Transport for NSW — Trip Planner",
@@ -14853,7 +14853,7 @@
         "items": [
           {
             "label": "Free option",
-            "value": "Streets north of Blair St (unrestricted)"
+            "value": "Residential streets north of Blair St"
           },
           {
             "label": "Closest paid",
@@ -14879,7 +14879,7 @@
       },
       {
         "type": "p",
-        "text": "My go-to on a busy day is the residential grid north of Blair Street — the streets climbing away from the water: Warners Avenue, Brassie Street, Niblick Street, Patterson Street, Oakley Road, O'Donnell Street, the top of Gould Street, Knowles Avenue, Frederick Street, Wairoa Avenue and Mitchell Street. These are genuinely free and unrestricted around the clock — no meters, no time limits. A trick for getting your bearings: drop \"74 Blair Street\" into Google Maps and it lands you at the edge of the zone, then park in the streets just north of there (Blair Street itself isn't free — start one block north). The trade-off is the walk and the timing. On weekdays the bays hold until residents come home in the late afternoon; on a sunny weekend they fill from mid-morning, which is exactly why arriving early matters."
+        "text": "My go-to on a busy day is the residential grid north of Blair Street — the streets climbing away from the water. Get far enough back from the beach and you'll find bays that are genuinely free and untimed, with no meters. The trade-off is the walk and the timing: on weekdays the bays tend to hold until residents come home in the late afternoon; on a sunny weekend they fill from mid-morning, which is exactly why arriving early matters. One thing I won't do is hand you a fixed list of \"free streets\" — Waverley keeps expanding its permit zones and the rules change block by block, so read the sign at the bay you actually pick rather than trusting any list. What's unrestricted one street can be permit-only the next."
       },
       {
         "type": "p",
@@ -14950,7 +14950,7 @@
         ]
       }
     ],
-    "wordCount": 1097,
+    "wordCount": 1088,
     "sources": [
       {
         "label": "Waverley Council — Parking",
@@ -24222,8 +24222,8 @@
     "wordCount": 319,
     "sources": [
       {
-        "label": "Waverley Council — Bondi Beach (name origin)",
-        "url": "https://www.waverley.nsw.gov.au/residents/precinct_committees/meetings_docs/bondi_beach"
+        "label": "Waverley Council — Aboriginal heritage and history (Bondi name origin)",
+        "url": "https://www.waverley.nsw.gov.au/community/aboriginal_and_torres_strait_islander_people/heritage_and_history"
       },
       {
         "label": "Wikipedia — Bondi Beach (name, pronunciation, Dharawal origin)",
@@ -24990,8 +24990,8 @@
         "url": "https://geodesyapps.ga.gov.au/sunrise"
       },
       {
-        "label": "Waverley Council — Bondi to Bronte Coastal Walk",
-        "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/coastal_walks"
+        "label": "Waverley Council — Beaches & coast (Bondi to Bronte walk)",
+        "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast"
       },
       {
         "label": "NSW National Parks — whale watching seasons",
@@ -25003,7 +25003,7 @@
       },
       {
         "label": "Sculpture by the Sea — Bondi to Tamarama (Marks Park)",
-        "url": "https://sculpturebythesea.com/bondi/"
+        "url": "https://sculpturebythesea.com/"
       }
     ],
     "lastReviewed": "2026-08-10",
@@ -25301,7 +25301,7 @@
           },
           {
             "label": "Getting home",
-            "value": "Night buses (333/380) & rideshare"
+            "value": "24-hour 333 bus & rideshare"
           }
         ]
       },
@@ -25359,7 +25359,7 @@
         "type": "callout",
         "tone": "warning",
         "title": "Sort your ride home before you go out",
-        "text": "Bondi has no train station — the nearest is Bondi Junction, roughly 3km uphill. Late at night you're on the night buses (the 333 and the 24-hour 380 run about every 30 minutes overnight) or rideshare, where surge pricing on a warm Saturday is very real. Check the Transport for NSW trip planner for current services before you leave."
+        "text": "Bondi has no train station — the nearest is Bondi Junction, roughly 3km uphill. Late at night the 333 runs as a 24-hour service between the city and North Bondi, otherwise it's rideshare, where surge pricing on a warm Saturday is very real. Check the Transport for NSW trip planner for current routes and times before you leave."
       },
       {
         "type": "faq",
@@ -25374,12 +25374,12 @@
           },
           {
             "q": "How do I get home from Bondi late at night?",
-            "a": "Bondi has no train station — the nearest is Bondi Junction, about 3km uphill. The 333 and the 24-hour 380 buses run roughly every 30 minutes overnight; after that, rideshare is the usual option. Check the Transport for NSW trip planner for current night-bus times."
+            "a": "Bondi has no train station — the nearest is Bondi Junction, about 3km uphill. The 333 runs as a 24-hour service between the city and North Bondi, so it's the overnight bus option; otherwise rideshare is the usual choice. Check the Transport for NSW trip planner for current night-bus times."
           }
         ]
       }
     ],
-    "wordCount": 734,
+    "wordCount": 738,
     "sources": [
       {
         "label": "The Royal Bondi (Merivale)",
@@ -25567,7 +25567,7 @@
       },
       {
         "type": "p",
-        "text": "From the start near Hyde Park you drop down William Street, through the Kings Cross tunnel, then out along New South Head Road with the harbour glinting beside you through Rose Bay. What first-timers never expect is how hilly the whole thing is — there are plenty of climbs before the famous one. Then comes the bit everyone's heard about: Heartbreak Hill, a roughly 2 km climb from Rose Bay up to Vaucluse that rises about 75 metres. It hits near the halfway mark, around the 6 km point, it's twisty, it steepens near the top, and the cruellest part is psychological — just when you're certain you've crested it, it keeps going. From Vaucluse you head along Old South Head Road and Military Road before a glorious downhill toward the coast, a turnaround near Curlewis Street, and the finish on Queen Elizabeth Drive above Bondi Beach."
+        "text": "From the start near Hyde Park you drop down William Street, through the Kings Cross tunnel, then out along New South Head Road with the harbour glinting beside you through Rose Bay. What first-timers never expect is how hilly the whole thing is — there are plenty of climbs before the famous one. Then comes the bit everyone's heard about: Heartbreak Hill, a roughly 2 km climb from Rose Bay up to Vaucluse that rises about 75 metres. It hits near the halfway mark, around the 6 km point, it's twisty, it steepens near the top, and the cruellest part is psychological — just when you're certain you've crested it, it keeps going. From Vaucluse you head along Old South Head Road and Military Road before a glorious downhill toward the coast, a final turnaround, and the finish on Queen Elizabeth Drive above Bondi Beach."
       },
       {
         "type": "callout",
@@ -25630,7 +25630,7 @@
         ]
       }
     ],
-    "wordCount": 880,
+    "wordCount": 878,
     "sources": [
       {
         "label": "Voltaren City2Surf — official site (dates, entries, waves, results)",
@@ -26401,7 +26401,7 @@
           },
           {
             "label": "Closest station",
-            "value": "Queen Elizabeth Drive (~500 bays)"
+            "value": "Queen Elizabeth Drive (behind the beach)"
           },
           {
             "label": "Best arrival",
@@ -26434,15 +26434,15 @@
       {
         "type": "list",
         "items": [
-          "Queen Elizabeth Drive car park — the council station directly behind the beach, and by far the largest with around 500 bays. Metered roughly 7am–7pm, seven days; height clearance is about 2.7m, so tall vans and campervans should measure up first. It fills fast on a nice day.",
-          "Pacific Bondi car park — beneath the complex opposite the Bondi Pavilion, a two-minute walk to the sand and open long hours daily. Pre-booking online is usually cheaper than the drive-up rate.",
-          "Wilson Parking at The Hub (Hall Street) — often overlooked, pricey, but a reliable fallback for an hour or two on a hectic day.",
+          "Queen Elizabeth Drive car park — the council station directly behind the beach, and the largest beachfront option. It's metered daily (check Waverley Council for current hours and rates) and fills fast on a nice day.",
+          "Pacific Bondi car park — beneath the complex on Campbell Parade near the Pavilion, a short walk to the sand and open long hours daily. Pre-booking online is often cheaper than the drive-up rate.",
+          "The Hub (Hall Street) car park — often overlooked, on the pricier side, but a reliable fallback for an hour or two on a hectic day.",
           "Street meters along Campbell Parade and the shops — handy but the dearest per hour, and time-limited."
         ]
       },
       {
         "type": "localTip",
-        "text": "If you're down here often, a Waverley Council beach parking permit lets you stay unlimited time in the metered bays on Queen Elizabeth Drive and Park Drive — a genuinely good deal for regulars and worth checking your eligibility for."
+        "text": "If you're down here often, a Waverley Council beach parking permit lets you stay unlimited time in the eligible metered beach bays — a genuinely good deal for regulars and worth checking your eligibility for with the council."
       },
       {
         "type": "callout",
@@ -26456,7 +26456,7 @@
       },
       {
         "type": "p",
-        "text": "On a perfect summer's day, I skip the circling entirely: train to Bondi Junction, then the 333, 380 or 381 bus straight down to Campbell Parade — about a 10–13 minute run. You'll be on the sand while everyone else is still hunting for a bay. If you must drive on a busy day, try the south end around Edward and Francis Streets, or the blocks near the Beach Road Hotel; most people aim for the middle of the beach, so the edges can be surprisingly lucky."
+        "text": "On a perfect summer's day, I skip the circling entirely: train to Bondi Junction, then the 333, 380 or 381 bus straight down to Campbell Parade — about a 10–13 minute run. You'll be on the sand while everyone else is still hunting for a bay. If you must drive on a busy day, try the quieter blocks toward the south end, or the streets back from the Beach Road Hotel; most people aim for the middle of the beach, so the edges can be surprisingly lucky."
       },
       {
         "type": "faq",
@@ -26467,7 +26467,7 @@
           },
           {
             "q": "What's the closest car park to Bondi Beach?",
-            "a": "The Queen Elizabeth Drive car park, the council station right behind the sand with around 500 bays. It's metered roughly 7am–7pm daily and fills quickly, so arrive early."
+            "a": "The Queen Elizabeth Drive car park, the council station right behind the sand and the largest beachfront option. It's metered daily and fills quickly, so arrive early and check Waverley Council for current hours and rates."
           },
           {
             "q": "Can I get to Bondi without driving?",
@@ -26476,14 +26476,14 @@
         ]
       }
     ],
-    "wordCount": 611,
+    "wordCount": 610,
     "sources": [
       {
         "label": "Waverley Council — parking (current meter rates & permits)",
         "url": "https://www.waverley.nsw.gov.au/residents/parking"
       },
       {
-        "label": "Waverley Council — beach parking permit (unlimited metered parking on Queen Elizabeth Drive & Park Drive)",
+        "label": "Waverley Council — beach parking permit (unlimited time in eligible metered beach bays)",
         "url": "https://www.waverley.nsw.gov.au/residents/parking/permits/beach_parking_permit"
       },
       {
@@ -27105,7 +27105,7 @@
         "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast"
       },
       {
-        "label": "Bondi to Bronte coastal walk (2.5 km) — Sydney.com",
+        "label": "Bondi to Coogee coastal walk (Bronte is an early stop) — Sydney.com",
         "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk"
       },
       {
