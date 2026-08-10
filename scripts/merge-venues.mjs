@@ -79,7 +79,9 @@ for (const v of raw) {
     id,
     name,
     ...(v.formerName ? { formerName: clean(v.formerName) } : {}),
-    status,
+    // renamed/moved venues are still trading — display them as 'open' (formerName keeps
+    // the history) so the site's `restaurants()` (status open/opening-soon) includes them.
+    status: displayStatus,
     type: v.type || 'restaurant',
     precinct: v.precinct || 'bondi-beach',
     ...(clean(v.street) ? { street: clean(v.street) } : {}),
