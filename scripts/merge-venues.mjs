@@ -52,10 +52,16 @@ for (const v of raw) {
   if (!v || !v.candidateName) continue;
   const name = clean(v.currentName) || clean(v.candidateName);
   const status = v.status || 'open';
-  if (status !== 'open' && status !== 'opening-soon') {
+  // Active = currently trading. 'renamed'/'moved' venues are still open (under the current
+  // name/address the enrichment resolved), so they stay in the directory. Only genuinely
+  // gone venues are excluded.
+  const ACTIVE = new Set(['open', 'opening-soon', 'renamed', 'moved']);
+  if (!ACTIVE.has(status)) {
     excluded.push({ name, status, note: v.formerName || '', sources: arr(v.sources).slice(0, 2) });
     continue;
   }
+  // Normalise renamed/moved to 'open' for display (they are open); keep formerName for the record.
+  const displayStatus = status === 'renamed' || status === 'moved' ? 'open' : status;
   const id = clean(v.slug) ? slug(v.slug) : slug(name);
   if (!id) continue;
   const rec = {

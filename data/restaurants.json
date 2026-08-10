@@ -1,5 +1,427 @@
 [
   {
+    "id": "seans",
+    "name": "Sean's",
+    "formerName": "Sean's Panorama (also spelled Sean's Panaroma)",
+    "status": "renamed",
+    "type": "restaurant",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "270 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Modern Australian",
+      "Seasonal / produce-driven"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 4,
+    "diningStyle": [
+      "fine-dining",
+      "beachfront"
+    ],
+    "suitability": [
+      "couples",
+      "celebrations",
+      "groups",
+      "locals",
+      "tourists"
+    ],
+    "dietary": [],
+    "attributes": [
+      "ocean-views",
+      "outdoor-seating",
+      "reservations",
+      "romantic"
+    ],
+    "website": "https://seansbondi.com/",
+    "instagram": "https://www.instagram.com/seansbondi/",
+    "summary": "A Bondi institution since 1993 where chef-owner Sean Moran serves a daily-changing, produce-driven three-course choice menu above a panoramic sweep of Campbell Parade and the beach.",
+    "whyGo": "This is the grande dame of Bondi dining, and one of the few tables here built entirely around seasonality rather than a beachside crowd. The short chalkboard menu changes as often as daily, much of it grown at Moran's own farm in the Blue Mountains, and the cooking is deceptively simple home-style food executed with real precision. We'd choose it when you want the beach setting to come with genuine substance on the plate rather than just a view.",
+    "bestFor": "A special-occasion long lunch or unhurried dinner with a view",
+    "whatToOrder": "It's a set three-course choice menu (three options per course) that turns over with the season, so go by what's on the board that day rather than a fixed dish; expect vegetable-forward, produce-led plates and honest home-style cooking.",
+    "atmosphere": "Warm, convivial and refined-but-relaxed, with an upstairs dining room and terrace open to the panorama.",
+    "localTip": "Our pick is a weekend lunch (served Friday to Sunday) so you get the full daylight panorama across the beach; book ahead, as the room is intimate and this is a long-running favourite.",
+    "tradeOff": "It's a premium fixed three-course menu, not a casual walk-in for a quick bite, and lunch runs only Friday to Sunday.",
+    "ranking": {
+      "foodScore": 8.5,
+      "localReputation": 9.5,
+      "uniqueness": 9,
+      "value": 6,
+      "viewScore": 8.5,
+      "visitorUsefulness": 8,
+      "kidFriendliness": 3
+    },
+    "score": 8.5,
+    "confidence": "high",
+    "sources": [
+      "https://seansbondi.com/",
+      "https://www.instagram.com/seansbondi/?hl=en",
+      "https://www.yelp.com/biz/seans-panaroma-bondi",
+      "https://www.broadsheet.com.au/sydney/bondi/restaurants/seans-pan",
+      "https://www.sydney.com/destinations/sydney/sydney-east/bondi/food-and-drink/seans",
+      "https://www.theworlds50best.com/discovery/Establishments/Australia/Sydney/Seans.html",
+      "https://www.qthotels.com/bondi-beach/things-to-do/seans-panorama/"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "gelato-messina-bondi",
+    "name": "Gelato Messina Bondi",
+    "status": "open",
+    "type": "dessert",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "G6/61 Hall Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Gelato",
+      "Dessert",
+      "Ice Cream"
+    ],
+    "meals": [
+      "lunch",
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "takeaway",
+      "casual",
+      "fast-casual"
+    ],
+    "suitability": [
+      "kids",
+      "families",
+      "couples",
+      "groups",
+      "tourists",
+      "locals"
+    ],
+    "dietary": [
+      "vegan",
+      "gluten-free"
+    ],
+    "attributes": [
+      "takeaway",
+      "walk-ins",
+      "delivery",
+      "lively"
+    ],
+    "website": "https://gelatomessina.com",
+    "instagram": "https://www.instagram.com/gelatomessina",
+    "menuUrl": "https://gelatomessina.com/pages/flavours",
+    "summary": "The Bondi outpost of Sydney's most celebrated gelato maker, tucked into the Hall Street hub a short walk back from the sand.",
+    "whyGo": "Messina is the benchmark for gelato in Sydney, and the Bondi store pours the same 40-odd house-churned flavours and rotating weekly specials as the flagship, made with genuine care (house-roasted hazelnuts, Warrnambool milk). We'd choose this over any beachfront soft-serve when you want the real thing after a swim. The room itself is worth a look too, designed to feel like an upside-down swimming pool with pebblecrete walls and ceiling.",
+    "bestFor": "A post-beach dessert walk on Hall Street",
+    "whatToOrder": "A scoop or two from the signature range, one of the always-changing weekly specials, or a whole handmade gelato cake if you're feeding a crowd; sorbets cover the dairy-free crowd.",
+    "atmosphere": "Buzzy, queue-out-the-door on warm evenings, order-at-the-counter",
+    "localTip": "It's on Hall Street rather than right on the promenade, so grab your cone here and stroll it down to the beach or Bondi Park rather than expecting a sea view from the door. Go for a weekly special before it rotates out.",
+    "tradeOff": "It's a takeaway counter with little seating and no beach outlook, and queues get long at peak times on hot days.",
+    "ranking": {
+      "foodScore": 9,
+      "localReputation": 9,
+      "uniqueness": 7,
+      "value": 7,
+      "viewScore": 2,
+      "visitorUsefulness": 9,
+      "kidFriendliness": 9
+    },
+    "score": 8.3,
+    "confidence": "high",
+    "sources": [
+      "https://www.broadsheet.com.au/sydney/food-and-drink/article/gelato-messina-sea",
+      "https://gelatomessina.com/pages/stores",
+      "https://www.yelp.com/biz/gelato-messina-bondi-bondi-5",
+      "https://www.tripadvisor.com.au/Restaurant_Review-g947961-d10519834-Reviews-Gelato_Messina_Bondi-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://www.happycow.net/reviews/gelato-messina-bondi-beach-65905"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "bills-bondi-beach",
+    "name": "bills Bondi Beach",
+    "status": "open",
+    "type": "cafe",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "79 Hall Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Modern Australian",
+      "Brunch",
+      "Cafe"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "cafe",
+      "casual"
+    ],
+    "suitability": [
+      "families",
+      "couples",
+      "groups",
+      "solo",
+      "tourists",
+      "locals"
+    ],
+    "dietary": [],
+    "attributes": [
+      "outdoor-seating",
+      "reservations",
+      "walk-ins",
+      "delivery"
+    ],
+    "website": "https://www.bills.com.au/locations/bondi-beach",
+    "bookingUrl": "https://www.bills.com.au/locations/bondi-beach",
+    "instagram": "https://www.instagram.com/billsaustralia",
+    "menuUrl": "https://www.bills.com.au/locations/bondi-beach",
+    "summary": "The original bills, the Hall Street cafe where Bill Granger reinvented Sydney brunch, still turning out its ricotta hotcakes and creamy scrambled eggs a couple of minutes back from the sand.",
+    "whyGo": "This is where the modern Sydney brunch was effectively invented, and the dishes that made bills famous have never left the menu. We'd choose it when you want a genuine piece of Bondi food history rather than just a beachfront table, and it holds up all day, moving from communal-table breakfasts into a proper lunch and evening service. It is a destination cafe, so expect it to be busy and priced accordingly.",
+    "bestFor": "A landmark Bondi brunch a short walk from the beach",
+    "whatToOrder": "The signatures are the reason to come: the ricotta hotcakes with honeycomb butter and banana, the sweetcorn fritters, and the famously creamy scrambled eggs.",
+    "atmosphere": "Bright, buzzy and communal, built around bills' trademark big shared table.",
+    "localTip": "It's on Hall Street rather than the promenade, so if you're coming straight off the beach it's a two-minute walk up from the sand; bookings only kick in from 5pm, so for the famous breakfast plan to arrive early or be ready to wait for a walk-in table on weekends.",
+    "tradeOff": "No ocean views and premium cafe pricing, and weekend queues for a table are the norm.",
+    "ranking": {
+      "foodScore": 8,
+      "localReputation": 9,
+      "uniqueness": 8,
+      "value": 5,
+      "viewScore": 2,
+      "visitorUsefulness": 9,
+      "kidFriendliness": 7
+    },
+    "score": 7.9,
+    "confidence": "high",
+    "sources": [
+      "https://www.bills.com.au/locations/bondi-beach",
+      "https://www.qantas.com/travelinsider/en/explore/australia/new-south-wales/sydney/bills-australia-bondi-beach.html",
+      "https://concreteplayground.com/sydney/restaurants/bills-bondi",
+      "https://www.yelp.com/biz/bills-bondi-bondi-beach",
+      "https://www.theurbanlist.com/sydney/directory/bills-bondi"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "da-orazio-pizza-porchetta",
+    "name": "Da Orazio Pizza + Porchetta",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "The Hub, Shop LG08 & LG09, 75-79 Hall Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Italian",
+      "Pizza",
+      "Neapolitan"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "restaurant",
+      "casual",
+      "bar"
+    ],
+    "suitability": [
+      "couples",
+      "groups",
+      "families",
+      "locals",
+      "tourists",
+      "celebrations"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "attributes": [
+      "outdoor-seating",
+      "reservations",
+      "lively",
+      "romantic"
+    ],
+    "website": "https://www.daorazio.com.au/",
+    "instagram": "https://www.instagram.com/da_orazio_ristorante/",
+    "summary": "A buzzy Hall Street institution serving wood-fired Neapolitan pizza and rotisserie porchetta, back in its original Bondi home under founder Orazio D'Elia.",
+    "whyGo": "This is one of Bondi's most enduring Italian rooms — opened in 2014, bought back and relaunched by Orazio D'Elia in 2022, and awarded a Good Food Guide Chef's Hat. The draw is genuinely good Neapolitan-style wood-fired pizza alongside the signature focaccia with rotisserie porchetta, in a lively 90-seat room a short walk up from the sand. With the sister bar Orazietto next door, we'd send anyone here who wants a proper sit-down Italian dinner rather than a quick beach feed.",
+    "bestFor": "A lively Italian dinner with friends or a couple, a short walk from the beach.",
+    "whatToOrder": "The wood-fired Neapolitan pizzas (the Margherita is the honest test of any kitchen) and the signature focaccia con porchetta; antipasti share plates and seafood pasta round out a table.",
+    "atmosphere": "Warm, packed and buzzy — spritzes, big tables and a proper Hall Street local crowd.",
+    "localTip": "Book ahead — it fills fast most nights; if you can't get a table, slip into the sister bar Orazietto next door for pizza and a drink.",
+    "tradeOff": "It's up on Hall Street with no ocean view, dinner-focused (lunch is weekends only), and priced above a casual beach feed.",
+    "ranking": {
+      "foodScore": 8.5,
+      "localReputation": 9,
+      "uniqueness": 7,
+      "value": 5.5,
+      "viewScore": 2,
+      "visitorUsefulness": 8,
+      "kidFriendliness": 7
+    },
+    "score": 7.8,
+    "confidence": "high",
+    "sources": [
+      "https://www.daorazio.com.au/",
+      "https://www.broadsheet.com.au/sydney/food-and-drink/article/pizza-and-porchetta-terzini",
+      "https://concreteplayground.com/sydney/food-drink/orazio-delia-is-reopening-his-beloved-italian-restaurant-da-orazio-with-a-new-accompanying-bar-in-bondi",
+      "https://www.yelp.com/biz/da-orazio-pizza-porchetta-bondi-beach",
+      "https://www.qthotels.com/bondi-beach/things-to-do/da-orazio-pizza-porchetta/",
+      "https://www.thehubhallstreet.com.au/"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "etheus",
+    "name": "Etheus",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-beach",
+    "street": "Queen Elizabeth Drive",
+    "address": "Shop 4, Bondi Pavilion, Queen Elizabeth Drive, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Greek",
+      "Mediterranean"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "casual",
+      "beachfront"
+    ],
+    "suitability": [
+      "couples",
+      "groups",
+      "tourists",
+      "locals",
+      "celebrations"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "attributes": [
+      "beachfront",
+      "ocean-views",
+      "outdoor-seating",
+      "reservations",
+      "lively",
+      "byo"
+    ],
+    "website": "https://www.etheus.sydney/",
+    "bookingUrl": "https://www.sevenrooms.com/reservations/etheus",
+    "instagram": "https://www.instagram.com/etheus.bondi",
+    "menuUrl": "https://www.etheus.sydney/food-menus",
+    "summary": "A fire-led Greek restaurant inside Bondi Pavilion serving shared meze and chargrilled plates a few steps from the sand.",
+    "whyGo": "One of the beachfront's buzziest recent openings: House Made Hospitality reworked the former Promenade dining room into a fire-and-charcoal Greek room, riding Bondi's Greek wave. We'd choose it for a group dinner of generous shared plates with ocean light, and its share-focused menu makes it an easy pick for feeding a crowd.",
+    "bestFor": "Group dinners and celebratory shared feasts by the beach",
+    "whatToOrder": "Lean into the fire and the shared format: pork neck souvlaki, chargrilled meats, meze and dips, spanakorizo, raw tuna with dakos, stuffed peppers, and bougatsa for dessert.",
+    "atmosphere": "Light-filled, laid-back and lively; fire-driven and unpretentious.",
+    "localTip": "If you live nearby, come on a Wednesday evening — locals from Bondi, North Bondi, Tamarama, Waverley, Bondi Junction or Bronte get 30% off, plus BYO of one bottle per table with no corkage.",
+    "tradeOff": "It's a proper restaurant, not a beach snack — shared-plate dining at this level adds up, and it's closed Monday and Tuesday with lunch only on weekends.",
+    "ranking": {
+      "foodScore": 8,
+      "localReputation": 7,
+      "uniqueness": 7,
+      "value": 6,
+      "viewScore": 8,
+      "visitorUsefulness": 9,
+      "kidFriendliness": 6
+    },
+    "score": 7.7,
+    "confidence": "high",
+    "sources": [
+      "https://www.etheus.sydney/",
+      "https://www.etheus.sydney/food-menus",
+      "https://concreteplayground.com/sydney/restaurants/etheus",
+      "https://www.hospitalitymagazine.com.au/house-made-hospitality-replace-promenade-with-etheus/",
+      "https://eatdrinkplay.com/sydney/etheus-greek-bondi/",
+      "https://www.timeout.com/sydney/news/this-new-restaurant-at-sydneys-most-famous-beach-could-be-australias-answer-to-the-greek-islands-091125",
+      "https://www.sydneytravelguide.com.au/bondi-greek-restaurant-review-etheus-and-kazzi/"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "north-bondi-fish",
+    "name": "North Bondi Fish",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "north-bondi",
+    "street": "Ramsgate Avenue",
+    "address": "120 Ramsgate Avenue, North Bondi NSW 2026",
+    "cuisines": [
+      "Seafood",
+      "Modern Australian"
+    ],
+    "meals": [
+      "lunch",
+      "dinner",
+      "brunch"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "beachfront",
+      "casual",
+      "bar"
+    ],
+    "suitability": [
+      "couples",
+      "groups",
+      "tourists",
+      "locals",
+      "families"
+    ],
+    "dietary": [],
+    "attributes": [
+      "beachfront",
+      "ocean-views",
+      "outdoor-seating",
+      "sunset",
+      "lively",
+      "reservations",
+      "walk-ins"
+    ],
+    "website": "https://northbondifish.com.au/",
+    "bookingUrl": "https://itsyourtable.com/northbondifish",
+    "instagram": "https://www.instagram.com/northbondifish/",
+    "menuUrl": "https://www.northbondifish.com.au/food",
+    "summary": "A Matt Moran seafood restaurant perched at the quiet north end of Bondi Beach, with arguably the best sand-and-ocean outlook of any dining room on the beach.",
+    "whyGo": "This is our pick when you want the Bondi beachfront view to do the heavy lifting: it sits right above the sand at the north end, looking straight down the arc of the beach. The kitchen (part of Matt Moran's Solotel group) keeps things coastal and seafood-led — daily sashimi, oysters, whole market fish, fish and chips — in a relaxed, social room that tips into a livelier bar-and-cocktail scene as the day goes on. We'd choose it for a long lunch or sunset drinks over a formal dinner.",
+    "bestFor": "Long beachfront lunches, oysters and cocktails with a view",
+    "whatToOrder": "Sydney rock oysters, daily sashimi, whole market fish, fish and chips or a fish burger, and one of the margaritas.",
+    "atmosphere": "Relaxed, sun-lit and social, getting livelier (DJs, cocktails) into the afternoon and evening.",
+    "localTip": "Book a table on the outdoor terrace and aim for the golden hour before sunset — the north-end position means the light rakes right across the beach. In winter, note it periodically transforms into \"North Bondi Nami,\" a Japanese izakaya-style pop-up in the same space, so check which menu is running before you go.",
+    "tradeOff": "You pay a premium for the position — it's pricier and often busier than the fish-and-chips it's named for, and it can get loud once the bar picks up.",
+    "ranking": {
+      "foodScore": 7.5,
+      "localReputation": 8,
+      "uniqueness": 6.5,
+      "value": 5,
+      "viewScore": 9.5,
+      "visitorUsefulness": 9,
+      "kidFriendliness": 6
+    },
+    "score": 7.7,
+    "confidence": "high",
+    "sources": [
+      "https://northbondifish.com.au/",
+      "https://www.sydney.com/destinations/sydney/sydney-east/bondi/food-and-drink/north-bondi-fish",
+      "https://www.opentable.com/r/north-bondi-fish-north-bondi",
+      "https://www.yelp.com/biz/north-bondi-fish-north-bondi",
+      "https://www.broadsheet.com.au/sydney/food-and-drink/article/matt-morans-north-bondi-fish-turning-izakaya-inspired-eatery-and-bar-winter"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "shuk-by-the-beach",
     "name": "Shuk by the Beach",
     "status": "open",
@@ -78,6 +500,79 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "makuto",
+    "name": "Makuto",
+    "status": "open",
+    "type": "cafe",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "75/79 Hall Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Caribbean",
+      "Venezuelan",
+      "Latin American"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "cafe",
+      "casual"
+    ],
+    "suitability": [
+      "locals",
+      "solo",
+      "couples",
+      "families",
+      "tourists"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "attributes": [
+      "takeaway",
+      "delivery",
+      "walk-ins"
+    ],
+    "website": "https://makutobondibeach.com/",
+    "instagram": "https://www.instagram.com/makutobondibeach/",
+    "menuUrl": "https://makutobondibeach.com/menus",
+    "summary": "A colourful Hall Street cafe trading specialty coffee alongside Venezuelan arepas and Caribbean pan-tropical plates, a few blocks back from the sand.",
+    "whyGo": "If you're bored of the usual Bondi smashed-avo circuit, this is where we'd send you: Makuto swaps the beach-cafe template for Venezuelan corn arepas, spiced Caribbean curries and one of the more characterful coffee programs on Hall Street. It opens early (from 6am most days) and pulls a genuinely local crowd around communal tables, with the owner's music taste dialled in as tightly as the espresso. It's a rare thing in Bondi, a cafe with a point of view that isn't just another flat-white-and-bowls operation.",
+    "bestFor": "An early, flavour-forward breakfast or brunch with a Caribbean twist",
+    "whatToOrder": "Our pick here is the breakfast arepas and the Caribbean-spiced curries; the coffee is worth ordering on its own merits, and there are vegan and vegetarian options across the menu.",
+    "atmosphere": "Bright, lively and unpretentious, with communal seating and a strong music sensibility.",
+    "localTip": "Come before 8am if you want a quiet table and the pick of the arepas; weekend mid-morning brings the full Bondi brunch crush to a fairly compact room.",
+    "tradeOff": "It's set back on Hall Street, so there are no ocean views and no beachfront seating, this is a destination for the food and coffee, not the outlook.",
+    "ranking": {
+      "foodScore": 8,
+      "localReputation": 8,
+      "uniqueness": 9,
+      "value": 7,
+      "viewScore": 2,
+      "visitorUsefulness": 7,
+      "kidFriendliness": 6
+    },
+    "score": 7.6,
+    "confidence": "high",
+    "sources": [
+      "https://makutobondibeach.com/",
+      "https://makutobondibeach.com/menus",
+      "https://www.instagram.com/makutobondibeach/",
+      "https://www.corner.inc/place/pEe2xXdSbgQW",
+      "https://thebeast.com.au/food/makuto-hall-street-menu-like-no/",
+      "https://www.findmeglutenfree.com/biz/makuto/5168560345841664",
+      "https://www.ubereats.com/au/store/makuto/wNWurgaJStqnJ5uzNw3EEQ",
+      "https://wanderlog.com/place/details/3307284/makuto"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "china-diner",
     "name": "China Diner",
     "formerName": "China Diner (Hall Street)",
@@ -150,6 +645,521 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "north-bondi-rsl",
+    "name": "North Bondi RSL",
+    "status": "open",
+    "type": "club-hotel",
+    "precinct": "north-bondi",
+    "street": "Ramsgate Avenue",
+    "address": "118-120 Ramsgate Avenue, North Bondi NSW 2026",
+    "cuisines": [
+      "Modern Australian",
+      "Pub / Bistro",
+      "Seafood"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "casual",
+      "club-hotel",
+      "bar"
+    ],
+    "suitability": [
+      "families",
+      "kids",
+      "groups",
+      "locals",
+      "tourists",
+      "couples"
+    ],
+    "dietary": [],
+    "attributes": [
+      "ocean-views",
+      "outdoor-seating",
+      "lively",
+      "reservations",
+      "walk-ins",
+      "sunset"
+    ],
+    "website": "https://northbondirsl.com.au/",
+    "menuUrl": "https://northbondirsl.com.au/bistro/",
+    "summary": "A member-and-guest RSL club perched above the northern end of Bondi Beach, serving affordable modern-Australian bistro food with some of the best ocean views in the area.",
+    "whyGo": "We'd choose this for the view-to-value ratio: a breezy balcony looking straight down the sand, paired with honest club-bistro pricing you won't find anywhere near the beachfront. It's the reliable family option in North Bondi, with generous plates of the pub classics done well, and a lively, no-fuss atmosphere that swings from afternoon-beer casual to a busier buzz on live-music nights. You'll need to sign in as a guest, but that's the only friction.",
+    "bestFor": "Affordable ocean-view lunch or early dinner with kids or a group",
+    "whatToOrder": "Our pick here is the club-bistro staples done properly: chicken schnitzel or parmi, a steak on the weekly steak-night special, wood-fired pizzas, and the seasonal seafood plates when they appear.",
+    "atmosphere": "Relaxed, family-friendly club with a beach-chic edge; livelier on DJ and live-music nights.",
+    "localTip": "Skip the interior tables and head straight for the balcony seats outside — they're first-come, so arrive a touch before the midday opening or the sunset rush to claim a spot over the water.",
+    "tradeOff": "It's a licensed club, so non-members need to sign in as a guest, and the food is dependable rather than destination-level.",
+    "ranking": {
+      "foodScore": 6,
+      "localReputation": 9,
+      "uniqueness": 6.5,
+      "value": 8,
+      "viewScore": 9,
+      "visitorUsefulness": 8.5,
+      "kidFriendliness": 9
+    },
+    "score": 7.5,
+    "confidence": "high",
+    "sources": [
+      "https://northbondirsl.com.au/",
+      "https://northbondirsl.com.au/bistro/",
+      "https://www.agfg.com.au/restaurant/north-bondi-rsl-38956",
+      "https://www.tripadvisor.com.au/Restaurant_Review-g947961-d2706326-Reviews-North_Bondi_RSL-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://www.bestrestaurants.com.au/nsw/sydney/north-bondi/restaurant/the-bistro-at-north-bondi-rsl",
+      "https://www.sydney.com/destinations/sydney/sydney-east/bondi/food-and-drink/north-bondi-rsl",
+      "https://www.opentable.com.au/r/north-bondi-rsl-club-ltd-bondi"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "promenade-bondi-beach",
+    "name": "Promenade Bondi Beach",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-beach",
+    "street": "Queen Elizabeth Drive",
+    "address": "Shop 4, Bondi Pavilion, Queen Elizabeth Drive, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Contemporary Australian",
+      "Seafood",
+      "Coastal",
+      "Greek"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "beachfront",
+      "casual",
+      "bar",
+      "fine-dining"
+    ],
+    "suitability": [
+      "couples",
+      "groups",
+      "families",
+      "tourists",
+      "locals",
+      "celebrations"
+    ],
+    "dietary": [],
+    "attributes": [
+      "beachfront",
+      "ocean-views",
+      "outdoor-seating",
+      "sunset",
+      "lively",
+      "reservations",
+      "takeaway"
+    ],
+    "website": "https://www.promenadebondibeach.com/",
+    "bookingUrl": "https://www.sevenrooms.com/explore/etheus/reservations/create/search",
+    "menuUrl": "https://www.promenadebondibeach.com/beach-bar-all-day-menu",
+    "summary": "A multi-venue beachfront complex inside Bondi Pavilion, pairing an all-day contemporary-coastal Beach Bar with Etheus, a smarter Greek dining room, both looking straight out over the sand.",
+    "whyGo": "Location is the whole pitch here: you're perched on the Pavilion apron directly above Bondi Beach, which almost no other sit-down kitchen in the precinct can claim. The Beach Bar runs a crowd-pleasing coastal menu of oysters, tuna crudo, wood-fired pizzas and seafood mains that works equally for a casual post-swim lunch or a sunset drinks session, while the newer Etheus dining room (opened September 2025 by House Made Hospitality) takes things upmarket with open-flame Greek meze and charcoal-oven plates. We'd come for the setting first and eat to match the occasion.",
+    "bestFor": "Beachfront lunch, sunset drinks, or a Greek dinner with a view",
+    "whatToOrder": "At the Beach Bar, our pick leans to the raw and wood-fired end — oysters, tuna crudo, burrata and a share pizza with a seafood main. At Etheus, the meze do the talking: saganaki, tirokafteri and kataifi-wrapped prawns before something off the charcoal oven.",
+    "atmosphere": "Bright, breezy and lively by day; more polished and date-worthy at Etheus after dark.",
+    "localTip": "Book the Etheus Verandah or grab a Beach Bar table timed for late afternoon so you're eating as the sun drops behind the Pavilion — the beachfront tables go first, so reserve rather than chancing a walk-in on weekends.",
+    "tradeOff": "You pay a clear premium for the beachfront position, and the Beach Bar enforces a 90-minute table turn at busy times, so it's not the spot for a long, lingering lunch.",
+    "ranking": {
+      "foodScore": 7,
+      "localReputation": 7,
+      "uniqueness": 8,
+      "value": 5,
+      "viewScore": 10,
+      "visitorUsefulness": 9,
+      "kidFriendliness": 6
+    },
+    "score": 7.5,
+    "confidence": "high",
+    "sources": [
+      "https://www.promenadebondibeach.com/",
+      "https://www.promenadebondibeach.com/beach-bar-all-day-menu",
+      "https://www.etheus.sydney/",
+      "https://concreteplayground.com/sydney/restaurants/etheus",
+      "https://eatdrinkplay.com/sydney/etheus-greek-bondi/",
+      "https://www.timeout.com/sydney/news/this-new-restaurant-at-sydneys-most-famous-beach-could-be-australias-answer-to-the-greek-islands-091125",
+      "https://www.gourmettraveller.com.au/restaurant-reviews/the-dining-room-at-promenade-bondi-beach-restaurant-review-21267/"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "taqiza",
+    "name": "Taqiza",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "75-79 Hall Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Mexican",
+      "Latin American"
+    ],
+    "meals": [
+      "brunch",
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "casual",
+      "bar"
+    ],
+    "suitability": [
+      "couples",
+      "groups",
+      "friends",
+      "tourists",
+      "locals"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "attributes": [
+      "reservations",
+      "lively",
+      "walk-ins"
+    ],
+    "website": "https://www.taqiza.com.au/",
+    "instagram": "https://www.instagram.com/taqizamexican/",
+    "summary": "A lively Mexican taqueria and agave bar tucked into the Hub on Hall Street, built around a rotating spread of regional tacos, ceviches and margaritas.",
+    "whyGo": "Run by the Milpa Collective team, Taqiza has been a Bondi fixture for years and reopened as a bigger \"2.0\" just off the main Hall Street strip after a six-year run on Glenayr Avenue. The kitchen goes well beyond the usual, with a dozen tacos spanning meat, seafood and genuinely good plant-based options alongside shared plates like street corn and quesabirria. With resident DJs on vinyl and Latin bands on Sunday sessions, we'd choose this for a colourful, drinks-forward dinner rather than a quiet meal.",
+    "bestFor": "A tacos-and-margaritas night out with friends",
+    "whatToOrder": "Order across the taco board (Baja fish, slow-cooked brisket quesabirria and the vegan chorizo are the signature spread), the tropical guacamole and the tajin street corn to share, washed down with a classic or jalapeno margarita.",
+    "atmosphere": "Colourful, buzzy and bar-leaning, with blush walls, DJ and live Latin sets on weekends",
+    "localTip": "Come on Taco Tuesday, when tacos drop to around $6 with cheap Tecates and margaritas, or book the Saturday bottomless brunch if you want the full party version.",
+    "tradeOff": "It's loud and drinks-driven with no beach view, so it's not the spot for a quiet dinner or a young-family meal.",
+    "ranking": {
+      "foodScore": 8,
+      "localReputation": 8.5,
+      "uniqueness": 7,
+      "value": 6.5,
+      "viewScore": 1.5,
+      "visitorUsefulness": 7.5,
+      "kidFriendliness": 3.5
+    },
+    "score": 7.5,
+    "confidence": "high",
+    "sources": [
+      "https://www.taqiza.com.au/",
+      "https://www.timeout.com/sydney/restaurants/taqiza",
+      "https://concreteplayground.com/sydney/restaurants/taqiza",
+      "https://gourmantic.com/taqiza-bondi-beach/",
+      "https://www.tripadvisor.com.au/Restaurant_Review-g947961-d12700312-Reviews-Taqiza-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://taqiza.wheree.com/",
+      "https://www.atly.com/gluten-free/location/TAQIZA"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "beach-bar-at-promenade-bondi-beach",
+    "name": "Beach Bar at Promenade Bondi Beach",
+    "status": "open",
+    "type": "bar",
+    "precinct": "bondi-beach",
+    "street": "Queen Elizabeth Drive",
+    "address": "Shop 4, Bondi Pavilion, Queen Elizabeth Drive, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Bar",
+      "Modern Australian",
+      "Coastal",
+      "Pizza",
+      "Seafood"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch",
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "bar",
+      "beachfront",
+      "casual"
+    ],
+    "suitability": [
+      "groups",
+      "couples",
+      "tourists",
+      "friends",
+      "families",
+      "solo"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "attributes": [
+      "beachfront",
+      "ocean-views",
+      "outdoor-seating",
+      "sunset",
+      "lively",
+      "dog-friendly",
+      "walk-ins"
+    ],
+    "website": "https://www.promenadebondibeach.com/",
+    "instagram": "https://www.instagram.com/promenadebondibeach/",
+    "menuUrl": "https://www.promenadebondibeach.com/beach-bar-all-day-menu",
+    "summary": "The ocean-facing, walk-in bar terrace inside the restored Bondi Pavilion, pouring cocktails and an all-day coastal menu straight above the sand.",
+    "whyGo": "This is the drinks-and-a-view arm of Promenade Bondi Beach, House Made Hospitality's big Pavilion revival, and it has one of the best positions on the whole beach — an outdoor terrace looking directly over the sand and water. We'd choose it when you want a proper cocktail and something to graze on without committing to the full Etheus dining room next door, and because the terrace is walk-in only it's the spot to aim for on a spur-of-the-moment sunny afternoon. The all-day kitchen means you're covered whether it's a mid-morning bite or a golden-hour session.",
+    "bestFor": "Sunset drinks and grazing straight off the beach",
+    "whatToOrder": "Sydney rock oysters and a cocktail to start, then graze across the wood-fired pizzas, house pastas, or the seafood plates; the shared \"For The Table\" option is the value pick for a group.",
+    "atmosphere": "Relaxed and sun-soaked by day, livelier come evening; open-air terrace with prime beach views.",
+    "localTip": "The terrace is walk-in only, so if you want a front-row table for sunset, come early rather than banking on a booking — reservations run through the Etheus dining room, not the bar.",
+    "tradeOff": "Pavilion-front position and mid-range pricing mean it's neither cheap nor quiet; tables carry a 90-minute limit at busy times.",
+    "ranking": {
+      "foodScore": 7,
+      "localReputation": 7.5,
+      "uniqueness": 7,
+      "value": 5.5,
+      "viewScore": 9.5,
+      "visitorUsefulness": 8.5,
+      "kidFriendliness": 6
+    },
+    "score": 7.4,
+    "confidence": "high",
+    "sources": [
+      "https://www.promenadebondibeach.com/",
+      "https://www.promenadebondibeach.com/beach-bar-all-day-menu",
+      "https://www.instagram.com/promenadebondibeach/",
+      "https://www.gourmettraveller.com.au/dining-out/food-news/promenade-bondi-beach-restaurant-open-20778/",
+      "https://www.timeout.com/sydney/restaurants/promenade-bondi-beach",
+      "https://concreteplayground.com/sydney/restaurants/promenade-bondi-beach"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "gertrude-and-alice-cafe-bookstore",
+    "name": "Gertrude & Alice Cafe Bookstore",
+    "status": "open",
+    "type": "cafe",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "46 Hall Street, Bondi Beach, NSW 2026",
+    "cuisines": [
+      "Cafe",
+      "Breakfast",
+      "Brunch"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "cafe",
+      "casual"
+    ],
+    "suitability": [
+      "solo",
+      "couples",
+      "locals",
+      "tourists",
+      "groups"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "attributes": [
+      "outdoor-seating",
+      "walk-ins",
+      "quiet"
+    ],
+    "website": "https://www.gertrudeandalice.com.au/",
+    "instagram": "https://www.instagram.com/gertrudeandalice",
+    "menuUrl": "https://www.gertrudeandalice.com.au/cafe-menu/",
+    "summary": "A beloved, book-lined Bondi cafe and second-hand bookstore just off Hall Street, serving all-day breakfast, honest lunch plates and its famous chai amid stacks of new and used books.",
+    "whyGo": "This is one of Bondi's genuine institutions — nearly two decades of shelves crammed floor-to-ceiling with new and second-hand books, tables tucked between them, and a warm, unhurried literary feel you won't find in the beach's polished brunch rooms. We'd choose it when we want somewhere to actually linger: read, work, or nurse a pot of their well-known chai without anyone rushing the table. It's the antidote to Campbell Parade's see-and-be-seen crowd.",
+    "bestFor": "Lingering with a book, coffee and a slow solo or two-person breakfast",
+    "whatToOrder": "Our pick is the G&A famous chai served in a pot, alongside a breakfast roll (bacon or the halloumi veggie version) or the avocado smash; leave room for the home-made sweet treats like banana bread.",
+    "atmosphere": "Cosy, bohemian and quietly literary — books on every surface, low-key and unhurried",
+    "localTip": "Come on the earlier side of a weekday morning if you want a table to yourself with a book; weekends fill up and the charm is in staying a while, not queuing for it.",
+    "tradeOff": "It's a block back from the sand with no ocean view, and the busy, browsed-in setting won't suit anyone after a slick, spacious brunch.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 9,
+      "uniqueness": 9,
+      "value": 7,
+      "viewScore": 1,
+      "visitorUsefulness": 8,
+      "kidFriendliness": 5
+    },
+    "score": 7.4,
+    "confidence": "high",
+    "sources": [
+      "https://www.gertrudeandalice.com.au/",
+      "https://www.gertrudeandalice.com.au/cafe-menu/",
+      "https://www.yelp.com/biz/gertrude-and-alice-cafe-bookstore-bondi-beach-2",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d1114110-Reviews-Gertrude_Alice_Cafe_Bookstore-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://www.theurbanlist.com/sydney/directory/gertrude-alice-caf-bookstore",
+      "https://www.broadsheet.com.au/sydney/guides/best-cafes-bondi"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "lox-stock-and-barrel",
+    "name": "Lox Stock & Barrel",
+    "status": "open",
+    "type": "cafe",
+    "precinct": "north-bondi",
+    "street": "Glenayr Avenue",
+    "address": "140 Glenayr Avenue, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Cafe",
+      "Jewish deli",
+      "Brunch"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "cafe",
+      "casual"
+    ],
+    "suitability": [
+      "locals",
+      "couples",
+      "solo",
+      "groups",
+      "families",
+      "tourists"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan"
+    ],
+    "attributes": [
+      "outdoor-seating",
+      "takeaway",
+      "delivery",
+      "reservations",
+      "lively"
+    ],
+    "website": "https://loxstockandbarrel.com.au/",
+    "instagram": "https://www.instagram.com/loxstockandbarrel",
+    "menuUrl": "https://loxstockandbarrel.com.au/",
+    "summary": "A New York–inspired Jewish deli cafe on Glenayr Avenue turning out house-boiled bagels, cured meats and generous all-day brunch a few blocks back from the sand.",
+    "whyGo": "This is the corner of Bondi where the cafe crowd goes for something with a bit more character than smashed avo — bagels boiled and baked on site, pastrami and pickles cured in-house, and a menu that leans into proper deli craft. It's a warm, buzzy neighbourhood room that fills fast with locals on weekends, and the \"farm-to-plate\" kitchen backs up the New York deli theme with real from-scratch cooking. We'd choose it when you want a substantial, characterful brunch rather than a quick beachfront coffee.",
+    "bestFor": "A hearty, characterful deli-style brunch away from the beachfront crush",
+    "whatToOrder": "The house-boiled bagels are the signature — chopped liver or house-cured pastrami on rye are the deli classics to reach for, and the vegetable-forward brunch plates (their sprouted-grain bowls and slow-roasted eggplant) cover the lighter end. Pair it with coffee pulled on their lever-piston machine.",
+    "atmosphere": "Lively, warm and unpretentious neighbourhood deli",
+    "localTip": "It's up on Glenayr Avenue, not on Campbell Parade, so it stays a notch calmer and more local than the beachfront strip — but weekend mornings still get a queue, so come early or be ready to wait for a table.",
+    "tradeOff": "Breakfast and lunch only (roughly 7am–2:30pm) — despite some older listings mentioning dinner, the venue currently runs daytime hours, so it's not an evening option. It's also a short walk from the sand rather than a beachfront view.",
+    "ranking": {
+      "foodScore": 8,
+      "localReputation": 8,
+      "uniqueness": 8,
+      "value": 6.5,
+      "viewScore": 2,
+      "visitorUsefulness": 7,
+      "kidFriendliness": 6.5
+    },
+    "score": 7.4,
+    "confidence": "high",
+    "sources": [
+      "https://loxstockandbarrel.com.au/",
+      "https://www.broadsheet.com.au/sydney/bondi/cafes/lox-stock-and-barrel",
+      "https://www.timeout.com/sydney/restaurants/lox-stock-and-barrel",
+      "https://www.yelp.com/biz/lox-stock-and-barrel-bondi-beach",
+      "https://www.agfg.com.au/restaurant/lox-stock-and-barrel-37498"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "masala-theory",
+    "name": "Masala Theory",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "The Hub, 75/79 Hall Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Indian",
+      "Modern Indian"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "casual",
+      "bar"
+    ],
+    "suitability": [
+      "groups",
+      "couples",
+      "families",
+      "celebrations",
+      "locals",
+      "tourists"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "attributes": [
+      "outdoor-seating",
+      "dog-friendly",
+      "reservations",
+      "lively",
+      "takeaway",
+      "delivery"
+    ],
+    "website": "https://masalatheory.com/indian-restaurant-bondi-beach",
+    "bookingUrl": "https://masalatheory.com/reservations-bondi-beach",
+    "instagram": "https://www.instagram.com/masalatheory",
+    "menuUrl": "https://www.masalatheory.com/pdf/MT-Bondi-Food-menu.pdf",
+    "summary": "A bright, neon-lit \"Neo-Indian\" restaurant on Hall Street reinventing classic Indian dishes as bold, shareable plates.",
+    "whyGo": "This is the Bondi outpost of the popular Surry Hills original, and it brings genuinely inventive cooking rather than another curry house — think chicken curry bombs, koliwada prawns and a strawberry chicken curry the kitchen claims you won't find anywhere else. The room leans hard into a playful cyberpunk-meets-jewel-tone aesthetic (hot pink banquettes, neon signs, gold accents), which makes it a natural fit for a lively group dinner. Vegetarian, vegan and gluten-free options are clearly marked throughout, so mixed-diet tables are easy here.",
+    "bestFor": "Lively group dinners and celebrations over shared Indian plates",
+    "whatToOrder": "The signature sharing plates are the draw — chicken curry bombs (a filled panipuri riff, also vegetarian and vegan), the koliwada-battered prawns, and one of the standout mains like the strawberry chicken curry, burnt onion chicken kari or lamb bunny chow served in a hollowed loaf.",
+    "atmosphere": "Bright, buzzing and colourful — neon, jewel tones and high energy, with indoor seating and a covered outdoor terrace.",
+    "localTip": "The undercover outdoor terrace is dog-friendly, so it's a rare Bondi dinner option if you've got the dog with you after a beach walk. Book ahead for weekend dinners — the room fills and it leans loud.",
+    "tradeOff": "It's firmly in the \"lively and loud\" camp with an energetic fit-out, so it's the wrong pick for a quiet, intimate meal — and there are no ocean views despite the Bondi Beach address.",
+    "ranking": {
+      "foodScore": 8,
+      "localReputation": 7.5,
+      "uniqueness": 8.5,
+      "value": 6.5,
+      "viewScore": 1,
+      "visitorUsefulness": 7.5,
+      "kidFriendliness": 6
+    },
+    "score": 7.4,
+    "confidence": "high",
+    "sources": [
+      "https://masalatheory.com/indian-restaurant-bondi-beach",
+      "https://masalatheory.com/",
+      "https://www.notquitenigella.com/2024/06/04/masala-theory-bondi/",
+      "https://eatdrinkplay.com/sydney/masala-theory-bondi/",
+      "https://www.bestrestaurants.com.au/nsw/sydney/bondi-beach/restaurant/masala-theory-bondi-beach",
+      "https://www.timeout.com/sydney/restaurants/masala-theory-bondi-beach",
+      "https://www.masalatheory.com/pdf/MT-Bondi-Food-menu.pdf"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "ikaria-bondi",
     "name": "Ikaria Bondi",
     "status": "open",
@@ -216,6 +1226,73 @@
       "https://www.timeout.com/sydney/news/this-little-greek-taverna-style-restaurant-has-views-of-a-gorgeous-sydney-beach-plus-a-euro-summer-happy-hour-080125",
       "https://www.opentable.com.au/r/ikaria-reservations-bondi-beach",
       "https://www.instagram.com/ikariabondi/"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "mapo-bondi",
+    "name": "Mapo Bondi",
+    "status": "open",
+    "type": "dessert",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "64-66 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Gelato",
+      "Italian"
+    ],
+    "meals": [
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "takeaway",
+      "casual",
+      "fast-casual"
+    ],
+    "suitability": [
+      "families",
+      "kids",
+      "couples",
+      "groups",
+      "solo",
+      "tourists",
+      "locals"
+    ],
+    "dietary": [
+      "gluten-free"
+    ],
+    "attributes": [
+      "takeaway",
+      "walk-ins"
+    ],
+    "website": "https://www.maponewtown.com/",
+    "instagram": "https://www.instagram.com/mapo_gelato/",
+    "summary": "A serious, no-stabiliser gelateria on Campbell Parade opposite the beach, the Bondi outpost of Newtown's Mapo, scooping organic gelato and sorbet made without preservatives.",
+    "whyGo": "This is the gelato to reach for when you want the real, old-school Italian version rather than a soft-serve novelty. Owner Matteo Pochintesta actually re-tweaked the recipes for Bondi's salty, humid air, and the flavour bench leans on proper provenance: Sicilian pistachio, Piedmont hazelnut, single-origin Bolivian chocolate and Pepe Saya sea-salt caramel. Being directly across from the sand makes it an easy post-swim or post-dinner detour.",
+    "bestFor": "A quality gelato stop straight off the sand",
+    "whatToOrder": "Our pick is the classics that show the sourcing off: fior di latte, Sicilian pistachio, Piedmont hazelnut, the single-origin chocolate and the sea-salt caramel; ask what seasonal fruit sorbets are on that day.",
+    "atmosphere": "Small, design-led shopfront with industrial fit-out (black track lighting, raw brick, plywood) — order-and-go rather than sit-down.",
+    "localTip": "Because there are no stabilisers, it melts fast in the beachside heat — take it in the shade or keep walking, and don't expect it to survive a long stroll down Campbell Parade on a hot afternoon.",
+    "tradeOff": "It's a takeaway window with little to no seating, so it's a grab-and-stroll treat rather than somewhere to linger, and prices sit above supermarket-style scoop shops.",
+    "ranking": {
+      "foodScore": 8,
+      "localReputation": 7.5,
+      "uniqueness": 6.5,
+      "value": 6.5,
+      "viewScore": 3,
+      "visitorUsefulness": 7.5,
+      "kidFriendliness": 8
+    },
+    "score": 7.3,
+    "confidence": "high",
+    "sources": [
+      "https://www.broadsheet.com.au/sydney/food-and-drink/article/newtowns-mapo-gelato-opened-slick-second-store-right-across-road-bondi-beach",
+      "https://www.broadsheet.com.au/sydney/bondi/shops/mapo-bondi",
+      "https://www.maponewtown.com/",
+      "https://www.instagram.com/mapo_gelato/",
+      "https://www.findmeglutenfree.com/biz/mapo-bondi/5657029773754368"
     ],
     "lastVerifiedAt": "2026-08-10"
   },
@@ -436,6 +1513,227 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "glory-days",
+    "name": "Glory Days",
+    "status": "open",
+    "type": "cafe",
+    "precinct": "bondi-beach",
+    "street": "Queen Elizabeth Drive",
+    "address": "Bondi Pavilion, Shop 3, Queen Elizabeth Drive, Bondi Beach NSW 2026",
+    "cuisines": [
+      "All-Day Diner",
+      "Modern Australian",
+      "Californian",
+      "Cafe",
+      "Brunch"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "cafe",
+      "casual",
+      "beachfront"
+    ],
+    "suitability": [
+      "families",
+      "couples",
+      "groups",
+      "tourists",
+      "locals",
+      "solo"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "attributes": [
+      "beachfront",
+      "ocean-views",
+      "outdoor-seating",
+      "takeaway",
+      "reservations",
+      "walk-ins"
+    ],
+    "website": "https://glorydaysbondi.com.au/",
+    "instagram": "https://www.instagram.com/glorydays_bondi/",
+    "summary": "A licensed, beachfront all-day diner inside the restored Bondi Pavilion, serving California-leaning breakfast and lunch with a direct sightline to the surf.",
+    "whyGo": "Its position is the whole pitch: umbrella-shaded patio seats look straight out over Bondi Beach, and the sun-washed terracotta-and-timber fit-out leans into the Pavilion's Spanish architecture. The menu is confident all-day café cooking with a Californian accent rather than standard smashed-avo fare, and being licensed means you can slide from a morning coffee into an oyster-and-a-glass lunch without changing tables. We'd choose this when the view matters as much as the plate and you want a sit-down brunch right on the sand's edge.",
+    "bestFor": "A beachfront sit-down brunch or lunch with an ocean view",
+    "whatToOrder": "Our pick leans to the signatures: the loaded breakfast burrito, the vegetable-forward Goodness Bowl, and at lunch the club chicken sandwich, oysters or the lamb ragu pappardelle. There's also a takeaway coffee window pouring Stitch Coffee if you're just passing.",
+    "atmosphere": "Bright, breezy and beach-facing; buzzy at weekend brunch, more relaxed on a weekday morning.",
+    "localTip": "The takeaway window means you don't have to commit to a table — grab a Stitch coffee to go and walk it along the promenade if the patio has a weekend queue.",
+    "tradeOff": "You're paying a beachfront-Pavilion premium, and reviews flag that service and consistency can wobble when it's slammed — go early if you want the calm version.",
+    "ranking": {
+      "foodScore": 7,
+      "localReputation": 6.5,
+      "uniqueness": 6.5,
+      "value": 5.5,
+      "viewScore": 9,
+      "visitorUsefulness": 8.5,
+      "kidFriendliness": 7
+    },
+    "score": 7.1,
+    "confidence": "high",
+    "sources": [
+      "https://glorydaysbondi.com.au/",
+      "https://www.broadsheet.com.au/sydney/bondi/cafes/glory-days",
+      "https://www.theurbanlist.com/sydney/directory/glory-days-bondi",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d27551081-Reviews-Glory_Days_Bondi-Bondi_Greater_Sydney_New_South_Wales.html"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "speedos-cafe",
+    "name": "Speedos Cafe",
+    "status": "open",
+    "type": "cafe",
+    "precinct": "north-bondi",
+    "street": "Ramsgate Avenue",
+    "address": "126 Ramsgate Avenue, North Bondi NSW 2026",
+    "cuisines": [
+      "Modern Australian",
+      "Cafe",
+      "Brunch",
+      "Healthy"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "cafe",
+      "casual",
+      "beachfront"
+    ],
+    "suitability": [
+      "tourists",
+      "couples",
+      "groups",
+      "families",
+      "solo"
+    ],
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "attributes": [
+      "ocean-views",
+      "beachfront",
+      "lively",
+      "walk-ins"
+    ],
+    "website": "https://speedoscafe.com.au/",
+    "instagram": "https://www.instagram.com/speedoscafe/",
+    "summary": "A famously photogenic, health-leaning brunch cafe perched above the sand at the north end of Bondi, known for vivid smoothie bowls and all-day breakfast with ocean views.",
+    "whyGo": "Speedos has built a global reputation as one of the most Instagrammable cafes anywhere, and the draw is real: a bright beachside room looking out over the North Bondi waves, plus a sprawling menu that swings from classic big breakfasts to raw, vegan and gluten-free plates. We'd choose it when you want the postcard Bondi brunch experience with a view, rather than a quiet local hideaway. It leans as much on colour and setting as on the cooking, but for a first-timer wanting the beach-and-bowl shot, it delivers.",
+    "bestFor": "A photogenic beachside brunch with ocean views",
+    "whatToOrder": "Our pick is the signature pink pitaya (dragonfruit) bowl or a green smoothie bowl; the caramelised banana pancakes, eggs benedict with smoked salmon, and the Protein Power egg-white plate are the crowd favourites.",
+    "atmosphere": "Bright, buzzy and colourful, packed with beachgoers and photo-takers, with prized window seats over the water.",
+    "localTip": "Come early — it opens not long after dawn, and the window and view seats fill fast once the mid-morning brunch crowd arrives, especially on weekends.",
+    "tradeOff": "It trades on looks and location: tables are tight when it's busy, and some visitors feel the styled dishes run pricey for what lands on the plate.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 6.5,
+      "uniqueness": 7.5,
+      "value": 5.5,
+      "viewScore": 8,
+      "visitorUsefulness": 8.5,
+      "kidFriendliness": 6.5
+    },
+    "score": 7,
+    "confidence": "high",
+    "sources": [
+      "https://speedoscafe.com.au/",
+      "https://www.instagram.com/speedoscafe/",
+      "https://www.sydney.com/destinations/sydney/sydney-east/bondi/food-and-drink/speedos",
+      "https://www.yelp.com/biz/speedos-cafe-north-bondi",
+      "https://wanderlog.com/place/details/436551/speedos-cafe",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d1988086-Reviews-Speedo_s_Cafe-Bondi_Greater_Sydney_New_South_Wales.html"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "cali-press",
+    "name": "Cali Press",
+    "status": "open",
+    "type": "cafe",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "2/16 Hall St, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Health food",
+      "Cafe",
+      "Vegetarian",
+      "Juice bar"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "cafe",
+      "casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "locals",
+      "solo",
+      "couples",
+      "tourists"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "attributes": [
+      "outdoor-seating",
+      "takeaway",
+      "delivery"
+    ],
+    "website": "https://www.calipress.com.au/our-locations/bondi-beach",
+    "instagram": "https://www.instagram.com/calipress_au",
+    "menuUrl": "https://calipress.redcatcloud.com.au/app/menu",
+    "summary": "A long-running Hall Street health cafe built around 100% raw cold-pressed juices, superfood smoothies and wholefood bowls, just up from the sand.",
+    "whyGo": "This is one of Bondi's original clean-eating institutions, and it still does the genre better than most of the newer arrivals. The kitchen leans plant-forward and wholefood, with a menu that's largely gluten-free and generous with vegan options, paired with AllPress espresso for anyone who wants an actual coffee alongside their green juice. We'd choose it when you want food that's genuinely nourishing rather than beige \"healthy\" theatre.",
+    "bestFor": "A post-swim clean breakfast, juice run or grab-and-go wholefood lunch",
+    "whatToOrder": "Cold-pressed juices and superfood smoothies are the signatures; the warm grain and veg bowls, acai bowls, and tamari tofu sourdough sandwiches are the food picks, plus tonics and elixirs if you're doing a cleanse.",
+    "atmosphere": "Compact, bright and casual, with a coffee-bar counter and a couple of outdoor tables",
+    "localTip": "If you're coming straight off the beach, grab a large glass-bottle juice to take away rather than eating in, as seating is limited and turns over fast in the morning rush.",
+    "tradeOff": "It's a small footprint with only a handful of seats, so it's more a quick-fuel and takeaway spot than a place to linger over a long brunch.",
+    "ranking": {
+      "foodScore": 7,
+      "localReputation": 8,
+      "uniqueness": 6,
+      "value": 6,
+      "viewScore": 2,
+      "visitorUsefulness": 7,
+      "kidFriendliness": 4
+    },
+    "score": 6.8,
+    "confidence": "high",
+    "sources": [
+      "https://www.calipress.com.au/our-locations/bondi-beach",
+      "https://www.broadsheet.com.au/sydney/food-and-drink/article/cali-press-opens-bondi",
+      "https://bondibeauty.com.au/in-bondi/where-to-eat-clean-in-bondi/",
+      "https://www.happycow.net/reviews/cali-press-bondi-beach-67816",
+      "https://www.findmeglutenfree.com/biz/cali-press/4748542721261568"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "pocket-bondi",
     "name": "Pocket Bondi",
     "status": "open",
@@ -509,6 +1807,146 @@
       "https://www.agfg.com.au/restaurant/pocket-bondi-135101",
       "https://www.tripadvisor.com/Restaurant_Review-g19681254-d33337861-Reviews-Pocket-Bondi_Beach_Waverley_Greater_Sydney_New_South_Wales.html",
       "https://eatdrinkcheap.com.au/sydney/pocket-bondi"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "bondi-boulangerie",
+    "name": "Bondi Boulangerie",
+    "status": "open",
+    "type": "bakery",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "113-115 Hall Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "French bakery",
+      "patisserie",
+      "cafe",
+      "sandwiches"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "bakery",
+      "cafe",
+      "takeaway",
+      "casual"
+    ],
+    "suitability": [
+      "solo",
+      "couples",
+      "families",
+      "tourists",
+      "locals",
+      "groups"
+    ],
+    "dietary": [],
+    "attributes": [
+      "takeaway",
+      "outdoor-seating",
+      "walk-ins"
+    ],
+    "website": "https://www.bondiboulangerie.com.au/",
+    "instagram": "https://www.instagram.com/bondiboulangerie/",
+    "summary": "A French artisan bakery and patisserie on Hall Street, a couple of blocks back from the sand, turning out croissants, pastries, breads, sandwiches and coffee daily.",
+    "whyGo": "This is the kind of no-fuss French bakery Bondi does well: proper laminated pastry, freshly baked baguettes and a counter of quiche and sandwiches that makes it an easy grab-and-go on the walk to the beach. The croissants and pain au chocolat draw the most consistent praise, and the room itself is warm and unpretentious rather than a scene. It is part of a small Sydney group (with Surry Hills and CBD siblings), but the Hall Street shopfront reads as a genuine neighbourhood bakery.",
+    "bestFor": "A morning pastry-and-coffee run before the beach.",
+    "whatToOrder": "Our pick here leans to the viennoiserie: the almond croissant and pain au chocolat, a plain butter croissant to judge the lamination, and a slice of quiche with coffee if you want something more filling. Baguettes and sandwiches are the practical takeaway option.",
+    "atmosphere": "Cosy, warm-lit and casual; a bakery counter rather than a sit-down cafe.",
+    "localTip": "If you're coming straight off the beach, grab pastries here to take across to the sand rather than fighting for a table at the busier campervan-parade cafes; go earlier in the morning while the viennoiserie is at its freshest.",
+    "tradeOff": "It's a bake-counter, not a full-service breakfast cafe, and it closes early (around midday-to-mid-afternoon), so it suits mornings far better than a leisurely late brunch.",
+    "ranking": {
+      "foodScore": 7.5,
+      "localReputation": 7,
+      "uniqueness": 5.5,
+      "value": 7,
+      "viewScore": 2,
+      "visitorUsefulness": 7,
+      "kidFriendliness": 6.5
+    },
+    "score": 6.7,
+    "confidence": "high",
+    "sources": [
+      "https://www.bondiboulangerie.com.au/",
+      "https://www.instagram.com/bondiboulangerie/",
+      "https://www.corner.inc/place/83337",
+      "https://www.tripadvisor.com/Restaurant_Review-g19681254-d25173491-Reviews-Bondi_Boulangerie-Bondi_Beach_Waverley_Greater_Sydney_New_South_Wales.html",
+      "https://www.agfg.com.au/restaurant/bondi-boulangerie-114307",
+      "https://wanderlog.com/place/details/14862267/bondi-boulangerie"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "lulu-bondi",
+    "name": "Lulu",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "75-79 Hall Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Pan-Asian",
+      "Japanese",
+      "Korean",
+      "Thai",
+      "Vietnamese",
+      "Chinese"
+    ],
+    "meals": [
+      "lunch",
+      "brunch",
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "casual",
+      "bar"
+    ],
+    "suitability": [
+      "couples",
+      "groups",
+      "friends",
+      "locals",
+      "celebrations"
+    ],
+    "dietary": [],
+    "attributes": [
+      "outdoor-seating",
+      "lively",
+      "reservations",
+      "late-night"
+    ],
+    "website": "https://theharrysfamily.com.au/lulu",
+    "instagram": "https://www.instagram.com/lulubondi_/",
+    "summary": "A polished, pink-hued Pan-Asian bar and restaurant on Hall Street from the long-standing Raw Bar team, serving Japanese-anchored small plates, sushi and shared mains from post-beach spritzes through to late-night dinners.",
+    "whyGo": "Lulu is Raw Bar's more playful sibling, taking the 30-year Bondi sushi pedigree and pushing it across Korea, Thailand, Vietnam and China with heat and personality. Executive chef Shintaro Honda (ex-Raw Bar) and head chef Bryan O'Callaghan build a menu made for sharing, from crisp Hokkaido prawn-and-scallop toast to wagyu with sansho pepper, in a warm golden room with plush pink walls and a marble bar. We'd choose this for a lively group dinner or a date night that stretches later than planned, backed by proper cocktails rather than a rushed beachfront turnover.",
+    "bestFor": "Group dinners and date nights with cocktails",
+    "whatToOrder": "Our pick is the signature Hokkaido prawn-and-scallop toast, plus the Lulu fried chicken and something off the raw/sushi side (nigiri, sashimi or a spicy salmon roll) that nods to the Raw Bar heritage; wagyu with sansho and Peking chicken anchor the larger shared plates, and the miso caramel monaka is the dessert to finish on.",
+    "atmosphere": "Warm, lively and polished — a golden, pink-walled room with marble bar and banquette seating.",
+    "localTip": "It's on Hall Street rather than the beachfront, so come for the food and drinks rather than a view — and it leans into the neighbourhood with weekday deals like $2 gyoza nights and weekend bottomless brunch, worth checking their socials before you book.",
+    "tradeOff": "No ocean views and a share-plate format that adds up quickly — this is a mid-to-upper spend night out, not a cheap post-swim bite.",
+    "ranking": {
+      "foodScore": 7.5,
+      "localReputation": 7,
+      "uniqueness": 6.5,
+      "value": 6,
+      "viewScore": 1,
+      "visitorUsefulness": 7,
+      "kidFriendliness": 4
+    },
+    "score": 6.7,
+    "confidence": "high",
+    "sources": [
+      "https://www.timeout.com/sydney/restaurants/lulu",
+      "https://www.broadsheet.com.au/sydney/food-and-drink/article/dine-prawn-scallop-toast-wow-factor-standout-wagyu-lulu-pan-asian-bondi-restaurant",
+      "https://theharrysfamily.com.au/lulu",
+      "https://www.instagram.com/lulubondi_/",
+      "https://www.tripadvisor.com/Restaurant_Review-g19681254-d25969570-Reviews-Lulu-Bondi_Beach_Waverley_Greater_Sydney_New_South_Wales.html"
     ],
     "lastVerifiedAt": "2026-08-10"
   },
@@ -587,6 +2025,136 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "arabica-bondi",
+    "name": "% Arabica",
+    "status": "open",
+    "type": "cafe",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "Corner of Hall Street and Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Specialty coffee",
+      "Cafe"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "cafe",
+      "casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "couples",
+      "solo",
+      "tourists",
+      "locals",
+      "groups"
+    ],
+    "dietary": [],
+    "attributes": [
+      "takeaway",
+      "walk-ins"
+    ],
+    "website": "https://arabica.com",
+    "summary": "The Kyoto-born specialty coffee brand % Arabica's first Australian flagship, on the landmark Hall Street and Campbell Parade corner in the heart of Bondi Beach.",
+    "whyGo": "% Arabica arrives in Bondi as a genuine event for coffee people: a globally minimalist, design-led roaster known for direct-trade single-origin beans, Slayer espresso machines and a pared-back aesthetic that lets the coffee do the talking. We'd choose this for a considered flat white or one of the brand's signature milk drinks rather than a sit-down feed, and its position on the busy Hall Street corner, a short walk up from the sand, makes it an easy stop on the way to or from the beach. It's a marquee opening in a precinct already thick with cafes, so expect a queue and a scene in the early days.",
+    "bestFor": "A design-led specialty coffee on the way to or from the beach",
+    "whatToOrder": "The house espresso and flat white are the obvious anchors; % Arabica is also known internationally for its Spanish Latte and Kyoto Latte, plus iced coffee and matcha for the walk-down-to-the-sand crowd.",
+    "atmosphere": "Minimalist, calm and pared-back; grab-and-go energy on a busy corner.",
+    "localTip": "This is a coffee-forward roaster, not a brunch kitchen, so pair it with a proper meal elsewhere on Hall Street and treat % Arabica as the coffee stop. As a brand-new flagship, check its live listing for current hours before making a special trip.",
+    "tradeOff": "Premium pricing and a coffee-and-pastry focus rather than a full food menu, and as a just-opened flagship expect crowds and settling-in teething.",
+    "ranking": {
+      "foodScore": 7,
+      "localReputation": 6,
+      "uniqueness": 8,
+      "value": 5,
+      "viewScore": 4,
+      "visitorUsefulness": 7,
+      "kidFriendliness": 3
+    },
+    "score": 6.6,
+    "confidence": "low",
+    "sources": [
+      "https://bondibeachnews.com.au/bondi-beach-to-welcome-japanese-coffee-giant-arabica-in-2025/",
+      "https://insideretail.com.au/stores/arabica-to-launch-first-store-in-australia-202504",
+      "https://www.beanscenemag.com.au/arabica-to-open-australian-flagship/",
+      "https://www.gcrmag.com/arabica-set-to-open-first-store-in-australia/",
+      "https://qsrmedia.com/new-concepts/news/japanese-specialty-coffee-chain-arabica-open-flagship-in-australia",
+      "https://qahwaworld.com/news/arabica-to-open-first-australian-flagship-in-bondi/",
+      "https://en.wikipedia.org/wiki/%25_Arabica",
+      "https://arabica.com"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "field-to-fork",
+    "name": "Field to Fork",
+    "status": "open",
+    "type": "takeaway",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "LG07/75 Hall Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Deli / Providore",
+      "Butcher",
+      "South African"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "takeaway",
+      "market",
+      "casual"
+    ],
+    "suitability": [
+      "locals",
+      "families",
+      "groups"
+    ],
+    "dietary": [
+      "gluten-free"
+    ],
+    "attributes": [
+      "takeaway",
+      "delivery"
+    ],
+    "website": "https://www.fieldtofork.net.au/location/bondi/",
+    "instagram": "https://www.instagram.com/field_to_fork/",
+    "menuUrl": "https://www.fieldtofork.net.au/",
+    "summary": "A family-run butcher, deli and gourmet providore in The Hub on Hall Street, selling grass-fed meats, house-made South African biltong and ready-to-eat homestyle meals to take away.",
+    "whyGo": "This is the Bondi spot we'd point locals to when they want a proper butcher and a providore under one roof rather than a sit-down meal. Alongside the full display of grass-fed steaks, roasts and house-made sausages, they turn out prepared food you can carry home — slow-roasted lamb shoulders, farmhouse roast chickens, lasagna and fresh sandwiches — plus a three-generation line of in-house South African biltong, droewors and boerewors. Our pick here is treating it as your self-catering headquarters for a beach apartment or a picnic on the sand.",
+    "bestFor": "Self-catering, picnics and quality meat for a home-cooked dinner",
+    "whatToOrder": "House-made biltong and droewors, the grass-fed steaks and roasts, and prepared meals like slow-roasted lamb shoulder, roast chicken or a fresh made-to-order sandwich.",
+    "atmosphere": "Bustling, no-fuss butcher-and-deli counter inside the Hall Street Hub food precinct.",
+    "localTip": "If you're staying in a Bondi apartment or heading for a picnic, grab a roast chicken and some sides here rather than eating out — and pick up biltong for a high-protein beach snack.",
+    "tradeOff": "It's a takeaway providore and butcher, not a restaurant — there's no dining room, table service or beach view, so it suits stocking up rather than a sit-down meal.",
+    "ranking": {
+      "foodScore": 7.5,
+      "localReputation": 7.5,
+      "uniqueness": 7,
+      "value": 6.5,
+      "viewScore": 0,
+      "visitorUsefulness": 5.5,
+      "kidFriendliness": 5
+    },
+    "score": 6.6,
+    "confidence": "high",
+    "sources": [
+      "https://www.fieldtofork.net.au/location/bondi/",
+      "https://www.thehubhallstreet.com.au/",
+      "https://www.zestapp.com.au/caterers/field-to-fork-butcher/bc06dcd1-4fd4-4be4-a677-a193c768eaa4",
+      "https://www.ubereats.com/au/store/field-to-fork-bondi/m54lBcgvV1yRExsqWDyirw",
+      "https://www.facebook.com/fieldtoforkbondi/"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "yo-chi-bondi-beach",
     "name": "Yo-Chi Bondi Beach",
     "status": "open",
@@ -654,6 +2222,425 @@
       "https://www.ubereats.com/au/store/yo-chi-frozen-yogurt-bondi-beach/5JegH-LwVO-9Y-uWvPx7WQ",
       "https://sydneytimes.net.au/st-food-wine-guide/yo-chi-makes-waves-in-bondi-beach/",
       "https://www.tiktok.com/@foodsfortwo/video/7389181918308322567"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "cafe-bondi",
+    "name": "Cafe Bondi",
+    "status": "open",
+    "type": "cafe",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "286 Campbell Parade, North Bondi NSW 2026",
+    "cuisines": [
+      "Modern Australian",
+      "Cafe",
+      "Brunch"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "cafe",
+      "casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "families",
+      "kids",
+      "couples",
+      "solo",
+      "tourists",
+      "locals",
+      "groups"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "attributes": [
+      "ocean-views",
+      "outdoor-seating",
+      "dog-friendly",
+      "takeaway",
+      "byo",
+      "walk-ins",
+      "lively"
+    ],
+    "website": "https://www.cafebondi.com.au/",
+    "instagram": "https://www.instagram.com/cafebondiau/",
+    "menuUrl": "https://www.cafebondi.com.au/menu",
+    "summary": "A bright, all-day Modern Australian cafe at the North Bondi end of Campbell Parade, doing crowd-pleasing brunch and daytime cocktails with an alfresco outlook across to the beach.",
+    "whyGo": "This is the kind of easy beachside brunch we'd send anyone to when they want reliable eggs, good coffee and a view without a fuss. Run by the Sydney Restaurant Group, it pairs a familiar Modern Australian menu — bennies, smashed avo, bowls, burgers — with a genuinely fun daytime drinks list, so you can slide from a flat white into an Aperol Spritz or Bloody Mary without moving. Post-refurb it added olive trees, a herb garden and kerbside alfresco seating, which makes it a comfortable perch on the quieter North Bondi stretch.",
+    "bestFor": "Relaxed beachside brunch with a daytime cocktail",
+    "whatToOrder": "Eggs benedict and smashed avocado are the go-to brunch plates; corn fritters, the acai bowl and French toast round it out, with an oat flat white for coffee and a Bloody Mary or Espresso Martini if you're settling in.",
+    "atmosphere": "Bright, casual and social, with indoor seats and greenery-framed kerbside tables.",
+    "localTip": "It doesn't take bookings and runs first-come, first-served, so if you want the alfresco tables with the beach outlook, aim for early morning before the North Bondi brunch crowd fills them; you can also order ahead online to skip the queue for takeaway.",
+    "tradeOff": "It's a well-executed but fairly conventional Bondi brunch cafe rather than a destination kitchen, and it sits across the road from the sand — you get the views, not a true beachfront table.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 6.5,
+      "uniqueness": 4.5,
+      "value": 6,
+      "viewScore": 7,
+      "visitorUsefulness": 7.5,
+      "kidFriendliness": 7.5
+    },
+    "score": 6.4,
+    "confidence": "high",
+    "sources": [
+      "https://www.cafebondi.com.au/",
+      "https://www.cafebondi.com.au/menu",
+      "https://www.instagram.com/cafebondiau/",
+      "https://www.theurbanlist.com/sydney/directory/cafe-bondi-north-bondi",
+      "https://evendo.com/locations/australia/sydney/attraction/cafe-bondi",
+      "https://eatdrinkplay.com/venue/cafe-bondi/",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d23068280-Reviews-Cafe_Bondi-Bondi_Greater_Sydney_New_South_Wales.html"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "gusto-espresso-bar",
+    "name": "Gusto Espresso Bar",
+    "formerName": "Gusto Deli Cafe",
+    "status": "open",
+    "type": "cafe",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "16 Hall Street, Bondi NSW 2026",
+    "cuisines": [
+      "Cafe",
+      "Deli",
+      "Coffee",
+      "Breakfast"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "cafe",
+      "casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "locals",
+      "solo",
+      "couples",
+      "tourists"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan"
+    ],
+    "attributes": [
+      "outdoor-seating",
+      "takeaway",
+      "delivery"
+    ],
+    "website": "https://www.gustoespressobar.com.au/",
+    "instagram": "https://www.instagram.com/gustoespressobar/",
+    "summary": "A no-frills Hall Street espresso bar and deli-style cafe that's been caffeinating Bondi since the early '90s, built for takeaway coffee and a quick brekkie roll on the walk to the beach.",
+    "whyGo": "This is one of the original Bondi coffee shops — a genuine neighbourhood institution more than 20 years deep, from an era when decent espresso by the beach was a novelty. We'd choose it over the influencer brunch rooms when you want a strong, reliable coffee and a hot roll without the queue or the theatre. It trades on being a locals' fixture rather than a destination, and that's exactly the point.",
+    "bestFor": "A quick, reliable coffee-and-roll on the way to the sand",
+    "whatToOrder": "Espresso-based coffee is the reason to come; pair it with a made-to-order brekkie roll, shakshuka, bircher muesli, an acai bowl, or grab a fresh pie or salad from the deli counter.",
+    "atmosphere": "Rustic, relaxed, unpretentious — a working local espresso bar with a handful of footpath seats on Hall Street.",
+    "localTip": "Order your coffee to take away and drink it on the short downhill walk to the promenade — this is a grab-and-go spot at heart, not a lingering brunch destination, and the footpath seating is limited.",
+    "tradeOff": "Reviews on the food are mixed — some find the plates simple or portions modest — so come for the coffee and quick eats rather than a standout sit-down meal.",
+    "ranking": {
+      "foodScore": 6,
+      "localReputation": 7.5,
+      "uniqueness": 5.5,
+      "value": 7,
+      "viewScore": 2,
+      "visitorUsefulness": 6.5,
+      "kidFriendliness": 5
+    },
+    "score": 6.3,
+    "confidence": "medium",
+    "sources": [
+      "https://www.broadsheet.com.au/sydney/bondi/cafes/gusto",
+      "https://www.gustoespressobar.com.au/our-story/",
+      "https://www.yelp.com/biz/gusto-bondi-bondi",
+      "https://www.instagram.com/gustoespressobar/",
+      "https://www.theurbanlist.com/sydney/directory/gusto-espresso-bar-bondi-beach",
+      "https://www.ubereats.com/au/store/gusto-espresso-bar-bondi/9jEFpKldX8y_6B0QIWlhzg"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "bangkok-bites",
+    "name": "Bangkok Bites",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "95 Hall Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Thai"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "families",
+      "groups",
+      "couples",
+      "solo",
+      "locals"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "attributes": [
+      "byo",
+      "takeaway",
+      "delivery",
+      "lively"
+    ],
+    "website": "https://bangkokbites.com.au/store/bondi-beach/",
+    "instagram": "https://www.facebook.com/BangkokBites/",
+    "menuUrl": "https://bangkokbites.com.au/store/bondi-beach/",
+    "summary": "A long-running, BYO Thai street-food restaurant on Hall Street doing generous curries, stir-fries and noodles for dine-in, takeaway and delivery a block back from the sand.",
+    "whyGo": "This is the original Bangkok Bites, open on Hall Street since 2012 and still the neighbourhood go-to for a reliable, wallet-friendly Thai feed. The menu is broad and street-food-driven — curries, wok stir-fries, noodles and duck dishes — and the BYO policy (small corkage) makes it an easy choice for a casual group dinner without a licensed-venue markup. We'd choose it when we want a satisfying, no-fuss meal near the beach rather than a scene.",
+    "bestFor": "Casual, good-value Thai near the beach — dine-in or takeaway",
+    "whatToOrder": "Our pick here is the classics the kitchen is known for — Pad Thai, cashew nut chicken, a Massaman or other curry, and the duck dishes; Tom Yum and Crying Tiger show up on the street-food side of the menu.",
+    "atmosphere": "Lively, casual neighbourhood restaurant with an open kitchen",
+    "localTip": "It's BYO with only a small corkage, so grab a bottle from a nearby Hall Street bottle shop before you sit down — and if you're not dining in, the takeaway and delivery turnaround is quick.",
+    "tradeOff": "Lunch is limited to Friday through Sunday, so it's a dinner venue most of the week; it's a block back from Campbell Parade, so there are no ocean views.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 7,
+      "uniqueness": 4.5,
+      "value": 7.5,
+      "viewScore": 0,
+      "visitorUsefulness": 6,
+      "kidFriendliness": 6.5
+    },
+    "score": 6,
+    "confidence": "high",
+    "sources": [
+      "https://bangkokbites.com.au/store/bondi-beach/",
+      "https://bangkokbites.com.au/",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d4040152-Reviews-Bangkok_Bites-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://www.yelp.com/biz/bangkok-bites-bondi",
+      "https://www.weekendnotes.com/bangkok-bites-bondi-beach/",
+      "https://www.agfg.com.au/restaurant/bangkok-bites-50651"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "cafe-bikini",
+    "name": "Cafe Bikini",
+    "status": "open",
+    "type": "bar",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "51 Hall Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Tapas",
+      "Australian",
+      "Bar food"
+    ],
+    "meals": [
+      "lunch",
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "bar",
+      "casual",
+      "cafe"
+    ],
+    "suitability": [
+      "groups",
+      "couples",
+      "solo",
+      "tourists",
+      "locals"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan"
+    ],
+    "attributes": [
+      "outdoor-seating",
+      "lively",
+      "takeaway",
+      "delivery",
+      "walk-ins"
+    ],
+    "instagram": "https://www.instagram.com/cafebikini/",
+    "summary": "A cheeky, cheap cafe-bar a block back from the sand on Hall Street, trading tapas-style plates and stiff cocktails from midday into the night.",
+    "whyGo": "Billing itself as \"the official home of bad decisions\", Cafe Bikini is the kind of loose, lively Hall Street spot you fall into after the beach rather than plan around — shareable tapas, sangria by the jug and a well-made dirty martini at prices that stay friendly. We'd choose it for an unfussy afternoon-into-evening session with a group when you want somewhere with a pulse but not a dress code. The mix of bar snacks and a few more considered plates (the Beyond Beef vegan burger gets singled out) makes it easy to graze.",
+    "bestFor": "Post-beach drinks and grazing with a group",
+    "whatToOrder": "Tapas-style small plates to share, the Beyond Beef vegan burger, and sangria or cocktails — the dirty martini is the one regulars name-check.",
+    "atmosphere": "Loud, eclectic and casual, with an open street frontage for people-watching.",
+    "localTip": "Don't come expecting a breakfast cafe despite the name — it opens around midday and runs late, so treat it as a drinks-and-graze spot rather than a morning-coffee stop.",
+    "tradeOff": "No ocean views and it's more raucous bar than quiet cafe — not the pick for a calm morning coffee or for young kids.",
+    "ranking": {
+      "foodScore": 6,
+      "localReputation": 6,
+      "uniqueness": 5,
+      "value": 7,
+      "viewScore": 2,
+      "visitorUsefulness": 6,
+      "kidFriendliness": 2
+    },
+    "score": 5.8,
+    "confidence": "medium",
+    "sources": [
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d4791460-Reviews-Cafe_Bikini-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://www.yelp.com/biz/cafe-bikini-bondi-beach",
+      "https://www.instagram.com/cafebikini/",
+      "https://sydneylocalista.com.au/listing/cafe-bikini?place=bondi+beach,+nsw,+au",
+      "https://www.whereis.com/nsw/bondi-beach-2026/yellowId-14530331",
+      "https://restaurantguru.com/3-JJJ-Cafe-Bondi"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "grilld-bondi-beach",
+    "name": "Grill'd Bondi Beach",
+    "status": "open",
+    "type": "takeaway",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "89-93 Hall Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Burgers",
+      "Australian",
+      "Healthy"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "fast-casual",
+      "casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "families",
+      "kids",
+      "groups",
+      "solo",
+      "tourists",
+      "locals"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "attributes": [
+      "takeaway",
+      "delivery",
+      "walk-ins",
+      "outdoor-seating"
+    ],
+    "website": "https://grilld.com.au/restaurants/new-south-wales/bondi-beach",
+    "menuUrl": "https://www.grilld.com.au/menu/grilld-bondi-beach",
+    "summary": "The Bondi Beach outpost of the Australian healthy-burger chain, a corner site on Hall Street doing chargrilled beef, chicken and plant-based burgers a short walk back from the sand.",
+    "whyGo": "We'd point you here when you want a burger that won't wreck the rest of the day: Grill'd builds them on the leaner, fresher side, with genuine vegan and gluten-free bun options rather than an afterthought. It's a reliable, well-run chain rather than a Bondi original, but the Hall Street location is handy, the plant-based range is real, and it's one of the easier crowd-pleasers when a group can't agree. If you're coming straight off the beach and want something quick, filling and not deep-fried, it does the job.",
+    "bestFor": "Quick casual burgers for mixed groups, families and plant-based eaters",
+    "whatToOrder": "Our pick here is a classic chargrilled beef burger or one of the plant-based patties; the herbed or sweet-potato chips are the standard sides, and gluten-free buns are available on request.",
+    "atmosphere": "Casual, bright fast-casual counter service with some outdoor seating",
+    "localTip": "Ask for the gluten-free bun to be toasted on the grill rather than the shared toaster if you're coeliac, and grab your order to take the two-minute walk down to the beachfront rather than eating in.",
+    "tradeOff": "It's a national chain, not a one-off Bondi kitchen, so you're here for reliability and dietary flexibility rather than a distinctive local experience.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 6,
+      "uniqueness": 3,
+      "value": 6,
+      "viewScore": 2,
+      "visitorUsefulness": 6.5,
+      "kidFriendliness": 8
+    },
+    "score": 5.7,
+    "confidence": "high",
+    "sources": [
+      "https://grilld.com.au/restaurants/new-south-wales/bondi-beach",
+      "https://www.ubereats.com/au/store/grilld-bondi-beach/IGN9MQzrVaCCEJN-aQ7Orw",
+      "https://www.zmenu.com/grilld-bondi-beach-bondi-beach-online-menu/",
+      "https://www.findmeglutenfree.com/chains/5847402274095104/grilld-au",
+      "https://www.doordash.com/store/grill'd-bondi-beach-26326939/"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "sushi-st",
+    "name": "Sushi St",
+    "status": "open",
+    "type": "takeaway",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "76 Hall St, Bondi NSW 2026",
+    "cuisines": [
+      "Japanese",
+      "Sushi"
+    ],
+    "meals": [
+      "lunch",
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "takeaway",
+      "casual"
+    ],
+    "suitability": [
+      "couples",
+      "solo",
+      "groups",
+      "locals",
+      "tourists"
+    ],
+    "dietary": [],
+    "attributes": [
+      "takeaway",
+      "delivery",
+      "reservations"
+    ],
+    "summary": "A tiny, well-regarded Japanese sushi spot on Hall Street doing fresh, affordable rolls and share plates for takeaway or a squeeze-in dinner.",
+    "whyGo": "If you're a block back from the sand and want good-value sushi without the beachfront markup, this is a reliable little Hall Street pick. Reviewers consistently call out fresh fish, generous share plates and quick service in a genuinely cute, pocket-sized room. We'd choose it for a low-key weeknight dinner or a takeaway box to carry down to the grass at the beach.",
+    "bestFor": "Fresh, affordable sushi for takeaway or a casual weeknight dinner",
+    "whatToOrder": "Sushi and sashimi rolls plus the Japanese share plates the kitchen is known for.",
+    "atmosphere": "Snug, casual and friendly — a genuinely small neighbourhood room.",
+    "localTip": "The room is tiny and dinner-focused, so if you want a table rather than takeaway, call ahead or arrive early in the evening before the after-beach crowd fills the few seats.",
+    "tradeOff": "It's a small space with rolls on the compact side — great for a quick fix, less so for a lingering group dinner.",
+    "ranking": {
+      "foodScore": 7,
+      "localReputation": 6,
+      "uniqueness": 4,
+      "value": 7,
+      "viewScore": 1,
+      "visitorUsefulness": 5,
+      "kidFriendliness": 3
+    },
+    "score": 5.7,
+    "confidence": "medium",
+    "sources": [
+      "https://www.yelp.com/biz/sushi-st-bondi",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d3933066-Reviews-Sushi_St-Bondi_Greater_Sydney_New_South_Wales.html"
     ],
     "lastVerifiedAt": "2026-08-10"
   }

@@ -52,5 +52,23 @@
       "https://www.tripadvisor.com/Restaurant_Review-g947961-d4053146-Reviews-Aquabar-Bondi_Greater_Sydney_New_South_Wales.html",
       "https://foursquare.com/v/bondi-aqua-bar/4c93ff3672dd224b61f09591"
     ]
+  },
+  {
+    "name": "Pasticceria Papa",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://bondibeachnews.com.au/bondi-farewells-beloved-pasticceria-papa-after-a-decade-of-delights/",
+      "https://bakingbusiness.com.au/pasticceria-papa-closes-bondi-beach-location-after-a-decade/"
+    ]
+  },
+  {
+    "name": "Bondi Bowl",
+    "status": "not-found",
+    "note": "",
+    "sources": [
+      "https://bondisbest.com.au/eat-drink/acai/",
+      "https://bondibowls.com/"
+    ]
   }
 ]
