@@ -1205,6 +1205,81 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "carbon-mexican-woodfire",
+    "name": "Carbón",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-road",
+    "street": "Bondi Road",
+    "address": "288 Bondi Road, Bondi, NSW 2026",
+    "cuisines": [
+      "Mexican",
+      "Woodfire grill",
+      "Latin American"
+    ],
+    "meals": [
+      "brunch",
+      "lunch",
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "casual",
+      "bar"
+    ],
+    "suitability": [
+      "couples",
+      "groups",
+      "celebrations",
+      "tourists",
+      "locals"
+    ],
+    "dietary": [
+      "gluten-free"
+    ],
+    "attributes": [
+      "outdoor-seating",
+      "reservations",
+      "walk-ins",
+      "lively",
+      "romantic"
+    ],
+    "website": "https://www.carbonmexican.com.au/",
+    "bookingUrl": "https://www.opentable.com/r/carbon-mexican-woodfire-bondi",
+    "instagram": "https://www.instagram.com/carbonmexican",
+    "menuUrl": "https://www.carbonmexican.com.au/menus",
+    "summary": "A hacienda-inspired Mexican restaurant on Bondi Road where the whole kitchen orbits a woodfire grill, turning out charcoal-kissed tacos, share plates and wagyu steaks.",
+    "whyGo": "This is the Bondi Road pick when you want Mexican that goes well beyond the usual taco-and-margarita template — Mexico City-born chef-owners cook over a mesquite-fed parrilla, sealing meats, seafood and house-made corn tortillas in wood smoke. The room is an intimate, candlelit space dressed in Mexican textiles, and the drinks list leans into proper mezcal and tequila alongside signature margaritas. We'd choose it for a lively dinner with friends or a date that wants a bit more depth than a quick burrito.",
+    "bestFor": "Woodfire Mexican for a lively group dinner or a date night",
+    "whatToOrder": "Start with share plates from the \"Para Compartir\" section — guacamole and fresh oysters — then build tacos from the house-made corn tortillas (barbacoa and seafood fillings are the signatures). If you're settling in, the wood-fired steaks and slow-roasted meats like suckling pig or lamb shoulder are the reason the grill exists. Order a jalapeño or violeta margarita, or work through the mezcal list.",
+    "atmosphere": "Intimate, candlelit and buzzy — white walls, dark timber and smoke from the open grill.",
+    "localTip": "Come on a Tuesday for Taco Tuesday ($5 tacos, $15 margaritas) if you want the food on a budget — but book ahead for weekend dinners and the bottomless brunch, because the 60-odd seats fill fast.",
+    "tradeOff": "It sits up on Bondi Road rather than by the sand, so there are no ocean views, and it's pitched a notch above cheap-and-cheerful on price.",
+    "ranking": {
+      "foodScore": 8,
+      "localReputation": 8,
+      "uniqueness": 7.5,
+      "value": 6,
+      "viewScore": 1,
+      "visitorUsefulness": 8,
+      "kidFriendliness": 5
+    },
+    "score": 7.5,
+    "confidence": "high",
+    "sources": [
+      "https://www.carbonmexican.com.au/",
+      "https://www.carbonmexican.com.au/menus",
+      "https://www.broadsheet.com.au/sydney/bondi/restaurants/carbon-mexican-wood-fire",
+      "https://concreteplayground.com/sydney/restaurants/carbon-mexican",
+      "https://www.opentable.com/r/carbon-mexican-woodfire-bondi",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d15101283-Reviews-Carbon_Mexican_Wood_Fire-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://www.atly.com/gluten-free/location/CarbonMexicanWoodfireRestaurantBondi",
+      "https://carbon-mexican-woodfire-restaurant-bondi.wheree.com/"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "china-diner",
     "name": "China Diner",
     "formerName": "China Diner (Hall Street)",
@@ -2352,6 +2427,78 @@
       "https://www.timeout.com/sydney/news/this-little-greek-taverna-style-restaurant-has-views-of-a-gorgeous-sydney-beach-plus-a-euro-summer-happy-hour-080125",
       "https://www.opentable.com.au/r/ikaria-reservations-bondi-beach",
       "https://www.instagram.com/ikariabondi/"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "little-l",
+    "name": "Little-L Chicken & Burgers",
+    "formerName": "Olie's Grilled Chicken",
+    "status": "open",
+    "type": "takeaway",
+    "precinct": "north-bondi",
+    "street": "Campbell Parade",
+    "address": "1/23-37 Campbell Parade, North Bondi NSW 2026",
+    "cuisines": [
+      "Burgers",
+      "Chicken",
+      "Fast Food"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "fast-casual",
+      "takeaway",
+      "casual"
+    ],
+    "suitability": [
+      "families",
+      "kids",
+      "groups",
+      "solo",
+      "tourists",
+      "locals"
+    ],
+    "dietary": [],
+    "attributes": [
+      "takeaway",
+      "delivery",
+      "walk-ins"
+    ],
+    "website": "https://little-l.com.au",
+    "bookingUrl": "https://www.ubereats.com/au/store/little-l-north-bondi/vOEq9RAdTgKf13Aur3MKbQ",
+    "instagram": "https://www.instagram.com/littlelburgers/",
+    "menuUrl": "https://little-l.com.au/menu/",
+    "summary": "Long-running North Bondi chicken-burger specialist on Campbell Parade doing grilled and fried chicken burgers, wraps, wings and loaded fries for around $15 a plate.",
+    "whyGo": "This is one of North Bondi's genuine old-timers, flipping chicken burgers since 2007. We'd choose it for a proper feed at a fair price over a designed-for-Instagram burger, and the loyalty in its reviews shows it delivers consistently.",
+    "bestFor": "A cheap, reliable post-beach chicken-burger feed",
+    "whatToOrder": "Their reason-for-being is the chicken burgers (grilled or fried) — the Ben Buckler is the one locals name, and there are wraps for a lighter option plus wings and loaded fries to round it out.",
+    "atmosphere": "Casual, unpretentious takeaway shopfront",
+    "localTip": "Order ahead on the app or by phone at peak times — it's a small kitchen and the counter gets a queue on warm evenings when everyone's drifting up from the beach.",
+    "tradeOff": "It's a workaday takeaway counter, not a sit-down destination — you're here for the burger, not the view or the room.",
+    "ranking": {
+      "foodScore": 7.5,
+      "localReputation": 8,
+      "uniqueness": 6,
+      "value": 7.5,
+      "viewScore": 2,
+      "visitorUsefulness": 8,
+      "kidFriendliness": 8
+    },
+    "score": 7.3,
+    "confidence": "high",
+    "sources": [
+      "https://little-l.com.au/stores/bondi/",
+      "https://little-l.com.au/menu/",
+      "https://little-l.com.au/about/",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d5801526-Reviews-Little_L-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://www.ubereats.com/au/store/little-l-north-bondi/vOEq9RAdTgKf13Aur3MKbQ",
+      "https://www.instagram.com/littlelburgers/",
+      "https://www.qthotels.com/bondi-beach/things-to-do/little-l-chicken-burgers/",
+      "https://www.yellowpages.com.au/nsw/north-bondi/little-l-13550804-listing.html"
     ],
     "lastVerifiedAt": "2026-08-10"
   },
@@ -4421,6 +4568,75 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "bar-pho",
+    "name": "Bar Pho",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "north-bondi",
+    "street": "Warners Avenue",
+    "address": "132 Warners Avenue, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Vietnamese"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "families",
+      "couples",
+      "solo",
+      "locals",
+      "groups"
+    ],
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "attributes": [
+      "takeaway",
+      "delivery",
+      "walk-ins"
+    ],
+    "website": "https://www.barpho.com.au/",
+    "instagram": "https://www.instagram.com/barpho/",
+    "menuUrl": "https://bar-pho-bondi.square.site/",
+    "summary": "A relaxed North Bondi neighbourhood Vietnamese spot on Warners Avenue built around some of the better pho in the eastern suburbs, plus rice paper rolls, salads and small bites.",
+    "whyGo": "This is the kind of unfussy, family-recipe Vietnamese kitchen we'd steer you to when you want a warming, well-priced meal a few blocks back from the sand rather than a scene. The pho is the reason to come — clear, aromatic broth done properly — and the menu clearly flags vegan, vegetarian and gluten-free options, so mixed groups are easy to feed. It's a genuine locals' room, quietly consistent and welcoming rather than trend-driven.",
+    "bestFor": "An easy, good-value Vietnamese dinner away from the beachfront crowds",
+    "whatToOrder": "Pho is the signature — the Hanoi-style chicken pho is a regular pick; round it out with chicken-and-prawn spring rolls, rice paper rolls, or one of the gluten-free vermicelli salads, and there's a well-regarded vegan pho for plant-based diners.",
+    "atmosphere": "Small, lively and friendly; casual coastal neighbourhood room",
+    "localTip": "It's a compact room a five-minute walk up from North Bondi Beach, so if you're coming straight off the sand it's an easy detour — and the Square online-ordering page makes it a reliable takeaway option to eat back at the beach or your apartment.",
+    "tradeOff": "No ocean views and it's set back from the beachfront, and the space is small, so at peak times expect it to fill quickly.",
+    "ranking": {
+      "foodScore": 7.5,
+      "localReputation": 7.5,
+      "uniqueness": 6,
+      "value": 8,
+      "viewScore": 1,
+      "visitorUsefulness": 6.5,
+      "kidFriendliness": 7
+    },
+    "score": 6.8,
+    "confidence": "high",
+    "sources": [
+      "https://www.barpho.com.au/",
+      "https://bar-pho-bondi.square.site/",
+      "https://eatclub.com.au/venue/bar-pho-bondi",
+      "https://www.instagram.com/barpho/",
+      "https://restaurantguru.com/Bar-Pho-Bondi-Bondi-Beach",
+      "https://www.ubereats.com/au/store/bar-pho-bondi/dtpommFGVJGUuil-BGQxLw",
+      "https://www.bestrestaurants.com.au/nsw/sydney/bondi-beach/restaurant/bar-pho-bondi-beach"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "bondi-trattoria",
     "name": "Bondi Trattoria",
     "status": "open",
@@ -5868,6 +6084,76 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "don-pedros-bondi",
+    "name": "Don Pedros Bondi",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "Level 1/80 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Mexican",
+      "Tex-Mex"
+    ],
+    "meals": [
+      "lunch",
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "casual",
+      "bar",
+      "beachfront"
+    ],
+    "suitability": [
+      "couples",
+      "groups",
+      "friends",
+      "tourists",
+      "celebrations"
+    ],
+    "dietary": [],
+    "attributes": [
+      "ocean-views",
+      "outdoor-seating",
+      "lively",
+      "sunset",
+      "reservations",
+      "romantic"
+    ],
+    "website": "https://www.donpedros.com.au/bondi",
+    "bookingUrl": "https://www.opentable.com/r/don-pedros-by-vue-bar-bondi-beach",
+    "instagram": "https://www.instagram.com/donpedros.bondi/",
+    "summary": "A first-floor Mexican and Tex-Mex restaurant and cocktail bar on Campbell Parade with a balcony looking straight out over Bondi Beach.",
+    "whyGo": "We'd come here for the view as much as the food — the upstairs deck at 80 Campbell Parade puts you above the promenade with the beach laid out in front of you, drink in hand. The kitchen keeps things crowd-pleasing rather than strictly authentic: tacos, quesadillas, nachos and churros built around a serious margarita and cocktail list. It's a fun, social spot that leans into the party-by-the-sea energy of this end of Bondi.",
+    "bestFor": "Sunset margaritas and share plates with a beach view",
+    "whatToOrder": "Tacos (the Baja-style fish taco gets the nods), quesadillas and nachos to share, churros to finish — and the margaritas, including a chilli version, are the reason half the room is here.",
+    "atmosphere": "Colourful, lively and drinks-forward, with an outdoor balcony that fills fast on weekends.",
+    "localTip": "Book ahead and specifically request a balcony table — the beach-facing outdoor seats go early, and they're the whole point of coming here rather than a street-level cantina.",
+    "tradeOff": "It's more festive beachfront bar than destination Mexican cooking — some diners find the food fairly standard Tex-Mex and note fillings can arrive on the cool side, so come for the setting and drinks first.",
+    "ranking": {
+      "foodScore": 6,
+      "localReputation": 6.5,
+      "uniqueness": 6,
+      "value": 5.5,
+      "viewScore": 8.5,
+      "visitorUsefulness": 7.5,
+      "kidFriendliness": 4
+    },
+    "score": 6.5,
+    "confidence": "high",
+    "sources": [
+      "https://www.donpedros.com.au/bondi",
+      "https://www.opentable.com/r/don-pedros-by-vue-bar-bondi-beach",
+      "https://www.instagram.com/donpedros.bondi/",
+      "https://www.yelp.com/biz/don-pedros-bondi-bondi-beach",
+      "https://www.theurbanlist.com/sydney/directory/don-pedros-vue-bar",
+      "https://eatclub.com.au/venue/don-pedros-bondi"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "italo-house",
     "name": "Italo House",
     "status": "open",
@@ -6007,6 +6293,72 @@
       "https://www.instagram.com/meidys_cafe/",
       "https://restaurantguru.com/Meidys-Cafe-Bondi",
       "https://www.tripadvisor.com/Restaurant_Review-g947961-d26701736-Reviews-Meidy_s_Cafe-Bondi_Greater_Sydney_New_South_Wales.html"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "milky-lane-bondi",
+    "name": "Milky Lane Bondi",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-beach",
+    "street": "Curlewis Street",
+    "address": "141 Curlewis Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Burgers",
+      "American"
+    ],
+    "meals": [
+      "lunch",
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "casual",
+      "bar"
+    ],
+    "suitability": [
+      "groups",
+      "couples",
+      "tourists",
+      "locals",
+      "families"
+    ],
+    "dietary": [],
+    "attributes": [
+      "reservations",
+      "lively",
+      "delivery",
+      "takeaway"
+    ],
+    "website": "https://milkylane.co",
+    "bookingUrl": "https://milkylane.co/booking/",
+    "instagram": "https://www.instagram.com/milkylaneofficial/",
+    "summary": "An unapologetically indulgent burger-and-cocktail bar a block back from the sand on Curlewis Street, trading Bondi's acai-bowl wholesomeness for Wagyu-stacked burgers and over-the-top thickshakes.",
+    "whyGo": "If you're coming straight off the beach and want something loud, cheesy and thoroughly un-virtuous, this is our pick for a no-fuss group feed. Milky Lane leans hard into the maximalist burger genre — think Wagyu-and-brisket towers, loaded fries and dessert-in-a-glass milkshakes — alongside a proper cocktail list that pushes it past a standard burger joint into after-dark territory. It's a chain rather than a Bondi original, but for what it does it's reliable, central and good fun with a crowd.",
+    "bestFor": "A hungry, un-fussy group feed or a late burger-and-cocktail session after the beach.",
+    "whatToOrder": "The stacked signature beef burgers (the Wagyu-brisket-and-bacon showstoppers are the whole point), loaded fries, and one of the theatrical thickshakes or a cocktail if you're settling in.",
+    "atmosphere": "Loud, neon-lit and unashamedly OTT — closer to a party than a quiet dinner.",
+    "localTip": "It's on Curlewis Street rather than the beachfront, so there's no ocean view — grab your burger here and, if the weather's good, it's a two-minute walk to eat with your feet in the sand instead. Book ahead on Friday and Saturday nights when it gets busy.",
+    "tradeOff": "It's a national chain and the maximalist burgers are rich and mid-priced, so don't come expecting a quiet, refined or distinctly local Bondi meal.",
+    "ranking": {
+      "foodScore": 7,
+      "localReputation": 6,
+      "uniqueness": 6,
+      "value": 6,
+      "viewScore": 2,
+      "visitorUsefulness": 8,
+      "kidFriendliness": 6
+    },
+    "score": 6.5,
+    "confidence": "high",
+    "sources": [
+      "https://milkylane.co/location-old/",
+      "https://www.timeout.com/sydney/restaurants/milky-lane-bondi",
+      "https://www.yelp.com/biz/milky-lane-sydney-8",
+      "https://www.broadsheet.com.au/sydney/bondi/restaurants/milky-lane-bondi",
+      "https://www.instagram.com/milkylaneofficial/"
     ],
     "lastVerifiedAt": "2026-08-10"
   },
@@ -6764,6 +7116,152 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "spice-society",
+    "name": "Spice Society",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-road",
+    "street": "Bondi Road",
+    "address": "259 Bondi Road, Bondi NSW 2026",
+    "cuisines": [
+      "Indian",
+      "North Indian"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "families",
+      "groups",
+      "couples",
+      "solo",
+      "locals"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan"
+    ],
+    "attributes": [
+      "byo",
+      "takeaway",
+      "delivery",
+      "reservations",
+      "walk-ins"
+    ],
+    "website": "https://spicesociety.au/",
+    "bookingUrl": "https://eatclub.com.au/venue/spice-society",
+    "menuUrl": "https://spicesociety.au/menu",
+    "summary": "A casual, family-run modern Indian restaurant on Bondi Road doing generous North Indian curries, stuffed naans and shareable feasts, with dine-in, BYO and delivery.",
+    "whyGo": "This is the kind of dependable neighbourhood Indian we'd choose when you want a proper feed rather than a scene — bold North Indian curries, a long naan list and group \"feast\" deals that make it easy to order for a table. It leans casual and value-driven, with no-corkage BYO and late-ish kitchen hours, so it works equally for a relaxed sit-down or a takeaway carried back up the hill. The mix of dine-in, Uber Eats and DoorDash means it flexes to however you want to eat.",
+    "bestFor": "A relaxed, good-value Indian feed or takeaway on Bondi Road",
+    "whatToOrder": "Butter chicken and creamy paneer dishes, the stuffed / cheese naans (the chicken tikka cheese naan is a signature), tandoori kebabs, and one of the shared \"Society Feast\" set menus if you're a group.",
+    "atmosphere": "Casual, friendly and unfussy — a local curry house rather than a night out.",
+    "localTip": "It's BYO with no corkage, so grab a bottle from a nearby Bondi Road bottle shop on the way and you'll keep the bill down.",
+    "tradeOff": "It's up on Bondi Road rather than by the sand, and reviews note the occasional inconsistency — go for the food and value, not for views or polish.",
+    "ranking": {
+      "foodScore": 7,
+      "localReputation": 7,
+      "uniqueness": 5,
+      "value": 7.5,
+      "viewScore": 1,
+      "visitorUsefulness": 6,
+      "kidFriendliness": 7
+    },
+    "score": 6.3,
+    "confidence": "high",
+    "sources": [
+      "https://spicesociety.au/",
+      "https://spicesociety.au/menu",
+      "https://spicesociety.com.au/about-us/",
+      "https://eatclub.com.au/venue/spice-society",
+      "https://www.ubereats.com/au/store/spice-society/Wl4g5JgGTLaLSZwlVdMXYQ",
+      "https://www.doordash.com/store/spice-society-indian-cuisine-bondi-764388/",
+      "https://restaurantguru.com/Balusus-Rose-Bay",
+      "https://wanderlog.com/place/details/3521125/spice-society-bondi-beach"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "thainabox-bondi",
+    "name": "Thainabox",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-beach",
+    "street": "Curlewis Street",
+    "address": "Shop 2, 148 Curlewis Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Thai",
+      "Malaysian",
+      "Chinese"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "casual",
+      "fast-casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "families",
+      "kids",
+      "solo",
+      "groups",
+      "locals",
+      "tourists"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "attributes": [
+      "takeaway",
+      "delivery",
+      "walk-ins"
+    ],
+    "website": "https://thainabox.com.au/",
+    "instagram": "https://www.instagram.com/thainabox/",
+    "menuUrl": "https://thainabox.com.au/menu/",
+    "summary": "A long-running Bondi Beach noodle bar where you build your own Thai-Malaysian-Chinese dish — pick a base, sauce and spice level, choose a protein, and it's wok-cooked to order in minutes.",
+    "whyGo": "Thainabox has been a Curlewis Street fixture since the late 1990s and it leans hard into its \"design your own dish\" format — starch (noodles or rice), a sauce from mild to fiery, and a protein, with the kitchen turning it around fast. It's the kind of dependable, customisable, budget-friendly Asian feed that suits a hungry group who can't agree on one thing, or a quick fuel-up when you don't want to think too hard. Alongside the build-your-own there's a familiar spread of pad thai, pad see ew, laksa and Thai curries if you'd rather just order off the menu.",
+    "bestFor": "Fast, customisable, wallet-friendly Asian food off the beach",
+    "whatToOrder": "The design-your-own noodle or rice bowl is the signature move; otherwise the pad see ew, pad thai and the Thai curries (green, red, massaman, panang) are the safe casual picks, plus laksa if you want something brothy.",
+    "atmosphere": "Casual, quick-service noodle-bar — functional rather than a lingering dinner spot.",
+    "localTip": "If a few of you are ordering, use the build-your-own format to dial the spice individually — it's the whole point of the place and easy to over-order the set menu instead.",
+    "tradeOff": "It's a block back from the sand with no view or beachfront atmosphere, and the fusion menu is broad rather than a specialist's deep dive — reliable and convenient, not a destination dinner.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 6.5,
+      "uniqueness": 6.5,
+      "value": 7,
+      "viewScore": 1,
+      "visitorUsefulness": 6.5,
+      "kidFriendliness": 7.5
+    },
+    "score": 6.3,
+    "confidence": "high",
+    "sources": [
+      "https://thainabox.com.au/",
+      "https://thainabox.com.au/menu/",
+      "https://thainabox.com.au/our-story/",
+      "https://www.yelp.com/biz/thainabox-bondi-bondi-beach",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d1033205-Reviews-Thainabox-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://www.ubereats.com/au/store/thainabox-bondi/QIyH1cztT36ULV9VdkU2wQ",
+      "https://www.menulog.com.au/restaurants-thainabox-bondi-beach/",
+      "https://www.agfg.com.au/restaurant/thainabox-bondi-beach-33826"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "the-char-rotisserie",
     "name": "The Char Rotisserie",
     "status": "open",
@@ -7030,6 +7528,73 @@
       "https://www.tripadvisor.com.au/Restaurant_Review-g947961-d10237234-Reviews-Buckler_s_North_Bondi-Bondi_Greater_Sydney_New_South_Wales.html",
       "https://www.instagram.com/bucklersbrew/",
       "https://thebeast.com.au/food/bucklers-cafe-ben-wouldve-been-proud/"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "handmade-noodle-and-dumpling-kitchen",
+    "name": "Handmade Noodle & Dumpling Kitchen",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "126 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Chinese",
+      "Noodles",
+      "Dumplings"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 1,
+    "diningStyle": [
+      "casual",
+      "fast-casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "families",
+      "kids",
+      "groups",
+      "solo",
+      "tourists",
+      "locals"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "attributes": [
+      "outdoor-seating",
+      "takeaway",
+      "delivery",
+      "walk-ins"
+    ],
+    "summary": "A no-frills Campbell Parade noodle-and-dumpling shop where the dough is pulled and the dumplings pleated in an open kitchen, a few steps back from the sand.",
+    "whyGo": "If you're coming straight off the beach and want something hot, filling and cheap without a queue or a booking, this is the kind of honest, open-kitchen Chinese joint that Campbell Parade needs more of. The draw is watching the noodles hand-pulled and the dumplings made to order, then getting a generous plate for well under what the beachfront cafes charge. It won't win on decor, but the portions are big and the turnaround is quick.",
+    "bestFor": "A cheap, satisfying post-beach feed of hand-pulled noodles and dumplings",
+    "whatToOrder": "Our pick here is the steamed or pan-fried dumplings by the dozen, and one of the hand-pulled noodle bowls; the sizzling-style beef and fried rice are the other crowd staples.",
+    "atmosphere": "Casual, functional and unpretentious, with an open kitchen and quick counter service.",
+    "localTip": "Grab it as takeaway and walk it across to the promenade or the grass at the north end of the beach — the dining room is plain, but the view a hundred metres away is the whole point of eating in Bondi.",
+    "tradeOff": "The room is plain and can feel busy at peak times, and while a table facing the right way catches a sliver of beach, this is not a view or a fine-dining destination.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 5.5,
+      "uniqueness": 6,
+      "value": 7.5,
+      "viewScore": 3.5,
+      "visitorUsefulness": 7,
+      "kidFriendliness": 7
+    },
+    "score": 6.2,
+    "confidence": "medium",
+    "sources": [
+      "https://www.yelp.com/biz/handmade-noodle-and-dumpling-kitchen-bondi-beach",
+      "https://www.agfg.com.au/restaurant/handmade-noodle-dumpling-kitchen-110367",
+      "https://restaurantguru.com/Handmade-Noodle-and-Dumpling-Kitchen-Rose-Bay",
+      "https://www.happycow.net/reviews/handmade-noodle-and-dumpling-kitchen-bondi-beach-324285",
+      "https://www.tripadvisor.com/Restaurant_Review-g19681254-d25042353-Reviews-Handmade_Noodle_And_Dumping_Kitchen-Bondi_Beach_Waverley_Greater_Sydney_New_So.html"
     ],
     "lastVerifiedAt": "2026-08-10"
   },
@@ -7309,6 +7874,76 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "oporto-bondi-beach",
+    "name": "Oporto Bondi Beach",
+    "status": "open",
+    "type": "takeaway",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "152-162 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Portuguese",
+      "Chicken",
+      "Burgers",
+      "Fast Food"
+    ],
+    "meals": [
+      "lunch",
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 1,
+    "diningStyle": [
+      "fast-casual",
+      "takeaway",
+      "casual"
+    ],
+    "suitability": [
+      "kids",
+      "families",
+      "groups",
+      "solo",
+      "tourists",
+      "locals"
+    ],
+    "dietary": [],
+    "attributes": [
+      "takeaway",
+      "delivery",
+      "walk-ins",
+      "lively"
+    ],
+    "website": "https://oportome.com",
+    "menuUrl": "https://www.ubereats.com/au/store/oporto-bondi-beach/bhHAQSozRUizFkVmBCKmqg",
+    "summary": "A flame-grilled, Portuguese-style chicken and burger takeaway on Campbell Parade — and the birthplace of the Oporto chain, which started here in Bondi back in 1986.",
+    "whyGo": "This is where Oporto began, and the Campbell Parade store still does exactly the job it always has: fast, flame-grilled chicken, Bondi Burgers and chips a short walk from the sand. We'd choose it for a cheap, filling feed straight off the beach or late at night when most kitchens have shut, rather than for a sit-down meal. The real draw is the Prego and chilli sauces more than any atmosphere.",
+    "bestFor": "A cheap, fast post-beach or late-night feed",
+    "whatToOrder": "The signature Bondi Burger (or the Double Fillet version), flame-grilled chicken with Prego sauce, and chips with the chilli sauce or aioli.",
+    "atmosphere": "Bright, busy fast-food counter — order and go",
+    "localTip": "It stays open late — to around midnight on weekends — so it's one of the more reliable options once the beachfront cafes have closed; grab a burger and eat it on the grass across the road overlooking the beach.",
+    "tradeOff": "It's a fast-food chain outlet, not a dining destination — counter service, limited seating and no real view despite being metres from the water.",
+    "ranking": {
+      "foodScore": 5.5,
+      "localReputation": 7,
+      "uniqueness": 5,
+      "value": 7.5,
+      "viewScore": 3,
+      "visitorUsefulness": 7,
+      "kidFriendliness": 8
+    },
+    "score": 6.1,
+    "confidence": "high",
+    "sources": [
+      "https://www.tripadvisor.com.au/Restaurant_Review-g947961-d4786129-Reviews-Oporto_Bondi-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://www.yelp.com/biz/oporto-bondi-beach",
+      "https://www.ubereats.com/au/store/oporto-bondi-beach/bhHAQSozRUizFkVmBCKmqg",
+      "https://www.doordash.com/store/Oporto-Bondi-Beach-NSW-2026-779199",
+      "https://en.wikipedia.org/wiki/Oporto_(restaurant)",
+      "https://www.whereis.com/nsw/bondi-beach-2026/yellowId-12459078"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "the-royal-bondi",
     "name": "The Royal Bondi",
     "formerName": "Royal Hotel, Bondi",
@@ -7447,6 +8082,65 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "bondi-banh-mi",
+    "name": "Bondi Banh Mi",
+    "status": "open",
+    "type": "takeaway",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "Shop 9, 152-162 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Vietnamese"
+    ],
+    "meals": [
+      "breakfast",
+      "lunch"
+    ],
+    "priceBand": 1,
+    "diningStyle": [
+      "takeaway",
+      "fast-casual"
+    ],
+    "suitability": [
+      "solo",
+      "locals",
+      "tourists",
+      "families"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "attributes": [
+      "takeaway",
+      "walk-ins"
+    ],
+    "summary": "A no-fuss Vietnamese banh mi counter on Campbell Parade turning out crusty pork, chicken and salad rolls plus spring rolls a short walk from the sand.",
+    "whyGo": "If you're coming straight off the beach and want something quick, filling and genuinely cheap, this is the kind of spot we'd point you to over the pricier cafes lining the parade. It does one thing — Vietnamese rolls done fresh and fast — and the reviews consistently praise the value and the brisk, well-organised service, which is rare this close to the water. Nothing about it is fancy, and that's the appeal.",
+    "bestFor": "A fast, affordable beach lunch",
+    "whatToOrder": "Our pick here is the classic banh mi roll — pork or chicken — with the salad roll and fried spring rolls the obvious add-ons for a lighter or shareable option.",
+    "atmosphere": "Casual grab-and-go counter, no frills.",
+    "localTip": "Order it to take away and eat it on the grass at the north end of the beach rather than hunting for a table — this is street food, and it travels the hundred metres to the sand just fine.",
+    "tradeOff": "It's a takeaway counter with little to no seating and no view, so it's a fuel stop rather than a place to linger; Campbell Parade has several competing banh mi options, so it's convenience and price rather than a singular destination.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 6,
+      "uniqueness": 4,
+      "value": 8,
+      "viewScore": 2,
+      "visitorUsefulness": 6.5,
+      "kidFriendliness": 6
+    },
+    "score": 6,
+    "confidence": "medium",
+    "sources": [
+      "https://www.yelp.com/biz/bondi-banh-mi-bondi-beach",
+      "https://restaurantguru.com/Bondi-Banh-Mi-Bondi-Beach",
+      "https://www.facebook.com/bondibanhmi1/",
+      "https://www.tripadvisor.com.au/Restaurant_Review-g947961-d10061227-Reviews-Bondi_Banh_Mi-Bondi_Greater_Sydney_New_South_Wales.html"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "grab-thai-bondi",
     "name": "Grab Thai Bondi",
     "status": "open",
@@ -7505,7 +8199,84 @@
       "https://www.agfg.com.au/restaurant/grab-thai-71775",
       "https://www.yelp.com/biz/grabthai-bondi-bondi-beach",
       "https://www.doordash.com/store/grab-thai-bondi-bondi-973904/",
-      "https://wanderlog.com/place/details/3693761/grab-thai-bondi"
+      "https://wanderlog.com/place/details/3693761/grab-thai-bondi",
+      "https://www.yelp.com/biz/red-coco-thai-bondi",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d5066882-Reviews-Red_Coco_Thai-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://grabthaibondi.com.au/contact/"
+    ],
+    "lastVerifiedAt": "2026-08-10",
+    "formerName": "Red Coco Thai"
+  },
+  {
+    "id": "namaste-bondi",
+    "name": "Namaste Bondi",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "Shop 1, 80 Hall Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Indian"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "families",
+      "kids",
+      "couples",
+      "groups",
+      "locals",
+      "tourists"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "attributes": [
+      "takeaway",
+      "delivery",
+      "reservations",
+      "byo"
+    ],
+    "website": "https://www.namasteinbondi.com.au/",
+    "bookingUrl": "https://www.firsttable.com.au/sydney/eastern/bondi/namaste-bondi",
+    "instagram": "https://www.instagram.com/namaste_indian.bondi/",
+    "menuUrl": "https://namastebondi.ktu.com.au/",
+    "summary": "A casual, family-friendly Indian restaurant on the Hall Street pedestrian strip, a short walk from the sand, doing dine-in, takeaway and wide-area delivery.",
+    "whyGo": "Hall Street doesn't have many dedicated Indian kitchens, so this is the spot we'd point you to when the group wants a curry rather than another burger or bowl near the beach. The menu runs the reliable North Indian playbook — tandoori starters, rich lamb and chicken curries, a solid spread of vegetable and vegan dishes — and it does dine-in, takeaway and delivery across the eastern suburbs, which makes it as useful for a night in the apartment as for a sit-down meal.",
+    "bestFor": "Casual family or group curry dinners a block back from the beach",
+    "whatToOrder": "Tandoori and grilled starters like chicken tikka or onion bhaji, followed by a classic lamb or chicken curry and a vegetarian or paneer dish to share, with rice and naan.",
+    "atmosphere": "Relaxed, unfussy neighbourhood dining room",
+    "localTip": "It's BYO, so grab a bottle from a Hall Street bottle shop before you sit down — and if you're staying nearby, the delivery radius stretches right across the eastern suburbs for a beach-apartment night in.",
+    "tradeOff": "This is a solid neighbourhood curry house rather than a destination or a beachfront-view restaurant — you come for the food and convenience, not the setting.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 6,
+      "uniqueness": 5,
+      "value": 7,
+      "viewScore": 1,
+      "visitorUsefulness": 6.5,
+      "kidFriendliness": 7.5
+    },
+    "score": 6,
+    "confidence": "high",
+    "sources": [
+      "https://www.namasteinbondi.com.au/",
+      "https://www.yelp.com/biz/namaste-bondi-beach",
+      "https://www.agfg.com.au/restaurant/namaste-bondi-indian-cusine-38919",
+      "https://www.yellowpages.com.au/nsw/bondi-beach/namaste-bondi-indian-cuisine-1000002107177-listing.html",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d3906306-Reviews-Namaste_Bondi-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://www.firsttable.com.au/sydney/eastern/bondi/namaste-bondi",
+      "https://www.instagram.com/namaste_indian.bondi/",
+      "https://namastebondi.ktu.com.au/"
     ],
     "lastVerifiedAt": "2026-08-10"
   },
@@ -7644,6 +8415,147 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "bettys-burgers",
+    "name": "Betty's Burgers",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "152 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Burgers",
+      "American",
+      "Fast Food"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "fast-casual",
+      "casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "kids",
+      "families",
+      "groups",
+      "tourists",
+      "solo"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "attributes": [
+      "takeaway",
+      "delivery",
+      "walk-ins",
+      "outdoor-seating"
+    ],
+    "website": "https://bettysburgers.com.au",
+    "summary": "A polished fast-casual burger joint from the national Betty's chain, planted right on the Campbell Parade beachfront strip for a quick, reliable feed after a swim.",
+    "whyGo": "Betty's does one thing and does it consistently: fresh, well-built burgers, crinkle-cut fries and thick shakes served fast at the counter, which is exactly what you want when the whole family is sandy and hungry. It sits directly opposite the beach on Campbell Parade, so you can grab a Classic and eat it looking at the water without booking anything or dressing up. It's a dependable known quantity rather than a Bondi original, but for a low-drama meal that keeps kids happy it's hard to fault.",
+    "bestFor": "A quick, kid-friendly burger straight off the beach",
+    "whatToOrder": "The Betty's Classic and the Deluxe are the signatures; pair one with crinkle-cut fries or onion rings and a thick shake, and the frozen-custard \"concrete\" if you've room. Vegan and gluten-free buns are available (for an extra charge).",
+    "atmosphere": "Bright, busy, casual counter-service; buzzy at peak beach times.",
+    "localTip": "Weekend lunch after the beach empties out gets genuinely hectic here, so if you're feeding restless kids, order ahead on Uber Eats or DoorDash for pickup, or aim for the mid-afternoon lull.",
+    "tradeOff": "It's a national chain, not a one-off local — you're paying a slight beachfront premium for a burger you can get in a dozen other suburbs.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 6,
+      "uniqueness": 3,
+      "value": 6,
+      "viewScore": 5,
+      "visitorUsefulness": 7,
+      "kidFriendliness": 9
+    },
+    "score": 5.9,
+    "confidence": "high",
+    "sources": [
+      "https://www.tripadvisor.com/Restaurant_Review-g19681254-d25156565-Reviews-Betty_s_Burgers-Bondi_Beach_Waverley_Greater_Sydney_New_South_Wales.html",
+      "https://www.doordash.com/en-AU/store/betty's-burgers-bondi-beach-24438569/",
+      "https://www.ubereats.com/au/store/bettys-burgers-bondi-beach/NrvQZIkYWUeWJK0T_QuUsA",
+      "https://www.findmeglutenfree.com/biz/bettys-burgers/5980008874639360",
+      "https://en.wikipedia.org/wiki/Betty%27s_Burgers"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "guzman-y-gomez-bondi-beach",
+    "name": "Guzman y Gomez",
+    "status": "open",
+    "type": "takeaway",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "Shop 14, 178 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Mexican",
+      "Tex-Mex",
+      "Fast Food"
+    ],
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "fast-casual",
+      "takeaway",
+      "casual"
+    ],
+    "suitability": [
+      "families",
+      "kids",
+      "groups",
+      "solo",
+      "tourists",
+      "locals"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "attributes": [
+      "takeaway",
+      "delivery",
+      "walk-ins",
+      "outdoor-seating"
+    ],
+    "website": "https://www.guzmanygomez.com.au/locations/bondi-beach/",
+    "instagram": "https://www.instagram.com/guzmanygomez/",
+    "menuUrl": "https://www.guzmanygomez.com.au/our-food/",
+    "summary": "A reliable, all-day Mexican fast-casual outpost on Campbell Parade slinging burritos, bowls and tacos a short walk from the sand.",
+    "whyGo": "When you want a fast, filling, dependable feed rather than a sit-down occasion, GYG does the job right on the beachfront strip. It's open early for breakfast burritos and runs late into the evening, so it plugs the gap when the cafes have shut and you still want something hot and substantial. We'd choose this for a no-fuss refuel that the whole group can customise to taste.",
+    "bestFor": "A quick, customisable Mexican feed straight off the beach",
+    "whatToOrder": "The signature burritos and burrito bowls are the safe bet; the breakfast burrito is the reason to come early, and the tacos, quesadillas and loaded nacho-style sides round it out. Build-your-own means you can go vegan, vegetarian or gluten-free without much effort.",
+    "atmosphere": "Bright, busy, order-at-the-counter fast-casual with a handful of seats and plenty of takeaway traffic.",
+    "localTip": "Order ahead on the GYG app and grab it to go — the beach reserve and grassy verges along Campbell Parade make a far better dining room than the counter seating on a busy day.",
+    "tradeOff": "It's a national chain, not a local original — you're here for speed, value and consistency, not a distinctive Bondi dining experience.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 6,
+      "uniqueness": 3,
+      "value": 7,
+      "viewScore": 3,
+      "visitorUsefulness": 7,
+      "kidFriendliness": 8
+    },
+    "score": 5.9,
+    "confidence": "high",
+    "sources": [
+      "https://www.guzmanygomez.com.au/locations/bondi-beach/",
+      "https://www.ubereats.com/au/store/guzman-y-gomez-bondi-beach/dZf6ZLFVVMqqWCKnZ0xxCg",
+      "https://www.tripadvisor.in/Restaurant_Review-g19681254-d27185265-Reviews-Guzman_y_Gomez_Bondi_Beach-Bondi_Beach_Waverley_Greater_Sydney_New_South_Wales.html"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "oakberry-acai-bondi-beach",
     "name": "OAKBERRY Açaí (Bondi Beach)",
     "status": "open",
@@ -7716,6 +8628,72 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "bambusia",
+    "name": "Bambusia Karaoke Chinese Restaurant",
+    "formerName": "China Moon",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-beach",
+    "street": "Curlewis Street",
+    "address": "136 Curlewis Street, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Chinese",
+      "Malaysian",
+      "Indonesian"
+    ],
+    "meals": [
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "casual",
+      "bar"
+    ],
+    "suitability": [
+      "groups",
+      "families",
+      "celebrations",
+      "locals"
+    ],
+    "dietary": [],
+    "attributes": [
+      "lively",
+      "takeaway",
+      "delivery",
+      "reservations",
+      "walk-ins"
+    ],
+    "website": "https://chinamoonrestaurant.com.au/",
+    "summary": "A gloriously old-school, family-run Chinese-Malaysian restaurant on Curlewis Street that has been feeding Bondi for 35-plus years — and where the real draw is the karaoke.",
+    "whyGo": "This is the kind of quirky neighbourhood institution Bondi is quietly losing, and we'd send you here for the experience as much as the food: big round tables, a sprawling Chinese-Malaysian-Indonesian menu, and a karaoke set-up that turns a group dinner into a proper night. It is cheap, cheerful and unpretentious — the opposite of the beach's polished new arrivals. Come with a crowd and a sense of humour rather than fine-dining expectations.",
+    "bestFor": "Big, boisterous group dinners with a karaoke chaser",
+    "whatToOrder": "Lean into the crowd-pleasers the regulars order — crab and sweet corn soup, chicken with cashew nuts, seafood combination, prawn cutlets and a sweet-and-sour — plus a few of the Malaysian-Indonesian plates that set the menu apart from a standard suburban Chinese.",
+    "atmosphere": "Warm, no-frills and unapologetically retro, tipping into rowdy once the karaoke starts",
+    "localTip": "Book a table if you're bringing a group — it's a favourite for birthdays and work dinners precisely because of the karaoke, and the room fills on weekends.",
+    "tradeOff": "Reviews are genuinely mixed on food and service, and one directory currently carries a \"temporarily closed\" flag — call ahead on 02 9300 0487 to confirm before you head over; opening is dinner-only.",
+    "ranking": {
+      "foodScore": 5.5,
+      "localReputation": 6,
+      "uniqueness": 7.5,
+      "value": 7,
+      "viewScore": 1,
+      "visitorUsefulness": 6,
+      "kidFriendliness": 6
+    },
+    "score": 5.8,
+    "confidence": "medium",
+    "sources": [
+      "https://chinamoonrestaurant.com.au/",
+      "https://www.yelp.com/biz/bambusia-chinese-restaurant-bondi-beach",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d4791897-Reviews-Bambusia_Karaoke_Chinese_Restaurant_Bondi_Beach-Bondi_Greater_Sydney_New_South_Wa.html",
+      "https://www.kravein.com.au/place/bambusia-chinese-restaurant-bondi-beach",
+      "https://www.agfg.com.au/restaurant/bambusia-chinese-karaoke-restaurant-120237",
+      "https://www.whereis.com/nsw/bondi-beach-2026/yellowId-12152605"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "cafe-bikini",
     "name": "Cafe Bikini",
     "status": "open",
@@ -7783,77 +8761,6 @@
       "https://sydneylocalista.com.au/listing/cafe-bikini?place=bondi+beach,+nsw,+au",
       "https://www.whereis.com/nsw/bondi-beach-2026/yellowId-14530331",
       "https://restaurantguru.com/3-JJJ-Cafe-Bondi"
-    ],
-    "lastVerifiedAt": "2026-08-10"
-  },
-  {
-    "id": "spice-society",
-    "name": "Spice Society",
-    "formerName": "Balusu's Indian Cuisine",
-    "status": "open",
-    "type": "restaurant",
-    "precinct": "bondi-road",
-    "street": "Bondi Road",
-    "address": "259 Bondi Road, Bondi NSW 2026",
-    "cuisines": [
-      "Indian",
-      "North Indian",
-      "Nepalese"
-    ],
-    "meals": [
-      "lunch",
-      "dinner",
-      "late-night"
-    ],
-    "priceBand": 2,
-    "diningStyle": [
-      "casual",
-      "takeaway"
-    ],
-    "suitability": [
-      "families",
-      "groups",
-      "locals",
-      "solo"
-    ],
-    "dietary": [
-      "vegetarian",
-      "gluten-free"
-    ],
-    "attributes": [
-      "takeaway",
-      "delivery",
-      "byo"
-    ],
-    "website": "https://spicesociety.au/",
-    "bookingUrl": "https://www.ubereats.com/au/store/spice-society/Wl4g5JgGTLaLSZwlVdMXYQ",
-    "menuUrl": "https://spicesociety.au/",
-    "summary": "A long-running, family-run North Indian kitchen at the top of Bondi Road, now trading as Spice Society (formerly Balusu's Indian Cuisine), built for generous, late-night curry-and-naan takeaway.",
-    "whyGo": "This is the neighbourhood curry house that has fed this stretch of Bondi Road for well over two decades, and the recent rebrand from Balusu's to Spice Society hasn't changed the brief: big-flavoured North Indian classics, a serious spread of naans, and prices pitched for families rather than special occasions. We'd choose this when you want a reliable, filling Indian feed delivered or picked up rather than a sit-down night out, especially since it runs late while much of the beach has wound down. BYO and family-sized feast deals make it an easy call for a group eating in.",
-    "bestFor": "Late, generous North Indian takeaway for families and groups",
-    "whatToOrder": "Lean on the North Indian staples the kitchen is built around — butter chicken and vindaloo-style curries, a shared feast platter for a group, and the extensive naan range (garlic, cheese and stuffed/kebab naans are the signatures here).",
-    "atmosphere": "Unfussy, functional local takeaway with limited casual dine-in seating",
-    "localTip": "It's BYO and unlicensed, so grab wine or beer on the way — and because kitchen runs close to midnight, it's one of the more dependable options if you're eating late after the beach or a Bondi Road session.",
-    "tradeOff": "It's a takeaway-first curry house up on Bondi Road, not a beachfront destination — no views, minimal ambience, and worth confirming the Balusu's-to-Spice-Society details on the current listing before you go.",
-    "ranking": {
-      "foodScore": 6.5,
-      "localReputation": 7,
-      "uniqueness": 4,
-      "value": 7.5,
-      "viewScore": 0,
-      "visitorUsefulness": 5,
-      "kidFriendliness": 7
-    },
-    "score": 5.8,
-    "confidence": "medium",
-    "sources": [
-      "https://spicesociety.au/",
-      "https://spicesociety.com.au/about-us/",
-      "https://www.agfg.com.au/restaurant/balusus-indian-cuisine-44767",
-      "https://www.yelp.com/biz/balusu-s-indian-cuisine-bondi",
-      "https://www.tripadvisor.com/Restaurant_Review-g947961-d4753876-Reviews-Balusu_s_Indian_Cuisine-Bondi_Greater_Sydney_New_South_Wales.html",
-      "https://page-service.doordash.com/en-GB/store/balusus-indian-cuisine-764388",
-      "https://www.ubereats.com/au/store/spice-society/Wl4g5JgGTLaLSZwlVdMXYQ"
     ],
     "lastVerifiedAt": "2026-08-10"
   },
@@ -8056,6 +8963,70 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "rice-pot-thai-restaurant",
+    "name": "Rice Pot Thai Restaurant",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-beach",
+    "street": "Hall Street",
+    "address": "46 Hall St, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Thai"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "families",
+      "groups",
+      "couples",
+      "solo",
+      "locals"
+    ],
+    "dietary": [],
+    "attributes": [
+      "takeaway",
+      "delivery",
+      "reservations",
+      "walk-ins"
+    ],
+    "website": "https://www.ricepotthai.com.au/",
+    "bookingUrl": "https://www.ricepotthai.com.au/",
+    "menuUrl": "https://ricepot.com.au/menu/",
+    "summary": "A no-fuss Thai kitchen on Hall Street that has been feeding Bondi its pad thai and curries since 1993, split evenly between dine-in and takeaway.",
+    "whyGo": "This is the neighbourhood Thai that has quietly outlasted most of Hall Street's turnover, and longevity like that is its own kind of endorsement. We'd choose it when you want a reliable, generously portioned bowl of the classics rather than a scene — the menu runs through the familiar stir-fries, noodles and curries without trying to reinvent them. It's an easy weeknight fallback a short walk back from the sand.",
+    "bestFor": "A dependable, low-key Thai dinner or a beach-day takeaway",
+    "whatToOrder": "Stick to the signatures — pad thai, pad see ew, and the green and red curries — which are what this kind of long-running Thai kitchen does best.",
+    "atmosphere": "Casual, unpretentious neighbourhood dining room",
+    "localTip": "It runs the standard split lunch-and-dinner service with an afternoon break (roughly 3:30 to 5pm), so if you're coming straight off the beach in that window, order takeaway ahead rather than turning up expecting a table.",
+    "tradeOff": "It's a block back from the water with no view and no beachfront buzz — you come here for the food, not the setting, and reviews on service can be hit and miss.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 6.5,
+      "uniqueness": 4,
+      "value": 6.5,
+      "viewScore": 1,
+      "visitorUsefulness": 5.5,
+      "kidFriendliness": 7
+    },
+    "score": 5.7,
+    "confidence": "high",
+    "sources": [
+      "https://www.ricepotthai.com.au/",
+      "https://ricepot.com.au/menu/",
+      "https://www.yelp.com/biz/ricepot-restaurant-bondi-beach-2",
+      "https://www.tripadvisor.com/Restaurant_Review-g255060-d2443866-Reviews-Ricepot-Sydney_New_South_Wales.html",
+      "https://www.doordash.com/en-AU/store/rice-pot-restaurant-bondi-beach-24492593/"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "sushi-st",
     "name": "Sushi St",
     "status": "open",
@@ -8111,6 +9082,76 @@
     "sources": [
       "https://www.yelp.com/biz/sushi-st-bondi",
       "https://www.tripadvisor.com/Restaurant_Review-g947961-d3933066-Reviews-Sushi_St-Bondi_Greater_Sydney_New_South_Wales.html"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "bondi-relish",
+    "name": "Bondi Relish",
+    "status": "open",
+    "type": "cafe",
+    "precinct": "bondi-beach",
+    "street": "Glenayr Avenue",
+    "address": "141 Glenayr Ave, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Burgers",
+      "Cafe",
+      "Sandwiches"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "cafe",
+      "casual",
+      "takeaway",
+      "fast-casual"
+    ],
+    "suitability": [
+      "locals",
+      "solo",
+      "families",
+      "groups"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "attributes": [
+      "takeaway",
+      "delivery",
+      "walk-ins",
+      "outdoor-seating"
+    ],
+    "website": "https://bondirelish.com.au",
+    "summary": "A no-frills neighbourhood burger-and-coffee cafe on Glenayr Avenue doing generous, made-to-order burgers, wraps and breakfast rolls a few blocks back from the sand.",
+    "whyGo": "If you're after a proper burger without the beachfront queue or the beachfront price, this is the kind of low-key local spot we'd point you to. It's a small takeaway-leaning kitchen turning out classic burgers with house-made sauces and its signature Cajun fries, plus schnitzel wraps and breakfast rolls, and the portions punch above the price. It suits a quick, filling refuel rather than a sit-down occasion.",
+    "bestFor": "A cheap, generous burger fix away from the tourist strip",
+    "whatToOrder": "A classic beef burger with the Cajun fries; the schnitzel wrap if you want something handheld for the walk to the beach.",
+    "atmosphere": "Casual, compact, grab-and-go neighbourhood cafe.",
+    "localTip": "It's a takeaway-sized space with only a handful of seats, so our pick is to order ahead or grab it to go and eat it down at the park or the sand rather than counting on a table.",
+    "tradeOff": "It's several blocks inland on Glenayr Avenue with no view and minimal seating — this is a food stop, not a lingering brunch destination, and one aggregator lists it as closed, so it's worth a quick call to confirm hours before a special trip.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 6,
+      "uniqueness": 4,
+      "value": 7,
+      "viewScore": 1,
+      "visitorUsefulness": 5,
+      "kidFriendliness": 6
+    },
+    "score": 5.6,
+    "confidence": "medium",
+    "sources": [
+      "https://www.agfg.com.au/restaurant/bondi-relish-81765",
+      "https://restaurantguru.com/Bondi-Relish-Rose-Bay",
+      "https://bondisbest.com.au/eat-drink/burgers/",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d13359285-Reviews-Bondi_Relish-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://www.facebook.com/cafebondirelish/",
+      "https://bondirelish.com.au"
     ],
     "lastVerifiedAt": "2026-08-10"
   },
@@ -8297,6 +9338,62 @@
       "https://www.tripadvisor.com/Restaurant_Review-g947961-d5615463-Reviews-Bondi_2026-Bondi_Greater_Sydney_New_South_Wales.html",
       "https://www.tripadvisor.com/Restaurants-g947961-c8-Bondi_Greater_Sydney_New_South_Wales.html",
       "https://eatdrinkcheap.com.au/sydney/bondi-specials"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "chilli-and-spice",
+    "name": "Chilli & Spice Indian Restaurant",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "bondi-road",
+    "street": "Bondi Road",
+    "address": "Shop 1, 115 Bondi Road, Bondi NSW 2026",
+    "cuisines": [
+      "Indian",
+      "North Indian"
+    ],
+    "meals": [
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "families",
+      "groups",
+      "couples",
+      "locals"
+    ],
+    "dietary": [],
+    "attributes": [
+      "takeaway",
+      "delivery"
+    ],
+    "summary": "A long-running, white-tablecloth North Indian restaurant on the Bondi Road strip, open for dinner only and geared to sit-down curries or takeaway to eat at home.",
+    "whyGo": "This is the sort of dependable neighbourhood curry house Bondi Road has quietly kept for years — a calm, tablecloth dining room turning out familiar North Indian classics rather than anything trend-chasing. We'd choose it when you want a proper sit-down Indian dinner or a reliable takeaway curry close to home, not a scene. It's a locals' standby rather than a destination, which is exactly its appeal.",
+    "bestFor": "A relaxed North Indian dinner or takeaway on the Bondi Road strip.",
+    "whatToOrder": "Stick to the North Indian core it's built for — tandoori grills, butter chicken and rich curries, biryani, and breads like garlic naan to share.",
+    "atmosphere": "Quiet, tidy, table-service dining room; unfussy and low-key.",
+    "localTip": "It only opens from the early evening, so this is a dinner or takeaway option, not a lunch stop — plan accordingly if you're heading up from the beach.",
+    "tradeOff": "It's mid-Bondi Road with no view or buzz, and a more talked-about Indian option (Spice Society) sits nearby on the same strip.",
+    "ranking": {
+      "foodScore": 6,
+      "localReputation": 6,
+      "uniqueness": 3,
+      "value": 6,
+      "viewScore": 1,
+      "visitorUsefulness": 5,
+      "kidFriendliness": 6
+    },
+    "score": 5.2,
+    "confidence": "medium",
+    "sources": [
+      "https://www.yelp.com/biz/chilli-and-spice-bondi",
+      "https://www.ubereats.com/au/store/indian-cuisine-on-bondi-road/9JLVB69dTHG3F8Z5eAny_A",
+      "https://www.eatnow.com.au/restaurant-1833/Chilli-Spice-Indian-Restaurant.html"
     ],
     "lastVerifiedAt": "2026-08-10"
   },

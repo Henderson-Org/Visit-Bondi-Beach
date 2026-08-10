@@ -115,7 +115,30 @@ for (const v of raw) {
   if (!prev || (rank[rec.confidence] || 0) >= (rank[prev.confidence] || 0)) kept.set(id, rec);
 }
 
-const out = [...kept.values()].sort((a, b) => (b.score ?? 0) - (a.score ?? 0) || a.name.localeCompare(b.name));
+// Second-pass de-dup by normalised display name: a renamed/moved venue and its new-name
+// twin (e.g. "Red Coco Thai" → "Grab Thai Bondi", plus a separate "Grab Thai" candidate)
+// resolve to the same place but different slug ids. Collapse them, keeping the higher-
+// confidence / higher-score record and preferring the one that already has a formerName.
+const nameKey = (r) => slug(r.name);
+const byName = new Map();
+const rankC = { high: 3, medium: 2, low: 1 };
+for (const rec of kept.values()) {
+  const nk = nameKey(rec);
+  const prev = byName.get(nk);
+  if (!prev) { byName.set(nk, rec); continue; }
+  const better =
+    (rankC[rec.confidence] || 0) - (rankC[prev.confidence] || 0) ||
+    (rec.score ?? 0) - (prev.score ?? 0) ||
+    (rec.formerName ? 1 : 0) - (prev.formerName ? 1 : 0);
+  const winner = better >= 0 ? rec : prev;
+  const loser = better >= 0 ? prev : rec;
+  // Preserve a formerName and merge sources from the dropped twin.
+  if (!winner.formerName && loser.formerName) winner.formerName = loser.formerName;
+  winner.sources = [...new Set([...(winner.sources || []), ...(loser.sources || [])])].slice(0, 8);
+  byName.set(nk, winner);
+}
+
+const out = [...byName.values()].sort((a, b) => (b.score ?? 0) - (a.score ?? 0) || a.name.localeCompare(b.name));
 writeFileSync(OUT, JSON.stringify(out, null, 2) + '\n');
 writeFileSync(REPORT, JSON.stringify(excluded, null, 2) + '\n');
 console.log(`merged ${out.length} active venues -> data/restaurants.json (${excluded.length} excluded as closed/not-found -> data/restaurants-excluded.json)`);

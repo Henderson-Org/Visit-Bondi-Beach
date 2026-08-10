@@ -178,5 +178,68 @@
       "https://www.timeout.com/sydney/restaurants/chouchou",
       "https://www.broadsheet.com.au/sydney/restaurants/chouchou"
     ]
+  },
+  {
+    "name": "Nina's Ploy Thai",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://foursquare.com/v/ninas-ploy-thai/4b0ba215f964a520b53223e3",
+      "https://www.yelp.com/biz/ninas-ploy-thai-bondi-beach"
+    ]
+  },
+  {
+    "name": "Thai Fire Fry",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://restaurantguru.com/Thai-Fire-Fry-Rose-Bay",
+      "https://thaifirefry-bondi.com.au/"
+    ]
+  },
+  {
+    "name": "The Ssam Korean Fusion",
+    "status": "not-found",
+    "note": "",
+    "sources": [
+      "https://www.yelp.com/biz/the-ssam-korean-fusion-neutral-bay-2",
+      "https://www.giftly.com/gift-card/the-ssam-korean-fusion-neutral-bay-2"
+    ]
+  },
+  {
+    "name": "La Favela",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.broadsheet.com.au/sydney/bondi/restaurants/la-favela",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d12267194-Reviews-La_Favela-Bondi_Greater_Sydney_New_South_Wales.html"
+    ]
+  },
+  {
+    "name": "Moo Gourmet Burgers (Bondi Beach branch)",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://concreteplayground.com/sydney/restaurants/moo-gourmet-burgers",
+      "https://foursquare.com/v/moo-gourmet-burgers/4b2c3fabf964a52096c424e3"
+    ]
+  },
+  {
+    "name": "Flave",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://insideretail.com.au/top-stories/sydneys-vegan-burger-chain-flave-closes-202409",
+      "https://finance.yahoo.com/news/australian-vegan-burger-chain-flave-091651088.html"
+    ]
+  },
+  {
+    "name": "Stockman's Burgers and Dairy Cows",
+    "status": "not-found",
+    "note": "",
+    "sources": [
+      "https://bondisbest.com.au/eat-drink/burgers/",
+      "https://www.stockmansbbd.com.au/"
+    ]
   }
 ]
