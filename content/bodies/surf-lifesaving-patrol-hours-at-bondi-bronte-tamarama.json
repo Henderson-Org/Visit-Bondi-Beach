@@ -3,53 +3,42 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Waverley Council — Beach Safety & Patrol Information", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
-    { "label": "Beachsafe — Bondi Beach", "url": "https://beachsafe.org.au/beach/bondi" },
-    { "label": "Beachsafe — Bronte Beach", "url": "https://beachsafe.org.au/beach/bronte" },
-    { "label": "Beachsafe — Tamarama Beach", "url": "https://beachsafe.org.au/beach/tamarama" },
-    { "label": "Surf Life Saving NSW", "url": "https://www.surflifesaving.com.au/" }
+    { "label": "Waverley Council — Our lifeguards", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/our_lifeguards" },
+    { "label": "Waverley Council — Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
+    { "label": "Surf Life Saving NSW", "url": "https://www.surflifesaving.com.au/" },
+    { "label": "Bondi Surf Bathers' Life Saving Club", "url": "https://bondisurfclub.com/" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you want to know when the lifeguards are watching at Bondi, Bronte or Tamarama, here's the honest answer up front: all three are patrolled, but the hours shift with the season rather than sitting on one fixed timetable. Bondi is patrolled every day of the year; Bronte and Tamarama get regular Waverley Council lifeguard cover, plus volunteer surf lifesavers on warmer-month weekends. Patrols run through daylight hours — longer in summer, shorter in winter — and because those times are adjusted seasonally, the only place I'd trust for the precise hours on your day is the Waverley Council beach safety page." },
+    { "type": "p", "text": "The short version, if you just want to plan your swim: our Waverley Council lifeguards patrol Bondi, Bronte and Tamarama every day of the year, roughly 6am to 7pm through the warm months and around 7am to 5:30pm over winter, tracking the daylight. Those times shift with the season, staffing and swell, so I treat them as a guide and check the council's lifeguard page on the day before I head down." },
     { "type": "quickFacts", "items": [
-      { "label": "Who patrols", "value": "Waverley Council lifeguards (blue), plus volunteer surf lifesavers (red & yellow)" },
-      { "label": "Bondi", "value": "Patrolled 365 days a year, daylight hours" },
-      { "label": "Bronte & Tamarama", "value": "Regular patrols; hours vary by season" },
-      { "label": "Safe zone", "value": "Between the red & yellow flags" },
-      { "label": "Exact hours", "value": "Check Waverley Council before you go" }
+      { "label": "Who patrols", "value": "Council lifeguards (blue) + volunteer lifesavers (red & yellow)" },
+      { "label": "Days", "value": "Lifeguards: every day, year-round" },
+      { "label": "Summer hours", "value": "~6am–7pm (approx. Oct–Apr)" },
+      { "label": "Winter hours", "value": "~7am–5:30pm (approx. May–Sep)" },
+      { "label": "Golden rule", "value": "Always swim between the red & yellow flags" }
     ] },
-    { "type": "h2", "text": "Why I won't quote you exact patrol times" },
-    { "type": "p", "text": "It would be easy to print a neat table of start and finish times, but the hours here genuinely move — longer through the warmer months, shorter over winter, and subject to change at short notice for conditions or staffing. Waverley Council runs some of the longest lifeguard hours in the country, but a number I write today could be wrong by the time you're on the sand, and getting patrol hours wrong is exactly what puts someone in the water when no one's watching. So I'll give you the shape of it and point you to the source." },
-    { "type": "callout", "tone": "note", "title": "Check the current hours before you go", "text": "For the exact patrol times on your day, check the Waverley Council beach safety page or the Beachsafe listing for each beach — especially if you're planning an early-morning or late-afternoon swim, when cover is most likely to have started late or finished for the day." },
-    { "type": "h2", "text": "Bondi Beach" },
-    { "type": "p", "text": "Bondi is the one you can count on. Professional lifeguards — the blue-shirted crew you'll know from Bondi Rescue, employed by Waverley Council — are on the sand 365 days a year during daylight hours. Through the warmer months, volunteer surf lifesavers in red and yellow add weekend and public-holiday cover on top. Of the three, Bondi has the longest and most reliable patrol window, so for the best odds of swimming between the flags with a lifeguard watching, this is the safe default." },
-    { "type": "h2", "text": "Bronte Beach" },
-    { "type": "p", "text": "Just south of Bondi, Bronte is a family favourite with its grassy park and famous ocean baths, patrolled by Waverley Council lifeguards with the flags set daily through the patrol season. Don't let the picnic-ground calm fool you, though — Bronte has a permanent, powerful rip on its southern side (locals call it the Bronte Express) that has caught out plenty of confident swimmers. That's exactly why the flags matter: the lifeguards place them well clear of it." },
-    { "type": "h2", "text": "Tamarama Beach" },
-    { "type": "p", "text": "Tiny, glamorous Tamarama — 'Glamarama' to locals — is the smallest of the three and, despite its size, one of the most hazardous beaches in Sydney: a narrow pocket of sand hemmed in by rocks, with strong, fast rips that make it a beach for experienced swimmers only. It is patrolled, but the hours tend to be narrower than Bondi's and cover can start later in the day. If you turn up early to no one on the tower and no flags on the sand, my advice is simple: don't swim there. Walk a few minutes to Bronte or up to Bondi, where the window is longer." },
-    { "type": "h2", "text": "Why patrol hours matter" },
-    { "type": "p", "text": "Swimming inside patrol hours, between the red and yellow flags, is the single best thing you can do for your safety here. The lifeguards pick the flagged area because it's the safest water that day, and they're trained to spot a rip forming before it becomes a rescue. Outside patrol hours the beaches are unsupervised, conditions can turn quickly, and there's no one watching if you get into trouble." },
-    { "type": "list", "items": [
-      "Always swim between the red and yellow flags.",
-      "Check the current patrol hours before you leave — they change with the season.",
-      "If there are no flags and no lifeguards, choose a patrolled beach instead.",
-      "Treat Tamarama as advanced-only, and never swim there unpatrolled.",
-      "Never swim alone, at night, or after drinking."
-    ] },
-    { "type": "localTip", "text": "On a big summer day I'll always steer first-time visitors and families to the flagged area at Bondi — the longest hours, the most lifeguards, and the calmest corner is usually up the northern end near the pavilion, away from the stronger surf at the Backpackers' end." },
+    { "type": "h2", "text": "Lifeguards vs. lifesavers: the blue and the red-and-yellow" },
+    { "type": "p", "text": "This trips up a lot of visitors, so it's worth clearing up. The people you'll almost always see are the professional Waverley Council lifeguards, in blue: paid, on the sand every day of the year, and running some of the longest patrol hours in the country. Swim on a random Tuesday in July and these are the folks watching over you." },
+    { "type": "p", "text": "The volunteers in red and yellow are surf lifesavers, members of clubs like the historic Bondi Surf Bathers' Life Saving Club, one of the oldest of its kind in the world. They patrol weekends and public holidays through the summer season, broadly October to the end of April. On a sunny Saturday you'll often see both blue and red-and-yellow at once, exactly when Bondi is busiest." },
+    { "type": "callout", "tone": "note", "title": "The flags are the thing to look for", "text": "Whoever's on duty, the red and yellow flags mark the supervised area with the safest conditions and the closest eyes. Set your towel where you can see them and keep your swim between them." },
+    { "type": "h2", "text": "Beach by beach" },
+    { "type": "h3", "text": "Bondi" },
+    { "type": "p", "text": "Bondi is the flagship, with the largest team and the longest coverage of the three. In summer the flags go up early and stay up into the evening; in winter the window is shorter, but the lifeguards are still there every day. It's the most watched patch of sand of the three by a distance, and my default recommendation for anyone new to the water here." },
+    { "type": "h3", "text": "Bronte" },
+    { "type": "p", "text": "Bronte, just south, is a favourite of mine for families, with its famous ocean pool and calmer end near the park. But don't be fooled by the picnic-ground feel: it has a notorious permanent rip on its southern side that lifeguards pull people from constantly. Patrols run daily on a similar rhythm to Bondi, so swim by the flags and steer clear of that dark, deceptively calm channel." },
+    { "type": "h3", "text": "Tamarama" },
+    { "type": "p", "text": "Little Tamarama, 'Glamarama' to locals, is beautiful and deceptively dangerous: small, deep and exposed, with strong rips that give it one of the higher rescue rates for its size in Sydney. It's a beach for confident ocean swimmers, and the flagged area can be narrow. Lifeguards patrol daily in season, but on a big swell they may close it to swimming entirely, and that's advice worth taking." },
+    { "type": "localTip", "text": "If you like an early or late swim outside peak flag hours, Bondi is your safest bet, with the longest coverage and biggest team. I'd never do a solo dawn swim at Tamarama; save that for the middle of the day, when the flags are up." },
+    { "type": "callout", "tone": "warning", "title": "Outside patrol hours, you're on your own", "text": "Before the flags go up and after they come down, these beaches are unpatrolled. Conditions change fast, rips shift with the tide and swell, and nobody's watching. If in doubt, don't swim; wait for the flags." },
+    { "type": "h2", "text": "How to check the exact hours on the day" },
+    { "type": "p", "text": "Because patrol times move with daylight, swell and staffing, I won't quote an exact minute that might be wrong on the day. Check Waverley Council's lifeguard page or the Beachsafe app from Surf Life Saving for that day's hours and conditions, or ask a lifeguard on the sand." },
     { "type": "faq", "items": [
-      {
-        "q": "What are the surf lifesaving patrol hours at Bondi, Bronte and Tamarama?",
-        "a": "All three are patrolled during daylight hours, longer in summer and shorter in winter. Bondi is patrolled every day of the year; Bronte and Tamarama have regular seasonal patrols, with Tamarama usually the narrowest window. Because the times are adjusted seasonally, check the Waverley Council beach safety page for the current hours."
-      },
-      {
-        "q": "Can I swim at Tamarama early in the morning?",
-        "a": "Only with real caution. Tamarama has strong rips and narrower patrol hours than Bondi, so early risers may arrive before lifeguards are on duty. If there are no flags and no one on the tower, don't swim — head to Bondi instead."
-      },
-      {
-        "q": "Is it safe to swim outside patrol hours?",
-        "a": "It's not recommended. With no lifeguards on duty and no flags flying, there's no one watching if you get into trouble, and conditions can change fast. Wait until the beach is patrolled."
-      }
-    ] }
+      { "q": "Are Bondi, Bronte and Tamarama patrolled all year round?", "a": "Yes. Waverley Council lifeguards (in blue) patrol all three every day of the year. Volunteer lifesavers in red and yellow additionally patrol weekends and public holidays through the summer season." },
+      { "q": "What time do the flags go up at Bondi?", "a": "Roughly 6am to 7pm in the warmer months and around 7am to 5:30pm in winter, though exact times shift with daylight and conditions. Check the council's lifeguard page or the Beachsafe app for the day, or ask a lifeguard." },
+      { "q": "Is it safe to swim at Tamarama?", "a": "Tamarama has strong rips and a high rescue rate for its size, so it's best for confident ocean swimmers. Only swim between the flags, and if lifeguards have closed the beach on a big swell, stay out." },
+      { "q": "What's the difference between a lifeguard and a lifesaver?", "a": "Lifeguards are paid professionals in blue who patrol year-round; lifesavers are trained volunteers in red and yellow who patrol weekends and holidays through summer. Both mark their swimming area with the flags." },
+      { "q": "Can I swim before the lifeguards arrive?", "a": "You can, but I wouldn't. Outside patrol hours these beaches are unsupervised and rips can be dangerous, so it's always safer to wait for the flags." }
+    ] },
+    { "type": "p", "text": "Bottom line: you're in safe hands on all three beaches, but the ocean here is the real deal. Swim between the flags, check the day's hours before you go, and take a lifeguard's advice when they give it. They know this coast on its best and worst days." }
   ]
 }

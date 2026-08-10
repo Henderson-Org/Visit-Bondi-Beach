@@ -3,42 +3,44 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Waverley Council — Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
-    { "label": "Waverley Council — Our lifeguards", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/our_lifeguards" },
-    { "label": "Surf Life Saving Australia — Flags & signs", "url": "https://lifesaving.com.au/safety-info/flags-signs" },
-    { "label": "Bondi Lifeguards — Surf safety", "url": "https://www.bondilifeguards.com/surf-safety" }
+    { "label": "Surf Life Saving Australia — Beachsafe: beach signage", "url": "https://beachsafe.org.au/surf-safety/beach-signage" },
+    { "label": "Waverley Council — Beach Safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
+    { "label": "healthdirect — Beach safety: rules, signs and flags", "url": "https://www.healthdirect.gov.au/beach-safety" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you only remember one thing about the signs at Bondi, make it this: swim between the red and yellow flags. Everything else on the sand — the coloured flags, the yellow diamond warnings, the beach-closed boards the lifeguards wheel out — is really just the beach talking to you, and once you can read it, Bondi feels a lot less intimidating. I've watched thousands of visitors walk straight past these signs on their way to the water, so here's my plain-English guide to what they actually mean." },
-    { "type": "h2", "text": "The flags: your first and most important read" },
-    { "type": "p", "text": "The flags flying on the sand are the single most important signal on any Australian beach, and Bondi is no exception. They're set up fresh each day by the lifeguards, who move them to wherever the water is safest, so their position can shift from morning to afternoon." },
+    { "type": "p", "text": "If you only remember one thing about reading Bondi, make it this: always swim between the red and yellow flags. Those paired flags mark the patrolled swimming zone the lifeguards have chosen as the safest stretch of water that day — everything else on the sand, from the coloured flags to the diamond-shaped warning signs, is there to tell you where the hazards are before you get wet. I've spent years watching people wander past these signs without a second glance, so here's how I read them, the local way." },
     { "type": "quickFacts", "items": [
-      { "label": "Red & yellow flags", "value": "Swim here — the patrolled, safest zone" },
-      { "label": "Red flag", "value": "Danger — the beach or that area is closed to swimming" },
-      { "label": "Black & white quartered flags", "value": "Surfcraft area — surfboards & skis, not swimmers" },
-      { "label": "Yellow flag", "value": "Caution — hazards present, take extra care" }
+      { "label": "Golden rule", "value": "Swim between the red & yellow flags" },
+      { "label": "Red flag alone", "value": "Beach closed — no swimming" },
+      { "label": "Yellow flag", "value": "Caution: potential hazards" },
+      { "label": "Black & white flags", "value": "Surfcraft area — no swimming" },
+      { "label": "Lifeguards at Bondi", "value": "Patrolled 365 days a year" }
     ] },
-    { "type": "p", "text": "The red-and-yellow pair mark out the area lifeguards are actively watching and have judged the safest for swimming. Set yourself up between them and you're never far from help. The black-and-white quartered flags mark the surfcraft zone — that's the corridor for boards and surf skis, and it's deliberately kept away from swimmers, so it's not where you paddle with the kids. A solid red flag means danger: swimming is closed there, whether because of a vicious rip, a shark sighting or wild surf." },
-    { "type": "callout", "tone": "warning", "title": "No flags flying? Think twice.", "text": "If there are no red-and-yellow flags up at all, the beach isn't being patrolled in the usual way — outside patrol hours, in big surf, or in winter. The vast majority of beach drownings in Australia happen away from the flags, so if in doubt, wait, ask a lifeguard, or simply don't go in." },
-    { "type": "h2", "text": "The yellow warning signs — what the symbols mean" },
-    { "type": "p", "text": "Dotted around the promenade and the ramps down to the sand you'll see yellow diamond signs with black symbols. These are Australia's standardised hazard warnings, and each pictogram flags a specific risk you might meet at Bondi:" },
+    { "type": "h2", "text": "The flags: your fastest safety read" },
+    { "type": "p", "text": "The flags are the quickest signal on the beach, and the lifeguards move them through the day as conditions change. This is the whole vocabulary, and it's worth knowing cold:" },
     { "type": "list", "items": [
-      "Strong currents / rips — the classic Bondi hazard. A rip is a narrow river of water pulling out to sea; if it grabs you, stay calm, don't fight it, raise an arm for help and float until it eases, then swim back at an angle.",
-      "Shore dumping / shore break — waves that break hard right on the sand. Rough on necks and shoulders, and worth respecting at Bondi's ends.",
-      "Bluebottles (marine stingers) — blue jellyfish-like creatures that blow in on an onshore wind, mostly in the warmer months. The sting hurts but is rarely dangerous; tell a lifeguard if lots wash up.",
-      "Submerged objects and drop-offs — Bondi's sandbanks shift constantly, so depth can change in a step.",
-      "Surfcraft prohibited — where boards and hard craft aren't allowed, to keep swimmers safe."
+      "Red and yellow flags (a pair): the patrolled swimming area. The lifeguards raise them away from rips, so the water between them is the safest place to swim.",
+      "Red flag on its own: the beach — or that section — is closed. Conditions are dangerous and you should stay out of the water.",
+      "Yellow flag: caution. Swimming is allowed but there are potential hazards, so take extra care and keep a close eye on kids.",
+      "Black and white quartered flags: a surfcraft riding area for boards, kayaks and skis. It is not a swimming zone — keep swimmers well clear."
     ] },
-    { "type": "localTip", "text": "Before you even change into your swimmers, stop at the big beach-safety sign at the top of the ramp for sixty seconds. It shows the day's conditions and where the current hazards are. It's the same thing the lifeguards want you to look at, and it's free peace of mind." },
-    { "type": "p", "text": "You'll also spot blue-and-white information signs (rules, dog and alcohol restrictions, facilities) and, on the worst-conditions days, a portable \"Beach Closed / Dangerous Conditions\" board out on the sand. When that's up, the water is genuinely unsafe and the lifeguards mean it — take the day for a coastal walk or the Icebergs pool instead." },
-    { "type": "h2", "text": "Reading Bondi like a local" },
-    { "type": "p", "text": "None of this is about being nervous. Bondi is patrolled by professional Waverley Council lifeguards and volunteer surf lifesavers whose whole job is to keep your day easy. The signs simply let you take some of that on yourself: check the flags, glance at the warnings, pick your spot between the red and yellow, and keep an eye on smaller swimmers." },
+    { "type": "callout", "tone": "warning", "title": "No flags flying? That's a message too", "text": "If you arrive early, late, or on a rough day and there are no red and yellow flags up at all, it means there's no patrolled zone in operation. That's the moment to be most cautious — Bondi's surf and rips don't take a day off just because the flags aren't out." },
+    { "type": "h2", "text": "The signs: hazards, warnings and information" },
+    { "type": "p", "text": "Beyond the flags, Bondi uses the national Surf Life Saving sign system, and the shape and colour tell you what kind of message you're looking at before you even read the words." },
+    { "type": "h3", "text": "Yellow-and-black diamond warning signs" },
+    { "type": "p", "text": "These diamond-shaped signs flag a specific hazard. The ones you're most likely to see at Bondi warn about strong currents (rips), a sudden drop-off where the sand shelves away underfoot, big surf and shore dumps, submerged rocks, and marine stingers like bluebottles. On the rare day sharks are sighted, signs and alarms warn people to leave the water. Treat every diamond as a genuine reason to change your plan." },
+    { "type": "h3", "text": "Blue-and-white information signs" },
+    { "type": "p", "text": "Square, blue-and-white signs are informational rather than hazard warnings — think patrol hours, what's permitted where, and general beach rules. They're the fine print of the beach, worth a glance so you know where surfcraft are allowed and where they aren't." },
+    { "type": "localTip", "text": "A rip often looks calmer, darker and flatter than the water around it — a deceptively 'inviting' gap in the breaking waves. That smooth patch is usually the current running back out to sea, which is exactly why the lifeguards plant the flags away from it. When in doubt, ask a lifeguard where to swim before you go in; they genuinely don't mind." },
+    { "type": "h2", "text": "Who's watching, and why the flags move" },
+    { "type": "p", "text": "Bondi is patrolled year-round by professional lifeguards employed by Waverley Council — the ones in blue you'll recognise from the TV show — and in the warmer months by volunteer surf lifesavers. Because sandbanks and rips shift constantly, the safe zone changes from morning to afternoon, which is why the flags move up and down the beach. The signs give you the standing rules; the flags give you today's live answer. For current patrol times and any beach closures, check the Waverley Council and Surf Life Saving updates rather than assuming." },
     { "type": "faq", "items": [
-      { "q": "What do the red and yellow flags at Bondi mean?", "a": "They mark the supervised swimming area — the stretch of water the lifeguards have judged safest and are actively watching. Always swim between them and stay clear of the water outside them." },
-      { "q": "What does a red flag on its own mean?", "a": "A solid red flag means danger and that swimming is closed in that area or on the whole beach — usually because of a strong rip, dangerous surf, or a shark sighting. Stay out of the water until it's taken down." },
-      { "q": "What are the black and white flags for?", "a": "Black-and-white quartered flags mark the surfcraft riding area, set aside for surfboards and surf skis and kept separate from swimmers. It's not a swimming zone." },
-      { "q": "What do the yellow diamond signs mean?", "a": "They're standardised hazard warnings. The black symbol tells you the specific risk — rips and strong currents, shore-dumping waves, bluebottle stingers, submerged objects, or areas where surfcraft aren't allowed." },
-      { "q": "Is it safe to swim at Bondi when no flags are up?", "a": "It's much riskier. No flags means the area isn't being patrolled in the normal way. Most Australian beach drownings happen away from the flags, so wait for patrol hours, check with a lifeguard, or choose not to swim. See Waverley Council for current lifeguard patrol times." }
-    ] }
+      { "q": "What do the red and yellow flags mean at Bondi Beach?", "a": "They mark the patrolled swimming area. Lifeguards position the flags away from rip currents, so the water between them is the safest place to swim and the only spot they're actively watching. Always swim between them." },
+      { "q": "What's the difference between a red flag and the red and yellow flags?", "a": "A red flag on its own means the beach is closed and swimming is not allowed. Red and yellow flags flown as a pair mean the opposite — that's the safe, patrolled zone. Look for two colours together before you swim." },
+      { "q": "What do the black and white flags on the beach mean?", "a": "Black and white quartered flags mark a surfcraft riding area for surfboards, kayaks and skis. It is not a swimming zone, so swimmers should stay well clear to avoid collisions." },
+      { "q": "How do I spot a rip current at Bondi?", "a": "Look for a darker, calmer-looking channel with fewer breaking waves — that smoother patch is often the rip running back out to sea. If you're unsure, don't swim there; stay between the flags and ask a lifeguard if in doubt." },
+      { "q": "Is Bondi Beach patrolled all year?", "a": "Yes. Professional lifeguards employed by Waverley Council patrol Bondi every day of the year, with volunteer surf lifesavers adding patrols in the warmer months. Check Waverley Council for current patrol hours." }
+    ] },
+    { "type": "p", "text": "None of this takes the fun out of Bondi — learning to read the beach is what lets you relax into it. Find the red and yellow flags and swim between them. Do that and you've done the single most important thing any local could tell you." }
   ]
 }

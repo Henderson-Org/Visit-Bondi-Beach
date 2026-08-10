@@ -3,9 +3,8 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Beachwatch NSW — Bondi Beach site details", "url": "https://beachwatch.nsw.gov.au/siteDetails/405ce99c-7a0b-43f7-8d28-2ee0b65eebb5" },
-    { "label": "Beachwatch NSW — Is it safe to swim?", "url": "https://www.beachwatch.nsw.gov.au/whatIsBeachwatch/safeToSwim" },
-    { "label": "Beachwatch NSW — State of the Beaches", "url": "https://www.beachwatch.nsw.gov.au/stateOfTheBeaches" }
+    { "label": "Beachwatch NSW — live beach grades and pollution forecasts", "url": "https://beachwatch.nsw.gov.au/" },
+    { "label": "Beachwatch NSW — State of the Beaches annual report", "url": "https://beachwatch.nsw.gov.au/stateOfTheBeaches" }
   ],
   "blocks": [
     { "type": "p", "text": "Short answer, and the one I give friends before they fly in: the water at Bondi is clean and genuinely lovely to swim in for the vast majority of the year. It's a monitored open-ocean beach that flushes well, and on a normal dry-weather day I wouldn't think twice about diving in. The one real exception is the day or two after heavy rain, when stormwater runoff can knock the quality down — so the honest answer isn't \"always perfect\", it's \"clean, but check after a downpour.\"" },

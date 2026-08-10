@@ -1,0 +1,45 @@
+{
+  "path": "/bondi-blog/2023/12/24/insiders-guide-to-new-years-eve-at-bondi-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Events", "url": "https://www.waverley.nsw.gov.au/recreation/events" },
+    { "label": "Sydney New Year's Eve — official site", "url": "https://www.sydneynewyearseve.com" },
+    { "label": "Sydney.com — New Year's Eve in Sydney", "url": "https://www.sydney.com/things-to-do/new-years-eve-sydney" },
+    { "label": "Transport for NSW — trip planner", "url": "https://transportnsw.info" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Here's the thing every local knows: you cannot see the famous Sydney Harbour fireworks from Bondi Beach. The Bridge and Opera House sit on the far side of the city, behind the headlands, so no patch of sand will conjure them into view. But New Year's Eve in Bondi is no write-off. Want the harbour pyrotechnics? Head to high ground to the west. Want the salt-air, barefoot, party-till-sunrise version? Stay right here — here's how I'd play both." },
+    { "type": "quickFacts", "items": [
+      { "label": "Harbour fireworks from Bondi?", "value": "No — wrong side of the headlands" },
+      { "label": "Two Sydney firework shows", "value": "9pm family + midnight" },
+      { "label": "Best eastern-suburbs viewing", "value": "Dudley Page Reserve, Dover Heights" },
+      { "label": "Bondi's own vibe", "value": "Beach bars, restaurants & big crowds" }
+    ] },
+    { "type": "h2", "text": "If you want to see the harbour fireworks" },
+    { "type": "p", "text": "Sydney typically runs two shows on 31 December — a family display in the early evening and the main event at midnight, launched from the Harbour Bridge, the Opera House and barges across the harbour. To catch either from our side of town you want elevation — the eastern suburbs look back over the rooftops toward the city." },
+    { "type": "p", "text": "My first pick is Dudley Page Reserve at Dover Heights, one of the highest points in the eastern suburbs. Waverley Council runs a ticketed, family-friendly celebration up there most years, with a clear line of sight to both the early and midnight fireworks and a no-BYO-alcohol policy that keeps it civil — one of the better-value ways to see the show." },
+    { "type": "callout", "tone": "warning", "title": "Book ahead — and check this year's details", "text": "The Dudley Page event is ticketed and sells out, and capacities, entry times and conditions change year to year — it can even be cancelled for weather or fire risk. Don't turn up on spec: confirm this year's dates, tickets and rules on the Waverley Council events page first." },
+    { "type": "p", "text": "Further along the coast, Nielsen Park at Vaucluse sits inside Sydney Harbour National Park and gives a more relaxed outlook toward the harbour — lovely if you'd rather picnic than party. Access and NYE arrangements change year to year, so check the official vantage-points map first — the Sydney New Year's Eve site lists which spots are free, ticketed or closed." },
+    { "type": "h2", "text": "If you'd rather celebrate in Bondi itself" },
+    { "type": "p", "text": "Plenty of people I know skip the fireworks scramble and spend the night in Bondi — a brilliant call. The beachfront bars, pubs and restaurants along Campbell Parade book out fast, so if you want a table with a view, reserve it weeks ahead. Walking up on the night rarely works on 31 December." },
+    { "type": "p", "text": "In recent seasons a New Year's Eve event has run on the sand at Bondi, often pairing a ticketed music show with a free family zone. Whether it runs — and in what form — changes year to year, so treat it as 'check before you commit' rather than a fixture." },
+    { "type": "localTip", "text": "The beach is alcohol-free and the promenade gets heaving, so don't BYO onto the sand — you'll be tipped out. Book a venue if you want a drink, get there early, and sort your ride home first: rideshare surges and taxis are gold dust after midnight." },
+    { "type": "callout", "tone": "note", "title": "And the morning after?", "text": "Bondi does New Year's Day beautifully — a sunrise swim, a long breakfast and a slow walk to Bronte are the perfect antidote to a big night." },
+    { "type": "h2", "text": "Getting there and home" },
+    { "type": "list", "items": [
+      "Public transport is your friend — roads, parking and clearways near every vantage point are chaos. Plan with Transport for NSW and tap on with an Opal card or contactless.",
+      "Trains and buses usually run extended timetables on NYE, but they get packed; leave earlier than feels necessary in both directions.",
+      "Bring layers, water and a charged phone — even a balmy night cools off on an exposed headland, and networks clog when everyone messages at midnight.",
+      "If you're driving near the harbour, expect to park a long walk away and build that into your timing."
+    ] },
+    { "type": "faq", "items": [
+      { "q": "Can you see the Sydney fireworks from Bondi Beach?", "a": "No — the Bridge and Opera House sit behind the headlands on the far side of the city, so the harbour fireworks aren't visible from Bondi itself. For an eastern-suburbs view you need high ground, and Dudley Page Reserve at Dover Heights is the standout." },
+      { "q": "What time are the Sydney New Year's Eve fireworks?", "a": "There are usually two displays — a family show in the early evening and the main midnight one. Exact timings are confirmed each year on the official Sydney New Year's Eve website." },
+      { "q": "Is the Dudley Page Reserve event free?", "a": "No — Waverley Council's Dudley Page Reserve celebration is ticketed and typically sells out. Details and prices vary year to year, so book through the Waverley Council events page in advance." },
+      { "q": "Can I drink alcohol on Bondi Beach on New Year's Eve?", "a": "No. Bondi Beach is an alcohol-free area, actively enforced on NYE. If you want a drink, book a licensed bar, pub or restaurant along Campbell Parade well ahead of time." },
+      { "q": "What's the best way to get home from Bondi after midnight?", "a": "Public transport on extended NYE timetables is usually your most reliable bet — rideshare surges and taxis are scarce after midnight. Plan your route with Transport for NSW before you head out." }
+    ] },
+    { "type": "p", "text": "So that's the insider's take: for the fireworks, go up high at Dover Heights and book early; for the atmosphere, stay in Bondi and sort your way home in advance. Either way, verify this year's specifics with the official sources above first. See you out there." }
+  ]
+}

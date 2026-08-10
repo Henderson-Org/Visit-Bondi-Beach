@@ -1,0 +1,47 @@
+{
+  "path": "/bondi-blog/2025/5/23/rain-or-shine-7-must-do-indoor-activities-in-bondi-beach-on-a-rainy-day",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Bondi Pavilion", "url": "https://www.waverley.nsw.gov.au/recreation/bondi_pavilion" },
+    { "label": "Waverley Library", "url": "https://www.waverley.nsw.gov.au/library" },
+    { "label": "Icebergs Dining Room and Bar", "url": "https://idrb.com/" },
+    { "label": "Gertrude & Alice Cafe Bookstore", "url": "https://www.gertrudeandalice.com.au/" },
+    { "label": "Event Cinemas Bondi Junction", "url": "https://www.eventcinemas.com.au/cinema/bondi-junction" },
+    { "label": "Westfield Bondi Junction", "url": "https://www.westfield.com.au/bondijunction" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "When the rain rolls in off the Tasman and the flags come down at Bondi, I don't head home — I move the day indoors. So what is there to do in Bondi Beach on a rainy day? Plenty. Between the Pavilion's galleries, a long lunch above the pool, café-hopping and the undercover world of Bondi Junction, a wet day here is often one of my favourites. Here are the seven I keep coming back to." },
+    { "type": "quickFacts", "items": [
+      { "label": "Best free option", "value": "Bondi Pavilion galleries" },
+      { "label": "Best treat", "value": "Long lunch at Icebergs" },
+      { "label": "Kids & families", "value": "Waverley Library" },
+      { "label": "Getting around", "value": "Buses 333/380 & the Bondi Junction interchange" }
+    ] },
+    { "type": "h2", "text": "1. Bondi Pavilion — art, theatre and pottery under one roof" },
+    { "type": "p", "text": "The restored Bondi Pavilion is the first place I send anyone caught in a downpour. Right on the promenade, this heritage building reopened in 2022 after a major restoration and now holds an art gallery, a theatre, music studios, a pottery studio and the Bondi Story Room. Programming rotates constantly, so check the Waverley Council Pavilion page for what's on — and the galleries are free to wander." },
+    { "type": "localTip", "text": "Grab a window seat upstairs between showers — you get the whole sweep of the beach and the surf turning moody and grey, a better view than any blue-sky day." },
+    { "type": "h2", "text": "2. A long lunch at Icebergs, dry above a churning sea" },
+    { "type": "p", "text": "There's no better place to watch a storm than the dining room and bar at Icebergs, on the top level of 1 Notts Avenue above the famous ocean pool. It's a celebrated Italian restaurant with floor-to-ceiling views, and on a wild day the waves crashing over the pool below are pure theatre. Check idrb.com for current menus, prices and reservations." },
+    { "type": "h2", "text": "3. Café-hopping through North Bondi" },
+    { "type": "p", "text": "Rain is the perfect excuse to slow down over coffee, and Bondi's café scene is world-class. I'll linger over eggs and a flat white at Porch & Parlour on Ramsgate Avenue, or grab a corner at Speedos Café up the North Bondi end and watch the wet promenade go by." },
+    { "type": "callout", "tone": "note", "title": "Cafés get cosy-busy when it rains", "text": "Everyone has the same idea on a wet Sunday, so the popular spots fill fast mid-morning. Go early, or wait out the peak under the Pavilion arches." },
+    { "type": "h2", "text": "4. A wellness reset — massage, sauna or a yoga class" },
+    { "type": "p", "text": "A grey day is tailor-made for self-care. Bondi is full of day spas, massage studios and yoga schools where you can book a treatment or drop into a class while the rain empties the streets. Rather than name prices that change, find a studio near your accommodation and book directly." },
+    { "type": "h2", "text": "5. Read, borrow or just shelter at Waverley Library" },
+    { "type": "p", "text": "One of Bondi's best rainy-day secrets is free: Waverley Library at the Ron Lander Centre in Bondi Junction. It's a lovely public library with quiet reading nooks, a big children's section, newspapers and free Wi-Fi — a no-pressure spot for families or anyone who wants to dry off with a book. Check the Waverley Council library page for current opening hours, which vary on weekends." },
+    { "type": "h2", "text": "6. Lose an afternoon in a bookshop-café at Gertrude & Alice" },
+    { "type": "p", "text": "When I want to disappear from the weather entirely, I head to Gertrude & Alice on Hall Street — a much-loved Bondi bookshop-café stacked floor to ceiling with new and secondhand books, with communal tables, good coffee and cake. Pull something off the shelf, order a chai and settle in. Check gertrudeandalice.com.au for opening hours and events." },
+    { "type": "callout", "tone": "note", "title": "Planning on the Bondi Junction cinema?", "text": "Event Cinemas Bondi Junction is closed while Westfield's Level 6 entertainment precinct is rebuilt, with a reopening flagged for later in 2026 — check the Event Cinemas page before counting on a film there." },
+    { "type": "h2", "text": "7. Retail therapy, all undercover" },
+    { "type": "p", "text": "When you just want to stay bone dry for hours, Westfield Bondi Junction is the answer — hundreds of shops, food courts and cafés under one roof with the transport interchange right there. It's a short bus ride from the sand on the 333 or 380, so you can duck out the moment the sky clears." },
+    { "type": "localTip", "text": "The 333 and 380 buses link Bondi Beach straight to the Bondi Junction interchange, so you can chain the library, the shops and a long lunch into one dry afternoon." },
+    { "type": "faq", "items": [
+      { "q": "What is there to do in Bondi Beach when it rains?", "a": "The Bondi Pavilion galleries and theatre, a long lunch at Icebergs, café-hopping through North Bondi, a spa or yoga session, Waverley Library, a browse at Gertrude & Alice, and undercover shopping at Westfield." },
+      { "q": "Is there anything free to do in Bondi on a rainy day?", "a": "Yes — wandering the Bondi Pavilion's art gallery and public spaces is free, and Waverley Library in Bondi Junction is a free place to read, use the Wi-Fi or entertain the kids." },
+      { "q": "What can families do with kids in Bondi when it's wet?", "a": "Waverley Library has a big children's section and quiet corners, and the Bondi Pavilion often runs family workshops and has the interactive Bondi Story Room." },
+      { "q": "Do I need to book anything in advance?", "a": "For a table at Icebergs or a spa treatment, yes — book through their websites and confirm prices there. The Pavilion, library and Gertrude & Alice are all walk-in." }
+    ] },
+    { "type": "p", "text": "So don't write off a rainy day in Bondi. Some of my best afternoons started with the flags coming down — a gallery, a long lunch and a good book. Rain or shine, this corner of Sydney always has somewhere dry to be." }
+  ]
+}

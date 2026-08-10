@@ -1,0 +1,40 @@
+{
+  "path": "/bondi-blog/2018/9/11/how-far-is-bondi-beach-from-sydney",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Transport for NSW — Trip Planner", "url": "https://transportnsw.info/trip" },
+    { "label": "Transport for NSW — Opal & contactless fares", "url": "https://transportnsw.info/tickets-opal" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "The short answer: Bondi Beach sits about 7 kilometres east of the Sydney CBD — close enough that I've done it on a whim after a morning coffee in the city, and near enough that most first-timers are surprised how quick the trip is. By road or public transport you're looking at well under an hour door to door on a normal day." },
+    { "type": "quickFacts", "items": [
+      { "label": "Distance from CBD", "value": "About 7 km east" },
+      { "label": "By car", "value": "Roughly 20–30 min (traffic-dependent)" },
+      { "label": "Public transport", "value": "Usually 30–45 min" },
+      { "label": "Payment", "value": "Opal card or contactless tap-on/off" }
+    ] },
+    { "type": "h2", "text": "So how far is it, really?" },
+    { "type": "p", "text": "Bondi Beach is one of Sydney's eastern suburbs, and from the heart of the CBD — say Town Hall or Circular Quay — it's around 7 km. But don't plan by distance alone: Sydney's eastern roads wind, and traffic through Kings Cross, Rushcutters Bay and Bondi Junction bunches up, especially on a sunny summer Saturday when half the city has the same idea. Give yourself a buffer." },
+    { "type": "h2", "text": "The ways I get there" },
+    { "type": "h3", "text": "By public transport (my go-to)" },
+    { "type": "p", "text": "The classic route is train plus bus. Catch a train from Town Hall, Martin Place or Central out to Bondi Junction — it's only a few stops — then jump on a bus for the last leg down the hill to the beach. From Bondi Junction interchange, the 333 and 380 buses both head to Bondi Beach — the 333 is the one most visitors know — and the Trip Planner will show you the full current list of services. It's a short, scenic ride from there." },
+    { "type": "li", "text": "Train to Bondi Junction, then a bus (the 333 or 380) down to Campbell Parade at the beach." },
+    { "type": "li", "text": "Or the direct 333 bus, which runs between the city and Bondi Beach without changing." },
+    { "type": "p", "text": "Because timetables and travel times shift with roadworks, events and the day of the week, I always plug my exact starting point into the Transport for NSW Trip Planner before I leave rather than trusting a fixed number — it'll give you the live departures and the fastest combination on the day." },
+    { "type": "localTip", "text": "You don't need to buy a paper ticket. Just tap on and off with an Opal card or a contactless Visa/Mastercard/Amex (or your phone or watch) — the same card works across trains and buses, and Transport for NSW caps your daily and weekly spend automatically. Tap the SAME card every time so your trips link up." },
+    { "type": "h3", "text": "By car, taxi or rideshare" },
+    { "type": "p", "text": "Driving from the CBD usually takes somewhere in the 20–30 minute range outside peak times, but here's my honest local warning: parking at Bondi is the real challenge, not the drive. Metered street parking around Campbell Parade fills fast, time limits are enforced, and on a hot weekend you can circle for ages. If I'm heading down on a summer Sunday I'll almost always take the train-and-bus instead and skip the parking stress entirely." },
+    { "type": "callout", "tone": "note", "title": "Peak-time reality check", "text": "On sunny weekends and public holidays, both the roads to Bondi and the beachside car parks get very busy. Public transport is often the faster and far less stressful choice on those days — and you get to enjoy the view instead of watching the road." },
+    { "type": "h2", "text": "Is Bondi worth the trip from the city?" },
+    { "type": "p", "text": "Absolutely — and being only 7 km out means you don't have to choose between the beach and the city. Plenty of visitors do a morning in the CBD and an afternoon at Bondi in the same day. If you've got a couple of hours spare, the Bondi to Coogee coastal walk starts right at the south end of the beach and is, in my opinion, one of the best free things you can do in Sydney." },
+    { "type": "faq", "items": [
+      { "q": "How far is Bondi Beach from Sydney city centre?", "a": "About 7 kilometres east of the CBD. By car it's typically a 20–30 minute drive depending on traffic, and by public transport it's usually 30–45 minutes door to door." },
+      { "q": "What's the easiest way to get from the CBD to Bondi Beach?", "a": "Take a train from the city to Bondi Junction, then transfer to a bus (the 333 or 380) down to the beach. The direct 333 bus from the city is another simple option. Check the Transport for NSW Trip Planner for live times and the full list of services from your exact location." },
+      { "q": "Do I need to buy a ticket in advance?", "a": "No. Tap on and off with an Opal card or a contactless bank card, phone or watch. The same card covers trains and buses, and daily and weekly fare caps apply automatically." },
+      { "q": "Should I drive to Bondi or take public transport?", "a": "The drive itself is short, but Bondi parking is limited, metered and time-restricted, and fills quickly on warm weekends. On busy days I'd take the train and bus every time — it's usually faster and much less stressful." },
+      { "q": "How long does it take to get from Sydney Airport to Bondi Beach?", "a": "It varies with traffic, but it's a longer trip than from the CBD since the airport is south of the city. Use the Transport for NSW Trip Planner for a current estimate, as times change throughout the day." }
+    ] },
+    { "type": "p", "text": "So don't let the words \"world-famous beach\" fool you into thinking it's a mission to reach. Bondi is closer than most first-time visitors expect — grab your Opal card or tap your bank card, and you could be swimming within the hour." }
+  ]
+}

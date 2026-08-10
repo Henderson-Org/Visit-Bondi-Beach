@@ -1,0 +1,45 @@
+{
+  "path": "/bondi-blog/2025/4/29/ultimate-wet-weather-guide-to-bondi-rainy-day-activities-tips",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "What's on at Bondi Pavilion — Waverley Council", "url": "https://www.waverley.nsw.gov.au/recreation/events/events/whats_on_at_bondi_pavilion" },
+    { "label": "Bondi Pavilion — Waverley Council", "url": "https://www.waverley.nsw.gov.au/recreation/places_of_interest/bondi_pavilion" },
+    { "label": "Bondi Icebergs Club — Pool", "url": "https://icebergs.com.au/" },
+    { "label": "Transport for NSW — Trip Planner", "url": "https://transportnsw.info/" },
+    { "label": "Bureau of Meteorology — Sydney Forecast", "url": "http://www.bom.gov.au/nsw/forecasts/sydney.shtml" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "A rainy day at Bondi is not a write-off — it's just a different Bondi, and honestly one of my favourites. When the surf turns grey and the sand empties out, you can duck into the Pavilion for free art, catch a film up at Bondi Junction, swim in the rain at the Icebergs pool, or walk the coast under a moody sky with a takeaway coffee. Here's how I spend a wet day around the beach, with the tricks that keep it fun rather than soggy." },
+    { "type": "quickFacts", "items": [
+      { "label": "Best free option", "value": "Bondi Pavilion Gallery" },
+      { "label": "Best for kids", "value": "Cinema at Bondi Junction" },
+      { "label": "Best for the brave", "value": "Icebergs pool in the rain" },
+      { "label": "Getting here", "value": "Bus 333 / 380 / 381 from Bondi Junction" }
+    ] },
+    { "type": "h2", "text": "Stay dry at the Bondi Pavilion" },
+    { "type": "p", "text": "The Pavilion is the first place I send anyone caught in a downpour. Sitting right on the promenade after its heritage restoration, it's the cultural heart of the beach — an art gallery, a theatre, and music and pottery studios with rotating exhibitions. The gallery is free and there's almost always something on. Because the programme changes constantly, I never quote specific shows or times — check the Pavilion's What's On calendar on the day." },
+    { "type": "localTip", "text": "Pair the Pavilion with a long coffee. The beachfront cafés with big front windows are made for watching rain sweep across the sand — all the drama, none of the wet." },
+    { "type": "h2", "text": "Rainy-day activities beyond the sand" },
+    { "type": "p", "text": "If you'd rather keep moving, Bondi and the streets just behind it have plenty under cover:" },
+    { "type": "li", "text": "Catch a film at Bondi Junction — the cinemas inside Westfield are a short bus or train hop away, with heated seats and the latest releases. Check session times online before you head up." },
+    { "type": "li", "text": "Swim in the rain at the Bondi Icebergs pool. The ocean-fed saltwater pool stays open in most weather — there's nothing like doing laps while rain dimples the surface and waves crash over the edge. It closes for cleaning and big surf, so confirm hours first." },
+    { "type": "li", "text": "Browse the boutiques and surf shops along Gould Street and Hall Street, then warm up in a café — retail therapy is the classic Bondi wet-weather move." },
+    { "type": "li", "text": "Go bigger at Westfield Bondi Junction — hundreds of shops and food courts, all indoors and dry." },
+    { "type": "callout", "tone": "note", "title": "Check before you commit", "text": "Opening hours, session times and pool closures all shift with weather and season. For anything time-sensitive, check the venue's own website or socials the same day rather than relying on yesterday's info." },
+    { "type": "h2", "text": "Embrace the weather: the coast in the rain" },
+    { "type": "p", "text": "Some of my most memorable Bondi mornings have been the drizzly ones. Light rain turns the Bondi to Coogee coastal walk cinematic — dark cliffs, churning surf, empty paths and dramatic skies. Pull on a jacket, grab a coffee, and go slowly. Use judgement, though: the clifftop path gets slippery and gusty in a storm, and the rock platforms near the water are dangerous when the swell is up." },
+    { "type": "callout", "tone": "warning", "title": "Big swell and slick rocks", "text": "Rain often arrives with heavy surf. Never venture onto exposed rock shelves or ocean pools during large swell, and keep well back from the edge on the coastal walk. If lifeguards have flagged dangerous conditions, believe them." },
+    { "type": "localTip", "text": "Pack smart: a packable rain jacket, a waterproof phone pouch and a small towel beat a bulky umbrella that fights the sea breeze. Most indoor spots are only a few minutes apart, so you can hop between them without getting soaked." },
+    { "type": "h2", "text": "Getting around when it's wet" },
+    { "type": "p", "text": "Parking near the beach is tight at the best of times and worse in the rain, so I skip the car. Trains run to Bondi Junction, and from the interchange frequent buses (333, 380 and 381 among them) drop you right at the beach. Tap on with an Opal or contactless card, and check the Transport for NSW trip planner for live times." },
+    { "type": "faq", "items": [
+      { "q": "What is there to do in Bondi when it rains?", "a": "Plenty. Visit the free Bondi Pavilion gallery, catch a film at Westfield Bondi Junction, swim at the ocean-fed Icebergs pool, browse the Gould and Hall Street shops, or walk a moody stretch of the Bondi to Coogee path with a coffee." },
+      { "q": "Is the Bondi Icebergs pool open in the rain?", "a": "Usually, yes — it's an outdoor saltwater pool, so rain alone doesn't close it. It does close for cleaning and can shut in big surf, so confirm the day's hours on the Icebergs website first." },
+      { "q": "Is the Bondi Pavilion free to visit?", "a": "The Pavilion's art gallery is free and open to the public, and many events are free too. Because the programme changes often, check the What's On calendar for current exhibitions and workshops." },
+      { "q": "How do I get to Bondi Beach without a car on a rainy day?", "a": "Take a train to Bondi Junction, then a bus (333, 380 or 381) down to the beach — quicker and far less stressful than hunting for beachside parking. Use the Transport for NSW trip planner for live departures." },
+      { "q": "Is the Bondi to Coogee walk safe in the rain?", "a": "In light rain it's a beautiful, atmospheric walk — just wear grippy shoes and take it steady, as the path gets slippery. Avoid it in storms or big swell, and never step onto exposed rock shelves when the surf is up." }
+    ] },
+    { "type": "p", "text": "So don't let a grey forecast change your plans. Some of Bondi's best moments happen when the sun clocks off — just swap the towel for a raincoat and lean in." }
+  ]
+}

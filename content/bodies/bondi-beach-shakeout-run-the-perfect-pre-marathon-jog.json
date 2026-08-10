@@ -18,12 +18,12 @@
     { "type": "h2", "text": "The classic: the Bondi promenade out-and-back" },
     { "type": "p", "text": "If you only do one thing, run the beachfront promenade. It stretches from the North Bondi end down to the Icebergs end and back, hugging the sand the whole way. It's wide, flat and level — no stairs, no cambered road — exactly what you want when the goal is to loosen the legs without loading them. An easy out-and-back here lands you around 2 to 3 km, and you can turn back whenever your legs feel awake." },
     { "type": "p", "text": "Because it's so flat and forgiving, it's the route I steer nervous first-timers toward. You're never far from a water bubbler, a bench or a toilet, and you'll almost always have other runners for company." },
-    { "type": "localTip", "text": "Go at first light. Sunrise over the water is genuinely spectacular, the promenade is quiet before the crowds arrive, and an early jog helps reset your body clock if you've flown in across time zones. Check the sunrise time for your date so you're lacing up as the sky starts to glow." },
+    { "type": "localTip", "text": "Go at first light. Sunrise over the water is spectacular, the promenade is quiet before the crowds, and an early jog helps reset your body clock if you've flown across time zones. Check the sunrise time for your date so you're lacing up as the sky glows." },
     { "type": "h2", "text": "If you want a little more: a taste of the coastal walk" },
-    { "type": "p", "text": "The Bondi to Bronte Coastal Walk is Sydney's most famous stretch of clifftop path, and you don't need to run the whole thing. A gentle jog to Tamarama and back gives you the ocean views and the sea air without committing your legs to the full distance — check Waverley Council for the exact route and length before you go." },
+    { "type": "p", "text": "The Bondi to Bronte Coastal Walk is Sydney's most famous stretch of clifftop path, and you don't need to run the whole thing. A gentle jog to Tamarama and back gives you the ocean views without committing your legs to the full distance — check Waverley Council for the exact route and length before you go." },
     { "type": "callout", "tone": "warning", "title": "Mind your footing the day before a race", "text": "This path has steps, narrow sections and uneven sandstone, and it gets busy with walkers stopping for photos — a recipe for a rolled ankle the day before you need your legs most. Keep the pace to a shuffle, give way to walkers, and drop back to the flat promenade if it's crowded." },
     { "type": "h2", "text": "Fuel, coffee and the golden rule" },
-    { "type": "p", "text": "Bondi's café culture is part of the fun, and a flat white on the promenade after an easy jog is a lovely pre-race ritual. There are plenty of cafés along and just behind the beachfront, though I'd glance at current opening hours before you set out, since they change with the seasons." },
+    { "type": "p", "text": "Bondi's café culture is part of the fun, and a flat white after an easy jog is a lovely pre-race ritual. Plenty of cafés line the beachfront and the streets just behind it, though I'd check current opening hours before you set out." },
     { "type": "p", "text": "The golden rule the day before a marathon: keep it familiar and keep it light. A shakeout isn't the morning to test a brand-new smoothie bowl or a triple-shot coffee your stomach has never met. Fuel gently, hydrate, and save the big feed for after you cross the line." },
     { "type": "h2", "text": "Why Bondi works so well for a shakeout" },
     { "type": "list", "items": [
@@ -40,6 +40,6 @@
       { "q": "Does the Sydney Marathon start at Bondi Beach?", "a": "No. The course crosses the Sydney Harbour Bridge and finishes near the Opera House, not at Bondi. If you're staying in Bondi, plan your race-morning transport ahead and confirm timings on the official TCS Sydney Marathon site." },
       { "q": "What should I eat or drink before a shakeout run?", "a": "Keep it familiar and light — a small, plain breakfast you've had before, plus water. Save experiments and heavy meals for after the race. A post-run coffee is a fine reward, just don't overdo it the day before." }
     ] },
-    { "type": "p", "text": "That's the whole secret: keep it short, keep it easy, and let Bondi do the rest. Breathe in the salt air, let the sunrise settle your nerves, and jog home fresh and ready. Rest up — the hard work is tomorrow." }
+    { "type": "p", "text": "That's the whole secret: keep it short, keep it easy, and let Bondi do the rest. Breathe in the salt air, jog home fresh, and rest up — the hard work is tomorrow." }
   ]
 }

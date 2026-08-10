@@ -3,48 +3,47 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Flatmates.com.au", "url": "https://flatmates.com.au" },
-    { "label": "Flatmate Finders", "url": "https://www.flatmatefinders.com.au" },
-    { "label": "NSW Government — Renting a place to live", "url": "https://www.nsw.gov.au/housing-and-construction/renting-a-place-to-live" },
-    { "label": "Tenants' Union of NSW — Share housing factsheet", "url": "https://www.tenants.org.au/factsheet-share-housing" }
+    { "label": "Flatmates.com.au — Bondi Beach share accommodation", "url": "https://flatmates.com.au/rooms/bondi-beach-nsw-2026" },
+    { "label": "Flatmate Finders — Bondi Beach house shares", "url": "https://www.flatmatefinders.com.au/rooms/bondi-beach-2026" },
+    { "label": "Domain — Bondi Beach rentals", "url": "https://www.domain.com.au/rent/bondi-beach-nsw-2026/" },
+    { "label": "NSW Fair Trading — Renting", "url": "https://www.nsw.gov.au/housing-and-construction/renting-a-place-to-live" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you want to live in Bondi, a share house is almost always the way in — the fastest, cheapest route to a bed near the sand is a room in an existing house, not a whole lease of your own. I've moved between Bondi share houses over the years and helped friends land theirs, so here's where I'd look, what to watch for, and how to get chosen when a good room comes up." },
+    { "type": "p", "text": "If you want to live in Bondi Beach, the fastest and cheapest way in is almost always a room in a share house — and the best places to find one are Flatmates.com.au, Flatmate Finders and the local Bondi share-house Facebook groups. I've moved around the eastern suburbs more times than I'd like to admit, and rooms here go quickly. A little strategy is the difference between a sunny room near the sand and refreshing listings for a month." },
     { "type": "quickFacts", "items": [
-      { "label": "Best for", "value": "Renting a room in a share house" },
-      { "label": "Top platform", "value": "Flatmates.com.au" },
-      { "label": "Also try", "value": "Flatmate Finders, Facebook groups" },
-      { "label": "Move fast", "value": "Good rooms go in days, not weeks" }
+      { "label": "Postcode", "value": "Bondi Beach NSW 2026" },
+      { "label": "Best platforms", "value": "Flatmates.com.au, Flatmate Finders" },
+      { "label": "Also worth checking", "value": "Facebook groups, Domain, realestate.com.au, Gumtree" },
+      { "label": "Move fast", "value": "Good rooms are often gone within days" }
     ] },
-    { "type": "h2", "text": "Where I actually look for a room" },
-    { "type": "p", "text": "Bondi is one of the most in-demand postcodes in the country, so I don't rely on a single site. I run a few in parallel and check them daily — the good rooms are gone within days." },
+    { "type": "h2", "text": "Where I actually look" },
+    { "type": "p", "text": "There's no single magic website, so I cast a wide net and check a few every day. Each has a different crowd, and good rooms rarely sit around long." },
     { "type": "list", "items": [
-      "Flatmates.com.au — Australia's biggest share-accommodation site. Build a solid profile, set alerts for Bondi (2026) and North Bondi, and message the moment a room lands.",
-      "Flatmate Finders — a long-running Sydney matching service with plenty of eastern-suburbs listings, if you want something more curated.",
-      "Facebook groups — the various Bondi and eastern-suburbs share-house groups move fast, so search them out and turn on notifications.",
-      "Domain and realestate.com.au — mostly whole properties, but worth scanning if you're leasing as a group rather than joining an existing house.",
-      "Word of mouth — the best rooms never get advertised, so tell everyone you're looking. Bondi is small and tight-knit."
+      "Flatmates.com.au — the biggest share-accommodation site in Australia. Filter by suburb, budget, room type and move-in date, and message people directly. Start here.",
+      "Flatmate Finders — a long-running Sydney share-house specialist with a strong eastern-suburbs presence and plenty of Bondi Beach listings.",
+      "Bondi share-house Facebook groups — busy, local and fast-moving, with new posts most days. Good for a feel of the vibe before you commit.",
+      "Domain and realestate.com.au — mostly whole-property rentals, but useful if you want to grab a place with friends and split it yourselves.",
+      "Gumtree and university noticeboards — still turn up rooms, especially around the start of semester."
     ] },
-    { "type": "localTip", "text": "Rooms turn over hardest in December–February, when summer arrivals and backpackers flood in, and again mid-year. Hunt in the quieter autumn or winter stretch if you can — less competition and more room to negotiate." },
-    { "type": "h2", "text": "What it costs — and why I won't quote you a hard number" },
-    { "type": "p", "text": "Bondi rents move constantly, and a room's price swings with the setup — a shared-room bunk, a small single, or an ensuite with a beach glimpse are worlds apart. Anyone quoting one flat weekly figure is guessing. Rather than bake in a stale number, filter live listings on Flatmates.com.au for the room type you want to see your real-time market rate." },
-    { "type": "p", "text": "Whatever the rent, budget for the upfront hit: usually a few weeks' rent as bond plus rent in advance. Ask whether it's furnished, whether bills and internet are included, and how the bond is handled before you commit." },
-    { "type": "callout", "tone": "warning", "title": "Never pay a deposit for a place you haven't seen", "text": "The classic Bondi rental scam is a too-good-to-be-true beachfront room from an 'overseas landlord' who wants a holding deposit before an inspection. Always inspect in person (or by live video with someone you trust), and never transfer money to hold a room you haven't seen." },
-    { "type": "h2", "text": "How to actually get the room" },
-    { "type": "p", "text": "In a market this competitive, landing a good house is as much about being an easy 'yes' as finding the listing. When I message about a room I lead with who I am, what I do, my move-in date and budget, and ask to see it quickly. Housemates choose a person to live with, not just a rent cheque — so be warm, specific and fast." },
+    { "type": "p", "text": "Don't underestimate word of mouth. Bondi is smaller than it looks, and plenty of rooms never get advertised — they're filled by a friend of a housemate. Tell people you're looking: ask at your gym, your café, your work. Some of the best houses I've lived in came from a passing conversation, not a listing." },
+    { "type": "h2", "text": "How to actually land the room" },
+    { "type": "p", "text": "Bondi is competitive, so treat the search like a mini job hunt. When a room looks right, reply within the hour with a short, warm, specific message — who you are, what you do, when you can move in, and why that particular house appeals. A generic \"is this still available?\" gets lost in a sea of identical ones." },
     { "type": "list", "items": [
-      "Have your details ready: references (a past housemate or landlord is gold), ID and proof you can cover the rent.",
-      "Turn up to the inspection on time, ask about the vibe — cleaning, guests, noise, bills — and read the room.",
-      "Get the arrangement in writing. Know whether you'll be a sub-tenant on a written agreement or an occupant, and how your bond is protected."
+      "Have your basics ready: references, proof of income or savings, and a couple of friendly lines about yourself.",
+      "Always view in person (or on a live video call) before paying anything.",
+      "Ask the boring-but-important questions up front: what's included in the rent, how bills are split, how the bond is held, and whether you'll be on the lease or subletting.",
+      "Trust the vibe — you're choosing housemates as much as a room. A cheap room with the wrong people is no bargain."
     ] },
-    { "type": "p", "text": "That last point matters more than most realise. In a NSW share house you might be a co-tenant, a sub-tenant or just an occupant, and your rights differ in each case. Before you hand over bond, spend five minutes on the Tenants' Union share-housing factsheet and the NSW Government renting pages so you know where you stand." },
+    { "type": "localTip", "text": "Rooms move faster in spring and early summer, and again around February with the university intake. If you can, start looking two to three weeks before you need to move — and be ready to say yes quickly when the right one appears." },
+    { "type": "callout", "tone": "warning", "title": "Watch for rental scams", "text": "Never pay a deposit or bond before you've seen the place and met the people, no matter how good the photos or how urgent the story. If someone can't meet, refuses a viewing, or pushes for money by transfer straight away, walk away. In NSW your bond should be lodged through Rental Bonds Online, not paid into a stranger's personal account — see NSW Fair Trading for how renting and bonds are meant to work." },
+    { "type": "h2", "text": "What it costs" },
+    { "type": "p", "text": "Bondi Beach is one of Sydney's pricier postcodes, and share-room rents move with the market and the season, so I won't quote a figure that'll be stale next month. For a current sense of what a room costs, scan the live listings on Flatmates.com.au and Flatmate Finders and check whole-property medians on Domain. As a rule of thumb, the closer to the sand and the more you want your own bathroom, the more you'll pay; a room a few streets back, or in North Bondi or Bondi Junction, stretches the budget further." },
     { "type": "faq", "items": [
-      { "q": "What's the best website to find a housemate in Bondi?", "a": "Flatmates.com.au is the largest and where I'd start — the most Bondi listings by far. Pair it with Flatmate Finders and the local Facebook groups, and check them daily — good rooms go within days." },
-      { "q": "How much does it cost to rent a room in Bondi?", "a": "It varies far too much to quote a single figure — a shared room, a single and an ensuite are worlds apart, and rents shift constantly. Filter live listings on Flatmates.com.au for the room type you want, and budget for bond plus rent in advance on top." },
-      { "q": "When is the best time to look?", "a": "Autumn and winter are quieter than the December–February summer rush, when arrivals and backpackers spike demand. If your timing is flexible, hunt in the off-peak months." },
-      { "q": "How do I avoid rental scams in Bondi?", "a": "Never pay a holding deposit or bond for a room you haven't inspected, be sceptical of cheap beachfront rooms from 'overseas landlords', and meet the housemates in person. If someone pressures you to transfer money first, walk away." },
-      { "q": "What are my rights in a NSW share house?", "a": "It depends whether you're a co-tenant, a sub-tenant or an occupant — each carries different rights around bond and notice. Check the Tenants' Union of NSW share-housing factsheet and the NSW Government renting pages, and get your arrangement in writing first." }
+      { "q": "What's the best website to find a housemate in Bondi Beach?", "a": "Start with Flatmates.com.au, the largest share-accommodation platform in Australia, and Flatmate Finders, a long-running Sydney specialist with lots of Bondi listings. Pair those with the local Bondi share-house Facebook groups for the fastest-moving rooms." },
+      { "q": "How much does a room in a Bondi share house cost?", "a": "It varies by proximity to the beach, room size and the season, and prices change often — so check current listings on Flatmates.com.au or Flatmate Finders rather than a fixed figure. Rooms a few streets back, or in North Bondi and Bondi Junction, tend to be cheaper." },
+      { "q": "How quickly do share rooms in Bondi get taken?", "a": "Fast — good rooms are often gone within days, especially in spring, early summer and around the February university intake. Reply to listings within the hour and have your references and details ready to go." },
+      { "q": "How do I avoid rental scams when looking for a share house?", "a": "Always view the place and meet the housemates before paying anything, and never transfer a bond into a personal account. In NSW, bonds are lodged through Rental Bonds Online — if someone dodges a viewing or rushes you for money, treat it as a red flag." }
     ] },
-    { "type": "p", "text": "Get your profile sharp, cast a wide net, move quickly and keep it human, and you'll be waking to the surf sooner than you think. See you at the beach." }
+    { "type": "p", "text": "Finding a place in Bondi takes some hustle, but it's absolutely doable — there's nothing like walking home from a morning swim to a house full of people who love this coast as much as you do. Cast a wide net, move quickly, choose your housemates as carefully as your room, and you'll be into beach life before you know it." }
   ]
 }
