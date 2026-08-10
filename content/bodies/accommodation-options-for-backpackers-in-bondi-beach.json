@@ -3,9 +3,9 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Wake Up! Bondi Beach (official)", "url": "https://www.wakeup.com.au/bondi-beach/" },
+    { "label": "Wake Up! Bondi Beach (official)", "url": "https://wakeup.com.au/bondibeach/" },
     { "label": "Noah's Bondi Beach (official)", "url": "https://noahsbondibeach.com/" },
-    { "label": "Bondi Beachouse YHA (YHA)", "url": "https://www.yha.com.au/hostels/nsw/sydney-surrounds/bondi-beachouse-yha/" },
+    { "label": "Bondi Beachouse YHA (YHA)", "url": "https://www.yha.com.au/" },
     { "label": "Bondi Beach Backpackers (official)", "url": "https://bondibeachbackpackers.com.au/" },
     { "label": "Transport for NSW", "url": "https://transportnsw.info/" }
   ],

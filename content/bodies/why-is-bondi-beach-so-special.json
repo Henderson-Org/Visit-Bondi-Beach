@@ -3,13 +3,13 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Waverley Council — Bondi Beach", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/bondi_beach" },
-    { "label": "Bondi Surf Bathers' Life Saving Club — History", "url": "https://bondisurfclub.com/the-club/history/" },
+    { "label": "Waverley Council — Beaches & coast", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
+    { "label": "Bondi Surf Bathers' Life Saving Club", "url": "https://bondisurfclub.com/" },
     { "label": "Sculpture by the Sea — Bondi", "url": "https://sculpturebythesea.com/" },
     { "label": "Transport NSW — trip planner", "url": "https://transportnsw.info" }
   ],
   "blocks": [
-    { "type": "p", "text": "People ask me why Bondi Beach is so special, and after years of living beside it my answer is that no single thing makes it — it's how much lands in one place. You get a wide, swimmable crescent of sand, an ocean pool cut into the rocks, a clifftop coastal walk, a serious café and bar scene, and all of it a short trip from the centre of Sydney. Most famous beaches make you choose between wild nature and city convenience. Bondi's trick is that it refuses to. Here's what actually sets it apart." },
+    { "type": "p", "text": "People ask me why Bondi Beach is so special, and after years of living beside it my answer is that no single thing makes it — it's how much lands in one place. You get a wide, swimmable crescent of sand, an ocean pool cut into the rocks, a clifftop coastal walk, a serious café and bar scene, and all of it a short trip from the centre of Sydney. Most famous beaches make you choose between wild nature and city convenience; Bondi refuses to. Here's what actually sets it apart." },
     { "type": "quickFacts", "items": [
       { "label": "Where", "value": "Bondi, eastern suburbs of Sydney, NSW" },
       { "label": "The beach", "value": "Roughly a kilometre of free, public sand" },
@@ -36,6 +36,6 @@
       { "q": "What's the best thing to do at Bondi besides swimming?", "a": "The coastal walk toward Bronte and Coogee is the standout — clifftop paths and hidden beaches. The Icebergs ocean pool and, each spring, the free Sculpture by the Sea exhibition are also highlights." },
       { "q": "How do I get to Bondi Beach?", "a": "The usual route is a train to Bondi Junction followed by a bus down to the beach. Times and connections vary, so plan your trip with Transport NSW for the current timetable." }
     ] },
-    { "type": "p", "text": "Come and see it for yourself. Swim between the flags, walk the coast at first light, grab a coffee on the promenade — and you'll understand why this one beach carries so much of Sydney's reputation." }
+    { "type": "p", "text": "Come see it for yourself. Swim between the flags, walk the coast at first light, grab a coffee on the promenade — and you'll understand why this one beach carries so much of Sydney's reputation." }
   ]
 }

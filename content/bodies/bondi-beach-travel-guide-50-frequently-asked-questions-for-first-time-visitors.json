@@ -5,7 +5,6 @@
   "sources": [
     { "label": "Transport for NSW — Trip Planner", "url": "https://transportnsw.info/trip" },
     { "label": "Waverley Council — Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
-    { "label": "Waverley Council — Public transport", "url": "https://www.waverley.nsw.gov.au/environment/transport/public_transport" },
     { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" }
   ],
   "blocks": [
@@ -26,7 +25,7 @@
     { "type": "h2", "text": "Swimming, safety and the surf" },
     { "type": "p", "text": "This is the part I never soften. Bondi is a surf beach with real rip currents, and the flags exist for a reason. Waverley Council's professional lifeguards patrol Bondi year-round, but they can only watch over you properly if you're in the patrolled zone. Always swim between the red and yellow flags." },
     { "type": "callout", "tone": "warning", "title": "If you're caught in a rip", "text": "Don't fight it and don't try to swim straight back to shore against the current. Stay calm, float to conserve energy, raise an arm and call for help, and let the lifeguards come to you. A rip pulls you out, not under." },
-    { "type": "localTip", "text": "If waves aren't your thing, walk to the southern end and swim at the Bondi Icebergs ocean pool, or use the free rock pool beside it — it's a far gentler introduction to the water than the shorebreak. Check the Icebergs website for current public swim times and pool fees before you go." },
+    { "type": "localTip", "text": "If waves aren't your thing, walk to the southern end and swim at the Bondi Icebergs ocean pool, or the calmer rock pool beside it — it's a far gentler introduction to the water than the shorebreak. Check the Icebergs website for current public swim times and pool fees before you go." },
     { "type": "h2", "text": "What to actually do while you're here" },
     { "type": "list", "items": [
       "Walk the Bondi to Coogee coastal path — clifftops, beaches and ocean pools the whole way; give yourself a couple of hours.",

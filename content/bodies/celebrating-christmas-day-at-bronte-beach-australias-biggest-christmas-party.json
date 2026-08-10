@@ -4,7 +4,7 @@
   "lastReviewed": "2026-08-08",
   "sources": [
     { "label": "Waverley Council — Beaches and coast", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
-    { "label": "Waverley Council — Alcohol Free Zones and Alcohol Prohibited Areas", "url": "https://haveyoursay.waverley.nsw.gov.au/trial-alcohol-prohibited-areas" },
+    { "label": "Waverley Council — Alcohol Free Zones and Alcohol Prohibited Areas", "url": "https://www.waverley.nsw.gov.au" },
     { "label": "Beachsafe (Surf Life Saving Australia) — Bronte Beach", "url": "https://beachsafe.org.au/beach/nsw/waverley/bronte/bronte-beach" },
     { "label": "Transport for NSW — Public holiday timetables", "url": "https://transportnsw.info/" }
   ],
@@ -44,6 +44,6 @@
       { "q": "Will cafés and shops nearby be open?", "a": "Assume most are closed or on reduced hours, since Christmas Day is a NSW public holiday. Bring your own picnic, water and snacks." },
       { "q": "How do I get to Bronte on Christmas Day?", "a": "Public transport runs to a holiday timetable, so check Transport for NSW before you travel. Parking is limited and fills early, so a bus or an early arrival is easier." }
     ] },
-    { "type": "p", "text": "That's the whole trick to a Bronte Christmas: come prepared for sun and surf, check the current rules, take your rubbish home, and let the day carry you. Local or traveller far from home, a Christmas morning in Bronte Park has a way of becoming one you remember for the right reasons." }
+    { "type": "p", "text": "That's the trick to a Bronte Christmas: come prepared for sun and surf, check the current rules, and take your rubbish home. Local or traveller far from home, a morning in Bronte Park has a way of becoming one you remember." }
   ]
 }

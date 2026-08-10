@@ -4,9 +4,8 @@
   "lastReviewed": "2026-08-08",
   "sources": [
     { "label": "Waverley Council", "url": "https://www.waverley.nsw.gov.au/" },
-    { "label": "id community — Bondi Beach profile (Waverley)", "url": "https://profile.id.com.au/waverley/about?WebID=110" },
-    { "label": "Transport for NSW — Trip Planner", "url": "https://transportnsw.info/" },
-    { "label": "Bondi to Bronte Coastal Walk — Waverley Council", "url": "https://www.waverley.nsw.gov.au/recreation/bondi_to_bronte_coastal_walk" }
+    { "label": "id community — Waverley area profile", "url": "https://profile.id.com.au/waverley" },
+    { "label": "Transport for NSW — Trip Planner", "url": "https://transportnsw.info/" }
   ],
   "blocks": [
     { "type": "p", "text": "Is Bondi a good place to live? Honestly — yes, and I say that as someone who's called it home for years. You wake up minutes from one of the best beaches on the planet, you can swim before work, and the community is warmer than the reputation suggests. But it's not for everyone, and I'd rather give you the real trade-offs than sell you a postcard. So here's my honest local take on the lifestyle, the cost and the crowds." },

@@ -3,9 +3,9 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "QT Bondi (official)", "url": "https://www.qthotels.com/bondi/" },
+    { "label": "QT Bondi (official)", "url": "https://www.qthotels.com/bondi-beach/" },
     { "label": "Adina Apartment Hotel Bondi Beach (official)", "url": "https://www.adinahotels.com/en/apartments/bondi-beach-sydney/" },
-    { "label": "Wake Up! Bondi Beach (official)", "url": "https://www.wakeup.com.au/bondi/" },
+    { "label": "Wake Up! Bondi Beach (official)", "url": "https://wakeup.com.au/bondibeach/" },
     { "label": "Transport for NSW — trip planner", "url": "https://transportnsw.info/" }
   ],
   "blocks": [

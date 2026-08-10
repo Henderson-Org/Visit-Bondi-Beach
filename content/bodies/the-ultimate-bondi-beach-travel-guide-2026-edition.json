@@ -10,7 +10,7 @@
     { "label": "Sculpture by the Sea, Bondi", "url": "https://sculpturebythesea.com/bondi/" }
   ],
   "blocks": [
-    { "type": "p", "text": "Here's the one-line version: Bondi Beach is a one-kilometre crescent of sand about 7km east of Sydney's CBD, best reached by the 333 bus — or a train to Bondi Junction, then a short bus down the hill. I've lived alongside this beach for years; this is the guide I'd hand a friend flying in: how to get here, when to come, and what's worth your day." },
+    { "type": "p", "text": "Here's the one-line version: Bondi Beach is a one-kilometre crescent of sand about 7km east of Sydney's CBD, best reached by the 333 bus, or a train to Bondi Junction then a short bus. I've lived alongside this beach for years; this is the guide I'd hand a friend flying in: how to get here, when to come, and what's worth your day." },
     { "type": "quickFacts", "items": [
       { "label": "Where", "value": "~7km east of Sydney CBD" },
       { "label": "Best way in", "value": "333 bus, or train to Bondi Junction + bus" },
@@ -39,11 +39,11 @@
       { "time": "8:00am", "title": "Beat the crowd", "detail": "Claim a spot between the flags and swim before the sand fills." },
       { "time": "9:30am", "title": "Bondi breakfast", "detail": "Long, unhurried brunch at a beachfront or backstreet café." },
       { "time": "11:00am", "title": "Coastal walk", "detail": "Head south past the Icebergs pool toward Tamarama and Bronte — turn back whenever you like." },
-      { "time": "1:00pm", "title": "Cool-down swim", "detail": "Return for a second dip, or a lap of the Icebergs pool if it's open that day." }
+      { "time": "1:00pm", "title": "Cool-down swim", "detail": "Return for a second dip, or a lap of the Icebergs pool if it's open." }
     ] },
-    { "type": "callout", "tone": "warning", "title": "Respect the rips", "text": "Bondi has rip currents that catch strong swimmers too. Swim between the red-and-yellow flags, follow the lifeguards, and check conditions with Surf Life Saving before you go in — especially at the southern end, known for stronger currents." },
+    { "type": "callout", "tone": "warning", "title": "Respect the rips", "text": "Bondi has rip currents that catch strong swimmers too. Swim between the red-and-yellow flags, follow the lifeguards, and check conditions with Surf Life Saving first — especially at the southern end, known for stronger currents." },
     { "type": "h2", "text": "Where to stay and eat" },
-    { "type": "p", "text": "Accommodation runs the full range, from ocean-view hotels to boutique guesthouses and hostels a few streets back — in summer and over holidays, book well ahead. For food you're spoilt: beachfront brunch, fresh seafood, cafés and a serious coffee scene. Rather than name one place, I'd wander Campbell Parade and the streets behind it and follow the locals." },
+    { "type": "p", "text": "Accommodation runs the full range, from ocean-view hotels to boutique guesthouses and hostels a few streets back — in summer and over holidays, book well ahead. For food you're spoilt: beachfront brunch, fresh seafood, cafés and a serious coffee scene. Rather than name one place, I'd wander Campbell Parade and the backstreets and follow the locals." },
     { "type": "faq", "items": [
       { "q": "How do I get to Bondi Beach from Sydney city centre?", "a": "The 333 bus runs from Circular Quay through the CBD straight to Bondi Beach. Or take a T4 train to Bondi Junction and change to a bus down to the sand. Tap on with Opal or any contactless card." },
       { "q": "Is there a train station at Bondi Beach?", "a": "No. The closest station is Bondi Junction on the T4 line, a short bus ride from the beach on the 333, 380 or 381." },

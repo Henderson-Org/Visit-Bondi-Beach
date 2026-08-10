@@ -1,0 +1,53 @@
+{
+  "path": "/bondi-blog/2025/8/24/the-tcs-sydney-marathon-a-beginners-guide",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "TCS Sydney Marathon — Official site", "url": "https://www.tcssydneymarathon.com/" },
+    { "label": "TCS Sydney Marathon — The Course", "url": "https://www.tcssydneymarathon.com/course" },
+    { "label": "TCS Sydney Marathon — FAQs", "url": "https://www.tcssydneymarathon.com/frequently-asked-questions" },
+    { "label": "2026 Sydney Marathon — Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Sydney_Marathon" },
+    { "label": "Transport for NSW", "url": "https://transportnsw.info/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you're running your first TCS Sydney Marathon, here's the short version: it's held on Sunday 30 August 2026, starts up at Milsons Point and crosses the Sydney Harbour Bridge before finishing on the Opera House forecourt, and it's now one of the Abbott World Marathon Majors — the same club as Boston, London and New York. I live and write here in Bondi, so this is the beginner's guide I wish someone had handed me." },
+    { "type": "quickFacts", "items": [
+      { "label": "Race day", "value": "Sunday 30 August 2026" },
+      { "label": "Mini Marathon", "value": "Saturday 29 August 2026" },
+      { "label": "Start", "value": "Milsons Point / North Sydney" },
+      { "label": "Finish", "value": "Sydney Opera House forecourt" },
+      { "label": "Status", "value": "Abbott World Marathon Major" },
+      { "label": "Entry", "value": "Ballot (lottery) — see official site" }
+    ] },
+    { "type": "h2", "text": "The course, and why it's tougher than it looks" },
+    { "type": "p", "text": "It's a point-to-point course that reads like a Sydney postcard: over the Harbour Bridge on closed roads, through The Rocks and Barangaroo, out to the eastern parklands around Moore Park and Centennial Park, then back to that unforgettable finish beside the Opera House. Don't let the harbour views lull you, though — it's a rolling course with a few hundred metres of total climbing, so the honest advice for a first-timer is to bank patience early and save something for the hills in the middle." },
+    { "type": "callout", "tone": "note", "title": "Bondi isn't on the route", "text": "A lot of visitors assume the marathon sweeps past Bondi Beach — it doesn't. The course stays closer to the harbour and the inner-eastern parklands. Bondi still makes a brilliant base for the weekend, and an even better place to recover once you've got the medal." },
+    { "type": "h2", "text": "The distances (and what changed for 2026)" },
+    { "type": "p", "text": "The headline event is the full marathon (42.195 km) on the Sunday. There's also a shorter, family-friendly Mini Marathon, and for 2026 that's moved to the Saturday of race weekend. Worth flagging so you're not caught out: the organisers have confirmed the 10 km is not part of the 2026 program, so double-check the current line-up on the official site before you plan your weekend around it." },
+    { "type": "list", "items": [
+      "Full Marathon (42.195 km) — Sunday 30 August 2026",
+      "Mini Marathon — Saturday 29 August 2026 (shorter, great for kids and first-timers)",
+      "Entry is by ballot/lottery — check the official site for charity or tour places"
+    ] },
+    { "type": "h2", "text": "Getting there, road closures and your bib" },
+    { "type": "p", "text": "Race morning is not a drive-and-park situation. Expect significant road closures across the Harbour Bridge, the CBD and the eastern route, so treat public transport as plan A. I won't quote exact train lines or start-group access here because the organisers fine-tune it each year — check the official event travel information and Transport for NSW close to the day so you're working from the current map, not last year's." },
+    { "type": "callout", "tone": "warning", "title": "You must collect your own bib", "text": "Bibs are collected in person at the event expo (\"The Running Show\") in the days before the race — you'll need photo ID, and friends or family generally can't pick up for you. Confirm the current expo dates, venue and opening hours on the official site before you make the trip." },
+    { "type": "localTip", "text": "Base yourself in Bondi for the weekend and use the ferries and buses to get back east after you finish. My legs always thank me more for a slow amble along the promenade and a proper flat white than for collapsing straight onto a hotel bed." },
+    { "type": "h2", "text": "A simple first-timer's game plan" },
+    { "type": "p", "text": "You don't need to overthink your first marathon. Build your long runs gradually over a few months, get comfortable on hills so the mid-course rollers don't surprise you, and practise your fuelling on training runs — never try a new gel, breakfast or pair of shoes on the start line. Bring a throwaway layer for the cool harbour morning, start slower than feels natural, and let the Opera House pull you home." },
+    { "type": "itinerary", "stops": [
+      { "time": "Race week", "title": "Collect your bib", "detail": "The Running Show with photo ID — check dates and venue on the official site." },
+      { "time": "Sat 29 Aug", "title": "Mini Marathon & shakeout", "detail": "Cheer the Mini, do a gentle jog, lay out your kit, sleep early." },
+      { "time": "Sun 30 Aug — start", "title": "Public transport to Milsons Point", "detail": "No driving. Follow the official travel plan, throwaway warm layer on." },
+      { "time": "Sun 30 Aug — finish", "title": "Opera House & recovery", "detail": "Refuel, then head east to Bondi for a promenade walk and a coffee." }
+    ] },
+    { "type": "faq", "items": [
+      { "q": "When is the 2026 TCS Sydney Marathon?", "a": "The full marathon is on Sunday 30 August 2026, with the Mini Marathon on Saturday 29 August 2026. Confirm start-wave timings on the official website, as they're finalised closer to the day." },
+      { "q": "Where does the marathon start and finish?", "a": "It starts around Milsons Point / North Sydney and crosses the Sydney Harbour Bridge, finishing on the forecourt of the Sydney Opera House. It does not run through Bondi Beach." },
+      { "q": "How do I enter the Sydney Marathon?", "a": "Now that Sydney is an Abbott World Marathon Major, general entry is run as a ballot (lottery). Check the official site for the current entry window, plus any charity or travel-package places." },
+      { "q": "Can I still run the 10 km?", "a": "The organisers have confirmed the 10 km is not part of the 2026 program. The Mini Marathon is the shorter option that weekend — verify the current line-up on the official site." },
+      { "q": "Is Bondi a good base for the marathon?", "a": "It's a lovely weekend base and a great place to recover, but the course doesn't come to Bondi — you'll need public transport to the north-side start on race morning." }
+    ] },
+    { "type": "p", "text": "Whether you're chasing a Major star or just want to say you ran across the Harbour Bridge with no cars in sight, your first Sydney Marathon is special. Do the boring things well — sleep, fuel, logistics — and let race day be the fun part. Then come and find us in Bondi afterwards; the ocean's the best ice bath in town." }
+  ]
+}
