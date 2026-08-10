@@ -115,5 +115,41 @@
       "https://www.agfg.com.au/restaurants/sydney/bondi-beach/mediterranean-cuisine",
       "https://www.opentable.com.au/cuisine/best-mediterranean-restaurants-sydney-bondi-beach"
     ]
+  },
+  {
+    "name": "Bondi Road Seafoods",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.facebook.com/BondiRoadSeafoods/posts/dear-valued-customersafter-43-wonderful-years-at-bondi-road-seafoods-the-time-ha/1350236733471574/",
+      "https://www.facebook.com/BondiRoadSeafoods"
+    ]
+  },
+  {
+    "name": "The Dandylion",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.broadsheet.com.au/sydney/bondi/restaurants/dandylion",
+      "https://www.broadsheet.com.au/sydney/bondi/restaurants/elva"
+    ]
+  },
+  {
+    "name": "Heart Cafe",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.waysidechapel.org.au/social-enterprise-update/",
+      "https://www.waysidechapel.org.au/somethings-change/"
+    ]
+  },
+  {
+    "name": "Bondi Tony's Burger Joint",
+    "status": "not-found",
+    "note": "",
+    "sources": [
+      "https://themitchellbondi.com.au/north-bondi-food/north-bondi-food/ (inaccessible — HTTP 403 / Cloudflare DNS Error 1000)",
+      "https://www.bing.com/search?q=%22Bondi+Tony%27s+Burger+Joint%22 (no matching listing)"
+    ]
   }
 ]
