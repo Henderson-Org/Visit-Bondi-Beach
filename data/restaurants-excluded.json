@@ -4,8 +4,8 @@
     "status": "not-found",
     "note": "",
     "sources": [
-      "https://www.beachousebondi.com/",
-      "https://www.instagram.com/beachousebondi/?hl=en"
+      "https://en.wikipedia.org/wiki/Pacific_Bondi_Beach",
+      "https://www.beachousebondi.com/"
     ]
   },
   {
@@ -14,25 +14,7 @@
     "note": "",
     "sources": [
       "https://www.happycow.net/reviews/eden-bondi-beach-174759",
-      "https://concreteplayground.com/sydney/restaurants/eden-bondi"
-    ]
-  },
-  {
-    "name": "Bondi Pizza",
-    "status": "permanently-closed",
-    "note": "",
-    "sources": [
-      "https://www.yelp.com/biz/bondi-pizza-bondi-beach",
-      "https://www.bondipizza.com.au/"
-    ]
-  },
-  {
-    "name": "Easy Tiger",
-    "status": "permanently-closed",
-    "note": "",
-    "sources": [
-      "https://www.instagram.com/easytigerbondibeach/",
-      "https://concreteplayground.com/sydney/food-drink/easy-tiger-bondi-now-open-campbell-parade"
+      "https://restaurantguru.com/Eden-Bondi-Beach"
     ]
   },
   {
@@ -40,35 +22,26 @@
     "status": "permanently-closed",
     "note": "",
     "sources": [
-      "https://www.beachburritocompany.com/",
-      "https://wanderlog.com/place/details/3521019/beach-burrito-co-bondi"
+      "https://nybreaking.com/beach-burrito-company-closes-stores-in-bondi-newtown-and-canberra/",
+      "https://www.beachburritocompany.com/"
     ]
   },
   {
-    "name": "Aqua Bar (brand now sells retail salad dressing only)",
+    "name": "Aqua Bar",
     "status": "permanently-closed",
-    "note": "Aquabar",
+    "note": "Aquabar (aka Bondi Aqua Bar)",
     "sources": [
       "https://www.tripadvisor.com/Restaurant_Review-g947961-d4053146-Reviews-Aquabar-Bondi_Greater_Sydney_New_South_Wales.html",
-      "https://foursquare.com/v/bondi-aqua-bar/4c93ff3672dd224b61f09591"
+      "https://www.facebook.com/aquabarbondi/"
     ]
   },
   {
-    "name": "Pasticceria Papa",
+    "name": "Pasticceria Papa (Bondi)",
     "status": "permanently-closed",
     "note": "",
     "sources": [
       "https://bondibeachnews.com.au/bondi-farewells-beloved-pasticceria-papa-after-a-decade-of-delights/",
       "https://bakingbusiness.com.au/pasticceria-papa-closes-bondi-beach-location-after-a-decade/"
-    ]
-  },
-  {
-    "name": "Bondi Bowl",
-    "status": "not-found",
-    "note": "",
-    "sources": [
-      "https://bondisbest.com.au/eat-drink/acai/",
-      "https://bondibowls.com/"
     ]
   }
 ]

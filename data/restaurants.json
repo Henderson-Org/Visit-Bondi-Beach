@@ -1369,6 +1369,84 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "easy-tiger",
+    "name": "Easy Tiger",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "campbell-parade",
+    "street": "Campbell Parade",
+    "address": "182 Campbell Parade, Bondi Beach NSW 2026",
+    "cuisines": [
+      "Southeast Asian",
+      "Indonesian",
+      "Vietnamese",
+      "Thai",
+      "Singaporean",
+      "Filipino",
+      "Malaysian"
+    ],
+    "meals": [
+      "lunch",
+      "dinner",
+      "late-night"
+    ],
+    "priceBand": 3,
+    "diningStyle": [
+      "casual",
+      "bar",
+      "takeaway"
+    ],
+    "suitability": [
+      "groups",
+      "couples",
+      "celebrations",
+      "tourists",
+      "locals"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "attributes": [
+      "outdoor-seating",
+      "reservations",
+      "lively",
+      "takeaway"
+    ],
+    "website": "https://easytigerbondibeach.com",
+    "bookingUrl": "https://www.sevenrooms.com/reservations/easytigerbondibeach",
+    "instagram": "https://www.instagram.com/easytigerbondibeach/",
+    "summary": "A loud, colourful Southeast Asian street-food diner and cocktail bar on Campbell Parade, with an ex-Mr Wong chef and its own Bondi Brewing Co microbrewery on site.",
+    "whyGo": "This is where we'd send a hungry group that wants a bit of a party with dinner: chef Andrianto Wirya (ex-Mr Wong, Queen Chow) roams across Indonesia, Vietnam, Thailand, Singapore and the Philippines with fun, snackable riffs, and the choose-your-own banquet takes the guesswork out of feeding a crowd. The on-site Bondi Brewing tanks and a proper cocktail list mean the drinks keep pace with the food. Our pick for a lively, shareable meal a block back from the sand rather than a quiet, view-first dinner.",
+    "bestFor": "Group dinners and long, shared banquets near the beach",
+    "whatToOrder": "Go for the signature snacks — beef rendang party pies, twice-fried crispy corn larb and the Balinese suckling-pig bao — then a laksa-spun char kway teow or claypot Hainanese chicken rice; the choose-your-own banquet is the easy move for a table, washed down with a house Bondi Brewing beer or a South Bondi Tiger cocktail.",
+    "atmosphere": "Lively and loud — rattan, big lanterns, long communal tables and a busy cocktail bar",
+    "localTip": "Book one of the communal or outdoor terrazzo high tables ahead on weekends, and keep an eye out for their midweek \"bottomless baos\" deal if you're after a low-key Wednesday feed.",
+    "tradeOff": "The room runs loud and the all-Australian wine list can bite — it's a fun, buzzy diner rather than a quiet or beachfront-view dinner, and it sits across the road from the sand, not on it.",
+    "ranking": {
+      "foodScore": 7.5,
+      "localReputation": 7,
+      "uniqueness": 7.5,
+      "value": 6.5,
+      "viewScore": 4,
+      "visitorUsefulness": 8,
+      "kidFriendliness": 5
+    },
+    "score": 7.2,
+    "confidence": "medium",
+    "sources": [
+      "https://concreteplayground.com/sydney/food-drink/easy-tiger-bondi-now-open-campbell-parade",
+      "https://www.broadsheet.com.au/sydney/food-and-drink/article/first-look-easy-tiger-roars-bondi-vibrant-southeast-asian-style-street-food-and-site-microbrewery",
+      "https://www.theurbanlist.com/sydney/directory/easy-tiger-bondi",
+      "https://eatdrinkplay.com/sydney/easy-tiger-bondi/",
+      "https://www.tripadvisor.com/Restaurant_Review-g19681254-d27169930-Reviews-Easy_Tiger-Bondi_Beach_Waverley_Greater_Sydney_New_South_Wales.html",
+      "https://www.sevenrooms.com/reservations/easytigerbondibeach",
+      "https://www.instagram.com/easytigerbondibeach/",
+      "https://www.findmeglutenfree.com/biz/easy-tiger/5894430854348800"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "fishbowl",
     "name": "Fishbowl",
     "status": "open",
@@ -1730,6 +1808,79 @@
       "https://bondibeauty.com.au/in-bondi/where-to-eat-clean-in-bondi/",
       "https://www.happycow.net/reviews/cali-press-bondi-beach-67816",
       "https://www.findmeglutenfree.com/biz/cali-press/4748542721261568"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
+    "id": "el-indio-bondi-beach",
+    "name": "El Indio Bondi Beach",
+    "status": "open",
+    "type": "restaurant",
+    "precinct": "north-bondi",
+    "street": "Campbell Parade",
+    "address": "252 Campbell Parade, North Bondi NSW 2026",
+    "cuisines": [
+      "Latin American",
+      "Colombian",
+      "South American"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "casual",
+      "fast-casual"
+    ],
+    "suitability": [
+      "couples",
+      "groups",
+      "solo",
+      "locals",
+      "tourists"
+    ],
+    "dietary": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "attributes": [
+      "outdoor-seating",
+      "reservations",
+      "takeaway",
+      "lively"
+    ],
+    "website": "https://www.elindiobondi.com/",
+    "bookingUrl": "https://www.opentable.com/r/el-indio-bondi-beach-north-bondi",
+    "instagram": "https://www.instagram.com/el_indio_bondi/",
+    "menuUrl": "https://www.elindiobondi.com/menu",
+    "summary": "A cosy, Colombian-owned Latin American street-food spot at the North Bondi end of Campbell Parade, built around arepas, empanadas and hearty corrientazo bowls.",
+    "whyGo": "El Indio does something genuinely distinctive for Bondi: authentic Colombian home cooking rather than the usual beachside brunch or poke. We'd choose it for a relaxed, affordable dinner when you want big, satisfying flavours and a bit of quirky character over a scene. The gluten-free arepas and clearly-marked vegetarian and vegan options also make it an easy pick for mixed groups with different dietary needs.",
+    "bestFor": "Casual, flavour-forward Latin dinner off the beach",
+    "whatToOrder": "Stuffed corn arepas (several are gluten-free), Colombian and Argentinian-style empanadas, and a corrientazo bowl for a full plate; happy-hour cocktails to start.",
+    "atmosphere": "Small, warm and a little quirky, with some outdoor seating on Campbell Parade.",
+    "localTip": "It's a compact room that fills up — book ahead on OpenTable for weekend evenings, or aim for the 4–6pm happy hour when it's quieter.",
+    "tradeOff": "Sits on the northern, quieter stretch of Campbell Parade rather than directly on the beachfront, so it's about the food and vibe, not an ocean view.",
+    "ranking": {
+      "foodScore": 7,
+      "localReputation": 6.5,
+      "uniqueness": 8,
+      "value": 6.5,
+      "viewScore": 3,
+      "visitorUsefulness": 7,
+      "kidFriendliness": 6
+    },
+    "score": 6.8,
+    "confidence": "high",
+    "sources": [
+      "https://www.elindiobondi.com/",
+      "https://www.elindiobondi.com/menu",
+      "https://www.opentable.com/r/el-indio-bondi-beach-north-bondi",
+      "https://www.instagram.com/el_indio_bondi/",
+      "https://www.yelp.com/biz/el-indio-north-bondi",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d13437152-Reviews-El_Indio_Bondi_Beach-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://www.amigamia.com.au/food/inside-el-indio-bondi-colombian-owned-latin-street-food"
     ],
     "lastVerifiedAt": "2026-08-10"
   },
