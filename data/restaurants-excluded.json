@@ -241,5 +241,68 @@
       "https://bondisbest.com.au/eat-drink/burgers/",
       "https://www.stockmansbbd.com.au/"
     ]
+  },
+  {
+    "name": "Bondi Wholefoods",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.bondiwholefoods.com.au/locations",
+      "https://www.bondiwholefoods.com.au/"
+    ]
+  },
+  {
+    "name": "Orchard St. (online only)",
+    "status": "permanently-closed",
+    "note": "Orchard Street Cafe and Elixir Bar",
+    "sources": [
+      "https://www.broadsheet.com.au/sydney/food-and-drink/article/holistic-health-mecca-orchard-st-has-called-time-its-four-spaces-and-dispensaries",
+      "https://orchardstreet.com.au/pages/stores"
+    ]
+  },
+  {
+    "name": "Bondi Coffee Kitchen",
+    "status": "not-found",
+    "note": "",
+    "sources": [
+      "https://wanderlog.com/place/details/1162927/bondi-coffee-kitchen",
+      "https://www.bondicoffeekitchen.com/"
+    ]
+  },
+  {
+    "name": "Organic Republic Bakery",
+    "status": "permanently-closed",
+    "note": "Organic Republic Bakery (also traded as \"Republic Bakery Bondi\")",
+    "sources": [
+      "https://wanderlog.com/place/details/3307270/organic-republic-bakery",
+      "https://concreteplayground.com/sydney/restaurants/organic-republic"
+    ]
+  },
+  {
+    "name": "Green Dream",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.broadsheet.com.au/sydney/bondi-beach/cafes/green-dream",
+      "https://www.broadsheet.com.au/sydney/food-and-drink/article/first-look-salad-bar-green-dream-next-concept-sydney-food-innovator"
+    ]
+  },
+  {
+    "name": "Connetts Corner",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.timeout.com/sydney/shopping/connetts-corner-store",
+      "https://www.broadsheet.com.au/sydney/north-bondi/shops/connetts-corner"
+    ]
+  },
+  {
+    "name": "Combi (aka Combi Bondi)",
+    "status": "not-found",
+    "note": "",
+    "sources": [
+      "https://combi.com.au (supplied source — returned HTTP 503, unresolvable)",
+      "https://wearecombi.com.au/combi-byron-bay/ (Combi Byron Bay — the actual brand home)"
+    ]
   }
 ]
