@@ -1,0 +1,47 @@
+{
+  "path": "/bondi-blog/2025/8/9/family-fun-in-bondi-during-sydney-marathon-week",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Sydney Marathon (official)", "url": "https://www.sydneymarathon.com/" },
+    { "label": "Abbott World Marathon Majors", "url": "https://www.worldmarathonmajors.com/" },
+    { "label": "Transport for NSW — Trip Planner", "url": "https://transportnsw.info/" },
+    { "label": "Waverley Council — beaches & coast", "url": "https://www.waverley.nsw.gov.au/" },
+    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you're in town for the Sydney Marathon and travelling with kids, Bondi is one of the easiest, happiest bases you can pick — a short hop from the finish-line action, but calm enough that little legs can recover on the sand while the runners recover on the couch. The marathon itself winds through the city and around the harbour to the Opera House rather than out here, so Bondi stays its usual laid-back self all weekend: safe kids' swimming, a beachfront playground, family-friendly cafés and plenty of gentle walks." },
+    { "type": "p", "text": "I've hosted a lot of race-week families, and the trick is simple: plan the big city moments around one or two easy Bondi anchors a day, and let the beach do the rest." },
+    { "type": "quickFacts", "items": [
+      { "label": "Best for", "value": "Runners' families & spectators" },
+      { "label": "Getting here", "value": "Bus/train + the 333/380 bus to Bondi" },
+      { "label": "Race day", "value": "Expect CBD road closures — check Transport for NSW" },
+      { "label": "Cost", "value": "Beach & playground free; ocean pools a few dollars" }
+    ] },
+    { "type": "h2", "text": "Safe swimming for little ones" },
+    { "type": "p", "text": "Bondi is famous for its surf, but the two spots I always send families to are the calm ones. At the northern end there's the shallow children's pool, a sheltered wading pool built for little kids — gentle, protected from the swell, and near the flagged, patrolled section of the beach. Down the southern end, the Bondi Icebergs complex has a separate shallow children's pool alongside the famous ocean pool, so toddlers can splash while you soak up the view." },
+    { "type": "callout", "tone": "note", "title": "Check before you go", "text": "Icebergs closes its pools on some days (traditionally Thursdays) for cleaning, and entry fees and hours change from time to time. Confirm current session times and prices on the Icebergs website before you make the walk down." },
+    { "type": "localTip", "text": "Always swim between the red-and-yellow flags and ask a lifeguard where's best for kids that day — the safe zone shifts with the surf. Pack hats, rash vests and sunscreen even in the cooler marathon-season months; Sydney's UV bites year-round." },
+    { "type": "h2", "text": "Playground, sand and easy walks" },
+    { "type": "p", "text": "Right beside the Bondi Pavilion and metres from the sand, the beachfront playground is the reliable winner — climbing frames, swings and slides, with shade, seating and a coffee kiosk close by. It's a brilliant meeting point too, if half your family is off cheering runners and the other half wants to stay put." },
+    { "type": "p", "text": "When you're ready to stretch the legs, you don't need the whole Bondi to Bronte coastal walk. The section from the beach around to Tamarama is short, mostly gentle and impossibly scenic, and Tamarama itself has a little playground and café. For a flatter option, stroll the promenade to North Bondi and back. Keep children close on the cliff-top paths, and skip the walk altogether if it's wet or windy." },
+    { "type": "list", "items": [
+      "Beachfront playground by the Pavilion — shade, swings and sand in one spot",
+      "Bondi to Tamarama — a short, pretty taste of the coastal walk",
+      "Promenade wander to North Bondi — flat, pram-friendly and easy",
+      "Sandcastles and beach cricket on the wide flat sand at low tide"
+    ] },
+    { "type": "h2", "text": "Where to refuel with kids in tow" },
+    { "type": "p", "text": "Bondi's café scene is far more family-friendly than its cool reputation suggests — high chairs, prams and sandy feet are all part of the furniture. My one piece of advice: eat early. Bondi cafés fill fast on weekends, and marathon Sunday brings extra crowds, so a 9am breakfast or an 11:30 lunch saves you a queue with hungry, tired kids. A takeaway coffee and a picnic on the grass at the north end is honestly my favourite move." },
+    { "type": "callout", "tone": "warning", "title": "Plan around race-day road closures", "text": "The marathon route and its rolling road closures sit around the city and harbour, not Bondi — but they can still affect buses, rideshares and driving into the CBD on race morning. If you're heading in to watch the start or finish, check the official Sydney Marathon course and Transport for NSW on the day and leave early." },
+    { "type": "h2", "text": "A rainy-day backup" },
+    { "type": "p", "text": "Sydney can turn on the weather, so keep a wet-plan handy. The heritage Bondi Pavilion often runs exhibitions, workshops and community events — worth checking what's on that week. Failing that, the city's big family attractions near Darling Harbour are an easy ride away and pair well with a finish-line visit." },
+    { "type": "faq", "items": [
+      { "q": "Does the Sydney Marathon run through Bondi Beach?", "a": "No. The course runs through the city and around Sydney Harbour, finishing near the Opera House, so Bondi itself stays quiet and beachy during race week. Check the official Sydney Marathon website for the exact current route." },
+      { "q": "When is the Sydney Marathon?", "a": "It's now an Abbott World Marathon Major, and the date moves year to year. Confirm the exact date and start times on the official Sydney Marathon site before you book." },
+      { "q": "Where can young kids swim safely at Bondi?", "a": "The shallow children's pool at the north end and the separate children's pool at Bondi Icebergs are both sheltered and gentle. Always swim near the patrolled, flagged area and ask a lifeguard for the day's safest spot." },
+      { "q": "How do we get from Bondi to the marathon start or finish?", "a": "Take a bus from Bondi into the train network and on to the CBD. Expect road closures and busy transport on race morning, so leave early and check the Transport for NSW trip planner on the day." }
+    ] },
+    { "type": "p", "text": "That's the beauty of basing yourself here for marathon week: the running belongs to the city, and the recovery belongs to Bondi. Whether you ran the 42.2 or cheered every kilometre, the beach quietly keeps the whole family happy." }
+  ]
+}

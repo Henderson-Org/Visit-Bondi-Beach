@@ -1,0 +1,63 @@
+{
+  "path": "/bondi-blog/2025/1/1/top-50-activities-to-do-in-sydney-a-locals-guide",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bondi to Coogee Coastal Walk — NSW Government", "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/locations-and-attractions/bondi-to-coogee-coastal-walk" },
+    { "label": "Cockatoo Island / Wareamah — official visitor site", "url": "https://www.cockatooisland.gov.au/en/visit-us/" },
+    { "label": "Transport for NSW — trip planner & ferries", "url": "https://transportnsw.info/" },
+    { "label": "Sydney Opera House — what's on & tours", "url": "https://www.sydneyoperahouse.com/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Want the honest answer to what's worth your time in Sydney? The harbour icons deserve the hype, but my best days are spent on the coast, in the water and in the corners of the city most guidebooks skip. I live a few streets back from Bondi, and this is the list I hand friends flying in — sorted the way a local thinks, not how a brochure sells." },
+    { "type": "quickFacts", "items": [
+      { "label": "Best base", "value": "Eastern beaches (Bondi, Bronte, Coogee)" },
+      { "label": "Coast walk", "value": "Bondi to Coogee, ~6km, about 2 hours" },
+      { "label": "Getting around", "value": "Opal card: trains, buses & ferries" },
+      { "label": "Whale season", "value": "Roughly May–November" }
+    ] },
+    { "type": "h2", "text": "The harbour icons I'd never talk you out of" },
+    { "type": "p", "text": "Some things are famous for a reason. Climbing the Sydney Harbour Bridge and touring the Sydney Opera House are both worth doing once, and a public ferry gives you the same skyline as a pricey cruise. My rule: do the icons early, then slow down." },
+    { "type": "list", "items": [
+      "Climb the Sydney Harbour Bridge, or just walk the free pedestrian path across it",
+      "Tour the Sydney Opera House or catch an evening performance",
+      "Ride a public ferry to Manly and back for the best-value harbour cruise in town",
+      "Wander the Royal Botanic Garden and Mrs Macquarie's Chair for the classic Opera House-and-Bridge shot",
+      "Explore historic The Rocks and its weekend markets",
+      "Catch the ferry to Cockatoo Island / Wareamah, a UNESCO-listed convict and shipbuilding site"
+    ] },
+    { "type": "localTip", "text": "Tap on with an Opal or contactless card and ferries become public transport, not a tour — the Circular Quay to Manly run costs an ordinary fare and delivers the same postcard. Opal fares are capped daily; check Transport for NSW for current caps and plan a harbour day around one." },
+    { "type": "h2", "text": "Beaches, ocean pools and the coast walk" },
+    { "type": "p", "text": "This is where I spend most weekends. The Bondi to Coogee coastal walk is the headline act — around six kilometres of clifftop path linking Bondi, Tamarama, Bronte, Clovelly and Coogee, roughly two hours at an easy pace with coffee and swim stops on the way." },
+    { "type": "list", "items": [
+      "Swim between the flags at Bondi, then cool off in the Bondi Baths",
+      "Snorkel the underwater nature trail at Gordons Bay",
+      "Do a lap of the sea pool at McIver's Ladies Baths in Coogee (women and children only)",
+      "Cross the harbour to gentle, family-friendly Balmoral Beach in Mosman",
+      "Walk from Manly to Shelly Beach for calm-water snorkelling",
+      "Surf the local, low-key breaks at Maroubra",
+      "Picnic at quiet Milk Beach for a skyline-and-yachts view most visitors never find"
+    ] },
+    { "type": "callout", "tone": "warning", "title": "Some spots are for looking, not chancing", "text": "The Figure Eight Pools in the Royal National Park are stunning but genuinely dangerous at the wrong tide — people have been swept off the rock shelf by rogue waves. Go only on a low, calm tide, check the official National Parks safety and tide guidance first, and never turn your back on the ocean." },
+    { "type": "h2", "text": "Green escapes and the wilder edges" },
+    { "type": "p", "text": "You don't have to go far to swap sand for bushland. The Blue Mountains are an easy train day trip for the Three Sisters and waterfall walks, and closer in there are pockets of calm hidden in plain sight." },
+    { "type": "list", "items": [
+      "Take the train to Katoomba for the Three Sisters and Blue Mountains walking tracks",
+      "Find Wendy's Secret Garden in Lavender Bay, a free harbourside labyrinth of greenery",
+      "Stroll Barangaroo Reserve, replanted entirely with native species",
+      "Meet native wildlife at Taronga Zoo, reached by its own ferry",
+      "Kayak the sheltered inlets of Middle Harbour",
+      "Scan the horizon from the Bondi cliffs for whales in season (roughly May to November), often for free"
+    ] },
+    { "type": "h2", "text": "Culture, markets and rainy-day plans" },
+    { "type": "p", "text": "When the weather turns, and in Sydney it can turn fast, I lean on the city's galleries and markets. The Art Gallery of NSW and the Museum of Contemporary Art in The Rocks are both free for general entry, the weekend Bondi Markets are the best browse in the east, and in winter Vivid Sydney lights the harbour after dark. Always check each venue's site for current hours and dates." },
+    { "type": "faq", "items": [
+      { "q": "What's the one thing I shouldn't miss in Sydney?", "a": "If I had to pick one, it's the Bondi to Coogee coastal walk — six kilometres of clifftop path with beaches, ocean pools and cafes the whole way, and it's free. It's the side of Sydney locals actually love." },
+      { "q": "How many days do I need to see Sydney properly?", "a": "Three to four full days cover the harbour icons, the eastern beaches and a Blue Mountains day trip without rushing. A week lets you slow down and find quieter spots like Milk Beach and Shelly." },
+      { "q": "Do I need a car to get around?", "a": "No. An Opal or contactless card covers trains, buses and ferries, and most of this list is reachable. A car mainly helps for the Royal National Park." },
+      { "q": "When is whale-watching season in Sydney?", "a": "Humpbacks migrate along the coast roughly from May to November. On a clear day you can often spot them for free from the Bondi clifftops — bring binoculars and some patience." },
+      { "q": "Which of these activities are free?", "a": "Plenty: the coastal walks, ocean swims, Wendy's Secret Garden, Barangaroo Reserve, the pedestrian walk across the Harbour Bridge, cliff-top whale watching, and general entry at the Art Gallery of NSW and MCA." }
+    ] },
+    { "type": "p", "text": "The trick to Sydney isn't ticking every box — it's picking a handful, doing them unhurried, and leaving room to find your own favourite. Start with the coast walk and a ferry; the rest follows." }
+  ]
+}

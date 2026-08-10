@@ -1,0 +1,70 @@
+{
+  "path": "/bondi-blog/2025/6/14/25-essential-hacks-for-starting-a-new-life-in-australia-the-ultimate-aussie-arrival-guide",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Services Australia — Reciprocal Health Care Agreements", "url": "https://www.servicesaustralia.gov.au/reciprocal-health-care-agreements" },
+    { "label": "Department of Home Affairs — Working Holiday visa (417)", "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417" },
+    { "label": "Australian Taxation Office — Tax file number", "url": "https://www.ato.gov.au/individuals-and-families/tax-file-number" },
+    { "label": "Transport for NSW — Opal", "url": "https://transportnsw.info/tickets-opal/opal" },
+    { "label": "Fair Work Ombudsman", "url": "https://www.fairwork.gov.au/" },
+    { "label": "ASIC MoneySmart — How super works", "url": "https://moneysmart.gov.au/how-super-works" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Starting a new life in Australia comes down to three admin jobs done fast — a Tax File Number, an Australian bank account and a local SIM. I moved to Bondi as a wide-eyed new arrival, and the paperwork is far less scary than the jet lag. Here are the 25 hacks I wish I'd had on day one." },
+    { "type": "quickFacts", "items": [
+      { "label": "First 3 jobs", "value": "TFN, bank account, SIM" },
+      { "label": "Common visas", "value": "Working Holiday 417 / 462" },
+      { "label": "Transport card (Sydney)", "value": "Opal (or contactless)" },
+      { "label": "Healthcare", "value": "Medicare if your country has an RHCA" }
+    ] },
+    { "type": "h2", "text": "Before you land: visa, documents and money" },
+    { "type": "p", "text": "Get the visa right first. Most short-term arrivals are on a Working Holiday (417) or Work and Holiday (462) visa, but skilled, partner and student visas carry different rules and costs. Check current fees on the Home Affairs website — those details change." },
+    { "type": "list", "items": [
+      "1. Pick the visa that matches your goals, and confirm its work rights and length.",
+      "2. Scan your passport, birth certificate, qualifications and references to secure cloud storage.",
+      "3. Budget for setup costs — bond, first rent and a buffer before payday.",
+      "4. Tell your home bank you're moving so cards aren't frozen when you tap in Sydney.",
+      "5. Compare a multi-currency service (Wise, Revolut) for your first big transfer."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "Don't bake in numbers you can't verify", "text": "Visa fees, savings requirements and processing times shift regularly, so I've deliberately not quoted dollar figures — check the Home Affairs page for the number that applies to your passport." },
+    { "type": "h2", "text": "First week on the ground: TFN, bank, SIM and transport" },
+    { "type": "p", "text": "This is the week that matters. Knock these over and you can legally get paid, spend and get around the city." },
+    { "type": "list", "items": [
+      "6. Apply for your Tax File Number online through the ATO once you arrive — without it you're taxed at the top rate.",
+      "7. Open an Australian bank account (the big four, plus Macquarie and ING) so you can be paid.",
+      "8. Grab a prepaid SIM at a supermarket — brands like Boost, ALDImobile and Amaysim resell the big networks cheaply.",
+      "9. In Sydney, tap on with a contactless card or an Opal card; fares are capped, so check Transport for NSW.",
+      "10. Download the essentials: Opal Travel or TripView for timetables, plus a rideshare app.",
+      "11. Sort short-term digs first (hostel, Airbnb or a weekly room), then house-hunt once you know the suburbs."
+    ] },
+    { "type": "localTip", "text": "Landing near the eastern beaches? Base yourself around Bondi Junction — it's the transport hub, so you can inspect share houses without a car." },
+    { "type": "h2", "text": "Settling in: healthcare, work rights and everyday savings" },
+    { "type": "p", "text": "Once the basics are live, protect your budget. Australia is glorious but not cheap, and knowing your rights stops you being underpaid." },
+    { "type": "list", "items": [
+      "12. Check Medicare eligibility — if your country has a Reciprocal Health Care Agreement, you can enrol.",
+      "13. If you're not covered, take out visa-compliant health insurance before you need a hospital.",
+      "14. Learn your pay rights on the Fair Work Ombudsman site — award and penalty rates are law.",
+      "15. Understand superannuation: employers pay into a fund; consolidate into one low-fee fund via MoneySmart.",
+      "16. Register an ABN only if you're genuinely freelancing, not for a normal job.",
+      "17. Furnish second-hand via Facebook Marketplace and Gumtree; inspect and pay in person.",
+      "18. Shop groceries across ALDI, Coles and Woolworths, and use their apps for specials.",
+      "19. Hit the markdowns near closing time, and compare fuel with a price app.",
+      "20. Buy a reusable water bottle and reef-safe sunscreen — the UV here is fierce.",
+      "21. Get a library card; councils like Waverley run free wifi and events.",
+      "22. Join local Facebook and Meetup groups to find work, housemates and friends.",
+      "23. Learn to swim between the flags and read a rip — the most important local skill.",
+      "24. Say yes to the first invitations; social life here happens at the beach and the pub.",
+      "25. Give yourself grace — everyone feels wobbly for a month, then Bondi feels like home."
+    ] },
+    { "type": "quote", "text": "The paperwork buys you the freedom; the beach is what you came for. Do the boring bits first so the fun bits last." },
+    { "type": "faq", "items": [
+      { "q": "What should I do first when I arrive in Australia?", "a": "Apply for your Tax File Number through the ATO, open a bank account and get a local SIM. Those three unlock legal pay, spending and communication; everything else can wait." },
+      { "q": "Do I need a car to live around Bondi?", "a": "No. The eastern beaches have frequent buses and the train into Bondi Junction, and parking is painful. Most locals get by on Opal or contactless tap-and-go." },
+      { "q": "Can I access Medicare on a Working Holiday visa?", "a": "It depends on your nationality. If your country has a Reciprocal Health Care Agreement with Australia, you can enrol for necessary care. Check the country list on Services Australia, and take private cover otherwise." },
+      { "q": "How do I make sure I'm being paid fairly?", "a": "Look up your role on the Fair Work Ombudsman website, which publishes award wages, casual loading and penalty rates. Cash jobs that dodge those are a red flag." },
+      { "q": "Which Working Holiday visa do I need?", "a": "Most young arrivals use the subclass 417 or 462 visa, depending on their passport. Confirm which applies to you, plus current age limits and fees, on the Home Affairs website first." }
+    ] },
+    { "type": "p", "text": "Do the admin in the first fortnight and the rest is the easy part: finding your coffee spot, your patch of sand, and how good it feels to call Bondi home. Welcome — you'll love it here." }
+  ]
+}

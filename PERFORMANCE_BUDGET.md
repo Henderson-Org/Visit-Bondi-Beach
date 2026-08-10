@@ -6,12 +6,15 @@ are guardrails against regressions.
 
 ## Core Web Vitals (mobile)
 
-| Metric | Budget | Current (homepage, measured) |
+Current column = best-of-N across the four measured templates (homepage/article/stay hub/stay
+guide), mobile, 2026-08-10.
+
+| Metric | Budget | Current (measured, all templates) |
 |---|---|---|
-| LCP | **< 2.5 s** (aim < 2.0 s) | 2.5 s |
-| INP | **< 200 ms** (TBT lab proxy < 200 ms) | TBT 30 ms |
+| LCP | **< 2.5 s** (aim < 2.0 s) | 2.4–2.6 s |
+| INP | **< 200 ms** (TBT lab proxy < 200 ms) | TBT 50–150 ms |
 | CLS | **< 0.1** (aim 0) | 0 |
-| FCP | < 1.8 s | 1.6 s |
+| FCP | < 1.8 s | 0.8–1.0 s |
 | TTFB | < 200 ms | ~10 ms (static/CDN) |
 
 ## Resource budgets
@@ -28,7 +31,7 @@ are guardrails against regressions.
 
 1. **One `priority` image per page** — the LCP hero only. Never mark card/below-fold images `priority`.
 2. **Every `<Image>` needs `sizes`** — prevents over-serving on mobile.
-3. **New third-party scripts default to `afterInteractive` or `lazyOnload`**; never render-blocking; production-only for monetisation/analytics.
+3. **New third-party scripts default to `afterInteractive` or `lazyOnload`**; never render-blocking; production-only for monetisation/analytics. **Pure monetisation (ads, affiliate embeds) → `lazyOnload`** so they load after the window `load` event and stay off the main thread during the LCP/INP window; keep analytics (GA4) on `afterInteractive` for pageview fidelity.
 4. **Keep pages Static/SSG.** Add `dynamic`/per-request rendering only when genuinely required; prefer ISR `revalidate`.
 5. **No web font added without self-hosting + `font-display: swap` + preloading only the above-the-fold weight.**
 6. **Reserve dimensions** for any image/embed/ad slot so CLS stays 0.

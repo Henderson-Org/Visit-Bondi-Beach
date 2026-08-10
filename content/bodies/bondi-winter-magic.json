@@ -1,0 +1,40 @@
+{
+  "path": "/bondi-blog/bondi-winter-magic",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bondi Festival (official)", "url": "https://www.bondifestival.com.au/" },
+    { "label": "Waverley Council", "url": "https://www.waverley.nsw.gov.au/" },
+    { "label": "Transport for NSW", "url": "https://transportnsw.info/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you've been searching for \"Bondi Winter Magic\" and the seaside ice rink you remember, here's the quick answer: that beloved winter fixture lives on today as the Bondi Festival — Waverley Council's annual July celebration on Bondi Park, with the iconic beachfront ice rink still its glittering centrepiece. The name changed, but the magic didn't. It's the same joy of lacing up skates a few metres from the sand, only now it comes wrapped in a much bigger program of music, comedy, art and light." },
+    { "type": "p", "text": "I'll be honest — swapping a surfboard for a pair of ice skates in the middle of a Bondi winter never stops feeling gloriously absurd, and that's exactly why I love it. There's nothing quite like gliding across the ice with the Pacific crashing behind you and the Pavilion lit up gold at dusk." },
+    { "type": "quickFacts", "items": [
+      { "label": "Now called", "value": "Bondi Festival" },
+      { "label": "When", "value": "Annually in July (winter)" },
+      { "label": "Where", "value": "Bondi Park & Bondi Pavilion" },
+      { "label": "Run by", "value": "Waverley Council" },
+      { "label": "Signature", "value": "Beachfront ice rink" }
+    ] },
+    { "type": "h2", "text": "What happened to Bondi Winter Magic?" },
+    { "type": "p", "text": "For years, \"Bondi Winter Magic\" was the name locals used for the pop-up ice rink that appeared on the Pavilion forecourt each winter. These days that same rink — and a whole lot more — runs under the banner of the Bondi Festival, a two-and-a-bit-week program of arts and family fun spread across Bondi Park and the newly refurbished Bondi Pavilion. So if you booked skate tickets under the old name once upon a time, you're in the right place; just look for Bondi Festival now." },
+    { "type": "p", "text": "The 2026 festival ran from 3 to 19 July and has wrapped for the year. The rink returns each winter, so watch for next year's dates rather than a fixed schedule — it shifts around within July from one year to the next." },
+    { "type": "callout", "tone": "note", "title": "Dates and prices change every year", "text": "I never quote a locked-in price, session time or opening hour here — they're set fresh for each festival. For the current year's dates, rink hours and ticket prices — including penguin skate-aids for little ones — always check the official Bondi Festival website before you plan your day." },
+    { "type": "h2", "text": "The ice rink, and everything around it" },
+    { "type": "p", "text": "The rink is the headline, but half the fun is everything orbiting it. In recent years the festival has bundled in a Ferris wheel, live music, comedy, theatre, food and drink stalls, life-drawing sessions and after-dark light installations along the park. Plenty of it is free to wander, with paid events kept deliberately affordable — a genuine community festival rather than a pricey day out." },
+    { "type": "p", "text": "A lovely detail I always mention: the ice rink partners with the Sydney Children's Hospitals Foundation, so a dollar from every skate ticket goes towards helping sick kids. Skating with a view and doing a little good at the same time — very Bondi." },
+    { "type": "localTip", "text": "Book your skate session in advance and aim for a late-afternoon slot. You get on the ice in daylight, then watch the Pavilion and park light up as the sun drops — the most magical hour of the festival, and the busiest, so those slots sell first." },
+    { "type": "h2", "text": "Getting there" },
+    { "type": "p", "text": "Everything centres on Bondi Park and the Pavilion, on Queen Elizabeth Drive facing the beach. The easiest route is a train to Bondi Junction then a bus down the hill to Bondi Beach — check Transport for NSW for live times and routes. Winter parking is easier than summer, but festival weekends still fill, so leave the car at home if you can." },
+    { "type": "callout", "tone": "warning", "title": "Rug up — it's on the water", "text": "The rink sits right on the beachfront, and the wind coming off the ocean at night has a real bite to it in July. Bring a warm jacket, gloves (handy on the ice anyway) and closed shoes to change back into. Skating warms you up; standing in the queue does not." },
+    { "type": "faq", "items": [
+      { "q": "Is Bondi Winter Magic still on?", "a": "Yes — it continues as the Bondi Festival, held each July on Bondi Park and at Bondi Pavilion, run by Waverley Council. The seaside ice rink you remember is still the centrepiece, alongside music, comedy, art and light shows." },
+      { "q": "When is the Bondi ice rink open?", "a": "It runs during the festival window in July each year, and the exact dates and daily hours are set fresh annually. Check the official Bondi Festival website for the current year's schedule before you go." },
+      { "q": "How much does it cost to skate?", "a": "Prices are set each year and skate hire is generally included, with add-ons like penguin skate-aids for young or nervous skaters. For current pricing, book through the official Bondi Festival website." },
+      { "q": "Can beginners and kids skate?", "a": "Absolutely. Skates come in all sizes and first-timers can hold onto a push-along penguin for balance, which makes it a great outing for families and anyone who's never been on ice." },
+      { "q": "How do I get to the Bondi ice rink?", "a": "It's on Bondi Park by the Pavilion on Queen Elizabeth Drive. Take a train to Bondi Junction then a bus to Bondi Beach — see Transport for NSW for current routes and times. Beach parking fills fast on festival days." }
+    ] },
+    { "type": "p", "text": "So no, the magic hasn't melted away — it just goes by a new name. Keep an eye out for next winter's Bondi Festival dates, grab a skate session with a sea view, and I'll see you out on the ice." }
+  ]
+}
