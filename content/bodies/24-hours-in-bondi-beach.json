@@ -5,7 +5,7 @@
   "sources": [
     { "label": "Waverley Council — Bondi to Bronte Coastal Walk", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
     { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" },
-    { "label": "Surf Life Saving NSW — Beach Safety", "url": "https://www.surflifesaving.com.au/beachsafe" }
+    { "label": "Beachsafe — Surf Life Saving Australia", "url": "https://beachsafe.org.au/" }
   ],
   "blocks": [
     { "type": "p", "text": "One day in Bondi? You can do it justice. If I only had 24 hours here, I'd start with a sunrise swim, walk the coastal path while the light is soft, eat well, laze on the sand through the middle of the day, and finish with a drink watching the sky turn pink over the water. Below is exactly how I'd spend it — a local's rhythm, not a tourist checklist." },
@@ -20,7 +20,7 @@
     { "type": "p", "text": "After a swim, walk the Bondi to Bronte coastal path while it's still cool. It hugs the cliffs past Mackenzies Bay and Tamarama, and Waverley Council signs it clearly the whole way. It's a genuinely gorgeous stretch and not a long one — if you've got the legs, keep going all the way to Coogee." },
     { "type": "localTip", "text": "Do the coastal walk south to north on your way back if you want the sun behind you for photos, and carry water — there's a drinking fountain or two along the way but no cafes between the beaches until you reach Bronte." },
     { "type": "h2", "text": "Midday: eat, laze, repeat" },
-    { "type": "p", "text": "Come back to Bondi hungry. Campbell Parade and the streets running off it (Hall Street, Gould Street) are thick with cafes, bakeries and juice bars — you won't struggle to find breakfast or an early lunch. Then claim a patch of sand for the hottest part of the day. Crucial safety note: only ever swim between the red-and-yellow flags, where the surf lifesavers are watching. Bondi has rips, and they're the reason the flagged zone exists. If you're unsure of conditions, ask a lifeguard — that's what they're there for." },
+    { "type": "p", "text": "Come back to Bondi hungry. Campbell Parade and the streets running off it (Hall Street, Gould Street) are thick with cafes, bakeries and juice bars — you won't struggle to find breakfast or an early lunch. Then claim a patch of sand for the hottest part of the day. Crucial safety note: only ever swim between the red-and-yellow flags, where the surf lifesavers are watching. Bondi has rips, so if you're at all unsure of the conditions, ask a lifeguard." },
     { "type": "callout", "tone": "warning", "title": "Swim between the flags", "text": "The flagged area is patrolled and moves with the conditions. Never swim outside it, and if you get caught in a rip, stay calm, raise an arm and float — don't fight the current back to shore." },
     { "type": "p", "text": "If the sun gets much, duck into the Bondi Pavilion on the promenade for shade, or wander Gould and Hall Streets — vintage shops, surf stores and a rotating cast of street art keep it interesting. On a Saturday, the Bondi Farmers Market runs at the Bondi Beach Public School on Campbell Parade; it's a lovely low-key browse for produce and a snack." },
     { "type": "h2", "text": "Evening: sunset, then somewhere with a view" },
@@ -30,7 +30,7 @@
       { "time": "Dinner", "title": "Eat local", "detail": "From the celebrated Icebergs Dining Room and Bar to casual fish and chips on the grass, Bondi feeds every budget." },
       { "time": "After dark", "title": "Nightcap or a film", "detail": "In summer, an outdoor cinema sometimes runs on the beach — check what's on before you plan around it." }
     ] },
-    { "type": "p", "text": "Bondi in the evening is unhurried. Watching the sun go down over the water with something cold in hand is, for my money, the best free thing you can do here — a fitting end to a day that started in the same water. If you've still got energy, the bars around Hall Street keep the night going, but most people I bring here are happily worn out by then, in the best possible way." },
+    { "type": "p", "text": "Bondi in the evening is unhurried. Watching the sun go down over the water with something cold in hand is, for my money, the best free thing you can do here — a fitting end to a day that started in the same water. If you've still got energy, the bars around Hall Street keep the night going, but most people I bring here are happily worn out by then." },
     { "type": "faq", "items": [
       { "q": "What's the one thing I shouldn't skip in 24 hours at Bondi?", "a": "The Bondi to Bronte coastal walk, ideally in the morning light. It's free, it's short enough to fit into any day, and the cliff-top ocean views are what most people picture when they think of Bondi." },
       { "q": "Can I swim at Bondi Icebergs pool as a visitor?", "a": "Yes — the ocean pool is open to the public most days for a small entry fee, but it closes at times for cleaning and swimming races. Check the Icebergs website for the current session times and price before you head down." },

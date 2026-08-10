@@ -52,6 +52,18 @@ const nextConfig = {
       // Rainy day / wet weather → the single canonical rainy-day guide:
       { source: '/bondi-blog/2025/4/29/ultimate-wet-weather-guide-to-bondi-rainy-day-activities-tips', destination: '/bondi-blog/2025/5/23/rain-or-shine-7-must-do-indoor-activities-in-bondi-beach-on-a-rainy-day', statusCode: 301 },
       { source: '/bondi-blog/2023/11/5/things-to-do-at-bondi-beach-in-the-rain', destination: '/bondi-blog/2025/5/23/rain-or-shine-7-must-do-indoor-activities-in-bondi-beach-on-a-rainy-day', statusCode: 301 },
+
+      // Cannibalisation consolidation, round 3 (all near-zero impressions; no chains —
+      // destinations are canonical pages that are not themselves redirect sources).
+      // Restaurants (3 competing "best Bondi restaurants" pages) → the clean-slug canonical:
+      { source: '/bondi-blog/2023/11/8/definitive-guide-to-bondis-best-restaurants', destination: '/bondi-blog/best-restaurants-bondi-beach', statusCode: 301 },
+      { source: '/bondi-blog/2025/4/25/must-experience-bondi-restaurants-our-top-10-best-restaurants-ranked', destination: '/bondi-blog/best-restaurants-bondi-beach', statusCode: 301 },
+      // Best time to visit (thin duplicate) → the 11-impression seasonal guide:
+      { source: '/bondi-blog/best-time-to-visit-bondi-beach', destination: '/bondi-blog/2024/6/9/the-best-time-to-visit-bondi-beach-a-seasonal-guide', statusCode: 301 },
+      // City2Surf training duplicates → the 58-impression Heartbreak Hill training pillar:
+      { source: '/bondi-blog/2017/4/28/city2surf-time-to-start-training', destination: '/bondi-blog/2025/6/18/how-to-train-for-heartbreak-hill-without-being-a-fitness-freak', statusCode: 301 },
+      { source: '/bondi-blog/city-to-surf-training-plan', destination: '/bondi-blog/2025/6/18/how-to-train-for-heartbreak-hill-without-being-a-fitness-freak', statusCode: 301 },
+      { source: '/bondi-blog/2024/7/25/help-3-week-city2surf-training-plan', destination: '/bondi-blog/2025/6/18/how-to-train-for-heartbreak-hill-without-being-a-fitness-freak', statusCode: 301 },
     ];
   },
 };

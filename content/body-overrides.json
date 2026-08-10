@@ -199,7 +199,7 @@
           },
           {
             "label": "Start",
-            "value": "Hyde Park (Park St / College St)"
+            "value": "Hyde Park, Sydney CBD"
           },
           {
             "label": "Finish",
@@ -207,7 +207,7 @@
           },
           {
             "label": "When",
-            "value": "August (9 Aug in 2026 — confirm on the official site)"
+            "value": "A Sunday in August — check the official site for this year's date"
           },
           {
             "label": "First run",
@@ -225,7 +225,7 @@
       },
       {
         "type": "p",
-        "text": "The famous test is Heartbreak Hill: a roughly 2km climb up New South Head Road from Rose Bay to Vaucluse, hitting right around the halfway mark when your legs are just starting to ask questions. They don't call it Heartbreak for nothing. My honest advice — don't try to be a hero on the hill. Shorten your stride, keep it steady, and remember it's followed by a long, generous downhill toward Dover Heights and Bondi."
+        "text": "The famous test is Heartbreak Hill: a long climb up New South Head Road from Rose Bay toward Vaucluse, hitting around the halfway mark when your legs are just starting to ask questions. They don't call it Heartbreak for nothing. My honest advice — don't try to be a hero on the hill. Shorten your stride, keep it steady, and remember it's followed by a long, generous downhill toward Dover Heights and Bondi."
       },
       {
         "type": "callout",
@@ -261,7 +261,7 @@
       },
       {
         "type": "p",
-        "text": "Runners are set off in staggered waves from Hyde Park across the morning, with faster groups leaving first — your start group is based on your predicted time when you enter. Roads across the eastern suburbs close for the event, so driving is a bad idea. Take the train into the city for the start, and plan how you'll get home from Bondi afterwards, because the buses and surrounding streets get very busy once everyone finishes."
+        "text": "Runners set off in staggered waves from Hyde Park across the morning, faster groups first, with your start group based on the predicted time you enter. Roads across the eastern suburbs close for the event, so driving is a bad idea. Take the train into the city for the start, and plan how you'll get home from Bondi, because the buses and streets get very busy once everyone finishes."
       },
       {
         "type": "callout",
@@ -278,7 +278,7 @@
           },
           {
             "q": "When is the City2Surf held?",
-            "a": "It's run in August each year — in 2026 it falls on 9 August. Dates can shift year to year, so always confirm on the official City2Surf website before you plan around it."
+            "a": "It's run on a Sunday in August each year. The exact date shifts year to year, so always confirm on the official City2Surf website before you plan around it."
           },
           {
             "q": "Do I need to run the whole way?",
@@ -286,7 +286,7 @@
           },
           {
             "q": "How hard is Heartbreak Hill?",
-            "a": "It's a roughly 2km climb from Rose Bay to Vaucluse at about the halfway point — the toughest stretch of the course. Train on hills beforehand and pace yourself up it, and you'll be fine."
+            "a": "It's a sustained climb from Rose Bay toward Vaucluse at about the halfway point — the toughest stretch of the course. Train on hills beforehand and pace yourself up it, and you'll be fine."
           },
           {
             "q": "How should I get to and from the event?",
@@ -299,7 +299,7 @@
         "text": "So — time to start training? Honestly, yes. Lace up, get a few hills in your legs, and I'll see you when you come flying down onto Campbell Parade. There's no better finish line in Sydney, and no better feeling than earning that first swim at Bondi once you're done."
       }
     ],
-    "wordCount": 908,
+    "wordCount": 893,
     "sources": [
       {
         "label": "Voltaren City2Surf (official)",
@@ -310,12 +310,12 @@
         "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)"
       },
       {
-        "label": "Transport for NSW — City2Surf 2026",
-        "url": "https://transportnsw.info/events/2026/08/city2surf-2026"
+        "label": "Transport for NSW",
+        "url": "https://transportnsw.info/"
       },
       {
-        "label": "Waverley Council — City2Surf 2026",
-        "url": "https://www.waverley.nsw.gov.au/recreation/events/events/city2surf_2026"
+        "label": "Waverley Council",
+        "url": "https://www.waverley.nsw.gov.au/"
       }
     ],
     "lastReviewed": "2026-08-08",
@@ -2342,7 +2342,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "If you want the honest, local answer to where to eat in Bondi, here it is: for a special occasion with an ocean view it's Icebergs, for a long boozy Italian lunch it's Totti's, for the best porchetta in the postcode it's Da Orazio, for produce-driven fine dining it's Sean's, and for a Bondi breakfast institution it's bills. I've eaten my way around this beach for years, so instead of pretending to 'crunch the numbers', I'll just tell you what each place is actually good for — and when I'd book it."
+        "text": "If you want the honest, local answer to where to eat in Bondi, here it is: for a special occasion with an ocean view it's Icebergs, for a long boozy Italian lunch it's Totti's, for the best porchetta it's Da Orazio, for produce-driven fine dining it's Sean's, and for a Bondi breakfast institution it's bills. I've eaten my way around this beach for years, so here's what each place is actually good for — and when I'd book it."
       },
       {
         "type": "quickFacts",
@@ -2375,11 +2375,11 @@
       },
       {
         "type": "p",
-        "text": "Perched on the southern headland above the Bondi Icebergs ocean pool, this is the view every postcard of Bondi is trying to be. It's Maurice Terzini's flagship — polished Italian food, a serious wine list, and that sweep of turquoise water and surf through floor-to-ceiling glass. It's my go-to for anniversaries and 'my parents are visiting' lunches. It is genuinely fine dining, so treat it as a splurge, book well ahead, and note there's a smart-casual dress code. Session times, menus and pricing shift, so check the Icebergs website before you go rather than trusting an out-of-date number online."
+        "text": "Perched on the southern headland above the Bondi Icebergs ocean pool, this is the view every postcard of Bondi is trying to be. It's Maurice Terzini's flagship — polished Italian food, a serious wine list, and that sweep of turquoise water and surf through floor-to-ceiling glass. It's my go-to for anniversaries and 'my parents are visiting' lunches. It's genuinely fine dining — treat it as a splurge, book well ahead, and note the smart-casual dress code. Session times, menus and prices shift, so check the Icebergs website before you go rather than trusting an out-of-date number online."
       },
       {
         "type": "localTip",
-        "text": "Book a table for around 45 minutes before sunset in the cooler months. You get the drama of the light on the water without the peak-lunch crowd — and the walk down Notts Avenue afterwards is one of the prettiest in Sydney."
+        "text": "Book for around 45 minutes before sunset in the cooler months: you get the drama of the light on the water without the peak-lunch crowd, and the walk down Notts Avenue afterwards is one of the prettiest in Sydney."
       },
       {
         "type": "h2",
@@ -2387,7 +2387,7 @@
       },
       {
         "type": "p",
-        "text": "Totti's, inside The Royal Bondi on Bondi Road, is where I take a group when the plan is 'sit down at one, leave at four'. It's Merivale's warm, woodfired Italian — the sort of sharing menu built around that pillowy house bread, charcoal-grilled meats and fish, and negronis that arrive a little too easily. The room and leafy courtyard are made for a crowd, so it's my default for birthdays. Weekends book out, so reserve ahead through the Merivale site."
+        "text": "Totti's, inside The Royal Bondi on Bondi Road, is where I take a group when the plan is 'sit down at one, leave at four'. It's Merivale's warm, woodfired Italian — the sort of sharing menu built around that pillowy house bread, charcoal-grilled meats and fish, and negronis that arrive a little too easily. The leafy courtyard is made for a crowd — my default for birthdays. Weekends book out, so reserve ahead through the Merivale site."
       },
       {
         "type": "h2",
@@ -2395,7 +2395,7 @@
       },
       {
         "type": "p",
-        "text": "Da Orazio Pizza + Porchetta on Hall Street is the one I send every visitor to. Orazio D'Elia's blistered, wood-fired Neapolitan pizza is the headline, but the move is the focaccia con porchetta — roast pork tucked into pizza bread — which is exactly as good as it sounds. It reopened at Bondi in 2022 and picked up a Chef's Hat in the Good Food Guide the following year, so it's not just a nostalgia play. It's lively, family-friendly and a notch more relaxed (and affordable) than the fine-dining rooms."
+        "text": "Da Orazio Pizza + Porchetta on Hall Street is the one I send every visitor to. Orazio D'Elia's blistered, wood-fired Neapolitan pizza is the headline, but the move is the focaccia con porchetta — roast pork tucked into pizza bread — which is exactly as good as it sounds. It reopened at Bondi in 2022 and picked up a Chef's Hat in the Good Food Guide the following year, so it's not just a nostalgia play. It's lively, family-friendly and more relaxed (and affordable) than the fine-dining rooms."
       },
       {
         "type": "h2",
@@ -2403,7 +2403,7 @@
       },
       {
         "type": "p",
-        "text": "Sean's (long known as Sean's Panorama) on Campbell Parade has been a Bondi institution since 1993, and it still feels like eating in someone's home. Chef-owner Sean Moran changes the menu daily around what's good — much of it from his own Bilpin farm — so I never look at the menu online; I just turn up hungry and let the kitchen decide. It's a small room with limited service days, so booking directly is essential."
+        "text": "Sean's (long known as Sean's Panorama) on Campbell Parade has been a Bondi institution since 1993, and it still feels like eating in someone's home. Chef-owner Sean Moran changes the menu daily around what's good — much of it from his own Bilpin farm — so I just turn up hungry and let the kitchen decide. It's a small room with limited service days, so book directly."
       },
       {
         "type": "h2",
@@ -2411,13 +2411,13 @@
       },
       {
         "type": "p",
-        "text": "No honest Bondi list skips bills. Bill Granger's original sunlit dining room made ricotta hotcakes and creamy scrambled eggs famous worldwide, and a late breakfast here is a proper Bondi ritual. It's popular, so expect a queue at peak weekend times — go early, or slide in mid-morning on a weekday."
+        "text": "No honest Bondi list skips bills. Bill Granger's original sunlit dining room made ricotta hotcakes and creamy scrambled eggs famous worldwide, and a late breakfast here is a proper Bondi ritual. It's popular, so expect a weekend queue — go early, or slide in mid-morning on a weekday."
       },
       {
         "type": "callout",
         "tone": "note",
         "title": "One honest caveat on 'rankings'",
-        "text": "Any list that claims to 'objectively rank' restaurants is really just one crew's taste. Bondi's dining changes fast — venues rebrand, chefs move, hours shift with the season. Treat this as a starting point, and always confirm opening days, menus and prices on each venue's own website before you head down."
+        "text": "Any list that claims to 'objectively rank' restaurants is really just one crew's taste. Bondi's dining changes fast — venues rebrand, chefs move, hours shift. Treat this as a starting point, and always confirm opening days, menus and prices on each venue's own site before heading down."
       },
       {
         "type": "h2",
@@ -2438,19 +2438,19 @@
         "items": [
           {
             "q": "What is the best restaurant in Bondi?",
-            "a": "There's no single winner — it depends on the occasion. For an ocean view and fine dining I'd book Icebergs; for a long Italian lunch, Totti's; for casual wood-fired pizza and porchetta, Da Orazio; for chef's-choice seasonal cooking, Sean's; and for the classic Bondi breakfast, bills."
+            "a": "There's no single winner — it depends on the occasion: Icebergs for an ocean-view splurge, Totti's for a long Italian lunch, Da Orazio for wood-fired pizza and porchetta, Sean's for chef's-choice seasonal cooking, and bills for the classic Bondi breakfast."
           },
           {
             "q": "Do I need to book a table in Bondi?",
-            "a": "For Icebergs, Totti's and Sean's, yes — book directly through each venue, especially on weekends and in summer. Da Orazio and bills are more walk-in friendly, but you should still expect a wait at peak times."
+            "a": "For Icebergs, Totti's and Sean's, yes — book directly through each venue, especially on weekends and in summer. Da Orazio and bills are more walk-in friendly, but expect a wait at peak times."
           },
           {
             "q": "Where can I get the best view while I eat?",
-            "a": "Icebergs Dining Room and Bar, on the headland above the Bondi Icebergs ocean pool, has the standout view over the beach and pool. Time a booking near sunset in the cooler months for the best of it."
+            "a": "Icebergs Dining Room and Bar, on the headland above the Bondi Icebergs ocean pool, has the standout view over the beach. Time a booking near sunset in the cooler months for the best of it."
           },
           {
             "q": "Are there cheaper places to eat in Bondi?",
-            "a": "Plenty. The fine-dining rooms are a splurge, but Da Orazio is more relaxed, and Bondi's cafés, bakeries and casual spots along Hall Street and Gould Street cover great cheap eats. Always check current prices on the venue's own site before you go."
+            "a": "Plenty. The fine-dining rooms are a splurge, but Da Orazio is more relaxed, and Bondi's cafés, bakeries and casual spots along Hall Street and Gould Street cover great cheap eats. Always check current prices before you go."
           },
           {
             "q": "Is Da Orazio still open in Bondi?",
@@ -2460,10 +2460,10 @@
       },
       {
         "type": "p",
-        "text": "That's my honest shortlist. Whichever you choose, do the same thing I do — open the venue's own website first, confirm the day and time are right, and book if you can. Then go early enough to walk it off along the promenade afterwards. That's the real Bondi dining experience."
+        "text": "That's my honest shortlist. Whichever you choose, do what I do — open the venue's own website first, confirm the day and time, and book if you can. Then go early enough to walk it off along the promenade afterwards. That's the real Bondi dining experience."
       }
     ],
-    "wordCount": 947,
+    "wordCount": 888,
     "sources": [
       {
         "label": "Icebergs Dining Room and Bar (official)",
@@ -2471,19 +2471,23 @@
       },
       {
         "label": "Totti's Bondi — Merivale (official)",
-        "url": "https://www.merivale.com/venues/tottisbondi"
+        "url": "https://merivale.com/venues/tottis/"
       },
       {
         "label": "Da Orazio Pizza + Porchetta (official)",
         "url": "https://www.daorazio.com.au"
       },
       {
+        "label": "Sean's Bondi (official)",
+        "url": "https://seansbondi.com"
+      },
+      {
         "label": "bills (official)",
         "url": "https://bills.com.au"
       },
       {
-        "label": "Good Food Guide — Da Orazio",
-        "url": "https://www.gourmettraveller.com.au/dining-out/food-news/da-orazio-bondi-beach-sydney-19729/"
+        "label": "Broadsheet — Da Orazio returns to its original Bondi home",
+        "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/italian-restaurant-da-orazio-back-original-bondi-spot-and-its-sydney-famous-puffy-pizzas-and-porchetta-sandwich"
       }
     ],
     "lastReviewed": "2026-08-08",
@@ -2493,13 +2497,13 @@
     "blocks": [
       {
         "type": "p",
-        "text": "If you're trying to plan a Bondi trip around something special, here's the short answer: our calendar peaks twice — high summer (January to March) for cinema-on-the-sand and festival energy, and spring (September to early December) for kites, sculpture and ocean swimming. Below is the rhythm I plan my own year around, month by month, with a standing reminder to confirm exact dates on each event's official page before you book flights, because they shift a little every year."
+        "text": "If you're planning a Bondi trip around something special, here's the short answer: our event calendar peaks twice — high summer (January to March) for cinema-on-the-sand and festival energy, and spring (September to early December) for kites, sculpture and ocean swimming. Below is the rhythm I plan my year around — just confirm each event's exact dates on its official page before you book, because they shift every year."
       },
       {
         "type": "callout",
         "tone": "warning",
         "title": "Dates move every year",
-        "text": "This is the annual pattern of Bondi's big events, not a promise of specific 2024 dates. Organisers set fresh dates each season and occasionally reschedule for weather. Always check the official links in the sources below for the current year before you commit to travel."
+        "text": "This is the annual pattern of Bondi's big events, not a promise of specific dates. Organisers set fresh dates each season and sometimes reschedule for weather, so check the official links below for the current year before you commit to travel."
       },
       {
         "type": "h2",
@@ -2511,7 +2515,7 @@
           {
             "time": "January",
             "title": "Flickerfest & Openair Cinema",
-            "detail": "Flickerfest, the Academy- and BAFTA-recognised short film festival, screens under the stars at Bondi Pavilion late in the month. Down on the promenade, Openair Cinemas runs its summer season of big-screen films with the surf as your soundtrack."
+            "detail": "Flickerfest, the Academy- and BAFTA-recognised short film festival, screens under the stars at Bondi Pavilion late in the month. Down on the promenade, Openair Cinemas runs its summer season with the surf as your soundtrack."
           },
           {
             "time": "February–March",
@@ -2521,7 +2525,7 @@
           {
             "time": "August",
             "title": "City2Surf",
-            "detail": "The world's largest fun run — 14km from Hyde Park in the CBD, over Heartbreak Hill, finishing right here on the sand at Bondi Beach. Tens of thousands of runners pour onto the beach; a brilliant morning to be a spectator."
+            "detail": "The world's largest fun run — 14km from Hyde Park in the CBD, over Heartbreak Hill, finishing at Bondi Beach. Tens of thousands of runners pour in; a brilliant morning to be a spectator."
           },
           {
             "time": "September",
@@ -2531,12 +2535,12 @@
           {
             "time": "October–November",
             "title": "Sculpture by the Sea",
-            "detail": "The free, open-air sculpture exhibition strung along the coastal walk from Bondi to Tamarama — around 100 works over roughly two kilometres of clifftop. One of my favourite fortnights of the entire year."
+            "detail": "The free, open-air sculpture exhibition strung along the coastal walk from Bondi to Tamarama — around 100 works over roughly two kilometres of clifftop. One of my favourite fortnights of the year."
           },
           {
             "time": "December",
             "title": "Bondi to Bronte Ocean Swim",
-            "detail": "The classic point-to-point ocean race down the coast, held early in the month. Whether you swim it or just watch from the headland, it's a proper Sydney summer send-off."
+            "detail": "The classic point-to-point ocean race down the coast, held early in the month. Whether you swim it or watch from the headland, it's a proper Sydney summer send-off."
           }
         ]
       },
@@ -2550,7 +2554,7 @@
       },
       {
         "type": "p",
-        "text": "This is the one that turns Bondi into a finish-line party. Runners and walkers of every ability tackle the 14km course from the city, and the beach becomes a sea of exhausted, delighted people collecting their medals. Even if you're not running, come down mid-morning — the atmosphere on the sand is fantastic. Roads across the eastern suburbs close and buses reroute, so check Transport for NSW and the official City2Surf site for start waves and travel advice."
+        "text": "This is the one that turns Bondi into a finish-line party. Runners and walkers of every ability tackle the 14km from the city, and the beach fills with delighted finishers collecting their medals. Even if you're not running, come down mid-morning. Roads across the eastern suburbs close and buses reroute, so check Transport for NSW and the official City2Surf site for start waves and travel advice."
       },
       {
         "type": "h3",
@@ -2558,7 +2562,7 @@
       },
       {
         "type": "p",
-        "text": "For about two and a half weeks each spring, the Bondi-to-Tamarama coastal walk becomes the world's largest free outdoor sculpture show. It's genuinely one of the best things Bondi does. It gets very busy on weekends and in the evenings, so I always go on a weekday morning if I can — you get the art, the light and the ocean almost to yourself."
+        "text": "For about two and a half weeks each spring, the Bondi-to-Tamarama coastal walk becomes a free open-air sculpture gallery. It's one of the best things Bondi does. It gets very busy on weekends and evenings, so I go on a weekday morning if I can — you get the art, the light and the ocean almost to yourself."
       },
       {
         "type": "h3",
@@ -2566,7 +2570,7 @@
       },
       {
         "type": "p",
-        "text": "A gloriously simple, free community day: enormous, colourful kites over the beach, food stalls, music and workshops for the little ones. It's weather-dependent by nature, so keep an eye on the Bondi Pavilion listing in the lead-up."
+        "text": "A gloriously simple, free community day: enormous, colourful kites over the beach, food stalls, music and workshops for kids. It's weather-dependent by nature, so check the Waverley Council listing in the lead-up."
       },
       {
         "type": "quickFacts",
@@ -2591,30 +2595,30 @@
       },
       {
         "type": "localTip",
-        "text": "Whatever you're coming for, leave the car at home. Parking around Bondi is scarce and metered at the best of times, and on event days it's near-impossible — roads close for City2Surf and crowds swell for Sculpture by the Sea. The 333 and 380 buses and a short walk from Bondi Junction station are far less stressful."
+        "text": "Whatever you're coming for, leave the car at home. Parking around Bondi is scarce and metered at the best of times, and near-impossible on event days — roads close for City2Surf and crowds swell for Sculpture by the Sea. The 333 and 380 buses, or a short walk from Bondi Junction station, are far less stressful."
       },
       {
         "type": "p",
-        "text": "You'll still see mentions online of a beachside winter ice rink or various one-off cultural festivals. Some of these come and go year to year, so I've deliberately left out anything I can't confirm is running now. If a specific event matters to your trip, the Waverley Council 'What's On' page is the most reliable single source for what's actually happening at Bondi in any given season."
+        "text": "You'll also see mentions of a beachside winter ice rink or one-off festivals. Some come and go year to year, so I've left out anything I can't confirm is running now. If a specific event matters to your trip, the Waverley Council 'What's On' page is the most reliable source for it."
       },
       {
         "type": "faq",
         "items": [
           {
             "q": "What's the biggest event at Bondi Beach each year?",
-            "a": "For sheer scale, City2Surf in August — the world's largest fun run finishes on Bondi Beach. For visitor draw, Sculpture by the Sea (October–November) pulls hundreds of thousands of people to the free coastal-walk exhibition."
+            "a": "For sheer scale, City2Surf in August — the world's largest fun run finishes at Bondi Beach. For visitor draw, Sculpture by the Sea (October–November) pulls hundreds of thousands of people to the free coastal-walk exhibition."
           },
           {
             "q": "When is Sculpture by the Sea at Bondi?",
-            "a": "It runs for roughly two and a half weeks from mid-October into early November along the Bondi-to-Tamarama coastal walk. It's free. Confirm the exact dates on the official Sculpture by the Sea website before you travel."
+            "a": "It runs for roughly two and a half weeks from mid-October into early November along the Bondi-to-Tamarama coastal walk, and it's free. Confirm the exact dates on the official Sculpture by the Sea website before you travel."
           },
           {
             "q": "Is there an outdoor cinema at Bondi Beach?",
-            "a": "Yes — Openair Cinemas runs a summer season by the beach (typically across January to March), and Flickerfest screens short films at Bondi Pavilion in January. Season dates and programs are on their official sites."
+            "a": "Yes — Openair Cinemas runs a summer season by the beach (typically January to March), and Flickerfest screens short films at Bondi Pavilion in January. Season dates and programs are on their official sites."
           },
           {
             "q": "Are Bondi's events free?",
-            "a": "Many of the best ones are — Festival of the Winds and viewing Sculpture by the Sea both cost nothing. City2Surf, the Bondi to Bronte Ocean Swim, Flickerfest and Openair Cinema are ticketed. Check each event's site for current pricing."
+            "a": "Many of the best are — Festival of the Winds and viewing Sculpture by the Sea both cost nothing. City2Surf, the Bondi to Bronte Ocean Swim, Flickerfest and Openair Cinema are ticketed. Check each event's site for current pricing."
           },
           {
             "q": "How do I find confirmed dates for this year?",
@@ -2624,10 +2628,10 @@
       },
       {
         "type": "p",
-        "text": "That's the Bondi year as I live it — cinema and sun to start, kites and sculpture and one last big swim to finish. Pin the month that suits you, confirm the exact dates on the official pages, and you'll catch Bondi at its most alive."
+        "text": "That's the Bondi year as I live it — sun and cinema to start, kites, sculpture and one last big swim to finish. Pin the month that suits you, confirm the dates officially, and you'll catch Bondi at its best."
       }
     ],
-    "wordCount": 953,
+    "wordCount": 881,
     "sources": [
       {
         "label": "Voltaren City2Surf (official)",
@@ -2636,10 +2640,6 @@
       {
         "label": "Sculpture by the Sea, Bondi",
         "url": "https://sculpturebythesea.com/bondi/"
-      },
-      {
-        "label": "Festival of the Winds — Bondi Pavilion / Waverley Council",
-        "url": "https://www.bondipavilion.com.au/whats_on/event/festival_of_the_winds"
       },
       {
         "label": "Flickerfest International Short Film Festival",
@@ -3211,7 +3211,7 @@
           },
           {
             "label": "Typical Dec max",
-            "value": "Around 26°C at Observatory Hill"
+            "value": "Around 25°C at Observatory Hill"
           },
           {
             "label": "Typical Dec min",
@@ -3233,15 +3233,15 @@
       },
       {
         "type": "p",
-        "text": "Christmas here lands in high summer, so the vibe is thongs, sunscreen and a swim rather than mulled wine by a fire. Over the long climate record, December at Observatory Hill — the nearest long-running Bureau site to Bondi — averages a daily maximum of about 26°C and overnight lows near 18°C, though individual days swing well either side of that. Some Christmases are gloriously blue and still; others are warm, muggy and cloud-heavy with a thunderstorm rolling through late in the day. December is also one of our wetter summer months, so a shower isn't unusual."
+        "text": "Christmas here lands in high summer, so the vibe is thongs, sunscreen and a swim rather than mulled wine by a fire. Over the long climate record, December at Observatory Hill — the nearest long-running Bureau site to Bondi — averages a daily maximum around 25°C and overnight lows near 18°C, though individual days swing well either side. Some Christmases are gloriously blue and still; others are warm, muggy and cloud-heavy with a thunderstorm rolling through late in the day. December is also one of our wetter summer months, so a shower isn't unusual."
       },
       {
         "type": "p",
-        "text": "The pattern I see most often is a bright, calmer morning that clouds up as the afternoon heats up, with the storm risk building later — which is why locals treat the early hours as the safe bet."
+        "text": "The pattern I see most often: a bright, calm morning that clouds up as the afternoon heats up, with storm risk building later — which is why locals treat the early hours as the safe bet."
       },
       {
         "type": "localTip",
-        "text": "Get down to the sand before mid-morning. The light is soft, the crowds are thinner, parking is far easier, and you're beating both the fiercest UV and the afternoon storm risk. By early afternoon on a busy Christmas the promenade and car parks fill fast."
+        "text": "Get down to the sand before mid-morning. The light is soft, the crowds are thinner, parking is easier, and you're beating both the fiercest UV and the afternoon storm risk. By early afternoon the promenade and car parks fill fast."
       },
       {
         "type": "h2",
@@ -3249,7 +3249,7 @@
       },
       {
         "type": "p",
-        "text": "I won't pretend to know exactly what this Christmas Day holds — nobody reliably can more than about a week out, and anyone quoting you a precise temperature in November is guessing. Instead, here's how I check it myself:"
+        "text": "I won't pretend to know exactly what this Christmas Day holds — nobody reliably can more than about a week out, and a precise temperature quoted weeks ahead is a guess. Instead, here's how I check it myself:"
       },
       {
         "type": "list",
@@ -3264,7 +3264,7 @@
         "type": "callout",
         "tone": "warning",
         "title": "Don't be fooled by cloud",
-        "text": "Bondi's UV is punishing in December whether the sky is blue or grey — cloud cover doesn't stop you burning. Slip on a shirt, slop on sunscreen, slap on a hat, seek shade and slide on sunnies, and reapply after every swim. Overcast Christmas mornings catch visitors out every single year."
+        "text": "Bondi's UV is punishing in December whether the sky is blue or grey — cloud doesn't stop you burning. Slip on a shirt, slop on sunscreen, slap on a hat, slide on sunnies, and reapply after every swim. Overcast Christmas mornings catch visitors out every year."
       },
       {
         "type": "h2",
@@ -3272,14 +3272,14 @@
       },
       {
         "type": "p",
-        "text": "Whatever the forecast, a few things hold true. Always swim between the red and yellow flags — on a busy Christmas the lifesavers position them where it's safest. Bring water, pack a light rain layer if there's any storm risk showing, and remember Bondi is an alcohol-free beach, so keep the celebrating to the picnic food. And if the afternoon turns grey or stormy, it's no disaster — that's when I duck up to a café along Campbell Parade. Bondi is lovely in moody weather too."
+        "text": "Whatever the forecast, a few things hold true. Always swim between the red and yellow flags — on a busy Christmas the lifesavers set them where it's safest. Bring water, pack a light rain layer if storms are showing, and remember Bondi is an alcohol-free beach, so keep the celebrating to picnic food. If the afternoon turns grey, it's no disaster — that's when I duck up to a café along Campbell Parade. Bondi is lovely in moody weather too."
       },
       {
         "type": "faq",
         "items": [
           {
             "q": "What's the weather usually like at Bondi Beach on Christmas Day?",
-            "a": "It's peak summer, so warm and often humid rather than cold. December at the nearest long-term Bureau station averages a daily maximum around 26°C and overnight lows near 18°C, but individual Christmas Days vary a lot — some are clear and hot, others cloudy with an afternoon shower. Check the BoM Sydney 7-day forecast close to the day for the real picture."
+            "a": "It's peak summer, so warm and often humid rather than cold. December at the nearest long-term Bureau station averages a daily maximum around 25°C and overnight lows near 18°C, but individual Christmas Days vary a lot — some are clear and hot, others cloudy with an afternoon shower. Check the BoM Sydney 7-day forecast close to the day for the real picture."
           },
           {
             "q": "Does it rain at Bondi at Christmas?",
@@ -3301,10 +3301,10 @@
       },
       {
         "type": "p",
-        "text": "So here's my Christmas wish for you: an easy morning swim between the flags, a shady spot for lunch, and if the clouds roll in later, a good coffee and no complaints. Check the Bureau's forecast, pack the sunscreen either way, and have a wonderful day at the beach. Happy holidays from all of us at Bondi."
+        "text": "So here's my Christmas wish for you: an easy morning swim between the flags, a shady lunch spot, and a good coffee if the clouds roll in later. Check the Bureau's forecast, pack sunscreen either way, and have a wonderful day. Happy holidays from all of us at Bondi."
       }
     ],
-    "wordCount": 929,
+    "wordCount": 899,
     "sources": [
       {
         "label": "Bureau of Meteorology — Sydney 7-day forecast",
@@ -3315,8 +3315,8 @@
         "url": "http://www.bom.gov.au/climate/averages/tables/cw_066062.shtml"
       },
       {
-        "label": "Surf Life Saving NSW — Beachsafe",
-        "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi/bondi-beach"
+        "label": "Surf Life Saving — Beachsafe",
+        "url": "https://beachsafe.org.au"
       }
     ],
     "lastReviewed": "2026-08-08",
@@ -3609,7 +3609,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "When Gwyneth Paltrow put Bondi on her Goop city guide, most of her picks were spot on — Icebergs for dinner, the coastal walk, Bondi Wash and Playa by Lucy Folk. As a local, I'd happily send a first-timer to every one of them. But there was one line about the beach itself that made me put my flat white down, and it's the reason I can't fully sign off on her guide."
+        "text": "When Gwyneth Paltrow put Bondi on her Goop city guide, most of her picks were spot on — Icebergs for dinner, the coastal walk, Bondi Wash and Playa by Lucy Folk. As a local, I'd happily send a first-timer to every one of them. But there was one thing about the beach itself that made me put my flat white down, and it's the reason I can't fully sign off on her guide."
       },
       {
         "type": "h2",
@@ -3617,20 +3617,20 @@
       },
       {
         "type": "p",
-        "text": "Her recommendations skew toward the stylish, design-conscious side of Bondi, and on that front she nailed it. Here's the short version of what she flagged and why I'd back each one."
+        "text": "Her picks skew toward the stylish, design-conscious side of Bondi, and on that front she nailed it. Here's what she flagged and why I'd back each one."
       },
       {
         "type": "list",
         "items": [
-          "Icebergs Dining Room — the clifftop Italian above the famous ocean pool. It's a special-occasion spot with arguably the best view of the beach in Sydney. Book ahead and check the venue directly for current sittings and dress code.",
+          "Icebergs Dining Room — the clifftop Italian above the famous ocean pool. It's a special-occasion spot with arguably the best view of the beach in Sydney. Book ahead and check the venue for current sittings and dress code.",
           "The Bondi to Bronte coastal walk — the sandstone cliff path south from the beach. It's free, spectacular, and the best introduction to this stretch of coast there is.",
           "Bondi Wash — the local, plant-based home and body brand. A genuinely nice, very Bondi thing to take home.",
-          "Playa by Lucy Folk — the jewellery designer's Gould Street boutique, mixing her own pieces with hard-to-find labels."
+          "Playa by Lucy Folk — the jewellery designer's Bondi boutique, mixing her own pieces with hard-to-find labels."
         ]
       },
       {
         "type": "localTip",
-        "text": "Do the Bondi to Bronte walk early — I aim to be on the path by about 8am. You beat the crowds and the heat, the light on the cliffs is gorgeous, and you can reward yourself with breakfast in Bronte or back near the beach afterwards."
+        "text": "Do the Bondi to Bronte walk early — I aim to be on the path by about 8am. You beat the crowds and the heat, the light on the cliffs is gorgeous, and you can reward yourself with breakfast in Bronte afterwards."
       },
       {
         "type": "quickFacts",
@@ -3641,7 +3641,7 @@
           },
           {
             "label": "The disagreement",
-            "value": "Calling Bondi 'better for sunbathing than swimming'"
+            "value": "Steering dip-seekers to the pool over the ocean itself"
           },
           {
             "label": "Coastal walk",
@@ -3659,7 +3659,7 @@
       },
       {
         "type": "p",
-        "text": "Here's the line. Goop suggested that visitors with their minds set on a dip should know Bondi is \"better for sunbathing than swimming.\" As someone who swims here year-round, that's the bit I can't let stand."
+        "text": "Here's the sticking point. For anyone whose mind is set on getting wet, the guide leans heavily on the sheltered Icebergs pool — a day pass and some laps — rather than the ocean itself, and the impression it leaves is that Bondi is a place to sunbathe more than to swim. As someone who swims here year-round, that's the bit I can't let stand."
       },
       {
         "type": "quote",
@@ -3667,17 +3667,17 @@
       },
       {
         "type": "p",
-        "text": "Bondi is one of Australia's great swimming beaches. Generations of Sydneysiders learned to read the surf here, the Bondi Surf Bathers' Life Saving Club is the oldest in the world, and on any given morning you'll see everyone from nippers to eighty-year-old ocean swimmers in the water. I suspect Gwyneth simply turned up on a big-swell day — Bondi does get punchy surf and rips, and on those days the water genuinely is for the confident only. But that's a specific day, not the beach's character."
+        "text": "Bondi is one of Australia's great swimming beaches. Generations of Sydneysiders learned to read the surf here, the Bondi Surf Bathers' Life Saving Club is the oldest in the world, and on any given morning you'll see everyone from nippers to eighty-year-old ocean swimmers in the water. I suspect Gwyneth simply caught a big-swell day — Bondi does get punchy surf and rips, and on those days the water is for the confident only. But that's a specific day, not the beach's character."
       },
       {
         "type": "callout",
         "tone": "warning",
         "title": "Swim between the flags",
-        "text": "The one caveat I'll happily agree with is safety. Bondi has rip currents, and the famous Backpackers' Rip sits near the southern end by the walk. Always swim between the red-and-yellow flags, where the lifeguards actively patrol. If you're unsure about conditions, ask a lifeguard — they'd much rather answer a question than run a rescue."
+        "text": "The one caveat I'll happily agree with is safety. Bondi has rip currents, including the famous Backpackers' Rip near the southern end by the walk. Always swim between the red-and-yellow flags, where the lifeguards patrol. If you're unsure, ask a lifeguard — they'd much rather answer a question than run a rescue."
       },
       {
         "type": "p",
-        "text": "And to be fair to Gwyneth, when she skipped the surf she headed to Bondi Icebergs, the ocean pool at the southern end. That's a brilliant call — the pool lets you swim laps in salt water with the waves crashing over the edge, no rip-reading required. So even her workaround was a good one. I just wouldn't want a single choppy afternoon to convince anyone that Bondi is only for lying on a towel."
+        "text": "And to be fair, when she skipped the surf she headed for the Icebergs pool at the southern end — a brilliant call. It lets you swim laps in salt water with the waves crashing over the edge, no rip-reading required. I just wouldn't want a single choppy afternoon to convince anyone that Bondi is only for lying on a towel."
       },
       {
         "type": "h2",
@@ -3717,7 +3717,7 @@
           },
           {
             "q": "What was the recommendation you disagree with?",
-            "a": "Her suggestion that Bondi is 'better for sunbathing than swimming.' Bondi is one of Australia's iconic swimming beaches; she likely just visited on a big-swell day when the surf was rough."
+            "a": "The way the guide nudges anyone wanting a dip toward the sheltered Icebergs pool rather than the ocean, leaving the impression that Bondi is more for sunbathing than swimming. Bondi is one of Australia's iconic swimming beaches; a rough big-swell day can give a misleading first impression."
           },
           {
             "q": "Is Bondi Beach actually safe to swim at?",
@@ -3738,15 +3738,15 @@
         "text": "So: four recommendations, three enthusiastic yeses, and one gentle correction. Take Gwyneth's guide, hit the walk, browse the shops, book Icebergs — but don't you dare skip the swim. That's the whole point of Bondi."
       }
     ],
-    "wordCount": 883,
+    "wordCount": 898,
     "sources": [
       {
         "label": "Goop — Icebergs Dining Room and Bar",
         "url": "https://goop.com/place/australia/sydney/bondi-restaurants/icebergs-dining-room-and-bar/"
       },
       {
-        "label": "Goop — Playa by Lucy Folk",
-        "url": "https://goop.com/place/playa-by-lucy-folk"
+        "label": "Goop — Mini Guides to Australian Destinations (Sydney)",
+        "url": "https://goop.com/travel/experiences/australia-mini-travel-guides/"
       },
       {
         "label": "Surf Life Saving NSW — swim between the flags",
@@ -8152,8 +8152,8 @@
         "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety"
       },
       {
-        "label": "Waverley Council — Update on North Bronte rock slip",
-        "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/information_about_north_bronte_rock_slip"
+        "label": "Waverley Council — Council news & updates (North Bronte rock slip)",
+        "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news"
       },
       {
         "label": "Surf Life Saving NSW — Beachsafe",
@@ -8636,7 +8636,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "When a big storm rolls through, Bondi can change character in a matter of hours — and the short answer to \"can I still go?\" is usually no, not safely, and definitely not into the water. After heavy overnight rain in early April 2024, Waverley Council closed beaches and sections of the coastal walk across the local area, and a rock slip beneath Marks Park took out part of the clifftop path between Bondi and Tamarama. I want to walk you through what actually happens on days like that, and — more usefully — how to check conditions yourself before you head down."
+        "text": "When a big storm rolls through, Bondi can change character in a matter of hours — and the short answer to \"can I still go?\" is usually no, not safely, and definitely not into the water. After heavy overnight rain in early April 2024, Waverley Council closed beaches and sections of the coastal walk, and a rock slip beneath Marks Park damaged part of the clifftop path between Bondi and Tamarama. Here's what actually happens on days like that — and, more usefully, how to check conditions yourself before you head down."
       },
       {
         "type": "h2",
@@ -8649,16 +8649,16 @@
       {
         "type": "list",
         "items": [
-          "Dangerous surf. When a hazardous surf warning is in force, our lifeguards may fly the red flag (beach closed, no swimming) or limit patrols to a single narrow set of red-and-yellow flags. Ocean pools like Bronte and the Icebergs get pounded by waves washing straight over the edge, so they close too.",
-          "Unstable cliffs. Bondi's sandstone headlands soak up days of rain and let go without warning. The April 2024 rock slip below Marks Park is exactly why Council fences off stretches of the coastal walk after heavy weather — a collapse can take part of the path with it.",
-          "Fallen trees and flooding. Parks and reserves close while crews clear fallen limbs and check for damage, and low-lying paths and car parks can flood."
+          "Dangerous surf. In a hazardous surf warning, lifeguards may fly the red flag (beach closed, no swimming) or narrow patrols to a single set of red-and-yellow flags. Ocean pools like Bronte and the Icebergs get pounded by waves washing over the edge, so they close too.",
+          "Unstable cliffs. Bondi's sandstone headlands soak up days of rain and let go without warning. The April 2024 rock slip below Marks Park is why Council fences off stretches of the coastal walk after heavy weather — a collapse can take the path with it.",
+          "Fallen trees and flooding. Parks and reserves close while crews clear fallen limbs, and low-lying paths and car parks can flood."
         ]
       },
       {
         "type": "callout",
         "tone": "warning",
         "title": "If the beach is closed, stay out of the water",
-        "text": "A red flag means the beach is closed and swimming is prohibited — not \"swim with care.\" Storm surf brings powerful rips that drag even strong swimmers out fast, plus debris and murky water that hides everything beneath the surface. No swim is worth it on a day like this."
+        "text": "A red flag means the beach is closed and swimming is prohibited — not \"swim with care.\" Storm surf brings powerful rips that drag even strong swimmers out fast, plus debris and murky water. No swim is worth it."
       },
       {
         "type": "h2",
@@ -8666,20 +8666,20 @@
       },
       {
         "type": "p",
-        "text": "This is the part I wish more visitors knew, because you can save yourself a wasted trip in five minutes from your phone. Here's my order of checks on a rough-weather morning:"
+        "text": "This is the part I wish more visitors knew — you can save a wasted trip in five minutes from your phone. Here's my order of checks on a rough-weather morning:"
       },
       {
         "type": "list",
         "items": [
           "Bureau of Meteorology — check for current severe weather, hazardous surf and rainfall warnings for the Sydney coast.",
           "Waverley Council — the Beaches & coast and Parks & reserves pages, plus Council's social channels, carry the current closure notices for our beaches, ocean pools and the coastal walk.",
-          "NSW Beachwatch — pollution forecasts. After heavy rain, stormwater flushes into the ocean and Beachwatch typically advises against swimming for at least a day, even once the surf settles.",
+          "NSW Beachwatch — pollution forecasts. After heavy rain, stormwater flushes into the ocean and Beachwatch typically advises against swimming for at least a day.",
           "BeachSafe — Surf Life Saving's site shows patrol status and current hazards beach by beach."
         ]
       },
       {
         "type": "localTip",
-        "text": "After a big downpour, give the ocean a full day before you swim — even if the sun's back out and the waves look friendlier. Stormwater runoff pushes bacteria levels up, and Beachwatch's standard advice is to stay out for around 24 hours (longer after really heavy rain). The Bondi you want is the one two days after the storm, not the morning of."
+        "text": "After a big downpour, give the ocean a full day before you swim — even if the sun's back out and the waves look friendlier. Stormwater runoff pushes bacteria levels up, and Beachwatch's standard advice is to stay out for around 24 hours, longer after really heavy rain. The Bondi you want is the one two days after the storm, not the morning of."
       },
       {
         "type": "quickFacts",
@@ -8712,24 +8712,24 @@
       },
       {
         "type": "p",
-        "text": "Honestly, a wild-weather Bondi has its own appeal — as long as you keep your feet dry. I like watching the swell explode over the Icebergs wall from a safe distance up on Notts Avenue, then ducking into a café on Hall Street while it buckets down. Save the coastal walk and the swim for when Council reopens the paths and the flags are back up."
+        "text": "Honestly, a wild-weather Bondi has its own appeal — as long as you keep your feet dry. I like watching the swell explode over the Icebergs wall from up on Notts Avenue, then ducking into a Hall Street café while it buckets down. Save the coastal walk and the swim for when Council reopens the paths and the flags are back up."
       },
       {
         "type": "callout",
         "tone": "note",
-        "title": "The Marks Park path has since reopened",
-        "text": "The section of coastal walk damaged by the April 2024 rock slip below Marks Park was closed for stabilisation and reconstruction, and has since reopened. Even so, Council still closes stretches of the walk after heavy rain as a precaution — so always check current notices before you set out."
+        "title": "Check the coastal walk before you go",
+        "text": "The section below Marks Park damaged by the April 2024 rock slip was fenced off for stabilisation work — check Waverley Council's current notices for its status before you go. Even between incidents, Council closes stretches after heavy rain as a precaution."
       },
       {
         "type": "faq",
         "items": [
           {
             "q": "How do I know if Bondi Beach is closed today?",
-            "a": "Look for the flags and signs at the beach: a red flag means the beach is closed and swimming is prohibited. Before you leave home, check the Bureau of Meteorology for surf and weather warnings and Waverley Council's Beaches & coast page and social channels for current closure notices."
+            "a": "At the beach, a red flag means it's closed and swimming is prohibited. Before you leave home, check the Bureau of Meteorology for surf and weather warnings, and Waverley Council's Beaches & coast page and social channels for closure notices."
           },
           {
             "q": "Is the Bondi to Bronte coastal walk open after a storm?",
-            "a": "Not always. Waverley Council fences off sections of the coastal walk after heavy rain because saturated sandstone cliffs can slip — that's what happened below Marks Park in April 2024. Check Council's Parks & reserves updates before you go, and never step around barricades or fencing."
+            "a": "Not always. Waverley Council fences off sections after heavy rain because saturated sandstone cliffs can slip — that's what happened below Marks Park in April 2024. Check Council's Parks & reserves updates before you go, and never step around barricades."
           },
           {
             "q": "Can I swim at Bondi straight after heavy rain?",
@@ -8737,20 +8737,20 @@
           },
           {
             "q": "Are the ocean pools open during a storm?",
-            "a": "In dangerous surf the ocean pools close, because waves wash straight over the edge and make them unsafe. Check the individual pool or Waverley Council for current status rather than turning up on spec."
+            "a": "In dangerous surf the ocean pools close, because waves wash straight over the edge. Check the individual pool or Waverley Council for status rather than turning up on spec."
           },
           {
             "q": "Where does official Bondi closure information come from?",
-            "a": "Waverley Council manages our beaches, ocean pools, parks and the coastal walk, so their website and social channels are the authoritative source for closures. On the sand, follow the lifeguards, the flags and the posted signs — they always override anything you read online."
+            "a": "Waverley Council manages our beaches, ocean pools, parks and the coastal walk, so their website and social channels are the authoritative source for closures. On the sand, the lifeguards, flags and posted signs always override anything you read online."
           }
         ]
       },
       {
         "type": "p",
-        "text": "Storms pass, and Bondi bounces back quickly. Give the beach a day or two, wait for the flags and the reopening notices, and you'll get the version of this place we all come for. In the meantime, respect every barricade and every red flag — they're there for a reason."
+        "text": "Storms pass, and Bondi bounces back fast. Give it a day or two, wait for the flags and the reopening notices, and you'll get the version of this place we all come for. Until then, respect every barricade and every red flag."
       }
     ],
-    "wordCount": 972,
+    "wordCount": 886,
     "sources": [
       {
         "label": "Waverley Council — Beaches & coast",
@@ -18996,7 +18996,7 @@
       },
       {
         "type": "p",
-        "text": "Come back to Bondi hungry. Campbell Parade and the streets running off it (Hall Street, Gould Street) are thick with cafes, bakeries and juice bars — you won't struggle to find breakfast or an early lunch. Then claim a patch of sand for the hottest part of the day. Crucial safety note: only ever swim between the red-and-yellow flags, where the surf lifesavers are watching. Bondi has rips, and they're the reason the flagged zone exists. If you're unsure of conditions, ask a lifeguard — that's what they're there for."
+        "text": "Come back to Bondi hungry. Campbell Parade and the streets running off it (Hall Street, Gould Street) are thick with cafes, bakeries and juice bars — you won't struggle to find breakfast or an early lunch. Then claim a patch of sand for the hottest part of the day. Crucial safety note: only ever swim between the red-and-yellow flags, where the surf lifesavers are watching. Bondi has rips, so if you're at all unsure of the conditions, ask a lifeguard."
       },
       {
         "type": "callout",
@@ -19039,7 +19039,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi in the evening is unhurried. Watching the sun go down over the water with something cold in hand is, for my money, the best free thing you can do here — a fitting end to a day that started in the same water. If you've still got energy, the bars around Hall Street keep the night going, but most people I bring here are happily worn out by then, in the best possible way."
+        "text": "Bondi in the evening is unhurried. Watching the sun go down over the water with something cold in hand is, for my money, the best free thing you can do here — a fitting end to a day that started in the same water. If you've still got energy, the bars around Hall Street keep the night going, but most people I bring here are happily worn out by then."
       },
       {
         "type": "faq",
@@ -19067,7 +19067,7 @@
         ]
       }
     ],
-    "wordCount": 906,
+    "wordCount": 891,
     "sources": [
       {
         "label": "Waverley Council — Bondi to Bronte Coastal Walk",
@@ -19078,8 +19078,8 @@
         "url": "https://icebergs.com.au/"
       },
       {
-        "label": "Surf Life Saving NSW — Beach Safety",
-        "url": "https://www.surflifesaving.com.au/beachsafe"
+        "label": "Beachsafe — Surf Life Saving Australia",
+        "url": "https://beachsafe.org.au/"
       }
     ],
     "lastReviewed": "2026-08-08",
@@ -20246,7 +20246,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Yes — Airbnb and other short-term rental accommodation (STRA) is legal in Bondi and right across New South Wales, but it comes with real rules, and the one that catches most people out is a 180-day cap. Bondi sits inside the Waverley local government area, which is part of Greater Sydney, so the state's tighter Greater Sydney limits apply here. I get asked about this constantly by would-be hosts and by guests wondering why a listing suddenly went dark for the season, so here's how it actually works."
+        "text": "Yes — Airbnb and other short-term rental accommodation (STRA) is legal in Bondi and right across New South Wales, but it comes with real rules, and the one that catches most people out is a 180-day cap. Bondi sits in the Waverley local government area within Greater Sydney, so the state's tighter Greater Sydney limits apply here. Would-be hosts ask me about it constantly, and guests wonder why a listing suddenly went dark for the season. Here's how it actually works."
       },
       {
         "type": "quickFacts",
@@ -20279,17 +20279,17 @@
       },
       {
         "type": "p",
-        "text": "NSW splits STRA into two categories, and which one you fall into changes the rules dramatically. \"Hosted\" means the host lives on the premises while guests stay — think renting out a spare room while you're home. \"Non-hosted\" means the host isn't there — the classic \"whole place\" Airbnb where you hand over the keys and disappear."
+        "text": "NSW splits STRA into two categories, and which one you fall into changes the rules dramatically. \"Hosted\" means the host lives on the premises while guests stay — renting out a spare room while you're home. \"Non-hosted\" means the host isn't there — the classic \"whole place\" Airbnb where you hand over the keys and disappear."
       },
       {
         "type": "p",
-        "text": "Hosted STRA in Bondi has no annual day limit — you can host as many nights as you like, provided you meet the other requirements. Non-hosted STRA is where the cap bites: in Greater Sydney (which includes Waverley and therefore Bondi), a whole-property listing is limited to a maximum of 180 days per year when the host isn't present."
+        "text": "Hosted STRA in Bondi has no annual day limit — you can host as many nights as you like, provided you meet the other requirements. Non-hosted STRA is where the cap bites: in Greater Sydney (which includes Waverley and therefore Bondi), a whole-property listing is capped at 180 days a year when the host isn't present."
       },
       {
         "type": "callout",
         "tone": "note",
         "title": "How the 180 days are counted",
-        "text": "The count runs over a 12-month registration period, not the calendar year. And here's the part hosts often miss: any single booking of 21 or more consecutive days to the same guest is excluded from the 180-day tally. Long-stay guests — someone between homes, a visiting academic — don't eat into your cap."
+        "text": "The count runs over a 12-month registration period, not the calendar year. And here's the part hosts often miss: any single booking of 21 or more consecutive days to the same guest is excluded from the 180-day tally. Long-stay guests don't eat into your cap."
       },
       {
         "type": "h2",
@@ -20297,7 +20297,7 @@
       },
       {
         "type": "p",
-        "text": "This is the step people skip and later regret. Before you advertise or take a single booking, the property has to be registered on the NSW STRA Register via the NSW Planning Portal. You're issued a property ID that must appear on the online listing — platforms like Airbnb and Stayz expect to see it. Registration also requires you to confirm the dwelling meets fire-safety standards and to agree to the mandatory Code of Conduct."
+        "text": "This is the step people skip and later regret. Before you advertise or take a single booking, the property must be registered on the NSW STRA Register via the NSW Planning Portal. You're issued a property ID that must appear on the listing — platforms like Airbnb and Stayz expect to see it. Registration also requires you to confirm the dwelling meets fire-safety standards and to agree to the mandatory Code of Conduct."
       },
       {
         "type": "list",
@@ -20311,7 +20311,7 @@
       },
       {
         "type": "p",
-        "text": "There are registration and annual renewal fees. Because government fees can change, I won't quote a figure that might be stale by the time you read this — check the current amounts on the Service NSW or NSW Planning Portal pages linked below before you pay."
+        "text": "There are registration and annual renewal fees. Because government fees change, I won't quote a figure that may be stale by the time you read this — check the current amounts on Service NSW or the NSW Planning Portal before you pay."
       },
       {
         "type": "h2",
@@ -20319,11 +20319,11 @@
       },
       {
         "type": "p",
-        "text": "The Code of Conduct sets minimum standards of behaviour for everyone in the market — hosts, guests, platforms and letting agents — and it has teeth. It covers noise, disruptive behaviour and neighbour complaints. Serious or repeated breaches can land a host or guest on an exclusion register, and a \"two strikes\" principle means two serious breaches within two years can trigger a five-year ban from the STRA market. It's not just paperwork; it's genuinely enforced."
+        "text": "The Code of Conduct sets minimum standards for everyone in the market — hosts, guests, platforms and letting agents — and it has teeth. It covers noise, disruptive behaviour and neighbour complaints. Serious or repeated breaches can land a host or guest on an exclusion register, and a \"two strikes\" principle means two serious breaches within two years can trigger a five-year ban from the market. It's genuinely enforced, not just paperwork."
       },
       {
         "type": "localTip",
-        "text": "If your Bondi apartment is in a strata building, check the by-laws before you count on Airbnb income. An owners corporation can pass a by-law prohibiting short-term letting in lots that are NOT the host's principal place of residence. Plenty of beachside blocks here have done exactly that — a valid state registration won't override a lawful strata ban."
+        "text": "If your Bondi apartment is in a strata building, check the by-laws before you count on Airbnb income. An owners corporation can pass a by-law prohibiting short-term letting in lots that are NOT the host's principal place of residence. Plenty of beachside blocks here have done exactly that, and a valid state registration won't override a lawful strata ban."
       },
       {
         "type": "faq",
@@ -20352,10 +20352,10 @@
       },
       {
         "type": "p",
-        "text": "The short version: renting your Bondi place on Airbnb is legal, but treat registration, the 180-day non-hosted cap and your strata by-laws as non-negotiable homework. For the current official detail — fees, the register and any policy updates — go to the NSW Planning Portal and Service NSW rather than a host forum."
+        "text": "The short version: renting your Bondi place on Airbnb is legal, but treat registration, the 180-day non-hosted cap and your strata by-laws as non-negotiable homework. For current fees and any policy updates, go to the NSW Planning Portal and Service NSW rather than a host forum."
       }
     ],
-    "wordCount": 922,
+    "wordCount": 886,
     "sources": [
       {
         "label": "NSW Government — Short-term rental accommodation policy",
@@ -21412,15 +21412,11 @@
       },
       {
         "label": "Bureau of Meteorology — Sydney climate",
-        "url": "http://www.bom.gov.au/nsw/"
+        "url": "https://www.bom.gov.au/nsw/"
       },
       {
         "label": "Sculpture by the Sea — Bondi",
         "url": "https://sculpturebythesea.com/bondi/"
-      },
-      {
-        "label": "City2Surf",
-        "url": "https://city2surf.com.au/"
       }
     ],
     "lastReviewed": "2026-08-08",
@@ -23661,7 +23657,7 @@
       },
       {
         "type": "p",
-        "text": "My first tip is the simplest: come early. Before about 10am the sand is calmer, the light is soft, and you'll find a spot without circling for parking. Bondi is a patrolled surf beach, so always swim between the red-and-yellow flags — that's the stretch the surf lifesavers are watching, and they move it to the safest water each day. The southern end near the point tends to hold a rip, so it's not the spot for a casual dip."
+        "text": "My first tip is the simplest: come early. Before about 10am the sand is calmer, the light is soft, and you'll find a spot without circling for parking. Bondi is a patrolled surf beach, so always swim between the red-and-yellow flags — that's the stretch the lifesavers watch, moved daily to the safest water. The southern end near the point tends to hold a rip, so it's not the spot for a casual dip."
       },
       {
         "type": "callout",
@@ -23744,7 +23740,7 @@
         "items": [
           {
             "q": "How long do I need for a day trip to Bondi?",
-            "a": "A full day is ideal but not essential. From mid-morning to late afternoon you can fit a swim, the Bondi to Bronte walk, lunch and a browse. Arriving by around 9am makes the biggest difference — quieter sand, softer light and easier parking."
+            "a": "A full day is ideal but not essential. From mid-morning to late afternoon you can fit a swim, the Bondi to Bronte walk, lunch and a browse. Arriving by 9am makes the biggest difference — quieter sand, softer light, easier parking."
           },
           {
             "q": "What's the single best thing to do at Bondi in one day?",
@@ -23752,11 +23748,11 @@
           },
           {
             "q": "Is it safe to swim at Bondi Beach?",
-            "a": "Yes, provided you swim between the red-and-yellow flags where the surf lifesavers patrol. Bondi is an open ocean beach with rip currents, so avoid unflagged areas — especially the southern end near the point — and never swim alone or after dark."
+            "a": "Yes, provided you swim between the red-and-yellow flags where the lifesavers patrol. Bondi is an open ocean beach with rip currents, so avoid unflagged areas — especially the southern end — and never swim alone or after dark."
           },
           {
             "q": "How do I get to Bondi Beach by public transport?",
-            "a": "Take a train to Bondi Junction, then a bus down to the beach — the 333 is the frequent route. Tap on and off with a contactless card or Opal, and check the Transport for NSW trip planner at transportnsw.info for current routes and times."
+            "a": "Take a train to Bondi Junction, then a bus down to the beach — the 333 is the frequent route. Tap on with a contactless card or Opal, and check the Transport for NSW trip planner at transportnsw.info for current times."
           },
           {
             "q": "When are the Bondi Markets on?",
@@ -23766,10 +23762,10 @@
       },
       {
         "type": "p",
-        "text": "That's my playbook for a perfect Bondi day: early swim, coastal walk, a good feed and a golden-hour send-off. Do it in that order and you'll leave wondering why you didn't book two days."
+        "text": "That's my playbook for a perfect Bondi day: early swim, coastal walk, a good feed and a golden-hour send-off. Do it in that order and you'll wonder why you didn't book two days."
       }
     ],
-    "wordCount": 1028,
+    "wordCount": 1011,
     "sources": [
       {
         "label": "Bondi to Coogee Coastal Walk — NSW Government",
@@ -25310,7 +25306,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Yes — you can absolutely surf at Bondi, and it's one of the easiest famous waves in the world to paddle out at for the first time. Bondi is a sand-bottom beach break with peaks running the length of the sand, so you'll find gentle, forgiving whitewater for beginners up the northern end and steeper, punchier waves down the south. I've surfed here in every season, and the short version is: North Bondi to learn, south end when you want a bit more shape."
+        "text": "Yes — you can absolutely surf at Bondi, and it's one of the easiest famous waves in the world to learn on. Bondi is a sand-bottom beach break with peaks running the length of the sand, so you'll find gentle, forgiving whitewater for beginners up the northern end and steeper, punchier waves down the south. I've surfed here in every season; the short version is North Bondi to learn, the south end for a bit more shape."
       },
       {
         "type": "quickFacts",
@@ -25343,11 +25339,11 @@
       },
       {
         "type": "p",
-        "text": "Bondi is a single long stretch of sand, but it behaves like several different waves. The northern corner is the most sheltered — it catches less swell and the sand shelves gently, so the waves are smaller and softer. That's why every surf school in Bondi runs its lessons up there, and it's where I'd send anyone on their first few sessions. Head towards the middle and southern end and the beach gets steeper and the waves get more power and shape, which is where the more experienced crowd sits."
+        "text": "Bondi is a single stretch of sand that behaves like several different waves. The northern corner is the most sheltered — it catches less swell and the sand shelves gently, so the waves are smaller and softer, which is why the surf schools run their lessons up there. Head to the middle and southern end and the beach gets steeper and punchier, where the more experienced crowd sits."
       },
       {
         "type": "p",
-        "text": "Being an open beach break, Bondi throws up both left and right-handers depending on how the sandbanks are lying that week. It's fickle — a great bank one month can wash away the next — so don't expect a perfect peeling point. What you get instead is a friendly, accessible wave a short walk from a coffee."
+        "text": "As an open beach break, Bondi throws up both lefts and rights depending on how the sandbanks are lying that week. It's fickle — a great bank one month can wash away the next — so don't expect a perfect peeling point. What you get instead is a friendly, accessible wave a short walk from a coffee."
       },
       {
         "type": "h3",
@@ -25355,7 +25351,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi likes a south to east swell with a light offshore wind blowing out of the west or north-west to hold the waves up. An onshore easterly or a big north-easterly sea breeze tends to make it messy and crumbly. Rather than trust my gut, I check the swell, wind and tide before I leave the house — a rising tide around mid-tide is usually a safe bet. Have a look at a current surf forecast and the Bureau of Meteorology tide times for the day you're planning to paddle out."
+        "text": "Bondi likes a south-to-east swell with a light offshore wind from the west or north-west to hold the waves up; an onshore easterly or a big sea breeze turns it messy and crumbly. I check the swell, wind and tide before I leave the house — a rising mid-tide is usually a safe bet. Have a look at a current surf forecast and the Bureau of Meteorology tide times for the day you're planning to paddle out."
       },
       {
         "type": "h2",
@@ -25363,21 +25359,21 @@
       },
       {
         "type": "p",
-        "text": "If you've never surfed, book a lesson — genuinely. A good instructor will have you standing up in the whitewater in a single session, and they'll teach you how to read rips and hold your board safely, which matters far more than looking cool. Let's Go Surfing is the long-running school based at North Bondi and supplies boards and wetsuits with their lessons; check their website for current session times and prices before you rock up."
+        "text": "If you've never surfed, book a lesson — genuinely. A good instructor will have you standing up in the whitewater in a single session, and they'll teach you to read rips and hold your board safely. Let's Go Surfing is the long-running school based at North Bondi and includes boards and wetsuits with its lessons; check their website for current session times and prices before you go."
       },
       {
         "type": "localTip",
-        "text": "You don't need to own a thing to surf Bondi. There are board-hire shops within a two-minute walk of the sand where you can grab a soft-top and a wetsuit by the hour. Start on a big soft foamie — it floats better, catches waves earlier and won't hurt you (or anyone else) nearly as much as a hard fibreglass board when you inevitably lose it."
+        "text": "You don't need to own a thing to surf Bondi. Board-hire shops a short walk from the sand rent soft-tops and wetsuits by the hour. Start on a big soft foamie — it floats better, catches waves earlier and won't hurt you (or anyone else) as much as a hard board when you lose it."
       },
       {
         "type": "p",
-        "text": "A wetsuit makes the whole thing more fun year-round. Summer water is mild enough for a spring suit or boardies for the hardy, but through winter I wouldn't get in without a full steamer — you'll last a lot longer and actually enjoy it."
+        "text": "A wetsuit makes it more fun year-round — a spring suit is plenty in summer, but through winter I wouldn't get in without a full steamer. You'll last far longer and enjoy it more."
       },
       {
         "type": "callout",
         "tone": "warning",
         "title": "Know the flags before you paddle out",
-        "text": "The red-and-yellow flags mark the patrolled swimming area — that zone is for swimmers only, and surfers and boards must stay well clear of it. Drift between the flags on a board and Bondi's lifesavers will (rightly) have a word. Waverley Council also restricts hard fibreglass boards to the southern part of the beach; always check the current signage and the council's beach rules, as these can change."
+        "text": "The red-and-yellow flags mark the patrolled swimming area — that zone is for swimmers only, so surfers and boards must stay well clear of it. Waverley Council also restricts where hard fibreglass boards are allowed, so check the current signage and the council's beach rules before you go."
       },
       {
         "type": "h2",
@@ -25386,10 +25382,10 @@
       {
         "type": "list",
         "items": [
-          "Learn to spot a rip — the deeper, darker, calmer-looking channels where water flows back out. Beginners should stay in the whitewater and near a surf school or patrol.",
-          "Surf near other people and within the patrol hours if you can; lifesavers are on the sand most days but not around the clock.",
-          "Hold on to your board and always look before you take off or duck-dive so you don't cop — or deliver — a fin to the head.",
-          "Give way to the surfer already up and riding, and don't drop in. Bondi gets crowded and a bit of etiquette keeps it friendly."
+          "Learn to spot a rip — the deeper, darker, calmer-looking channels where water flows back out. Beginners should stay in the whitewater near a surf school or patrol.",
+          "Surf near other people and within patrol hours if you can; lifesavers are on the sand most days but not around the clock.",
+          "Hold on to your board and look before you take off or duck-dive, so you don't cop — or deliver — a fin to the head.",
+          "Give way to the surfer already up and riding, and don't drop in — Bondi gets crowded, and etiquette keeps it friendly."
         ]
       },
       {
@@ -25397,32 +25393,32 @@
         "items": [
           {
             "q": "Can beginners surf at Bondi Beach?",
-            "a": "Yes. The northern end of Bondi is sheltered with smaller, softer waves and gently shelving sand, which makes it one of the best places in Sydney to learn. Book a lesson or hire a soft-top board and stay in the whitewater to start."
+            "a": "Yes. The northern end is sheltered, with smaller, softer waves and gently shelving sand — one of the best places in Sydney to learn. Book a lesson or hire a soft-top and stay in the whitewater to start."
           },
           {
             "q": "Where can you surf at Bondi and where can't you?",
-            "a": "You can surf the middle and southern parts of the beach, and beginners use the north end. You must stay outside the red-and-yellow swimming flags, which are for swimmers only. Waverley Council also confines hard fibreglass boards to the southern breaks — check the signage on the day."
+            "a": "Beginners use the north end and more confident surfers spread through the middle and south. You must stay outside the red-and-yellow swimming flags, which are for swimmers only, and Waverley Council restricts where hard fibreglass boards are allowed — check the signage on the day."
           },
           {
             "q": "When is the surf best at Bondi?",
-            "a": "Bondi works best on a south-to-east swell with a light offshore west or north-west wind, ideally around a rising mid-tide. Onshore easterlies and strong sea breezes make it messy. Check a live surf forecast and the tide times before you go."
+            "a": "Bondi works best on a south-to-east swell with a light offshore west or north-west wind, around a rising mid-tide. Onshore easterlies and strong sea breezes make it messy — check a live surf forecast and the tide times before you go."
           },
           {
             "q": "Do I need my own board and wetsuit?",
-            "a": "No. Board-hire shops a short walk from the sand rent soft-tops and wetsuits by the hour, and surf schools include gear with their lessons, so you can turn up empty-handed."
+            "a": "No. Board-hire shops a short walk from the sand rent soft-tops and wetsuits by the hour, and surf schools include gear with lessons — you can turn up empty-handed."
           },
           {
             "q": "Is the water cold at Bondi?",
-            "a": "It's swimmable year-round but varies with the season — mild in summer and noticeably cooler in winter. A wetsuit makes every session more comfortable, and in winter a full steamer is well worth it."
+            "a": "It's swimmable year-round but varies with the season — mild in summer and noticeably cooler in winter. A wetsuit makes every session more comfortable, and in winter a full steamer is worth it."
           }
         ]
       },
       {
         "type": "p",
-        "text": "That's the beauty of Bondi: whether it's your very first wave in a soft-top or a quick dawn session before work, the ocean's right there and open to everyone. Respect the flags, mind the crowd, check the forecast — and I'll see you out the back."
+        "text": "That's the beauty of Bondi: your first wave in a soft-top or a dawn session before work, the ocean's right there for everyone. Respect the flags, check the forecast, and I'll see you out the back."
       }
     ],
-    "wordCount": 1006,
+    "wordCount": 888,
     "sources": [
       {
         "label": "Waverley Council — Beaches & swimming",

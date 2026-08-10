@@ -58,6 +58,13 @@ const REDIRECTED_PATHS = new Set([
   '/bondi-blog/transport-to-bondi-beach',
   '/bondi-blog/2025/4/29/ultimate-wet-weather-guide-to-bondi-rainy-day-activities-tips',
   '/bondi-blog/2023/11/5/things-to-do-at-bondi-beach-in-the-rain',
+  // Round 3 (see next.config.mjs).
+  '/bondi-blog/2023/11/8/definitive-guide-to-bondis-best-restaurants',
+  '/bondi-blog/2025/4/25/must-experience-bondi-restaurants-our-top-10-best-restaurants-ranked',
+  '/bondi-blog/best-time-to-visit-bondi-beach',
+  '/bondi-blog/2017/4/28/city2surf-time-to-start-training',
+  '/bondi-blog/city-to-surf-training-plan',
+  '/bondi-blog/2024/7/25/help-3-week-city2surf-training-plan',
 ]);
 
 export function generateStaticParams() {

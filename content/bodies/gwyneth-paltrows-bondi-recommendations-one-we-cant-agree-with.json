@@ -4,33 +4,33 @@
   "lastReviewed": "2026-08-08",
   "sources": [
     { "label": "Goop — Icebergs Dining Room and Bar", "url": "https://goop.com/place/australia/sydney/bondi-restaurants/icebergs-dining-room-and-bar/" },
-    { "label": "Goop — Playa by Lucy Folk", "url": "https://goop.com/place/playa-by-lucy-folk" },
+    { "label": "Goop — Mini Guides to Australian Destinations (Sydney)", "url": "https://goop.com/travel/experiences/australia-mini-travel-guides/" },
     { "label": "Surf Life Saving NSW — swim between the flags", "url": "https://www.surflifesaving.com.au/beach-safety" },
     { "label": "Waverley Council — Bondi to Bronte coastal walk", "url": "https://www.waverley.nsw.gov.au/recreation/out_and_about/walks/bondi_to_bronte_coastal_walk" }
   ],
   "blocks": [
-    { "type": "p", "text": "When Gwyneth Paltrow put Bondi on her Goop city guide, most of her picks were spot on — Icebergs for dinner, the coastal walk, Bondi Wash and Playa by Lucy Folk. As a local, I'd happily send a first-timer to every one of them. But there was one line about the beach itself that made me put my flat white down, and it's the reason I can't fully sign off on her guide." },
+    { "type": "p", "text": "When Gwyneth Paltrow put Bondi on her Goop city guide, most of her picks were spot on — Icebergs for dinner, the coastal walk, Bondi Wash and Playa by Lucy Folk. As a local, I'd happily send a first-timer to every one of them. But there was one thing about the beach itself that made me put my flat white down, and it's the reason I can't fully sign off on her guide." },
     { "type": "h2", "text": "The Goop picks I completely agree with" },
-    { "type": "p", "text": "Her recommendations skew toward the stylish, design-conscious side of Bondi, and on that front she nailed it. Here's the short version of what she flagged and why I'd back each one." },
+    { "type": "p", "text": "Her picks skew toward the stylish, design-conscious side of Bondi, and on that front she nailed it. Here's what she flagged and why I'd back each one." },
     { "type": "list", "items": [
-      "Icebergs Dining Room — the clifftop Italian above the famous ocean pool. It's a special-occasion spot with arguably the best view of the beach in Sydney. Book ahead and check the venue directly for current sittings and dress code.",
+      "Icebergs Dining Room — the clifftop Italian above the famous ocean pool. It's a special-occasion spot with arguably the best view of the beach in Sydney. Book ahead and check the venue for current sittings and dress code.",
       "The Bondi to Bronte coastal walk — the sandstone cliff path south from the beach. It's free, spectacular, and the best introduction to this stretch of coast there is.",
       "Bondi Wash — the local, plant-based home and body brand. A genuinely nice, very Bondi thing to take home.",
-      "Playa by Lucy Folk — the jewellery designer's Gould Street boutique, mixing her own pieces with hard-to-find labels."
+      "Playa by Lucy Folk — the jewellery designer's Bondi boutique, mixing her own pieces with hard-to-find labels."
     ] },
-    { "type": "localTip", "text": "Do the Bondi to Bronte walk early — I aim to be on the path by about 8am. You beat the crowds and the heat, the light on the cliffs is gorgeous, and you can reward yourself with breakfast in Bronte or back near the beach afterwards." },
+    { "type": "localTip", "text": "Do the Bondi to Bronte walk early — I aim to be on the path by about 8am. You beat the crowds and the heat, the light on the cliffs is gorgeous, and you can reward yourself with breakfast in Bronte afterwards." },
     { "type": "quickFacts", "items": [
       { "label": "Gwyneth's Bondi picks", "value": "Icebergs, coastal walk, Bondi Wash, Playa by Lucy Folk" },
-      { "label": "The disagreement", "value": "Calling Bondi 'better for sunbathing than swimming'" },
+      { "label": "The disagreement", "value": "Steering dip-seekers to the pool over the ocean itself" },
       { "label": "Coastal walk", "value": "Free, clifftop path — Bondi south to Bronte" },
       { "label": "Golden rule", "value": "Always swim between the red-and-yellow flags" }
     ] },
     { "type": "h2", "text": "The one we can't agree with" },
-    { "type": "p", "text": "Here's the line. Goop suggested that visitors with their minds set on a dip should know Bondi is \"better for sunbathing than swimming.\" As someone who swims here year-round, that's the bit I can't let stand." },
+    { "type": "p", "text": "Here's the sticking point. For anyone whose mind is set on getting wet, the guide leans heavily on the sheltered Icebergs pool — a day pass and some laps — rather than the ocean itself, and the impression it leaves is that Bondi is a place to sunbathe more than to swim. As someone who swims here year-round, that's the bit I can't let stand." },
     { "type": "quote", "text": "Bondi isn't a beach you look at. It's a beach you get in." },
-    { "type": "p", "text": "Bondi is one of Australia's great swimming beaches. Generations of Sydneysiders learned to read the surf here, the Bondi Surf Bathers' Life Saving Club is the oldest in the world, and on any given morning you'll see everyone from nippers to eighty-year-old ocean swimmers in the water. I suspect Gwyneth simply turned up on a big-swell day — Bondi does get punchy surf and rips, and on those days the water genuinely is for the confident only. But that's a specific day, not the beach's character." },
-    { "type": "callout", "tone": "warning", "title": "Swim between the flags", "text": "The one caveat I'll happily agree with is safety. Bondi has rip currents, and the famous Backpackers' Rip sits near the southern end by the walk. Always swim between the red-and-yellow flags, where the lifeguards actively patrol. If you're unsure about conditions, ask a lifeguard — they'd much rather answer a question than run a rescue." },
-    { "type": "p", "text": "And to be fair to Gwyneth, when she skipped the surf she headed to Bondi Icebergs, the ocean pool at the southern end. That's a brilliant call — the pool lets you swim laps in salt water with the waves crashing over the edge, no rip-reading required. So even her workaround was a good one. I just wouldn't want a single choppy afternoon to convince anyone that Bondi is only for lying on a towel." },
+    { "type": "p", "text": "Bondi is one of Australia's great swimming beaches. Generations of Sydneysiders learned to read the surf here, the Bondi Surf Bathers' Life Saving Club is the oldest in the world, and on any given morning you'll see everyone from nippers to eighty-year-old ocean swimmers in the water. I suspect Gwyneth simply caught a big-swell day — Bondi does get punchy surf and rips, and on those days the water is for the confident only. But that's a specific day, not the beach's character." },
+    { "type": "callout", "tone": "warning", "title": "Swim between the flags", "text": "The one caveat I'll happily agree with is safety. Bondi has rip currents, including the famous Backpackers' Rip near the southern end by the walk. Always swim between the red-and-yellow flags, where the lifeguards patrol. If you're unsure, ask a lifeguard — they'd much rather answer a question than run a rescue." },
+    { "type": "p", "text": "And to be fair, when she skipped the surf she headed for the Icebergs pool at the southern end — a brilliant call. It lets you swim laps in salt water with the waves crashing over the edge, no rip-reading required. I just wouldn't want a single choppy afternoon to convince anyone that Bondi is only for lying on a towel." },
     { "type": "h2", "text": "How I'd actually spend a Gwyneth-inspired day" },
     { "type": "itinerary", "stops": [
       { "time": "8:00am", "title": "Coastal walk to Bronte", "detail": "Start early along the cliff path while it's quiet, then loop back." },
@@ -40,7 +40,7 @@
     ] },
     { "type": "faq", "items": [
       { "q": "What did Gwyneth Paltrow recommend in Bondi?", "a": "On Goop, she highlighted dinner at Icebergs Dining Room, the Bondi to Bronte coastal walk, the Bondi Wash store and Playa by Lucy Folk. As a local I'd happily recommend all four." },
-      { "q": "What was the recommendation you disagree with?", "a": "Her suggestion that Bondi is 'better for sunbathing than swimming.' Bondi is one of Australia's iconic swimming beaches; she likely just visited on a big-swell day when the surf was rough." },
+      { "q": "What was the recommendation you disagree with?", "a": "The way the guide nudges anyone wanting a dip toward the sheltered Icebergs pool rather than the ocean, leaving the impression that Bondi is more for sunbathing than swimming. Bondi is one of Australia's iconic swimming beaches; a rough big-swell day can give a misleading first impression." },
       { "q": "Is Bondi Beach actually safe to swim at?", "a": "Yes, when you swim between the red-and-yellow flags where lifeguards patrol. Bondi does have rip currents, including the Backpackers' Rip near the southern end, so the flags matter. If in doubt, ask a lifeguard about conditions." },
       { "q": "Where should I swim if the surf looks rough?", "a": "Head to the Bondi Icebergs ocean pool at the southern end. It's filled with sea water, sheltered from the rips, and you can swim laps while waves break over the edge. Check the Icebergs website for current public swimming times." },
       { "q": "Is the Bondi to Bronte coastal walk free?", "a": "Yes. The clifftop path south from Bondi is free and open to the public. It's one of Sydney's best walks — go early to beat the crowds and the midday sun." }
