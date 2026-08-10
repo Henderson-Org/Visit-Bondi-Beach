@@ -1,47 +1,36 @@
 {
   "path": "/bondi-blog/2025/1/5/catch-the-waves-live-bondi-beach-surf-cam",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-10",
   "sources": [
     { "label": "Swellnet — Bondi live surfcam", "url": "https://www.swellnet.com/surfcams/bondi" },
     { "label": "Surfline — Bondi Beach surf report & cams", "url": "https://www.surfline.com/surf-report/bondi-beach/5842041f4e65fad6a7708bf8" },
     { "label": "Bondi Surf Bathers' Life Saving Club — Bondi Surf Cam", "url": "https://bondisurfclub.com/bondi-surf-cam/" },
     { "label": "North Bondi Surf Life Saving Club — Webcams", "url": "https://northbondisurfclub.com/webcam/" },
-    { "label": "Bureau of Meteorology — Sydney forecast & tides", "url": "http://www.bom.gov.au/nsw/forecasts/sydney.shtml" },
-    { "label": "Surf Life Saving NSW — Beachsafe (Bondi)", "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi/bondi-beach" }
+    { "label": "Surf Life Saving NSW — Beachsafe (Bondi)", "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi/bondi-beach" },
+    { "label": "NSW Heritage — Bondi Surf Bathers' Life Saving Club (est. 1907, world's first)", "url": "https://www.environment.nsw.gov.au/topics/heritage/blue-plaques/establishment-of-the-first-surf-life-saving-club" },
+    { "label": "Wikipedia — North Bondi & Ben Buckler headland", "url": "https://en.wikipedia.org/wiki/North_Bondi" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you just want to see what Bondi is doing right now, the quickest way is a live surf cam — and my go-to is the Swellnet Bondi camera, which streams the beach in real time along with the current swell and wind. I check it most mornings before I decide whether to bring the board, the towel, or just my coffee. Below I'll walk you through the cams I actually trust, what they can (and can't) tell you, and how to read the picture before you head down." },
-    { "type": "quickFacts", "items": [
-      { "label": "Best live cam", "value": "Swellnet Bondi surfcam" },
-      { "label": "Also good", "value": "Surfline, Bondi & North Bondi SLSC" },
-      { "label": "Cost", "value": "Free to view (some replays/HD need a subscription)" },
-      { "label": "Best for", "value": "Surfers, swimmers, crowd-checkers" }
-    ] },
-    { "type": "h2", "text": "The Bondi surf cams I actually use" },
-    { "type": "p", "text": "There's no single \"official\" Bondi cam — a few different feeds point at the beach, and each has its own angle and quirks. These are the ones I keep bookmarked:" },
-    { "type": "li", "text": "Swellnet — my first check. A live HD stream looking across the beach, paired with the current surf report, swell and wind readings. It's the one I'd send a visiting mate." },
-    { "type": "li", "text": "Surfline — another solid live cam bundled with a multi-day forecast for swell, wind and tide. Handy if you're planning a few days ahead." },
-    { "type": "li", "text": "Bondi Surf Bathers' Life Saving Club — a stream from the club at the south end, near the Icebergs corner where the surfers gather." },
-    { "type": "li", "text": "North Bondi Surf Life Saving Club — a free community feed looking over the quieter northern end, which is usually the gentler side for a swim." },
-    { "type": "callout", "tone": "note", "title": "Streams move around", "text": "Cam operators occasionally change hosting, go offline for maintenance, or move a feed behind a subscription. If a link's down, open the club or Swellnet/Surfline homepage and follow their current cam link rather than trusting an old bookmark." },
-    { "type": "h2", "text": "How to read Bondi before you leave home" },
-    { "type": "p", "text": "A surf cam is brilliant for a gut-check, but it flattens the ocean — waves always look smaller on a screen than they feel when you're standing in the shorebreak. Here's how I get more out of the picture:" },
-    { "type": "h3", "text": "For surfers" },
-    { "type": "p", "text": "I watch a few sets roll through rather than judging on a single frame, then cross-check the cam against the swell and wind figures on Swellnet or Surfline. Bondi is exposed to south and east swells, and a light offshore (westerly) wind is what cleans it up. The southern end near the point tends to hold the better banks, but it's also the most crowded." },
-    { "type": "h3", "text": "For swimmers and families" },
-    { "type": "p", "text": "Look for the red-and-yellow flags on the cam — that's the patrolled zone, and it's the only place you should swim. If the water looks churned up or you can spot a darker, calmer channel cutting out through the whitewater, that's often a rip. Patrol hours and current flag positions change with the season, so I confirm them on Surf Life Saving NSW's Beachsafe page rather than eyeballing the screen." },
-    { "type": "localTip", "text": "Cam glare is real. Around sunrise the low sun blows out the eastern-facing feeds, and after dark most of them are useless. Mid-morning gives the clearest read of both the surf and how busy the sand already is." },
-    { "type": "callout", "tone": "warning", "title": "A cam is not a lifeguard", "text": "Never let a calm-looking screen talk you into swimming outside the flags or when the beach isn't patrolled. Conditions at Bondi can change fast, and rips aren't always visible on camera. When in doubt, ask a lifeguard on the sand." },
-    { "type": "h2", "text": "Pair the cam with a forecast" },
-    { "type": "p", "text": "The cam tells you now; a forecast tells you later. Before a dawn patrol I'll glance at the swell and wind outlook on Swellnet or Surfline, and check the Bureau of Meteorology for Sydney weather, wind and tide times. Tide matters more than people expect at Bondi — the same swell can look playful at one stage of the tide and closed-out at another." },
+    { "type": "p", "text": "Most mornings, before I decide whether to bring the board, the towel or just my coffee, I check a live surf cam. Bondi is a roughly one-kilometre crescent that faces south-east, so a single glance at the screen tells me the swell, the wind and how packed the sand already is. Here are the feeds I actually trust and how I read them." },
+    { "type": "h2", "text": "The cams I keep bookmarked" },
+    { "type": "p", "text": "There's no single \"official\" Bondi cam — a handful of feeds point at the beach, each with its own angle:" },
+    { "type": "li", "text": "Swellnet — my first check. A live HD look across the beach paired with the current surf report, swell and wind. It's the one I'd send a visiting mate." },
+    { "type": "li", "text": "Surfline — another solid live cam bundled with a multi-day swell, wind and tide forecast. Handy when you're planning a few days ahead." },
+    { "type": "li", "text": "Bondi Surf Bathers' Life Saving Club — a stream from the club at the south end, above the corner where the surfers gather. It's the world's oldest surf lifesaving club, founded here in 1907." },
+    { "type": "li", "text": "North Bondi Surf Life Saving Club — a free community feed over the northern end, tucked under the Ben Buckler headland and usually the gentler side for a swim." },
+    { "type": "callout", "tone": "note", "title": "Streams move around", "text": "Cam operators occasionally change hosting, drop offline for maintenance, or move a feed behind a subscription. If a link's dead, open the club or Swellnet/Surfline homepage and follow their current cam link rather than trusting an old bookmark." },
+    { "type": "h2", "text": "Reading the picture before you leave" },
+    { "type": "p", "text": "A cam is a brilliant gut-check, but it flattens the ocean — waves always look smaller on a screen than they feel in the shorebreak. What I look for:" },
+    { "type": "li", "text": "Watch a few sets roll through, not one frame, then cross-check against the swell and wind numbers. Bondi picks up south and east swell, and a light offshore westerly is what cleans it up." },
+    { "type": "li", "text": "The southern end near the point holds the better banks but draws the biggest crowd; the north end under Ben Buckler is the calmer choice for a straightforward swim." },
+    { "type": "li", "text": "Find the red-and-yellow flags on the cam — that patrolled strip is the only place you should swim. A darker, calmer channel cutting seaward through the whitewater is often a rip." },
+    { "type": "localTip", "text": "Glare is real. Around sunrise the low sun blows out the east-facing feeds, and after dark most are useless. Mid-morning gives the clearest read of both the surf and the crowd." },
+    { "type": "callout", "tone": "warning", "title": "A cam is not a lifeguard", "text": "Never let a calm-looking screen talk you into swimming outside the flags or when the beach isn't patrolled. Conditions change fast and rips don't always show on camera. Confirm current patrol times and safety alerts on Surf Life Saving NSW's Beachsafe page, and ask a lifeguard on the sand if you're unsure." },
     { "type": "faq", "items": [
-      { "q": "Where can I watch a live Bondi Beach surf cam?", "a": "The most reliable free live feeds are the Swellnet and Surfline Bondi cams, plus community streams from the Bondi Surf Bathers' Life Saving Club and North Bondi Surf Life Saving Club. Each looks at a slightly different part of the beach." },
-      { "q": "Is the Bondi surf cam free to watch?", "a": "Viewing the live streams is generally free. Some platforms put HD, replays or detailed long-range forecasts behind a paid subscription, but you don't need to pay just to check current conditions." },
-      { "q": "Does the surf cam show how crowded the beach is?", "a": "Yes — that's one of the best uses. A quick look tells you roughly how packed the sand and the car parks are, which is gold on a hot summer weekend or a public holiday." },
-      { "q": "Can I rely on the cam to decide it's safe to swim?", "a": "No. Use it as a first look, but always swim between the red-and-yellow flags during patrol hours, and check current patrol times and safety alerts on Surf Life Saving NSW's Beachsafe page. A camera can't spot every rip." },
-      { "q": "What's the best time of day to check the cam?", "a": "Mid-morning gives the clearest image. Early sunrise light can wash out the eastern-facing cameras, and after dark most Bondi feeds are too dim to read." }
-    ] },
-    { "type": "p", "text": "So bookmark a cam or two, learn to read the sets, and back it up with a forecast — then you'll know whether today's a board day, a swim day, or a stay-in-bed day before you leave the house. See you in the water." }
+      { "q": "Where can I watch a live Bondi Beach surf cam?", "a": "The most reliable free live feeds are the Swellnet and Surfline Bondi cams, plus community streams from the Bondi Surf Bathers' Life Saving Club (south end) and North Bondi Surf Life Saving Club. Each looks at a slightly different stretch of the beach." },
+      { "q": "Is the Bondi surf cam free to watch?", "a": "Watching the live streams is generally free. Some platforms put HD, replays or long-range forecasts behind a paid subscription, but you don't need to pay just to check current conditions." },
+      { "q": "Can I rely on the cam to decide it's safe to swim?", "a": "No. Use it as a first look, then always swim between the red-and-yellow flags during patrol hours and check current patrol times on Surf Life Saving NSW's Beachsafe page. A camera can't spot every rip." }
+    ] }
   ]
 }

@@ -1,65 +1,44 @@
 {
   "path": "/bondi-blog/bondi-rescue-who-are-the-lifeguards",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-10",
   "sources": [
     { "label": "Wikipedia — Bondi Rescue", "url": "https://en.wikipedia.org/wiki/Bondi_Rescue" },
+    { "label": "Wikipedia — Bruce Hopkins (surf lifesaver)", "url": "https://en.wikipedia.org/wiki/Bruce_Hopkins_(surf_lifesaver)" },
+    { "label": "Cordell Jigsaw (CJZ) — Bondi Rescue", "url": "https://cjz.com.au/shows/bondi-rescue/" },
     { "label": "Network 10 — Bondi Rescue", "url": "https://10.com.au/bondi-rescue" },
-    { "label": "Bondi Lifeguards (official Instagram)", "url": "https://www.instagram.com/bondilifeguards/" },
     { "label": "New Idea — Bondi Rescue rested in 2025, expected to return", "url": "https://www.newidea.com.au/entertainment/bondi-rescue-returning/" },
-    { "label": "Waverley Council — Bondi Beach lifeguards", "url": "https://www.waverley.nsw.gov.au/" }
+    { "label": "Science of the Surf — the 'Backpackers Express' rip, Bondi", "url": "https://www.scienceofthesurf.com/rip-of-the-month-2009/june-2009-backpackersbondi" }
   ],
   "blocks": [
-    { "type": "p", "text": "The lifeguards you know from Bondi Rescue are real professional lifeguards employed by Waverley Council, not actors — the same crew in blue and yellow who patrol Bondi Beach every day of the year. The TV show made them household names, but their day job is keeping one of the world's busiest beaches safe. Here's who the best-known lifeguards are, some facts about the show, and how to see the team in action. The roster changes over the seasons, so I keep this updated as things shift." },
-    { "type": "quickFacts", "items": [
-      { "label": "On screen since", "value": "2006 (Network 10)" },
-      { "label": "Head lifeguard", "value": "Bruce ‘Hoppo’ Hopkins" },
-      { "label": "They work for", "value": "Waverley Council" },
-      { "label": "Where to find them", "value": "The Bondi lifeguard tower" }
-    ] },
-    { "type": "callout", "tone": "note", "title": "A note I keep current", "text": "Lifeguard line-ups rotate and some faces move on, so treat the bios below as the well-known regulars rather than a live roster. I last reviewed this in August 2026." },
+    { "type": "p", "text": "The crew you know from Bondi Rescue are real professional lifeguards employed by Waverley Council — not actors, and not the volunteer surf lifesavers in the red-and-yellow caps. They're the same team in blue and yellow you'll see working the sand any day of the year. The show made them famous; the day job is keeping one of the world's busiest beaches safe. Rosters rotate season to season, so I treat the bios below as the well-known regulars rather than a live line-up." },
 
-    { "type": "h2", "text": "What is Bondi Rescue?" },
-    { "type": "p", "text": "Bondi Rescue is the documentary series that follows the Waverley Council lifeguards through the Australian summer. It first aired in 2006 on Network 10, is made by production company CJZ, and has run for around 18 seasons — one of Australia's longest-running and most-exported factual shows, screening in dozens of countries. It was rested in 2025 (no new season that year) and, according to its producers, is expected to return, with filming subject to arrangements with Waverley Council. Either way, the lifeguards themselves keep patrolling Bondi." },
-
-    { "type": "h2", "text": "The Bondi lifeguards you'll recognise" },
+    { "type": "h2", "text": "The lifeguards you'll recognise" },
     { "type": "h3", "text": "Bruce ‘Hoppo’ Hopkins — head lifeguard" },
-    { "type": "p", "text": "Hoppo is the head lifeguard and the show's steady centre of gravity. He's been part of the Bondi lifeguard service since the early 1990s, and on screen he's the calm, experienced voice coordinating the team through busy days and serious rescues. If there's one name people associate with Bondi Rescue, it's his." },
+    { "type": "p", "text": "Hoppo is the show's steady centre of gravity. He joined the Bondi lifeguard service in 1991 and was appointed head lifeguard in 2000, and on screen he's the calm, experienced voice coordinating the team through the busy days and the serious rescues. If one name is fused to Bondi Rescue, it's his." },
     { "type": "h3", "text": "Anthony ‘Harries’ Carroll" },
-    { "type": "p", "text": "Harries is one of the show's most recognisable and charismatic lifeguards — high-energy, endlessly committed on a rescue, and known for his fundraising and community antics off the sand. He's one of the longest-serving faces of the team." },
+    { "type": "p", "text": "One of the most recognisable and charismatic faces of the team — high-energy, relentless on a rescue, and known for his fundraising and community antics off the sand. He's among the longest-serving lifeguards on the show." },
     { "type": "h3", "text": "Andrew ‘Reidy’ Reid" },
-    { "type": "p", "text": "Reidy is a seasoned member of the crew, known on the show for his humour and his fitness, with a strong social-media following. He's one of the regulars viewers have followed across many seasons." },
+    { "type": "p", "text": "A seasoned member of the crew known for his humour, his fitness and a big social-media following — one of the regulars viewers have followed across many seasons." },
     { "type": "h3", "text": "Trent ‘Maxi’ Maxwell" },
-    { "type": "p", "text": "Maxi came through as one of the younger lifeguards and became a fan favourite. He's also widely known for working as a firefighter — splitting his time between saving lives on the beach and in the city." },
-    { "type": "h3", "text": "Dean ‘Deano’ Gladstone" },
-    { "type": "p", "text": "Deano is another long-serving member of the team who's featured across many seasons of the show." },
-    { "type": "p", "text": "Plenty of other lifeguards have featured over the years — you'll hear nicknames like Jesse, Chappo, Whippet, Yatesy, Mouse and Kobi among them. Because the team rotates season to season, I focus above on the best-known regulars rather than trying to list everyone currently rostered." },
+    { "type": "p", "text": "Maxi came through as one of the younger lifeguards and became a fan favourite. He's also widely known for working as a firefighter, splitting his time between saving lives on the beach and in the city." },
+    { "type": "p", "text": "Plenty of others have featured over the years — you'll hear nicknames like Deano, Jesse, Chappo, Whippet, Yatesy, Mouse and Kobi. Because the team rotates, I focus on the best-known regulars rather than trying to list everyone currently rostered." },
 
-    { "type": "h2", "text": "Interesting facts about Bondi Rescue" },
-    { "type": "list", "items": [
-      "The lifeguards are real Waverley Council employees — professional, paid lifeguards, not actors and not the same thing as the volunteer surf lifesavers in the red-and-yellow caps.",
-      "Bondi is one of the most rescue-heavy beaches in Australia, largely thanks to a notorious rip at the south end nicknamed the ‘Backpackers' Express’.",
-      "The show is filmed across the Australian summer, when Bondi's crowds — and the number of rescues — peak.",
-      "Bondi Rescue has been sold to dozens of countries, making Bondi's lifeguards internationally famous.",
-      "For the full run-down, see our companion pieces on [20 obscure facts about Bondi Rescue](/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue) and [the most dramatic moments on the show](/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue)."
-    ] },
+    { "type": "h2", "text": "About the show" },
+    { "type": "p", "text": "Bondi Rescue is a documentary series, not scripted drama — the rescues are real. It first aired on Network 10 on 15 February 2006, is made by Sydney production company Cordell Jigsaw (CJZ), and has run for around 18 seasons, making it one of Australia's longest-running and most-exported factual shows. It was rested in 2025 with no new season that year and, its producers say, is expected to return, subject to arrangements with Waverley Council. Either way, the lifeguards keep patrolling." },
+    { "type": "p", "text": "Much of the drama comes from one stretch of water: the notorious rip at the southern end, nicknamed the ‘Backpackers Express’ for the hostels above that end of the beach and the steady stream of visitors it catches. It's a big reason Bondi is one of the most rescue-heavy beaches in the country. For more, see our companion pieces on [20 obscure facts about Bondi Rescue](/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue) and [the most dramatic moments on the show](/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue)." },
 
-    { "type": "h2", "text": "Key moments from the show" },
-    { "type": "p", "text": "Across its seasons Bondi Rescue has captured everything from huge multi-swimmer rescues on wild-surf days to tense resuscitations, shark alarms clearing the water, and the occasional celebrity spotting on the sand. Rather than rank them here, I've pulled the standouts together in a dedicated guide — see [the 20 most dramatic moments on Bondi Rescue](/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue)." },
-
-    { "type": "h2", "text": "Can you meet the Bondi lifeguards?" },
-    { "type": "p", "text": "Yes — the lifeguards are on Bondi Beach every day, based around the lifeguard tower towards the south end near the flags. You'll often see the Bondi Rescue crew there in season. A few things I'd keep in mind: they're working, and their first job is watching the water, so give them space during busy periods and never interrupt a rescue for a photo. Swim between the red-and-yellow flags and you're in the patch they're actively watching. The team also has official merchandise and an active social presence if you want to follow along." },
-
-    { "type": "callout", "tone": "warning", "title": "Swim between the flags", "text": "The best way to respect the lifeguards' work is simple: always swim between the red-and-yellow flags, where they've judged it safest and are watching. See our guide to [where to swim at Bondi](/where-to-swim-at-bondi-beach) for the safest spots." },
+    { "type": "h2", "text": "Seeing the team at Bondi" },
+    { "type": "p", "text": "The lifeguards are on the beach every day, based around the lifeguard tower towards the southern end near the flags, and you'll often spot the Bondi Rescue crew there in season. Keep in mind they're working — their first job is watching the water — so give them room on busy days and never interrupt a rescue for a photo. The simplest way to respect (and benefit from) their work is to swim between the red-and-yellow flags, where they've judged it safest and are actively watching." },
+    { "type": "callout", "tone": "warning", "title": "Swim between the flags", "text": "Set up and swim inside the red-and-yellow flags — the patch the lifeguards have chosen and are watching. Our guide to [where to swim at Bondi](/where-to-swim-at-bondi-beach) covers the safest spots and how to spot a rip." },
 
     { "type": "faq", "items": [
-      { "q": "Are the Bondi Rescue lifeguards real?", "a": "Yes. They're real professional lifeguards employed by Waverley Council who patrol Bondi Beach year-round. The show is a documentary series, not scripted drama, and the rescues are real." },
-      { "q": "Who is the head lifeguard at Bondi?", "a": "Bruce ‘Hoppo’ Hopkins is the long-serving head lifeguard and the most recognisable figure from the show, part of the Bondi service since the early 1990s." },
-      { "q": "Is Bondi Rescue still on?", "a": "The show was rested in 2025 with no new season that year, but its producers have said it's expected to return, subject to arrangements with Waverley Council. The lifeguards continue to patrol Bondi regardless." },
-      { "q": "Are Bondi lifeguards the same as surf lifesavers?", "a": "No. The Bondi Rescue lifeguards are paid, professional council lifeguards. Volunteer surf lifesavers (in the red-and-yellow caps) are a separate service that also patrols, typically on weekends and public holidays." },
-      { "q": "Can I meet the Bondi Rescue lifeguards?", "a": "You can usually see the team around the lifeguard tower on Bondi Beach in season. Be respectful — they're working and watching the water — and never interrupt a rescue." }
+      { "q": "Are the Bondi Rescue lifeguards real?", "a": "Yes. They're professional lifeguards employed by Waverley Council who patrol Bondi year-round. The show is a documentary and the rescues are real." },
+      { "q": "Who is the head lifeguard at Bondi?", "a": "Bruce ‘Hoppo’ Hopkins. He joined the Bondi lifeguard service in 1991 and was appointed head lifeguard in 2000, and he's the most recognisable figure on the show." },
+      { "q": "Is Bondi Rescue still on?", "a": "It was rested in 2025 with no new season that year, but its producers say it's expected to return, subject to arrangements with Waverley Council. The lifeguards continue to patrol regardless." },
+      { "q": "Are Bondi lifeguards the same as surf lifesavers?", "a": "No. The Bondi Rescue lifeguards are paid council professionals. The volunteer surf lifesavers in the red-and-yellow caps are a separate service that also patrols, typically on weekends and public holidays." }
     ] },
 
-    { "type": "p", "text": "However you know them — from the tower or the TV — Bondi's lifeguards are a huge part of what makes the beach what it is. For more, see the [Bondi Rescue hub](/bondi-rescue), our guide to [where to swim safely at Bondi](/where-to-swim-at-bondi-beach), and the rest of [things to do in Bondi](/things-to-do-in-bondi)." }
+    { "type": "p", "text": "However you know them — from the tower or the TV — Bondi's lifeguards are a huge part of what makes the beach what it is. For more, see the [Bondi Rescue hub](/bondi-rescue) and the rest of [things to do in Bondi](/things-to-do-in-bondi)." }
   ]
 }

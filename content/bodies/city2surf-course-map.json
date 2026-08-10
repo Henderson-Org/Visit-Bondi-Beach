@@ -1,34 +1,38 @@
 {
   "path": "/bondi-blog/2024/4/1/city2surf-course-map",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-10",
   "sources": [
-    { "label": "Voltaren City2Surf — official course map & route", "url": "https://city2surf.com.au/" }
+    { "label": "Voltaren City2Surf — official course map & route", "url": "https://city2surf.com.au/" },
+    { "label": "City2Surf (Sydney) — history, course & Heartbreak Hill", "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)" },
+    { "label": "Men's Health Australia — City2Surf course elevation & Heartbreak Hill", "url": "https://menshealth.com.au/how-to-conquer-the-city2surf-according-to-an-expert/" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you're trying to picture the City2Surf course before race day, here's the route the way I'd talk you through it as a local — section by section, from the city start to the Bondi finish. For the official downloadable map with water stations and split points, head to city2surf.com.au; what follows is the lay of the land." },
+    { "type": "p", "text": "Here's the City2Surf route the way I'd walk you through it as a local — from the CBD start to the Bondi finish, with the one climb everyone worries about put in its place. For the official downloadable map with water stations and split points, head to city2surf.com.au; what follows is the lay of the land so it isn't all a surprise on the day." },
     { "type": "quickFacts", "items": [
-      { "label": "Distance", "value": "14 km" },
+      { "label": "Distance", "value": "~14 km (13.9 km)" },
       { "label": "Start", "value": "Park & College St, Sydney CBD" },
       { "label": "Finish", "value": "Queen Elizabeth Dr, Bondi" },
-      { "label": "Big climb", "value": "Heartbreak Hill (~2 km)" }
+      { "label": "Total climb", "value": "~221 m elevation gain" },
+      { "label": "Big climb", "value": "Heartbreak Hill (~2 km, from ~6 km in)" }
     ] },
     { "type": "h2", "text": "The course, section by section" },
     { "type": "list", "items": [
-      "Start — near Hyde Park, at Park and College Streets in the CBD, then a fast downhill along William Street.",
+      "Start — beside Hyde Park at Park and College Streets, then a fast downhill along William Street.",
       "Kings Cross — through the tunnel and out toward the harbour; this early stretch is quick, so don't get carried away.",
       "Rose Bay — along New South Head Road beside the water. Enjoy it, because the hill is next.",
-      "Heartbreak Hill — an approximately 2 km climb from Rose Bay up to Vaucluse. This is the halfway point and the toughest part of the day.",
+      "Heartbreak Hill — a roughly 2 km climb up New South Head Road from Rose Bay to Vaucluse, starting about 6 km in. It sits around halfway and it's the toughest part of the day.",
       "Vaucluse to the coast — onto Old South Head Road and Military Road, with a few short sharp pinches before a rewarding downhill and big ocean views.",
       "Bondi finish — a turnaround near Curlewis Street and roughly a final kilometre of flat switchback to the line on Queen Elizabeth Drive above the beach."
     ] },
-    { "type": "callout", "tone": "note", "title": "Reading the profile", "text": "The first few kilometres are net downhill and deceptively fast. The climbing is concentrated in the middle around Heartbreak Hill — and there are more little rises after it — so plan your effort to peak through the hills, not before them." },
-    { "type": "h2", "text": "Best spots to watch or push hard" },
-    { "type": "p", "text": "Rose Bay and the foot of Heartbreak Hill are my favourite places to spectate — the crowd support there genuinely carries runners up the climb. If you're racing, treat the top of the hill at Vaucluse as your cue to reassess your pace, and remember the sneaky final switchback at Bondi before you spend everything." },
+    { "type": "callout", "tone": "note", "title": "Reading the profile", "text": "The course gains about 221 m overall, but it isn't spread evenly. The first few kilometres are net downhill and deceptively fast; the climbing bunches up in the middle at Heartbreak Hill (roughly 75 m of it), and there are more little rises afterward. Plan your effort to peak through the hills, not before them." },
+    { "type": "h2", "text": "Best spots to watch — or push hard" },
+    { "type": "p", "text": "Rose Bay and the foot of Heartbreak Hill are my favourite places to spectate; the crowd support there genuinely carries runners up the climb. If you're racing, treat the crest at Vaucluse as your cue to reassess your pace, and save something for that sneaky final switchback at Bondi before you spend everything." },
+    { "type": "localTip", "text": "The City2Surf has run since 5 September 1971 — Sydney's oldest big fun run, inspired by San Francisco's Bay to Breakers. That first year drew fewer than 1,600 starters; these days the road from the CBD to Bondi fills with tens of thousands, so if you're spectating, pick your corner early." },
     { "type": "faq", "items": [
       { "q": "Where can I get the official City2Surf course map?", "a": "From the official site, city2surf.com.au, which publishes the current downloadable map with water stations, drink stations and split points." },
-      { "q": "Where does the City2Surf start and finish?", "a": "It starts near Hyde Park in the Sydney CBD (Park and College Streets) and finishes on Queen Elizabeth Drive above Bondi Beach, 14 km later." },
-      { "q": "How much of the course is uphill?", "a": "The signature climb is Heartbreak Hill, about 2 km from Rose Bay to Vaucluse near halfway, but there are also several shorter rises afterward before the downhill to Bondi." }
+      { "q": "Where does the City2Surf start and finish?", "a": "It starts beside Hyde Park in the Sydney CBD (Park and College Streets) and finishes on Queen Elizabeth Drive above Bondi Beach, close to 14 km later." },
+      { "q": "How hard is Heartbreak Hill?", "a": "It's a roughly 2 km climb along New South Head Road from Rose Bay up to Vaucluse, beginning about 6 km into the race and gaining around 75 m. It's the steepest sustained section, but there are also several shorter rises after it before the downhill run to Bondi." }
     ] }
   ]
 }

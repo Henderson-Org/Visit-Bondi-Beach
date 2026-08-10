@@ -1,55 +1,46 @@
 {
   "path": "/bondi-blog/2025/6/18/how-to-train-for-heartbreak-hill-without-being-a-fitness-freak",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-10",
   "sources": [
     { "label": "City2Surf — Course Info (Wilson Sports)", "url": "https://city2surf.com.au/event-info/course-info/" },
+    { "label": "City2Surf (Sydney) — Wikipedia", "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)" },
+    { "label": "Heartbreak Hill (City2Surf Course) — Great Runs", "url": "https://greatruns.com/heartbreak-hill-city2surf-course/" },
     { "label": "Waverley Council — Bondi to Bronte coastal walk", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/bondi_to_bronte_coastal_walk" }
   ],
   "blocks": [
-    { "type": "p", "text": "Here's my honest answer to the question everyone asks before their first City2Surf: no, you don't need to be a fitness freak to beat Heartbreak Hill — just a handful of weeks of steady, unglamorous practice on gentle hills. It's a long grind rather than a wall, but a little prep turns dread into a shrug." },
-    { "type": "p", "text": "I've walked, jogged and occasionally staggered up that hill more times than I'd like to admit, and I've watched plenty of first-timers who \"hadn't run since school\" reach the top grinning. The trick isn't speed — it's showing up a few times a week and letting your legs get used to going uphill." },
-    { "type": "h2", "text": "First, what Heartbreak Hill actually is" },
-    { "type": "p", "text": "Heartbreak Hill is the roughly 2km climb along New South Head Road between Rose Bay and Vaucluse, around the halfway mark of the 14km City2Surf course that runs from the city out to Bondi Beach. It climbs steadily at a gentle-to-moderate average gradient — it earns its name from length, not steepness. The upside for us mortals: once you're over the top, the back half trends downhill toward the coast." },
+    { "type": "p", "text": "No, you don't need to be a fitness freak to beat Heartbreak Hill. A handful of weeks of steady, unglamorous practice on gentle slopes is enough. It's a long grind rather than a wall, and the honest secret is turning up a few times a week and letting your legs get used to going uphill. I've watched plenty of first-timers who \"hadn't run since school\" reach the top grinning." },
+    { "type": "h2", "text": "What Heartbreak Hill actually is" },
+    { "type": "p", "text": "Heartbreak Hill is the roughly 2km climb along New South Head Road between Rose Bay and Vaucluse, beginning around the 6km mark of the 14km City2Surf course that runs from the CBD out to Bondi Beach. It rises about 75 metres at an average gradient of only 3–4 per cent, so it earns its name from length, not steepness. Push through and you're rewarded with harbour views — and the reassuring truth that the back half trends downhill toward the coast." },
+    { "type": "p", "text": "It's a rite of passage with real history: the race has run since 1971, when staff at Sydney's Sun newspaper borrowed the idea from San Francisco's Bay to Breakers. Tens of thousands tackle this same hill every August, and most of them are not athletes." },
     { "type": "quickFacts", "items": [
-      { "label": "The hill", "value": "~2km, Rose Bay to Vaucluse" },
-      { "label": "Where on course", "value": "Around halfway of the 14km" },
-      { "label": "Character", "value": "Long and steady, not a sprint wall" },
+      { "label": "The climb", "value": "~2km, Rose Bay to Vaucluse" },
+      { "label": "Elevation gain", "value": "About 75m, avg 3–4% gradient" },
+      { "label": "Where on course", "value": "From roughly the 6km mark of 14km" },
       { "label": "You need", "value": "A few weeks of easy hill practice" }
     ] },
-    { "type": "h2", "text": "A relaxed way to prepare (no gym required)" },
-    { "type": "p", "text": "You don't need a rigid program. What works is repetition on small hills, time on your feet, and a couple of simple strength moves — stretch or shorten it to fit your weeks before race day. Step-ups in particular mimic exactly what a climb asks of you." },
-    { "type": "h3", "text": "1. Build the habit" },
-    { "type": "p", "text": "For the first couple of weeks, forget hills and just move four or five days a week. Walk-jog intervals work well: jog 30 seconds, walk 90, repeat for 20–30 minutes. The goal is just to make moving normal again." },
-    { "type": "h3", "text": "2. Add gentle hills" },
-    { "type": "p", "text": "Once that feels easy, find a hill that takes one to two minutes to climb and go up it four to six times, strolling down to recover. Do this once or twice a week — it's the most useful thing you can do, because hills get easier fast when you practise them." },
-    { "type": "h3", "text": "3. Stretch out one longer session" },
-    { "type": "p", "text": "Keep one weekend walk-jog that slowly grows — 4km, then 6km, then 8km — ideally over undulating ground. You're teaching your body to be comfortable on its feet for a couple of hours, which is what a fun run really is." },
-    { "type": "h3", "text": "4. A tiny strength set, twice a week" },
+    { "type": "h2", "text": "How to prepare, no gym required" },
+    { "type": "p", "text": "Forget rigid programs. Repetition on small hills plus time on your feet does almost all the work. Stretch or shorten this to fit the weeks you have:" },
     { "type": "list", "items": [
-      "10 squats",
-      "10 lunges per leg",
-      "10 step-ups per leg on a park bench or stair",
-      "A 20–30 second plank"
+      "Build the habit. For a week or two, just move four or five days a week — walk-jog intervals work well: jog 30 seconds, walk 90, repeat for 20–30 minutes.",
+      "Add gentle hills. Find a rise that takes one to two minutes to climb and go up it four to six times, strolling down to recover, once or twice a week. This is the single most useful thing you can do.",
+      "Grow one longer session. Keep a weekend walk-jog that slowly builds — 4km, then 6km, then 8km — ideally over undulating ground.",
+      "A tiny strength set twice a week: 10 squats, 10 lunges per leg, 10 step-ups per leg on a bench or stair, and a 20–30 second plank. Step-ups in particular mimic exactly what a climb asks of you."
     ] },
-    { "type": "localTip", "text": "Train on terrain that isn't boring and you'll actually turn up. The Bondi to Bronte coastal walk has stairs and rises with an ocean view, and Centennial Park's rolling paths suit long walk-jogs. To rehearse the real thing, jog the Rose Bay to Vaucluse climb once before race day." },
-    { "type": "callout", "tone": "note", "title": "Check the official details before you commit", "text": "Entry dates, prices, start-group waves and the exact course change year to year. Confirm this year's specifics on the official City2Surf website rather than trusting a number you read anywhere, including here." },
-    { "type": "callout", "tone": "warning", "title": "A quick sensible caveat", "text": "This is general encouragement from a local, not medical advice. If you're new to exercise, carrying an injury, or have any heart or health concerns, chat with your GP before you start training." },
-    { "type": "h2", "text": "Race-day tactics for the hill" },
+    { "type": "localTip", "text": "Train somewhere that isn't boring and you'll actually turn up. The Bondi to Bronte coastal walk has stairs and rises with an ocean view; Centennial Park's rolling paths suit long walk-jogs. And if you can, jog the real Rose Bay to Vaucluse climb once before race day — rehearsing it kills the fear." },
+    { "type": "h2", "text": "On the day" },
     { "type": "list", "items": [
-      "Start slower than feels natural — the hill arrives around the middle of the course, so don't burn your matches early.",
-      "Walk it if you want — it's a fun run, and brisk walking uphill is barely slower than a labouring jog.",
-      "Shorten your stride, keep your steps quick, and let your arms swing — small steps beat big heavy ones.",
-      "Look up the road, not at your feet, and soak up the crowd. The atmosphere genuinely carries you."
+      "Start slower than feels natural. The hill arrives mid-course, so don't burn your matches in the first few kilometres.",
+      "Walk it if you want. Brisk walking uphill is barely slower than a labouring jog, and it's a fun run, not a race.",
+      "Shorten your stride and keep your steps quick — small, light steps beat big heavy ones on a long climb.",
+      "Look up the road, not at your feet, and soak up the crowd. On this hill the atmosphere genuinely carries you."
     ] },
-    { "type": "quote", "text": "You're stronger than you think — the hill is long, but almost nobody around you is really racing it." },
+    { "type": "callout", "tone": "warning", "title": "One sensible caveat", "text": "This is encouragement from a local, not medical advice. If you're new to exercise, carrying an injury, or have any heart or health concerns, have a chat with your GP before you start training." },
     { "type": "faq", "items": [
-      { "q": "How hard is Heartbreak Hill really?", "a": "More tiring than terrifying. The gradient is gentle-to-moderate; what makes it tough is that it runs around 2km, mid-course, when your legs are already warm. Pace yourself early and plenty of first-timers walk it happily." },
-      { "q": "Can I walk City2Surf and still finish?", "a": "Absolutely. Plenty of people walk part or all of it, and the back half trends downhill toward Bondi. Just keep moving." },
-      { "q": "How long do I need to train?", "a": "If you can already walk comfortably for an hour, a few weeks of walk-jogs plus a short hill session or two each week makes a real difference. Consistency beats any single long session." },
-      { "q": "Where can I practise hills near Bondi?", "a": "The Bondi to Bronte coastal walk has stairs and rises with a view, Centennial Park offers rolling terrain, and the Rose Bay to Vaucluse climb lets you rehearse the real hill." },
-      { "q": "Where do I find this year's entry and course details?", "a": "Check the official City2Surf website for the current year's date, entry fees, start groups and course map — those details shift year to year." }
+      { "q": "How hard is Heartbreak Hill really?", "a": "More tiring than terrifying. At an average 3–4% gradient it's gentle underfoot; what makes it tough is the roughly 2km length arriving mid-course, when your legs are already warm. Pace yourself early and plenty of first-timers walk it happily." },
+      { "q": "How long do I need to train?", "a": "If you can already walk comfortably for an hour, a few weeks of walk-jogs plus a short hill session or two each week makes a real difference. Consistency beats any single long effort." },
+      { "q": "Where do I find this year's entry and course details?", "a": "Entry dates, prices and start-group waves change year to year, so confirm the current details on the official City2Surf website rather than trusting a number you read anywhere — including here." }
     ] },
-    { "type": "p", "text": "So no, you don't have to be a fitness fanatic. Put in a few weeks of easy practice, start race day slower than your ego wants, and let the crowd and the downhill carry you home to Bondi. See you at the finish." }
+    { "type": "p", "text": "So put in a few easy weeks, start race day slower than your ego wants, and let the crowd and the downhill carry you home to Bondi. See you at the finish." }
   ]
 }
