@@ -99,6 +99,15 @@
     ]
   },
   {
+    "name": "Hannibal Restaurant (Hannibal Middle Eastern Bar and Grill), Glebe",
+    "status": "moved-out-of-area",
+    "note": "Hannibal Lebanese Restaurant, Bondi",
+    "sources": [
+      "https://www.yelp.com/biz/hannibal-lebanese-restaurant-bondi",
+      "https://hannibalrestaurant.com.au/overview/"
+    ]
+  },
+  {
     "name": "Coffee Bondi Beach",
     "status": "permanently-closed",
     "note": "",
@@ -114,6 +123,15 @@
     "sources": [
       "https://www.agfg.com.au/restaurants/sydney/bondi-beach/mediterranean-cuisine",
       "https://www.opentable.com.au/cuisine/best-mediterranean-restaurants-sydney-bondi-beach"
+    ]
+  },
+  {
+    "name": "Bondi Liquor Co",
+    "status": "moved-out-of-area",
+    "note": "65A McLachlan Avenue, Darlinghurst, NSW 2010",
+    "sources": [
+      "https://www.broadsheet.com.au/sydney/bondi/bars/bondi-liquor-co",
+      "https://bondiliquor.com.au/"
     ]
   },
   {
@@ -330,6 +348,42 @@
     "sources": [
       "https://www.timeout.com/sydney/restaurants/mikeys-pizza",
       "https://www.instagram.com/mikeyspizzabondi/p/C-EmK-8TOo3/"
+    ]
+  },
+  {
+    "name": "Cento Per Cento Italian",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://restaurantguru.com/Cento-Per-Cento-Italian-Bondi-Beach",
+      "https://www.yelp.com/biz/cento-per-cento-bondi-beach"
+    ]
+  },
+  {
+    "name": "The Bucket List",
+    "status": "permanently-closed",
+    "note": "Bucket List Bondi",
+    "sources": [
+      "https://www.thebucketlistbondi.com/",
+      "https://foursquare.com/v/the-bucket-list/4ef55955f9ab42ef30396450"
+    ]
+  },
+  {
+    "name": "Side Room",
+    "status": "permanently-closed",
+    "note": "Side Room by Fishbowl",
+    "sources": [
+      "https://restaurantguru.com/Side-Room-Bondi-Beach",
+      "https://www.ubereats.com/au/store/side-room-by-fishbowl-bondi/s_8jdexNQJWn-4di9C8klg"
+    ]
+  },
+  {
+    "name": "Good One Cafe",
+    "status": "permanently-closed",
+    "note": "Good One (Good One Bondi Beach)",
+    "sources": [
+      "https://concreteplayground.com/sydney/restaurants/good-one-cafe",
+      "https://www.broadsheet.com.au/sydney/food-and-drink/article/bondi-beach-scores-good-one"
     ]
   }
 ]

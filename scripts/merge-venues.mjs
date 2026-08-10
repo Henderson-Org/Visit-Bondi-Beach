@@ -71,6 +71,15 @@ for (const v of raw) {
     excluded.push({ name, status, note: v.formerName || '', sources: arr(v.sources).slice(0, 2) });
     continue;
   }
+  // A venue that MOVED out of the Bondi area (e.g. Hannibal → Glebe) is no longer a Bondi
+  // venue — exclude it rather than show it as local. In-scope addresses carry a Bondi
+  // suburb or the 2026/2022 postcodes; anything else after a move is out of area.
+  const addrStr = `${clean(v.address) || ''} ${clean(v.street) || ''}`.toLowerCase();
+  const inArea = !addrStr.trim() || /bondi|tamarama|\b202[26]\b/.test(addrStr);
+  if ((status === 'moved' || status === 'renamed') && !inArea) {
+    excluded.push({ name, status: 'moved-out-of-area', note: v.formerName || clean(v.address) || '', sources: arr(v.sources).slice(0, 2) });
+    continue;
+  }
   // Normalise renamed/moved to 'open' for display (they are open); keep formerName for the record.
   const displayStatus = status === 'renamed' || status === 'moved' ? 'open' : status;
   const id = clean(v.slug) ? slug(v.slug) : slug(name);
@@ -136,6 +145,36 @@ for (const rec of kept.values()) {
   if (!winner.formerName && loser.formerName) winner.formerName = loser.formerName;
   winner.sources = [...new Set([...(winner.sources || []), ...(loser.sources || [])])].slice(0, 8);
   byName.set(nk, winner);
+}
+
+// Third-pass de-dup by website domain: two listings that share a single-venue website
+// are the same place under different names (e.g. "Society Pizza e Pesce" vs "Society Pizza
+// Bar"). Domains that legitimately host several DISTINCT venues (hospitality groups,
+// multi-outlet complexes) are allowlisted so their venues are kept separate.
+const MULTI_VENUE_DOMAINS = new Set([
+  'merivale.com',            // Totti's, The Royal, …
+  'theharrysfamily.com.au',  // Harry's, Lulu, …
+  'promenadebondibeach.com', // Promenade restaurant, Beach Bar, Kiosk
+  'shuk.com.au',             // Shuk cafe, Shuk by the Beach, Shuk Bakery (distinct addresses)
+]);
+const domainOf = (u) => {
+  try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return null; }
+};
+const byDomain = new Map();
+for (const rec of byName.values()) {
+  const d = rec.website ? domainOf(rec.website) : null;
+  if (!d || MULTI_VENUE_DOMAINS.has(d)) continue;
+  const prev = byDomain.get(d);
+  if (!prev) { byDomain.set(d, rec); continue; }
+  const better =
+    (rankC[rec.confidence] || 0) - (rankC[prev.confidence] || 0) ||
+    (rec.score ?? 0) - (prev.score ?? 0);
+  const winner = better >= 0 ? rec : prev;
+  const loser = better >= 0 ? prev : rec;
+  if (!winner.formerName && loser.name !== winner.name) winner.formerName = loser.name;
+  winner.sources = [...new Set([...(winner.sources || []), ...(loser.sources || [])])].slice(0, 8);
+  byName.delete(nameKey(loser));
+  byDomain.set(d, winner);
 }
 
 const out = [...byName.values()].sort((a, b) => (b.score ?? 0) - (a.score ?? 0) || a.name.localeCompare(b.name));
