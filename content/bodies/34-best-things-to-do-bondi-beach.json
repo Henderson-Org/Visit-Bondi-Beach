@@ -6,11 +6,11 @@
     { "label": "Waverley Council", "url": "https://www.waverley.nsw.gov.au/" },
     { "label": "Bondi Markets", "url": "https://www.bondimarkets.com.au/" },
     { "label": "Bondi Pavilion (Waverley Council)", "url": "https://www.waverley.nsw.gov.au/recreation/bondi_pavilion" },
-    { "label": "Surf Life Saving NSW — Beachsafe", "url": "https://beachsafe.org.au/beach/nsw/waverley/north-bondi/bondi-beach" },
+    { "label": "Surf Life Saving Australia — Beachsafe", "url": "https://beachsafe.org.au/" },
     { "label": "Transport for NSW", "url": "https://transportnsw.info/" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you only have a day in Bondi and want the honest local shortlist, here it is: swim between the flags, walk the coastal path to Bronte, and eat your way along Campbell Parade. That trio is the heart of the place — but there's a lot more, so I've pulled together 34 of my favourite things to do in Bondi, from the obvious icons to the corners most visitors walk straight past." },
+    { "type": "p", "text": "If you only have a day in Bondi and want the honest local shortlist, here it is: swim between the flags, walk the coastal path to Bronte, and eat your way along Campbell Parade. That trio is the heart of the place, but there's a lot more — 34 of my favourite things to do in Bondi, from the obvious icons to the corners most visitors walk straight past." },
     { "type": "quickFacts", "items": [
       { "label": "Where", "value": "Bondi Beach, Waverley, Sydney" },
       { "label": "Best for", "value": "Swimming, walking, eating, people-watching" },
@@ -18,7 +18,7 @@
       { "label": "Cost", "value": "Most of this list is free" }
     ] },
     { "type": "h2", "text": "The big three you can't skip" },
-    { "type": "p", "text": "Start with the water. Bondi is a patrolled beach, and the single most important rule I give anyone is to swim between the red-and-yellow flags — the surf here has rips, and the flags mark where the lifeguards want you. If the ocean's too wild, the Bondi Icebergs ocean pool at the south end is the postcard shot for a reason, and there's a free tidal pool at the north end too." },
+    { "type": "p", "text": "Start with the water. Bondi is patrolled, and the most important rule I give anyone is to swim between the red-and-yellow flags — the surf here has rips, and the flags mark where the lifeguards want you. If the ocean's too wild, the Bondi Icebergs ocean pool at the south end is the postcard shot for a reason, and there's a free tidal pool at the north end too." },
     { "type": "list", "items": [
       "Swim between the flags on the main beach",
       "Do the Bondi to Bronte coastal walk (around 2.5km of clifftop path)",
@@ -26,10 +26,10 @@
       "Cool off in the Icebergs ocean pool or the free north-end pool",
       "Walk the full promenade and take in the ever-changing street art on the sea wall"
     ] },
-    { "type": "localTip", "text": "Do the coastal walk early — before about 8am in summer — and you'll have the clifftops, the light and the Icebergs pool almost to yourself before the crowds and the parking headaches arrive." },
-    { "type": "callout", "tone": "warning", "title": "Respect the surf", "text": "Bondi's rips are real and they catch strong swimmers out. Always check conditions and swim between the flags — you can read the current beach report on Surf Life Saving's Beachsafe before you go in." },
+    { "type": "localTip", "text": "Do the coastal walk early — before about 8am in summer — and you'll have the clifftops and the light almost to yourself, well before the crowds and parking headaches arrive." },
+    { "type": "callout", "tone": "warning", "title": "Respect the surf", "text": "Bondi's rips are real and they catch strong swimmers out. Always check conditions and swim between the flags — read the current beach report on Surf Life Saving's Beachsafe first." },
     { "type": "h2", "text": "Culture, markets and green space" },
-    { "type": "p", "text": "Bondi isn't only sand. The Bondi Pavilion, right on the beach, reopened after a big restoration and now runs exhibitions, workshops and live performance — check the Waverley Council programme for what's on. On weekends the Bondi Markets take over Bondi Beach Public School on Campbell Parade: the Sunday market leans into fashion, art and vintage, and there's a Saturday farmers' market for produce and good coffee. Confirm current days and hours on the Bondi Markets site before you plan around them." },
+    { "type": "p", "text": "Bondi isn't only sand. The Bondi Pavilion, right on the beach, reopened after a big restoration and now runs exhibitions, workshops and live performance — check the Waverley Council programme for what's on. On weekends the Bondi Markets take over Bondi Beach Public School on Campbell Parade: the Sunday market leans into fashion, art and vintage, with a Saturday farmers' market for produce and coffee. Confirm current days and hours on the Bondi Markets site first." },
     { "type": "list", "items": [
       "Browse the weekend Bondi Markets at Bondi Beach Public School",
       "Catch an exhibition or workshop at the Bondi Pavilion",
@@ -46,7 +46,7 @@
       { "time": "Afternoon", "title": "Pavilion + pool", "detail": "See what's on at the Pavilion and finish with a dip at the Icebergs pool." }
     ] },
     { "type": "h2", "text": "Where I eat, drink and watch the world go by" },
-    { "type": "p", "text": "Half the fun of Bondi is grazing. Messina does some of Sydney's best gelato, the North Bondi RSL serves an honest meal with a genuinely million-dollar view, and there are enough cafés, pubs and rooftop bars around Hall Street and the north end to keep you busy for days. And never underestimate the free entertainment: find a bench on the promenade and just people-watch — Bondi delivers an eclectic parade like nowhere else in Sydney." },
+    { "type": "p", "text": "Half the fun of Bondi is grazing. Messina does some of Sydney's best gelato, the North Bondi RSL serves an honest meal with a genuinely million-dollar view, and there are enough cafés, pubs and rooftop bars around Hall Street to keep you busy for days. And never underestimate the free entertainment: grab a promenade bench and people-watch — Bondi delivers a parade like nowhere else in Sydney." },
     { "type": "list", "items": [
       "Grab gelato from Messina",
       "Eat with a view at North Bondi RSL",
@@ -58,12 +58,12 @@
       "Catch summer extras like the open-air cinema when they're on"
     ] },
     { "type": "faq", "items": [
-      { "q": "What are the best free things to do in Bondi?", "a": "Most of Bondi's best is free: swimming between the flags, the Bondi to Bronte coastal walk, the promenade and sea-wall street art, Bondi Park, Waverley Cemetery, browsing the weekend markets, and people-watching. You only need money for food, drinks, classes and tours." },
-      { "q": "How long should I spend at Bondi Beach?", "a": "A half-day covers the essentials — a swim, the coastal walk and lunch. But if you want to add the markets, the Pavilion, a surf lesson and a long dinner, give yourself a full day or more." },
-      { "q": "Is Bondi Beach safe for swimming?", "a": "It's patrolled and lifeguarded, but it does have rips. Always swim between the red-and-yellow flags and check the current conditions on Surf Life Saving's Beachsafe report. If the surf's too big, use the ocean pools instead." },
-      { "q": "How do I get to Bondi Beach without a car?", "a": "The simplest way is to take the train to Bondi Junction and then a bus down to the beach. Parking near the sand is limited and slow on weekends, so public transport is usually easier — check Transport for NSW for current routes and times." },
-      { "q": "When can I see whales at Bondi?", "a": "Whale migration off Sydney runs roughly from May to November. Boats depart from Sydney Harbour, but you can sometimes spot whales from the clifftops on the coastal walk during those months." }
+      { "q": "What are the best free things to do in Bondi?", "a": "Most of Bondi's best is free: swimming between the flags, the coastal walk to Bronte, the promenade and sea-wall art, Bondi Park, Waverley Cemetery, the weekend markets, and people-watching. You only pay for food, drinks, classes and tours." },
+      { "q": "How long should I spend at Bondi Beach?", "a": "A half-day covers the essentials — a swim, the coastal walk and lunch. To add the markets, the Pavilion, a surf lesson and a long dinner, give yourself a full day or more." },
+      { "q": "Is Bondi Beach safe for swimming?", "a": "It's patrolled and lifeguarded but does have rips. Swim between the red-and-yellow flags, check conditions on Surf Life Saving's Beachsafe, and if the surf's too big, use the ocean pools." },
+      { "q": "How do I get to Bondi Beach without a car?", "a": "The simplest way is the train to Bondi Junction, then a bus to the beach. Parking near the sand is limited and slow on weekends, so public transport is usually easier — check Transport for NSW for routes and times." },
+      { "q": "When can I see whales at Bondi?", "a": "Whale migration off Sydney runs roughly from May to November. Boats depart from Sydney Harbour, and you can sometimes spot whales from the clifftops in season." }
     ] },
-    { "type": "p", "text": "That's my Bondi in a nutshell — swim, walk, eat, repeat, with a bit of art and a lot of people-watching in between. Pick a few from this list, leave room to wander, and you'll soon find your own favourite corner of the beach." }
+    { "type": "p", "text": "That's my Bondi in a nutshell — swim, walk, eat, repeat, with art and people-watching in between. Pick a few from this list, leave room to wander, and you'll find your own favourite corner of the beach." }
   ]
 }

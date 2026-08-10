@@ -9,7 +9,7 @@
   ],
   "blocks": [
     { "type": "p", "text": "Every spring my favourite stretch of coastline quietly turns into the world's largest free outdoor gallery, and 2025 is no different: Sculpture by the Sea returns to the Bondi-to-Tamarama coastal walk, with around 100 works by Australian and international artists set against the cliffs, the swell and that impossibly blue horizon. Entry is free, the sculptures sit right along the public path, and you don't need a ticket to wander in — just good shoes and a bit of patience with the crowds." },
-    { "type": "p", "text": "I've walked this exhibition more times than I can count, and it never gets old. One minute you're reading the ocean, the next you round a headland and there's a giant steel form, a mirrored orb or something delightfully absurd perched on the rocks. Below is everything I'd want a first-timer to know before they set off." },
+    { "type": "p", "text": "I've walked this exhibition more times than I can count, and it never gets old. One minute you're reading the swell, the next you round a headland and meet a giant steel form or a mirrored orb perched on the rocks. Below is what I'd want a first-timer to know before setting off." },
     { "type": "quickFacts", "items": [
       { "label": "Where", "value": "Bondi Beach to Tamarama coastal walk" },
       { "label": "When", "value": "Mid-to-late October into early November 2025" },
@@ -33,7 +33,7 @@
     ] },
     { "type": "callout", "tone": "warning", "title": "Stay on the path", "text": "The coastal walk runs along genuine clifftops with unfenced drops in places, and it gets shoulder-to-shoulder busy. Keep children close, don't climb on the sculptures, and take extra care near the edges when you stop for photos." },
     { "type": "h2", "text": "Why it's worth the effort" },
-    { "type": "p", "text": "What began decades ago as a modest, volunteer-run, one-day show has grown into the largest free outdoor sculpture exhibition in the world, now in its late-twenties as an annual Bondi fixture. For me the magic is in the pairing: ambitious contemporary art and one of the most beautiful walks in Sydney, with the works changing character as the light and tide shift around them. You could see it in twenty minutes; I'd argue it deserves an afternoon." },
+    { "type": "p", "text": "What began decades ago as a modest, volunteer-run, one-day show has grown into the largest free outdoor sculpture exhibition in the world, and a fixture of the Sydney spring calendar. For me the magic is in the pairing: ambitious contemporary art and one of the most beautiful walks in Sydney, with the works changing character as the light and tide shift around them. You could see it in twenty minutes; I'd argue it deserves an afternoon." },
     { "type": "faq", "items": [
       { "q": "Is Sculpture by the Sea at Bondi free?", "a": "Yes. It's free to walk the exhibition along the Bondi-to-Tamarama coastal path. There's no ticket to see the outdoor sculptures — some optional extras and indoor components may have their own arrangements, listed on the official site." },
       { "q": "When is Sculpture by the Sea 2025?", "a": "The 2025 Bondi exhibition ran for around three weeks from the second half of October into early November. Dates change every year, so confirm the current year's dates on sculpturebythesea.com before you go." },
@@ -41,6 +41,6 @@
       { "q": "What's the best time to visit to avoid crowds?", "a": "Weekday mornings, or early and late in the day. Sunny weekends are by far the busiest, and the softer morning and evening light is also much kinder for photos." },
       { "q": "Can I drive and park nearby?", "a": "I wouldn't. Parking around Bondi and Tamarama is limited and tightly restricted during the event. Public transport to Bondi is much easier — check Transport for NSW for current routes and timetables." }
     ] },
-    { "type": "p", "text": "Whichever end you start from, take your time. Sculpture by the Sea is one of those rare events where the setting is as much a part of the show as the art — and it's right here on our doorstep, for free, once a year. I'll see you on the cliffs." }
+    { "type": "p", "text": "Whichever end you start from, take your time. Sculpture by the Sea is one of those rare events where the setting is as much a part of the show as the art — and it's right here on our doorstep, for free. I'll see you on the cliffs." }
   ]
 }
