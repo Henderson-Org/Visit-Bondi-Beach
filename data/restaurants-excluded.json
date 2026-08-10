@@ -151,5 +151,32 @@
       "https://themitchellbondi.com.au/north-bondi-food/north-bondi-food/ (inaccessible — HTTP 403 / Cloudflare DNS Error 1000)",
       "https://www.bing.com/search?q=%22Bondi+Tony%27s+Burger+Joint%22 (no matching listing)"
     ]
+  },
+  {
+    "name": "A Tavola",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://concreteplayground.com/sydney/restaurants/a-tavola-bondi",
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d5486998-Reviews-Flour_Eggs_Water_A_Tavola_Bondi_Beach-Bondi_Greater_Sydney_New_South_Wales.html"
+    ]
+  },
+  {
+    "name": "The Italian",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.broadsheet.com.au/sydney/food-and-drink/article/coming-soon-chaco-ramen-opening-bondi-later-year",
+      "https://www.corner.inc/place/113151"
+    ]
+  },
+  {
+    "name": "Chouchou",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.timeout.com/sydney/restaurants/chouchou",
+      "https://www.broadsheet.com.au/sydney/restaurants/chouchou"
+    ]
   }
 ]
