@@ -1,0 +1,39 @@
+{
+  "path": "/bondi-blog/2025/4/2/bondi-icebergs-closed-due-to-destructive-waves",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "BBC News — Massive swells smash windows at Sydney's Bondi Beach", "url": "https://www.bbc.com/news/videos/c787dl8r19ro" },
+    { "label": "Bondi Icebergs Club (official site)", "url": "https://icebergs.com.au/" },
+    { "label": "Bureau of Meteorology — NSW coastal warnings", "url": "http://www.bom.gov.au/nsw/warnings/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you turned up at the Icebergs pool in early April 2025 and found the gates locked, here's what happened: an enormous overnight swell smashed into the pool on the night of 1 April, tearing through glass fencing and railings and forcing the club to close the ocean pool for repairs, with a reopening flagged for 18 April. It was one of the rare times in living memory that Bondi's most famous pool has had to shut its gates completely." },
+    { "type": "p", "text": "I've watched the Icebergs take a battering from big southerly swells more winters than I can count, but this one was different. The pool sits right on the rocks at the southern end of the beach, deliberately built so the surf washes over it — that's the whole magic of swimming there. On this occasion, though, the sea won." },
+    { "type": "h2", "text": "What actually happened" },
+    { "type": "p", "text": "A deep low off the coast lined up with a king tide, and the two together drove a swell that reached far higher than the pool deck. Waves surged over the terrace, shattered a long run of glass fencing near the change rooms, buckled steel railings and even punched up into the lifeguard tower that stands well above the water. Club staff described furniture and fittings being thrown around inside. General manager Bob Tate, quoted widely in the news coverage at the time, said he'd never seen anything like it." },
+    { "type": "callout", "tone": "note", "title": "This was a one-off event", "text": "This article documents a specific storm from April 2025. The pool has long since been repaired and reopened. It is a working, world-famous ocean pool again — this page is here for the history and context, not a current closure notice." },
+    { "type": "quickFacts", "items": [
+      { "label": "What", "value": "Storm damage to Bondi Icebergs ocean pool" },
+      { "label": "When", "value": "Overnight, 1 April 2025" },
+      { "label": "Cause", "value": "Large coastal swell coinciding with a king tide" },
+      { "label": "Reopening", "value": "Flagged for 18 April 2025" },
+      { "label": "Status now", "value": "Repaired and reopened" }
+    ] },
+    { "type": "h2", "text": "Why the Icebergs is so exposed" },
+    { "type": "p", "text": "People are often surprised that a nearly century-old pool sits somewhere the ocean can reach it like this. But that exposure is the point. The Bondi Icebergs Club has been swimming here since 1929, and the pool was carved into the rock platform precisely so the Pacific spills straight into it. On a calm day it's the most photographed swimming pool in the country. On a wild day, the same walls that make it beautiful take the full force of the swell." },
+    { "type": "p", "text": "Closures are genuinely rare. The club will shut the pool when the surf is dangerous, but a full multi-week closure for structural repairs is the sort of thing that happens once in a couple of decades, not once a season. That's what made this event newsworthy well beyond Bondi." },
+    { "type": "localTip", "text": "Even in normal conditions, check the swell before you plan an Icebergs swim. When there's a big southerly running, the club often closes the pool for safety and the water goes churny and cold. A calmer, smaller-swell morning gives you that glassy, turquoise pool everyone comes for." },
+    { "type": "callout", "tone": "warning", "title": "Session times change — always check first", "text": "Opening hours, lap-swim sessions, public access and pool-closure days at the Icebergs shift with maintenance, weather and club events. Don't rely on a number in an old blog post — check the official Icebergs website before you go." },
+    { "type": "h2", "text": "Can I still swim there?" },
+    { "type": "p", "text": "Yes. The damage from April 2025 was repaired and the pool returned to normal operation, so on any ordinary day you can pay the entry fee and swim in the same iconic pool. Just remember it's a working club pool, not a council facility — it closes on certain days for cleaning and lap squads, and it will always close when the surf is unsafe. For current entry prices and session times, go straight to the source rather than trusting cached figures online." },
+    { "type": "faq", "items": [
+      { "q": "Is Bondi Icebergs still closed?", "a": "No. The closure covered in this article was a specific event from April 2025, after a large overnight swell damaged the pool. It was repaired and reopened, and operates normally today. For live opening hours and any short-term closures, check the official Icebergs website." },
+      { "q": "What caused the Icebergs pool to close in April 2025?", "a": "A powerful coastal swell overnight on 1 April 2025, coinciding with a very high tide, washed over the pool deck and damaged glass fencing, railings and parts of the club building. The club closed the pool for repairs, with reopening flagged for 18 April." },
+      { "q": "How often does the Icebergs pool close?", "a": "Short safety closures during big surf are fairly common — the pool sits on the rocks where the ocean washes in. But a full multi-week closure for structural repairs, like the one in April 2025, is very rare and happens only once in many years." },
+      { "q": "Can visitors swim in the Bondi Icebergs pool?", "a": "Yes. It's open to the public for a small entry fee on most days, though it's a private club pool that closes on certain days for maintenance and squad training, and whenever the surf is dangerous. Check the official Icebergs site for the current schedule and prices before you head down." },
+      { "q": "How old is the Bondi Icebergs pool?", "a": "The Bondi Icebergs Club was founded in 1929, so the ocean pool and its winter-swimming tradition go back close to a century — which is part of why the storm damage drew so much attention." }
+    ] },
+    { "type": "p", "text": "If you ask me, the fact that the Icebergs keeps taking hits like this and keeps coming back is exactly why locals love it. It's not a sanitised resort pool tucked safely inland — it's a piece of Bondi that lives and breathes with the ocean, storms and all. Come for a swim on a clear morning and you'll understand why we're so protective of it." }
+  ]
+}

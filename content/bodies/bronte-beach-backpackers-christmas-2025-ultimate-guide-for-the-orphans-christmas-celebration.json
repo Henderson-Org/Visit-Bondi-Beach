@@ -3,30 +3,28 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Waverley Council — A plan for managing the impacts of Christmas Day at Bronte", "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/12_8_managing_the_impacts_of_christmas_day_at_bronte" },
-    { "label": "Waverley Council — Safety concerns over Christmas at Bronte gathering", "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/safety_concerns_over_christmas_at_bronte_gathering" },
-    { "label": "Waverley Council — Bronte spared from usual 'Backpacker Christmas' chaos", "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/bronte-xmas-update" },
-    { "label": "Waverley Council — Alcohol Prohibited Areas", "url": "https://haveyoursay.waverley.nsw.gov.au/trial-alcohol-prohibited-areas" },
+    { "label": "Waverley Council", "url": "https://www.waverley.nsw.gov.au" },
+    { "label": "Waverley Council — Have Your Say", "url": "https://haveyoursay.waverley.nsw.gov.au" },
     { "label": "Transport for NSW — trip planner", "url": "https://transportnsw.info" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you're a traveller a long way from home wondering where to spend Christmas Day in Sydney, here's the honest local answer for 2025: the old \"Backpackers' Christmas\" free-for-all at Bronte is not what it used to be. Waverley Council heavily managed the day, half of Bronte Park was fenced off for the new surf club build, and most of the backpacker crowd ended up down the coast at Coogee instead. I still love Bronte on Christmas morning — but you need to go in knowing the rules." },
+    { "type": "p", "text": "If you're a traveller a long way from home wondering where to spend Christmas Day in Sydney, here's the honest local answer for 2025: the old \"Backpackers' Christmas\" free-for-all at Bronte isn't what it used to be. Waverley Council has leaned hard into managing the day, sections of Bronte Park are fenced off for the new surf club build, and both the beach and the park are alcohol-prohibited. I still love Bronte on Christmas morning — but go in knowing the rules." },
     { "type": "quickFacts", "items": [
       { "label": "When", "value": "Christmas Day, Thursday 25 December 2025" },
       { "label": "Where", "value": "Bronte Beach & Bronte Park, Eastern Suburbs" },
       { "label": "Alcohol", "value": "Prohibited on the beach & in the park" },
-      { "label": "Glass", "value": "Banned — confiscated at checkpoints" },
+      { "label": "Glass", "value": "Not permitted on the beach" },
       { "label": "Cost", "value": "Free to visit" }
     ] },
     { "type": "h2", "text": "What the \"Orphan's Christmas\" actually is" },
-    { "type": "p", "text": "For years, Bronte has been the unofficial home of what travellers call \"Orphan's Christmas\" or \"Backpackers' Christmas\" — thousands of mostly young international visitors, far from family, gathering on the grass and sand to share a picnic and a swim on 25 December. It was never an organised, ticketed event. It grew organically because a summer Christmas on a Sydney beach is genuinely magical when you've never had one before." },
-    { "type": "p", "text": "The catch is scale. On Christmas Day 2024 the crowd swelled past an estimated 15,000 people, and the aftermath — mountains of rubbish, broken glass, blocked laneways — left residents and Council rattled. That's the backdrop to everything that changed in 2025." },
+    { "type": "p", "text": "For years, Bronte has been the unofficial home of what travellers call \"Orphan's Christmas\" or \"Backpackers' Christmas\" — mostly young international visitors, far from family, gathering on the grass and sand to share a picnic and a swim on 25 December. It was never an organised, ticketed event — a summer Christmas on a Sydney beach is simply magical when you've never had one before." },
+    { "type": "p", "text": "The catch is scale. In past years the crowd has swelled into the many thousands, and the aftermath — piles of rubbish, broken glass, blocked laneways — left residents and Council rattled." },
     { "type": "h2", "text": "What changed for Christmas 2025" },
-    { "type": "p", "text": "Two big things reshaped the day. First, roughly half of Bronte Park was off limits behind temporary fencing while the new Bronte Surf Club is built, leaving only narrow channels to move through — a serious crowd-safety problem for a gathering that size. Second, Waverley Council adopted a firm management plan: extra police and crowd-control officers, alcohol checkpoints, a strict glass ban, and a zero-tolerance line on anti-social behaviour. Alcohol and glass were confiscated where found." },
-    { "type": "callout", "tone": "warning", "title": "Bronte Beach and Bronte Park are alcohol-prohibited", "text": "Both the beach and the park are Alcohol Prohibited Areas, and on Christmas Day these were actively enforced with checkpoints. Turning up with a slab or a bottle of bubbles means having it taken off you. If drinking is central to your plans, Bronte is not the spot — and please don't bring glass anywhere near the sand." },
-    { "type": "p", "text": "The upshot, according to Council's own update, was that the traditional backpacker party largely didn't materialise at Bronte in 2025 — the crowds heeded the warnings and gathered at Coogee Beach instead. So if your mates are telling you \"everyone goes to Bronte,\" that advice is now out of date." },
+    { "type": "p", "text": "Two things reshaped the day. First, sections of Bronte Park have been fenced off while the new Bronte Surf Club is built, narrowing the space a big crowd has to move through — a real safety concern for a gathering that size. Second, Waverley Council has taken a firm line: alcohol-prohibited areas, a glass ban, and closer attention from police and crowd-control officers. Council publishes its Christmas Day plan for Bronte on its website — check there for this year's specifics." },
+    { "type": "callout", "tone": "warning", "title": "Bronte Beach and Bronte Park are alcohol-prohibited", "text": "Both the beach and the park are alcohol-prohibited areas, and on a day like Christmas you can expect that to be actively enforced. Turning up with a slab or a bottle of bubbles risks having it taken off you. If drinking is central to your plans, Bronte is not the spot — and please don't bring glass anywhere near the sand." },
+    { "type": "p", "text": "Council has openly urged people to stay away from Bronte on Christmas Day, and in some years the crowd has drifted to other beaches like Coogee instead. Where everyone ends up shifts from year to year, so if your mates insist \"everyone goes to Bronte,\" treat that as out of date and check the current word." },
     { "type": "h2", "text": "How to enjoy Bronte on Christmas Day the right way" },
-    { "type": "p", "text": "None of this means you can't have a beautiful Christmas at Bronte — it means doing it as a considerate visitor rather than a party-goer. This is a residential neighbourhood, and the locals who share the beach with you the other 364 days deserve a calm morning." },
+    { "type": "p", "text": "None of this means you can't have a beautiful Christmas at Bronte — it just means going as a considerate visitor rather than a party-goer. This is a residential neighbourhood, and the locals deserve a calm morning." },
     { "type": "list", "items": [
       "Come early for a swim and picnic breakfast, then move on before space gets tight.",
       "Bring reusable plates, cups and cutlery, and pack out everything you bring in — the bins fill fast.",
@@ -34,15 +32,15 @@
       "Keep music and noise low out of respect for the homes right on the park.",
       "Slip on sun protection — a Sydney Christmas sun is fierce by mid-morning."
     ] },
-    { "type": "localTip", "text": "If you're set on the big beachside-Christmas atmosphere, check where this year's crowd is actually heading before you commit — in 2025 that was Coogee. Whichever beach you choose, always swim between the red-and-yellow flags where lifesavers are on patrol, and never after drinking." },
+    { "type": "localTip", "text": "If you're set on the big beachside-Christmas atmosphere, check where this year's crowd is actually heading before you commit. Whichever beach you choose, always swim between the red-and-yellow flags where lifesavers are on patrol, and never after drinking." },
     { "type": "h2", "text": "Getting to Bronte" },
-    { "type": "p", "text": "There's no train to Bronte itself. The usual route is a train to Bondi Junction and then a bus down to the coast, or an eastern-suburbs bus along Bronte Road. Public-holiday timetables differ from a normal day, and parking around Bronte is extremely limited at the best of times — on Christmas Day I'd skip the car entirely. Plan your trip with the live Transport for NSW planner on the day, since holiday services change year to year." },
+    { "type": "p", "text": "There's no train to Bronte itself — the usual route is a train to Bondi Junction, then a bus down to the coast along Bronte Road. Parking is extremely limited at the best of times, so on Christmas Day I'd skip the car entirely. Plan with the live Transport for NSW trip planner on the day, since public-holiday services change year to year." },
     { "type": "faq", "items": [
-      { "q": "Is the Bronte Backpackers' Christmas still happening in 2025?", "a": "Not as the big unofficial party it once was. Waverley Council put strong management measures in place for Christmas Day 2025 — including alcohol and glass confiscation and extra police — and with half of Bronte Park fenced off for the surf-club build, most of the crowd moved to Coogee Beach instead. Check Waverley Council's news page for the latest before you go." },
-      { "q": "Can I drink alcohol at Bronte on Christmas Day?", "a": "No. Bronte Beach and Bronte Park are Alcohol Prohibited Areas, and this was actively enforced with checkpoints on Christmas Day. Alcohol and glass are confiscated when found." },
-      { "q": "Where did the backpacker Christmas crowd go in 2025?", "a": "According to Waverley Council, the gathering largely shifted to Coogee Beach after people heeded warnings to stay away from Bronte. If you want the big beachside-Christmas crowd, confirm where it's happening this year first." },
+      { "q": "Is the Bronte Backpackers' Christmas still happening in 2025?", "a": "Not as the giant unofficial party it once was. Waverley Council has put strong measures around Christmas Day — alcohol-prohibited areas, a glass ban and extra police — and with sections of Bronte Park fenced off for the surf-club build, the day is far more controlled than the old free-for-all. Check Council's website for this year's plan first." },
+      { "q": "Can I drink alcohol at Bronte on Christmas Day?", "a": "No. Bronte Beach and Bronte Park are alcohol-prohibited areas, and on Christmas Day you can expect that to be enforced. Glass isn't welcome on the beach either, so leave the bottles at home." },
+      { "q": "Where does the backpacker Christmas crowd go now?", "a": "It varies year to year. Council has urged people away from Bronte, and in some years the crowd has shifted to beaches like Coogee. If you want the big beachside-Christmas crowd, confirm where it's actually happening this year first." },
       { "q": "How do I get to Bronte without a car?", "a": "Take a train to Bondi Junction and connect to a bus toward Bronte, or catch an eastern-suburbs bus along Bronte Road. Use the Transport for NSW trip planner on the day, as public-holiday timetables differ from normal services." }
     ] },
-    { "type": "p", "text": "Bronte on Christmas morning — the ocean pool, that first cold swim of the day — is still one of my favourite ways to spend the holiday in Sydney. Just come as a guest of the neighbourhood, keep it clean and calm, and check the official word before you set off." }
+    { "type": "p", "text": "Bronte on Christmas morning — the ocean pool, that first cold swim of the day — is still one of my favourite ways to spend the holiday. Come as a guest of the neighbourhood, keep it clean and calm, and check the official word before you set off." }
   ]
 }

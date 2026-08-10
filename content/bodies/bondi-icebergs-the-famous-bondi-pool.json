@@ -1,0 +1,40 @@
+{
+  "path": "/bondi-blog/2017/8/28/bondi-icebergs-the-famous-bondi-pool",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bondi Icebergs Club — Pool Conditions & Hours", "url": "https://icebergs.com.au/pool-conditions/" },
+    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Yes — you can absolutely swim at Bondi Icebergs, and it's one of my favourite things to send visitors off to do. The famous ocean pool at the southern headland of Bondi Beach isn't a members-only secret; it's a public saltwater pool where anyone can pay a small entry fee, tumble into 50 metres of Pacific Ocean, and swim laps against a backdrop that shows up on half the postcards of Sydney." },
+    { "type": "p", "text": "It's often called the most photographed pool in the world, and once you're standing on the deck watching waves crash over the far wall while you swim, you understand why. Here's how to actually get in, what it costs, and the quirks worth knowing before you go." },
+    { "type": "quickFacts", "items": [
+      { "label": "Where", "value": "1 Notts Ave, southern end of Bondi Beach" },
+      { "label": "Public swim", "value": "Yes — no membership needed" },
+      { "label": "Pool", "value": "50m seawater lap pool + shallow kids' pool" },
+      { "label": "Closed", "value": "Thursdays for cleaning (summer tides permitting)" },
+      { "label": "Sauna", "value": "Included with entry" }
+    ] },
+    { "type": "h2", "text": "Can the public swim at Bondi Icebergs?" },
+    { "type": "p", "text": "This is the question I get more than any other, and the answer is a happy yes. You don't need to be an Iceberg or know one. You walk up to the entry desk, pay for a single visit, and you're in. As of my last check the single-visit price was around $10 for adults, $7 for children and $30 for a family, with towel and locker hire a few dollars extra — but prices do get reviewed, so I'd confirm the current rate on the Icebergs pool page before you set off." },
+    { "type": "p", "text": "The pool is filled with real seawater pumped straight from the ocean, so it's bracing rather than heated — glorious in summer, character-building in winter. Entry also includes the sauna and hot showers, which brings me to my favourite cold-season ritual." },
+    { "type": "localTip", "text": "In the cooler months, do a few laps, warm up in the sauna (there's a 15-minute limit per session), then get straight back in the cold pool. That hot-cold-hot cycle is the whole point of a winter swim here, and the sauna is already included in your entry — no extra charge." },
+    { "type": "h2", "text": "Opening hours and the Thursday clean" },
+    { "type": "p", "text": "The pool generally opens early — from 6am on weekdays and a touch later on weekends — and runs through to early evening. The one catch that trips people up: it closes on Thursdays so the whole thing can be drained, scrubbed and refilled. In summer, when the tides cooperate, it sometimes reopens on a Thursday afternoon, but there's no guarantee, so don't build your day around it." },
+    { "type": "callout", "tone": "warning", "title": "Check before a Thursday visit", "text": "Because Thursday is cleaning day and hours shift a little between summer and winter, always check the official Icebergs pool-conditions page for the day you're going. Big swell can also close the pool for safety when waves are washing over the walls." },
+    { "type": "h2", "text": "The lanes, the ocean gate and the 2km loop" },
+    { "type": "p", "text": "A couple of things surprise first-timers. The lap lanes are wide — effectively double a normal lane — so the etiquette is to swim down one black line keeping left, and come back on the other line, again keeping left. Follow the locals and you won't cross anyone." },
+    { "type": "p", "text": "For stronger swimmers there's a small gate at the ocean end of the pool that lets you slip out into the sea. Confident open-water types do the 'point to point' — a loop out around the bay and back that works out to roughly 2km. Only attempt that if you genuinely know the conditions and your own limits; the ocean here is not the pool." },
+    { "type": "h3", "text": "What about becoming an actual Iceberg?" },
+    { "type": "p", "text": "Membership of the Icebergs winter swimming club is the stuff of local legend and deliberately hard-won: the tradition requires committing to winter Sunday swims across five years. It's a badge you earn in the cold, not something you buy. For a visitor, the public swim gives you the same water and the same view without the five-year vow." },
+    { "type": "faq", "items": [
+      { "q": "Do you have to be a member to swim at Bondi Icebergs?", "a": "No. Icebergs is a public pool. Anyone can pay a single-visit entry fee and swim — membership is only for the winter swimming club, not for using the pool." },
+      { "q": "How much does it cost to swim at Bondi Icebergs?", "a": "At my last check it was about $10 for adults, $7 for children and $30 for a family for a single visit, with cheaper multi-visit passes available. Prices change, so confirm on the official Icebergs pool page before you go." },
+      { "q": "Why is Bondi Icebergs closed on Thursdays?", "a": "Thursday is cleaning day — the pool is drained, scrubbed and refilled. In summer it sometimes reopens on Thursday afternoon if the tides allow, but it's not guaranteed." },
+      { "q": "Is the Bondi Icebergs pool heated?", "a": "No. It's filled with seawater pumped from the ocean, so it's cold, especially in winter. Your entry does include a sauna and hot showers to warm up afterwards." },
+      { "q": "Can I swim in the ocean from the pool?", "a": "There's a small gate at the ocean end for experienced open-water swimmers. Only do this if you're a strong swimmer who understands the day's conditions." }
+    ] },
+    { "type": "p", "text": "Whether you're chasing laps, a winter sauna ritual or just that one perfect photo of waves breaking over the edge, Icebergs delivers. Pay your entry, keep left in the lanes, dodge Thursdays, and you'll leave understanding exactly why this little pool on the rocks is famous the world over." }
+  ]
+}
