@@ -1,0 +1,42 @@
+{
+  "path": "/bondi-blog/hidden-gems-bondi-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council Library — Mackenzies Bay, the disappearing beach", "url": "https://celebrating.waverley.nsw.gov.au/nodes/view/73190" },
+    { "label": "Time Out Sydney — Mackenzies Bay disappearing beach", "url": "https://www.timeout.com/sydney/news/mackenzies-bay-whats-the-deal-with-sydneys-dreamy-disappearing-beach-021224" },
+    { "label": "Gertrude & Alice Cafe Bookstore (official)", "url": "https://www.gertrudeandalice.com.au/" },
+    { "label": "Waverley Council — Bondi to Bronte coastal walk", "url": "https://www.waverley.nsw.gov.au/recreation/walking_and_cycling/bondi_to_bronte_coastal_walk" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Everyone knows the postcard Bondi — the flags, the Icebergs pool, the crowd on the south steps. But the Bondi I actually love lives in the margins: a beach that vanishes for years at a time, a clifftop where I go to watch for whales, a bookshop where nobody minds if you never buy a thing. Here are the hidden gems I send friends to when they want the local's Bondi, not the Instagram one." },
+    { "type": "quickFacts", "items": [
+      { "label": "Best for", "value": "Escaping the main-beach crowds" },
+      { "label": "Cost", "value": "All free (bring cash for coffee)" },
+      { "label": "Getting there", "value": "Most sit along the Bondi–Bronte coastal walk" },
+      { "label": "My tip", "value": "Go early morning or golden hour" }
+    ] },
+    { "type": "h2", "text": "Mackenzies Bay — the beach that disappears" },
+    { "type": "p", "text": "This is my favourite piece of Bondi trivia. Mackenzies Bay is a small rocky cove tucked between Bondi and Tamarama, and for most of the year it's exactly that — rocks. But every so often the swell sweeps enough sand ashore to build a whole hidden beach, and then, just as suddenly, a big storm strips it away again. Locals joke it appears \"every seven years,\" though the truth is it follows no schedule at all — it's turned up and vanished on its own erratic timetable for decades." },
+    { "type": "callout", "tone": "warning", "title": "It's not a patrolled beach", "text": "Mackenzies Bay isn't an official swimming beach and there are no lifeguards or flags — the entry is rocky and the water unpredictable. I treat it as a spot to sit, sunbake and take photos, not to swim. If you want a proper dip, walk back to the flags at Bondi or Tamarama." },
+    { "type": "p", "text": "You'll pass right above it on the coastal walk, just south of Mackenzies Point. Whether there's sand on the day is pure luck — which is exactly what makes stumbling onto it feel like a secret." },
+    { "type": "h2", "text": "Ben Buckler Point & the quiet north end" },
+    { "type": "p", "text": "Head to the far northern tip of the beach and the energy changes completely. Ben Buckler Point is the rugged headland up past North Bondi, and it's where I go when I want the view without the masses — panoramic ocean, the whole sweep of the beach behind you, and in whale-migration season (roughly the colder months from around May) a genuine chance of spotting a humpback breaching offshore. Bring a coffee and a jumper; the wind up there has opinions." },
+    { "type": "p", "text": "Below the point, the rock shelf at the north end hides shallow tidal pools that fill and warm in the sun at low tide. They're calmer and far less crowded than the main beach — lovely for a paddle with little kids. Check a tide chart before you go, because they're only really there on a low tide and the rocks get slippery." },
+    { "type": "localTip", "text": "Time the north-end rock pools for a morning low tide on a still day. You get warm, clear, waist-deep water, the sun on your back, and often the whole spot to yourself while the main beach is packed shoulder to shoulder." },
+    { "type": "h2", "text": "Bondi's backstreets & a bookshop I could live in" },
+    { "type": "p", "text": "The strip along Campbell Parade is the tourist Bondi. The real one is a block or two back. Wander the streets around Gould and Curlewis and you'll find vintage stores, tiny galleries, wall murals that change with the seasons, and the kind of hole-in-the-wall cafés locals guard jealously. It's the best aimless-wander neighbourhood in the eastern suburbs." },
+    { "type": "p", "text": "My reliable anchor is Gertrude & Alice on Hall Street — a second-hand-and-new bookshop with a café folded right into it, named after Gertrude Stein and Alice B. Toklas. Books are stacked on the floor, the walls, even the tables, and you're welcome to read for as long as you like over a coffee or a glass of wine. On a grey Bondi afternoon there's nowhere I'd rather be. Check their site for current opening hours before you make a special trip." },
+    { "type": "quote", "text": "Bondi rewards the wanderer. The good stuff is almost never on the main drag." },
+    { "type": "h2", "text": "String them together on the coastal walk" },
+    { "type": "p", "text": "The neat thing is you don't have to choose. The Bondi-to-Bronte section of the coastal walk threads past Mackenzies Point and the cove, and it's an easy, mostly-paved clifftop path. Start at the south end of Bondi, take your time, and you've knocked over half this list in an hour — headland, hidden cove and ocean views included." },
+    { "type": "faq", "items": [
+      { "q": "Is there really a beach that appears and disappears at Bondi?", "a": "Yes — Mackenzies Bay, the little cove between Bondi and Tamarama. Most of the year it's a rocky bay, but when the swell pushes enough sand ashore a sandy beach forms, then a storm eventually washes it away again. There's no fixed schedule, so seeing it with sand is genuinely down to luck." },
+      { "q": "Can you swim at Mackenzies Bay?", "a": "It's not an official patrolled beach — no lifeguards, no flags, rocky entry and unpredictable water. I'd treat it as a sunbaking and photo spot only. For swimming, stick to the flagged areas at Bondi or Tamarama." },
+      { "q": "Where's the best quiet spot at Bondi away from the crowds?", "a": "The far north end. Ben Buckler Point gives you big clifftop views (and whales in season), and the rock pools below it are calm and uncrowded at low tide — a world away from the busy south end." },
+      { "q": "What's a good rainy-day hidden gem in Bondi?", "a": "Gertrude & Alice, the café-bookstore on Hall Street. You can settle in with a coffee and a book for hours. Check their website for current hours before heading over." },
+      { "q": "Can I reach these spots on foot?", "a": "Mostly, yes. Mackenzies Bay and the southern headland sit right on the Bondi-to-Bronte coastal walk, and the backstreets and Hall Street are a short stroll back from the beachfront. Comfortable shoes and a water bottle are all you need." }
+    ] },
+    { "type": "p", "text": "That's my local's shortlist — the disappearing beach, the whale-watching headland, the quiet north-end pools and the bookshop I never manage to leave empty-handed. Skip the main-beach scrum for a morning, follow these, and you'll see the Bondi most visitors walk straight past." }
+  ]
+}

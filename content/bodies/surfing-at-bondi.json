@@ -1,0 +1,46 @@
+{
+  "path": "/bondi-blog/surfing-at-bondi",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Beaches & swimming", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_swimming" },
+    { "label": "Surf Life Saving — Beachsafe: North Bondi", "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi/north-bondi" },
+    { "label": "Let's Go Surfing (Bondi surf school)", "url": "https://letsgosurfing.com.au/" },
+    { "label": "Bureau of Meteorology — Sydney tide predictions", "url": "http://www.bom.gov.au/nsw/tides/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Yes — you can absolutely surf at Bondi, and it's one of the easiest famous waves in the world to paddle out at for the first time. Bondi is a sand-bottom beach break with peaks running the length of the sand, so you'll find gentle, forgiving whitewater for beginners up the northern end and steeper, punchier waves down the south. I've surfed here in every season, and the short version is: North Bondi to learn, south end when you want a bit more shape." },
+    { "type": "quickFacts", "items": [
+      { "label": "Wave type", "value": "Beach break (lefts & rights)" },
+      { "label": "Beginners", "value": "North Bondi" },
+      { "label": "More advanced", "value": "Middle & south end" },
+      { "label": "Water temp", "value": "Roughly 18–23°C summer, 16–19°C winter" },
+      { "label": "Cost to surf", "value": "Free (board hire & lessons extra)" }
+    ] },
+    { "type": "h2", "text": "Where to surf depending on your level" },
+    { "type": "p", "text": "Bondi is a single long stretch of sand, but it behaves like several different waves. The northern corner is the most sheltered — it catches less swell and the sand shelves gently, so the waves are smaller and softer. That's why every surf school in Bondi runs its lessons up there, and it's where I'd send anyone on their first few sessions. Head towards the middle and southern end and the beach gets steeper and the waves get more power and shape, which is where the more experienced crowd sits." },
+    { "type": "p", "text": "Being an open beach break, Bondi throws up both left and right-handers depending on how the sandbanks are lying that week. It's fickle — a great bank one month can wash away the next — so don't expect a perfect peeling point. What you get instead is a friendly, accessible wave a short walk from a coffee." },
+    { "type": "h3", "text": "When it's good" },
+    { "type": "p", "text": "Bondi likes a south to east swell with a light offshore wind blowing out of the west or north-west to hold the waves up. An onshore easterly or a big north-easterly sea breeze tends to make it messy and crumbly. Rather than trust my gut, I check the swell, wind and tide before I leave the house — a rising tide around mid-tide is usually a safe bet. Have a look at a current surf forecast and the Bureau of Meteorology tide times for the day you're planning to paddle out." },
+    { "type": "h2", "text": "Lessons, boards and gear" },
+    { "type": "p", "text": "If you've never surfed, book a lesson — genuinely. A good instructor will have you standing up in the whitewater in a single session, and they'll teach you how to read rips and hold your board safely, which matters far more than looking cool. Let's Go Surfing is the long-running school based at North Bondi and supplies boards and wetsuits with their lessons; check their website for current session times and prices before you rock up." },
+    { "type": "localTip", "text": "You don't need to own a thing to surf Bondi. There are board-hire shops within a two-minute walk of the sand where you can grab a soft-top and a wetsuit by the hour. Start on a big soft foamie — it floats better, catches waves earlier and won't hurt you (or anyone else) nearly as much as a hard fibreglass board when you inevitably lose it." },
+    { "type": "p", "text": "A wetsuit makes the whole thing more fun year-round. Summer water is mild enough for a spring suit or boardies for the hardy, but through winter I wouldn't get in without a full steamer — you'll last a lot longer and actually enjoy it." },
+    { "type": "callout", "tone": "warning", "title": "Know the flags before you paddle out", "text": "The red-and-yellow flags mark the patrolled swimming area — that zone is for swimmers only, and surfers and boards must stay well clear of it. Drift between the flags on a board and Bondi's lifesavers will (rightly) have a word. Waverley Council also restricts hard fibreglass boards to the southern part of the beach; always check the current signage and the council's beach rules, as these can change."},
+    { "type": "h2", "text": "Surfing safely at Bondi" },
+    { "type": "list", "items": [
+      "Learn to spot a rip — the deeper, darker, calmer-looking channels where water flows back out. Beginners should stay in the whitewater and near a surf school or patrol.",
+      "Surf near other people and within the patrol hours if you can; lifesavers are on the sand most days but not around the clock.",
+      "Hold on to your board and always look before you take off or duck-dive so you don't cop — or deliver — a fin to the head.",
+      "Give way to the surfer already up and riding, and don't drop in. Bondi gets crowded and a bit of etiquette keeps it friendly."
+    ] },
+    { "type": "faq", "items": [
+      { "q": "Can beginners surf at Bondi Beach?", "a": "Yes. The northern end of Bondi is sheltered with smaller, softer waves and gently shelving sand, which makes it one of the best places in Sydney to learn. Book a lesson or hire a soft-top board and stay in the whitewater to start." },
+      { "q": "Where can you surf at Bondi and where can't you?", "a": "You can surf the middle and southern parts of the beach, and beginners use the north end. You must stay outside the red-and-yellow swimming flags, which are for swimmers only. Waverley Council also confines hard fibreglass boards to the southern breaks — check the signage on the day." },
+      { "q": "When is the surf best at Bondi?", "a": "Bondi works best on a south-to-east swell with a light offshore west or north-west wind, ideally around a rising mid-tide. Onshore easterlies and strong sea breezes make it messy. Check a live surf forecast and the tide times before you go." },
+      { "q": "Do I need my own board and wetsuit?", "a": "No. Board-hire shops a short walk from the sand rent soft-tops and wetsuits by the hour, and surf schools include gear with their lessons, so you can turn up empty-handed." },
+      { "q": "Is the water cold at Bondi?", "a": "It's swimmable year-round but varies with the season — mild in summer and noticeably cooler in winter. A wetsuit makes every session more comfortable, and in winter a full steamer is well worth it." }
+    ] },
+    { "type": "p", "text": "That's the beauty of Bondi: whether it's your very first wave in a soft-top or a quick dawn session before work, the ocean's right there and open to everyone. Respect the flags, mind the crowd, check the forecast — and I'll see you out the back." }
+  ]
+}
