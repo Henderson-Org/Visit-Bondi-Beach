@@ -237,6 +237,74 @@ export function eventJsonLd(opts: {
   return data;
 }
 
+/**
+ * schema.org type for a dining venue. Chosen so the visible content genuinely supports
+ * it (a cafe is a CafeOrCoffeeShop, a bar/pub a BarOrPub, etc.).
+ */
+const FOOD_TYPE: Record<string, string> = {
+  cafe: 'CafeOrCoffeeShop',
+  restaurant: 'Restaurant',
+  bar: 'BarOrPub',
+  pub: 'BarOrPub',
+  bakery: 'Bakery',
+  takeaway: 'FoodEstablishment',
+  dessert: 'FoodEstablishment',
+  'club-hotel': 'Restaurant',
+};
+
+const PRICE_RANGE: Record<number, string> = { 1: '$', 2: '$$', 3: '$$$', 4: '$$$$' };
+
+/**
+ * FoodEstablishment schema for a venue page. Durable facts only — name, venue type,
+ * cuisine, price range, locality, and the venue's own URL. Deliberately NO
+ * aggregateRating/review/openingHours: we hold no compliant review data, and hours are
+ * volatile (they live on the venue's own site), so emitting them would be a fake signal.
+ * Binds to the canonical Bondi Beach place entity via containedInPlace.
+ */
+export function restaurantJsonLd(
+  r: {
+    name: string;
+    type: string;
+    cuisines: string[];
+    priceBand: number;
+    precinctLabel: string;
+    address?: string;
+    website?: string;
+    bookingUrl?: string;
+    instagram?: string;
+    menuUrl?: string;
+    summary?: string;
+    image?: string;
+  },
+  path: string
+) {
+  const sameAs = [r.website, r.instagram].filter(Boolean) as string[];
+  const data: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': FOOD_TYPE[r.type] ?? 'Restaurant',
+    name: r.name,
+    url: `${siteOrigin()}${path}`,
+    priceRange: PRICE_RANGE[r.priceBand] ?? '$$',
+    address: {
+      '@type': 'PostalAddress',
+      ...(r.address ? { streetAddress: r.address } : {}),
+      addressLocality: r.precinctLabel || 'Bondi Beach',
+      addressRegion: 'NSW',
+      addressCountry: 'AU',
+    },
+    areaServed: 'Bondi Beach, Sydney',
+    containedInPlace: { '@id': `${siteOrigin()}/${BONDI_PLACE_ID}` },
+  };
+  const cuisines = r.cuisines.filter((c) => c && c !== '—');
+  if (cuisines.length) data.servesCuisine = cuisines;
+  if (r.summary) data.description = r.summary;
+  if (r.menuUrl) data.hasMenu = r.menuUrl;
+  if (r.bookingUrl) data.acceptsReservations = r.bookingUrl;
+  if (sameAs.length) data.sameAs = sameAs;
+  if (r.image) data.image = r.image.startsWith('http') ? r.image : `${siteOrigin()}${r.image}`;
+  return data;
+}
+
 export function breadcrumbJsonLd(items: { name: string; path: string }[]) {
   return {
     '@context': 'https://schema.org',

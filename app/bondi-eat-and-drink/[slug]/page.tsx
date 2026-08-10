@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { EditorialHero } from '@/components/EditorialHero';
-import { Faq } from '@/components/blocks';
-import { VenueCard } from '@/components/eat/VenueCard';
+import { RestaurantCard } from '@/components/eat/RestaurantCard';
 import { isProduction } from '@/lib/site';
-import { breadcrumbJsonLd, faqJsonLd } from '@/lib/structured-data';
-import { getCollection, collectionSlugs, venuesForCollection } from '@/lib/eatDrink';
+import { breadcrumbJsonLd, itemListJsonLd } from '@/lib/structured-data';
+import { getCollection, collectionSlugs, venuesForCollection, venuePageHref } from '@/lib/restaurantGuide';
+import { PRICE_LABEL } from '@/data/restaurants';
 
 export const dynamicParams = false;
 export const revalidate = 86400;
@@ -32,20 +32,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-function restaurantListJsonLd(name: string, venues: { name: string; type: string; shortDescription: string }[]) {
-  const TYPE: Record<string, string> = { cafe: 'CafeOrCoffeeShop', bar: 'BarOrPub', pub: 'BarOrPub', bakery: 'Bakery', restaurant: 'Restaurant', takeaway: 'FoodEstablishment' };
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'ItemList',
-    name,
-    numberOfItems: venues.length,
-    itemListElement: venues.map((v, i) => ({
-      '@type': 'ListItem',
-      position: i + 1,
-      item: { '@type': TYPE[v.type] ?? 'Restaurant', name: v.name, description: v.shortDescription },
-    })),
-  };
-}
+const RELATED = [
+  { title: 'All Bondi restaurants, cafés & bars', path: '/bondi-eat-and-drink' },
+  { title: 'Things to do in Bondi', path: '/things-to-do-in-bondi' },
+  { title: 'Where to stay in Bondi', path: '/stay' },
+  { title: 'The Bondi to Coogee coastal walk', path: '/bondi-coastal-walk' },
+];
 
 export default async function DiningCollectionPage({ params }: Props) {
   const { slug } = await params;
@@ -60,49 +52,63 @@ export default async function DiningCollectionPage({ params }: Props) {
     { name: collection.h1, path },
   ];
 
+  const top = venues[0];
+
   return (
     <div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(crumbs)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd(collection.faqs)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(restaurantListJsonLd(collection.h1, venues)) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            itemListJsonLd(
+              collection.h1,
+              venues.map((v) => ({ name: v.name, description: v.summary, url: venuePageHref(v) ?? undefined })),
+              'Restaurant',
+            ),
+          ),
+        }}
+      />
 
       <EditorialHero
         image={HERO}
         kicker={collection.kicker}
         title={collection.h1}
-        intro={collection.answer}
+        intro={collection.intro}
         crumbs={crumbs}
       />
 
-      <section className="mx-auto max-w-3xl px-4 pt-10">
-        {collection.intro.map((p, i) => (
-          <p key={i} className="mt-3 text-lg leading-relaxed text-ink-700">{p}</p>
-        ))}
-      </section>
+      {top && (
+        <section className="mx-auto max-w-3xl px-4 pt-10">
+          <p className="text-lg leading-relaxed text-ink-700">
+            Our top pick right now is <strong className="font-semibold text-ink-900">{top.name}</strong>
+            {top.bestFor ? ` — ${top.bestFor.toLowerCase()}` : ''}. Below are {venues.length}{' '}
+            {venues.length === 1 ? 'place' : 'places'} we rate for this, ranked on the food and how well they
+            suit a visit. Prices shown are a rough guide ({PRICE_LABEL[1]}–{PRICE_LABEL[4]}); always check the
+            venue&rsquo;s own site for current hours and menus.
+          </p>
+        </section>
+      )}
 
       <section className="mx-auto max-w-5xl px-4 pt-10">
         {venues.length > 0 ? (
           <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {venues.map((v) => (
-              <li key={v.id}><VenueCard venue={v} /></li>
+              <li key={v.id}><RestaurantCard venue={v} /></li>
             ))}
           </ul>
         ) : (
           <p className="rounded-xl border border-sand-200 bg-white p-6 text-center text-sm text-ink-600">
-            We’re still adding our picks for this list — check back soon, or browse{' '}
-            <Link href="/bondi-eat-and-drink" className="text-ocean-700 underline">all our eat &amp; drink guides</Link>.
+            We&rsquo;re still adding our picks for this list — check back soon, or browse{' '}
+            <Link href="/bondi-eat-and-drink" className="text-ocean-700 underline">the full eat &amp; drink directory</Link>.
           </p>
         )}
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 pt-14">
-        <Faq items={collection.faqs} />
-      </section>
-
-      <section className="mx-auto max-w-5xl px-4 py-12">
+      <section className="mx-auto max-w-5xl px-4 py-14">
         <h2 className="font-display text-2xl text-ink-900">Keep exploring Bondi</h2>
         <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-          {collection.related.map((l) => (
+          {RELATED.map((l) => (
             <li key={l.path}><Link href={l.path} className="text-ocean-700 hover:underline">{l.title} →</Link></li>
           ))}
         </ul>

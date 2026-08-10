@@ -43,5 +43,77 @@
       "https://bondibeachnews.com.au/bondi-farewells-beloved-pasticceria-papa-after-a-decade-of-delights/",
       "https://bakingbusiness.com.au/pasticceria-papa-closes-bondi-beach-location-after-a-decade/"
     ]
+  },
+  {
+    "name": "Trio Cafe Bar Restaurant",
+    "status": "permanently-closed",
+    "note": "Trio Cafe Bar Restaurant",
+    "sources": [
+      "https://news.bondilocalloop.com/2021/03/25/trio-bondi-beach-closing-down-after-nearly-20-years/",
+      "https://foursquare.com/v/trio/4b22e744f964a520015024e3"
+    ]
+  },
+  {
+    "name": "Bondi Hall",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://concreteplayground.com/sydney/bars/bondi-hall",
+      "https://www.theurbanlist.com/sydney/directory/bondi-hall"
+    ]
+  },
+  {
+    "name": "Gould Street Deluxe",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.tripadvisor.com.au/Restaurant_Review-g947961-d7232969-Reviews-Gould_Street_Deluxe-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://www.popupshopup.com.au/spaces/new_south_wales/bondi_beach/411-45_gould_st_bondi_beach_retail_espresso_office"
+    ]
+  },
+  {
+    "name": "UMU Organic",
+    "status": "permanently-closed",
+    "note": "Earth Food Store",
+    "sources": [
+      "https://www.happycow.net/reviews/umu-bondi-beach-33606",
+      "https://umu.organic/about-us/"
+    ]
+  },
+  {
+    "name": "Fika Swedish Kitchen",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://wanderlog.com/place/details/4570319/fika-bondi",
+      "https://restaurantguru.com/Fika-Swedish-Kitchen-Bondi-Bondi-Beach"
+    ]
+  },
+  {
+    "name": "Chloe's Bondi",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.opentable.com/r/chloes-bondi-bondi-beach",
+      "https://wanderlog.com/place/details/5196041/chloes-bondi"
+    ]
+  },
+  {
+    "name": "Coffee Bondi Beach",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.broadsheet.com.au/sydney/bondi/cafes/coffee-bondi-beach",
+      "https://www.broadsheet.com.au/sydney/food-and-drink/article/coffee"
+    ]
+  },
+  {
+    "name": "Na-Na Mediterranean Cuisine",
+    "status": "not-found",
+    "note": "",
+    "sources": [
+      "https://www.agfg.com.au/restaurants/sydney/bondi-beach/mediterranean-cuisine",
+      "https://www.opentable.com.au/cuisine/best-mediterranean-restaurants-sydney-bondi-beach"
+    ]
   }
 ]

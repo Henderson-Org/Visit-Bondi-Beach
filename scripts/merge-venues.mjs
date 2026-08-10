@@ -26,8 +26,19 @@ const slug = (s) =>
   (s || '').toLowerCase().replace(/&/g, ' and ').replace(/['’.]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
 const clampBand = (n) => Math.min(4, Math.max(1, Number(n) || 2));
-const arr = (x) => (Array.isArray(x) ? x.filter(Boolean) : []);
-const clean = (s) => (typeof s === 'string' ? s.trim() : undefined);
+// Decode the handful of HTML entities that can leak in from source titles / args.
+const decodeEntities = (s) =>
+  s
+    .replace(/&amp;/g, '&')
+    .replace(/&#38;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&nbsp;/g, ' ');
+const arr = (x) => (Array.isArray(x) ? x.filter(Boolean).map((v) => (typeof v === 'string' ? decodeEntities(v) : v)) : []);
+const clean = (s) => (typeof s === 'string' ? decodeEntities(s.trim()) : undefined);
 
 // Composite 0–10 for default ordering. Weights favour food + local reputation + usefulness,
 // with a smaller view contribution. Missing signals fall back to a neutral 5.
