@@ -25,7 +25,7 @@ export function EventCard({ resolved }: { resolved: ResolvedEvent }) {
       <div className="flex flex-1 flex-col p-5">
         <div className="flex items-center gap-2 text-xs">
           <span className="font-semibold uppercase tracking-wide text-ocean-600">{whenLabel(resolved)}</span>
-          {e.datesToConfirm && <span className="rounded bg-amber-500/10 px-1.5 py-0.5 text-[10px] font-medium text-amber-700">Dates TBC</span>}
+          {e.dateStatus === 'tbc' && <span className="rounded bg-amber-500/10 px-1.5 py-0.5 text-[10px] font-medium text-amber-700">Dates TBC</span>}
         </div>
 
         <h3 className="mt-1.5 font-display text-lg leading-snug text-ink-900 group-hover:text-ocean-700">{e.title}</h3>

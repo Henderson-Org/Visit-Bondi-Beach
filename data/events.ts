@@ -3,12 +3,13 @@
  *
  * INTEGRITY (non-negotiable):
  *  - No invented events, dates, prices or organisers. Every event here is a real,
- *    well-established Bondi happening. Weekly markets have a reliable recurring day;
- *    annual events whose exact date we can't verify carry `datesToConfirm: true` and a
- *    `whenText` like "typically late October" — we never assert a precise day we can't
- *    stand behind, and Event schema is only emitted when a concrete date exists.
- *  - Every event stores a `source`/`officialUrl` and `lastVerified` date so information
- *    can be trusted and re-checked. Uncertain details are flagged, not guessed.
+ *    well-established Bondi happening. Each carries a `dateStatus` (see DateStatus):
+ *    'announced'/'confirmed' events store concrete startDate/endDate and a
+ *    dateSourceUrl; 'tbc' events genuinely have no published next edition. We never
+ *    assert a precise day we can't stand behind, and Event schema only emits real dates.
+ *  - Every event stores `dateSourceUrl`/`dateVerifiedAt` (date provenance) plus a
+ *    `source`/`lastVerified`. scripts/verify-events.mjs flags passed editions, upcoming
+ *    annuals still lacking dates, and stale verifications so this doesn't rot each year.
  *
  * Adding an event (for the site owner): add an entry to EVENTS with real values, today's
  * date as `lastVerified`, and the official source. Recurring? set `recurrence`. Cards,
@@ -33,6 +34,18 @@ export type EventCategory =
 export type Audience = 'everyone' | 'families' | 'kids' | 'adults';
 export type PriceType = 'free' | 'paid' | 'varies';
 export type EventStatus = 'scheduled' | 'cancelled' | 'postponed';
+
+/**
+ * How much we trust the *date* we're showing — the single source of truth for whether a
+ * card may show an exact date, an approximate window, or "Dates TBC". This replaces the
+ * old boolean `datesToConfirm`, which conflated "exact day unknown" with "not researched".
+ *  - confirmed : a fixed, recurring calendar date that never moves (e.g. NYE = 31 Dec).
+ *  - announced : the organiser has published THIS edition's concrete start/end dates.
+ *  - recurring : a reliable repeating pattern (weekly markets); date computed from recurrence.
+ *  - estimated : we only show an approximate window (typicalTiming) — never an asserted day.
+ *  - tbc       : the next edition is genuinely not announced yet (the ONLY case that shows TBC).
+ */
+export type DateStatus = 'confirmed' | 'announced' | 'recurring' | 'estimated' | 'tbc';
 
 export const CATEGORY_LABEL: Record<EventCategory, string> = {
   markets: 'Markets',
@@ -104,8 +117,20 @@ export interface BondiEvent {
   organiser?: string;
   featured?: boolean;
   status: EventStatus;
-  /** True when we can't verify the exact date this year — display flags it, schema omits date. */
-  datesToConfirm?: boolean;
+  /**
+   * Trust level for the displayed date (see DateStatus). Drives UI + schema: only
+   * 'confirmed'/'announced' present an exact date/range; 'tbc' shows the TBC badge.
+   */
+  dateStatus: DateStatus;
+  /** Human "usual timing" for annual events, shown as secondary context (e.g. "Late October to early November"). */
+  typicalTiming?: string;
+  /** The calendar year of the edition our startDate/status refers to (freshness tracking). */
+  nextEditionYear?: number;
+  /** Where the current date came from (authoritative). Kept for provenance, not shown to users. */
+  dateSourceUrl?: string;
+  dateSourceName?: string;
+  /** When the date itself was last checked against the source (YYYY-MM-DD). */
+  dateVerifiedAt?: string;
   lastVerified: string; // YYYY-MM-DD
   source?: string;
   relatedArticles?: RelatedArticle[];
@@ -125,6 +150,8 @@ export const EVENTS: BondiEvent[] = [
     ],
     timezone: 'Australia/Sydney',
     recurrence: { freq: 'weekly', weekday: 6 },
+    dateStatus: 'recurring',
+    typicalTiming: 'Every Saturday morning, 9am–1pm',
     whenText: 'Every Saturday morning',
     startTime: '09:00',
     endTime: '13:00',
@@ -158,6 +185,8 @@ export const EVENTS: BondiEvent[] = [
     ],
     timezone: 'Australia/Sydney',
     recurrence: { freq: 'weekly', weekday: 0 },
+    dateStatus: 'recurring',
+    typicalTiming: 'Every Sunday, 10am–4pm',
     whenText: 'Every Sunday',
     startTime: '10:00',
     endTime: '16:00',
@@ -189,8 +218,13 @@ export const EVENTS: BondiEvent[] = [
       'It is free to visit and hugely popular, so go early or late in the day and on a weekday if you can. Exact dates change each year — check the official site to confirm before you plan around it.',
     ],
     timezone: 'Australia/Sydney',
+    startDate: '2026-10-16',
+    endDate: '2026-11-02',
     recurrence: { freq: 'annual', month: 10 },
-    whenText: 'Annual · typically late October to early November',
+    dateStatus: 'announced',
+    typicalTiming: 'Late October to early November',
+    nextEditionYear: 2026,
+    whenText: 'Annual · late October to early November',
     venue: 'Bondi to Tamarama coastal walk',
     suburb: 'Bondi Beach',
     categories: ['arts', 'family', 'community'],
@@ -201,7 +235,9 @@ export const EVENTS: BondiEvent[] = [
     organiser: 'Sculpture by the Sea',
     featured: true,
     status: 'scheduled',
-    datesToConfirm: true,
+    dateSourceUrl: 'https://sculpturebythesea.com/bondi/',
+    dateSourceName: 'Sculpture by the Sea (official)',
+    dateVerifiedAt: '2026-08-10',
     lastVerified: VERIFIED,
     source: 'https://sculpturebythesea.com/',
     relatedArticles: [
@@ -220,7 +256,10 @@ export const EVENTS: BondiEvent[] = [
     ],
     timezone: 'Australia/Sydney',
     recurrence: { freq: 'annual', month: 8 },
-    whenText: 'Annual · typically August',
+    dateStatus: 'tbc',
+    typicalTiming: 'The second Sunday of August',
+    nextEditionYear: 2027,
+    whenText: 'Next edition August 2027 — dates to be announced',
     venue: 'Finishes at Bondi Beach',
     suburb: 'Bondi Beach',
     categories: ['sport', 'fitness', 'community'],
@@ -232,7 +271,11 @@ export const EVENTS: BondiEvent[] = [
     organiser: 'The Sun-Herald City2Surf',
     featured: true,
     status: 'scheduled',
-    datesToConfirm: true,
+    // The 2026 race ran on 9 August 2026 and has passed; the 2027 date is not yet published.
+    // TBC is therefore accurate here — flagged for re-check by scripts/verify-events.mjs.
+    dateSourceUrl: 'https://www.city2surf.com.au/',
+    dateSourceName: 'Voltaren City2Surf (official)',
+    dateVerifiedAt: '2026-08-10',
     lastVerified: VERIFIED,
     source: 'https://www.city2surf.com.au/',
     relatedArticles: [
@@ -250,19 +293,26 @@ export const EVENTS: BondiEvent[] = [
       'It is run by Waverley Council and is one of the most family-friendly days on the Bondi calendar. Dates are set each year; confirm on the council’s events page.',
     ],
     timezone: 'Australia/Sydney',
+    startDate: '2026-09-13',
+    endDate: '2026-09-13',
     recurrence: { freq: 'annual', month: 9 },
-    whenText: 'Annual · typically September',
+    dateStatus: 'announced',
+    typicalTiming: 'A Sunday in September',
+    nextEditionYear: 2026,
+    whenText: 'Annual · a Sunday in September',
     venue: 'Bondi Beach',
     suburb: 'Bondi Beach',
     categories: ['family', 'community', 'arts'],
     audience: ['families', 'everyone'],
     priceType: 'free',
-    officialUrl: 'https://www.waverley.nsw.gov.au/',
+    officialUrl: 'https://www.waverley.nsw.gov.au/recreation/arts_and_culture/major_annual_events/fotw',
     image: null,
     organiser: 'Waverley Council',
     featured: false,
     status: 'scheduled',
-    datesToConfirm: true,
+    dateSourceUrl: 'https://www.waverley.nsw.gov.au/recreation/arts_and_culture/major_annual_events/fotw',
+    dateSourceName: 'Waverley Council (official)',
+    dateVerifiedAt: '2026-08-10',
     lastVerified: VERIFIED,
     source: 'https://www.waverley.nsw.gov.au/',
     relatedArticles: [
@@ -280,8 +330,13 @@ export const EVENTS: BondiEvent[] = [
       'Warm summer evenings, a beachfront setting and a great program make it a Bondi highlight. Sessions are ticketed; confirm dates and book on the official site.',
     ],
     timezone: 'Australia/Sydney',
+    startDate: '2027-01-22',
+    endDate: '2027-01-31',
     recurrence: { freq: 'annual', month: 1 },
-    whenText: 'Annual · typically January',
+    dateStatus: 'announced',
+    typicalTiming: 'Ten days in late January',
+    nextEditionYear: 2027,
+    whenText: 'Annual · late January',
     venue: 'Bondi Pavilion',
     address: 'Queen Elizabeth Drive, Bondi Beach NSW 2026',
     suburb: 'Bondi Beach',
@@ -294,7 +349,9 @@ export const EVENTS: BondiEvent[] = [
     organiser: 'Flickerfest',
     featured: false,
     status: 'scheduled',
-    datesToConfirm: true,
+    dateSourceUrl: 'https://flickerfest.com.au/tour/',
+    dateSourceName: 'Flickerfest (official)',
+    dateVerifiedAt: '2026-08-10',
     lastVerified: VERIFIED,
     source: 'https://flickerfest.com.au/',
     relatedArticles: [
@@ -312,6 +369,9 @@ export const EVENTS: BondiEvent[] = [
     ],
     timezone: 'Australia/Sydney',
     recurrence: { freq: 'annual', month: 12, day: 31 },
+    dateStatus: 'confirmed',
+    typicalTiming: '31 December, every year',
+    nextEditionYear: 2026,
     whenText: 'Every 31 December',
     venue: 'Bondi Beach',
     suburb: 'Bondi Beach',
@@ -323,7 +383,10 @@ export const EVENTS: BondiEvent[] = [
     organiser: 'Waverley Council',
     featured: false,
     status: 'scheduled',
-    datesToConfirm: true,
+    // The date is fixed (31 Dec); only the ticketed program/access varies year to year.
+    dateSourceUrl: 'https://www.waverley.nsw.gov.au/',
+    dateSourceName: 'Waverley Council (official)',
+    dateVerifiedAt: '2026-08-10',
     lastVerified: VERIFIED,
     source: 'https://www.waverley.nsw.gov.au/',
     relatedArticles: [

@@ -75,9 +75,12 @@ function nextWeekly(today: string, weekday: number): string {
   return addDays(today, delta);
 }
 
-function nextAnnual(today: string, month: number, day?: number): { date: string; exact: boolean } {
-  const y = yearOf(today);
+function nextAnnual(today: string, month: number, day?: number, forceYear?: number): { date: string; exact: boolean } {
   const d = day ?? 15;
+  // When the next edition's year is known (e.g. this year's has passed), anchor to it so we
+  // never recycle a past edition; otherwise use this-year-or-next.
+  if (forceYear != null) return { date: `${forceYear}-${pad(month)}-${pad(d)}`, exact: day != null };
+  const y = yearOf(today);
   let candidate = `${y}-${pad(month)}-${pad(d)}`;
   if (candidate < today) candidate = `${y + 1}-${pad(month)}-${pad(d)}`;
   return { date: candidate, exact: day != null };
@@ -101,19 +104,26 @@ export function isExpired(e: BondiEvent, today: string): boolean {
 }
 
 export function resolveEvent(e: BondiEvent, today: string): ResolvedEvent {
+  // 1. A concrete announced/confirmed edition (start–end) that hasn't finished yet always
+  //    wins — this is the exact date the organiser has published.
+  if (e.startDate && (e.endDate ?? e.startDate) >= today) {
+    return { event: e, nextDate: e.startDate, sortDate: e.startDate, exact: true };
+  }
+  // 2. Weekly recurrence → next occurrence (always concrete).
   if (e.recurrence?.freq === 'weekly' && e.recurrence.weekday != null) {
     const d = nextWeekly(today, e.recurrence.weekday);
     return { event: e, nextDate: d, sortDate: d, exact: true };
   }
+  // 3. Annual recurrence. Present a concrete day ONLY for a genuinely fixed calendar date
+  //    (e.g. NYE = 31 Dec, dateStatus 'confirmed'). For an annual whose specific edition has
+  //    passed or isn't announced, we show approximate timing rather than a recycled/guessed day.
   if (e.recurrence?.freq === 'annual' && e.recurrence.month != null) {
-    const { date, exact } = nextAnnual(today, e.recurrence.month, e.recurrence.day);
-    // Annual events flagged datesToConfirm never present a concrete day publicly.
-    const showExact = exact && !e.datesToConfirm;
-    return { event: e, nextDate: showExact ? date : null, sortDate: date, exact: showExact };
+    const { date } = nextAnnual(today, e.recurrence.month, e.recurrence.day, e.nextEditionYear);
+    const fixedDay = e.recurrence.day != null && e.dateStatus === 'confirmed';
+    return { event: e, nextDate: fixedDay ? date : null, sortDate: date, exact: fixedDay };
   }
-  // One-off
-  const d = e.startDate ?? today;
-  return { event: e, nextDate: d, sortDate: d, exact: Boolean(e.startDate) };
+  // 4. One-off: a future date was returned by #1; a past one-off is excluded by isExpired.
+  return { event: e, nextDate: e.startDate ?? null, sortDate: e.startDate ?? today, exact: Boolean(e.startDate) };
 }
 
 /** Does the event occur on a specific date (exact-day semantics only)? */
@@ -121,11 +131,12 @@ export function occursOn(e: BondiEvent, ymd: string): boolean {
   if (e.recurrence?.freq === 'weekly' && e.recurrence.weekday != null) {
     return weekdayOf(ymd) === e.recurrence.weekday;
   }
-  if (e.recurrence?.freq === 'annual') {
-    if (e.recurrence.day == null || e.datesToConfirm) return false; // unknown exact day
+  // A concrete announced/confirmed edition (its published start–end range).
+  if (e.startDate) return ymd >= e.startDate && ymd <= (e.endDate ?? e.startDate);
+  // A fixed-day annual (e.g. NYE = 31 Dec) — the only annual we treat as an exact day.
+  if (e.recurrence?.freq === 'annual' && e.recurrence.day != null && e.dateStatus === 'confirmed') {
     return ymd.slice(5) === `${pad(e.recurrence.month!)}-${pad(e.recurrence.day)}`;
   }
-  if (e.startDate) return ymd >= e.startDate && ymd <= (e.endDate ?? e.startDate);
   return false;
 }
 
@@ -136,7 +147,8 @@ export function occursInRange(e: BondiEvent, start: string, end: string): boolea
     for (let d = start; d <= end; d = addDays(d, 1)) if (weekdayOf(d) === e.recurrence.weekday) return true;
     return false;
   }
-  if (e.recurrence?.freq === 'annual' && e.recurrence.day != null && !e.datesToConfirm) {
+  if (e.startDate) return e.startDate <= end && (e.endDate ?? e.startDate) >= start;
+  if (e.recurrence?.freq === 'annual' && e.recurrence.day != null && e.dateStatus === 'confirmed') {
     const y = yearOf(start);
     for (const yr of [y, y + 1]) {
       const cand = `${yr}-${pad(e.recurrence.month!)}-${pad(e.recurrence.day)}`;
@@ -144,7 +156,6 @@ export function occursInRange(e: BondiEvent, start: string, end: string): boolea
     }
     return false;
   }
-  if (e.startDate) return e.startDate <= end && (e.endDate ?? e.startDate) >= start;
   return false;
 }
 
@@ -236,14 +247,33 @@ export function formatTime(hhmm?: string): string | null {
   return m === 0 ? `${hr}${ampm}` : `${hr}:${pad(m)}${ampm}`;
 }
 
-/** Short, human "when" label for a card: prefers a concrete date, falls back to whenText. */
+/** Format a start–end span compactly, e.g. "16 Oct – 2 Nov 2026" or "22–31 Jan 2027". */
+export function formatDateRange(start: string, end: string): string {
+  const s = ymdToDate(start), e = ymdToDate(end);
+  const day = (d: Date) => d.getUTCDate();
+  const mon = (d: Date) => new Intl.DateTimeFormat('en-AU', { month: 'short', timeZone: 'UTC' }).format(d);
+  const yr = end.slice(0, 4);
+  if (start === end) return formatEventDateLong(start);
+  if (start.slice(0, 7) === end.slice(0, 7)) return `${day(s)}–${day(e)} ${mon(e)} ${yr}`; // same month
+  return `${day(s)} ${mon(s)} – ${day(e)} ${mon(e)} ${yr}`;
+}
+
+/**
+ * Short, human "when" label for a card. Priority: a concrete announced range → a single
+ * confirmed date → typical recurring timing → the human whenText. "Dates to be confirmed"
+ * only ever appears as the final fallback, and only for genuinely unannounced (tbc) events.
+ */
 export function whenLabel(r: ResolvedEvent): string {
   const e = r.event;
+  // Announced multi-day edition → show the full range (dominant, exact).
+  if (r.nextDate && e.startDate && e.endDate && e.endDate !== e.startDate && r.nextDate === e.startDate) {
+    return formatDateRange(e.startDate, e.endDate);
+  }
   if (r.nextDate) {
     const time = formatTime(e.startTime);
     return time ? `${relativeDay(r.nextDate)} · ${time}` : relativeDay(r.nextDate);
   }
-  return e.whenText ?? 'Dates to be confirmed';
+  return e.whenText ?? e.typicalTiming ?? 'Dates to be confirmed';
 }
 
 /** "Today" / "Tomorrow" / "Sat 15 Aug" relative to the Sydney date. */

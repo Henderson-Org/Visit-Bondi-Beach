@@ -14,7 +14,8 @@
     "build:bodies": "node scripts/build-bodies.mjs",
     "seo:qa": "node scripts/seo-qa.mjs",
     "audit:stay": "node --experimental-strip-types scripts/audit-accommodation.ts",
-    "test": "vitest run"
+    "test": "vitest run",
+    "events:verify": "node scripts/verify-events.mjs"
   },
   "dependencies": {
     "next": "^16.3.0",

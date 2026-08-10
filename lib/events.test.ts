@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import type { BondiEvent } from '@/data/events';
+import { EVENTS, type BondiEvent } from '@/data/events';
 import {
   addDays,
   weekdayOf,
@@ -12,6 +12,8 @@ import {
   passesDateFilter,
   relativeDay,
   formatTime,
+  formatDateRange,
+  whenLabel,
 } from './events';
 
 // A fixed reference "today": Wednesday 12 August 2026.
@@ -19,21 +21,35 @@ const WED = '2026-08-12';
 
 const weekly = (weekday: number): BondiEvent => ({
   id: 'w', slug: 'w', title: 'Weekly', summary: '', description: [], timezone: 'Australia/Sydney',
-  recurrence: { freq: 'weekly', weekday },
+  recurrence: { freq: 'weekly', weekday }, dateStatus: 'recurring',
   venue: 'v', suburb: 'Bondi Beach', categories: ['markets'], audience: ['everyone'], priceType: 'free',
   status: 'scheduled', lastVerified: '2026-08-08',
 } as unknown as BondiEvent);
 
 const annualTBC = (month: number): BondiEvent => ({
   id: 'a', slug: 'a', title: 'Annual', summary: '', description: [], timezone: 'Australia/Sydney',
-  recurrence: { freq: 'annual', month }, datesToConfirm: true,
+  recurrence: { freq: 'annual', month }, dateStatus: 'tbc',
   venue: 'v', suburb: 'Bondi Beach', categories: ['arts'], audience: ['everyone'], priceType: 'free',
+  status: 'scheduled', lastVerified: '2026-08-08',
+} as unknown as BondiEvent);
+
+const announced = (startDate: string, endDate: string, month: number): BondiEvent => ({
+  id: 'an', slug: 'an', title: 'Announced', summary: '', description: [], timezone: 'Australia/Sydney',
+  startDate, endDate, recurrence: { freq: 'annual', month }, dateStatus: 'announced',
+  venue: 'v', suburb: 'Bondi Beach', categories: ['arts'], audience: ['everyone'], priceType: 'free',
+  status: 'scheduled', lastVerified: '2026-08-08',
+} as unknown as BondiEvent);
+
+const fixedAnnual = (month: number, day: number): BondiEvent => ({
+  id: 'f', slug: 'f', title: 'Fixed', summary: '', description: [], timezone: 'Australia/Sydney',
+  recurrence: { freq: 'annual', month, day }, dateStatus: 'confirmed',
+  venue: 'v', suburb: 'Bondi Beach', categories: ['seasonal'], audience: ['everyone'], priceType: 'varies',
   status: 'scheduled', lastVerified: '2026-08-08',
 } as unknown as BondiEvent);
 
 const oneOff = (startDate: string, endDate?: string): BondiEvent => ({
   id: 'o', slug: 'o', title: 'One-off', summary: '', description: [], timezone: 'Australia/Sydney',
-  startDate, endDate, venue: 'v', suburb: 'Bondi Beach', categories: ['music'], audience: ['everyone'],
+  startDate, endDate, dateStatus: 'announced', venue: 'v', suburb: 'Bondi Beach', categories: ['music'], audience: ['everyone'],
   priceType: 'free', status: 'scheduled', lastVerified: '2026-08-08',
 } as unknown as BondiEvent);
 
@@ -103,6 +119,80 @@ describe('one-off events', () => {
   it('matches a date range', () => {
     expect(occursInRange(oneOff('2026-08-14', '2026-08-16'), '2026-08-15', '2026-08-15')).toBe(true);
     expect(occursInRange(oneOff('2026-09-01'), '2026-08-12', '2026-08-18')).toBe(false);
+  });
+});
+
+describe('announced concrete editions', () => {
+  it('shows the announced start date while the edition is upcoming', () => {
+    const r = resolveEvent(announced('2026-10-16', '2026-11-02', 10), WED);
+    expect(r.nextDate).toBe('2026-10-16');
+    expect(r.exact).toBe(true);
+  });
+  it('renders a multi-day range as the when-label', () => {
+    const r = resolveEvent(announced('2026-10-16', '2026-11-02', 10), WED);
+    expect(whenLabel(r)).toBe('16 Oct – 2 Nov 2026');
+  });
+  it('rolls a passed edition forward to approximate timing (never recycles the old date)', () => {
+    const past = announced('2026-05-01', '2026-05-02', 5); // a May edition, finished well before WED (Aug)
+    const r = resolveEvent(past, WED);
+    expect(r.nextDate).toBeNull(); // no fake exact date is shown
+    expect(r.nextDate).not.toBe('2026-05-01'); // the passed date is never recycled
+    expect(r.sortDate.slice(0, 4)).toBe('2027'); // its approximate next occurrence is next year
+  });
+  it('is included in exact-day filters during its run', () => {
+    const e = announced('2026-08-14', '2026-08-16', 8);
+    expect(passesDateFilter(e, 'weekend', WED)).toBe(true); // Sat 15 / Sun 16 fall in range
+  });
+});
+
+describe('fixed-day annual (e.g. New Year’s Eve)', () => {
+  it('always shows the fixed calendar date — never TBC', () => {
+    const r = resolveEvent(fixedAnnual(12, 31), WED);
+    expect(r.nextDate).toBe('2026-12-31');
+    expect(r.exact).toBe(true);
+  });
+  it('matches occursOn for that day', () => {
+    expect(occursOn(fixedAnnual(12, 31), '2026-12-31')).toBe(true);
+    expect(occursOn(fixedAnnual(12, 31), '2026-12-30')).toBe(false);
+  });
+});
+
+// Data-integrity invariants over the REAL event dataset — these fail the build if an
+// event ever lands in a contradictory date state (the class of bug that produced the
+// "New Year's Eve → Dates TBC" issue). Mirrors scripts/verify-events.mjs.
+describe('event data integrity (real EVENTS)', () => {
+  const today = '2026-08-10';
+  it('every event has a dateStatus', () => {
+    for (const e of EVENTS) expect(e.dateStatus, e.slug).toBeTruthy();
+  });
+  it('confirmed/announced events can actually produce a shown date', () => {
+    for (const e of EVENTS) {
+      if (e.dateStatus === 'announced') expect(Boolean(e.startDate), `${e.slug} announced needs startDate`).toBe(true);
+      if (e.dateStatus === 'confirmed') {
+        const fixedDay = e.recurrence?.freq === 'annual' && e.recurrence.day != null;
+        expect(Boolean(e.startDate) || fixedDay, `${e.slug} confirmed needs a date`).toBe(true);
+      }
+    }
+  });
+  it('endDate is never before startDate', () => {
+    for (const e of EVENTS) if (e.startDate && e.endDate) expect(e.endDate >= e.startDate, e.slug).toBe(true);
+  });
+  it('tbc events carry no concrete startDate (would contradict the badge)', () => {
+    for (const e of EVENTS) if (e.dateStatus === 'tbc') expect(e.startDate, e.slug).toBeUndefined();
+  });
+  it('no event both has resolvable dates AND still shows the TBC badge', () => {
+    for (const e of EVENTS) {
+      const r = resolveEvent(e, today);
+      if (r.nextDate) expect(e.dateStatus, `${e.slug} resolves a date but is marked tbc`).not.toBe('tbc');
+    }
+  });
+  it('no announced/confirmed edition is silently stale (its dates already passed)', () => {
+    for (const e of EVENTS) {
+      if ((e.dateStatus === 'announced' || e.dateStatus === 'confirmed') && e.startDate) {
+        const end = e.endDate ?? e.startDate;
+        expect(end >= today, `${e.slug} ${e.dateStatus} edition (${e.startDate}..${end}) has passed — research next edition`).toBe(true);
+      }
+    }
   });
 });
 
