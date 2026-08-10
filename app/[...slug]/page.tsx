@@ -48,6 +48,16 @@ const REDIRECTED_PATHS = new Set([
   '/bondi-blog/2024/12/1/ranked-20-most-dramatic-bondi-rescue-rescues',
   '/bondi-blog/2025/4/29/behind-the-scenes-at-bondi-rescue-20-things-you-may-not-know-about-the-show',
   '/bondi-blog/meet-bondi-lifeguards',
+  // Cannibalisation consolidation round 2 (see next.config.mjs).
+  '/bondi-blog/why-is-bondi-so-popular',
+  '/bondi-blog/why-is-bondi-beach-famous',
+  '/bondi-blog/2018/10/17/when-is-the-best-time-to-visit-bondi-beach',
+  '/bondi-blog/2025/3/8/best-time-to-visit-bondi-beach-seasonal-guide-to-weather-events',
+  '/bondi-blog/2024/9/21/locals-guide-to-bondi-beachs-best-ice-cream',
+  '/bondi-blog/2018/9/11/how-far-is-bondi-beach-from-sydney',
+  '/bondi-blog/transport-to-bondi-beach',
+  '/bondi-blog/2025/4/29/ultimate-wet-weather-guide-to-bondi-rainy-day-activities-tips',
+  '/bondi-blog/2023/11/5/things-to-do-at-bondi-beach-in-the-rain',
 ]);
 
 export function generateStaticParams() {
