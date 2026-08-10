@@ -1,0 +1,53 @@
+{
+  "path": "/bondi-blog/2025/4/23/8-things-to-know-before-visiting-bondi-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Bondi Beach", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/bondi_beach" },
+    { "label": "Transport for NSW trip planner", "url": "https://transportnsw.info" },
+    { "label": "Surf Life Saving NSW — Beach safety", "url": "https://www.surflifesaving.com.au/beach-safety" },
+    { "label": "NSW Government — Bondi to Coogee Coastal Walk", "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/locations-and-attractions/bondi-to-coogee-coastal-walk" },
+    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you only remember one thing before visiting Bondi Beach, make it this: always swim between the red and yellow flags. After that, the smoothest Bondi day comes down to timing your arrival, leaving the car at home, and knowing which end of the beach suits you. I live and breathe this stretch of sand, so here are the eight things I'd genuinely tell a friend before they came down for the first time." },
+    { "type": "quickFacts", "items": [
+      { "label": "Where", "value": "Bondi Beach, Waverley, ~7km east of the Sydney CBD" },
+      { "label": "Swim zone", "value": "Between the red & yellow flags only" },
+      { "label": "Easiest transport", "value": "Train to Bondi Junction, then a bus" },
+      { "label": "Best for calm swims", "value": "The northern (Ben Buckler) end" },
+      { "label": "Cost to enjoy", "value": "The beach and coastal walk are free" }
+    ] },
+    { "type": "h2", "text": "1. Swim between the flags — and pick the right end" },
+    { "type": "p", "text": "Bondi is patrolled by professional lifeguards (the Bondi Rescue crew) and volunteer surf lifesavers, but it can also throw up strong rips, so the flags matter. The lifeguards move them to the safest patch of water each day, and swimming inside them is the single best thing you can do for your safety. As a rule of thumb the northern end near Ben Buckler is gentler and more family-friendly, while the southern end towards the Icebergs pulls the bigger swell and the surfers. Never sure about conditions? Ask a lifeguard — they'd far rather have the question than the rescue." },
+    { "type": "callout", "tone": "warning", "title": "Rips are the real risk, not sharks", "text": "Rip currents are the main hazard at Bondi. If you're ever caught in one, don't fight it — stay calm, raise an arm to signal for help, and float with the current until it eases or a lifesaver reaches you. Check the daily conditions before you get in." },
+    { "type": "h2", "text": "2. Getting here is easiest without a car" },
+    { "type": "p", "text": "Parking around Bondi is metered, time-limited and genuinely brutal on a sunny weekend — I've watched visitors circle for 40 minutes and miss half their day to it. The stress-free route is public transport: take a train to Bondi Junction, then hop on a bus down to the beach. The frequent 333 runs between the city and North Bondi, with the 380 covering the same corridor, and you tap on and off with an Opal card or a contactless bank card. For live timetables, always check the Transport for NSW trip planner." },
+    { "type": "localTip", "text": "Coming from the CBD, the train-to-Bondi-Junction-then-bus combo usually beats a direct bus for reliability, especially in summer when Bondi Road clogs up. Tap the same card the whole journey and your transfer is handled automatically." },
+    { "type": "h2", "text": "3. Come early (your best photos and easiest parking are before 9am)" },
+    { "type": "p", "text": "Bondi rewards early risers. A sunrise swim, a quiet promenade and a table at your café of choice are all far easier before the mid-morning crowd rolls in — and if you must drive, early is your only realistic shot at a park. Summer weekends and public holidays are the busiest; a weekday morning feels like a different, calmer beach entirely." },
+    { "type": "h2", "text": "4. The Bondi to Coogee coastal walk is unmissable" },
+    { "type": "p", "text": "If you do one thing beyond the sand, walk the roughly 6km Bondi to Coogee coastal path. It hugs the cliffs past Tamarama, Bronte and Clovelly, with the clifftop Waverley Cemetery and a string of ocean pools along the way. It's free, it's spectacular, and there are cafés and swimming spots to break it up. Wear proper shoes and take water — it's more up-and-down than people expect." },
+    { "type": "h2", "text": "5. Bondi Icebergs is worth the look — but check times before you go" },
+    { "type": "p", "text": "That famous ocean pool jutting into the surf at the southern end is Bondi Icebergs, the club pool established back in 1929. Non-members are welcome to swim for an entry fee, and there's a restaurant and bar upstairs with one of the best views in Sydney. Session times, closure days for cleaning and swim prices do change, though, so check the Icebergs website before you make a special trip." },
+    { "type": "h2", "text": "6. There's shade, sunscreen and etiquette to think about" },
+    { "type": "p", "text": "Australian sun is no joke — the UV here will burn you faster than you'd believe, so bring a hat, a rashie and high-SPF sunscreen, and reapply. Natural shade on the sand is limited, so claim a spot early or bring your own. A few unwritten local rules go a long way, too:" },
+    { "type": "list", "items": [
+      "Give surfers and boardriders room — the flagged swimming zone keeps everyone apart for a reason.",
+      "Take your rubbish with you; the bins fill fast on busy days.",
+      "Dogs aren't permitted on Bondi Beach itself — check Waverley Council for nearby dog-friendly areas.",
+      "Keep music low and share the promenade with runners and prams."
+    ] },
+    { "type": "h2", "text": "7. Markets, festivals and a buzzing food scene" },
+    { "type": "p", "text": "Bondi is far more than sand. The Bondi Markets run on Sundays at the local public school, and each spring the clifftop fills with Sculpture by the Sea, the free outdoor exhibition along the Bondi to Tamarama section of the coastal walk. For food, Hall Street and the beachfront are packed with cafés, brunch spots and gelato. Dates and opening days shift year to year, so check the official event pages before you plan around them." },
+    { "type": "h2", "text": "8. There's more to do than just the beach" },
+    { "type": "p", "text": "Even if the surf's flat or the weather turns, Bondi holds up: the coastal walk, the ocean pools, the cafés, the boutiques around Gould and Hall Streets, and the sunset over the cliffs. Come for a swim, but leave time to linger — that's when the place really gets under your skin." },
+    { "type": "faq", "items": [
+      { "q": "What's the best way to get to Bondi Beach from the city?", "a": "Take a train to Bondi Junction, then a bus down to the beach — the 333 and 380 run this corridor frequently. It's usually faster and far less stressful than driving and hunting for a park. Check the Transport for NSW trip planner for live times." },
+      { "q": "Is it safe to swim at Bondi Beach?", "a": "Yes, as long as you swim between the red and yellow flags, where the lifeguards patrol. Rip currents are the main hazard, so avoid unpatrolled areas, check the daily conditions, and ask a lifeguard if you're unsure." },
+      { "q": "Which end of Bondi is best for families?", "a": "The northern end near Ben Buckler is generally calmer and more sheltered, making it the friendlier choice for kids and less confident swimmers. The southern end near Icebergs gets the bigger surf." },
+      { "q": "Do I need to pay to enjoy Bondi Beach?", "a": "No — the beach, the promenade and the Bondi to Coogee coastal walk are all free. You only pay for extras like the Bondi Icebergs pool, parking, food and any tours or lessons you choose." },
+      { "q": "When is the best time to visit Bondi Beach?", "a": "Early morning, especially on a weekday, is the sweet spot: quieter sand, easier parking and beautiful light. Summer weekends and public holidays are the busiest, so arrive before 9am if you can." }
+    ] }
+  ]
+}

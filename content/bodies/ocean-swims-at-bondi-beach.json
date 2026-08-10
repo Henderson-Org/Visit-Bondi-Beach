@@ -1,0 +1,47 @@
+{
+  "path": "/bondi-blog/2017/9/10/ocean-swims-at-bondi-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Macquarie Bondi to Bronte Ocean Swim (official)", "url": "https://www.bonditobronte.com.au/" },
+    { "label": "North Bondi Surf Life Saving Club — Oceana Funds North Bondi Swim Classic", "url": "https://northbondisurfclub.com/oceana-funds-north-bondi-swim-classic-2026/" },
+    { "label": "oceanswims.com — NSW ocean swim calendar", "url": "https://oceanswims.com/" },
+    { "label": "Surf Life Saving NSW — beach safety", "url": "https://www.surflifesaving.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you want to swim a proper organised ocean race out of Bondi, the two I'd build a summer around are the Bondi to Bronte and the North Bondi Classic — both are real, well-run, decades-old events that welcome anyone who can confidently cover the distance in open water. Bondi's headlands, patrolled sand and swim-club culture make it one of the best places in Sydney to pin on a cap and give it a crack, whether it's your first 1km or your fiftieth point-to-point." },
+    { "type": "quickFacts", "items": [
+      { "label": "Where", "value": "Bondi Beach, Sydney (eastern suburbs)" },
+      { "label": "Season", "value": "Roughly December to March (summer)" },
+      { "label": "Flagship race", "value": "Bondi to Bronte (~2–2.4km)" },
+      { "label": "Best for beginners", "value": "North Bondi Classic 1km" },
+      { "label": "Full calendar", "value": "oceanswims.com" }
+    ] },
+    { "type": "h2", "text": "The two Bondi swims I'd put on your calendar" },
+    { "type": "h3", "text": "Bondi to Bronte" },
+    { "type": "p", "text": "This is Bondi's most famous ocean swim and, for a lot of Sydneysiders, the one that matters. You start on Bondi's sand, swim out and around Mackenzies Point, then track down the coast into Bronte — a course of roughly 2 to 2.4km depending on how the organisers set the buoys on the day. Swimming around the cliffs gives you a perspective of Bondi almost no one else gets, but don't underestimate it: the middle section past the point can serve up real swell and current. It typically runs in early December, and 2026 marks its 25th year. Entries and the exact date go up on the official Bondi to Bronte site, so check there rather than trusting any date you read second-hand." },
+    { "type": "h3", "text": "North Bondi Classic" },
+    { "type": "p", "text": "Run by the North Bondi Surf Life Saving Club — one of the oldest clubs in the country — the Classic is my pick for a first ocean race. It offers a 1km and a 2km option, and it starts and finishes on the sand right in front of the club at the northern, calmer end of the beach, sheltered a little by Ben Buckler headland. The atmosphere is fantastic: hundreds of swimmers, families spread along the promenade, and lifesavers everywhere. It usually runs in the back half of summer. Confirm the current date and course on the North Bondi Surf Club website before you enter." },
+    { "type": "callout", "tone": "warning", "title": "These are open-water races, not pool laps", "text": "Conditions off Bondi can turn quickly — swell, chop and rips are all part of the deal, especially once you're past the flags and around the point. Only enter a distance you can comfortably swim in the open ocean, not just in a pool. If in doubt, start with a 1km event, swim well within yourself, and always follow the on-water safety crew." },
+    { "type": "h2", "text": "How to enter and what to expect" },
+    { "type": "p", "text": "Most Sydney ocean swims, including these, are managed through online entry that opens weeks or months ahead and can sell out — so plan early rather than rocking up on the day hoping for a spot. Here's how I'd approach it:" },
+    { "type": "list", "items": [
+      "Enter online in advance via each event's official site; don't count on race-day entries.",
+      "Build up your open-water distance beforehand — swimming in surf and chop is very different to a still pool.",
+      "Get comfortable sighting (lifting your eyes to spot the buoys) and swimming a straight line without a lane rope.",
+      "Bring a bright silicone cap, goggles you trust, and consider a thin wetsuit or swim top early or late in the season.",
+      "Know the rules — some events are wetsuit-optional and have their own categories."
+    ] },
+    { "type": "localTip", "text": "Do a few practice swims between the flags at Bondi on a calm morning first, and get a feel for sighting off the headlands. If you can happily swim to the buoy line and back a couple of times without stopping, you're in good shape for a 1km event." },
+    { "type": "h2", "text": "Finding the full season" },
+    { "type": "p", "text": "Bondi's swims are part of a whole eastern-suburbs summer circuit, and exact events and dates shift from year to year — which is why I won't quote a calendar that might be stale by the time you read it. The best place to see what's on is oceanswims.com, which lists the NSW season with entry links, so you can line up Bondi's races alongside neighbours like Bronte and Coogee." },
+    { "type": "faq", "items": [
+      { "q": "What's the most famous ocean swim at Bondi Beach?", "a": "The Bondi to Bronte Ocean Swim — a roughly 2 to 2.4km point-to-point that starts on Bondi's sand, rounds Mackenzies Point and finishes at Bronte. It usually runs in early December; check the official Bondi to Bronte website for the current date and entries." },
+      { "q": "Which Bondi ocean swim is best for beginners?", "a": "The North Bondi Classic's 1km option is a great first race. It starts and finishes at the calmer northern end of the beach in front of the North Bondi Surf Life Saving Club, with lots of on-water safety support." },
+      { "q": "Do I need to be a strong swimmer?", "a": "You need to be able to confidently swim the distance in open water, which is harder than a pool because of swell, chop and current. Start with a 1km event, train in the surf beforehand, and never enter a distance you're unsure about." },
+      { "q": "How do I enter a Bondi ocean swim?", "a": "Enter online through each event's official website ahead of time — races can sell out and race-day entries aren't guaranteed. For the full NSW season and entry links, oceanswims.com is the best hub." },
+      { "q": "When is the ocean swim season at Bondi?", "a": "Most events run through the Sydney summer, roughly December to March, when the water is warmest. Exact dates change each year, so always confirm on the official event site before planning your trip." }
+    ] },
+    { "type": "p", "text": "However you approach it, there's nothing quite like rounding the point on a clear Bondi morning with a few hundred other swimmers, the cliffs on one side and open ocean on the other. Train sensibly, enter early, respect the conditions — and I'll see you out past the flags." }
+  ]
+}
