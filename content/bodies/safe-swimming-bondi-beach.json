@@ -1,0 +1,44 @@
+{
+  "path": "/bondi-blog/safe-swimming-bondi-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
+    { "label": "Surf Life Saving — Beachsafe (Bondi)", "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi-beach/bondi" },
+    { "label": "Surf Life Saving NSW — Beach safety", "url": "https://www.surflifesaving.com.au/beach-safety" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you only remember one thing about swimming at Bondi, make it this: always swim between the red and yellow flags. Those two flags mark the patch of water the lifeguards have judged safest on the day, and it's the single most effective thing you can do to stay safe. I've lived alongside this beach for years, and almost every serious scare I've seen involved someone who wandered outside that zone — usually straight into a rip." },
+    { "type": "p", "text": "Bondi is a glorious place to get in the water, but it's an open ocean beach, not a swimming pool. Conditions shift with the tide, the swell and the wind, so the smartest swimmers read the beach before they read their towel." },
+    { "type": "h2", "text": "The flags, the lifeguards and the rips" },
+    { "type": "p", "text": "The flags move up and down the sand through the day as the lifeguards reassess conditions. Set up your gear roughly in line with them and you'll never have far to swim to safety. Bondi is patrolled year-round, but the exact start and finish times shift with the season — check the current patrol status on the Beachsafe app or the Waverley Council page before you rely on it, especially early morning or near dusk." },
+    { "type": "p", "text": "The thing to genuinely respect at Bondi is rips — narrow channels of water flowing back out to sea. The best known is the one nicknamed Backpackers', which has earned its name by catching visitors who assume the calmer-looking water is the safest. It usually isn't: calm, flat, darker water with fewer breaking waves is often a rip, not a sheltered spot." },
+    { "type": "callout", "tone": "warning", "title": "If you're caught in a rip", "text": "Don't panic and don't try to swim against it — a rip will out-muscle even strong swimmers. Stay calm, float on your back to conserve energy, and raise one arm to signal the lifeguards. If you can, swim parallel to the beach toward the breaking waves, which will help carry you back in. Surf Life Saving's 'Float to Survive' message says it best: float first, and help will come." },
+    { "type": "h2", "text": "How I read the beach before I swim" },
+    { "type": "p", "text": "Before I get in, I take thirty seconds to actually look at the water. Where are the waves breaking evenly? Where's that suspicious flat, churny channel being pulled seaward? If the surf is big and messy and you're not a confident ocean swimmer, there's no shame in staying in the shallows or heading to the Icebergs ocean pool at the south end instead." },
+    { "type": "list", "items": [
+      "Swim between the red and yellow flags — always, no exceptions.",
+      "Never swim alone, and keep children within arm's reach in the shallows.",
+      "If in doubt, don't go out — or ask a lifeguard, that's what they're there for.",
+      "Never swim after drinking alcohol; it's a factor in far too many drownings.",
+      "Check conditions on the Beachsafe app before you commit to a swim."
+    ] },
+    { "type": "localTip", "text": "In summer, watch for bluebottles (the little blue jellyfish that wash up after onshore winds) — stranded ones on the sand are a warning that more are in the water. If you get stung, rinse with seawater (not fresh water), pick off any tentacles, and the lifeguards can help. And genuinely: talk to them. A quick 'where's the safest spot today?' gets you a straight answer every time." },
+    { "type": "quickFacts", "items": [
+      { "label": "Golden rule", "value": "Swim between the red & yellow flags" },
+      { "label": "Patrols", "value": "Year-round; check Beachsafe for today's hours" },
+      { "label": "Main hazard", "value": "Rips (incl. the well-known Backpackers')" },
+      { "label": "If caught", "value": "Float, raise an arm, don't fight it" },
+      { "label": "Calmer option", "value": "Bondi Icebergs ocean pool (south end)" }
+    ] },
+    { "type": "h2", "text": "Common questions I get asked" },
+    { "type": "faq", "items": [
+      { "q": "Is it safe to swim at Bondi Beach?", "a": "Yes — provided you swim between the red and yellow flags during patrol hours and respect the conditions. Bondi is a patrolled ocean beach with professional lifeguards, but it does have rips and changing surf, so the flagged area is where you want to be." },
+      { "q": "What should I do if I get caught in a rip?", "a": "Stay calm and don't swim against it. Float on your back to save energy, raise one arm to signal for help, and if you're able, swim parallel to the beach toward the breaking waves. The lifeguards watch the flagged area constantly and will come to you." },
+      { "q": "What are the flags at Bondi and why do they matter?", "a": "The red and yellow flags mark the area lifeguards have assessed as safest to swim on the day, and it's the zone they're actively watching. They move the flags as conditions change, so swim between them rather than picking your own spot." },
+      { "q": "How do I know if the beach is patrolled right now?", "a": "Check the free Beachsafe app from Surf Life Saving or the Waverley Council beach safety page, which show live patrol status, surf conditions and hazards for Bondi. Hours vary by season, so it's worth a quick look before an early-morning or late-evening swim." },
+      { "q": "Where can I swim if the surf looks too rough?", "a": "Head to the Bondi Icebergs ocean pool at the southern end — it's a sheltered saltwater pool with far calmer water than the open beach. Check the Icebergs website for current opening times and session details before you go." }
+    ] },
+    { "type": "p", "text": "None of this is meant to scare you out of the water — Bondi is one of the great swimming beaches on earth. Read the beach, stick between the flags, keep an eye on your group, and you'll have exactly the day you came for." }
+  ]
+}

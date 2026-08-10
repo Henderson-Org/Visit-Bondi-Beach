@@ -1,0 +1,51 @@
+{
+  "path": "/bondi-blog/2023/11/8/definitive-guide-to-bondis-best-restaurants",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Icebergs Dining Room and Bar (official)", "url": "https://idrb.com" },
+    { "label": "Totti's Bondi — Merivale (official)", "url": "https://merivale.com/venues/tottis/" },
+    { "label": "Da Orazio Pizza + Porchetta (official)", "url": "https://www.daorazio.com.au" },
+    { "label": "Sean's Bondi (official)", "url": "https://seansbondi.com" },
+    { "label": "bills (official)", "url": "https://bills.com.au" },
+    { "label": "Broadsheet — Da Orazio returns to its original Bondi home", "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/italian-restaurant-da-orazio-back-original-bondi-spot-and-its-sydney-famous-puffy-pizzas-and-porchetta-sandwich" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you want the honest, local answer to where to eat in Bondi, here it is: for a special occasion with an ocean view it's Icebergs, for a long boozy Italian lunch it's Totti's, for the best porchetta it's Da Orazio, for produce-driven fine dining it's Sean's, and for a Bondi breakfast institution it's bills. I've eaten my way around this beach for years, so here's what each place is actually good for — and when I'd book it." },
+    { "type": "quickFacts", "items": [
+      { "label": "Best view", "value": "Icebergs Dining Room" },
+      { "label": "Best long lunch", "value": "Totti's" },
+      { "label": "Best porchetta", "value": "Da Orazio" },
+      { "label": "Best breakfast", "value": "bills" },
+      { "label": "Book ahead?", "value": "Yes — weekends fill fast" }
+    ] },
+    { "type": "h2", "text": "The special-occasion pick: Icebergs Dining Room and Bar" },
+    { "type": "p", "text": "Perched on the southern headland above the Bondi Icebergs ocean pool, this is the view every postcard of Bondi is trying to be. It's Maurice Terzini's flagship — polished Italian food, a serious wine list, and that sweep of turquoise water and surf through floor-to-ceiling glass. It's my go-to for anniversaries and 'my parents are visiting' lunches. It's genuinely fine dining — treat it as a splurge, book well ahead, and note the smart-casual dress code. Session times, menus and prices shift, so check the Icebergs website before you go rather than trusting an out-of-date number online." },
+    { "type": "localTip", "text": "Book for around 45 minutes before sunset in the cooler months: you get the drama of the light on the water without the peak-lunch crowd, and the walk down Notts Avenue afterwards is one of the prettiest in Sydney." },
+    { "type": "h2", "text": "The long-lunch pick: Totti's" },
+    { "type": "p", "text": "Totti's, inside The Royal Bondi on Bondi Road, is where I take a group when the plan is 'sit down at one, leave at four'. It's Merivale's warm, woodfired Italian — the sort of sharing menu built around that pillowy house bread, charcoal-grilled meats and fish, and negronis that arrive a little too easily. The leafy courtyard is made for a crowd — my default for birthdays. Weekends book out, so reserve ahead through the Merivale site." },
+    { "type": "h2", "text": "The pizza-and-porchetta pick: Da Orazio" },
+    { "type": "p", "text": "Da Orazio Pizza + Porchetta on Hall Street is the one I send every visitor to. Orazio D'Elia's blistered, wood-fired Neapolitan pizza is the headline, but the move is the focaccia con porchetta — roast pork tucked into pizza bread — which is exactly as good as it sounds. It reopened at Bondi in 2022 and picked up a Chef's Hat in the Good Food Guide the following year, so it's not just a nostalgia play. It's lively, family-friendly and more relaxed (and affordable) than the fine-dining rooms." },
+    { "type": "h2", "text": "The chef's-choice pick: Sean's" },
+    { "type": "p", "text": "Sean's (long known as Sean's Panorama) on Campbell Parade has been a Bondi institution since 1993, and it still feels like eating in someone's home. Chef-owner Sean Moran changes the menu daily around what's good — much of it from his own Bilpin farm — so I just turn up hungry and let the kitchen decide. It's a small room with limited service days, so book directly." },
+    { "type": "h2", "text": "The breakfast pick: bills" },
+    { "type": "p", "text": "No honest Bondi list skips bills. Bill Granger's original sunlit dining room made ricotta hotcakes and creamy scrambled eggs famous worldwide, and a late breakfast here is a proper Bondi ritual. It's popular, so expect a weekend queue — go early, or slide in mid-morning on a weekday." },
+    { "type": "callout", "tone": "note", "title": "One honest caveat on 'rankings'", "text": "Any list that claims to 'objectively rank' restaurants is really just one crew's taste. Bondi's dining changes fast — venues rebrand, chefs move, hours shift. Treat this as a starting point, and always confirm opening days, menus and prices on each venue's own site before heading down." },
+    { "type": "h2", "text": "How to choose in 30 seconds" },
+    { "type": "list", "items": [
+      "Want the view and don't mind spending: Icebergs.",
+      "Big group, long lunch, Italian sharing plates: Totti's.",
+      "Casual, wood-fired, the famous porchetta: Da Orazio.",
+      "Trust-the-chef, seasonal, intimate: Sean's.",
+      "Classic Bondi breakfast: bills."
+    ] },
+    { "type": "faq", "items": [
+      { "q": "What is the best restaurant in Bondi?", "a": "There's no single winner — it depends on the occasion: Icebergs for an ocean-view splurge, Totti's for a long Italian lunch, Da Orazio for wood-fired pizza and porchetta, Sean's for chef's-choice seasonal cooking, and bills for the classic Bondi breakfast." },
+      { "q": "Do I need to book a table in Bondi?", "a": "For Icebergs, Totti's and Sean's, yes — book directly through each venue, especially on weekends and in summer. Da Orazio and bills are more walk-in friendly, but expect a wait at peak times." },
+      { "q": "Where can I get the best view while I eat?", "a": "Icebergs Dining Room and Bar, on the headland above the Bondi Icebergs ocean pool, has the standout view over the beach. Time a booking near sunset in the cooler months for the best of it." },
+      { "q": "Are there cheaper places to eat in Bondi?", "a": "Plenty. The fine-dining rooms are a splurge, but Da Orazio is more relaxed, and Bondi's cafés, bakeries and casual spots along Hall Street and Gould Street cover great cheap eats. Always check current prices before you go." },
+      { "q": "Is Da Orazio still open in Bondi?", "a": "Yes. Da Orazio Pizza + Porchetta reopened at its Hall Street, Bondi home in 2022 and earned a Chef's Hat the following year. Check the official Da Orazio website for current opening days and hours." }
+    ] },
+    { "type": "p", "text": "That's my honest shortlist. Whichever you choose, do what I do — open the venue's own website first, confirm the day and time, and book if you can. Then go early enough to walk it off along the promenade afterwards. That's the real Bondi dining experience." }
+  ]
+}

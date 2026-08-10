@@ -1,0 +1,41 @@
+{
+  "path": "/bondi-blog/2024/12/26/can-you-jump-from-the-cliff-at-bronte-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
+    { "label": "Waverley Council — Council news & updates (North Bronte rock slip)", "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news" },
+    { "label": "Surf Life Saving NSW — Beachsafe", "url": "https://beachsafe.org.au/beach/nsw/waverley/bronte/bronte" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Short answer, and I'll give it to you straight because it matters: no, you shouldn't jump from the cliffs at Bronte Beach. It isn't a sanctioned activity, the water below hides rocks and shifting sandbars, and the swell here can turn a calm-looking cove into something genuinely dangerous in minutes. I've lived and swum around this coast for years, and Bronte is one spot where the 'it looks fine' instinct gets people badly hurt." },
+    { "type": "p", "text": "I understand the temptation. Bronte is one of the prettiest little beaches on the eastern suburbs coastline — a grassy park, a gorgeous ocean pool, sandstone headlands framing the bay. On a hot day the deep-looking water off the rocks looks like an invitation. But what you can't see from the top is what makes cliff and rock jumping here a bad idea." },
+    { "type": "h2", "text": "Why jumping the cliffs at Bronte is so risky" },
+    { "type": "p", "text": "Bronte packs several hazards into a very small bay. The beach is known for strong, fast-moving rip currents — the famous 'Bronte Express' rip that can drag you out along the southern rocks. Below the cliffs the depth changes constantly with the tide and swell, so a spot that looks deep on one wave is shallow on the next, with submerged and barely-covered rocks in between. Add surging water that pushes you sideways into the rock shelf, and even a confident swimmer can be in trouble fast." },
+    { "type": "callout", "tone": "warning", "title": "The cliffs themselves aren't stable either", "text": "In 2025 a significant rock slip at North Bronte led Waverley Council to close off part of the beach and walkway while the unstable ground was monitored. Sandstone headlands erode and give way — another reason to stay off the edges and behind any fencing or exclusion signage. Check Waverley Council for the current status before you go." },
+    { "type": "h2", "text": "The safer ways to cool off at Bronte" },
+    { "type": "p", "text": "Here's the good news: Bronte gives you brilliant, safe ways to get in the water without gambling on the rocks. My honest advice is to skip the jumping entirely and use what the beach was practically built for." },
+    { "type": "list", "items": [
+      "Bronte Baths — the historic ocean pool carved into the rocks at the southern end, dating back to the 1880s. It's one of Sydney's most beautiful sea pools and free to use.",
+      "The Bogey Hole — a natural rock pool beside the baths where locals and kids paddle. It's calmer than the open surf, but still respect the swell when waves are washing over the rocks.",
+      "The flagged area on the beach — swim between the red-and-yellow flags where the lifeguards can see you. Bronte has one of Australia's longest-running surf lifesaving traditions for a reason.",
+      "The Bondi-to-Bronte coastal walk — if it's the clifftop views you're chasing, walk the path rather than leaping off it."
+    ] },
+    { "type": "localTip", "text": "If you want the thrill of deeper water without the rip, time a visit to Bronte Baths near high tide on a bigger-swell day — waves wash right over the pool wall and it feels wonderfully wild, but you're still inside a protected pool with a wall between you and the open sea." },
+    { "type": "quickFacts", "items": [
+      { "label": "Cliff jumping", "value": "Not sanctioned & dangerous" },
+      { "label": "Main hazards", "value": "Rip currents, submerged rocks, unstable cliffs" },
+      { "label": "Safe swim", "value": "Between the flags / Bronte Baths" },
+      { "label": "Before you go", "value": "Check Waverley Council & Beachsafe" }
+    ] },
+    { "type": "p", "text": "None of this is me being a killjoy. Bronte is one of my favourite beaches in Sydney precisely because it's a bit wild — the surf has real power and the setting is stunning. But that same power is exactly why the smart move is to swim between the flags, float in the baths, and admire the cliffs from the coastal path rather than the air." },
+    { "type": "faq", "items": [
+      { "q": "Is cliff jumping at Bronte Beach illegal?", "a": "Rather than a novelty rule, treat it as unsafe and not sanctioned — lifeguards actively discourage it and parts of the headland can be fenced off, as happened after the 2025 North Bronte rock slip. For the current on-the-ground rules and any closures, check Waverley Council before you visit." },
+      { "q": "Why is jumping into the water at Bronte so dangerous?", "a": "The bay has strong rip currents, water depth that changes with every wave and tide, submerged rocks close to the surface, and surging swell that can slam you into the rock shelf. You can't judge any of that safely from the top of a cliff." },
+      { "q": "Where can I safely swim at Bronte instead?", "a": "Swim between the red-and-yellow flags on the beach, or use the historic Bronte Baths ocean pool and the adjacent Bogey Hole at the southern end. All are far safer than the open rocks." },
+      { "q": "Is Bronte Beach open after the cliff rock slip?", "a": "The beach itself has stayed open, but Waverley Council closed off part of North Bronte and its walkway after a 2025 rock slip and kept monitoring the unstable ground. Always check the council's latest updates and obey any signage or fencing." },
+      { "q": "Are there lifeguards at Bronte Beach?", "a": "Yes — Bronte is a patrolled beach with a long surf lifesaving history, and lifeguards flag the safest swimming area. Patrol hours vary by season, so look for the flags and check Surf Life Saving's Beachsafe for the day's conditions." }
+    ] },
+    { "type": "p", "text": "So, can you jump from the cliff at Bronte? You physically can — but you really shouldn't. Come for the pool, the Bogey Hole, the walk and the view, keep your feet on the sandstone, and you'll leave Bronte with the good kind of memories." }
+  ]
+}

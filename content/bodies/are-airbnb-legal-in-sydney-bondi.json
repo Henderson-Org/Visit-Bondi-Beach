@@ -1,0 +1,46 @@
+{
+  "path": "/bondi-blog/are-airbnb-legal-in-sydney-bondi",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "NSW Government — Short-term rental accommodation policy", "url": "https://www.planning.nsw.gov.au/policy-and-legislation/housing/short-term-rental-accommodation" },
+    { "label": "Service NSW — Register a short-term rental accommodation property", "url": "https://www.service.nsw.gov.au/transaction/register-short-term-rental-accommodation-property" },
+    { "label": "NSW Planning Portal — Short-term rental accommodation", "url": "https://www.planning.nsw.gov.au/the-planning-system/housing/short-term-rental-accommodation" },
+    { "label": "Waverley Council", "url": "https://www.waverley.nsw.gov.au" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Yes — Airbnb and other short-term rental accommodation (STRA) is legal in Bondi and right across New South Wales, but it comes with real rules, and the one that catches most people out is a 180-day cap. Bondi sits in the Waverley local government area within Greater Sydney, so the state's tighter Greater Sydney limits apply here. Would-be hosts ask me about it constantly, and guests wonder why a listing suddenly went dark for the season. Here's how it actually works." },
+    { "type": "quickFacts", "items": [
+      { "label": "Legal in Bondi?", "value": "Yes, with conditions" },
+      { "label": "Register first", "value": "NSW STRA Register (mandatory)" },
+      { "label": "Non-hosted cap", "value": "180 days/year in Greater Sydney" },
+      { "label": "Hosted stays", "value": "No day cap" },
+      { "label": "Applies to", "value": "Waverley LGA (incl. Bondi)" }
+    ] },
+    { "type": "h2", "text": "Hosted vs non-hosted — the distinction that decides everything" },
+    { "type": "p", "text": "NSW splits STRA into two categories, and which one you fall into changes the rules dramatically. \"Hosted\" means the host lives on the premises while guests stay — renting out a spare room while you're home. \"Non-hosted\" means the host isn't there — the classic \"whole place\" Airbnb where you hand over the keys and disappear." },
+    { "type": "p", "text": "Hosted STRA in Bondi has no annual day limit — you can host as many nights as you like, provided you meet the other requirements. Non-hosted STRA is where the cap bites: in Greater Sydney (which includes Waverley and therefore Bondi), a whole-property listing is capped at 180 days a year when the host isn't present." },
+    { "type": "callout", "tone": "note", "title": "How the 180 days are counted", "text": "The count runs over a 12-month registration period, not the calendar year. And here's the part hosts often miss: any single booking of 21 or more consecutive days to the same guest is excluded from the 180-day tally. Long-stay guests don't eat into your cap." },
+    { "type": "h2", "text": "You must register before you list" },
+    { "type": "p", "text": "This is the step people skip and later regret. Before you advertise or take a single booking, the property must be registered on the NSW STRA Register via the NSW Planning Portal. You're issued a property ID that must appear on the listing — platforms like Airbnb and Stayz expect to see it. Registration also requires you to confirm the dwelling meets fire-safety standards and to agree to the mandatory Code of Conduct." },
+    { "type": "list", "items": [
+      "Register the property on the NSW STRA Register before advertising.",
+      "Display your STRA property ID on every listing.",
+      "Meet the fire-safety requirements for the dwelling.",
+      "Comply with the mandatory Code of Conduct (in force since December 2020).",
+      "Renew your registration annually to stay active."
+    ] },
+    { "type": "p", "text": "There are registration and annual renewal fees. Because government fees change, I won't quote a figure that may be stale by the time you read this — check the current amounts on Service NSW or the NSW Planning Portal before you pay." },
+    { "type": "h2", "text": "The Code of Conduct and the two-strikes rule" },
+    { "type": "p", "text": "The Code of Conduct sets minimum standards for everyone in the market — hosts, guests, platforms and letting agents — and it has teeth. It covers noise, disruptive behaviour and neighbour complaints. Serious or repeated breaches can land a host or guest on an exclusion register, and a \"two strikes\" principle means two serious breaches within two years can trigger a five-year ban from the market. It's genuinely enforced, not just paperwork." },
+    { "type": "localTip", "text": "If your Bondi apartment is in a strata building, check the by-laws before you count on Airbnb income. An owners corporation can pass a by-law prohibiting short-term letting in lots that are NOT the host's principal place of residence. Plenty of beachside blocks here have done exactly that, and a valid state registration won't override a lawful strata ban." },
+    { "type": "faq", "items": [
+      { "q": "Is Airbnb legal in Bondi?", "a": "Yes. Short-term rental accommodation is legal across NSW, including Bondi, provided the property is registered on the NSW STRA Register, meets fire-safety requirements, and the host follows the Code of Conduct. Bondi is in the Waverley LGA within Greater Sydney, so the Greater Sydney rules — including the 180-day non-hosted cap — apply." },
+      { "q": "What is the 180-day limit and does it apply to Bondi?", "a": "In Greater Sydney, non-hosted (whole-property, host-not-present) STRA is capped at 180 days over a 12-month registration period. Bondi falls inside Greater Sydney, so yes, it applies. Hosted stays, where you live on-site, have no day cap. Bookings of 21+ consecutive days to the same guest don't count toward the 180." },
+      { "q": "Do I need to register my Bondi property?", "a": "Yes — registration on the NSW STRA Register via the NSW Planning Portal is mandatory before you advertise or take bookings. You'll receive a property ID that must be displayed on your listing, and registration must be renewed annually." },
+      { "q": "Can my strata building ban short-term rentals?", "a": "It can. An owners corporation may adopt a by-law prohibiting short-term letting in lots that are not the host's principal place of residence. If your apartment isn't your main home, a strata ban can lawfully stop you letting it short-term even if you're otherwise registered." },
+      { "q": "What happens if a host breaks the rules?", "a": "Breaches of the Code of Conduct can lead to penalties and listing on an exclusion register. Under the two-strikes principle, two serious breaches within two years can result in a five-year ban from participating in the STRA market." }
+    ] },
+    { "type": "p", "text": "The short version: renting your Bondi place on Airbnb is legal, but treat registration, the 180-day non-hosted cap and your strata by-laws as non-negotiable homework. For current fees and any policy updates, go to the NSW Planning Portal and Service NSW rather than a host forum." }
+  ]
+}

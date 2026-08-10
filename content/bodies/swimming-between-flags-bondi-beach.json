@@ -1,0 +1,45 @@
+{
+  "path": "/bondi-blog/swimming-between-flags-bondi-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Beach Safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
+    { "label": "Surf Life Saving NSW — Beach Safety", "url": "https://www.surflifesaving.com.au/beach-safety" },
+    { "label": "Bondi Lifeguards — Surf Safety", "url": "https://www.bondilifeguards.com/surf-safety" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "The honest answer is no — no one will fine you or drag you off the sand for swimming outside the flags at Bondi. But after years of watching this beach, my advice is that you should. The red-and-yellow flags mark the water the lifeguards have judged safest today and are actively watching — staying inside them is the easiest thing you can do to keep a Bondi swim a happy memory, not a scary one." },
+    { "type": "p", "text": "Bondi looks gentle on a calm morning, but it's an open ocean beach with real surf and real rip currents. The flags aren't a formality — they move up and down the sand every day because the safest spot shifts with the swell, the tide and the rips. Swim between them and you're exactly where the professionals want you." },
+    { "type": "h2", "text": "What the red-and-yellow flags actually mean" },
+    { "type": "p", "text": "A pair of red-and-yellow flags in the sand marks the supervised swimming area. Inside that corridor, the lifeguards have assessed conditions, chosen the least hazardous stretch of water, and are keeping constant watch. It's where they can see you fastest and reach you soonest if anything goes wrong." },
+    { "type": "p", "text": "Don't confuse them with the other flags you'll see. A single red flag means the beach — or that section of it — is closed: don't enter the water. Black-and-white chequered flags mark a zone for surfboards and craft, kept away from swimmers. Remember one thing: red-and-yellow means swim here." },
+    { "type": "quickFacts", "items": [
+      { "label": "Do you have to?", "value": "Not legally — but strongly advised" },
+      { "label": "Red & yellow flags", "value": "Supervised swimming area" },
+      { "label": "Single red flag", "value": "Beach closed — do not enter" },
+      { "label": "Black & white flags", "value": "Surfboard / craft zone" },
+      { "label": "Patrolled", "value": "Daily, year-round by Waverley Council lifeguards" }
+    ] },
+    { "type": "h2", "text": "Why it matters at Bondi specifically" },
+    { "type": "p", "text": "Bondi is famous for its rips. A rip is a strong, narrow flow of water heading back out to sea, and it can carry a confident swimmer out of their depth in seconds. The catch is that a rip often looks like the calmest part of the beach — a darker, flatter channel with fewer waves. That deceptive calm is why so many people who get into trouble were swimming outside the flags." },
+    { "type": "p", "text": "The lifeguards read those rips for a living and set the flags to keep you clear of them — so you've stacked the odds in your favour before your feet are wet." },
+    { "type": "callout", "tone": "warning", "title": "If you're ever caught in a rip", "text": "Don't panic, and don't try to swim straight back against it — that's how people exhaust themselves. Stay calm, float to conserve energy, and raise one arm to signal for help. If you can, swim parallel to the beach to escape the current, then head for shore. On a patrolled beach the lifeguards are watching for that raised arm." },
+    { "type": "localTip", "text": "When you arrive, resist the urge to walk to the nearest sand and dive in. Find the flags first — even if it means a short stroll — and set your towel down near them. That's the difference between a supervised swim and an unsupervised one." },
+    { "type": "h2", "text": "A few habits that keep it easy" },
+    { "type": "list", "items": [
+      "Always swim between the red-and-yellow flags, and keep an eye on where they are — they get moved through the day.",
+      "Never swim alone, and keep young children within arm's reach at all times, even in the shallows.",
+      "If you're unsure about the conditions, ask a lifeguard before you go in — they'd far rather answer a question than run a rescue.",
+      "Don't swim straight after a big meal or after drinking alcohol.",
+      "If in doubt, don't go out — Bondi will still be there tomorrow."
+    ] },
+    { "type": "faq", "items": [
+      { "q": "Is it illegal to swim outside the flags at Bondi?", "a": "No — there's no fine, and experienced surfers use unpatrolled water all the time. But outside the flags you're on your own: the lifeguards focus their watch on the flagged area. For a regular swim, staying between the flags is the smartest call." },
+      { "q": "Where are the flags at Bondi Beach?", "a": "The lifeguards position them each day in whichever water is safest given the surf, tide and rips, so the spot moves. Look for the pair of red-and-yellow flags on the sand, or check the lifeguard tower and electronic signage when you arrive." },
+      { "q": "Is Bondi Beach patrolled by lifeguards all year?", "a": "Yes — Bondi is patrolled year-round by professional Waverley Council lifeguards, with longer hours over the warmer months. Patrol times change seasonally, so check the Waverley Council beach safety page for the current hours before you visit." },
+      { "q": "What do the different coloured flags mean?", "a": "Red-and-yellow flags mark the supervised swimming area, a single red flag means the beach is closed and unsafe to enter, and black-and-white chequered flags mark a zone reserved for surfboards and other craft, kept clear of swimmers." },
+      { "q": "What should I do if I get caught in a rip current?", "a": "Stay calm, float to save your energy, and raise an arm to signal for help. Don't fight the current head-on. If you're able, swim parallel to the beach to get out of the rip, then swim back to shore. Swimming between the flags in the first place is your best protection." }
+    ] },
+    { "type": "p", "text": "So — do you have to swim between the flags at Bondi? Technically no. But every local I know does. It costs nothing and turns Bondi's powerful ocean into something you can enjoy with real peace of mind. Find the flags, swim between them, and have the best day." }
+  ]
+}
