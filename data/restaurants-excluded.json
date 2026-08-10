@@ -304,5 +304,32 @@
       "https://combi.com.au (supplied source — returned HTTP 503, unresolvable)",
       "https://wearecombi.com.au/combi-byron-bay/ (Combi Byron Bay — the actual brand home)"
     ]
+  },
+  {
+    "name": "Curly Lewis Brewing Co.",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.timeout.com/sydney/bars/curly-lewis-brewing-co",
+      "https://www.broadsheet.com.au/sydney/bondi-beach/bars/curly-lewis"
+    ]
+  },
+  {
+    "name": "The Anchor Bar & Restaurant (The Anchor Bondi)",
+    "status": "permanently-closed",
+    "note": "The Anchor Bar & Restaurant",
+    "sources": [
+      "https://www.broadsheet.com.au/sydney/bondi/bars/anchor",
+      "https://concreteplayground.com/sydney/bars/the-anchor"
+    ]
+  },
+  {
+    "name": "Mikey's Pizza",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.timeout.com/sydney/restaurants/mikeys-pizza",
+      "https://www.instagram.com/mikeyspizzabondi/p/C-EmK-8TOo3/"
+    ]
   }
 ]

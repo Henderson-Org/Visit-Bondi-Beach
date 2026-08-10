@@ -6380,6 +6380,77 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "bronte-road-fish",
+    "name": "Bronte Road Fish",
+    "status": "open",
+    "type": "takeaway",
+    "precinct": "north-bondi",
+    "street": "Campbell Parade",
+    "address": "39-53 Campbell Parade, North Bondi NSW 2026",
+    "cuisines": [
+      "Fish and chips",
+      "Seafood",
+      "Burgers"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "fast-casual",
+      "takeaway",
+      "casual"
+    ],
+    "suitability": [
+      "families",
+      "kids",
+      "couples",
+      "locals",
+      "tourists",
+      "groups",
+      "solo"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "attributes": [
+      "outdoor-seating",
+      "takeaway",
+      "delivery",
+      "walk-ins"
+    ],
+    "website": "https://www.bronteroadfish.com/",
+    "bookingUrl": "https://www.ubereats.com/au/store/bronte-road-fish-north-bondi/",
+    "instagram": "https://www.instagram.com/bronteroadfish/",
+    "menuUrl": "https://www.bronteroadfish.com/",
+    "summary": "A relaxed all-day fish-and-burger joint on Campbell Parade, the North Bondi outpost of the Bronte Road team, doing golden fish and chips, potato scallops and hake fish burgers for dine-in or takeaway.",
+    "whyGo": "This is the North Bondi spin-off of Bronte Road Fish (itself the reinvention of the long-running Bronte Road Bistro), and it brings that same simple-but-elevated fish-shop menu to the top of the beach. We'd choose it when you want proper battered fish, a hake fish burger on a soft potato bun, or a crunchy potato scallop without committing to a sit-down restaurant. Yellow-and-white striped awnings and a few outside stools make it an easy, unfussy stop rather than a destination diner.",
+    "bestFor": "A casual post-beach fish feed, takeaway or a quick perch outside",
+    "whatToOrder": "The hake fish burger with tartare, cheese, lettuce and pickles is the signature; also the fish and chips, potato scallops, salt-and-pepper squid, and a soft serve to finish. Tuna smash and prawn katsu burgers round out the burger list, with a teriyaki tofu option for vegetarians.",
+    "atmosphere": "Bright, casual fish-shop with a handful of outdoor stools",
+    "localTip": "If it's a warm afternoon, grab your burger and chips to takeaway and walk the couple of minutes down to the North Bondi end of the sand rather than fighting for one of the few footpath stools.",
+    "tradeOff": "It's a compact takeaway-first spot, so seating is limited and it's not a full ocean-view sit-down like its neighbours up the strip.",
+    "ranking": {
+      "foodScore": 7,
+      "localReputation": 6.5,
+      "uniqueness": 6,
+      "value": 7,
+      "viewScore": 4,
+      "visitorUsefulness": 7,
+      "kidFriendliness": 8
+    },
+    "score": 6.6,
+    "confidence": "high",
+    "sources": [
+      "https://www.bronteroadfish.com/",
+      "https://www.bronteroadfish.com/home#find-us",
+      "https://www.ubereats.com/au/store/bronte-road-fish-north-bondi/",
+      "https://www.broadsheet.com.au/sydney/food-and-drink"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "ciao-bella-bondi",
     "name": "Ciao Bella",
     "status": "open",
