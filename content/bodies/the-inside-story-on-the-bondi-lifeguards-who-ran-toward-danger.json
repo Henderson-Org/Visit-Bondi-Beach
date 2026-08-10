@@ -1,0 +1,49 @@
+{
+  "path": "/bondi-blog/2025/12/19/the-inside-story-on-the-bondi-lifeguards-who-ran-toward-danger",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Wikipedia — 2025 Bondi Beach shooting", "url": "https://en.wikipedia.org/wiki/2025_Bondi_Beach_shooting" },
+    { "label": "Bondi Beach attack — NSW Government", "url": "https://www.nsw.gov.au/nsw-government/bondi-beach-attack" },
+    { "label": "The Australian Women's Weekly — Bondi lifeguards ran into danger", "url": "https://www.womensweekly.com.au/news/bondi-beach-shooting-lifeguards/" },
+    { "label": "National Day of Mourning — Department of the Prime Minister and Cabinet", "url": "https://www.pmc.gov.au/news/national-day-mourning-victims-bondi-beach-terrorist-attack" },
+    { "label": "Surf Life Saving NSW", "url": "https://www.surflifesaving.com.au" },
+    { "label": "Surf Life Saving Foundation", "url": "https://slsfoundation.com.au" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "When the shooting began at Bondi on the evening of 14 December 2025, the people trained to run toward the water ran toward the danger instead. As gunfire tore through a Hanukkah gathering at Archer Park, our lifeguards and volunteer surf lifesavers — the same faces you see on the sand every summer — became the first responders on one of the darkest nights this community has ever known. This is what I understand about how they answered." },
+    { "type": "callout", "tone": "note", "title": "A note before you read", "text": "This piece is about a real and deeply painful event. I've written it to honour the people who helped, and I've kept to facts confirmed by news reporting and Surf Life Saving. For the official record, the memorial details, and ways to support the families, please follow the linked sources." },
+    { "type": "quickFacts", "items": [
+      { "label": "When", "value": "Sunday 14 December 2025, early evening" },
+      { "label": "Where", "value": "Archer Park, beside Bondi Beach" },
+      { "label": "The gathering", "value": "A public Hanukkah celebration, around 1,000 people" },
+      { "label": "First responders", "value": "On- and off-duty lifeguards & surf lifesavers" }
+    ] },
+    { "type": "h2", "text": "Why the lifeguards were even there" },
+    { "type": "p", "text": "People forget that Bondi's surf clubs sit right on top of the action. North Bondi Surf Life Saving Club and the Bondi clubhouse are metres from where families had gathered for the festival. So when the attack unfolded over roughly six terrible minutes, there wasn't time to wait for anyone else — the lifesavers were already the closest trained hands on the scene, and they moved." },
+    { "type": "p", "text": "These are volunteers and council-employed professionals whose whole discipline is running toward trouble on a beach: rips, spinal injuries, cardiac arrests in the shallows. That training — the muscle memory of triage, of staying calm while everyone else can't — is exactly what met the moment. As reporting later made clear, many of them were off duty and simply came running." },
+    { "type": "h2", "text": "What they actually did" },
+    { "type": "p", "text": "The details that have been confirmed are hard to read and, I think, important to hold onto. Lifesavers pulled people away from the gunfire to cover. They turned surfboards into makeshift stretchers to carry the wounded. They ran through their entire supply of bandages giving first aid in the minutes before police and paramedics could reach everyone. The North Bondi clubhouse, a building most of us only associate with nippers and Saturday-morning swims, was used to shelter roughly 250 people while the surf sheds nearby became casualty stations." },
+    { "type": "p", "text": "One image travelled around the world: lifeguard Jackson Doolan running barefoot along the road from a neighbouring beach, a defibrillator in his hands, sprinting toward Bondi rather than away from it. To me that single photograph captures the whole night — ordinary beach people doing an extraordinary, selfless thing." },
+    { "type": "quote", "text": "Some of our team chose to respond while shots were still being fired. — the Bondi lifeguards, in their own words" },
+    { "type": "localTip", "text": "If you visit the North Bondi and Bondi surf clubhouses this summer, take a quiet moment. These aren't just kiosks and change rooms — on that night they were shelter and sanctuary. A respectful nod to the volunteers on patrol goes a long way." },
+    { "type": "h2", "text": "How Bondi has remembered" },
+    { "type": "p", "text": "In the days afterward, lifesaving crews up and down the New South Wales coast stood together on the sand and fell silent for the victims. A National Day of Mourning followed on 22 January 2026, when the country paused for a minute's silence at 7:01pm and flags flew at half-mast. Across the beaches, red and yellow flags flew for people who never made it home — and for the rescuers who carried the weight of what they'd seen." },
+    { "type": "p", "text": "Grief here has been quiet and communal rather than showy. That feels very Bondi to me: no fanfare, just people showing up for one another, the same way the lifesavers showed up when it counted most." },
+    { "type": "h2", "text": "How you can help" },
+    { "type": "p", "text": "The most useful thing any of us can do is support the organisations that keep these volunteers equipped and the families supported. If you'd like to give, go directly to the official Surf Life Saving channels rather than any link forwarded to you — that's the safest way to make sure it reaches the right place." },
+    { "type": "list", "items": [
+      "Donate through the Surf Life Saving Foundation (slsfoundation.com.au) — check for the current, verified appeal before giving.",
+      "Support Surf Life Saving NSW (surflifesaving.com.au), which coordinates the clubs and crews along our coast.",
+      "If you swim at Bondi, always swim between the red-and-yellow flags — it's the simplest way to honour what these lifesavers do every single day."
+    ] },
+    { "type": "faq", "items": [
+      { "q": "What happened at Bondi Beach on 14 December 2025?", "a": "An attack was carried out at a Hanukkah gathering at Archer Park beside Bondi Beach, where around 1,000 people had assembled. Gunmen opened fire over roughly six minutes. For the confirmed facts, casualty figures and the investigation, see the linked news and Wikipedia sources." },
+      { "q": "Were the Bondi lifeguards really the first to respond?", "a": "Yes. Because the surf clubs sit right beside where the crowd had gathered, on- and off-duty lifeguards and volunteer surf lifesavers were among the first trained responders, giving first aid, sheltering people and carrying the wounded before other emergency services could reach everyone." },
+      { "q": "Who was the lifeguard photographed running with a defibrillator?", "a": "Lifeguard Jackson Doolan was widely photographed running barefoot toward Bondi from a neighbouring beach carrying a defibrillator to help the victims. The image became one of the most shared from that night." },
+      { "q": "How can I support the Bondi lifesavers and the victims' families?", "a": "Give through official Surf Life Saving channels — the Surf Life Saving Foundation (slsfoundation.com.au) and Surf Life Saving NSW (surflifesaving.com.au). Always confirm you're on the verified official appeal before donating, and be wary of links forwarded through social media." },
+      { "q": "Is Bondi Beach safe to visit now?", "a": "Bondi remains one of Sydney's most-loved and closely watched beaches, patrolled daily in season by professional lifeguards and volunteer surf lifesavers. As always, swim between the red-and-yellow flags and follow their directions." }
+    ] },
+    { "type": "p", "text": "I don't have neat words for a night like that one. What I do have is enormous pride in the people who wear the red and yellow on this stretch of sand. They train for the surf, but when the worst came ashore, they ran toward it anyway — and that is the inside story of the Bondi lifeguards who ran toward danger." }
+  ]
+}

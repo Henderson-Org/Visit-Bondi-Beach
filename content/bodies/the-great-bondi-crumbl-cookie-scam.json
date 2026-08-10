@@ -1,0 +1,39 @@
+{
+  "path": "/bondi-blog/2024/10/1/the-great-bondi-crumbl-cookie-scam",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Tasting Table — Unauthorized Crumbl Sydney pop-up", "url": "https://www.tastingtable.com/1679537/crumbl-sydney-cookie-scam/" },
+    { "label": "Yahoo Lifestyle — Unauthorised Crumbl pop-up in Sydney goes viral", "url": "https://www.yahoo.com/lifestyle/unauthorised-crumbl-cookie-pop-sydney-094355124.html" },
+    { "label": "Crumbl Cookies (official)", "url": "https://crumblcookies.com" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you were anywhere near North Bondi in late September 2024, you probably saw it: a queue snaking down Old South Head Road, phones out, everyone waiting on what they thought was the Australian debut of Crumbl Cookies. Here's the short version, because I get asked about it constantly — it was not Crumbl. The famous American chain had nothing to do with it. This was a fan-run pop-up selling cookies that had been bought in the US and flown over, and a lot of very patient people paid a lot of money for a cookie that had seen better days." },
+    { "type": "p", "text": "This one has become proper local folklore — part cautionary tale, part comedy — and it still makes me laugh (and wince) whenever I pass that stretch of road. Here's what actually happened." },
+    { "type": "quickFacts", "items": [
+      { "label": "What", "value": "An unofficial, fan-run Crumbl Cookies pop-up" },
+      { "label": "Where", "value": "Old South Head Road, North Bondi — outside a trophy shop by a petrol station" },
+      { "label": "When", "value": "One day, late September 2024" },
+      { "label": "Affiliated with Crumbl?", "value": "No — the US company confirmed it was not involved" }
+    ] },
+    { "type": "h2", "text": "How the hype was built" },
+    { "type": "p", "text": "For weeks beforehand, a TikTok account trading on the Crumbl name teased that the cult US brand was \"landing in Australia,\" leaning on genuine-looking clips and that instantly recognisable pink Crumbl branding. Crumbl has been called the fastest-growing dessert chain in the United States, and Australians who'd only ever seen those giant, gooey cookies on their feeds were desperate for a taste. The marketing did its job: by the time the doors — well, the folding table — opened, the anticipation was enormous." },
+    { "type": "p", "text": "The reveal was the punchline. Instead of a shiny bakery, the \"exclusive one-day event\" turned out to be a makeshift stall set up in front of a trophy shop, next door to a petrol station. Not exactly the flagship launch the internet had been promised." },
+    { "type": "h2", "text": "The cookies, the queue, and the price" },
+    { "type": "p", "text": "According to multiple reports, the cookies weren't freshly baked at all — they'd been purchased in the US, reportedly baked days earlier and flown in before being sold here. Unsurprisingly, people who'd queued for up to an hour described them as dry and stale rather than the warm, fresh experience Crumbl is known for." },
+    { "type": "p", "text": "Then there was the price. Reports put the pop-up cookies at around $17.50 each, or roughly $75 for a box of five — a steep markup on the US shelf price of a few dollars a cookie. For a day-old import sold off a trestle table, that stung." },
+    { "type": "callout", "tone": "warning", "title": "The tell-tale signs", "text": "A genuine international brand launch doesn't usually happen for a single day, cash-in-hand, from a stall beside a petrol station. If a \"pop-up\" leans entirely on a brand's logo but the brand itself has never announced it, treat the hype with a healthy dose of Bondi scepticism." },
+    { "type": "h2", "text": "What Crumbl actually said" },
+    { "type": "p", "text": "The US company moved fast to distance itself. Crumbl's co-founder took to social media to make clear the Sydney event was not affiliated with the company, adding the obvious point that the cookies are meant to be eaten fresh. Crumbl later said in a statement that while the Australian pop-up was not sponsored by them, they loved seeing excitement for the brand around the world — a diplomatic way of saying \"nice try, but that wasn't us.\"" },
+    { "type": "p", "text": "To be crystal clear for anyone planning a trip: at the time of writing there is no official Crumbl Cookies store in Bondi, and this pop-up was never connected to the real company. If Crumbl ever does open here properly, it'll be announced by Crumbl itself — not a mystery TikTok account." },
+    { "type": "localTip", "text": "Bondi is genuinely spoiled for great sweets that are fresh and local. Skip the imported hype and wander into one of the bakeries and cafés along Hall Street or the Campbell Parade strip — you'll get something warm, made that morning, and usually for a fraction of $17.50." },
+    { "type": "faq", "items": [
+      { "q": "Was the Bondi Crumbl pop-up a real Crumbl Cookies store?", "a": "No. It was an unofficial, fan-run pop-up. Crumbl Cookies in the US publicly confirmed it was not affiliated with or sponsored by the company." },
+      { "q": "Why were people so upset?", "a": "Many queued for up to an hour expecting freshly baked cookies at a proper launch, and instead found day-old cookies that had been imported from the US, sold from a stall on Old South Head Road for a reported $17.50 each." },
+      { "q": "Is there a Crumbl Cookies in Bondi now?", "a": "As far as I'm aware there is no official Crumbl store in Bondi. If that ever changes, look for an announcement from Crumbl itself rather than an unofficial social account. Check crumblcookies.com for genuine store locations." },
+      { "q": "Where exactly did it happen?", "a": "On Old South Head Road in North Bondi, at a makeshift stall in front of a trophy shop beside a petrol station — not a bakery." },
+      { "q": "What's the lesson for visitors?", "a": "Be wary of one-day \"pop-ups\" that borrow a famous brand's logo without the brand confirming it. When in doubt, buy fresh and local — Bondi's own bakeries won't let you down." }
+    ] },
+    { "type": "p", "text": "The whole saga blew over quickly, as these things do, but it's earned a permanent place in Bondi small talk. My takeaway is a happy one: you never needed a flown-in American cookie to eat well around here. The good stuff was on your doorstep the whole time — fresh, local, and no queue required." }
+  ]
+}
