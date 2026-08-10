@@ -1,0 +1,47 @@
+{
+  "path": "/bondi-blog/2017/4/28/city2surf-time-to-start-training",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Voltaren City2Surf (official)", "url": "https://city2surf.com.au/" },
+    { "label": "City2Surf (Wikipedia)", "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)" },
+    { "label": "Transport for NSW — City2Surf 2026", "url": "https://transportnsw.info/events/2026/08/city2surf-2026" },
+    { "label": "Waverley Council — City2Surf 2026", "url": "https://www.waverley.nsw.gov.au/recreation/events/events/city2surf_2026" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Every August, tens of thousands of people run 14km from the Sydney CBD out to my front yard — Bondi Beach — in the City2Surf, and yes, if you want to actually enjoy it rather than survive it, now is a very good time to start training. The good news? You don't need to be an athlete. This is a fun run first and a race second, and plenty of people walk large chunks of it and still finish grinning." },
+    { "type": "p", "text": "I live at the finish line, so I've watched years of runners come pouring down the hill onto Campbell Parade — elite club runners, mates in matching costumes, parents pushing prams, someone dressed as a banana. The City2Surf has a way of turning a Sunday into one of the best days on Bondi's calendar." },
+    { "type": "quickFacts", "items": [
+      { "label": "Distance", "value": "14km, Sydney CBD to Bondi Beach" },
+      { "label": "Start", "value": "Hyde Park (Park St / College St)" },
+      { "label": "Finish", "value": "Bondi Beach, Queen Elizabeth Drive" },
+      { "label": "When", "value": "August (9 Aug in 2026 — confirm on the official site)" },
+      { "label": "First run", "value": "1971" }
+    ] },
+    { "type": "h2", "text": "The course (and that hill)" },
+    { "type": "p", "text": "The route starts in the city near Hyde Park and winds out through East Sydney, Kings Cross, Rushcutters Bay, Double Bay and Rose Bay before the harbour views open up on the eastern side. It's a genuinely beautiful course — you're never far from the water for the second half — but it is not flat, and anyone telling you otherwise hasn't run it." },
+    { "type": "p", "text": "The famous test is Heartbreak Hill: a roughly 2km climb up New South Head Road from Rose Bay to Vaucluse, hitting right around the halfway mark when your legs are just starting to ask questions. They don't call it Heartbreak for nothing. My honest advice — don't try to be a hero on the hill. Shorten your stride, keep it steady, and remember it's followed by a long, generous downhill toward Dover Heights and Bondi." },
+    { "type": "callout", "tone": "note", "title": "Where the training pays off", "text": "If you train one thing specifically, make it hills. Heartbreak Hill breaks people who've only ever run flat. A weekly hill session — even just repeats up a local street — changes your whole race." },
+    { "type": "h2", "text": "How I'd actually train for it" },
+    { "type": "p", "text": "You don't need a complicated plan. If you can already jog 3–5km, you've got a solid base and a couple of months of consistent running will get you comfortably to 14km. The principle is simple: build your long run gradually, add a bit of hill work, and don't increase your weekly distance too fast." },
+    { "type": "list", "items": [
+      "Run 3 times a week — one easy short run, one hill or interval session, one longer run.",
+      "Grow your long run by roughly 1–2km a week, not more, until it reaches around 12–14km.",
+      "Practise on hills. Bondi to Tamarama and back, or the Bondi to Bronte coastal path, are perfect local grinders.",
+      "Do at least one run in the shoes and socks you'll wear on the day — blisters at 10km are miserable.",
+      "Ease off in the final week. A rested body beats a tired, over-trained one every time."
+    ] },
+    { "type": "localTip", "text": "Train on the actual finish. Run the Bondi to Rose Bay direction along New South Head Road a couple of times and you'll know exactly what Heartbreak Hill feels like — and how sweet that downhill run into Bondi is on race day." },
+    { "type": "h2", "text": "Race-day logistics" },
+    { "type": "p", "text": "Runners are set off in staggered waves from Hyde Park across the morning, with faster groups leaving first — your start group is based on your predicted time when you enter. Roads across the eastern suburbs close for the event, so driving is a bad idea. Take the train into the city for the start, and plan how you'll get home from Bondi afterwards, because the buses and surrounding streets get very busy once everyone finishes." },
+    { "type": "callout", "tone": "warning", "title": "Check the official details before you commit", "text": "Entry fees, closing dates, exact wave times and the road-closure map change each year. Confirm everything on the official City2Surf site and Transport for NSW before race day rather than trusting last year's numbers." },
+    { "type": "faq", "items": [
+      { "q": "How long is the City2Surf and where does it finish?", "a": "It's 14km, starting near Hyde Park in Sydney's CBD and finishing right here at Bondi Beach. That means Bondi turns into one big finish-line party for the day." },
+      { "q": "When is the City2Surf held?", "a": "It's run in August each year — in 2026 it falls on 9 August. Dates can shift year to year, so always confirm on the official City2Surf website before you plan around it." },
+      { "q": "Do I need to run the whole way?", "a": "Not at all. It's a fun run, and plenty of people walk the hills or the whole course. If you can walk 14km, you can complete the City2Surf." },
+      { "q": "How hard is Heartbreak Hill?", "a": "It's a roughly 2km climb from Rose Bay to Vaucluse at about the halfway point — the toughest stretch of the course. Train on hills beforehand and pace yourself up it, and you'll be fine." },
+      { "q": "How should I get to and from the event?", "a": "Take public transport. Roads across the eastern suburbs close for the run, so drive nowhere near it — catch the train into the city for the start and check Transport for NSW for getting home from Bondi." }
+    ] },
+    { "type": "p", "text": "So — time to start training? Honestly, yes. Lace up, get a few hills in your legs, and I'll see you when you come flying down onto Campbell Parade. There's no better finish line in Sydney, and no better feeling than earning that first swim at Bondi once you're done." }
+  ]
+}

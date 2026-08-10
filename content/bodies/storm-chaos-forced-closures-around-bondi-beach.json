@@ -1,0 +1,51 @@
+{
+  "path": "/bondi-blog/2024/4/6/storm-chaos-forced-closures-around-bondi-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Beaches & coast", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
+    { "label": "Waverley Council — Parks & reserves", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves" },
+    { "label": "Waverley Council — Marks Park coastal walk remediation", "url": "https://haveyoursay.waverley.nsw.gov.au/marks-park-coastal-walk-remediation" },
+    { "label": "NSW Beachwatch", "url": "https://www.beachwatch.nsw.gov.au" },
+    { "label": "Bureau of Meteorology — NSW warnings", "url": "http://www.bom.gov.au/nsw/warnings/" },
+    { "label": "BeachSafe (Surf Life Saving Australia)", "url": "https://beachsafe.org.au" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "When a big storm rolls through, Bondi can change character in a matter of hours — and the short answer to \"can I still go?\" is usually no, not safely, and definitely not into the water. After heavy overnight rain in early April 2024, Waverley Council closed beaches and sections of the coastal walk, and a rock slip beneath Marks Park damaged part of the clifftop path between Bondi and Tamarama. Here's what actually happens on days like that — and, more usefully, how to check conditions yourself before you head down." },
+    { "type": "h2", "text": "What a storm shuts down (and why)" },
+    { "type": "p", "text": "Storms hit Bondi on three fronts at once, and each one triggers a different closure." },
+    { "type": "list", "items": [
+      "Dangerous surf. When a hazardous surf warning is in force, our lifeguards may fly the red flag (beach closed, no swimming) or limit patrols to a single narrow set of red-and-yellow flags. Ocean pools like Bronte and the Icebergs get pounded by waves washing straight over the edge, so they close too.",
+      "Unstable cliffs. Bondi's sandstone headlands soak up days of rain and let go without warning. The April 2024 rock slip below Marks Park is exactly why Council fences off stretches of the coastal walk after heavy weather — a collapse can take part of the path with it.",
+      "Fallen trees and flooding. Parks and reserves close while crews clear fallen limbs and check for damage, and low-lying paths and car parks can flood."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "If the beach is closed, stay out of the water", "text": "A red flag means the beach is closed and swimming is prohibited — not \"swim with care.\" Storm surf brings powerful rips that drag even strong swimmers out fast, plus debris and murky water. No swim is worth it on a day like this." },
+    { "type": "h2", "text": "How to check conditions before you go" },
+    { "type": "p", "text": "This is the part I wish more visitors knew, because you can save yourself a wasted trip in five minutes from your phone. Here's my order of checks on a rough-weather morning:" },
+    { "type": "list", "items": [
+      "Bureau of Meteorology — check for current severe weather, hazardous surf and rainfall warnings for the Sydney coast.",
+      "Waverley Council — the Beaches & coast and Parks & reserves pages, plus Council's social channels, carry the current closure notices for our beaches, ocean pools and the coastal walk.",
+      "NSW Beachwatch — pollution forecasts. After heavy rain, stormwater flushes into the ocean and Beachwatch typically advises against swimming for at least a day, even once the surf settles.",
+      "BeachSafe — Surf Life Saving's site shows patrol status and current hazards beach by beach."
+    ] },
+    { "type": "localTip", "text": "After a big downpour, give the ocean a full day before you swim — even if the sun's back out and the waves look friendlier. Stormwater runoff pushes bacteria levels up, and Beachwatch's standard advice is to stay out for around 24 hours, longer after really heavy rain. The Bondi you want is the one two days after the storm, not the morning of." },
+    { "type": "quickFacts", "items": [
+      { "label": "Beach closed", "value": "Red flag flying — no swimming" },
+      { "label": "Coastal walk", "value": "Sections fenced after heavy rain (rock-slip risk)" },
+      { "label": "Ocean pools", "value": "Close in dangerous surf" },
+      { "label": "After rain", "value": "Water quality drops — check Beachwatch" },
+      { "label": "Who to trust", "value": "Lifeguards, signs & Waverley Council notices" }
+    ] },
+    { "type": "h2", "text": "What to do instead on a storm day" },
+    { "type": "p", "text": "Honestly, a wild-weather Bondi has its own appeal — as long as you keep your feet dry. I like watching the swell explode over the Icebergs wall from a safe distance up on Notts Avenue, then ducking into a café on Hall Street while it buckets down. Save the coastal walk and the swim for when Council reopens the paths and the flags are back up." },
+    { "type": "callout", "tone": "note", "title": "The Marks Park path has since reopened", "text": "The section of coastal walk damaged by the April 2024 rock slip below Marks Park was closed for stabilisation and reconstruction, and has since reopened. Even so, Council still closes stretches of the walk after heavy rain as a precaution — so always check current notices before you set out." },
+    { "type": "faq", "items": [
+      { "q": "How do I know if Bondi Beach is closed today?", "a": "Look for the flags and signs at the beach: a red flag means the beach is closed and swimming is prohibited. Before you leave home, check the Bureau of Meteorology for surf and weather warnings and Waverley Council's Beaches & coast page and social channels for current closure notices." },
+      { "q": "Is the Bondi to Bronte coastal walk open after a storm?", "a": "Not always. Waverley Council fences off sections of the coastal walk after heavy rain because saturated sandstone cliffs can slip — that's what happened below Marks Park in April 2024. Check Council's Parks & reserves updates before you go, and never step around barricades or fencing." },
+      { "q": "Can I swim at Bondi straight after heavy rain?", "a": "It's best not to. Even once the surf eases, stormwater runoff raises pollution levels. NSW Beachwatch generally advises staying out of the water for about a day after rain — check its pollution forecast for the current recommendation." },
+      { "q": "Are the ocean pools open during a storm?", "a": "In dangerous surf the ocean pools close, because waves wash straight over the edge and make them unsafe. Check the individual pool or Waverley Council for current status rather than turning up on spec." },
+      { "q": "Where does official Bondi closure information come from?", "a": "Waverley Council manages our beaches, ocean pools, parks and the coastal walk, so their website and social channels are the authoritative source for closures. On the sand, follow the lifeguards, the flags and the posted signs — they always override anything you read online." }
+    ] },
+    { "type": "p", "text": "Storms pass, and Bondi bounces back quickly. Give the beach a day or two, wait for the flags and the reopening notices, and you'll get the version of this place we all come for. In the meantime, respect every barricade and every red flag — they're there for a reason." }
+  ]
+}
