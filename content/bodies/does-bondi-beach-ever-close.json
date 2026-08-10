@@ -1,0 +1,41 @@
+{
+  "path": "/bondi-blog/2025/1/20/does-bondi-beach-ever-close",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Beaches & Coast", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
+    { "label": "Beachwatch NSW — water quality & pollution forecasts", "url": "https://www.beachwatch.nsw.gov.au/" },
+    { "label": "Surf Life Saving — Beachsafe", "url": "https://beachsafe.org.au/" },
+    { "label": "NSW EPA — Beach ball debris investigation (2024)", "url": "https://www.epa.nsw.gov.au/news/media-releases" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Short answer: no, Bondi Beach never really closes. It's a public beach with no gates, no ticket booth and no opening hours — you can walk onto the sand at 3am if you like, and people do, for a sunrise swim. What can change, and what people usually mean when they ask me this, is whether it's safe to swim and whether the lifeguards have the red-and-yellow flags up. Those two things do close, sometimes for a few hours, occasionally for a day or two." },
+    { "type": "quickFacts", "items": [
+      { "label": "Beach access", "value": "Open 24/7, free, no gates" },
+      { "label": "What can 'close'", "value": "Flagged swimming area & lifeguard patrols" },
+      { "label": "Who decides", "value": "Waverley Council lifeguards + NSW authorities" },
+      { "label": "Check before you swim", "value": "Beachwatch NSW forecast" }
+    ] },
+    { "type": "h2", "text": "The beach is open — the flags are the real timetable" },
+    { "type": "p", "text": "The key is the difference between the beach and the patrolled area. The beach itself stays open all year. The safe part — the stretch between the red-and-yellow flags where lifeguards watch — is only 'open' during patrol hours, which shift with the seasons: longer in summer, shorter in winter. Turn up early or late with no flags out, and no one has closed the beach; the patrol simply isn't on. My rule: no flags, I don't swim out of my depth. For patrol times, I trust the Waverley Council beaches page." },
+    { "type": "localTip", "text": "Always swim between the red-and-yellow flags. A plain red flag means the beach is closed to swimming — stay out of the water. And if you ever see lifeguards raise the red-and-white quartered flags, that is an emergency signal to get out of the water straight away. If you only remember one rule at Bondi, make it this one." },
+    { "type": "h2", "text": "When Bondi actually gets closed to swimming" },
+    { "type": "p", "text": "A few genuine reasons will see the lifeguards close the water and pull the flags:" },
+    { "type": "li", "text": "Dangerous surf and rips — big swell, strong sweep or hazardous conditions after a storm. Bondi's notorious 'Backpackers' Express' rip is a regular culprit." },
+    { "type": "li", "text": "Poor water quality — after heavy rain, stormwater runoff can push bacteria levels up. Beachwatch NSW issues daily pollution forecasts, and the standard advice is to avoid swimming for about a day after rain." },
+    { "type": "li", "text": "Marine hazards — the occasional shark alarm, or a bluebottle stinger day when the northeasterlies blow them ashore." },
+    { "type": "li", "text": "Pollution events — in October 2024, Waverley Council closed Bondi, Bronte and Tamarama after mysterious debris balls washed up; the NSW EPA later found they were a grim mix of decomposed fats, oils and waste rather than tar." },
+    { "type": "callout", "tone": "note", "title": "The one time Bondi truly shut", "text": "In March 2020, early in the COVID-19 pandemic, the sand itself was physically closed after crowds exceeded gathering limits — barriers went up and rangers moved people on. That was genuinely exceptional; normally the beach stays open even when the water doesn't." },
+    { "type": "h2", "text": "What about the pool, the walk and the shops?" },
+    { "type": "p", "text": "People often lump 'Bondi' together, but the bits around the sand each keep their own hours. Bondi Icebergs, the iconic ocean pool at the southern end, closes one day a week for cleaning and shuts when big swell washes over it — check the Icebergs website for session times. The Bondi to Bronte coastal walk is a public path you can do any time, though clifftop sections can be roped off during severe weather. And Campbell Parade's cafés run ordinary trading hours, which stretch late in summer." },
+    { "type": "localTip", "text": "Before I head down for a swim I check two things on my phone: the Beachwatch pollution forecast, and the surf and wind. Ninety seconds saves you a wasted trip or a murky post-rain dip." },
+    { "type": "faq", "items": [
+      { "q": "Does Bondi Beach have opening and closing hours?", "a": "No. The beach is public, free and open 24 hours a day with no gates. What has hours is the lifeguard patrol — the flagged safe-swimming zone is only supervised during patrol times, longer in summer and shorter in winter." },
+      { "q": "How do I know if it's unsafe to swim at Bondi?", "a": "Look for the flags. Red-and-yellow flags mark the patrolled safe area; a plain red flag means the beach is closed to swimming, and red-and-white quartered flags are an emergency signal to leave the water immediately. If lifeguards have closed the water for surf, pollution or a hazard, they'll signal it and usually tell you why." },
+      { "q": "Is it safe to swim at Bondi after rain?", "a": "Often not straight away. Heavy rain flushes stormwater into the ocean and can raise bacteria levels, so the general advice is to wait about a day. Check the Beachwatch NSW pollution forecast before you go in." },
+      { "q": "Why was Bondi Beach closed in 2024?", "a": "In October 2024, Waverley Council closed Bondi, Bronte and Tamarama as a precaution after mysterious ball-shaped debris washed ashore. The NSW EPA found the balls were a mix of decomposed fats, oils and waste; the beaches reopened once the sand was cleaned." },
+      { "q": "Can I still walk the Bondi to Bronte coastal walk when the beach is closed to swimming?", "a": "Yes. The coastal walk is a separate public path and stays open even when the water isn't safe for swimming. Occasionally a clifftop section is closed off during severe storms or maintenance, but the walk itself has no set hours." }
+    ] },
+    { "type": "p", "text": "So if someone tells you 'Bondi's closed', take a beat. Nine times out of ten they mean the flags are down or the water's off-limits for the day — not that you can't walk onto the sand. Read the flags, check Beachwatch after rain, and you'll know exactly when it's your turn to jump in." }
+  ]
+}

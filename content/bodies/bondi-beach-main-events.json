@@ -1,0 +1,45 @@
+{
+  "path": "/bondi-blog/bondi-beach-main-events",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Festival of the Winds", "url": "https://www.waverley.nsw.gov.au/recreation/arts_and_culture/major_annual_events/fotw" },
+    { "label": "Bondi Festival (official)", "url": "https://www.bondifestival.com.au/" },
+    { "label": "Sculpture by the Sea, Bondi", "url": "https://sculpturebythesea.com/" },
+    { "label": "Macquarie Bondi to Bronte Ocean Swim (official)", "url": "https://www.bonditobronte.com.au/" },
+    { "label": "City2Surf (official)", "url": "https://city2surf.com.au/" },
+    { "label": "Bondi Markets & Bondi Farmers Market", "url": "https://bondimarkets.com.au/" },
+    { "label": "Openair Cinemas — Bondi", "url": "https://www.openaircinemas.com.au/bondi/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you want to catch Bondi at its most alive, time your visit around one of its big annual events — the standouts are the Festival of the Winds kite spectacular in spring, Sculpture by the Sea along the coastal walk, the July Bondi Festival with its ice rink, the summer Bondi to Bronte Ocean Swim, and the City2Surf finish in August. Each one turns an already-lovely beach into a proper occasion. Here's my local's calendar for planning around them." },
+    { "type": "quickFacts", "items": [
+      { "label": "Free crowd favourites", "value": "Festival of the Winds, Sculpture by the Sea" },
+      { "label": "Ticketed", "value": "Bondi Festival, ocean swims, openair cinema" },
+      { "label": "Best all-rounder season", "value": "Spring (Sep–Nov)" },
+      { "label": "Getting there", "value": "Train to Bondi Junction, then bus 333/380" }
+    ] },
+    { "type": "h2", "text": "Spring: the beach's showcase season" },
+    { "type": "p", "text": "Spring is when I tell friends to come. The Festival of the Winds — Waverley Council's free kite festival — usually lands in September and fills the sky above the sand with giant kites, live music and multicultural food stalls. It's the most joyful, family-friendly day on the Bondi calendar, and it costs nothing to turn up." },
+    { "type": "p", "text": "Then, straddling spring into early summer, comes Sculpture by the Sea. Over a hundred works are dotted along the free Bondi-to-Tamarama coastal walk for a few weeks, usually across October and November. It's the world's largest free-to-the-public outdoor sculpture exhibition, and wandering it at golden hour with the ocean behind each piece is one of my favourite things to do all year." },
+    { "type": "callout", "tone": "note", "title": "Dates shift every year", "text": "Annual events shift season to season. I've given reliable months here, but always confirm this year's exact dates on the official organiser's page before you lock in travel." },
+    { "type": "h2", "text": "Winter: Bondi Festival and the City2Surf" },
+    { "type": "p", "text": "Don't write off winter. Each July the Bondi Festival takes over Bondi Pavilion and the park around it with music, comedy, theatre and family shows. Festival favourites have included an ice rink right by the beach and a Ferris wheel over the sand, with tickets ranging from free events to modestly priced shows — check the official program for what's on and prices this year." },
+    { "type": "p", "text": "August brings the City2Surf, the 14-kilometre run from the Sydney CBD that finishes right here at Bondi Beach. Even if you're not running, the finish-line atmosphere on a crisp winter Sunday — tens of thousands of people cresting the final hill toward the sand — is worth planning a morning around." },
+    { "type": "h2", "text": "Summer: ocean swims and cinema under the stars" },
+    { "type": "p", "text": "The warmer months are for the water. The Bondi to Bronte Ocean Swim is the classic — a roughly 2.2km open-water swim between the two beaches. It's genuinely challenging surf swimming, so if you're entering rather than spectating, confirm the date, course direction and safety notes on the official site, all of which change year to year." },
+    { "type": "p", "text": "On summer evenings, an openair cinema sets up near Bondi Pavilion, screening films from dusk with food and a licensed bar. Seasons and line-ups vary, so book ahead through the official Openair Cinemas page." },
+    { "type": "localTip", "text": "For the big free events — Festival of the Winds, Sculpture by the Sea and the City2Surf finish — leave the car at home. Roads close and parking vanishes. Take the train to Bondi Junction and hop on the 333 or 380 bus down to Campbell Parade, or walk the last stretch." },
+    { "type": "h2", "text": "Every weekend: the Bondi markets" },
+    { "type": "p", "text": "You don't have to build a trip around a single festival. Two markets run at Bondi Beach Public School on Campbell Parade most weekends year-round: the Bondi Farmers Market on Saturday mornings (fresh produce and food) and the larger Bondi Markets on Sundays (fashion, vintage and homewares). They're my reliable fallback when there's no headline event on — check current times on the official page, then grab a coffee and walk it off along the promenade." },
+    { "type": "faq", "items": [
+      { "q": "What is the biggest annual event at Bondi Beach?", "a": "The Festival of the Winds is Bondi's biggest free community event — a spring kite festival run by Waverley Council, usually in September. For a marquee ticketed program, the July Bondi Festival at Bondi Pavilion is the other heavyweight. Confirm this year's dates on each organiser's site." },
+      { "q": "When is the best time of year to visit Bondi for events?", "a": "Spring (September to November) is my pick — you get the Festival of the Winds and Sculpture by the Sea, both free, with milder crowds than peak summer. Summer brings ocean swims and openair cinema, and winter has the Bondi Festival and City2Surf finish." },
+      { "q": "Are Bondi's main events free?", "a": "Some are. Festival of the Winds and Sculpture by the Sea are free to attend. Others — the Bondi Festival shows, the Bondi to Bronte Ocean Swim entry, and the openair cinema — are ticketed. Check the official pages for current prices, as they change each year." },
+      { "q": "Is there anything on at Bondi if I miss the festivals?", "a": "Yes — the weekend markets run year-round at Bondi Beach Public School on Campbell Parade: a farmers' market on Saturdays and the bigger general Bondi Markets on Sundays. Times can vary with public holidays, so double-check before you go." },
+      { "q": "How do I get to Bondi Beach for a big event?", "a": "Public transport is easiest: take a train to Bondi Junction, then the 333 or 380 bus down to the beach. On event days expect road closures and busy buses, so allow extra time." }
+    ] },
+    { "type": "p", "text": "That's the year in a nutshell: kites and sculptures in spring, festival lights and fun-runners in winter, ocean swims and cinema in summer, and markets any weekend in between. Pick your season, check the official dates, and come see why Bondi is never just a beach." },
+    { "type": "quote", "text": "Come for the swim or the sculptures — you'll leave having seen the whole neighbourhood turn out to play." }
+  ]
+}

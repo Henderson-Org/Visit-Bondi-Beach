@@ -1,0 +1,46 @@
+{
+  "path": "/bondi-blog/2025/4/25/9-unique-bondi-beach-experiences-to-try-beyond-the-sand-and-surf",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bondi Festival (Waverley Council)", "url": "https://www.bondifestival.com.au/" },
+    { "label": "No Lights No Lycra", "url": "https://www.nolightsnolycra.com/" },
+    { "label": "Sculpture by the Sea", "url": "https://sculpturebythesea.com/bondi/" },
+    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" },
+    { "label": "Bondi Aboriginal Walking Tours (Walangari Karntawarra)", "url": "https://www.walangari.com.au/bondi-aboriginal-walking-tours" },
+    { "label": "Sydney Seaplanes", "url": "https://www.seaplanes.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Everyone comes to Bondi for the golden crescent of sand and the surf — and honestly, on a good day that's reason enough. But after years of living a short walk from the promenade, I've learned that the beach is really just the front door. Beyond the sand and surf, Bondi hides a whole side of itself: dancing in the dark, ice skating with the ocean at your back, ancient stories carved into the cliffs, and coffee-worthy views from a floatplane. Here are nine of my favourite only-in-Bondi experiences to try when you're ready to look past the shoreline." },
+    { "type": "quickFacts", "items": [
+      { "label": "Where", "value": "Bondi Beach & the Waverley coastline" },
+      { "label": "Best for", "value": "Repeat visitors & curious locals" },
+      { "label": "Budget", "value": "Free through to bucket-list splurge" },
+      { "label": "Tip", "value": "Book the seasonal ones ahead" }
+    ] },
+    { "type": "h2", "text": "1–3: Dance, skate and dip" },
+    { "type": "p", "text": "The heritage-listed Bondi Pavilion and the beach around it are the beating heart of the area's off-sand life, and that's where I'd start. On select evenings, a short walk away in North Bondi, No Lights No Lycra takes over a hall for a pitch-black, no-instructor, no-judgment dance floor where you move however you like to 80s, 90s and 00s tunes. It's cathartic, a little silly, and one of the friendliest rooms in Sydney. Check the No Lights No Lycra site for the current venue, session night and entry fee before you rock up." },
+    { "type": "p", "text": "Come mid-winter, the park beside the Pavilion transforms for Bondi Festival, whose signature open-air ice rink lets you skate with the beach just metres away — genuinely one of the more surreal things you can do in Australia. The festival runs for a couple of weeks in July; see the Bondi Festival website for this year's dates, rink sessions and ticket prices." },
+    { "type": "p", "text": "And if you want the most old-school Bondi experience of all, brave a winter dip at the Bondi Icebergs ocean pool, carved into the rocks at the beach's southern end. The Icebergs Club has run winter swimming here since 1929. Anyone can pay to swim the public pool (weather and cleaning schedule permitting) — check the Icebergs website for current opening hours and pool fees, as they close periodically for maintenance." },
+    { "type": "localTip", "text": "The Icebergs pool is at its most photogenic when a big swell sends spray over the sea wall — but that's also when it's most likely to be closed for safety. If a dip is the whole reason you're visiting, check the pool's status online that morning rather than turning up on spec." },
+    { "type": "h2", "text": "4–6: Art, culture and a walk to remember" },
+    { "type": "p", "text": "Every spring, the clifftop path from the southern end of Bondi to Tamarama becomes the world's largest free outdoor sculpture show, Sculpture by the Sea. For a few weeks across October and November, more than a hundred large-scale works line the coastal walk against a backdrop of sea cliffs and crashing surf. It's free to wander any time of day; check the official site for the current year's dates and the best times to avoid the crowds." },
+    { "type": "p", "text": "For something far older than any of it, I always point people to a Bondi Aboriginal Walking Tour with Walangari Karntawarra, an Aboriginal elder, artist and musician. He shares Dreaming stories, points out ancient rock carvings along the headland, and talks through the bush foods and deep history of this coast. It completely changes how you see the place. Check the tour's website for the current schedule and to book directly." },
+    { "type": "p", "text": "Third in this trio is a slower pleasure: the Bondi to Bronte coastal walk itself. Even without the sculptures, this cliff-hugging path past Tamarama and Mackenzies Bay is, to me, the single best free thing to do in the whole area. Go early, take your time, and swim at Bronte's little bogey hole at the end." },
+    { "type": "h2", "text": "7–9: On the water, under it, and above it" },
+    { "type": "list", "items": [
+      "Stand-up paddleboard yoga — flowing through poses on a board in the sheltered southern corner of the bay, usually at sunrise or sunset. Balance is optional; the odd splash is guaranteed.",
+      "A freediving taster — learning breath-hold and finning basics before slipping beneath the surface on a single breath, no tanks required. Several qualified operators run beginner sessions in and around Sydney's east.",
+      "A scenic seaplane flight — Sydney Seaplanes departs nearby Rose Bay and arcs over Bondi's famous curve and the harbour. It's the splurge of the list, but the aerial view of that beach is unforgettable."
+    ] },
+    { "type": "callout", "tone": "note", "title": "Book the seasonal and specialist ones ahead", "text": "The ice rink, sculpture walk, cultural tours, SUP yoga, freediving and seaplane flights all run on their own schedules and sell out — especially in peak summer and school holidays. Reserve online before you travel rather than hoping for a walk-up spot." },
+    { "type": "p", "text": "None of these ask you to give up the sand — think of them as the extra chapters. Dance in the dark on Monday, walk the sculptures in spring, swim the Icebergs in winter, and if the budget stretches, see the whole coast from a floatplane. Do a couple and you'll leave with a version of Bondi most day-trippers never meet." },
+    { "type": "faq", "items": [
+      { "q": "What is there to do in Bondi besides swimming and surfing?", "a": "Plenty — No Lights No Lycra dance nights at the Pavilion, the winter ice rink, a dip at the Icebergs pool, Sculpture by the Sea, an Aboriginal walking tour, the Bondi to Bronte walk, SUP yoga, a freediving taster and a seaplane flight." },
+      { "q": "When is Sculpture by the Sea at Bondi?", "a": "It runs along the Bondi to Tamarama clifftop walk for a few weeks across October and November each year, and it's free. Check the official site for this year's exact dates." },
+      { "q": "Can I skate at the Bondi ice rink?", "a": "Yes — the open-air rink beside the Pavilion is part of Bondi Festival, which runs a couple of weeks in July. Sessions and prices are on the Bondi Festival website; book ahead." },
+      { "q": "Is the Bondi Icebergs pool open to the public in winter?", "a": "Generally yes — visitors can pay to swim, though it closes periodically for cleaning and during big swells. Check the Icebergs website for current hours and pool status." },
+      { "q": "Where do seaplane flights over Bondi leave from?", "a": "Sydney Seaplanes departs Rose Bay on Sydney Harbour, a short trip from Bondi. See their website for routes and pricing." }
+    ] }
+  ]
+}

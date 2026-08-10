@@ -1,0 +1,48 @@
+{
+  "path": "/bondi-blog/bondi-beach-cheap-food",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Sabbaba (Bondi)", "url": "https://www.sabbaba.com.au/" },
+    { "label": "North Bondi RSL — Bistro", "url": "https://northbondirsl.com.au/bistro/" },
+    { "label": "Beach Burrito Company", "url": "https://www.beachburritocompany.com/" },
+    { "label": "Waverley Council — Bondi Beach", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/bondi_beach" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Yes, you can eat well in Bondi without blowing your budget — the trick is knowing where locals actually go, which is rarely the beachfront spot with the sea-view markup. My cheap-eats shortlist runs on takeaway falafel, tacos, a good bakery, and one club bistro that quietly punches above its price. Here's how I fill up here for very little." },
+    { "type": "h2", "text": "My go-to cheap eats" },
+    { "type": "p", "text": "For a proper feed under the price of a fancy coffee-and-toast, I head straight up Hall Street. This little strip a block back from the sand is where Bondi's budget food really lives, away from the priciest Campbell Parade real estate." },
+    { "type": "list", "items": [
+      "Sabbaba on Hall Street — a Middle Eastern hole-in-the-wall doing loaded falafel and shawarma pita wraps that genuinely fill you up. It's my default when I want a lot of food for a little money.",
+      "Beach Burrito Company — tacos and burritos a short walk from the sand, with all-day deals that make it easy on the wallet. Check their site for current taco and margarita specials.",
+      "North Bondi RSL Bistro — sign in as a guest and you get honest, well-priced pub-style meals with an ocean view most restaurants would charge a fortune for. Check their site for current bistro hours before you go.",
+      "A bakery lunch — grab a pie, sausage roll or filled roll from one of the local bakeries and eat it on the grass above the beach. Cheap, fast and very Australian."
+    ] },
+    { "type": "localTip", "text": "The cheapest 'restaurant' in Bondi is the seawall. Assemble a picnic from the supermarket or a bakery, grab a spot on the grassy hill above the promenade, and you've got the best dining view on the beach for the price of a loaf and some dips. There are free public barbecues in the parks nearby too — bring your own snags." },
+    { "type": "h2", "text": "How to keep the bill down" },
+    { "type": "p", "text": "Beyond picking the right venue, a few small habits save a surprising amount over a Bondi weekend. This is roughly how I do it when I'm watching the spend." },
+    { "type": "list", "items": [
+      "Go one street back. Prices drop noticeably the moment you leave the Campbell Parade beachfront for Hall Street, Gould Street or Curlewis Street.",
+      "Eat takeaway, sit outside. Skipping table service and the sit-down surcharge is the single biggest saving, and Bondi has endless free spots to sit with a view.",
+      "Make lunch your big meal. Many kitchens run better-value lunch portions and midday deals than they do at dinner.",
+      "Refill your own bottle. There are free public drinking fountains and bottle-refill taps around the promenade and parks, so you're not buying water all day.",
+      "Look for weeknight specials. Local pubs and taquerias often run cheap-taco or discount-pizza nights midweek — always worth checking the venue's own page for what's on right now."
+    ] },
+    { "type": "callout", "tone": "note", "title": "Prices change — check before you go", "text": "Menus, deals and opening hours in Bondi shift with the seasons and the crowds, so I've kept exact prices out of this guide on purpose. For the current cost of a wrap, a taco night or a bistro lunch, check the venue's own website or menu before you head down — that's always the most reliable source." },
+    { "type": "quickFacts", "items": [
+      { "label": "Cheapest area", "value": "Hall Street & the streets one block back from the sand" },
+      { "label": "Best free 'venue'", "value": "The grassy hill above the promenade — BYO picnic" },
+      { "label": "Guest entry", "value": "North Bondi RSL welcomes visitors — sign in at the door" },
+      { "label": "Biggest saving", "value": "Takeaway + eat outside, not table service" }
+    ] },
+    { "type": "h2", "text": "Is Bondi expensive to eat in?" },
+    { "type": "p", "text": "It can be — the headline beachfront restaurants are priced for the postcode and the view. But Bondi is also a real, lived-in suburb, and the everyday food that locals rely on is refreshingly affordable if you know where to point yourself. Stick to the takeaway strips, treat the beach itself as your dining room, and you'll eat like a local for a fraction of what the tourist-facing menus suggest." },
+    { "type": "faq", "items": [
+      { "q": "Where are the cheapest places to eat in Bondi?", "a": "Head one block back from the beach to Hall Street and the surrounding streets. That's where the budget takeaway spots cluster — falafel and shawarma, tacos, bakeries and pizza — well away from the priciest beachfront tables." },
+      { "q": "Can visitors eat at North Bondi RSL?", "a": "Yes. Non-members are welcome to sign in as a guest at the door, and the bistro serves well-priced meals with an ocean view. Check their website for current opening hours and the latest menu." },
+      { "q": "Is there anywhere free to eat near Bondi Beach?", "a": "Eating itself isn't free, but the setting can be. There are free public barbecues in the parks near the beach and plenty of grassy spots above the promenade, so a supermarket or bakery picnic costs next to nothing and comes with the best view in town." },
+      { "q": "What's the best cheap meal to try in Bondi?", "a": "A loaded falafel or shawarma pita from a Hall Street takeaway is hard to beat for value — filling, fast and genuinely good. Follow it with a walk along the sand and you've had a proper Bondi day out for very little." }
+    ] },
+    { "type": "p", "text": "That's my honest cheap-eats map of Bondi: takeaway from the streets behind the sand, a picnic on the seawall when the weather's good, and a friendly club bistro for a sit-down feed with a view. Do it this way and Bondi turns out to be a lot kinder on the wallet than its glossy reputation suggests." }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "path": "/bondi-blog/2024/1/13/a-guide-to-australia-day-at-bondi-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Events", "url": "https://www.waverley.nsw.gov.au/recreation/events" },
+    { "label": "Waverley Council — Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
+    { "label": "Surf Life Saving NSW — Beach safety", "url": "https://www.surflifesaving.com.au/beach-safety" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you're planning to spend 26 January at Bondi, here's my short version after doing it more times than I can count: come early, leave the alcohol at home, swim between the flags, and treat the day thoughtfully. It's one of the busiest days on the sand all year, so a little planning turns a chaotic day into a genuinely lovely one." },
+    { "type": "p", "text": "Let me be honest about the tone first. 26 January means very different things to different people, and Bondi reflects that. The day used to be the most raucous of the year here — I still remember the giant inflatable thongs and free mangoes along the promenade. Those staged festivities have faded, and venues rarely advertise \"Australia Day\" events anymore. What's left is a big, mostly relaxed crowd on the sand — which is exactly why I put this guide together." },
+    { "type": "quickFacts", "items": [
+      { "label": "When", "value": "26 January (public holiday)" },
+      { "label": "Crowds", "value": "Very high — arrive early" },
+      { "label": "Alcohol on the beach", "value": "Not permitted (year-round alcohol-free zone)" },
+      { "label": "Best family spot", "value": "North Bondi" },
+      { "label": "Cost", "value": "Free (parking aside)" }
+    ] },
+    { "type": "h2", "text": "Getting there and claiming your spot" },
+    { "type": "p", "text": "Parking is at its absolute worst on this day — I genuinely wouldn't drive if I could avoid it. If you must, arrive early and settle in for the whole day. Better still, take public transport: check Transport for NSW for current bus and train options to Bondi Junction, then connect down to the beach. Fewer cars, less stress, no circling Campbell Parade for an hour." },
+    { "type": "p", "text": "The good news is that even with enormous crowds, you can almost always find sand. Families do best up at North Bondi, near the shallower water and the playground. If you're kid-free, drift a little further south for a quieter patch. Turn up late and the middle of the beach is usually your easiest bet." },
+    { "type": "localTip", "text": "Pack for a full day: reef-safe sunscreen, plenty of water, a hat and shade. Shops and cafés get slammed and queues are long, so bringing your own means you're not surrendering your spot to hunt for a cold drink." },
+    { "type": "h2", "text": "The rules that actually matter" },
+    { "type": "p", "text": "Bondi, Bronte and Tamarama are alcohol-free zones, and that's enforced hard on 26 January. Rangers and police are out in force, and they're quick to issue on-the-spot fines for drinking on the beach and for littering. Leave the booze at home — if you want a drink, head to a licensed venue instead. Keep it good-natured; antisocial behaviour gets little tolerance." },
+    { "type": "callout", "tone": "warning", "title": "Swim safety is non-negotiable", "text": "26 January is one of the toughest days for our lifesavers: huge crowds, many visitors unfamiliar with surf, and sometimes messy conditions. Always swim between the red-and-yellow flags. If you can't swim confidently, stay no deeper than your knees. Caught in a rip? Stay calm, float on your back, raise an arm, and wait for help. Never swim after drinking." },
+    { "type": "h2", "text": "Eating, drinking and a change of scene" },
+    { "type": "p", "text": "Since nobody's running official festivities, atmosphere is where you find it. The pubs and clubs around Bondi — the likes of the Beach Road Hotel and North Bondi RSL — traditionally have a good buzz, and the Bondi Pavilion precinct is a fine spot to eat with the sand right there. They fill up fast, so time your run and check each venue's website or socials for hours and bookings." },
+    { "type": "p", "text": "Want to escape the crush entirely? Bronte Beach next door is a lower-key alternative with a grassy headland and a gentler crowd. Further afield, the Clovelly Hotel and The Sheaf in Double Bay have long been popular on the day — again, check ahead first." },
+    { "type": "h2", "text": "A moment of reflection" },
+    { "type": "p", "text": "If you'd like to mark the day more thoughtfully, Waverley Council has for several years held a community Dawn Reflection on the beach at sunrise on 26 January — a quiet gathering to acknowledge the continuing connection to Country of Aboriginal and Torres Strait Islander peoples. Details vary year to year, so check the Waverley Council events page closer to the date for the confirmed time and meeting point." },
+    { "type": "faq", "items": [
+      { "q": "Can I drink alcohol on Bondi Beach on Australia Day?", "a": "No. Bondi is a designated alcohol-free zone all year round, enforced strictly on 26 January with on-the-spot fines. Want a drink? Head to a licensed pub, club or bar nearby." },
+      { "q": "How early should I arrive at Bondi on 26 January?", "a": "As early as you can — mid-morning at the latest, earlier still if you're driving. Parking is at its worst all year, so public transport is far less stressful. Late arrivals can usually squeeze in mid-beach." },
+      { "q": "Is there an official Australia Day event at Bondi Beach?", "a": "Not the staged festivities of years past. The main organised gathering is Waverley Council's community Dawn Reflection at sunrise; otherwise it's an informal beach crowd. Check the council events page for anything confirmed this year." },
+      { "q": "Where's the best place to sit with kids?", "a": "North Bondi, near the shallower water and the playground at the northern end. Without children, drift a little further south for a quieter stretch." },
+      { "q": "Is it safe to swim at Bondi on Australia Day?", "a": "It can be, if you're sensible. Always swim between the flags where lifesavers are watching, don't go past your knees if you can't swim confidently, and never swim after drinking." }
+    ] },
+    { "type": "p", "text": "Handled with a bit of care, 26 January at Bondi is still one of the great free days out in Sydney — golden sand, a happy crowd and that unbeatable ocean. Come early, look after each other in the water, and enjoy it." }
+  ]
+}

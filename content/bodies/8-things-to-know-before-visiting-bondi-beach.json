@@ -1,0 +1,162 @@
+{
+  "path": "/bondi-blog/2025/4/23/8-things-to-know-before-visiting-bondi-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    {
+      "label": "Waverley Council — Bondi Beach",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/bondi_beach"
+    },
+    {
+      "label": "Transport for NSW trip planner",
+      "url": "https://transportnsw.info"
+    },
+    {
+      "label": "Surf Life Saving NSW — Beach safety",
+      "url": "https://www.surflifesaving.com.au/beach-safety"
+    },
+    {
+      "label": "NSW Government — Bondi to Coogee Coastal Walk",
+      "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/locations-and-attractions/bondi-to-coogee-coastal-walk"
+    },
+    {
+      "label": "Bondi Icebergs Club",
+      "url": "https://icebergs.com.au"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "If you only remember one thing before visiting Bondi Beach, make it this: always swim between the red and yellow flags. Beyond that, a smooth day comes down to timing your arrival, leaving the car at home, and knowing which end suits you. Here's what I'd tell a friend before a first visit."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Where",
+          "value": "Bondi Beach, Waverley, ~7km east of the Sydney CBD"
+        },
+        {
+          "label": "Swim zone",
+          "value": "Between the red & yellow flags only"
+        },
+        {
+          "label": "Easiest transport",
+          "value": "Train to Bondi Junction, then a bus"
+        },
+        {
+          "label": "Best for calm swims",
+          "value": "The northern (Ben Buckler) end"
+        },
+        {
+          "label": "Cost to enjoy",
+          "value": "The beach and coastal walk are free"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "1. Swim between the flags"
+    },
+    {
+      "type": "p",
+      "text": "Bondi is patrolled by professional lifeguards (the Bondi Rescue crew) and volunteer surf lifesavers, and it can throw up strong rips, so the flags matter. Lifeguards move them to the safest water each day, and swimming inside them is the best thing you can do for your safety. The northern end near Ben Buckler is gentler and more family-friendly; the southern end towards Icebergs pulls the bigger swell and the surfers. Unsure? Ask a lifeguard."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Rips are the real risk, not sharks",
+      "text": "Rip currents are the main hazard at Bondi. If you're caught in one, don't fight it — stay calm, raise an arm for help, and float until it eases or a lifesaver reaches you."
+    },
+    {
+      "type": "h2",
+      "text": "2. Getting here is easiest without a car"
+    },
+    {
+      "type": "p",
+      "text": "Parking around Bondi is metered, time-limited and brutal on a sunny weekend. The stress-free route is public transport: a train to Bondi Junction, then a bus to the beach. The 333 runs between the city and North Bondi, with the 380 on the same corridor, and you tap on and off with an Opal or contactless bank card. For live timetables, check the Transport for NSW trip planner."
+    },
+    {
+      "type": "localTip",
+      "text": "Coming from the CBD, the train-to-Bondi-Junction-then-bus combo usually beats a direct bus for reliability, especially in summer when Bondi Road clogs up. Tap the same card the whole way and the transfer is handled automatically."
+    },
+    {
+      "type": "h2",
+      "text": "3. Come early"
+    },
+    {
+      "type": "p",
+      "text": "Bondi rewards early risers. A sunrise swim, a quiet promenade and a café table are all easier before the mid-morning crowd rolls in — and if you must drive, early is your only realistic shot at a park. Summer weekends and public holidays are busiest; a weekday morning feels like a calmer beach."
+    },
+    {
+      "type": "h2",
+      "text": "4. The Bondi to Coogee coastal walk is unmissable"
+    },
+    {
+      "type": "p",
+      "text": "If you do one thing beyond the sand, walk the roughly 6km Bondi to Coogee coastal path. It hugs the cliffs past Tamarama, Bronte and Clovelly, with the clifftop Waverley Cemetery and ocean pools along the way. It's free and spectacular, with cafés and swimming spots to break it up. Wear proper shoes and bring water."
+    },
+    {
+      "type": "h2",
+      "text": "5. Bondi Icebergs — check times first"
+    },
+    {
+      "type": "p",
+      "text": "That famous ocean pool jutting into the surf at the southern end is Bondi Icebergs, the club pool established in 1929. Non-members can swim for an entry fee, and there's a restaurant and bar upstairs with one of Sydney's best views. Session times, cleaning-day closures and prices change, so check the Icebergs website first."
+    },
+    {
+      "type": "h2",
+      "text": "6. Sun, shade and etiquette"
+    },
+    {
+      "type": "p",
+      "text": "Australian sun is no joke — the UV here burns faster than you'd believe, so bring a hat, a rashie and high-SPF sunscreen, and reapply. Natural shade on the sand is limited, so claim a spot early or bring your own. A few unwritten local rules go a long way, too:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Give surfers and boardriders room — the flagged zone keeps everyone apart for a reason.",
+        "Take your rubbish with you; the bins fill fast on busy days.",
+        "Dogs aren't permitted on Bondi Beach itself — check Waverley Council for dog-friendly areas nearby.",
+        "Keep music low and share the promenade with runners and prams."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "7. Markets, festivals and a buzzing food scene"
+    },
+    {
+      "type": "p",
+      "text": "Bondi is far more than sand. The Bondi Markets run on Sundays at the local public school, and each spring the clifftop fills with Sculpture by the Sea, the free exhibition along the Bondi to Tamarama stretch. Hall Street and the beachfront brim with cafés and gelato. Dates shift year to year, so check the official event pages first."
+    },
+    {
+      "type": "h2",
+      "text": "8. There's more to do than just the beach"
+    },
+    {
+      "type": "p",
+      "text": "Even if the surf's flat or the weather turns, Bondi holds up: the coastal walk, the ocean pools, the cafés, and the boutiques around Gould and Hall Streets. Come for a swim, but leave time to linger — that's when the place gets under your skin."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What's the best way to get to Bondi Beach from the city?",
+          "a": "Take a train to Bondi Junction, then a bus to the beach — the 333 and 380 run this corridor. It's usually faster and less stressful than driving. Check the Transport for NSW trip planner for live times."
+        },
+        {
+          "q": "Is it safe to swim at Bondi Beach?",
+          "a": "Yes, as long as you swim between the red and yellow flags, where the lifeguards patrol. Rip currents are the main hazard, so check the daily conditions and ask a lifeguard if you're unsure."
+        },
+        {
+          "q": "Which end of Bondi is best for families?",
+          "a": "The northern end near Ben Buckler is generally calmer and more sheltered, so it's friendlier for kids and less confident swimmers. The southern end gets the bigger surf."
+        },
+        {
+          "q": "Do I need to pay to enjoy Bondi Beach?",
+          "a": "No — the beach, the promenade and the Bondi to Coogee coastal walk are free. You only pay for extras like the Icebergs pool, parking, food and tours."
+        }
+      ]
+    }
+  ]
+}

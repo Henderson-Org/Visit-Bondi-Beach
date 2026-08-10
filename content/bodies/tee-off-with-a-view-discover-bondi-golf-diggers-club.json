@@ -1,0 +1,38 @@
+{
+  "path": "/bondi-blog/2023/11/17/tee-off-with-a-view-discover-bondi-golf-diggers-club",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bondi Golf & Diggers Club — Play Golf", "url": "https://www.bondigolf.com.au/cms/play-golf/" },
+    { "label": "Creative Spirits — Bondi Golf Course Aboriginal Site (Murriverie)", "url": "https://www.creativespirits.info/australia/new-south-wales/sydney/bondi-golf-course-aboriginal-site" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you want to swing a club with the whole of Bondi laid out beneath you, the Bondi Golf & Diggers Club is where I send visitors — a public nine-hole clifftop course perched on the headland at North Bondi, with the Tasman Sea on one side and the city skyline on the other. It's not a championship layout and it doesn't pretend to be; it's a short, friendly, ridiculously scenic round that anyone can rock up and play, seven days a week." },
+    { "type": "quickFacts", "items": [
+      { "label": "Where", "value": "Military Road, North Bondi" },
+      { "label": "Course", "value": "9 holes, mostly par 3s" },
+      { "label": "Access", "value": "Public — social play 7 days" },
+      { "label": "Booking", "value": "Not required for individuals" },
+      { "label": "Pro Shop", "value": "Open from 7am to sundown" }
+    ] },
+    { "type": "h2", "text": "What the course is actually like" },
+    { "type": "p", "text": "Let me set expectations, because it saves disappointment: this is a short course built around par 3s, not a full 18-hole test of your long game. Purists sometimes sniff at it — it plays a bit like an upmarket pitch-and-putt — but that misses the point entirely. You come here for the walk, the wind, the ocean views over every tee, and the novelty of lining up a shot with waves crashing on the rocks below. On a clear morning I think it's a lovelier way to see this stretch of coast than half the paid tours in Sydney." },
+    { "type": "p", "text": "Because the holes are short you can go around twice for a full eighteen, or knock out a quick nine if you're tight on time. It's laid out on exposed headland, so the sea breeze is a real factor — club up when it's blowing, and don't be surprised when a gentle-looking par 3 suddenly bites back." },
+    { "type": "localTip", "text": "Play early. A first-thing tee-off gets you the softest light, the calmest wind and the quietest fairways — and you'll be down on the sand or in a North Bondi café for breakfast before the crowds have even found a park." },
+    { "type": "h2", "text": "Hire, fees and turning up" },
+    { "type": "p", "text": "You don't need to book as an individual — the course runs on a first-come, first-served basis for social play outside member competition times, so you turn up at the Pro Shop and go. If you're a group of ten or more, call ahead so they can slot you in. The team hires out clubs (half and full sets) and motorised carts if you'd rather ride than walk the headland." },
+    { "type": "callout", "tone": "note", "title": "Check the current rates before you go", "text": "Green fees and hire prices change, and they vary between weekdays and weekends. Rather than quote a number that might be stale, I'd ring the Pro Shop or check the official Bondi Golf website for the current fees and any competition-day restrictions." },
+    { "type": "p", "text": "One of my favourite things about the place is how relaxed it is. The club happily calls itself one of the most laid-back in Sydney, and there's no strict dress code out on the course — wear what's comfortable. That easygoing attitude is very Bondi, and it's a big part of why first-timers and non-golfers enjoy it as much as the regulars do." },
+    { "type": "h2", "text": "Look down as well as out: the Murriverie rock engravings" },
+    { "type": "p", "text": "Here's the detail most visitors miss. Out near the cliff edge on the golf course headland sits an Aboriginal rock engraving site the traditional owners know as Murriverie — carvings of marine life such as fish, sharks and whales, cut into the sandstone. It's one of a handful of engraving sites along this coast, and a reminder that people have been drawn to this headland for thousands of years, long before anyone teed off here. The engravings are weathered, unfenced and easy to walk straight past, so tread carefully, don't climb on the rock, and take a moment to appreciate what you're standing beside." },
+    { "type": "callout", "tone": "warning", "title": "Treat the engravings with respect", "text": "The Murriverie carvings are a fragile, culturally significant site with no barriers around them. Stay off the engraved rock surfaces, don't touch or trace the grooves, and leave everything exactly as you found it." },
+    { "type": "faq", "items": [
+      { "q": "Is Bondi Golf & Diggers Club open to the public?", "a": "Yes. It's a public nine-hole course open for social play seven days a week outside member competition times. Individuals don't need to book — you just turn up at the Pro Shop, which runs from around 7am to sundown." },
+      { "q": "Do I need to bring my own clubs?", "a": "No. The Pro Shop hires out clubs in half and full sets, and motorised carts are available too, so you can arrive empty-handed and still play a round." },
+      { "q": "How much does it cost to play?", "a": "Green fees vary by weekday versus weekend and change over time, so I don't quote a figure here. Call the Pro Shop or check the official Bondi Golf website for the current green fees and hire prices before you head over." },
+      { "q": "Is there a dress code?", "a": "Not on the course. The club is proudly one of the most relaxed in Sydney, so comfortable, casual clothing is completely fine for a social round." },
+      { "q": "Can non-golfers enjoy it too?", "a": "Absolutely. Between the par-3 layout, the 360-degree ocean and city views and the laid-back vibe, it's one of the friendliest introductions to golf you'll find — and even walking companions get the scenery." }
+    ] },
+    { "type": "p", "text": "So if the surf's flat or you just fancy seeing Bondi from a different angle, grab a set of clubs and head up to the headland. It's casual, it's scenic and it's about as Bondi as a game of golf gets — sea spray, city skyline and all." }
+  ]
+}
