@@ -1,0 +1,43 @@
+{
+  "path": "/bondi-blog/bondi-beach-golf-course",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bondi Golf & Diggers Club (official)", "url": "https://www.bondigolf.com.au/cms/" },
+    { "label": "Golf NSW — Bondi Golf Club", "url": "https://www.golfnsw.org.au/golf-clubs/bondi-golf-club/" },
+    { "label": "Dictionary of Sydney — Bondi rock carvings", "url": "https://dictionaryofsydney.org/entry/bondi_rock_carvings" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you want the single best value in Bondi, here it is: the Bondi Golf & Diggers Club is a public 9-hole course laid out along the sandstone clifftops at North Bondi, open to anyone who turns up — you don't need to be a member, and for most of the week you don't even need a booking. I've walked plenty of visitors up here who came for the golf and left talking about the view, and honestly I get it. There aren't many places on earth where a slightly wayward tee shot is forgiven the moment you look up and see the whole sweep of the coast." },
+    { "type": "quickFacts", "items": [
+      { "label": "Where", "value": "5 Military Road, North Bondi NSW 2026" },
+      { "label": "What", "value": "Public 9-hole clifftop golf course" },
+      { "label": "Booking", "value": "Mostly walk-in — no tee time needed" },
+      { "label": "Great for", "value": "Casual golfers & first-timers" }
+    ] },
+    { "type": "h2", "text": "Why I send people up here" },
+    { "type": "p", "text": "This is not a manicured championship layout, and that's exactly the charm. It's an old-style links course on the headland above the beach, with the sky, the cliffs and the ocean breeze all part of the challenge. The wind off the sea genuinely moves the ball and the greens keep you humble — but what you're really paying for is the setting, with Bondi Beach, the coastline and the city skyline laid out around you the entire round." },
+    { "type": "p", "text": "Because it's a short 9-hole course, it suits people who'd never normally book a full round: families, complete beginners, and anyone who wants a local hour or two that isn't sitting on the sand. You can play a quick loop and still make lunch back down on Campbell Parade." },
+    { "type": "localTip", "text": "Play late in the afternoon. The light on the cliffs in the last hour before sundown is the best it gets, the heat has dropped off, and you'll finish your round as the coast turns gold. Bring a windbreaker regardless of the forecast — it's always breezier up on the headland than it is down on the beach." },
+    { "type": "h2", "text": "How to actually play a round" },
+    { "type": "p", "text": "The club runs a refreshingly simple format for social players: for much of the week you arrive, join the queue and tee off — no advance reservation required. The exceptions are member competition times (typically weekend mornings) and the occasional big event day when the course closes to social play, with City2Surf Sunday the classic example. The golden rule is to check before you commit to a specific time." },
+    { "type": "list", "items": [
+      "Turn up at the clubhouse at 5 Military Road, North Bondi.",
+      "Confirm current social-play hours and green fees on the day — these change, so check the official website first.",
+      "Ask at the clubhouse about club and buggy hire rather than assuming; availability varies.",
+      "Weekend mornings are competition time, so aim for after the comp field has cleared, or a weekday, for the easiest walk-on."
+    ] },
+    { "type": "callout", "tone": "note", "title": "Check the current rates and hours", "text": "Green fees, social-play windows and hire options do change, and I won't quote a price that might be out of date. For today's fees and times, and to confirm the course is open to visitors on the day you want, check the Bondi Golf & Diggers Club website or give the clubhouse a call before you head up." },
+    { "type": "h2", "text": "The hidden gem within the hidden gem" },
+    { "type": "p", "text": "Here's the part most visitors miss entirely. On the sea side of the course, out on the flat rock of the headland, there's a panel of Aboriginal rock engravings carved by the Eora people — a site known as Murriverie, near Ben Buckler. The largest carving is a huge shark alongside a human-like figure, and the engravings are believed to be around 2,000 years old. It's a genuinely significant cultural site, not a tourist reconstruction." },
+    { "type": "callout", "tone": "warning", "title": "Treat the engravings with respect", "text": "This is a protected and culturally important site. Look, don't touch — never walk directly on the carved rock or trace the grooves. If you visit, keep to the edges and give it the respect a 2,000-year-old artwork deserves." },
+    { "type": "p", "text": "You can reach the headland on foot even if you're not playing golf, but do stay aware of the course — a golf ball at speed is nothing to wander into. If you're combining it with a walk, the North Bondi end of the beach and the start of the Bondi to Bronte coastal walk are both a short stroll away, so it's easy to fold the golf course, the engravings and the coast into one very good morning." },
+    { "type": "faq", "items": [
+      { "q": "Can anyone play Bondi Golf Course, or do you need to be a member?", "a": "Anyone can play — it's a public course. For most of the week you can simply turn up and join the queue without a booking. The main exceptions are member competition times and big event days, so it's worth checking the club's website before you go." },
+      { "q": "How many holes is it, and how long does a round take?", "a": "It's a compact 9-hole clifftop course, so a round is far quicker than a full 18 — ideal if you only have an hour or two. Exact pars and hole details are on the official Golf NSW and club listings." },
+      { "q": "Do I need to book a tee time?", "a": "Usually no. The club runs a walk-in social format for much of the week — arrive, join the queue and play. Booking mainly matters around weekend competitions, so confirm the current arrangements with the clubhouse." },
+      { "q": "Are the Aboriginal rock engravings really on the golf course?", "a": "Yes. On the sea side of the headland there's a significant panel of Eora rock engravings, including a large shark figure, thought to be around 2,000 years old. It's a protected cultural site, so look but never touch." }
+    ] },
+    { "type": "p", "text": "So that's my pitch: come for a cheap, gloriously scenic round of golf, and leave having stood beside one of Sydney's oldest artworks. Few visitors put those two things together, which is exactly why the Bondi Golf Course earns its \"hidden gem\" reputation with me." }
+  ]
+}

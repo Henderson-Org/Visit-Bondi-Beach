@@ -8,7 +8,7 @@
     { "label": "Sydney.com — Bondi Farmers Market", "url": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/events/bondi-farmers-market" }
   ],
   "blocks": [
-    { "type": "p", "text": "The Bondi Farmers Market runs every Saturday morning, 9am to 1pm, in the grounds of Bondi Beach Public School on Campbell Parade — a two-minute stroll from the sand. It's my favourite way to start a Bondi weekend: a coffee in one hand, a bag slowly filling with fruit, warm bread and flowers, and the ocean glinting just across the road. If you only do one local thing on a Saturday here, make it this." },
+    { "type": "p", "text": "The Bondi Farmers Market runs every Saturday morning, 9am to 1pm, in the grounds of Bondi Beach Public School on Campbell Parade — just across the road from the sand. It's my favourite way to start a Bondi weekend: a coffee in one hand, a bag slowly filling with fruit, warm bread and flowers, and the ocean glinting nearby. If you only do one local thing on a Saturday here, make it this." },
     { "type": "quickFacts", "items": [
       { "label": "When", "value": "Every Saturday, 9am–1pm" },
       { "label": "Where", "value": "Bondi Beach Public School, Campbell Parade & Warners Ave" },
@@ -17,7 +17,7 @@
       { "label": "Weather", "value": "Rain or shine (mostly outdoors)" }
     ] },
     { "type": "h2", "text": "When and where to find it" },
-    { "type": "p", "text": "You'll find the market in the schoolyard on the corner of Campbell Parade and Warners Avenue, the northern end of Bondi Beach. It's genuinely across the road from the promenade, so it slots perfectly into a beach morning — market first while it's cool, then a walk on the sand or a swim once you've stashed your shopping. It's an open-air market and runs come rain or shine, so I'd never let a grey forecast put me off. That said, times and dates can shift around public holidays, so if you're travelling a long way, it's worth a quick check of the official Bondi Farmers Market page before you set out." },
+    { "type": "p", "text": "You'll find the market in the schoolyard on the corner of Campbell Parade and Warners Avenue, at the northern end of Bondi Beach, across the road from the promenade. It slots perfectly into a beach morning: market first while it's cool, then the sand once you've stashed your shopping. It's open-air and runs rain or shine, so I'd never let a grey forecast put me off. That said, times can shift around public holidays, so if you're travelling a long way, check the official Bondi Farmers Market page before you set out." },
     { "type": "callout", "tone": "note", "title": "Saturday farmers' market vs. Sunday market", "text": "Two different markets share the same schoolyard. Saturday is the Farmers Market — fresh food, produce and breakfast, 9am–1pm. Sunday is the general Bondi Markets, a bigger fashion, vintage and homewares affair with different hours. If you've come for fruit and veg, come on Saturday." },
     { "type": "h2", "text": "What you'll find at the stalls" },
     { "type": "p", "text": "The whole idea here is fresh and local — where possible, the people who grow or make the food are the ones selling it. On a typical Saturday you can expect a spread like this:" },
@@ -30,8 +30,8 @@
       "Fresh seafood",
       "Barista coffee, juices and hot street-food breakfasts to eat on the spot"
     ] },
-    { "type": "p", "text": "It's as much a place to eat as to shop. I'll usually grab a coffee and something hot to eat, do a slow loop to see what looks good that week, then double back for the produce once I've decided. Buying by the season is half the fun — you learn what's actually good right now instead of what a supermarket flies in year-round." },
-    { "type": "localTip", "text": "Come between 9 and 10am if you can. The bread and pastry stalls are at their fullest, the coffee queues are short, and you'll beat both the late-morning crowd and the fight for a nearby park. Bring a tote or two and some cash — many stalls take card, but not all, and a small note saves fumbling." },
+    { "type": "p", "text": "It's as much a place to eat as to shop. I'll grab a coffee and something hot, do a slow loop to see what looks good that week, then double back for the produce. Buying by the season is half the fun — you learn what's actually good right now instead of what a supermarket flies in year-round." },
+    { "type": "localTip", "text": "Come between 9 and 10am if you can. The bread and pastry stalls are fullest, the coffee queues short, and you'll beat both the late-morning crowd and the scramble for a park. Bring a tote and some cash — many stalls take card, but not all." },
     { "type": "h2", "text": "Making a morning of it" },
     { "type": "p", "text": "The market pairs beautifully with everything else at this end of Bondi. Here's roughly how I'd shape an easy Saturday around it." },
     { "type": "itinerary", "stops": [

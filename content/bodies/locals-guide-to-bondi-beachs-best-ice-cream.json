@@ -1,0 +1,40 @@
+{
+  "path": "/bondi-blog/2024/9/21/locals-guide-to-bondi-beachs-best-ice-cream",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Gelato Messina — Bondi", "url": "https://gelatomessina.com/" },
+    { "label": "Anita Gelato — Campbell Parade, Bondi Beach", "url": "https://www.anita-gelato.com/our-locations/campbell-parade-bondi-beach/" },
+    { "label": "Mapo Bondi (Broadsheet)", "url": "https://www.broadsheet.com.au/sydney/bondi-beach/shops/mapo-bondi" },
+    { "label": "Yo-Chi frozen yogurt", "url": "https://yochi.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you want my honest local's shortlist for the best ice cream at Bondi, it's this: Gelato Messina on Hall Street for the showstopper flavours, Anita Gelato on Campbell Parade for sheer variety, and Mapo just up the hill for the purist, natural-ingredient gelato I keep coming back to. Add a self-serve tub from Yo-Chi or an açaí bowl for the beach, and you've covered every mood a hot Bondi afternoon can throw at you." },
+    { "type": "p", "text": "I've walked this stretch more times than I can count, usually with a scoop melting faster than I can eat it. So rather than list every freezer in the postcode, here's where I actually send friends when they visit — and how to time it so you're not queuing behind the entire beach." },
+    { "type": "quickFacts", "items": [
+      { "label": "Gelato Messina", "value": "Hall Street, Bondi Beach" },
+      { "label": "Anita Gelato", "value": "180 Campbell Parade" },
+      { "label": "Mapo", "value": "Bondi (natural, no stabilisers)" },
+      { "label": "Best time", "value": "Late afternoon, after the beach" }
+    ] },
+    { "type": "h2", "text": "The gelato I actually queue for" },
+    { "type": "h3", "text": "Gelato Messina, Hall Street" },
+    { "type": "p", "text": "Messina is the one visitors have usually heard of, and it earns the hype. The Bondi shop sits just off Campbell Parade on Hall Street, and alongside the signature line-up there's a rotating set of weekly specials that range from genuinely clever to gloriously silly. My move is to order one safe scoop (their salted caramel white chocolate is a classic for a reason) and one wildcard special. Flavours change constantly, so check the counter — or the Messina site — for what's on this week." },
+    { "type": "h3", "text": "Anita Gelato, Campbell Parade" },
+    { "type": "p", "text": "Anita is right on the beachfront, which makes it dangerously convenient. The draw here is the sheer wall of flavours — well over a hundred spanning gelato, sorbet and yogurt, including vegan and sugar-free options — so it's my pick when I'm with a group who can never agree. Ask for a taste before you commit; the staff are used to it, and it saves you from flavour regret." },
+    { "type": "h3", "text": "Mapo" },
+    { "type": "p", "text": "Mapo is my quiet favourite. It's the artisanal end of the spectrum — natural ingredients, authentic Italian technique, and no stabilisers in the cream, which is why the texture tastes so clean. Look for the Italian benchmarks like fior di latte, Sicilian pistachio and single-origin chocolate. It's less of a spectacle than Messina and less of a menu than Anita, but if you care about the gelato itself, this is where I'd point you first." },
+    { "type": "localTip", "text": "Skip the after-dinner rush. The queues at Messina and Anita balloon from about 7pm on warm evenings. Go late afternoon straight off the sand instead — shorter lines, softer light, and you can eat it on the grass at the north end overlooking the water." },
+    { "type": "h2", "text": "Lighter and beach-friendly alternatives" },
+    { "type": "p", "text": "Not every hot day calls for a double scoop. When I want something lighter, Yo-Chi is the self-serve frozen yogurt spot where you build your own tub and get charged by weight — great with kids, because everyone assembles their own creation and no one complains. And if you've just come off the sand and want something that feels almost virtuous, an açaí bowl is the Bondi classic: blended açaí topped with fruit, granola and whatever else you fancy. There are a few good açaí spots around Campbell Parade and Hall Street; take it down to the promenade and you've got the perfect post-swim refuel." },
+    { "type": "callout", "tone": "note", "title": "Opening hours shift with the seasons", "text": "Bondi's dessert shops stretch their hours over summer and pull them back in winter, and specials rotate weekly. I've deliberately not baked exact times or prices into this guide — check each venue's own website or Instagram for current hours before you make a special trip." },
+    { "type": "faq", "items": [
+      { "q": "What's the best ice cream in Bondi?", "a": "For gelato, my top three are Gelato Messina on Hall Street for standout signature and weekly-special flavours, Anita Gelato on Campbell Parade for the biggest variety (including vegan and sugar-free), and Mapo for natural, purist gelato. Which is 'best' honestly depends on whether you want spectacle, choice, or craft." },
+      { "q": "Where can I get vegan or dairy-free ice cream in Bondi?", "a": "Anita Gelato carries a wide range of sorbets and vegan options among its very large flavour list, and most Bondi gelato shops keep a few dairy-free sorbets alongside the dairy gelato. Açaí bowls are also naturally dairy-free. Ask at the counter, as the specific line-up changes." },
+      { "q": "Is there frozen yogurt in Bondi?", "a": "Yes — Yo-Chi offers self-serve frozen yogurt where you fill your own tub with soft-serve and toppings and pay by weight. It's a good lighter, customisable option, especially with kids." },
+      { "q": "When's the best time to go for ice cream in Bondi?", "a": "Late afternoon, straight off the beach. The big queues at Messina and Anita build in the evening, particularly after dinner on warm nights, so you'll wait far less if you go before the crowds arrive." },
+      { "q": "How much does gelato cost in Bondi?", "a": "Prices vary by shop, scoop size and season, so I'd rather not quote a figure that goes stale — check the venue's own menu. Expect Bondi beachfront pricing, and note that açaí bowls and build-your-own frozen yogurt are charged differently (often by weight or by bowl size)." }
+    ] },
+    { "type": "p", "text": "That's my real-world loop: a scoop of something clever at Messina, a group graze at Anita, a quiet cone at Mapo, and an açaí bowl for the walk home. Whatever the weather's doing, Bondi's frozen-treat scene has you covered — just save room, and don't let it melt before you reach the sand." }
+  ]
+}

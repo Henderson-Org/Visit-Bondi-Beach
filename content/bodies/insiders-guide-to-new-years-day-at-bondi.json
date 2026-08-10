@@ -1,0 +1,47 @@
+{
+  "path": "/bondi-blog/2023/12/28/insiders-guide-to-new-years-day-at-bondi",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
+    { "label": "Waverley Council — alcohol at beach events", "url": "https://www.waverley.nsw.gov.au/top/news_and_media/media_releases/all/2024/waverley_council_draws_a_line_in_the_sand_about_alcohol_at_beach_events" },
+    { "label": "Icebergs Dining Room and Bar", "url": "https://idrb.com/dining-room/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you want my honest, lived-in take: New Year's Day is my favourite day of the year to be at Bondi. While the rest of Sydney sleeps off the fireworks, the beach wakes up soft and golden, the water is clean and cool, and there's a quiet, slightly dazed camaraderie among everyone who made it down for a swim. This is how I'd spend it — an early dip, a slow breakfast, and a long lunch with the Pacific glittering below you." },
+    { "type": "p", "text": "Here's the thing first-timers get wrong: January 1 at Bondi isn't really a party on the sand. Bondi Beach is a permanent alcohol-free and glass-free zone (it has been since 2002, and Waverley Council enforces it), so the celebrating happens up on the promenade and inside the venues, not down on the beach. Once you know that, the day falls beautifully into place." },
+    { "type": "h2", "text": "Start with the swim" },
+    { "type": "p", "text": "My non-negotiable New Year's Day ritual is a morning ocean swim. There's something about washing off the old year in cold salt water that no brunch can replace. If you want laps in a lane, the Bondi Icebergs ocean pool at the south end is the classic choice — check their site for public swim hours and pool fees, because they vary and the pool sometimes closes for swell. If you'd rather just float, the calmer water is usually down the north end near the flags." },
+    { "type": "callout", "tone": "warning", "title": "Swim between the flags", "text": "Bondi is patrolled by Surf Life Saving lifeguards, but rips are real and New Year's Day brings big, sometimes tired crowds into the water. Always swim between the red-and-yellow flags, and if the surf looks heavy, the Icebergs pool or the gentler north corner is the smarter call." },
+    { "type": "h2", "text": "The long lunch — Bondi's real New Year tradition" },
+    { "type": "p", "text": "The heart of New Year's Day here is a long lunch with a view. Icebergs Dining Room and Bar, perched over the south end since 2002, has hosted a New Year's Day tradition for two decades — once a famously glamorous bash under owner Maurice Terzini, and in recent years a more relaxed, elegant sit-down affair. Down the north end, North Bondi Fish runs its own festive New Year's Day service with shared seafood and DJs on the deck." },
+    { "type": "callout", "tone": "note", "title": "Book direct, and book early", "text": "New Year's Day menus, ticket prices and session times at Icebergs, North Bondi Fish and the other clifftop venues change every year and sell out fast — often weeks ahead. I won't quote a price that might be stale; check each venue's own website or booking page for this year's offering and reserve directly." },
+    { "type": "p", "text": "If a set-menu lunch isn't your speed, Bondi's cafés along Campbell Parade and Hall Street do a roaring recovery-brunch trade on January 1. There's no shortage of poached eggs, cold-pressed juice and strong coffee within a two-minute walk of the sand — just expect a wait, and be kind to the staff who chose to work the morning after." },
+    { "type": "localTip", "text": "Bring a hat, reef-safe sunscreen and your own water bottle. January is peak Sydney summer and the promenade offers almost no shade — I've watched too many visitors get fried by 11am. There are public bubblers to refill along the beach." },
+    { "type": "h2", "text": "Getting there (leave the car at home)" },
+    { "type": "p", "text": "Do not drive to Bondi on New Year's Day if you can possibly avoid it. Parking is scarce, metered and hunted like treasure, and the streets around the beach are often affected by New Year's road closures and clean-up. Public transport is genuinely the easier option: take a train to Bondi Junction and connect to the 333, 380 or 381 bus down to the beach. Check Transport for NSW for live timetables, as holiday services differ from a normal day." },
+    { "type": "quickFacts", "items": [
+      { "label": "Beach rules", "value": "Alcohol-free & glass-free zone" },
+      { "label": "Best swim", "value": "Early morning, between the flags" },
+      { "label": "The tradition", "value": "Long clifftop lunch with a view" },
+      { "label": "Getting there", "value": "Train to Bondi Junction + bus" },
+      { "label": "Book venues", "value": "Direct, weeks ahead" }
+    ] },
+    { "type": "h2", "text": "A relaxed New Year's Day, hour by hour" },
+    { "type": "itinerary", "stops": [
+      { "time": "8:00am", "title": "Sunrise swim", "detail": "Beat the crowds with a dip near the north flags or laps at the Icebergs pool." },
+      { "time": "9:30am", "title": "Recovery brunch", "detail": "Coffee and eggs at a Hall Street or Campbell Parade café." },
+      { "time": "11:30am", "title": "Coastal walk", "detail": "Stroll the start of the Bondi to Bronte path for the views before it gets hot." },
+      { "time": "12:30pm", "title": "The long lunch", "detail": "Your pre-booked table at Icebergs, North Bondi Fish or a clifftop favourite." },
+      { "time": "4:00pm", "title": "Golden-hour wander", "detail": "Back down to the promenade as the light softens over the water." }
+    ] },
+    { "type": "faq", "items": [
+      { "q": "Can you drink alcohol on Bondi Beach on New Year's Day?", "a": "No. Bondi Beach is a permanent alcohol-free and glass-free zone enforced by Waverley Council, and that applies on New Year's Day too. The celebrating happens inside the licensed venues and up on the promenade, not on the sand." },
+      { "q": "Is Icebergs open on New Year's Day?", "a": "Icebergs has run a New Year's Day tradition for around two decades, these days as a relaxed sit-down lunch rather than the old party. Exact sittings, menus and prices change each year and book out early, so check the Icebergs website and reserve directly." },
+      { "q": "What's the best time to go to Bondi on New Year's Day?", "a": "Early. A morning swim before roughly 10am means calmer water, easier café tables and a parking spot if you must drive. By midday the beach and the recovery-brunch cafés are packed." },
+      { "q": "How do I get to Bondi on New Year's Day?", "a": "Take public transport. Catch a train to Bondi Junction, then the 333, 380 or 381 bus to the beach. Holiday timetables differ from normal, so check Transport for NSW before you set out — and expect road closures near the beach." },
+      { "q": "Is it worth going to Bondi on New Year's Day?", "a": "Absolutely, if you go for the right reasons — a clean morning swim, a slow brunch and a long lunch with an ocean view. It's a calmer, more local kind of celebration than New Year's Eve, and that's exactly why I love it." }
+    ] },
+    { "type": "p", "text": "That's my New Year's Day in a nutshell: swim early, eat slowly, book ahead and let the beach set the pace. Leave the fireworks-night frenzy behind, and you'll find the version of Bondi that we locals quietly keep for ourselves. Happy new year — see you in the water." }
+  ]
+}
