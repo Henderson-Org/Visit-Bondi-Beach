@@ -1,61 +1,57 @@
 {
   "path": "/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-10",
   "sources": [
     { "label": "Bondi Rescue — Wikipedia", "url": "https://en.wikipedia.org/wiki/Bondi_Rescue" },
-    { "label": "Bondi Rescue — CJZ (Cordell Jigsaw)", "url": "https://cjz.com.au/shows/bondi-rescue/" },
-    { "label": "Waverley Council — Lifeguards & beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" }
+    { "label": "Bruce Hopkins (surf lifesaver) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Bruce_Hopkins_(surf_lifesaver)" },
+    { "label": "Waverley Council — Beaches & coast", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
+    { "label": "Waverley Council lifeguards, 100 years — The Beast", "url": "https://thebeast.com.au/other/waverley-council-lifeguards-100-years-and-going-strong/" }
   ],
   "blocks": [
-    { "type": "p", "text": "I get asked about Bondi Rescue constantly, and the biggest surprise for most people is that none of it is acting. The lifeguards you see are genuine Waverley Council employees doing a real job; the cameras just follow them around. Here are the facts I love sharing about the show that turned my local beach into one of the most-watched stretches of sand on earth." },
+    { "type": "p", "text": "The thing people can't quite believe about Bondi Rescue is that none of it is acting. The lifeguards you see are genuine Waverley Council employees doing a real job — the cameras just follow them around. Here are 20 things I love telling visitors about the show that turned my local beach into one of the most-watched stretches of sand on earth." },
     { "type": "quickFacts", "items": [
-      { "label": "First aired", "value": "February 2006, Network Ten" },
+      { "label": "First aired", "value": "15 February 2006, Network Ten" },
       { "label": "Made by", "value": "Cordell Jigsaw Productions" },
       { "label": "Narrator", "value": "Osher Günsberg" },
-      { "label": "Seasons", "value": "around 18 (as of the 2024 run)" }
+      { "label": "Run", "value": "18 seasons, 200+ episodes (2006–2024)" }
     ] },
     { "type": "h2", "text": "The show itself" },
-    { "type": "p", "text": "It's older and more decorated than a lot of fans realise, and it started as a documentary idea, not a slick network pitch." },
     { "type": "list", "items": [
-      "1. It premiered in February 2006 — which makes it one of the longest-running factual series Australia has produced.",
-      "2. It was the brainchild of documentary-maker Michael Cordell, not a broadcaster chasing ratings.",
-      "3. It's made by Cordell Jigsaw Productions, the same production house behind a string of Australian documentary hits.",
-      "4. The familiar narration is by Osher Günsberg — the presenter many older viewers still remember as 'Andrew G'.",
-      "5. It's a serious awards magnet, with a swag of Logie Awards for Most Popular Factual Program to its name.",
-      "6. By the 2024 season it had run for around 18 seasons — a remarkable innings for any unscripted show.",
-      "7. It's genuinely global, screening in scores of countries, which is why I regularly meet visitors who came to Bondi because of the telly."
+      "1. It premiered on 15 February 2006 on Network Ten — nearly two decades on, that makes it one of the longest-running factual series Australia has produced.",
+      "2. It wasn't a broadcaster's idea. It was created by Ben Davies, a part-time Bondi lifeguard, together with documentary-maker Michael Cordell — the first crew were filming their own workmates.",
+      "3. It's made by Cordell Jigsaw Productions, the house behind a long run of Australian documentary hits.",
+      "4. The narration is by Osher Günsberg — the presenter many older viewers still remember as 'Andrew G'.",
+      "5. It's a serious awards magnet: it won the Logie for Most Popular Factual Program six years running, from 2008 to 2013.",
+      "6. By its 2024 run it had reached 18 seasons and more than 200 episodes — a remarkable innings for any unscripted show.",
+      "7. It screens in dozens of countries, which is why I regularly meet visitors who came to Bondi because of the telly."
     ] },
     { "type": "h2", "text": "The lifeguards behind the tank tops" },
-    { "type": "p", "text": "The tower at the south end near the promenade is a real, working operations base — not a set — and the crew there patrol more than just Bondi." },
     { "type": "list", "items": [
-      "8. The same lifeguard service is also responsible for neighbouring Tamarama and Bronte, so their patch stretches well beyond the famous crescent.",
-      "9. Head lifeguard Bruce 'Hoppo' Hopkins has anchored the team for decades and is effectively the show's quiet backbone.",
-      "10. The nicknames are a whole culture in themselves — Harries, Deano, Whippet, Maxi, Chappo — and most of them predate the cameras.",
-      "11. The lifeguards are the real deal, holding professional lifeguard and first-aid qualifications; the drama on screen is their ordinary Tuesday.",
-      "12. Across a busy summer the Bondi team logs thousands of rescues — far more than any episode could ever show.",
-      "13. Because so many rescues happen, only a small fraction ever make it to air."
+      "8. They're genuine Waverley Council employees. The council has paid professionals to watch this beach since 1913, when it hired its first full-time lifeguard — the show simply points a camera at a job that's more than a century old.",
+      "9. The same service also patrols neighbouring Tamarama and Bronte, and works all three beaches 365 days a year — their patch stretches well beyond the famous crescent.",
+      "10. Head lifeguard Bruce 'Hoppo' Hopkins has led the team since 2000 and been a Bondi lifeguard since 1991; he was named Australian Lifeguard of the Year in 2006, the show's very first year.",
+      "11. The nicknames are a whole culture in themselves — Harries, Deano, Whippet, Maxi, Chappo — and most of them predate the cameras.",
+      "12. They're qualified professionals holding lifeguard and first-aid tickets; the drama on screen is their ordinary shift.",
+      "13. Across a busy summer the Bondi team logs thousands of rescues — far more than any season could show, so only a fraction ever makes it to air."
     ] },
-    { "type": "localTip", "text": "Want to see the show in real life? The lifeguards run training drills on the sand at quieter times. Watch from the promenade near the tower rather than crowding the flagged swimming area — that space needs to stay clear for real patrols." },
+    { "type": "localTip", "text": "Want to see the show in real life? The lifeguards run training drills on the sand at quieter times. Watch from the promenade near the tower at the south end rather than crowding the flagged swimming area — that space needs to stay clear for real patrols." },
     { "type": "h2", "text": "The stuff the camera doesn't dwell on" },
-    { "type": "p", "text": "Spend enough summers here and you learn that the real story of Bondi Rescue is a public-safety message dressed up as entertainment." },
     { "type": "list", "items": [
       "14. The number-one hazard on the show isn't sharks — it's rip currents, the fast channels of water that pull swimmers out to sea.",
       "15. A huge share of rescues involve visitors who simply don't recognise a rip — exactly why the show keeps hammering the flags.",
       "16. 'Swim between the red-and-yellow flags' isn't a catchphrase; it's the single most useful thing the series has taught millions of viewers.",
       "17. It's observational documentary, not scripted reality — there's no writers' room deciding who nearly drowns on Saturday.",
-      "18. Weather you rarely see on screen is a big part of the job; the lifeguards work grey, wild and freezing days that don't make glossy TV.",
-      "19. The fame is real: Bondi's lifeguards get stopped for photos around the world.",
+      "18. The weather you rarely see is a big part of the job: the lifeguards work grey, wild and freezing days that never make glossy TV.",
+      "19. The fame is real — Bondi's lifeguards get stopped for photos around the world.",
       "20. For all the drama, the show has probably saved lives off-screen too, by teaching people to respect the surf before they swim."
     ] },
     { "type": "callout", "tone": "warning", "title": "Watch the show, but respect the water", "text": "Bondi is a patrolled beach with real rips. No amount of watching Bondi Rescue replaces the basics: always swim between the red-and-yellow flags, never swim alone, and if you're caught in a rip, stay calm, raise an arm and let the current carry you while you signal for help." },
     { "type": "faq", "items": [
-      { "q": "Is Bondi Rescue scripted or real?", "a": "It's real. The lifeguards are actual Waverley Council professionals doing their day job, and the show is an observational documentary — the camera crews follow genuine patrols and rescues rather than following a script." },
-      { "q": "When did Bondi Rescue start and how many seasons are there?", "a": "It first aired in February 2006 on Network Ten and, by its 2024 run, had reached around 18 seasons — making it one of Australia's longest-running factual series." },
-      { "q": "Who narrates Bondi Rescue?", "a": "The series is narrated by Osher Günsberg, the Australian presenter previously known on air as 'Andrew G'." },
+      { "q": "Is Bondi Rescue scripted or real?", "a": "It's real. The lifeguards are actual Waverley Council professionals doing their day job, and the show is an observational documentary — the crews follow genuine patrols and rescues rather than a script." },
       { "q": "Can I meet the Bondi Rescue lifeguards?", "a": "Sometimes — they're often on patrol from the tower at the south end of the beach. Please don't distract them while they're watching the water; if you'd like a photo, wait until they're clearly on a break." },
-      { "q": "Which beaches do the Bondi lifeguards actually cover?", "a": "The service is centred on Bondi Beach but is also responsible for the nearby beaches of Tamarama and Bronte, so the same crew looks after a good stretch of the eastern-suburbs coast." }
+      { "q": "Which beaches do the Bondi lifeguards actually cover?", "a": "The service is centred on Bondi but also patrols the neighbouring beaches of Tamarama and Bronte, keeping watch across all three 365 days a year." }
     ] },
-    { "type": "p", "text": "That's my round-up — trivia and truth mixed together. The best 'fact', though, is one you can test yourself: come down, swim between the flags, and you'll soon see why this beach earned its own TV show." }
+    { "type": "p", "text": "The best 'fact', though, is one you can test yourself: come down, swim between the flags, and you'll soon see why this beach earned its own TV show." }
   ]
 }

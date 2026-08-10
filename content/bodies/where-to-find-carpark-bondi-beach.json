@@ -1,41 +1,39 @@
 {
   "path": "/bondi-blog/where-to-find-carpark-bondi-beach",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-10",
   "sources": [
-    { "label": "Waverley Council — parking (current meter rates & permits)", "url": "https://www.waverley.nsw.gov.au/residents/parking" }
+    { "label": "Waverley Council — parking (current meter rates & permits)", "url": "https://www.waverley.nsw.gov.au/residents/parking" },
+    { "label": "Waverley Council — beach parking permit (unlimited time in eligible metered beach bays)", "url": "https://www.waverley.nsw.gov.au/residents/parking/permits/beach_parking_permit" },
+    { "label": "The Hub, Hall Street — parking in Bondi (Queen Elizabeth Drive car park details)", "url": "https://www.thehubhallstreet.com.au/parking-in-bondi" },
+    { "label": "Transport for NSW — routes 333 / 380 / 381, Bondi Junction to Bondi Beach", "url": "https://transportnsw.info" }
   ],
   "blocks": [
-    { "type": "p", "text": "I'll be honest: parking at Bondi on a sunny weekend can test your patience like nothing else. But after years of doing it, I've got a system. Here's where I actually park, from free spots to the paid stations, and the tricks I use on the busiest days." },
+    { "type": "p", "text": "I'll be honest: parking at Bondi on a sunny weekend can test your patience like nothing else. But after years of doing it, I've got a system — where to leave the car for free, when to just pay for the closest station, and the one move that beats the whole lottery. Here it is." },
     { "type": "quickFacts", "items": [
-      { "label": "Free parking", "value": "Streets north of Blair St" },
-      { "label": "Closest paid", "value": "Queen Elizabeth Dr station" },
-      { "label": "Best time", "value": "Before 9am on weekends" },
+      { "label": "Free parking", "value": "Residential streets north of Blair St" },
+      { "label": "Closest station", "value": "Queen Elizabeth Drive (~500 bays)" },
+      { "label": "Best arrival", "value": "Before 9am on weekends" },
       { "label": "Watch for", "value": "Timed & permit zones" }
     ] },
-    { "type": "callout", "tone": "warning", "title": "Read the signs", "text": "Parking inspectors patrol Bondi constantly and the fines are steep — and never block a driveway (that's around a $500 penalty). Always check the sign for time limits and permit zones before you walk off." },
-    { "type": "h2", "text": "Free parking" },
-    { "type": "p", "text": "My go-to: the residential streets north of Blair Street, away from the beach. It's free and unrestricted 24 hours, and it's about a 5–7 minute walk down to the sand. On weekdays it's easy until around 6pm when residents get home; on weekends it fills through the morning, so get in early." },
-    { "type": "h2", "text": "Paid parking" },
+    { "type": "callout", "tone": "warning", "title": "Read the sign before you walk off", "text": "Inspectors patrol Bondi constantly and the fines are steep. Never block a driveway, and always check the sign for time limits and permit zones — a 'permit holders only' block will catch you out even when there's a clear space." },
+    { "type": "h2", "text": "Where I park for free" },
+    { "type": "p", "text": "My go-to is the residential streets north of Blair Street, back from the beach. Much of it is free and unrestricted, and it's roughly a 5–7 minute walk down to the sand. On weekdays it's easy until residents get home late afternoon; on weekends it fills through the morning, so get in early. North Bondi is the hardest pocket to crack, but once you're past Blair Street heading away from Campbell Parade, spots open up." },
+    { "type": "h2", "text": "Paid parking, closest first" },
     { "type": "list", "items": [
-      "Bondi Beach Parking Station (Queen Elizabeth Drive) — the closest and largest, right behind the beach. It fills fast on a nice day, so arrive early.",
-      "Pacific Bondi car park — directly opposite the Bondi Pavilion, a two-minute walk to the sand, open long hours daily. Booking online is usually cheaper than driving up.",
-      "Wilson Parking at The Hub (Hall Street) — often overlooked; pricey, but a solid option for an hour or two on a hectic day.",
-      "Street meters near the shops and along the beachfront — handy but the priciest per hour, and time-limited."
+      "Queen Elizabeth Drive car park — the council station directly behind the beach, and by far the largest with around 500 bays. Metered roughly 7am–7pm, seven days; height clearance is about 2.7m, so tall vans and campervans should measure up first. It fills fast on a nice day.",
+      "Pacific Bondi car park — beneath the complex opposite the Bondi Pavilion, a two-minute walk to the sand and open long hours daily. Pre-booking online is usually cheaper than the drive-up rate.",
+      "Wilson Parking at The Hub (Hall Street) — often overlooked, pricey, but a reliable fallback for an hour or two on a hectic day.",
+      "Street meters along Campbell Parade and the shops — handy but the dearest per hour, and time-limited."
     ] },
-    { "type": "p", "text": "A tip that's saved me plenty: use a parking app like Parkopedia or the operators' own apps to see availability and pre-book a bay before you leave home." },
-    { "type": "callout", "tone": "note", "title": "What does it cost?", "text": "Beachfront and beach-adjacent meters are the dearest — recently in the order of $7–11 per hour depending on the zone and the season — and they get cheaper the further back from the sand you go. Council adjusts these rates periodically, so check Waverley Council's current parking meter fees rather than trusting a fixed figure (including mine)." },
-    { "type": "h2", "text": "Where I park on the really busy days" },
-    { "type": "list", "items": [
-      "South Bondi — around Edward Street, Francis Street and the surrounding blocks. Most people head for the middle of the beach, so these can be surprisingly lucky.",
-      "Around the Beach Road Hotel — always busy, but it doesn't pull the beach crowd the way the streets closer to the sand do.",
-      "North of Blair Street — North Bondi is the hardest area to park, but once you're past Blair Street heading away from the beach, spots open up (and they're free)."
-    ] },
+    { "type": "localTip", "text": "If you're down here often, a Waverley Council beach parking permit lets you stay unlimited time in the metered bays on Queen Elizabeth Drive and Park Drive — a genuinely good deal for regulars and worth checking your eligibility for." },
+    { "type": "callout", "tone": "note", "title": "What it costs", "text": "Beach-adjacent meters are the dearest and get cheaper the further back you go. Council adjusts these rates periodically, so check Waverley Council's current parking fees rather than trusting any fixed figure — including mine." },
+    { "type": "h2", "text": "The move that beats the lottery" },
+    { "type": "p", "text": "On a perfect summer's day, I skip the circling entirely: train to Bondi Junction, then the 333, 380 or 381 bus straight down to Campbell Parade — about a 10–13 minute run. You'll be on the sand while everyone else is still hunting for a bay. If you must drive on a busy day, try the south end around Edward and Francis Streets, or the blocks near the Beach Road Hotel; most people aim for the middle of the beach, so the edges can be surprisingly lucky." },
     { "type": "faq", "items": [
-      { "q": "Is there free parking at Bondi Beach?", "a": "Yes — the residential streets north of Blair Street are free and unrestricted 24 hours, about a 5–7 minute walk to the beach. Get there early on weekends." },
-      { "q": "How much does it cost to park at Bondi Beach?", "a": "Beach-adjacent meters and the Queen Elizabeth Drive station are the priciest (recently roughly $7–11 per hour depending on zone and season). Rates change, so check Waverley Council for the current figure." },
-      { "q": "What's the closest car park to Bondi Beach?", "a": "The Bondi Beach Parking Station on Queen Elizabeth Drive, right behind the sand. It fills quickly on sunny days, so arrive early." }
-    ] },
-    { "type": "p", "text": "My honest advice? On a perfect summer's day, skip the parking lottery altogether and catch the train to Bondi Junction then the bus down — you'll be on the sand while everyone else is still circling the block." }
+      { "q": "Is there free parking at Bondi Beach?", "a": "Yes — many residential streets north of Blair Street are free and unrestricted, about a 5–7 minute walk to the beach. Always read the sign, as permit-only blocks are mixed in, and get there early on weekends." },
+      { "q": "What's the closest car park to Bondi Beach?", "a": "The Queen Elizabeth Drive car park, the council station right behind the sand with around 500 bays. It's metered roughly 7am–7pm daily and fills quickly, so arrive early." },
+      { "q": "Can I get to Bondi without driving?", "a": "Easily. Take the train to Bondi Junction, then the 333, 380 or 381 bus down to Campbell Parade — around 10–13 minutes and no parking stress at all." }
+    ] }
   ]
 }
