@@ -51,10 +51,11 @@ is **not** reflected in these local numbers (see the script change below).
 - **Images:** self-hosted under `/public/images`, optimised by `next/image` (`remotePatterns: []`
   — no remote/Squarespace hosts). Hero source `hero-bondi-sunrise.webp` is 305 KB but mobile is
   served ~33–53 KB responsive variants. Mobile users never download the large source files.
-- **Fonts:** **system fonts only** — confirmed **no `next/font`, no `@font-face`, no font
-  `<link>`, no files in `/public`**. `display` is declared `Fraunces, Georgia, …serif` but no web
-  font is loaded → **zero web-font payload, zero font-blocking**. (Caveat: the intended Fraunces
-  brand font therefore isn't rendering — a *design* choice, not a performance one.)
+- **Fonts:** body/UI text is the **system sans stack** (0 KB). The **Fraunces** brand display
+  serif is now **self-hosted via `next/font/local`** — one latin **variable** woff2 (~66 KB,
+  weights 400–600), `display: 'swap'`, with a Georgia size-adjusted fallback and **exactly one
+  preload** (the display face). Net: brand headings render in Fraunces with **CLS still 0** and
+  no font-blocking (swap + metric-matched fallback). This is the only web font on the site.
 - **Third-party scripts:** GA4 (`components/Analytics.tsx`), AdSense (`components/Adsense.tsx`)
   and Travelpayouts (`components/TravelpayoutsEmbed.tsx`) all load via `next/script`, and the
   monetisation ones are **production-only**. None render-blocking. No GTM, Meta Pixel, chat,
@@ -109,9 +110,9 @@ resized variants).
 
 ## Open decisions (flagged, not changed unilaterally)
 
-- **Fraunces brand font isn't loading** (falls back to Georgia). Restoring it *properly* means
-  `next/font/local` (self-hosted, `font-display: swap`, preload only the above-the-fold display
-  weight) — adds ~30–50 KB but keeps CWV green. Brand vs. payload call for the owner.
+- ~~Fraunces brand font isn't loading~~ — **done this pass:** self-hosted via `next/font/local`
+  (one 66 KB latin variable woff2, `swap`, one preload, Georgia metric-matched fallback). Brand
+  headings now render in Fraunces; CLS stayed 0.
 - The Stay hub HTML is the heaviest (many server-rendered cards). Still fast and fully crawlable;
   paginate if it grows much further.
 
