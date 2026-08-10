@@ -1,0 +1,46 @@
+{
+  "path": "/bondi-blog/city-to-surf-training-plan",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "City2Surf — official event site (dates, course, start waves)", "url": "https://city2surf.com.au/" },
+    { "label": "City2Surf (Sydney) — Wikipedia (distance, course & history)", "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you've got eight weeks and a nagging fear of Heartbreak Hill, here's the honest answer: yes, a first-timer can get around the 14 km City2Surf on eight weeks of consistent training — the trick is building up slowly with a run/walk approach, not smashing yourself in week one. I live at the finish end of this race, and every August I watch thousands of self-described 'non-runners' cruise down towards Bondi grinning. This is the plan I'd hand a friend starting from scratch." },
+    { "type": "quickFacts", "items": [
+      { "label": "Race distance", "value": "14 km (13.907 km), Sydney CBD to Bondi Beach" },
+      { "label": "The big climb", "value": "Heartbreak Hill — a ~2 km rise from about the 6 km mark" },
+      { "label": "Plan length", "value": "8 weeks, 3 sessions a week" },
+      { "label": "Best for", "value": "Beginners aiming to finish, not to podium" },
+      { "label": "Event date", "value": "Held in August — confirm on the official site" }
+    ] },
+    { "type": "p", "text": "The whole idea is progressive overload done gently: you start with brisk walking and short run/walk intervals, then week by week trade a little walking for a little more running. Rest days aren't slacking — they're when your legs adapt. Fewer than eight weeks? Start at week one and hold each week longer before adding distance." },
+    { "type": "h2", "text": "The 8-week beginner plan" },
+    { "type": "p", "text": "Three key sessions a week, with rest or a gentle walk in between. Every run starts with five minutes of easy walking and ends with a light stretch. Keep the pace conversational — if you can't talk in short sentences, you're going too hard." },
+    { "type": "list", "items": [
+      "Week 1 — Ease in: two 20 min sessions alternating 1 min jog / 1 min walk, plus a 30 min easy walk.",
+      "Week 2 — Build the jog: 25 min of 2 min jog / 1 min walk (x2), plus a 30 min easy run/walk.",
+      "Week 3 — Stretch it out: 30 min of 3 min jog / 1 min walk (x2), plus a 35–40 min run/walk.",
+      "Week 4 — First continuous runs: two 35 min runs with no walk breaks, plus a longer 45 min easy run/walk.",
+      "Week 5 — Add pace: two 40 min runs (one slightly quicker), plus a 50 min easy long run.",
+      "Week 6 — Hill week: two 45 min runs with a few short hill repeats, plus a 55 min long run.",
+      "Week 7 — Peak: two 50 min runs, plus your longest effort of the block, around 60 min.",
+      "Week 8 — Taper & race: two very easy 20–30 min jogs early in the week, then rest, then race day. Trust the work you've done."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "Listen to your body", "text": "This is general guidance, not medical advice. Niggles are normal; sharp pain is not. If something hurts beyond ordinary muscle soreness, back off and see a physio or GP. Build slowly, stay hydrated, and don't test brand-new shoes on race day." },
+    { "type": "h2", "text": "Beating Heartbreak Hill" },
+    { "type": "p", "text": "Heartbreak Hill is the bit everyone dreads — a roughly two-kilometre drag along New South Head Road from Rose Bay up towards Vaucluse, kicking in around the six-kilometre mark. It's a long, grinding pull rather than a wall — steady, not sharp. The runners who struggle nearly always went out too fast over the flat, downhill opening kilometres." },
+    { "type": "localTip", "text": "In weeks 6 and 7, run one session over a longer local climb — the Bondi to Bronte coastal-walk stairs or the hills behind Rose Bay are ideal. Practise shortening your stride and holding your effort steady rather than your speed. On the day, walk-jog the hill if you need to; nobody at the finish asks how you got up it." },
+    { "type": "h2", "text": "The finish at Bondi" },
+    { "type": "p", "text": "Once you crest the hill it's largely downhill and rolling to the coast, and the last stretch is one of the best finish lines in running. Pace yourself so you've got something left for that descent. Then do what every local does after: a swim, a coffee, and a very smug walk along the promenade." },
+    { "type": "faq", "items": [
+      { "q": "Can a total beginner train for City2Surf in 8 weeks?", "a": "Yes — if you're in reasonable general health and can already walk briskly for 30 minutes. Eight weeks of consistent run/walk training three times a week gets most beginners comfortably around the 14 km, especially if you're happy to walk parts of it." },
+      { "q": "How long is the City2Surf and where does it finish?", "a": "It's 14 km (officially 13.907 km), running from Sydney's CBD to the finish at Bondi Beach, with Heartbreak Hill as the main climb near halfway." },
+      { "q": "How hard is Heartbreak Hill really?", "a": "It's a roughly 2 km climb from around the 6 km mark, along New South Head Road between Rose Bay and Vaucluse. It's steady rather than brutally steep — the real trap is going out too fast beforehand. Practise hills and pace the early kilometres conservatively." },
+      { "q": "How many times a week should I run?", "a": "Three quality sessions a week is plenty for a beginner, with rest or easy walking in between. More isn't better this early — the rest days are when your body adapts and injuries stay away." },
+      { "q": "When is the City2Surf held?", "a": "It's traditionally run in August. Dates and start-wave times change year to year, so check the official City2Surf website for the current date and your seeded start group." }
+    ] },
+    { "type": "p", "text": "Stick to the plan, respect the rest days, and get a hill into your legs beforehand. Do that, and Heartbreak Hill stops being a monster and becomes just another hill on the way to the beach. See you at the finish." }
+  ]
+}

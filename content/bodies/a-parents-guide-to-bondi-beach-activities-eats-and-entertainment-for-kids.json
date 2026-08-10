@@ -1,0 +1,45 @@
+{
+  "path": "/bondi-blog/2023/11/17/a-parents-guide-to-bondi-beach-activities-eats-and-entertainment-for-kids",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Bondi Park", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/bondi_park" },
+    { "label": "Let's Go Surfing — Families & Kids", "url": "https://letsgosurfing.com.au/lessons/bondi/families-and-kids/" },
+    { "label": "Surf Life Saving NSW — Beach Safety", "url": "https://www.surflifesaving.com.au/beach-safety" },
+    { "label": "Waverley Council — Bondi to Bronte Coastal Walk", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/coastal_walk" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you're wondering whether Bondi actually works with young kids in tow, let me put your mind at ease: it's one of the easiest family days out in Sydney, as long as you base yourself at the calmer northern end. That's where you'll find the sheltered children's pool, the fenced playground and the flags — and it's exactly how I plan a day here with little ones." },
+    { "type": "quickFacts", "items": [
+      { "label": "Calmest swim", "value": "North Bondi Children's Pool (north end)" },
+      { "label": "Playground", "value": "Bondi Park, fully fenced" },
+      { "label": "Always swim", "value": "Between the red & yellow flags" },
+      { "label": "Best for prams", "value": "The flat beachfront promenade" },
+      { "label": "Cost", "value": "Beach, playground & promenade all free" }
+    ] },
+    { "type": "h2", "text": "Where to swim and splash with kids" },
+    { "type": "p", "text": "The single most useful thing I can tell a parent is to head to the northern end of the beach. The North Bondi Children's Pool is a shallow, rock-sheltered wading pool tucked at the very north of the sand — protected from the open surf, so toddlers can splash and paddle while you sit close by. Bring buckets and spades; the sand right beside it is soft and gentle." },
+    { "type": "p", "text": "If your kids want the actual ocean, the north end is also where the surf is generally smallest and the rip risk lowest — but the rule never changes. Only swim between the red and yellow flags, where the lifeguards are watching, and check the day's conditions with them before you go in. Flag positions and hazards shift with the surf." },
+    { "type": "callout", "tone": "warning", "title": "Flags first, always", "text": "Bondi is patrolled but it still has rips. Keep young children between the flags and within arm's reach, and if in doubt, ask a lifeguard where's safest that day. Surf Life Saving's advice: if you're caught in a rip, stay calm, raise an arm and float." },
+    { "type": "h2", "text": "Beyond the sand: playground, walks and rainy-day backups" },
+    { "type": "p", "text": "When everyone needs a break from the water, the fenced playground in Bondi Park is my go-to. It's set back on the grass just behind the beach, with picnic and barbecue areas right alongside — ideal for a packed lunch and a run-around. Because it's enclosed, you can actually sit down for five minutes." },
+    { "type": "list", "items": [
+      "Bondi Park playground — fully fenced, with grass, picnic and BBQ spots behind the beach.",
+      "The beachfront promenade — flat, pram-friendly and lined with grass, perfect for a gentle stroll or a scooter.",
+      "The skate park and the graffiti/art wall at the south end — great for older kids to watch or have a go.",
+      "Bondi to Bronte coastal walk — the first stretch out of Bondi is doable with sturdy prams and rewards you with a second, smaller beach at Bronte and its own kid-friendly rock pool."
+    ] },
+    { "type": "localTip", "text": "Bronte, one bay south, is my secret weapon with small children. It has a shallow, sheltered natural rock pool (the 'Bogey Hole') and a big grassy park with a playground right behind the sand — often calmer and less crowded than Bondi on a busy weekend." },
+    { "type": "h2", "text": "Learning to surf, and where to eat after" },
+    { "type": "p", "text": "Bondi is a brilliant place to put a child on their first board. Let's Go Surfing at the north end runs kids' and family lessons with gear included; there are age minimums and school-holiday 'grom' programs, so check their current age brackets and session times when you book. A private family lesson is lovely if you all want to learn together." },
+    { "type": "p", "text": "For food, you're spoiled. There's a cluster of cafés and casual eats along Campbell Parade and around the Bondi Pavilion, which often hosts family programming and has toilets, change facilities and shade close to the sand. Menus and hours change with the seasons, so check each venue's own page before you go." },
+    { "type": "faq", "items": [
+      { "q": "Where's the safest place to swim at Bondi with young kids?", "a": "The northern end of the beach. The North Bondi Children's Pool is a shallow, sheltered wading area away from the surf, and the open-water swimming is calmest up that end too. Always keep kids between the red and yellow flags and ask a lifeguard about conditions on the day." },
+      { "q": "Is Bondi Beach pram- and stroller-friendly?", "a": "Yes. The beachfront promenade is flat and continuous, and Bondi Park behind it is grassy and level. The sand itself is hard going with a pram, but the promenade, playground and cafés are all easy to reach without one." },
+      { "q": "Is there a playground at Bondi Beach?", "a": "Yes — there's a fully fenced playground in Bondi Park just behind the beach, with picnic and barbecue areas alongside. It suits toddlers through to primary-aged kids and it's free." },
+      { "q": "How young can kids learn to surf at Bondi?", "a": "Local surf schools such as Let's Go Surfing run kids' and family lessons, including school-holiday 'grom' programs for younger children. Age minimums vary by lesson type, so check the school's current programs and book ahead." },
+      { "q": "What should we bring for a family beach day at Bondi?", "a": "Sun protection is the big one — hats, high-SPF sunscreen, a shade tent and plenty of water, as the midday sun is strong. Add rashies, buckets and spades, a change of clothes, and snacks. Toilets and change facilities are near the Bondi Pavilion." }
+    ] },
+    { "type": "p", "text": "That's the rhythm I'd aim for: a splash at the children's pool, a play in the park, a promenade stroll, maybe a first wave, and a babyccino to finish. Keep to the north end, watch the flags, and Bondi with kids is one of my favourite days in the city." }
+  ]
+}

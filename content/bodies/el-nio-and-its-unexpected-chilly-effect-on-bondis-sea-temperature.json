@@ -1,0 +1,46 @@
+{
+  "path": "/bondi-blog/2023/9/22/el-nio-and-its-unexpected-chilly-effect-on-bondis-sea-temperature",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Bureau of Meteorology — ENSO Wrap-Up", "url": "https://www.bom.gov.au/climate/enso/" },
+    { "label": "Bureau of Meteorology — About El Niño and La Niña", "url": "https://www.bom.gov.au/climate/about/?bookmark=enso" },
+    { "label": "CSIRO — East Australian Current", "url": "https://www.csiro.au/en/research/natural-environment/oceans/east-australian-current" },
+    { "label": "Surf Life Saving NSW — Beach safety", "url": "https://www.surflifesaving.com.au/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Here's the short answer people are really after: no, El Niño does not flip a switch and make Bondi's water cold. In an El Niño year the ocean off Sydney can run a touch cooler or drier at the surface, but the day-to-day temperature you feel when you wade in is driven far more by the East Australian Current, the wind and local upwelling than by whatever the Pacific is doing thousands of kilometres away. I've swum here through El Niño summers that were beautifully warm and La Niña ones that turned suddenly icy, so I always tell visitors to check the actual water temperature the week they arrive rather than trusting a headline." },
+    { "type": "h2", "text": "What El Niño actually is" },
+    { "type": "p", "text": "El Niño is one phase of a natural climate cycle called the El Niño–Southern Oscillation (ENSO). During an El Niño, the trade winds that normally blow warm surface water westward across the Pacific weaken, and that warm water pools instead in the central and eastern Pacific, off South America. For eastern Australia, the Bureau of Meteorology links El Niño with warmer, drier conditions on land and a higher chance of below-average rainfall — which is why it grabs headlines here." },
+    { "type": "p", "text": "That's the land story. The ocean story right at Bondi is more local and more interesting, and it's where the 'chilly' reputation really comes from." },
+    { "type": "h2", "text": "Why Bondi's water can turn surprisingly cold" },
+    { "type": "p", "text": "The single biggest control on our sea temperature is the East Australian Current — the warm river of tropical water (the one made famous by Finding Nemo) that CSIRO tracks flowing south down the coast. When a warm eddy sits offshore, Bondi feels balmy. When that current meanders away, the water cools." },
+    { "type": "p", "text": "The other culprit is upwelling. On a run of hot summer days, strong north-easterly winds can push the warm surface layer offshore, and cold water from deeper down rises to replace it. That's when you get the classic Bondi surprise: a warm morning that turns breathtakingly colder by afternoon. It has nothing to do with El Niño — it's wind and local ocean physics — but it's the effect swimmers most often remember." },
+    { "type": "quickFacts", "items": [
+      { "label": "Biggest driver", "value": "East Australian Current (EAC)" },
+      { "label": "Sudden cold snaps", "value": "Summer upwelling on NE winds" },
+      { "label": "Warmest water", "value": "Usually Feb–Mar" },
+      { "label": "Coolest water", "value": "Usually Jul–Aug" },
+      { "label": "Live readings", "value": "Bureau of Meteorology / surf forecast sites" }
+    ] },
+    { "type": "callout", "tone": "note", "title": "Don't bank on a single number", "text": "Sea temperature at Bondi shifts week to week and even hour to hour. Rather than trusting a seasonal average, check a live source like the Bureau of Meteorology or a surf-forecast site for the days you'll actually be here." },
+    { "type": "h2", "text": "What it means for your swim" },
+    { "type": "p", "text": "Broadly, Bondi is warmest in late summer and coolest in the depths of winter, with a swing of several degrees across the year. But the honest truth is that El Niño won't reliably tell you which sort of swim you'll get. Plan around the season, pack for a cool surprise, and let the day decide." },
+    { "type": "list", "items": [
+      "Summer (Dec–Feb): usually the warmest water, but keep an eye out for those sudden upwelling cold snaps.",
+      "Autumn (Mar–May): often the sweet spot — the ocean holds summer's warmth well into April.",
+      "Winter (Jun–Aug): the coolest water of the year; a wetsuit makes a long swim far more pleasant.",
+      "Spring (Sep–Nov): warming up but still brisk early in the season."
+    ] },
+    { "type": "localTip", "text": "If you want warm water without the gamble, aim for March. The air has cooled off the peak-summer heat but the ocean is still carrying it — my favourite month of the year for a long, comfortable swim at Bondi." },
+    { "type": "callout", "tone": "warning", "title": "Cold water is a safety issue too", "text": "A sudden drop in temperature can cause cold-water shock even on a hot day. Always swim between the red-and-yellow flags where Surf Life Saving lifeguards are on patrol, and ease in rather than diving straight into unexpectedly cold water." },
+    { "type": "faq", "items": [
+      { "q": "Does El Niño make Bondi's water colder?", "a": "Not reliably. El Niño is mainly linked with warmer, drier conditions on land in eastern Australia. Your swim temperature at Bondi is governed far more by the East Australian Current and local upwelling than by the ENSO phase, so check live readings." },
+      { "q": "Why did the water suddenly go freezing on a hot summer day?", "a": "That's almost always upwelling. Strong north-easterly winds push the warm surface layer offshore and colder deep water rises to take its place, which can drop the temperature several degrees within hours. It's a normal Bondi summer phenomenon, unrelated to El Niño." },
+      { "q": "When is Bondi's water warmest and coldest?", "a": "As a rule of thumb the water is warmest in late summer (around February–March) and coolest in winter (around July–August), with a few degrees of swing across the year." },
+      { "q": "Do I need a wetsuit at Bondi?", "a": "In summer most people are comfortable without one, though a short spring suit helps on a cold-upwelling day. Through winter a wetsuit turns a quick, teeth-chattering dip into a genuinely enjoyable swim." },
+      { "q": "Where can I check the current sea temperature?", "a": "The Bureau of Meteorology publishes coastal observations, and surf-forecast sites list a current Bondi reading — both far more useful than a seasonal average." }
+    ] },
+    { "type": "p", "text": "So if you dip a toe in and find it cooler than you expected, don't blame El Niño — thank the East Australian Current and a stiff sea breeze. Either way, Bondi rewards the brave: I've never regretted a swim here, warm water or bracing." }
+  ]
+}

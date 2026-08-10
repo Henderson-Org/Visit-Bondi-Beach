@@ -1,0 +1,42 @@
+{
+  "path": "/bondi-blog/2023/11/9/the-440-run-club-at-bronte-beach-sydneys-open-invitation-for-runners",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "The 440 Run Club — Instagram (@the_440)", "url": "https://www.instagram.com/the_440/" },
+    { "label": "The 440, Bronte — Active Locals", "url": "https://www.activelocals.com.au/group/the-440" },
+    { "label": "Why I Run: Trent Knox — Men's Health Australia", "url": "https://menshealth.com.au/why-i-run-trent-knox/" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "If you're after a genuinely local Sydney run while you're staying near Bondi, the 440 Run Club at Bronte Beach is about as good as it gets — it's free, there's no sign-up, and everyone is welcome, no matter how fast or slow you are. It meets early on Saturday mornings just a couple of kilometres down the coast from Bondi, and honestly it's one of my favourite ways to start a weekend." },
+    { "type": "quickFacts", "items": [
+      { "label": "Where", "value": "Bronte Beach (a short walk or drive south of Bondi)" },
+      { "label": "When", "value": "Early Saturday mornings — before sunrise" },
+      { "label": "Cost", "value": "Free — no membership, no booking" },
+      { "label": "Good for", "value": "All ages, all abilities — runners and walkers" }
+    ] },
+    { "type": "h2", "text": "What the 440 actually is" },
+    { "type": "p", "text": "The club takes its name from the loop it's built around: a roughly 440-metre circuit at Bronte that runners tackle again and again, with a proper hill thrown in to keep you honest. The loop is short, so nobody ever gets left behind on their own — you're always looping back past the rest of the group. But don't let the distance fool you. Repeat that incline enough times in the half-dark and you'll have earned your breakfast." },
+    { "type": "p", "text": "It started back in 2016 as a small group of mates and has grown into a genuine Bronte institution, with a big, friendly crowd turning up week after week. The whole ethos is inclusivity: you run your pace, walk if you want to, and the faster runners loop back around to sweep up everyone else. There's no fee, no membership card and no pressure — just show up." },
+    { "type": "localTip", "text": "The exact start time shifts with the seasons (they genuinely do start in the dark), so before you set your alarm, check the club's Instagram @the_440 for that week's meet time and spot. It saves you standing on a cold beach wondering if you've got the wrong Saturday." },
+    { "type": "h2", "text": "How to get there from Bondi" },
+    { "type": "p", "text": "Bronte sits just south of Bondi, and getting between the two is half the fun. If you're already awake and moving, the Bondi to Bronte stretch of the famous coastal walk is the scenic route — clifftops, ocean on your right, past Tamarama on the way. It's a beautiful warm-up, though allow yourself plenty of time in the dark and watch your footing on the path." },
+    { "type": "list", "items": [
+      "On foot: the Bondi–Bronte coastal walk connects the two beaches directly (give yourself a good half hour or so, and take care on the unlit sections pre-dawn).",
+      "By bus: several routes run between Bondi and Bronte — check Transport for NSW or the Trip Planner for early-morning services, as weekend timetables are thinner.",
+      "By car: there's street parking around Bronte, but it fills fast on weekends, so arriving early genuinely helps."
+    ] },
+    { "type": "callout", "tone": "note", "title": "Come as you are", "text": "You don't need to be a 'runner' to belong here. Plenty of people walk the loop, push a pram, or just do a lap or two and then cheer everyone else on. Bring water, wear something you can move in, and that's it." },
+    { "type": "h2", "text": "The bit that makes it special" },
+    { "type": "p", "text": "For me, the running is only half of it. What keeps people coming back is what happens after: the sun coming up over the water, a swim in the Bronte ocean pool to wash off the effort, and a coffee with a crowd of people who were strangers a few Saturdays ago. If you're visiting Sydney, this is a rare chance to slot straight into local life instead of watching it from the outside — and the regulars are a goldmine for tips on where to eat and what to do while you're here." },
+    { "type": "p", "text": "It's a community-run group rather than a formal business, so the friendliest thing you can do is turn up, say hello, and follow whatever the group's doing on the day. No one's going to hand you a race bib — you just fall in and become part of it." },
+    { "type": "faq", "items": [
+      { "q": "Is the 440 Run Club really free?", "a": "Yes. There's no membership fee and nothing to book — it's a free, open, community running group. You simply turn up on the morning." },
+      { "q": "Do I need to be a fast or experienced runner?", "a": "Not at all. The club is built around welcoming every ability. The loop is short so no one gets stranded, and plenty of people walk it or do just a lap or two. Beginners are genuinely welcome." },
+      { "q": "What time and day does it meet?", "a": "It meets early on Saturday mornings, often before sunrise. The precise start time changes through the year, so check the club's Instagram (@the_440) for the current week's meet time before you head down." },
+      { "q": "Where exactly do I go?", "a": "It's based at Bronte Beach, just south of Bondi. The club posts the meeting spot on its social channels — that's the safest way to find the group in the pre-dawn dark." },
+      { "q": "What should I bring?", "a": "Comfortable running gear, water, and — if you fancy the tradition — swimmers for a dip in the Bronte ocean pool afterwards and a few dollars for a post-run coffee." }
+    ] },
+    { "type": "p", "text": "So if you find yourself in Bondi with a free Saturday and an early alarm, wander down to Bronte and jump in. It's free, it's open to everyone, and it might just be the most memorable run — and the friendliest one — of your trip." }
+  ]
+}
