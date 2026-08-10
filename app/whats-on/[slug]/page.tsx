@@ -67,11 +67,18 @@ export default async function EventDetailPage({ params }: Props) {
 
   // Event schema only when we have a concrete date — never fabricate one.
   const startIso = r.nextDate ? `${r.nextDate}${e.startTime ? `T${e.startTime}:00${sydneyOffset(r.nextDate)}` : ''}` : null;
-  // For an announced multi-day edition, emit the published end date too.
-  const endIso =
-    r.nextDate && e.startDate && e.endDate && e.endDate !== e.startDate && r.nextDate === e.startDate
-      ? `${e.endDate}${e.endTime ? `T${e.endTime}:00${sydneyOffset(e.endDate)}` : ''}`
-      : undefined;
+  // endDate (Google-recommended): published end for a multi-day edition; same-day end time
+  // for a timed single-day event; otherwise the same calendar day (a one-day event).
+  let endIso: string | undefined;
+  if (r.nextDate) {
+    if (e.startDate && e.endDate && e.endDate !== e.startDate && r.nextDate === e.startDate) {
+      endIso = `${e.endDate}${e.endTime ? `T${e.endTime}:00${sydneyOffset(e.endDate)}` : ''}`;
+    } else if (e.endTime) {
+      endIso = `${r.nextDate}T${e.endTime}:00${sydneyOffset(r.nextDate)}`;
+    } else {
+      endIso = r.nextDate; // one-day event, date-only end
+    }
+  }
   const eventLd = startIso
     ? eventJsonLd({
         name: e.title,
@@ -87,6 +94,10 @@ export default async function EventDetailPage({ params }: Props) {
         ticketUrl: e.ticketUrl,
         organiser: e.organiser,
         officialUrl: e.officialUrl,
+        // Recommended fields: an event-specific image when we hold one, else a representative
+        // Bondi location image; and a real offer validity date (never invented).
+        image: e.image ?? '/images/hero-bondi-sunrise.webp',
+        offerValidFrom: e.dateVerifiedAt ?? e.lastVerified,
       })
     : null;
 

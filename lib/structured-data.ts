@@ -192,6 +192,10 @@ export function eventJsonLd(opts: {
   ticketUrl?: string;
   organiser?: string;
   officialUrl?: string;
+  /** Representative image (event-specific if we hold one, else a Bondi location image). */
+  image?: string;
+  /** Date the (free or ticketed) offer is valid from — a real verification date, not invented. */
+  offerValidFrom?: string; // YYYY-MM-DD
 }) {
   const statusMap = {
     scheduled: 'https://schema.org/EventScheduled',
@@ -220,13 +224,15 @@ export function eventJsonLd(opts: {
   };
   if (opts.endDate) data.endDate = opts.endDate;
   if (opts.description) data.description = opts.description;
+  if (opts.image) data.image = opts.image.startsWith('http') ? opts.image : `${siteOrigin()}${opts.image}`;
   if (opts.organiser) data.organizer = { '@type': 'Organization', name: opts.organiser, ...(opts.officialUrl ? { url: opts.officialUrl } : {}) };
   // Only advertise an Offer for genuinely free events (price 0). Paid/varies link out
-  // instead — we never publish a fabricated price.
+  // instead — we never publish a fabricated price. validFrom is a real verification date.
+  const validFrom = opts.offerValidFrom ? { validFrom: opts.offerValidFrom } : {};
   if (opts.priceType === 'free') {
-    data.offers = { '@type': 'Offer', price: '0', priceCurrency: 'AUD', availability: 'https://schema.org/InStock', url: opts.ticketUrl || opts.officialUrl || opts.url };
+    data.offers = { '@type': 'Offer', price: '0', priceCurrency: 'AUD', availability: 'https://schema.org/InStock', url: opts.ticketUrl || opts.officialUrl || opts.url, ...validFrom };
   } else if (opts.ticketUrl) {
-    data.offers = { '@type': 'Offer', url: opts.ticketUrl, availability: 'https://schema.org/InStock' };
+    data.offers = { '@type': 'Offer', url: opts.ticketUrl, availability: 'https://schema.org/InStock', ...validFrom };
   }
   return data;
 }
