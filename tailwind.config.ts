@@ -10,7 +10,7 @@ export default {
         ink: { 900: '#14181b', 700: '#2b3237', 500: '#4c565d' },
       },
       fontFamily: {
-        display: ['"Fraunces"', 'Georgia', 'Cambria', '"Times New Roman"', 'serif'],
+        display: ['var(--font-display)', '"Fraunces"', 'Georgia', 'Cambria', '"Times New Roman"', 'serif'],
         sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
       },
       maxWidth: { prose: '68ch' },

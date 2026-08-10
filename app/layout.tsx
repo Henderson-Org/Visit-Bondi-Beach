@@ -1,5 +1,24 @@
 import type { Metadata } from 'next';
+import localFont from 'next/font/local';
 import './globals.css';
+
+/**
+ * Fraunces — the brand display serif, self-hosted (no runtime Google Fonts request).
+ * One latin variable woff2 (~66 KB) covers the weight axis we use (400 body headings,
+ * 600 for the occasional font-semibold heading). `display: 'swap'` avoids invisible
+ * text; `preload` emits a single preload for this one file (the display face), so we
+ * never over-preload. Exposed as the --font-display CSS var consumed by tailwind's
+ * `font-display` family (Georgia stays the fallback, so CLS/CWV stay green).
+ */
+const fraunces = localFont({
+  src: './fonts/fraunces-latin-var.woff2',
+  weight: '400 600',
+  style: 'normal',
+  display: 'swap',
+  variable: '--font-display',
+  preload: true,
+  fallback: ['Georgia', 'Cambria', 'Times New Roman', 'serif'],
+});
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { AdsenseScript } from '@/components/Adsense';
@@ -28,7 +47,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-AU">
+    <html lang="en-AU" className={fraunces.variable}>
       <head>
         <script
           type="application/ld+json"

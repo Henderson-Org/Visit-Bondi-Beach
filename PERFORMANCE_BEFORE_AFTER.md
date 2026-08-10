@@ -74,10 +74,15 @@ itself** (shipped before this audit): static Next.js/SSG on a CDN, a preloaded `
 deferred production-only third-party scripts and system fonts replaced a heavy Squarespace build.
 There was no additional 11s→2s fix to make — the current site was already at ~2.5 s LCP.
 
+## Also changed this pass: Fraunces brand font, self-hosted
+
+The intended brand serif wasn't loading (headings fell back to Georgia). Restored it *properly*
+via `next/font/local`: one latin **variable** woff2 (~66 KB, weights 400–600), `display: 'swap'`,
+Georgia metric-matched fallback, **one** preload. Brand headings now render in Fraunces with
+**CLS still 0** (verified) and no font-blocking. Body/UI text stays the system sans stack (0 KB).
+
 ## Not changed (and why)
 
-- **No web font added** — would add payload; the site is intentionally system-font. (Fraunces
-  not loading is a separate design decision — see the audit.)
 - **No hero re-architecture** — already server-rendered `next/image` with `priority`.
 - **GA4 not moved to `lazyOnload`** — kept `afterInteractive` to preserve pageview/analytics
   accuracy; only the pure-monetisation scripts were deferred.

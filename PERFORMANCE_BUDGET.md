@@ -24,7 +24,7 @@ guide), mobile, 2026-08-10.
 | First-load JS (per route) | **< 200 KB** gzipped | keep content/hero/nav as server components |
 | Above-the-fold image (mobile, served) | **< 100 KB** | via `next/image` responsive `sizes`; hero currently 33–53 KB |
 | Any single source image | **≤ 460 KB** | recompress above this (webp q80, ≤2400px) |
-| Web fonts | **0–1 family, ≤ 50 KB** | currently 0 (system fonts); if Fraunces is added, self-host + `font-display: swap` + preload the single display weight only |
+| Web fonts | **0–1 family, ≤ 70 KB** | 1 family: Fraunces display, self-hosted `next/font/local`, 1 latin variable woff2 (~66 KB), `swap`, 1 preload. Body/UI = system sans (0 KB). Don't add a second family or extra weights without cause. |
 | Render-blocking third-party scripts | **0** | all third-party via `next/script` `afterInteractive`+ production-only |
 
 ## Rules
