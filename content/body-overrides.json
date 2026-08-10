@@ -3631,6 +3631,133 @@
     "lastReviewed": "2026-08-08",
     "voice": "first-person"
   },
+  "/bondi-blog/2023/9/9/soaring-high-at-bondi-beach-festival-of-the-winds": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Every September, on one gloriously breezy spring Sunday, the sky above Bondi fills with dragons, octopuses, rainbow diamonds and kites the size of small cars — this is Festival of the Winds, the free, family-friendly kite festival Waverley Council and the Australian Kiteflyers Society have run on the Bondi foreshore since 1978. It's my favourite day on the Bondi calendar, and if you've never looked up to see a hundred kites dancing over the surf, you're in for something special."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "What",
+            "value": "Festival of the Winds — Bondi's annual kite festival"
+          },
+          {
+            "label": "Where",
+            "value": "Bondi Beach foreshore & parkland"
+          },
+          {
+            "label": "When",
+            "value": "A Sunday in September (spring) — check the official date each year"
+          },
+          {
+            "label": "Cost",
+            "value": "Free"
+          },
+          {
+            "label": "Great for",
+            "value": "Families, photographers, first-timers to Bondi"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How a Glebe student started it all"
+      },
+      {
+        "type": "p",
+        "text": "I love telling people the origin story, because it's so wonderfully local. The very first Festival of the Winds took flight on 10 September 1978, dreamed up by John Silk — a Glebe local and Sydney University student whose interest in wind energy tipped over into a full-blown love of making and flying kites. He and a handful of friends decided Bondi in spring was the perfect stage, and Waverley's then-Mayor, Ernie Page, officially opened the day and flew a kite himself. That first festival pulled in around 7,000 curious Sydneysiders."
+      },
+      {
+        "type": "p",
+        "text": "Silk and his fellow enthusiasts went on to form the Australian Kiteflyers Society, who have brought their spectacular hand-made display kites back to the sand every year since. What started as a small community gathering is now billed as Australia's premier kite festival, drawing tens of thousands of visitors each spring — proof that a good idea and a strong sea breeze can go a very long way."
+      },
+      {
+        "type": "h2",
+        "text": "What to expect on the day"
+      },
+      {
+        "type": "p",
+        "text": "This is far more than people flying kites in a paddock. The Kiteflyers Society puts on professional displays with giant, jaw-dropping creations alongside nimble stunt kites, while the rest of the foreshore turns into a proper festival. Expect live music and performance on the main stage, roaming performers, food stalls, and hands-on kite-making workshops where the kids can build something and send it skyward the same afternoon."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Professional kite displays from the Australian Kiteflyers Society — the giant show kites are the stars",
+          "Kite-making workshops for children and families",
+          "Live entertainment, music and roaming performers across the day",
+          "Food stalls along the foreshore",
+          "Bring your own kite — everyone's welcome to fly on the grass and sand"
+        ]
+      },
+      {
+        "type": "localTip",
+        "text": "Bring your own kite and a picnic rug, then stake out a spot on the grass above the beach early. That elevated parkland strip gives you the whole sky as a backdrop and keeps you out of the thickest crowds down on the sand — and it's the best angle for photos."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Come by public transport",
+        "text": "Bondi has very limited parking at the best of times, and on festival day surrounding roads and car parks fill fast or close altogether. Do yourself a favour and catch the train to Bondi Junction then a connecting bus, or the bus straight to the beach. Plan your run with the Transport for NSW trip planner."
+      },
+      {
+        "type": "h2",
+        "text": "Planning your visit"
+      },
+      {
+        "type": "p",
+        "text": "Festival of the Winds lands on a Sunday in September each year and runs across the middle of the day into the afternoon, but exact dates and times shift year to year — so I always point people to Waverley Council's official festival page to confirm before they set out. It's free to attend, there's no ticket, and it's genuinely one of the most joyful, unpretentious days out in Sydney. Slap on sunscreen, bring a hat and water, and remember that the same wind lifting all those kites has a bite to it near the water, so pack a layer."
+      },
+      {
+        "type": "p",
+        "text": "Whether you come to fly your own creation, marvel at the giant show kites, or just lie back on the grass with an ice cream and watch the sky, Festival of the Winds is Bondi at its warm, communal best. Mark it on your calendar — and look up."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "When is Festival of the Winds 2026?",
+            "a": "It's held on a Sunday in September each year to welcome spring. The Australian Kiteflyers Society lists the 2026 festival as 13 September, but dates and times can change, so confirm on Waverley Council's official Festival of the Winds page before you go."
+          },
+          {
+            "q": "How much does it cost to attend?",
+            "a": "Nothing — Festival of the Winds is completely free and there's no ticket. You just turn up on the Bondi foreshore."
+          },
+          {
+            "q": "Where exactly is it held?",
+            "a": "Along the Bondi Beach foreshore and the parkland above the sand. Honestly, once you're near the beach you can't miss it — just follow the kites."
+          },
+          {
+            "q": "Can I bring my own kite?",
+            "a": "Absolutely, that's half the fun. Anyone can fly their own kite on the day, and there are kite-making workshops if you'd rather build one when you arrive."
+          },
+          {
+            "q": "What's the best way to get there?",
+            "a": "Public transport, without question. Parking around Bondi is limited and roads get busy or close on the day. Take a train to Bondi Junction and a connecting bus, or a bus directly to Bondi Beach, and check the Transport for NSW trip planner for times."
+          }
+        ]
+      }
+    ],
+    "wordCount": 859,
+    "sources": [
+      {
+        "label": "Waverley Council — Festival of the Winds",
+        "url": "https://www.waverley.nsw.gov.au/recreation/arts_and_culture/major_annual_events/fotw"
+      },
+      {
+        "label": "Australian Kiteflyers Society — Bondi Festival of the Winds",
+        "url": "https://akfs.org.au/bondi-festival-of-the-winds/"
+      },
+      {
+        "label": "Transport for NSW — trip planner",
+        "url": "https://transportnsw.info/"
+      }
+    ],
+    "lastReviewed": "2026-08-08",
+    "voice": "first-person"
+  },
   "/bondi-blog/2024/1/1/must-do-bondi-summer-activities-for-first-time-visitors": {
     "blocks": [
       {
