@@ -112,8 +112,9 @@
     "metaDescription": "Average temperatures at Bondi Beach through the year, air and sea — so you know what to pack and the best months to swim or walk the coast."
   },
   "/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days": {
-    "title": "Bondi Beach Parking Guide: Free & Paid",
-    "metaDescription": "Where to park at Bondi Beach — free street spots, paid car parks, time limits and when to arrive on busy days. A local's parking guide."
+    "title": "Bondi Beach Parking: Every Car Park, Prices & Free Options",
+    "metaDescription": "Every Bondi Beach car park and what it costs, plus the local free-parking secret north of Blair Street — the beachfront car park, metered streets, time limits and smarter alternatives.",
+    "h1": "Bondi Beach Parking: Every Car Park, Prices & Free Options"
   },
   "/bondi-blog/2025/1/5/catch-the-waves-live-bondi-beach-surf-cam": {
     "title": "Bondi Beach Surf Cam (Live)",
@@ -128,8 +129,9 @@
     "metaDescription": "A practical guide to Sculpture by the Sea along the Bondi to Tamarama coastal walk — when it's on, how to get there and how to beat the crowds."
   },
   "/bondi-blog/getting-from-sydney-airport-to-bondi-beach": {
-    "title": "Sydney Airport to Bondi Beach: How to Get There",
-    "metaDescription": "The best ways to get from Sydney Airport to Bondi Beach — train via Bondi Junction, taxi, rideshare and shuttle, with travel times and what to expect."
+    "title": "Sydney Airport to Bondi Beach: Every Option Compared",
+    "metaDescription": "Every way from Sydney Airport to Bondi Beach compared — train, taxi, rideshare, pre-booked transfer and driving — with rough times, costs and which option suits you.",
+    "h1": "Sydney Airport to Bondi Beach: Every Option Compared"
   },
   "/bondi-blog/2024/1/7/sydneys-best-playground-in-the-heart-of-bondi": {
     "title": "Waverley Park Playground, Bondi: Family Guide",
@@ -383,7 +385,9 @@
     "metaDescription": "Understanding Bondi Beach safety signs — what the flags, hazard symbols and warnings mean, so you can read the beach and swim smart."
   },
   "/bondi-blog/2025/1/5/exploring-bondi-beach-a-guide-to-wheelchair-access": {
-    "metaDescription": "A guide to wheelchair access at Bondi Beach — beach wheelchairs, accessible parking, ramps and facilities for visitors with mobility needs."
+    "metaDescription": "An accessibility guide to Bondi Beach — beach wheelchairs, accessible parking and toilets, step-free access to the sand and promenade, and wheelchair-friendly routes, from a local.",
+    "title": "Bondi Beach Accessibility & Wheelchair Guide",
+    "h1": "Bondi Beach Accessibility & Wheelchair Guide"
   },
   "/bondi-blog/2025/1/5/surf-lifesaving-patrol-hours-at-bondi-bronte-tamarama": {
     "metaDescription": "Surf lifesaving patrol hours at Bondi, Bronte and Tamarama — roughly when the flags are up, and why you should always swim between them."
@@ -615,5 +619,15 @@
     "title": "The Best Cafés in Bondi Beach (2026): Coffee & Brunch by the Sand",
     "metaDescription": "My local shortlist of the best cafés in Bondi Beach for 2026 — beachfront brunch, top coffee, newer openings and who each café suits, plus what has recently changed.",
     "h1": "The Best Cafés in Bondi Beach (2026)"
+  },
+  "/bondi-blog/sunrise-sunset-bondi": {
+    "title": "Bondi Beach Sunrise: Best Spots, Times & Photography Guide",
+    "h1": "Bondi Beach Sunrise: Best Spots, Times & Photography Guide",
+    "metaDescription": "Where and when to catch sunrise at Bondi Beach — the best vantage points, roughly what time the sun rises each season, and photography tips for the shot, from a local."
+  },
+  "/bondi-blog/bondi-beach-toilets-showers-change-rooms": {
+    "title": "Bondi Beach Public Toilets, Showers & Changing Rooms",
+    "h1": "Bondi Beach Public Toilets, Showers & Changing Rooms",
+    "metaDescription": "Where to find public toilets, free beachfront showers and changing rooms at Bondi Beach — the north end, south end and the Pavilion, plus baby-change and accessible facilities."
   }
 }

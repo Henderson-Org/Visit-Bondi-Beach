@@ -1,0 +1,44 @@
+{
+  "path": "/bondi-blog/2025/1/5/exploring-bondi-beach-a-guide-to-wheelchair-access",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-08",
+  "sources": [
+    { "label": "Waverley Council — Access Bondi (disability inclusion)", "url": "https://www.waverley.nsw.gov.au/community/disability_inclusion/services_and_support" },
+    { "label": "Waverley Council — Disability inclusion", "url": "https://www.waverley.nsw.gov.au/community/disability_inclusion" },
+    { "label": "Waverley Council — Beach wheelchair bookings", "url": "https://waverley.bookable.net.au/venues/26/beach-wheelchairs" },
+    { "label": "Transport for NSW — Trip Planner", "url": "https://transportnsw.info" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Yes — you can get onto the sand at Bondi in a wheelchair, and get right down near the water. Waverley Council runs a beach-access program at North Bondi with free beach wheelchairs you can book, a firm ramp down to the sand, an accessible shower and toilets, and a long, level promenade to enjoy the view. Here's how I'd plan a smooth, low-stress day — and where to double-check the details that shift with the seasons and the surf." },
+    { "type": "quickFacts", "items": [
+      { "label": "Beach wheelchairs", "value": "Free to book (adult & child)" },
+      { "label": "Where", "value": "Lockers on the promenade, North Bondi" },
+      { "label": "Beach ramp", "value": "Northern end, near Wally Weekes Pool" },
+      { "label": "Book / help", "value": "Book ahead; Bondi Pavilion (02) 9083 8400" }
+    ] },
+    { "type": "h2", "text": "Beach wheelchairs at Bondi" },
+    { "type": "p", "text": "This is the part people are most surprised by. Council keeps beach wheelchairs — one sized for adults, one for children — in lockers on the promenade at the northern end of the beach. Their wide, balloon-style wheels roll over soft sand where an ordinary chair would sink, so you (or someone you love) can actually reach the water's edge rather than watch from the top." },
+    { "type": "p", "text": "Bookings are essential, and they're free. I'd arrange one ahead rather than turn up hoping a chair is free — there are only a couple, and they go quickly on hot days. Council's beach-wheelchair booking page is the place to start, or you can call the Bondi Pavilion on (02) 9083 8400. Booking methods change, so if in doubt, confirm the current one on Council's Access Bondi page." },
+    { "type": "localTip", "text": "The lockers double as secure storage for YOUR own wheelchair while you use the beach chair, so you don't have to leave it unattended on the promenade. And there's an outdoor accessible shower right beside them to rinse the sand and salt off before you transfer back." },
+    { "type": "callout", "tone": "note", "title": "Beach matting varies with the surf", "text": "Council also rolls out temporary beach-access matting — a firm pathway over the sand — on certain days, but the days and times shift with staffing and surf conditions. Rather than quote a timetable that might be out of date by your visit, check the current schedule on Council's Access Bondi page or ask when you book." },
+    { "type": "h2", "text": "Getting there, parking and step-free access" },
+    { "type": "p", "text": "Bondi doesn't have its own train station — the nearest is Bondi Junction, and from there frequent buses (the 333 and other Bondi Beach services) drop you at the beach. Most Sydney buses are wheelchair-accessible with ramps and priority space, but I'd still plan the exact trip on the Transport for NSW Trip Planner, which lets you filter for step-free journeys and flag any lift outages at Bondi Junction on the day." },
+    { "type": "p", "text": "If you're driving, there are accessible parking bays in the car parks and streets behind the beach, including up the northern end — which is where the beach wheelchairs, ramp and accessible facilities all cluster together. Spaces near the ramp are limited and go early on sunny weekends, so arriving before mid-morning saves a lot of circling." },
+    { "type": "list", "items": [
+      "Head for NORTH Bondi — ramp, beach wheelchairs, accessible shower and toilets are all at that end.",
+      "The sand ramp is at the northern end, near the North Bondi Surf Life Saving Club and Wally Weekes Pool.",
+      "The promenade runs the full length of the beach on the level — the whole view, no stairs.",
+      "Plan the bus trip on the TfNSW Trip Planner and check step-free options and lift status."
+    ] },
+    { "type": "h2", "text": "Accessible toilets, changing and facilities" },
+    { "type": "p", "text": "There are accessible and ambulant toilets at the North Bondi amenities, right by the wheelchair lockers and outdoor shower — which makes that northern corner the practical base for the day. The restored Bondi Pavilion is worth knowing about too: on the ground floor it has accessible toilets plus an adult change facility with a height-adjustable table and hoist. That change room is fitted with an MLAK (Master Locksmith Access Key) lock, so if you rely on adult change facilities, bring your MLAK key or arrange access in advance." },
+    { "type": "localTip", "text": "For a genuinely accessible outing beyond the sand, the promenade north towards Ben Buckler gives you flat, sealed coastal views without the steps of the full Bondi-to-Coogee walk (which turns to stairs before long). It's my go-to for a relaxed roll — ocean on one side, coffee stops on the other." },
+    { "type": "faq", "items": [
+      { "q": "Are beach wheelchairs at Bondi free, and how do I book one?", "a": "Yes, they're free. Waverley Council keeps adult and child beach wheelchairs in lockers on the promenade at North Bondi, and bookings are essential. Arrange one ahead through Council's booking page or by phone (Bondi Pavilion, (02) 9083 8400). Numbers are limited, so book early on warm days." },
+      { "q": "Can you actually get a wheelchair onto the sand at Bondi?", "a": "Yes. A ramp reaches the sand at the northern end near Wally Weekes Pool, and the booked beach wheelchairs have wide wheels made to roll across soft sand into the shallows. Council also lays temporary access matting on some days — check the current schedule when you book." },
+      { "q": "Where are the accessible toilets and showers?", "a": "At the North Bondi amenities, with accessible and ambulant toilets plus an outdoor shower beside the beach-wheelchair lockers. Bondi Pavilion adds accessible toilets and an MLAK-locked adult change facility with a hoist on its ground floor." },
+      { "q": "How do I get to Bondi by public transport with a wheelchair?", "a": "The nearest station is Bondi Junction; from there accessible buses such as the 333 run to the beach. Plan the exact step-free route and check for any lift outages at Bondi Junction using the Transport for NSW Trip Planner." }
+    ] },
+    { "type": "p", "text": "Bondi has come a long way on access, and while there's always more to do, a well-planned day here really can be for everyone. Book your beach wheelchair, aim for the northern end, and give yourself the morning — you'll get the sand between the wheels and the same big blue horizon the rest of us come for. For anything that shifts with the season, the Access Bondi page is the source I trust." }
+  ]
+}
