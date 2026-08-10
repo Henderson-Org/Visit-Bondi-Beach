@@ -67,9 +67,14 @@ const REDIRECTED_PATHS = new Set([
   '/bondi-blog/2024/7/25/help-3-week-city2surf-training-plan',
 ]);
 
+// Paths that live in the content index but are now served by a dedicated app route
+// (which owns their canonical + sitemap entry). Excluded here so the catch-all doesn't
+// statically generate a duplicate that clashes with the real route.
+const OWNED_BY_ROUTE = new Set(['/bondi-eat-and-drink']);
+
 export function generateStaticParams() {
   return allContentPaths()
-    .filter((p) => !/[%+]/.test(p) && !REDIRECTED_PATHS.has(p))
+    .filter((p) => !/[%+]/.test(p) && !REDIRECTED_PATHS.has(p) && !OWNED_BY_ROUTE.has(p))
     .map((p) => ({ slug: p.split('/').filter(Boolean) }));
 }
 

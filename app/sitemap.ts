@@ -4,7 +4,7 @@ import { PROD_ORIGIN } from '@/lib/site';
 import { stayCategorySlugs } from '@/data/stay-categories';
 import { guideSlugs } from '@/data/accommodation-guides';
 import { eventSlugs } from '@/data/events';
-import { collectionSlugs as diningCollectionSlugs } from '@/lib/eatDrink';
+import { collectionSlugs as diningCollectionSlugs, venuesWithPages } from '@/lib/restaurantGuide';
 
 /**
  * XML sitemap generated from the content index. Only indexable pages are included
@@ -23,12 +23,12 @@ const STATIC_ROUTES: { path: string; priority: number }[] = [
   { path: '/stay/hostels-bondi-beach', priority: 0.6 },
   ...stayCategorySlugs().map((slug) => ({ path: `/stay/${slug}`, priority: 0.7 })),
   ...guideSlugs().map((slug) => ({ path: `/stay/${slug}`, priority: 0.6 })),
-  // Eat & Drink engine — collection (category) pages.
+  // Eat & Drink directory — the hub, curated collection pages, and venue pages.
+  { path: '/bondi-eat-and-drink', priority: 0.9 },
   ...diningCollectionSlugs().map((slug) => ({ path: `/bondi-eat-and-drink/${slug}`, priority: 0.7 })),
-  // NOTE: individual venue-guide URLs are intentionally NOT emitted here. The
-  // /bondi-eat-and-drink/[slug] route only generates collection slugs (dynamicParams=false),
-  // so a venue-guide URL would 404. Re-add venuesWithGuide() to the sitemap only once that
-  // route actually serves venue guides (generateStaticParams + a venue branch).
+  // Individual venue pages (only venues with real editorial depth get an indexable page,
+  // via /bondi-eat-and-drink/venues/[id]; the rest live in the directory listing only).
+  ...venuesWithPages().map((r) => ({ path: `/bondi-eat-and-drink/venues/${r.id}`, priority: 0.6 })),
   // What's On (events) + Articles hub
   { path: '/whats-on', priority: 0.9 },
   { path: '/whats-on/today', priority: 0.6 },
@@ -57,5 +57,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: r.priority,
   }));
 
-  return [...fromContent, ...fromStatic];
+  // De-duplicate by URL (a path may exist both in the content index and as a code route,
+  // e.g. /bondi-eat-and-drink is now a real directory route but is still in pages.json).
+  const seen = new Set<string>();
+  return [...fromStatic, ...fromContent].filter((e) => {
+    if (seen.has(e.url)) return false;
+    seen.add(e.url);
+    return true;
+  });
 }

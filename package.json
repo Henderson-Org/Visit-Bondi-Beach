@@ -15,7 +15,8 @@
     "seo:qa": "node scripts/seo-qa.mjs",
     "audit:stay": "node --experimental-strip-types scripts/audit-accommodation.ts",
     "test": "vitest run",
-    "events:verify": "node scripts/verify-events.mjs"
+    "events:verify": "node scripts/verify-events.mjs",
+    "restaurants:verify": "node scripts/restaurants-audit.mjs"
   },
   "dependencies": {
     "next": "^16.3.0",
