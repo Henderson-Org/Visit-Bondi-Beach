@@ -57,6 +57,12 @@ for (const r of active) {
   else if (days(r.lastVerifiedAt, TODAY) > FRESH_DAYS) warn.push(`STALE    ${r.id} — verified ${r.lastVerifiedAt} (${days(r.lastVerifiedAt, TODAY)}d ago)`);
   if (!r.whyGo || r.whyGo.length < 40) warn.push(`THINCOPY ${r.id} — no venue page (thin editorial)`);
   if (r.confidence === 'low') warn.push(`LOWCONF  ${r.id} — low confidence`);
+  // NOSITE: no official website means the venue's name/status can only be checked against
+  // third-party aggregators (which lag reality) — exactly how the Bru→Jacks rebrand slipped
+  // through. Flag for a human eyeball so a stale name/closure can't sit on the live site.
+  if (!r.website || !String(r.website).trim()) {
+    warn.push(`NOSITE   ${r.id} — no official website; name/status not auto-verifiable — needs a human check`);
+  }
 }
 
 // ---- report -----------------------------------------------------------------
