@@ -385,5 +385,14 @@
       "https://concreteplayground.com/sydney/restaurants/good-one-cafe",
       "https://www.broadsheet.com.au/sydney/food-and-drink/article/bondi-beach-scores-good-one"
     ]
+  },
+  {
+    "name": "Medani Bakery (Medani Bakery Cafe)",
+    "status": "permanently-closed",
+    "note": "",
+    "sources": [
+      "https://www.notquitenigella.com/2018/11/28/medani-bakery-bondi/",
+      "https://restaurantguru.com/Medani-Bakery-Bondi-Junction"
+    ]
   }
 ]

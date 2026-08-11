@@ -105,6 +105,17 @@ export default async function DiningCollectionPage({ params }: Props) {
         )}
       </section>
 
+      {collection.relatedReads && collection.relatedReads.length > 0 && (
+        <section className="mx-auto max-w-5xl px-4 pt-14">
+          <h2 className="font-display text-2xl text-ink-900">Related reads</h2>
+          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+            {collection.relatedReads.map((l) => (
+              <li key={l.path}><Link href={l.path} className="text-ocean-700 hover:underline">{l.title} →</Link></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       <section className="mx-auto max-w-5xl px-4 py-14">
         <h2 className="font-display text-2xl text-ink-900">Keep exploring Bondi</h2>
         <ul className="mt-4 grid gap-2 sm:grid-cols-2">

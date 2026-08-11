@@ -4217,6 +4217,72 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
+    "id": "arabica-bondi",
+    "name": "% Arabica",
+    "status": "open",
+    "type": "cafe",
+    "precinct": "bondi-beach",
+    "street": "Campbell Parade",
+    "cuisines": [
+      "Specialty coffee",
+      "Cafe"
+    ],
+    "meals": [
+      "breakfast",
+      "brunch",
+      "lunch"
+    ],
+    "priceBand": 2,
+    "diningStyle": [
+      "cafe",
+      "casual",
+      "takeaway"
+    ],
+    "suitability": [
+      "tourists",
+      "couples",
+      "solo",
+      "locals",
+      "groups"
+    ],
+    "dietary": [],
+    "attributes": [
+      "takeaway",
+      "walk-ins",
+      "lively"
+    ],
+    "website": "https://arabica.com",
+    "instagram": "https://www.instagram.com/arabica.australia/",
+    "summary": "The Kyoto-born global coffee brand % Arabica's first Australian store, a minimalist specialty-coffee flagship on Bondi's most prominent Hall Street–Campbell Parade corner.",
+    "whyGo": "This is a genuine coffee event for Bondi: % Arabica is a Kyoto-founded, globally worshipped roaster whose pared-back white interiors and single-origin program have drawn cult queues from Hong Kong to Dubai, and Bondi landed its first Australian outpost on the old Bates Milk Bar corner. We'd go for the ritual as much as the cup — precise espresso and pour-overs pulled on high-end kit in a deliberately calm, design-led room. If you care about coffee as craft rather than a flat white on autopilot, this is the address on the strip worth crossing the road for.",
+    "bestFor": "A design-led specialty coffee stop before or after the beach",
+    "whatToOrder": "Single-origin espresso and hand pour-overs, the house Spanish latte and Kyoto latte, plus iced lattes and matcha — % Arabica's known signatures rather than any invented special.",
+    "atmosphere": "Minimalist, bright and design-forward; calm in concept but often busy with a queue.",
+    "localTip": "Come early or mid-afternoon on a weekday — like % Arabica's other flagships, weekend and morning lines can be long — then walk your cup the block down to the promenade.",
+    "tradeOff": "It's coffee-first with only minimal food, prices sit at the premium end, and as a hyped tourist magnet on the busiest corner it's more see-and-be-seen than quiet local secret.",
+    "ranking": {
+      "foodScore": 6.5,
+      "localReputation": 7,
+      "uniqueness": 8.5,
+      "value": 5,
+      "viewScore": 5,
+      "visitorUsefulness": 8.5,
+      "kidFriendliness": 4
+    },
+    "score": 7,
+    "confidence": "medium",
+    "sources": [
+      "https://bondibeachnews.com.au/bondi-beach-to-welcome-japanese-coffee-giant-arabica-in-2025/",
+      "https://insideretail.com.au/stores/arabica-to-launch-first-store-in-australia-202504",
+      "https://www.gcrmag.com/arabica-set-to-open-first-store-in-australia/",
+      "https://www.beanscenemag.com.au/arabica-to-open-australian-flagship/",
+      "https://qsrmedia.com/new-concepts/news/japanese-specialty-coffee-chain-arabica-open-flagship-in-australia",
+      "https://www.instagram.com/arabica.australia/",
+      "https://en.wikipedia.org/wiki/%25_Arabica"
+    ],
+    "lastVerifiedAt": "2026-08-10"
+  },
+  {
     "id": "bondi-hardware",
     "name": "Bondi Hardware",
     "status": "open",
@@ -6547,71 +6613,6 @@
       "https://www.instagram.com/thedepotbondi/",
       "https://eatdrinkplay.com/sydney/the-depot-north-bondi/",
       "https://www.tripadvisor.com/Restaurant_Review-g947961-d4096842-Reviews-The_Depot_Bondi-Bondi_Greater_Sydney_New_South_Wales.html"
-    ],
-    "lastVerifiedAt": "2026-08-10"
-  },
-  {
-    "id": "arabica-bondi",
-    "name": "% Arabica",
-    "status": "open",
-    "type": "cafe",
-    "precinct": "bondi-beach",
-    "street": "Hall Street",
-    "address": "Corner of Hall Street and Campbell Parade, Bondi Beach NSW 2026",
-    "cuisines": [
-      "Specialty coffee",
-      "Cafe"
-    ],
-    "meals": [
-      "breakfast",
-      "brunch"
-    ],
-    "priceBand": 2,
-    "diningStyle": [
-      "cafe",
-      "casual",
-      "takeaway"
-    ],
-    "suitability": [
-      "couples",
-      "solo",
-      "tourists",
-      "locals",
-      "groups"
-    ],
-    "dietary": [],
-    "attributes": [
-      "takeaway",
-      "walk-ins"
-    ],
-    "website": "https://arabica.com",
-    "summary": "The Kyoto-born specialty coffee brand % Arabica's first Australian flagship, on the landmark Hall Street and Campbell Parade corner in the heart of Bondi Beach.",
-    "whyGo": "% Arabica arrives in Bondi as a genuine event for coffee people: a globally minimalist, design-led roaster known for direct-trade single-origin beans, Slayer espresso machines and a pared-back aesthetic that lets the coffee do the talking. We'd choose this for a considered flat white or one of the brand's signature milk drinks rather than a sit-down feed, and its position on the busy Hall Street corner, a short walk up from the sand, makes it an easy stop on the way to or from the beach. It's a marquee opening in a precinct already thick with cafes, so expect a queue and a scene in the early days.",
-    "bestFor": "A design-led specialty coffee on the way to or from the beach",
-    "whatToOrder": "The house espresso and flat white are the obvious anchors; % Arabica is also known internationally for its Spanish Latte and Kyoto Latte, plus iced coffee and matcha for the walk-down-to-the-sand crowd.",
-    "atmosphere": "Minimalist, calm and pared-back; grab-and-go energy on a busy corner.",
-    "localTip": "This is a coffee-forward roaster, not a brunch kitchen, so pair it with a proper meal elsewhere on Hall Street and treat % Arabica as the coffee stop. As a brand-new flagship, check its live listing for current hours before making a special trip.",
-    "tradeOff": "Premium pricing and a coffee-and-pastry focus rather than a full food menu, and as a just-opened flagship expect crowds and settling-in teething.",
-    "ranking": {
-      "foodScore": 7,
-      "localReputation": 6,
-      "uniqueness": 8,
-      "value": 5,
-      "viewScore": 4,
-      "visitorUsefulness": 7,
-      "kidFriendliness": 3
-    },
-    "score": 6.6,
-    "confidence": "low",
-    "sources": [
-      "https://bondibeachnews.com.au/bondi-beach-to-welcome-japanese-coffee-giant-arabica-in-2025/",
-      "https://insideretail.com.au/stores/arabica-to-launch-first-store-in-australia-202504",
-      "https://www.beanscenemag.com.au/arabica-to-open-australian-flagship/",
-      "https://www.gcrmag.com/arabica-set-to-open-first-store-in-australia/",
-      "https://qsrmedia.com/new-concepts/news/japanese-specialty-coffee-chain-arabica-open-flagship-in-australia",
-      "https://qahwaworld.com/news/arabica-to-open-first-australian-flagship-in-bondi/",
-      "https://en.wikipedia.org/wiki/%25_Arabica",
-      "https://arabica.com"
     ],
     "lastVerifiedAt": "2026-08-10"
   },
@@ -9435,74 +9436,6 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
-    "id": "medani-bakery",
-    "name": "Medani Bakery",
-    "status": "open",
-    "type": "bakery",
-    "precinct": "north-bondi",
-    "street": "Glenayr Avenue",
-    "address": "2/83-85 Glenayr Avenue, North Bondi NSW 2026",
-    "cuisines": [
-      "Israeli",
-      "Middle Eastern",
-      "Jewish",
-      "Bakery"
-    ],
-    "meals": [
-      "breakfast",
-      "brunch",
-      "lunch"
-    ],
-    "priceBand": 2,
-    "diningStyle": [
-      "bakery",
-      "cafe",
-      "casual"
-    ],
-    "suitability": [
-      "locals",
-      "solo",
-      "couples",
-      "families",
-      "vegetarians"
-    ],
-    "dietary": [
-      "vegetarian"
-    ],
-    "attributes": [
-      "outdoor-seating",
-      "dog-friendly",
-      "takeaway",
-      "walk-ins"
-    ],
-    "summary": "A low-key North Bondi Israeli-Jewish bakery-cafe turning out fresh pita, sambouseks, falafel and shakshuka a few streets back from the sand.",
-    "whyGo": "If you're after genuine Israeli baking and Middle Eastern breakfast rather than another smashed-avo cafe, this is where we'd point you. It leans mostly vegetarian and the cooking is honest and generous, from bright-green crunchy falafel to a properly rich shakshuka, all at prices that feel from another era for this postcode. It's the kind of quiet neighbourhood spot locals fold into their week, not a destination brunch scene.",
-    "bestFor": "A relaxed, good-value Israeli breakfast or bakery run away from the beachfront crowds.",
-    "whatToOrder": "Our pick is the sambouseks (the curried-vegetable one) and the fresh pita, with shakshuka or the roasted eggplant if you're sitting in; the falafel is the other thing worth building a plate around, and the counter pastries and challah-style bakes are the takeaway move.",
-    "atmosphere": "Unassuming and neighbourly, with just a couple of tables out front for alfresco people-watching.",
-    "localTip": "There are only a handful of outdoor seats, so if you want to eat in rather than take away, come early or off-peak; it's an easy walk up from the north end of the beach.",
-    "tradeOff": "It's a small, side-street bakery-cafe with no beach view and limited seating, so manage expectations if you're picturing a big sit-down brunch; a separate Bondi Junction branch appears to have closed, so head to Glenayr Avenue and confirm current hours before a special trip.",
-    "ranking": {
-      "foodScore": 7,
-      "localReputation": 6,
-      "uniqueness": 7,
-      "value": 8,
-      "viewScore": 1,
-      "visitorUsefulness": 5,
-      "kidFriendliness": 5
-    },
-    "score": 6.2,
-    "confidence": "low",
-    "sources": [
-      "https://www.notquitenigella.com/2018/11/28/medani-bakery-bondi/",
-      "https://www.tripadvisor.com/Restaurant_Review-g947961-d27684486-Reviews-Medani_Bakery_Cafe-Bondi_Greater_Sydney_New_South_Wales.html",
-      "https://restaurantguru.com/Medani-Bakery-Bondi-Junction",
-      "https://www.b-kyu.com/2018/07/medani-bakery-israeli-bondi-junction.html",
-      "https://www.happycow.net/reviews/medani-bakery-bondi-junction-108814"
-    ],
-    "lastVerifiedAt": "2026-08-10"
-  },
-  {
     "id": "bondi-surf-seafoods",
     "name": "Bondi Surf Seafoods",
     "status": "open",
@@ -10934,70 +10867,6 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
-    "id": "gourmet-slice",
-    "name": "Pete's Gourmet Pizza",
-    "status": "open",
-    "type": "takeaway",
-    "precinct": "bondi-beach",
-    "street": "Gould Street",
-    "address": "87A Gould Street, Bondi Beach NSW 2026",
-    "cuisines": [
-      "Pizza",
-      "Burgers"
-    ],
-    "meals": [
-      "dinner",
-      "lunch",
-      "late-night"
-    ],
-    "priceBand": 2,
-    "diningStyle": [
-      "takeaway",
-      "casual",
-      "fast-casual"
-    ],
-    "suitability": [
-      "locals",
-      "families",
-      "groups",
-      "solo"
-    ],
-    "dietary": [
-      "vegetarian"
-    ],
-    "attributes": [
-      "takeaway",
-      "delivery"
-    ],
-    "menuUrl": "https://www.ubereats.com/en-AU/sydney/food-delivery/petes-gourmet-pizza-burgers-&-soup/IL83B_tzTPuqUfzzRxmTdw/",
-    "summary": "A no-frills Gould Street pizza-and-burger takeaway a couple of blocks back from the sand, trading these days as Pete's Gourmet Pizza and built around delivery and grab-and-go orders rather than sitting down.",
-    "whyGo": "This is the kind of unfussy local pizza joint you want on speed dial when you're staying nearby and don't feel like dressing up for Campbell Parade. The gourmet-topped pizzas have a loyal following for a thin, honest base and generous toppings, and they've expanded into burgers and soups so a mixed group can all find something. We'd reach for it as a reliable feed-the-crew option rather than a night out.",
-    "bestFor": "Cheap, reliable pizza delivery or takeaway near the beach",
-    "whatToOrder": "Their gourmet pizzas are the reason to come: a classic margherita, the BBQ chicken, the garlic mushroom, or the spicy lamb with harissa and minted yoghurt. If you've moved past pizza, they also do burgers and soups.",
-    "atmosphere": "Functional takeaway counter, not a sit-down destination",
-    "localTip": "It stays open late on Friday and Saturday, so it's a useful post-beach or post-drinks option when the sit-down places have wound down; order through Uber Eats or DoorDash to skip the wait.",
-    "tradeOff": "It's a takeaway-and-delivery operation on a side street with no view and minimal seating, so manage expectations if you're after an atmosphere or an ocean outlook.",
-    "ranking": {
-      "foodScore": 6.5,
-      "localReputation": 7,
-      "uniqueness": 3.5,
-      "value": 7,
-      "viewScore": 0,
-      "visitorUsefulness": 5,
-      "kidFriendliness": 6
-    },
-    "score": 5.7,
-    "confidence": "medium",
-    "sources": [
-      "https://www.yelp.com/biz/gourmet-slice-bondi-beach",
-      "https://restaurantguru.com/Gourmet-Pizza-and-Soup-Co-Bondi-Beach",
-      "https://www.ubereats.com/en-AU/sydney/food-delivery/petes-gourmet-pizza-burgers-&-soup/IL83B_tzTPuqUfzzRxmTdw/",
-      "https://www.doordash.com/store/pete-s-gourmet-pizza-bondi-beach-933644",
-      "https://www.tripadvisor.com.au/Restaurant_Review-g947961-d13413457-Reviews-Pete_s_Gourmet_Pizza-Bondi_Greater_Sydney_New_South_Wales.html"
-    ],
-    "lastVerifiedAt": "2026-08-10"
-  },
-  {
     "id": "rice-pot-thai-restaurant",
     "name": "Rice Pot Thai Restaurant",
     "status": "open",
@@ -11315,12 +11184,11 @@
     "lastVerifiedAt": "2026-08-10"
   },
   {
-    "id": "bondi-2026",
+    "id": "bondi-at-2026",
     "name": "Bondi@2026",
     "status": "open",
     "type": "cafe",
     "precinct": "bondi-road",
-    "street": "Bondi Road",
     "cuisines": [
       "Cafe",
       "Australian"
@@ -11329,7 +11197,7 @@
       "breakfast",
       "brunch",
       "lunch",
-      "late-night"
+      "dinner"
     ],
     "priceBand": 2,
     "diningStyle": [
@@ -11340,37 +11208,33 @@
     "suitability": [
       "locals",
       "couples",
-      "groups",
-      "solo"
+      "solo",
+      "groups"
     ],
     "dietary": [],
     "attributes": [
-      "outdoor-seating",
-      "lively",
       "walk-ins"
     ],
-    "summary": "A relaxed Bondi Road cafe-bar that pours coffee and cooks all-day café plates by day, then turns into an easy neighbourhood spot for a sunny happy-hour beer.",
-    "whyGo": "This is one of those dual-personality Bondi Road addresses: a straightforward café in the mornings — decent coffee, egg-and-bacon rolls, fresh juice — that leans into drinks-and-snacks territory from late afternoon. We'd choose it for a low-key beer in the sun rather than a destination meal, and the crowd skews local rather than tourist. Reviewers consistently flag the Sydney-brewed pilsner and the fried chicken as the reasons to linger.",
-    "bestFor": "A casual local beer and a snack, or an easy weekday breakfast",
-    "whatToOrder": "The fried chicken and chicken sliders are the repeat picks; for a morning stop, the egg-and-bacon roll with a coffee and fresh orange juice. Sydney-brewed pilsner on the drinks side.",
-    "atmosphere": "Relaxed, intimate and a touch scruffy — a cool local vibe more suited to drinks than a formal sit-down dinner.",
-    "localTip": "Come for the 5–7pm happy hour and grab a spot in the afternoon sun — it's better as a drinks-and-bar-snacks stop than a full dinner out.",
-    "tradeOff": "The food is honest and cheap rather than polished — several regulars rate the drinks and vibe well above the bar eats, so don't arrive expecting a serious kitchen. It's an inland Bondi Road spot with no beach view.",
+    "summary": "A relaxed, inexpensive cafe-bar off the Bondi Road strip that does casual daytime coffee and a well-liked early-evening happy hour with a local, no-fuss crowd.",
+    "whyGo": "We'd file this one under neighbourhood spots rather than destination dining: it swings from morning coffee and an egg-and-bacon burger to a 5-to-7 happy hour that pulls in regulars. The draw is the easy, intimate vibe and honest prices rather than anything fine-dining, and the kitchen has a genuine following for its fried chicken. Come for the atmosphere and the value, not for a scene.",
+    "bestFor": "Low-key local drinks and casual eats away from the beachfront crush",
+    "whatToOrder": "The fried chicken and chicken sliders are the standouts locals rate; by day the egg-and-bacon burger with a coffee and fresh orange juice.",
+    "atmosphere": "Relaxed, intimate and locals-leaning, with a friendly happy-hour buzz early evening.",
+    "localTip": "Time it for the 5–7pm happy hour if you want the room at its liveliest and the drinks at their cheapest.",
+    "tradeOff": "It's a casual cafe-bar, not a food destination — some find the bar snacks fine rather than memorable, and there are no ocean views here.",
     "ranking": {
-      "foodScore": 5.5,
+      "foodScore": 6,
       "localReputation": 6,
-      "uniqueness": 5,
+      "uniqueness": 3.5,
       "value": 7,
       "viewScore": 2,
       "visitorUsefulness": 4,
-      "kidFriendliness": 3
+      "kidFriendliness": 4
     },
     "score": 5.2,
     "confidence": "low",
     "sources": [
-      "https://www.tripadvisor.com/Restaurant_Review-g947961-d5615463-Reviews-Bondi_2026-Bondi_Greater_Sydney_New_South_Wales.html",
-      "https://www.tripadvisor.com/Restaurants-g947961-c8-Bondi_Greater_Sydney_New_South_Wales.html",
-      "https://eatdrinkcheap.com.au/sydney/bondi-specials"
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d5615463-Reviews-Bondi_2026-Bondi_Greater_Sydney_New_South_Wales.html"
     ],
     "lastVerifiedAt": "2026-08-10"
   },
@@ -11553,54 +11417,59 @@
   },
   {
     "id": "gould-st-gourmet",
-    "name": "Gould St Gourmet",
+    "name": "Gourmet Slice",
+    "formerName": "Gould St Gourmet",
     "status": "open",
-    "type": "cafe",
+    "type": "takeaway",
     "precinct": "bondi-beach",
     "street": "Gould Street",
+    "address": "87A Gould St, Bondi Beach NSW 2026",
     "cuisines": [
-      "Cafe",
-      "Deli"
+      "Pizza",
+      "Italian"
     ],
     "meals": [
-      "breakfast",
-      "lunch"
+      "lunch",
+      "dinner"
     ],
-    "priceBand": 2,
+    "priceBand": 1,
     "diningStyle": [
-      "cafe",
-      "casual",
-      "takeaway"
+      "takeaway",
+      "fast-casual"
     ],
     "suitability": [
-      "locals",
       "solo",
-      "tourists"
+      "groups",
+      "tourists",
+      "locals"
     ],
     "dietary": [],
     "attributes": [
-      "takeaway"
+      "takeaway",
+      "walk-ins"
     ],
-    "summary": "A small cafe-deli on Gould Street, one block back from the sand, geared to coffee and grab-and-go rather than a sit-down destination.",
-    "whyGo": "Gould Street is Bondi's low-key cafe-and-shopping spine, a block behind the Campbell Parade tourist crush, and a gourmet deli-cafe here fits the street's neighbourhood feel. We'd think of it as a quick-stop for a coffee and something to eat on the way to or from the beach rather than a place you'd plan a meal around. Note that we couldn't verify its menu or hours online, so it's best treated as a walk-past-and-see spot.",
-    "bestFor": "A fast coffee-and-a-bite off the beach on Gould Street",
-    "whatToOrder": "Deli-cafe staples — coffee and counter sandwiches or rolls to take away; check the counter for what's fresh that day rather than expecting a fixed menu.",
-    "atmosphere": "Casual, small, neighbourhood-cafe pace",
-    "localTip": "Gould Street is the calmer, more local alternative to the Campbell Parade strip, so it's an easy detour if the beachfront cafes are packed — but call ahead or check the window for hours before you count on it.",
-    "tradeOff": "Very little public information exists — no confirmed menu, hours, or reviews — so go with low expectations and a backup nearby.",
+    "summary": "A tiny gourmet-pizza-by-the-slice shopfront on Gould Street, one block back from the sand, that most recently trades as Gourmet Slice after cycling through several names.",
+    "whyGo": "If you're walking up from the beach and want something hot and cheap in your hand rather than a sit-down meal, this is the sort of spot that does the job. It's a slice-counter operation on the Gould Street strip, so we'd file it under quick-bite convenience rather than destination dining. Be aware the identity of this little shopfront has turned over more than once, so what you find on the day may not match older listings.",
+    "bestFor": "A fast, cheap slice on the walk back from Bondi Beach",
+    "whatToOrder": "Whatever's fresh out of the oven by the slice — classic gourmet toppings are the format here.",
+    "atmosphere": "Grab-and-go counter, minimal seating",
+    "localTip": "Gould Street runs one block behind Campbell Parade, so it's an easy detour on the way to or from the beach without fighting the beachfront crowds — but check the current name and hours on the door, since this address has changed hands.",
+    "tradeOff": "This shopfront has been rebranded repeatedly (formerly Pete's Gourmet Pizza / Gourmet Pizza & Soup Co, listed as Gould St Gourmet, now Gourmet Slice), so its offering and trading status are not firmly settled — call ahead if it matters.",
     "ranking": {
-      "foodScore": 5.5,
-      "localReputation": 4.5,
-      "uniqueness": 4.5,
-      "value": 6,
+      "foodScore": 5,
+      "localReputation": 3,
+      "uniqueness": 3,
+      "value": 7,
       "viewScore": 1,
-      "visitorUsefulness": 4.5,
+      "visitorUsefulness": 4,
       "kidFriendliness": 5
     },
-    "score": 4.8,
+    "score": 4,
     "confidence": "low",
     "sources": [
-      "https://www.tripadvisor.com/Restaurant_Review-g947961-d27551110-Reviews-Gould_St_Gourmet-Bondi_Greater_Sydney_New_South_Wales.html"
+      "https://www.tripadvisor.com/Restaurant_Review-g947961-d27551110-Reviews-Gould_St_Gourmet-Bondi_Greater_Sydney_New_South_Wales.html",
+      "https://www.yelp.com/biz/gourmet-slice-bondi-beach",
+      "https://restaurantguru.com/Gourmet-Slice-Rose-Bay"
     ],
     "lastVerifiedAt": "2026-08-10"
   }

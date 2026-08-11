@@ -38,6 +38,31 @@ export function venuesWithPages(): Restaurant[] {
   return restaurants().filter(hasVenuePage);
 }
 
+/**
+ * Whether a venue takes bookings — derived purely from verified data (a real booking URL
+ * or a sourced "reservations" attribute), never guessed. 'unknown' when we hold no signal,
+ * so the page can defer to the venue rather than assert walk-ins. No volatile hours implied.
+ */
+export function bookingStatus(r: Restaurant): 'reservations' | 'walk-ins' | 'unknown' {
+  if (r.bookingUrl || r.attributes.includes('reservations')) return 'reservations';
+  if (r.attributes.includes('walk-ins')) return 'walk-ins';
+  return 'unknown';
+}
+
+/**
+ * A venue's founding year IF it's clearly stated in our sourced editorial (a durable fact,
+ * not a volatile one). Powers a "serving Bondi since YYYY" institution signal that lets the
+ * site treat long-runners as reliable. Returns null when not confidently stated.
+ */
+const ESTABLISHED_RE = /\b(?:since|established|opened(?: in)?|est\.?|founded(?: in)?|trading since|first opened(?: in)?)\s+(?:in\s+)?((?:19|20)\d{2})\b/i;
+export function establishedYear(r: Restaurant): number | null {
+  const t = `${r.summary} ${r.whyGo ?? ''} ${r.atmosphere ?? ''}`;
+  const m = t.match(ESTABLISHED_RE);
+  if (!m) return null;
+  const y = Number(m[1]);
+  return y >= 1900 && y <= 2026 ? y : null;
+}
+
 /** External link a card/venue page should surface (own site first, then booking/menu/instagram). */
 export function outboundLink(r: Restaurant): { href: string; label: string } | null {
   if (r.website) return { href: r.website, label: 'Visit website' };
@@ -148,6 +173,13 @@ export interface GuideCollection {
   select: (r: Restaurant) => boolean;
   /** Optional cap so a collection stays curated, not a dump. */
   limit?: number;
+  /**
+   * 'best-of' = a curated ranked shortlist (the default); 'area' = a precinct landing
+   * page that lists everywhere in one part of Bondi. Drives where the hub surfaces it.
+   */
+  kind?: 'best-of' | 'area';
+  /** Editorial articles worth surfacing on this collection page (database → article). */
+  relatedReads?: { title: string; path: string }[];
 }
 
 export const COLLECTIONS: GuideCollection[] = [
@@ -209,6 +241,10 @@ export const COLLECTIONS: GuideCollection[] = [
       'Where to drink in Bondi Beach — the wine bars, cocktail rooms and beachfront spots a local rates, with the vibe and best time to go for each.',
     select: (r) => r.type === 'bar' || r.attributes.includes('sunset'),
     limit: 20,
+    relatedReads: [
+      { title: 'The best wine bars in Bondi', path: '/bondi-blog/best-wine-bars-in-bondi' },
+      { title: 'Where to watch live sport in Bondi', path: '/bondi-blog/where-to-watch-sport-in-bondi' },
+    ],
   },
   {
     slug: 'cheap-eats-bondi-beach',
@@ -269,6 +305,10 @@ export const COLLECTIONS: GuideCollection[] = [
       'A local guide to the best pubs in Bondi Beach — the bistros, beer gardens and hotels worth settling into, and what each does best.',
     select: (r) => r.type === 'pub' || r.type === 'club-hotel',
     limit: 16,
+    relatedReads: [
+      { title: 'Where to watch live sport in Bondi', path: '/bondi-blog/where-to-watch-sport-in-bondi' },
+      { title: 'Where to watch the Premier League in Bondi', path: '/bondi-blog/2025/5/25/where-to-watch-english-football-in-bondi-the-best-pubs-and-bars-for-premier-league-fans' },
+    ],
   },
   {
     slug: 'bakeries-sweets-bondi-beach',
@@ -282,6 +322,67 @@ export const COLLECTIONS: GuideCollection[] = [
     select: (r) => r.type === 'bakery' || r.type === 'dessert',
     limit: 18,
   },
+  {
+    slug: 'late-night-bondi-beach',
+    h1: 'Late-night eats & drinks in Bondi',
+    kicker: 'After dark',
+    intro:
+      "Where to eat and drink when the sun's long gone — the kitchens that stay open, the bars that run late and the takeaway worth knowing after a big one. Always check the night's hours before you head out.",
+    metaTitle: 'Late-Night Eats & Drinks in Bondi Beach',
+    metaDescription:
+      'Where to eat and drink late in Bondi Beach — a local’s guide to the kitchens, bars and takeaways that keep going after dark.',
+    select: (r) => r.meals.includes('late-night') || (r.type === 'bar' && r.meals.includes('dinner')),
+    limit: 24,
+  },
+  {
+    slug: 'sunset-rooftop-bondi-beach',
+    h1: 'The best sunset & rooftop drinks in Bondi',
+    kicker: 'Golden hour',
+    intro:
+      "Bondi faces east, so the magic here is the light on the water rather than a sunset over the sea — these are the rooftops, terraces and west-facing perches where we'd time a drink for golden hour.",
+    metaTitle: 'Best Sunset & Rooftop Bars in Bondi Beach',
+    metaDescription:
+      'Where to catch golden hour with a drink in Bondi — the rooftops, terraces and view bars a local rates for a sunset session.',
+    select: (r) => r.attributes.includes('rooftop') || r.attributes.includes('sunset'),
+    limit: 16,
+  },
+  // --- Area (precinct) landing pages: everywhere to eat in one pocket of Bondi. ---
+  {
+    slug: 'north-bondi',
+    kind: 'area',
+    h1: 'Where to eat & drink in North Bondi',
+    kicker: 'North Bondi',
+    intro:
+      "The quieter, more local end of the beach — up around Gould Street, Blair Street and Ramsgate Avenue. North Bondi is where the neighbourhood actually eats: proper coffee, all-day cafés, low-key dinners and the RSL with the best cheap view in Sydney. Here's everywhere worth knowing.",
+    metaTitle: 'Where to Eat & Drink in North Bondi',
+    metaDescription:
+      'A local’s guide to eating and drinking in North Bondi — the cafés, restaurants, bars and takeaways around Gould Street and the quiet north end.',
+    select: (r) => r.precinct === 'north-bondi',
+  },
+  {
+    slug: 'campbell-parade',
+    kind: 'area',
+    h1: 'Where to eat & drink on Campbell Parade',
+    kicker: 'Campbell Parade',
+    intro:
+      "The beachfront strip — the row facing the sand where the views, the crowds and the icons are. Campbell Parade runs from the buzzy south end up to North Bondi, taking in beachfront dining, gelato, tacos and the big-name rooms. Everywhere along the front, in one place.",
+    metaTitle: 'Where to Eat & Drink on Campbell Parade, Bondi',
+    metaDescription:
+      'Everywhere to eat and drink along Campbell Parade, Bondi Beach — the beachfront restaurants, cafés, bars and gelato facing the sand.',
+    select: (r) => r.precinct === 'campbell-parade',
+  },
+  {
+    slug: 'bondi-road',
+    kind: 'area',
+    h1: 'Where to eat & drink on Bondi Road',
+    kicker: 'Bondi Road',
+    intro:
+      "The locals' road up the hill from the beach — Bondi Road is where the neighbourhood does its everyday eating: the pub, the fishmonger, the cake shop, Thai and Indian for a Tuesday, and a run of good cafés. Less scene, more substance. Here's the lot.",
+    metaTitle: 'Where to Eat & Drink on Bondi Road',
+    metaDescription:
+      'A local’s guide to eating and drinking on Bondi Road — the pubs, cafés, bakeries and neighbourhood restaurants up the hill from the beach.',
+    select: (r) => r.precinct === 'bondi-road',
+  },
 ];
 
 export function getCollection(slug: string): GuideCollection | undefined {
@@ -289,6 +390,23 @@ export function getCollection(slug: string): GuideCollection | undefined {
 }
 export function collectionSlugs(): string[] {
   return COLLECTIONS.map((c) => c.slug);
+}
+/** Curated best-of collections (for the hub's "best-of guides" grid). */
+export function bestOfCollections(): GuideCollection[] {
+  return COLLECTIONS.filter((c) => c.kind !== 'area');
+}
+/** Precinct landing pages (for the hub's "eat by area" section). */
+export function areaCollections(): GuideCollection[] {
+  return COLLECTIONS.filter((c) => c.kind === 'area');
+}
+/** The area landing page for a precinct, if one exists. */
+const PRECINCT_PAGE: Partial<Record<Precinct, string>> = {
+  'north-bondi': '/bondi-eat-and-drink/north-bondi',
+  'campbell-parade': '/bondi-eat-and-drink/campbell-parade',
+  'bondi-road': '/bondi-eat-and-drink/bondi-road',
+};
+export function areaPageFor(precinct: Precinct): string | null {
+  return PRECINCT_PAGE[precinct] ?? null;
 }
 
 /** The ranked venue set for a collection (score desc), respecting its optional cap. */

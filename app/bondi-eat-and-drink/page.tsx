@@ -9,7 +9,8 @@ import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from '@/lib/structured-da
 import { restaurants, byScore, cuisineFacets, PRECINCT_LABEL } from '@/data/restaurants';
 import {
   facetFor,
-  COLLECTIONS,
+  bestOfCollections,
+  areaPageFor,
   availableTypes,
   availablePrecincts,
   availableMeals,
@@ -149,7 +150,7 @@ export default function EatDrinkHub() {
         <h2 className="font-display text-2xl md:text-3xl text-ink-900">Our best-of guides</h2>
         <p className="mt-2 max-w-prose text-ink-700">Hand-picked shortlists for exactly what you&rsquo;re after.</p>
         <div className="mt-5 grid gap-2.5 sm:grid-cols-2">
-          {COLLECTIONS.map((c) => (
+          {bestOfCollections().map((c) => (
             <Link
               key={c.slug}
               href={`/bondi-eat-and-drink/${c.slug}`}
@@ -167,14 +168,30 @@ export default function EatDrinkHub() {
         <h2 className="font-display text-2xl md:text-3xl text-ink-900">Eat by area</h2>
         <p className="mt-2 max-w-prose text-ink-700">
           Bondi&rsquo;s eating splits by pocket — the beachfront, buzzy Campbell Parade, the Hall Street village
-          and quieter North Bondi up around Gould Street.
+          and quieter North Bondi up around Gould Street. Open an area for everywhere worth knowing there.
         </p>
         <div className="mt-5 flex flex-wrap gap-2.5">
-          {precinctCounts.map((p) => (
-            <span key={p.precinct} className="rounded-full border border-sand-200 bg-white px-4 py-2 text-sm text-ink-800">
-              {p.label} <span className="text-ink-400">· {p.count}</span>
-            </span>
-          ))}
+          {precinctCounts.map((p) => {
+            const href = areaPageFor(p.precinct);
+            const inner = (
+              <>
+                {p.label} <span className="text-ink-400">· {p.count}</span>
+              </>
+            );
+            return href ? (
+              <Link
+                key={p.precinct}
+                href={href}
+                className="rounded-full border border-sand-300 bg-white px-4 py-2 text-sm text-ink-800 transition hover:border-ocean-500 hover:text-ocean-700"
+              >
+                {inner} <span aria-hidden="true" className="text-ocean-600">→</span>
+              </Link>
+            ) : (
+              <span key={p.precinct} className="rounded-full border border-sand-200 bg-white px-4 py-2 text-sm text-ink-800">
+                {inner}
+              </span>
+            );
+          })}
         </div>
       </section>
 
