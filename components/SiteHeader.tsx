@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { NAV, SITE } from '@/lib/site';
+import { NAV } from '@/lib/site';
+import { SiteSearch } from '@/components/SiteSearch';
 
 export function SiteHeader() {
   return (
@@ -7,11 +8,14 @@ export function SiteHeader() {
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:bg-white focus:px-3 focus:py-2 focus:z-50">
         Skip to content
       </a>
-      <div className="mx-auto max-w-6xl px-4 flex items-center justify-between h-16">
-        <Link href="/" className="font-display text-lg md:text-xl tracking-tight text-ink-900">
+      <div className="mx-auto max-w-6xl px-4 flex items-center gap-3 md:gap-6 h-16">
+        <Link href="/" className="shrink-0 font-display text-lg md:text-xl tracking-tight text-ink-900">
           Visit <span className="text-ocean-600">Bondi Beach</span>
         </Link>
-        <nav aria-label="Primary" className="hidden md:block">
+        <div className="flex-1 min-w-0 md:max-w-xs">
+          <SiteSearch />
+        </div>
+        <nav aria-label="Primary" className="hidden lg:block shrink-0">
           <ul className="flex items-center gap-5 text-sm">
             {NAV.map((item) => (
               <li key={item.href}>
@@ -22,13 +26,6 @@ export function SiteHeader() {
             ))}
           </ul>
         </nav>
-        <a
-          href={SITE.instagram}
-          className="md:hidden text-sm text-ocean-700 font-medium"
-          aria-label="Menu"
-        >
-          Menu
-        </a>
       </div>
       {/* Mobile nav: simple, crawlable, no JS dependency */}
       <nav aria-label="Primary mobile" className="md:hidden border-t border-sand-200 overflow-x-auto">
