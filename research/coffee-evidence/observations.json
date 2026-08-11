@@ -124,5 +124,23 @@
     "source_type": "official-menu",
     "confidence": "HIGH",
     "quote": "Flat White Regular $ 5.5 Large $ 6.2 Mug $ 6.5"
+  },
+  {
+    "venue_id": "harrys-bondi",
+    "year": 2026,
+    "price": 4.5,
+    "source_url": "https://harrysbondi.com.au/wp-content/uploads/2023/07/Drink-menu.pdf",
+    "source_type": "official-pdf",
+    "confidence": "HIGH",
+    "quote": "HOT COFFEE — ESPRESSO 4.5 / BLACK – ROTATING SINGLE ORIGIN / WHITE – SEASONAL BLEND / +LARGE 1 | +EXTRA SHOT 0.5 | +DECAF 0.5"
+  },
+  {
+    "venue_id": "bennett-st-dairy",
+    "year": 2026,
+    "price": 5.5,
+    "source_url": "https://drive.google.com/uc?export=download&id=1O5WFhas5tLjxr4MZyqTISxZ1D_dUbE8A",
+    "source_type": "official-pdf",
+    "confidence": "HIGH",
+    "quote": "Flat White / Cappuccino Reg 5.5 Lrg 6.3"
   }
 ]
