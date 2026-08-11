@@ -5,7 +5,8 @@
   "description": "VisitBondiBeach.com — modern Next.js rebuild migrated from Squarespace",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build:search": "node scripts/build-search-index.mjs",
+    "build": "node scripts/build-search-index.mjs && next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
