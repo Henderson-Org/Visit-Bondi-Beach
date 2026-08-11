@@ -218,6 +218,91 @@ const HUB_DESIGN: Record<string, HubDesign> = {
       label: 'Things to do in any weather',
     },
   },
+  '/bondi-parking': {
+    kicker: 'Parking',
+    heroImage: '/images/articles/85811813958223c1.webp',
+    sectionLayouts: ['featured', 'grid', 'grid'],
+    discovery: {
+      intro: 'Looking for…',
+      items: [
+        { label: 'Free parking', section: 0 },
+        { label: 'Paid & timed bays', section: 0 },
+        { label: 'Bronte & the south beaches', section: 1 },
+        { label: 'Busy-day tactics', section: 1 },
+      ],
+    },
+    practical: [
+      { label: 'Free spots', value: 'Limited & time-limited' },
+      { label: 'Paid', value: 'Metered & the Pavilion car park' },
+      { label: 'Busiest', value: 'Summer weekends & mornings' },
+      { label: 'Tip', value: 'Arrive early or take the 333 bus' },
+    ],
+    cta: {
+      title: 'Skip the parking stress',
+      text: 'On a hot Saturday the car parks fill by mid-morning — here is how to actually get to Bondi.',
+      href: '/getting-to-bondi',
+      label: 'Getting to Bondi without a car',
+    },
+  },
+  '/city2surf-and-running': {
+    kicker: 'City2Surf & running',
+    heroImage: '/images/articles/4d75d80295180d8e.webp',
+    sectionLayouts: ['featured', 'grid', 'grid'],
+    discovery: {
+      intro: 'Jump to…',
+      items: [
+        { label: 'City2Surf', section: 0 },
+        { label: 'Sydney Marathon', section: 1 },
+        { label: 'Training & Heartbreak Hill', section: 1 },
+        { label: 'Best running routes', section: 2 },
+      ],
+    },
+    cta: {
+      title: 'After the finish line',
+      text: 'Recover the local way — the best flat white, a cold swim and where everyone heads to celebrate.',
+      href: '/bondi-eat-and-drink',
+      label: 'Where to refuel in Bondi',
+    },
+  },
+  '/bondi-surfing': {
+    kicker: 'Surfing',
+    heroImage: '/images/articles/8d41917ec41299cf.webp',
+    sectionLayouts: ['featured', 'grid', 'grid'],
+    discovery: {
+      intro: 'Perfect for…',
+      items: [
+        { label: 'First-timers', section: 0 },
+        { label: 'Checking the surf', section: 0 },
+        { label: 'Knowing the breaks', section: 1 },
+      ],
+    },
+    cta: {
+      title: 'Swim, don’t surf, today?',
+      text: 'When the waves are dumping, here is where it is calm — and where it is safe to swim.',
+      href: '/where-to-swim-at-bondi-beach',
+      label: 'Where to swim at Bondi',
+    },
+  },
+  '/itineraries': {
+    kicker: 'Plan your visit',
+    heroImage: '/images/articles/41ae0d79fa63d41a.webp',
+    sectionLayouts: ['featured', 'grid', 'grid'],
+    discovery: {
+      intro: 'How long have you got?',
+      items: [
+        { label: 'A few hours', section: 0 },
+        { label: 'One day', section: 0 },
+        { label: 'A weekend', section: 1 },
+        { label: 'First-time visitor', section: 1 },
+      ],
+    },
+    cta: {
+      title: 'Build your own day',
+      text: 'Tell us the season and how long you have, and our planner sketches a Bondi day around it.',
+      href: '/plan',
+      label: 'Plan your Bondi day',
+    },
+  },
 };
 
 export function getHubDesign(path: string): HubDesign {
@@ -244,10 +329,12 @@ const CORE_PAGE_HUBS: Record<string, CorePageHub> = {
     intro:
       "Where to swim at Bondi — from the flags on the beach to the Icebergs pool and the calm ocean baths nearby. Here's how to pick the right spot for the day.",
     explore: {
-      heading: 'Swim spots & safety',
+      heading: 'Ocean pools, safety & conditions',
       links: [
-        { title: 'Bondi Icebergs pool', path: '/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool' },
+        { title: 'Bondi Icebergs: 20 essential questions', path: '/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more' },
+        { title: 'Can anyone swim at Bondi Icebergs?', path: '/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool' },
         { title: 'Bronte ocean pool', path: '/bondi-blog/2023/11/16/insiders-guide-to-the-bronte-ocean-pool' },
+        { title: 'Is it safe to swim at Bondi?', path: '/bondi-blog/2024/9/8/is-it-safe-to-swim-at-bondi-beach-a-complete-guide' },
         { title: 'Water temperature, month by month', path: '/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide' },
         { title: 'The Bondi Rescue lifeguards', path: '/bondi-rescue' },
         { title: 'Swimming with kids', path: '/bondi-with-kids' },
