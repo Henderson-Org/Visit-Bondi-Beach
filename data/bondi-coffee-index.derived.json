@@ -1,0 +1,303 @@
+{
+  "generatedFrom": "data/bondi-coffee-index.csv",
+  "totalObservations": 14,
+  "headlineObservations": 14,
+  "lowConfidenceExcluded": 0,
+  "years": [
+    2026
+  ],
+  "earliest": 2026,
+  "latest": 2026,
+  "index": {
+    "latest": 5.1,
+    "earliest": 5.1
+  },
+  "byYear": {
+    "2026": {
+      "year": 2026,
+      "n": 14,
+      "median": 5.1,
+      "mean": 5.15,
+      "min": 4.5,
+      "max": 5.7,
+      "p25": 4.96,
+      "p75": 5.5,
+      "bands": {
+        "under5": 4,
+        "b5_549": 4,
+        "b550_599": 6,
+        "b6plus": 0
+      }
+    }
+  },
+  "trend": [
+    {
+      "year": 2026,
+      "median": 5.1,
+      "n": 14,
+      "yoyAbs": null,
+      "yoyPct": null
+    }
+  ],
+  "fiveYear": null,
+  "ranked": [
+    {
+      "venue_id": "the-crabbe-hole",
+      "venue_name": "The Crabbe Hole",
+      "suburb": "bondi-beach",
+      "price": 4.5,
+      "item": "Flat White",
+      "source_url": "https://ritual.co/order/the-crabbe-hole-poolside-bondi-icebergs-bondi-beach/635f"
+    },
+    {
+      "venue_id": "up-south-bondi",
+      "venue_name": "Up South Bondi",
+      "suburb": "bondi-road",
+      "price": 4.5,
+      "item": "Flat White (regular)",
+      "source_url": "https://www.upsouthbondicafe.com/_files/ugd/80823b_9a050ea0a033441390796afbbdcdf55a.pdf"
+    },
+    {
+      "venue_id": "cali-press",
+      "venue_name": "Cali Press",
+      "suburb": "bondi-beach",
+      "price": 4.8,
+      "item": "8oz Flat White",
+      "source_url": "https://calipress.redcatcloud.com.au/api/v1/stores/4/menu"
+    },
+    {
+      "venue_id": "the-health-emporium",
+      "venue_name": "The Health Emporium",
+      "suburb": "bondi-road",
+      "price": 4.95,
+      "item": "Coffee (regular, dairy milk)",
+      "source_url": "https://www.healthemporium.com.au/menu/"
+    },
+    {
+      "venue_id": "gertrude-and-alice-cafe-bookstore",
+      "venue_name": "Gertrude & Alice Cafe Bookstore",
+      "suburb": "bondi-beach",
+      "price": 5,
+      "item": "Coffee (Regular) — flat white/latte/long black/cappuccino",
+      "source_url": "https://www.gertrudeandalice.com.au/cafe-menu/"
+    },
+    {
+      "venue_id": "speedos-cafe",
+      "venue_name": "Speedos Cafe",
+      "suburb": "north-bondi",
+      "price": 5,
+      "item": "Vittoria Coffee (regular)",
+      "source_url": "https://speedoscafe.com.au/menu/"
+    },
+    {
+      "venue_id": "the-nine",
+      "venue_name": "The Nine",
+      "suburb": "bondi-beach",
+      "price": 5,
+      "item": "Flat White (Regular)",
+      "source_url": "https://theninesydney.com.au/menu/"
+    },
+    {
+      "venue_id": "blackwood-bondi",
+      "venue_name": "Blackwood Bondi",
+      "suburb": "north-bondi",
+      "price": 5.2,
+      "item": "White (flat white / cappuccino / latte)",
+      "source_url": "https://cdn.prod.website-files.com/6818395422c5fd87768cd248/69c246d0f591f03a63a59262_WINTER%202026%20Framed%20.pdf"
+    },
+    {
+      "venue_id": "glory-days",
+      "venue_name": "Glory Days",
+      "suburb": "bondi-beach",
+      "price": 5.5,
+      "item": "Flat white (regular)",
+      "source_url": "https://glorydaysbondi.com.au/"
+    },
+    {
+      "venue_id": "porch-and-parlour",
+      "venue_name": "Porch & Parlour",
+      "suburb": "north-bondi",
+      "price": 5.5,
+      "item": "Latte, Flat White, Cappuccino",
+      "source_url": "https://www.porchandparlour.com/menus"
+    },
+    {
+      "venue_id": "pocket-bondi",
+      "venue_name": "Pocket Bondi",
+      "suburb": "campbell-parade",
+      "price": 5.5,
+      "item": "flat white",
+      "source_url": "https://www.pocketbondi.com/s/pkt-brekkie.pdf"
+    },
+    {
+      "venue_id": "surfish-bondi-seafood-cafe",
+      "venue_name": "Surfish Bondi Beach",
+      "suburb": "bondi-beach",
+      "price": 5.5,
+      "item": "Flat White",
+      "source_url": "https://surfishbondibeach.com.au/menu"
+    },
+    {
+      "venue_id": "kazzi-beach-greek-bondi",
+      "venue_name": "Kazzi Beach Greek Bondi",
+      "suburb": "bondi-beach",
+      "price": 5.5,
+      "item": "Flat White",
+      "source_url": "https://kazzibeachgreek.com.au/drinks-menu/"
+    },
+    {
+      "venue_id": "bean-tree-cafe",
+      "venue_name": "Bean Tree Cafe",
+      "suburb": "bondi-road",
+      "price": 5.7,
+      "item": "Flat White (Cup)",
+      "source_url": "https://www.beantreecafe.org/menus"
+    }
+  ],
+  "cheapest": {
+    "venue_id": "the-crabbe-hole",
+    "venue_name": "The Crabbe Hole",
+    "suburb": "bondi-beach",
+    "price": 4.5,
+    "item": "Flat White",
+    "source_url": "https://ritual.co/order/the-crabbe-hole-poolside-bondi-icebergs-bondi-beach/635f"
+  },
+  "dearest": {
+    "venue_id": "bean-tree-cafe",
+    "venue_name": "Bean Tree Cafe",
+    "suburb": "bondi-road",
+    "price": 5.7,
+    "item": "Flat White (Cup)",
+    "source_url": "https://www.beantreecafe.org/menus"
+  },
+  "currentBands": {
+    "under5": 4,
+    "b5_549": 4,
+    "b550_599": 6,
+    "b6plus": 0
+  },
+  "currentN": 14,
+  "matched": {
+    "n": 14,
+    "medianFrom": 5.1,
+    "medianTo": 5.1,
+    "medianPct": 0,
+    "rows": [
+      {
+        "venue_id": "the-crabbe-hole",
+        "venue_name": "The Crabbe Hole",
+        "from": 4.5,
+        "to": 4.5,
+        "abs": 0,
+        "pct": 0
+      },
+      {
+        "venue_id": "gertrude-and-alice-cafe-bookstore",
+        "venue_name": "Gertrude & Alice Cafe Bookstore",
+        "from": 5,
+        "to": 5,
+        "abs": 0,
+        "pct": 0
+      },
+      {
+        "venue_id": "glory-days",
+        "venue_name": "Glory Days",
+        "from": 5.5,
+        "to": 5.5,
+        "abs": 0,
+        "pct": 0
+      },
+      {
+        "venue_id": "porch-and-parlour",
+        "venue_name": "Porch & Parlour",
+        "from": 5.5,
+        "to": 5.5,
+        "abs": 0,
+        "pct": 0
+      },
+      {
+        "venue_id": "speedos-cafe",
+        "venue_name": "Speedos Cafe",
+        "from": 5,
+        "to": 5,
+        "abs": 0,
+        "pct": 0
+      },
+      {
+        "venue_id": "cali-press",
+        "venue_name": "Cali Press",
+        "from": 4.8,
+        "to": 4.8,
+        "abs": 0,
+        "pct": 0
+      },
+      {
+        "venue_id": "pocket-bondi",
+        "venue_name": "Pocket Bondi",
+        "from": 5.5,
+        "to": 5.5,
+        "abs": 0,
+        "pct": 0
+      },
+      {
+        "venue_id": "surfish-bondi-seafood-cafe",
+        "venue_name": "Surfish Bondi Beach",
+        "from": 5.5,
+        "to": 5.5,
+        "abs": 0,
+        "pct": 0
+      },
+      {
+        "venue_id": "blackwood-bondi",
+        "venue_name": "Blackwood Bondi",
+        "from": 5.2,
+        "to": 5.2,
+        "abs": 0,
+        "pct": 0
+      },
+      {
+        "venue_id": "up-south-bondi",
+        "venue_name": "Up South Bondi",
+        "from": 4.5,
+        "to": 4.5,
+        "abs": 0,
+        "pct": 0
+      },
+      {
+        "venue_id": "the-nine",
+        "venue_name": "The Nine",
+        "from": 5,
+        "to": 5,
+        "abs": 0,
+        "pct": 0
+      },
+      {
+        "venue_id": "bean-tree-cafe",
+        "venue_name": "Bean Tree Cafe",
+        "from": 5.7,
+        "to": 5.7,
+        "abs": 0,
+        "pct": 0
+      },
+      {
+        "venue_id": "the-health-emporium",
+        "venue_name": "The Health Emporium",
+        "from": 4.95,
+        "to": 4.95,
+        "abs": 0,
+        "pct": 0
+      },
+      {
+        "venue_id": "kazzi-beach-greek-bondi",
+        "venue_name": "Kazzi Beach Greek Bondi",
+        "from": 5.5,
+        "to": 5.5,
+        "abs": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "coveragePerYear": {
+    "2026": 14
+  }
+}
