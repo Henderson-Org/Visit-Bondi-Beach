@@ -210,6 +210,42 @@ export function coastalWalkSchema(
   return [attraction, howTo];
 }
 
+/**
+ * Dataset schema for an original-research asset (the flagship link/AEO play — e.g. the Bondi
+ * Coffee Price Index, the coastal-walk dataset). This is the type Google Dataset Search and
+ * answer engines index and cite. Emit ONLY when a real, downloadable dataset genuinely backs
+ * the page (a published CSV/JSON with a stated methodology) — never for a page of prose.
+ */
+export function datasetJsonLd(d: {
+  name: string;
+  description: string;
+  path: string;
+  distributionUrl: string;
+  encodingFormat?: string;
+  temporalCoverage?: string;
+  license?: string;
+  keywords?: string[];
+}) {
+  const origin = siteOrigin();
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: d.name,
+    description: d.description,
+    url: `${origin}${d.path}`,
+    creator: { '@id': `${origin}/#org` },
+    spatialCoverage: { '@id': `${origin}/${BONDI_PLACE_ID}` },
+    ...(d.temporalCoverage ? { temporalCoverage: d.temporalCoverage } : {}),
+    ...(d.keywords?.length ? { keywords: d.keywords } : {}),
+    ...(d.license ? { license: d.license } : {}),
+    distribution: {
+      '@type': 'DataDownload',
+      encodingFormat: d.encodingFormat || 'text/csv',
+      contentUrl: d.distributionUrl.startsWith('http') ? d.distributionUrl : `${origin}${d.distributionUrl}`,
+    },
+  };
+}
+
 /** FAQPage schema — only emit when the same Q&As are visibly on the page (brief §24). */
 export function faqJsonLd(items: { q: string; a: string }[]) {
   return {
