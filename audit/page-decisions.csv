@@ -1,0 +1,236 @@
+path,contentType,ytdPageviews,wordCount,intent,cannibalWith,decision,priority,reason
+/bondi-blog/2023/11/20/an-insiders-guide-to-finding-a-car-park-at-bronte-beach,blog-post-dated,886,297,bronte parking,(protected),KEEP,1,Protected (886 ytd). Distinct Bronte location — no conflict
+/where-to-swim-at-bondi-beach,core-page,849,929,where to swim at bondi,(survivor / protected),KEEP,1,"Protected core pillar (849 ytd, 929w). Add BeachTouristAttraction schema (currently WebSite-only)"
+/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more,blog-post-dated,841,563,bondi icebergs pool FAQ,(survivor / protected),KEEP,1,Protected pillar (841 ytd). Absorb satellite Qs; differentiate from can-anyone-swim
+/bondi-blog/city2surf-results,blog-post-legacy,603,286,city2surf results,(protected),KEEP,1,Protected (603 ytd). Distinct results intent
+/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool,blog-post-legacy,534,653,can public swim at icebergs,(survivor / protected),KEEP,1,Protected (534 ytd). Keep as public-access pillar; REQUIRES OWNER APPROVAL to merge with FAQ
+/bondi-blog/what-to-do-bondi-beach-travel-guide,blog-post-legacy,465,1982,ultimate bondi travel guide,(survivor),KEEP,1,"Cluster survivor (465 ytd, 1982w, protected) — make canonical pillar; interlink hubs"
+/bondi-blog/2026/2/21/the-ultimate-bondi-beach-travel-guide-2026-edition,blog-post-dated,0,582,ultimate bondi travel guide,/bondi-blog/what-to-do-bondi-beach-travel-guide,REDIRECT,1,"Near-dup of pillar (582w, 2 imp); 301 to survivor"
+/bondi-blog/2025/4/30/ultimate-bondi-beach-travel-guide-how-to-get-there-when-to-visit-top-things-to-do,blog-post-dated,0,662,ultimate bondi travel guide,/bondi-blog/what-to-do-bondi-beach-travel-guide,REDIRECT,1,"Near-dup (662w, 0 imp); 301 to survivor"
+/bondi-blog/2025/3/8/the-ultimate-bondi-beach-travel-guide-must-see-spots-hidden-gems,blog-post-dated,0,446,ultimate bondi travel guide,/bondi-blog/what-to-do-bondi-beach-travel-guide,REDIRECT,1,"Near-dup (446w, 3 imp); 301 to survivor"
+/bondi-blog/2025/1/5/who-can-swim-at-bondi-icebergs-ocean-pool,blog-post-dated,0,520,who can swim at icebergs,/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool,REDIRECT,1,"Exact-intent dup (520w, 2 imp); 301 to CAS"
+/bondi-blog/2024/9/21/can-the-public-swim-at-bondi-icebergs-ocean-pool,blog-post-dated,0,884,can public swim at icebergs,/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool,REDIRECT,1,"Exact-intent dup of protected CAS (884w, 9 imp, 0 ytd); 301"
+/bondi-blog/best-restaurants-bondi-beach,blog-post-legacy,0,221,best bondi restaurants,(survivor),EXPAND,1,Redirect DESTINATION but only 221w — thinner than the 1118w must-experience page 301d into it. EXPAND/migrate richer body first
+/bondi-icebergs,core-page,0,0,place/location page,,KEEP,1,App-rendered Place page w/ Place schema (0 crawl-words = artifact). Keep
+/bondi-coastal-walk,hub,0,0,topic hub,,KEEP,1,App-rendered aggregation hub (0 crawl-words is an artifact). Add schema; keep as pillar
+/bondi-eat-and-drink,hub,0,0,topic hub,,KEEP,1,App-rendered aggregation hub (0 crawl-words is an artifact). Add schema; keep as pillar
+/bondi-rescue,hub,0,0,topic hub,,KEEP,1,App-rendered aggregation hub (0 crawl-words is an artifact). Add schema; keep as pillar
+/bondi-weather,hub,0,0,topic hub,,KEEP,1,App-rendered aggregation hub (0 crawl-words is an artifact). Add schema; keep as pillar
+/bondi-with-kids,hub,0,0,topic hub,,KEEP,1,App-rendered aggregation hub (0 crawl-words is an artifact). Add schema; keep as pillar
+/getting-to-bondi,hub,0,0,topic hub,,KEEP,1,App-rendered aggregation hub (0 crawl-words is an artifact). Add schema; keep as pillar
+/things-to-do-in-bondi,hub,0,0,topic hub,,KEEP,1,App-rendered aggregation hub (0 crawl-words is an artifact). Add schema; keep as pillar
+/bondi-beach,core-page,0,0,place/location page,,KEEP,1,App-rendered Place page w/ Place schema (0 crawl-words = artifact). Keep
+/north-bondi,core-page,0,0,place/location page,,KEEP,1,App-rendered Place page w/ Place schema (0 crawl-words = artifact). Keep
+/tamarama-beach,core-page,0,0,place/location page,,KEEP,1,App-rendered Place page w/ Place schema (0 crawl-words = artifact). Keep
+/bronte-beach,core-page,0,0,place/location page,,KEEP,1,App-rendered Place page w/ Place schema (0 crawl-words = artifact). Keep
+/ben-buckler,core-page,0,0,place/location page,,KEEP,1,App-rendered Place page w/ Place schema (0 crawl-words = artifact). Keep
+/bondi-pavilion,core-page,0,0,place/location page,,KEEP,1,App-rendered Place page w/ Place schema (0 crawl-words = artifact). Keep
+/mackenzies-bay,core-page,0,0,place/location page,,KEEP,1,App-rendered Place page w/ Place schema (0 crawl-words = artifact). Keep
+/marks-park,core-page,0,0,place/location page,,KEEP,1,App-rendered Place page w/ Place schema (0 crawl-words = artifact). Keep
+/bondi-blog/bondi-rescue-who-are-the-lifeguards,blog-post-legacy,3452,1176,,,KEEP,2,Protected high-traffic page; keep
+/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy,blog-post-dated,720,178,free parking bondi,/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days,KEEP,2,Protected (720 ytd) but overlaps ultimate-parking. REQUIRES OWNER APPROVAL to merge; differentiate free-vs-paid + interlink
+/bondi-blog/2024/3/19/bondis-best-running-routes,blog-post-dated,461,465,,,KEEP,2,Protected high-traffic page; keep
+/bondi-blog/ultimate-guide-city-to-surf,blog-post-legacy,451,1531,city2surf guide,(protected),KEEP,2,"Protected (451 ytd, 451 imp). Cluster pillar"
+/bondi-blog/2025/6/4/tamarama-coogee-clovelly-beach-parking-ultimate-guide-to-free-paid-spots,blog-post-dated,448,938,tamarama/coogee/clovelly parking,(protected),KEEP,2,Protected (448 ytd). Distinct neighbouring-beaches parking
+/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days,blog-post-dated,415,548,bondi parking guide,/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy,KEEP,2,Protected (415 ytd). Comprehensive parking pillar; REQUIRES OWNER APPROVAL to consolidate w/ free-parking
+/bondi-blog/sunrise-sunset-bondi,blog-post-legacy,373,524,bondi sunrise sunset times,(survivor / protected),KEEP,2,Protected (373 ytd). Sunrise/sunset pillar
+/bondi-blog/2025/7/19/insider-guide-to-sundays-bondi-opening-hours-top-flavours-queue-hacks,blog-post-dated,353,624,,,KEEP,2,Protected high-traffic page; keep
+/bondi-blog/2024/4/1/city2surf-course-map,blog-post-dated,300,55,city2surf course map,(protected),EXPAND,2,"Protected (300 ytd, 135 imp) but only 55w — EXPAND with real map/description; strong query"
+/bondi-blog/2024/9/12/why-bondi-beach-is-so-famous-history-fame-and-culture,blog-post-dated,291,981,,,KEEP,2,Protected high-traffic page; keep
+/bondi-blog/2023/10/18/bondi-beach-etiquette-guide,blog-post-dated,287,873,,,KEEP,2,Protected high-traffic page; keep
+/bondi-blog/2025/5/6/kids-eat-free-in-sydneys-eastern-suburbs-12-family-friendly-dining-deals,blog-post-dated,257,428,,,KEEP,2,Protected high-traffic page; keep
+/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue,blog-post-dated,247,886,,,KEEP,2,Protected high-traffic page; keep
+/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide,blog-post-dated,227,399,bondi sea temperature,(survivor / protected),KEEP,2,Protected (227 ytd). Sea-temp pillar
+/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue,blog-post-dated,200,534,,,KEEP,2,Protected high-traffic page; keep
+/bondi-blog/2024/9/8/is-it-safe-to-swim-at-bondi-beach-a-complete-guide,blog-post-dated,171,940,is it safe to swim at bondi,(protected),KEEP,2,"Protected (171 ytd, 940w). Distinct ""is it safe"" query; differentiate + interlink WTS"
+/bondi-blog/2025/1/5/catch-the-waves-live-bondi-beach-surf-cam,blog-post-dated,144,171,bondi surf cam,(protected),KEEP,2,"Protected (144 ytd, 15 imp). Live-cam utility page"
+/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach,blog-post-dated,142,776,,,KEEP,2,Protected high-traffic page; keep
+/bondi-blog/2023/11/16/insiders-guide-to-the-bronte-ocean-pool,blog-post-dated,139,766,,,KEEP,2,Protected high-traffic page; keep
+/bondi-blog/best-accommodation-bondi-beach,blog-post-legacy,130,617,best bondi accommodation,/stay,KEEP,2,Protected (130 ytd). REQUIRES OWNER APPROVAL to redirect to /stay; interlink instead
+/bondi-blog/2025/1/20/locals-guide-to-free-bbq-spots-at-bondi-bronte-tamarama,blog-post-dated,129,494,,,KEEP,2,Protected high-traffic page; keep
+/bondi-blog/2024/9/18/guide-to-metal-detecting-at-bondi-beach,blog-post-dated,128,975,,,KEEP,2,Protected high-traffic page; keep
+/bondi-blog/2025/4/25/10-must-try-bondi-beach-bars-backed-in-2025,blog-post-dated,120,980,,,KEEP,2,Protected high-traffic page; keep
+/bondi-blog/bondi-commonly-asked-questions,blog-post-legacy,118,1125,bondi FAQ,(protected),KEEP,2,"Protected (118 ytd, 1125w). Strong FAQ asset"
+/bondi-blog/2023/12/13/christmas-day-at-bondi-beach,blog-post-dated,108,629,,,KEEP,2,Protected high-traffic page; keep
+/bondi-blog/2025/5/23/rain-or-shine-7-must-do-indoor-activities-in-bondi-beach-on-a-rainy-day,blog-post-dated,90,784,,,KEEP,2,Protected high-traffic page; keep
+/visit-bondi-beach,core-page,89,273,visit bondi (brand),,KEEP,2,273w brand/landing; KEEP (89 ytd)
+/bondi-blog/2025/4/29/can-kids-swim-at-bondi-icebergs-family-swimming-guide,blog-post-dated,0,421,can kids swim at icebergs,/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool,REDIRECT,2,"Dup w/ kids angle (421w, 6 imp, 0 ytd); fold kids note into CAS then 301"
+/bondi-blog/2023/4/1/l0k8f8ky8s4yf6dxrl7mo9r4s25vx7,blog-post-dated,0,291,bondi vs junction,/bondi-blog/where-is-bondi-junction,REDIRECT,2,Garbage slug; 301 to where-is-bondi-junction
+/bondi-blog/2024/12/13/bondi-beach-travel-guide-50-frequently-asked-questions-for-first-time-visitors,blog-post-dated,0,2166,bondi FAQ first-time visitors,/bondi-blog/what-to-do-bondi-beach-travel-guide,UPDATE,2,"Strong 2166w FAQ asset; retitle to FAQ intent to stop ""travel guide"" overlap, keep + interlink"
+/bondi-blog/2023/11/9/2024-bondi-beach-event-calendar,blog-post-dated,0,198,2024 event calendar,/whats-on,REDIRECT,2,198w superseded by /whats-on events hub; 301
+/bondi-blog/how-to-pronounce-bondi-beach,blog-post-legacy,0,50,how to pronounce bondi,,EXPAND,2,50w but 28 imp — real query; expand to a proper answer
+/bondi-blog/2023/11/7/the-safest-place-to-swim-at-bondi-beach,blog-post-dated,0,184,safest place to swim,/where-to-swim-at-bondi-beach,REDIRECT,2,184w dup (15 imp); 301 to where-to-swim
+/bondi-blog/swimming-between-flags-bondi-beach,blog-post-legacy,0,268,swim between flags,/where-to-swim-at-bondi-beach,MERGE,2,268w safety dup; fold flags section then 301
+/bondi-blog/access-bondi-icebergs-pool,blog-post-legacy,0,202,icebergs pool access,/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool,REDIRECT,2,202w dup of access intent; 301
+/bondi-blog/is-bondi-icebergs-pool-heated,blog-post-legacy,0,90,is icebergs pool heated,/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more,MERGE,2,90w single-Q (12 imp); fold into FAQ then 301
+/bondi-blog/accommodation-options-for-backpackers-in-bondi-beach,blog-post-legacy,0,580,bondi backpacker hostels,/stay/hostels-bondi-beach,REDIRECT,2,580w (1 imp) superseded by /stay/hostels; 301
+/bondi-blog/how-to-get-to-bondi-beach,blog-post-legacy,0,204,how to get to bondi,(survivor),EXPAND,2,Redirect destination but only 204w; expand into transport pillar or fold into /getting-to-bondi hub
+/bondi-blog/day-trip-bondi-beach-top-tips,blog-post-legacy,0,211,bondi day trip,/bondi-blog/what-to-do-bondi-beach-travel-guide,MERGE,2,211w thin; fold day-trip angle into pillar then 301
+/bondi-blog/Bondi-beach-temperature,blog-post-legacy,0,396,bondi temperature,/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide,REDIRECT,2,396w dup (17 imp) + broken capital-B slug; 301 to sea-temperatures
+/bondi-blog/safe-swimming-bondi-beach,blog-post-legacy,0,228,safe swimming bondi,/where-to-swim-at-bondi-beach,REDIRECT,2,228w dup; 301 to where-to-swim
+/bondi-blog/24-hours-in-bondi-beach,blog-post-legacy,0,177,24 hours / itinerary,/bondi-blog/what-to-do-bondi-beach-travel-guide,MERGE,2,177w thin itinerary; fold into pillar then 301
+/bondi-blog/nearest-train-station-bondi-beach,blog-post-legacy,0,164,nearest train station bondi,/bondi-blog/how-to-get-to-bondi-beach,MERGE,2,164w (9 imp); fold into how-to-get-to then 301
+/tours,core-page,0,390,bondi tours,,KEEP,2,390w commercial; KEEP + expand affiliate inventory
+/bondi-blog/bondi-beach-toilets-showers-change-rooms,blog-post-legacy,0,0,bondi toilets showers,,EXPAND,2,0 crawl words but indexable — investigate empty render; expand facilities content
+/bondi-blog/where-to-go-afterparty-city-to-surf,blog-post-legacy,278,578,city2surf afterparty,(protected),KEEP,3,Protected (278 ytd). Distinct afterparty intent
+/bondi-blog/2023/9/11/can-you-fly-a-drone-at-bondi-beach-the-dos-and-donts-of-aerial-photography,blog-post-dated,204,283,drone rules bondi,(protected),KEEP,3,Protected (204 ytd). Distinct drone query
+/bondi-blog/bondi-icebergs-brand-takeover-ranked,blog-post-legacy,188,807,icebergs brand events,,KEEP,3,"Distinct editorial (807w, 188 ytd, protected)"
+/bondi-blog/2025/4/25/must-experience-bondi-restaurants-our-top-10-best-restaurants-ranked,blog-post-dated,134,1118,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/best-restaurants-bondi-beach (existing consolidation)
+/bondi-blog,blog-index,0,645,consolidated,done,REDIRECT,3,Already 301 -> /articles (existing consolidation)
+/bondi-blog/2026/3/24/bondis-best-cafs-right-now-where-to-eat-sip-and-soak-up-the-beach-vibe,blog-post-dated,0,225,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach (existing consolidation)
+/bondi-blog/2025/12/19/the-inside-story-on-the-bondi-lifeguards-who-ran-toward-danger,blog-post-dated,0,284,,,EXPAND,3,Thin indexable (<300w); expand or fold into a hub
+/bondi-blog/2025/10/15/sculpture-by-the-seareturns-to-bondi-and-tamarama-what-you-need-to-know-in-2025,blog-post-dated,0,362,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/10/13/are-there-snakes-in-bondi,blog-post-dated,0,417,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/8/24/the-tcs-sydney-marathon-a-beginners-guide,blog-post-dated,0,542,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/8/9/the-best-places-to-carb-load-before-the-sydney-marathon,blog-post-dated,0,950,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2025/8/9/family-fun-in-bondi-during-sydney-marathon-week,blog-post-dated,0,1016,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2025/8/9/bondi-beach-shakeout-run-the-perfect-pre-marathon-jog,blog-post-dated,0,519,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/8/9/the-ultimate-bondi-beach-recovery-guide-for-sydney-marathon-runners,blog-post-dated,0,414,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/6/26/ranked-bondis-top-10-coffee-spots-you-cant-miss,blog-post-dated,0,834,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach (existing consolidation)
+/bondi-blog/2025/6/23/bondi-to-bronte-swim-the-ultimate-beginners-guide-to-sydneys-most-iconic-ocean-race,blog-post-dated,0,540,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/6/21/bronte-beach-backpackers-christmas-2025-ultimate-guide-for-the-orphans-christmas-celebration,blog-post-dated,0,424,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/6/18/how-to-train-for-heartbreak-hill-without-being-a-fitness-freak,blog-post-dated,0,806,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2025/6/14/25-essential-hacks-for-starting-a-new-life-in-australia-the-ultimate-aussie-arrival-guide,blog-post-dated,0,826,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2025/6/4/sydney-airport-taxi-scams-how-to-spot-avoid-costly-rip-offs-for-a-hassle-free-arrival,blog-post-dated,0,1370,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2025/5/25/where-to-watch-english-football-in-bondi-the-best-pubs-and-bars-for-premier-league-fans,blog-post-dated,0,484,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/5/25/secret-eats-off-menu-items-you-didnt-know-you-could-order-in-bondi-beach,blog-post-dated,0,641,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2025/5/25/10-hidden-gems-at-bondi-beach-youll-wish-you-discovered-sooner,blog-post-dated,0,596,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2024/1/19/bondis-best-coffee-shops,blog-post-dated,0,861,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach (existing consolidation)
+/bondi-blog/2025/5/6/10-things-you-need-to-know-before-running-the-city2surf,blog-post-dated,0,971,city2surf tips,,KEEP,3,"971w, 62 imp, distinct pre-race tips"
+/bondi-blog/2025/4/29/ultimate-wet-weather-guide-to-bondi-rainy-day-activities-tips,blog-post-dated,0,680,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2025/5/23/rain-or-shine-7-must-do-indoor-activities-in-bondi-beach-on-a-rainy-day (existing consolidation)
+/bondi-blog/2025/4/29/behind-the-scenes-at-bondi-rescue-20-things-you-may-not-know-about-the-show,blog-post-dated,0,442,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue (existing consolidation)
+/bondi-blog/2025/4/27/how-to-score-a-booking-at-tottis-bondi-without-the-stress,blog-post-dated,0,448,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/4/27/whale-watching-season-at-bondi-2025-everything-you-need-to-know,blog-post-dated,0,412,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/4/25/9-unique-bondi-beach-experiences-to-try-beyond-the-sand-and-surf,blog-post-dated,0,498,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/4/23/8-things-to-know-before-visiting-bondi-beach,blog-post-dated,0,421,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/4/15/your-complete-guide-to-christmas-day-at-bronte-beach-sydney-december-25-2025,blog-post-dated,0,525,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/4/2/bondi-icebergs-closed-due-to-destructive-waves,blog-post-dated,0,195,icebergs closure news,/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more,NOINDEX,3,"195w dated news, stale; noindex or 301 to FAQ"
+/bondi-blog/2025/3/21/bondi-beach-new-years-eve-festival-returns-council-approves-iconic-celebrations-revival,blog-post-dated,0,578,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/3/8/best-time-to-visit-bondi-beach-seasonal-guide-to-weather-events,blog-post-dated,0,547,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2024/6/9/the-best-time-to-visit-bondi-beach-a-seasonal-guide (existing consolidation)
+/bondi-blog/2024/12/26/australias-best-christmas-party-at-sydneys-bronte-beach,blog-post-dated,0,864,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2025/1/20/does-bondi-beach-ever-close,blog-post-dated,0,302,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/1/5/the-best-places-to-sit-on-bondi-beach-a-complete-guide,blog-post-dated,0,671,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2025/1/10/the-best-places-to-snorkel-in-and-around-bondi,blog-post-dated,0,1155,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2025/1/5/understanding-bondi-beach-safety-signs,blog-post-dated,0,238,beach safety signs,/where-to-swim-at-bondi-beach,MERGE,3,238w; fold into where-to-swim safety then 301
+/bondi-blog/2025/1/7/top-things-to-do-in-bondi-for-kids-during-school-holidays,blog-post-dated,0,849,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2025/1/5/exploring-bondi-beach-a-guide-to-wheelchair-access,blog-post-dated,0,201,wheelchair access bondi,,KEEP,3,201w accessibility — genuine query; EXPAND later
+/bondi-blog/2025/1/5/are-there-thieves-or-pickpockets-at-bondi-beach,blog-post-dated,0,952,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2025/1/5/surf-lifesaving-patrol-hours-at-bondi-bronte-tamarama,blog-post-dated,0,480,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/1/4/nielsen-park-your-guide-to-sydneys-beloved-coastal-escape,blog-post-dated,0,801,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2025/1/2/how-far-is-bondi-beach-from-key-sydney-locations,blog-post-dated,0,308,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2025/1/1/top-50-activities-to-do-in-sydney-a-locals-guide,blog-post-dated,0,964,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2025/1/1/locals-guide-to-sydneys-20-best-hidden-beaches,blog-post-dated,0,797,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2023/12/13/celebrating-new-years-day-with-a-dutch-twist-at-bondi-beach,blog-post-dated,0,339,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2024/12/26/can-you-jump-from-the-cliff-at-bronte-beach,blog-post-dated,0,97,bronte cliff jump,,NOINDEX,3,97w extremely thin + safety-liability topic; noindex
+/bondi-blog/2024/12/13/moving-to-bondi-your-complete-guide-to-life-by-the-beach,blog-post-dated,0,776,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2024/12/1/ranked-20-most-dramatic-bondi-rescue-rescues,blog-post-dated,0,648,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue (existing consolidation)
+/bondi-blog/2024/12/1/a-festive-guide-best-streets-in-and-around-bondi-to-see-christmas-lights,blog-post-dated,0,591,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2023/12/26/celebrating-christmas-day-at-bronte-beach-australias-biggest-christmas-party,blog-post-dated,0,420,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2024/10/17/sydney-beaches-closed-as-mystery-tar-balls-reach-bondi-beach,blog-post-dated,0,356,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2024/10/9/best-bondi-beach-tours-for-sydney-visitors,blog-post-dated,0,390,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2024/10/1/the-great-bondi-crumbl-cookie-scam,blog-post-dated,0,226,crumbl scam,,KEEP,3,226w topical editorial; KEEP
+/bondi-blog/2023/11/17/tee-off-with-a-view-discover-bondi-golf-diggers-club,blog-post-dated,0,404,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2024/9/23/locals-guide-to-the-best-kids-playgrounds-around-bondi,blog-post-dated,0,1012,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2024/9/21/locals-guide-to-bondi-beachs-best-ice-cream,blog-post-dated,0,483,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2024/2/12/an-insiders-guide-to-the-best-ice-cream-in-bondi (existing consolidation)
+/bondi-blog/2024/9/21/the-bondi-hum-real-or-hoax,blog-post-dated,0,278,bondi hum,,KEEP,3,278w curiosity long-tail; harmless KEEP
+/bondi-blog/2024/9/20/is-bondi-junction-the-same-as-bondi-beach,blog-post-dated,0,874,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2024/9/16/how-to-find-a-housemate-in-bondi-beach,blog-post-dated,0,245,bondi housemate,,NOINDEX,3,245w off-topic for a travel guide; noindex
+/bondi-blog/2024/9/7/the-best-vegetarian-and-vegan-restaurants-in-bondi-beach,blog-post-dated,0,827,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2024/9/7/getting-to-sydney-marathon-from-bondi-beach,blog-post-dated,0,567,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2024/9/7/an-insiders-guide-to-the-sydney-marathon-2024,blog-post-dated,0,534,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2024/9/13/25-reasons-why-sydney-is-better-than-melbourne,blog-post-dated,0,893,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2023/9/9/soaring-high-at-bondi-beach-festival-of-the-winds,blog-post-dated,0,409,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2024/7/25/help-3-week-city2surf-training-plan,blog-post-dated,0,391,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2025/6/18/how-to-train-for-heartbreak-hill-without-being-a-fitness-freak (existing consolidation)
+/bondi-blog/2024/6/9/the-best-time-to-visit-bondi-beach-a-seasonal-guide,blog-post-dated,0,533,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/whale-watching-bondi-guide-2024,blog-post-legacy,0,616,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2024/4/6/storm-chaos-forced-closures-around-bondi-beach,blog-post-dated,0,190,storm closures news,,NOINDEX,3,"190w dated news, stale; noindex"
+/bondi-blog/2024/2/12/an-insiders-guide-to-the-best-ice-cream-in-bondi,blog-post-dated,0,507,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2024/2/9/sydneys-mystery-beach-at-mackenzies-bay,blog-post-dated,0,466,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2024/1/21/is-bondi-beach-a-safe-area-crime-rate,blog-post-dated,0,578,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2024/1/25/can-you-see-dolphins-at-bondi-beach,blog-post-dated,0,213,dolphins at bondi,,KEEP,3,213w distinct query; low effort EXPAND later
+/bondi-blog/2024/1/20/is-bondi-beach-water-clean-or-polluted,blog-post-dated,0,222,bondi water quality,,EXPAND,3,"222w; real query, expand w/ Beachwatch source"
+/bondi-blog/2024/1/13/a-guide-to-australia-day-at-bondi-beach,blog-post-dated,0,612,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/everything-to-know-bondi-salties-ocean-swimming,blog-post-legacy,0,499,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2024/1/7/sydneys-best-playground-in-the-heart-of-bondi,blog-post-dated,0,333,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2024/1/1/must-do-bondi-summer-activities-for-first-time-visitors,blog-post-dated,0,502,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2023/12/28/insiders-guide-to-new-years-day-at-bondi,blog-post-dated,0,502,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2023/12/26/gwyneth-paltrows-bondi-recommendations-one-we-cant-agree-with,blog-post-dated,0,187,celebrity recs,,KEEP,3,187w editorial; KEEP
+/bondi-blog/2023/12/24/insiders-guide-to-new-years-eve-at-bondi-beach,blog-post-dated,0,922,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2023/12/20/christmas-2024-bondi-weather-forecast,blog-post-dated,0,140,xmas weather forecast,,NOINDEX,3,"140w, stale 2024 forecast; noindex (dated event past)"
+/bondi-blog/2023/12/10/from-the-mundane-to-the-outrageous-ranking-the-most-memorable-headline-grabbing-stories-from-bondi-local-loop,blog-post-dated,0,1524,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2023/11/17/a-parents-guide-to-bondi-beach-activities-eats-and-entertainment-for-kids,blog-post-dated,0,348,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2023/11/16/hxnovb41qon8zebftsjodt0g8tvhde,blog-post-dated,0,510,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2023/11/8/definitive-guide-to-bondis-best-restaurants,blog-post-dated,0,193,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/best-restaurants-bondi-beach (existing consolidation)
+/bondi-blog/2023/11/9/the-440-run-club-at-bronte-beach-sydneys-open-invitation-for-runners,blog-post-dated,0,337,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2023/11/5/things-to-do-at-bondi-beach-in-the-rain,blog-post-dated,0,559,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2025/5/23/rain-or-shine-7-must-do-indoor-activities-in-bondi-beach-on-a-rainy-day (existing consolidation)
+/bondi-blog/2023/9/28/bondi-beach-and-the-shark-question-unraveling-the-mystery,blog-post-dated,0,598,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2023/10/1/daylight-saving-time-in-sydney-a-quick-guide-to-octobers-clock-change,blog-post-dated,0,279,sydney daylight saving,,KEEP,3,279w evergreen utility; KEEP
+/bondi-blog/2023/9/21/sculptures-by-the-sea-at-bondi-a-comprehensive-guide-to-art-by-the-ocean,blog-post-dated,0,557,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2023/9/19/a-guide-to-the-bondi-beach-sunday-drummer,blog-post-dated,0,718,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2023/9/21/walking-on-sunshine-the-ultimate-guide-to-the-bondi-to-bronte-coastal-walk,blog-post-dated,0,915,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2023/9/22/el-nio-and-its-unexpected-chilly-effect-on-bondis-sea-temperature,blog-post-dated,0,585,sea temp el nino,/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide,MERGE,3,585w niche angle + broken slug (el-nio); fold then 301
+/bondi-blog/2023/9/20/chasing-sunrise-bondi-beachs-perfect-weather-conditions,blog-post-dated,0,553,sunrise conditions,/bondi-blog/sunrise-sunset-bondi,MERGE,3,553w overlaps sunrise-sunset; fold then 301
+/bondi-blog/waverley-cemetery-sydney-australia,blog-post-legacy,0,383,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2023/9/4/bond-market-sunday-guide,blog-post-dated,0,432,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/best-backpacker-hostels-bondi-beach,blog-post-legacy,0,654,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2023/8/29/mackenzies-bay-is-back-the-ultimate-sydney-hidden-gem,blog-post-dated,0,430,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2023/8/22/bondis-saturday-farmers-market-your-complete-guide-to-fresh-local-produce-by-the-beach,blog-post-dated,0,385,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/bondi-muscle-beach,blog-post-legacy,0,157,bondi muscle beach,,EXPAND,3,157w (6 imp) niche; expand or fold into things-to-do hub
+/bondi-blog/2023/8/10/a-guide-to-sydneys-eastern-suburbs-beaches,blog-post-dated,0,490,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/bondi-beach-surf-guide,blog-post-legacy,0,590,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2023/8/8/does-bondi-beach-get-busy,blog-post-dated,0,250,is bondi busy,,KEEP,3,250w distinct query
+/bondi-blog/ben-buckler-name-history,blog-post-legacy,0,153,ben buckler history,/ben-buckler,MERGE,3,153w (9 imp); fold into /ben-buckler place page then 301
+/bondi-blog/2018/10/17/when-is-the-best-time-to-visit-bondi-beach,blog-post-dated,0,215,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2024/6/9/the-best-time-to-visit-bondi-beach-a-seasonal-guide (existing consolidation)
+/bondi-blog/10-biggest-events-bondi-beach,blog-post-legacy,0,397,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/the-ultimate-guide-to-bondi-beach-nightlife,blog-post-legacy,0,528,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/is-bondi-good-to-live,blog-post-legacy,0,312,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/why-is-bondi-beach-famous,blog-post-legacy,0,384,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2024/9/12/why-bondi-beach-is-so-famous-history-fame-and-culture (existing consolidation)
+/bondi-blog/bondi-beach-main-events,blog-post-legacy,0,496,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/bondi-beach-playground-guide,blog-post-legacy,0,393,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/city-to-surf-training-plan,blog-post-legacy,0,573,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2025/6/18/how-to-train-for-heartbreak-hill-without-being-a-fitness-freak (existing consolidation)
+/bondi-blog/bondi-beach-golf-course,blog-post-legacy,0,459,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/whale-watching-bondi-beach,blog-post-legacy,0,467,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/2023/4/1/3003c62xnorpgvx461rhjrkhp6p56f,blog-post-dated,0,892,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2023/4/1/sp5ol0037f2etchbkhdvn7rfdlaypz,blog-post-dated,0,484,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/Sydney’s-best-bookstore-gertude-alice,blog-post-legacy,0,551,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/is-bondi-beach-patrolled-by-lifeguards,blog-post-legacy,0,466,is bondi patrolled,/bondi-blog/bondi-rescue-who-are-the-lifeguards,KEEP,3,466w distinct query; interlink to lifeguards pillar
+/bondi-blog/bondi-or-manly-travel-guide,blog-post-legacy,0,359,bondi vs manly comparison,,KEEP,3,Distinct comparison intent (359w) — EXPAND later; low priority
+/bondi-blog/hidden-gems-bondi-beach,blog-post-legacy,0,266,bondi hidden gems,/bondi-blog/what-to-do-bondi-beach-travel-guide,MERGE,3,266w overlaps pillar hidden-gems; fold then 301
+/bondi-blog/where-to-find-carpark-bondi-beach,blog-post-legacy,0,693,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/bondi-beach-tour-guide,blog-post-legacy,0,405,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/are-airbnb-legal-in-sydney-bondi,blog-post-legacy,0,183,airbnb legal bondi,,EXPAND,3,183w distinct legal query; expand or fold into /stay
+/bondi-blog/best-breakfast-bondi-right-now,blog-post-legacy,0,343,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/getting-from-sydney-airport-to-bondi-beach,blog-post-legacy,0,471,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/bondi-beach-cheap-food,blog-post-legacy,0,367,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/where-is-bondi-junction,blog-post-legacy,0,158,where is bondi junction,,EXPAND,3,158w (6 imp) distinct query; expand w/ real orientation content
+/bondi-blog/34-best-things-to-do-bondi-beach,blog-post-legacy,0,372,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/Bondi-to-manly-walk-guide,blog-post-legacy,0,1057,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/best-kids-activities-bondi-beach,blog-post-legacy,0,428,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/Locals-guide-Bondi-Beach,blog-post-legacy,0,571,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/meet-bondi-lifeguards,blog-post-legacy,0,192,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/bondi-rescue-who-are-the-lifeguards (existing consolidation)
+/bondi-blog/transport-to-bondi-beach,blog-post-legacy,0,220,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/how-to-get-to-bondi-beach (existing consolidation)
+/bondi-blog/Bondi-beach-history,blog-post-legacy,0,605,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/2017/5/7/bondis-most-famous-residents,blog-post-dated,0,238,bondi famous residents,,KEEP,3,238w 2017 legacy but on-topic; KEEP/refresh
+/bondi-blog/why-is-bondi-beach-so-special,blog-post-legacy,0,307,,,KEEP,3,Indexable mid-depth; refresh/interlink as needed
+/bondi-blog/best-time-to-visit-bondi-beach,blog-post-legacy,0,140,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2024/6/9/the-best-time-to-visit-bondi-beach-a-seasonal-guide (existing consolidation)
+/bondi-blog/surfing-at-bondi,blog-post-legacy,0,204,surfing at bondi,,EXPAND,3,204w thin; expand into a real surf guide (surf cam already separate)
+/bondi-blog/how-long-is-bondi-icebergs-poo,blog-post-legacy,0,144,icebergs pool length,/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more,MERGE,3,"144w single-Q, broken slug (""poo""); fold into FAQ then 301"
+/bondi-blog/2018/9/11/how-far-is-bondi-beach-from-sydney,blog-post-dated,0,118,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2025/1/2/how-far-is-bondi-beach-from-key-sydney-locations (existing consolidation)
+/bondi-blog/2017/9/10/bsc783vqaltyo7486wej3c50fmnhni,blog-post-dated,0,279,best bondi instagram accounts,,REPLACE,3,Garbage Squarespace slug; migrate to clean slug (e.g. /bondi-blog/best-bondi-instagram-accounts) w/ 301
+/bondi-blog/2017/9/10/ocean-swims-at-bondi-beach,blog-post-dated,0,603,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/why-is-bondi-so-popular,blog-post-legacy,0,284,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2024/9/12/why-bondi-beach-is-so-famous-history-fame-and-culture (existing consolidation)
+/bondi-blog/2017/8/28/bondi-icebergs-the-famous-bondi-pool,blog-post-dated,0,326,icebergs history,/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more,MERGE,3,326w 2017 legacy; fold into FAQ/history then 301
+/bondi-blog/2017/6/14/call-on-me-film-clip-bondi-class,blog-post-dated,0,1041,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/bondi-winter-magic,blog-post-legacy,0,107,bondi winter,,NOINDEX,3,107w event-ish stale; noindex or expand
+/bondi-blog/2017/4/28/city2surf-time-to-start-training,blog-post-dated,0,93,consolidated,done,REDIRECT,3,Already 301 -> /bondi-blog/2025/6/18/how-to-train-for-heartbreak-hill-without-being-a-fitness-freak (existing consolidation)
+/bondi-blog/category/Travel,category,0,622,category listing,,KEEP,3,Indexable category listing (500-650w); keep as taxonomy hub
+/bondi-blog/category/Out+%26+About,category,0,655,category listing,,KEEP,3,Indexable category listing (500-650w); keep as taxonomy hub
+/bondi-blog/category/City2Surf,category,0,192,category listing,,NOINDEX,3,Thin category (<280w); noindex to reduce thin-taxonomy footprint
+/bondi-blog/category/People,category,0,232,category listing,,NOINDEX,3,Thin category (<280w); noindex to reduce thin-taxonomy footprint
+/bondi-blog/category/History,category,0,277,category listing,,NOINDEX,3,Thin category (<280w); noindex to reduce thin-taxonomy footprint
+/bondi-blog/category/Swim,category,0,551,category listing,,KEEP,3,Indexable category listing (500-650w); keep as taxonomy hub
+/accommodation,core-page,0,519,consolidated,done,REDIRECT,3,Already 301 -> /stay (existing consolidation)
+/visit-bondi-beach-guide,core-page,0,1346,consolidated,done,REDIRECT,3,Already 301 -> /bondi-beach (existing consolidation)
+/bondi-blog/best-wine-bars-in-bondi,blog-post-legacy,0,961,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/where-to-watch-sport-in-bondi,blog-post-legacy,0,1342,,,KEEP,3,"Indexable, adequate depth, no cannibal signal"
+/bondi-blog/tag/* (223 pages),tag,0,0,keyword facets,,NOINDEX,3,All 223 tag pages already noindex (0 indexable). Keep noindex; prune orphan tags with 0 posts

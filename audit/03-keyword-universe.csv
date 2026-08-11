@@ -1,0 +1,317 @@
+query,intent_cluster,intent_type,funnel_stage,demand_tier_est,commercial_tier_est,ai_citation_potential,mapped_url_or_gap,recommended_action
+bondi beach,Core destination,navigational,TOFU,H,M,H,/bondi-beach,own via existing
+bondi,Core destination,navigational,TOFU,H,M,M,/bondi-beach,own via existing
+bondi beach sydney,Core destination,navigational,TOFU,H,M,H,/bondi-beach,own via existing
+visit bondi beach,Core destination,informational,TOFU,H,M,H,/visit-bondi-beach,own via existing
+bondi beach guide,Core destination,informational,TOFU,H,M,H,/visit-bondi-beach-guide,own via existing
+bondi beach travel guide,Core destination,informational,TOFU,H,M,H,/visit-bondi-beach-guide,own via existing
+bondi beach australia,Core destination,navigational,TOFU,H,L,M,/bondi-beach,own via existing
+where is bondi beach,Core destination,informational,TOFU,M,L,H,/bondi-beach,belongs-on-hub
+what is bondi beach,Core destination,informational,TOFU,M,L,H,/bondi-beach,belongs-on-hub
+bondi beach map,Core destination,informational,TOFU,M,L,M,/bondi-beach,upgrade existing
+bondi beach facts,Core destination,informational,TOFU,M,L,H,/bondi-blog/Bondi-beach-history,own via existing
+why is bondi beach famous,Core destination,informational,TOFU,M,L,H,/bondi-blog/why-is-bondi-beach-famous,own via existing
+why is bondi beach so special,Core destination,informational,TOFU,L,L,M,/bondi-blog/why-is-bondi-beach-so-special,own via existing
+why is bondi beach so popular,Core destination,informational,TOFU,M,L,M,/bondi-blog/why-is-bondi-so-popular,own via existing
+how to pronounce bondi,Core destination,informational,TOFU,M,L,H,/bondi-blog/how-to-pronounce-bondi-beach,own via existing
+bondi beach history,Core destination,informational,TOFU,M,L,H,/bondi-blog/Bondi-beach-history,own via existing
+bondi beach meaning name origin,Core destination,informational,TOFU,L,L,H,/bondi-blog/Bondi-beach-history,belongs-on-hub
+is bondi beach worth visiting,Core destination,informational,TOFU,M,L,H,/visit-bondi-beach-guide,belongs-on-hub
+what is bondi beach known for,Core destination,informational,TOFU,M,L,H,/bondi-blog/why-is-bondi-beach-famous,own via existing
+bondi beach webcam live,Core destination,informational,TOFU,M,L,M,/bondi-blog/2025/1/5/catch-the-waves-live-bondi-beach-surf-cam,own via existing
+north bondi,Core destination,navigational,TOFU,M,L,M,/north-bondi,own via existing
+ben buckler point bondi,Core destination,informational,TOFU,L,L,M,/ben-buckler,own via existing
+bondi pavilion,Core destination,navigational,TOFU,M,L,M,/bondi-pavilion,own via existing
+things to do in bondi beach,Things to do,informational,TOFU,H,M,H,/things-to-do-in-bondi,own via existing
+things to do in bondi,Things to do,informational,TOFU,H,M,H,/things-to-do-in-bondi,own via existing
+what to do in bondi beach,Things to do,informational,TOFU,H,M,H,/things-to-do-in-bondi,own via existing
+bondi beach activities,Things to do,informational,TOFU,H,M,H,/things-to-do-in-bondi,own via existing
+best things to do bondi,Things to do,informational,TOFU,H,M,H,/bondi-blog/34-best-things-to-do-bondi-beach,own via existing
+free things to do in bondi,Things to do,informational,TOFU,M,L,H,/things-to-do-in-bondi,belongs-on-hub
+bondi hidden gems,Things to do,informational,TOFU,M,L,H,/bondi-blog/hidden-gems-bondi-beach,own via existing
+unique things to do in bondi,Things to do,informational,TOFU,M,M,M,/bondi-blog/2025/4/25/9-unique-bondi-beach-experiences-to-try-beyond-the-sand-and-surf,own via existing
+bondi beach attractions,Things to do,informational,TOFU,M,L,M,/things-to-do-in-bondi,own via existing
+bondi pavilion what's on,Things to do,informational,TOFU,L,L,M,/bondi-pavilion,own via existing
+bondi graffiti wall street art,Things to do,informational,TOFU,L,L,M,GAP,NEW page
+bondi skate park,Things to do,informational,TOFU,L,L,M,GAP,NEW page
+bondi golf course,Things to do,commercial,MOFU,L,M,M,/bondi-blog/bondi-beach-golf-course,own via existing
+bondi outdoor gym muscle beach,Things to do,informational,TOFU,M,L,H,/bondi-blog/bondi-muscle-beach,own via existing
+bondi beach yoga classes,Things to do,commercial,MOFU,M,M,M,GAP,NEW page
+metal detecting bondi beach,Things to do,informational,TOFU,L,L,M,/bondi-blog/2024/9/18/guide-to-metal-detecting-at-bondi-beach,own via existing
+bondi beach volleyball,Things to do,informational,TOFU,L,L,M,GAP,belongs-on-hub
+snorkelling bondi,Things to do,informational,TOFU,M,L,H,/bondi-blog/2025/1/10/the-best-places-to-snorkel-in-and-around-bondi,own via existing
+stand up paddleboarding bondi,Things to do,commercial,MOFU,L,M,M,GAP,NEW page
+kayaking bondi beach,Things to do,commercial,MOFU,L,M,M,GAP,NEW page
+scuba diving bondi,Things to do,commercial,MOFU,L,M,M,GAP,NEW page
+bondi bike hire,Things to do,commercial,MOFU,L,M,M,GAP,NEW page
+bondi beach sunday drummers,Things to do,informational,TOFU,L,L,M,/bondi-blog/2023/9/19/a-guide-to-the-bondi-beach-sunday-drummer,own via existing
+bondi icebergs,Icebergs & ocean pools,navigational,MOFU,H,M,H,/bondi-icebergs,own via existing
+bondi icebergs pool,Icebergs & ocean pools,informational,MOFU,H,M,H,/bondi-icebergs,own via existing
+bondi icebergs entry fee price,Icebergs & ocean pools,transactional,BOFU,H,H,H,/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more,own via existing
+can the public swim at bondi icebergs,Icebergs & ocean pools,informational,MOFU,H,L,H,/bondi-blog/2024/9/21/can-the-public-swim-at-bondi-icebergs-ocean-pool,own via existing
+who can swim at bondi icebergs,Icebergs & ocean pools,informational,MOFU,M,L,H,/bondi-blog/2025/1/5/who-can-swim-at-bondi-icebergs-ocean-pool,own via existing
+bondi icebergs opening hours,Icebergs & ocean pools,informational,BOFU,H,M,H,/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more,own via existing
+is bondi icebergs pool heated,Icebergs & ocean pools,informational,MOFU,M,L,H,/bondi-blog/is-bondi-icebergs-pool-heated,own via existing
+how to access bondi icebergs pool,Icebergs & ocean pools,informational,MOFU,M,L,H,/bondi-blog/access-bondi-icebergs-pool,own via existing
+can kids swim at bondi icebergs,Icebergs & ocean pools,informational,MOFU,M,L,H,/bondi-blog/2025/4/29/can-kids-swim-at-bondi-icebergs-family-swimming-guide,own via existing
+how long is bondi icebergs pool,Icebergs & ocean pools,informational,MOFU,L,L,M,/bondi-blog/how-long-is-bondi-icebergs-poo,own via existing
+bondi icebergs membership,Icebergs & ocean pools,transactional,BOFU,M,M,M,/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more,own via existing
+bondi icebergs restaurant booking,Icebergs & ocean pools,transactional,BOFU,M,H,M,/bondi-icebergs,upgrade existing
+bondi icebergs vs bronte pool,Icebergs & ocean pools,comparison,MOFU,L,L,M,/bondi-blog/2023/11/16/insiders-guide-to-the-bronte-ocean-pool,belongs-on-hub
+bronte ocean pool,Icebergs & ocean pools,informational,MOFU,M,L,M,/bondi-blog/2023/11/16/insiders-guide-to-the-bronte-ocean-pool,own via existing
+bondi ocean pools list,Icebergs & ocean pools,informational,MOFU,M,L,H,/bondi-icebergs,belongs-on-hub
+where to swim at bondi beach,Icebergs & ocean pools,informational,MOFU,M,L,H,/where-to-swim-at-bondi-beach,own via existing
+can you swim at bondi beach,Swimming,informational,TOFU,H,L,H,/bondi-blog/2024/9/8/is-it-safe-to-swim-at-bondi-beach-a-complete-guide,own via existing
+is it safe to swim at bondi beach,Swimming,informational,MOFU,H,L,H,/bondi-blog/2024/9/8/is-it-safe-to-swim-at-bondi-beach-a-complete-guide,own via existing
+safest place to swim at bondi,Swimming,informational,MOFU,M,L,H,/bondi-blog/2023/11/7/the-safest-place-to-swim-at-bondi-beach,own via existing
+swimming between the flags bondi,Swimming,informational,MOFU,M,L,H,/bondi-blog/swimming-between-flags-bondi-beach,own via existing
+bondi beach water temperature,Swimming,informational,MOFU,H,L,H,/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide,own via existing
+bondi sea temperature by month,Swimming,informational,MOFU,M,L,H,/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide,own via existing
+ocean swims at bondi,Swimming,informational,MOFU,M,L,M,/bondi-blog/2017/9/10/ocean-swims-at-bondi-beach,own via existing
+bondi salties ocean swimming group,Swimming,informational,MOFU,L,L,M,/bondi-blog/everything-to-know-bondi-salties-ocean-swimming,own via existing
+bondi to bronte ocean swim race,Swimming,informational,MOFU,M,M,M,/bondi-blog/2025/6/23/bondi-to-bronte-swim-the-ultimate-beginners-guide-to-sydneys-most-iconic-ocean-race,own via existing
+is bondi water clean or polluted,Swimming,informational,MOFU,M,L,H,/bondi-blog/2024/1/20/is-bondi-beach-water-clean-or-polluted,own via existing
+bondi beach jellyfish bluebottles,Swimming,informational,MOFU,M,L,H,/bondi-blog/2024/9/8/is-it-safe-to-swim-at-bondi-beach-a-complete-guide,belongs-on-hub
+bondi beach rip currents,Swimming,informational,MOFU,M,L,H,/bondi-blog/2024/9/8/is-it-safe-to-swim-at-bondi-beach-a-complete-guide,belongs-on-hub
+surfing at bondi beach,Surfing & surf lessons,informational,MOFU,H,M,H,/bondi-blog/bondi-beach-surf-guide,own via existing
+bondi surf lessons,Surfing & surf lessons,transactional,BOFU,H,H,H,/bondi-blog/bondi-beach-surf-guide,upgrade existing
+learn to surf bondi,Surfing & surf lessons,transactional,BOFU,H,H,H,/bondi-blog/bondi-beach-surf-guide,upgrade existing
+bondi surf school beginners,Surfing & surf lessons,transactional,BOFU,M,H,M,/bondi-blog/bondi-beach-surf-guide,upgrade existing
+bondi surf hire board rental,Surfing & surf lessons,transactional,BOFU,M,H,M,/bondi-blog/bondi-beach-surf-guide,upgrade existing
+bondi surf report today,Surfing & surf lessons,informational,MOFU,M,L,M,/bondi-blog/2025/1/5/catch-the-waves-live-bondi-beach-surf-cam,own via existing
+bondi surf cam live,Surfing & surf lessons,informational,MOFU,M,L,M,/bondi-blog/2025/1/5/catch-the-waves-live-bondi-beach-surf-cam,own via existing
+is bondi good for beginner surfers,Surfing & surf lessons,informational,MOFU,M,M,H,/bondi-blog/bondi-beach-surf-guide,own via existing
+best time to surf bondi,Surfing & surf lessons,informational,MOFU,L,L,M,/bondi-blog/bondi-beach-surf-guide,belongs-on-hub
+north bondi vs south bondi surf,Surfing & surf lessons,comparison,MOFU,L,L,M,/bondi-blog/bondi-beach-surf-guide,belongs-on-hub
+bondi to coogee walk,Coastal walk,informational,MOFU,H,L,H,/bondi-coastal-walk,own via existing
+bondi coastal walk,Coastal walk,informational,MOFU,H,L,H,/bondi-coastal-walk,own via existing
+bondi to bronte walk,Coastal walk,informational,MOFU,H,L,H,/bondi-blog/2023/9/21/walking-on-sunshine-the-ultimate-guide-to-the-bondi-to-bronte-coastal-walk,own via existing
+bondi to coogee walk map,Coastal walk,informational,MOFU,M,L,H,/bondi-coastal-walk,upgrade existing
+how long is the bondi to coogee walk,Coastal walk,informational,MOFU,M,L,H,/bondi-coastal-walk,own via existing
+bondi to coogee walk distance km,Coastal walk,informational,MOFU,M,L,H,/bondi-coastal-walk,own via existing
+bondi to coogee walk time,Coastal walk,informational,MOFU,M,L,H,/bondi-coastal-walk,own via existing
+which direction to walk bondi to coogee,Coastal walk,informational,MOFU,L,L,H,/bondi-coastal-walk,belongs-on-hub
+bondi to manly walk,Coastal walk,informational,MOFU,M,L,H,/bondi-blog/Bondi-to-manly-walk-guide,own via existing
+coastal walk cafes stops,Coastal walk,informational,MOFU,M,M,M,/bondi-coastal-walk,belongs-on-hub
+is the bondi coastal walk pram friendly,Coastal walk,informational,MOFU,L,L,H,/bondi-coastal-walk,belongs-on-hub
+bondi coastal walk parking,Coastal walk,informational,MOFU,L,L,M,/bondi-blog/where-to-find-carpark-bondi-beach,belongs-on-hub
+marks park tamarama coastal walk,Coastal walk,informational,TOFU,L,L,M,/marks-park,own via existing
+how to get to bondi beach,Transport & getting there,informational,MOFU,H,L,H,/bondi-blog/how-to-get-to-bondi-beach,own via existing
+getting to bondi beach,Transport & getting there,informational,MOFU,H,L,H,/getting-to-bondi,own via existing
+bondi beach train station,Transport & getting there,informational,MOFU,H,L,H,/bondi-blog/nearest-train-station-bondi-beach,own via existing
+nearest train station to bondi beach,Transport & getting there,informational,MOFU,H,L,H,/bondi-blog/nearest-train-station-bondi-beach,own via existing
+333 bus to bondi beach,Transport & getting there,informational,MOFU,M,L,H,/bondi-blog/transport-to-bondi-beach,own via existing
+bus to bondi beach from city,Transport & getting there,informational,MOFU,M,L,H,/bondi-blog/transport-to-bondi-beach,own via existing
+sydney cbd to bondi beach,Transport & getting there,informational,MOFU,H,L,H,/getting-to-bondi,own via existing
+circular quay to bondi beach,Transport & getting there,informational,MOFU,M,L,H,/getting-to-bondi,belongs-on-hub
+bondi junction to bondi beach,Transport & getting there,informational,MOFU,M,L,H,/bondi-blog/where-is-bondi-junction,own via existing
+sydney airport to bondi beach,Transport & getting there,informational,MOFU,H,M,H,/bondi-blog/getting-from-sydney-airport-to-bondi-beach,own via existing
+airport to bondi transfer,Transport & getting there,transactional,BOFU,M,H,M,/bondi-blog/getting-from-sydney-airport-to-bondi-beach,upgrade existing
+bondi beach parking,Transport & getting there,informational,MOFU,H,L,H,/bondi-blog/where-to-find-carpark-bondi-beach,own via existing
+free parking bondi beach,Transport & getting there,informational,MOFU,H,L,H,/bondi-blog/where-to-find-carpark-bondi-beach,own via existing
+bondi beach parking cost rates,Transport & getting there,informational,BOFU,M,L,H,/bondi-blog/where-to-find-carpark-bondi-beach,own via existing
+where is bondi junction,Transport & getting there,informational,TOFU,M,L,H,/bondi-blog/where-is-bondi-junction,own via existing
+is bondi junction the same as bondi beach,Transport & getting there,informational,MOFU,M,L,H,/bondi-blog/2024/9/20/is-bondi-junction-the-same-as-bondi-beach,own via existing
+how far is bondi beach from sydney,Transport & getting there,informational,MOFU,M,L,H,/bondi-blog/2018/9/11/how-far-is-bondi-beach-from-sydney,own via existing
+how far is bondi from the city,Transport & getting there,informational,MOFU,M,L,H,/bondi-blog/2025/1/2/how-far-is-bondi-beach-from-key-sydney-locations,own via existing
+uber sydney airport to bondi cost,Transport & getting there,informational,BOFU,M,M,H,/bondi-blog/getting-from-sydney-airport-to-bondi-beach,belongs-on-hub
+opal card bondi beach,Transport & getting there,informational,MOFU,L,L,M,/bondi-blog/transport-to-bondi-beach,belongs-on-hub
+driving to bondi beach tips,Transport & getting there,informational,MOFU,M,L,M,/getting-to-bondi,belongs-on-hub
+best restaurants in bondi,Food & drink,commercial,MOFU,H,H,H,/bondi-blog/best-restaurants-bondi-beach,own via existing
+where to eat in bondi,Food & drink,commercial,MOFU,H,M,H,/bondi-eat-and-drink,own via existing
+bondi eat and drink,Food & drink,commercial,MOFU,M,M,M,/bondi-eat-and-drink,own via existing
+best breakfast in bondi,Food & drink,commercial,MOFU,H,M,H,/bondi-blog/best-breakfast-bondi-right-now,own via existing
+best brunch bondi,Food & drink,commercial,MOFU,H,M,H,/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach,own via existing
+best cafes bondi,Food & drink,commercial,MOFU,H,M,H,/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach,own via existing
+best coffee in bondi,Food & drink,commercial,MOFU,H,M,H,/bondi-blog/2025/6/26/ranked-bondis-top-10-coffee-spots-you-cant-miss,own via existing
+cheap eats bondi,Food & drink,commercial,MOFU,M,M,H,/bondi-blog/bondi-beach-cheap-food,own via existing
+bondi restaurants with ocean view,Food & drink,commercial,MOFU,M,H,H,/bondi-eat-and-drink,belongs-on-hub
+best bars in bondi,Food & drink,commercial,MOFU,H,H,H,/bondi-blog/2025/4/25/10-must-try-bondi-beach-bars-backed-in-2025,own via existing
+best wine bars bondi,Food & drink,commercial,MOFU,M,M,M,/bondi-blog/best-wine-bars-in-bondi,own via existing
+bondi pubs,Food & drink,commercial,MOFU,M,M,M,/bondi-blog/2025/4/25/10-must-try-bondi-beach-bars-backed-in-2025,belongs-on-hub
+bondi nightlife,Food & drink,commercial,MOFU,M,M,M,/bondi-blog/the-ultimate-guide-to-bondi-beach-nightlife,own via existing
+where to watch sport in bondi,Food & drink,informational,MOFU,L,M,M,/bondi-blog/where-to-watch-sport-in-bondi,own via existing
+where to watch premier league bondi,Food & drink,informational,MOFU,L,M,M,/bondi-blog/2025/5/25/where-to-watch-english-football-in-bondi-the-best-pubs-and-bars-for-premier-league-fans,own via existing
+family friendly restaurants bondi,Food & drink,commercial,MOFU,M,M,H,/bondi-blog/2025/5/6/kids-eat-free-in-sydneys-eastern-suburbs-12-family-friendly-dining-deals,own via existing
+kids eat free bondi eastern suburbs,Food & drink,commercial,MOFU,M,M,H,/bondi-blog/2025/5/6/kids-eat-free-in-sydneys-eastern-suburbs-12-family-friendly-dining-deals,own via existing
+vegan restaurants bondi,Food & drink,commercial,MOFU,M,M,H,/bondi-blog/2024/9/7/the-best-vegetarian-and-vegan-restaurants-in-bondi-beach,own via existing
+vegetarian restaurants bondi,Food & drink,commercial,MOFU,M,M,H,/bondi-blog/2024/9/7/the-best-vegetarian-and-vegan-restaurants-in-bondi-beach,own via existing
+gluten free bondi restaurants,Food & drink,commercial,MOFU,L,M,M,/bondi-eat-and-drink,belongs-on-hub
+halal food bondi,Food & drink,commercial,MOFU,L,M,M,/bondi-eat-and-drink,belongs-on-hub
+best ice cream bondi,Food & drink,commercial,MOFU,M,M,H,/bondi-blog/2024/9/21/locals-guide-to-bondi-beachs-best-ice-cream,own via existing
+sundays bondi restaurant,Food & drink,navigational,BOFU,M,M,H,/bondi-blog/2025/7/19/insider-guide-to-sundays-bondi-opening-hours-top-flavours-queue-hacks,own via existing
+totti's bondi booking,Food & drink,transactional,BOFU,M,H,H,/bondi-blog/2025/4/27/how-to-score-a-booking-at-tottis-bondi-without-the-stress,own via existing
+bondi bakeries best,Food & drink,commercial,MOFU,M,M,M,/bondi-eat-and-drink,belongs-on-hub
+bondi matcha best,Food & drink,commercial,MOFU,L,M,M,/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach,belongs-on-hub
+best fish and chips bondi,Food & drink,commercial,MOFU,M,M,H,/bondi-eat-and-drink,belongs-on-hub
+bondi beach food near me,Food & drink,commercial,BOFU,M,M,M,/bondi-eat-and-drink,belongs-on-hub
+best pizza bondi,Food & drink,commercial,MOFU,L,M,M,/bondi-eat-and-drink,belongs-on-hub
+dog friendly cafes bondi,Food & drink,commercial,MOFU,M,M,H,GAP,NEW page
+secret menu items bondi,Food & drink,informational,TOFU,L,L,M,/bondi-blog/2025/5/25/secret-eats-off-menu-items-you-didnt-know-you-could-order-in-bondi-beach,own via existing
+rooftop bars bondi,Food & drink,commercial,MOFU,M,H,M,/bondi-blog/2025/4/25/10-must-try-bondi-beach-bars-backed-in-2025,belongs-on-hub
+where to stay in bondi beach,Accommodation,commercial,MOFU,H,H,H,/accommodation,own via existing
+bondi beach hotels,Accommodation,commercial,BOFU,H,H,H,/accommodation,own via existing
+best accommodation bondi beach,Accommodation,commercial,BOFU,H,H,H,/bondi-blog/best-accommodation-bondi-beach,own via existing
+beachfront hotels bondi,Accommodation,commercial,BOFU,M,H,H,/accommodation,belongs-on-hub
+bondi accommodation for families,Accommodation,commercial,BOFU,M,H,H,/accommodation,belongs-on-hub
+bondi hostels backpackers,Accommodation,commercial,BOFU,M,H,H,/bondi-blog/best-backpacker-hostels-bondi-beach,own via existing
+cheap accommodation bondi,Accommodation,commercial,BOFU,M,H,H,/bondi-blog/accommodation-options-for-backpackers-in-bondi-beach,own via existing
+bondi airbnb,Accommodation,commercial,BOFU,M,H,M,/bondi-blog/are-airbnb-legal-in-sydney-bondi,own via existing
+are airbnbs legal in bondi,Accommodation,informational,MOFU,L,L,H,/bondi-blog/are-airbnb-legal-in-sydney-bondi,own via existing
+where to stay in bondi north or south,Accommodation,comparison,MOFU,L,M,H,/accommodation,belongs-on-hub
+bondi vs cbd where to stay,Accommodation,comparison,MOFU,M,M,H,/accommodation,NEW page
+hotels near bondi beach with parking,Accommodation,commercial,BOFU,L,H,M,/accommodation,belongs-on-hub
+bondi luxury hotels,Accommodation,commercial,BOFU,M,H,M,/accommodation,belongs-on-hub
+pet friendly accommodation bondi,Accommodation,commercial,BOFU,L,H,M,/accommodation,belongs-on-hub
+bondi apartments short stay,Accommodation,commercial,BOFU,M,H,M,/accommodation,belongs-on-hub
+one day in bondi beach itinerary,Itineraries & planning,informational,MOFU,M,M,H,/bondi-blog/24-hours-in-bondi-beach,own via existing
+24 hours in bondi,Itineraries & planning,informational,MOFU,M,M,H,/bondi-blog/24-hours-in-bondi-beach,own via existing
+half day in bondi,Itineraries & planning,informational,MOFU,L,M,H,/bondi-blog/24-hours-in-bondi-beach,belongs-on-hub
+bondi in 3 hours,Itineraries & planning,informational,MOFU,L,M,H,/bondi-blog/24-hours-in-bondi-beach,belongs-on-hub
+bondi beach day trip,Itineraries & planning,informational,MOFU,M,M,H,/bondi-blog/day-trip-bondi-beach-top-tips,own via existing
+bondi weekend itinerary,Itineraries & planning,informational,MOFU,M,M,H,/bondi-blog/24-hours-in-bondi-beach,belongs-on-hub
+first time visiting bondi tips,Itineraries & planning,informational,TOFU,M,M,H,/bondi-blog/2025/4/23/8-things-to-know-before-visiting-bondi-beach,own via existing
+8 things to know before visiting bondi,Itineraries & planning,informational,TOFU,M,L,H,/bondi-blog/2025/4/23/8-things-to-know-before-visiting-bondi-beach,own via existing
+bondi with kids itinerary,Itineraries & planning,informational,MOFU,M,M,H,/bondi-with-kids,own via existing
+things to do in bondi when raining,Itineraries & planning,informational,MOFU,M,M,H,/bondi-blog/2025/5/23/rain-or-shine-7-must-do-indoor-activities-in-bondi-beach-on-a-rainy-day,own via existing
+indoor activities bondi rainy day,Itineraries & planning,informational,MOFU,M,M,H,/bondi-blog/2025/5/23/rain-or-shine-7-must-do-indoor-activities-in-bondi-beach-on-a-rainy-day,own via existing
+bondi beach summer activities,Itineraries & planning,informational,MOFU,M,M,H,/bondi-blog/2024/1/1/must-do-bondi-summer-activities-for-first-time-visitors,own via existing
+bondi bucket list,Itineraries & planning,informational,TOFU,L,L,M,/bondi-blog/34-best-things-to-do-bondi-beach,belongs-on-hub
+bondi beach faq first time visitors,Itineraries & planning,informational,TOFU,M,L,H,/bondi-blog/2024/12/13/bondi-beach-travel-guide-50-frequently-asked-questions-for-first-time-visitors,own via existing
+bondi vs manly,Comparisons,comparison,MOFU,H,M,H,/bondi-blog/bondi-or-manly-travel-guide,own via existing
+bondi or manly which is better,Comparisons,comparison,MOFU,M,M,H,/bondi-blog/bondi-or-manly-travel-guide,own via existing
+bondi vs coogee,Comparisons,comparison,MOFU,M,L,H,/bondi-blog/2023/8/10/a-guide-to-sydneys-eastern-suburbs-beaches,belongs-on-hub
+bondi vs bronte,Comparisons,comparison,MOFU,M,L,H,/bondi-blog/2023/8/10/a-guide-to-sydneys-eastern-suburbs-beaches,belongs-on-hub
+best beach in sydney,Comparisons,comparison,TOFU,M,L,H,/bondi-blog/2023/8/10/a-guide-to-sydneys-eastern-suburbs-beaches,belongs-on-hub
+eastern suburbs beaches sydney,Comparisons,informational,TOFU,M,L,H,/bondi-blog/2023/8/10/a-guide-to-sydneys-eastern-suburbs-beaches,own via existing
+sydney vs melbourne,Comparisons,comparison,TOFU,M,L,M,/bondi-blog/2024/9/13/25-reasons-why-sydney-is-better-than-melbourne,own via existing
+bondi vs tamarama beach,Comparisons,comparison,MOFU,L,L,M,/tamarama-beach,belongs-on-hub
+does bondi beach have toilets,Practical Q&A,informational,MOFU,M,L,H,/bondi-blog/bondi-beach-toilets-showers-change-rooms,own via existing
+bondi beach showers change rooms,Practical Q&A,informational,MOFU,M,L,H,/bondi-blog/bondi-beach-toilets-showers-change-rooms,own via existing
+bondi beach lockers luggage storage,Practical Q&A,informational,MOFU,M,M,H,GAP,NEW page
+can you drink alcohol on bondi beach,Practical Q&A,informational,MOFU,M,L,H,/bondi-blog/2023/10/18/bondi-beach-etiquette-guide,belongs-on-hub
+are dogs allowed on bondi beach,Practical Q&A,informational,MOFU,M,L,H,GAP,NEW page
+is bondi beach free,Practical Q&A,informational,TOFU,M,L,H,/bondi-beach,belongs-on-hub
+bondi beach bbq spots free,Practical Q&A,informational,MOFU,M,L,H,/bondi-blog/2025/1/20/locals-guide-to-free-bbq-spots-at-bondi-bronte-tamarama,own via existing
+wifi at bondi beach,Practical Q&A,informational,MOFU,L,L,M,GAP,belongs-on-hub
+is bondi beach wheelchair accessible,Practical Q&A,informational,MOFU,M,L,H,/bondi-blog/2025/1/5/exploring-bondi-beach-a-guide-to-wheelchair-access,own via existing
+beach wheelchairs bondi accessibility,Practical Q&A,informational,MOFU,L,L,H,/bondi-blog/2025/1/5/exploring-bondi-beach-a-guide-to-wheelchair-access,own via existing
+best time of day to visit bondi,Practical Q&A,informational,MOFU,M,L,H,/bondi-blog/best-time-to-visit-bondi-beach,belongs-on-hub
+how crowded is bondi beach,Practical Q&A,informational,MOFU,M,L,H,/bondi-blog/2023/8/8/does-bondi-beach-get-busy,own via existing
+does bondi beach get busy,Practical Q&A,informational,MOFU,M,L,H,/bondi-blog/2023/8/8/does-bondi-beach-get-busy,own via existing
+does bondi beach ever close,Practical Q&A,informational,MOFU,L,L,H,/bondi-blog/2025/1/20/does-bondi-beach-ever-close,own via existing
+best place to sit on bondi beach,Practical Q&A,informational,MOFU,L,L,H,/bondi-blog/2025/1/5/the-best-places-to-sit-on-bondi-beach-a-complete-guide,own via existing
+can you take a pram on the coastal walk,Practical Q&A,informational,MOFU,L,L,H,/bondi-coastal-walk,belongs-on-hub
+sunscreen shade at bondi beach,Practical Q&A,informational,MOFU,L,L,M,GAP,belongs-on-hub
+bondi beach etiquette rules,Practical Q&A,informational,TOFU,L,L,H,/bondi-blog/2023/10/18/bondi-beach-etiquette-guide,own via existing
+can you fly a drone at bondi beach,Practical Q&A,informational,MOFU,L,L,H,/bondi-blog/2023/9/11/can-you-fly-a-drone-at-bondi-beach-the-dos-and-donts-of-aerial-photography,own via existing
+smoking rules bondi beach,Practical Q&A,informational,MOFU,L,L,M,GAP,belongs-on-hub
+bondi beach opening hours,Practical Q&A,informational,MOFU,M,L,H,/bondi-blog/2025/1/20/does-bondi-beach-ever-close,belongs-on-hub
+is bondi beach patrolled by lifeguards,Practical Q&A,informational,MOFU,M,L,H,/bondi-blog/is-bondi-beach-patrolled-by-lifeguards,own via existing
+bondi lifeguard patrol hours,Practical Q&A,informational,MOFU,M,L,H,/bondi-blog/2025/1/5/surf-lifesaving-patrol-hours-at-bondi-bronte-tamarama,own via existing
+bondi beach events,Seasonal & events,informational,MOFU,M,L,H,/bondi-blog/bondi-beach-main-events,own via existing
+bondi beach events calendar 2026,Seasonal & events,informational,MOFU,M,L,H,/bondi-blog/10-biggest-events-bondi-beach,upgrade existing
+what's on in bondi this weekend,Seasonal & events,informational,MOFU,M,L,H,/bondi-blog/bondi-beach-main-events,belongs-on-hub
+bondi beach in summer,Seasonal & events,informational,TOFU,M,L,H,/bondi-blog/2024/1/1/must-do-bondi-summer-activities-for-first-time-visitors,own via existing
+bondi beach in winter,Seasonal & events,informational,TOFU,M,L,H,/bondi-blog/bondi-winter-magic,own via existing
+bondi beach christmas day,Seasonal & events,informational,MOFU,M,L,H,/bondi-blog/2023/12/13/christmas-day-at-bondi-beach,own via existing
+christmas at bronte beach,Seasonal & events,informational,MOFU,M,L,H,/bondi-blog/2024/12/26/australias-best-christmas-party-at-sydneys-bronte-beach,own via existing
+bondi beach new years eve,Seasonal & events,informational,MOFU,H,M,H,/bondi-blog/2023/12/24/insiders-guide-to-new-years-eve-at-bondi-beach,own via existing
+bondi nye fireworks 2026,Seasonal & events,informational,MOFU,M,M,H,/bondi-blog/2025/3/21/bondi-beach-new-years-eve-festival-returns-council-approves-iconic-celebrations-revival,upgrade existing
+bondi christmas lights streets,Seasonal & events,informational,MOFU,L,L,M,/bondi-blog/2024/12/1/a-festive-guide-best-streets-in-and-around-bondi-to-see-christmas-lights,own via existing
+australia day bondi beach,Seasonal & events,informational,MOFU,M,L,H,/bondi-blog/2024/1/13/a-guide-to-australia-day-at-bondi-beach,own via existing
+sculpture by the sea bondi 2026,Seasonal & events,informational,MOFU,M,L,H,/bondi-blog/2025/10/15/sculpture-by-the-seareturns-to-bondi-and-tamarama-what-you-need-to-know-in-2025,upgrade existing
+festival of the winds bondi,Seasonal & events,informational,MOFU,M,L,H,/bondi-blog/2023/9/9/soaring-high-at-bondi-beach-festival-of-the-winds,own via existing
+bondi markets saturday,Seasonal & events,informational,MOFU,M,M,H,/bondi-blog/2023/8/22/bondis-saturday-farmers-market-your-complete-guide-to-fresh-local-produce-by-the-beach,own via existing
+bondi markets sunday,Seasonal & events,informational,MOFU,M,M,H,/bondi-blog/2023/9/4/bond-market-sunday-guide,own via existing
+bondi farmers market opening hours,Seasonal & events,informational,BOFU,M,M,H,/bondi-blog/2023/8/22/bondis-saturday-farmers-market-your-complete-guide-to-fresh-local-produce-by-the-beach,own via existing
+whale watching bondi beach,Seasonal & events,informational,MOFU,M,M,H,/bondi-blog/whale-watching-bondi-beach,own via existing
+whale watching season sydney when,Seasonal & events,informational,MOFU,M,M,H,/bondi-blog/whale-watching-bondi-guide-2024,own via existing
+can you see dolphins at bondi,Seasonal & events,informational,MOFU,L,L,H,/bondi-blog/2024/1/25/can-you-see-dolphins-at-bondi-beach,own via existing
+city2surf bondi finish,Seasonal & events,informational,MOFU,M,L,H,/bondi-blog/ultimate-guide-city-to-surf,own via existing
+city2surf training plan,Seasonal & events,informational,MOFU,M,L,H,/bondi-blog/city-to-surf-training-plan,own via existing
+sydney marathon bondi,Seasonal & events,informational,MOFU,M,L,H,/bondi-blog/2024/9/7/an-insiders-guide-to-the-sydney-marathon-2024,own via existing
+best time to visit bondi beach,Seasonal & events,informational,MOFU,H,L,H,/bondi-blog/best-time-to-visit-bondi-beach,own via existing
+bondi beach weather,Seasonal & events,informational,TOFU,H,L,H,/bondi-weather,own via existing
+bondi beach weather forecast,Seasonal & events,informational,MOFU,M,L,M,/bondi-weather,own via existing
+bondi beach temperature today,Seasonal & events,informational,MOFU,M,L,M,/bondi-blog/Bondi-beach-temperature,own via existing
+bondi beach sunrise time,"Photography, sunrise & sunset",informational,MOFU,M,L,H,/bondi-blog/sunrise-sunset-bondi,own via existing
+bondi beach sunset,"Photography, sunrise & sunset",informational,MOFU,M,L,H,/bondi-blog/sunrise-sunset-bondi,own via existing
+best photo spots bondi beach,"Photography, sunrise & sunset",informational,TOFU,M,L,H,/bondi-blog/sunrise-sunset-bondi,belongs-on-hub
+bondi instagram spots,"Photography, sunrise & sunset",informational,TOFU,M,L,M,/bondi-blog/hidden-gems-bondi-beach,belongs-on-hub
+bondi icebergs photo spot,"Photography, sunrise & sunset",informational,TOFU,M,L,M,/bondi-icebergs,belongs-on-hub
+where to watch sunrise in bondi,"Photography, sunrise & sunset",informational,MOFU,L,L,H,/bondi-blog/sunrise-sunset-bondi,own via existing
+is bondi beach safe,Safety & hazards,informational,TOFU,M,L,H,/bondi-blog/2024/1/21/is-bondi-beach-a-safe-area-crime-rate,own via existing
+bondi beach crime rate,Safety & hazards,informational,MOFU,L,L,H,/bondi-blog/2024/1/21/is-bondi-beach-a-safe-area-crime-rate,own via existing
+pickpockets thieves bondi beach,Safety & hazards,informational,MOFU,L,L,H,/bondi-blog/2025/1/5/are-there-thieves-or-pickpockets-at-bondi-beach,own via existing
+are there sharks at bondi beach,Safety & hazards,informational,MOFU,M,L,H,/bondi-blog/2023/9/28/bondi-beach-and-the-shark-question-unraveling-the-mystery,own via existing
+shark attacks bondi beach history,Safety & hazards,informational,MOFU,M,L,H,/bondi-blog/2023/9/28/bondi-beach-and-the-shark-question-unraveling-the-mystery,own via existing
+bondi beach bluebottle season,Safety & hazards,informational,MOFU,M,L,H,/bondi-blog/2024/9/8/is-it-safe-to-swim-at-bondi-beach-a-complete-guide,belongs-on-hub
+bondi uv index sun safety,Safety & hazards,informational,MOFU,L,L,M,/bondi-weather,belongs-on-hub
+are there snakes in bondi,Safety & hazards,informational,TOFU,L,L,H,/bondi-blog/2025/10/13/are-there-snakes-in-bondi,own via existing
+bondi beach safety signs meaning,Safety & hazards,informational,MOFU,L,L,H,/bondi-blog/2025/1/5/understanding-bondi-beach-safety-signs,own via existing
+what to do if caught in a rip bondi,Safety & hazards,informational,MOFU,M,L,H,/bondi-blog/2024/9/8/is-it-safe-to-swim-at-bondi-beach-a-complete-guide,belongs-on-hub
+backpackers rip bondi,Safety & hazards,informational,MOFU,L,L,H,/bondi-blog/2024/9/8/is-it-safe-to-swim-at-bondi-beach-a-complete-guide,belongs-on-hub
+is bondi beach expensive,Costs & money,informational,TOFU,M,M,H,/visit-bondi-beach-guide,belongs-on-hub
+bondi beach on a budget,Costs & money,informational,MOFU,M,M,H,/bondi-blog/bondi-beach-cheap-food,belongs-on-hub
+how much does a day at bondi cost,Costs & money,informational,MOFU,L,M,H,/visit-bondi-beach-guide,belongs-on-hub
+free things to do bondi no money,Costs & money,informational,TOFU,M,L,H,/things-to-do-in-bondi,belongs-on-hub
+tamarama beach,Neighbourhoods & nearby,navigational,TOFU,M,L,M,/tamarama-beach,own via existing
+bronte beach,Neighbourhoods & nearby,navigational,TOFU,M,L,M,/bronte-beach,own via existing
+mackenzies bay bondi,Neighbourhoods & nearby,informational,TOFU,L,L,H,/mackenzies-bay,own via existing
+nielsen park sydney,Neighbourhoods & nearby,navigational,TOFU,M,L,M,/bondi-blog/2025/1/4/nielsen-park-your-guide-to-sydneys-beloved-coastal-escape,own via existing
+waverley cemetery bondi,Neighbourhoods & nearby,informational,TOFU,L,L,M,/bondi-blog/waverley-cemetery-sydney-australia,own via existing
+gertrude and alice bookstore bondi,Neighbourhoods & nearby,navigational,TOFU,L,L,M,/bondi-blog/Sydney’s-best-bookstore-gertude-alice,own via existing
+hidden beaches near bondi,Neighbourhoods & nearby,informational,TOFU,M,L,H,/bondi-blog/2025/1/1/locals-guide-to-sydneys-20-best-hidden-beaches,own via existing
+day trips from bondi,Neighbourhoods & nearby,informational,TOFU,M,M,M,/bondi-blog/2023/8/10/a-guide-to-sydneys-eastern-suburbs-beaches,belongs-on-hub
+moving to bondi beach,Moving & living,informational,MOFU,M,M,H,/bondi-blog/2024/12/13/moving-to-bondi-your-complete-guide-to-life-by-the-beach,own via existing
+is bondi a good place to live,Moving & living,informational,MOFU,M,M,H,/bondi-blog/is-bondi-good-to-live,own via existing
+cost of living bondi,Moving & living,informational,MOFU,M,M,M,/bondi-blog/2024/12/13/moving-to-bondi-your-complete-guide-to-life-by-the-beach,belongs-on-hub
+finding a housemate in bondi,Moving & living,informational,MOFU,L,M,M,/bondi-blog/2024/9/16/how-to-find-a-housemate-in-bondi-beach,own via existing
+bondi rent prices,Moving & living,informational,MOFU,M,M,M,/bondi-blog/2024/12/13/moving-to-bondi-your-complete-guide-to-life-by-the-beach,belongs-on-hub
+bondi rescue lifeguards,Bondi Rescue & pop culture,informational,TOFU,M,L,H,/bondi-rescue,own via existing
+who are the bondi rescue lifeguards,Bondi Rescue & pop culture,informational,TOFU,M,L,H,/bondi-blog/meet-bondi-lifeguards,own via existing
+bondi rescue facts behind the scenes,Bondi Rescue & pop culture,informational,TOFU,M,L,H,/bondi-blog/2025/4/29/behind-the-scenes-at-bondi-rescue-20-things-you-may-not-know-about-the-show,own via existing
+most dramatic bondi rescue moments,Bondi Rescue & pop culture,informational,TOFU,M,L,M,/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue,own via existing
+where is bondi rescue filmed,Bondi Rescue & pop culture,informational,TOFU,M,L,H,/bondi-rescue,belongs-on-hub
+bondi beach film locations,Bondi Rescue & pop culture,informational,TOFU,L,L,M,GAP,NEW page
+bondi beach with kids,Kids & family,informational,MOFU,M,M,H,/bondi-with-kids,own via existing
+things to do in bondi with kids,Kids & family,informational,MOFU,M,M,H,/bondi-blog/best-kids-activities-bondi-beach,own via existing
+bondi beach playground,Kids & family,informational,MOFU,M,L,H,/bondi-blog/bondi-beach-playground-guide,own via existing
+best playgrounds near bondi,Kids & family,informational,MOFU,M,L,H,/bondi-blog/2024/9/23/locals-guide-to-the-best-kids-playgrounds-around-bondi,own via existing
+bondi kids school holiday activities,Kids & family,informational,MOFU,M,M,H,/bondi-blog/2025/1/7/top-things-to-do-in-bondi-for-kids-during-school-holidays,own via existing
+is bondi beach good for families,Kids & family,informational,MOFU,M,M,H,/bondi-with-kids,belongs-on-hub
+bondi baby change facilities,Kids & family,informational,MOFU,L,L,M,/bondi-blog/bondi-beach-toilets-showers-change-rooms,belongs-on-hub
+bondi running routes,Fitness & wellness,informational,MOFU,M,L,H,/bondi-blog/2024/3/19/bondis-best-running-routes,own via existing
+bondi outdoor gym,Fitness & wellness,informational,TOFU,M,L,H,/bondi-blog/bondi-muscle-beach,own via existing
+bondi beach run club,Fitness & wellness,informational,MOFU,L,L,M,/bondi-blog/2023/11/9/the-440-run-club-at-bronte-beach-sydneys-open-invitation-for-runners,own via existing
+bondi ocean swimming groups,Fitness & wellness,informational,MOFU,L,L,M,/bondi-blog/everything-to-know-bondi-salties-ocean-swimming,own via existing
+bondi pilates yoga studios,Fitness & wellness,commercial,MOFU,M,M,M,GAP,NEW page
+cold water swimming bondi winter,Fitness & wellness,informational,MOFU,L,L,M,/bondi-blog/bondi-winter-magic,belongs-on-hub
+bondi beach wedding venues,Occasions & groups,commercial,MOFU,M,H,M,GAP,NEW page
+proposal spots bondi beach,Occasions & groups,informational,MOFU,L,M,M,GAP,NEW page
+hens party bondi ideas,Occasions & groups,commercial,MOFU,L,M,M,GAP,NEW page
+bucks party bondi,Occasions & groups,commercial,MOFU,L,M,M,GAP,NEW page
+group activities bondi beach,Occasions & groups,commercial,MOFU,L,M,M,/things-to-do-in-bondi,belongs-on-hub
+bondi beach birthday party ideas,Occasions & groups,commercial,MOFU,L,M,M,GAP,belongs-on-hub
+bondi beach tours,Tours & experiences,commercial,BOFU,M,H,H,/tours,own via existing
+best bondi tours for visitors,Tours & experiences,commercial,BOFU,M,H,H,/bondi-blog/2024/10/9/best-bondi-beach-tours-for-sydney-visitors,own via existing
+bondi walking tour,Tours & experiences,commercial,BOFU,M,H,M,/bondi-blog/bondi-beach-tour-guide,own via existing
+bondi to coogee guided walk tour,Tours & experiences,commercial,BOFU,L,H,M,/tours,belongs-on-hub
+sydney tour including bondi,Tours & experiences,commercial,BOFU,M,H,M,/tours,belongs-on-hub
+bondi sightseeing bus,Tours & experiences,commercial,BOFU,L,M,M,/tours,belongs-on-hub
+accessible beach bondi disability,Accessibility & inclusion,informational,MOFU,L,L,H,/bondi-blog/2025/1/5/exploring-bondi-beach-a-guide-to-wheelchair-access,own via existing
+beach matting bondi mobility,Accessibility & inclusion,informational,MOFU,L,L,M,/bondi-blog/2025/1/5/exploring-bondi-beach-a-guide-to-wheelchair-access,belongs-on-hub
+bondi lgbtq friendly bars,Accessibility & inclusion,commercial,MOFU,L,M,M,GAP,NEW page
+bondi backpacker guide,Backpacker & budget travel,informational,MOFU,M,M,H,/bondi-blog/accommodation-options-for-backpackers-in-bondi-beach,own via existing
+orphans christmas bronte backpackers,Backpacker & budget travel,informational,MOFU,L,L,M,/bondi-blog/2025/6/21/bronte-beach-backpackers-christmas-2025-ultimate-guide-for-the-orphans-christmas-celebration,own via existing
+working holiday bondi tips,Backpacker & budget travel,informational,MOFU,L,M,M,/bondi-blog/2025/6/14/25-essential-hacks-for-starting-a-new-life-in-australia-the-ultimate-aussie-arrival-guide,own via existing
+bondi beach from cruise ship,Cruise & day visitors,informational,MOFU,L,M,M,/getting-to-bondi,NEW page
+bondi day trip from circular quay cruise,Cruise & day visitors,informational,MOFU,L,M,M,/bondi-blog/day-trip-bondi-beach-top-tips,belongs-on-hub
+ev charging near bondi beach,Practical services & EV,informational,MOFU,L,M,M,GAP,NEW page
+electric car charging bondi,Practical services & EV,informational,MOFU,L,M,M,GAP,NEW page
+bondi beach lockers hire,Practical services & EV,transactional,BOFU,L,M,M,GAP,NEW page
+pharmacy near bondi beach,Practical services & EV,informational,MOFU,L,L,L,GAP,belongs-on-hub
+dog friendly bondi,Dog-friendly,informational,MOFU,M,M,H,GAP,NEW page
+dog beaches near bondi,Dog-friendly,informational,MOFU,M,L,H,GAP,NEW page
+dog friendly walks near bondi,Dog-friendly,informational,MOFU,L,L,M,GAP,belongs-on-hub

@@ -1,0 +1,103 @@
+rank,score,type,cluster,opportunity,traffic,commercial,rankWin,aiUseful,topicalAuth,backlink,strategic
+1,87,Create,Coastal,Complete the Bondi→Coogee coastal-walk cluster (pillar + 5 spokes + link web),4,3,5,4,5,5,5
+2,81.8,Create,Architecture,Parking hub (/bondi-parking) above the 4 parking winners,5,2,5,3,5,3,5
+3,77.4,Upgrade,Moat,"Defend & expand the Bondi Rescue moat (site’s #1 topic, 3,452 views)",5,2,5,3,4,3,4
+4,76.8,Create,Gap,Surf lessons editorial guide (decision layer above Viator/GYG),3,5,5,4,3,2,4
+5,76.4,Upgrade,Architecture,Promote /where-to-swim to a full Swim hub (Pools/Safety/Conditions),5,2,4,4,4,3,4
+6,76,Tool,Features,/bondi-map interactive layered facilities map (flagship link magnet),3,3,4,4,4,5,5
+7,75.6,Create,Gap,Bondi accessibility guide (wheelchair/matting/step-free) — moat + links,3,2,5,4,4,5,4
+8,75,Upgrade,Moat,Canonical swim-safety hub (rips/flags/patrol/bluebottles/sharks),4,1,5,5,4,3,3
+9,74.8,Upgrade,AEO,Safety cluster AEO retrofit (12 Qs: answer-first + FAQ + source),4,1,5,5,4,2,4
+10,73.8,Merge,Cannibalization,"Consolidate the Icebergs ""can you swim / access / hours"" swarm (~8 pages)",4,2,4,5,4,2,4
+11,73.4,Create,Architecture,City2Surf & Running hub — rescue orphaned Sydney Marathon pages,4,2,5,3,4,3,4
+12,73.4,Upgrade,AEO,Parking cluster AEO retrofit (options table + free-spot FAQ),4,1,5,5,4,2,3
+13,73,Tool,Research,Bondi Coffee Price Index — annual flagship dataset (/bondi-coffee-price-index),3,2,4,4,4,5,5
+14,72.8,Create,Gap,"Bondi vs CBD ""where to stay"" decision page",3,5,4,4,3,2,4
+15,72.6,Tool,Features,Ocean-pool guide + closure/status tracker (Icebergs/Bronte),4,2,4,4,4,4,3
+16,72.6,Create,Coastal,"Standalone: coastal-walk accessibility (step-free, matting, ramps)",3,1,5,4,4,5,4
+17,72.4,Upgrade,AEO,Icebergs cluster AEO retrofit (definitional + volatile-price handling),4,2,4,5,4,2,3
+18,71.6,Tool,Research,Coastal-walk dataset & map (segment times/gradient/steps/access),3,2,4,4,4,5,4
+19,71.2,Create,AEO,Add `answer` + `table` block types + renderers (AEO substrate),3,2,4,5,4,2,5
+20,71,Create,Coastal,Standalone: toilets & facilities along the Bondi→Coogee walk,3,1,5,5,4,3,3
+21,70.8,Merge,Cannibalization,"Consolidate the 6-page ""ultimate Bondi travel guide"" cannibal cluster",4,2,4,3,5,2,4
+22,70.8,Upgrade,Moat,Strengthen /things-to-do-in-bondi to actually rank p1 for the head term,4,3,4,3,4,2,4
+23,69.8,Upgrade,Cannibalization,Expand best-restaurants-bondi-beach survivor BEFORE it absorbs redirects,3,4,4,3,4,2,4
+24,68.8,Directory,Directory,Surf schools directory (/bondi-surf-schools) on the venue template,2,5,4,3,4,2,4
+25,68.8,Directory,Directory,Activities / experiences directory + affiliate feed,3,5,3,3,4,2,4
+26,68.4,Schema,Schema,Coastal-walk TouristAttraction + HowTo schema,3,2,4,4,4,3,4
+27,68.4,Upgrade,AEO,Transport AEO retrofit — airport→Bondi options table,3,3,4,5,3,2,3
+28,68.4,Create,Coastal,Standalone: cafes to eat before/after the coastal walk,3,4,4,4,3,2,3
+29,68,Upgrade,Gap,Bondi vs Manly (and vs Coogee/Bronte) comparison hub,3,2,5,4,3,3,3
+30,66.4,Create,Gap,Dog-friendly Bondi guide (rules + nearby dog beaches + cafes),3,2,5,4,3,2,3
+31,66.4,Merge,Cannibalization,Consolidate swim-safety / where-to-swim cannibal cluster,4,1,4,4,4,2,3
+32,65.8,Create,Architecture,Itineraries hub (feeds the /plan Day Planner),3,3,3,4,4,2,4
+33,65.8,Create,Architecture,"Surfing hub (/bondi-surfing) — thin now, high commercial intent",2,4,4,3,4,2,4
+34,65.4,Schema,Schema,"ItemList schema on ranked ""best X"" articles (AI top-N surface)",3,3,4,4,3,2,3
+35,65.4,Create,Gap,/bondi-luggage-storage utility page (Bounce/Stasher affiliate),2,4,5,4,2,2,3
+36,65.4,Merge,AEO,Bondi rules cluster (alcohol-free zones/BBQ/dogs/drones/fishing),3,1,4,5,4,2,3
+37,64.4,Create,Gap,Weddings / proposals / functions lead-gen page,2,5,4,3,3,2,3
+38,64.2,Upgrade,Architecture,Homepage: 12-hub front-door grid + plan band + footer mega-nav,3,3,3,2,5,2,5
+39,64,Upgrade,Moat,Deep seasonal weather + sea-temp extension (rainfall/wind/storm),3,1,4,4,4,3,3
+40,64,Create,Coastal,Standalone: whale watching on the coast (seasonal May–Nov),3,3,4,3,3,3,3
+41,63.8,Upgrade,AEO,Systematize 4–6 self-contained FAQs per practical page + FAQPage,3,1,4,5,3,2,4
+42,63.4,Create,Gap,"""Is Bondi worth visiting?"" consideration/persuasion page",3,1,5,4,3,2,3
+43,62.8,Upgrade,Commercial,/stay directory-style surfacing + affiliate CTAs (P0 revenue),3,5,3,2,3,2,4
+44,62.6,Tool,Features,"""Where to swim right now"" flags/rip live safety map",3,1,4,4,3,4,3
+45,62.4,Upgrade,Architecture,Kids/family hub consolidation (scattered kids posts → /bondi-with-kids),3,2,4,3,4,2,3
+46,61.2,Schema,E-E-A-T,Named authors + bios + /team pages + Person schema (@id → Bondi place),2,1,4,4,4,2,5
+47,61,Create,Coastal,Standalone: Sculpture by the Sea (seasonal Oct–Nov),3,2,4,3,3,3,3
+48,60.8,Upgrade,Freshness,"""Last locally checked: [date]"" visible convention (volatile classes)",3,1,4,4,3,2,4
+49,57.4,Create,Gap,Active-water experiences (SUP/kayak/scuba/bike/yoga) commercial pages,2,4,3,3,3,2,3
+50,57,Create,Gap,Bondi film & TV locations map (Bondi Rescue tourism),2,2,4,3,3,3,3
+51,56.4,Upgrade,Cannibalization,Expand city2surf-course-map stub (55w) before it absorbs equity,3,1,4,3,3,2,3
+52,54.8,Technical,Technical,"Rewrite the 36 over-length titles (≤60ch, keyword-first) for CTR",4,2,3,2,3,1,3
+53,54.6,Schema,Schema,Dataset JSON-LD helper (backs BCPI + coastal dataset),2,1,3,4,3,4,3
+54,54.4,Directory,Directory,Attractions directory from locations.ts (beaches/pools/landmarks),2,2,3,3,4,2,3
+55,54.4,Upgrade,Freshness,"""What’s changed since last time"" required section on recommendation pages",2,2,3,4,3,2,3
+56,54.4,Upgrade,Moat,Sunday’s Bondi / secret-eats freshness cadence (beat listicle publishers),2,3,3,3,3,2,3
+57,54,Merge,Moat,Markets definitive guide (Farmers Sat / Markets Sun / seasonal),2,2,4,3,3,2,2
+58,53,Tool,Features,"Bondi event calendar — structured, embeddable feed",2,2,3,3,3,3,3
+59,53,Schema,Schema,Best-of collection pages: add FAQPage + ordered ItemList,2,2,3,4,3,2,2
+60,53,Tool,Features,Bondi-with-kids facilities map layer (playgrounds/shade/change),2,2,3,3,3,3,3
+61,52.8,Create,E-E-A-T,fieldNote block convention (signed/dated first-hand observation),2,1,3,4,3,2,4
+62,52.8,Upgrade,Cannibalization,"Accommodation blog → /stay interlink (keep, don’t redirect protected)",2,4,3,2,3,1,3
+63,51.6,Tool,Research,"Cheapest-eats-in-Bondi index (BCPI companion, cost-of-living)",2,2,3,3,3,3,2
+64,51.2,Upgrade,AEO,Render lastReviewed + sources visibly on fact-bearing pages,2,1,3,4,3,1,4
+65,50.2,Commercial,Commercial,Viator + GetYourGuide provider adapter (tours/surf revenue),2,5,2,1,3,1,4
+66,50,Create,E-E-A-T,Original photography program + internal capture manifest,2,1,3,3,3,3,3
+67,49.4,Create,Gap,EV charging / wifi / practical-services utility page,1,1,5,4,2,1,2
+68,48.6,Tool,Research,Water-temperature year dataset + chart (fold into weather hub),2,1,3,3,3,3,2
+69,48.6,Tool,Features,Sunrise/sunset & golden-hour calculator (photographer-shareable),2,1,3,3,3,3,2
+70,48.6,Tool,Research,bluebottle / marine-stinger season tracker (seasonal press hook),2,1,3,3,3,3,2
+71,48.4,Create,Architecture,Add /coogee-beach location page (coastal-walk terminus),2,1,3,3,3,2,3
+72,48.4,Create,Architecture,Add /clovelly-beach location page (coastal-walk stop),2,1,3,3,3,2,3
+73,48.4,Merge,Cannibalization,Getting-there / transport small-batch merges (nearest-station etc.),2,1,3,3,3,2,3
+74,48.2,Technical,Freshness,freshnessClass field + scripts/freshness-audit.mjs + calendar,2,1,3,3,3,1,4
+75,48.2,Upgrade,Architecture,Internal-link orphan fix (marathon/coastal 0-view protected pages),2,1,3,2,4,1,4
+76,47,Directory,Directory,"Fitness / yoga / pilates directory (P2, keep-fresh gate)",2,2,3,2,3,2,2
+77,45.4,Schema,Schema,HubView + /articles ItemList completeness (real item objects),2,1,3,3,3,1,2
+78,45.4,Redirect,Cannibalization,Weather/temperature cannibal tidy (broken-slug redirects),2,1,3,3,3,1,2
+79,45.4,Schema,AEO,"howToJsonLd helper (rip-escape, Totti’s booking, C2S training)",2,1,3,4,2,1,2
+80,45.4,Upgrade,Gap,Are-Airbnb-legal / accommodation-legality explainer (distinct query),1,2,4,3,2,1,2
+81,45.2,Technical,Technical,Noindex the 6 legacy category pages + remove old-site escape link,2,1,3,1,4,1,4
+82,44.6,Commercial,Commercial,Turn on Travelpayouts affiliate tracking (env markers) on /stay CTAs,2,5,1,1,2,1,5
+83,44.2,Upgrade,Architecture,Grouped 6-heading mega-nav (replace flat 8-item nav),2,2,2,1,4,1,4
+84,43.8,Technical,Cannibalization,Thin/zero-demand consolidation pass (~52 pages: 301 or noindex),2,1,3,2,3,1,3
+85,43,Schema,Schema,Icebergs entity sameAs (Wikipedia/official) on sub-entity,1,1,3,3,3,2,2
+86,41.6,Technical,Technical,Guard NEXT_PUBLIC_IS_PRODUCTION + post-deploy indexability smoke check,2,2,1,2,3,1,5
+87,39.8,Technical,Architecture,Footer: add Coastal Walk + Weather + Rescue hubs (sitewide anchors),2,1,2,1,4,1,3
+88,38.4,Commercial,Commercial,Airport transfers product in the activities/affiliate feed,2,3,2,1,2,1,2
+89,37.8,Commercial,Commercial,Newsletter capture (compounding owned audience) — start early,1,3,1,1,3,2,4
+90,36.2,Commercial,Commercial,GA4 outbound-click + sub_id capture (per-page revenue attribution),1,4,1,1,2,1,4
+91,35.8,Technical,Technical,nofollow noopener on every link to the old Squarespace liveUrl,1,1,2,1,4,1,3
+92,35.4,Redirect,Cannibalization,Fix 2 garbage Squarespace slugs (REPLACE + 301),1,1,3,1,3,1,2
+93,34.8,Commercial,Commercial,Fill Klook activity affiliate placeholders (board hire/photo walk/tour),1,4,1,1,2,1,3
+94,34.8,Commercial,Commercial,Premium/sponsored-listing system with a hard editorial firewall,1,4,1,1,2,1,3
+95,34.2,Schema,Integrity,Remove the shared generic venue image from Restaurant schema (integrity),1,1,2,1,3,1,4
+96,33.2,Commercial,Commercial,Affiliate disclosure component (layout + inline on CTAs),1,3,1,1,2,1,4
+97,33.2,Technical,Measurement,"Baseline AI-citation measurement (74-question panel, all engines)",1,1,1,3,2,1,4
+98,33.2,Technical,Measurement,Monthly measurement dashboard + report cadence,1,2,1,2,2,1,4
+99,31.4,Technical,Technical,Sitemap lastModified on STATIC_ROUTES (hubs/money pages),1,1,2,1,3,1,2
+100,31.4,Schema,Schema,WebSite @id + SearchAction (only if real search ships) + Org logo,1,1,2,2,2,1,2
+101,30.4,Commercial,Commercial,Restaurant booking CTAs (surface existing bookingUrl on venue pages),1,3,1,1,2,1,2
+102,25.8,Technical,Directory,"verify-script ""uniquely-useful"" gate for each new directory category",1,1,1,1,2,1,3
