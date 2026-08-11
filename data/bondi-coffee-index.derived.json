@@ -1,7 +1,7 @@
 {
   "generatedFrom": "data/bondi-coffee-index.csv",
-  "totalObservations": 14,
-  "headlineObservations": 14,
+  "totalObservations": 16,
+  "headlineObservations": 16,
   "lowConfidenceExcluded": 0,
   "years": [
     2026
@@ -15,17 +15,17 @@
   "byYear": {
     "2026": {
       "year": 2026,
-      "n": 14,
+      "n": 16,
       "median": 5.1,
-      "mean": 5.15,
+      "mean": 5.13,
       "min": 4.5,
       "max": 5.7,
-      "p25": 4.96,
+      "p25": 4.91,
       "p75": 5.5,
       "bands": {
-        "under5": 4,
+        "under5": 5,
         "b5_549": 4,
-        "b550_599": 6,
+        "b550_599": 7,
         "b6plus": 0
       }
     }
@@ -34,7 +34,7 @@
     {
       "year": 2026,
       "median": 5.1,
-      "n": 14,
+      "n": 16,
       "yoyAbs": null,
       "yoyPct": null
     }
@@ -56,6 +56,14 @@
       "price": 4.5,
       "item": "Flat White (regular)",
       "source_url": "https://www.upsouthbondicafe.com/_files/ugd/80823b_9a050ea0a033441390796afbbdcdf55a.pdf"
+    },
+    {
+      "venue_id": "harrys-bondi",
+      "venue_name": "Harry's Bondi",
+      "suburb": "",
+      "price": 4.5,
+      "item": "Espresso — White (seasonal blend)",
+      "source_url": "https://harrysbondi.com.au/wp-content/uploads/2023/07/Drink-menu.pdf"
     },
     {
       "venue_id": "cali-press",
@@ -146,6 +154,14 @@
       "source_url": "https://kazzibeachgreek.com.au/drinks-menu/"
     },
     {
+      "venue_id": "bennett-st-dairy",
+      "venue_name": "Bennett St Dairy",
+      "suburb": "bondi-road",
+      "price": 5.5,
+      "item": "Flat White",
+      "source_url": "https://drive.google.com/uc?export=download&id=1O5WFhas5tLjxr4MZyqTISxZ1D_dUbE8A"
+    },
+    {
       "venue_id": "bean-tree-cafe",
       "venue_name": "Bean Tree Cafe",
       "suburb": "bondi-road",
@@ -171,14 +187,14 @@
     "source_url": "https://www.beantreecafe.org/menus"
   },
   "currentBands": {
-    "under5": 4,
+    "under5": 5,
     "b5_549": 4,
-    "b550_599": 6,
+    "b550_599": 7,
     "b6plus": 0
   },
-  "currentN": 14,
+  "currentN": 16,
   "matched": {
-    "n": 14,
+    "n": 16,
     "medianFrom": 5.1,
     "medianTo": 5.1,
     "medianPct": 0,
@@ -294,10 +310,26 @@
         "to": 5.5,
         "abs": 0,
         "pct": 0
+      },
+      {
+        "venue_id": "harrys-bondi",
+        "venue_name": "Harry's Bondi",
+        "from": 4.5,
+        "to": 4.5,
+        "abs": 0,
+        "pct": 0
+      },
+      {
+        "venue_id": "bennett-st-dairy",
+        "venue_name": "Bennett St Dairy",
+        "from": 5.5,
+        "to": 5.5,
+        "abs": 0,
+        "pct": 0
       }
     ]
   },
   "coveragePerYear": {
-    "2026": 14
+    "2026": 16
   }
 }
