@@ -72,9 +72,11 @@ function detailRows(c: Conditions): Labelled[] {
 }
 
 /**
- * Compact single-line bar (horizontally scrollable on small screens). Kept
- * deliberately unobtrusive — used high on the homepage where the full card would
- * dominate. The full written summary lives on the /bondi-weather hub.
+ * Conditions information panel — a slim band high on the homepage that shows the whole
+ * day's weather + surf at once (no horizontal scroll). The stats wrap into a responsive
+ * auto-fitting grid, so every figure — including the richer surf/sun detail — stays
+ * visible at any width. Same compact type size throughout. The full written summary lives
+ * on the /bondi-weather hub.
  */
 function ConditionsBar({ c }: { c: Conditions }) {
   const { location, current } = c;
@@ -83,28 +85,49 @@ function ConditionsBar({ c }: { c: Conditions }) {
   const label = current?.weather?.label ?? c.today?.weather?.label ?? null;
   const updated = clockTime(c.weatherMeta?.providerUpdatedAt ?? null);
 
+  // Everything in one panel: the headline stats plus the detail that used to hide behind
+  // the scroll. Keep the long-form "Outlook" out of the grid (shown as a caption below).
+  const stats = [...compactRow(c), ...detailRows(c).filter((r) => r.label !== 'Outlook')];
+  const outlook = detailRows(c).find((r) => r.label === 'Outlook')?.value ?? null;
+
   return (
     <section
       aria-label={`Today's weather and surf in ${location.displayName}`}
       className="border-b border-sand-200 bg-sand-50"
     >
-      <div className="mx-auto max-w-6xl overflow-x-auto px-4">
-        <div className="flex items-center gap-x-3 whitespace-nowrap py-2 text-sm text-ink-700">
-          <span className="shrink-0 font-semibold text-ink-900">
-            <span aria-hidden="true">{emoji}</span> {temp != null ? `${temp}°` : '—'}
-          </span>
-          {label && <span className="shrink-0 text-ink-500">{label}</span>}
-          {compactRow(c).map((r) => (
-            <span key={r.label} className="shrink-0 border-l border-sand-200 pl-3">
-              <span className="text-ink-500">{r.label} </span>
-              <span className="font-medium text-ink-900">{r.value}</span>
+      <div className="mx-auto max-w-6xl px-4 py-2.5">
+        <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+          <p className="text-sm text-ink-700">
+            <span className="font-semibold text-ink-900">
+              <span aria-hidden="true">{emoji}</span> {temp != null ? `${temp}°` : '—'}
             </span>
-          ))}
-          {updated && <span className="shrink-0 border-l border-sand-200 pl-3 text-[11px] text-ink-500">Updated {updated}</span>}
-          <Link href="/bondi-weather" className="shrink-0 border-l border-sand-200 pl-3 font-medium text-ocean-700 hover:underline">
-            Full forecast →
-          </Link>
+            {label && <span className="ml-2 text-ink-500">{label}</span>}
+            <span className="ml-2 text-ink-400">· Bondi today</span>
+          </p>
+          <p className="flex items-center gap-x-3 text-xs text-ink-500">
+            {updated && <span>Updated {updated}</span>}
+            <Link href="/bondi-weather" className="font-medium text-ocean-700 hover:underline">
+              Full forecast →
+            </Link>
+          </p>
         </div>
+
+        {stats.length > 0 && (
+          <dl className="mt-2 grid grid-cols-[repeat(auto-fill,minmax(84px,1fr))] gap-x-4 gap-y-1.5 border-t border-sand-200 pt-2">
+            {stats.map((r) => (
+              <div key={r.label}>
+                <dt className="text-[11px] uppercase tracking-wide text-ink-500">{r.label}</dt>
+                <dd className="text-sm font-semibold text-ink-900">{r.value}</dd>
+              </div>
+            ))}
+          </dl>
+        )}
+
+        {outlook && (
+          <p className="mt-1.5 text-xs text-ink-500">
+            <span className="uppercase tracking-wide">Outlook</span> · {outlook}
+          </p>
+        )}
       </div>
     </section>
   );
