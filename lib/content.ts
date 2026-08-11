@@ -53,11 +53,13 @@ export interface ItineraryStop {
  */
 export type Block =
   | { type: 'p' | 'h2' | 'h3' | 'li' | 'quote'; text: string }
+  | { type: 'answer'; text: string }
   | { type: 'list'; items: string[] }
   | { type: 'localTip'; text: string }
   | { type: 'callout'; tone?: 'note' | 'warning'; title?: string; text: string }
   | { type: 'quickFacts'; items: QuickFact[] }
   | { type: 'faq'; items: FaqItem[] }
+  | { type: 'table'; caption?: string; columns: string[]; rows: string[][] }
   | { type: 'itinerary'; stops: ItineraryStop[] };
 
 export interface Source {
