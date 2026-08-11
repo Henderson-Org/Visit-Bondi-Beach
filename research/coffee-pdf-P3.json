@@ -1,0 +1,37 @@
+[
+  {
+    "venue_id": "bennett-st-dairy",
+    "venue_name": "Bennett St Dairy",
+    "suburb": "bondi-road",
+    "year": 2026,
+    "coffee_item": "Flat White",
+    "coffee_size": "regular",
+    "price_aud": 5.5,
+    "source_url": "https://drive.google.com/uc?export=download&id=1O5WFhas5tLjxr4MZyqTISxZ1D_dUbE8A",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "official-pdf",
+    "confidence": "HIGH",
+    "evidence_quote": "Flat White / Cappuccino Reg 5.5 Lrg 6.3",
+    "notes": "BEVERAGES PDF linked from official site bennettstdairy.com; coffee by Pablo & Rusty (Trailblazer Blend). Regular flat white = cappuccino = 5.5."
+  },
+  {
+    "SUMMARY": true,
+    "batch": "P3",
+    "checked": 11,
+    "verified": 1,
+    "pdf_found_no_price": [],
+    "no_pdf": [
+      "gday-bondi-cafe",
+      "oh-brian-cafe",
+      "will-and-co-hq-tasting-bar",
+      "bondi-boulangerie",
+      "chapter-one-caf-and-wine-room",
+      "lamrock-cafe",
+      "lulu-bondi",
+      "the-depot-bondi",
+      "ciao-bella-bondi",
+      "the-well"
+    ]
+  }
+]

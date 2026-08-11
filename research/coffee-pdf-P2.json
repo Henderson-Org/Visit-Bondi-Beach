@@ -1,0 +1,22 @@
+[
+  {
+    "SUMMARY": true,
+    "batch": "P2",
+    "checked": 12,
+    "verified": 0,
+    "pdf_found_no_price": ["rocker-bondi"],
+    "no_pdf": [
+      "funky-pies",
+      "drake-eatery",
+      "swich",
+      "la-piadina-bondi",
+      "makaveli",
+      "sefa-kitchen",
+      "sonoma-bakery-cafe-bondi",
+      "arabica-bondi",
+      "fran-ois-artisan-baker",
+      "savion-on-the-grill",
+      "shuk-bakery"
+    ]
+  }
+]
