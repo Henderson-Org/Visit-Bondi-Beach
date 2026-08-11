@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { featuredArticles } from '@/lib/content';
 import { GuideCard, guideCardFromPage } from '@/components/GuideCard';
 import { WeatherSurfSummary } from '@/components/WeatherSurfSummary';
+import { SurfCam } from '@/components/SurfCam';
 import { TodayRecommendations } from '@/components/TodayRecommendations';
 import { UpcomingEvents } from '@/components/events/UpcomingEvents';
 import { DayPlannerPromo } from '@/components/DayPlannerPromo';
@@ -87,6 +88,12 @@ export default function HomePage() {
           above the articles. One of the most prominent homepage modules. */}
       <div className="pt-8">
         <DayPlannerPromo variant="homepage" placement="homepage" />
+      </div>
+
+      {/* Live surf cam — a genuinely useful live feature, pairing with the conditions bar
+          above. Embedded iframe (North Bondi SLSC's own public camera). */}
+      <div className="pt-10">
+        <SurfCam />
       </div>
 
       <section className="mx-auto max-w-6xl px-4 pb-8 pt-10">
