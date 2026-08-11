@@ -1,38 +1,127 @@
 {
   "path": "/bondi-blog/2025/4/27/how-to-score-a-booking-at-tottis-bondi-without-the-stress",
   "voice": "first-person",
-  "lastReviewed": "2026-08-10",
+  "lastReviewed": "2026-08-11",
   "sources": [
-    { "label": "Totti's Bondi — Merivale (official venue page)", "url": "https://merivale.com/venues/tottis/" },
-    { "label": "Totti's Bondi Private Dining Room — Merivale", "url": "https://merivale.com/venues/tottis/bondi-private-dining-room/" },
-    { "label": "Introducing Totti's at The Royal Bondi — Merivale media release", "url": "https://merivale.com/news-press/tottis-media-release/" },
-    { "label": "Royal Hotel, Bondi — Wikipedia (address, 1902 build)", "url": "https://en.wikipedia.org/wiki/Royal_Hotel,_Bondi" }
+    {
+      "label": "Totti's Bondi — Merivale (official venue page)",
+      "url": "https://merivale.com/venues/tottis/"
+    },
+    {
+      "label": "Totti's Bondi Private Dining Room — Merivale",
+      "url": "https://merivale.com/venues/tottis/bondi-private-dining-room/"
+    },
+    {
+      "label": "Introducing Totti's at The Royal Bondi — Merivale media release",
+      "url": "https://merivale.com/news-press/tottis-media-release/"
+    },
+    {
+      "label": "Royal Hotel, Bondi — Wikipedia (address, 1902 build)",
+      "url": "https://en.wikipedia.org/wiki/Royal_Hotel,_Bondi"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "I've talked more friends and visitors through a Totti's reservation than I can count, so let me save you the midnight stress. The surest table is booked online through Merivale the moment your date opens — but if you've left it late, same-day walk-ins are genuinely welcome and cancellations reappear online all the time. Here's exactly how I'd go about it." },
-    { "type": "quickFacts", "items": [
-      { "label": "Where", "value": "At the back of The Royal, 283 Bondi Road (corner of Denham Street), Bondi" },
-      { "label": "Book via", "value": "Merivale online booking (merivale.com/venues/tottis)" },
-      { "label": "Phone", "value": "+61 2 9114 7371" },
-      { "label": "Walk-ins", "value": "Same-day walk-ins welcome (limited)" },
-      { "label": "The room", "value": "A 185-seat restaurant and courtyard; the woodfired bread is non-negotiable" }
-    ] },
-    { "type": "h2", "text": "How I'd book it" },
-    { "type": "p", "text": "Reservations run through Merivale's own system on the Totti's venue page — that's the one platform to use. Tables release a set window ahead of time, and that window shifts, so don't trust a fixed number you read on a blog. Open the booking calendar, scroll to the furthest bookable date, and work backwards from there." },
-    { "type": "list", "items": [
-      "Jump on the booking page the day your date first opens — lunch and prime dinner slots go fast.",
-      "Have your details ready (name, phone, card if requested) so you're not fumbling as tables vanish.",
-      "Bend on timing where you can: an early lunch or later dinner beats the 7pm-Saturday scramble, midweek beats the weekend, and a two or three slots in where a table of eight won't."
-    ] },
-    { "type": "localTip", "text": "Keep a tab open on the booking page even after you've missed your ideal night. Totti's spills into that big open courtyard, so when Bondi's weather turns, last-minute cancellations pop back online — I once grabbed a Saturday table on the Thursday before, just by refreshing at the right moment." },
-    { "type": "callout", "tone": "note", "title": "Larger groups and special occasions", "text": "Big tables, birthdays and set-menu events work differently from a standard booking, and Totti's has a private dining room too. For anything beyond a regular table, call the venue on +61 2 9114 7371 or use the enquiry form on the private dining page rather than the online booking." },
-    { "type": "p", "text": "No booking? Don't write off a spontaneous visit. A limited number of walk-in tables are held back each day, and your odds are best if you turn up early rather than at peak, keep the group small, and are happy to perch wherever they can seat you — a weekday afternoon is your friend. Failing that, a quick phone call the morning of can turn up a cancellation the website hasn't caught yet." },
-    { "type": "p", "text": "A bit of history for context: The Royal has anchored this corner of Bondi Road since 1902, and Merivale opened Totti's at the back of the pub in December 2018 with chefs Mike Eggert and Khan Danis. That pedigree is exactly why the room stays busy — and why a little planning pays off. Order the bread." },
-    { "type": "faq", "items": [
-      { "q": "How do I book a table at Totti's Bondi?", "a": "Through Merivale's online booking system on the Totti's venue page (merivale.com/venues/tottis), or by phone on +61 2 9114 7371. Booking online is the most reliable route for a standard table." },
-      { "q": "How far in advance do bookings open?", "a": "Tables release a set window ahead of your date, and that window can change over time. Rather than trusting a fixed number, open the booking calendar, scroll to the furthest date you can select, and book the moment your date first appears." },
-      { "q": "Does Totti's Bondi take walk-ins?", "a": "Yes — a limited number of same-day walk-in tables are held back. Arrive early rather than at peak, keep the group small, and you'll give yourself the best shot." },
-      { "q": "Where exactly is Totti's Bondi?", "a": "At the back of The Royal at 283 Bondi Road, on the corner of Denham Street, a short walk up from the beach. Check the official Merivale page for current opening hours before you go, as they change seasonally." }
-    ] }
+    {
+      "type": "p",
+      "text": "I've talked more friends and visitors through a [Totti's](/bondi-eat-and-drink/venues/tottis-bondi) reservation than I can count, so let me save you the midnight stress. The surest table is booked online through Merivale the moment your date opens — but if you've left it late, same-day walk-ins are genuinely welcome and cancellations reappear online all the time. Here's exactly how I'd go about it."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Where",
+          "value": "At the back of The Royal, 283 Bondi Road (corner of Denham Street), Bondi"
+        },
+        {
+          "label": "Book via",
+          "value": "Merivale online booking (merivale.com/venues/tottis)"
+        },
+        {
+          "label": "Phone",
+          "value": "+61 2 9114 7371"
+        },
+        {
+          "label": "Walk-ins",
+          "value": "Same-day walk-ins welcome (limited)"
+        },
+        {
+          "label": "The room",
+          "value": "A 185-seat restaurant and courtyard; the woodfired bread is non-negotiable"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How I'd book it"
+    },
+    {
+      "type": "p",
+      "text": "Reservations run through Merivale's own system on the Totti's venue page — that's the one platform to use. Tables release a set window ahead of time, and that window shifts, so don't trust a fixed number you read on a blog. Open the booking calendar, scroll to the furthest bookable date, and work backwards from there."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Jump on the booking page the day your date first opens — lunch and prime dinner slots go fast.",
+        "Have your details ready (name, phone, card if requested) so you're not fumbling as tables vanish.",
+        "Bend on timing where you can: an early lunch or later dinner beats the 7pm-Saturday scramble, midweek beats the weekend, and a two or three slots in where a table of eight won't."
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "Keep a tab open on the booking page even after you've missed your ideal night. Totti's spills into that big open courtyard, so when Bondi's weather turns, last-minute cancellations pop back online — I once grabbed a Saturday table on the Thursday before, just by refreshing at the right moment."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Larger groups and special occasions",
+      "text": "Big tables, birthdays and set-menu events work differently from a standard booking, and Totti's has a private dining room too. For anything beyond a regular table, call the venue on +61 2 9114 7371 or use the enquiry form on the private dining page rather than the online booking."
+    },
+    {
+      "type": "p",
+      "text": "No booking? Don't write off a spontaneous visit. A limited number of walk-in tables are held back each day, and your odds are best if you turn up early rather than at peak, keep the group small, and are happy to perch wherever they can seat you — a weekday afternoon is your friend. Failing that, a quick phone call the morning of can turn up a cancellation the website hasn't caught yet."
+    },
+    {
+      "type": "h2",
+      "text": "If Totti's is fully booked"
+    },
+    {
+      "type": "p",
+      "text": "If your date's a wash and nothing's opening up, you're not stuck — this stretch of Bondi is thick with Italian and special-occasion tables. For wood-fired pizza a short stroll north, [Da Orazio Pizza + Porchetta](/bondi-eat-and-drink/venues/da-orazio-pizza-porchetta) is my go-to; for a long, leisurely Italian lunch with a sliver of ocean, [Bondi Trattoria](/bondi-eat-and-drink/venues/bondi-trattoria) has held down Campbell Parade for years. If it's the occasion you're chasing rather than Totti's specifically, [Icebergs Dining Room and Bar](/bondi-eat-and-drink/venues/icebergs-dining-room-and-bar) brings the same handmade-pasta-with-a-view drama (book that one just as far ahead), while [Lola's Italian & Bar](/bondi-eat-and-drink/venues/lolas-italian-and-bar) is the easier walk-up when you haven't planned a thing. For the full spread, browse our roundup of [Bondi's best date-night restaurants](/bondi-eat-and-drink/date-night-bondi-beach) and [the best restaurants in Bondi](/bondi-eat-and-drink/best-restaurants-bondi-beach)."
+    },
+    {
+      "type": "p",
+      "text": "A bit of history for context: [The Royal](/bondi-eat-and-drink/venues/the-royal-bondi) has anchored this corner of Bondi Road since 1902, and Merivale opened Totti's at the back of the pub in December 2018 with chefs Mike Eggert and Khan Danis. That pedigree is exactly why the room stays busy — and why a little planning pays off. Order the bread."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Hungry for more of Bondi?",
+      "text": "Totti's is one table in a very deep field. Browse all 160+ Bondi eateries in our full [Bondi eat & drink guide](/bondi-eat-and-drink) — filter by cuisine, area, price or who you're dining with to find your next booking."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How do I book a table at Totti's Bondi?",
+          "a": "Through Merivale's online booking system on the Totti's venue page (merivale.com/venues/tottis), or by phone on +61 2 9114 7371. Booking online is the most reliable route for a standard table."
+        },
+        {
+          "q": "How far in advance do bookings open?",
+          "a": "Tables release a set window ahead of your date, and that window can change over time. Rather than trusting a fixed number, open the booking calendar, scroll to the furthest date you can select, and book the moment your date first appears."
+        },
+        {
+          "q": "Does Totti's Bondi take walk-ins?",
+          "a": "Yes — a limited number of same-day walk-in tables are held back. Arrive early rather than at peak, keep the group small, and you'll give yourself the best shot."
+        },
+        {
+          "q": "Where exactly is Totti's Bondi?",
+          "a": "At the back of [The Royal](/bondi-eat-and-drink/venues/the-royal-bondi) at 283 Bondi Road, on the corner of Denham Street, a short walk up from the beach. Check the official Merivale page for current opening hours before you go, as they change seasonally."
+        },
+        {
+          "q": "Where else can I eat if Totti's is booked out?",
+          "a": "Bondi has strong Italian and special-occasion alternatives nearby — [Da Orazio Pizza + Porchetta](/bondi-eat-and-drink/venues/da-orazio-pizza-porchetta), [Bondi Trattoria](/bondi-eat-and-drink/venues/bondi-trattoria), [Icebergs Dining Room and Bar](/bondi-eat-and-drink/venues/icebergs-dining-room-and-bar) and [Lola's Italian & Bar](/bondi-eat-and-drink/venues/lolas-italian-and-bar) among them. See our [best date-night restaurants](/bondi-eat-and-drink/date-night-bondi-beach) guide for more."
+        }
+      ]
+    }
   ]
 }

@@ -1,53 +1,148 @@
 {
   "path": "/bondi-blog/2024/2/12/an-insiders-guide-to-the-best-ice-cream-in-bondi",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-11",
   "sources": [
-    { "label": "Gelato Messina — Find a Store", "url": "https://gelatomessina.com/pages/stores" },
-    { "label": "Anita Gelato — Campbell Parade, Bondi Beach", "url": "https://www.anita-gelato.com/our-locations/campbell-parade-bondi-beach/" },
-    { "label": "Anita Gelato — Bondi Junction, Oxford Street", "url": "https://www.anita-gelato.com/our-locations/australia-bondi-junction-oxford-street/" },
-    { "label": "Mapo — official site", "url": "https://www.maponewtown.com/" },
-    { "label": "Broadsheet — Mapo Bondi", "url": "https://www.broadsheet.com.au/sydney/bondi/shops/mapo-bondi" }
+    {
+      "label": "Gelato Messina — Find a Store",
+      "url": "https://gelatomessina.com/pages/stores"
+    },
+    {
+      "label": "Anita Gelato — Campbell Parade, Bondi Beach",
+      "url": "https://www.anita-gelato.com/our-locations/campbell-parade-bondi-beach/"
+    },
+    {
+      "label": "Anita Gelato — Bondi Junction, Oxford Street",
+      "url": "https://www.anita-gelato.com/our-locations/australia-bondi-junction-oxford-street/"
+    },
+    {
+      "label": "Mapo — official site",
+      "url": "https://www.maponewtown.com/"
+    },
+    {
+      "label": "Broadsheet — Mapo Bondi",
+      "url": "https://www.broadsheet.com.au/sydney/bondi/shops/mapo-bondi"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you want the best ice cream in Bondi, three names do the heavy lifting: Gelato Messina, tucked just off the beach on Hall Street; and Anita Gelato and Mapo, near-neighbours on Campbell Parade a stone's throw from the sand. I've queued at all three between swims, and each earns its line for a different reason — Messina for playful, made-in-house specials, Anita for sheer dizzying choice, and Mapo for purist Italian gelato. Here's how I'd choose between them on a hot beach day, plus a few practical notes before you go." },
-    { "type": "quickFacts", "items": [
-      { "label": "Most flavours", "value": "Anita Gelato (around 150)" },
-      { "label": "Most inventive", "value": "Gelato Messina" },
-      { "label": "Best purist gelato", "value": "Mapo" },
-      { "label": "Where", "value": "Hall St & Campbell Parade" }
-    ] },
-    { "type": "callout", "tone": "note", "title": "A living guide", "text": "Opening hours, prices and the special-of-the-week all change often, and a couple of these shops run later hours over summer. I last checked this in August 2026 — confirm anything time-sensitive on each venue's own channels before a special trip." },
-
-    { "type": "h2", "text": "The three I'd send you to" },
-
-    { "type": "h3", "text": "Gelato Messina — Hall Street" },
-    { "type": "p", "text": "Messina is the Sydney gelato name everyone knows, and the Bondi shop on Hall Street — just back from the Campbell Parade beachfront — delivers the same thing that built the brand: a cabinet of well-made classics alongside a rotating run of weekly specials that can be genuinely absurd, the kind of dessert-in-a-scoop creations dreamed up in their own kitchen. Come here when you want something you can't get anywhere else and don't mind a queue on a Saturday night. I won't quote a flavour count, because the specials change constantly — check the current lineup on Messina's own site before you set your heart on one." },
-
-    { "type": "h3", "text": "Anita Gelato — Campbell Parade" },
-    { "type": "p", "text": "Anita started as a small gelateria in Tel Aviv and now runs on one overwhelming premise: choice. The Bondi Beach counter on Campbell Parade (there's a second store up at Bondi Junction) advertises around 150 hand-made flavours of gelato, sorbet and frozen yoghurt, with a broad spread of sugar-free and vegan options — so it's my pick when a group can't agree or someone's avoiding dairy. The move is to ask for a few tasting spoons before you commit; the staff are used to it." },
-
-    { "type": "h3", "text": "Mapo — Campbell Parade" },
-    { "type": "p", "text": "Mapo is the Bondi outpost of a well-regarded Newtown gelateria, and it's the one for purists. The focus is old-school Italian technique and natural ingredients — a short, serious menu built on things like Sicilian pistachio, Piedmont hazelnut, single-origin chocolate and a fior di latte that tastes of little more than very good milk. Because they skip stabilisers, the texture is softer and more fleeting than the big chains', which is rather the point. Come here when you care more about the gelato than the spectacle." },
-
-    { "type": "h2", "text": "How to choose" },
-    { "type": "list", "items": [
-      "Can't agree, or need vegan/sugar-free: Anita, for the sheer breadth of the counter.",
-      "Want a wild, only-in-Bondi special: Gelato Messina.",
-      "After a purist, grown-up scoop: Mapo.",
-      "Travelling with kids: any of the three, but Anita's tasting spoons make the great debate easier."
-    ] },
-
-    { "type": "localTip", "text": "All three sit within a few minutes' walk of each other around Hall Street and Campbell Parade, so on a warm evening you can honestly do a small crawl — a scoop at each and let the group vote on a winner." },
-
-    { "type": "faq", "items": [
-      { "q": "What is the best ice cream in Bondi?", "a": "It depends what you're after. For the widest choice (and vegan or sugar-free scoops) I'd send you to Anita Gelato on Campbell Parade; for inventive weekly specials, Gelato Messina on Hall Street; and for purist Italian gelato, Mapo, also on Campbell Parade." },
-      { "q": "Where is Gelato Messina in Bondi?", "a": "The Bondi shop is on Hall Street, just back from the beachfront on Campbell Parade. Check Messina's website for current opening hours before you go." },
-      { "q": "Does Bondi have vegan or dairy-free ice cream?", "a": "Yes. Anita Gelato lists a large range of vegan, sorbet and sugar-free flavours, and Mapo's fruit sorbets are dairy-free. Ask staff which of the day's flavours are dairy-free before you order." },
-      { "q": "How many flavours does Anita Gelato have?", "a": "Anita advertises around 150 hand-made flavours across gelato, sorbet and frozen yoghurt, and the lineup rotates, so the exact selection changes from day to day." },
-      { "q": "Are Bondi's ice cream shops walk-in?", "a": "Yes, all three are walk-in. Expect queues on hot afternoons and weekend evenings over summer, so go a little earlier or later to skip the worst of it." }
-    ] },
-
-    { "type": "p", "text": "Ice cream is half the appeal of a Bondi summer evening — swim, dry off, then wander up to Hall Street or Campbell Parade for a scoop as the light drops. For more on eating around the beach, see my [Bondi eat & drink guide](/bondi-eat-and-drink), and for the rest of a day here, [things to do in Bondi](/things-to-do-in-bondi)." }
+    {
+      "type": "p",
+      "text": "If you want the best ice cream in Bondi, three names do the heavy lifting: [Gelato Messina](/bondi-eat-and-drink/venues/gelato-messina-bondi), tucked just off the beach on Hall Street; and [Anita Gelato](/bondi-eat-and-drink/venues/anita-gelato-bondi) and [Mapo](/bondi-eat-and-drink/venues/mapo-bondi), near-neighbours on Campbell Parade a stone's throw from the sand. I've queued at all three between swims, and each earns its line for a different reason — Messina for playful, made-in-house specials, Anita for sheer dizzying choice, and Mapo for purist Italian gelato. Here's how I'd choose between them on a hot beach day, plus a few more spots for a specific craving and some practical notes before you go."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Most flavours",
+          "value": "Anita Gelato (around 150)"
+        },
+        {
+          "label": "Most inventive",
+          "value": "Gelato Messina"
+        },
+        {
+          "label": "Best purist gelato",
+          "value": "Mapo"
+        },
+        {
+          "label": "Where",
+          "value": "Hall St & Campbell Parade"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "A living guide",
+      "text": "Opening hours, prices and the special-of-the-week all change often, and a couple of these shops run later hours over summer. I last checked this in August 2026 — confirm anything time-sensitive on each venue's own channels before a special trip."
+    },
+    {
+      "type": "h2",
+      "text": "The three I'd send you to"
+    },
+    {
+      "type": "h3",
+      "text": "Gelato Messina — Hall Street"
+    },
+    {
+      "type": "p",
+      "text": "Messina is the Sydney gelato name everyone knows, and the Bondi shop on Hall Street — just back from the Campbell Parade beachfront — delivers the same thing that built the brand: a cabinet of well-made classics alongside a rotating run of weekly specials that can be genuinely absurd, the kind of dessert-in-a-scoop creations dreamed up in their own kitchen. Come here when you want something you can't get anywhere else and don't mind a queue on a Saturday night. I won't quote a flavour count, because the specials change constantly — check the current lineup on Messina's own site before you set your heart on one."
+    },
+    {
+      "type": "h3",
+      "text": "Anita Gelato — Campbell Parade"
+    },
+    {
+      "type": "p",
+      "text": "Anita started as a small gelateria in Tel Aviv and now runs on one overwhelming premise: choice. The Bondi Beach counter on Campbell Parade (there's a second store up at Bondi Junction) advertises around 150 hand-made flavours of gelato, sorbet and frozen yoghurt, with a broad spread of sugar-free and vegan options — so it's my pick when a group can't agree or someone's avoiding dairy. The move is to ask for a few tasting spoons before you commit; the staff are used to it."
+    },
+    {
+      "type": "h3",
+      "text": "Mapo — Campbell Parade"
+    },
+    {
+      "type": "p",
+      "text": "Mapo is the Bondi outpost of a well-regarded Newtown gelateria, and it's the one for purists. The focus is old-school Italian technique and natural ingredients — a short, serious menu built on things like Sicilian pistachio, Piedmont hazelnut, single-origin chocolate and a fior di latte that tastes of little more than very good milk. Because they skip stabilisers, the texture is softer and more fleeting than the big chains', which is rather the point. Come here when you care more about the gelato than the spectacle."
+    },
+    {
+      "type": "h2",
+      "text": "How to choose"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Can't agree, or need vegan/sugar-free: Anita, for the sheer breadth of the counter — and our [vegan & vegetarian Bondi guide](/bondi-eat-and-drink/vegan-vegetarian-bondi-beach) covers dairy-free meals for the rest of the day.",
+        "Want a wild, only-in-Bondi special: Gelato Messina.",
+        "After a purist, grown-up scoop: Mapo.",
+        "Travelling with kids: any of the three, but Anita's tasting spoons make the great debate easier — and our [family-friendly Bondi eats](/bondi-eat-and-drink/family-friendly-bondi-beach) rounds up where to feed everyone first."
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "All three sit within a few minutes' walk of each other around Hall Street and Campbell Parade, so on a warm evening you can honestly do a small crawl — a scoop at each and let the group vote on a winner."
+    },
+    {
+      "type": "h2",
+      "text": "A few more, for a specific craving"
+    },
+    {
+      "type": "p",
+      "text": "The big three earn the headlines, but they aren't the only cold thing worth chasing down here. If you want a fourth scoop with the same purist streak as Mapo, [Rivareno](/bondi-eat-and-drink/venues/rivareno-gelato-bondi-beach) makes Italian artisan gelato in small batches — a good back-up if the Mapo queue is long, or if you simply want to compare pistachios across town. For something lighter, [Yo-Chi](/bondi-eat-and-drink/venues/yo-chi-bondi-beach) does self-serve frozen yoghurt where you build your own cup and pile on the toppings — the easy win with kids and a cheaper, choose-your-own alternative to a scoop. And when you'd rather have fruit than dairy after a swim, [OAKBERRY](/bondi-eat-and-drink/venues/oakberry-acai-bondi-beach) blends açaí bowls with granola and fresh fruit — not ice cream, exactly, but the same cold-and-restorative job on a hot afternoon."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Still hungry for sweets?",
+      "text": "Ice cream is only one corner of Bondi's sweet tooth. For the cakes, pastries, doughnuts and bakeries that fill in the rest, browse our full [Bondi bakeries & sweets guide](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) — part of a searchable directory of 160+ local venues you can filter by cuisine, area, price or who you're eating with."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What is the best ice cream in Bondi?",
+          "a": "It depends what you're after. For the widest choice (and vegan or sugar-free scoops) I'd send you to Anita Gelato on Campbell Parade; for inventive weekly specials, Gelato Messina on Hall Street; and for purist Italian gelato, Mapo, also on Campbell Parade. Rivareno is a strong fourth if you want to keep comparing."
+        },
+        {
+          "q": "Where is Gelato Messina in Bondi?",
+          "a": "The Bondi shop is on Hall Street, just back from the beachfront on Campbell Parade. Check Messina's website for current opening hours before you go."
+        },
+        {
+          "q": "Does Bondi have vegan or dairy-free ice cream?",
+          "a": "Yes. Anita Gelato lists a large range of vegan, sorbet and sugar-free flavours, and Mapo's fruit sorbets are dairy-free; an açaí bowl at OAKBERRY is another dairy-free cool-down. Ask staff which of the day's flavours are dairy-free before you order, and see our [vegan & vegetarian guide](/bondi-eat-and-drink/vegan-vegetarian-bondi-beach) for dairy-free meals beyond dessert."
+        },
+        {
+          "q": "How many flavours does Anita Gelato have?",
+          "a": "Anita advertises around 150 hand-made flavours across gelato, sorbet and frozen yoghurt, and the lineup rotates, so the exact selection changes from day to day."
+        },
+        {
+          "q": "Are Bondi's ice cream shops walk-in?",
+          "a": "Yes, all three are walk-in. Expect queues on hot afternoons and weekend evenings over summer, so go a little earlier or later to skip the worst of it."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ice cream is half the appeal of a Bondi summer evening — swim, dry off, then wander up to Hall Street or Campbell Parade for a scoop as the light drops. For more on eating around the beach, see my [Bondi eat & drink guide](/bondi-eat-and-drink), and for the rest of a day here, [things to do in Bondi](/things-to-do-in-bondi)."
+    }
   ]
 }

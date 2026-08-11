@@ -1,40 +1,129 @@
 {
   "path": "/bondi-blog/2025/8/9/the-ultimate-bondi-beach-recovery-guide-for-sydney-marathon-runners",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-11",
   "sources": [
-    { "label": "TCS Sydney Marathon (official)", "url": "https://www.tcssydneymarathon.com/course" },
-    { "label": "Transport for NSW — trip planner", "url": "https://transportnsw.info/trip" },
-    { "label": "Bondi Icebergs Club", "url": "https://www.icebergs.com.au/" },
-    { "label": "Waverley Council — Bondi to Bronte coastal walk", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/coastal_walks" }
+    {
+      "label": "TCS Sydney Marathon (official)",
+      "url": "https://www.tcssydneymarathon.com/course"
+    },
+    {
+      "label": "Transport for NSW — trip planner",
+      "url": "https://transportnsw.info/trip"
+    },
+    {
+      "label": "Bondi Icebergs Club",
+      "url": "https://www.icebergs.com.au/"
+    },
+    {
+      "label": "Waverley Council — Bondi to Bronte coastal walk",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/coastal_walks"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you've just crossed the Sydney Marathon finish line at the Opera House and your legs are staging a mutiny, my advice is simple: come to Bondi. It's a short trip east, and nowhere in Sydney is better for trading your race bib for saltwater, a big breakfast and a slow walk. Here's how I'd spend the 24 hours after 42.2 kilometres — cold water first, real food second, gentle movement to loosen up." },
-    { "type": "quickFacts", "items": [
-      { "label": "From", "value": "Opera House finish → Bondi Beach" },
-      { "label": "First thing", "value": "Cold saltwater dip" },
-      { "label": "Best for", "value": "Sore quads, tight calves, post-race hunger" },
-      { "label": "Pace", "value": "Slow. Everything slow." }
-    ] },
-    { "type": "h2", "text": "Start with saltwater: the recovery dip" },
-    { "type": "p", "text": "Nothing resets tired legs like the ocean. Cold-water immersion is a runner's oldest trick for easing that day-after heaviness, and Bondi hands it to you for free. My first stop is always the Bondi Icebergs ocean pool at the southern end — the Pacific washes straight over the wall, so you get proper cold water without the shock of open surf. Session times and entry change with the seasons and swim squads, so check the Icebergs website first." },
-    { "type": "p", "text": "If the pool's busy or closed for a swell, wade in at the flagged section of the main beach instead, or head to the quieter north end near the Ben Buckler rocks. Keep it short — a few minutes is plenty the day after a race — and always swim between the red and yellow flags." },
-    { "type": "callout", "tone": "warning", "title": "Read the flags, not your ego", "text": "Post-marathon fatigue dulls your judgement in the water. Only swim between the red-and-yellow flags, never alone, and skip it if there's a strong swell or a rip warning. A recovery dip should leave you fresher, not fighting the ocean." },
-    { "type": "h2", "text": "Refuel like you earned it (you did)" },
-    { "type": "p", "text": "After a marathon your body wants protein, carbs and salt, and Bondi's café strip is built for it. My go-tos are the long-running names clustered around Hall Street — think a proper cooked breakfast, eggs, avocado, a big green bowl, and the flat white you've been dreaming about since the 30km mark. Harry's Bondi and Lox Stock & Barrel are reliable for a hearty post-run plate, plus plenty of smoothie spots for something lighter if your stomach's still settling." },
-    { "type": "localTip", "text": "Weekend mornings after a big event, the popular cafés get a queue. Wander one street back from the beachfront and you'll usually find a table faster — the coffee's just as good, and you're not fighting for a seat with half the field." },
-    { "type": "h2", "text": "Gentle movement, then do nothing" },
-    { "type": "p", "text": "Once you've eaten, the best thing for stiff legs is easy movement. The Bondi to Bronte coastal walk is the classic — clifftops, ocean the whole way, and you can turn back at Tamarama if the legs say enough. It's a footpath with some stairs rather than a flat stroll, so take it at a wander, not a march. Prefer flat? The promenade past the Bondi Pavilion does the job." },
-    { "type": "p", "text": "After that? Genuinely, do nothing. Find a patch of sand, watch the surfers, and let the afternoon go. Bondi's at its best when you stop ticking things off — and after a marathon, you've got the perfect excuse." },
-    { "type": "h2", "text": "Getting to Bondi from the finish" },
-    { "type": "p", "text": "Bondi sits in Sydney's eastern suburbs, a straightforward trip from the city. Plenty of runners take a train to Bondi Junction and hop a short bus down to the beach, or catch a direct eastern-suburbs bus. Exact routes and any race-day road closures shift around, so plug 'Bondi Beach' into the Transport for NSW trip planner on the day — it'll route you around whatever's closed." },
-    { "type": "faq", "items": [
-      { "q": "Is a cold ocean dip actually good for marathon recovery?", "a": "Cold-water immersion is a long-standing way to ease next-day soreness and that heavy-legged feeling, which is why so many runners swear by it. Keep it brief the day after a race and always swim between the flags where lifeguards can see you." },
-      { "q": "How do I get to Bondi Beach from the Sydney Marathon finish?", "a": "The finish is at the Opera House, and Bondi is a short trip east. Most people train to Bondi Junction then take a quick bus down, or catch a direct eastern-suburbs bus. Check the Transport for NSW trip planner on the day, since marathon road closures can shift routes." },
-      { "q": "Where can I swim at Bondi the day after the race?", "a": "The Bondi Icebergs ocean pool at the southern end is the local favourite for a controlled cold dip — check their website for current session times and entry. Otherwise swim between the red-and-yellow flags on the main beach, or try the quieter northern end." },
-      { "q": "What should I eat after the marathon?", "a": "Aim for a mix of protein, carbs and a bit of salt to help you rebound. The cafés around Hall Street and the beachfront do exactly that — a big cooked breakfast, eggs and avo, or a green bowl, plus a smoothie if your stomach's still settling." },
-      { "q": "Is the Bondi to Bronte walk too much the day after a marathon?", "a": "It's manageable if you take it slowly — it's a clifftop footpath with some stairs, not a flat stroll. Turn back at Tamarama if your legs have had enough, or stick to the flat beachfront promenade for genuinely gentle movement." }
-    ] },
-    { "type": "p", "text": "You spent months training and a long morning proving it. Bondi's the reward: cold water, good coffee, a slow walk and a sunset over the ocean. Rest well — you've earned it." }
+    {
+      "type": "p",
+      "text": "If you've just crossed the Sydney Marathon finish line at the Opera House and your legs are staging a mutiny, my advice is simple: come to Bondi. It's a short trip east, and nowhere in Sydney is better for trading your race bib for saltwater, a big breakfast and a slow walk. Here's how I'd spend the 24 hours after 42.2 kilometres — cold water first, real food second, gentle movement to loosen up."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "From",
+          "value": "Opera House finish → Bondi Beach"
+        },
+        {
+          "label": "First thing",
+          "value": "Cold saltwater dip"
+        },
+        {
+          "label": "Best for",
+          "value": "Sore quads, tight calves, post-race hunger"
+        },
+        {
+          "label": "Pace",
+          "value": "Slow. Everything slow."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Start with saltwater: the recovery dip"
+    },
+    {
+      "type": "p",
+      "text": "Nothing resets tired legs like the ocean. Cold-water immersion is a runner's oldest trick for easing that day-after heaviness, and Bondi hands it to you for free. My first stop is always the Bondi Icebergs ocean pool at the southern end — the Pacific washes straight over the wall, so you get proper cold water without the shock of open surf. Session times and entry change with the seasons and swim squads, so check the Icebergs website first."
+    },
+    {
+      "type": "p",
+      "text": "If the pool's busy or closed for a swell, wade in at the flagged section of the main beach instead, or head to the quieter north end near the Ben Buckler rocks. Keep it short — a few minutes is plenty the day after a race — and always swim between the red and yellow flags."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Read the flags, not your ego",
+      "text": "Post-marathon fatigue dulls your judgement in the water. Only swim between the red-and-yellow flags, never alone, and skip it if there's a strong swell or a rip warning. A recovery dip should leave you fresher, not fighting the ocean."
+    },
+    {
+      "type": "h2",
+      "text": "Refuel like you earned it (you did)"
+    },
+    {
+      "type": "p",
+      "text": "After a marathon your body wants protein, carbs and salt, and Bondi's café strip is built for it. My go-tos are the long-running names clustered around Hall Street — think a proper cooked breakfast, eggs, avocado, a big green bowl, and the flat white you've been dreaming about since the 30km mark. [Harry's Bondi](/bondi-eat-and-drink/venues/harrys-bondi) and [Lox Stock & Barrel](/bondi-eat-and-drink/venues/lox-stock-and-barrel) are reliable for a hearty post-run plate, plus plenty of smoothie spots for something lighter if your stomach's still settling. If you'd rather scan the full field before you commit, our roundup of [Bondi's best breakfast and brunch](/bondi-eat-and-drink/breakfast-brunch-bondi-beach) has the lot."
+    },
+    {
+      "type": "localTip",
+      "text": "Weekend mornings after a big event, the popular cafés get a queue. Wander one street back from the beachfront and you'll usually find a table faster — the coffee's just as good, and you're not fighting for a seat with half the field."
+    },
+    {
+      "type": "h2",
+      "text": "Gentle movement, then do nothing"
+    },
+    {
+      "type": "p",
+      "text": "Once you've eaten, the best thing for stiff legs is easy movement. The Bondi to Bronte coastal walk is the classic — clifftops, ocean the whole way, and you can turn back at Tamarama if the legs say enough. It's a footpath with some stairs rather than a flat stroll, so take it at a wander, not a march. Prefer flat? The promenade past the Bondi Pavilion does the job."
+    },
+    {
+      "type": "p",
+      "text": "After that? Genuinely, do nothing. Find a patch of sand, watch the surfers, and let the afternoon go. Bondi's at its best when you stop ticking things off — and after a marathon, you've got the perfect excuse."
+    },
+    {
+      "type": "h2",
+      "text": "Getting to Bondi from the finish"
+    },
+    {
+      "type": "p",
+      "text": "Bondi sits in Sydney's eastern suburbs, a straightforward trip from the city. Plenty of runners take a train to Bondi Junction and hop a short bus down to the beach, or catch a direct eastern-suburbs bus. Exact routes and any race-day road closures shift around, so plug 'Bondi Beach' into the Transport for NSW trip planner on the day — it'll route you around whatever's closed."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is a cold ocean dip actually good for marathon recovery?",
+          "a": "Cold-water immersion is a long-standing way to ease next-day soreness and that heavy-legged feeling, which is why so many runners swear by it. Keep it brief the day after a race and always swim between the flags where lifeguards can see you."
+        },
+        {
+          "q": "How do I get to Bondi Beach from the Sydney Marathon finish?",
+          "a": "The finish is at the Opera House, and Bondi is a short trip east. Most people train to Bondi Junction then take a quick bus down, or catch a direct eastern-suburbs bus. Check the Transport for NSW trip planner on the day, since marathon road closures can shift routes."
+        },
+        {
+          "q": "Where can I swim at Bondi the day after the race?",
+          "a": "The Bondi Icebergs ocean pool at the southern end is the local favourite for a controlled cold dip — check their website for current session times and entry. Otherwise swim between the red-and-yellow flags on the main beach, or try the quieter northern end."
+        },
+        {
+          "q": "What should I eat after the marathon?",
+          "a": "Aim for a mix of protein, carbs and a bit of salt to help you rebound. The cafés around Hall Street and the beachfront do exactly that — a big cooked breakfast, eggs and avo, or a green bowl, plus a smoothie if your stomach's still settling. Our [best breakfast and brunch](/bondi-eat-and-drink/breakfast-brunch-bondi-beach) roundup is a good place to pick a spot."
+        },
+        {
+          "q": "Is the Bondi to Bronte walk too much the day after a marathon?",
+          "a": "It's manageable if you take it slowly — it's a clifftop footpath with some stairs, not a flat stroll. Turn back at Tamarama if your legs have had enough, or stick to the flat beachfront promenade for genuinely gentle movement."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "You spent months training and a long morning proving it. Bondi's the reward: cold water, good coffee, a slow walk and a sunset over the ocean. Rest well — you've earned it."
+    }
   ]
 }
