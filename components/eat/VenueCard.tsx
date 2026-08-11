@@ -6,12 +6,12 @@ const TYPE_LABEL: Record<string, string> = {
   cafe: 'Café', restaurant: 'Restaurant', bar: 'Bar', pub: 'Pub', takeaway: 'Takeaway', bakery: 'Bakery',
 };
 
-/** Price as $–$$$$ (active glyphs inked, rest muted) — mirrors the Stay price treatment. */
+/** Price as $–$$$$. Render ONLY the active glyphs — padding out to four with muted signs
+ *  makes a $$ venue read as "$$$$" at a glance (mirrors the Stay price treatment). */
 function Price({ level }: { level: number }) {
   return (
-    <span className="font-medium tabular-nums" aria-label={`Price level ${level} of 4`}>
-      <span className="text-ink-900">{'$'.repeat(level)}</span>
-      <span className="text-ink-300">{'$'.repeat(4 - level)}</span>
+    <span className="font-medium tabular-nums text-ink-900" aria-label={`Price level ${level} of 4`}>
+      {'$'.repeat(level)}
     </span>
   );
 }
