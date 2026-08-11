@@ -1,0 +1,68 @@
+[
+  {
+    "venue_id": "porch-and-parlour",
+    "venue_name": "Porch & Parlour",
+    "suburb": "north-bondi",
+    "year": 2026,
+    "coffee_item": "Latte, Flat White, Cappuccino",
+    "coffee_size": "regular",
+    "price_aud": 5.50,
+    "source_url": "https://www.porchandparlour.com/menus",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "official-menu",
+    "confidence": "HIGH",
+    "evidence_quote": "Latte, Flat White, Cappuccino: $5.50",
+    "notes": "Official website drinks menu lists flat white together with latte/cappuccino at a single regular price of $5.50."
+  },
+  {
+    "venue_id": "speedos-cafe",
+    "venue_name": "Speedos Cafe",
+    "suburb": "north-bondi",
+    "year": 2026,
+    "coffee_item": "Vittoria Coffee (regular)",
+    "coffee_size": "regular",
+    "price_aud": 5.00,
+    "source_url": "https://speedoscafe.com.au/menu/",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "official-menu",
+    "confidence": "MEDIUM",
+    "evidence_quote": "Vittoria Coffee — regular $5.00; large $6.00 (strong/decaf +$1.00; soy/almond/oat/lactose free +$1.00)",
+    "notes": "Official menu lists a single 'Vittoria Coffee' line covering all standard espresso coffees (flat white/latte/cappuccino) rather than a flat-white-specific line; regular size $5.00 applies to a flat white. MEDIUM because item is a generic coffee line, not explicitly labelled flat white."
+  },
+  {
+    "venue_id": "cali-press",
+    "venue_name": "Cali Press",
+    "suburb": "bondi-beach",
+    "year": 2026,
+    "coffee_item": "8oz Flat White",
+    "coffee_size": "regular",
+    "price_aud": 4.80,
+    "source_url": "https://calipress.redcatcloud.com.au/api/v1/stores/4/menu",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "menu-platform",
+    "confidence": "HIGH",
+    "evidence_quote": "\"Name\":\"8oz Flat White\" ... \"Price\":480 (cents = $4.80); also \"6oz Flat White\":480, \"12oz Flat White\":530",
+    "notes": "Venue's own RedCat online-ordering menu API (StoreID 4 = Bondi Beach, 2/16 Hall St). Prices returned in cents. 6oz & 8oz Flat White = $4.80, 12oz Flat White = $5.30; regular/small taken as 8oz $4.80. Live pickup/ordering menu, not a third-party delivery app."
+  },
+  {
+    "SUMMARY": true,
+    "batch": "C",
+    "venues_checked": 12,
+    "verified_current": 3,
+    "verified_historical": 0,
+    "not_found_venue_ids": [
+      "sonoma-bakery-cafe-bondi",
+      "arabica-bondi",
+      "fran-ois-artisan-baker",
+      "savion-on-the-grill",
+      "shuk-bakery",
+      "bennett-st-dairy",
+      "bru-coffee-bondi",
+      "gday-bondi-cafe",
+      "oh-brian-cafe"
+    ]
+  }
+]

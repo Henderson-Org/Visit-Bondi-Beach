@@ -39,6 +39,8 @@ const STATIC_ROUTES: { path: string; priority: number }[] = [
   { path: '/articles', priority: 0.7 },
   // Bondi Day Planner
   { path: '/plan', priority: 0.7 },
+  // Original data feature — the Bondi Coffee Index
+  { path: '/bondi-coffee-price-index', priority: 0.7 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

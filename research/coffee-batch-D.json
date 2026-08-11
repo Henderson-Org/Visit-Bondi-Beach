@@ -1,0 +1,68 @@
+[
+  {
+    "venue_id": "pocket-bondi",
+    "venue_name": "Pocket Bondi",
+    "suburb": "campbell-parade",
+    "year": 2026,
+    "coffee_item": "flat white",
+    "coffee_size": "regular",
+    "price_aud": 5.5,
+    "source_url": "https://www.pocketbondi.com/s/pkt-brekkie.pdf",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "official-menu",
+    "confidence": "HIGH",
+    "evidence_quote": "flat white 5.5/6",
+    "notes": "Official breakfast/drinks PDF linked from pocketbondi.com (redirects to Squarespace CDN). Coffee section lists two sizes; regular/small = 5.5. cappuccino and latte also 5.5/6."
+  },
+  {
+    "venue_id": "surfish-bondi-seafood-cafe",
+    "venue_name": "Surfish Bondi Beach",
+    "suburb": "bondi-beach",
+    "year": 2026,
+    "coffee_item": "Flat White",
+    "coffee_size": "regular",
+    "price_aud": 5.5,
+    "source_url": "https://surfishbondibeach.com.au/menu",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "official-site",
+    "confidence": "HIGH",
+    "evidence_quote": "Flat White, Latte, Cappuccino, Long Black - Sml 5.5 Lrg 6.2",
+    "notes": "Grouped coffee line on official menu page; Sml (regular) = 5.5, Lrg = 6.2. Alt milk / extra shot / decaf +0.70 excluded per benchmark."
+  },
+  {
+    "venue_id": "blackwood-bondi",
+    "venue_name": "Blackwood Bondi",
+    "suburb": "north-bondi",
+    "year": 2026,
+    "coffee_item": "White (flat white / cappuccino / latte)",
+    "coffee_size": "regular",
+    "price_aud": 5.2,
+    "source_url": "https://cdn.prod.website-files.com/6818395422c5fd87768cd248/69c246d0f591f03a63a59262_WINTER%202026%20Framed%20.pdf",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "official-menu",
+    "confidence": "HIGH",
+    "evidence_quote": "White 5.2/6.2",
+    "notes": "WINTER 2026 menu PDF linked from blackwoodhospitality.com.au. 'White' is the milk-coffee (flat white/latte/cappuccino) line; regular 5.2, Large +1. Alternative milks +0.70."
+  },
+  {
+    "SUMMARY": true,
+    "batch": "D",
+    "venues_checked": 12,
+    "verified_current": 3,
+    "verified_historical": 0,
+    "not_found_venue_ids": [
+      "will-and-co-hq-tasting-bar",
+      "bondi-boulangerie",
+      "chapter-one-caf-and-wine-room",
+      "lamrock-cafe",
+      "lulu-bondi",
+      "mamis-bondi",
+      "the-depot-bondi",
+      "ciao-bella-bondi",
+      "the-tinpin-bakery"
+    ]
+  }
+]

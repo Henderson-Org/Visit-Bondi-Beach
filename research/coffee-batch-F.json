@@ -1,0 +1,37 @@
+[
+  {
+    "venue_id": "kazzi-beach-greek-bondi",
+    "venue_name": "Kazzi Beach Greek Bondi",
+    "suburb": "bondi-beach",
+    "year": 2026,
+    "coffee_item": "Flat White",
+    "coffee_size": "regular",
+    "price_aud": 5.5,
+    "source_url": "https://kazzibeachgreek.com.au/drinks-menu/",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "official-menu",
+    "confidence": "HIGH",
+    "evidence_quote": "Flat White Regular $ 5.5 Large $ 6.2 Mug $ 6.5",
+    "notes": "Verbatim from the official Hot & Cold Drinks menu page (kazzibeachgreek.com.au/drinks-menu/), retrieved via curl (WebFetch returned intermittent 503). Regular flat white = $5.50."
+  },
+  {
+    "SUMMARY": true,
+    "batch": "F",
+    "venues_checked": 11,
+    "verified_current": 1,
+    "verified_historical": 0,
+    "not_found_venue_ids": [
+      "bucklers-north-bondi",
+      "bondi-banh-mi",
+      "katipo-coffee-house",
+      "north-cafe-north-bondi",
+      "3-steps-cafe",
+      "guzman-y-gomez-bondi-beach",
+      "cortado-bondi-cafe",
+      "bondi-bikkies",
+      "bondi-relish",
+      "bondi-at-2026"
+    ]
+  }
+]

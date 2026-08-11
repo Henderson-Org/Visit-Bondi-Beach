@@ -1,0 +1,128 @@
+[
+  {
+    "venue_id": "the-crabbe-hole",
+    "year": 2026,
+    "price": 4.5,
+    "source_url": "https://ritual.co/order/the-crabbe-hole-poolside-bondi-icebergs-bondi-beach/635f",
+    "source_type": "menu-platform",
+    "confidence": "MEDIUM",
+    "quote": "\"Flat White\" - $4.50 (regular); \"Large Flat White\" - $5.50 (large)"
+  },
+  {
+    "venue_id": "gertrude-and-alice-cafe-bookstore",
+    "year": 2026,
+    "price": 5,
+    "source_url": "https://www.gertrudeandalice.com.au/cafe-menu/",
+    "source_type": "official-menu",
+    "confidence": "HIGH",
+    "quote": "COFFEE Regular $5 Large $5.70 Flat white, latte, long black, cappuccino, decaf, mocha, piccolo, macchiato, etc."
+  },
+  {
+    "venue_id": "glory-days",
+    "year": 2026,
+    "price": 5.5,
+    "source_url": "https://glorydaysbondi.com.au/",
+    "source_type": "official-site",
+    "confidence": "HIGH",
+    "quote": "latte, flat white, cappuccino, mocha, long black reg 5.5"
+  },
+  {
+    "venue_id": "porch-and-parlour",
+    "year": 2026,
+    "price": 5.5,
+    "source_url": "https://www.porchandparlour.com/menus",
+    "source_type": "official-menu",
+    "confidence": "HIGH",
+    "quote": "Latte, Flat White, Cappuccino: $5.50"
+  },
+  {
+    "venue_id": "speedos-cafe",
+    "year": 2026,
+    "price": 5,
+    "source_url": "https://speedoscafe.com.au/menu/",
+    "source_type": "official-menu",
+    "confidence": "MEDIUM",
+    "quote": "Vittoria Coffee — regular $5.00; large $6.00 (strong/decaf +$1.00; soy/almond/oat/lactose free +$1.00)"
+  },
+  {
+    "venue_id": "cali-press",
+    "year": 2026,
+    "price": 4.8,
+    "source_url": "https://calipress.redcatcloud.com.au/api/v1/stores/4/menu",
+    "source_type": "menu-platform",
+    "confidence": "HIGH",
+    "quote": "\"Name\":\"8oz Flat White\" ... \"Price\":480 (cents = $4.80); also \"6oz Flat White\":480, \"12oz Flat White\":530"
+  },
+  {
+    "venue_id": "pocket-bondi",
+    "year": 2026,
+    "price": 5.5,
+    "source_url": "https://www.pocketbondi.com/s/pkt-brekkie.pdf",
+    "source_type": "official-menu",
+    "confidence": "HIGH",
+    "quote": "flat white 5.5/6"
+  },
+  {
+    "venue_id": "surfish-bondi-seafood-cafe",
+    "year": 2026,
+    "price": 5.5,
+    "source_url": "https://surfishbondibeach.com.au/menu",
+    "source_type": "official-site",
+    "confidence": "HIGH",
+    "quote": "Flat White, Latte, Cappuccino, Long Black - Sml 5.5 Lrg 6.2"
+  },
+  {
+    "venue_id": "blackwood-bondi",
+    "year": 2026,
+    "price": 5.2,
+    "source_url": "https://cdn.prod.website-files.com/6818395422c5fd87768cd248/69c246d0f591f03a63a59262_WINTER%202026%20Framed%20.pdf",
+    "source_type": "official-menu",
+    "confidence": "HIGH",
+    "quote": "White 5.2/6.2"
+  },
+  {
+    "venue_id": "up-south-bondi",
+    "year": 2026,
+    "price": 4.5,
+    "source_url": "https://www.upsouthbondicafe.com/_files/ugd/80823b_9a050ea0a033441390796afbbdcdf55a.pdf",
+    "source_type": "official-menu",
+    "confidence": "HIGH",
+    "quote": "COFFEEE & TEA  coffee or tea  Reg. 4.5  Lrg. 5.0  Iced 6.0 ... Long Black | Flat White | Cappuccino | Espresso | Piccolo"
+  },
+  {
+    "venue_id": "the-nine",
+    "year": 2026,
+    "price": 5,
+    "source_url": "https://theninesydney.com.au/menu/",
+    "source_type": "official-site",
+    "confidence": "HIGH",
+    "quote": "Fresh Roasts ... Large $5.50 Regular $5.00 ... Flat White, Cappuccino, Long Black, Latte, Mocha"
+  },
+  {
+    "venue_id": "bean-tree-cafe",
+    "year": 2026,
+    "price": 5.7,
+    "source_url": "https://www.beantreecafe.org/menus",
+    "source_type": "official-site",
+    "confidence": "HIGH",
+    "quote": "Flat White (Cup): $5.7 | (Mug): $6.7"
+  },
+  {
+    "venue_id": "the-health-emporium",
+    "year": 2026,
+    "price": 4.95,
+    "source_url": "https://www.healthemporium.com.au/menu/",
+    "source_type": "official-site",
+    "confidence": "MEDIUM",
+    "quote": "Coffee regular $4.95 - large $6.95 proudly serving Single-O coffee with dairy milk* decaf add 50c"
+  },
+  {
+    "venue_id": "kazzi-beach-greek-bondi",
+    "year": 2026,
+    "price": 5.5,
+    "source_url": "https://kazzibeachgreek.com.au/drinks-menu/",
+    "source_type": "official-menu",
+    "confidence": "HIGH",
+    "quote": "Flat White Regular $ 5.5 Large $ 6.2 Mug $ 6.5"
+  }
+]

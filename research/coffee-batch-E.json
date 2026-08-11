@@ -1,0 +1,83 @@
+[
+  {
+    "venue_id": "up-south-bondi",
+    "venue_name": "Up South Bondi",
+    "suburb": "bondi-road",
+    "year": 2026,
+    "coffee_item": "Flat White (regular)",
+    "coffee_size": "regular",
+    "price_aud": 4.50,
+    "source_url": "https://www.upsouthbondicafe.com/_files/ugd/80823b_9a050ea0a033441390796afbbdcdf55a.pdf",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "official-menu",
+    "confidence": "HIGH",
+    "evidence_quote": "COFFEEE & TEA  coffee or tea  Reg. 4.5  Lrg. 5.0  Iced 6.0 ... Long Black | Flat White | Cappuccino | Espresso | Piccolo",
+    "notes": "Official website PDF menu (Autumn/Winter). Single regular price covers all espresso coffees; Flat White explicitly listed. Alt milk +80c, extra shot +50c excluded."
+  },
+  {
+    "venue_id": "the-nine",
+    "venue_name": "The Nine",
+    "suburb": "bondi-beach",
+    "year": 2026,
+    "coffee_item": "Flat White (Regular)",
+    "coffee_size": "regular",
+    "price_aud": 5.00,
+    "source_url": "https://theninesydney.com.au/menu/",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "official-site",
+    "confidence": "HIGH",
+    "evidence_quote": "Fresh Roasts ... Large $5.50 Regular $5.00 ... Flat White, Cappuccino, Long Black, Latte, Mocha",
+    "notes": "Official site menu. Flat White listed by name under Fresh Roasts at Regular $5.00. Extra shot/alt milk +$0.50 excluded."
+  },
+  {
+    "venue_id": "bean-tree-cafe",
+    "venue_name": "Bean Tree Cafe",
+    "suburb": "bondi-road",
+    "year": 2026,
+    "coffee_item": "Flat White (Cup)",
+    "coffee_size": "regular",
+    "price_aud": 5.70,
+    "source_url": "https://www.beantreecafe.org/menus",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "official-site",
+    "confidence": "HIGH",
+    "evidence_quote": "Flat White (Cup): $5.7 | (Mug): $6.7",
+    "notes": "Official site drinks menu. Cup = regular size; Mug ($6.7) is the larger option and excluded."
+  },
+  {
+    "venue_id": "the-health-emporium",
+    "venue_name": "The Health Emporium",
+    "suburb": "bondi-road",
+    "year": 2026,
+    "coffee_item": "Coffee (regular, dairy milk)",
+    "coffee_size": "regular",
+    "price_aud": 4.95,
+    "source_url": "https://www.healthemporium.com.au/menu/",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "official-site",
+    "confidence": "MEDIUM",
+    "evidence_quote": "Coffee regular $4.95 - large $6.95 proudly serving Single-O coffee with dairy milk* decaf add 50c",
+    "notes": "Menu lists a single generic 'Coffee' price (no flat white named individually); this regular price applies to standard espresso coffees. Marked MEDIUM because the flat white is not itemised separately."
+  },
+  {
+    "SUMMARY": true,
+    "batch": "E",
+    "venues_checked": 12,
+    "verified_current": 4,
+    "verified_historical": 0,
+    "not_found_venue_ids": [
+      "the-well",
+      "italo-house",
+      "meidys-cafe",
+      "russkis-deli",
+      "cafe-bondi",
+      "promenade-kiosk-bondi-beach",
+      "gusto-espresso-bar",
+      "parida-bondi"
+    ]
+  }
+]

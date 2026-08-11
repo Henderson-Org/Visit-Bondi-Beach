@@ -1,0 +1,53 @@
+[
+  {
+    "venue_id": "gertrude-and-alice-cafe-bookstore",
+    "venue_name": "Gertrude & Alice Cafe Bookstore",
+    "suburb": "bondi-beach",
+    "year": 2026,
+    "coffee_item": "Coffee (Regular) — flat white/latte/long black/cappuccino",
+    "coffee_size": "regular",
+    "price_aud": 5,
+    "source_url": "https://www.gertrudeandalice.com.au/cafe-menu/",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "official-menu",
+    "confidence": "HIGH",
+    "evidence_quote": "COFFEE Regular $5 Large $5.70 Flat white, latte, long black, cappuccino, decaf, mocha, piccolo, macchiato, etc.",
+    "notes": "Coffee priced by size, not by drink type; regular flat white = $5 (large $5.70). Fetched live via curl (WebFetch/aggregators returned 403). Site footer shows '© 2024' but page is the current live cafe menu. Soy/almond/coconut +50c excluded per benchmark."
+  },
+  {
+    "venue_id": "glory-days",
+    "venue_name": "Glory Days",
+    "suburb": "bondi-beach",
+    "year": 2026,
+    "coffee_item": "Flat white (regular)",
+    "coffee_size": "regular",
+    "price_aud": 5.5,
+    "source_url": "https://glorydaysbondi.com.au/",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "official-site",
+    "confidence": "HIGH",
+    "evidence_quote": "latte, flat white, cappuccino, mocha, long black reg 5.5",
+    "notes": "Regular = $5.50; large versions $6.50 (excluded). Same price across latte/flat white/cappuccino/mocha/long black."
+  },
+  {
+    "SUMMARY": true,
+    "batch": "B",
+    "venues_checked": 12,
+    "verified_current": 2,
+    "verified_historical": 0,
+    "not_found_venue_ids": [
+      "harrys-bondi",
+      "lox-stock-and-barrel",
+      "wellington-cake-shop",
+      "funky-pies",
+      "rocker-bondi",
+      "drake-eatery",
+      "swich",
+      "la-piadina-bondi",
+      "makaveli",
+      "sefa-kitchen"
+    ]
+  }
+]

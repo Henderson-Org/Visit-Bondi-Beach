@@ -1,0 +1,38 @@
+[
+  {
+    "venue_id": "the-crabbe-hole",
+    "venue_name": "The Crabbe Hole",
+    "suburb": "bondi-beach",
+    "year": 2026,
+    "coffee_item": "Flat White",
+    "coffee_size": "regular",
+    "price_aud": 4.50,
+    "source_url": "https://ritual.co/order/the-crabbe-hole-poolside-bondi-icebergs-bondi-beach/635f",
+    "archive_url": "",
+    "source_date": "2026-08-11",
+    "source_type": "menu-platform",
+    "confidence": "MEDIUM",
+    "evidence_quote": "\"Flat White\" - $4.50 (regular); \"Large Flat White\" - $5.50 (large)",
+    "notes": "The Crabbe Hole has no owned website/menu URL in the dataset; price captured from the venue's order-ahead page on ritual.co. Regular Flat White used per benchmark (large excluded)."
+  },
+  {
+    "SUMMARY": true,
+    "batch": "A",
+    "venues_checked": 12,
+    "verified_current": 1,
+    "verified_historical": 0,
+    "not_found_venue_ids": [
+      "lox-in-a-box",
+      "bills-bondi-beach",
+      "north-bondi-fish",
+      "shuk",
+      "shuk-by-the-beach",
+      "sundays-bondi",
+      "makuto",
+      "carbon-mexican-woodfire",
+      "china-diner",
+      "promenade-bondi-beach",
+      "taqiza"
+    ]
+  }
+]
