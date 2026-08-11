@@ -8,8 +8,17 @@ import { SurfCam } from '@/components/SurfCam';
 import { TodayRecommendations } from '@/components/TodayRecommendations';
 import { UpcomingEvents } from '@/components/events/UpcomingEvents';
 import { DayPlannerPromo } from '@/components/DayPlannerPromo';
-import { SITE } from '@/lib/site';
+import { SITE, HUB_NAV } from '@/lib/site';
 import { bondiPlaceJsonLd } from '@/lib/structured-data';
+
+// First-timer "plan your visit" path — the highest-intent visitor question ("I'm coming
+// to Bondi, now what?"), routed to the four hubs that answer it, then the day planner.
+const PLAN_TILES = [
+  { q: 'How long to spend?', href: '/itineraries', sub: 'Itineraries for a few hours to a weekend' },
+  { q: 'When to go?', href: '/bondi-weather', sub: 'Weather, seasons & sea temperatures' },
+  { q: 'How to get here?', href: '/getting-to-bondi', sub: 'Train, bus, driving & parking' },
+  { q: 'Where to stay?', href: '/stay', sub: 'Hotels, apartments & hostels' },
+];
 
 const META_TITLE = 'Bondi Beach Sydney: Experience It Like You Live Here';
 const META_DESCRIPTION =
@@ -83,6 +92,54 @@ export default function HomePage() {
       {/* Daily Weather & Surf Summary — a slim, unobtrusive bar (scrolls sideways on
           mobile). The full forecast lives on the /bondi-weather hub. */}
       <WeatherSurfSummary destination="bondi" variant="bar" />
+
+      {/* "Start here" — the visual front door to every topic hub, so the homepage is a
+          gateway to the whole guide rather than only a feed of recent articles. */}
+      <section className="mx-auto max-w-6xl px-4 pt-12">
+        <h2 className="font-display text-2xl md:text-3xl text-ink-900">Start here</h2>
+        <p className="mt-1 text-ink-500">Everything you need to visit Bondi, by topic.</p>
+        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {HUB_NAV.map((col) => (
+            <div key={col.group} className="rounded-2xl border border-sand-200 bg-white p-5">
+              <h3 className="text-xs font-semibold uppercase tracking-widest text-ocean-700">{col.group}</h3>
+              <ul className="mt-3 space-y-2">
+                {col.items.map((i) => (
+                  <li key={i.href}>
+                    <Link href={i.href} className="text-ink-800 hover:text-ocean-700">
+                      {i.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* "Plan your visit" band — the first-timer conversion path into the day planner. */}
+      <section className="mx-auto max-w-6xl px-4 pt-12">
+        <div className="rounded-2xl bg-ocean-500/5 border border-ocean-500/15 p-6 md:p-8">
+          <h2 className="font-display text-2xl md:text-3xl text-ink-900">Planning your visit?</h2>
+          <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {PLAN_TILES.map((t) => (
+              <Link
+                key={t.href}
+                href={t.href}
+                className="rounded-xl border border-sand-200 bg-white p-4 transition hover:border-ocean-500"
+              >
+                <p className="font-medium text-ink-900">{t.q}</p>
+                <p className="mt-1 text-sm text-ink-500">{t.sub}</p>
+              </Link>
+            ))}
+          </div>
+          <Link
+            href="/plan"
+            className="mt-5 inline-block rounded-full bg-ocean-600 px-6 py-2.5 text-sm font-medium text-white transition hover:bg-ocean-700"
+          >
+            Build my Bondi day →
+          </Link>
+        </div>
+      </section>
 
       {/* Day Planner — a prominent product entry point, directly under the hero and
           above the articles. One of the most prominent homepage modules. */}

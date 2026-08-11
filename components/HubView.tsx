@@ -7,7 +7,7 @@ import {
   type Page,
   type HubSection,
 } from '@/lib/content';
-import { breadcrumbJsonLd, bondiPlaceJsonLd } from '@/lib/structured-data';
+import { breadcrumbJsonLd, bondiPlaceJsonLd, coastalWalkSchema } from '@/lib/structured-data';
 import { siteOrigin } from '@/lib/site';
 import { getHubDesign, type SectionLayout } from '@/lib/hubs';
 import { conditionsDestinationForPath } from '@/lib/conditions/locations';
@@ -110,20 +110,36 @@ export function HubView({ page }: { page: Page }) {
   const conditionsDest = conditionsDestinationForPath(page.path);
 
   // ItemList structured data for the curated guides on this hub (SEO/AEO signal).
+  // Each element wraps a real `item` (a WebPage with url + name) so the list is a
+  // well-formed ItemList, not a bare ListItem stub.
   const listItems = sections
     .flatMap((s) => s.links || [])
     .map((l, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      url: `${siteOrigin()}${l.path}`,
-      name: cleanText(l.title),
+      item: {
+        '@type': 'WebPage',
+        '@id': `${siteOrigin()}${l.path}`,
+        url: `${siteOrigin()}${l.path}`,
+        name: cleanText(l.title),
+      },
     }));
   const itemListJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
     name: title,
+    numberOfItems: listItems.length,
     itemListElement: listItems,
   };
+
+  // Coastal-walk hub: emit the TouristAttraction + HowTo backed by the visible route module.
+  const coastalSchema =
+    page.path === '/bondi-coastal-walk' && design.route
+      ? coastalWalkSchema(design.route.stops, {
+          note: design.route.note,
+          image: hero || undefined,
+        })
+      : null;
 
   return (
     <div>
@@ -139,6 +155,12 @@ export function HubView({ page }: { page: Page }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+        />
+      )}
+      {coastalSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(coastalSchema) }}
         />
       )}
 

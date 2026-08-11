@@ -165,6 +165,51 @@ export function articleJsonLd(page: Page) {
   return data;
 }
 
+/**
+ * Bondi→Coogee coastal walk: TouristAttraction + HowTo, built from the SAME visible route
+ * module rendered on the /bondi-coastal-walk hub (RouteMap) so the schema never asserts a
+ * step the page doesn't show. The walk is a real, free, publicly-documented attraction —
+ * nested in the canonical Bondi place entity. Only emit on the coastal-walk hub.
+ */
+export function coastalWalkSchema(
+  stops: { label: string; sub?: string; href?: string }[],
+  opts?: { note?: string; distance?: string; time?: string; image?: string }
+) {
+  const origin = siteOrigin();
+  const url = `${origin}/bondi-coastal-walk`;
+  const attraction = {
+    '@context': 'https://schema.org',
+    '@type': 'TouristAttraction',
+    '@id': `${url}#attraction`,
+    name: 'Bondi to Coogee Coastal Walk',
+    description:
+      opts?.note ||
+      'A roughly 6 km clifftop walk south from Bondi Beach past Tamarama, Bronte, Clovelly and Gordons Bay to Coogee — about 1.5–2 hours at an easy pace.',
+    url,
+    isAccessibleForFree: true,
+    touristType: ['Walkers', 'Families', 'Photographers'],
+    containedInPlace: { '@id': `${origin}/${BONDI_PLACE_ID}` },
+    ...(opts?.image ? { image: opts.image.startsWith('http') ? opts.image : `${origin}${opts.image}` } : {}),
+    sameAs: ['https://en.wikipedia.org/wiki/Bondi_to_Coogee_walk'],
+  };
+  const howTo = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: 'How to walk the Bondi to Coogee coastal walk',
+    description: 'Follow the clifftop path south from Bondi Beach to Coogee.',
+    ...(opts?.time ? { totalTime: opts.time } : {}),
+    estimatedCost: { '@type': 'MonetaryAmount', currency: 'AUD', value: '0' },
+    step: stops.map((s, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: s.label,
+      text: s.sub ? `${s.label} — ${s.sub}` : s.label,
+      ...(s.href ? { url: s.href.startsWith('http') ? s.href : `${origin}${s.href}` } : {}),
+    })),
+  };
+  return [attraction, howTo];
+}
+
 /** FAQPage schema — only emit when the same Q&As are visibly on the page (brief §24). */
 export function faqJsonLd(items: { q: string; a: string }[]) {
   return {
