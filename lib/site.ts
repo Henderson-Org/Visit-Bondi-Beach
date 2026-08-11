@@ -72,3 +72,34 @@ export const NAV = [
   { label: "What's On", href: '/whats-on' },
   { label: 'Articles', href: '/articles' },
 ] as const;
+
+/**
+ * The full topic-hub set, grouped for the footer mega-nav (the site's crawlable authority
+ * backbone: every hub is one click from every page). Groups mirror the target IA — a spoke
+ * should never be more than a couple of hops from any page. Keep every href a real hub page.
+ */
+export const HUB_NAV: { group: string; items: { label: string; href: string }[] }[] = [
+  { group: 'Plan your visit', items: [
+    { label: 'Itineraries', href: '/itineraries' },
+    { label: 'Weather & sea temps', href: '/bondi-weather' },
+    { label: "What's On", href: '/whats-on' },
+    { label: 'Plan your day', href: '/plan' },
+  ] },
+  { group: 'Things to do', items: [
+    { label: 'Things to do', href: '/things-to-do-in-bondi' },
+    { label: 'Surfing', href: '/bondi-surfing' },
+    { label: 'City2Surf & running', href: '/city2surf-and-running' },
+    { label: 'With kids', href: '/bondi-with-kids' },
+  ] },
+  { group: 'Swim & coast', items: [
+    { label: 'Where to swim', href: '/where-to-swim-at-bondi-beach' },
+    { label: 'Coastal walk', href: '/bondi-coastal-walk' },
+    { label: 'Bondi Rescue', href: '/bondi-rescue' },
+  ] },
+  { group: 'Eat, stay & get here', items: [
+    { label: 'Eat & drink', href: '/bondi-eat-and-drink' },
+    { label: 'Where to stay', href: '/stay' },
+    { label: 'Getting to Bondi', href: '/getting-to-bondi' },
+    { label: 'Parking', href: '/bondi-parking' },
+  ] },
+] as const;

@@ -29610,5 +29610,255 @@
     "indexable": true,
     "status": 200,
     "liveUrl": "https://www.visitbondibeach.com/marks-park"
+  },
+  {
+    "path": "/bondi-parking",
+    "contentType": "hub",
+    "section": "guide",
+    "title": "Bondi Beach Parking: Free & Paid Options",
+    "metaDescription": "Where to park at Bondi Beach and the neighbouring beaches — free and time-limited spots, paid car parks and metered bays, plus the busy-day tactics locals use to avoid circling.",
+    "canonical": "",
+    "h1": "Parking at Bondi Beach: where to actually leave the car",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "Parking at Bondi is the one thing that catches every visitor out. We park here year-round, so here's the honest local rundown — where the free spots hide, where the paid car parks are, and how to avoid circling for an hour on a summer Saturday.",
+    "wordCount": 0,
+    "jsonLdTypes": [],
+    "publishedAt": null,
+    "lastmod": null,
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "sections": [
+      {
+        "heading": "Parking at Bondi Beach",
+        "intro": "Free, time-limited and paid options right by the sand — and how to read the signs.",
+        "links": [
+          {
+            "title": "Finding free parking at Bondi, made easy",
+            "path": "/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy"
+          },
+          {
+            "title": "The ultimate Bondi parking guide: free & paid",
+            "path": "/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days"
+          },
+          {
+            "title": "Where to find a car park at Bondi Beach",
+            "path": "/bondi-blog/where-to-find-carpark-bondi-beach"
+          }
+        ]
+      },
+      {
+        "heading": "Bronte, Tamarama, Coogee & Clovelly",
+        "intro": "Parking at the neighbouring Eastern Beaches — often easier than Bondi itself.",
+        "links": [
+          {
+            "title": "An insider's guide to finding a car park at Bronte",
+            "path": "/bondi-blog/2023/11/20/an-insiders-guide-to-finding-a-car-park-at-bronte-beach"
+          },
+          {
+            "title": "Tamarama, Coogee & Clovelly parking: free & paid",
+            "path": "/bondi-blog/2025/6/4/tamarama-coogee-clovelly-beach-parking-ultimate-guide-to-free-paid-spots"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/city2surf-and-running",
+    "contentType": "hub",
+    "section": "guide",
+    "title": "City2Surf & Running in Bondi",
+    "metaDescription": "Running Bondi — the City2Surf finish, the Sydney Marathon, Heartbreak Hill training and the best running routes along the coast, from a team that runs these paths every week.",
+    "canonical": "",
+    "h1": "City2Surf, the Sydney Marathon & running in Bondi",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "Bondi is where Sydney's two biggest runs finish and where locals train all year. Here's our guide to the City2Surf, the Sydney Marathon and the coastal running routes — course tips, training, and where to celebrate at the finish.",
+    "wordCount": 0,
+    "jsonLdTypes": [],
+    "publishedAt": null,
+    "lastmod": null,
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "sections": [
+      {
+        "heading": "City2Surf",
+        "intro": "Everything for the 14 km dash from the city to the sand — course, results and the after-party.",
+        "links": [
+          {
+            "title": "The ultimate City2Surf runners guide",
+            "path": "/bondi-blog/ultimate-guide-city-to-surf"
+          },
+          {
+            "title": "City2Surf results & finish times",
+            "path": "/bondi-blog/city2surf-results"
+          },
+          {
+            "title": "City2Surf course map",
+            "path": "/bondi-blog/2024/4/1/city2surf-course-map"
+          },
+          {
+            "title": "10 things to know before running the City2Surf",
+            "path": "/bondi-blog/2025/5/6/10-things-you-need-to-know-before-running-the-city2surf"
+          },
+          {
+            "title": "Training for Heartbreak Hill (without being a fitness freak)",
+            "path": "/bondi-blog/2025/6/18/how-to-train-for-heartbreak-hill-without-being-a-fitness-freak"
+          },
+          {
+            "title": "Where to go for the City2Surf after-party",
+            "path": "/bondi-blog/where-to-go-afterparty-city-to-surf"
+          }
+        ]
+      },
+      {
+        "heading": "Sydney Marathon",
+        "intro": "Bondi is a favourite base for marathon weekend — getting there, carb-loading and recovery.",
+        "links": [
+          {
+            "title": "The TCS Sydney Marathon: a beginners guide",
+            "path": "/bondi-blog/2025/8/24/the-tcs-sydney-marathon-a-beginners-guide"
+          },
+          {
+            "title": "The best places to carb-load before the marathon",
+            "path": "/bondi-blog/2025/8/9/the-best-places-to-carb-load-before-the-sydney-marathon"
+          },
+          {
+            "title": "The pre-marathon shakeout run at Bondi",
+            "path": "/bondi-blog/2025/8/9/bondi-beach-shakeout-run-the-perfect-pre-marathon-jog"
+          },
+          {
+            "title": "The ultimate Bondi recovery guide for marathon runners",
+            "path": "/bondi-blog/2025/8/9/the-ultimate-bondi-beach-recovery-guide-for-sydney-marathon-runners"
+          },
+          {
+            "title": "Getting to the Sydney Marathon from Bondi",
+            "path": "/bondi-blog/2024/9/7/getting-to-sydney-marathon-from-bondi-beach"
+          },
+          {
+            "title": "Family fun in Bondi during marathon week",
+            "path": "/bondi-blog/2025/8/9/family-fun-in-bondi-during-sydney-marathon-week"
+          }
+        ]
+      },
+      {
+        "heading": "Running routes",
+        "intro": "Where locals run — from the flat promenade to the clifftop coastal path.",
+        "links": [
+          {
+            "title": "Bondi's best running routes",
+            "path": "/bondi-blog/2024/3/19/bondis-best-running-routes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/bondi-surfing",
+    "contentType": "hub",
+    "section": "guide",
+    "title": "Surfing at Bondi Beach",
+    "metaDescription": "Surfing Bondi — how to check the surf, where the breaks are and what beginners need to know before paddling out at one of the world’s most famous beaches.",
+    "canonical": "",
+    "h1": "Surfing at Bondi Beach: breaks, conditions & getting started",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "Bondi is where a lot of people catch their first-ever wave. Here's the local guide to surfing it — how to read today's conditions on the live cam, where the breaks are, and how to stay out of the way (and the rips) while you learn.",
+    "wordCount": 0,
+    "jsonLdTypes": [],
+    "publishedAt": null,
+    "lastmod": null,
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "sections": [
+      {
+        "heading": "Check the surf & get started",
+        "intro": "Today’s conditions and how to paddle out for the first time.",
+        "links": [
+          {
+            "title": "Live North Bondi surf cam",
+            "path": "/bondi-blog/2025/1/5/catch-the-waves-live-bondi-beach-surf-cam"
+          },
+          {
+            "title": "Surfing at Bondi: a local introduction",
+            "path": "/bondi-blog/surfing-at-bondi"
+          }
+        ]
+      },
+      {
+        "heading": "Know the breaks",
+        "intro": "Where the waves are and how Bondi surfs across the tide and swell.",
+        "links": [
+          {
+            "title": "The Bondi Beach surf guide",
+            "path": "/bondi-blog/bondi-beach-surf-guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/itineraries",
+    "contentType": "hub",
+    "section": "guide",
+    "title": "Bondi Beach Itineraries: How Long to Spend",
+    "metaDescription": "How to spend your time at Bondi — a few hours, one day or a weekend. Local itineraries and first-timer plans for making the most of Bondi Beach, whatever time you have.",
+    "canonical": "",
+    "h1": "Bondi Beach itineraries: make the most of your time",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "However long you've got at Bondi — three hours between other plans or a whole weekend — here's how to spend it well. These are the plans we'd give a friend visiting for the first time, then hand over to our day planner to build around your season.",
+    "wordCount": 0,
+    "jsonLdTypes": [],
+    "publishedAt": null,
+    "lastmod": null,
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "sections": [
+      {
+        "heading": "A few hours to a day",
+        "intro": "Tight on time? Here’s the highlights reel and a full day done properly.",
+        "links": [
+          {
+            "title": "24 hours in Bondi Beach",
+            "path": "/bondi-blog/24-hours-in-bondi-beach"
+          },
+          {
+            "title": "Bondi day trip: top tips",
+            "path": "/bondi-blog/day-trip-bondi-beach-top-tips"
+          },
+          {
+            "title": "Must-do Bondi summer activities for first-timers",
+            "path": "/bondi-blog/2024/1/1/must-do-bondi-summer-activities-for-first-time-visitors"
+          }
+        ]
+      },
+      {
+        "heading": "First-time & complete guides",
+        "intro": "New to Bondi? Start here for the big picture and the FAQs.",
+        "links": [
+          {
+            "title": "What to do in Bondi Beach: the travel guide",
+            "path": "/bondi-blog/what-to-do-bondi-beach-travel-guide"
+          },
+          {
+            "title": "34 best things to do at Bondi Beach",
+            "path": "/bondi-blog/34-best-things-to-do-bondi-beach"
+          },
+          {
+            "title": "Bondi travel guide: 50 FAQs for first-time visitors",
+            "path": "/bondi-blog/2024/12/13/bondi-beach-travel-guide-50-frequently-asked-questions-for-first-time-visitors"
+          }
+        ]
+      }
+    ]
   }
 ]
