@@ -26,7 +26,7 @@ export interface HubDiscoveryItem {
 }
 export interface HubRoute {
   title?: string;
-  stops: { label: string; sub?: string }[];
+  stops: { label: string; sub?: string; href?: string }[];
   note?: string;
 }
 export interface HubDesign {
@@ -131,9 +131,9 @@ const HUB_DESIGN: Record<string, HubDesign> = {
     route: {
       title: 'The route: Bondi to Coogee',
       stops: [
-        { label: 'Bondi', sub: 'Start · Icebergs' },
-        { label: 'Tamarama', sub: '“Glamarama”' },
-        { label: 'Bronte', sub: 'Ocean baths' },
+        { label: 'Bondi', sub: 'Start · Icebergs', href: '/bondi-beach' },
+        { label: 'Tamarama', sub: '“Glamarama”', href: '/tamarama-beach' },
+        { label: 'Bronte', sub: 'Ocean baths', href: '/bronte-beach' },
         { label: 'Clovelly', sub: 'Calm snorkelling' },
         { label: 'Gordons Bay', sub: 'Dive trail' },
         { label: 'Coogee', sub: 'Finish' },
