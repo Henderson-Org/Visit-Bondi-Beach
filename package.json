@@ -18,7 +18,8 @@
     "events:verify": "node scripts/verify-events.mjs",
     "restaurants:verify": "node scripts/restaurants-audit.mjs",
     "seo:regression": "node scripts/seo-regression.mjs",
-    "seo:check-index": "node scripts/check-indexability.mjs"
+    "seo:check-index": "node scripts/check-indexability.mjs",
+    "freshness:audit": "node scripts/freshness-audit.mjs"
   },
   "dependencies": {
     "next": "^16.3.0",

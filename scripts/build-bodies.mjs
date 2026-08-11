@@ -118,6 +118,9 @@ async function main() {
     if (map[rec.path]) fail(f, `duplicate path "${rec.path}" (already authored in another file)`);
     if (!Array.isArray(rec.blocks) || !rec.blocks.length) fail(f, 'requires a non-empty "blocks" array');
     if (rec.lastReviewed && !/^\d{4}-\d{2}-\d{2}$/.test(rec.lastReviewed)) fail(f, 'lastReviewed must be YYYY-MM-DD');
+    if (rec.checkType && rec.checkType !== 'local' && rec.checkType !== 'desk') fail(f, 'checkType must be "local" or "desk"');
+    const FRESHNESS = ['live', 'weekly', 'monthly', 'quarterly', 'seasonal', 'annual', 'evergreen'];
+    if (rec.freshnessClass && !FRESHNESS.includes(rec.freshnessClass)) fail(f, `freshnessClass must be one of ${FRESHNESS.join(', ')}`);
     if (rec.sources) {
       if (!Array.isArray(rec.sources)) fail(f, '"sources" must be an array');
       rec.sources.forEach((s) => { if (!isNonEmptyString(s?.label) || !isNonEmptyString(s?.url)) fail(f, 'each source needs "label" and "url"'); });

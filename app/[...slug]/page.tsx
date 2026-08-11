@@ -224,9 +224,9 @@ async function CorePageHubView({ page }: { page: Page }) {
           <BodyBlocks blocks={blocks} />
           {page.authoredBody && (page.lastReviewed || (page.sources && page.sources.length > 0)) && (
             <footer className="mt-8 border-t border-sand-200 pt-4 text-sm text-ink-500">
-              {page.lastReviewed && (
+              {page.lastReviewed && page.freshnessClass !== 'evergreen' && (
                 <p>
-                  Last reviewed{' '}
+                  {page.checkType === 'local' ? 'Last locally checked' : 'Last reviewed'}{' '}
                   <time dateTime={page.lastReviewed}>
                     {new Date(page.lastReviewed).toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' })}
                   </time>
