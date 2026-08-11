@@ -67,6 +67,19 @@ export interface Source {
   url: string;
 }
 
+/**
+ * How often a page needs re-checking, driving the maintenance calendar + freshness-audit
+ * script. 'evergreen' pages suppress the visible "checked" date (a stale badge on a history
+ * page reduces trust). Everything else shows it.
+ */
+export type FreshnessClass =
+  | 'live' | 'weekly' | 'monthly' | 'quarterly' | 'seasonal' | 'annual' | 'evergreen';
+
+/** Max days before a page of each class is "overdue" for review (used by the audit script). */
+export const FRESHNESS_MAX_DAYS: Record<FreshnessClass, number> = {
+  live: 7, weekly: 10, monthly: 45, quarterly: 100, seasonal: 200, annual: 400, evergreen: 550,
+};
+
 export interface Page {
   path: string;
   contentType: ContentType;
@@ -97,6 +110,10 @@ export interface Page {
   authoredBody?: boolean;
   sources?: Source[] | null;
   lastReviewed?: string | null;
+  // 'local' = verified on the ground → "Last locally checked"; 'desk' (default) = sources
+  // re-checked → "Last reviewed". freshnessClass drives the maintenance cadence + audit.
+  checkType?: 'local' | 'desk' | null;
+  freshnessClass?: FreshnessClass | null;
 }
 
 interface BodyOverride {
@@ -104,6 +121,8 @@ interface BodyOverride {
   wordCount?: number;
   sources?: Source[];
   lastReviewed?: string;
+  checkType?: 'local' | 'desk';
+  freshnessClass?: FreshnessClass;
   voice?: string;
 }
 
@@ -122,6 +141,8 @@ const PAGES = (pagesData as unknown as Page[]).map((p) => {
     wordCount: ov.wordCount ?? p.wordCount,
     sources: ov.sources ?? null,
     lastReviewed: ov.lastReviewed ?? null,
+    checkType: ov.checkType ?? null,
+    freshnessClass: ov.freshnessClass ?? null,
     authoredBody: true,
   } as Page;
 });
