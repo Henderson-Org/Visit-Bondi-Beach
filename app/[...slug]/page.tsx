@@ -68,6 +68,14 @@ const REDIRECTED_PATHS = new Set([
   '/bondi-blog/2017/4/28/city2surf-time-to-start-training',
   '/bondi-blog/city-to-surf-training-plan',
   '/bondi-blog/2024/7/25/help-3-week-city2surf-training-plan',
+  // Round 4 (owner-approved 2026-08-11 — see next.config.mjs).
+  '/bondi-blog/2026/2/21/the-ultimate-bondi-beach-travel-guide-2026-edition',
+  '/bondi-blog/2025/4/30/ultimate-bondi-beach-travel-guide-how-to-get-there-when-to-visit-top-things-to-do',
+  '/bondi-blog/2025/3/8/the-ultimate-bondi-beach-travel-guide-must-see-spots-hidden-gems',
+  '/bondi-blog/2025/1/5/who-can-swim-at-bondi-icebergs-ocean-pool',
+  '/bondi-blog/access-bondi-icebergs-pool',
+  '/bondi-blog/is-bondi-icebergs-pool-heated',
+  '/bondi-blog/how-long-is-bondi-icebergs-poo',
 ]);
 
 // Paths that live in the content index but are now served by a dedicated app route

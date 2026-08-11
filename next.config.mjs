@@ -66,6 +66,20 @@ const nextConfig = {
       { source: '/bondi-blog/2017/4/28/city2surf-time-to-start-training', destination: '/bondi-blog/2025/6/18/how-to-train-for-heartbreak-hill-without-being-a-fitness-freak', statusCode: 301 },
       { source: '/bondi-blog/city-to-surf-training-plan', destination: '/bondi-blog/2025/6/18/how-to-train-for-heartbreak-hill-without-being-a-fitness-freak', statusCode: 301 },
       { source: '/bondi-blog/2024/7/25/help-3-week-city2surf-training-plan', destination: '/bondi-blog/2025/6/18/how-to-train-for-heartbreak-hill-without-being-a-fitness-freak', statusCode: 301 },
+
+      // Cannibalisation consolidation, round 4 (owner-approved 2026-08-11). Each source is a
+      // near-zero-traffic duplicate whose intent is fully covered by a RICHER survivor, so no
+      // content is buried (the "migrate the richer body first" rule is satisfied — survivor
+      // word counts exceed every source below). No chains: destinations are canonical pages.
+      // "Ultimate Bondi travel guide" cluster (3 dups) → the 1,982-word what-to-do pillar (465 YTD):
+      { source: '/bondi-blog/2026/2/21/the-ultimate-bondi-beach-travel-guide-2026-edition', destination: '/bondi-blog/what-to-do-bondi-beach-travel-guide', statusCode: 301 },
+      { source: '/bondi-blog/2025/4/30/ultimate-bondi-beach-travel-guide-how-to-get-there-when-to-visit-top-things-to-do', destination: '/bondi-blog/what-to-do-bondi-beach-travel-guide', statusCode: 301 },
+      { source: '/bondi-blog/2025/3/8/the-ultimate-bondi-beach-travel-guide-must-see-spots-hidden-gems', destination: '/bondi-blog/what-to-do-bondi-beach-travel-guide', statusCode: 301 },
+      // Bondi Icebergs "can you swim" swarm → the two protected pillars (kept). Thin satellites only:
+      { source: '/bondi-blog/2025/1/5/who-can-swim-at-bondi-icebergs-ocean-pool', destination: '/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool', statusCode: 301 },
+      { source: '/bondi-blog/access-bondi-icebergs-pool', destination: '/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool', statusCode: 301 },
+      { source: '/bondi-blog/is-bondi-icebergs-pool-heated', destination: '/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more', statusCode: 301 },
+      { source: '/bondi-blog/how-long-is-bondi-icebergs-poo', destination: '/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more', statusCode: 301 },
     ];
   },
 };
