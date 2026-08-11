@@ -16,7 +16,8 @@
     "audit:stay": "node --experimental-strip-types scripts/audit-accommodation.ts",
     "test": "vitest run",
     "events:verify": "node scripts/verify-events.mjs",
-    "restaurants:verify": "node scripts/restaurants-audit.mjs"
+    "restaurants:verify": "node scripts/restaurants-audit.mjs",
+    "seo:regression": "node scripts/seo-regression.mjs"
   },
   "dependencies": {
     "next": "^16.3.0",
