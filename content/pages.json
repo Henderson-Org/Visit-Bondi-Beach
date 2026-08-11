@@ -29482,5 +29482,68 @@
     "status": 200,
     "liveUrl": "",
     "authored": true
+  },
+  {
+    "path": "/bondi-blog/best-wine-bars-in-bondi",
+    "contentType": "blog-post-legacy",
+    "section": "blog",
+    "title": "The Best Wine Bars in Bondi Beach: A Local Guide — Visit Bondi Beach",
+    "metaDescription": "Our local guide to the best wine bars in Bondi Beach — natural wine, a glass by the sand at sunset, cafe-by-day rooms, and where to take a date.",
+    "canonical": "https://www.visitbondibeach.com/bondi-blog/best-wine-bars-in-bondi",
+    "h1": "The Best Wine Bars in Bondi Beach",
+    "headings": [
+      "For a glass at sunset (with a view)",
+      "For the natural-wine geeks",
+      "Cafe by day, wine by night",
+      "For an aperitivo or a group",
+      "How to pick, at a glance"
+    ],
+    "ogImage": "/images/articles/43c111c6fc6a4817.webp",
+    "heroImage": "/images/articles/43c111c6fc6a4817.webp",
+    "intro": "Bondi's wine scene has quietly grown up. For years it was schooners at the pub or a cocktail with a view, but these days we've got proper little neighbourhood rooms, lo-fi natural lists and cafe-to-wine-bar hybrids where you drink where you ate breakfast. Here's the short version, then the detail: for natural wine, go ",
+    "blocks": null,
+    "wordCount": 961,
+    "jsonLdTypes": [
+      "WebSite",
+      "Article"
+    ],
+    "publishedAt": null,
+    "lastmod": "2026-08-11",
+    "impressions": 0,
+    "clicks": 0,
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "https://www.visitbondibeach.com/bondi-blog/best-wine-bars-in-bondi"
+  },
+  {
+    "path": "/bondi-blog/where-to-watch-sport-in-bondi",
+    "contentType": "blog-post-legacy",
+    "section": "blog",
+    "title": "Where to Watch Live Sport in Bondi — Visit Bondi Beach",
+    "metaDescription": "Our local guide to watching the NRL, rugby, AFL, cricket and State of Origin in Bondi — the best pubs, hotels and clubs with big screens and beer gardens.",
+    "canonical": "https://www.visitbondibeach.com/bondi-blog/where-to-watch-sport-in-bondi",
+    "h1": "Where to Watch Live Sport in Bondi: Pubs, Clubs and Sports Bars",
+    "headings": [
+      "The pubs and hotels for the big games",
+      "The clubs: cheaper beers, ocean views and family-friendly rooms",
+      "Which venue for which occasion",
+      "Watching the football (soccer) too?"
+    ],
+    "ogImage": "/images/articles/44e1ef7567545e3a.webp",
+    "heroImage": "/images/articles/44e1ef7567545e3a.webp",
+    "intro": "Short answer, because you've probably got a kick-off time to make: for a proper big-game atmosphere in Bondi we head to the Beach Road Hotel — two storeys, four island bars and a beer garden that fills up fast for State of Origin and grand finals. For cheaper schooners, ocean views and a family-friendly room where the ",
+    "blocks": null,
+    "wordCount": 1342,
+    "jsonLdTypes": [
+      "WebSite",
+      "Article"
+    ],
+    "publishedAt": null,
+    "lastmod": "2026-08-11",
+    "impressions": 0,
+    "clicks": 0,
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "https://www.visitbondibeach.com/bondi-blog/where-to-watch-sport-in-bondi"
   }
 ]
