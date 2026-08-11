@@ -1,0 +1,47 @@
+{
+  "locale": "zh-cn",
+  "path": "/bondi-blog/2025/7/19/insider-guide-to-sundays-bondi-opening-hours-top-flavours-queue-hacks",
+  "title": "Sundays Bondi 攻略:营业时间·必点·避队",
+  "metaDescription": "本地人带你逛 Bondi 的 Sundays——必点招牌、营业时间,以及如何在人气爆棚时不排长队买到手。",
+  "h1": "Sundays Bondi 内行指南 —— 营业时间、招牌口味与避队秘诀",
+  "blocks": [
+    {"type":"p","text":"[Sundays](/bondi-eat-and-drink/venues/sundays-bondi) 是坐落在 Bondi Road 211 号的一家小小微型烘焙坊。创始人 Laetitia Loefti 把整个过程都拍成视频发在 Instagram 上,硬是把它做成了一个真正的现象级店铺。生意好的日子里,开门大约一小时,柜台就会被扫空。所以想不把一早上耗在排队上、又能顺利买到一个卷,其实就靠三招:先确认他们真的开门,赶在门开之前到,以及在走到窗口之前就想好要点什么。"},
+    {"type":"quickFacts","items":[
+      {"label":"地址","value":"211 Bondi Road, Bondi"},
+      {"label":"创始人","value":"Laetitia Loefti"},
+      {"label":"招牌","value":"轻盈松软的肉桂卷和抹茶卷"},
+      {"label":"黄金法则","value":"开门前就到——他们会卖光"},
+      {"label":"营业日与时间","value":"出发前先看 @sundaysbondi"}
+    ]},
+    {"type":"callout","tone":"warning","title":"先看是哪天营业,再赶在门开前到","text":"Sundays 一周只营业有限的几天,而且开业以来时间表几经调整,所以各处旧信息互相打架——前一晚打开 @sundaysbondi 确认他们当天是否开炉。然后把公布的打烊时间当成上限、而不是承诺:开业那个周末不到一小时就售罄,能不能赶在门开前到,决定了你吃到的是第一炉,还是什么都没有。"},
+    {"type":"h2","text":"点什么好"},
+    {"type":"p","text":"这里的卷不是那种密实厚重的烘焙口感——它们轻盈松软,几乎像松饼,因为每一批面团都会隔夜低温发酵,烘烤前还要再醒发两次。这种口感正是它的精髓所在,所以至少点一个经典款,亲口尝尝大家究竟在为什么疯狂。"},
+    {"type":"list","items":[
+      "奶油奶酪经典肉桂卷——招牌之作,也是最先卖光的一个。先点它。",
+      "Biscoff——核心口味之一,更浓郁、焦糖味更重,喜欢偏甜的就选它。",
+      "Kinder 巧克力——另一款常驻口味,小朋友的最爱。",
+      "像开心果这样的轮换特别款——它们消失得最快,碰上了就赶紧拿一个。",
+      "抹茶麻花卷和 coconut cloud coffee(打发浓缩咖啡浇在椰子水上)——Sundays 在这两样上很下功夫,配你的卷都是经典搭配。"
+    ]},
+    {"type":"localTip","text":"店里座位极少,几乎没有,所以我总是打包,拎着走到海滨步道上。坐在俯瞰沙滩的草地上,手里一杯咖啡,咬一口温热的肉桂卷——这是我最爱的、花小钱就能收获满足感的 Bondi 早晨之一。"},
+    {"type":"h2","text":"如果 Sundays 卖光了"},
+    {"type":"p","text":"因为 Sundays 一周只开炉几天,而且往往还没到午饭柜台就空了,口袋里备一个 B 计划很值得。以下是我错过那一炉时会转去的几家——全都在 Bondi Road 步行可达或坐一小段公交就到:"},
+    {"type":"list","items":[
+      "[Bondi Boulangerie](/bondi-eat-and-drink/venues/bondi-boulangerie)——当我想要的是一个正经的可颂而不是卷时,我的首选。",
+      "[François Artisan Baker](/bondi-eat-and-drink/venues/fran-ois-artisan-baker)——用慢工细活的老派做法做酸种和各式糕点。",
+      "[Shuk Bakery](/bondi-eat-and-drink/venues/shuk-bakery)——又一家值得为它的烘焙绕点路的社区面包店。",
+      "[Sonoma Bakery Cafe Bondi](/bondi-eat-and-drink/venues/sonoma-bakery-cafe-bondi)——如果你只是想坐下来配一份糕点和一杯咖啡,它稳妥又可靠。"
+    ]},
+    {"type":"p","text":"想把早间甜点的选择一网打尽,可以看我们的 [Bondi 最佳面包店与甜点](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) 精选;要是你真正想要的其实只是咖啡,那么 [Bondi 最佳咖啡馆与咖啡](/bondi-eat-and-drink/best-cafes-bondi-beach) 专题里,聚齐了这一带认真做咖啡的烘焙商。"},
+    {"type":"h2","text":"怎么去"},
+    {"type":"p","text":"211 Bondi Road 大致位于 Bondi Junction 和海滩之间的中点。333 路和 380 路公交都沿着 Bondi Road 全程往返,连接 Bondi Junction 换乘站(这里接驳火车线)和沙滩,所以你几乎可以在门口下车——把 '211 Bondi Road' 输进 Transport for NSW 的行程规划器就能看到实时班次。这一带周末停车是咪表收费而且一位难求,能不开车就别开。"},
+    {"type":"callout","tone":"note","title":"想把买卷这一趟,拓展成更完整的 Bondi 吃喝一日游?","text":"我们的 [Bondi 吃喝指南](/bondi-eat-and-drink) 把海滩上的每一家店都标在了地图上——160 多家——可按菜系、区域、价位和同行的人筛选,让你把早餐、咖啡和午餐一次排好。要是你还在早间甜点的兴头上,就从 [最佳面包店与甜点](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) 开始吧。"},
+    {"type":"faq","items":[
+      {"q":"Sundays Bondi 哪几天营业?","a":"它是一家只营业有限几天的微型烘焙坊,开业以来时间表有过调整,不同平台的信息也互相矛盾——所以别信旧帖子,前一晚在他们的 Instagram(@sundaysbondi)上确认。"},
+      {"q":"几点到才能避开排队?","a":"开门之前。第一炉可能很快就没了——开业那个周末大约一小时就售罄——所以门开之前就排在队里,才最有机会买到全部口味。"},
+      {"q":"该点什么?","a":"先从奶油奶酪经典肉桂卷开始。核心阵容还包括 Biscoff 和 Kinder 巧克力,外加像开心果这样的轮换特别款、抹茶麻花卷,以及 coconut cloud coffee。"},
+      {"q":"怎么去 211 Bondi Road?","a":"它在 Bondi Road 上,大约位于 Bondi Junction 和 Bondi Beach 之间的中点,可乘从 Bondi Junction 换乘站发出的 333 路和 380 路公交,也可以从海滨步道步行上去。"},
+      {"q":"如果 Sundays 卖光了、或那天没开炉怎么办?","a":"附近有不错的备选:[Bondi Boulangerie](/bondi-eat-and-drink/venues/bondi-boulangerie)、[François Artisan Baker](/bondi-eat-and-drink/venues/fran-ois-artisan-baker)、[Shuk Bakery](/bondi-eat-and-drink/venues/shuk-bakery) 和 [Sonoma Bakery Cafe Bondi](/bondi-eat-and-drink/venues/sonoma-bakery-cafe-bondi) 都在步行可达范围内,我们的 [面包店与甜点指南](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) 里有完整名单。"}
+    ]}
+  ]
+}

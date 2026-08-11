@@ -1,0 +1,28 @@
+{
+  "locale": "es",
+  "path": "/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool",
+  "title": "¿Puede cualquiera nadar en la piscina de Bondi Icebergs?",
+  "metaDescription": "Es la pregunta que más me hacen los visitantes: ¿puede cualquiera nadar en la piscina de Bondi Icebergs? Aquí te lo cuento todo antes de tu primer chapuzón.",
+  "h1": "¿Puede cualquiera nadar en la piscina de Bondi Icebergs?",
+  "blocks": [
+    {"type":"p","text":"Sí, cualquiera puede nadar en la piscina de Bondi Icebergs, sin necesidad de ser socio. Es la pregunta que más me hacen, casi siempre alguien que mira entornando los ojos esa famosa piscina junto al mar y da por hecho que debe de ser un club privado. No lo es. El Icebergs Club de arriba tiene socios; la piscina de abajo está abierta al público. Pagas en el quiosco, bajas a la plataforma y te metes al agua. Esto es lo que le contaría a un amigo antes de su primer chapuzón."},
+    {"type":"quickFacts","items":[
+      {"label":"Acceso público","value":"Sí, sin socio ni reserva"},
+      {"label":"Dónde","value":"1 Notts Ave, extremo sur de Bondi Beach"},
+      {"label":"Piscinas","value":"Piscina de 50 m de agua salada + piscina infantil poco profunda"},
+      {"label":"Cierra","value":"Los jueves por limpieza (según las mareas)"},
+      {"label":"Socorristas","value":"De guardia en horario de apertura, todo el año"}
+    ]},
+    {"type":"h2","text":"Quién puede nadar y qué esperar"},
+    {"type":"p","text":"Todo el mundo. Niños, abuelos, principiantes, nadadores de equipo sumando largos antes del amanecer: he compartido el agua con todos ellos. Hay una piscina de 50 metros de agua salada con calles para nadar en serio y otra más pequeña y menos profunda, ideal para los más pequeños y para un remojón tranquilo. Lo único que hay que entender: esto es una piscina de mar, no una piscina climatizada cubierta. Un día en calma es un espejo precioso; cuando entra oleaje, las olas rompen limpias sobre el muro este y el agua se anima. Vigorizante, salada y maravillosa, pero algo a lo que hay que tener respeto si no nadas con soltura. Los socorristas vigilan en horario de apertura todo el año, así que estás en buenas manos. Aun así, nada dentro de tus posibilidades."},
+    {"type":"callout","tone":"warning","title":"Nunca aparezcas un jueves","text":"La piscina cierra todos los jueves para su limpieza semanal, cuando se vacía, se friega y se rellena con agua de mar fresca: es el motivo número uno por el que los visitantes se encuentran la reja cerrada. En verano puede reabrir cuando la marea lo permite, pero yo nunca contaría con ello. Las tarifas, los horarios y los cierres por competiciones también cambian, así que consulta el estado actual en la página de condiciones de la piscina de Icebergs antes de ir."},
+    {"type":"localTip","text":"Nada de este a oeste para que, en el largo de vuelta, tengas de frente la playa y el edificio de Icebergs: la mejor vista gratis de Bondi. Ve temprano si quieres la plataforma tranquila; en verano, a media mañana se llena enseguida. Después, entra en calor en la sauna (incluida con la entrada) o tómate un café en The Crabbe Hole, la cafetería diminuta escondida al borde de la piscina."},
+    {"type":"p","text":"Bajo tus pies hay historia de verdad. El club de natación de invierno de Icebergs se fundó en 1929, y sus socios se ganan el nombre a pulso: para conservar la membresía tienes que competir tres domingos de cada cuatro, cada temporada, durante cinco años seguidos. Nada de eso hace falta para bañarte, claro, pero es lo que le da a este lugar el peso que tiene."},
+    {"type":"faq","items":[
+      {"q":"¿Hay que ser socio para nadar en Bondi Icebergs?","a":"No. La piscina está abierta al público y basta con pagar la entrada en el quiosco. La membresía tiene que ver con el club de natación de invierno de arriba, no con usar la piscina."},
+      {"q":"¿La piscina de Bondi Icebergs abre todos los días?","a":"Abre a diario salvo los jueves, cuando cierra por su limpieza semanal y el rellenado. En verano a veces reabre el jueves por la tarde si la marea lo permite, pero nunca está garantizado: consulta la página oficial de condiciones de la piscina."},
+      {"q":"¿Cuánto cuesta nadar en Bondi Icebergs?","a":"Hay una entrada asequible con tarifas separadas para adultos, niños y familias, además de bonos de varias visitas más baratos. Los precios se revisan de vez en cuando, así que consulta las tarifas actuales en la página de condiciones de la piscina de Icebergs en lugar de fiarte de una cifra antigua. El alquiler de toalla y taquilla está disponible en el momento."},
+      {"q":"¿La piscina de Bondi Icebergs es climatizada?","a":"No: es una piscina de mar de agua salada sin calefacción, llenada desde el océano, así que está refrescantemente fría todo el año. La sauna del recinto, incluida con la entrada, es la forma clásica de entrar en calor antes o después del baño."}
+    ]}
+  ]
+}

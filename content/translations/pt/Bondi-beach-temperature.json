@@ -1,0 +1,29 @@
+{
+  "locale": "pt",
+  "path": "/bondi-blog/Bondi-beach-temperature",
+  "title": "Temperatura média em Bondi Beach: ar e mar",
+  "metaDescription": "As temperaturas médias em Bondi Beach ao longo do ano, do ar e do mar, para você saber o que levar e quais são os melhores meses para nadar ou caminhar pela costa.",
+  "h1": "Temperatura média em Bondi Beach",
+  "blocks": [
+    {"type":"p","text":"Esta é a versão curta que dou aos amigos antes de virem: Bondi é amena e boa para banho em boa parte do ano, com verões quentes, invernos frescos mas ensolarados e pouquíssimos extremos de verdade. A única coisa que pega as pessoas de surpresa é que a água e o ar não andam no mesmo ritmo, então mais abaixo eu separei os dois. Para os números reais do dia da sua viagem, confie sempre na previsão de Sydney do Bureau of Meteorology (Instituto de Meteorologia) em vez de qualquer média de longo prazo, inclusive a minha."},
+    {"type":"quickFacts","items":[
+      {"label":"Mês mais quente","value":"Janeiro (máxima média em Observatory Hill de cerca de 26°C)"},
+      {"label":"Ar mais fresco","value":"De junho a agosto (ameno, quase sempre ensolarado, acima de zero)"},
+      {"label":"Faixa do mar","value":"De cerca de 17°C no inverno a 24°C no pico de fevereiro"},
+      {"label":"Estações","value":"Ao contrário do hemisfério norte: o verão vai de dezembro a fevereiro"},
+      {"label":"Leitura de hoje","value":"Veja nosso resumo diário do tempo em Bondi"}
+    ]},
+    {"type":"p","text":"Bondi fica bem na costa, então o oceano mantém tudo um grau ou dois mais ameno do que os subúrbios a oeste: mais fresco num dia escaldante e um pouco mais quente numa noite fria de inverno. Os números de referência de Sydney vêm da estação de Observatory Hill do Instituto (066062), que mantém o registro meteorológico contínuo mais longo da cidade desde 1858, e ali janeiro tem uma máxima média de cerca de 26°C."},
+    {"type":"h2","text":"Por que a água parece mais fria do que o ar"},
+    {"type":"p","text":"Não julgue o oceano pelo termômetro na areia. O mar de Sydney fica um ou dois meses atrás das estações: está mais quente por volta de fevereiro e mais frio em julho e agosto, então a água do outono muitas vezes parece mais quente do que você esperaria, porque ainda carrega o calor do verão, enquanto um dia quente de primavera pode encontrar uma água surpreendentemente gelada. De mais ou menos maio a setembro, muitos frequentadores passam a usar roupa de neoprene. Para o mar especificamente, eu me apoio nas leituras do Manly Hydraulics Laboratory do Governo de NSW em vez de chutar."},
+    {"type":"callout","tone":"note","title":"O teste dos Icebergs","text":"A piscina oceânica de 50 metros no promontório sul — casa do Bondi Icebergs, fundado em 1929 e o único clube de natação de inverno licenciado do mundo — é abastecida pelo Pacífico que passa por cima da borda, então sua água acompanha o mar aberto quase com exatidão. Se a piscina parece congelante, a praia também estará."},
+    {"type":"h2","text":"Então, quando você deve ir?"},
+    {"type":"p","text":"Para nadar com tranquilidade e curtir o agito, venha no verão ou no começo do outono: o mar guarda bem o calor do verão até abril adentro, e as multidões já diminuíram. Se você trocaria alguns graus por espaço, céu limpo e hospedagem mais barata, o inverno e o começo da primavera são subestimados: Bondi tem alguns dos seus dias mais luminosos em junho e julho, e você pode ter a areia quase só para você. Escolha o mês que escolher, leve uma peça leve para o vento sul do fim da tarde (o \"southerly\") e deixe a previsão dar a palavra final."},
+    {"type":"faq","items":[
+      {"q":"Quais são os meses mais quentes em Bondi Beach?","a":"Janeiro e fevereiro trazem o ar e o mar mais quentes, por isso são os mais movimentados. Dezembro e março vêm logo atrás e costumam ser um pouco mais tranquilos."},
+      {"q":"Qual é a temperatura da água para nadar?","a":"O mar vai de cerca de 17°C no inverno a cerca de 24°C no pico de fevereiro. Muita gente usa roupa de neoprene mais ou menos de maio a setembro. O Manly Hydraulics Laboratory de NSW publica a temperatura atual da água de Sydney."},
+      {"q":"Quanto frio faz em Bondi no inverno?","a":"Os dias de inverno são frescos, mas quase sempre ensolarados, e as mínimas à noite ficam bem acima de zero: neve e geada forte não fazem parte do cenário. Leve uma jaqueta, mas ondas de frio de verdade são raras. Confira a página de Sydney do Bureau of Meteorology para a previsão exata."},
+      {"q":"A piscina do Bondi Icebergs é aquecida?","a":"Não, é uma piscina oceânica sem aquecimento abastecida pelo Pacífico, então a temperatura dela acompanha de perto a do mar ao longo do ano."}
+    ]}
+  ]
+}

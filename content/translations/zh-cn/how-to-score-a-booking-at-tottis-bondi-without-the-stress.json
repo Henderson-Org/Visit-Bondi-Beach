@@ -1,0 +1,38 @@
+{
+  "locale": "zh-cn",
+  "path": "/bondi-blog/2025/4/27/how-to-score-a-booking-at-tottis-bondi-without-the-stress",
+  "title": "轻松订到Totti's Bondi餐位的攻略",
+  "metaDescription": "如何真正订到Totti's Bondi的餐桌——什么时候订、候补机制怎么运作，以及本地人应对Bondi最难订餐位的小窍门。",
+  "h1": "如何毫无压力地订到Totti's Bondi的餐位",
+  "blocks": [
+    {"type":"p","text":"我帮朋友和游客搞定[Totti's](/bondi-eat-and-drink/venues/tottis-bondi)的订位次数多到数不清，所以让我帮你省去半夜纠结的烦恼。最稳妥的办法，是在你想去的日期一开放的那一刻就通过Merivale在线订好——不过就算你拖到了最后一刻也别慌，当天直接到店的散客是真心受欢迎的，取消的餐位也会不断重新出现在网上。下面就是我会一步步这么做的方法。"},
+    {"type":"quickFacts","items":[
+      {"label":"地点","value":"位于The Royal的后方，283 Bondi Road（Denham Street转角），Bondi"},
+      {"label":"订位方式","value":"Merivale在线订位（merivale.com/venues/tottis）"},
+      {"label":"电话","value":"+61 2 9114 7371"},
+      {"label":"散客","value":"欢迎当天到店（名额有限）"},
+      {"label":"店内","value":"一间185座的餐厅加庭院；柴火烤面包是必点，没得商量"}
+    ]},
+    {"type":"h2","text":"我会这样订"},
+    {"type":"p","text":"订位走的是Totti's店铺页面上Merivale自家的系统——就用这一个平台。餐位会提前固定的一段时间开放，而且这段时间会变，所以别轻信博客上写的某个固定天数。打开订位日历，滑到能订的最远日期，再从那里往回推算。"},
+    {"type":"list","items":[
+      "你想去的日期一开放，就立刻扑到订位页面——午餐和黄金晚餐时段抢得飞快。",
+      "提前把信息备好（姓名、电话，如需还有银行卡），免得餐位消失时你还在手忙脚乱。",
+      "在时间上灵活一点：早一点的午餐或晚一点的晚餐，都比周六晚上7点的混战好抢；平日胜过周末；八人桌订不到时，两三人的位子往往还有。"
+    ]},
+    {"type":"localTip","text":"就算错过了你心仪的那一晚，也把订位页面的标签页开着别关。Totti's延伸到那个宽敞的露天庭院，所以一旦Bondi天气转坏，临时取消的餐位又会回到网上。我有一次就是靠在对的时刻刷新页面，在周四订到了那个周六的桌子。"},
+    {"type":"callout","tone":"note","title":"大型聚会与特别场合","text":"大桌、生日和套餐活动的运作方式和普通订位不一样，Totti's还有一间私人包厢。凡是超出普通餐桌的需求，请拨打+61 2 9114 7371致电餐厅，或使用私人宴会页面上的咨询表单，而不是走在线订位。"},
+    {"type":"p","text":"没订位？也别就此放弃临时来一趟。每天都会留出数量有限的散客餐位，如果你早到而非在高峰期到、人数少一些、并愿意坐在他们能安排的任何位子上，胜算最大——平日的午后就是你的好帮手。实在不行，当天早上打个电话，往往能挖出网站还没更新出来的取消餐位。"},
+    {"type":"h2","text":"如果Totti's订满了"},
+    {"type":"p","text":"就算你想去的日子全无空位、也一直没有放出来，你也不至于走投无路——Bondi这一带遍布意大利菜和适合特别场合的餐厅。想吃柴火披萨，往北走几步就是我的首选[Da Orazio Pizza + Porchetta](/bondi-eat-and-drink/venues/da-orazio-pizza-porchetta)；想悠悠地吃一顿带一线海景的意式长午餐，多年来一直守着Campbell Parade的[Bondi Trattoria](/bondi-eat-and-drink/venues/bondi-trattoria)不会错。如果你追求的是那份仪式感而非Totti's本身，[Icebergs Dining Room and Bar](/bondi-eat-and-drink/venues/icebergs-dining-room-and-bar)能带来同样的手工意面配海景的排场（那家也要一样提前订）；而[Lola's Italian & Bar](/bondi-eat-and-drink/venues/lolas-italian-and-bar)则是你什么都没安排时更好走进去的选择。想看全貌，欢迎浏览我们整理的[Bondi最佳约会餐厅](/bondi-eat-and-drink/date-night-bondi-beach)和[Bondi最佳餐厅](/bondi-eat-and-drink/best-restaurants-bondi-beach)。"},
+    {"type":"p","text":"补一点背景历史：[The Royal](/bondi-eat-and-drink/venues/the-royal-bondi)自1902年起就扎根在Bondi Road的这个转角，Merivale于2018年12月携主厨Mike Eggert与Khan Danis在这家酒馆后方开出了Totti's。正是这份底蕴，让这里始终座无虚席，也正因如此，稍作规划才格外值得。记得点面包。"},
+    {"type":"callout","tone":"note","title":"想再多逛逛Bondi？","text":"Totti's只是这片实力雄厚的餐饮版图中的一桌。在我们完整的[Bondi美食美酒指南](/bondi-eat-and-drink)里浏览全部160多家Bondi餐馆——按菜系、区域、价位或同行对象筛选，找到你的下一个订位目标。"},
+    {"type":"faq","items":[
+      {"q":"我该怎么订Totti's Bondi的餐位？","a":"通过Totti's店铺页面上Merivale的在线订位系统（merivale.com/venues/tottis），或致电+61 2 9114 7371。想订普通餐桌，在线订位是最可靠的途径。"},
+      {"q":"订位提前多久开放？","a":"餐位会在你想去的日期前一段固定时间开放，而这段时间可能随时间变化。与其相信某个固定天数，不如打开订位日历，滑到你能选的最远日期，在你想去的日期第一次出现的那一刻就订下。"},
+      {"q":"Totti's Bondi接受散客吗？","a":"接受——每天会留出数量有限的当天散客餐位。早到而非高峰期到、人数少一些，你就给了自己最大的机会。"},
+      {"q":"Totti's Bondi到底在哪里？","a":"在283 Bondi Road的[The Royal](/bondi-eat-and-drink/venues/the-royal-bondi)后方，Denham Street转角，从海滩往上走一小段即到。前往前请查看Merivale官方页面上的当前营业时间，因为它会随季节变动。"},
+      {"q":"如果Totti's订满了，我还能去哪里吃？","a":"Bondi附近有不少出色的意大利菜和适合特别场合的替代选择——包括[Da Orazio Pizza + Porchetta](/bondi-eat-and-drink/venues/da-orazio-pizza-porchetta)、[Bondi Trattoria](/bondi-eat-and-drink/venues/bondi-trattoria)、[Icebergs Dining Room and Bar](/bondi-eat-and-drink/venues/icebergs-dining-room-and-bar)和[Lola's Italian & Bar](/bondi-eat-and-drink/venues/lolas-italian-and-bar)。更多推荐请看我们的[最佳约会餐厅](/bondi-eat-and-drink/date-night-bondi-beach)指南。"}
+    ]}
+  ]
+}
