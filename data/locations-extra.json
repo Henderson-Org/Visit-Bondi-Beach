@@ -1,1 +1,1500 @@
-[]
+[
+  {
+    "slug": "tamarama-beach",
+    "path": "/tamarama-beach",
+    "name": "Tamarama Beach",
+    "shortDescription": "Tamarama is the small, deep, dramatic cove between Bondi and Bronte on the coastal walk — beautiful to look at and a great place to sit, but one of Sydney's most dangerous patrolled beaches, so only ever swim between the flags when it's open.",
+    "category": "beach",
+    "schemaType": "Beach",
+    "mapQuery": "Tamarama Beach, Tamarama NSW, Australia",
+    "coordinates": {
+      "lat": -33.8997,
+      "lng": 151.2706
+    },
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Tamarama,_New_South_Wales",
+      "https://www.wikidata.org/wiki/Q3140147"
+    ],
+    "quickFacts": [
+      {
+        "label": "Best for",
+        "value": "Scenery, sunbathing, the coastal walk and Sculpture by the Sea — not a safe all-round swimming beach"
+      },
+      {
+        "label": "Swimming",
+        "value": "Only between the red-and-yellow flags, and only when open — SLSNSW rates it the most dangerous patrolled beach in NSW; strong rips and a heavy shore break mean it's often closed"
+      },
+      {
+        "label": "Lifeguards",
+        "value": "Patrolled year-round by Waverley Council lifeguards and Tamarama SLSC; swim only during patrol hours"
+      },
+      {
+        "label": "Toilets & showers",
+        "value": "Change rooms, showers and a baby-change area beside the beach"
+      },
+      {
+        "label": "Kiosk",
+        "value": "Café/kiosk behind the sand for coffee, cold drinks and snacks"
+      },
+      {
+        "label": "Park & playground",
+        "value": "Grassy park with picnic spots and a children's playground behind the beach"
+      },
+      {
+        "label": "Parking",
+        "value": "Limited metered street parking on the surrounding streets — fills fast on warm days"
+      },
+      {
+        "label": "Public transport",
+        "value": "Bus 381 (Bondi Junction–Tamarama loop); weekend services 361/362 also stop nearby — check transportnsw.info"
+      },
+      {
+        "label": "Dogs",
+        "value": "Not permitted on the beach"
+      },
+      {
+        "label": "Distance from Bondi Beach",
+        "value": "About a 20–25 min walk south along the Bondi-to-Coogee coastal walk"
+      }
+    ],
+    "whyVisit": [
+      "Tamarama — locals call it \"Glamarama\" — is a small, deep cove tucked between two rocky headlands, with a sand-filled valley and grassy park behind it. It's one of the prettiest stops on the Bondi-to-Coogee walk, and in late spring it becomes the heart of Sculpture by the Sea, when the clifftops and park fill with outdoor artworks.",
+      "We love it as a place to lay out a towel, grab a coffee from the kiosk and watch the surf — but we're honest about the water. Because the beach is small, deep and faces directly into the swell, Surf Life Saving NSW considers it the most dangerous patrolled beach in the state, with rips that can run at up to two metres a second. Come for the scenery and the sun; swim only between the flags when it's open, and treat any closure as final."
+    ],
+    "activities": [
+      {
+        "title": "Walk the Bondi-to-Coogee coastal path",
+        "detail": "Tamarama sits right on the famous clifftop walk, a short leg south of Bondi and a few minutes north of Bronte. The approach from Marks Park delivers one of the best cove views on the whole route."
+      },
+      {
+        "title": "Sunbathe on the sand and the grass",
+        "detail": "The compact beach and the grassy park behind it are the main draw — bring a towel, grab something from the kiosk and settle in. The park has picnic spots and shade."
+      },
+      {
+        "title": "See Sculpture by the Sea",
+        "detail": "Every late spring the free Sculpture by the Sea exhibition runs along the Bondi–Tamarama clifftops and through Tamarama Park, turning the beach into an open-air gallery. Expect big crowds on weekends."
+      },
+      {
+        "title": "Swim between the flags — carefully",
+        "detail": "When lifeguards judge conditions safe, the patrolled area is flagged. Always check with the lifeguards on the day, and if the beach is closed to swimming, don't go in — Tamarama's rips are unforgiving."
+      },
+      {
+        "title": "Let kids use the playground",
+        "detail": "The playground on the grass behind the beach makes Tamarama an easy family stop for a break on the coastal walk, even when the water's off-limits."
+      }
+    ],
+    "localTips": [
+      "Treat a closed beach as genuinely closed. On big-swell days lifeguards shut the water entirely — Tamarama isn't the place to test yourself against a rip. If you want a reliable swim, the flagged area at Bondi or the pool at Bronte is a better bet.",
+      "The surf zone here is essentially all rip. Even strong swimmers get caught, so keep young kids at the water's edge and never let them wade out on an unflagged beach.",
+      "Parking is tight and metered — on a warm weekend you'll circle for a while. Walking in from Bondi or Bronte, or taking the bus, is usually less stressful.",
+      "Come mid-morning on a weekday for the calmest experience; weekends and Sculpture by the Sea season get very busy in a small space.",
+      "If the beach is closed but you still want a dip, it's only a few minutes' walk south to Bronte, which has an ocean pool and a gentler flagged corner."
+    ],
+    "bestTime": [
+      "Mornings are our favourite — softer light in the cove, easier parking and space on the grass before the crowds. Weekdays are noticeably quieter than weekends in such a small spot.",
+      "Late spring brings Sculpture by the Sea, which is spectacular but packs the clifftops and park; go early in the day or on a weekday if you want room to move. Summer is peak season, and it's exactly when the surf is most likely to be dangerous — so beautiful to visit, but check the flags before you plan on swimming."
+    ],
+    "gettingThere": [
+      {
+        "mode": "walk",
+        "label": "From Bondi Beach",
+        "detail": "About a 20–25 minute walk south along the Bondi-to-Coogee coastal path, over Marks Park and down into the cove — one of the best-value walks in the east."
+      },
+      {
+        "mode": "walk",
+        "label": "From Bronte Beach",
+        "detail": "A short 5–10 minute walk north along the coastal path brings you into Tamarama from the Bronte end."
+      },
+      {
+        "mode": "bus",
+        "label": "Bus 381 from Bondi Junction",
+        "detail": "The 381 runs a Bondi Junction–Tamarama loop and drops you close to the beach. Weekend routes 361 and 362 also serve the area — check live times and stops at transportnsw.info."
+      },
+      {
+        "mode": "train",
+        "label": "Train to Bondi Junction",
+        "detail": "Take the T4 line to Bondi Junction, then connect to the 381 bus or walk down via the coastal route."
+      },
+      {
+        "mode": "parking",
+        "label": "Street parking",
+        "detail": "Only limited metered street parking on the surrounding streets, which fills quickly on warm days and during events — arrive early or come without a car."
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Marks Park",
+        "href": "/marks-park",
+        "description": "The clifftop park on the headland just north of Tamarama, with the coastal path and knockout cove views.",
+        "walk": "5 min walk"
+      },
+      {
+        "name": "Bronte Beach",
+        "href": "/bronte-beach",
+        "description": "The next beach south — a family favourite with an ocean pool, sea baths and a big grassy park.",
+        "walk": "5–10 min walk"
+      },
+      {
+        "name": "Bondi Beach",
+        "href": "/bondi-beach",
+        "description": "The main event to the north, with wide flagged swimming areas, the Pavilion and the promenade.",
+        "walk": "20–25 min walk"
+      },
+      {
+        "name": "Mackenzies Bay",
+        "href": "/mackenzies-bay",
+        "description": "A tiny bay on the walk between Tamarama and Bondi, where a seasonal 'secret' beach sometimes appears.",
+        "walk": "10 min walk"
+      },
+      {
+        "name": "Bondi to Coogee coastal walk",
+        "href": "/bondi-coastal-walk",
+        "description": "The clifftop walk that strings Tamarama together with Bondi, Bronte and Coogee.",
+        "walk": "On the route"
+      }
+    ],
+    "nearbyFood": {
+      "intro": "Tamarama has a handy kiosk behind the sand for coffee and snacks, but for a proper meal most people walk on to Bronte or back to Bondi.",
+      "links": [
+        {
+          "title": "Best cafés around Bondi",
+          "href": "/bondi-eat-and-drink/best-cafes-bondi-beach",
+          "description": "Our pick of the coffee spots and brunch cafés a short walk away."
+        },
+        {
+          "title": "Beachfront dining",
+          "href": "/bondi-eat-and-drink/waterfront-dining-bondi-beach",
+          "description": "Where to eat with a sea view once you're back at Bondi."
+        },
+        {
+          "title": "Eat & drink directory",
+          "href": "/bondi-eat-and-drink",
+          "description": "The full Bondi-area food and drink guide."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is it safe to swim at Tamarama Beach?",
+        "a": "Only with real caution. Surf Life Saving NSW rates Tamarama the most dangerous patrolled beach in the state — it's small, deep and exposed, with strong rips that can run at up to two metres a second. Swim only between the red-and-yellow flags when the beach is open, always check with the lifeguards first, and never enter the water if the beach is closed."
+      },
+      {
+        "q": "Why is Tamarama so dangerous?",
+        "a": "Its shape works against swimmers: a small, deep beach facing straight into the swell means rip currents are almost always present, sometimes across the whole surf zone. That's why it records far more rescues than neighbouring beaches despite its size."
+      },
+      {
+        "q": "Is Tamarama Beach patrolled by lifeguards?",
+        "a": "Yes. Waverley Council lifeguards and Tamarama Surf Life Saving Club patrol the beach year-round. Swim only during patrol hours and inside the flagged area — and expect the beach to be closed to swimming on dangerous days."
+      },
+      {
+        "q": "What facilities are at Tamarama Beach?",
+        "a": "There are change rooms, showers and a baby-change area, a café/kiosk, and a grassy park behind the beach with picnic spots and a children's playground."
+      },
+      {
+        "q": "Can you bring dogs to Tamarama Beach?",
+        "a": "No — dogs aren't permitted on the beach. Check Waverley Council for current rules on the surrounding parkland before you visit."
+      },
+      {
+        "q": "How do I get to Tamarama Beach?",
+        "a": "It's about a 20–25 minute walk south from Bondi (or 5–10 minutes north from Bronte) along the coastal path. By public transport, the 381 bus runs a Bondi Junction–Tamarama loop; weekend routes 361 and 362 also serve the area. Street parking is limited and metered."
+      }
+    ],
+    "relatedGuides": [
+      {
+        "title": "Bondi to Coogee coastal walk",
+        "href": "/bondi-coastal-walk"
+      },
+      {
+        "title": "Where to swim at Bondi",
+        "href": "/where-to-swim-at-bondi-beach"
+      },
+      {
+        "title": "Bronte Beach",
+        "href": "/bronte-beach"
+      },
+      {
+        "title": "Marks Park",
+        "href": "/marks-park"
+      },
+      {
+        "title": "Things to do in Bondi",
+        "href": "/things-to-do-in-bondi"
+      },
+      {
+        "title": "Getting to Bondi",
+        "href": "/getting-to-bondi"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tamarama, New South Wales — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tamarama,_New_South_Wales"
+      },
+      {
+        "label": "Beach safety — Waverley Council",
+        "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety"
+      },
+      {
+        "label": "Tamarama Surf Life Saving Club — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tamarama_Surf_Life_Saving_Club"
+      },
+      {
+        "label": "Bondi Junction to Tamarama (381 loop) — transportnsw.info",
+        "url": "https://transportnsw.info/routes/details/sydney-buses-network/381/30381"
+      },
+      {
+        "label": "Sculpture by the Sea — getting there",
+        "url": "https://sculpturebythesea.com/bondi/planning-your-trip/getting-there/"
+      }
+    ],
+    "lastReviewed": "2026-08-11",
+    "editorialNotes": [
+      "Coordinates are a suburb-centroid approximation from public sources (latlong.net / Wikipedia suburb article), not a precise beach midpoint — verify against an authoritative gazetteer before relying on them; mapQuery resolves the beach correctly regardless.",
+      "Wikidata ID (Q3140147) for the Tamarama suburb entity should be confirmed before publishing sameAs; remove if it doesn't resolve to the correct entity.",
+      "Bus routes: the historic 361 was restructured by Transport for NSW; route 381 (Bondi Junction–Tamarama loop) appears to be the current service, with weekend 361/362 nearby. Confirm current route numbers, days and stops at transportnsw.info before publishing.",
+      "Lifeguard patrol hours vary by season (and winter months may have reduced or no patrols); we deliberately did not assert specific times — confirm current hours with Waverley Council before adding them.",
+      "Facilities (change rooms/showers/baby-change, kiosk, playground) are cross-referenced from secondary sources; the Waverley Council Tamarama page returned HTTP 403 and could not be fetched — reconfirm facilities and dog rules directly with Waverley Council. Kiosk/café name intentionally omitted (not verified).",
+      "Accessibility is uncertain: sources conflict on whether the paved access ramp makes the beach usable for wheelchair/pram users. Left out of quickFacts pending confirmation from Waverley Council.",
+      "Distances/walk times (Bondi ~20–25 min, Bronte ~5–10 min) are approximate editorial estimates based on the coastal walk, not measured — treat as indicative.",
+      "No verified hero image assigned yet — page renders with the plain editorial hero; add a checked image."
+    ]
+  },
+  {
+    "slug": "bronte-beach",
+    "path": "/bronte-beach",
+    "name": "Bronte Beach",
+    "shortDescription": "A family-favourite Eastern Suburbs beach one bay south of Tamarama, with a historic ocean pool, the child-friendly Bogey Hole rock enclosure, a big grassy picnic park with barbecues, and a Bronte Road café strip — patrolled, bus-served, and one of the highlights of the Bondi to Coogee coastal walk.",
+    "category": "beach",
+    "schemaType": "Beach",
+    "mapQuery": "Bronte Beach, NSW, Australia",
+    "coordinates": {
+      "lat": -33.9036,
+      "lng": 151.2683
+    },
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Bronte_Beach",
+      "https://www.wikidata.org/wiki/Q890845"
+    ],
+    "quickFacts": [
+      {
+        "label": "Best for",
+        "value": "Families, picnics, barbecues, and calmer pool swimming"
+      },
+      {
+        "label": "Swimming",
+        "value": "Patrolled beach plus a 30m ocean pool (Bronte Baths) and the shallow Bogey Hole rock pool for kids"
+      },
+      {
+        "label": "Lifeguards",
+        "value": "Waverley Council lifeguards daily; Bronte SLSC volunteers on weekends/public holidays — swim between the flags"
+      },
+      {
+        "label": "Ocean pool",
+        "value": "Bronte Baths, ~30m, free, at the southern end (open-air; conditions weather-dependent)"
+      },
+      {
+        "label": "Rip hazard",
+        "value": "The strong \"Bronte Express\" rip runs off the surf/southern end — stay between the flags"
+      },
+      {
+        "label": "Toilets & showers",
+        "value": "Yes — public amenities and outdoor showers by the beach/park"
+      },
+      {
+        "label": "Park & BBQ",
+        "value": "Large grassy park with free electric barbecues and picnic tables behind the beach"
+      },
+      {
+        "label": "Public transport",
+        "value": "Bus only (no train). Route 379 to Bronte Beach terminus; connects at Bondi Junction station"
+      },
+      {
+        "label": "Parking",
+        "value": "Limited street parking, metered and strictly enforced — arrives early on weekends"
+      },
+      {
+        "label": "Dogs",
+        "value": "Not permitted on the beach; on-lead in surrounding areas (check Waverley Council signage)"
+      },
+      {
+        "label": "Distance from Bondi Beach",
+        "value": "About 2 km south; roughly a 45–60 min coastal walk via Tamarama"
+      },
+      {
+        "label": "Cafés",
+        "value": "Café strip along Bronte Road, right by the park"
+      }
+    ],
+    "whyVisit": [
+      "Bronte is the beach we send families to. Tucked into a small bay two kilometres south of Bondi, it pairs a proper patrolled surf beach with a big grassy park that runs almost to the sand — the kind of place where you can claim a barbecue, spread out a picnic blanket, and let the kids roam between the playground, the sand, and the water without losing sight of them.",
+      "The swimming is unusually versatile for such a compact beach. There's a genuine surf/bodyboarding end, a historic 30-metre ocean pool (Bronte Baths) cut into the southern rocks, and the Bogey Hole — a shallow natural rock enclosure that's about as safe and fun as sea-swimming gets for small children. Add a café strip on Bronte Road and its place as a rest stop on the Bondi to Coogee walk, and it earns its reputation as a locals' favourite."
+    ],
+    "activities": [
+      {
+        "title": "Swim the ocean pool (Bronte Baths)",
+        "detail": "A roughly 30-metre open-air pool carved into the southern rocks — one of Sydney's oldest, first established in the 1880s. Free to use, good for lap swimmers and anyone wanting a swim away from the surf. It's exposed to the sea, so it can close or get washy in big swell."
+      },
+      {
+        "title": "Let the kids in the Bogey Hole",
+        "detail": "A shallow natural rock enclosure at the southern end, its name from an Aboriginal word for a swimming or bathing place. Calm and shallow at low tide — the go-to spot for toddlers and nervous swimmers — but respect the rocks and rising water on a bigger swell."
+      },
+      {
+        "title": "Barbecue and picnic in Bronte Park",
+        "detail": "The big grassy park behind the beach has free electric barbecues and picnic tables. It fills fast on sunny weekends; the barbecues near the beach are the first to go, so come early to claim a spot."
+      },
+      {
+        "title": "Surf or bodyboard the beach break",
+        "detail": "The northern/surf end picks up a decent beach break. It also generates the powerful \"Bronte Express\" rip, so it's for confident surfers and bodyboarders — everyone else should swim between the red-and-yellow flags."
+      },
+      {
+        "title": "Walk the coast to Tamarama, Bondi or Clovelly",
+        "detail": "Bronte sits mid-way on the Bondi to Coogee coastal walk. It's a short, scenic leg north over the headland to Tamarama and on to Bondi, or south to Waverley Cemetery and Clovelly — Bronte's park and cafés make it the natural rest stop."
+      },
+      {
+        "title": "Coffee and breakfast on Bronte Road",
+        "detail": "The café strip facing the park is a Sunday-morning institution. Grab a coffee or a post-swim breakfast and take it back to the grass."
+      }
+    ],
+    "localTips": [
+      "The Bogey Hole and ocean pool are best at low-to-mid tide — check the tide before promising the kids a rock-pool swim, as both can wash out in a bigger swell.",
+      "Weekend barbecues in the park are hotly contested. If a BBQ picnic is the plan, arrive well before midday, especially in summer, or you'll be circling.",
+      "Parking is genuinely hard and strictly policed — metered, time-limited, and ticketed. On busy days the bus or the coastal walk in from Bondi/Tamarama is less stressful than driving.",
+      "There's no train to Bronte. The 379 runs down to the Bronte Beach terminus and links to Bondi Junction, where the Eastern Suburbs train line takes over.",
+      "The southern (pool) end is the calmer, more sheltered side and better for families; the northern surf end is where the strong \"Bronte Express\" rip forms — always swim between the flags.",
+      "It's an easy, pretty 15–20 minute walk over the headland from Tamarama, so you can combine both beaches in one visit."
+    ],
+    "bestTime": [
+      "Early-to-mid morning on a weekday is Bronte at its best: you'll get a picnic spot and a barbecue without a fight, calmer water, and easier parking. Weekends and summer holidays are lovely but busy — come before 10am if you want a patch of grass near the beach.",
+      "Lifeguards patrol daily outside winter, with volunteer lifesavers adding weekend and public-holiday cover, so the warmer months (roughly October to April) are the safest and liveliest time to swim. The ocean pool and Bogey Hole are most enjoyable around low-to-mid tide and in smaller swell; in big seas both can be washy or closed."
+    ],
+    "gettingThere": [
+      {
+        "mode": "bus",
+        "label": "Route 379 to Bronte Beach",
+        "detail": "The 379 runs to the Bronte Beach terminus on Bronte Road, right by the park. It connects with Bondi Junction station (Eastern Suburbs & Illawarra train line), which is the main interchange for the area. Check live times on the Transport NSW trip planner."
+      },
+      {
+        "mode": "walk",
+        "label": "Coastal walk from Bondi or Tamarama",
+        "detail": "Bronte is a stop on the Bondi to Coogee coastal walk — about 2 km (roughly 45–60 min) from Bondi via Tamarama, or a short 15–20 min hop over the headland from Tamarama. One of the nicest ways to arrive."
+      },
+      {
+        "mode": "parking",
+        "label": "Limited, metered street parking",
+        "detail": "Parking is on the surrounding streets only, metered and time-limited, and enforcement is strict. Spaces fill early on weekends and in summer — allow extra time or avoid driving on peak days."
+      },
+      {
+        "mode": "train",
+        "label": "No train to Bronte",
+        "detail": "There's no station at Bronte. The nearest rail is Bondi Junction; from there transfer to a bus (379) or walk/rideshare down to the beach."
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Tamarama Beach",
+        "href": "/tamarama-beach",
+        "description": "The small, deep cove immediately north — pretty but with a fierce reputation for rips; a short headland walk away.",
+        "walk": "15–20 min walk"
+      },
+      {
+        "name": "Bondi to Coogee coastal walk",
+        "href": "/bondi-coastal-walk",
+        "description": "The clifftop walk that links Bronte with Tamarama and Bondi to the north and Clovelly and Coogee to the south.",
+        "walk": "On the route"
+      },
+      {
+        "name": "Bondi Beach",
+        "href": "/bondi-beach",
+        "description": "The famous main beach, about 2 km north with the biggest range of surf, food and facilities.",
+        "walk": "45–60 min walk"
+      },
+      {
+        "name": "Marks Park",
+        "href": "/marks-park",
+        "description": "The clifftop reserve on the headland between Tamarama and Bondi, a highlight of the coastal walk and Sculpture by the Sea.",
+        "walk": "On the route north"
+      }
+    ],
+    "nearbyFood": {
+      "intro": "Bronte's own café strip runs along Bronte Road facing the park — perfect for a post-swim coffee or breakfast. For the wider Bondi food scene, our directory and café collection are the place to start.",
+      "links": [
+        {
+          "title": "Eat & drink directory",
+          "href": "/bondi-eat-and-drink",
+          "description": "Our full directory of Bondi-area cafés, restaurants and bars."
+        },
+        {
+          "title": "Best cafés around Bondi",
+          "href": "/bondi-eat-and-drink/best-cafes-bondi-beach",
+          "description": "Our pick of the standout cafés for coffee and breakfast across the Bondi area."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is Bronte Beach good for families and kids?",
+        "a": "Yes — it's one of the best family beaches in the Eastern Suburbs. The shallow Bogey Hole rock pool is ideal for small children, the ocean pool suits older kids and lap swimmers, and the big grassy park behind the beach has barbecues, picnic tables and space to run around. It's patrolled, so swim between the flags."
+      },
+      {
+        "q": "Is it safe to swim at Bronte Beach?",
+        "a": "It's patrolled by Waverley Council lifeguards daily outside winter (with volunteer lifesavers on weekends and public holidays), so it's safe when you swim between the red-and-yellow flags. Be aware of the strong \"Bronte Express\" rip that forms at the surf end — for calmer water, use the southern pool end, the Bronte Baths ocean pool, or the Bogey Hole."
+      },
+      {
+        "q": "How do I get to Bronte Beach without a car?",
+        "a": "Take the 379 bus, which runs to the Bronte Beach terminus on Bronte Road and connects with Bondi Junction station. There's no train to Bronte itself. Alternatively, walk in along the Bondi to Coogee coastal path from Bondi (about 2 km) or Tamarama (15–20 min)."
+      },
+      {
+        "q": "Is there parking at Bronte Beach?",
+        "a": "Only limited street parking on the surrounding roads — it's metered, time-limited and strictly enforced, and fills early on weekends and in summer. On busy days the bus or the coastal walk is far less stressful than driving."
+      },
+      {
+        "q": "Does Bronte Beach have an ocean pool?",
+        "a": "Yes. Bronte Baths is a roughly 30-metre open-air ocean pool at the southern end, one of Sydney's oldest, dating to the 1880s. It's free to use. There's also the Bogey Hole, a shallow natural rock enclosure nearby that's great for young children. Both are exposed to the sea and can be washy or closed in big swell."
+      },
+      {
+        "q": "Can you have a barbecue or picnic at Bronte?",
+        "a": "Yes — the large park behind the beach has free electric barbecues and picnic tables and is one of the most popular picnic spots in the area. It gets busy, so arrive early on sunny weekends to claim a barbecue or a shady patch of grass."
+      }
+    ],
+    "relatedGuides": [
+      {
+        "title": "Bondi to Coogee coastal walk",
+        "href": "/bondi-coastal-walk"
+      },
+      {
+        "title": "Where to swim at Bondi Beach",
+        "href": "/where-to-swim-at-bondi-beach"
+      },
+      {
+        "title": "Bondi with kids",
+        "href": "/bondi-with-kids"
+      },
+      {
+        "title": "Tamarama Beach",
+        "href": "/tamarama-beach"
+      },
+      {
+        "title": "Things to do in Bondi",
+        "href": "/things-to-do-in-bondi"
+      },
+      {
+        "title": "Getting to Bondi",
+        "href": "/getting-to-bondi"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Bronte Beach — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bronte_Beach"
+      },
+      {
+        "label": "Waverley Council — Beaches and coast / beach safety",
+        "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety"
+      },
+      {
+        "label": "Beachsafe (Surf Life Saving Australia) — Bronte",
+        "url": "https://beachsafe.org.au/beach/nsw/waverley/bronte/bronte"
+      },
+      {
+        "label": "Transport NSW — Route 379 (North Bondi to Bronte)",
+        "url": "https://transportnsw.info/routes/details/transdev-john-holland-buses/379/30379"
+      },
+      {
+        "label": "Dictionary of Sydney — Bronte Bogey Hole",
+        "url": "https://dictionaryofsydney.org/structure/bronte_bogey_hole"
+      }
+    ],
+    "lastReviewed": "2026-08-11",
+    "editorialNotes": [
+      "Coordinates (-33.9036, 151.2683) sourced from Wikipedia (33°54′13″S 151°16′06″E) and cross-checked against a coordinates aggregator — durable, but confirm precise pin before publishing.",
+      "Wikidata ID Q890845 for Bronte Beach is a best-guess mapping — VERIFY the Wikidata entity resolves to Bronte Beach (Sydney) before relying on the sameAs link; remove if unconfirmed.",
+      "Lifeguard patrol hours vary seasonally (reported as ~6am–7pm summer daylight saving, 6am–6pm non-DST, 7am–5pm winter per secondary sources) — do NOT publish specific hours without confirming current times on Waverley Council's official page.",
+      "Ocean pool length stated as ~30m per Wikipedia/secondary sources; treat as approximate. Bronte Baths and Bogey Hole open-air and free, but no formal opening hours/closure policy verified — point users to Waverley Council.",
+      "Bus route 379 to Bronte terminus confirmed via search; the historic 378 has been restructured (now 440-related). Verify current 379 routing/timetable on the Transport NSW trip planner before publishing exact stop names.",
+      "Dogs: stated as not permitted on the beach — confirm current Waverley Council dog rules/signage for surrounding parks and times before publishing.",
+      "Parking is metered/time-limited/enforced per multiple sources but specific rates and hours were not verified — kept general; do not add prices.",
+      "Toilets, showers and playground presence inferred from multiple secondary sources and the park's known facilities — verify specifics (e.g. playground, accessibility/beach wheelchair availability) with Waverley Council before adding an Accessibility quickFact.",
+      "Beachsafe page did not fully load; rip hazard (\"Bronte Express\") and patrol status corroborated via Wikipedia and Waverley Council — re-verify surf hazard wording against Beachsafe when accessible.",
+      "No verified hero image assigned yet — page renders with the plain editorial hero; add a checked image."
+    ]
+  },
+  {
+    "slug": "ben-buckler",
+    "path": "/ben-buckler",
+    "name": "Ben Buckler",
+    "shortDescription": "Ben Buckler is the rocky northern headland above North Bondi — the tip of the Bondi arc, with wide views back over the whole beach, a small reserve and lookout, and notoriously dangerous rock-fishing ledges. It is not a swimming spot.",
+    "category": "landmark",
+    "schemaType": "Place",
+    "mapQuery": "Ben Buckler Point, North Bondi, NSW, Australia",
+    "coordinates": {
+      "lat": -33.893625,
+      "lng": 151.283688
+    },
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Ben_Buckler,_New_South_Wales",
+      "https://www.wikidata.org/wiki/Q4885363"
+    ],
+    "quickFacts": [
+      {
+        "label": "Best for",
+        "value": "Views, photography, a short headland walk"
+      },
+      {
+        "label": "Swimming",
+        "value": "No — a rocky headland, not a beach. Swim down at North Bondi between the flags"
+      },
+      {
+        "label": "Lifeguards",
+        "value": "None on the headland (patrols are on the beach below, in season)"
+      },
+      {
+        "label": "Rock fishing",
+        "value": "Popular but very dangerous — people have been swept off and killed here"
+      },
+      {
+        "label": "Toilets & showers",
+        "value": "None on the point; nearest are at North Bondi beach"
+      },
+      {
+        "label": "Parking",
+        "value": "Very limited timed street parking off Ramsgate Avenue, plus one mobility bay"
+      },
+      {
+        "label": "Public transport",
+        "value": "Bus to North Bondi, then a short uphill walk"
+      },
+      {
+        "label": "Dogs",
+        "value": "On-lead in the reserves; check current Waverley Council signage"
+      },
+      {
+        "label": "Best time",
+        "value": "Early morning for light over the beach; dusk for fewer crowds"
+      },
+      {
+        "label": "Distance from Bondi Beach centre",
+        "value": "About a 15–20 min walk north along the promenade and up"
+      }
+    ],
+    "whyVisit": [
+      "Ben Buckler is the rocky point that closes off the northern end of Bondi. Stand out here and the whole beach curves away in front of you, from North Bondi down to the Icebergs pool at the far southern end. It is our favourite spot to see Bondi as one sweep, and the light early in the morning, with the sun coming up over the sea, is hard to beat.",
+      "It is a viewpoint and a walking-and-photography spot rather than a place to get in the water — there is no beach here, just wave-washed rock shelves below the headland. The point sits within two small linked reserves (Ray O'Keefe Reserve and Sam Fiszman Park) at the end of Ramsgate Avenue, so you can drive or walk up, take in the view, and wander the grassed clifftop. It is also part of local surfing lore: the heavy break off the headland is known to surfers simply as 'the Buckler'."
+    ],
+    "activities": [
+      {
+        "title": "Take in the whole-of-Bondi view",
+        "detail": "The main draw. From the clifftop reserve and lookout at the end of Ramsgate Avenue you get an uninterrupted panorama of the full Bondi arc — beach, promenade and Icebergs — plus open ocean to the horizon. Best in the morning with the sun behind you."
+      },
+      {
+        "title": "Walk the headland and reserves",
+        "detail": "Wander the grassed clifftop across Ray O'Keefe Reserve and Sam Fiszman Park, or pick up the rougher trail that runs along the rocks from the northern end of North Bondi Beach up to the point. Wear proper shoes — the rock is uneven."
+      },
+      {
+        "title": "See the 'Big Rock' (Mermaid Rock)",
+        "detail": "A large isolated boulder sits on the rock platform below the headland. It is widely recorded as having been shifted ashore by a storm on 15 July 1912, with a brass plaque marking the event. Weight and date are the commonly cited local account rather than a surveyed figure — treat them as heritage folklore."
+      },
+      {
+        "title": "Photography",
+        "detail": "One of the strongest vantage points in the eastern suburbs — sunrise over the sea, big-swell days when waves explode on the ledges, and long views back over the beach. A polariser helps with the water."
+      },
+      {
+        "title": "Whale watching in season",
+        "detail": "During the winter–spring migration (roughly May to November) the elevated headland is a decent spot to scan for whales passing offshore. Bring binoculars; there is no guarantee."
+      }
+    ],
+    "localTips": [
+      "Rock fishing here is genuinely dangerous, not a photo prop. People have been swept off the ledges at Ben Buckler and North Bondi and drowned. If you fish, never turn your back on the sea, never fish alone, wear a lifejacket, and stay well back from the wet, dark rock where swell reaches.",
+      "There is no beach and no shelter up here — no toilets, no cafe, no water. Do all that down at North Bondi first, then walk up.",
+      "Parking on Ramsgate Avenue is limited and timed, and it fills fast on weekends and in summer. Walking up from North Bondi Beach is usually less hassle than circling for a spot.",
+      "For the classic 'whole beach' shot, come early — morning light sits behind you and lights up the arc, and the point is quieter before the crowds.",
+      "Watch your footing near the edge. The rock shelves are uneven and slippery when wet, and a rogue set can wash surprisingly high up ledges that look dry.",
+      "Keep dogs on-lead in the reserves and away from the cliff edges; check Waverley Council signage for current off-lead areas and times."
+    ],
+    "bestTime": [
+      "Early morning is our pick. The sun rises out of the sea in front of the headland, so the light falls on the beach and the arc looks its best — and the point is far quieter than midday. Sunrise photographers and a few walkers, and not much else.",
+      "Big-swell days are dramatic from up here, with waves detonating on the rocks below, but that is exactly when the ledges are lethal for anyone fishing or scrambling down. Enjoy it from the grassed clifftop, well back from the edge. Winter to spring (about May–November) also brings the chance of whales offshore."
+    ],
+    "gettingThere": [
+      {
+        "mode": "walk",
+        "label": "From Bondi Beach / North Bondi",
+        "detail": "Walk north along the promenade to the far (northern) end of the beach, then either follow the rock trail up to the point or head up via Ramsgate Avenue. Allow roughly 15–20 minutes from the centre of Bondi Beach."
+      },
+      {
+        "mode": "bus",
+        "label": "Bus to North Bondi",
+        "detail": "Take a bus to North Bondi (routes serving the North Bondi end of Campbell Parade include the 333 and 380 — check Transport NSW for current routes and stops), then walk up toward Ramsgate Avenue and the headland."
+      },
+      {
+        "mode": "drive",
+        "label": "By car",
+        "detail": "Head to the northern end of North Bondi and up Ramsgate Avenue, which runs out to the point."
+      },
+      {
+        "mode": "parking",
+        "label": "Parking",
+        "detail": "Only a small amount of timed street parking off Ramsgate Avenue, plus a marked mobility parking bay. It fills quickly on weekends and in summer — arrive early or come on foot."
+      },
+      {
+        "mode": "rideshare",
+        "label": "Rideshare / taxi",
+        "detail": "Set the destination to Ramsgate Avenue, North Bondi; the last stretch to the lookout is a short walk."
+      }
+    ],
+    "nearby": [
+      {
+        "name": "North Bondi",
+        "href": "/north-bondi",
+        "description": "The calmer northern end of the beach directly below the headland, with the flags, the North Bondi ocean pools and family-friendly sand.",
+        "walk": "5–10 min walk"
+      },
+      {
+        "name": "Bondi Beach",
+        "href": "/bondi-beach",
+        "description": "The main beach and promenade, curving south from below Ben Buckler to the Icebergs.",
+        "walk": "15–20 min walk"
+      },
+      {
+        "name": "Bondi Icebergs",
+        "href": "/bondi-icebergs",
+        "description": "The famous ocean pool at the far southern headland — the other end of the view from Ben Buckler.",
+        "walk": "25–30 min walk"
+      },
+      {
+        "name": "Bondi to Coogee coastal walk",
+        "href": "/bondi-coastal-walk",
+        "description": "The clifftop coastal walk starts at Bondi's southern end and heads down the coast past Tamarama and Bronte.",
+        "walk": "Starts ~25 min walk south"
+      }
+    ],
+    "nearbyFood": {
+      "intro": "There is nothing to eat or drink on the headland itself — head back down to North Bondi and the Campbell Parade strip, where the cafes and beachfront spots are.",
+      "links": [
+        {
+          "title": "Best cafes around Bondi Beach",
+          "href": "/bondi-eat-and-drink/best-cafes-bondi-beach",
+          "description": "Our pick of the cafes, including options at the North Bondi end near the headland."
+        },
+        {
+          "title": "Beachfront dining at Bondi",
+          "href": "/bondi-eat-and-drink/waterfront-dining-bondi-beach",
+          "description": "Where to eat with a view of the water after your walk up to the point."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Can you swim at Ben Buckler?",
+        "a": "No. Ben Buckler is a rocky headland with wave-washed ledges, not a beach — there is nowhere safe to swim and no lifeguards on the point. For swimming, go down to North Bondi and stay between the red-and-yellow flags."
+      },
+      {
+        "q": "Is rock fishing at Ben Buckler dangerous?",
+        "a": "Yes, very. It is a popular rock-fishing spot but people have been swept off the ledges here and at North Bondi and drowned. Waverley Council does not encourage it. If you fish, wear a lifejacket, never fish alone, never turn your back on the sea and stay well back from wet rock."
+      },
+      {
+        "q": "What is the big rock at Ben Buckler?",
+        "a": "A large isolated boulder on the rock platform below the headland, often called Mermaid Rock or Bondi's 'Big Rock'. Local accounts say a storm shifted it ashore on 15 July 1912, and a brass plaque marks the event. The weight and date are the traditional local story rather than a modern survey."
+      },
+      {
+        "q": "How do I get to the Ben Buckler lookout?",
+        "a": "Head to the northern end of North Bondi and go to the end of Ramsgate Avenue, where the reserve and lookout sit. You can also walk up from the northern end of the beach along the rock trail. Parking is very limited, so many people walk up or catch a bus to North Bondi."
+      },
+      {
+        "q": "Are there toilets or a cafe at Ben Buckler?",
+        "a": "No. There are no toilets, showers or food on the headland. The nearest facilities and cafes are down at North Bondi beach and along Campbell Parade."
+      },
+      {
+        "q": "Is Ben Buckler worth visiting?",
+        "a": "If you like a good view, yes — it offers one of the best wide vantage points over the entire Bondi arc, and it is quiet compared with the beach. Come for the outlook, the short headland walk and photography rather than for swimming."
+      }
+    ],
+    "relatedGuides": [
+      {
+        "title": "North Bondi",
+        "href": "/north-bondi"
+      },
+      {
+        "title": "Where to swim at Bondi Beach",
+        "href": "/where-to-swim-at-bondi-beach"
+      },
+      {
+        "title": "Things to do in Bondi",
+        "href": "/things-to-do-in-bondi"
+      },
+      {
+        "title": "Bondi to Coogee coastal walk",
+        "href": "/bondi-coastal-walk"
+      },
+      {
+        "title": "Getting to Bondi",
+        "href": "/getting-to-bondi"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Ben Buckler, New South Wales — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ben_Buckler,_New_South_Wales"
+      },
+      {
+        "label": "Double tragedy highlights rockfishing concerns — City Hub",
+        "url": "https://cityhub.com.au/double-tragedy-highlights-rockfishing-concerns/"
+      },
+      {
+        "label": "Rock fishing lifejacket law and declared areas — NSW Government",
+        "url": "https://www.nsw.gov.au/environment-land-and-water/coasts-waterways-and-marine/rock-fishing-lifejacket-law"
+      },
+      {
+        "label": "Bondi's Big Rock — The Beast",
+        "url": "https://thebeast.com.au/other/bondis-big-rock-part-1/"
+      },
+      {
+        "label": "Ben Buckler Point Reserves — Eastern Suburbs Mums",
+        "url": "https://easternsuburbsmums.com.au/ben-buckler-point-reserves-coastal-calm-at-the-tip-of-north-bondi/"
+      }
+    ],
+    "lastReviewed": "2026-08-11",
+    "editorialNotes": [
+      "Coordinates (-33.893625, 151.283688) and Wikidata Q4885363 taken from Wikipedia's Ben Buckler article — reasonable for a mapQuery centre but verify against an authoritative gazetteer if used for precise geo.",
+      "Boulder ('Mermaid Rock' / Bondi's Big Rock): the ~235-tonne weight and 15 July 1912 storm date are widely repeated in local/secondary sources (The Beast; geomorphology writing) and a commemorative brass plaque, but they are traditional accounts, not a modern survey. Phrased conservatively; do not present as hard fact without a primary source.",
+      "Rock-fishing deaths: at least one man was swept from Ben Buckler Point / North Bondi (City Hub report on a double tragedy). Kept general rather than citing exact victim details/dates. Verify specifics before naming any incident.",
+      "Lifejacket law: Waverley LGA does NOT appear on the current NSW list of 'declared areas' where lifejackets are legally mandatory for rock fishing (Randwick, Northern Beaches, Central Coast, Sutherland, etc. are). We recommend lifejackets strongly but did not assert a legal requirement at Ben Buckler — reconfirm Waverley's status with NSW Government / Waverley Council before adding any legal claim.",
+      "Bus routes (333, 380) to the North Bondi end of Campbell Parade are from general knowledge; exact current routes, numbers and nearest stop to Ramsgate Avenue should be confirmed on Transport NSW (transportnsw.info) before publishing.",
+      "Dogs: on-lead in the reserves is the general expectation; confirm current off-lead areas/times against live Waverley Council signage/website.",
+      "Parking: 'small timed area off Ramsgate Avenue plus a mobility bay' is from secondary local sources — verify specifics (hours/limits) with Waverley Council if we want to state them precisely.",
+      "heroImage deliberately left unset for editorial. No specific venue photo implied.",
+      "No verified hero image assigned yet — page renders with the plain editorial hero; add a checked image."
+    ]
+  },
+  {
+    "slug": "bondi-pavilion",
+    "path": "/bondi-pavilion",
+    "name": "Bondi Pavilion",
+    "shortDescription": "The heritage-listed community and cultural centre in the middle of Bondi Beach — theatre, gallery, creative studios, public change rooms and food outlets — reopened in 2022 after a $48 million restoration.",
+    "category": "landmark",
+    "schemaType": "LandmarksOrHistoricalBuildings",
+    "mapQuery": "Bondi Pavilion, Queen Elizabeth Drive, Bondi Beach NSW, Australia",
+    "coordinates": {
+      "lat": -33.8901778,
+      "lng": 151.2770861
+    },
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Bondi_Pavilion",
+      "https://www.wikidata.org/wiki/Q4941403"
+    ],
+    "quickFacts": [
+      {
+        "label": "Best for",
+        "value": "Meeting point, art & culture, change rooms and toilets right on the sand"
+      },
+      {
+        "label": "What it is",
+        "value": "Waverley Council-owned community and cultural centre (heritage listed)"
+      },
+      {
+        "label": "Toilets & showers",
+        "value": "Public toilets, showers and change rooms at the northern end; accessible and family change facilities"
+      },
+      {
+        "label": "Inside",
+        "value": "Theatre, art gallery, pottery and music studios, community/cultural rooms, Bondi Story Room, food outlets and a rooftop/terrace"
+      },
+      {
+        "label": "Cost",
+        "value": "Free to enter; individual events, classes and exhibitions may be ticketed"
+      },
+      {
+        "label": "Public transport",
+        "value": "Buses 333 and 380 along Campbell Parade, right behind the Pavilion"
+      },
+      {
+        "label": "Accessibility",
+        "value": "Step-free access, lift, accessible toilets and an adult change facility on the ground floor"
+      },
+      {
+        "label": "Location",
+        "value": "Middle of Bondi Beach, on Queen Elizabeth Drive facing the sand"
+      }
+    ],
+    "whyVisit": [
+      "The Pavilion is the heart of Bondi Beach — the big Mediterranean-style building sitting right on the sand that everyone means when they say \"meet me at the Pav\". It opened in 1929, is listed on the NSW State Heritage Register, and reopened in September 2022 after a two-year, $48 million restoration that repaired the heritage fabric and reopened it as a genuine community and cultural hub rather than a row of shopfronts.",
+      "For visitors it's the most useful building on the beach: this is where the public toilets, showers and change rooms are, plus a theatre, an art gallery, pottery and music studios, flexible community rooms, food outlets and a rooftop terrace with ocean views. It's free to walk in and wander, and it's the obvious landmark to arrange to meet at."
+    ],
+    "activities": [
+      {
+        "title": "Use it as your beach base",
+        "detail": "The northern end has public toilets, showers and change rooms (including accessible and family facilities) — the practical place to change before or after a swim. It's also the easiest meeting point on a busy beach day."
+      },
+      {
+        "title": "See the gallery and exhibitions",
+        "detail": "The restored art gallery hosts changing exhibitions and community shows, including the Waverley Art Prize. Entry to the gallery is generally free; check what's currently showing before you go."
+      },
+      {
+        "title": "Catch a show at the theatre",
+        "detail": "The Bondi Pavilion Theatre stages performances, film screenings and community events, with restored 1930s murals as a backdrop. Programming and tickets are handled through the venue's welcome centre / box office."
+      },
+      {
+        "title": "Explore the Bondi Story Room",
+        "detail": "A free local-history space with an interactive, wall-sized touchscreen telling the story of Bondi — a good rainy-day or with-kids stop a few steps from the sand."
+      },
+      {
+        "title": "Take a class in the studios",
+        "detail": "The Pavilion has a pottery studio (with kilns) and music studios used for classes, workshops and rehearsals. Check the Waverley Council / Bondi Pavilion program for current courses and community bookings."
+      },
+      {
+        "title": "Grab a coffee or a meal",
+        "detail": "Food outlets and a rooftop/terrace overlook the beach — handy for a coffee, a bite or a drink without leaving the sand. Opening days and hours vary by venue, so check on the day."
+      }
+    ],
+    "localTips": [
+      "The public change rooms and toilets here are the main free facilities on the beach itself — head to the northern (North Bondi) end of the building to find them.",
+      "\"Meet at the Pav\" is the local shorthand for meeting at Bondi. The steps and forecourt out front are the natural rendezvous point when the beach is packed.",
+      "Gallery and Story Room visits are free and undercover, which makes the Pavilion a genuinely good option on a wet or scorching day.",
+      "The rooftop and terrace are walk-in and have some of the best sit-down views over the beach — worth a look even if you're not eating.",
+      "Facilities and event spaces are Council-run, so opening hours differ between the public amenities, the gallery, the theatre and the food outlets. When in doubt, check the current times on the Waverley Council or Bondi Pavilion website rather than assuming."
+    ],
+    "bestTime": [
+      "The Pavilion is useful year-round and most of it is indoors, so weather matters less here than on the sand. Weekday mornings are quietest for the gallery, Story Room and studios; weekends and summer afternoons are busiest as it doubles as the beach's main meeting point and change-room stop.",
+      "Time your visit around what's on — the theatre, gallery and community programs run to their own calendars, and summer brings extra events and markets to the beachfront. Check the current program before a special trip."
+    ],
+    "gettingThere": [
+      {
+        "mode": "bus",
+        "label": "Bus 333 or 380 to Bondi Beach",
+        "detail": "The 333 (limited-stop from the city via Bondi Junction) and the 380 run along Campbell Parade, which sits directly behind the Pavilion. Get off at the Bondi Beach stops on Campbell Parade and walk down to the sand."
+      },
+      {
+        "mode": "train",
+        "label": "Train to Bondi Junction, then bus",
+        "detail": "Take the T4 line to Bondi Junction station, then connect to the 333 or 380 bus down to Bondi Beach. The Pavilion is a short walk from the Campbell Parade bus stops."
+      },
+      {
+        "mode": "walk",
+        "label": "On the beachfront",
+        "detail": "The Pavilion faces the sand on Queen Elizabeth Drive, mid-beach. From anywhere on Bondi Beach or Campbell Parade it's a short, flat walk across."
+      },
+      {
+        "mode": "parking",
+        "label": "Parking",
+        "detail": "There is metered street parking along Queen Elizabeth Drive and Campbell Parade plus nearby council car parks, but spaces fill fast in summer and on weekends. Public transport is usually easier on busy days."
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Bondi Beach",
+        "href": "/bondi-beach",
+        "description": "The Pavilion sits in the middle of Bondi Beach itself — step straight out onto the sand.",
+        "walk": "On the beach"
+      },
+      {
+        "name": "North Bondi",
+        "href": "/north-bondi",
+        "description": "The calmer northern end of the beach, with the kids' pool and family-friendly water.",
+        "walk": "5 min walk"
+      },
+      {
+        "name": "Bondi Icebergs",
+        "href": "/bondi-icebergs",
+        "description": "The famous ocean pool and clubhouse at the southern headland of the beach.",
+        "walk": "10 min walk"
+      },
+      {
+        "name": "Bondi to Coogee coastal walk",
+        "href": "/bondi-coastal-walk",
+        "description": "The clifftop walk south starts from Bondi's southern end near the Icebergs.",
+        "walk": "10 min walk to start"
+      },
+      {
+        "name": "Ben Buckler",
+        "href": "/ben-buckler",
+        "description": "The rocky northern headland with big ocean views over Bondi.",
+        "walk": "15 min walk"
+      }
+    ],
+    "nearbyFood": {
+      "intro": "The Pavilion has its own food outlets and a rooftop terrace, and the whole Campbell Parade strip of cafés and beachfront restaurants is a two-minute walk behind it.",
+      "links": [
+        {
+          "title": "Best cafés at Bondi Beach",
+          "href": "/bondi-eat-and-drink/best-cafes-bondi-beach",
+          "description": "Our pick of the coffee and brunch spots a short walk from the Pavilion."
+        },
+        {
+          "title": "Beachfront dining at Bondi",
+          "href": "/bondi-eat-and-drink/waterfront-dining-bondi-beach",
+          "description": "Restaurants and bars with a view of the sand, including options in and around the Pavilion."
+        },
+        {
+          "title": "Bondi eat & drink directory",
+          "href": "/bondi-eat-and-drink",
+          "description": "The full guide to eating and drinking around Bondi Beach."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Are there public toilets and change rooms at Bondi Pavilion?",
+        "a": "Yes. Public toilets, showers and change rooms are at the northern end of the Pavilion, including accessible and family change facilities. They're the main free amenities on the beach itself. Hours can vary, so check Waverley Council for current opening times."
+      },
+      {
+        "q": "Is it free to go into Bondi Pavilion?",
+        "a": "Yes, it's free to walk in and explore public areas like the gallery and Bondi Story Room. Individual theatre shows, exhibitions, classes and studio bookings may be ticketed or paid."
+      },
+      {
+        "q": "What's inside the Pavilion?",
+        "a": "A theatre, an art gallery, pottery and music studios, flexible community and cultural rooms, the Bondi Story Room local-history space, public change rooms and toilets, food outlets and a rooftop/terrace overlooking the beach."
+      },
+      {
+        "q": "When did Bondi Pavilion reopen?",
+        "a": "It reopened to the public in September 2022 after a two-year, $48 million heritage restoration that repaired the 1929 building and expanded its cultural and community spaces."
+      },
+      {
+        "q": "Is Bondi Pavilion accessible?",
+        "a": "Yes. There's step-free access, a lift, accessible toilets and an adult change facility on the ground floor. See Waverley Council's Access Bondi information for full details."
+      },
+      {
+        "q": "How do I get to Bondi Pavilion?",
+        "a": "It's on Queen Elizabeth Drive in the middle of Bondi Beach. Buses 333 and 380 run along Campbell Parade right behind it; from the city take the train to Bondi Junction and connect to the bus."
+      }
+    ],
+    "relatedGuides": [
+      {
+        "title": "Bondi Beach",
+        "href": "/bondi-beach"
+      },
+      {
+        "title": "Things to do in Bondi",
+        "href": "/things-to-do-in-bondi"
+      },
+      {
+        "title": "Bondi with kids",
+        "href": "/bondi-with-kids"
+      },
+      {
+        "title": "Getting to Bondi",
+        "href": "/getting-to-bondi"
+      },
+      {
+        "title": "What's on",
+        "href": "/whats-on"
+      },
+      {
+        "title": "Where to swim at Bondi Beach",
+        "href": "/where-to-swim-at-bondi-beach"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Waverley Council — Bondi Pavilion",
+        "url": "https://www.waverley.nsw.gov.au/recreation/places_of_interest/bondi_pavilion"
+      },
+      {
+        "label": "Waverley Council — Bondi Pavilion FAQ (PDF)",
+        "url": "https://www.waverley.nsw.gov.au/__data/assets/pdf_file/0010/176464/BondiPavilionFAQ.pdf"
+      },
+      {
+        "label": "Waverley Council — Access Bondi!",
+        "url": "https://www.waverley.nsw.gov.au/community/disability_inclusion/access_bondi"
+      },
+      {
+        "label": "Wikipedia — Bondi Pavilion",
+        "url": "https://en.wikipedia.org/wiki/Bondi_Pavilion"
+      },
+      {
+        "label": "Broadsheet — Bondi Pavilion reopening after $48m restoration",
+        "url": "https://www.broadsheet.com.au/sydney/city-file/article/after-two-years-and-48-million-restoration-almost-century-old-grand-dame-bondi-pavilion-finally-reopening-week"
+      }
+    ],
+    "lastReviewed": "2026-08-11",
+    "editorialNotes": [
+      "Amenities opening hours: search summaries of the Waverley Council FAQ indicate public toilets/showers/change rooms open roughly 6am–10pm daily, but the primary council pages (waverley.nsw.gov.au and bondipavilion.com.au) returned HTTP 403 during research and could not be confirmed directly. Quick facts deliberately omit exact hours — verify against the live Council page before publishing specific times.",
+      "Food outlets: the Pavilion's dining tenants (e.g. Promenade Bondi Beach and a rooftop/terrace bar known at launch as 'The Front Yard') and their trading hours are volatile. Kept generic and pointed at official sources; verify current operators before naming any venue.",
+      "Rooftop/terrace: confirmed as a public walk-in space with beach views via secondary sources; confirm current public-access status and hours with the venue.",
+      "Coordinates (-33.8901778, 151.2770861) and heritage details (opened 1929, architects Robertson and Marks, NSW State Heritage Register 01786) sourced from Wikipedia/Wikidata — durable but worth a cross-check against the State Heritage Register listing.",
+      "Transport: bus routes 333 and 380 along Campbell Parade are confirmed, but exact journey times were not asserted to avoid fabrication. Verify current routes/stops via Transport for NSW before adding any timings.",
+      "Contact phone numbers surfaced in search (e.g. 9083 8400 / 8362 3400) were not included as they could not be confirmed on a primary page; add only after verifying on the official Council/Pavilion site.",
+      "No verified hero image assigned yet — page renders with the plain editorial hero; add a checked image."
+    ]
+  },
+  {
+    "slug": "mackenzies-bay",
+    "path": "/mackenzies-bay",
+    "name": "Mackenzies Bay",
+    "shortDescription": "A tiny rocky cove on the Bondi to Bronte coastal walk where a \"secret\" sandy beach appears only in some years — the rest of the time it's a rock platform with tidal pools, unpatrolled and with no facilities.",
+    "category": "beach",
+    "schemaType": "Beach",
+    "mapQuery": "Mackenzies Bay, Tamarama NSW, Australia",
+    "coordinates": {
+      "lat": -33.899831,
+      "lng": 151.273131
+    },
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Mackenzies_Bay",
+      "https://www.wikidata.org/wiki/Q21952392"
+    ],
+    "quickFacts": [
+      {
+        "label": "Best for",
+        "value": "Coastal-walk curiosity, rock pools, photos"
+      },
+      {
+        "label": "The beach",
+        "value": "Intermittent — sand appears only in some years, mostly it's rock"
+      },
+      {
+        "label": "Swimming",
+        "value": "Not recommended — unpatrolled, rocky, no flags"
+      },
+      {
+        "label": "Lifeguards",
+        "value": "None"
+      },
+      {
+        "label": "Toilets & showers",
+        "value": "None on site (nearest at Bondi or Tamarama)"
+      },
+      {
+        "label": "Parking",
+        "value": "No road access — park at Bondi or Tamarama and walk"
+      },
+      {
+        "label": "Public transport",
+        "value": "Bus to Bondi Beach or Tamarama, then walk the coastal path"
+      },
+      {
+        "label": "Accessibility",
+        "value": "Steps and uneven rock; not wheelchair accessible"
+      },
+      {
+        "label": "Dogs",
+        "value": "Dogs are commonly seen here, but check current Waverley Council rules"
+      },
+      {
+        "label": "Best time",
+        "value": "Low tide; summer if you're hoping to catch the sand"
+      },
+      {
+        "label": "Distance from Bondi Beach centre",
+        "value": "About a 10–15 min walk south along the coastal path"
+      }
+    ],
+    "whyVisit": [
+      "Mackenzies Bay is the small rocky cove tucked between Bondi and Tamarama, a couple of minutes off the coastal walk below Marks Park. Most days it's exactly what it looks like — a rock platform with clear tidal pools, a good spot to sit, poke around the rocks and watch the swell roll in. What makes it locally famous is that every few years a sandy beach materialises here almost overnight, then vanishes again, which has earned it a reputation as Sydney's 'secret' or 'pop-up' beach.",
+      "We'd set expectations honestly: the sand is the exception, not the rule. Documented appearances happened in 2007, 2016, 2019 and 2023, so plan your visit around the rock pools and the view rather than a beach day, and treat any sand you find as a bonus. It's a quiet, unpolished little corner — no kiosk, no lifeguard tower, no crowds — which is exactly its charm."
+    ],
+    "activities": [
+      {
+        "title": "Explore the tidal rock pools",
+        "detail": "At low tide the rock platform reveals shallow pools worth a slow look — little fish, crabs and marine life. Sturdy shoes help; the rock is uneven and slippery when wet."
+      },
+      {
+        "title": "Catch the 'pop-up' beach (if you're lucky)",
+        "detail": "In years when swell and sand movement conspire, a genuine sandy beach forms in the cove. It's unpredictable and short-lived — check recent local reports before making a special trip for it."
+      },
+      {
+        "title": "Break up the coastal walk",
+        "detail": "It's a natural pause point on the Bondi to Bronte (and on to Coogee) walk, just below Marks Park. Detour down for a few minutes, then rejoin the path."
+      },
+      {
+        "title": "Photography and whale-watching",
+        "detail": "The rocky foreground and open ocean make for good coastal photos, and in winter (roughly May–November) migrating whales sometimes pass offshore."
+      },
+      {
+        "title": "See the Marks Point Aboriginal rock engravings",
+        "detail": "On the headland above the bay there are ancient Aboriginal rock engravings of marine life. Look but don't touch or walk on them — they're culturally significant and protected."
+      }
+    ],
+    "localTips": [
+      "Go at low tide. The rock pools are the real attraction here, and low tide is when they're exposed and safest to explore.",
+      "Don't count on the sand. Ask around or check recent local posts before making a special trip hoping for the beach — most of the time it simply isn't there.",
+      "Wear proper shoes. The access is over rock, not sand, and it's slippery — thongs are a bad idea.",
+      "It's part of an Intertidal Protected Area between Bondi and Tamarama, so don't collect marine life or shells; leave the rock pools as you found them.",
+      "Bring what you need and take it away — there are no bins, toilets, taps or shade here. The nearest facilities are back at Bondi or over at Tamarama.",
+      "Keep well back from the water's edge on the rocks when there's swell; waves can wash across the platform without much warning."
+    ],
+    "bestTime": [
+      "Come at low tide for the rock pools, which is when this spot is at its best and safest to explore. Early morning is quiet and good for photos and, in winter (around May to November), for spotting the occasional passing whale.",
+      "If it's the fabled sandy beach you're chasing, summer is the more likely season and the appearances tend to cluster with particular swell and weather patterns — but there's no schedule and no guarantee in any given year, so we'd treat catching it as pure luck rather than something to plan around."
+    ],
+    "gettingThere": [
+      {
+        "mode": "walk",
+        "label": "On the coastal walk from Bondi",
+        "detail": "The easiest approach: from the south end of Bondi Beach, follow the Bondi to Bronte coastal path up past Marks Park (about 10–15 minutes) and take the short detour down into the cove."
+      },
+      {
+        "mode": "walk",
+        "label": "From Tamarama",
+        "detail": "Head north from Tamarama Beach along the coastal path for a few minutes to reach the bay from the southern side."
+      },
+      {
+        "mode": "bus",
+        "label": "Bus to Bondi or Tamarama",
+        "detail": "There's no bus to the bay itself. Take a bus to Bondi Beach or to Tamarama and walk the rest on the coastal path. Check routes and times on Transport for NSW (transportnsw.info)."
+      },
+      {
+        "mode": "parking",
+        "label": "Parking",
+        "detail": "No road reaches the bay. Park at Bondi Beach or around Tamarama (metered/limited street parking) and walk in — parking near the beaches is tight, especially on warm weekends."
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Tamarama Beach",
+        "href": "/tamarama-beach",
+        "description": "The small, deep cove just south — patrolled in season, with a kiosk, toilets and grassy park.",
+        "walk": "5 min walk"
+      },
+      {
+        "name": "Marks Park",
+        "href": "/marks-park",
+        "description": "The clifftop park on the headland right above the bay, with ocean views and the coastal path running through it.",
+        "walk": "2 min walk"
+      },
+      {
+        "name": "Bondi Beach",
+        "href": "/bondi-beach",
+        "description": "The main patrolled beach to the north, with full facilities, cafés and lifeguards.",
+        "walk": "10–15 min walk"
+      },
+      {
+        "name": "Bronte Beach",
+        "href": "/bronte-beach",
+        "description": "Family-friendly beach further south with a famous ocean pool, park and cafés.",
+        "walk": "15–20 min walk"
+      },
+      {
+        "name": "Bondi to Coogee coastal walk",
+        "href": "/bondi-coastal-walk",
+        "description": "The clifftop walk that passes right by Mackenzies Bay — the main reason most people come across it.",
+        "walk": "On the route"
+      }
+    ],
+    "nearbyFood": {
+      "intro": "There's nothing to eat or drink at Mackenzies Bay itself, so bring water. The nearest options are back at Bondi or over at Tamarama and Bronte.",
+      "links": [
+        {
+          "title": "Bondi eat & drink directory",
+          "href": "/bondi-eat-and-drink",
+          "description": "Cafés, kiosks and restaurants a short walk north at Bondi Beach."
+        },
+        {
+          "title": "Best cafés at Bondi Beach",
+          "href": "/bondi-eat-and-drink/best-cafes-bondi-beach",
+          "description": "Where we go for coffee and breakfast before or after the coastal walk."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is there actually a beach at Mackenzies Bay?",
+        "a": "Only sometimes. Most of the time it's a rocky cove with tidal pools. A sandy beach forms here only in certain years when swell and sand movement bring sand into the bay — documented appearances include 2007, 2016, 2019 and 2023 — and it can vanish again within months."
+      },
+      {
+        "q": "How often does the 'secret beach' appear?",
+        "a": "There's no fixed schedule. Locals sometimes say 'every seven years,' but that's a myth — it's genuinely unpredictable, tied to swell and weather rather than a calendar. Treat catching it as luck."
+      },
+      {
+        "q": "Can you swim at Mackenzies Bay?",
+        "a": "We don't recommend it. There are no lifeguards, no flags, and access is over rock, so it's not a safe swimming beach. For a proper swim, use patrolled Bondi or Tamarama, or the ocean pools nearby."
+      },
+      {
+        "q": "Are there toilets, showers or a café?",
+        "a": "No — there are no facilities of any kind at the bay: no toilets, showers, taps, bins or shade. The nearest are at Bondi Beach or Tamarama."
+      },
+      {
+        "q": "How do you get to Mackenzies Bay?",
+        "a": "On foot via the coastal walk. From the south end of Bondi Beach it's about 10–15 minutes past Marks Park; from Tamarama it's a few minutes north. There's no road or parking at the bay itself."
+      },
+      {
+        "q": "Can I bring my dog?",
+        "a": "Dogs are commonly seen at the bay, but dog rules in the Waverley area vary by location and season, so check the current Waverley Council rules before you go."
+      }
+    ],
+    "relatedGuides": [
+      {
+        "title": "Bondi to Coogee coastal walk",
+        "href": "/bondi-coastal-walk"
+      },
+      {
+        "title": "Tamarama Beach",
+        "href": "/tamarama-beach"
+      },
+      {
+        "title": "Marks Park",
+        "href": "/marks-park"
+      },
+      {
+        "title": "Where to swim at Bondi Beach",
+        "href": "/where-to-swim-at-bondi-beach"
+      },
+      {
+        "title": "Things to do in Bondi",
+        "href": "/things-to-do-in-bondi"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Mackenzies Bay — Wikipedia (location, coordinates, appearance history, intertidal protected area)",
+        "url": "https://en.wikipedia.org/wiki/Mackenzies_Bay"
+      },
+      {
+        "label": "Mackenzies Bay: Waverley's mystery beach — Waverley Council Library",
+        "url": "https://celebrating.waverley.nsw.gov.au/nodes/view/48871"
+      },
+      {
+        "label": "Beaches & coast — Waverley Council",
+        "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast"
+      },
+      {
+        "label": "Transport for NSW trip planner (buses to Bondi/Tamarama)",
+        "url": "https://transportnsw.info"
+      }
+    ],
+    "lastReviewed": "2026-08-11",
+    "editorialNotes": [
+      "Coordinates (-33.899831, 151.273131) and Wikidata Q21952392 taken from Wikipedia; verified as documented public values.",
+      "Beach 'appearance' years (2007, 2016, 2019, 2023) are from Wikipedia — confirm whether the beach has appeared since 2023 before publishing, as this is volatile and dates newer than 2023 were not verified.",
+      "Dog rules not confirmed against a current Waverley Council page — multiple travel sources say dogs are allowed/common, but the official rule was not located. Kept conditional ('check current rules') and should be verified against waverley.nsw.gov.au before asserting.",
+      "No lifeguards / no facilities is well-supported (unpatrolled, rocky access) but was not confirmed on a live SLSA Beachsafe profile — the beachsafe.org.au page failed to load; re-verify patrol status directly if needed.",
+      "Walking times from Bondi/Tamarama are approximate estimates, not officially published figures — flagged as approximate.",
+      "Transport specifics (exact bus numbers) intentionally omitted and pointed to Transport for NSW to avoid asserting unverified routes; add specific routes only after checking transportnsw.info.",
+      "Marks Point Aboriginal rock engravings referenced from Wikipedia; treat location/description sensitively and verify before adding any precise directions.",
+      "No verified hero image assigned yet — page renders with the plain editorial hero; add a checked image."
+    ]
+  },
+  {
+    "slug": "marks-park",
+    "path": "/marks-park",
+    "name": "Marks Park",
+    "shortDescription": "A grassy clifftop park on Mackenzies Point between Bondi and Tamarama, best known for ocean views, seasonal whale-watching and as the heart of the annual Sculpture by the Sea exhibition.",
+    "category": "park",
+    "schemaType": "Park",
+    "mapQuery": "Marks Park, Tamarama NSW, Australia",
+    "quickFacts": [
+      {
+        "label": "Best for",
+        "value": "Ocean views, whale-watching, a picnic on the coastal walk, and Sculpture by the Sea"
+      },
+      {
+        "label": "Swimming",
+        "value": "No — this is a clifftop headland with exposed edges, not a swimming spot"
+      },
+      {
+        "label": "Toilets",
+        "value": "Public amenities in the park (also served by Tamarama and Bondi facilities nearby)"
+      },
+      {
+        "label": "Dogs",
+        "value": "On-lead on the coastal walk and park lawns; check current Waverley Council signage"
+      },
+      {
+        "label": "Public transport",
+        "value": "Buses to Bondi Beach or Tamarama, then walk in on the coastal path"
+      },
+      {
+        "label": "Accessibility",
+        "value": "A paved clifftop path and lookout; steep stairs link the park down to the coastal walk"
+      },
+      {
+        "label": "Best time",
+        "value": "May–November for whales; late October/early November for Sculpture by the Sea"
+      },
+      {
+        "label": "Distance from Bondi Beach centre",
+        "value": "About a 15–20 minute walk south along the coastal path"
+      }
+    ],
+    "whyVisit": [
+      "Marks Park sits on Mackenzies Point, the grassy headland that separates Bondi Beach from Tamarama on the Bondi to Bronte coastal walk. It's one of the best free vantage points on this stretch of coast — a wide, breezy lawn with big Pacific views in both directions, ringed by sandstone cliffs. We come here to watch the swell wrap around the point, to picnic between the two beaches, and, in season, to scan the horizon for whales.",
+      "Every spring the park becomes the centrepiece of Sculpture by the Sea, the free outdoor exhibition that has run along this headland since 1997. For the rest of the year it's a quieter spot: a place to catch your breath on the walk, sit on a bench above the ocean, and take in one of Sydney's most photographed coastlines. It is not a swimming spot — the appeal here is the view, the air and the walk, not the water."
+    ],
+    "activities": [
+      {
+        "title": "Take in the clifftop views",
+        "detail": "The headland gives you open ocean straight ahead and beach views back towards Bondi to the north and down onto Tamarama to the south. Sunrise and early morning are especially good, when the light is soft and the crowds thin."
+      },
+      {
+        "title": "Watch for whales in season",
+        "detail": "From roughly May to November, humpbacks migrate up and down this coast, and the elevated point is one of the better land-based spots on the eastern beaches to catch them. Bring binoculars and look for the blows and breaches on the horizon — patience pays off."
+      },
+      {
+        "title": "See Sculpture by the Sea",
+        "detail": "For a couple of weeks from late October into November, the headland and coastal path fill with large-scale outdoor sculptures. It's free to walk through, and Marks Park is the exhibition's focal point. Go early or on a weekday to avoid the biggest crowds."
+      },
+      {
+        "title": "Walk the Bondi to Bronte coastal path",
+        "detail": "Marks Park is a natural rest stop midway between Bondi and Tamarama on the famous coastal walk. From here you can continue south to Tamarama and Bronte, or turn back north to Bondi."
+      },
+      {
+        "title": "Picnic on the headland",
+        "detail": "The grassy lawns and scattered benches make this a fine spot to sit with a coffee or a picnic between the two beaches. There's little natural shade up top, so it's most comfortable outside the harsh midday sun."
+      },
+      {
+        "title": "Look for the Aboriginal rock engraving",
+        "detail": "Near the cliff edge at Mackenzies Point there is a well-known Aboriginal engraving of a large sea creature (often described as a whale). It's a fragile heritage site — view it respectfully from the path and don't walk on the rock."
+      }
+    ],
+    "localTips": [
+      "Come at first light for the calmest lawns and the best photography — this headland faces the sunrise and gets busy later, especially on weekends and during Sculpture by the Sea.",
+      "Mind the edges: the cliffs here are steep, exposed and unfenced in places. Keep well back from the drop, watch children closely and never climb beyond the marked path onto the rock platforms.",
+      "There's almost no shade on top and the wind can be strong — bring a hat, sunscreen and a windbreak layer even on mild days.",
+      "The section of coastal path below Marks Park was damaged by a cliff collapse in 2024 and reopened after remediation works in December 2025 — if in doubt about closures, check Waverley Council before you go.",
+      "For step-free access, the top of the park has a paved path and lookout, but the link down to the coastal walk itself involves steep stairs — plan your route accordingly.",
+      "During Sculpture by the Sea the whole headland gets very crowded; a weekday morning is far more pleasant than a weekend afternoon."
+    ],
+    "bestTime": [
+      "For whale-watching, aim for the May to November migration season and pick a clear day with good visibility — mornings tend to be calmer. For sunrise and quiet, arrive early any time of year; this east-facing headland is at its best before the day-trippers arrive.",
+      "If you want to see Sculpture by the Sea, the exhibition typically runs for around two and a half weeks from late October into mid-November each year — check the official dates before planning, and expect large crowds, especially on weekends."
+    ],
+    "gettingThere": [
+      {
+        "mode": "walk",
+        "label": "From Bondi Beach (about 15–20 min)",
+        "detail": "Follow the coastal walk south from the Bondi Icebergs end of the beach, up and around the cliffs to Mackenzies Point. It's the most scenic way in and needs no ticket or parking."
+      },
+      {
+        "mode": "walk",
+        "label": "From Tamarama Beach (about 5–10 min)",
+        "detail": "Climb the coastal path and stairs north from Tamarama up onto the headland — a short but steep approach."
+      },
+      {
+        "mode": "bus",
+        "label": "Bus to Bondi or Tamarama",
+        "detail": "Buses run to Bondi Beach along Campbell Parade and to the Tamarama area from Bondi Junction; from either stop it's a short walk onto the coastal path and up to the park. Check Transport NSW for current routes and times."
+      },
+      {
+        "mode": "parking",
+        "label": "Parking",
+        "detail": "There is limited, mostly metered and time-limited street parking around Bondi and Tamarama, and it fills quickly on weekends and during events. Public transport or walking in is usually easier."
+      }
+    ],
+    "nearby": [
+      {
+        "name": "Tamarama Beach",
+        "href": "/tamarama-beach",
+        "description": "The small, deep cove immediately south of the headland — patrolled in season but known for strong surf and rips.",
+        "walk": "5–10 min walk"
+      },
+      {
+        "name": "Mackenzies Bay",
+        "href": "/mackenzies-bay",
+        "description": "The rocky little bay just below the point, home to the intermittent 'secret' beach that only appears when sand builds up.",
+        "walk": "5 min walk"
+      },
+      {
+        "name": "Bondi Beach",
+        "href": "/bondi-beach",
+        "description": "Sydney's most famous beach, a scenic 15–20 minute walk north along the coastal path.",
+        "walk": "15–20 min walk"
+      },
+      {
+        "name": "Bronte Beach",
+        "href": "/bronte-beach",
+        "description": "A family-friendly beach with an ocean pool and grassy park, further south along the coastal walk.",
+        "walk": "25–30 min walk"
+      },
+      {
+        "name": "Bondi to Coogee coastal walk",
+        "href": "/bondi-coastal-walk",
+        "description": "The clifftop walking route that threads past Marks Park between Bondi and Coogee.",
+        "walk": "On the route"
+      }
+    ],
+    "nearbyFood": {
+      "intro": "There's no kiosk on the headland itself, so grab something at Bondi or Tamarama before you walk in, or picnic on the lawns.",
+      "links": [
+        {
+          "title": "Best cafés in Bondi",
+          "href": "/bondi-eat-and-drink/best-cafes-bondi-beach",
+          "description": "Where we go for coffee and breakfast before heading out on the coastal walk."
+        },
+        {
+          "title": "Bondi eat & drink directory",
+          "href": "/bondi-eat-and-drink",
+          "description": "The full run-down of cafés, restaurants and bars around Bondi and the eastern beaches."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Where is Marks Park?",
+        "a": "It's on Mackenzies Point, the clifftop headland between Bondi Beach and Tamarama Beach, directly on the Bondi to Bronte coastal walk in Sydney's eastern suburbs."
+      },
+      {
+        "q": "Can you swim at Marks Park?",
+        "a": "No. Marks Park is a grassy clifftop headland with exposed edges, not a beach. For swimming, head to nearby Bondi or, with more caution, Tamarama — though Tamarama is known for strong surf and rips."
+      },
+      {
+        "q": "Is Marks Park where Sculpture by the Sea is held?",
+        "a": "Yes. Marks Park is the focal point of the free Sculpture by the Sea exhibition, which has been staged along this headland and the coastal walk to Tamarama since 1997. It usually runs from late October into mid-November — check the official dates each year."
+      },
+      {
+        "q": "Can you see whales from Marks Park?",
+        "a": "In season, yes. The elevated headland is one of the better land-based whale-watching spots on the eastern beaches, with humpbacks passing during the roughly May to November migration. Bring binoculars and be patient."
+      },
+      {
+        "q": "Is the coastal walk past Marks Park open?",
+        "a": "Yes — the path below Marks Park was damaged by a cliff collapse in 2024 and reopened after Waverley Council remediation works completed in December 2025. If you're visiting after severe weather, it's worth checking the council for any temporary closures."
+      },
+      {
+        "q": "How do I get to Marks Park?",
+        "a": "The easiest way is to walk in along the coastal path — about 15–20 minutes south from Bondi Beach or a short, steep climb up from Tamarama. Buses serve both Bondi and the Tamarama area; parking nearby is limited and fills fast."
+      }
+    ],
+    "relatedGuides": [
+      {
+        "title": "Bondi to Coogee coastal walk",
+        "href": "/bondi-coastal-walk"
+      },
+      {
+        "title": "Tamarama Beach",
+        "href": "/tamarama-beach"
+      },
+      {
+        "title": "Mackenzies Bay",
+        "href": "/mackenzies-bay"
+      },
+      {
+        "title": "Things to do in Bondi",
+        "href": "/things-to-do-in-bondi"
+      },
+      {
+        "title": "What's on",
+        "href": "/whats-on"
+      },
+      {
+        "title": "Getting to Bondi",
+        "href": "/getting-to-bondi"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Sculpture by the Sea — Bondi (about the exhibition and Marks Park)",
+        "url": "https://sculpturebythesea.com/bondi/"
+      },
+      {
+        "label": "Waverley Council — Marks Park Coastal Walk Remediation (Have Your Say)",
+        "url": "https://haveyoursay.waverley.nsw.gov.au/marks-park-coastal-walk-remediation"
+      },
+      {
+        "label": "Wikipedia — Mackenzies Bay",
+        "url": "https://en.wikipedia.org/wiki/Mackenzies_Bay"
+      },
+      {
+        "label": "Creative Spirits — Bondi Mackenzies Point Aboriginal site",
+        "url": "https://www.creativespirits.info/australia/new-south-wales/sydney/bondi-mackenzies-point-aboriginal-site"
+      }
+    ],
+    "lastReviewed": "2026-08-11",
+    "editorialNotes": [
+      "Coordinates deliberately omitted: no clearly documented public lat/long was found for Marks Park itself. The nearby Mackenzies Bay is documented on Wikipedia at approx. 33.8998°S, 151.2731°E, but that is the bay, not the park — use mapQuery instead until a park-specific coordinate is verified.",
+      "Cliff collapse/remediation timeline (collapse April 2024; footpath reopened after Waverley Council works completed December 2025) is drawn from Waverley Council 'Have Your Say' summaries surfaced via search; the council page returned HTTP 403 to direct fetch. Re-verify the walkway is open and check for any new closures before publishing, especially after storms.",
+      "Bus routes to Bondi/Tamarama were kept deliberately vague (no specific route numbers stated as fact) because search results were inconsistent (e.g. 380/381/382/333 vs 361/362). Verify exact current routes, numbers and stops on transportnsw.info before adding them.",
+      "Toilets/amenities and dog rules stated conservatively — confirm exact facility locations and current on-lead dog signage against Waverley Council before asserting specifics.",
+      "Sculpture by the Sea dates given as a typical window only; confirm the exact annual dates from the official site each year.",
+      "Accessibility: paved clifftop path/lookout at the top vs steep stairs down to the coastal walk is based on general/secondary sources (e.g. WheelEasy); verify step-free routes and accessible parking/drop-off details before making firm accessibility claims."
+    ],
+    "heroImage": "/images/articles/d82aa2f9bb88082d.webp",
+    "heroImageAlt": "A Sculpture by the Sea artwork on the clifftop at Marks Park above the ocean at sunset"
+  }
+]
