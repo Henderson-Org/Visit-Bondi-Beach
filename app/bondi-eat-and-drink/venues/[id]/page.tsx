@@ -106,7 +106,9 @@ export default async function VenuePage({ params }: Props) {
                 instagram: venue.instagram,
                 menuUrl: venue.menuUrl,
                 summary: venue.summary,
-                image: HERO,
+                // No `image`: the shared editorial hero is decorative and is NOT a photo of
+                // this specific venue. Asserting it as the venue's schema image would claim a
+                // picture we don't have (integrity rule). Only pass a venue-specific image.
               },
               path,
             ),

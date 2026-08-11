@@ -51,8 +51,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: p.path === '/' ? 1 : p.contentType === 'core-page' ? 0.8 : 0.6,
     }));
 
+  // Static app routes (hubs, /stay, /whats-on, directory) are regenerated on every deploy,
+  // so stamp the build date as lastModified — these are the URLs we most want recrawled
+  // after an update, and they previously shipped no freshness signal at all.
+  const buildDate = new Date();
   const fromStatic = STATIC_ROUTES.map((r) => ({
     url: `${PROD_ORIGIN}${r.path}`,
+    lastModified: buildDate,
     changeFrequency: 'weekly' as const,
     priority: r.priority,
   }));
