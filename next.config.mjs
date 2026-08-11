@@ -16,6 +16,8 @@ const nextConfig = {
       // The old single accommodation page was rebuilt as the /stay section.
       // 301 (permanent) so the page's existing link equity flows to the new hub.
       { source: '/accommodation', destination: '/stay', statusCode: 301 },
+      // Thin, 0-impression guide superseded by the richer /bondi-beach location page.
+      { source: '/visit-bondi-beach-guide', destination: '/bondi-beach', statusCode: 301 },
       // "What's On" became the events hub; the old blog INDEX is now the Articles hub.
       // Only the index redirects — individual /bondi-blog/[post] article URLs are
       // preserved exactly to keep their rankings and backlinks.

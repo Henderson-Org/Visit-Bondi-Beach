@@ -31,6 +31,8 @@ import { HubView } from '@/components/HubView';
 import { EditorialHero } from '@/components/EditorialHero';
 import { GuideCard, excerptFor } from '@/components/GuideCard';
 import { ContentPlannerPromo } from '@/components/ContentPlannerPromo';
+import { LocationPage } from '@/components/location/LocationPage';
+import { getLocation } from '@/data/locations';
 
 export const dynamicParams = true;
 
@@ -40,6 +42,7 @@ export const dynamicParams = true;
 // generate them here or they'd shadow the redirect with a dead page.
 const REDIRECTED_PATHS = new Set([
   '/accommodation',
+  '/visit-bondi-beach-guide',
   '/bondi-blog',
   // Consolidated duplicates (301 to a stronger page — see next.config.mjs).
   '/bondi-blog/2026/3/24/bondis-best-cafs-right-now-where-to-eat-sip-and-soak-up-the-beach-vibe',
@@ -122,6 +125,10 @@ export default async function CatchAllPage({ params }: Props) {
   const { slug } = await params;
   const page = getPageBySegments(slug);
   if (!page) notFound();
+
+  // Location/destination pages get the reusable location template (data/locations.ts).
+  const location = getLocation(page.path);
+  if (location) return <LocationPage location={location} />;
 
   switch (page.contentType) {
     case 'blog-index':

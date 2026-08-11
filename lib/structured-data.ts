@@ -305,6 +305,46 @@ export function restaurantJsonLd(
   return data;
 }
 
+/**
+ * Place / TouristAttraction / Beach / Park schema for a location page. Emits only what the
+ * page genuinely supports and the record verifies — name, description, the page URL, the
+ * Bondi Beach locality, and `geo` ONLY when verified coordinates exist (never fabricated).
+ * Binds to the canonical Bondi Beach place entity via `containedInPlace`/`isPartOf` so the
+ * location resolves as part of the known Bondi entity.
+ */
+export function locationPlaceJsonLd(loc: {
+  name: string;
+  schemaType: string;
+  shortDescription: string;
+  coordinates?: { lat: number; lng: number };
+  sameAs?: string[];
+  image?: string;
+}, path: string) {
+  const isBondiBeach = path === '/bondi-beach';
+  const data: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': loc.schemaType,
+    name: loc.name,
+    description: loc.shortDescription,
+    url: `${siteOrigin()}${path}`,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Bondi Beach',
+      addressRegion: 'NSW',
+      postalCode: '2026',
+      addressCountry: 'AU',
+    },
+  };
+  if (loc.image) data.image = loc.image.startsWith('http') ? loc.image : `${siteOrigin()}${loc.image}`;
+  if (loc.coordinates) data.geo = { '@type': 'GeoCoordinates', latitude: loc.coordinates.lat, longitude: loc.coordinates.lng };
+  if (loc.sameAs?.length) data.sameAs = loc.sameAs;
+  // Sub-locations sit within the canonical Bondi Beach entity; Bondi Beach itself sits in Sydney.
+  data.containedInPlace = isBondiBeach
+    ? { '@type': 'City', name: 'Sydney', containedInPlace: { '@type': 'AdministrativeArea', name: 'New South Wales', containedInPlace: { '@type': 'Country', name: 'Australia' } } }
+    : { '@id': `${siteOrigin()}/${BONDI_PLACE_ID}`, name: 'Bondi Beach' };
+  return data;
+}
+
 export function breadcrumbJsonLd(items: { name: string; path: string }[]) {
   return {
     '@context': 'https://schema.org',
