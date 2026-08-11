@@ -162,7 +162,7 @@ const BONDI_BEACH: LocationPageData = {
     { name: 'North Bondi', href: '/north-bondi', description: 'The quieter, family end of the beach, with a grassy reserve, a children’s rock pool and North Bondi’s cafés.', walk: '10 min walk' },
     { name: 'Bondi Icebergs', href: '/bondi-icebergs', description: 'The famous saltwater ocean pool on the southern headland, run by the Icebergs winter swimming club.', walk: '5 min walk' },
     { name: 'Bondi to Coogee coastal walk', href: '/bondi-coastal-walk', description: 'The 6 km clifftop walk south past Tamarama and Bronte to Coogee — starts at the Icebergs end.', walk: 'Starts here' },
-    { name: 'Tamarama Beach', description: 'A small, dramatic cove one headland south — pretty but with a strong rip; better for sunbathing than swimming.', walk: '15 min walk' },
+    { name: 'Tamarama Beach', href: '/tamarama-beach', description: 'A small, dramatic cove one headland south — pretty but with a strong rip; better for sunbathing than swimming.', walk: '15 min walk' },
   ],
   nearbyFood: {
     intro: 'Campbell Parade and the streets behind it hold most of Bondi’s eating and drinking.',
@@ -252,7 +252,7 @@ const NORTH_BONDI: LocationPageData = {
   ],
   nearby: [
     { name: 'Bondi Beach', href: '/bondi-beach', description: 'The main beach and promenade, with the Pavilion, the flags and Campbell Parade’s cafés.', walk: '10 min walk' },
-    { name: 'Ben Buckler', description: 'The rocky northern point above North Bondi, with big ocean views and the fishing rock ledges.', walk: '10 min walk' },
+    { name: 'Ben Buckler', href: '/ben-buckler', description: 'The rocky northern point above North Bondi, with big ocean views and the fishing rock ledges.', walk: '10 min walk' },
     { name: 'Bondi Icebergs', href: '/bondi-icebergs', description: 'The ocean pool at the far southern end of the beach.', walk: '20 min walk' },
     { name: 'Bondi to Coogee coastal walk', href: '/bondi-coastal-walk', description: 'The clifftop walk south to Coogee, starting at the Icebergs end of the beach.', walk: '20 min to the start' },
   ],
@@ -344,7 +344,7 @@ const BONDI_ICEBERGS: LocationPageData = {
   nearby: [
     { name: 'Bondi Beach', href: '/bondi-beach', description: 'The main beach and promenade begin right below the pool on the southern headland.', walk: '5 min walk' },
     { name: 'Bondi to Coogee coastal walk', href: '/bondi-coastal-walk', description: 'The clifftop walk to Coogee starts at the Icebergs headland.', walk: 'Starts here' },
-    { name: 'Tamarama Beach', description: 'The first cove south on the coastal walk — small, scenic and rip-prone.', walk: '15 min walk' },
+    { name: 'Tamarama Beach', href: '/tamarama-beach', description: 'The first cove south on the coastal walk — small, scenic and rip-prone.', walk: '15 min walk' },
     { name: 'North Bondi', href: '/north-bondi', description: 'The quieter, family end of the beach at the far northern side.', walk: '20 min walk' },
   ],
   nearbyFood: {
@@ -381,7 +381,15 @@ const BONDI_ICEBERGS: LocationPageData = {
   ],
 };
 
-export const LOCATIONS: LocationPageData[] = [BONDI_BEACH, NORTH_BONDI, BONDI_ICEBERGS];
+// Additional location records live in content JSON so new pages are added as data, not code.
+import extraLocations from './locations-extra.json';
+
+export const LOCATIONS: LocationPageData[] = [
+  BONDI_BEACH,
+  NORTH_BONDI,
+  BONDI_ICEBERGS,
+  ...(extraLocations as LocationPageData[]),
+];
 
 const BY_PATH = new Map(LOCATIONS.map((l) => [l.path, l]));
 export function getLocation(path: string): LocationPageData | undefined {
