@@ -1,39 +1,139 @@
 {
   "path": "/bondi-blog/2023/4/1/3003c62xnorpgvx461rhjrkhp6p56f",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-11",
   "sources": [
-    { "label": "Bondi Icebergs Club — Pool Conditions", "url": "https://icebergs.com.au/pool-conditions/" },
-    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" },
-    { "label": "Icebergs Dining Room and Bar", "url": "https://idrb.com/" }
+    {
+      "label": "Bondi Icebergs Club — Pool Conditions",
+      "url": "https://icebergs.com.au/pool-conditions/"
+    },
+    {
+      "label": "Bondi Icebergs Club",
+      "url": "https://icebergs.com.au/"
+    },
+    {
+      "label": "Icebergs Dining Room and Bar",
+      "url": "https://idrb.com/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you only do one thing at the southern end of Bondi, make it Icebergs — the cliff-hugging ocean pool where waves crash straight over the lap lanes and swimmers plough on regardless. It's part public pool, part winter-swimming institution, part fine-dining destination, and after years living around the corner I still rate it the most photographed 50 metres of water in Australia. Here's how I'd tackle the whole complex: pool, bistro, and the famous dining room upstairs." },
-    { "type": "quickFacts", "items": [
-      { "label": "Where", "value": "1 Notts Ave, southern end of Bondi Beach" },
-      { "label": "The pool", "value": "50m Olympic lap pool + children's pool" },
-      { "label": "Club founded", "value": "1929" },
-      { "label": "Closed", "value": "Thursdays for cleaning (tides permitting in summer)" },
-      { "label": "Best for", "value": "Ocean swims, sunset drinks, a special-occasion lunch" }
-    ] },
-    { "type": "h2", "text": "The pool: where locals actually swim" },
-    { "type": "p", "text": "The Bondi Baths are carved into the rocks at the beach's quiet southern corner, and the setup is simple: a full 50-metre saltwater lap pool refreshed by the ocean, plus a smaller shallow pool that's perfect for little kids. Lifeguards are on duty during opening hours, there's a sauna and hot showers, and towel and locker hire if you've turned up empty-handed. On a big swell the sea washes over the eastern wall — which is why the underwater footage from here goes viral every winter." },
-    { "type": "p", "text": "Admission is refreshingly cheap for something this iconic — a small single-visit fee, with concession rates for kids and families and multi-visit passes if you're staying a while. Prices and hours shift seasonally and the pool closes Thursdays for cleaning, so I always check the official Pool Conditions page the morning of a swim rather than trust a number read online months ago." },
-    { "type": "localTip", "text": "Go early. I love a 7am lap when the sun is coming up and the pool is nearly empty — by mid-morning in summer the deck fills with sunbathers and the lanes get busy. The pool also closes for swim-club events on some weekends, so check the club's site first." },
-    { "type": "callout", "tone": "note", "title": "Pool and dining room are different bookings", "text": "The pool is walk-up entry (no booking). The upstairs Dining Room and Bar is a separate business with its own reservations — you don't need to swim to eat there, but you can't wander up in your swimmers for a table." },
-    { "type": "h2", "text": "A club born in winter" },
-    { "type": "p", "text": "The Bondi Icebergs Swimming Club was founded in 1929 by local lifesavers who wanted to stay fit through the cold months, and winter swimming has been its heart ever since. Membership famously hinges on turning up to swim right through the Sydney winter — the stubborn, salty tradition that makes Bondi, Bondi. On opening day each season, members still toss chunks of ice into the pool to earn the name. You don't need to be a member to swim, though — the pool is open to all." },
-    { "type": "h2", "text": "Eating and drinking: the dining room vs the bistro" },
-    { "type": "p", "text": "There are two ways to eat here, and people mix them up constantly. Upstairs is Icebergs Dining Room and Bar, the glass-walled modern-Italian restaurant opened by restaurateur Maurice Terzini in 2002. It's a proper special-occasion room — floor-to-ceiling views down the length of the beach, a serious wine list, and prices to match. Book ahead, dress up a little, and aim for a window table at golden hour. Menus change often, so I check idrb.com for the current offering before promising anyone a specific dish." },
-    { "type": "p", "text": "If you want the same view for a fraction of the price, the club's own bistro downstairs is the local's move — relaxed, family-friendly and easy on the wallet." },
-    { "type": "localTip", "text": "For the postcard photo of the pool with the whole beach curving behind it, walk up onto the start of the Bondi to Bronte coastal path. That elevated clifftop angle is the shot everyone recognises — and it's free." },
-    { "type": "faq", "items": [
-      { "q": "Do I have to be a member to swim at Bondi Icebergs?", "a": "No. The pool is open to the public for a modest entry fee, with concession rates for kids and families. Membership of the Icebergs Swimming Club is a separate thing tied to winter-swimming commitments — you don't need it to swim." },
-      { "q": "How much does the Icebergs pool cost and what are the hours?", "a": "It's inexpensive — a small single-visit fee with cheaper rates for kids and families. Because prices and hours change seasonally, and the pool closes Thursdays for cleaning (tides permitting in summer), check the official Pool Conditions page at icebergs.com.au before you go." },
-      { "q": "Is the swimming pool the same as the famous restaurant?", "a": "No — they're separate. The Dining Room and Bar is the upmarket modern-Italian restaurant upstairs (book at idrb.com); the pool is the walk-up ocean baths below. There's also a casual, cheaper club bistro if you just want lunch with the view." },
-      { "q": "Is Bondi Icebergs good for kids?", "a": "Yes. Alongside the 50-metre lap pool there's a smaller, shallower children's pool, and lifeguards are on duty during opening hours. The casual bistro is family-friendly too, though the pool gets crowded on hot summer afternoons." },
-      { "q": "When is the pool closed?", "a": "Icebergs typically closes on Thursdays for cleaning (with summer exceptions when tides permit), and occasionally for swim-club events or heavy seas. Check the official Pool Conditions page the day you visit." }
-    ] },
-    { "type": "p", "text": "That's the whole complex: swim the ocean pool, warm up in the sauna, grab a bistro lunch, then linger over a drink as the light turns gold over Bondi — which is exactly why Icebergs stays my favourite corner of the beach." }
+    {
+      "type": "p",
+      "text": "If you only do one thing at the southern end of Bondi, make it Icebergs — the cliff-hugging ocean pool where waves crash straight over the lap lanes and swimmers plough on regardless. It's part public pool, part winter-swimming institution, part fine-dining destination, and after years living around the corner I still rate it the most photographed 50 metres of water in Australia. Here's how I'd tackle the whole complex: pool, bistro, and the famous dining room upstairs."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Where",
+          "value": "1 Notts Ave, southern end of Bondi Beach"
+        },
+        {
+          "label": "The pool",
+          "value": "50m Olympic lap pool + children's pool"
+        },
+        {
+          "label": "Club founded",
+          "value": "1929"
+        },
+        {
+          "label": "Closed",
+          "value": "Thursdays for cleaning (tides permitting in summer)"
+        },
+        {
+          "label": "Best for",
+          "value": "Ocean swims, sunset drinks, a special-occasion lunch"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The pool: where locals actually swim"
+    },
+    {
+      "type": "p",
+      "text": "The Bondi Baths are carved into the rocks at the beach's quiet southern corner, and the setup is simple: a full 50-metre saltwater lap pool refreshed by the ocean, plus a smaller shallow pool that's perfect for little kids. Lifeguards are on duty during opening hours, there's a sauna and hot showers, and towel and locker hire if you've turned up empty-handed. On a big swell the sea washes over the eastern wall — which is why the underwater footage from here goes viral every winter."
+    },
+    {
+      "type": "p",
+      "text": "Admission is refreshingly cheap for something this iconic — a small single-visit fee, with concession rates for kids and families and multi-visit passes if you're staying a while. Prices and hours shift seasonally and the pool closes Thursdays for cleaning, so I always check the official Pool Conditions page the morning of a swim rather than trust a number read online months ago."
+    },
+    {
+      "type": "localTip",
+      "text": "Go early. I love a 7am lap when the sun is coming up and the pool is nearly empty — by mid-morning in summer the deck fills with sunbathers and the lanes get busy. The pool also closes for swim-club events on some weekends, so check the club's site first."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Pool and dining room are different bookings",
+      "text": "The pool is walk-up entry (no booking). The upstairs Dining Room and Bar is a separate business with its own reservations — you don't need to swim to eat there, but you can't wander up in your swimmers for a table."
+    },
+    {
+      "type": "h2",
+      "text": "A club born in winter"
+    },
+    {
+      "type": "p",
+      "text": "The Bondi Icebergs Swimming Club was founded in 1929 by local lifesavers who wanted to stay fit through the cold months, and winter swimming has been its heart ever since. Membership famously hinges on turning up to swim right through the Sydney winter — the stubborn, salty tradition that makes Bondi, Bondi. On opening day each season, members still toss chunks of ice into the pool to earn the name. You don't need to be a member to swim, though — the pool is open to all."
+    },
+    {
+      "type": "h2",
+      "text": "Eating and drinking: the dining room vs the bistro"
+    },
+    {
+      "type": "p",
+      "text": "There are two ways to eat here, and people mix them up constantly. Upstairs is [Icebergs Dining Room and Bar](/bondi-eat-and-drink/venues/icebergs-dining-room-and-bar), the glass-walled modern-Italian restaurant opened by restaurateur Maurice Terzini in 2002. It's a proper special-occasion room — floor-to-ceiling views down the length of the beach, a serious wine list, and prices to match — and still one of the beach's definitive [date-night tables](/bondi-eat-and-drink/date-night-bondi-beach). Book ahead, dress up a little, and aim for a window table at golden hour. Menus change often, so I check idrb.com for the current offering before promising anyone a specific dish."
+    },
+    {
+      "type": "p",
+      "text": "If you want the same view for a fraction of the price, [The Bergs](/bondi-eat-and-drink/venues/the-bergs-bistro-bondi-icebergs-club) — the club's own bistro one floor down — is the local's move: relaxed, easy on the wallet, and one of the more reliably [family-friendly places to eat](/bondi-eat-and-drink/family-friendly-bondi-beach) on this stretch of beach."
+    },
+    {
+      "type": "h2",
+      "text": "More ways to eat at the southern end"
+    },
+    {
+      "type": "p",
+      "text": "You don't have to book a table to eat well at this corner. For a coffee without the swim, head to the base of the building: [The Crabbe Hole](/bondi-eat-and-drink/venues/the-crabbe-hole) is the pocket-sized café tucked into the rocks right below the pool, and I rate its takeaway coffee as some of the best-positioned in Bondi — grab one and drink it on the boulders with the swimmers churning past below. And if it's really the ocean view you're chasing rather than Icebergs itself, the whole beach is lined with it: our guide to [Bondi's beachfront and ocean-view dining](/bondi-eat-and-drink/waterfront-dining-bondi-beach) rounds up every table where the water does the talking."
+    },
+    {
+      "type": "localTip",
+      "text": "For the postcard photo of the pool with the whole beach curving behind it, walk up onto the start of the Bondi to Bronte coastal path. That elevated clifftop angle is the shot everyone recognises — and it's free."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do I have to be a member to swim at Bondi Icebergs?",
+          "a": "No. The pool is open to the public for a modest entry fee, with concession rates for kids and families. Membership of the Icebergs Swimming Club is a separate thing tied to winter-swimming commitments — you don't need it to swim."
+        },
+        {
+          "q": "How much does the Icebergs pool cost and what are the hours?",
+          "a": "It's inexpensive — a small single-visit fee with cheaper rates for kids and families. Because prices and hours change seasonally, and the pool closes Thursdays for cleaning (tides permitting in summer), check the official Pool Conditions page at icebergs.com.au before you go."
+        },
+        {
+          "q": "Is the swimming pool the same as the famous restaurant?",
+          "a": "No — they're separate. The Dining Room and Bar is the upmarket modern-Italian restaurant upstairs (book at idrb.com); the pool is the walk-up ocean baths below. There's also The Bergs, the casual, cheaper club bistro one floor down, if you just want lunch with the view."
+        },
+        {
+          "q": "Is Bondi Icebergs good for kids?",
+          "a": "Yes. Alongside the 50-metre lap pool there's a smaller, shallower children's pool, and lifeguards are on duty during opening hours. The Bergs bistro is family-friendly too, though the pool gets crowded on hot summer afternoons."
+        },
+        {
+          "q": "When is the pool closed?",
+          "a": "Icebergs typically closes on Thursdays for cleaning (with summer exceptions when tides permit), and occasionally for swim-club events or heavy seas. Check the official Pool Conditions page the day you visit."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Eating your way around the whole beach?",
+      "text": "Icebergs is one unforgettable corner — but it's a big beach. For everywhere else to eat and drink, browse the full [Bondi eat & drink guide](/bondi-eat-and-drink): 160+ cafés, bakeries, bars and restaurants you can filter by cuisine, area, price or who you're with."
+    },
+    {
+      "type": "p",
+      "text": "That's the whole complex: swim the ocean pool, warm up in the sauna, grab a bistro lunch, then linger over a drink as the light turns gold over Bondi — which is exactly why Icebergs stays my favourite corner of the beach."
+    }
   ]
 }

@@ -1,40 +1,159 @@
 {
   "path": "/bondi-blog/2025/5/25/where-to-watch-english-football-in-bondi-the-best-pubs-and-bars-for-premier-league-fans",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-11",
   "sources": [
-    { "label": "The Royal Bondi (Merivale) — venue page", "url": "https://merivale.com/venues/theroyal/" },
-    { "label": "Beach Road Hotel", "url": "https://www.beachroadhotel.com.au/" },
-    { "label": "Nine / Stan Sport — Premier League & FA Cup rights announcement", "url": "https://www.stan.news/nine-secures-exclusive-premier-league-and-emirates-fa-cup-rights-in-major-sporting-milestone" },
-    { "label": "WhistleOut — How to watch the Premier League in Australia", "url": "https://www.whistleout.com.au/PayTV/Guides/watch-english-premier-league-australia" }
+    {
+      "label": "The Royal Bondi (Merivale) — venue page",
+      "url": "https://merivale.com/venues/theroyal/"
+    },
+    {
+      "label": "Beach Road Hotel",
+      "url": "https://www.beachroadhotel.com.au/"
+    },
+    {
+      "label": "Nine / Stan Sport — Premier League & FA Cup rights announcement",
+      "url": "https://www.stan.news/nine-secures-exclusive-premier-league-and-emirates-fa-cup-rights-in-major-sporting-milestone"
+    },
+    {
+      "label": "WhistleOut — How to watch the Premier League in Australia",
+      "url": "https://www.whistleout.com.au/PayTV/Guides/watch-english-premier-league-australia"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you want to watch English football in Bondi, your two most reliable bets are The Royal Bondi and the Beach Road Hotel — both proper pubs with big screens, cold taps and a crowd that cares. I've watched more late-night Premier League here than I'd like to admit, so here's my honest local rundown, plus the thing that catches every visitor out: the kickoff times." },
-    { "type": "callout", "tone": "warning", "title": "The rights have changed — this matters in 2025/26", "text": "Optus Sport shut down in August 2025. The Premier League and the Emirates FA Cup are now shown in Australia by Stan Sport, with a handful of marquee matches also free-to-air on the Nine Network. So when you ask a venue \"are you showing the football?\", you're really asking whether they've got the Stan Sport (or Nine) feed on that night. Always confirm the specific fixture before you head down." },
-    { "type": "h2", "text": "The two pubs I'd actually send you to" },
-    { "type": "h3", "text": "The Royal Bondi" },
-    { "type": "p", "text": "Up on Bondi Road, The Royal is the closest thing Bondi has to a dedicated footy local — a Merivale pub with a classic front bar, plenty of screens and a live-sport schedule they publish online — so you can check whether your team's game is going up before you leave the house. It gets loud and good-natured on a big matchday, which is half the fun. See their live-sport page (linked in my sources) for what's on." },
-    { "type": "h3", "text": "Beach Road Hotel" },
-    { "type": "p", "text": "A couple of blocks back from the sand, the Beach Road Hotel is the big, buzzy option — multiple bars over multiple levels, so there's usually room even when something major is on. It leans party-pub later in the night, which suits those late European kickoffs. Check their socials or ring ahead to confirm your match is being screened, since which games go where can vary week to week." },
-    { "type": "quickFacts", "items": [
-      { "label": "Best all-rounder", "value": "The Royal Bondi (Bondi Road)" },
-      { "label": "Biggest & buzziest", "value": "Beach Road Hotel" },
-      { "label": "Broadcaster (AU)", "value": "Stan Sport; select games free-to-air on Nine" },
-      { "label": "Golden rule", "value": "Confirm the exact fixture before you go" }
-    ] },
-    { "type": "h2", "text": "Mind the time difference — this is the real catch" },
-    { "type": "p", "text": "Here's what nobody tells visitors: Sydney is roughly nine to ten hours ahead of the UK, so English football rarely lands at a civilised hour here. A Saturday 3pm kickoff in England is around midnight in Bondi, and early kickoffs can mean the small hours. Only the biggest late-window games fall at a friendly Bondi evening time — so I check the local kickoff first, then check the venue is open and putting that game on." },
-    { "type": "localTip", "text": "For the truly antisocial kickoffs, ask the pub directly whether they're opening early or staying open late for that fixture — some will, some won't, depending on the match. A quick call or DM the day before saves a wasted 2am trek across Bondi." },
-    { "type": "h2", "text": "Prefer to watch it from your Bondi apartment?" },
-    { "type": "p", "text": "If you're staying nearby and the kickoff is brutal, streaming from the couch is a perfectly good shout. In Australia the Premier League lives on Stan Sport, so a subscription plus decent WiFi is all you need. Grab a few things from the bottle shop on the way home and you've got your own Bondi viewing party — without the 3am walk back up the hill." },
-    { "type": "callout", "tone": "note", "title": "A note on the other spots you'll see listed", "text": "Older guides point at various beachfront bars and clubs. Plenty of Bondi venues will put a big game on if you ask early enough, but few commit the way a sports-focused pub does. If watching your team is the whole point of the night, start with The Royal or Beach Road and treat everywhere else as a bonus." },
-    { "type": "faq", "items": [
-      { "q": "Where's the best place to watch the Premier League in Bondi?", "a": "For a reliable big-screen atmosphere, I'd point you to The Royal Bondi on Bondi Road or the Beach Road Hotel. Both are proper pubs that regularly show live football — confirm your fixture is going on before you head down." },
-      { "q": "How do I watch English football in Australia now that Optus Sport has closed?", "a": "From August 2025 the Premier League and FA Cup are shown in Australia by Stan Sport, with select matches also free-to-air on the Nine Network. Optus Sport has shut down, so pubs will be running the Stan Sport or Nine feed." },
-      { "q": "What time do Premier League games kick off in Bondi?", "a": "Sydney is around nine to ten hours ahead of the UK, so most matches fall late at night or in the early morning here. A UK Saturday 3pm kickoff is roughly midnight in Bondi. Always check the local kickoff time and whether your venue is open for it." },
-      { "q": "Do I need to book or call ahead?", "a": "You don't usually need a booking, but I'd always call or message ahead for anything other than a marquee fixture. Which games go on which screens varies, and some pubs only open early or stay late for bigger matches." },
-      { "q": "Can I watch the football at my Bondi accommodation instead?", "a": "Yes — with a Stan Sport subscription and reliable WiFi you can stream every Premier League match from your apartment, which is often the sanest option for a 2am kickoff." }
-    ] },
-    { "type": "p", "text": "That's my playbook: pick The Royal or Beach Road, confirm the exact game and the local kickoff time, and remember the rights now sit with Stan Sport rather than Optus. Do that and you'll be shoulder-to-shoulder with fellow supporters when the whistle blows — or on the couch with the surf just down the road. Up the football." }
+    {
+      "type": "p",
+      "text": "If you want to watch English football in Bondi, your two most reliable bets are [The Royal Bondi](/bondi-eat-and-drink/venues/the-royal-bondi) and the [Beach Road Hotel](/bondi-eat-and-drink/venues/beach-road-hotel) — both proper pubs with big screens, cold taps and a crowd that cares. I've watched more late-night Premier League here than I'd like to admit, so here's my honest local rundown, plus the thing that catches every visitor out: the kickoff times."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "The rights have changed — this matters in 2025/26",
+      "text": "Optus Sport shut down in August 2025. The Premier League and the Emirates FA Cup are now shown in Australia by Stan Sport, with a handful of marquee matches also free-to-air on the Nine Network. So when you ask a venue \"are you showing the football?\", you're really asking whether they've got the Stan Sport (or Nine) feed on that night. Always confirm the specific fixture before you head down."
+    },
+    {
+      "type": "h2",
+      "text": "The two pubs I'd actually send you to"
+    },
+    {
+      "type": "h3",
+      "text": "The Royal Bondi"
+    },
+    {
+      "type": "p",
+      "text": "Up on Bondi Road, The Royal is the closest thing Bondi has to a dedicated footy local — a Merivale pub with a classic front bar, plenty of screens and a live-sport schedule they publish online — so you can check whether your team's game is going up before you leave the house. It gets loud and good-natured on a big matchday, which is half the fun. See their live-sport page (linked in my sources) for what's on."
+    },
+    {
+      "type": "h3",
+      "text": "Beach Road Hotel"
+    },
+    {
+      "type": "p",
+      "text": "A couple of blocks back from the sand, the Beach Road Hotel is the big, buzzy option — multiple bars over multiple levels, so there's usually room even when something major is on. It leans party-pub later in the night, which suits those late European kickoffs. Check their socials or ring ahead to confirm your match is being screened, since which games go where can vary week to week."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Best all-rounder",
+          "value": "The Royal Bondi (Bondi Road)"
+        },
+        {
+          "label": "Biggest & buzziest",
+          "value": "Beach Road Hotel"
+        },
+        {
+          "label": "Broadcaster (AU)",
+          "value": "Stan Sport; select games free-to-air on Nine"
+        },
+        {
+          "label": "Golden rule",
+          "value": "Confirm the exact fixture before you go"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Mind the time difference — this is the real catch"
+    },
+    {
+      "type": "p",
+      "text": "Here's what nobody tells visitors: Sydney is roughly nine to ten hours ahead of the UK, so English football rarely lands at a civilised hour here. A Saturday 3pm kickoff in England is around midnight in Bondi, and early kickoffs can mean the small hours. Only the biggest late-window games fall at a friendly Bondi evening time — so I check the local kickoff first, then check the venue is open and putting that game on."
+    },
+    {
+      "type": "localTip",
+      "text": "For the truly antisocial kickoffs, ask the pub directly whether they're opening early or staying open late for that fixture — some will, some won't, depending on the match. A quick call or DM the day before saves a wasted 2am trek across Bondi."
+    },
+    {
+      "type": "h2",
+      "text": "Other pubs and clubs worth a call"
+    },
+    {
+      "type": "p",
+      "text": "If The Royal and Beach Road can't put your game on — or you just want a plan B in a different pocket of Bondi — these are the places I'd ring next. They all keep screens on for live sport, though you'll still want to confirm they've got your exact fixture (and that they're open for that kickoff time) before you head over."
+    },
+    {
+      "type": "list",
+      "items": [
+        "[Hotel Bondi](/bondi-eat-and-drink/venues/hotel-bondi) — the grand old pub right on Campbell Parade, with several bars and a big public-bar crowd; handy if you're already down by the beach.",
+        "[North Bondi RSL](/bondi-eat-and-drink/venues/north-bondi-rsl) — a community club up the north end with screens, cheap pots and one of the best ocean views you'll ever watch a match in front of. Sign in on arrival.",
+        "[Hotel Ravesis](/bondi-eat-and-drink/venues/hotel-ravesis) — the corner pub at the north end of the promenade; a smaller, more relaxed room if the bigger pubs are packed.",
+        "[Bondi Bowlo](/bondi-eat-and-drink/venues/bondi-bowlo-bondi-bowling-club) — the bowling club on Bondi Road, laid-back and good value, an easy walk from The Royal.",
+        "[Bondi Beach Public Bar](/bondi-eat-and-drink/venues/bondi-beach-public-bar) — a casual Campbell Parade spot for a pint and a screen when you don't want a full-scale party pub."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For the full picture — opening hours, which pubs do food, and where each one sits — it's worth a look through our guide to the [best pubs in Bondi](/bondi-eat-and-drink/pubs-bondi-beach) and the wider [best bars in Bondi](/bondi-eat-and-drink/best-bars-bondi-beach)."
+    },
+    {
+      "type": "h2",
+      "text": "Prefer to watch it from your Bondi apartment?"
+    },
+    {
+      "type": "p",
+      "text": "If you're staying nearby and the kickoff is brutal, streaming from the couch is a perfectly good shout. In Australia the Premier League lives on Stan Sport, so a subscription plus decent WiFi is all you need. Grab a few things from the bottle shop on the way home and you've got your own Bondi viewing party — without the 3am walk back up the hill."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "A note on the other spots you'll see listed",
+      "text": "Older guides point at various beachfront bars and clubs. Plenty of Bondi venues will put a big game on if you ask early enough, but few commit the way a sports-focused pub does. If watching your team is the whole point of the night, start with The Royal or Beach Road and treat everywhere else as a bonus."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Sorting dinner before (or after) the match?",
+      "text": "Late kickoffs mean you'll often be eating around the football. Our full Bondi eat-and-drink directory lets you browse 160+ local venues and filter by cuisine, area, price and who you're with — from a quick pre-match feed to somewhere still serving at midnight. Start with the [Bondi eat & drink guide](/bondi-eat-and-drink), or go straight to the [best pubs in Bondi](/bondi-eat-and-drink/pubs-bondi-beach) if you want food and the game under one roof."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Where's the best place to watch the Premier League in Bondi?",
+          "a": "For a reliable big-screen atmosphere, I'd point you to The Royal Bondi on Bondi Road or the Beach Road Hotel. Both are proper pubs that regularly show live football — confirm your fixture is going on before you head down. If they can't screen your game, North Bondi RSL, Hotel Bondi and the other spots in our [best pubs in Bondi](/bondi-eat-and-drink/pubs-bondi-beach) guide are worth a call."
+        },
+        {
+          "q": "How do I watch English football in Australia now that Optus Sport has closed?",
+          "a": "From August 2025 the Premier League and FA Cup are shown in Australia by Stan Sport, with select matches also free-to-air on the Nine Network. Optus Sport has shut down, so pubs will be running the Stan Sport or Nine feed."
+        },
+        {
+          "q": "What time do Premier League games kick off in Bondi?",
+          "a": "Sydney is around nine to ten hours ahead of the UK, so most matches fall late at night or in the early morning here. A UK Saturday 3pm kickoff is roughly midnight in Bondi. Always check the local kickoff time and whether your venue is open for it."
+        },
+        {
+          "q": "Do I need to book or call ahead?",
+          "a": "You don't usually need a booking, but I'd always call or message ahead for anything other than a marquee fixture. Which games go on which screens varies, and some pubs only open early or stay late for bigger matches."
+        },
+        {
+          "q": "Can I watch the football at my Bondi accommodation instead?",
+          "a": "Yes — with a Stan Sport subscription and reliable WiFi you can stream every Premier League match from your apartment, which is often the sanest option for a 2am kickoff."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's my playbook: pick The Royal or Beach Road, confirm the exact game and the local kickoff time, and remember the rights now sit with Stan Sport rather than Optus. Do that and you'll be shoulder-to-shoulder with fellow supporters when the whistle blows — or on the couch with the surf just down the road. Up the football."
+    }
   ]
 }

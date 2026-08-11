@@ -1,39 +1,145 @@
 {
   "path": "/bondi-blog/the-ultimate-guide-to-bondi-beach-nightlife",
   "voice": "first-person",
-  "lastReviewed": "2026-08-10",
+  "lastReviewed": "2026-08-11",
   "sources": [
-    { "label": "The Royal Bondi (Merivale)", "url": "https://merivale.com/venues/theroyal/" },
-    { "label": "Royal Hotel, Bondi — Wikipedia (heritage, 1902; SLSC founded 1907)", "url": "https://en.wikipedia.org/wiki/Royal_Hotel,_Bondi" },
-    { "label": "Icebergs Dining Room and Bar (1 Notts Avenue)", "url": "https://idrb.com/" },
-    { "label": "Sydney bus route 333 — Wikipedia", "url": "https://en.wikipedia.org/wiki/Sydney_bus_route_333" },
-    { "label": "Transport for NSW — Trip Planner", "url": "https://transportnsw.info/trip" }
+    {
+      "label": "The Royal Bondi (Merivale)",
+      "url": "https://merivale.com/venues/theroyal/"
+    },
+    {
+      "label": "Royal Hotel, Bondi — Wikipedia (heritage, 1902; SLSC founded 1907)",
+      "url": "https://en.wikipedia.org/wiki/Royal_Hotel,_Bondi"
+    },
+    {
+      "label": "Icebergs Dining Room and Bar (1 Notts Avenue)",
+      "url": "https://idrb.com/"
+    },
+    {
+      "label": "Sydney bus route 333 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sydney_bus_route_333"
+    },
+    {
+      "label": "Transport for NSW — Trip Planner",
+      "url": "https://transportnsw.info/trip"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "Bondi doesn't do velvet-rope glamour, and that's exactly why I love a night out here. After dark it's salt-in-your-hair pub sessions, ocean-view cocktails and long tables of people who came for one drink and stayed for five. Here's how I'd actually map a night — from a golden-hour beer to the last gelato before the walk home." },
-    { "type": "quickFacts", "items": [
-      { "label": "Vibe", "value": "Relaxed, beachy, pub-led" },
-      { "label": "Best nights", "value": "Thursday to Sunday" },
-      { "label": "Dress", "value": "Smart-casual; thongs mostly fine" },
-      { "label": "Getting home", "value": "24-hour 333 bus & rideshare" }
-    ] },
-    { "type": "h2", "text": "Start with the water: sunset drinks" },
-    { "type": "p", "text": "The first hour belongs to the ocean. My go-to is the bar upstairs at Icebergs at 1 Notts Avenue — perched above the famous winter-swimming club, it looks straight down the length of the beach, and there's no better spot to watch the light go pink over the pool. It opened in 2002 and it's still a special-occasion sort of price, so I nurse one negroni and soak it in. For something lower-key, Ravesi's on the corner of Campbell Parade and Hall Street has a classic beachside public bar and a terrace that catches the last of the sun." },
-    { "type": "localTip", "text": "Sunset seats go fast on a clear evening. For the upstairs bar at Icebergs or a terrace table at Ravesi's, arrive a good hour before the sun drops, or book ahead where the venue allows it." },
-    { "type": "h2", "text": "The middle of the night: the pubs are the party" },
-    { "type": "p", "text": "This is where Bondi is most itself. A few of my regular haunts:" },
-    { "type": "li", "text": "The Royal — a grand heritage corner pub at 283 Bondi Road, dating to 1902 and now run by Merivale. There's regular live music, pool tables and the footy in the front bar, and a proper dancefloor upstairs on weekends. Nice bit of history: the world's oldest surf life-saving club was founded in this very building back in 1907." },
-    { "type": "li", "text": "Ravesi's — beyond the beachside public bar downstairs, the upstairs bar runs DJ sets on weekends. Check their site for the current line-up before you head up." },
-    { "type": "li", "text": "Neighbourhood Bondi — exposed brick, good wine and cocktails, and a buzzy-but-not-deafening room where you can actually hear your mates talk." },
-    { "type": "li", "text": "North Bondi — the northern end keeps things easy and unpretentious for a beer close to the sand, my pick when I want the beach in view but the fuss dialled right down." },
-    { "type": "callout", "tone": "note", "title": "Don't come expecting nightclubs", "text": "Bondi isn't a superclub district — the scene is pub- and bar-led, with weekend DJ sets and live bands rather than dedicated clubs. For a heavy club night, most locals rideshare into the city or the Inner West. Here, the pubs are the party. The Royal is the most reliable bet for live music right in Bondi, with gigs through the week; check the venue's own What's On for the night you're coming, because line-ups change constantly." },
-    { "type": "h2", "text": "Late eats and getting home" },
-    { "type": "p", "text": "No Bondi night ends without a feed — Gelato Messina is my sweet-tooth default, and the beach end of Hall Street and Campbell Parade keeps a few kitchens going for a post-drinks slice or burger. Just don't bank on any one place being open past midnight midweek; hours shift with the season." },
-    { "type": "callout", "tone": "warning", "title": "Sort your ride home before you go out", "text": "Bondi has no train station — the nearest is Bondi Junction, roughly 3km uphill. Late at night the 333 runs as a 24-hour service between the city and North Bondi, otherwise it's rideshare, where surge pricing on a warm Saturday is very real. Check the Transport for NSW trip planner for current routes and times before you leave." },
-    { "type": "faq", "items": [
-      { "q": "Does Bondi Beach have a nightclub scene?", "a": "Not in the superclub sense. Bondi runs on pubs and bars with weekend DJ sets and live music — places like The Royal on Bondi Road and Ravesi's on Campbell Parade. For a dedicated club night, most people head into the city or the Inner West." },
-      { "q": "Where can I get a drink with a view of the beach?", "a": "The bar upstairs at Icebergs (1 Notts Avenue) has the standout ocean outlook, and Ravesi's has a beachside terrace on Campbell Parade. Both fill up at sunset, so arrive early on clear evenings." },
-      { "q": "How do I get home from Bondi late at night?", "a": "Bondi has no train station — the nearest is Bondi Junction, about 3km uphill. The 333 runs as a 24-hour service between the city and North Bondi, so it's the overnight bus option; otherwise rideshare is the usual choice. Check the Transport for NSW trip planner for current night-bus times." }
-    ] }
+    {
+      "type": "p",
+      "text": "Bondi doesn't do velvet-rope glamour, and that's exactly why I love a night out here. After dark it's salt-in-your-hair pub sessions, ocean-view cocktails and long tables of people who came for one drink and stayed for five. Here's how I'd actually map a night — from a golden-hour beer to the last gelato before the walk home."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Vibe",
+          "value": "Relaxed, beachy, pub-led"
+        },
+        {
+          "label": "Best nights",
+          "value": "Thursday to Sunday"
+        },
+        {
+          "label": "Dress",
+          "value": "Smart-casual; thongs mostly fine"
+        },
+        {
+          "label": "Getting home",
+          "value": "24-hour 333 bus & rideshare"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Start with the water: sunset drinks"
+    },
+    {
+      "type": "p",
+      "text": "The first hour belongs to the ocean. My go-to is the bar upstairs at [Icebergs](/bondi-eat-and-drink/venues/icebergs-dining-room-and-bar) at 1 Notts Avenue — perched above the famous winter-swimming club, it looks straight down the length of the beach, and there's no better spot to watch the light go pink over the pool. It opened in 2002 and it's still a special-occasion sort of price, so I nurse one negroni and soak it in. For something lower-key, [Ravesi's](/bondi-eat-and-drink/venues/hotel-ravesis) on the corner of Campbell Parade and Hall Street has a classic beachside public bar and a terrace that catches the last of the sun. These are two of only a handful of genuine ocean-view perches in Bondi — I've mapped the rest in our guide to [Bondi's beachfront and ocean-view spots](/bondi-eat-and-drink/waterfront-dining-bondi-beach)."
+    },
+    {
+      "type": "localTip",
+      "text": "Sunset seats go fast on a clear evening. For the upstairs bar at Icebergs or a terrace table at Ravesi's, arrive a good hour before the sun drops, or book ahead where the venue allows it. And if the Icebergs bar price tag stings, [The Bergs Bistro](/bondi-eat-and-drink/venues/the-bergs-bistro-bondi-icebergs-club) at the Bondi Icebergs Club next door serves the same knockout view for club-bistro money — you just sign in as a guest at the door."
+    },
+    {
+      "type": "h2",
+      "text": "The middle of the night: the pubs are the party"
+    },
+    {
+      "type": "p",
+      "text": "This is where Bondi is most itself. A few of my regular haunts:"
+    },
+    {
+      "type": "li",
+      "text": "[The Royal](/bondi-eat-and-drink/venues/the-royal-bondi) — a grand heritage corner pub at 283 Bondi Road, dating to 1902 and now run by Merivale. There's regular live music, pool tables and the footy in the front bar, and a proper dancefloor upstairs on weekends. Nice bit of history: the world's oldest surf life-saving club was founded in this very building back in 1907."
+    },
+    {
+      "type": "li",
+      "text": "[Beach Road Hotel](/bondi-eat-and-drink/venues/beach-road-hotel) — the locals' 'Beachy', a multi-level institution a street back from the sand. Pool tables, live bands and DJs on the weekend, and the kind of easy, unpretentious crowd that keeps me coming back. It's my first pick when the night wants a bit of momentum."
+    },
+    {
+      "type": "li",
+      "text": "[Hotel Bondi](/bondi-eat-and-drink/venues/hotel-bondi) — the pink landmark right on Campbell Parade, a warren of bars under one roof with a big public bar that fills fast on a warm night. Not fancy, and that's the point."
+    },
+    {
+      "type": "li",
+      "text": "Ravesi's — beyond the beachside public bar downstairs, the upstairs bar runs DJ sets on weekends. Check their site for the current line-up before you head up."
+    },
+    {
+      "type": "li",
+      "text": "[Neighbourhood Bondi](/bondi-eat-and-drink/venues/neighbourhood-bondi) — exposed brick, good wine and cocktails, and a buzzy-but-not-deafening room where you can actually hear your mates talk."
+    },
+    {
+      "type": "li",
+      "text": "[North Bondi RSL](/bondi-eat-and-drink/venues/north-bondi-rsl) — up the northern end, this is my pick for a cheap beer with the beach in full view and the fuss dialled right down. Sign in at the door, grab a spot by the windows and watch the last surfers come in."
+    },
+    {
+      "type": "p",
+      "text": "That's my core rotation, but Bondi has plenty more corner pubs worth a lean — who does live music, who's better for a quiet pint — all rounded up in our [best pubs in Bondi](/bondi-eat-and-drink/pubs-bondi-beach) guide."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Don't come expecting nightclubs",
+      "text": "Bondi isn't a superclub district — the scene is pub- and bar-led, with weekend DJ sets and live bands rather than dedicated clubs. For a heavy club night, most locals rideshare into the city or the Inner West. Here, the pubs are the party. The Royal is the most reliable bet for live music right in Bondi, with gigs through the week; check the venue's own What's On for the night you're coming, because line-ups change constantly."
+    },
+    {
+      "type": "h2",
+      "text": "Late eats and getting home"
+    },
+    {
+      "type": "p",
+      "text": "No Bondi night ends without a feed. [Gelato Messina](/bondi-eat-and-drink/venues/gelato-messina-bondi) is my sweet-tooth default, though [Anita Gelato](/bondi-eat-and-drink/venues/anita-gelato-bondi) and [Rivareno](/bondi-eat-and-drink/venues/rivareno-gelato-bondi-beach) are both walkable if the Messina queue is out the door. For something more substantial, the beach end of Hall Street and Campbell Parade keeps a few kitchens going for a post-drinks slice or burger — [Milky Lane](/bondi-eat-and-drink/venues/milky-lane-bondi) for a loaded burger, the pizzerias along the strip for a late slice. Just don't bank on any one place being open past midnight midweek; hours shift with the season, so check before you count on it. If it's the sugar you're chasing, our [best bakeries and sweets](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) guide maps every gelato counter and late-night sweet spot in the area."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Hungry as well as thirsty?",
+      "text": "This is a night-out shortlist, not the whole menu. Our [Bondi eat & drink directory](/bondi-eat-and-drink) has all 160+ local venues — every pub, bar, late-night kitchen and gelato counter — and you can filter by cuisine, area, price or who you're with. If you're building the night around drinks, start with the [best bars in Bondi](/bondi-eat-and-drink/best-bars-bondi-beach)."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Sort your ride home before you go out",
+      "text": "Bondi has no train station — the nearest is Bondi Junction, roughly 3km uphill. Late at night the 333 runs as a 24-hour service between the city and North Bondi, otherwise it's rideshare, where surge pricing on a warm Saturday is very real. Check the Transport for NSW trip planner for current routes and times before you leave."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Does Bondi Beach have a nightclub scene?",
+          "a": "Not in the superclub sense. Bondi runs on pubs and bars with weekend DJ sets and live music — places like The Royal on Bondi Road, the Beach Road Hotel and Ravesi's on Campbell Parade. For a dedicated club night, most people head into the city or the Inner West."
+        },
+        {
+          "q": "Where can I get a drink with a view of the beach?",
+          "a": "The bar upstairs at Icebergs (1 Notts Avenue) has the standout ocean outlook, and Ravesi's has a beachside terrace on Campbell Parade. North Bondi RSL is the budget-friendly option with a full beach view up the northern end. All fill up at sunset, so arrive early on clear evenings."
+        },
+        {
+          "q": "How do I get home from Bondi late at night?",
+          "a": "Bondi has no train station — the nearest is Bondi Junction, about 3km uphill. The 333 runs as a 24-hour service between the city and North Bondi, so it's the overnight bus option; otherwise rideshare is the usual choice. Check the Transport for NSW trip planner for current night-bus times."
+        }
+      ]
+    }
   ]
 }

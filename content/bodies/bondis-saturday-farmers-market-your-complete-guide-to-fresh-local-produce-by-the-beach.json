@@ -1,55 +1,200 @@
 {
   "path": "/bondi-blog/2023/8/22/bondis-saturday-farmers-market-your-complete-guide-to-fresh-local-produce-by-the-beach",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-11",
   "sources": [
-    { "label": "Bondi Farmers Market (official)", "url": "https://bondimarkets.com.au/bondi-farmers-markets" },
-    { "label": "Bondi Markets (Sunday, official)", "url": "https://bondimarkets.com.au/bondi-markets" },
-    { "label": "Sydney.com — Bondi Farmers Market", "url": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/events/bondi-farmers-market" }
+    {
+      "label": "Bondi Farmers Market (official)",
+      "url": "https://bondimarkets.com.au/bondi-farmers-markets"
+    },
+    {
+      "label": "Bondi Markets (Sunday, official)",
+      "url": "https://bondimarkets.com.au/bondi-markets"
+    },
+    {
+      "label": "Sydney.com — Bondi Farmers Market",
+      "url": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/events/bondi-farmers-market"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "The Bondi Farmers Market runs every Saturday morning, 9am to 1pm, in the grounds of Bondi Beach Public School on Campbell Parade — just across the road from the sand. It's my favourite way to start a Bondi weekend: a coffee in one hand, a bag slowly filling with fruit, warm bread and flowers, and the ocean glinting nearby. If you only do one local thing on a Saturday here, make it this." },
-    { "type": "quickFacts", "items": [
-      { "label": "When", "value": "Every Saturday, 9am–1pm" },
-      { "label": "Where", "value": "Bondi Beach Public School, Campbell Parade & Warners Ave" },
-      { "label": "Cost", "value": "Free to enter" },
-      { "label": "Best for", "value": "Fresh produce, breakfast, coffee" },
-      { "label": "Weather", "value": "Rain or shine (mostly outdoors)" }
-    ] },
-    { "type": "h2", "text": "When and where to find it" },
-    { "type": "p", "text": "You'll find the market in the schoolyard on the corner of Campbell Parade and Warners Avenue, at the northern end of Bondi Beach, across the road from the promenade. It slots perfectly into a beach morning: market first while it's cool, then the sand once you've stashed your shopping. It's open-air and runs rain or shine, so I'd never let a grey forecast put me off. That said, times can shift around public holidays, so if you're travelling a long way, check the official Bondi Farmers Market page before you set out." },
-    { "type": "callout", "tone": "note", "title": "Saturday farmers' market vs. Sunday market", "text": "Two different markets share the same schoolyard. Saturday is the Farmers Market — fresh food, produce and breakfast, 9am–1pm. Sunday is the general Bondi Markets, a bigger fashion, vintage and homewares affair with different hours. If you've come for fruit and veg, come on Saturday." },
-    { "type": "h2", "text": "What you'll find at the stalls" },
-    { "type": "p", "text": "The whole idea here is fresh and local — where possible, the people who grow or make the food are the ones selling it. On a typical Saturday you can expect a spread like this:" },
-    { "type": "list", "items": [
-      "Seasonal fruit and vegetables, often picked a day or two earlier",
-      "Organically grown meat and poultry",
-      "Just-picked flowers to carry home",
-      "Artisan breads and pastries, still warm if you're early",
-      "Farmstead cheeses, homemade jams, olive oils, herbs and spices",
-      "Fresh seafood",
-      "Barista coffee, juices and hot street-food breakfasts to eat on the spot"
-    ] },
-    { "type": "p", "text": "It's as much a place to eat as to shop. I'll grab a coffee and something hot, do a slow loop to see what looks good that week, then double back for the produce. Buying by the season is half the fun — you learn what's actually good right now instead of what a supermarket flies in year-round." },
-    { "type": "localTip", "text": "Come between 9 and 10am if you can. The bread and pastry stalls are fullest, the coffee queues short, and you'll beat both the late-morning crowd and the scramble for a park. Bring a tote and some cash — many stalls take card, but not all." },
-    { "type": "h2", "text": "Making a morning of it" },
-    { "type": "p", "text": "The market pairs beautifully with everything else at this end of Bondi. Here's roughly how I'd shape an easy Saturday around it." },
-    { "type": "itinerary", "stops": [
-      { "time": "9:00am", "title": "Coffee and a loop", "detail": "Arrive early, grab a coffee and walk the whole market once before you buy anything." },
-      { "time": "9:45am", "title": "Breakfast + produce", "detail": "Eat something hot on the spot, then circle back for fruit, veg, bread and flowers." },
-      { "time": "10:30am", "title": "Across to the beach", "detail": "Stash your bags, cross Campbell Parade and walk the promenade or dip your toes in." },
-      { "time": "11:30am", "title": "Wander north", "detail": "Head up toward the Bondi to Bronte coastal path, or into the cafés along the northern end." }
-    ] },
-    { "type": "callout", "tone": "warning", "title": "Parking is the tricky bit", "text": "Street parking around Campbell Parade fills fast on a fine Saturday and is metered or time-limited in most spots. If you can, walk, cycle or catch the bus in — it's far less stressful than circling for a space. Always read the signs where you do park." },
-    { "type": "h2", "text": "Thinking of running a stall?" },
-    { "type": "p", "text": "The market actively welcomes local growers and makers, with priority given to the people who actually produce what they sell — that's what keeps it a farmers' market rather than a reseller row. Stall fees and application details do change, so rather than quote a number I'd send you straight to the stallholder information on the official Bondi Markets website for the current process and pricing." },
-    { "type": "faq", "items": [
-      { "q": "What days and times is the Bondi Farmers Market open?", "a": "Every Saturday from 9am to 1pm. It's a separate market from the Sunday Bondi Markets, which run on Sundays with different hours." },
-      { "q": "Where exactly is it?", "a": "In the grounds of Bondi Beach Public School, on the corner of Campbell Parade and Warners Avenue at the northern end of Bondi Beach — directly across the road from the promenade." },
-      { "q": "Is it on if it rains?", "a": "Yes. It's an open-air market that runs rain or shine. Bring an umbrella if the forecast looks iffy, but don't assume it's cancelled — check the official page if you're unsure." },
-      { "q": "Do I need cash?", "a": "Many stalls take card, but a few are cash-only, so it's worth carrying a small amount of cash just in case." },
-      { "q": "What's the difference between the Saturday and Sunday markets?", "a": "Saturday is the Farmers Market — fresh produce, food and breakfast. Sunday is the general Bondi Markets, focused more on fashion, vintage and homewares. Come Saturday for fruit, veg and a feed." }
-    ] },
-    { "type": "p", "text": "That's the market in a nutshell: fresh, friendly, and about as local as Bondi gets. Turn up early, take your time, eat well, and cross the road to the beach when your bags are full. It's a simple ritual, but it's one of the nicest things you can do here on a Saturday morning." }
+    {
+      "type": "p",
+      "text": "The Bondi Farmers Market runs every Saturday morning, 9am to 1pm, in the grounds of Bondi Beach Public School on Campbell Parade — just across the road from the sand. It's my favourite way to start a Bondi weekend: a coffee in one hand, a bag slowly filling with fruit, warm bread and flowers, and the ocean glinting nearby. If you only do one local thing on a Saturday here, make it this."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "When",
+          "value": "Every Saturday, 9am–1pm"
+        },
+        {
+          "label": "Where",
+          "value": "Bondi Beach Public School, Campbell Parade & Warners Ave"
+        },
+        {
+          "label": "Cost",
+          "value": "Free to enter"
+        },
+        {
+          "label": "Best for",
+          "value": "Fresh produce, breakfast, coffee"
+        },
+        {
+          "label": "Weather",
+          "value": "Rain or shine (mostly outdoors)"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "When and where to find it"
+    },
+    {
+      "type": "p",
+      "text": "You'll find the market in the schoolyard on the corner of Campbell Parade and Warners Avenue, at the northern end of Bondi Beach, across the road from the promenade. It slots perfectly into a beach morning: market first while it's cool, then the sand once you've stashed your shopping. It's open-air and runs rain or shine, so I'd never let a grey forecast put me off. That said, times can shift around public holidays, so if you're travelling a long way, check the official Bondi Farmers Market page before you set out."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Saturday farmers' market vs. Sunday market",
+      "text": "Two different markets share the same schoolyard. Saturday is the Farmers Market — fresh food, produce and breakfast, 9am–1pm. Sunday is the general Bondi Markets, a bigger fashion, vintage and homewares affair with different hours. If you've come for fruit and veg, come on Saturday."
+    },
+    {
+      "type": "h2",
+      "text": "What you'll find at the stalls"
+    },
+    {
+      "type": "p",
+      "text": "The whole idea here is fresh and local — where possible, the people who grow or make the food are the ones selling it. On a typical Saturday you can expect a spread like this:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Seasonal fruit and vegetables, often picked a day or two earlier",
+        "Organically grown meat and poultry",
+        "Just-picked flowers to carry home",
+        "Artisan breads and pastries, still warm if you're early",
+        "Farmstead cheeses, homemade jams, olive oils, herbs and spices",
+        "Fresh seafood",
+        "Barista coffee, juices and hot street-food breakfasts to eat on the spot"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "It's as much a place to eat as to shop. I'll grab a coffee and something hot, do a slow loop to see what looks good that week, then double back for the produce. Buying by the season is half the fun — you learn what's actually good right now instead of what a supermarket flies in year-round. And if the warm loaves and pastries give you a taste for it, Bondi has a serious [bakery and pastry scene](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) beyond the market too."
+    },
+    {
+      "type": "localTip",
+      "text": "Come between 9 and 10am if you can. The bread and pastry stalls are fullest, the coffee queues short, and you'll beat both the late-morning crowd and the scramble for a park. Bring a tote and some cash — many stalls take card, but not all."
+    },
+    {
+      "type": "h2",
+      "text": "Where to eat and drink around the market"
+    },
+    {
+      "type": "p",
+      "text": "The market itself makes a lovely grazing breakfast, but if you'd rather settle in with a proper plate and a second coffee, the northern end of Bondi is packed with good spots a few minutes' walk away. A handful I happily send people to:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[Porch & Parlour](/bondi-eat-and-drink/venues/porch-and-parlour) — a long-running North Bondi brunch favourite, just back from the sand near Warners Ave.",
+        "[North Bondi Fish](/bondi-eat-and-drink/venues/north-bondi-fish) — right on the promenade at the north end when you want something a little more special.",
+        "[Speedos Cafe](/bondi-eat-and-drink/venues/speedos-cafe) — a relaxed, health-leaning local café up toward the Ben Buckler point.",
+        "[Sundays Bondi](/bondi-eat-and-drink/venues/sundays-bondi) — bright and easygoing for an unhurried all-day breakfast.",
+        "[bills Bondi Beach](/bondi-eat-and-drink/venues/bills-bondi-beach) — the Hall Street all-day dining institution, a short stroll back from the beach."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For the full picture, we keep a running guide to Bondi's [best breakfast and brunch](/bondi-eat-and-drink/breakfast-brunch-bondi-beach) and its [best cafés and coffee](/bondi-eat-and-drink/best-cafes-bondi-beach) — handy for planning the sit-down part of your morning before or after a market loop."
+    },
+    {
+      "type": "h2",
+      "text": "Making a morning of it"
+    },
+    {
+      "type": "p",
+      "text": "The market pairs beautifully with everything else at this end of Bondi. Here's roughly how I'd shape an easy Saturday around it."
+    },
+    {
+      "type": "itinerary",
+      "stops": [
+        {
+          "time": "9:00am",
+          "title": "Coffee and a loop",
+          "detail": "Arrive early, grab a coffee and walk the whole market once before you buy anything."
+        },
+        {
+          "time": "9:45am",
+          "title": "Breakfast + produce",
+          "detail": "Eat something hot on the spot, then circle back for fruit, veg, bread and flowers."
+        },
+        {
+          "time": "10:30am",
+          "title": "Across to the beach",
+          "detail": "Stash your bags, cross Campbell Parade and walk the promenade or dip your toes in."
+        },
+        {
+          "time": "11:30am",
+          "title": "Wander north",
+          "detail": "Head up toward the Bondi to Bronte coastal path, or into the cafés along the northern end for a second coffee."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Parking is the tricky bit",
+      "text": "Street parking around Campbell Parade fills fast on a fine Saturday and is metered or time-limited in most spots. If you can, walk, cycle or catch the bus in — it's far less stressful than circling for a space. Always read the signs where you do park."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Find your next Bondi meal",
+      "text": "Loved eating your way around the market? Our [Bondi eat & drink directory](/bondi-eat-and-drink) lists 160+ local venues — filter by cuisine, area, price or who you're with to line up breakfast, coffee, seafood or dinner near the beach."
+    },
+    {
+      "type": "h2",
+      "text": "Thinking of running a stall?"
+    },
+    {
+      "type": "p",
+      "text": "The market actively welcomes local growers and makers, with priority given to the people who actually produce what they sell — that's what keeps it a farmers' market rather than a reseller row. Stall fees and application details do change, so rather than quote a number I'd send you straight to the stallholder information on the official Bondi Markets website for the current process and pricing."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What days and times is the Bondi Farmers Market open?",
+          "a": "Every Saturday from 9am to 1pm. It's a separate market from the Sunday Bondi Markets, which run on Sundays with different hours."
+        },
+        {
+          "q": "Where exactly is it?",
+          "a": "In the grounds of Bondi Beach Public School, on the corner of Campbell Parade and Warners Avenue at the northern end of Bondi Beach — directly across the road from the promenade."
+        },
+        {
+          "q": "Is it on if it rains?",
+          "a": "Yes. It's an open-air market that runs rain or shine. Bring an umbrella if the forecast looks iffy, but don't assume it's cancelled — check the official page if you're unsure."
+        },
+        {
+          "q": "Do I need cash?",
+          "a": "Many stalls take card, but a few are cash-only, so it's worth carrying a small amount of cash just in case."
+        },
+        {
+          "q": "What's the difference between the Saturday and Sunday markets?",
+          "a": "Saturday is the Farmers Market — fresh produce, food and breakfast. Sunday is the general Bondi Markets, focused more on fashion, vintage and homewares. Come Saturday for fruit, veg and a feed."
+        },
+        {
+          "q": "Where's good for a proper sit-down breakfast near the market?",
+          "a": "The northern end of Bondi is full of options a few minutes away — Porch & Parlour, North Bondi Fish, Speedos Cafe and bills Bondi Beach are all reliable. For more, browse our [best breakfast and brunch](/bondi-eat-and-drink/breakfast-brunch-bondi-beach) guide."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's the market in a nutshell: fresh, friendly, and about as local as Bondi gets. Turn up early, take your time, eat well, and cross the road to the beach when your bags are full. It's a simple ritual, but it's one of the nicest things you can do here on a Saturday morning."
+    }
   ]
 }

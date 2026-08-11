@@ -1,51 +1,162 @@
 {
   "path": "/bondi-blog/2025/5/6/kids-eat-free-in-sydneys-eastern-suburbs-12-family-friendly-dining-deals",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-11",
   "sources": [
-    { "label": "The Golden Sheaf — Kids Eat Free", "url": "https://thegoldensheaf.com.au/events/kids-eat-free/" },
-    { "label": "Eastern Suburbs Mums — Kids Eat Free in Sydney's Eastern Suburbs", "url": "https://easternsuburbsmums.com.au/kids-eat-free-in-sydneys-eastern-suburbs/" },
-    { "label": "ellaslist — Sydney Restaurants Where Kids Eat Free", "url": "https://www.ellaslist.com.au/articles/where-kids-eat-free-in-sydney" }
+    {
+      "label": "The Golden Sheaf — Kids Eat Free",
+      "url": "https://thegoldensheaf.com.au/events/kids-eat-free/"
+    },
+    {
+      "label": "Eastern Suburbs Mums — Kids Eat Free in Sydney's Eastern Suburbs",
+      "url": "https://easternsuburbsmums.com.au/kids-eat-free-in-sydneys-eastern-suburbs/"
+    },
+    {
+      "label": "ellaslist — Sydney Restaurants Where Kids Eat Free",
+      "url": "https://www.ellaslist.com.au/articles/where-kids-eat-free-in-sydney"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you're feeding a family near Bondi and the bill keeps making you wince, here's the good news: yes, kids really can eat free across Sydney's Eastern Suburbs, most often on a quiet weeknight when one free children's meal comes with each adult main. From Double Bay to Coogee there's a solid dozen pubs and clubs running some version of the deal — the catch is the exact night, time and fine print change often, so the most useful thing I can tell you is to confirm the current terms with the venue before you pile everyone in the car." },
-    { "type": "p", "text": "I've watched these offers come and go for years as a local parent, and the pattern is remarkably consistent even when the details aren't. Here's how the deals work, the venues worth checking, and the traps that catch families out." },
-    { "type": "h2", "text": "How kids-eat-free deals usually work here" },
-    { "type": "p", "text": "Almost every Eastern Suburbs offer follows the same shape, which makes them easy to plan around — the specifics vary by venue, but the structure rarely does." },
-    { "type": "list", "items": [
-      "One free kids' meal per adult main purchased — so two adults ordering means two free kids' meals",
-      "Children roughly 12 and under, ordering from a dedicated kids' menu (not the full à la carte list)",
-      "Dine-in only, and usually a set weeknight or a Sunday rather than every day",
-      "Some venues are members-only or need a quick sign-up at the door",
-      "School holidays are frequently excluded — the deals fill quiet trading nights"
-    ] },
-    { "type": "callout", "tone": "warning", "title": "Always ring ahead — these change constantly", "text": "Kids-eat-free nights are among the most volatile things a pub markets. Nights get moved, offers get paused over holidays, and some quietly disappear. Treat any specific day or time you read online (including here) as a prompt to check the venue's own website, not a guarantee." },
-    { "type": "h2", "text": "Eastern Suburbs venues worth checking" },
-    { "type": "p", "text": "These are real, well-established family spots across the Eastern Suburbs. I'm deliberately not printing a night against each one, because that's the detail that drifts — click through to each venue to see what's on right now." },
-    { "type": "h3", "text": "Closest to Bondi Beach" },
-    { "type": "list", "items": [
-      "Easts (Bondi Junction) — big family bistro and the easiest bet a short bus or walk from the beach",
-      "Bondi Trattoria, Campbell Parade — a beachfront Italian institution that's long looked after families",
-      "The Clovelly Hotel — a relaxed pub an easy hop down the coast, popular with local parents"
-    ] },
-    { "type": "h3", "text": "A little further afield" },
-    { "type": "list", "items": [
-      "The Golden Sheaf, Double Bay — the standout, with a genuine Sunday kids-eat-free offer",
-      "Watsons Bay Hotel — harbour views and a family-friendly setup that runs a kids' offer with an adult main",
-      "Coogee Pavilion — a Merivale mega-venue with a dedicated kids' playroom upstairs",
-      "Matraville Hotel and other local leagues and bowling clubs, which regularly run family nights"
-    ] },
-    { "type": "localTip", "text": "The one deal I'd bank on is The Golden Sheaf in Double Bay: kids eat free all day every Sunday with the purchase of any adult main, and during school holidays they stack it with a free kids' activity program (think face-painting and craft). Get there early on a sunny Sunday — the beer garden fills fast. Confirm the current details on the Sheaf's own Kids Eat Free page before you go." },
-    { "type": "h2", "text": "Getting the most out of the deal" },
-    { "type": "p", "text": "A few habits save my family real money and stress. Book a table where you can — free-kids nights get busy. Ask at ordering whether the offer needs membership or a minimum adult spend, as that's the usual small print." },
-    { "type": "quote", "text": "My honest take: pick one reliable local, get to know its family night, and you'll eat out with the kids far more often than you'd think — without the end-of-month bill shock." },
-    { "type": "faq", "items": [
-      { "q": "Where do kids actually eat free near Bondi Beach?", "a": "The closest options are the big family bistros just inland and along the coast — Easts at Bondi Junction, Bondi Trattoria on Campbell Parade and The Clovelly Hotel. For a confirmed offer, The Golden Sheaf in Double Bay runs kids-eat-free every Sunday. Check each venue's current deal before you go." },
-      { "q": "What day is the Golden Sheaf kids-eat-free deal?", "a": "Every Sunday, all day, with any adult main meal, and during school holidays it comes with a free kids' activity program. It's the most dependable Eastern Suburbs offer I know of — confirm the current terms on the Sheaf's website." },
-      { "q": "Is there usually an age limit?", "a": "Yes — most kids-eat-free deals apply to children around 12 and under, ordering from a set kids' menu rather than the main menu. The exact age cut-off varies by venue, so ask when you book." },
-      { "q": "Do kids-eat-free deals run during school holidays?", "a": "Often not. Because these offers exist to fill quiet trading nights, many venues pause or exclude them over the holidays. If you're planning a holiday outing, ring ahead to check that week specifically." },
-      { "q": "Do I need to be a member?", "a": "Sometimes. A handful of clubs limit the deal to members, though sign-up is usually free or a token few dollars at the door. Others have no membership requirement — it's worth asking when you order so there are no surprises on the bill." }
-    ] },
-    { "type": "p", "text": "Bottom line: feeding kids out in the Eastern Suburbs doesn't have to be expensive. There's a genuine spread of free-kids nights from Double Bay to Coogee — just treat the specific night as something to confirm, not assume." }
+    {
+      "type": "p",
+      "text": "If you're feeding a family near Bondi and the bill keeps making you wince, here's the good news: yes, kids really can eat free across Sydney's Eastern Suburbs, most often on a quiet weeknight when one free children's meal comes with each adult main. From Double Bay to Coogee there's a solid dozen pubs and clubs running some version of the deal — the catch is the exact night, time and fine print change often, so the most useful thing I can tell you is to confirm the current terms with the venue before you pile everyone in the car."
+    },
+    {
+      "type": "p",
+      "text": "I've watched these offers come and go for years as a local parent, and the pattern is remarkably consistent even when the details aren't. Here's how the deals work, the venues worth checking, and the traps that catch families out."
+    },
+    {
+      "type": "h2",
+      "text": "How kids-eat-free deals usually work here"
+    },
+    {
+      "type": "p",
+      "text": "Almost every Eastern Suburbs offer follows the same shape, which makes them easy to plan around — the specifics vary by venue, but the structure rarely does."
+    },
+    {
+      "type": "list",
+      "items": [
+        "One free kids' meal per adult main purchased — so two adults ordering means two free kids' meals",
+        "Children roughly 12 and under, ordering from a dedicated kids' menu (not the full à la carte list)",
+        "Dine-in only, and usually a set weeknight or a Sunday rather than every day",
+        "Some venues are members-only or need a quick sign-up at the door",
+        "School holidays are frequently excluded — the deals fill quiet trading nights"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Always ring ahead — these change constantly",
+      "text": "Kids-eat-free nights are among the most volatile things a pub markets. Nights get moved, offers get paused over holidays, and some quietly disappear. Treat any specific day or time you read online (including here) as a prompt to check the venue's own website, not a guarantee."
+    },
+    {
+      "type": "h2",
+      "text": "Eastern Suburbs venues worth checking"
+    },
+    {
+      "type": "p",
+      "text": "These are real, well-established family spots across the Eastern Suburbs. I'm deliberately not printing a night against each one, because that's the detail that drifts — click through to each venue to see what's on right now."
+    },
+    {
+      "type": "h3",
+      "text": "Closest to Bondi Beach"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Easts (Bondi Junction) — big family bistro and the easiest bet a short bus or walk from the beach",
+        "[Bondi Trattoria](/bondi-eat-and-drink/venues/bondi-trattoria), Campbell Parade — a beachfront Italian institution that's long looked after families",
+        "The Clovelly Hotel — a relaxed pub an easy hop down the coast, popular with local parents"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "A little further afield"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The Golden Sheaf, Double Bay — the standout, with a genuine Sunday kids-eat-free offer",
+        "Watsons Bay Hotel — harbour views and a family-friendly setup that runs a kids' offer with an adult main",
+        "Coogee Pavilion — a Merivale mega-venue with a dedicated kids' playroom upstairs",
+        "Matraville Hotel and other local leagues and bowling clubs, which regularly run family nights"
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "The one deal I'd bank on is The Golden Sheaf in Double Bay: kids eat free all day every Sunday with the purchase of any adult main, and during school holidays they stack it with a free kids' activity program (think face-painting and craft). Get there early on a sunny Sunday — the beer garden fills fast. Confirm the current details on the Sheaf's own Kids Eat Free page before you go."
+    },
+    {
+      "type": "h2",
+      "text": "If you're based right in Bondi Beach itself"
+    },
+    {
+      "type": "p",
+      "text": "Bondi proper is thinner on formal kids-eat-free nights than the big clubs further round the harbour — but if you want a cheap, relaxed family dinner without leaving the beach, these are the spots I steer visiting families to. Between them you get a kids' menu, an easy room where a bit of noise won't raise eyebrows, and club-style prices that don't punish a family of four."
+    },
+    {
+      "type": "list",
+      "items": [
+        "[North Bondi RSL](/bondi-eat-and-drink/venues/north-bondi-rsl) — a proper local club with an affordable bistro, a kids' menu and a first-floor deck looking straight up the beach; sign in as a visitor at the door",
+        "[The Bergs Bistro](/bondi-eat-and-drink/venues/the-bergs-bistro-bondi-icebergs-club) at the Bondi Icebergs Club — honest, club-priced bistro meals under one of the best views on the beach, and far more relaxed than the fine-dining room downstairs",
+        "[Bondi Golf & Diggers Club](/bondi-eat-and-drink/venues/bondi-golf-and-diggers-club) — the cliff-top diggers club up at North Bondi, all ocean and value, with families genuinely welcome",
+        "[Bondi Bowlo](/bondi-eat-and-drink/venues/bondi-bowlo-bondi-bowling-club) (the Bondi Bowling Club) — laid-back, kid-tolerant and easy on the wallet, with room for little ones to move"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For a fast, no-fuss feed rather than a sit-down bistro, the beach is full of cheap family standbys too — [Fishbowl](/bondi-eat-and-drink/venues/fishbowl) for build-your-own poke, [Guzman y Gomez](/bondi-eat-and-drink/venues/guzman-y-gomez-bondi-beach) for burritos the kids can customise, and [Betty's Burgers](/bondi-eat-and-drink/venues/bettys-burgers) for a burger-and-shake that keeps everyone happy. I've rounded these up in our guides to [family-friendly places to eat in Bondi](/bondi-eat-and-drink/family-friendly-bondi-beach) and the [best cheap eats on the beach](/bondi-eat-and-drink/cheap-eats-bondi-beach)."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Find your family's spot in the Bondi dining database",
+      "text": "We now track every place to eat and drink in Bondi in one searchable directory. Browse all 160+ venues in the [Bondi eat & drink guide](/bondi-eat-and-drink) and filter by cuisine, area, price and who you're with — including a ready-made shortlist of [family-friendly places to eat](/bondi-eat-and-drink/family-friendly-bondi-beach) when you just need somewhere that works with kids in tow."
+    },
+    {
+      "type": "h2",
+      "text": "Getting the most out of the deal"
+    },
+    {
+      "type": "p",
+      "text": "A few habits save my family real money and stress. Book a table where you can — free-kids nights get busy. Ask at ordering whether the offer needs membership or a minimum adult spend, as that's the usual small print. And on nights when there's no deal running, a good-value [pub in Bondi](/bondi-eat-and-drink/pubs-bondi-beach) with a kids' menu will still come in well under a full restaurant bill."
+    },
+    {
+      "type": "quote",
+      "text": "My honest take: pick one reliable local, get to know its family night, and you'll eat out with the kids far more often than you'd think — without the end-of-month bill shock."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Where do kids actually eat free near Bondi Beach?",
+          "a": "The closest options are the big family bistros just inland and along the coast — Easts at Bondi Junction, Bondi Trattoria on Campbell Parade and The Clovelly Hotel. For a confirmed offer, The Golden Sheaf in Double Bay runs kids-eat-free every Sunday. Check each venue's current deal before you go."
+        },
+        {
+          "q": "Where can I feed a family cheaply in Bondi itself?",
+          "a": "Bondi proper doesn't lean on formal kids-eat-free nights, but the local clubs are great value — North Bondi RSL, The Bergs Bistro at the Icebergs Club, Bondi Golf & Diggers and the Bondi Bowlo all do affordable bistro meals with kids' menus. For casual, quick options and our full shortlist, see our guide to family-friendly places to eat in Bondi."
+        },
+        {
+          "q": "What day is the Golden Sheaf kids-eat-free deal?",
+          "a": "Every Sunday, all day, with any adult main meal, and during school holidays it comes with a free kids' activity program. It's the most dependable Eastern Suburbs offer I know of — confirm the current terms on the Sheaf's website."
+        },
+        {
+          "q": "Is there usually an age limit?",
+          "a": "Yes — most kids-eat-free deals apply to children around 12 and under, ordering from a set kids' menu rather than the main menu. The exact age cut-off varies by venue, so ask when you book."
+        },
+        {
+          "q": "Do kids-eat-free deals run during school holidays?",
+          "a": "Often not. Because these offers exist to fill quiet trading nights, many venues pause or exclude them over the holidays. If you're planning a holiday outing, ring ahead to check that week specifically."
+        },
+        {
+          "q": "Do I need to be a member?",
+          "a": "Sometimes. A handful of clubs limit the deal to members, though sign-up is usually free or a token few dollars at the door. Others have no membership requirement — it's worth asking when you order so there are no surprises on the bill."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bottom line: feeding kids out in the Eastern Suburbs doesn't have to be expensive. There's a genuine spread of free-kids nights from Double Bay to Coogee, plus a handful of good-value family clubs right on Bondi Beach — just treat the specific night as something to confirm, not assume."
+    }
   ]
 }

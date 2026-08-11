@@ -1,41 +1,146 @@
 {
   "path": "/bondi-blog/2025/7/19/insider-guide-to-sundays-bondi-opening-hours-top-flavours-queue-hacks",
   "voice": "first-person",
-  "lastReviewed": "2026-08-10",
+  "lastReviewed": "2026-08-11",
   "sources": [
-    { "label": "Broadsheet — Sundays, a Scroll Micro-Bakery in Bondi", "url": "https://www.broadsheet.com.au/sydney/bondi/cafes/sundays" },
-    { "label": "Broadsheet — Everyone's Queuing For the Cinnamon Scrolls at Sundays", "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/sundays-bondi-new-cinnamon-scroll-micro-bakery" },
-    { "label": "sundays bondi (@sundaysbondi) on Instagram", "url": "https://www.instagram.com/sundaysbondi/" },
-    { "label": "Transport for NSW trip planner", "url": "https://transportnsw.info/" },
-    { "label": "Sydney bus route 333", "url": "https://en.wikipedia.org/wiki/Sydney_bus_route_333" }
+    {
+      "label": "Broadsheet — Sundays, a Scroll Micro-Bakery in Bondi",
+      "url": "https://www.broadsheet.com.au/sydney/bondi/cafes/sundays"
+    },
+    {
+      "label": "Broadsheet — Everyone's Queuing For the Cinnamon Scrolls at Sundays",
+      "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/sundays-bondi-new-cinnamon-scroll-micro-bakery"
+    },
+    {
+      "label": "sundays bondi (@sundaysbondi) on Instagram",
+      "url": "https://www.instagram.com/sundaysbondi/"
+    },
+    {
+      "label": "Transport for NSW trip planner",
+      "url": "https://transportnsw.info/"
+    },
+    {
+      "label": "Sydney bus route 333",
+      "url": "https://en.wikipedia.org/wiki/Sydney_bus_route_333"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "Sundays is the tiny micro-bakery at 211 Bondi Road that founder Laetitia Loefti turned into a genuine phenomenon, largely by filming the whole thing on Instagram. On a good day the case can clear within about an hour of opening. So getting a scroll without losing your morning to a line really comes down to three moves: check they're actually open, get there before the doors do, and know your order before you reach the window." },
-    { "type": "quickFacts", "items": [
-      { "label": "Where", "value": "211 Bondi Road, Bondi" },
-      { "label": "Founder", "value": "Laetitia Loefti" },
-      { "label": "Known for", "value": "Light, airy cinnamon & matcha scrolls" },
-      { "label": "Golden rule", "value": "Arrive before opening — they sell out" },
-      { "label": "Days & hours", "value": "Confirm on @sundaysbondi before you go" }
-    ] },
-    { "type": "callout", "tone": "warning", "title": "Check the day, then beat the doors", "text": "Sundays trades a limited number of days a week and the schedule has shifted since it opened, so old listings disagree — open @sundaysbondi the night before to confirm they're baking. Then treat the posted close as a maximum, not a promise: opening weekend sold out inside the first hour, so being there before opening is the difference between the first batch and no batch." },
-    { "type": "h2", "text": "What to order" },
-    { "type": "p", "text": "The scrolls aren't the dense, heavy bakery kind — they're light and almost pancake-like, because each batch of dough is cold-fermented overnight and then left to rise twice more before baking. That texture is the whole point, so order at least one classic to see what the fuss is about." },
-    { "type": "list", "items": [
-      "Classic cinnamon with cream cheese — the signature, and the one that goes first. Order it first.",
-      "Biscoff — a core flavour, richer and more caramelised if you like things sweeter.",
-      "Kinder chocolate — the other regular, and a hit with kids.",
-      "Rotating specials like pistachio — these vanish fastest, so grab one if it's on.",
-      "Matcha twists and the coconut cloud coffee (whipped espresso over coconut water) — Sundays leans hard into both, and either makes the classic pairing with your scroll."
-    ] },
-    { "type": "localTip", "text": "Seating is tiny to non-existent, so I always get mine takeaway and walk it down to the promenade. A warm cinnamon scroll on the grass above the sand, coffee in hand, is one of my favourite cheap-thrill Bondi mornings." },
-    { "type": "h2", "text": "Getting there" },
-    { "type": "p", "text": "211 Bondi Road sits roughly halfway between Bondi Junction and the beach. The 333 and 380 buses both run the length of Bondi Road between Bondi Junction interchange (which connects to the train line) and the sand, so you can hop off almost at the door — plug '211 Bondi Road' into the Transport for NSW trip planner for live times. Weekend parking here is metered and fiercely contested, so skip the car if you can." },
-    { "type": "faq", "items": [
-      { "q": "What days is Sundays Bondi open?", "a": "It's a limited-days micro-bakery and the schedule has changed since opening, with different listings disagreeing — so confirm on their Instagram (@sundaysbondi) the night before rather than trusting an old post." },
-      { "q": "What time should I arrive to beat the queue?", "a": "Before opening. The first batch can go fast — opening weekend sold out within about an hour — so being in the line before the doors open gives you the best shot at the full range of flavours." },
-      { "q": "What should I order?", "a": "Start with the classic cinnamon scroll with cream cheese. The core line-up also includes Biscoff and Kinder chocolate, plus rotating specials like pistachio, matcha twists and the coconut cloud coffee." },
-      { "q": "How do I get to 211 Bondi Road?", "a": "It's about halfway between Bondi Junction and Bondi Beach on Bondi Road, served by the 333 and 380 buses from Bondi Junction interchange and walkable up from the promenade." }
-    ] }
+    {
+      "type": "p",
+      "text": "[Sundays](/bondi-eat-and-drink/venues/sundays-bondi) is the tiny micro-bakery at 211 Bondi Road that founder Laetitia Loefti turned into a genuine phenomenon, largely by filming the whole thing on Instagram. On a good day the case can clear within about an hour of opening. So getting a scroll without losing your morning to a line really comes down to three moves: check they're actually open, get there before the doors do, and know your order before you reach the window."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Where",
+          "value": "211 Bondi Road, Bondi"
+        },
+        {
+          "label": "Founder",
+          "value": "Laetitia Loefti"
+        },
+        {
+          "label": "Known for",
+          "value": "Light, airy cinnamon & matcha scrolls"
+        },
+        {
+          "label": "Golden rule",
+          "value": "Arrive before opening — they sell out"
+        },
+        {
+          "label": "Days & hours",
+          "value": "Confirm on @sundaysbondi before you go"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Check the day, then beat the doors",
+      "text": "Sundays trades a limited number of days a week and the schedule has shifted since it opened, so old listings disagree — open @sundaysbondi the night before to confirm they're baking. Then treat the posted close as a maximum, not a promise: opening weekend sold out inside the first hour, so being there before opening is the difference between the first batch and no batch."
+    },
+    {
+      "type": "h2",
+      "text": "What to order"
+    },
+    {
+      "type": "p",
+      "text": "The scrolls aren't the dense, heavy bakery kind — they're light and almost pancake-like, because each batch of dough is cold-fermented overnight and then left to rise twice more before baking. That texture is the whole point, so order at least one classic to see what the fuss is about."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Classic cinnamon with cream cheese — the signature, and the one that goes first. Order it first.",
+        "Biscoff — a core flavour, richer and more caramelised if you like things sweeter.",
+        "Kinder chocolate — the other regular, and a hit with kids.",
+        "Rotating specials like pistachio — these vanish fastest, so grab one if it's on.",
+        "Matcha twists and the coconut cloud coffee (whipped espresso over coconut water) — Sundays leans hard into both, and either makes the classic pairing with your scroll."
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "Seating is tiny to non-existent, so I always get mine takeaway and walk it down to the promenade. A warm cinnamon scroll on the grass above the sand, coffee in hand, is one of my favourite cheap-thrill Bondi mornings."
+    },
+    {
+      "type": "h2",
+      "text": "If Sundays has sold out"
+    },
+    {
+      "type": "p",
+      "text": "Because Sundays only bakes a few days a week and the case is often bare well before lunch, it pays to have a plan B in your back pocket. These are the spots I peel off to when I've missed the batch — all within an easy walk or short bus of Bondi Road:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[Bondi Boulangerie](/bondi-eat-and-drink/venues/bondi-boulangerie) — my go-to when I'm chasing a proper croissant instead of a scroll.",
+        "[François Artisan Baker](/bondi-eat-and-drink/venues/fran-ois-artisan-baker) — sourdough and pastries done the slow, old-fashioned way.",
+        "[Shuk Bakery](/bondi-eat-and-drink/venues/shuk-bakery) — another neighbourhood bakery worth the detour for its bakes.",
+        "[Sonoma Bakery Cafe Bondi](/bondi-eat-and-drink/venues/sonoma-bakery-cafe-bondi) — reliable if you just want to sit down with a pastry and a coffee."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For the full run of morning-treat options there's our [best bakeries & sweets in Bondi](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) shortlist, and if it's really just the coffee you're after, the [best cafés & coffee in Bondi](/bondi-eat-and-drink/best-cafes-bondi-beach) round-up has the neighbourhood's serious roasters."
+    },
+    {
+      "type": "h2",
+      "text": "Getting there"
+    },
+    {
+      "type": "p",
+      "text": "211 Bondi Road sits roughly halfway between Bondi Junction and the beach. The 333 and 380 buses both run the length of Bondi Road between Bondi Junction interchange (which connects to the train line) and the sand, so you can hop off almost at the door — plug '211 Bondi Road' into the Transport for NSW trip planner for live times. Weekend parking here is metered and fiercely contested, so skip the car if you can."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Turning a scroll run into a bigger Bondi eat-and-drink day?",
+      "text": "Our [Bondi eat & drink guide](/bondi-eat-and-drink) maps every venue on the beach — 160+ of them — filterable by cuisine, area, price and who you're with, so you can line up breakfast, coffee and lunch in one go. Start with the [best bakeries & sweets](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) if you're still in a morning-treat mood."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What days is Sundays Bondi open?",
+          "a": "It's a limited-days micro-bakery and the schedule has changed since opening, with different listings disagreeing — so confirm on their Instagram (@sundaysbondi) the night before rather than trusting an old post."
+        },
+        {
+          "q": "What time should I arrive to beat the queue?",
+          "a": "Before opening. The first batch can go fast — opening weekend sold out within about an hour — so being in the line before the doors open gives you the best shot at the full range of flavours."
+        },
+        {
+          "q": "What should I order?",
+          "a": "Start with the classic cinnamon scroll with cream cheese. The core line-up also includes Biscoff and Kinder chocolate, plus rotating specials like pistachio, matcha twists and the coconut cloud coffee."
+        },
+        {
+          "q": "How do I get to 211 Bondi Road?",
+          "a": "It's about halfway between Bondi Junction and Bondi Beach on Bondi Road, served by the 333 and 380 buses from Bondi Junction interchange and walkable up from the promenade."
+        },
+        {
+          "q": "What if Sundays has sold out or isn't baking that day?",
+          "a": "You've got good fallbacks nearby: [Bondi Boulangerie](/bondi-eat-and-drink/venues/bondi-boulangerie), [François Artisan Baker](/bondi-eat-and-drink/venues/fran-ois-artisan-baker), [Shuk Bakery](/bondi-eat-and-drink/venues/shuk-bakery) and [Sonoma Bakery Cafe Bondi](/bondi-eat-and-drink/venues/sonoma-bakery-cafe-bondi) are all a short walk away, and our [bakeries & sweets guide](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) has the full list."
+        }
+      ]
+    }
   ]
 }
