@@ -85,9 +85,11 @@ function ConditionsBar({ c }: { c: Conditions }) {
   const label = current?.weather?.label ?? c.today?.weather?.label ?? null;
   const updated = clockTime(c.weatherMeta?.providerUpdatedAt ?? null);
 
-  // Everything in one panel: the headline stats plus the detail that used to hide behind
-  // the scroll. Keep the long-form "Outlook" out of the grid (shown as a caption below).
-  const stats = [...compactRow(c), ...detailRows(c).filter((r) => r.label !== 'Outlook')];
+  // The panel's stat set: headline stats plus the useful surf/sun detail. A few fields are
+  // deliberately omitted here to keep it focused (they still show on the full /bondi-weather
+  // card). The long-form outlook is shown as a "Surf report" caption below, not in the grid.
+  const OMIT = new Set(['Max', 'Wind', 'Feels like', 'Wind gusts', 'Sunset', 'Swell period']);
+  const stats = [...compactRow(c), ...detailRows(c)].filter((r) => r.label !== 'Outlook' && !OMIT.has(r.label));
   const outlook = detailRows(c).find((r) => r.label === 'Outlook')?.value ?? null;
 
   return (
@@ -125,7 +127,7 @@ function ConditionsBar({ c }: { c: Conditions }) {
 
         {outlook && (
           <p className="mt-1.5 text-xs text-ink-500">
-            <span className="uppercase tracking-wide">Outlook</span> · {outlook}
+            <span className="uppercase tracking-wide">Surf report</span> · {outlook}
           </p>
         )}
       </div>
