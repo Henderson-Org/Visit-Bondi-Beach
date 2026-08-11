@@ -38,6 +38,31 @@ export function venuesWithPages(): Restaurant[] {
   return restaurants().filter(hasVenuePage);
 }
 
+/**
+ * Whether a venue takes bookings — derived purely from verified data (a real booking URL
+ * or a sourced "reservations" attribute), never guessed. 'unknown' when we hold no signal,
+ * so the page can defer to the venue rather than assert walk-ins. No volatile hours implied.
+ */
+export function bookingStatus(r: Restaurant): 'reservations' | 'walk-ins' | 'unknown' {
+  if (r.bookingUrl || r.attributes.includes('reservations')) return 'reservations';
+  if (r.attributes.includes('walk-ins')) return 'walk-ins';
+  return 'unknown';
+}
+
+/**
+ * A venue's founding year IF it's clearly stated in our sourced editorial (a durable fact,
+ * not a volatile one). Powers a "serving Bondi since YYYY" institution signal that lets the
+ * site treat long-runners as reliable. Returns null when not confidently stated.
+ */
+const ESTABLISHED_RE = /\b(?:since|established|opened(?: in)?|est\.?|founded(?: in)?|trading since|first opened(?: in)?)\s+(?:in\s+)?((?:19|20)\d{2})\b/i;
+export function establishedYear(r: Restaurant): number | null {
+  const t = `${r.summary} ${r.whyGo ?? ''} ${r.atmosphere ?? ''}`;
+  const m = t.match(ESTABLISHED_RE);
+  if (!m) return null;
+  const y = Number(m[1]);
+  return y >= 1900 && y <= 2026 ? y : null;
+}
+
 /** External link a card/venue page should surface (own site first, then booking/menu/instagram). */
 export function outboundLink(r: Restaurant): { href: string; label: string } | null {
   if (r.website) return { href: r.website, label: 'Visit website' };

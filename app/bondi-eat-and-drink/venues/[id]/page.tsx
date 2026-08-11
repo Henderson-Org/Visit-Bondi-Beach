@@ -12,6 +12,8 @@ import {
   outboundLink,
   restaurants,
   venueTypeInPrecinct,
+  bookingStatus,
+  establishedYear,
   MEAL_LABEL,
   SUITABILITY_LABEL,
   ATTRIBUTE_LABEL,
@@ -79,6 +81,10 @@ export default async function VenuePage({ params }: Props) {
   if (cuisines.length) facts.push({ label: 'Cuisine', value: cuisines.join(', ') });
   if (venue.meals.length) facts.push({ label: 'Good for', value: venue.meals.map((m) => MEAL_LABEL[m]).join(', ') });
   if (venue.street) facts.push({ label: 'Where', value: venue.street });
+  const booking = bookingStatus(venue);
+  if (booking !== 'unknown') facts.push({ label: 'Bookings', value: booking === 'reservations' ? 'Takes reservations' : 'Walk-ins' });
+  const since = establishedYear(venue);
+  if (since) facts.push({ label: 'Serving Bondi since', value: String(since) });
 
   return (
     <div>
@@ -214,8 +220,9 @@ export default async function VenuePage({ params }: Props) {
               ))}
             </ul>
             <p className="mt-3 text-xs text-ink-500">
-              Hours, prices and menus change — always check the venue&rsquo;s own site before you go. Spotted something out of date?{' '}
-              We keep this directory current; details reflect our last check.
+              {since && since <= 2016
+                ? `A long-running Bondi fixture (serving since ${since}), so it's a safe bet — but hours and menus still change, so check the venue's own site for today's trading.`
+                : "We confirm each venue is currently trading; hours, prices and menus still change, so check the venue's own site for those before you go."}
             </p>
           </details>
         )}
