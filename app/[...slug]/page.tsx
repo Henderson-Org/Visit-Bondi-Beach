@@ -147,7 +147,7 @@ function MigrationNote({ page }: { page: Page }) {
   return (
     <p className="mt-8 rounded-lg border border-sand-200 bg-sand-100 px-4 py-3 text-sm text-ink-500">
       This page is being migrated from Squarespace. The full article is available on the{' '}
-      <a href={page.liveUrl} className="text-ocean-700 underline">
+      <a href={page.liveUrl} rel="nofollow noopener" className="text-ocean-700 underline">
         current live site
       </a>{' '}
       while the content import completes.
@@ -423,11 +423,10 @@ function ArchivePage({ page }: { page: Page }) {
       </p>
       <h1 className="mt-1 font-display text-3xl md:text-4xl text-ink-900">{name}</h1>
       <p className="mt-3 text-ink-500 max-w-prose">
-        Browse Bondi guides in this {page.contentType}. Full archive filtering is being
-        rebuilt during the migration —{' '}
-        <a href={page.liveUrl} className="text-ocean-700 underline">
-          view on the live site
-        </a>
+        Browse Bondi guides in this {page.contentType}, or see{' '}
+        <Link href="/articles" className="text-ocean-700 underline">
+          all our Bondi guides
+        </Link>
         .
       </p>
       <div className="mt-8 grid gap-x-6 gap-y-9 sm:grid-cols-2 lg:grid-cols-3">
