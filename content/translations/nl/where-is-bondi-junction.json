@@ -1,0 +1,42 @@
+{
+  "locale": "nl",
+  "path": "/bondi-blog/where-is-bondi-junction",
+  "title": "Waar ligt Bondi Junction?",
+  "metaDescription": "Bondi Beach en Bondi Junction zijn toch hetzelfde? Eigenlijk niet. Ik leg uit waar Bondi Junction echt ligt en hoe je vandaar bij het strand komt.",
+  "h1": "Waar ligt Bondi Junction?",
+  "blocks": [
+    {"type":"p","text":"Kort antwoord: Bondi Junction is het drukke centrum boven op de heuvel achter Bondi Beach — en nee, het is niet het strand. Het is een aparte wijk, zo'n 2,5 km landinwaarts. Ben je daar net uit de trein gestapt in de verwachting zand te zien? Geen zorgen: je bent dichtbij, maar je hebt nog één korte sprong te gaan (een bus of een wandeling bergaf) voordat je tenen het water raken."},
+    {"type":"p","text":"Het is een van de meest voorkomende verwarringen die ik van bezoekers hoor, en een begrijpelijke — de namen delen een woord, de wijken zijn buren, en veel van het vervoer naar de Eastern Suburbs loopt via de Junction. Wie het verschil kent, reist een stuk soepeler."},
+    {"type":"quickFacts","items":[
+      {"label":"Wat het is","value":"Een wijk en vervoers- en winkelknooppunt"},
+      {"label":"Waar","value":"Eastern Suburbs, boven op de heuvel bij Bondi Beach"},
+      {"label":"Afstand tot het strand","value":"Ongeveer 2,5 km"},
+      {"label":"Naar het zand","value":"Korte busrit of wandeling bergaf"},
+      {"label":"Grote trekpleister","value":"Westfield Bondi Junction + eindpunt van de trein"}
+    ]},
+    {"type":"h2","text":"Dus waar ligt Bondi Junction precies?"},
+    {"type":"p","text":"Bondi Junction ligt in de Eastern Suburbs van Sydney, grofweg halverwege tussen het CBD en de kust. Stel je de kaart voor: de stad in het westen, Bondi Beach in het oosten en de Junction op de heuvelrug ertussenin. Het is het punt waar de treinen stoppen en de bussen richting strand het overnemen — daarom komen zo veel mensen hier langs op weg naar de branding."},
+    {"type":"p","text":"Het strand zelf hoort bij de wijk Bondi (en North Bondi), terwijl Bondi Junction een eigen wijk is met een totaal andere sfeer: torens, kantoren en een enorm winkelcentrum in plaats van zand en surfplanken."},
+    {"type":"h2","text":"Waarom bijna iedereen hier langskomt"},
+    {"type":"p","text":"Bondi Junction is het eindpunt van de trein naar de Eastern Suburbs — de T4-lijn — dus treinen vanuit Central en het CBD eindigen hier. Direct boven de perrons ligt een groot busstation, en juist hier komen de twee helften van je reis samen: je komt aan met de trein en stapt dan over op een strandbus naar de Campbell Parade bij het zand. De 333 is de lijn die de meeste bezoekers kennen, maar ik zou voor actuele routes en tijden even de reisplanner van Transport for NSW checken."},
+    {"type":"p","text":"Omdat het zo'n natuurlijk overstappunt is, is het zelf een bestemming geworden. Westfield Bondi Junction is een van de grootste winkelcentra van Sydney — honderden winkels, een bioscoop, supermarkten en een eetverdieping op het dak met uitzicht over de stad en de haven — een handige plek op een regenachtige dag in Bondi."},
+    {"type":"localTip","text":"Op weg naar het strand? Stap niet te vroeg uit de trein. Rijd helemaal door tot Bondi Junction (het eindpunt), neem dan de roltrappen omhoog naar het busstation en pak een strandbus omlaag naar de Campbell Parade. Check in en uit met dezelfde Opal-kaart of contactloze bankpas, dan telt je rit van trein plus bus als één aaneengesloten reis."},
+    {"type":"h2","text":"Junction of strand — waar kun je het beste verblijven?"},
+    {"type":"p","text":"Dat hangt van je reis af. Wil je zo uit bed het zand op rollen? Verblijf dan beneden bij het strand. Maar de Junction heeft zijn eigen stille voordelen, en heel wat bezoekers kiezen er bewust voor."},
+    {"type":"list","items":[
+      "Sneller naar de stad — met de trein ben je vlot in het CBD, zonder bussen die vastzitten in het strandverkeer.",
+      "Alles op één plek — apotheken, artsen, supermarkten en een bioscoop, allemaal onder het dak van Westfield.",
+      "Vaak voordeliger — een verblijf iets landinwaarts kan goedkoper zijn dan uitzicht op zee.",
+      "Toch dicht bij het zand — het strand is een korte busrit of wandeling bergaf verderop."
+    ]},
+    {"type":"callout","tone":"note","title":"Bergaf heen vs. bergop terug","text":"De wandeling van Bondi Junction omlaag naar het strand is aangenaam en bergaf — een mooie manier om aan te komen. Onthoud alleen dat de terugweg bergop gaat en met vermoeide benen en een zanderige handdoek een stuk langer aanvoelt. Houd voor de terugweg dus een bus of rideshare achter de hand."},
+    {"type":"faq","items":[
+      {"q":"Is Bondi Junction hetzelfde als Bondi Beach?","a":"Nee. Het zijn twee aparte wijken. Bondi Junction is een landinwaarts gelegen centrum en vervoersknooppunt boven op de heuvel; Bondi Beach is de kustwijk met het beroemde zand. Ze zijn buren, zo'n 2,5 km van elkaar."},
+      {"q":"Hoe kom ik van Bondi Junction naar Bondi Beach?","a":"Neem een bus vanaf het busstation boven het station Bondi Junction — meerdere lijnen rijden naar het strand en zetten je af op de Campbell Parade, waarbij de 333 de lijn is die de meeste bezoekers kennen. Het is een korte rit. Je kunt ook lopen (op de heenweg grotendeels bergaf). Bekijk de reisplanner van Transport for NSW voor de actuele routes en live tijden."},
+      {"q":"Kan ik met de trein tot aan Bondi Beach?","a":"Niet helemaal. De treinlijn eindigt bij Bondi Junction, het dichtstbijzijnde station bij het strand. Van daar stap je over op een bus of loop je het laatste stuk omlaag naar het zand."},
+      {"q":"Wat is er te doen in Bondi Junction zelf?","a":"Het is vooral een winkel- en vervoersknooppunt. De grootste trekpleister is Westfield Bondi Junction — een groot centrum met winkels, supermarkten, een bioscoop en restaurants op het dak — handig op een natte dag of om in te slaan."},
+      {"q":"Hoe ver is Bondi Junction van het Sydney CBD?","a":"Het is een van de dichtstbijzijnde centra van de Eastern Suburbs bij de stad — slechts een paar haltes over de T4-lijn vanaf Central. Bekijk de reisplanner van Transport for NSW voor de actuele reistijden."}
+    ]},
+    {"type":"p","text":"Dus daar heb je het: Bondi Junction is de toegangspoort, niet de bestemming — het knooppunt op de heuvel waar de treinen stoppen, de bussen vertrekken en het winkelen gebeurt, met het strand zelf een korte rit verder naar het oosten. Zodra je de twee uit elkaar houdt, voelt rondkomen in deze hoek van Sydney meteen een stuk makkelijker."}
+  ]
+}

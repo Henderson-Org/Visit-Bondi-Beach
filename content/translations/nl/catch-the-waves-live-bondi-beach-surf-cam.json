@@ -1,0 +1,29 @@
+{
+  "locale": "nl",
+  "path": "/bondi-blog/2025/1/5/catch-the-waves-live-bondi-beach-surf-cam",
+  "title": "Bondi Beach surfcam: bekijk de golven live",
+  "metaDescription": "Check Bondi Beach live met de surfcam: zie de deining, de drukte en het weer voordat je naar het strand gaat voor een duik of surfsessie.",
+  "h1": "Golven live: de surfcam van Bondi Beach",
+  "blocks": [
+    {"type":"p","text":"De meeste ochtenden check ik eerst een live surfcam voordat ik beslis of ik de plank, de handdoek of alleen mijn koffie meeneem. Bondi is een boog van ruim een kilometer die naar het zuidoosten kijkt, dus één blik op het scherm vertelt me de deining, de wind en hoe vol het zand al is. Dit zijn de feeds die ik echt vertrouw en hoe ik ze lees."},
+    {"type":"h2","text":"De cams die ik als bladwijzer heb"},
+    {"type":"p","text":"Er is geen enkele \"officiële\" Bondi-cam – een handvol feeds is op het strand gericht, elk met een eigen hoek:"},
+    {"type":"li","text":"Swellnet – mijn eerste check. Een live HD-beeld over het strand, gekoppeld aan het actuele surfrapport, de deining en de wind. Dit is degene die ik naar een langskomende vriend zou sturen."},
+    {"type":"li","text":"Surfline – nog een degelijke live cam, gebundeld met een meerdaagse verwachting voor deining, wind en getij. Handig als je een paar dagen vooruit plant."},
+    {"type":"li","text":"Bondi Surf Bathers' Life Saving Club – een stream vanuit de club aan het zuideinde, boven de hoek waar de surfers samenkomen. Het is de oudste reddingsbrigade ter wereld, hier opgericht in 1907."},
+    {"type":"li","text":"North Bondi Surf Life Saving Club – een gratis community-feed over het noordeinde, weggestopt onder de kaap Ben Buckler en meestal de rustigere kant om te zwemmen."},
+    {"type":"callout","tone":"note","title":"Streams verhuizen","text":"Cam-beheerders wisselen af en toe van hosting, gaan offline voor onderhoud of zetten een feed achter een abonnement. Werkt een link niet meer, open dan de homepage van de club of van Swellnet/Surfline en volg hun actuele cam-link in plaats van te vertrouwen op een oude bladwijzer."},
+    {"type":"h2","text":"Het beeld lezen voordat je vertrekt"},
+    {"type":"p","text":"Een cam is een uitstekende onderbuik-check, maar hij vlakt de oceaan af – golven zien er op een scherm altijd kleiner uit dan ze in de branding voelen. Waar ik op let:"},
+    {"type":"li","text":"Kijk naar een paar sets die binnenrollen, niet naar één beeld, en vergelijk dat met de cijfers voor deining en wind. Bondi vangt zuid- en oostdeining, en een lichte aflandige westenwind is wat het opschoont."},
+    {"type":"li","text":"Het zuideinde bij de point heeft de betere zandbanken maar trekt de grootste drukte; het noordeinde onder Ben Buckler is de rustigere keuze voor een simpele duik."},
+    {"type":"li","text":"Zoek de rood-gele vlaggen op de cam – die bewaakte strook is de enige plek waar je zou moeten zwemmen. Een donkerder, rustiger kanaal dat door het schuim naar zee snijdt, is vaak een muistroom (rip)."},
+    {"type":"localTip","text":"Schittering is een echt probleem. Rond zonsopgang overstraalt de lage zon de op het oosten gerichte feeds, en na donker zijn de meeste onbruikbaar. Het late ochtenduur geeft het helderste beeld van zowel de branding als de drukte."},
+    {"type":"callout","tone":"warning","title":"Een cam is geen strandwacht","text":"Laat een rustig ogend scherm je nooit overhalen om buiten de vlaggen te zwemmen of wanneer het strand niet bewaakt is. De omstandigheden veranderen snel en muistromen zijn niet altijd zichtbaar op camera. Controleer de actuele bewakingstijden en veiligheidswaarschuwingen op de Beachsafe-pagina van Surf Life Saving NSW en vraag het bij twijfel aan een strandwacht op het zand."},
+    {"type":"faq","items":[
+      {"q":"Waar kan ik een live Bondi Beach surfcam bekijken?","a":"De betrouwbaarste gratis live feeds zijn de Bondi-cams van Swellnet en Surfline, plus de community-streams van de Bondi Surf Bathers' Life Saving Club (zuideinde) en de North Bondi Surf Life Saving Club. Elk kijkt naar een net iets ander stuk van het strand."},
+      {"q":"Is de Bondi-surfcam gratis te bekijken?","a":"De live streams bekijken is meestal gratis. Sommige platforms zetten HD, herhalingen of langetermijnverwachtingen achter een betaald abonnement, maar je hoeft niet te betalen om alleen de actuele omstandigheden te checken."},
+      {"q":"Kan ik op de cam vertrouwen om te bepalen of het veilig is om te zwemmen?","a":"Nee. Gebruik hem als eerste blik en zwem daarna altijd tussen de rood-gele vlaggen tijdens de bewakingstijden en check de actuele bewakingstijden op de Beachsafe-pagina van Surf Life Saving NSW. Een camera kan niet elke muistroom zien."}
+    ]}
+  ]
+}

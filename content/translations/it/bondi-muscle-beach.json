@@ -1,0 +1,43 @@
+{
+  "locale": "it",
+  "path": "/bondi-blog/bondi-muscle-beach",
+  "title": "La Muscle Beach di Bondi: la palestra all'aperto gratis",
+  "metaDescription": "La Muscle Beach di Bondi – la famosa palestra all'aperto sulla sabbia. Dov'è, quali attrezzi ci sono e l'etichetta per un allenamento con vista.",
+  "h1": "La Muscle Beach di Bondi",
+  "blocks": [
+    {"type":"p","text":"Se stai cercando la risposta di Bondi alla Muscle Beach di Venice Beach, la trovi nella palestra all'aperto gratuita del Bondi Park, in cima all'estremità nord della spiaggia vicino al North Bondi Surf Life Saving Club. È una stazione di calisthenics a cielo aperto – sbarre per trazioni, parallele e panche invece di una rastrelliera di manubri – ed è completamente gratuita, tutto il giorno, tutti i giorni. Nessun abbonamento, nessuna prenotazione, nessun lucchetto al cancello. Basta presentarsi."},
+    {"type":"p","text":"Ci passo davanti quasi tutte le mattine e non l'ho mai vista vuota. È uno dei miei angoli preferiti di Bondi proprio perché è così democratica: le stesse sbarre vengono usate da fanatici della palestra a torso nudo che si passano il magnesio per i muscle-up, da personal trainer che tengono bootcamp all'alba, da backpacker che fanno qualche trazione tranquilla e dall'immancabile coppia di acro-yoga che tiene l'equilibrio sull'erba lì accanto. Tutti condividono. È tutto lo spirito di questo posto."},
+    {"type":"quickFacts","items":[
+      {"label":"Dove","value":"Bondi Park, estremità nord, vicino al North Bondi SLSC"},
+      {"label":"Accesso","value":"Da Campbell Parade / dal lungomare"},
+      {"label":"Costo","value":"Gratuito"},
+      {"label":"Stile","value":"Calisthenics all'aperto / a corpo libero"},
+      {"label":"Orari","value":"A cielo aperto, senza personale – utilizzabile in qualsiasi momento"}
+    ]},
+    {"type":"h2","text":"Cosa c'è davvero"},
+    {"type":"p","text":"Questa è un'attrezzatura a corpo libero, quindi aspettati sbarre più che bilancieri. La stazione è costruita attorno al classico kit da calisthenics: sbarre per trazioni e orizzontali ad altezze diverse, parallele e sbarre per i dip, e panche per il lavoro sul core – la council ha ritoccato la composizione esatta nel corso degli anni. È l'ideale per trazioni, dip, muscle-up, L-sit, sollevamenti delle gambe e le infinite varianti che gli appassionati di calisthenics adorano."},
+    {"type":"callout","tone":"note","title":"Non è una palestra pesi","text":"Qui non troverai pesi liberi o manubri – i pesi mobili che un tempo giravano nell'area sono stati rimossi per motivi di sicurezza pubblica. Se sollevare pesante è la tua passione, porta le tue bande elastiche, oppure vai in una delle palestre al coperto di Bondi."},
+    {"type":"p","text":"Poiché si trova proprio sull'erba sopra la sabbia, la vista è la vera attrattiva. Non ci sono molti posti dove puoi macinare una serie di trazioni con l'intera distesa di Bondi Beach davanti a te. È il motivo per cui attorno a questo luogo si è formata una vera comunità – Bondi ha prodotto alcuni noti atleti di street workout e calisthenics, e queste sono alcune delle loro sbarre di casa."},
+    {"type":"h2","text":"Quando andarci e l'etichetta non scritta"},
+    {"type":"p","text":"Il momento cambia tutta l'atmosfera del posto. La mattina presto – diciamo, dall'alba fino alle 8 circa – è la finestra tranquilla e concentrata: allenatori con i clienti, habitué che fanno le loro routine, tanto spazio. Da metà mattina al pomeriggio di un weekend soleggiato diventa un ritrovo, più affollato e più sociale, e potresti dover aspettare il tuo turno alle sbarre più gettonate."},
+    {"type":"localTip","text":"Se vuoi le sbarre quasi tutte per te, vieni alle prime luci. Troverai una stazione vuota, la luce migliore sull'acqua per le foto e subito dopo un bagno mentre la spiaggia è ancora tranquilla."},
+    {"type":"list","items":[
+      "Condividi le sbarre – non monopolizzare una stazione tra una serie e l'altra; lascia che gli altri si inseriscano.",
+      "Pulisci le panche dopo una sessione sudata; porta un piccolo asciugamano.",
+      "Porta la tua acqua – all'attrezzatura stessa non c'è alcun chiosco.",
+      "Usa il magnesio con parsimonia e ripulisci dopo di te; è uno spazio pubblico condiviso.",
+      "Fai attenzione alle tue cose e vacci piano col volume – è un parco per famiglie, non uno studio privato."
+    ]},
+    {"type":"p","text":"Niente di tutto questo è segnalato, ma è così che gli habitué mantengono il posto cordiale. Segui queste regole e ti inserirai perfettamente, anche alla tua prima visita."},
+    {"type":"h2","text":"Farne una mattinata intera"},
+    {"type":"p","text":"La posizione della palestra è metà del suo fascino. Sei a due minuti a piedi dalla sabbia, quindi io abbinerei una sessione a un bagno di defaticamento tra le bandiere – l'estremità nord di Bondi è sorvegliata dalla Surf Life Saving in stagione, quindi controlla le bandiere e le condizioni prima di tuffarti. Dopo, i caffè lungo Campbell Parade e attorno a North Bondi sono proprio lì per un caffè o una colazione post-allenamento. Ne viene fuori una mattinata di Bondi come si deve: allenarsi, nuotare, mangiare, ripetere."},
+    {"type":"faq","items":[
+      {"q":"Dov'è esattamente la palestra all'aperto di Bondi?","a":"Si trova nel Bondi Park, all'estremità nord della spiaggia, vicino al North Bondi Surf Life Saving Club, appena sopra la sabbia partendo da Campbell Parade e dal lungomare. Cerca il gruppo di sbarre in acciaio per trazioni e parallele sull'erba."},
+      {"q":"La palestra all'aperto di Bondi è gratuita?","a":"Sì – è una palestra all'aperto pubblica e gratuita. Non c'è abbonamento, né prenotazione, né personale. Basta presentarsi e usarla, condividendo l'attrezzatura con chiunque altro ci sia."},
+      {"q":"Ci sono pesi e macchine?","a":"No. È una stazione di calisthenics (a corpo libero) – sbarre per trazioni, parallele, sbarre per i dip e panche. Non ci sono pesi liberi né macchine a resistenza, quindi è adatta all'allenamento a corpo libero. Porta delle bande elastiche se vuoi un carico extra."},
+      {"q":"Quali sono gli orari di apertura?","a":"È una struttura del parco a cielo aperto e senza personale, quindi non ha orari fissi – puoi usarla in qualsiasi momento. Per la sessione più tranquilla e fresca, la mattina presto è la migliore; i pomeriggi soleggiati del weekend sono i più affollati."},
+      {"q":"Possono usarla i principianti?","a":"Assolutamente sì. L'attrezzatura è adatta a tutti i livelli, dalle trazioni tranquille e dai dip assistiti fino ai muscle-up avanzati. Non farti scoraggiare dal pubblico allenato – le sbarre sono lì per tutti, e gli habitué sono più accoglienti di quanto sembrino."}
+    ]},
+    {"type":"p","text":"Quindi non farti intimidire dai colossi a metà di un muscle-up. La Muscle Beach di Bondi è uno degli allenamenti gratuiti più cordiali di Sydney, con una vista per cui di solito pagheresti una fortuna. Prendi una sbarra, aspetta il tuo turno e goditela – è esattamente ciò per cui è lì."}
+  ]
+}

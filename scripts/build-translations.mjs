@@ -22,7 +22,7 @@ const ROOT = join(HERE, '..');
 const DIR = join(ROOT, 'content', 'translations');
 const PAGES = join(ROOT, 'content', 'pages.json');
 const OUT = join(ROOT, 'content', 'translation-overrides.json');
-const LOCALES = new Set(['ja', 'zh-cn', 'es', 'pt']);
+const LOCALES = new Set(['ja', 'zh-cn', 'es', 'pt', 'de', 'nl', 'it']);
 
 const isStr = (v) => typeof v === 'string' && v.trim().length > 0;
 const fail = (f, m) => { throw new Error(`content/translations/${f}: ${m}`); };

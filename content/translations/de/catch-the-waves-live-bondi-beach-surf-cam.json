@@ -1,0 +1,29 @@
+{
+  "locale": "de",
+  "path": "/bondi-blog/2025/1/5/catch-the-waves-live-bondi-beach-surf-cam",
+  "title": "Bondi Beach Surf-Cam: die Wellen live sehen",
+  "metaDescription": "Bondi Beach live per Surf-Cam checken: Wellengang, Andrang und Wetter im Blick, bevor Sie zum Schwimmen oder Surfen an den Strand aufbrechen.",
+  "h1": "Wellen live: die Surf-Cam am Bondi Beach",
+  "blocks": [
+    {"type":"p","text":"An den meisten Morgen schaue ich zuerst auf eine Live-Surf-Cam, bevor ich entscheide, ob ich das Board, das Handtuch oder nur meinen Kaffee mitnehme. Bondi ist eine gut ein Kilometer lange Bucht, die nach Südosten zeigt – ein einziger Blick auf den Bildschirm verrät mir den Wellengang, den Wind und wie voll der Sand schon ist. Hier sind die Feeds, denen ich wirklich vertraue, und wie ich sie lese."},
+    {"type":"h2","text":"Die Cams, die ich als Lesezeichen habe"},
+    {"type":"p","text":"Es gibt keine einzige \"offizielle\" Bondi-Cam – eine Handvoll Feeds ist auf den Strand gerichtet, jeder mit seinem eigenen Blickwinkel:"},
+    {"type":"li","text":"Swellnet – mein erster Blick. Eine Live-HD-Ansicht über den Strand, kombiniert mit dem aktuellen Surf-Report, Wellengang und Wind. Das ist die, die ich einem zu Besuch kommenden Kumpel schicken würde."},
+    {"type":"li","text":"Surfline – eine weitere solide Live-Cam, gebündelt mit einer mehrtägigen Vorhersage für Wellengang, Wind und Gezeiten. Praktisch, wenn Sie ein paar Tage im Voraus planen."},
+    {"type":"li","text":"Bondi Surf Bathers' Life Saving Club – ein Stream vom Club am Südende, oberhalb der Ecke, wo sich die Surfer sammeln. Es ist der älteste Rettungsschwimmerclub der Welt, hier 1907 gegründet."},
+    {"type":"li","text":"North Bondi Surf Life Saving Club – ein kostenloser Community-Feed über dem Nordende, geschützt unter dem Ben Buckler-Kap gelegen und meist die sanftere Seite zum Schwimmen."},
+    {"type":"callout","tone":"note","title":"Streams wandern","text":"Cam-Betreiber wechseln gelegentlich das Hosting, gehen für Wartungsarbeiten offline oder verlegen einen Feed hinter ein Abo. Ist ein Link tot, öffnen Sie die Startseite des Clubs bzw. von Swellnet/Surfline und folgen Sie deren aktuellem Cam-Link, statt sich auf ein altes Lesezeichen zu verlassen."},
+    {"type":"h2","text":"Das Bild lesen, bevor Sie losgehen"},
+    {"type":"p","text":"Eine Cam ist ein hervorragender Bauchgefühl-Check, doch sie flacht das Meer ab – Wellen sehen auf dem Bildschirm immer kleiner aus, als sie sich im Uferbrecher anfühlen. Worauf ich achte:"},
+    {"type":"li","text":"Beobachten Sie ein paar Sätze, nicht nur ein Standbild, und gleichen Sie das dann mit den Werten für Wellengang und Wind ab. Bondi fängt Süd- und Ostschwell auf, und ein leichter ablandiger Westwind ist das, was ihn sauber macht."},
+    {"type":"li","text":"Das Südende nahe dem Point hat die besseren Sandbänke, zieht aber den größten Andrang an; das Nordende unter Ben Buckler ist die ruhigere Wahl für ein unkompliziertes Bad."},
+    {"type":"li","text":"Suchen Sie die rot-gelben Flaggen auf der Cam – dieser bewachte Streifen ist der einzige Ort, an dem Sie schwimmen sollten. Ein dunklerer, ruhigerer Kanal, der durch die Gischt seewärts schneidet, ist oft eine Strömung (Rip)."},
+    {"type":"localTip","text":"Blendung ist ein echtes Thema. Rund um den Sonnenaufgang überstrahlt die tiefe Sonne die nach Osten gerichteten Feeds, und nach Einbruch der Dunkelheit sind die meisten nutzlos. Der späte Vormittag gibt den klarsten Blick auf Surf und Andrang."},
+    {"type":"callout","tone":"warning","title":"Eine Cam ist kein Rettungsschwimmer","text":"Lassen Sie sich von einem ruhig aussehenden Bildschirm nie dazu verleiten, außerhalb der Flaggen zu schwimmen oder wenn der Strand nicht bewacht ist. Die Bedingungen ändern sich schnell, und Strömungen zeigen sich nicht immer auf der Kamera. Prüfen Sie aktuelle Wachzeiten und Sicherheitshinweise auf der Beachsafe-Seite von Surf Life Saving NSW und fragen Sie im Zweifel einen Rettungsschwimmer am Strand."},
+    {"type":"faq","items":[
+      {"q":"Wo kann ich eine Live-Surf-Cam vom Bondi Beach ansehen?","a":"Die zuverlässigsten kostenlosen Live-Feeds sind die Bondi-Cams von Swellnet und Surfline sowie die Community-Streams vom Bondi Surf Bathers' Life Saving Club (Südende) und vom North Bondi Surf Life Saving Club. Jede zeigt einen leicht anderen Abschnitt des Strandes."},
+      {"q":"Ist die Bondi-Surf-Cam kostenlos?","a":"Das Ansehen der Live-Streams ist in der Regel kostenlos. Manche Plattformen stellen HD, Wiederholungen oder Langzeitprognosen hinter ein kostenpflichtiges Abo, aber Sie müssen nichts zahlen, nur um die aktuellen Bedingungen zu checken."},
+      {"q":"Kann ich mich auf die Cam verlassen, um zu entscheiden, ob das Schwimmen sicher ist?","a":"Nein. Nutzen Sie sie als ersten Blick und schwimmen Sie dann immer zwischen den rot-gelben Flaggen während der Wachzeiten und prüfen Sie die aktuellen Wachzeiten auf der Beachsafe-Seite von Surf Life Saving NSW. Eine Kamera kann nicht jede Strömung erkennen."}
+    ]}
+  ]
+}

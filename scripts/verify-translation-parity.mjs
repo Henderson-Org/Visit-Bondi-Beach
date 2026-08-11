@@ -15,7 +15,7 @@ import { dirname, join } from 'node:path';
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, '..');
 const DIR = join(ROOT, 'content', 'translations');
-const LOCALES = ['ja', 'zh-cn', 'es', 'pt'];
+const LOCALES = ['ja', 'zh-cn', 'es', 'pt', 'de', 'nl', 'it'];
 
 const pages = JSON.parse(await readFile(join(ROOT, 'content', 'pages.json'), 'utf8'));
 const bodies = JSON.parse(await readFile(join(ROOT, 'content', 'body-overrides.json'), 'utf8'));

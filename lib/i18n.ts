@@ -5,21 +5,21 @@
  * JSON files under content/translations/<locale>/. Everything else (routing, hreflang, sitemap,
  * the discreet language switcher) picks it up automatically.
  */
-export type Locale = 'ja' | 'zh-cn' | 'es' | 'pt';
+export type Locale = 'ja' | 'zh-cn' | 'es' | 'pt' | 'de' | 'nl' | 'it';
 
-export const LOCALES: Locale[] = ['ja', 'zh-cn', 'es', 'pt'];
+export const LOCALES: Locale[] = ['ja', 'zh-cn', 'es', 'pt', 'de', 'nl', 'it'];
 
 /** URL prefix segment for each locale (the first path segment). */
-export const LOCALE_PREFIX: Record<Locale, string> = { ja: 'ja', 'zh-cn': 'zh-cn', es: 'es', pt: 'pt' };
+export const LOCALE_PREFIX: Record<Locale, string> = { ja: 'ja', 'zh-cn': 'zh-cn', es: 'es', pt: 'pt', de: 'de', nl: 'nl', it: 'it' };
 
 /** `lang`/`hreflang` value. Simplified Chinese targets script (zh-Hans), per Google guidance. */
-export const LOCALE_HREFLANG: Record<Locale, string> = { ja: 'ja', 'zh-cn': 'zh-Hans', es: 'es', pt: 'pt' };
+export const LOCALE_HREFLANG: Record<Locale, string> = { ja: 'ja', 'zh-cn': 'zh-Hans', es: 'es', pt: 'pt', de: 'de', nl: 'nl', it: 'it' };
 
 /** Open Graph `og:locale`. */
-export const LOCALE_OG: Record<Locale, string> = { ja: 'ja_JP', 'zh-cn': 'zh_CN', es: 'es_ES', pt: 'pt_BR' };
+export const LOCALE_OG: Record<Locale, string> = { ja: 'ja_JP', 'zh-cn': 'zh_CN', es: 'es_ES', pt: 'pt_BR', de: 'de_DE', nl: 'nl_NL', it: 'it_IT' };
 
 /** Native, human-facing label for the discreet language switcher. */
-export const LOCALE_LABEL: Record<Locale, string> = { ja: '日本語', 'zh-cn': '简体中文', es: 'Español', pt: 'Português' };
+export const LOCALE_LABEL: Record<Locale, string> = { ja: '日本語', 'zh-cn': '简体中文', es: 'Español', pt: 'Português', de: 'Deutsch', nl: 'Nederlands', it: 'Italiano' };
 
 /** hreflang for the English original + the x-default fallback (both point at the English URL). */
 export const EN_HREFLANG = 'en-AU';
@@ -59,4 +59,7 @@ export const UI_STRINGS: Record<Locale, { by: string; updated: string; lastRevie
   'zh-cn': { by: '作者：', updated: '更新', lastReviewed: '最后核查', sources: '来源', home: '首页', readIn: '其他语言阅读：', english: 'English', alsoIn: '其他语言：' },
   es: { by: 'Por', updated: 'Actualizado', lastReviewed: 'Última revisión', sources: 'Fuentes', home: 'Inicio', readIn: 'Léelo en', english: 'English', alsoIn: 'También en:' },
   pt: { by: 'Por', updated: 'Atualizado', lastReviewed: 'Última revisão', sources: 'Fontes', home: 'Início', readIn: 'Leia em', english: 'English', alsoIn: 'Também em:' },
+  de: { by: 'Von', updated: 'Aktualisiert', lastReviewed: 'Zuletzt geprüft', sources: 'Quellen', home: 'Startseite', readIn: 'Lesen auf', english: 'English', alsoIn: 'Auch auf:' },
+  nl: { by: 'Door', updated: 'Bijgewerkt', lastReviewed: 'Laatst gecontroleerd', sources: 'Bronnen', home: 'Home', readIn: 'Lees in het', english: 'English', alsoIn: 'Ook in:' },
+  it: { by: 'Di', updated: 'Aggiornato', lastReviewed: 'Ultima verifica', sources: 'Fonti', home: 'Home', readIn: 'Leggi in', english: 'English', alsoIn: 'Anche in:' },
 };

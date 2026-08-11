@@ -7,12 +7,15 @@ stored content (not client-side machine translation).
 
 ## Locales
 
-| Locale  | URL prefix | hreflang  | og:locale | Label     |
-|---------|-----------|-----------|-----------|-----------|
-| `ja`    | `/ja/`    | `ja`      | `ja_JP`   | 日本語     |
-| `zh-cn` | `/zh-cn/` | `zh-Hans` | `zh_CN`   | 简体中文   |
-| `es`    | `/es/`    | `es`      | `es_ES`   | Español   |
-| `pt`    | `/pt/`    | `pt`      | `pt_BR`   | Português |
+| Locale  | URL prefix | hreflang  | og:locale | Label      |
+|---------|-----------|-----------|-----------|------------|
+| `ja`    | `/ja/`    | `ja`      | `ja_JP`   | 日本語      |
+| `zh-cn` | `/zh-cn/` | `zh-Hans` | `zh_CN`   | 简体中文    |
+| `es`    | `/es/`    | `es`      | `es_ES`   | Español    |
+| `pt`    | `/pt/`    | `pt`      | `pt_BR`   | Português  |
+| `de`    | `/de/`    | `de`      | `de_DE`   | Deutsch    |
+| `nl`    | `/nl/`    | `nl`      | `nl_NL`   | Nederlands |
+| `it`    | `/it/`    | `it`      | `it_IT`   | Italiano   |
 
 Single source of truth: `lib/i18n.ts`. To add a locale, add it there (type, prefix, hreflang,
 og, label, UI strings) and drop translation files under `content/translations/<locale>/`.
