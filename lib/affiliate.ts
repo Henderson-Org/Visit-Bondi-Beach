@@ -54,8 +54,11 @@ interface ProviderConfig {
 
 const enc = encodeURIComponent;
 
-// The affiliate marker is public (it's in the URL). Untracked fallback if unset.
-const marker = (): string | undefined => process.env.NEXT_PUBLIC_TRAVELPAYOUTS_MARKER || undefined;
+// The affiliate marker is public (it's in the URL), so we can default it to the account's
+// own marker (220796 — the same id used by the Travelpayouts web-integration embed in
+// components/TravelpayoutsEmbed.tsx). An env var overrides it if it ever changes. With the
+// marker known, turning on a provider only requires adding that provider's program id below.
+const marker = (): string | undefined => process.env.NEXT_PUBLIC_TRAVELPAYOUTS_MARKER || '220796';
 
 const PROVIDERS: Record<ProviderId, ProviderConfig> = {
   booking: {
