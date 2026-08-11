@@ -53,8 +53,13 @@ export const AUTHOR = {
   name: process.env.NEXT_PUBLIC_AUTHOR_NAME || 'Visit Bondi Beach Editorial Team',
   type: (process.env.NEXT_PUBLIC_AUTHOR_TYPE as 'Person' | 'Organization') || 'Organization',
   url: `${PROD_ORIGIN}/visit-bondi-beach`,
+  // Stable @id for the author entity so every article references ONE resolvable author
+  // (see authorJsonLd in lib/structured-data.ts). Kept as a fragment on the author page.
+  id: `${PROD_ORIGIN}/visit-bondi-beach#editorial-team`,
   tagline: 'Bondi locals',
   bio: 'We’re a team of five Bondi locals with more than 60 years of living at Bondi Beach between us — writing the guides we wish visitors had.',
+  // What the team is expert in — ties the author entity to the topics it covers for E-E-A-T.
+  knowsAbout: ['Bondi Beach', 'Eastern Suburbs Sydney', 'ocean swimming', 'coastal walks', 'Sydney travel'],
 } as const;
 
 export const NAV = [

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { ReactNode } from 'react';
 import type { Block } from '@/lib/content';
-import { QuickFacts, LocalTip, Callout, Faq, ItineraryTimeline } from '@/components/blocks';
+import { QuickFacts, LocalTip, Callout, Faq, ItineraryTimeline, Answer, DataTable } from '@/components/blocks';
 
 /**
  * Render inline Markdown in body text: `[label](/internal-path)` becomes a Next <Link>
@@ -80,6 +80,19 @@ export function BodyBlocks({ blocks }: { blocks: Block[] }) {
           <blockquote key={i} className="border-l-4 border-ocean-500 pl-4 italic text-ink-700">
             {renderText(b.text)}
           </blockquote>
+        );
+        break;
+      case 'answer':
+        out.push(<Answer key={i}>{renderText(b.text)}</Answer>);
+        break;
+      case 'table':
+        out.push(
+          <DataTable
+            key={i}
+            caption={b.caption}
+            columns={b.columns}
+            rows={b.rows.map((r) => r.map((cell) => renderText(cell)))}
+          />
         );
         break;
       case 'list':

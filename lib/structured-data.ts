@@ -105,6 +105,37 @@ export function websiteJsonLd() {
   };
 }
 
+/** Stable @id for the author entity, resolved against the current origin. */
+export function authorId() {
+  return `${siteOrigin()}/visit-bondi-beach#editorial-team`;
+}
+
+/**
+ * The author entity. Emitted once globally (like Organization) so every article's
+ * `author: { @id }` reference resolves to one identity — the biggest missing E-E-A-T
+ * signal on the site. Honest by construction: typed per AUTHOR.type (Organization for
+ * the "team of five" voice — a fabricated single Person would breach the integrity rules;
+ * set NEXT_PUBLIC_AUTHOR_TYPE=Person + a real name only once a real named author exists).
+ * `knowsAbout` ties the author to its beats; for a real Person, `homeLocation` would bind
+ * to the canonical Bondi place @id — a claim no all-of-Sydney competitor can make truthfully.
+ */
+export function authorJsonLd() {
+  const isPerson = AUTHOR.type === 'Person';
+  return {
+    '@context': 'https://schema.org',
+    '@type': AUTHOR.type,
+    '@id': authorId(),
+    name: AUTHOR.name,
+    url: AUTHOR.url,
+    description: AUTHOR.bio,
+    knowsAbout: AUTHOR.knowsAbout,
+    sameAs: [SITE.instagram],
+    ...(isPerson
+      ? { worksFor: { '@id': `${siteOrigin()}/#org` }, homeLocation: { '@id': `${siteOrigin()}/${BONDI_PLACE_ID}` } }
+      : { parentOrganization: { '@id': `${siteOrigin()}/#org` } }),
+  };
+}
+
 export function articleJsonLd(page: Page) {
   const url = `${siteOrigin()}${page.path}`;
   const data: Record<string, unknown> = {
@@ -115,7 +146,9 @@ export function articleJsonLd(page: Page) {
     mainEntityOfPage: url,
     isPartOf: { '@type': 'Blog', name: `${SITE.name} — Articles`, url: `${siteOrigin()}/articles` },
   };
-  data.author = { '@type': AUTHOR.type, name: AUTHOR.name, url: AUTHOR.url, description: AUTHOR.bio };
+  // Reference the single author entity by @id (emitted globally in app/layout.tsx) rather
+  // than inlining an anonymous author on every article — one resolvable identity for E-E-A-T.
+  data.author = { '@id': authorId() };
   data.publisher = { '@type': 'Organization', '@id': `${siteOrigin()}/#org`, name: SITE.name, url: siteOrigin() };
   // Bind every article to the canonical Bondi Beach place entity so search/answer engines
   // read the whole corpus as being *about* one resolved real-world place.

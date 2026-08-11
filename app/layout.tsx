@@ -25,7 +25,7 @@ import { AdsenseScript } from '@/components/Adsense';
 import { Analytics } from '@/components/Analytics';
 import { TravelpayoutsEmbed } from '@/components/TravelpayoutsEmbed';
 import { SITE, siteOrigin, isProduction } from '@/lib/site';
-import { organizationJsonLd, websiteJsonLd } from '@/lib/structured-data';
+import { organizationJsonLd, websiteJsonLd, authorJsonLd } from '@/lib/structured-data';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteOrigin()),
@@ -56,6 +56,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd()) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(authorJsonLd()) }}
         />
       </head>
       <body>

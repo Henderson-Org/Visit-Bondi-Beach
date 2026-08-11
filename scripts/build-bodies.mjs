@@ -60,8 +60,20 @@ function validateBlock(file, b, i) {
     case 'h3':
     case 'li':
     case 'quote':
+    case 'answer':
       if (!isNonEmptyString(b.text)) fail(file, `${where}: requires non-empty "text"`);
       return countWords(b.text);
+    case 'table': {
+      if (!Array.isArray(b.columns) || !b.columns.length) fail(file, `${where}: requires non-empty "columns"`);
+      b.columns.forEach((c) => { if (!isNonEmptyString(c)) fail(file, `${where}: every column must be a non-empty string`); });
+      if (!Array.isArray(b.rows) || !b.rows.length) fail(file, `${where}: requires non-empty "rows"`);
+      let words = 0;
+      b.rows.forEach((row, ri) => {
+        if (!Array.isArray(row) || row.length !== b.columns.length) fail(file, `${where}: row[${ri}] must have ${b.columns.length} cells to match columns`);
+        row.forEach((cell) => { if (typeof cell !== 'string') fail(file, `${where}: row[${ri}] cells must be strings`); words += countWords(cell); });
+      });
+      return words + b.columns.reduce((n, c) => n + countWords(c), 0);
+    }
     case 'list':
       if (!Array.isArray(b.items) || !b.items.length) fail(file, `${where}: requires non-empty "items"`);
       b.items.forEach((it) => { if (!isNonEmptyString(it)) fail(file, `${where}: every item must be a non-empty string`); });

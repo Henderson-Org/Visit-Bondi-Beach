@@ -8,7 +8,8 @@
     { "label": "Beachsafe (Surf Life Saving Australia)", "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi/bondi-beach" }
   ],
   "blocks": [
-    { "type": "p", "text": "Yes — Bondi is safe to swim, as long as you swim between the red and yellow flags. That single habit is the difference between a relaxed dip and a scary afternoon, because those flags are placed by the lifeguards on the safest patch of sand for the conditions that day, and it's the stretch they watch most closely. I've swum here in every season, and the ocean is genuinely welcoming most days. But Bondi is a real surf beach, not a swimming pool, so a little know-how goes a long way." },
+    { "type": "answer", "text": "Yes — Bondi Beach is safe to swim as long as you stay between the red and yellow flags during patrol hours. Lifeguards patrol year-round and place the flags on the safest sand for the day's conditions. The main hazard is rip currents, which is exactly why the flags matter." },
+    { "type": "p", "text": "That single habit — swimming between the flags — is the difference between a relaxed dip and a scary afternoon, because those flags are placed by the lifeguards on the safest patch of sand for the conditions that day, and it's the stretch they watch most closely. I've swum here in every season, and the ocean is genuinely welcoming most days. But Bondi is a real surf beach, not a swimming pool, so a little know-how goes a long way." },
     { "type": "quickFacts", "items": [
       { "label": "Patrolled", "value": "Year-round by professional lifeguards" },
       { "label": "Golden rule", "value": "Swim between the red & yellow flags" },
@@ -33,6 +34,12 @@
     { "type": "localTip", "text": "Before you get in, take thirty seconds on the promenade to actually read the water. Find the flags, then look for that darker, wave-free gap that marks a rip — and put a good stretch of sand between it and where you swim. Reading the beach first is the most local thing you can do." },
     { "type": "h2", "text": "Calmer options and knowing your limits" },
     { "type": "p", "text": "Some days the surf is big and dumping, and there's no shame in staying out of it. The northern end of the beach is generally the gentler half, and when the ocean looks too rough I head for the seawater pools instead: the famous Bondi Icebergs pool at the south end, or the free Ross Jones Memorial rock pool tucked below it. They give you the salt water and the view with none of the rip risk, which makes them brilliant for kids and less-confident swimmers. For current session times and entry fees, check the Icebergs website directly, as those do change." },
+    { "type": "table", "caption": "Where to swim at Bondi, from calmest to most exposed", "columns": ["Spot", "Best for", "Rip risk"], "rows": [
+      ["Bondi Icebergs pool", "Laps, nervous swimmers, dawn/dusk swims", "None — enclosed seawater pool"],
+      ["Ross Jones rock pool", "Kids, a free calm dip at the south end", "None — enclosed rock pool"],
+      ["Northern end (between flags)", "Families, gentler surf on most days", "Lower, but still swim between the flags"],
+      ["Southern end near the rocks", "Experienced surfers only", "High — the notorious \"Backpackers' Rip\""]
+    ] },
     { "type": "p", "text": "The rest is common sense that locals live by: never swim alone, don't swim straight after drinking, keep a constant eye on children in or near the water, and if you're at all unsure, ask a lifeguard — they would genuinely rather you ask than get into difficulty. Slip on a rashie or sunscreen too; the Australian sun is fierce even when the water is cool." },
     { "type": "faq", "items": [
       { "q": "Is it safe to swim at Bondi Beach?", "a": "Yes, provided you swim between the red and yellow flags during patrol hours. That flagged zone is chosen by lifeguards as the safest area for the day's conditions and is watched constantly. The main hazard is rip currents, which is exactly why the flags matter so much." },

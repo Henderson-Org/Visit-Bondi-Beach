@@ -29,6 +29,55 @@ export function QuickFacts({ items }: { items: QuickFact[] }) {
   );
 }
 
+/**
+ * Answer-first block (AEO). A short, self-contained direct answer placed at the top of a
+ * page under a question-phrased H2 — the passage answer engines (AI Overviews, ChatGPT,
+ * Perplexity) lift as the extractable answer. Rendered as a distinct lead so both readers
+ * and machines see it as *the* answer. Keep it factual and ~40–55 words.
+ */
+export function Answer({ children }: { children: ReactNode }) {
+  return (
+    <div className="my-6 rounded-xl border border-ocean-500/25 bg-ocean-500/5 p-5">
+      <p className="text-[11px] font-semibold uppercase tracking-wide text-ocean-700">The short answer</p>
+      <div className="mt-1.5 text-[15px] leading-relaxed text-ink-900">{children}</div>
+    </div>
+  );
+}
+
+/**
+ * Comparison table — a real semantic <table> so per-option/per-month answers (Bondi vs Manly,
+ * airport options, parking, sea temps) are extractable by search + answer engines rather than
+ * buried in prose. Scrolls horizontally on small screens; first column is a row header.
+ */
+export function DataTable({ caption, columns, rows }: { caption?: string; columns: string[]; rows: ReactNode[][] }) {
+  if (!columns?.length || !rows?.length) return null;
+  return (
+    <div className="my-6 overflow-x-auto">
+      <table className="w-full border-collapse text-sm">
+        {caption && <caption className="mb-2 text-left text-xs text-ink-500">{caption}</caption>}
+        <thead>
+          <tr className="border-b border-sand-300">
+            {columns.map((c, i) => (
+              <th key={i} scope="col" className="px-3 py-2 text-left font-semibold text-ink-900">{c}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r, ri) => (
+            <tr key={ri} className="border-b border-sand-200 align-top">
+              {r.map((cell, ci) => (
+                ci === 0
+                  ? <th key={ci} scope="row" className="px-3 py-2 text-left font-medium text-ink-900">{cell}</th>
+                  : <td key={ci} className="px-3 py-2 text-ink-700">{cell}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 /** Local-knowledge callout (brief §9). Use only for genuinely supported local advice. */
 export function LocalTip({ children }: { children: ReactNode }) {
   return (
