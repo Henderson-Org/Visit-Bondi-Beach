@@ -88,7 +88,7 @@ function ConditionsBar({ c }: { c: Conditions }) {
   // The panel's stat set: headline stats plus the useful surf/sun detail. A few fields are
   // deliberately omitted here to keep it focused (they still show on the full /bondi-weather
   // card). The long-form outlook is shown as a "Surf report" caption below, not in the grid.
-  const OMIT = new Set(['Max', 'Wind', 'Feels like', 'Wind gusts', 'Sunset', 'Swell period']);
+  const OMIT = new Set(['Max', 'Wind', 'Feels like', 'Wind gusts', 'Sunset', 'Swell', 'Swell period']);
   const stats = [...compactRow(c), ...detailRows(c)].filter((r) => r.label !== 'Outlook' && !OMIT.has(r.label));
   const outlook = detailRows(c).find((r) => r.label === 'Outlook')?.value ?? null;
 
