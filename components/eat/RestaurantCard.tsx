@@ -3,12 +3,12 @@ import type { Restaurant } from '@/data/restaurants';
 import { PRICE_LABEL, VENUE_TYPE_LABEL, PRECINCT_LABEL } from '@/data/restaurants';
 import { venuePageHref, outboundLink } from '@/lib/restaurantGuide';
 
-/** Price as $–$$$$ (active glyphs inked, rest muted) — matches the Stay/Eat treatment. */
+/** Price as $–$$$$. Render ONLY the active glyphs — padding out to four with muted signs
+ *  makes a $$ venue read as "$$$$" at a glance (matches the Stay price treatment). */
 function Price({ level }: { level: number }) {
   return (
-    <span className="font-medium tabular-nums" aria-label={`Price level ${level} of 4, ${PRICE_LABEL[level]}`}>
-      <span className="text-ink-900">{'$'.repeat(level)}</span>
-      <span className="text-ink-300">{'$'.repeat(4 - level)}</span>
+    <span className="font-medium tabular-nums text-ink-900" aria-label={`Price level ${level} of 4, ${PRICE_LABEL[level]}`}>
+      {'$'.repeat(level)}
     </span>
   );
 }
