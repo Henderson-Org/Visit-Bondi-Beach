@@ -93,6 +93,30 @@ function sanitizeCampaign(c?: string): string {
 }
 
 /**
+ * Functional search params we keep on an OTA URL. EVERYTHING else — any affiliate id
+ * (aid/label/affiliate_id), any click tracker (cjevent/clkid), any utm_* — is stripped.
+ * This guarantees the ONLY affiliate identity that can ever appear on a Booking/Hostelworld/
+ * Tripadvisor link is our own Travelpayouts marker (added by wrap(), or by Travelpayouts Drive
+ * client-side). A third party's id can never ride along, even if one were pasted into the data.
+ */
+const OTA_SAFE_PARAMS = new Set([
+  'ss', 'search_keywords', 'q', 'dest_id', 'dest_type', 'checkin', 'checkout', 'group_adults',
+]);
+
+/** Strip all non-functional (affiliate/tracking) query params from an OTA target URL. */
+function sanitizeProviderUrl(rawUrl: string): string {
+  try {
+    const u = new URL(rawUrl);
+    for (const key of [...u.searchParams.keys()]) {
+      if (!OTA_SAFE_PARAMS.has(key)) u.searchParams.delete(key);
+    }
+    return u.toString();
+  } catch {
+    return rawUrl; // non-URL (shouldn't happen) — leave untouched
+  }
+}
+
+/**
  * Wrap a provider target URL in a Travelpayouts redirect when configured,
  * otherwise return the target URL unchanged (functional but untracked).
  */
@@ -124,15 +148,18 @@ export interface AffiliateLink {
  */
 export function getAffiliateLink(req: AffiliateRequest): AffiliateLink {
   const provider = PROVIDERS[req.provider];
-  const target = req.targetUrl || provider.targetUrl(req);
+  const rawTarget = req.targetUrl || provider.targetUrl(req);
   const campaign = req.campaign ?? req.placement;
 
-  // A direct Klook affiliate deep link is already monetised — use it as-is (never wrap it
-  // in Travelpayouts) and label it as Klook so the CTA is accurate.
-  if (/klook\.com/.test(target)) {
-    return { provider: req.provider, label: 'Klook', cta: provider.cta, href: target, tracked: true };
+  // A direct Klook affiliate deep link is already monetised (OUR Klook link) — use it as-is,
+  // never wrap or sanitise it, and label it as Klook so the CTA is accurate.
+  if (/klook\.com/.test(rawTarget)) {
+    return { provider: req.provider, label: 'Klook', cta: provider.cta, href: rawTarget, tracked: true };
   }
 
+  // Strip any affiliate/tracking params from the OTA target so no third-party id can ride along;
+  // our own Travelpayouts marker is then the ONLY affiliate identity on the link.
+  const target = sanitizeProviderUrl(rawTarget);
   const href = wrap(provider, target, campaign);
   return {
     provider: req.provider,
