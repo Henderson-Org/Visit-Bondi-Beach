@@ -33,6 +33,10 @@ import { GuideCard, excerptFor } from '@/components/GuideCard';
 import { ContentPlannerPromo } from '@/components/ContentPlannerPromo';
 import { LocationPage } from '@/components/location/LocationPage';
 import { getLocation } from '@/data/locations';
+import { LanguageLinks } from '@/components/LanguageLinks';
+import { TranslatedArticle } from '@/components/TranslatedArticle';
+import { splitLocalePath, hreflangAlternates, localizedPath, LOCALE_OG, LOCALE_PREFIX } from '@/lib/i18n';
+import { getTranslation, availableLocales, allTranslations } from '@/lib/translations';
 
 export const dynamicParams = true;
 
@@ -84,17 +88,54 @@ const REDIRECTED_PATHS = new Set([
 const OWNED_BY_ROUTE = new Set(['/bondi-eat-and-drink']);
 
 export function generateStaticParams() {
-  return allContentPaths()
+  const english = allContentPaths()
     .filter((p) => !/[%+]/.test(p) && !REDIRECTED_PATHS.has(p) && !OWNED_BY_ROUTE.has(p))
     .map((p) => ({ slug: p.split('/').filter(Boolean) }));
+  // Every stored translation gets its own statically-generated locale-prefixed URL
+  // (/ja/…, /zh-cn/…, …) so bots crawl fully-rendered translated HTML — no client MT.
+  const translated = allTranslations().map(({ locale, path }) => ({
+    slug: [LOCALE_PREFIX[locale], ...path.split('/').filter(Boolean)],
+  }));
+  return [...english, ...translated];
 }
 
 type Props = { params: Promise<{ slug: string[] }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
+  const { locale, path } = splitLocalePath(slug);
+
+  // Translated page: self-referencing canonical at its own localized URL (never canonicalised
+  // back to English), a reciprocal hreflang cluster identical to the English original's, unique
+  // translated title/description, and og:locale. Missing translation → generic (route notFound()s).
+  if (locale) {
+    const tx = getTranslation(locale, path);
+    if (!tx) return { title: 'Page not found' };
+    const canonical = localizedPath(path, locale);
+    const title = tx.h1 || tx.title;
+    return {
+      title: { absolute: title },
+      description: tx.metaDescription || undefined,
+      alternates: {
+        canonical,
+        languages: hreflangAlternates(path, availableLocales(path)),
+      },
+      openGraph: {
+        title,
+        description: tx.metaDescription || undefined,
+        type: tx.section === 'blog' ? 'article' : 'website',
+        images: tx.ogImage || tx.heroImage || undefined,
+        locale: LOCALE_OG[locale],
+      },
+    };
+  }
+
   const page = getPageBySegments(slug);
   if (!page) return { title: 'Page not found' };
+  // When this English page has translations, publish the same reciprocal hreflang cluster on it
+  // (English original + every translation + x-default→English). Self-canonical stays the English URL.
+  const locales = availableLocales(page.path);
+  const languages = locales.length > 0 ? hreflangAlternates(page.path, locales) : undefined;
   const clean = page.title
     ? page.title.replace(/\s*[—-]\s*Visit Bondi Beach\s*$/i, '').trim()
     : displayTitle(page);
@@ -118,7 +159,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description: page.metaDescription || undefined,
-    alternates: { canonical: page.path },
+    alternates: { canonical: page.path, ...(languages ? { languages } : {}) },
     robots: indexable ? undefined : { index: false, follow: true },
     openGraph: {
       title: clean,
@@ -131,6 +172,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CatchAllPage({ params }: Props) {
   const { slug } = await params;
+
+  // Locale-prefixed URL (/ja/…): serve the stored translation as fully-rendered HTML, or 404.
+  // No fallback to English content under a translated URL (that would be a soft-404 duplicate).
+  const { locale, path } = splitLocalePath(slug);
+  if (locale) {
+    const tx = getTranslation(locale, path);
+    if (!tx) notFound();
+    return <TranslatedArticle page={tx} locale={locale} />;
+  }
+
   const page = getPageBySegments(slug);
   if (!page) notFound();
 
@@ -417,6 +468,9 @@ function ArticlePage({ page }: { page: Page }) {
       )}
       <ContentPlannerPromo context={`${page.path} ${title}`} placement="article" />
       <RelatedGuides pages={relatedPages(page)} />
+      {/* Discreet, contextual "also available in …" — the only surfacing of translations on
+          English pages. Renders nothing unless a translation exists, so English is unchanged. */}
+      <LanguageLinks path={page.path} current={null} />
       {!(page.blocks && page.blocks.length > 0) && <MigrationNote page={page} />}
     </article>
   );

@@ -1,0 +1,126 @@
+{
+  "locale": "es",
+  "path": "/bondi-blog/what-to-do-bondi-beach-travel-guide",
+  "title": "Qué hacer en Bondi Beach: la guía completa",
+  "metaDescription": "Qué hacer en Bondi Beach: una guía local completa de la playa, el paseo costero, los cafés y los imprescindibles para tu visita.",
+  "h1": "Qué hacer en Bondi Beach: todo lo que necesitas saber",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Si solo tienes un día o dos y te preguntas qué hacer en Bondi Beach, aquí va la versión corta de alguien que vive aquí: nada entre las banderas, recorre el sendero costero hacia Coogee y reserva un rato para sentarte en el paseo marítimo con un café y ver pasar la vida. Bondi premia a quien va sin prisa. Más abajo te cuento cómo pasaría yo el día, además de lo práctico: cómo llegar, cómo estar seguro y adónde envío a mis amigos."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Dónde",
+          "value": "Bondi Beach, NSW 2026 (Waverley)"
+        },
+        {
+          "label": "Desde el CBD de Sydney",
+          "value": "Tren hasta Bondi Junction y luego un breve trayecto en autobús"
+        },
+        {
+          "label": "Paseo costero",
+          "value": "De Bondi a Coogee, unos 6 km"
+        },
+        {
+          "label": "Coste",
+          "value": "La playa y el paseo son gratis"
+        },
+        {
+          "label": "Mejor momento",
+          "value": "Temprano por la mañana, por la calma, la tranquilidad y la mejor luz"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Lo que yo nunca me perdería"
+    },
+    {
+      "type": "p",
+      "text": "Empieza por la propia playa. Bondi es una auténtica playa de surf, así que la única regla que importa es nadar entre las banderas rojas y amarillas: la zona que los socorristas patrullan de forma activa, y que se mueve según las condiciones del día. Aquí hay corrientes de resaca incluso cuando el agua parece tranquila, así que, si tienes dudas, pregunta a un socorrista y consulta el horario de vigilancia con Surf Life Saving antes de meterte al agua."
+    },
+    {
+      "type": "p",
+      "text": "Después del baño, lo que más recuerda la gente es el paseo costero de Bondi a Coogee. Recorre unos seis kilómetros por lo alto de los acantilados, uniendo Bondi, Tamarama, Bronte, Clovelly y Coogee, y a la mayoría le lleva alrededor de dos horas a un ritmo cómodo, más si vas parando. No hace falta hacerlo entero; incluso el primer tramo hasta Tamarama y Bronte es espectacular, y Bronte tiene una piscina de mar y un parque con césped para descansar."
+    },
+    {
+      "type": "localTip",
+      "text": "Haz el paseo costero temprano, antes de las 8am en verano. Tendrás los acantilados casi para ti, la luz en Mackenzies Point es preciosa para las fotos y terminarás antes del calor del mediodía. Lleva agua; la sombra es escasa."
+    },
+    {
+      "type": "h3",
+      "text": "Bondi Icebergs y las piscinas de mar"
+    },
+    {
+      "type": "p",
+      "text": "En el extremo sur está Bondi Icebergs, la famosa piscina de mar que has visto en mil fotos, con las olas rompiendo sobre su borde. Está abierta al público con entrada de pago, pero cierra para limpieza y puede cerrar cuando hay mucho oleaje, así que consulta la web de Icebergs para ver los horarios y precios actuales antes de bajar. Aunque no te bañes, la vista desde el promontorio que hay encima bien merece la caminata."
+    },
+    {
+      "type": "h2",
+      "text": "Cómo llegar"
+    },
+    {
+      "type": "p",
+      "text": "No hay estación de tren en la propia playa: la ruta clásica es un tren hasta Bondi Junction y luego un autobús que baja la colina hasta Bondi Beach. Como los números de línea y los horarios cambian, introduce tu punto de partida y de llegada en el planificador de viajes de Transport for NSW en lugar de fiarte de un número que leíste en internet. Valida al entrar y al salir con una tarjeta contactless o una tarjeta Opal."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "¿Vas en coche? Piénsatelo dos veces en verano",
+      "text": "El aparcamiento en los alrededores de Bondi es limitado, de pago y muy disputado los fines de semana cálidos y en festivos: la gente da vueltas durante siglos. Usa el transporte público si puedes. Si tienes que ir en coche, llega temprano y cuenta con aparcar unas calles más atrás y entrar caminando."
+    },
+    {
+      "type": "h2",
+      "text": "Más allá de la arena"
+    },
+    {
+      "type": "p",
+      "text": "Bondi es mucho más que la playa. Campbell Parade y las calles de detrás —Gould, Hall y Curlewis— están llenas de cafés, panaderías y tiendas, y es aquí donde de verdad vive la cultura del brunch. Los fines de semana se instalan los Bondi Markets en la escuela junto a la playa, en Campbell Parade, con mercados de productos frescos y de moda en días distintos, así que consulta los días de mercado actuales antes de organizarte en torno a ellos."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Recorre el paseo marítimo de punta a punta: gratis y con un observar a la gente insuperable.",
+        "Descubre las estaciones de ejercicio al aire libre y las rampas de skate en el extremo norte.",
+        "Fíjate en el arte urbano cambiante a lo largo del muro del malecón de Bondi.",
+        "Cómprate un fish and chips o un gelato y cómetelo en el césped sobre la arena al atardecer."
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "Lo mejor que se puede hacer en Bondi no es ninguna atracción concreta: es regalarte una mañana sin prisa para nadar, caminar y sentarte ante una vista por la que la mayoría de las ciudades matarían."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "¿Qué se puede hacer gratis en Bondi Beach?",
+          "a": "Muchísimo. Nadar entre las banderas, pasear por el paseo marítimo, hacer el sendero costero, usar las estaciones del gimnasio al aire libre y ver a los surfistas no cuesta nada: la playa y el sendero costero son gratis."
+        },
+        {
+          "q": "¿Cuánto tiempo debería pasar en Bondi Beach?",
+          "a": "Con media jornada cubres lo esencial: un baño y un café. Reserva un día entero para sumar el paseo costero hasta Bronte o Coogee y aún tener tiempo de relajarte. Es una excursión de un día muy cómoda desde el CBD de Sydney."
+        },
+        {
+          "q": "¿Es seguro nadar en Bondi Beach?",
+          "a": "Sí, siempre que nades entre las banderas rojas y amarillas, donde patrullan los socorristas. Bondi tiene corrientes de resaca, así que nunca nades fuera de la zona señalizada; si te atrapa una, mantén la calma, levanta un brazo y no luches contra la corriente."
+        },
+        {
+          "q": "¿Cuál es la mejor forma de llegar a Bondi Beach desde Sydney?",
+          "a": "Toma un tren hasta Bondi Junction y luego un breve autobús que baja hasta la playa: la opción menos estresante. Usa el planificador de viajes de Transport for NSW para ver rutas y horarios actuales; aparcar cerca de la playa es difícil, sobre todo en verano."
+        },
+        {
+          "q": "¿Cuál es la mejor época para visitar Bondi Beach?",
+          "a": "Temprano por la mañana es mi momento favorito: agua más calmada, luz más suave y muchísima menos gente, sea cual sea la estación. El verano (de diciembre a febrero) es lo más cálido y concurrido; el otoño y la primavera son más tranquilos y agradables."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Eso es Bondi en pocas palabras: báñate con seguridad, recorre la costa, come bien y no vayas con prisa. Haz esas cuatro cosas y entenderás exactamente por qué los demás nunca parecemos irnos."
+    }
+  ]
+}

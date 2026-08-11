@@ -5,6 +5,8 @@ import { stayCategorySlugs } from '@/data/stay-categories';
 import { guideSlugs } from '@/data/accommodation-guides';
 import { eventSlugs } from '@/data/events';
 import { collectionSlugs as diningCollectionSlugs, venuesWithPages } from '@/lib/restaurantGuide';
+import { allTranslations, availableLocales } from '@/lib/translations';
+import { hreflangAlternates, localizedPath } from '@/lib/i18n';
 
 /**
  * XML sitemap generated from the content index. Only indexable pages are included
@@ -64,12 +66,41 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: r.priority,
   }));
 
+  // Absolute-URL hreflang cluster for a page that has translations: en + each locale + x-default.
+  // Attached to the English entry AND every translated entry (Google wants each URL to list the
+  // full set including itself), so translations are indexed and never seen as duplicates.
+  const absLangs = (path: string): Record<string, string> => {
+    const rel = hreflangAlternates(path, availableLocales(path));
+    const out: Record<string, string> = {};
+    for (const [k, v] of Object.entries(rel)) out[k] = `${PROD_ORIGIN}${v}`;
+    return out;
+  };
+
+  // Translated pages: one entry per (locale, path), each carrying the reciprocal cluster.
+  const fromTranslations = allTranslations().map(({ locale, path }) => ({
+    url: `${PROD_ORIGIN}${localizedPath(path, locale)}`,
+    lastModified: buildDate,
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+    alternates: { languages: absLangs(path) },
+  }));
+
   // De-duplicate by URL (a path may exist both in the content index and as a code route,
   // e.g. /bondi-eat-and-drink is now a real directory route but is still in pages.json).
   const seen = new Set<string>();
-  return [...fromStatic, ...fromContent].filter((e) => {
-    if (seen.has(e.url)) return false;
-    seen.add(e.url);
-    return true;
-  });
+  return [...fromStatic, ...fromContent, ...fromTranslations]
+    .filter((e) => {
+      if (seen.has(e.url)) return false;
+      seen.add(e.url);
+      return true;
+    })
+    // Add the hreflang cluster to any English entry that has translations (translated entries
+    // already carry theirs above). Leaves untranslated pages exactly as before.
+    .map((e) => {
+      const path = e.url.slice(PROD_ORIGIN.length) || '/';
+      if ('alternates' in e) return e;
+      return availableLocales(path).length > 0
+        ? { ...e, alternates: { languages: absLangs(path) } }
+        : e;
+    });
 }

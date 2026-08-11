@@ -136,14 +136,17 @@ export function authorJsonLd() {
   };
 }
 
-export function articleJsonLd(page: Page) {
-  const url = `${siteOrigin()}${page.path}`;
+export function articleJsonLd(page: Page, opts?: { url?: string; inLanguage?: string }) {
+  // For a translation, url/mainEntityOfPage point at the localized URL and inLanguage is set,
+  // so the translated page's schema is self-consistent (never claims the English URL).
+  const url = opts?.url ? `${siteOrigin()}${opts.url}` : `${siteOrigin()}${page.path}`;
   const data: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: page.h1 || page.title,
     url,
     mainEntityOfPage: url,
+    ...(opts?.inLanguage ? { inLanguage: opts.inLanguage } : {}),
     isPartOf: { '@type': 'Blog', name: `${SITE.name} — Articles`, url: `${siteOrigin()}/articles` },
   };
   // Reference the single author entity by @id (emitted globally in app/layout.tsx) rather

@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "next dev",
     "build:search": "node scripts/build-search-index.mjs",
-    "build": "node scripts/build-search-index.mjs && next build",
+    "build:translations": "node scripts/build-translations.mjs",
+    "translations:verify": "node scripts/verify-translation-parity.mjs",
+    "build": "node scripts/build-translations.mjs && node scripts/verify-translation-parity.mjs && node scripts/build-search-index.mjs && next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
