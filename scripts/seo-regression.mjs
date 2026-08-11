@@ -14,10 +14,21 @@
  *
  * Exit code is non-zero if any critical check fails, so it can gate a deploy.
  */
-import { execFileSync } from 'node:child_process';
+import { execFileSync, execSync } from 'node:child_process';
+import { readFileSync, existsSync } from 'node:fs';
 
 const BASE = (process.env.BASE || 'http://localhost:3000').replace(/\/$/, '');
 const PROD_HOST = 'https://www.visitbondibeach.com';
+
+// Merge in every analytics-protected URL (allowRedirect=false) from the manifest, so the
+// site's highest-traffic pages are guarded on every run — the single source of truth.
+let PROTECTED_URLS = [];
+try {
+  if (existsSync('seo-protected-pages.json')) {
+    const m = JSON.parse(readFileSync('seo-protected-pages.json', 'utf8'));
+    PROTECTED_URLS = (m.pages || []).filter((p) => p.allowRedirect === false).map((p) => p.url);
+  }
+} catch { /* manifest optional */ }
 
 // --- Critical URL lists -----------------------------------------------------
 // expect200: must return 200 and pass on-page SEO checks (self-canonical etc.).
@@ -122,8 +133,9 @@ function checkRedirect(path) {
 // --- Run --------------------------------------------------------------------
 console.log(`SEO regression against ${BASE}\n${'─'.repeat(64)}`);
 let fail = 0;
-console.log('\n200 + on-page SEO:');
-for (const p of EXPECT_200) {
+const ALL_200 = [...new Set([...EXPECT_200, ...PROTECTED_URLS])];
+console.log(`\n200 + on-page SEO (${ALL_200.length} URLs incl. ${PROTECTED_URLS.length} analytics-protected):`);
+for (const p of ALL_200) {
   const r = checkPage(p);
   if (!r.ok) { fail++; console.log(`  ✖ ${p}\n      ${r.problems.join('\n      ')}`); }
   else console.log(`  ✓ ${p}`);

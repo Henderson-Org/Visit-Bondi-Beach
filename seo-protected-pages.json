@@ -1,0 +1,407 @@
+{
+  "generated": "2026-08-11",
+  "note": "Protected high-traffic URLs (YTD analytics). allowRedirect=false — do not redirect/noindex without explicit approval.",
+  "pages": [
+    {
+      "url": "/bondi-blog/bondi-rescue-who-are-the-lifeguards",
+      "pageName": "Who Are The Lifeguards",
+      "priority": 1,
+      "ytdPageviews": 3452,
+      "trafficShare": 13.32,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/bondi-rescue-who-are-the-lifeguards"
+    },
+    {
+      "url": "/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue",
+      "pageName": "20 Obscure Facts About Bondi Rescue",
+      "priority": 3,
+      "ytdPageviews": 200,
+      "trafficShare": 0.77,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue"
+    },
+    {
+      "url": "/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue",
+      "pageName": "20 Most Dramatic Moments",
+      "priority": 3,
+      "ytdPageviews": 247,
+      "trafficShare": 0.95,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue"
+    },
+    {
+      "url": "/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more",
+      "pageName": "Bondi Icebergs Ocean Pool FAQ",
+      "priority": 1,
+      "ytdPageviews": 841,
+      "trafficShare": 3.25,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more"
+    },
+    {
+      "url": "/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool",
+      "pageName": "Can anyone swim at Bondi Icebergs",
+      "priority": 1,
+      "ytdPageviews": 534,
+      "trafficShare": 2.06,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool"
+    },
+    {
+      "url": "/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy",
+      "pageName": "Finding Free Parking at Bondi",
+      "priority": 1,
+      "ytdPageviews": 720,
+      "trafficShare": 2.78,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy"
+    },
+    {
+      "url": "/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days",
+      "pageName": "Ultimate Bondi Beach Parking Guide",
+      "priority": 2,
+      "ytdPageviews": 415,
+      "trafficShare": 1.6,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days"
+    },
+    {
+      "url": "/bondi-blog/2025/6/4/tamarama-coogee-clovelly-beach-parking-ultimate-guide-to-free-paid-spots",
+      "pageName": "Tamarama, Coogee & Clovelly Parking",
+      "priority": 2,
+      "ytdPageviews": 448,
+      "trafficShare": 1.73,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2025/6/4/tamarama-coogee-clovelly-beach-parking-ultimate-guide-to-free-paid-spots"
+    },
+    {
+      "url": "/bondi-blog/2023/11/20/an-insiders-guide-to-finding-a-car-park-at-bronte-beach",
+      "pageName": "Insider's guide to finding a car park (Bronte)",
+      "priority": 1,
+      "ytdPageviews": 886,
+      "trafficShare": 3.42,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2023/11/20/an-insiders-guide-to-finding-a-car-park-at-bronte-beach"
+    },
+    {
+      "url": "/bondi-blog/city2surf-results",
+      "pageName": "City2Surf Results",
+      "priority": 1,
+      "ytdPageviews": 603,
+      "trafficShare": 2.33,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/city2surf-results"
+    },
+    {
+      "url": "/bondi-blog/2024/4/1/city2surf-course-map",
+      "pageName": "City2Surf Course Map",
+      "priority": 2,
+      "ytdPageviews": 300,
+      "trafficShare": 1.16,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2024/4/1/city2surf-course-map"
+    },
+    {
+      "url": "/bondi-blog/where-to-go-afterparty-city-to-surf",
+      "pageName": "City2Surf After-party",
+      "priority": 2,
+      "ytdPageviews": 278,
+      "trafficShare": 1.07,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/where-to-go-afterparty-city-to-surf"
+    },
+    {
+      "url": "/bondi-blog/ultimate-guide-city-to-surf",
+      "pageName": "City2Surf Ultimate Runners Guide",
+      "priority": 2,
+      "ytdPageviews": 451,
+      "trafficShare": 1.74,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/ultimate-guide-city-to-surf"
+    },
+    {
+      "url": "/bondi-blog/2024/3/19/bondis-best-running-routes",
+      "pageName": "Bondi's best running routes",
+      "priority": 2,
+      "ytdPageviews": 461,
+      "trafficShare": 1.78,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2024/3/19/bondis-best-running-routes"
+    },
+    {
+      "url": "/bondi-blog/sunrise-sunset-bondi",
+      "pageName": "Best Sunrise and Sunset",
+      "priority": 2,
+      "ytdPageviews": 373,
+      "trafficShare": 1.44,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/sunrise-sunset-bondi"
+    },
+    {
+      "url": "/bondi-blog/2024/9/12/why-bondi-beach-is-so-famous-history-fame-and-culture",
+      "pageName": "Why Bondi Beach is So Famous",
+      "priority": 2,
+      "ytdPageviews": 291,
+      "trafficShare": 1.12,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2024/9/12/why-bondi-beach-is-so-famous-history-fame-and-culture"
+    },
+    {
+      "url": "/bondi-blog/2023/10/18/bondi-beach-etiquette-guide",
+      "pageName": "Bondi Beach etiquette guide",
+      "priority": 3,
+      "ytdPageviews": 287,
+      "trafficShare": 1.11,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2023/10/18/bondi-beach-etiquette-guide"
+    },
+    {
+      "url": "/bondi-blog/2025/5/6/kids-eat-free-in-sydneys-eastern-suburbs-12-family-friendly-dining-deals",
+      "pageName": "Kids Eat Free",
+      "priority": 3,
+      "ytdPageviews": 257,
+      "trafficShare": 0.99,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2025/5/6/kids-eat-free-in-sydneys-eastern-suburbs-12-family-friendly-dining-deals"
+    },
+    {
+      "url": "/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide",
+      "pageName": "Average Sea Temperatures",
+      "priority": 2,
+      "ytdPageviews": 227,
+      "trafficShare": 0.88,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide"
+    },
+    {
+      "url": "/bondi-blog/2023/9/11/can-you-fly-a-drone-at-bondi-beach-the-dos-and-donts-of-aerial-photography",
+      "pageName": "Fly a Drone at Bondi",
+      "priority": 3,
+      "ytdPageviews": 204,
+      "trafficShare": 0.79,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2023/9/11/can-you-fly-a-drone-at-bondi-beach-the-dos-and-donts-of-aerial-photography"
+    },
+    {
+      "url": "/bondi-blog/bondi-icebergs-brand-takeover-ranked",
+      "pageName": "Best brand takeovers at Bondi",
+      "priority": 3,
+      "ytdPageviews": 188,
+      "trafficShare": 0.73,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/bondi-icebergs-brand-takeover-ranked"
+    },
+    {
+      "url": "/bondi-blog/2024/9/8/is-it-safe-to-swim-at-bondi-beach-a-complete-guide",
+      "pageName": "Is it Safe to Swim at Bondi Beach",
+      "priority": 2,
+      "ytdPageviews": 171,
+      "trafficShare": 0.66,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2024/9/8/is-it-safe-to-swim-at-bondi-beach-a-complete-guide"
+    },
+    {
+      "url": "/bondi-blog/2025/1/5/catch-the-waves-live-bondi-beach-surf-cam",
+      "pageName": "Catch the Waves Live (surf cam)",
+      "priority": 2,
+      "ytdPageviews": 144,
+      "trafficShare": 0.56,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2025/1/5/catch-the-waves-live-bondi-beach-surf-cam"
+    },
+    {
+      "url": "/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach",
+      "pageName": "Top 10 Bondi Cafés",
+      "priority": 2,
+      "ytdPageviews": 142,
+      "trafficShare": 0.55,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach"
+    },
+    {
+      "url": "/bondi-blog/2023/11/16/insiders-guide-to-the-bronte-ocean-pool",
+      "pageName": "Insider Guide to the Bronte ocean pool",
+      "priority": 3,
+      "ytdPageviews": 139,
+      "trafficShare": 0.54,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2023/11/16/insiders-guide-to-the-bronte-ocean-pool"
+    },
+    {
+      "url": "/bondi-blog/2025/1/20/locals-guide-to-free-bbq-spots-at-bondi-bronte-tamarama",
+      "pageName": "Free BBQ spots",
+      "priority": 3,
+      "ytdPageviews": 129,
+      "trafficShare": 0.5,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2025/1/20/locals-guide-to-free-bbq-spots-at-bondi-bronte-tamarama"
+    },
+    {
+      "url": "/bondi-blog/2024/9/18/guide-to-metal-detecting-at-bondi-beach",
+      "pageName": "Metal Detecting at Bondi",
+      "priority": 3,
+      "ytdPageviews": 128,
+      "trafficShare": 0.49,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2024/9/18/guide-to-metal-detecting-at-bondi-beach"
+    },
+    {
+      "url": "/bondi-blog/2025/4/25/10-must-try-bondi-beach-bars-backed-in-2025",
+      "pageName": "10 Must-Try Bondi Beach Bars",
+      "priority": 3,
+      "ytdPageviews": 120,
+      "trafficShare": 0.46,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2025/4/25/10-must-try-bondi-beach-bars-backed-in-2025"
+    },
+    {
+      "url": "/bondi-blog/bondi-commonly-asked-questions",
+      "pageName": "Bondi Bible (top 20 questions)",
+      "priority": 3,
+      "ytdPageviews": 118,
+      "trafficShare": 0.46,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/bondi-commonly-asked-questions"
+    },
+    {
+      "url": "/bondi-blog/2023/12/13/christmas-day-at-bondi-beach",
+      "pageName": "Christmas Day at Bondi Beach",
+      "priority": 3,
+      "ytdPageviews": 108,
+      "trafficShare": 0.42,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2023/12/13/christmas-day-at-bondi-beach"
+    },
+    {
+      "url": "/bondi-blog/2025/5/23/rain-or-shine-7-must-do-indoor-activities-in-bondi-beach-on-a-rainy-day",
+      "pageName": "Rain or Shine (indoor activities)",
+      "priority": 3,
+      "ytdPageviews": 90,
+      "trafficShare": 0.35,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2025/5/23/rain-or-shine-7-must-do-indoor-activities-in-bondi-beach-on-a-rainy-day"
+    },
+    {
+      "url": "/visit-bondi-beach",
+      "pageName": "About Visit Bondi Beach",
+      "priority": 3,
+      "ytdPageviews": 89,
+      "trafficShare": 0.34,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/visit-bondi-beach"
+    },
+    {
+      "url": "/bondi-blog/what-to-do-bondi-beach-travel-guide",
+      "pageName": "What To Do In Bondi Beach",
+      "priority": 2,
+      "ytdPageviews": 465,
+      "trafficShare": 1.79,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/what-to-do-bondi-beach-travel-guide"
+    },
+    {
+      "url": "/bondi-blog/best-accommodation-bondi-beach",
+      "pageName": "Accommodation (blog)",
+      "priority": 2,
+      "ytdPageviews": 130,
+      "trafficShare": 0.5,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/best-accommodation-bondi-beach"
+    },
+    {
+      "url": "/bondi-blog/2025/7/19/insider-guide-to-sundays-bondi-opening-hours-top-flavours-queue-hacks",
+      "pageName": "Insider Guide to Sundays Bondi",
+      "priority": 2,
+      "ytdPageviews": 353,
+      "trafficShare": 1.36,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/2025/7/19/insider-guide-to-sundays-bondi-opening-hours-top-flavours-queue-hacks"
+    },
+    {
+      "url": "/where-to-swim-at-bondi-beach",
+      "pageName": "Swimming at Bondi Beach (hub)",
+      "priority": 1,
+      "ytdPageviews": 849,
+      "trafficShare": 3.28,
+      "allowRedirect": false,
+      "expectedIndexable": true,
+      "expectedCanonical": "https://www.visitbondibeach.com/where-to-swim-at-bondi-beach",
+      "note": "Analytics title \"Swimming at Bondi Beach\" — CONFIRM: could be a distinct swimming article."
+    },
+    {
+      "url": "/bondi-blog/2025/4/25/must-experience-bondi-restaurants-our-top-10-best-restaurants-ranked",
+      "pageName": "Must Experience Bondi Restaurants",
+      "priority": 2,
+      "ytdPageviews": 134,
+      "trafficShare": 0.52,
+      "allowRedirect": true,
+      "approvedRedirectTo": "/bondi-blog/best-restaurants-bondi-beach",
+      "approvedOn": "2026-08-11",
+      "reason": "Same-intent consolidation onto the stronger \"best restaurants in Bondi\" page. Owner-approved.",
+      "expectedIndexable": false,
+      "expectedCanonical": "https://www.visitbondibeach.com/bondi-blog/best-restaurants-bondi-beach"
+    }
+  ],
+  "needsConfirmation": [
+    {
+      "name": "Visit Bondi Beach - Ultimate… (2075 views, 8.01%)",
+      "candidates": [
+        "/bondi-blog/2026/2/21/the-ultimate-bondi-beach-travel-guide-2026-edition",
+        "/bondi-blog/2025/4/30/ultimate-bondi-beach-travel-guide-how-to-get-there-when-to-visit-top-things-to-do",
+        "/bondi-blog/2025/3/8/the-ultimate-bondi-beach-travel-guide-must-see-spots-hidden-gems"
+      ]
+    },
+    {
+      "name": "An Insider's Guide To Bondi… (490 views)",
+      "candidates": []
+    },
+    {
+      "name": "2025 City To Surf Beginner’s… (376 views)",
+      "candidates": [
+        "/bondi-blog/2025/5/6/10-things-you-need-to-know-before-running-the-city2surf"
+      ]
+    },
+    {
+      "name": "Getting to Bondi Beach From… (227 views)",
+      "candidates": [
+        "/getting-to-bondi",
+        "/bondi-blog/2024/9/7/getting-to-sydney-marathon-from-bondi-beach"
+      ]
+    }
+  ]
+}
