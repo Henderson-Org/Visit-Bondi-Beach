@@ -4927,7 +4927,7 @@
   },
   {
     "id": "bru-coffee-bondi",
-    "name": "Bru Coffee Bondi",
+    "name": "Jacks North Bondi",
     "status": "open",
     "type": "cafe",
     "precinct": "north-bondi",
@@ -4966,35 +4966,35 @@
       "lively",
       "walk-ins"
     ],
-    "instagram": "https://www.instagram.com/brucoffeebondi/",
-    "summary": "A tiny, much-loved hole-in-the-wall on the North Bondi hill pouring Allpress coffee to a rolling crowd of swimmers, runners and locals.",
-    "whyGo": "This is the kind of unpretentious neighbourhood coffee window that Bondi does best — no dining room to speak of, just superbly made Allpress espresso, cold-pressed juices and a short, honest breakfast menu passed out to a permanent scrum of regulars. It's been going since 2007 and functions as much as a community meeting point as a cafe, with cyclists, ocean-swim groups and mums-and-bubs all crossing paths on the footpath out front. We'd choose it for the coffee-and-a-roll ritual rather than a sit-down brunch.",
-    "bestFor": "A quick, high-quality coffee and roll before or after a North Bondi swim",
-    "whatToOrder": "An Allpress flat white or long black; the \"Bondi Bad Boy\" egg-and-bacon slider, the acai bowl, Bircher muesli or quinoa porridge; a cold-pressed juice or green smoothie on a hot morning.",
-    "atmosphere": "Busy, chatty and casual — a footpath community hub with no real seating.",
-    "localTip": "There's no proper indoor seating and it gets packed, so grab your coffee to go and walk down to the North Bondi grass or beach. It trades mornings only, roughly 6am to early afternoon, so it's not a lunch or dinner option.",
+    "instagram": "https://www.instagram.com/jacksnorthbondi/",
+    "summary": "A North Bondi institution at the top of Brighton Boulevard — the much-loved coffee window formerly known as Bru, now Jacks, pouring Australian-grown single-origin coffee to a rolling crowd of swimmers, runners and locals.",
+    "whyGo": "This is the North Bondi coffee window locals have crossed the road for since the Bru days — now reborn as Jacks under Jack Murat, who grows his own specialty coffee up in Far North Queensland and pours it beachside here. It is as much a community meeting point as a cafe: ocean-swim groups, cyclists and dog-walkers all cross paths on the footpath out front. We would come for the coffee-and-a-roll ritual, especially the moment you crave most after a North Bondi swim — a hot cup in hand while you dry off in the sun.",
+    "bestFor": "Drying out with a coffee in hand after a North Bondi swim",
+    "whatToOrder": "A flat white made with Jacks own Australian-grown single-origin beans; a simple breakfast roll or bowl to take down to the grass.",
+    "atmosphere": "Busy, chatty and casual — a footpath community hub with little seating, humming from first light with the post-swim crowd.",
+    "localTip": "It is the perfect post-swim stop — grab a coffee straight after a dip at North Bondi and walk it down to the grass or the sand to dry off. There is little seating and it gets packed on weekend mornings, so it is built for grab-and-go rather than a sit-down brunch, and it trades mornings only.",
     "tradeOff": "It's a takeaway window up the hill, not a beachfront brunch spot — no views, minimal seating and no bookings, so it's for grabbing and going rather than lingering.",
     "ranking": {
       "foodScore": 7,
-      "localReputation": 8,
-      "uniqueness": 7,
+      "localReputation": 9,
+      "uniqueness": 9,
       "value": 8,
       "viewScore": 2,
       "visitorUsefulness": 6,
       "kidFriendliness": 7
     },
-    "score": 6.9,
+    "score": 7.3,
     "confidence": "high",
     "sources": [
-      "https://www.tripadvisor.com/Restaurant_Review-g947961-d5286238-Reviews-Bru_Coffee_Bondi-Bondi_Greater_Sydney_New_South_Wales.html",
-      "https://concreteplayground.com/sydney/restaurants/bru-coffee",
-      "https://www.theurbanlist.com/sydney/directory/bru-coffee",
-      "https://thebungalowsatbondi.com/experiences/bru-coffee/",
-      "https://responsiblecafes.org/spilling-the-beans-with-bru-coffee-bondi/",
-      "https://www.instagram.com/brucoffeebondi/",
-      "https://au.sluurpy.com/bondi/restaurant/4573947/bru-coffee-bondi"
+      "https://www.jacksnorthbondi.com.au/",
+      "https://jackmurat.com/pages/north-bondi",
+      "https://www.instagram.com/jacksnorthbondi/",
+      "https://www.corner.inc/place/708936",
+      "https://concreteplayground.com/sydney/restaurants/bru-coffee"
     ],
-    "lastVerifiedAt": "2026-08-10"
+    "lastVerifiedAt": "2026-08-11",
+    "formerName": "Bru Coffee",
+    "website": "https://www.jacksnorthbondi.com.au/"
   },
   {
     "id": "el-topo-mexican",
