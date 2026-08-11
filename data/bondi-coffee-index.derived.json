@@ -1,0 +1,27 @@
+{
+  "generatedFrom": "data/bondi-coffee-index.csv",
+  "totalObservations": 0,
+  "headlineObservations": 0,
+  "lowConfidenceExcluded": 0,
+  "years": [],
+  "index": {
+    "latest": null,
+    "earliest": null
+  },
+  "byYear": {},
+  "trend": [],
+  "fiveYear": null,
+  "ranked": [],
+  "cheapest": null,
+  "dearest": null,
+  "currentBands": null,
+  "currentN": 0,
+  "matched": {
+    "n": 0,
+    "medianFrom": null,
+    "medianTo": null,
+    "medianPct": null,
+    "rows": []
+  },
+  "coveragePerYear": {}
+}
