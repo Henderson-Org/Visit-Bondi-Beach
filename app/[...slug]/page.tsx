@@ -37,55 +37,12 @@ import { LanguageLinks } from '@/components/LanguageLinks';
 import { TranslatedArticle } from '@/components/TranslatedArticle';
 import { splitLocalePath, hreflangAlternates, localizedPath, LOCALE_OG, LOCALE_PREFIX } from '@/lib/i18n';
 import { getTranslation, availableLocales, allTranslations } from '@/lib/translations';
+// Redirect/owned registry (content/redirected-paths.json). Paths that 301 elsewhere or are
+// served by a dedicated route — don't statically generate them here or they'd shadow the
+// redirect with a dead page. Also gates translations so they follow their English page's status.
+import { REDIRECTED_PATHS, OWNED_BY_ROUTE, isRedirectedOrOwned } from '@/lib/redirects';
 
 export const dynamicParams = true;
-
-// Statically generate all clean paths. Percent/plus-encoded slugs (a handful of
-// category/tag archives) are resolved on demand to avoid build-time encoding issues.
-// Paths handled elsewhere (a dedicated app route + a 301) — don't statically
-// generate them here or they'd shadow the redirect with a dead page.
-const REDIRECTED_PATHS = new Set([
-  '/accommodation',
-  '/visit-bondi-beach-guide',
-  '/bondi-blog',
-  // Consolidated duplicates (301 to a stronger page — see next.config.mjs).
-  '/bondi-blog/2026/3/24/bondis-best-cafs-right-now-where-to-eat-sip-and-soak-up-the-beach-vibe',
-  '/bondi-blog/2025/6/26/ranked-bondis-top-10-coffee-spots-you-cant-miss',
-  '/bondi-blog/2024/1/19/bondis-best-coffee-shops',
-  '/bondi-blog/2024/12/1/ranked-20-most-dramatic-bondi-rescue-rescues',
-  '/bondi-blog/2025/4/29/behind-the-scenes-at-bondi-rescue-20-things-you-may-not-know-about-the-show',
-  '/bondi-blog/meet-bondi-lifeguards',
-  // Cannibalisation consolidation round 2 (see next.config.mjs).
-  '/bondi-blog/why-is-bondi-so-popular',
-  '/bondi-blog/why-is-bondi-beach-famous',
-  '/bondi-blog/2018/10/17/when-is-the-best-time-to-visit-bondi-beach',
-  '/bondi-blog/2025/3/8/best-time-to-visit-bondi-beach-seasonal-guide-to-weather-events',
-  '/bondi-blog/2024/9/21/locals-guide-to-bondi-beachs-best-ice-cream',
-  '/bondi-blog/2018/9/11/how-far-is-bondi-beach-from-sydney',
-  '/bondi-blog/transport-to-bondi-beach',
-  '/bondi-blog/2025/4/29/ultimate-wet-weather-guide-to-bondi-rainy-day-activities-tips',
-  '/bondi-blog/2023/11/5/things-to-do-at-bondi-beach-in-the-rain',
-  // Round 3 (see next.config.mjs).
-  '/bondi-blog/2023/11/8/definitive-guide-to-bondis-best-restaurants',
-  '/bondi-blog/2025/4/25/must-experience-bondi-restaurants-our-top-10-best-restaurants-ranked',
-  '/bondi-blog/best-time-to-visit-bondi-beach',
-  '/bondi-blog/2017/4/28/city2surf-time-to-start-training',
-  '/bondi-blog/city-to-surf-training-plan',
-  '/bondi-blog/2024/7/25/help-3-week-city2surf-training-plan',
-  // Round 4 (owner-approved 2026-08-11 — see next.config.mjs).
-  '/bondi-blog/2026/2/21/the-ultimate-bondi-beach-travel-guide-2026-edition',
-  '/bondi-blog/2025/4/30/ultimate-bondi-beach-travel-guide-how-to-get-there-when-to-visit-top-things-to-do',
-  '/bondi-blog/2025/3/8/the-ultimate-bondi-beach-travel-guide-must-see-spots-hidden-gems',
-  '/bondi-blog/2025/1/5/who-can-swim-at-bondi-icebergs-ocean-pool',
-  '/bondi-blog/access-bondi-icebergs-pool',
-  '/bondi-blog/is-bondi-icebergs-pool-heated',
-  '/bondi-blog/how-long-is-bondi-icebergs-poo',
-]);
-
-// Paths that live in the content index but are now served by a dedicated app route
-// (which owns their canonical + sitemap entry). Excluded here so the catch-all doesn't
-// statically generate a duplicate that clashes with the real route.
-const OWNED_BY_ROUTE = new Set(['/bondi-eat-and-drink']);
 
 export function generateStaticParams() {
   const english = allContentPaths()
@@ -109,7 +66,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // back to English), a reciprocal hreflang cluster identical to the English original's, unique
   // translated title/description, and og:locale. Missing translation → generic (route notFound()s).
   if (locale) {
-    const tx = getTranslation(locale, path);
+    const tx = isRedirectedOrOwned(path) ? undefined : getTranslation(locale, path);
     if (!tx) return { title: 'Page not found' };
     const canonical = localizedPath(path, locale);
     const title = tx.h1 || tx.title;
@@ -177,7 +134,9 @@ export default async function CatchAllPage({ params }: Props) {
   // No fallback to English content under a translated URL (that would be a soft-404 duplicate).
   const { locale, path } = splitLocalePath(slug);
   if (locale) {
-    const tx = getTranslation(locale, path);
+    // A translation is served only while its English base is a live page — never when that base
+    // is redirected/owned (else the locale URL would be an orphan whose hreflang points at a 301).
+    const tx = isRedirectedOrOwned(path) ? undefined : getTranslation(locale, path);
     if (!tx) notFound();
     return <TranslatedArticle page={tx} locale={locale} />;
   }

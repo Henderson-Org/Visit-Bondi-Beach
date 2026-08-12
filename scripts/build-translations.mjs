@@ -21,6 +21,7 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, '..');
 const DIR = join(ROOT, 'content', 'translations');
 const PAGES = join(ROOT, 'content', 'pages.json');
+const REDIRECTS = join(ROOT, 'content', 'redirected-paths.json');
 const OUT = join(ROOT, 'content', 'translation-overrides.json');
 const LOCALES = new Set(['ja', 'zh-cn', 'es', 'pt', 'de', 'nl', 'it']);
 
@@ -62,6 +63,10 @@ function validateBlock(file, b, i) {
 
 async function main() {
   const knownPaths = new Set(JSON.parse(await readFile(PAGES, 'utf8')).map((p) => p.path));
+  // A translation must never exist for a redirected/removed English base, or its hreflang would
+  // point at a 301/404. Refuse to compile one so stale files are caught here, not shipped silently.
+  const redir = JSON.parse(await readFile(REDIRECTS, 'utf8'));
+  const redirected = new Set([...(redir.redirected || []), ...(redir.ownedByRoute || [])]);
   const map = {};
   let fileCount = 0;
   for (const locale of LOCALES) {
@@ -73,6 +78,7 @@ async function main() {
       if (rec.locale && rec.locale !== locale) fail(rel, `locale field "${rec.locale}" != folder "${locale}"`);
       if (!isStr(rec.path)) fail(rel, 'missing "path"');
       if (!knownPaths.has(rec.path)) fail(rel, `path "${rec.path}" not in content/pages.json`);
+      if (redirected.has(rec.path)) fail(rel, `path "${rec.path}" is redirected/owned (see content/redirected-paths.json) — a translation must not exist for it; remove this file or re-point it at the surviving URL`);
       if (!Array.isArray(rec.blocks) || !rec.blocks.length) fail(rel, 'requires non-empty "blocks"');
       if (!isStr(rec.title) || !isStr(rec.h1)) fail(rel, 'requires "title" and "h1"');
       rec.blocks.forEach((b, i) => validateBlock(rel, b, i));

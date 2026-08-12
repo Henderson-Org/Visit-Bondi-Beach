@@ -71,6 +71,21 @@ structured data never drift.
    npx tsc --noEmit && npm run build
    ```
 
+## Translations follow their English page (redirect / removal guard)
+
+A translation is only ever live while its English base is a real, non-redirected page. The
+redirect/owned registry is `content/redirected-paths.json` (read at runtime by `lib/redirects.ts`
+and at build time by `scripts/build-translations.mjs`). If an English article is **301-redirected**
+(added to that list + `next.config.mjs`) or **removed** from `content/pages.json`, its translations
+automatically stop being generated, served (`/xx/…` → 404), sitemapped, and advertised in any
+hreflang cluster — in lock-step. This prevents the classic failure where an hreflang points at a
+301/404 after an English URL is consolidated.
+
+Because of this, **when you redirect or remove an English article, also delete (or re-point at the
+surviving URL) its `content/translations/<locale>/<slug>.json` files.** `build-translations.mjs`
+hard-fails if a translation still references a redirected/removed base, so a stale file is caught at
+build time rather than shipped.
+
 ## Block types
 
 Same shapes as English bodies (see `content/bodies/README.md`): `p`, `h2`, `h3`, `li`, `quote`,
