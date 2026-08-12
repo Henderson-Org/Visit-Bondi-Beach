@@ -6,7 +6,7 @@ const TYPE_LABEL: Record<string, string> = {
   cafe: 'Café', restaurant: 'Restaurant', bar: 'Bar', pub: 'Pub', takeaway: 'Takeaway', bakery: 'Bakery',
 };
 
-/** Price as $–$$$$. Render ONLY the active glyphs — padding out to four with muted signs
+/** Price as $–$$$$. Render ONLY the active glyphs - padding out to four with muted signs
  *  makes a $$ venue read as "$$$$" at a glance (mirrors the Stay price treatment). */
 function Price({ level }: { level: number }) {
   return (
@@ -17,7 +17,7 @@ function Price({ level }: { level: number }) {
 }
 
 /**
- * Venue card for the Eat & Drink engine — reused across collection pages, the hub and
+ * Venue card for the Eat & Drink engine - reused across collection pages, the hub and
  * in-article lists. Links to the internal venue guide where one exists; otherwise the
  * heading is plain and the CTA points to the venue's own site (never a fabricated link).
  */

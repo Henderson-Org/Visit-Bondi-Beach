@@ -3,35 +3,35 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-10",
   "sources": [
-    { "label": "City2Surf 2026 results — Multisport Australia", "url": "https://www.multisportaustralia.com.au/races/city2surf-2026" },
-    { "label": "City2Surf — official site (results & event history)", "url": "https://city2surf.com.au/" },
-    { "label": "City2Surf — official course info (route, Heartbreak Hill, finish)", "url": "https://city2surf.com.au/event-info/course-info/" },
-    { "label": "City2Surf (Sydney) — Wikipedia (records, history, distance)", "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)" },
-    { "label": "Ausrunning — City to Surf rankings and results archive (1971–)", "url": "https://ausrunning.net/misc/city-to-surf/" }
+    { "label": "City2Surf 2026 results - Multisport Australia", "url": "https://www.multisportaustralia.com.au/races/city2surf-2026" },
+    { "label": "City2Surf - official site (results & event history)", "url": "https://city2surf.com.au/" },
+    { "label": "City2Surf - official course info (route, Heartbreak Hill, finish)", "url": "https://city2surf.com.au/event-info/course-info/" },
+    { "label": "City2Surf (Sydney) - Wikipedia (records, history, distance)", "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)" },
+    { "label": "Ausrunning - City to Surf rankings and results archive (1971–)", "url": "https://ausrunning.net/misc/city-to-surf/" }
   ],
   "blocks": [
     { "type": "callout", "tone": "note", "title": "2026 results are live", "text": "Search the **[official City2Surf 2026 results on Multisport Australia →](https://www.multisportaustralia.com.au/races/city2surf-2026)** by your name or bib number to pull up your finish time, category place and splits." },
     { "type": "h2", "text": "Where to find your result, year by year" },
-    { "type": "p", "text": "I get asked this a lot — usually by someone who ran once years ago and wants to prove to their kids they did it. The good news is the results don't disappear. Here's where the accurate records actually live:" },
+    { "type": "p", "text": "I get asked this a lot - usually by someone who ran once years ago and wants to prove to their kids they did it. The good news is the results don't disappear. Here's where the accurate records actually live:" },
     { "type": "list", "items": [
-      "Official results search — city2surf.com.au keeps a searchable database of past events. Search by first and last name, or by bib number if you still have it.",
-      "Ausrunning's archive — a runner-maintained record of placings and elite times all the way back to the first run in 1971, handy for comparing winners and fields across the decades.",
-      "Your confirmation email or charity page — if you fundraised through the official platform, your entry and result are usually linked to that account."
+      "Official results search - city2surf.com.au keeps a searchable database of past events. Search by first and last name, or by bib number if you still have it.",
+      "Ausrunning's archive - a runner-maintained record of placings and elite times all the way back to the first run in 1971, handy for comparing winners and fields across the decades.",
+      "Your confirmation email or charity page - if you fundraised through the official platform, your entry and result are usually linked to that account."
     ] },
     { "type": "localTip", "text": "Names are stored exactly as you registered them, so if a search comes up empty, try a nickname, a maiden name, or your surname alone. Misspelled and hyphenated names are the number-one reason people think their result 'vanished'." },
-    { "type": "h2", "text": "The records — and the course they were run on" },
+    { "type": "h2", "text": "The records - and the course they were run on" },
     { "type": "quickFacts", "items": [
-      { "label": "Distance", "value": "13.907 km — Sydney CBD to Bondi" },
+      { "label": "Distance", "value": "13.907 km - Sydney CBD to Bondi" },
       { "label": "Elevation gain", "value": "≈221 m over the course" },
-      { "label": "Men's record", "value": "Steve Moneghetti — 40:02 (1991)" },
-      { "label": "Women's record", "value": "Susie Power — 45:08 (2001)" },
-      { "label": "First run", "value": "5 September 1971 — 1,576 starters" }
+      { "label": "Men's record", "value": "Steve Moneghetti - 40:02 (1991)" },
+      { "label": "Women's record", "value": "Susie Power - 45:08 (2001)" },
+      { "label": "First run", "value": "5 September 1971 - 1,576 starters" }
     ] },
-    { "type": "p", "text": "Both outright course records were set decades ago and have never been beaten, so whatever year you ran, the field was chasing times already on the books. Moneghetti's 40:02 is the mark the elite men still measure themselves against — and remember, he ran it including Heartbreak Hill." },
-    { "type": "p", "text": "It helps to know the ground under those numbers. The course starts in the CBD by Hyde Park, drops down William Street and through the Kings Cross Tunnel, then follows New South Head Road out through the harbourside suburbs. Heartbreak Hill is the two-kilometre climb from Rose Bay up to Vaucluse, hitting at roughly the halfway mark — the reason so many personal times swing on one section. From there it runs down to the finish on Queen Elizabeth Drive, right at Bondi Beach." },
-    { "type": "p", "text": "The bigger story of the modern era isn't the pointy end, though — it's the scale. The event grew into the largest timed fun run of its kind in the world, cresting around 80,000 entrants for its 40th anniversary in 2010. That's why everyone sets off in colour-coded waves seeded by expected finish time: you can't put that many people on one line." },
+    { "type": "p", "text": "Both outright course records were set decades ago and have never been beaten, so whatever year you ran, the field was chasing times already on the books. Moneghetti's 40:02 is the mark the elite men still measure themselves against - and remember, he ran it including Heartbreak Hill." },
+    { "type": "p", "text": "It helps to know the ground under those numbers. The course starts in the CBD by Hyde Park, drops down William Street and through the Kings Cross Tunnel, then follows New South Head Road out through the harbourside suburbs. Heartbreak Hill is the two-kilometre climb from Rose Bay up to Vaucluse, hitting at roughly the halfway mark - the reason so many personal times swing on one section. From there it runs down to the finish on Queen Elizabeth Drive, right at Bondi Beach." },
+    { "type": "p", "text": "The bigger story of the modern era isn't the pointy end, though - it's the scale. The event grew into the largest timed fun run of its kind in the world, cresting around 80,000 entrants for its 40th anniversary in 2010. That's why everyone sets off in colour-coded waves seeded by expected finish time: you can't put that many people on one line." },
     { "type": "h2", "text": "Reading your result like a local" },
-    { "type": "p", "text": "When you pull up an old result, look past the gun time. Your net (chip) time — measured from when you actually crossed the start mat — is the fairer number if you went off in a back wave. Your category placing shows how you fared against your own age group, not the elites. And if you ran more than one year, line the net times up side by side: that's the real story of your City2Surf." },
+    { "type": "p", "text": "When you pull up an old result, look past the gun time. Your net (chip) time - measured from when you actually crossed the start mat - is the fairer number if you went off in a back wave. Your category placing shows how you fared against your own age group, not the elites. And if you ran more than one year, line the net times up side by side: that's the real story of your City2Surf." },
     { "type": "faq", "items": [
       { "q": "Where can I find City2Surf results for a specific year?", "a": "For 2026, use the Multisport Australia results page at multisportaustralia.com.au/races/city2surf-2026. For other years, search the official portal at city2surf.com.au by name or bib number and choose the event year. For historical placings and elite times going back to 1971, the Ausrunning City to Surf archive is the most complete public record." },
       { "q": "Why can't I find my result in the search?", "a": "Almost always it's a name mismatch. Try your surname alone, any nickname or maiden name you may have registered under, and double-check the year. If you have your old bib number, searching by that is the most reliable method." },

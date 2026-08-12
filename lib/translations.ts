@@ -22,7 +22,7 @@ const key = (locale: Locale, path: string) => `${locale}::${path}`;
 /**
  * A translation is "live" only while its English base is a real, non-redirected page. This makes
  * translations automatically follow their English page: redirect or remove the English article and
- * its translations stop being generated, served, sitemapped and hreflang-advertised in lock-step —
+ * its translations stop being generated, served, sitemapped and hreflang-advertised in lock-step -
  * so no hreflang ever points at a 301/404 (the classic way a translation cluster rots).
  */
 function isLiveBase(path: string): boolean {
@@ -52,7 +52,7 @@ export function availableLocales(path: string): Locale[] {
 
 /**
  * The translated H1/title for (locale, path), or undefined if there's no live translation.
- * Lightweight (no block overlay) — for linking to same-language pages (e.g. Read-next cards).
+ * Lightweight (no block overlay) - for linking to same-language pages (e.g. Read-next cards).
  */
 export function translatedTitle(locale: Locale, path: string): string | undefined {
   if (!isLiveBase(path)) return undefined;
@@ -60,7 +60,7 @@ export function translatedTitle(locale: Locale, path: string): string | undefine
   return ov ? ov.h1 || ov.title : undefined;
 }
 
-/** Every live (locale, path) that has a translation — for generateStaticParams + the sitemap. */
+/** Every live (locale, path) that has a translation - for generateStaticParams + the sitemap. */
 export function allTranslations(): { locale: Locale; path: string }[] {
   return Object.keys(TX)
     .map((k) => {

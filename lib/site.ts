@@ -17,8 +17,8 @@ export const PROD_ORIGIN = `https://${PROD_HOST}`;
 export function siteOrigin(): string {
   const explicit = process.env.NEXT_PUBLIC_SITE_ORIGIN;
   if (explicit) return explicit.replace(/\/$/, '');
-  // In production, always emit the real canonical domain — even when the request
-  // is served from a *.vercel.app alias — so canonicals/OG/JSON-LD never point at
+  // In production, always emit the real canonical domain - even when the request
+  // is served from a *.vercel.app alias - so canonicals/OG/JSON-LD never point at
   // the Vercel URL. This means launch needs only NEXT_PUBLIC_IS_PRODUCTION=true.
   if (isProduction()) return PROD_ORIGIN;
   const vercel = process.env.VERCEL_URL;
@@ -39,7 +39,7 @@ export const SITE = {
   name: 'Visit Bondi Beach',
   tagline: "The local's guide to Sydney's Bondi Beach",
   description:
-    "The local's guide to Sydney's Bondi Beach — where to swim, eat, stay and explore across Bondi and the Eastern Beaches.",
+    "The local's guide to Sydney's Bondi Beach - where to swim, eat, stay and explore across Bondi and the Eastern Beaches.",
   instagram: 'https://instagram.com/visitbondibeach',
 } as const;
 
@@ -57,8 +57,8 @@ export const AUTHOR = {
   // (see authorJsonLd in lib/structured-data.ts). Kept as a fragment on the author page.
   id: `${PROD_ORIGIN}/visit-bondi-beach#editorial-team`,
   tagline: 'Bondi locals',
-  bio: 'We’re a team of five Bondi locals with more than 60 years of living at Bondi Beach between us — writing the guides we wish visitors had.',
-  // What the team is expert in — ties the author entity to the topics it covers for E-E-A-T.
+  bio: 'We’re a team of five Bondi locals with more than 60 years of living at Bondi Beach between us - writing the guides we wish visitors had.',
+  // What the team is expert in - ties the author entity to the topics it covers for E-E-A-T.
   knowsAbout: ['Bondi Beach', 'Eastern Suburbs Sydney', 'ocean swimming', 'coastal walks', 'Sydney travel'],
 } as const;
 
@@ -75,7 +75,7 @@ export const NAV = [
 
 /**
  * The full topic-hub set, grouped for the footer mega-nav (the site's crawlable authority
- * backbone: every hub is one click from every page). Groups mirror the target IA — a spoke
+ * backbone: every hub is one click from every page). Groups mirror the target IA - a spoke
  * should never be more than a couple of hops from any page. Keep every href a real hub page.
  */
 export const HUB_NAV: { group: string; items: { label: string; href: string }[] }[] = [

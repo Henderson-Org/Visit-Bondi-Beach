@@ -6,7 +6,7 @@ import type { ResolvedEvent } from '@/lib/events';
 
 /**
  * Shared view for the indexable What's On landing pages (today / this weekend / free /
- * markets). Server-rendered and date-aware. Empty is a valid, useful state here — the
+ * markets). Server-rendered and date-aware. Empty is a valid, useful state here - the
  * page still answers the question ("nothing today, here's the weekend") rather than 404.
  */
 export function WhatsOnLandingView({

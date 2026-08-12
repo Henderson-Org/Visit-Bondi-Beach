@@ -1,5 +1,5 @@
 /**
- * selectMealAnchor — the pivotal step. When food matters, we pick the best specific
+ * selectMealAnchor - the pivotal step. When food matters, we pick the best specific
  * venue(s) FIRST and reserve their meal-time blocks, then the rest of the day is built
  * around reaching them. Anchors are chosen for quality (proximity is ignored here on
  * purpose, so a better restaurant isn't dropped to save a short walk).
@@ -47,7 +47,7 @@ function plannedSlots(prefs: Preferences, o: AnchorOpts): MealSlot[] {
     prefs.foodStyles.includes('sunset-drinks');
 
   // A short visit for someone who didn't ask about food shouldn't be forced into a full
-  // meal — let experiences (a coffee/viewpoint) fill it instead.
+  // meal - let experiences (a coffee/viewpoint) fill it instead.
   if (!o.foodPriority && !wantCoffee && o.windowEnd - o.windowStart <= 150) return [];
 
   const slots: MealSlot[] = [];

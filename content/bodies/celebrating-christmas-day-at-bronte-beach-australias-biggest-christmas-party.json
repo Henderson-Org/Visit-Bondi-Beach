@@ -3,29 +3,29 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Waverley Council — Beaches and coast", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
-    { "label": "Waverley Council — Alcohol Free Zones and Alcohol Prohibited Areas", "url": "https://www.waverley.nsw.gov.au" },
-    { "label": "Beachsafe (Surf Life Saving Australia) — Bronte Beach", "url": "https://beachsafe.org.au/beach/nsw/waverley/bronte/bronte-beach" },
-    { "label": "Transport for NSW — Public holiday timetables", "url": "https://transportnsw.info/" }
+    { "label": "Waverley Council - Beaches and coast", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
+    { "label": "Waverley Council - Alcohol Free Zones and Alcohol Prohibited Areas", "url": "https://www.waverley.nsw.gov.au" },
+    { "label": "Beachsafe (Surf Life Saving Australia) - Bronte Beach", "url": "https://beachsafe.org.au/beach/nsw/waverley/bronte/bronte-beach" },
+    { "label": "Transport for NSW - Public holiday timetables", "url": "https://transportnsw.info/" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you've heard that Bronte Beach is where Sydney throws its big Christmas Day beach party, you've heard right — for years Bronte has been the go-to gathering for backpackers, working travellers and locals who fancy an outdoor Christmas over a formal lunch. The grassy park behind the sand fills with picnics, cricket and Santa-hatted swimmers, and it has a reputation as one of the city's largest travellers' Christmas get-togethers. Here's what the day is like, and how to do it well — it's a brilliant day out if you turn up prepared and respectful." },
+    { "type": "p", "text": "If you've heard that Bronte Beach is where Sydney throws its big Christmas Day beach party, you've heard right - for years Bronte has been the go-to gathering for backpackers, working travellers and locals who fancy an outdoor Christmas over a formal lunch. The grassy park behind the sand fills with picnics, cricket and Santa-hatted swimmers, and it has a reputation as one of the city's largest travellers' Christmas get-togethers. Here's what the day is like, and how to do it well - it's a brilliant day out if you turn up prepared and respectful." },
     { "type": "quickFacts", "items": [
       { "label": "When", "value": "December 25, from mid-morning" },
       { "label": "Where", "value": "Bronte Beach and Park, Waverley" },
       { "label": "Vibe", "value": "Busy, international, friendly" },
-      { "label": "Alcohol", "value": "Restricted — check Waverley Council" },
+      { "label": "Alcohol", "value": "Restricted - check Waverley Council" },
       { "label": "Cost", "value": "Free (the beach and park)" },
       { "label": "Don't forget", "value": "Sunscreen, water, a rubbish bag" }
     ] },
     { "type": "h2", "text": "Why Bronte on Christmas Day" },
     { "type": "p", "text": "What makes Bronte different from Bondi on the 25th is the park. A wide band of grass, shade trees and public barbecues sits right behind the beach, so instead of everyone crammed onto the sand you get a proper picnic ground overlooking the ocean. Over the years that made Bronte the natural meeting point for travellers spending Christmas far from home." },
     { "type": "h2", "text": "What the day actually feels like" },
-    { "type": "p", "text": "People drift down from mid-morning and settle in for the long haul. You'll see picnic rugs and Esky lunches, backyard cricket on the grass, groups swapping stories in a dozen accents, and a steady stream of people cooling off in the ocean and the Bronte rock pool. It's relaxed rather than rowdy — closer to a giant shared picnic than a nightclub — and easy to fall in with a crowd." },
-    { "type": "callout", "tone": "warning", "title": "Check the alcohol rules before you pack", "text": "Bronte's beach and park fall under Waverley Council's alcohol-free and alcohol-prohibited area rules, and police manage the area closely at Christmas. Restrictions and enforcement change year to year, so check Waverley Council for the current rules before you assume you can bring drinks — and leave glass at home regardless." },
+    { "type": "p", "text": "People drift down from mid-morning and settle in for the long haul. You'll see picnic rugs and Esky lunches, backyard cricket on the grass, groups swapping stories in a dozen accents, and a steady stream of people cooling off in the ocean and the Bronte rock pool. It's relaxed rather than rowdy - closer to a giant shared picnic than a nightclub - and easy to fall in with a crowd." },
+    { "type": "callout", "tone": "warning", "title": "Check the alcohol rules before you pack", "text": "Bronte's beach and park fall under Waverley Council's alcohol-free and alcohol-prohibited area rules, and police manage the area closely at Christmas. Restrictions and enforcement change year to year, so check Waverley Council for the current rules before you assume you can bring drinks - and leave glass at home regardless." },
     { "type": "h2", "text": "Swim safety and the sun" },
-    { "type": "p", "text": "Bronte is a patrolled beach, but it's also known for a strong rip near the southern rocks, so treat the water with respect. Swim between the red and yellow flags where the lifeguards are watching, and if no flags are up, stay out. The calm Bronte rock pool is a good alternative if the surf is big or you've got kids. Never swim after drinking — alcohol is behind a huge share of avoidable rescues, and even strong swimmers get caught out." },
-    { "type": "localTip", "text": "The late-December Sydney sun is fierce — much stronger than a northern-hemisphere winter sun, and it catches visitors out fast. Slip on a shirt, slop on SPF50+ and reapply, grab a hat, and bring shade and plenty of water. The shady spots in Bronte Park go early, so arrive in good time if you want a tree." },
+    { "type": "p", "text": "Bronte is a patrolled beach, but it's also known for a strong rip near the southern rocks, so treat the water with respect. Swim between the red and yellow flags where the lifeguards are watching, and if no flags are up, stay out. The calm Bronte rock pool is a good alternative if the surf is big or you've got kids. Never swim after drinking - alcohol is behind a huge share of avoidable rescues, and even strong swimmers get caught out." },
+    { "type": "localTip", "text": "The late-December Sydney sun is fierce - much stronger than a northern-hemisphere winter sun, and it catches visitors out fast. Slip on a shirt, slop on SPF50+ and reapply, grab a hat, and bring shade and plenty of water. The shady spots in Bronte Park go early, so arrive in good time if you want a tree." },
     { "type": "h2", "text": "Leave it better than you found it" },
     { "type": "p", "text": "The one blemish on Bronte's Christmas is the mess a big crowd can leave behind. Overflowing bins and litter are hard on the wildlife and on the residents who share this beach year-round, and it's easily avoided if everyone chips in:" },
     { "type": "list", "items": [
@@ -36,11 +36,11 @@
       "Follow any directions from rangers, lifeguards and police on the day."
     ] },
     { "type": "h2", "text": "Getting there" },
-    { "type": "p", "text": "Christmas Day is a NSW public holiday, so public transport runs to a holiday timetable and nearby cafés and shops are likely closed or on reduced hours — bring your food and water. Check Transport for NSW before you set out. Bronte's parking is limited and fills early on a warm 25th, so a bus or an early arrival saves a lot of circling." },
+    { "type": "p", "text": "Christmas Day is a NSW public holiday, so public transport runs to a holiday timetable and nearby cafés and shops are likely closed or on reduced hours - bring your food and water. Check Transport for NSW before you set out. Bronte's parking is limited and fills early on a warm 25th, so a bus or an early arrival saves a lot of circling." },
     { "type": "faq", "items": [
       { "q": "Is Bronte really Australia's biggest Christmas party?", "a": "Bronte has a long-standing reputation as one of Sydney's largest Christmas Day beach gatherings, especially among travellers, thanks to the big grassy park behind the beach. It's famous rather than officially ranked, so treat 'biggest' as reputation, not a measured fact." },
       { "q": "Can I drink alcohol at Bronte on Christmas Day?", "a": "Bronte's beach and park fall under Waverley Council's alcohol-free and alcohol-prohibited area rules, and enforcement is tight at Christmas. The rules can change year to year, so check Waverley Council for the current details and leave glass at home either way." },
-      { "q": "Is it safe to swim at Bronte on Christmas Day?", "a": "Only between the red and yellow flags, and only if you're sober. Bronte is patrolled but has a strong rip near the southern rocks. If no flags are up, don't swim — the calm rock pool is a safer alternative." },
+      { "q": "Is it safe to swim at Bronte on Christmas Day?", "a": "Only between the red and yellow flags, and only if you're sober. Bronte is patrolled but has a strong rip near the southern rocks. If no flags are up, don't swim - the calm rock pool is a safer alternative." },
       { "q": "Will cafés and shops nearby be open?", "a": "Assume most are closed or on reduced hours, since Christmas Day is a NSW public holiday. Bring your own picnic, water and snacks." },
       { "q": "How do I get to Bronte on Christmas Day?", "a": "Public transport runs to a holiday timetable, so check Transport for NSW before you travel. Parking is limited and fills early, so a bus or an early arrival is easier." }
     ] },

@@ -3,14 +3,14 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Waverley Council — Beaches & Coast", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
+    { "label": "Waverley Council - Beaches & Coast", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
     { "label": "NSW National Parks & Wildlife Service", "url": "https://www.nationalparks.nsw.gov.au/" },
-    { "label": "Heritage NSW — Aboriginal cultural heritage", "url": "https://www.heritage.nsw.gov.au/aboriginal-culture-heritage/" },
-    { "label": "NSW Police — Lost & found property", "url": "https://www.police.nsw.gov.au/" },
-    { "label": "Bureau of Meteorology — NSW tide predictions", "url": "http://www.bom.gov.au/australia/tides/" }
+    { "label": "Heritage NSW - Aboriginal cultural heritage", "url": "https://www.heritage.nsw.gov.au/aboriginal-culture-heritage/" },
+    { "label": "NSW Police - Lost & found property", "url": "https://www.police.nsw.gov.au/" },
+    { "label": "Bureau of Meteorology - NSW tide predictions", "url": "http://www.bom.gov.au/australia/tides/" }
   ],
   "blocks": [
-    { "type": "p", "text": "Can you go metal detecting at Bondi Beach? In short, yes — swinging a detector across the open sand is a hobby plenty of locals quietly enjoy, and you don't need a special licence to do it on a public NSW beach. But a few sensible rules and courtesies keep it legal and the lifeguards onside, so before you start digging, here's how to do it properly." },
+    { "type": "p", "text": "Can you go metal detecting at Bondi Beach? In short, yes - swinging a detector across the open sand is a hobby plenty of locals quietly enjoy, and you don't need a special licence to do it on a public NSW beach. But a few sensible rules and courtesies keep it legal and the lifeguards onside, so before you start digging, here's how to do it properly." },
     { "type": "quickFacts", "items": [
       { "label": "Licence needed?", "value": "No licence for public-beach detecting in NSW" },
       { "label": "Best time", "value": "Early morning, at or near low tide" },
@@ -18,34 +18,34 @@
       { "label": "Golden rule", "value": "Leave no holes, leave no trace" }
     ] },
     { "type": "h2", "text": "The rules: what's actually allowed" },
-    { "type": "p", "text": "In New South Wales you generally don't need a permit or fossicking licence to metal detect on a public beach, and the wet sand below the high-tide line is Crown land. What complicates it is that beaches sit under local council control, and the rules genuinely vary. Bondi is managed by Waverley Council, so they are the final word on whether, when and where detecting is permitted here — I'd check their current guidance or call them before a first outing." },
+    { "type": "p", "text": "In New South Wales you generally don't need a permit or fossicking licence to metal detect on a public beach, and the wet sand below the high-tide line is Crown land. What complicates it is that beaches sit under local council control, and the rules genuinely vary. Bondi is managed by Waverley Council, so they are the final word on whether, when and where detecting is permitted here - I'd check their current guidance or call them before a first outing." },
     { "type": "callout", "tone": "warning", "title": "Where you must never detect", "text": "Metal detecting is strictly prohibited in national parks and NPWS-managed reserves, including the coastal reserves and dune systems near the Bondi to Coogee walk. Disturbing an Aboriginal object or a heritage item is an offence under NSW law, whether or not you knew it was there. Stick to the open recreational sand and stay clear of dunes, vegetation and any signed or fenced-off area." },
     { "type": "h2", "text": "When and where to search" },
-    { "type": "p", "text": "Timing is everything. My favourite window is early morning at or just after low tide, before the crowds arrive and while the receding water has freshly exposed the lower beach. The day after a busy weekend or a public holiday is prime — that's when the most rings, coins and sunglasses have slipped off warm fingers into the sand. A southerly change or a decent swell that reshapes the beach can also uncover things buried for weeks." },
+    { "type": "p", "text": "Timing is everything. My favourite window is early morning at or just after low tide, before the crowds arrive and while the receding water has freshly exposed the lower beach. The day after a busy weekend or a public holiday is prime - that's when the most rings, coins and sunglasses have slipped off warm fingers into the sand. A southerly change or a decent swell that reshapes the beach can also uncover things buried for weeks." },
     { "type": "list", "items": [
-      "Low tide — check Bureau of Meteorology tide times before you leave so you catch the water at its furthest out.",
-      "The 'towel line' — the band of dry sand where sunbathers sit is where most modern drops happen.",
-      "The wet sand and shallows — heavier items like rings sink and migrate down the beach face.",
-      "Early or late — fewer people means you're not swinging a detector past someone's picnic."
+      "Low tide - check Bureau of Meteorology tide times before you leave so you catch the water at its furthest out.",
+      "The 'towel line' - the band of dry sand where sunbathers sit is where most modern drops happen.",
+      "The wet sand and shallows - heavier items like rings sink and migrate down the beach face.",
+      "Early or late - fewer people means you're not swinging a detector past someone's picnic."
     ] },
     { "type": "localTip", "text": "Fill every hole you dig, straight away. A sand scoop lets you sift and backfill in one motion, and a neat beach is the biggest reason councils keep tolerating detectorists. One person leaving craters near the flags is how a whole hobby gets banned." },
     { "type": "h2", "text": "Gear that suits a saltwater beach" },
     { "type": "p", "text": "Bondi is a saltwater, mineralised-sand environment, so the kit matters more than at an inland park. You don't need the priciest machine on the shelf, just one built for the beach." },
     { "type": "list", "items": [
-      "A detector rated for saltwater use — pulse-induction or a VLF unit with good ground balance handles wet sand without falsing.",
+      "A detector rated for saltwater use - pulse-induction or a VLF unit with good ground balance handles wet sand without falsing.",
       "A long-handled sand scoop with drainage holes so you can sift and backfill fast.",
       "A pinpointer to zero in on the target once you've dug.",
       "Headphones to hear faint signals over the wind and surf.",
-      "Sun protection and water — you'll be out in the open for hours."
+      "Sun protection and water - you'll be out in the open for hours."
     ] },
     { "type": "h2", "text": "What people actually find (and what to do with it)" },
-    { "type": "p", "text": "Realistically, most of what comes up at a beach as busy as Bondi is modern: coins, bottle caps, keys, the odd pair of sunglasses, and — the prize every detectorist hopes for — lost rings and jewellery. If you find something of obvious value like a ring, the decent thing (and the legal expectation) is to try to reunite it with its owner. Handing found property in to NSW Police is the proper route, and some detectorists make a point of reuniting lost jewellery with its owner. If you ever turn up something that looks genuinely old or culturally significant, stop, don't remove it, and report it to Heritage NSW." },
+    { "type": "p", "text": "Realistically, most of what comes up at a beach as busy as Bondi is modern: coins, bottle caps, keys, the odd pair of sunglasses, and - the prize every detectorist hopes for - lost rings and jewellery. If you find something of obvious value like a ring, the decent thing (and the legal expectation) is to try to reunite it with its owner. Handing found property in to NSW Police is the proper route, and some detectorists make a point of reuniting lost jewellery with its owner. If you ever turn up something that looks genuinely old or culturally significant, stop, don't remove it, and report it to Heritage NSW." },
     { "type": "faq", "items": [
       { "q": "Do I need a permit or licence to metal detect at Bondi Beach?", "a": "No specific licence is required to detect on a public NSW beach. Because beaches are council-controlled and rules vary, check Waverley Council's current guidance before your first outing at Bondi." },
       { "q": "When is the best time to metal detect at Bondi?", "a": "Early morning at or near low tide, ideally the day after a busy summer weekend or public holiday. Check Bureau of Meteorology tide times first." },
-      { "q": "Where am I not allowed to detect?", "a": "Steer clear of national parks and NPWS reserves, dune systems, vegetated areas and any heritage or Aboriginal cultural sites — detecting there is prohibited and disturbing protected objects is an offence." },
+      { "q": "Where am I not allowed to detect?", "a": "Steer clear of national parks and NPWS reserves, dune systems, vegetated areas and any heritage or Aboriginal cultural sites - detecting there is prohibited and disturbing protected objects is an offence." },
       { "q": "What should I do if I find a valuable ring or piece of jewellery?", "a": "Try to reunite it with its owner. Handing found property in to NSW Police is the proper channel, and gives the person who lost it a real chance of getting it back." }
     ] },
-    { "type": "p", "text": "Metal detecting at Bondi is a lovely, low-cost way to slow down and read the beach — you start noticing the tides, the wind, where the crowds sit. Do it early, do it tidily, respect the rules and the reserves, and you'll be welcome to keep swinging for years. And who knows — the next signal might just be somebody's wedding ring waiting to go home." }
+    { "type": "p", "text": "Metal detecting at Bondi is a lovely, low-cost way to slow down and read the beach - you start noticing the tides, the wind, where the crowds sit. Do it early, do it tidily, respect the rules and the reserves, and you'll be welcome to keep swinging for years. And who knows - the next signal might just be somebody's wedding ring waiting to go home." }
   ]
 }

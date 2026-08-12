@@ -22,7 +22,7 @@ import {
 
 const TITLE = 'Where to Eat & Drink in Bondi Beach';
 const DESCRIPTION =
-  'The complete local guide to eating and drinking in Bondi Beach — every café, restaurant, bar and bakery worth knowing, searchable and filterable, with honest picks and what to order.';
+  'The complete local guide to eating and drinking in Bondi Beach - every café, restaurant, bar and bakery worth knowing, searchable and filterable, with honest picks and what to order.';
 const HERO = '/images/articles/e7f1fa0c61315488.webp';
 
 export const revalidate = 86400;
@@ -53,11 +53,11 @@ const FAQS = [
   },
   {
     q: 'Where is the best beachfront dining in Bondi?',
-    a: 'The venues directly on Campbell Parade and above the beach — Icebergs above the pool, and the bars and restaurants along the promenade — have the genuine ocean views. Many places one street back are excellent but don’t see the water, so filter by “Ocean views” if the view matters to you.',
+    a: 'The venues directly on Campbell Parade and above the beach - Icebergs above the pool, and the bars and restaurants along the promenade - have the genuine ocean views. Many places one street back are excellent but don’t see the water, so filter by “Ocean views” if the view matters to you.',
   },
   {
     q: 'Do I need to book restaurants in Bondi?',
-    a: 'For the popular sit-down restaurants and anywhere beachfront on a weekend or over summer, yes — book ahead. Cafés, bakeries and takeaways are walk-in. Where a venue takes bookings, we link straight to its reservation page.',
+    a: 'For the popular sit-down restaurants and anywhere beachfront on a weekend or over summer, yes - book ahead. Cafés, bakeries and takeaways are walk-in. Where a venue takes bookings, we link straight to its reservation page.',
   },
 ];
 
@@ -65,7 +65,7 @@ export default function EatDrinkHub() {
   const all = [...restaurants()].sort(byScore);
   const facets = all.map(facetFor);
   const cuisineOptions = cuisineFacets()
-    .filter((c) => c.value && c.value !== '—' && c.count >= 2)
+    .filter((c) => c.value && c.value !== '-' && c.count >= 2)
     .slice(0, 14)
     .map((c) => c.value);
 
@@ -106,7 +106,7 @@ export default function EatDrinkHub() {
         image={HERO}
         kicker="Eat & Drink"
         title={TITLE}
-        intro="Every place worth knowing in one spot — cafés, restaurants, bars, bakeries and the beachfront icons — verified, searchable and written by locals. Filter by area, meal, price or the mood you’re in."
+        intro="Every place worth knowing in one spot - cafés, restaurants, bars, bakeries and the beachfront icons - verified, searchable and written by locals. Filter by area, meal, price or the mood you’re in."
         crumbs={CRUMBS}
         chips={[
           { label: 'Find a place', href: '#browse' },
@@ -125,7 +125,7 @@ export default function EatDrinkHub() {
           food</strong>, walk a block back to Hall Street and North Bondi&rsquo;s Gould Street. Bondi is a{' '}
           <strong className="font-semibold text-ink-900">brunch</strong> town first, with excellent coffee,
           seafood and some of Sydney&rsquo;s best plant-based eating. Everything below is a real, currently-open
-          venue we&rsquo;ve verified — {all.length} of them and counting.
+          venue we&rsquo;ve verified - {all.length} of them and counting.
         </p>
       </section>
 
@@ -145,7 +145,7 @@ export default function EatDrinkHub() {
         </div>
       </section>
 
-      {/* Collections — browse by need */}
+      {/* Collections - browse by need */}
       <section id="collections" className="mx-auto max-w-5xl px-4 pt-14">
         <h2 className="font-display text-2xl md:text-3xl text-ink-900">Our best-of guides</h2>
         <p className="mt-2 max-w-prose text-ink-700">Hand-picked shortlists for exactly what you&rsquo;re after.</p>
@@ -167,7 +167,7 @@ export default function EatDrinkHub() {
       <section id="areas" className="mx-auto max-w-5xl px-4 pt-14">
         <h2 className="font-display text-2xl md:text-3xl text-ink-900">Eat by area</h2>
         <p className="mt-2 max-w-prose text-ink-700">
-          Bondi&rsquo;s eating splits by pocket — the beachfront, buzzy Campbell Parade, the Hall Street village
+          Bondi&rsquo;s eating splits by pocket - the beachfront, buzzy Campbell Parade, the Hall Street village
           and quieter North Bondi up around Gould Street. Open an area for everywhere worth knowing there.
         </p>
         <div className="mt-5 flex flex-wrap gap-2.5">

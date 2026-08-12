@@ -1,10 +1,10 @@
 /**
- * Conditions service — orchestrates the weather + surf providers, caches at the
+ * Conditions service - orchestrates the weather + surf providers, caches at the
  * fetch layer, and assembles the normalized `Conditions` the UI renders.
  *
  * Caching: every upstream request goes through `cachingFetch`, which uses Next's
  * fetch cache with `revalidate` (see REVALIDATE_SECONDS). So the APIs are called
- * server-side at most once per revalidation window — NOT on every page load — and
+ * server-side at most once per revalidation window - NOT on every page load - and
  * Next serves the last good response while it revalidates (stale-while-revalidate),
  * which covers brief provider outages. Identical URLs dedupe to one request.
  *
@@ -20,7 +20,7 @@ import { buildSummary } from './summary';
 
 /** Cache window for upstream weather/surf data (seconds). 30 min balances freshness vs. load. */
 export const REVALIDATE_SECONDS = 1800;
-/** Tide is astronomical prediction — cache it much longer to conserve API credits. */
+/** Tide is astronomical prediction - cache it much longer to conserve API credits. */
 export const TIDE_REVALIDATE_SECONDS = 6 * 60 * 60;
 
 const cachingFetch = (input: string): Promise<Response> =>
@@ -39,7 +39,7 @@ const tideFetch = (input: string): Promise<Response> =>
 const weatherProvider: WeatherProvider = createOpenMeteoWeatherProvider(cachingFetch);
 const surfProvider: SurfProvider = createOpenMeteoSurfProvider(cachingFetch);
 // Tide is optional: it activates only when TIDE_API_KEY is configured. With no key,
-// tide stays null and the UI omits it — never fabricated.
+// tide stays null and the UI omits it - never fabricated.
 const tideProvider: TideProvider | null = process.env.TIDE_API_KEY
   ? createWorldTidesProvider(tideFetch, process.env.TIDE_API_KEY, () => Date.now())
   : null;

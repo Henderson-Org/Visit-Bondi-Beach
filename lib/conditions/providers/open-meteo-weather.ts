@@ -2,7 +2,7 @@
  * Open-Meteo weather adapter.
  *
  * Why Open-Meteo: it's free, keyless, open-licensed (CC-BY 4.0), machine-readable,
- * and blends multiple national models — including the Bureau of Meteorology's
+ * and blends multiple national models - including the Bureau of Meteorology's
  * ACCESS model for Australia. BOM's own JSON API explicitly forbids reuse
  * ("You must not use, copy or share it"), and its licensed feeds need
  * registration, so Open-Meteo is the best *permitted* structured source. We link

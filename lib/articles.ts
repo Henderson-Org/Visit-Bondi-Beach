@@ -1,6 +1,6 @@
 /**
  * Article topic classification for the /articles hub. The editorial posts keep their
- * existing /bondi-blog/* URLs (preserving rankings/backlinks) — this just organises them
+ * existing /bondi-blog/* URLs (preserving rankings/backlinks) - this just organises them
  * by topic for browsing, and lets us surface "see more in this section" links.
  */
 import { articles, type Page } from '@/lib/content';
@@ -56,13 +56,13 @@ export function articleTopic(p: Page): ArticleTopic {
   const s = `${p.h1 || ''} ${p.title || ''} ${p.path}`.toLowerCase();
   if (/eat|caf|coffee|restaurant|brunch|food|dining|drink|\bbar\b|pub|bakery|gelato|breakfast|dinner/.test(s)) return 'eat-drink';
   if (/hotel|accommodation|hostel|airbnb|where to stay/.test(s)) return 'stay';
-  // Parking BEFORE coastal-walk & getting-here — "a car park at Bronte" is parking, not a
+  // Parking BEFORE coastal-walk & getting-here - "a car park at Bronte" is parking, not a
   // coastal-walk or generic-transport spoke. Concentrates the ~2,470-view parking cluster.
   if (/parking|car ?park/.test(s)) return 'parking';
-  // City2Surf & running BEFORE things-to-do / coastal / getting-here — also rescues the
+  // City2Surf & running BEFORE things-to-do / coastal / getting-here - also rescues the
   // orphaned Sydney Marathon sub-cluster (getting-to-marathon, carb-load, recovery, …).
   if (/city ?2 ?surf|city[- ]to[- ]surf|heartbreak|marathon|running route|run club|best running/.test(s)) return 'city2surf';
-  // Surfing (the sport) BEFORE swim — specific surf terms only, so "surf lifesaving" and
+  // Surfing (the sport) BEFORE swim - specific surf terms only, so "surf lifesaving" and
   // "surf lifesaver" stay under swim/safety, not surfing.
   if (/surf(ing| lesson| board| cam| school| break| guide)|learn to surf/.test(s)) return 'surfing';
   if (/swim|snorkel|icebergs|ocean pool|\brip\b|lifeguard|bondi rescue|water temp|shark/.test(s)) return 'swim';
@@ -70,7 +70,7 @@ export function articleTopic(p: Page): ArticleTopic {
   if (/coastal walk|bronte|tamarama|coogee|clovelly|gordons bay/.test(s)) return 'coastal-walk';
   if (/transport|\bbus\b|\btrain\b|airport|getting (to|around)|\bdrive\b|uber|taxi/.test(s)) return 'getting-here';
   if (/weather|temperature|\brain\b|sunrise|sunset|season|best time/.test(s)) return 'weather';
-  // Itineraries BEFORE things-to-do — plan-my-visit intent (how long / one day / first-timer).
+  // Itineraries BEFORE things-to-do - plan-my-visit intent (how long / one day / first-timer).
   if (/itinerary|24 hours|one day|half day|day trip|weekend in bondi|first[- ]time visitor/.test(s)) return 'itineraries';
   if (/thing(s)? to do|activities|experience|hidden gem|attraction|market|festival|sculpture|new year|christmas/.test(s)) return 'things-to-do';
   return 'general';

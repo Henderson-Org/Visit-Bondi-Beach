@@ -2,7 +2,7 @@
  * Deterministic written-summary engine.
  *
  * Converts normalized conditions into a short, human-readable summary using
- * rules/templates only — NO LLM call at request time. Pure and side-effect free
+ * rules/templates only - NO LLM call at request time. Pure and side-effect free
  * so the rules are unit-tested (see summary.test.ts).
  *
  * Safety stance: we give general guidance, never definitive safety claims, and
@@ -54,7 +54,7 @@ function swellSizeWord(m: number | null): string {
   return 'large';
 }
 
-/** Weather sentence — always available (falls back to current temp). */
+/** Weather sentence - always available (falls back to current temp). */
 function weatherSentence(input: SummaryInput): string {
   const { current, today } = input;
   const label = today?.weather?.label ?? current?.weather?.label ?? null;
@@ -126,7 +126,7 @@ function surfQualitySentence(input: SummaryInput, bestTime: string | null): stri
   return null;
 }
 
-/** Optional tide note — only when a tide source supplied a state. */
+/** Optional tide note - only when a tide source supplied a state. */
 function tideSentence(surf: SurfConditions | null): string | null {
   const state = surf?.tide?.state;
   if (!state) return null;
@@ -162,21 +162,21 @@ function computeSuitability(input: SummaryInput): {
   const hMax = surf.waveHeightMaxM ?? surf.waveHeightM;
 
   if (messy) {
-    return { suitability: 'poor', outlook: 'Surf outlook: Messy and wind-affected — poor quality today.' };
+    return { suitability: 'poor', outlook: 'Surf outlook: Messy and wind-affected - poor quality today.' };
   }
   if (hMax == null) return { suitability: null, outlook: null };
   if (hMax >= 2.5) {
-    return { suitability: 'experienced', outlook: 'Surf outlook: Sizeable today — best left to experienced surfers.' };
+    return { suitability: 'experienced', outlook: 'Surf outlook: Sizeable today - best left to experienced surfers.' };
   }
   if (hMax >= 1.5) {
-    return { suitability: 'experienced', outlook: 'Surf outlook: A solid size — better suited to experienced surfers.' };
+    return { suitability: 'experienced', outlook: 'Surf outlook: A solid size - better suited to experienced surfers.' };
   }
   if (hMax >= 1) {
-    return { suitability: 'moderate', outlook: 'Surf outlook: Moderate size — okay for improving surfers.' };
+    return { suitability: 'moderate', outlook: 'Surf outlook: Moderate size - okay for improving surfers.' };
   }
   return {
     suitability: 'beginner',
-    outlook: 'Surf outlook: Small and relatively clean — potentially suitable for less experienced surfers at protected beaches.',
+    outlook: 'Surf outlook: Small and relatively clean - potentially suitable for less experienced surfers at protected beaches.',
   };
 }
 

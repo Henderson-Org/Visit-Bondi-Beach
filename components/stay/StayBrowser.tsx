@@ -8,7 +8,7 @@ import { TAG_LABEL, STAY_TYPE_PLURAL, type Tag, type StayType } from '@/data/acc
 /**
  * Client-side browser for the accommodation grid. All cards are server-rendered and
  * present in the initial HTML (so everything is crawlable and works without JS);
- * filtering only toggles visibility and reorders — it never changes the URL, so no
+ * filtering only toggles visibility and reorders - it never changes the URL, so no
  * low-value parameter pages are created. Filters combine as AND across groups; each
  * group is single-select for a clean, predictable UX.
  */

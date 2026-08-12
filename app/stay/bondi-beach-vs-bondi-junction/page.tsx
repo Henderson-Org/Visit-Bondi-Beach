@@ -10,7 +10,7 @@ import { getAffiliateLink } from '@/lib/affiliate';
 
 const TITLE = 'Bondi Beach vs Bondi Junction: Where Should You Stay?';
 const DESCRIPTION =
-  'Bondi Beach or Bondi Junction? A local compares the two on price, transport, walk to the sand, food and who each suits — so you can pick the right base for your Sydney trip.';
+  'Bondi Beach or Bondi Junction? A local compares the two on price, transport, walk to the sand, food and who each suits - so you can pick the right base for your Sydney trip.';
 const HERO = '/images/articles/1f09a7008740b014.webp';
 
 export const revalidate = 86400;
@@ -33,8 +33,8 @@ const CRUMBS = [
 
 const ROWS: { label: string; beach: string; junction: string }[] = [
   { label: 'Walk to the sand', beach: 'On the beach or a few minutes away', junction: '≈10 min bus, or 25–30 min walk downhill' },
-  { label: 'Transport', beach: 'Buses only (no train to the beach)', junction: 'Train line ends here — easiest from airport/city' },
-  { label: 'Typical value', beach: 'Higher — you pay for the location', junction: 'Better value for the same standard of room' },
+  { label: 'Transport', beach: 'Buses only (no train to the beach)', junction: 'Train line ends here - easiest from airport/city' },
+  { label: 'Typical value', beach: 'Higher - you pay for the location', junction: 'Better value for the same standard of room' },
   { label: 'Atmosphere', beach: 'Beachy, busy, buzzy', junction: 'Urban, shops and towers, quieter at night' },
   { label: 'Food & drink', beach: 'Cafés, beach bars, the coastal-walk cafés', junction: 'Big shopping-centre and high-street dining' },
   { label: 'Best for', beach: 'First-timers, short trips, beach lovers', junction: 'Value, longer stays, easy arrivals' },
@@ -43,11 +43,11 @@ const ROWS: { label: string; beach: string; junction: string }[] = [
 const FAQS = [
   {
     q: 'Is Bondi Junction close to Bondi Beach?',
-    a: 'Yes — it is about a 10-minute bus ride down to the beach, or a 25–30 minute walk downhill (the walk back up is the catch). Buses run frequently along the route.',
+    a: 'Yes - it is about a 10-minute bus ride down to the beach, or a 25–30 minute walk downhill (the walk back up is the catch). Buses run frequently along the route.',
   },
   {
     q: 'Is it cheaper to stay in Bondi Junction than at the beach?',
-    a: 'Usually. For a similar standard of room you generally pay less in Bondi Junction than on the Campbell Parade beachfront, which is why it is a popular value pick — you trade a short bus ride for a lower rate.',
+    a: 'Usually. For a similar standard of room you generally pay less in Bondi Junction than on the Campbell Parade beachfront, which is why it is a popular value pick - you trade a short bus ride for a lower rate.',
   },
   {
     q: 'Which is better if I fly into Sydney Airport?',
@@ -79,7 +79,7 @@ export default function BeachVsJunction() {
       <div className="mx-auto max-w-3xl px-4 pt-10">
         <p className="text-lg text-ink-700">
           If you&rsquo;re booking Bondi for the first time, this is the choice that trips people up.
-          Bondi Beach is the postcard — you step out onto Campbell Parade and the sand is right
+          Bondi Beach is the postcard - you step out onto Campbell Parade and the sand is right
           there. Bondi Junction is the transport and shopping hub up the hill, where the train line
           ends. Neither is wrong; it depends on what you want from the trip.
         </p>

@@ -7,26 +7,26 @@
     { "label": "Sculpture by the Sea, Bondi", "url": "https://sculpturebythesea.com/bondi/" },
     { "label": "Flickerfest International Short Film Festival", "url": "https://flickerfest.com.au/" },
     { "label": "Macquarie Bondi to Bronte Ocean Swim", "url": "https://oceanswims.com/event/bondi-to-bronte/" },
-    { "label": "Openair Cinemas — Bondi", "url": "https://www.openaircinemas.com.au/bondi/" },
-    { "label": "Waverley Council — What's On", "url": "https://www.waverley.nsw.gov.au/recreation/events" }
+    { "label": "Openair Cinemas - Bondi", "url": "https://www.openaircinemas.com.au/bondi/" },
+    { "label": "Waverley Council - What's On", "url": "https://www.waverley.nsw.gov.au/recreation/events" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you're planning a Bondi trip around something special, here's the short answer: our event calendar peaks twice — high summer (January to March) for cinema-on-the-sand and festival energy, and spring (September to early December) for kites, sculpture and ocean swimming. Below is the rhythm I plan my year around — just confirm each event's exact dates on its official page before you book, because they shift every year." },
+    { "type": "p", "text": "If you're planning a Bondi trip around something special, here's the short answer: our event calendar peaks twice - high summer (January to March) for cinema-on-the-sand and festival energy, and spring (September to early December) for kites, sculpture and ocean swimming. Below is the rhythm I plan my year around - just confirm each event's exact dates on its official page before you book, because they shift every year." },
     { "type": "callout", "tone": "warning", "title": "Dates move every year", "text": "This is the annual pattern of Bondi's big events, not a promise of specific dates. Organisers set fresh dates each season and sometimes reschedule for weather, so check the official links below for the current year before you commit to travel." },
     { "type": "h2", "text": "The annual rhythm, month by month" },
     { "type": "itinerary", "stops": [
       { "time": "January", "title": "Flickerfest & Openair Cinema", "detail": "Flickerfest, the Academy- and BAFTA-recognised short film festival, screens under the stars at Bondi Pavilion late in the month. Down on the promenade, Openair Cinemas runs its summer season with the surf as your soundtrack." },
-      { "time": "February–March", "title": "Peak summer on the sand", "detail": "Long beach days, the tail of the Openair Cinema season, and Bondi at its liveliest — the busiest, warmest stretch of the year." },
-      { "time": "August", "title": "City2Surf", "detail": "The world's largest fun run — 14km from Hyde Park in the CBD, over Heartbreak Hill, finishing at Bondi Beach. Tens of thousands of runners pour in; a brilliant morning to be a spectator." },
+      { "time": "February–March", "title": "Peak summer on the sand", "detail": "Long beach days, the tail of the Openair Cinema season, and Bondi at its liveliest - the busiest, warmest stretch of the year." },
+      { "time": "August", "title": "City2Surf", "detail": "The world's largest fun run - 14km from Hyde Park in the CBD, over Heartbreak Hill, finishing at Bondi Beach. Tens of thousands of runners pour in; a brilliant morning to be a spectator." },
       { "time": "September", "title": "Festival of the Winds", "detail": "Bondi's beloved free kite festival, presented by Waverley Council. Giant kites fill the sky above the beach alongside live music, roaming performers and kite-making for kids." },
-      { "time": "October–November", "title": "Sculpture by the Sea", "detail": "The free, open-air sculpture exhibition strung along the coastal walk from Bondi to Tamarama — around 100 works over roughly two kilometres of clifftop. One of my favourite fortnights of the year." },
+      { "time": "October–November", "title": "Sculpture by the Sea", "detail": "The free, open-air sculpture exhibition strung along the coastal walk from Bondi to Tamarama - around 100 works over roughly two kilometres of clifftop. One of my favourite fortnights of the year." },
       { "time": "December", "title": "Bondi to Bronte Ocean Swim", "detail": "The classic point-to-point ocean race down the coast, held early in the month. Whether you swim it or watch from the headland, it's a proper Sydney summer send-off." }
     ] },
     { "type": "h2", "text": "The big ones, worth planning a trip around" },
     { "type": "h3", "text": "City2Surf (August)" },
     { "type": "p", "text": "This is the one that turns Bondi into a finish-line party. Runners and walkers of every ability tackle the 14km from the city, and the beach fills with delighted finishers collecting their medals. Even if you're not running, come down mid-morning. Roads across the eastern suburbs close and buses reroute, so check Transport for NSW and the official City2Surf site for start waves and travel advice." },
     { "type": "h3", "text": "Sculpture by the Sea (October–November)" },
-    { "type": "p", "text": "For about two and a half weeks each spring, the Bondi-to-Tamarama coastal walk becomes a free open-air sculpture gallery. It's one of the best things Bondi does. It gets very busy on weekends and evenings, so I go on a weekday morning if I can — you get the art, the light and the ocean almost to yourself." },
+    { "type": "p", "text": "For about two and a half weeks each spring, the Bondi-to-Tamarama coastal walk becomes a free open-air sculpture gallery. It's one of the best things Bondi does. It gets very busy on weekends and evenings, so I go on a weekday morning if I can - you get the art, the light and the ocean almost to yourself." },
     { "type": "h3", "text": "Festival of the Winds (September)" },
     { "type": "p", "text": "A gloriously simple, free community day: enormous, colourful kites over the beach, food stalls, music and workshops for kids. It's weather-dependent by nature, so check the Waverley Council listing in the lead-up." },
     { "type": "quickFacts", "items": [
@@ -35,15 +35,15 @@
       { "label": "Biggest ticketed run", "value": "City2Surf (finishes at Bondi)" },
       { "label": "Best for film", "value": "Flickerfest + Openair Cinema (January)" }
     ] },
-    { "type": "localTip", "text": "Whatever you're coming for, leave the car at home. Parking around Bondi is scarce and metered at the best of times, and near-impossible on event days — roads close for City2Surf and crowds swell for Sculpture by the Sea. The 333 and 380 buses, or a short walk from Bondi Junction station, are far less stressful." },
+    { "type": "localTip", "text": "Whatever you're coming for, leave the car at home. Parking around Bondi is scarce and metered at the best of times, and near-impossible on event days - roads close for City2Surf and crowds swell for Sculpture by the Sea. The 333 and 380 buses, or a short walk from Bondi Junction station, are far less stressful." },
     { "type": "p", "text": "You'll also see mentions of a beachside winter ice rink or one-off festivals. Some come and go year to year, so I've left out anything I can't confirm is running now. If a specific event matters to your trip, the Waverley Council 'What's On' page is the most reliable source for it." },
     { "type": "faq", "items": [
-      { "q": "What's the biggest event at Bondi Beach each year?", "a": "For sheer scale, City2Surf in August — the world's largest fun run finishes at Bondi Beach. For visitor draw, Sculpture by the Sea (October–November) pulls hundreds of thousands of people to the free coastal-walk exhibition." },
+      { "q": "What's the biggest event at Bondi Beach each year?", "a": "For sheer scale, City2Surf in August - the world's largest fun run finishes at Bondi Beach. For visitor draw, Sculpture by the Sea (October–November) pulls hundreds of thousands of people to the free coastal-walk exhibition." },
       { "q": "When is Sculpture by the Sea at Bondi?", "a": "It runs for roughly two and a half weeks from mid-October into early November along the Bondi-to-Tamarama coastal walk, and it's free. Confirm the exact dates on the official Sculpture by the Sea website before you travel." },
-      { "q": "Is there an outdoor cinema at Bondi Beach?", "a": "Yes — Openair Cinemas runs a summer season by the beach (typically January to March), and Flickerfest screens short films at Bondi Pavilion in January. Season dates and programs are on their official sites." },
-      { "q": "Are Bondi's events free?", "a": "Many of the best are — Festival of the Winds and viewing Sculpture by the Sea both cost nothing. City2Surf, the Bondi to Bronte Ocean Swim, Flickerfest and Openair Cinema are ticketed. Check each event's site for current pricing." },
+      { "q": "Is there an outdoor cinema at Bondi Beach?", "a": "Yes - Openair Cinemas runs a summer season by the beach (typically January to March), and Flickerfest screens short films at Bondi Pavilion in January. Season dates and programs are on their official sites." },
+      { "q": "Are Bondi's events free?", "a": "Many of the best are - Festival of the Winds and viewing Sculpture by the Sea both cost nothing. City2Surf, the Bondi to Bronte Ocean Swim, Flickerfest and Openair Cinema are ticketed. Check each event's site for current pricing." },
       { "q": "How do I find confirmed dates for this year?", "a": "Each event sets its own dates annually. Use the official links in this article, and cross-check the Waverley Council 'What's On' page, which lists confirmed events happening at Bondi in the current season." }
     ] },
-    { "type": "p", "text": "That's the Bondi year as I live it — sun and cinema to start, kites, sculpture and one last big swim to finish. Pin the month that suits you, confirm the dates officially, and you'll catch Bondi at its best." }
+    { "type": "p", "text": "That's the Bondi year as I live it - sun and cinema to start, kites, sculpture and one last big swim to finish. Pin the month that suits you, confirm the dates officially, and you'll catch Bondi at its best." }
   ]
 }

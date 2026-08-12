@@ -3,29 +3,29 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Bondi Pavilion — Our facilities (Waverley Council)", "url": "https://www.bondipavilion.com.au/visit/our_facilities" },
-    { "label": "Bondi Pavilion — Venue access", "url": "https://www.bondipavilion.com.au/visit/plan_your_visit/venue_access" },
-    { "label": "Access Bondi! — Waverley Council", "url": "https://www.waverley.nsw.gov.au/community/disability_inclusion/access_bondi" },
-    { "label": "Bondi Pavilion — Waverley Council", "url": "https://www.waverley.nsw.gov.au/recreation/places_of_interest/bondi_pavilion" }
+    { "label": "Bondi Pavilion - Our facilities (Waverley Council)", "url": "https://www.bondipavilion.com.au/visit/our_facilities" },
+    { "label": "Bondi Pavilion - Venue access", "url": "https://www.bondipavilion.com.au/visit/plan_your_visit/venue_access" },
+    { "label": "Access Bondi! - Waverley Council", "url": "https://www.waverley.nsw.gov.au/community/disability_inclusion/access_bondi" },
+    { "label": "Bondi Pavilion - Waverley Council", "url": "https://www.waverley.nsw.gov.au/recreation/places_of_interest/bondi_pavilion" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you just need to know where to go: Bondi Beach has free public toilets and showers at three points — the north end near North Bondi, the middle at the Bondi Pavilion, and the south end near the Icebergs and the skate park. The Pavilion is your best all-rounder, with toilets, change rooms, lockers, baby-change tables and accessible facilities in one spot, all of it free. Below, I'll show you exactly where each one sits so you never have to do the wet-towel shuffle up the promenade." },
+    { "type": "p", "text": "If you just need to know where to go: Bondi Beach has free public toilets and showers at three points - the north end near North Bondi, the middle at the Bondi Pavilion, and the south end near the Icebergs and the skate park. The Pavilion is your best all-rounder, with toilets, change rooms, lockers, baby-change tables and accessible facilities in one spot, all of it free. Below, I'll show you exactly where each one sits so you never have to do the wet-towel shuffle up the promenade." },
     { "type": "quickFacts", "items": [
-      { "label": "Cost", "value": "Free — all public toilets & beach showers" },
+      { "label": "Cost", "value": "Free - all public toilets & beach showers" },
       { "label": "Main hub", "value": "Bondi Pavilion (middle of the beach)" },
       { "label": "Also at", "value": "North Bondi & the south end" },
       { "label": "Rinse-off showers", "value": "Along the promenade, both ends" },
-      { "label": "Accessible & baby-change", "value": "Yes — Pavilion ground floor & North Bondi" }
+      { "label": "Accessible & baby-change", "value": "Yes - Pavilion ground floor & North Bondi" }
     ] },
     { "type": "h2", "text": "Where the public toilets are" },
-    { "type": "p", "text": "Picture the beach as a long crescent with the toilets as three anchor points. In the middle sits the Bondi Pavilion — the big Mediterranean-style building set back from the sand. This is the one I send everyone to: public toilets on the ground floor and a straight walk up from the flags. If you're anywhere near the centre of the beach, aim here." },
-    { "type": "p", "text": "At the northern end, there's an amenities block near North Bondi, up by Brighton Boulevard and the surf club. It's the closest option if you've parked up north or you're with little ones at the shallow northern corner. At the southern end, near the Bondi Icebergs and the skate park, you'll find the closest toilets for anyone down that way — handy if you're starting the Bondi to Bronte coastal walk or watching the swimmers do laps at the pool." },
-    { "type": "localTip", "text": "The Pavilion is the only spot that reliably has everything — change rooms, lockers, baby-change and accessible facilities together. If you need more than a quick toilet stop, don't gamble on the end blocks; make a beeline for the middle." },
+    { "type": "p", "text": "Picture the beach as a long crescent with the toilets as three anchor points. In the middle sits the Bondi Pavilion - the big Mediterranean-style building set back from the sand. This is the one I send everyone to: public toilets on the ground floor and a straight walk up from the flags. If you're anywhere near the centre of the beach, aim here." },
+    { "type": "p", "text": "At the northern end, there's an amenities block near North Bondi, up by Brighton Boulevard and the surf club. It's the closest option if you've parked up north or you're with little ones at the shallow northern corner. At the southern end, near the Bondi Icebergs and the skate park, you'll find the closest toilets for anyone down that way - handy if you're starting the Bondi to Bronte coastal walk or watching the swimmers do laps at the pool." },
+    { "type": "localTip", "text": "The Pavilion is the only spot that reliably has everything - change rooms, lockers, baby-change and accessible facilities together. If you need more than a quick toilet stop, don't gamble on the end blocks; make a beeline for the middle." },
     { "type": "h2", "text": "Free beachfront showers" },
-    { "type": "p", "text": "You don't need to pay a cent to rinse off at Bondi. There are free outdoor showers along the promenade near the toilet blocks at both ends, plus foot-rinse taps where the sand meets the concrete. They're cold-water rinse-offs for getting the salt and sand off before you head home — perfect after a swim between the flags." },
-    { "type": "callout", "tone": "note", "title": "Rinse first, change second", "text": "The promenade showers are for a quick sandy rinse in your swimmers — they're right out in the open. For a proper change into dry clothes, use the change rooms inside the Pavilion." },
+    { "type": "p", "text": "You don't need to pay a cent to rinse off at Bondi. There are free outdoor showers along the promenade near the toilet blocks at both ends, plus foot-rinse taps where the sand meets the concrete. They're cold-water rinse-offs for getting the salt and sand off before you head home - perfect after a swim between the flags." },
+    { "type": "callout", "tone": "note", "title": "Rinse first, change second", "text": "The promenade showers are for a quick sandy rinse in your swimmers - they're right out in the open. For a proper change into dry clothes, use the change rooms inside the Pavilion." },
     { "type": "h2", "text": "Change rooms, lockers & baby-change" },
-    { "type": "p", "text": "For actually getting changed, the Bondi Pavilion is the place. It has male and female change rooms and showers on the beach side, plus lockers if you'd rather not leave your bag on the sand. On a busy day it's a genuine relief — you can swim, rinse, change and stash your gear all in one building." },
+    { "type": "p", "text": "For actually getting changed, the Bondi Pavilion is the place. It has male and female change rooms and showers on the beach side, plus lockers if you'd rather not leave your bag on the sand. On a busy day it's a genuine relief - you can swim, rinse, change and stash your gear all in one building." },
     { "type": "p", "text": "Travelling with a baby? There are baby-change tables in the Pavilion ground-floor toilets and at the North Bondi amenities, so you're covered at the middle or the northern end of the beach." },
     { "type": "h3", "text": "Accessible facilities" },
     { "type": "p", "text": "Bondi is better set up than most beaches here. There are accessible and ambulant toilets on the Pavilion ground floor, and again at the North Bondi amenities. The Pavilion also has an adult-change 'Changing Places' facility on the ground floor, with a height-adjustable change table, ceiling hoist and shower. It's secured with a Master Locksmith Access Key (MLAK); if you don't carry one, ask a staff member. For the full accessibility rundown, Waverley Council's 'Access Bondi!' page is the definitive source." },
@@ -33,10 +33,10 @@
     { "type": "faq", "items": [
       { "q": "Are the toilets and showers at Bondi Beach free?", "a": "Yes. All the public toilets, the outdoor beachfront rinse-off showers and the foot taps along the promenade are free. The change rooms and lockers at the Bondi Pavilion are public facilities too." },
       { "q": "Where are the closest toilets to the flags?", "a": "The Bondi Pavilion, in the middle of the beach, is a straight walk up from the flagged swimming area and is your best bet for toilets, showers and change rooms in one spot." },
-      { "q": "Is there somewhere to get changed at Bondi Beach?", "a": "Yes — the Bondi Pavilion has male and female change rooms and showers on the beach side, plus lockers. The promenade showers are just for rinsing salt off in your swimmers, not for changing." },
+      { "q": "Is there somewhere to get changed at Bondi Beach?", "a": "Yes - the Bondi Pavilion has male and female change rooms and showers on the beach side, plus lockers. The promenade showers are just for rinsing salt off in your swimmers, not for changing." },
       { "q": "Are there baby-change and accessible toilets?", "a": "Yes. Baby-change tables are in the Pavilion ground-floor toilets and at the North Bondi amenities. Accessible toilets are at both spots, and there's an adult-change Changing Places facility (MLAK-operated) on the Pavilion ground floor." },
       { "q": "What are the opening hours?", "a": "The Pavilion amenities typically open early and close in the evening, but hours vary by season and events. Check the current times on the Bondi Pavilion or Waverley Council website before relying on a late stop." }
     ] },
-    { "type": "p", "text": "That's the whole map in your head now: the middle of the beach for the full setup, the north and south ends for a quick stop, and free showers to rinse off before you go. Aim for the Pavilion when you need to change, and you'll spend your Bondi day in the water — not hunting for a bathroom." }
+    { "type": "p", "text": "That's the whole map in your head now: the middle of the beach for the full setup, the north and south ends for a quick stop, and free showers to rinse off before you go. Aim for the Pavilion when you need to change, and you'll spend your Bondi day in the water - not hunting for a bathroom." }
   ]
 }

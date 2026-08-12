@@ -3,30 +3,30 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Bondi Icebergs Club — pool info", "url": "https://icebergs.com.au/icebergs-club/" },
-    { "label": "Bondi Icebergs Club — pool conditions", "url": "https://icebergs.com.au/pool-conditions/" }
+    { "label": "Bondi Icebergs Club - pool info", "url": "https://icebergs.com.au/icebergs-club/" },
+    { "label": "Bondi Icebergs Club - pool conditions", "url": "https://icebergs.com.au/pool-conditions/" }
   ],
   "blocks": [
-    { "type": "p", "text": "Yes — you can absolutely swim at Bondi Icebergs, and no, you don't need to be a member. It's a public ocean pool open to everyone for a small entry fee, seven days a week. It's easily the question I'm asked most about the place, so let me walk you through exactly where to enter, what to expect, and the one day of the week you'll want to double-check before you go." },
+    { "type": "p", "text": "Yes - you can absolutely swim at Bondi Icebergs, and no, you don't need to be a member. It's a public ocean pool open to everyone for a small entry fee, seven days a week. It's easily the question I'm asked most about the place, so let me walk you through exactly where to enter, what to expect, and the one day of the week you'll want to double-check before you go." },
     { "type": "quickFacts", "items": [
       { "label": "Address", "value": "1 Notts Avenue, Bondi Beach NSW 2026" },
-      { "label": "Access", "value": "Open to the public — no membership needed" },
+      { "label": "Access", "value": "Open to the public - no membership needed" },
       { "label": "Entry", "value": "Small fee, paid at the pool desk" },
       { "label": "Pools", "value": "50m lap pool + smaller kids' pool" },
       { "label": "Closed", "value": "Thursdays for cleaning (tide/weather dependent)" }
     ] },
     { "type": "h2", "text": "Where to enter the pool" },
-    { "type": "p", "text": "Head to the southern end of Bondi Beach — the far end from the busy shops — and you'll see the white Bondi Icebergs Club building perched right over the ocean. It's the most photographed building on the beach, so you can't really miss it. Here's the bit that trips people up: the entrance to the pool is NOT through the smart restaurant and bar upstairs (that's Icebergs Dining). The pool has its own separate entrance." },
+    { "type": "p", "text": "Head to the southern end of Bondi Beach - the far end from the busy shops - and you'll see the white Bondi Icebergs Club building perched right over the ocean. It's the most photographed building on the beach, so you can't really miss it. Here's the bit that trips people up: the entrance to the pool is NOT through the smart restaurant and bar upstairs (that's Icebergs Dining). The pool has its own separate entrance." },
     { "type": "p", "text": "As you walk along Notts Avenue towards the club, look for the pool entrance and ramp on the ocean side, before you reach the main club doors. From there it's down to the pool deck at the base of the building, right at water level. Pay at the desk on the way in, and the pool deck, changing rooms and sauna are all yours." },
-    { "type": "localTip", "text": "The single best time to go is early — I love a 7am swim when the light is soft, the water's glassy and the crowds haven't arrived. Bring a card or a bit of cash for entry. Your pool admission covers the sauna and hot showers; the gym is a separate fee. Because prices change, I'd check the current rates on the Icebergs website before you head down rather than trust a number you read online." },
+    { "type": "localTip", "text": "The single best time to go is early - I love a 7am swim when the light is soft, the water's glassy and the crowds haven't arrived. Bring a card or a bit of cash for entry. Your pool admission covers the sauna and hot showers; the gym is a separate fee. Because prices change, I'd check the current rates on the Icebergs website before you head down rather than trust a number you read online." },
     { "type": "h2", "text": "What to expect when you arrive" },
-    { "type": "p", "text": "There are two pools carved into the rocks: the big 50-metre lap pool for serious swimmers, and a smaller, shallower one that's perfect for kids and nervous paddlers. Both are saltwater, topped up by waves crashing over the sea wall — which is what makes swimming here feel so wild and alive. Lifeguards patrol during opening hours year round, and your pool admission includes the sauna and hot showers, a glorious thing after a cold-weather dip." },
+    { "type": "p", "text": "There are two pools carved into the rocks: the big 50-metre lap pool for serious swimmers, and a smaller, shallower one that's perfect for kids and nervous paddlers. Both are saltwater, topped up by waves crashing over the sea wall - which is what makes swimming here feel so wild and alive. Lifeguards patrol during opening hours year round, and your pool admission includes the sauna and hot showers, a glorious thing after a cold-weather dip." },
     { "type": "p", "text": "One thing worth knowing: because the waves wash straight in, the water can be genuinely bracing, especially in winter, and on big-swell days the ocean end can get lively. That's part of the charm, but it's why I always tell first-timers to ease in rather than dive." },
-    { "type": "callout", "tone": "warning", "title": "Check before a Thursday visit", "text": "The pool closes on Thursdays to be drained and cleaned — though in summer, when the tides permit, it often stays open. Public access can also be paused for swimming races or when tides are too high to enter safely. If your only free day is a Thursday, or the surf looks huge, check the Icebergs pool-conditions page before you make the trip." },
+    { "type": "callout", "tone": "warning", "title": "Check before a Thursday visit", "text": "The pool closes on Thursdays to be drained and cleaned - though in summer, when the tides permit, it often stays open. Public access can also be paused for swimming races or when tides are too high to enter safely. If your only free day is a Thursday, or the surf looks huge, check the Icebergs pool-conditions page before you make the trip." },
     { "type": "h2", "text": "Getting there" },
     { "type": "list", "items": [
       "On foot: it's a flat, five-minute stroll south along the promenade from the middle of Bondi Beach.",
-      "By car: metered street parking on Notts Avenue and Fletcher Street is limited and fills fast — arrive early or park further back in the streets behind the beach.",
+      "By car: metered street parking on Notts Avenue and Fletcher Street is limited and fills fast - arrive early or park further back in the streets behind the beach.",
       "By taxi or rideshare: give the driver \"Bondi Icebergs, 1 Notts Avenue, Bondi Beach\".",
       "By public transport: buses run to Bondi Beach from Bondi Junction train station; from the bus stop it's a short walk to the southern end."
     ] },
@@ -34,9 +34,9 @@
       { "q": "Do you have to be a member to swim at Bondi Icebergs?", "a": "No. The pool is open to the public and anyone can swim for a small entry fee paid at the pool desk. Membership relates to the Icebergs winter swimming club, not everyday public access." },
       { "q": "How much does it cost to swim at Bondi Icebergs?", "a": "There's a modest entry fee, with reduced rates typically available for children, seniors and families. Prices change from time to time, so check the current rates on the official Icebergs website before you go rather than relying on an old figure." },
       { "q": "What are the pool's opening hours?", "a": "The pool generally opens at 6am on weekdays and 6:30am on weekends, closing in the evening. It's closed on Thursdays for cleaning (with a summer exception when tides allow). Always confirm current hours on the Icebergs site." },
-      { "q": "Where exactly is the pool entrance?", "a": "At the base of the Bondi Icebergs Club building on the ocean side, at the southern end of Bondi Beach — down to water level, separate from the upstairs restaurant. Look for the pool entrance and ramp along Notts Avenue as you approach the club." },
-      { "q": "Is Bondi Icebergs suitable for kids?", "a": "Yes — alongside the 50-metre lap pool there's a smaller, shallower children's pool, and lifeguards patrol during opening hours. Keep little ones in the kids' pool, as the ocean end of the main pool can be choppy on big-swell days." }
+      { "q": "Where exactly is the pool entrance?", "a": "At the base of the Bondi Icebergs Club building on the ocean side, at the southern end of Bondi Beach - down to water level, separate from the upstairs restaurant. Look for the pool entrance and ramp along Notts Avenue as you approach the club." },
+      { "q": "Is Bondi Icebergs suitable for kids?", "a": "Yes - alongside the 50-metre lap pool there's a smaller, shallower children's pool, and lifeguards patrol during opening hours. Keep little ones in the kids' pool, as the ocean end of the main pool can be choppy on big-swell days." }
     ] },
-    { "type": "p", "text": "That's all there is to it. No membership, no fuss — just wander to the southern end, pay at the desk, and lower into one of the most beautiful ocean pools in the world. Pick a calm morning, take your time, and you'll see why we locals never tire of it." }
+    { "type": "p", "text": "That's all there is to it. No membership, no fuss - just wander to the southern end, pay at the desk, and lower into one of the most beautiful ocean pools in the world. Pick a calm morning, take your time, and you'll see why we locals never tire of it." }
   ]
 }

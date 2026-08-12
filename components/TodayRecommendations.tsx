@@ -1,10 +1,10 @@
 /**
- * "Because of today's conditions…" — a slim, one-line strip of on-site guides
+ * "Because of today's conditions…" - a slim, one-line strip of on-site guides
  * chosen from today's weather/surf (see lib/conditions/recommend.ts). Kept
  * deliberately understated (a strip, not a section) so it doesn't crowd the page.
  *
  * Grounded: recommended links are filtered against real pages (getPage), so a link
- * only shows if the page genuinely exists — no dead ends, no invented suggestions.
+ * only shows if the page genuinely exists - no dead ends, no invented suggestions.
  */
 import Link from 'next/link';
 import { getConditions } from '@/lib/conditions/service';

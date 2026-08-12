@@ -3,7 +3,7 @@ import { upcomingEvents, sydneyToday, passesDateFilter, type DateFilter } from '
 import { EventCard } from './EventCard';
 
 /**
- * Reusable "what's on" module — drop it into any page to surface current events
+ * Reusable "what's on" module - drop it into any page to surface current events
  * (e.g. "What's on this weekend" on the homepage or a guide). Server-rendered and
  * date-aware; renders nothing when there's nothing to show.
  */

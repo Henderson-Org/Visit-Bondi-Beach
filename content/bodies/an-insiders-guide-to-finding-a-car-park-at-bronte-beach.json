@@ -3,13 +3,13 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Waverley Council — Parking", "url": "https://www.waverley.nsw.gov.au/residents/parking" },
-    { "label": "Waverley Council — Parking meters & Park'nPay", "url": "https://www.waverley.nsw.gov.au/residents/parking/parking_meters" },
-    { "label": "Waverley Council — Beach parking permit", "url": "https://www.waverley.nsw.gov.au/residents/parking/permits/beach_parking_permit" },
-    { "label": "Transport for NSW — trip planner", "url": "https://transportnsw.info" }
+    { "label": "Waverley Council - Parking", "url": "https://www.waverley.nsw.gov.au/residents/parking" },
+    { "label": "Waverley Council - Parking meters & Park'nPay", "url": "https://www.waverley.nsw.gov.au/residents/parking/parking_meters" },
+    { "label": "Waverley Council - Beach parking permit", "url": "https://www.waverley.nsw.gov.au/residents/parking/permits/beach_parking_permit" },
+    { "label": "Transport for NSW - trip planner", "url": "https://transportnsw.info" }
   ],
   "blocks": [
-    { "type": "p", "text": "The short answer: the best car park at Bronte Beach is the Bronte Cutting, the council-run metered area right beside the sand — but on a warm weekend it fills by mid-morning, so either roll in before 9am or be ready to work the back streets. I've circled this valley for years, and the good news is Bronte is genuinely easier to park at than its famous neighbour Bondi, once you know how the meters work." },
+    { "type": "p", "text": "The short answer: the best car park at Bronte Beach is the Bronte Cutting, the council-run metered area right beside the sand - but on a warm weekend it fills by mid-morning, so either roll in before 9am or be ready to work the back streets. I've circled this valley for years, and the good news is Bronte is genuinely easier to park at than its famous neighbour Bondi, once you know how the meters work." },
     { "type": "quickFacts", "items": [
       { "label": "Closest car park", "value": "Bronte Cutting (metered, beachfront)" },
       { "label": "Payment", "value": "Meters + Park'nPay app (live availability)" },
@@ -18,30 +18,30 @@
       { "label": "Car-free option", "value": "Bus from Bondi Junction interchange" }
     ] },
     { "type": "h2", "text": "The Bronte Cutting: your first choice" },
-    { "type": "p", "text": "The Cutting is the ribbon of metered parking running through the middle of the park, from Bronte Road down toward the beach and pool. It's the spot everyone wants — you can practically fall out of the car onto the grass. It's Waverley Council pay parking with pay-by-plate meters, so note your number plate before you walk off. Pay at the machine or, more usefully, through the Park'nPay app, which shows live space availability so you know whether it's worth heading down the hill." },
-    { "type": "callout", "tone": "note", "title": "Check the sign, not your memory", "text": "Rates, time limits and operating hours are set by Waverley Council and do change. Rather than trust a number you read online, check the meter signage on the day or the Park'nPay app — always the current source of truth." },
-    { "type": "localTip", "text": "My morning trick: get there before 9am, especially in summer and on weekends. The sunrise-lap crowd is leaving just as the day-trippers arrive, so you'll often slide into a Cutting bay someone's vacating. Late afternoon is the mirror image — from about 3–4pm the beach thins and spaces open again." },
+    { "type": "p", "text": "The Cutting is the ribbon of metered parking running through the middle of the park, from Bronte Road down toward the beach and pool. It's the spot everyone wants - you can practically fall out of the car onto the grass. It's Waverley Council pay parking with pay-by-plate meters, so note your number plate before you walk off. Pay at the machine or, more usefully, through the Park'nPay app, which shows live space availability so you know whether it's worth heading down the hill." },
+    { "type": "callout", "tone": "note", "title": "Check the sign, not your memory", "text": "Rates, time limits and operating hours are set by Waverley Council and do change. Rather than trust a number you read online, check the meter signage on the day or the Park'nPay app - always the current source of truth." },
+    { "type": "localTip", "text": "My morning trick: get there before 9am, especially in summer and on weekends. The sunrise-lap crowd is leaving just as the day-trippers arrive, so you'll often slide into a Cutting bay someone's vacating. Late afternoon is the mirror image - from about 3–4pm the beach thins and spaces open again." },
     { "type": "h2", "text": "Working the back streets" },
     { "type": "p", "text": "When the Cutting is full, I head uphill. Unlike Bondi, where a legal kerbside spot near the sand can feel mythical, Bronte's surrounding streets give you a real shot within a short walk. The catch is the maze of restrictions: metered sections, timed zones and permit-only blocks sit next to each other, and Waverley's officers enforce them." },
     { "type": "p", "text": "The streets I'd point a first-timer toward:" },
     { "type": "list", "items": [
-      "Bronte Road — the main spine down to the beach; metered nearer the bottom, timed and permit zones as you climb.",
-      "Macpherson Street — a short, mostly flat walk in from the Charing Cross side.",
-      "Pacific Street and the cross-streets above the park — a decent bet if you don't mind a stroll downhill (and the climb back up).",
-      "The quieter streets further up the hill — read every sign; many are permit-only and will earn you a fine, not a park."
+      "Bronte Road - the main spine down to the beach; metered nearer the bottom, timed and permit zones as you climb.",
+      "Macpherson Street - a short, mostly flat walk in from the Charing Cross side.",
+      "Pacific Street and the cross-streets above the park - a decent bet if you don't mind a stroll downhill (and the climb back up).",
+      "The quieter streets further up the hill - read every sign; many are permit-only and will earn you a fine, not a park."
     ] },
-    { "type": "callout", "tone": "warning", "title": "Read the whole sign before you lock the car", "text": "Bronte's restrictions flip from one pole to the next — a 2-hour zone can become resident-permit-only a few metres along. Check the arrows and fine print for your exact bay, and don't assume a free-looking stretch stays free all day." },
+    { "type": "callout", "tone": "warning", "title": "Read the whole sign before you lock the car", "text": "Bronte's restrictions flip from one pole to the next - a 2-hour zone can become resident-permit-only a few metres along. Check the arrows and fine print for your exact bay, and don't assume a free-looking stretch stays free all day." },
     { "type": "h2", "text": "If you come here often" },
-    { "type": "p", "text": "If Bronte is your regular, it's worth looking at Waverley Council's beach parking permit, which lets you park in the metered beach areas — including the Bronte Cutting — instead of feeding the meter. Eligibility and pricing vary, and residents and ratepayers generally pay less, so check the current terms on the council's permit page before you apply." },
+    { "type": "p", "text": "If Bronte is your regular, it's worth looking at Waverley Council's beach parking permit, which lets you park in the metered beach areas - including the Bronte Cutting - instead of feeding the meter. Eligibility and pricing vary, and residents and ratepayers generally pay less, so check the current terms on the council's permit page before you apply." },
     { "type": "h2", "text": "The honest answer: leave the car at home" },
-    { "type": "p", "text": "My favourite way to reach Bronte on a busy day is to not drive at all. Buses run from the Bondi Junction interchange (an easy train hop from the city) to the Bronte terminus right by the park, and on a packed summer Sunday they beat the parking lottery every time. Use the Transport for NSW trip planner for routes and times — the difference between starting your day relaxed on the sand and doing laps of the hill." },
+    { "type": "p", "text": "My favourite way to reach Bronte on a busy day is to not drive at all. Buses run from the Bondi Junction interchange (an easy train hop from the city) to the Bronte terminus right by the park, and on a packed summer Sunday they beat the parking lottery every time. Use the Transport for NSW trip planner for routes and times - the difference between starting your day relaxed on the sand and doing laps of the hill." },
     { "type": "faq", "items": [
-      { "q": "Where is the closest car park to Bronte Beach?", "a": "The Bronte Cutting — the council-run metered area running down the middle of the park to the beach and pool. It's pay-by-plate (meters plus the Park'nPay app) and the first place to try." },
+      { "q": "Where is the closest car park to Bronte Beach?", "a": "The Bronte Cutting - the council-run metered area running down the middle of the park to the beach and pool. It's pay-by-plate (meters plus the Park'nPay app) and the first place to try." },
       { "q": "How much does parking at Bronte Beach cost?", "a": "The rates are set by Waverley Council and change, so I won't quote a figure that might be stale. Check the meter signage or the Park'nPay app for the current rate and any daily cap." },
       { "q": "What's the best time to get a park at Bronte?", "a": "Before about 9am, or from mid-to-late afternoon (roughly 3–4pm on). On summer weekends everything fills through the middle of the day, so early or late is your friend." },
-      { "q": "Is there free parking near Bronte Beach?", "a": "Some surrounding streets have timed or unmetered sections, but they're tangled up with enforced permit-only zones. Read every sign for your exact bay — the safest, closest option is still the metered Cutting." },
+      { "q": "Is there free parking near Bronte Beach?", "a": "Some surrounding streets have timed or unmetered sections, but they're tangled up with enforced permit-only zones. Read every sign for your exact bay - the safest, closest option is still the metered Cutting." },
       { "q": "Can I avoid parking altogether?", "a": "Yes, and on a busy day I'd recommend it. Take the train to Bondi Junction and a bus down to the Bronte terminus by the park. Check the Transport for NSW trip planner for current routes and times." }
     ] },
-    { "type": "p", "text": "Bronte rewards a little forward planning. Arrive early, use the Park'nPay app before you commit, respect the back-street signs, and keep the bus in your back pocket for the busiest days. Do that and you'll spend your day in the water and on the grass — not grinding up and down the hill for a bay." }
+    { "type": "p", "text": "Bronte rewards a little forward planning. Arrive early, use the Park'nPay app before you commit, respect the back-street signs, and keep the bus in your back pocket for the busiest days. Do that and you'll spend your day in the water and on the grass - not grinding up and down the hill for a bay." }
   ]
 }

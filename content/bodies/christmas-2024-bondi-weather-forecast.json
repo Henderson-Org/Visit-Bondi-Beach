@@ -3,12 +3,12 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Bureau of Meteorology — Sydney 7-day forecast", "url": "https://www.bom.gov.au/nsw/forecasts/sydney.shtml" },
-    { "label": "Bureau of Meteorology — Sydney (Observatory Hill) December climate statistics", "url": "http://www.bom.gov.au/climate/averages/tables/cw_066062.shtml" },
-    { "label": "Surf Life Saving — Beachsafe", "url": "https://beachsafe.org.au" }
+    { "label": "Bureau of Meteorology - Sydney 7-day forecast", "url": "https://www.bom.gov.au/nsw/forecasts/sydney.shtml" },
+    { "label": "Bureau of Meteorology - Sydney (Observatory Hill) December climate statistics", "url": "http://www.bom.gov.au/climate/averages/tables/cw_066062.shtml" },
+    { "label": "Surf Life Saving - Beachsafe", "url": "https://beachsafe.org.au" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you're planning a Christmas Day at Bondi, here's the honest local answer: it's the middle of a Sydney summer, so expect warm, bright, often humid weather rather than snow and jumpers — but our December sky is genuinely changeable, and a sunny morning can turn into an afternoon storm without much warning. Because the actual Christmas Day forecast shifts right up until the week itself, the single most useful thing I can tell you is to check the Bureau of Meteorology's Sydney 7-day forecast a few days out and plan your beach time around it." },
+    { "type": "p", "text": "If you're planning a Christmas Day at Bondi, here's the honest local answer: it's the middle of a Sydney summer, so expect warm, bright, often humid weather rather than snow and jumpers - but our December sky is genuinely changeable, and a sunny morning can turn into an afternoon storm without much warning. Because the actual Christmas Day forecast shifts right up until the week itself, the single most useful thing I can tell you is to check the Bureau of Meteorology's Sydney 7-day forecast a few days out and plan your beach time around it." },
     { "type": "quickFacts", "items": [
       { "label": "Season", "value": "Peak summer (December)" },
       { "label": "Typical Dec max", "value": "Around 25°C at Observatory Hill" },
@@ -17,26 +17,26 @@
       { "label": "Live forecast", "value": "BoM Sydney 7-day (linked below)" }
     ] },
     { "type": "h2", "text": "What a Bondi Christmas usually feels like" },
-    { "type": "p", "text": "Christmas here lands in high summer, so the vibe is thongs, sunscreen and a swim rather than mulled wine by a fire. Over the long climate record, December at Observatory Hill — the nearest long-running Bureau site to Bondi — averages a daily maximum around 25°C and overnight lows near 18°C, though individual days swing well either side. Some Christmases are gloriously blue and still; others are warm, muggy and cloud-heavy with a thunderstorm rolling through late in the day. December is also one of our wetter summer months, so a shower isn't unusual." },
-    { "type": "p", "text": "The pattern I see most often: a bright, calm morning that clouds up as the afternoon heats up, with storm risk building later — which is why locals treat the early hours as the safe bet." },
+    { "type": "p", "text": "Christmas here lands in high summer, so the vibe is thongs, sunscreen and a swim rather than mulled wine by a fire. Over the long climate record, December at Observatory Hill - the nearest long-running Bureau site to Bondi - averages a daily maximum around 25°C and overnight lows near 18°C, though individual days swing well either side. Some Christmases are gloriously blue and still; others are warm, muggy and cloud-heavy with a thunderstorm rolling through late in the day. December is also one of our wetter summer months, so a shower isn't unusual." },
+    { "type": "p", "text": "The pattern I see most often: a bright, calm morning that clouds up as the afternoon heats up, with storm risk building later - which is why locals treat the early hours as the safe bet." },
     { "type": "localTip", "text": "Get down to the sand before mid-morning. The light is soft, the crowds are thinner, parking is easier, and you're beating both the fiercest UV and the afternoon storm risk. By early afternoon the promenade and car parks fill fast." },
     { "type": "h2", "text": "How to check the real Christmas forecast" },
-    { "type": "p", "text": "I won't pretend to know exactly what this Christmas Day holds — nobody reliably can more than about a week out, and a precise temperature quoted weeks ahead is a guess. Instead, here's how I check it myself:" },
+    { "type": "p", "text": "I won't pretend to know exactly what this Christmas Day holds - nobody reliably can more than about a week out, and a precise temperature quoted weeks ahead is a guess. Instead, here's how I check it myself:" },
     { "type": "list", "items": [
-      "Open the Bureau of Meteorology's Sydney forecast (linked in sources) three to five days before Christmas — that's when the daily detail becomes genuinely reliable.",
+      "Open the Bureau of Meteorology's Sydney forecast (linked in sources) three to five days before Christmas - that's when the daily detail becomes genuinely reliable.",
       "Look at the chance of rain and the wind, not just the top temperature. A southerly buster or an afternoon storm changes your beach plans more than a couple of degrees does.",
-      "Check the UV index and sun protection times — in a Sydney summer they routinely reach extreme, even under cloud.",
+      "Check the UV index and sun protection times - in a Sydney summer they routinely reach extreme, even under cloud.",
       "On the day, check Surf Life Saving's Beachsafe or the on-beach flags for surf and hazard conditions before you swim."
     ] },
-    { "type": "callout", "tone": "warning", "title": "Don't be fooled by cloud", "text": "Bondi's UV is punishing in December whether the sky is blue or grey — cloud doesn't stop you burning. Slip on a shirt, slop on sunscreen, slap on a hat, slide on sunnies, and reapply after every swim. Overcast Christmas mornings catch visitors out every year." },
+    { "type": "callout", "tone": "warning", "title": "Don't be fooled by cloud", "text": "Bondi's UV is punishing in December whether the sky is blue or grey - cloud doesn't stop you burning. Slip on a shirt, slop on sunscreen, slap on a hat, slide on sunnies, and reapply after every swim. Overcast Christmas mornings catch visitors out every year." },
     { "type": "h2", "text": "Planning your Christmas Day at the beach" },
-    { "type": "p", "text": "Whatever the forecast, a few things hold true. Always swim between the red and yellow flags — on a busy Christmas the lifesavers set them where it's safest. Bring water, pack a light rain layer if storms are showing, and remember Bondi is an alcohol-free beach, so keep the celebrating to picnic food. If the afternoon turns grey, it's no disaster — that's when I duck up to a café along Campbell Parade. Bondi is lovely in moody weather too." },
+    { "type": "p", "text": "Whatever the forecast, a few things hold true. Always swim between the red and yellow flags - on a busy Christmas the lifesavers set them where it's safest. Bring water, pack a light rain layer if storms are showing, and remember Bondi is an alcohol-free beach, so keep the celebrating to picnic food. If the afternoon turns grey, it's no disaster - that's when I duck up to a café along Campbell Parade. Bondi is lovely in moody weather too." },
     { "type": "faq", "items": [
-      { "q": "What's the weather usually like at Bondi Beach on Christmas Day?", "a": "It's peak summer, so warm and often humid rather than cold. December at the nearest long-term Bureau station averages a daily maximum around 25°C and overnight lows near 18°C, but individual Christmas Days vary a lot — some are clear and hot, others cloudy with an afternoon shower. Check the BoM Sydney 7-day forecast close to the day for the real picture." },
+      { "q": "What's the weather usually like at Bondi Beach on Christmas Day?", "a": "It's peak summer, so warm and often humid rather than cold. December at the nearest long-term Bureau station averages a daily maximum around 25°C and overnight lows near 18°C, but individual Christmas Days vary a lot - some are clear and hot, others cloudy with an afternoon shower. Check the BoM Sydney 7-day forecast close to the day for the real picture." },
       { "q": "Does it rain at Bondi at Christmas?", "a": "It can. December is one of Sydney's wetter summer months, and afternoon showers or storms are fairly common even when the morning is dry. It rarely rains all day, though, so many people just plan their swim for the morning." },
       { "q": "When is the best time to go to the beach on Christmas Day?", "a": "The morning, in my experience. It tends to be sunnier and calmer, the UV and afternoon storm risk are lower, and it's much easier to find parking and space on the sand before the midday crowds arrive." },
-      { "q": "Where can I get the official Christmas Day forecast for Bondi?", "a": "Use the Bureau of Meteorology's Sydney forecast — it covers the Bondi area and becomes reliable about three to five days out. For surf and beach-hazard conditions on the day, check Surf Life Saving's Beachsafe page for Bondi or the flags and signage on the beach." },
-      { "q": "Do I still need sunscreen if it's cloudy on Christmas?", "a": "Absolutely. Bondi's summer UV reaches extreme levels and cloud doesn't block it. Apply sunscreen, wear a hat and shirt, seek shade in the middle of the day, and reapply after swimming — cloudy Christmas mornings are exactly when visitors get burnt." }
+      { "q": "Where can I get the official Christmas Day forecast for Bondi?", "a": "Use the Bureau of Meteorology's Sydney forecast - it covers the Bondi area and becomes reliable about three to five days out. For surf and beach-hazard conditions on the day, check Surf Life Saving's Beachsafe page for Bondi or the flags and signage on the beach." },
+      { "q": "Do I still need sunscreen if it's cloudy on Christmas?", "a": "Absolutely. Bondi's summer UV reaches extreme levels and cloud doesn't block it. Apply sunscreen, wear a hat and shirt, seek shade in the middle of the day, and reapply after swimming - cloudy Christmas mornings are exactly when visitors get burnt." }
     ] },
     { "type": "p", "text": "So here's my Christmas wish for you: an easy morning swim between the flags, a shady lunch spot, and a good coffee if the clouds roll in later. Check the Bureau's forecast, pack sunscreen either way, and have a wonderful day. Happy holidays from all of us at Bondi." }
   ]

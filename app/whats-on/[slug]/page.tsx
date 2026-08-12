@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const e = getEvent(slug);
   if (!e) return { title: 'Event not found' };
   return {
-    title: `${e.title} — Bondi Beach`,
+    title: `${e.title} - Bondi Beach`,
     description: e.summary,
     alternates: { canonical: `/whats-on/${slug}` },
     robots: isProduction() ? undefined : { index: false, follow: true },
@@ -47,8 +47,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 function priceLine(e: BondiEvent): string {
   if (e.priceType === 'free') return 'Free';
-  if (e.priceType === 'paid') return e.price || 'Ticketed — see official site';
-  return 'Varies — see official site';
+  if (e.priceType === 'paid') return e.price || 'Ticketed - see official site';
+  return 'Varies - see official site';
 }
 
 export default async function EventDetailPage({ params }: Props) {
@@ -65,7 +65,7 @@ export default async function EventDetailPage({ params }: Props) {
     { name: e.title, path },
   ];
 
-  // Event schema only when we have a concrete date — never fabricate one.
+  // Event schema only when we have a concrete date - never fabricate one.
   const startIso = r.nextDate ? `${r.nextDate}${e.startTime ? `T${e.startTime}:00${sydneyOffset(r.nextDate)}` : ''}` : null;
   // endDate (Google-recommended): published end for a multi-day edition; same-day end time
   // for a timed single-day event; otherwise the same calendar day (a one-day event).
@@ -128,7 +128,7 @@ export default async function EventDetailPage({ params }: Props) {
 
         {!r.nextDate && (
           <p className="mt-4 rounded-lg border-l-4 border-amber-500 bg-amber-500/5 px-4 py-3 text-sm text-ink-700">
-            This is an annual event — {(e.typicalTiming || e.whenText || 'dates vary each year').toLowerCase()}.
+            This is an annual event - {(e.typicalTiming || e.whenText || 'dates vary each year').toLowerCase()}.
             The next edition’s exact dates aren’t published yet, so confirm on the official site before planning around it.
           </p>
         )}
@@ -182,7 +182,7 @@ export default async function EventDetailPage({ params }: Props) {
           {e.source && (
             <> · <a href={e.source} target="_blank" rel="nofollow noopener" className="text-ocean-700 underline">Source</a></>
           )}
-          . Event details can change — always confirm with the organiser.
+          . Event details can change - always confirm with the organiser.
         </p>
       </div>
 

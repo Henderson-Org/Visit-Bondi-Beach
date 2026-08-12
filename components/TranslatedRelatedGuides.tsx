@@ -4,17 +4,17 @@ import { translatedTitle } from '@/lib/translations';
 import { UI_STRINGS, LOCALE_HREFLANG, localizedPath, type Locale } from '@/lib/i18n';
 
 /**
- * "Read next" for a translated article — the internal-linking surface the English page has but the
+ * "Read next" for a translated article - the internal-linking surface the English page has but the
  * translations previously lacked, leaving them near dead-ends for crawlers. Each related guide links
  * to its SAME-LANGUAGE translation where one exists (so readers and crawl paths stay in-language and
  * the translations gain internal links to help them get indexed and rank); it falls back to the
- * English page only when that guide isn't translated — a deliberate, marked (`hrefLang="en"`) link,
+ * English page only when that guide isn't translated - a deliberate, marked (`hrefLang="en"`) link,
  * not an accident. Same-language links are surfaced first so the in-language paths lead.
  */
 export function TranslatedRelatedGuides({ page, locale }: { page: Page; locale: Locale }) {
   // Pull a deeper related set than we'll show (still all above the relevance threshold), so we can
-  // prefer the ones that exist in this language — surfacing more in-language internal links without
-  // going off-topic — before filling any remaining slots with English fallbacks.
+  // prefer the ones that exist in this language - surfacing more in-language internal links without
+  // going off-topic - before filling any remaining slots with English fallbacks.
   const items = relatedPages(page, 12)
     .map((p) => {
       const tt = translatedTitle(locale, p.path);

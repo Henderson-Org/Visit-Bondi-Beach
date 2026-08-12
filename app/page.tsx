@@ -80,17 +80,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Daily Weather & Surf Summary — a slim, unobtrusive bar (scrolls sideways on
+      {/* Daily Weather & Surf Summary - a slim, unobtrusive bar (scrolls sideways on
           mobile). The full forecast lives on the /bondi-weather hub. */}
       <WeatherSurfSummary destination="bondi" variant="bar" />
 
-      {/* Day Planner — a prominent product entry point, directly under the hero and
+      {/* Day Planner - a prominent product entry point, directly under the hero and
           above the articles. One of the most prominent homepage modules. */}
       <div className="pt-8">
         <DayPlannerPromo variant="homepage" placement="homepage" />
       </div>
 
-      {/* Live surf cam — a genuinely useful live feature, pairing with the conditions bar
+      {/* Live surf cam - a genuinely useful live feature, pairing with the conditions bar
           above. Embedded iframe (North Bondi SLSC's own public camera). */}
       <div className="pt-10">
         <SurfCam />
@@ -110,13 +110,13 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* What's on — surface current events on the homepage (date-aware; renders
+      {/* What's on - surface current events on the homepage (date-aware; renders
           nothing if there's nothing on). */}
       <section className="mx-auto max-w-6xl px-4 pb-4">
         <UpcomingEvents heading="What's on in Bondi" limit={3} />
       </section>
 
-      {/* Conditions-driven suggestions — kept below the main guides so it doesn't
+      {/* Conditions-driven suggestions - kept below the main guides so it doesn't
           crowd the top of the page. */}
       <section className="mx-auto max-w-6xl px-4 pb-12">
         <TodayRecommendations destination="bondi" />

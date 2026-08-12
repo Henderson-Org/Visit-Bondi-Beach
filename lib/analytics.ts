@@ -1,6 +1,6 @@
 /**
  * Thin wrapper over the site's existing GA4 (window.gtag). No new dependency. Safe to call
- * anywhere — it no-ops when analytics isn't loaded (e.g. non-production, or before consent).
+ * anywhere - it no-ops when analytics isn't loaded (e.g. non-production, or before consent).
  */
 type Params = Record<string, string | number | boolean | undefined>;
 

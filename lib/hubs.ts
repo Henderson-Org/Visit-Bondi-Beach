@@ -1,7 +1,7 @@
 /**
  * Per-hub design configuration for the category pages (the site's editable design
  * data layer). Each key is a hub path; the renderer (components/HubView.tsx) reads
- * this to vary hero treatment, section layouts, a practical facts strip and a CTA —
+ * this to vary hero treatment, section layouts, a practical facts strip and a CTA -
  * so pages differ intentionally rather than sharing one template.
  *
  * `sectionLayouts` is indexed by section order. Missing entries default to 'grid'.
@@ -62,7 +62,7 @@ const HUB_DESIGN: Record<string, HubDesign> = {
     },
     cta: {
       title: 'Hungry for more?',
-      text: 'From hidden coffee spots to the best fish and chips on the sand — keep exploring where Bondi eats.',
+      text: 'From hidden coffee spots to the best fish and chips on the sand - keep exploring where Bondi eats.',
       href: '/bondi-blog',
       label: 'Browse all food & drink guides',
     },
@@ -89,7 +89,7 @@ const HUB_DESIGN: Record<string, HubDesign> = {
     ],
     cta: {
       title: 'Plan a family day',
-      text: 'Where to swim, what to do and where to eat with kids in tow — all in one place.',
+      text: 'Where to swim, what to do and where to eat with kids in tow - all in one place.',
       href: '/where-to-swim-at-bondi-beach',
       label: 'Where to swim with children',
     },
@@ -110,7 +110,7 @@ const HUB_DESIGN: Record<string, HubDesign> = {
     },
     cta: {
       title: 'Got more time?',
-      text: 'Three hours or three days — there is always another corner of Bondi worth exploring.',
+      text: 'Three hours or three days - there is always another corner of Bondi worth exploring.',
       href: '/bondi-coastal-walk',
       label: 'Walk the coast to Coogee',
     },
@@ -148,7 +148,7 @@ const HUB_DESIGN: Record<string, HubDesign> = {
     ],
     cta: {
       title: 'Make a morning of it',
-      text: 'Swim the ocean pools, stop for coffee, and finish with brunch — here is how locals do the walk.',
+      text: 'Swim the ocean pools, stop for coffee, and finish with brunch - here is how locals do the walk.',
       href: '/bondi-eat-and-drink',
       label: 'Where to refuel along the way',
     },
@@ -173,7 +173,7 @@ const HUB_DESIGN: Record<string, HubDesign> = {
         { label: 'Bondi Junction', sub: 'Train (~15 min)' },
         { label: 'Bondi Beach', sub: 'Bus (~15 min)' },
       ],
-      note: 'There is no train to the beach itself — take the train to Bondi Junction, then a short bus ride down to the sand. Times are approximate and vary with traffic.',
+      note: 'There is no train to the beach itself - take the train to Bondi Junction, then a short bus ride down to the sand. Times are approximate and vary with traffic.',
     },
     practical: [
       { label: 'From the CBD', value: '≈ 30 minutes' },
@@ -183,7 +183,7 @@ const HUB_DESIGN: Record<string, HubDesign> = {
     ],
     cta: {
       title: 'Made it to Bondi?',
-      text: 'Now for the fun part — here is everything worth doing once you arrive.',
+      text: 'Now for the fun part - here is everything worth doing once you arrive.',
       href: '/things-to-do-in-bondi',
       label: 'Things to do in Bondi',
     },
@@ -202,7 +202,7 @@ const HUB_DESIGN: Record<string, HubDesign> = {
     },
     cta: {
       title: 'See it for yourself',
-      text: 'The lifeguards you know from the show patrol the beach every day — here is where they work.',
+      text: 'The lifeguards you know from the show patrol the beach every day - here is where they work.',
       href: '/where-to-swim-at-bondi-beach',
       label: 'Where to swim safely at Bondi',
     },
@@ -213,7 +213,7 @@ const HUB_DESIGN: Record<string, HubDesign> = {
     sectionLayouts: ['grid', 'grid', 'grid'],
     cta: {
       title: 'Picked your season?',
-      text: 'Whatever the forecast, there is a good day to be had at Bondi — start planning.',
+      text: 'Whatever the forecast, there is a good day to be had at Bondi - start planning.',
       href: '/things-to-do-in-bondi',
       label: 'Things to do in any weather',
     },
@@ -239,7 +239,7 @@ const HUB_DESIGN: Record<string, HubDesign> = {
     ],
     cta: {
       title: 'Skip the parking stress',
-      text: 'On a hot Saturday the car parks fill by mid-morning — here is how to actually get to Bondi.',
+      text: 'On a hot Saturday the car parks fill by mid-morning - here is how to actually get to Bondi.',
       href: '/getting-to-bondi',
       label: 'Getting to Bondi without a car',
     },
@@ -259,7 +259,7 @@ const HUB_DESIGN: Record<string, HubDesign> = {
     },
     cta: {
       title: 'After the finish line',
-      text: 'Recover the local way — the best flat white, a cold swim and where everyone heads to celebrate.',
+      text: 'Recover the local way - the best flat white, a cold swim and where everyone heads to celebrate.',
       href: '/bondi-eat-and-drink',
       label: 'Where to refuel in Bondi',
     },
@@ -278,7 +278,7 @@ const HUB_DESIGN: Record<string, HubDesign> = {
     },
     cta: {
       title: 'Swim, don’t surf, today?',
-      text: 'When the waves are dumping, here is where it is calm — and where it is safe to swim.',
+      text: 'When the waves are dumping, here is where it is calm - and where it is safe to swim.',
       href: '/where-to-swim-at-bondi-beach',
       label: 'Where to swim at Bondi',
     },
@@ -327,7 +327,7 @@ const CORE_PAGE_HUBS: Record<string, CorePageHub> = {
     kicker: 'Swim',
     heroImage: '/images/articles/a4708829a45f32eb.webp',
     intro:
-      "Where to swim at Bondi — from the flags on the beach to the Icebergs pool and the calm ocean baths nearby. Here's how to pick the right spot for the day.",
+      "Where to swim at Bondi - from the flags on the beach to the Icebergs pool and the calm ocean baths nearby. Here's how to pick the right spot for the day.",
     explore: {
       heading: 'Ocean pools, safety & conditions',
       links: [

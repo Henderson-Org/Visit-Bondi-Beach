@@ -12,7 +12,7 @@ export function SiteFooter() {
             @visitbondibeach
           </a>
         </div>
-        {/* Full hub set — the crawlable authority backbone: every topic hub one click from every page. */}
+        {/* Full hub set - the crawlable authority backbone: every topic hub one click from every page. */}
         {HUB_NAV.map((col) => (
           <nav key={col.group} aria-label={col.group} className="text-sm">
             <h2 className="font-medium text-ink-900 mb-2">{col.group}</h2>

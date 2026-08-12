@@ -15,11 +15,11 @@ export interface GuideCardData {
 }
 
 // Decode the few HTML entities that survive in crawled text, and strip the
-// brand/nav boilerplate ("… — Visit Bondi Beach Visit Bondi Beach … What's On …")
+// brand/nav boilerplate ("… - Visit Bondi Beach Visit Bondi Beach … What's On …")
 // that pollutes some crawled intros. Authored meta/body text is already clean.
 export function cleanText(s = ''): string {
   return s
-    .replace(/&mdash;/g, '—').replace(/&ndash;/g, '–')
+    .replace(/&mdash;/g, '-').replace(/&ndash;/g, '–')
     .replace(/&amp;/g, '&').replace(/&#39;|&rsquo;|&apos;/g, '’')
     .replace(/&quot;|&ldquo;|&rdquo;/g, '"').replace(/&hellip;/g, '…').replace(/&nbsp;/g, ' ')
     .replace(/\s*[—-]?\s*Visit Bondi Beach\b.*$/i, '')
@@ -28,7 +28,7 @@ export function cleanText(s = ''): string {
 }
 
 // Excerpt from authored meta description, else the first paragraph of an authored
-// body — never the raw crawled intro (which is nav boilerplate). Empty is fine.
+// body - never the raw crawled intro (which is nav boilerplate). Empty is fine.
 export function excerptFor(target: Page | undefined): string {
   const md = cleanText(target?.metaDescription || '');
   if (md.length >= 20) return md;

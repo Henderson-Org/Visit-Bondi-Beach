@@ -6,15 +6,15 @@ import { PriceBadge } from './primitives';
 /**
  * Elegant, mobile-friendly comparison table. Scrolls horizontally on small screens
  * inside its own container so the page body never scrolls sideways. Rating shows the
- * Visit Bondi Beach editorial score only where a full guide exists — never a fabricated
+ * Visit Bondi Beach editorial score only where a full guide exists - never a fabricated
  * number.
  */
 function yesNo(v: boolean | undefined): string {
-  return v ? 'Yes' : '—';
+  return v ? 'Yes' : '-';
 }
 
 function primaryTag(tags: Tag[]): string {
-  return tags[0] ? TAG_LABEL[tags[0]] : '—';
+  return tags[0] ? TAG_LABEL[tags[0]] : '-';
 }
 
 export function ComparisonTable({ properties }: { properties: Property[] }) {
@@ -52,7 +52,7 @@ export function ComparisonTable({ properties }: { properties: Property[] }) {
                 <td className="px-4 py-3 text-ink-700">{yesNo(p.amenities.pool)}</td>
                 <td className="px-4 py-3"><PriceBadge band={p.priceBand} /></td>
                 <td className="px-4 py-3 text-ink-700">
-                  {score != null ? <span className="font-semibold text-ink-900">{score.toFixed(1)}</span> : <span className="text-ink-400">—</span>}
+                  {score != null ? <span className="font-semibold text-ink-900">{score.toFixed(1)}</span> : <span className="text-ink-400">-</span>}
                 </td>
               </tr>
             );

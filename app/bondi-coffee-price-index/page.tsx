@@ -14,7 +14,7 @@ const cheapest = derived.cheapest;
 const dearest = derived.dearest;
 const ranked = derived.ranked;
 const bands = derived.currentBands ?? { under5: 0, b5_549: 0, b550_599: 0, b6plus: 0 };
-const fmt = (n: number | null | undefined) => (n == null ? '—' : `$${n.toFixed(2)}`);
+const fmt = (n: number | null | undefined) => (n == null ? '-' : `$${n.toFixed(2)}`);
 const pct = (n: number) => `${Math.round((n / N) * 100)}%`;
 
 const TITLE = `The Bondi Coffee Index: What a Coffee Costs in Bondi (${YEAR})`;
@@ -35,7 +35,7 @@ const FAQ = [
   },
   {
     q: 'What is the average price of coffee in Bondi?',
-    a: `We use the median as the headline figure — ${fmt(MEDIAN)} for a regular flat white in ${YEAR} — because it isn't skewed by the occasional very cheap or very expensive outlier. The mean across our sample is ${fmt(MEAN)}.`,
+    a: `We use the median as the headline figure - ${fmt(MEDIAN)} for a regular flat white in ${YEAR} - because it isn't skewed by the occasional very cheap or very expensive outlier. The mean across our sample is ${fmt(MEAN)}.`,
   },
   {
     q: 'Where is the cheapest coffee in Bondi?',
@@ -43,7 +43,7 @@ const FAQ = [
   },
   {
     q: 'Have Bondi coffee prices gone up?',
-    a: `Almost certainly — but we only publish what we can prove. This is the first (${YEAR}) edition of the Bondi Coffee Index: a baseline. We could not verify archived historical menu prices, so rather than estimate, we'll measure the change year on year from here.`,
+    a: `Almost certainly - but we only publish what we can prove. This is the first (${YEAR}) edition of the Bondi Coffee Index: a baseline. We could not verify archived historical menu prices, so rather than estimate, we'll measure the change year on year from here.`,
   },
 ];
 
@@ -84,7 +84,7 @@ export default function CoffeeIndexPage() {
             What does a coffee cost in Bondi?
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-ink-600">
-            We read the menus of {N} Bondi cafés and recorded the price of a regular flat white. Here is what the local coffee actually costs — and who is cheapest.
+            We read the menus of {N} Bondi cafés and recorded the price of a regular flat white. Here is what the local coffee actually costs - and who is cheapest.
           </p>
           <div className="mt-9 flex flex-wrap items-end gap-x-12 gap-y-6">
             <div>
@@ -154,7 +154,7 @@ export default function CoffeeIndexPage() {
         {/* Ranked list / data table */}
         <section className="my-10">
           <h2 className="font-display text-2xl text-ink-900">Cheapest to dearest</h2>
-          <p className="mt-2 text-ink-600">Every price is from the café's own menu — tap a source to see it. Café names link to our guide.</p>
+          <p className="mt-2 text-ink-600">Every price is from the café's own menu - tap a source to see it. Café names link to our guide.</p>
           <div className="mt-5 overflow-x-auto">
             <table className="w-full border-collapse text-sm">
               <thead>
@@ -176,7 +176,7 @@ export default function CoffeeIndexPage() {
                     <td className="px-2 py-2">
                       {r.source_url ? (
                         <a href={r.source_url} target="_blank" rel="nofollow noopener" className="text-ocean-700 hover:underline">menu ↗</a>
-                      ) : '—'}
+                      ) : '-'}
                     </td>
                   </tr>
                 ))}
@@ -192,10 +192,10 @@ export default function CoffeeIndexPage() {
         <section className="my-10 rounded-2xl border border-sand-200 bg-sand-50 p-6">
           <h2 className="font-display text-xl text-ink-900">How we built this</h2>
           <p className="mt-2 text-sm leading-relaxed text-ink-700">
-            We started from our own database of Bondi cafés and recorded the price of a regular flat white (or the closest standard milk coffee) from each venue's <strong>own menu</strong>, keeping the exact item and a link to the source. We use the <strong>median</strong> as the headline index because it isn't thrown off by outliers. We never estimate a price: if we couldn't see it on a menu, the café isn't in the sample — which is why this first edition covers <strong>{N} cafés</strong> rather than every café in Bondi (many post menus only as images or through apps we can't read).
+            We started from our own database of Bondi cafés and recorded the price of a regular flat white (or the closest standard milk coffee) from each venue's <strong>own menu</strong>, keeping the exact item and a link to the source. We use the <strong>median</strong> as the headline index because it isn't thrown off by outliers. We never estimate a price: if we couldn't see it on a menu, the café isn't in the sample - which is why this first edition covers <strong>{N} cafés</strong> rather than every café in Bondi (many post menus only as images or through apps we can't read).
           </p>
           <p className="mt-3 text-sm leading-relaxed text-ink-700">
-            <strong>This is the {YEAR} baseline.</strong> A five-year trend needs historical menus, and we could not verify archived prices from public archives — so rather than invent a trend, we're setting the marker this year and will measure the real change annually from here. Prices change; we recheck each year.
+            <strong>This is the {YEAR} baseline.</strong> A five-year trend needs historical menus, and we could not verify archived prices from public archives - so rather than invent a trend, we're setting the marker this year and will measure the real change annually from here. Prices change; we recheck each year.
           </p>
         </section>
 

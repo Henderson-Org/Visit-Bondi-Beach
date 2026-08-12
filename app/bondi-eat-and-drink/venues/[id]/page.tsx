@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params;
   const r = getRestaurant(id);
   if (!r || !hasVenuePage(r)) return { title: 'Page not found' };
-  const title = `${r.name} — ${venueTypeInPrecinct(r)}`;
+  const title = `${r.name} - ${venueTypeInPrecinct(r)}`;
   const description =
     r.summary.length > 155 ? `${r.summary.slice(0, 152).trimEnd()}…` : r.summary;
   return {
@@ -61,9 +61,9 @@ export default async function VenuePage({ params }: Props) {
     { name: venue.name, path },
   ];
   const out = outboundLink(venue);
-  const cuisines = venue.cuisines.filter((c) => c && c !== '—');
+  const cuisines = venue.cuisines.filter((c) => c && c !== '-');
 
-  // "More like this" — same precinct first, then same type, excluding self.
+  // "More like this" - same precinct first, then same type, excluding self.
   const related = restaurants()
     .filter((r) => r.id !== venue.id && hasVenuePage(r) && (r.precinct === venue.precinct || r.type === venue.type))
     .sort(
@@ -223,7 +223,7 @@ export default async function VenuePage({ params }: Props) {
             </ul>
             <p className="mt-3 text-xs text-ink-500">
               {since && since <= 2016
-                ? `A long-running Bondi fixture (serving since ${since}), so it's a safe bet — but hours and menus still change, so check the venue's own site for today's trading.`
+                ? `A long-running Bondi fixture (serving since ${since}), so it's a safe bet - but hours and menus still change, so check the venue's own site for today's trading.`
                 : "We confirm each venue is currently trading; hours, prices and menus still change, so check the venue's own site for those before you go."}
             </p>
           </details>

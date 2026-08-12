@@ -82,7 +82,7 @@ export default async function DiningCollectionPage({ params }: Props) {
         <section className="mx-auto max-w-3xl px-4 pt-10">
           <p className="text-lg leading-relaxed text-ink-700">
             Our top pick right now is <strong className="font-semibold text-ink-900">{top.name}</strong>
-            {top.bestFor ? ` — ${top.bestFor.toLowerCase()}` : ''}. Below are {venues.length}{' '}
+            {top.bestFor ? ` - ${top.bestFor.toLowerCase()}` : ''}. Below are {venues.length}{' '}
             {venues.length === 1 ? 'place' : 'places'} we rate for this, ranked on the food and how well they
             suit a visit. Prices shown are a rough guide ({PRICE_LABEL[1]}–{PRICE_LABEL[4]}); always check the
             venue&rsquo;s own site for current hours and menus.
@@ -99,7 +99,7 @@ export default async function DiningCollectionPage({ params }: Props) {
           </ul>
         ) : (
           <p className="rounded-xl border border-sand-200 bg-white p-6 text-center text-sm text-ink-600">
-            We&rsquo;re still adding our picks for this list — check back soon, or browse{' '}
+            We&rsquo;re still adding our picks for this list - check back soon, or browse{' '}
             <Link href="/bondi-eat-and-drink" className="text-ocean-700 underline">the full eat &amp; drink directory</Link>.
           </p>
         )}

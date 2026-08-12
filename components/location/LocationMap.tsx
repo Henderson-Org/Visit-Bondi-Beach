@@ -1,8 +1,8 @@
 /**
- * LocationMap — a lightweight embedded map for a location page.
+ * LocationMap - a lightweight embedded map for a location page.
  *
  * Uses a Google Maps place-name query embed (no API key, no JS library, no tracking SDK),
- * so we add zero mapping dependency and never assert our own coordinates — Google resolves
+ * so we add zero mapping dependency and never assert our own coordinates - Google resolves
  * the named place. Lazy-loaded and kept inside the content width with a fixed aspect ratio,
  * so it never overflows on mobile.
  */

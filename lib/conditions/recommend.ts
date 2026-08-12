@@ -2,7 +2,7 @@
  * Conditions-driven recommendations.
  *
  * Turns today's normalized Conditions into a short contextual nudge plus a small,
- * CURATED set of real on-site guides — e.g. "it's wet today → indoor things to do",
+ * CURATED set of real on-site guides - e.g. "it's wet today → indoor things to do",
  * "small clean surf → relaxed swim spots". Deterministic (no LLM), grounded only in
  * pages we know exist (curated below), so it never invents a recommendation.
  *
@@ -42,23 +42,23 @@ const L = {
 
 const BUCKETS: Record<RecommendationCategory, { message: string; links: RecommendedLink[] }> = {
   wet: {
-    message: "It's looking wet in Bondi today — here's where to head indoors.",
+    message: "It's looking wet in Bondi today - here's where to head indoors.",
     links: [L.indoor, L.eatDrink, L.bondiRescue],
   },
   cold: {
-    message: 'A cooler one today — ease into Bondi the cosy way.',
+    message: 'A cooler one today - ease into Bondi the cosy way.',
     links: [L.eatDrink, L.indoor, L.weather],
   },
   'great-outdoors': {
-    message: 'A cracking Bondi day — make the most of it outside.',
+    message: 'A cracking Bondi day - make the most of it outside.',
     links: [L.thingsToDo, L.coastalWalk, L.swim, L.withKids],
   },
   'good-surf': {
-    message: "There's some swell about today — a good day to be near the water.",
+    message: "There's some swell about today - a good day to be near the water.",
     links: [L.swim, L.coastalWalk, L.thingsToDo],
   },
   'small-surf': {
-    message: 'Small, gentle surf today — a relaxed day for a swim.',
+    message: 'Small, gentle surf today - a relaxed day for a swim.',
     links: [L.swim, L.brontePool, L.icebergs, L.withKids],
   },
   default: {

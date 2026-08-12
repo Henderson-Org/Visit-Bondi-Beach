@@ -25,7 +25,7 @@ const STATIC_ROUTES: { path: string; priority: number }[] = [
   { path: '/stay/hostels-bondi-beach', priority: 0.6 },
   ...stayCategorySlugs().map((slug) => ({ path: `/stay/${slug}`, priority: 0.7 })),
   ...guideSlugs().map((slug) => ({ path: `/stay/${slug}`, priority: 0.6 })),
-  // Eat & Drink directory — the hub, curated collection pages, and venue pages.
+  // Eat & Drink directory - the hub, curated collection pages, and venue pages.
   { path: '/bondi-eat-and-drink', priority: 0.9 },
   ...diningCollectionSlugs().map((slug) => ({ path: `/bondi-eat-and-drink/${slug}`, priority: 0.7 })),
   // Individual venue pages (only venues with real editorial depth get an indexable page,
@@ -41,7 +41,7 @@ const STATIC_ROUTES: { path: string; priority: number }[] = [
   { path: '/articles', priority: 0.7 },
   // Bondi Day Planner
   { path: '/plan', priority: 0.7 },
-  // Original data feature — the Bondi Coffee Index
+  // Original data feature - the Bondi Coffee Index
   { path: '/bondi-coffee-price-index', priority: 0.7 },
 ];
 
@@ -56,7 +56,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }));
 
   // Static app routes (hubs, /stay, /whats-on, directory) are regenerated on every deploy,
-  // so stamp the build date as lastModified — these are the URLs we most want recrawled
+  // so stamp the build date as lastModified - these are the URLs we most want recrawled
   // after an update, and they previously shipped no freshness signal at all.
   const buildDate = new Date();
   const fromStatic = STATIC_ROUTES.map((r) => ({

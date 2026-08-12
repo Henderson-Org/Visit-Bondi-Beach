@@ -3,38 +3,38 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Bondi Salties — FAQ", "url": "https://www.bondisalties.com/salties-faq" },
-    { "label": "Bondi Salties — official site", "url": "https://www.bondisalties.com/" },
+    { "label": "Bondi Salties - FAQ", "url": "https://www.bondisalties.com/salties-faq" },
+    { "label": "Bondi Salties - official site", "url": "https://www.bondisalties.com/" },
     { "label": "Bondi Salties on Instagram", "url": "https://www.instagram.com/bondi_salties/" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you've ever been down at North Bondi on a Friday just after sunrise and spotted a swarm of yellow swim caps bobbing across the bay, you've met the Bondi Salties. They're a free, community ocean-swimming group that meets at the North Bondi Ramp — in front of the North Bondi RSL — at 6:15am every Friday for a soft-sand run and a swim across the bay, and yes, you can absolutely turn up and join them. Here's everything I'd tell a friend before their first Salties morning." },
+    { "type": "p", "text": "If you've ever been down at North Bondi on a Friday just after sunrise and spotted a swarm of yellow swim caps bobbing across the bay, you've met the Bondi Salties. They're a free, community ocean-swimming group that meets at the North Bondi Ramp - in front of the North Bondi RSL - at 6:15am every Friday for a soft-sand run and a swim across the bay, and yes, you can absolutely turn up and join them. Here's everything I'd tell a friend before their first Salties morning." },
     { "type": "quickFacts", "items": [
       { "label": "When", "value": "6:15am every Friday" },
       { "label": "Where", "value": "North Bondi Ramp, in front of the North Bondi RSL" },
-      { "label": "Cost", "value": "Free — no membership, no forms" },
+      { "label": "Cost", "value": "Free - no membership, no forms" },
       { "label": "The swim", "value": "A bay lap, roughly 1.3km" },
       { "label": "Founded", "value": "2013" }
     ] },
     { "type": "h2", "text": "Who the Salties are" },
-    { "type": "p", "text": "The Salties started in 2013, when a few friends folded a proper ocean swim into their weekly routine. What began as a handful of mates at the ramp is now one of Bondi's warmest little institutions — a friendly, no-egos crowd who show up week after week, big swell or flat, summer or the depths of a Sydney winter. That consistency is the whole point: they pride themselves on being there every single Friday, and it's that turn-up-anyway spirit that gives the group its character." },
-    { "type": "p", "text": "It's not a formal squad with coaches and lane ropes. It's a community — people of all ages and paces who like starting the last day of the working week in the sea, then grinning over a coffee afterwards. The post-swim coffee, honestly, is half the reason people come back." },
+    { "type": "p", "text": "The Salties started in 2013, when a few friends folded a proper ocean swim into their weekly routine. What began as a handful of mates at the ramp is now one of Bondi's warmest little institutions - a friendly, no-egos crowd who show up week after week, big swell or flat, summer or the depths of a Sydney winter. That consistency is the whole point: they pride themselves on being there every single Friday, and it's that turn-up-anyway spirit that gives the group its character." },
+    { "type": "p", "text": "It's not a formal squad with coaches and lane ropes. It's a community - people of all ages and paces who like starting the last day of the working week in the sea, then grinning over a coffee afterwards. The post-swim coffee, honestly, is half the reason people come back." },
     { "type": "h2", "text": "What a Friday morning actually looks like" },
-    { "type": "p", "text": "The morning usually runs in two parts. First there's a soft-sand run along the beach — it's encouraged but not compulsory, so if running in sand at dawn isn't your thing, no one's counting. Then everyone gathers for the swim itself, which typically kicks off around 6:30am after the run. You loop the bay from North to South Bondi and back, which comes out at roughly 1.3km of open water." },
+    { "type": "p", "text": "The morning usually runs in two parts. First there's a soft-sand run along the beach - it's encouraged but not compulsory, so if running in sand at dawn isn't your thing, no one's counting. Then everyone gathers for the swim itself, which typically kicks off around 6:30am after the run. You loop the bay from North to South Bondi and back, which comes out at roughly 1.3km of open water." },
     { "type": "itinerary", "stops": [
-      { "time": "6:15am", "title": "Meet at the North Bondi Ramp", "detail": "Gather in front of the North Bondi RSL. Get your bearings and say hello — this crowd is easy to talk to." },
+      { "time": "6:15am", "title": "Meet at the North Bondi Ramp", "detail": "Gather in front of the North Bondi RSL. Get your bearings and say hello - this crowd is easy to talk to." },
       { "time": "~6:20am", "title": "Soft-sand run", "detail": "A lap of the beach to warm up. Optional, but it's a lovely way to shake off the cold before the water." },
       { "time": "~6:30am", "title": "Bay swim", "detail": "Roughly 1.3km across the bay and back. Take it at your own pace." },
-      { "time": "After", "title": "Coffee", "detail": "The best bit for a lot of regulars — post-swim highs and a caffeine hit with good company." }
+      { "time": "After", "title": "Coffee", "detail": "The best bit for a lot of regulars - post-swim highs and a caffeine hit with good company." }
     ] },
     { "type": "h2", "text": "Can visitors join? And is it safe?" },
-    { "type": "p", "text": "Yes — visitors are genuinely welcome to rock up for a one-off swim, and there's no sign-up or fee. Complete your first swim and, when they're in stock, you'll be handed the iconic yellow Salties cap (courtesy of their sponsor, Santa Vittoria) as a little keepsake. They do sometimes run out, so if you miss out, the standing advice from the group is just to keep showing up and one will come your way." },
+    { "type": "p", "text": "Yes - visitors are genuinely welcome to rock up for a one-off swim, and there's no sign-up or fee. Complete your first swim and, when they're in stock, you'll be handed the iconic yellow Salties cap (courtesy of their sponsor, Santa Vittoria) as a little keepsake. They do sometimes run out, so if you miss out, the standing advice from the group is just to keep showing up and one will come your way." },
     { "type": "callout", "tone": "warning", "title": "This is unsupervised open-water swimming", "text": "The Salties do not provide any water safety or lifeguard cover during their swims. Every swimmer is responsible for themselves. The group asks that you be confident in open water and able to swim at least 1km of continuous freestyle, and comfortable getting in and out through the surf. If that's not you yet, swim between the flags on the patrolled beach instead and build up first." },
-    { "type": "localTip", "text": "Bring your own bright cap or tow float for visibility, leave nothing valuable on the sand, and check the swell and conditions before you commit — a 1.3km bay lap feels very different on a big morning than a glassy one. If in doubt, hang back on the shorter, shallower side of the bay for your first go." },
-    { "type": "p", "text": "And yes, there's marine life. Regulars talk about dolphin encounters — you often hear them before you see them — plus the occasional shark, small stingrays and fish drifting over the sand near shore. It's part of the magic of swimming in real ocean rather than a pool." },
+    { "type": "localTip", "text": "Bring your own bright cap or tow float for visibility, leave nothing valuable on the sand, and check the swell and conditions before you commit - a 1.3km bay lap feels very different on a big morning than a glassy one. If in doubt, hang back on the shorter, shallower side of the bay for your first go." },
+    { "type": "p", "text": "And yes, there's marine life. Regulars talk about dolphin encounters - you often hear them before you see them - plus the occasional shark, small stingrays and fish drifting over the sand near shore. It's part of the magic of swimming in real ocean rather than a pool." },
     { "type": "faq", "items": [
       { "q": "When and where do the Bondi Salties meet?", "a": "Every Friday at 6:15am at the North Bondi Ramp, in front of the North Bondi RSL. The swim itself usually starts around 6:30am after an optional soft-sand run." },
-      { "q": "How much does it cost to join?", "a": "Nothing — the Salties are a free community group with no membership fee and no formal sign-up. Visitors and one-off swimmers are welcome." },
+      { "q": "How much does it cost to join?", "a": "Nothing - the Salties are a free community group with no membership fee and no formal sign-up. Visitors and one-off swimmers are welcome." },
       { "q": "How long is the swim?", "a": "A lap of the bay from North to South Bondi and back, which works out at roughly 1.3km of open water." },
       { "q": "Do I need to be a strong swimmer?", "a": "Yes. The group asks that you're confident in open water, able to swim at least 1km of continuous freestyle, and comfortable getting in and out through the surf. There is no water safety provided, so you're responsible for yourself." },
       { "q": "How do I get the yellow Salties cap?", "a": "Complete your first swim and you'll be given one when they're in stock. They occasionally run out, so if you miss out, just keep coming back on Fridays." }

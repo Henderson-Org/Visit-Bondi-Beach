@@ -95,12 +95,12 @@ function whyVenue(v: Venue, prefs: Preferences, slot: MealSlot): string {
   if (styleHits.length) bits.push(`you're after ${styleHits.slice(0, 2).map((s) => s.replace('-', ' ')).join(' and ')}`);
   if (v.iconicScore >= 8 && prefs.interests.includes('iconic')) bits.push('you wanted iconic Bondi');
   const lead = bits.length ? bits.join(', ') : 'it’s one of Bondi’s standout spots';
-  return `Because ${lead}, ${v.name} is one of the strongest ${slot} matches for your day — we’ve built the ${slot === 'dinner' || slot === 'drinks' ? 'evening' : slot === 'lunch' ? 'afternoon' : 'morning'} around it.`;
+  return `Because ${lead}, ${v.name} is one of the strongest ${slot} matches for your day - we’ve built the ${slot === 'dinner' || slot === 'drinks' ? 'evening' : slot === 'lunch' ? 'afternoon' : 'morning'} around it.`;
 }
 function whyExperience(e: Experience, newlyFulfilled: Interest[]): string {
   const hits = newlyFulfilled.map((c) => INTEREST_WORD[c]).filter(Boolean);
-  if (hits.length) return `You wanted ${hits.slice(0, 3).join(', ')}, and ${e.name.toLowerCase()} covers that here — it slots in without doubling up on what you've already done.`;
-  return `${e.name} is one of Bondi’s essentials — worth including while you’re nearby.`;
+  if (hits.length) return `You wanted ${hits.slice(0, 3).join(', ')}, and ${e.name.toLowerCase()} covers that here - it slots in without doubling up on what you've already done.`;
+  return `${e.name} is one of Bondi’s essentials - worth including while you’re nearby.`;
 }
 function whyKlook(a: KlookActivity, prefs: Preferences): string {
   const hits = a.fulfillsPreferences.filter((p) => prefs.interests.includes(p)).map((c) => INTEREST_WORD[c]).filter(Boolean);
@@ -248,7 +248,7 @@ export function generateItinerary(prefs: Preferences): Itinerary {
         cursor += e.durationMins + 10;
       } else {
         const a = KLOOK_ACTIVITIES.find((k) => k.id === pick.id)!;
-        // Offer a free, non-affiliate fallback ("surf lesson or …") — the strongest experience
+        // Offer a free, non-affiliate fallback ("surf lesson or …") - the strongest experience
         // that would otherwise fit this slot, so the visitor is never boxed into the paid option.
         const altCand = cands.find((c) => c.kind === 'experience' && c.dur <= a.durationMins + 30);
         const alt = altCand ? { refId: altCand.id, title: getExperience(altCand.id)!.name } : undefined;
@@ -271,7 +271,7 @@ export function generateItinerary(prefs: Preferences): Itinerary {
       expItems.push({
         key: `d-${cursor}`, kind: 'downtime', refId: 'downtime', title: 'Free time on the beach', zone,
         family: 'downtime', startMin: cursor, durationMins: residual,
-        why: 'Some deliberate downtime — relax on the sand, grab an ice cream or people-watch on the promenade before the next stop.',
+        why: 'Some deliberate downtime - relax on the sand, grab an ice cream or people-watch on the promenade before the next stop.',
         debug: { downtime: true },
       });
     }
@@ -283,8 +283,8 @@ export function generateItinerary(prefs: Preferences): Itinerary {
 
   // 4. Validation
   validate(items, prefs, warnings);
-  if (items.length === 0) notes.push('No stops matched — try widening your interests or time.');
-  if (anchorItems.some((i) => i.hoursVerified === false)) notes.push('Some opening hours are indicative — confirm before you go.');
+  if (items.length === 0) notes.push('No stops matched - try widening your interests or time.');
+  if (anchorItems.some((i) => i.hoursVerified === false)) notes.push('Some opening hours are indicative - confirm before you go.');
 
   return { items, weekday, window, foodPriority, notes, warnings, hasAffiliate: items.some((i) => i.isAffiliate) };
 }
@@ -307,7 +307,7 @@ function validate(items: ItineraryItem[], prefs: Preferences, warnings: string[]
       if (it.startMin < prev.startMin + prev.durationMins - 5) warnings.push(`${it.title} overlaps the previous stop.`);
     }
   }
-  if ((fams['swim-water'] || 0) > 2) warnings.push('More than two water stops — consider trimming.');
+  if ((fams['swim-water'] || 0) > 2) warnings.push('More than two water stops - consider trimming.');
   if ((fams['coastal-walk'] || 0) > 1) warnings.push('More than one coastal walk.');
   const meals = items.filter((i) => i.kind === 'venue').length;
   if (prefs.duration !== 'full' && meals > 2) warnings.push('Too many meals for the time available.');
@@ -354,7 +354,7 @@ export function swapVenue(it: Itinerary, index: number, prefs: Preferences): Iti
 }
 
 /**
- * Switch a bookable (Klook) stop to its free, non-affiliate alternative — the "surf lesson or …"
+ * Switch a bookable (Klook) stop to its free, non-affiliate alternative - the "surf lesson or …"
  * fallback. Uses the stored `alt` if present, otherwise falls back to the best-fitting experience.
  */
 export function useAlternative(it: Itinerary, index: number, prefs: Preferences): Itinerary {

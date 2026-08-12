@@ -9,11 +9,11 @@ import { AffiliateButton } from './AffiliateButton';
  * Accommodation card. Editorial-first: properties with a guide show a primary
  * "Read our guide" (internal) with "Check availability" (external, affiliate-tracked)
  * stacked directly beneath it. Properties without a guide show only "Check availability"
- * — never a dead/fake guide button.
+ * - never a dead/fake guide button.
  *
  * The card is not a single wrapping link (two distinct destinations), so the heading
  * links to the guide where one exists and the CTAs are explicit, accessible buttons.
- * No scraped photography — a clean text-led design when we hold no rights-cleared image.
+ * No scraped photography - a clean text-led design when we hold no rights-cleared image.
  */
 export function AccommodationCard({ property, campaign = 'stay' }: { property: Property; campaign?: string }) {
   const guideHref = property.hasGuide ? `/stay/${property.slug}` : null;
@@ -50,7 +50,7 @@ export function AccommodationCard({ property, campaign = 'stay' }: { property: P
           <TagChips tags={property.bestFor} />
         </div>
 
-        {/* CTAs — Read our guide (internal) then Check availability (affiliate), stacked */}
+        {/* CTAs - Read our guide (internal) then Check availability (affiliate), stacked */}
         <div className="mt-4 flex flex-col gap-2 pt-1">
           {guideHref && (
             <Link

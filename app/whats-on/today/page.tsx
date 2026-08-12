@@ -4,7 +4,7 @@ import { isProduction } from '@/lib/site';
 import { upcomingEvents, sydneyToday, passesDateFilter } from '@/lib/events';
 
 const TITLE = "What's On in Bondi Today";
-const DESCRIPTION = "What's on in Bondi Beach today — a live, date-aware list of events happening today, from markets to festivals. Updated for the current Sydney date.";
+const DESCRIPTION = "What's on in Bondi Beach today - a live, date-aware list of events happening today, from markets to festivals. Updated for the current Sydney date.";
 
 export const revalidate = 1800;
 export function generateMetadata(): Metadata {

@@ -1,7 +1,7 @@
 /**
  * Reusable editorial content blocks for practical visitor information.
  * Semantic HTML first so content stays crawlable and accessible (brief §8, §23, §31).
- * These are presentation only — facts come from structured content, never hardcoded here.
+ * These are presentation only - facts come from structured content, never hardcoded here.
  */
 import type { ReactNode } from 'react';
 
@@ -12,10 +12,10 @@ export interface QuickFact {
   live?: 'waterTemp';
 }
 
-/** Editorial "quick facts" strip — Best for / Cost / Time / etc. */
+/** Editorial "quick facts" strip - Best for / Cost / Time / etc. */
 export function QuickFacts({ items }: { items: QuickFact[] }) {
   if (!items?.length) return null;
-  // Separate tiles (not a divided grid) so any number of facts wraps cleanly —
+  // Separate tiles (not a divided grid) so any number of facts wraps cleanly -
   // a divided grid leaves broken partial borders when the last row isn't full.
   return (
     <dl aria-label="Quick facts" className="my-6 grid grid-cols-2 gap-2.5 sm:grid-cols-4">
@@ -31,7 +31,7 @@ export function QuickFacts({ items }: { items: QuickFact[] }) {
 
 /**
  * Answer-first block (AEO). A short, self-contained direct answer placed at the top of a
- * page under a question-phrased H2 — the passage answer engines (AI Overviews, ChatGPT,
+ * page under a question-phrased H2 - the passage answer engines (AI Overviews, ChatGPT,
  * Perplexity) lift as the extractable answer. Rendered as a distinct lead so both readers
  * and machines see it as *the* answer. Keep it factual and ~40–55 words.
  */
@@ -45,7 +45,7 @@ export function Answer({ children }: { children: ReactNode }) {
 }
 
 /**
- * Comparison table — a real semantic <table> so per-option/per-month answers (Bondi vs Manly,
+ * Comparison table - a real semantic <table> so per-option/per-month answers (Bondi vs Manly,
  * airport options, parking, sea temps) are extractable by search + answer engines rather than
  * buried in prose. Scrolls horizontally on small screens; first column is a row header.
  */
@@ -137,7 +137,7 @@ export interface ItineraryStop {
   detail?: string;
 }
 
-/** Itinerary timeline (brief §12) — realistic sequencing, mobile-friendly. */
+/** Itinerary timeline (brief §12) - realistic sequencing, mobile-friendly. */
 export function ItineraryTimeline({ stops }: { stops: ItineraryStop[] }) {
   if (!stops?.length) return null;
   return (

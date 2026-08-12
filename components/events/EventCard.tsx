@@ -5,7 +5,7 @@ import { type ResolvedEvent, whenLabel } from '@/lib/events';
 
 /**
  * Reusable event card. Date/time is the most scannable element. Whole card links to
- * the event detail page. No scraped imagery — a clean text-led design when we don't
+ * the event detail page. No scraped imagery - a clean text-led design when we don't
  * hold a rights-cleared photo.
  */
 export function EventCard({ resolved }: { resolved: ResolvedEvent }) {

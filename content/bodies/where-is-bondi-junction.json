@@ -3,14 +3,14 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Transport for NSW — Trip Planner", "url": "https://transportnsw.info" },
+    { "label": "Transport for NSW - Trip Planner", "url": "https://transportnsw.info" },
     { "label": "Bondi Junction railway station (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Bondi_Junction_railway_station" },
     { "label": "Westfield Bondi Junction (Scentre Group)", "url": "https://www.westfield.com.au/bondijunction" },
     { "label": "Waverley Council", "url": "https://www.waverley.nsw.gov.au" }
   ],
   "blocks": [
-    { "type": "p", "text": "Short answer: Bondi Junction is the busy town centre up the hill behind Bondi Beach — and no, it isn't the beach. It's a separate suburb about 2.5 km inland. If you've just stepped off a train there expecting sand, don't worry: you're close, but you've got one more short hop (a bus, or a downhill walk) before your toes hit the water." },
-    { "type": "p", "text": "It's one of the most common mix-ups I hear from visitors, and an easy one to make — the names share a word, the suburbs are neighbours, and much of the transport into the Eastern Suburbs funnels through the Junction. Knowing the difference makes your trip smoother." },
+    { "type": "p", "text": "Short answer: Bondi Junction is the busy town centre up the hill behind Bondi Beach - and no, it isn't the beach. It's a separate suburb about 2.5 km inland. If you've just stepped off a train there expecting sand, don't worry: you're close, but you've got one more short hop (a bus, or a downhill walk) before your toes hit the water." },
+    { "type": "p", "text": "It's one of the most common mix-ups I hear from visitors, and an easy one to make - the names share a word, the suburbs are neighbours, and much of the transport into the Eastern Suburbs funnels through the Junction. Knowing the difference makes your trip smoother." },
     { "type": "quickFacts", "items": [
       { "label": "What it is", "value": "A suburb & transport/shopping hub" },
       { "label": "Where", "value": "Eastern Suburbs, up the hill from Bondi Beach" },
@@ -19,28 +19,28 @@
       { "label": "Big drawcard", "value": "Westfield Bondi Junction + rail terminus" }
     ] },
     { "type": "h2", "text": "So where exactly is Bondi Junction?" },
-    { "type": "p", "text": "Bondi Junction lies in Sydney's Eastern Suburbs, roughly halfway between the CBD and the coast. Picture the map: the city to the west, Bondi Beach to the east, and the Junction on the ridge in between. It's the point where the trains stop and the beach-bound buses take over — which is why so many people pass through on their way to the surf." },
+    { "type": "p", "text": "Bondi Junction lies in Sydney's Eastern Suburbs, roughly halfway between the CBD and the coast. Picture the map: the city to the west, Bondi Beach to the east, and the Junction on the ridge in between. It's the point where the trains stop and the beach-bound buses take over - which is why so many people pass through on their way to the surf." },
     { "type": "p", "text": "The beach itself belongs to the suburb of Bondi (and North Bondi), while Bondi Junction is a distinct suburb with a completely different personality: towers, offices and a huge shopping centre rather than sand and surfboards." },
     { "type": "h2", "text": "Why nearly everyone passes through it" },
-    { "type": "p", "text": "Bondi Junction is the end of the line for the Eastern Suburbs railway — the T4 line — so trains from Central and the CBD terminate here. Right above the platforms sits a large bus interchange, and this is where the two halves of your journey meet: you arrive by train, then swap to a beach bus down to Campbell Parade by the sand. The 333 is the route most visitors know, but I'd check the Transport for NSW trip planner for current routes and times." },
-    { "type": "p", "text": "Because it's such a natural interchange, it's become a destination in its own right. Westfield Bondi Junction is one of Sydney's biggest shopping centres — hundreds of stores, a cinema, supermarkets and a rooftop food level with city and harbour views — a handy spot on a rainy Bondi day." },
+    { "type": "p", "text": "Bondi Junction is the end of the line for the Eastern Suburbs railway - the T4 line - so trains from Central and the CBD terminate here. Right above the platforms sits a large bus interchange, and this is where the two halves of your journey meet: you arrive by train, then swap to a beach bus down to Campbell Parade by the sand. The 333 is the route most visitors know, but I'd check the Transport for NSW trip planner for current routes and times." },
+    { "type": "p", "text": "Because it's such a natural interchange, it's become a destination in its own right. Westfield Bondi Junction is one of Sydney's biggest shopping centres - hundreds of stores, a cinema, supermarkets and a rooftop food level with city and harbour views - a handy spot on a rainy Bondi day." },
     { "type": "localTip", "text": "Heading to the beach? Don't get off the train early. Ride all the way to Bondi Junction (the terminus), then take the escalators up to the bus interchange and grab a beach bus down to Campbell Parade. Tap on and off with the same Opal card or contactless bank card and your train-plus-bus trip counts as one connected journey." },
-    { "type": "h2", "text": "Junction or beach — where should you stay?" },
+    { "type": "h2", "text": "Junction or beach - where should you stay?" },
     { "type": "p", "text": "It depends on your trip. Want to fall out of bed onto the sand? Stay down at the beach. But the Junction has its own quiet advantages, and plenty of visitors deliberately choose it." },
     { "type": "list", "items": [
-      "Faster into the city — the train gets you to the CBD quickly, without beach-traffic buses.",
-      "Everything in one place — pharmacies, doctors, supermarkets and a cinema, all under Westfield's roof.",
-      "Often better value — accommodation a little inland can cost less than a beachfront view.",
-      "Still close to the sand — the beach is a short bus ride or downhill stroll away."
+      "Faster into the city - the train gets you to the CBD quickly, without beach-traffic buses.",
+      "Everything in one place - pharmacies, doctors, supermarkets and a cinema, all under Westfield's roof.",
+      "Often better value - accommodation a little inland can cost less than a beachfront view.",
+      "Still close to the sand - the beach is a short bus ride or downhill stroll away."
     ] },
-    { "type": "callout", "tone": "note", "title": "Walking down vs. walking back", "text": "The walk from Bondi Junction down to the beach is pleasant and downhill — a nice way to arrive. Just remember the return is uphill and feels a lot longer with tired legs and a sandy towel, so keep a bus or rideshare in mind for the way back." },
+    { "type": "callout", "tone": "note", "title": "Walking down vs. walking back", "text": "The walk from Bondi Junction down to the beach is pleasant and downhill - a nice way to arrive. Just remember the return is uphill and feels a lot longer with tired legs and a sandy towel, so keep a bus or rideshare in mind for the way back." },
     { "type": "faq", "items": [
       { "q": "Is Bondi Junction the same as Bondi Beach?", "a": "No. They're two separate suburbs. Bondi Junction is an inland town centre and transport hub up the hill; Bondi Beach is the coastal suburb with the famous sand. They're neighbours, about 2.5 km apart." },
-      { "q": "How do I get from Bondi Junction to Bondi Beach?", "a": "Take a bus from the interchange above Bondi Junction station — several routes run to the beach and drop you on Campbell Parade, with the 333 the one most visitors know. It's a short ride. You can also walk (mostly downhill on the way there). Check the Transport for NSW trip planner for the current routes and live times." },
+      { "q": "How do I get from Bondi Junction to Bondi Beach?", "a": "Take a bus from the interchange above Bondi Junction station - several routes run to the beach and drop you on Campbell Parade, with the 333 the one most visitors know. It's a short ride. You can also walk (mostly downhill on the way there). Check the Transport for NSW trip planner for the current routes and live times." },
       { "q": "Can I catch a train to Bondi Beach?", "a": "Not all the way. The train line ends at Bondi Junction, which is the closest station to the beach. From there you switch to a bus or walk the last stretch down to the sand." },
-      { "q": "What is there to do in Bondi Junction itself?", "a": "It's mostly a shopping and transport hub. The main draw is Westfield Bondi Junction — a large centre with shops, supermarkets, a cinema and rooftop dining — handy on a wet day or for stocking up." },
-      { "q": "How far is Bondi Junction from the Sydney CBD?", "a": "It's one of the closest Eastern Suburbs centres to the city — just a few stops along the T4 line from Central. Check the Transport for NSW trip planner for current journey times." }
+      { "q": "What is there to do in Bondi Junction itself?", "a": "It's mostly a shopping and transport hub. The main draw is Westfield Bondi Junction - a large centre with shops, supermarkets, a cinema and rooftop dining - handy on a wet day or for stocking up." },
+      { "q": "How far is Bondi Junction from the Sydney CBD?", "a": "It's one of the closest Eastern Suburbs centres to the city - just a few stops along the T4 line from Central. Check the Transport for NSW trip planner for current journey times." }
     ] },
-    { "type": "p", "text": "So there you have it: Bondi Junction is the gateway, not the destination — the hilltop hub where the trains stop, the buses start and the shopping happens, with the beach itself a short ride further east. Once you've got the two straight, getting around this corner of Sydney feels a whole lot easier." }
+    { "type": "p", "text": "So there you have it: Bondi Junction is the gateway, not the destination - the hilltop hub where the trains stop, the buses start and the shopping happens, with the beach itself a short ride further east. Once you've got the two straight, getting around this corner of Sydney feels a whole lot easier." }
   ]
 }

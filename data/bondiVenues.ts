@@ -2,7 +2,7 @@
  * Bondi venue dataset for the Day Planner.
  *
  * INTEGRITY: real, well-known Bondi-area venues only. Editorial 0–10 scores
- * (quality/localFavourite/iconic/view) are our opinionated weightings — that's by
+ * (quality/localFavourite/iconic/view) are our opinionated weightings - that's by
  * design. Factual, volatile fields (opening days/hours) are structured so they can be
  * maintained, and each carries `hoursVerified`: where false, the hours are sensible
  * placeholders to be confirmed (see README). Coordinates are approximate; sequencing
@@ -19,7 +19,7 @@ export type VenueType = 'cafe' | 'restaurant' | 'bar' | 'takeaway' | 'bakery' | 
 export type Weekday = 0 | 1 | 2 | 3 | 4 | 5 | 6; // 0 = Sunday
 
 /**
- * Collection tags — the visitor-facing dining taxonomy that powers the eat & drink
+ * Collection tags - the visitor-facing dining taxonomy that powers the eat & drink
  * category pages, hub sections and in-article venue lists. A venue can carry several.
  * Editorial, durable groupings (NOT volatile facts).
  */
@@ -84,7 +84,7 @@ export interface Venue {
   address?: string;
   /** Collection memberships that drive category pages, hub sections and in-article lists. */
   diningTags?: DiningTag[];
-  /** One durable, factual "known for" note (a signature dish/drink/feature) — never invented. */
+  /** One durable, factual "known for" note (a signature dish/drink/feature) - never invented. */
   signatureNote?: string;
   /** Official booking/reservation URL (or affiliate deep link) when verified. */
   bookingUrl?: string;
@@ -121,7 +121,7 @@ export const BONDI_VENUES: Venue[] = [
     dietaryOptions: ['vegetarian'],
     nearbyExperiences: ['bondi-beach', 'bondi-promenade', 'icebergs-pool'],
     shortDescription: 'Sean Moran’s beloved, produce-led Bondi institution on Campbell Parade, going since 1993.',
-    whyGo: 'A standout, ingredient-first long lunch or dinner — one of the great Bondi dining experiences.',
+    whyGo: 'A standout, ingredient-first long lunch or dinner - one of the great Bondi dining experiences.',
     neighbourhood: 'Campbell Parade',
     diningTags: ['best-restaurants', 'fine-dining', 'date-night'],
     websiteUrl: 'https://seansbondi.com/',
@@ -149,8 +149,8 @@ export const BONDI_VENUES: Venue[] = [
     atmosphere: ['glamorous', 'iconic', 'view'],
     dietaryOptions: ['vegetarian', 'gluten-free'],
     nearbyExperiences: ['icebergs-pool', 'bondi-beach', 'bondi-tamarama-walk'],
-    shortDescription: 'Glamorous cliff-top Italian above the Icebergs pool — one of Sydney’s most iconic dining views.',
-    whyGo: 'Food and one of Bondi’s most iconic locations in one experience — book for lunch, sunset drinks or dinner.',
+    shortDescription: 'Glamorous cliff-top Italian above the Icebergs pool - one of Sydney’s most iconic dining views.',
+    whyGo: 'Food and one of Bondi’s most iconic locations in one experience - book for lunch, sunset drinks or dinner.',
     neighbourhood: 'Notts Avenue, above the Icebergs pool',
     diningTags: ['best-restaurants', 'fine-dining', 'waterfront-dining', 'seafood', 'sunset-drinks', 'best-bars', 'date-night'],
     websiteUrl: 'https://idrb.com/',
@@ -178,7 +178,7 @@ export const BONDI_VENUES: Venue[] = [
     atmosphere: ['casual', 'buzzy', 'local'],
     dietaryOptions: ['gluten-free'],
     nearbyExperiences: ['bondi-beach', 'gould-street', 'bondi-promenade'],
-    shortDescription: 'Long-running Bondi sushi and sashimi spot on Campbell Parade — a local casual-quality favourite.',
+    shortDescription: 'Long-running Bondi sushi and sashimi spot on Campbell Parade - a local casual-quality favourite.',
     whyGo: 'The pick for Japanese and seafood done casually but well, a short walk from the sand.',
     neighbourhood: 'Campbell Parade',
     diningTags: ['best-restaurants', 'seafood'],
@@ -207,7 +207,7 @@ export const BONDI_VENUES: Venue[] = [
     atmosphere: ['beachfront', 'relaxed', 'view'],
     dietaryOptions: ['gluten-free'],
     nearbyExperiences: ['north-bondi-beach', 'ben-buckler', 'bondi-beach'],
-    shortDescription: 'Beachfront seafood at the north end of Bondi — sashimi, calamari, fish and chips with the sand at the door.',
+    shortDescription: 'Beachfront seafood at the north end of Bondi - sashimi, calamari, fish and chips with the sand at the door.',
     whyGo: 'The most beachfront seafood lunch in Bondi, relaxed enough for families.',
     neighbourhood: 'Ramsgate Avenue, North Bondi',
     diningTags: ['best-restaurants', 'seafood', 'waterfront-dining', 'family-friendly'],
@@ -237,7 +237,7 @@ export const BONDI_VENUES: Venue[] = [
     dietaryOptions: ['vegetarian', 'vegan', 'gluten-free'],
     nearbyExperiences: ['north-bondi-beach', 'bondi-beach'],
     shortDescription: 'A long-running North Bondi brunch favourite built around local produce and good coffee.',
-    whyGo: 'The morning anchor for a relaxed, healthy North Bondi start — pea pancakes and a flat white.',
+    whyGo: 'The morning anchor for a relaxed, healthy North Bondi start - pea pancakes and a flat white.',
     neighbourhood: 'Wairoa Avenue, North Bondi',
     diningTags: ['breakfast-brunch', 'cafe-coffee', 'vegan-vegetarian', 'family-friendly'],
     websiteUrl: '',
@@ -294,7 +294,7 @@ export const BONDI_VENUES: Venue[] = [
     atmosphere: ['light', 'iconic', 'classic'],
     dietaryOptions: ['vegetarian', 'gluten-free'],
     nearbyExperiences: ['hall-street', 'bondi-beach'],
-    shortDescription: 'The Sydney institution founded by Bill Granger — famous ricotta hotcakes and sweetcorn fritters, on Hall Street.',
+    shortDescription: 'The Sydney institution founded by Bill Granger - famous ricotta hotcakes and sweetcorn fritters, on Hall Street.',
     whyGo: 'A benchmark Bondi brunch and a slice of Sydney food history.',
     neighbourhood: 'Hall Street',
     diningTags: ['breakfast-brunch', 'cafe-coffee'],
@@ -323,7 +323,7 @@ export const BONDI_VENUES: Venue[] = [
     atmosphere: ['neighbourhood', 'deli'],
     dietaryOptions: ['vegetarian'],
     nearbyExperiences: ['hall-street', 'bondi-beach'],
-    shortDescription: 'A Bondi take on a Jewish deli — artisan bagels and generous brunch plates on Glenayr Avenue.',
+    shortDescription: 'A Bondi take on a Jewish deli - artisan bagels and generous brunch plates on Glenayr Avenue.',
     whyGo: 'The bagel-led breakfast or easy weekday lunch a little back from the beach.',
     neighbourhood: 'Glenayr Avenue',
     diningTags: ['breakfast-brunch', 'cafe-coffee', 'cheap-eats'],
@@ -352,7 +352,7 @@ export const BONDI_VENUES: Venue[] = [
     atmosphere: ['convivial', 'sunny', 'group'],
     dietaryOptions: ['vegetarian'],
     nearbyExperiences: ['bondi-beach'],
-    shortDescription: 'Merivale’s crowd-pleasing Italian behind The Royal on Bondi Road — famous wood-fired bread and share plates.',
+    shortDescription: 'Merivale’s crowd-pleasing Italian behind The Royal on Bondi Road - famous wood-fired bread and share plates.',
     whyGo: 'The go-to for a group Italian lunch or a long, boozy afternoon.',
     neighbourhood: 'Bondi Road (behind The Royal)',
     diningTags: ['best-restaurants', 'groups', 'date-night'],
@@ -468,7 +468,7 @@ export const BONDI_VENUES: Venue[] = [
     atmosphere: ['laid-back', 'day-to-night'],
     dietaryOptions: ['vegetarian'],
     nearbyExperiences: ['north-bondi-beach', 'bondi-beach'],
-    shortDescription: 'Café by day, cocktail bar by night on Glenayr Avenue — pastries and coffee, then share plates and drinks.',
+    shortDescription: 'Café by day, cocktail bar by night on Glenayr Avenue - pastries and coffee, then share plates and drinks.',
     whyGo: 'A relaxed start that can roll into the afternoon or evening.',
     neighbourhood: 'Glenayr Avenue, North Bondi',
     diningTags: ['cafe-coffee', 'breakfast-brunch', 'best-bars', 'cocktail-bars'],
@@ -497,7 +497,7 @@ export const BONDI_VENUES: Venue[] = [
     atmosphere: ['cosy', 'wine-focused', 'local'],
     dietaryOptions: ['vegetarian'],
     nearbyExperiences: ['gould-street', 'bondi-sunset'],
-    shortDescription: 'A cosy little Bondi wine bar off Curlewis Street — a local pick for an evening glass and a snack.',
+    shortDescription: 'A cosy little Bondi wine bar off Curlewis Street - a local pick for an evening glass and a snack.',
     whyGo: 'The spot for a low-key sunset or evening drink away from the big beachfront venues.',
     neighbourhood: 'Curlewis Street',
     diningTags: ['best-bars', 'cocktail-bars', 'sunset-drinks', 'date-night'],

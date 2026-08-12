@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 
 /**
- * Editorial hero band — a topical image with a scrim, kicker, large display
+ * Editorial hero band - a topical image with a scrim, kicker, large display
  * title, intro and optional "jump" chips. Shared by category hubs and the
  * hub-styled core pages (Swim, Stay) so they read as one system.
  */

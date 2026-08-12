@@ -3,7 +3,7 @@ import type { Restaurant } from '@/data/restaurants';
 import { PRICE_LABEL, VENUE_TYPE_LABEL, PRECINCT_LABEL } from '@/data/restaurants';
 import { venuePageHref, outboundLink } from '@/lib/restaurantGuide';
 
-/** Price as $–$$$$. Render ONLY the active glyphs — padding out to four with muted signs
+/** Price as $–$$$$. Render ONLY the active glyphs - padding out to four with muted signs
  *  makes a $$ venue read as "$$$$" at a glance (matches the Stay price treatment). */
 function Price({ level }: { level: number }) {
   return (
@@ -17,7 +17,7 @@ function Price({ level }: { level: number }) {
  * Directory card for a Bondi venue. Server-rendered and present in the initial HTML
  * (crawlable, works without JS). Links to the internal venue page when the venue has
  * real editorial depth; otherwise the heading is plain and the CTA points to the
- * venue's own site — never a fabricated link.
+ * venue's own site - never a fabricated link.
  */
 export function RestaurantCard({ venue }: { venue: Restaurant }) {
   const href = venuePageHref(venue);
@@ -40,7 +40,7 @@ export function RestaurantCard({ venue }: { venue: Restaurant }) {
       </h3>
 
       <p className="mt-1 text-sm text-ink-500">
-        {venue.cuisines[0] && venue.cuisines[0] !== '—' ? `${venue.cuisines[0]} · ` : ''}
+        {venue.cuisines[0] && venue.cuisines[0] !== '-' ? `${venue.cuisines[0]} · ` : ''}
         {PRECINCT_LABEL[venue.precinct]}
       </p>
 

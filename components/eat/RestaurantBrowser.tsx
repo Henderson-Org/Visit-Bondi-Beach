@@ -16,7 +16,7 @@ import type { VenueType, Precinct, Meal, Suitability, Attribute, Dietary } from 
 /**
  * Client-side browser for the restaurant directory. Every card is server-rendered and
  * present in the initial HTML (crawlable, works without JS); filtering only toggles
- * visibility and reorders — it never changes the URL, so no low-value facet/parameter
+ * visibility and reorders - it never changes the URL, so no low-value facet/parameter
  * pages are created (an explicit SEO decision). Filters combine as AND across groups;
  * within a group, options are OR. A free-text box narrows by name, cuisine or area.
  */

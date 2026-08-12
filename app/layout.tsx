@@ -3,7 +3,7 @@ import localFont from 'next/font/local';
 import './globals.css';
 
 /**
- * Fraunces — the brand display serif, self-hosted (no runtime Google Fonts request).
+ * Fraunces - the brand display serif, self-hosted (no runtime Google Fonts request).
  * One latin variable woff2 (~66 KB) covers the weight axis we use (400 body headings,
  * 600 for the occasional font-semibold heading). `display: 'swap'` avoids invisible
  * text; `preload` emits a single preload for this one file (the display face), so we
@@ -30,8 +30,8 @@ import { organizationJsonLd, websiteJsonLd, authorJsonLd } from '@/lib/structure
 export const metadata: Metadata = {
   metadataBase: new URL(siteOrigin()),
   title: {
-    default: `${SITE.name} — ${SITE.tagline}`,
-    template: `%s — ${SITE.name}`,
+    default: `${SITE.name} - ${SITE.tagline}`,
+    template: `%s - ${SITE.name}`,
   },
   description: SITE.description,
   alternates: { canonical: '/' },

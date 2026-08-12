@@ -12,7 +12,7 @@ import { UI_STRINGS, LOCALE_HREFLANG, localizedPath, type Locale } from '@/lib/i
  * Renders a translated article. Kept separate from the English ArticlePage so English rendering
  * is untouched. The content region carries `lang`; schema (BlogPosting) is self-consistent with
  * the localized URL + inLanguage (never claims the English URL). In-body links that have no
- * translated equivalent point at the English page — a deliberate, acceptable fallback.
+ * translated equivalent point at the English page - a deliberate, acceptable fallback.
  */
 export function TranslatedArticle({ page, locale }: { page: Page; locale: Locale }) {
   const s = UI_STRINGS[locale];

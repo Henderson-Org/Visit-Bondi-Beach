@@ -1,7 +1,7 @@
 /**
  * Klook (and other) bookable affiliate activities for the Day Planner.
  *
- * IMPORTANT — no invented URLs. There were no Klook links anywhere in the repo, so every
+ * IMPORTANT - no invented URLs. There were no Klook links anywhere in the repo, so every
  * `affiliateUrl` below is an empty placeholder for the site owner to paste their real
  * Klook affiliate link into. Activities with no `affiliateUrl` still appear in the planner
  * (they're real Bondi experiences) but show a "Bookable experience" label instead of a
@@ -28,7 +28,7 @@ export interface KlookActivity {
   idealTimeOfDay: TimeOfDay[];
   /** 0–10 editorial quality of the experience itself (independent of commission). */
   editorialScore: number;
-  /** 0–10 commercial value — used ONLY for a small tie-breaker bonus. */
+  /** 0–10 commercial value - used ONLY for a small tie-breaker bonus. */
   commercialScore: number;
   isAffiliate: true;
   affiliateProvider: 'klook';
@@ -38,7 +38,7 @@ export interface KlookActivity {
   bookingDuration: string; // human, e.g. "1.5–2 hours"
   bookingLocation: string;
   commissionCategory?: string;
-  /** Editorially featured — surfaced across a large share of relevant itineraries. */
+  /** Editorially featured - surfaced across a large share of relevant itineraries. */
   featured?: boolean;
   shortDescription: string;
   whyGo: string;
@@ -68,7 +68,7 @@ export const KLOOK_ACTIVITIES: KlookActivity[] = [
     commissionCategory: 'activities',
     featured: true,
     shortDescription: 'A beginner-friendly 2-hour small-group surf lesson on Bondi Beach with boards and wetsuits included.',
-    whyGo: 'The classic active, iconic Bondi experience — learn to surf on the most famous beach in Australia.',
+    whyGo: 'The classic active, iconic Bondi experience - learn to surf on the most famous beach in Australia.',
     lastVerified: V,
   },
   {

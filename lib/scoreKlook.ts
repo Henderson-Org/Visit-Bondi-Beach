@@ -1,5 +1,5 @@
 /**
- * Klook/affiliate activity scoring — quality-first. The commercial bonus is deliberately
+ * Klook/affiliate activity scoring - quality-first. The commercial bonus is deliberately
  * tiny so commission can never outrank a strong free/local experience. A meaningful boost
  * only applies when the visitor explicitly wants active/guided/iconic experiences.
  */
@@ -32,7 +32,7 @@ export function scoreKlook(a: KlookActivity, prefs: Preferences, ctx: { timeOfDa
 
   b.commercialBonus = (a.commercialScore / 10) * KLOOK.commercialBonus;
 
-  // Featured activities are surfaced broadly — but only when they actually match the visitor
+  // Featured activities are surfaced broadly - but only when they actually match the visitor
   // (matched > 0), so a featured surf lesson never lands on an unrelated food-only day.
   b.featuredBoost = a.featured && matched > 0 ? KLOOK.featuredBoost : 0;
 

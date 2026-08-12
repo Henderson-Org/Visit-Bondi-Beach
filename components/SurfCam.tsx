@@ -1,10 +1,10 @@
 /**
- * Live from North Bondi — an embedded live surf camera.
+ * Live from North Bondi - an embedded live surf camera.
  *
  * Source: the North Bondi Surf Life Saving Club's own public beach camera, hosted on
  * ipcamlive.com (a webcam-embed provider). The club publishes this exact iframe on
  * https://northbondisurfclub.com/webcam/ and the player sets no X-Frame-Options /
- * frame-ancestors, so it is designed for third-party embedding — we frame it directly
+ * frame-ancestors, so it is designed for third-party embedding - we frame it directly
  * rather than downloading, re-hosting or proxying the stream.
  *
  * The iframe is the ONLY third-party resource (no player SDK / scripts). It's muted and

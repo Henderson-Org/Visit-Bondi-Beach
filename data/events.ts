@@ -36,13 +36,13 @@ export type PriceType = 'free' | 'paid' | 'varies';
 export type EventStatus = 'scheduled' | 'cancelled' | 'postponed';
 
 /**
- * How much we trust the *date* we're showing — the single source of truth for whether a
+ * How much we trust the *date* we're showing - the single source of truth for whether a
  * card may show an exact date, an approximate window, or "Dates TBC". This replaces the
  * old boolean `datesToConfirm`, which conflated "exact day unknown" with "not researched".
  *  - confirmed : a fixed, recurring calendar date that never moves (e.g. NYE = 31 Dec).
  *  - announced : the organiser has published THIS edition's concrete start/end dates.
  *  - recurring : a reliable repeating pattern (weekly markets); date computed from recurrence.
- *  - estimated : we only show an approximate window (typicalTiming) — never an asserted day.
+ *  - estimated : we only show an approximate window (typicalTiming) - never an asserted day.
  *  - tbc       : the next edition is genuinely not announced yet (the ONLY case that shows TBC).
  */
 export type DateStatus = 'confirmed' | 'announced' | 'recurring' | 'estimated' | 'tbc';
@@ -145,7 +145,7 @@ export const EVENTS: BondiEvent[] = [
     title: 'Bondi Farmers Market',
     summary: 'Weekly Saturday farmers market with fresh local produce, coffee and hot food, behind the beach.',
     description: [
-      'Every Saturday, the grounds of Bondi Beach Public School on Campbell Parade fill with growers, bakers and food stalls for the Bondi Farmers Market — a relaxed, local start to the weekend a short walk from the sand.',
+      'Every Saturday, the grounds of Bondi Beach Public School on Campbell Parade fill with growers, bakers and food stalls for the Bondi Farmers Market - a relaxed, local start to the weekend a short walk from the sand.',
       'Come for fresh produce, a coffee and a hot breakfast, then wander across to the beach. Exact stallholders vary week to week; check the official page before a special trip.',
     ],
     timezone: 'Australia/Sydney',
@@ -180,7 +180,7 @@ export const EVENTS: BondiEvent[] = [
     title: 'Bondi Markets (Sunday)',
     summary: 'The famous Sunday market for fashion, vintage, art and design by young Australian makers.',
     description: [
-      'On Sundays, the same Bondi Beach Public School grounds host the original Bondi Markets — a long-running favourite for emerging fashion, vintage finds, jewellery, art and homewares from local designers and makers.',
+      'On Sundays, the same Bondi Beach Public School grounds host the original Bondi Markets - a long-running favourite for emerging fashion, vintage finds, jewellery, art and homewares from local designers and makers.',
       "It's a Bondi institution and an easy add-on to a beach day or the coastal walk. Stalls change weekly; see the official page for details.",
     ],
     timezone: 'Australia/Sydney',
@@ -214,8 +214,8 @@ export const EVENTS: BondiEvent[] = [
     title: 'Sculpture by the Sea, Bondi',
     summary: "The world's largest free outdoor sculpture exhibition, along the Bondi to Tamarama coastal walk.",
     description: [
-      'Each spring, the Bondi to Tamarama coastal walk becomes a free, open-air gallery for Sculpture by the Sea — over a hundred works set against the cliffs and ocean, and one of Sydney’s signature events.',
-      'It is free to visit and hugely popular, so go early or late in the day and on a weekday if you can. Exact dates change each year — check the official site to confirm before you plan around it.',
+      'Each spring, the Bondi to Tamarama coastal walk becomes a free, open-air gallery for Sculpture by the Sea - over a hundred works set against the cliffs and ocean, and one of Sydney’s signature events.',
+      'It is free to visit and hugely popular, so go early or late in the day and on a weekday if you can. Exact dates change each year - check the official site to confirm before you plan around it.',
     ],
     timezone: 'Australia/Sydney',
     startDate: '2026-10-16',
@@ -251,7 +251,7 @@ export const EVENTS: BondiEvent[] = [
     title: 'City2Surf',
     summary: "Sydney's iconic 14 km fun run from the CBD, finishing on Bondi Beach.",
     description: [
-      'City2Surf is one of the world’s biggest fun runs — a 14 km route from the Sydney CBD out to the coast, finishing on Bondi Beach, famous for the climb up Heartbreak Hill.',
+      'City2Surf is one of the world’s biggest fun runs - a 14 km route from the Sydney CBD out to the coast, finishing on Bondi Beach, famous for the climb up Heartbreak Hill.',
       'Tens of thousands take part, from elite runners to walkers in costume. Entry is ticketed and dates are set each year; confirm the date and register on the official site.',
     ],
     timezone: 'Australia/Sydney',
@@ -259,7 +259,7 @@ export const EVENTS: BondiEvent[] = [
     dateStatus: 'tbc',
     typicalTiming: 'The second Sunday of August',
     nextEditionYear: 2027,
-    whenText: 'Next edition August 2027 — dates to be announced',
+    whenText: 'Next edition August 2027 - dates to be announced',
     venue: 'Finishes at Bondi Beach',
     suburb: 'Bondi Beach',
     categories: ['sport', 'fitness', 'community'],
@@ -272,7 +272,7 @@ export const EVENTS: BondiEvent[] = [
     featured: true,
     status: 'scheduled',
     // The 2026 race ran on 9 August 2026 and has passed; the 2027 date is not yet published.
-    // TBC is therefore accurate here — flagged for re-check by scripts/verify-events.mjs.
+    // TBC is therefore accurate here - flagged for re-check by scripts/verify-events.mjs.
     dateSourceUrl: 'https://www.city2surf.com.au/',
     dateSourceName: 'Voltaren City2Surf (official)',
     dateVerifiedAt: '2026-08-10',
@@ -287,9 +287,9 @@ export const EVENTS: BondiEvent[] = [
     id: 'festival-of-the-winds',
     slug: 'festival-of-the-winds',
     title: 'Festival of the Winds',
-    summary: "Sydney's biggest kite festival — a free, colourful family day on Bondi Beach.",
+    summary: "Sydney's biggest kite festival - a free, colourful family day on Bondi Beach.",
     description: [
-      'Festival of the Winds fills the Bondi sky with kites for a free, family-friendly day on the beach — giant display kites, workshops, music and food stalls.',
+      'Festival of the Winds fills the Bondi sky with kites for a free, family-friendly day on the beach - giant display kites, workshops, music and food stalls.',
       'It is run by Waverley Council and is one of the most family-friendly days on the Bondi calendar. Dates are set each year; confirm on the council’s events page.',
     ],
     timezone: 'Australia/Sydney',
@@ -362,10 +362,10 @@ export const EVENTS: BondiEvent[] = [
     id: 'bondi-new-years-eve',
     slug: 'bondi-new-years-eve',
     title: "New Year's Eve at Bondi Beach",
-    summary: 'See in the new year on Bondi Beach — a Sydney summer tradition on the sand.',
+    summary: 'See in the new year on Bondi Beach - a Sydney summer tradition on the sand.',
     description: [
       "Bondi Beach is one of Sydney’s classic spots to see in the new year, with a summer-night atmosphere on the sand. In recent years the beachfront has hosted a ticketed New Year’s Eve event alongside the wider public celebrations.",
-      'Access, ticketing and the program change year to year — confirm the current arrangements on the council’s site before you plan your night.',
+      'Access, ticketing and the program change year to year - confirm the current arrangements on the council’s site before you plan your night.',
     ],
     timezone: 'Australia/Sydney',
     recurrence: { freq: 'annual', month: 12, day: 31 },

@@ -3,12 +3,12 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "NSW National Parks — Whale migration: the facts", "url": "https://www.nationalparks.nsw.gov.au/get-inspired/stories/whale-migration-the-facts" },
-    { "label": "NSW Environment — Whales are on the move, 2026 migration season starts", "url": "https://www.environment.nsw.gov.au/news/whales-are-move-2026-migration-season-starts-nsw" },
-    { "label": "Sydney.com — Bondi to Coogee Coastal Walk", "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk" }
+    { "label": "NSW National Parks - Whale migration: the facts", "url": "https://www.nationalparks.nsw.gov.au/get-inspired/stories/whale-migration-the-facts" },
+    { "label": "NSW Environment - Whales are on the move, 2026 migration season starts", "url": "https://www.environment.nsw.gov.au/news/whales-are-move-2026-migration-season-starts-nsw" },
+    { "label": "Sydney.com - Bondi to Coogee Coastal Walk", "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk" }
   ],
   "blocks": [
-    { "type": "p", "text": "Yes — you can absolutely watch whales from Bondi, and you don't need a boat or a booking to do it. Every winter and spring, tens of thousands of humpbacks migrate along the Sydney coast, and our clifftops sit right on their path. Pick a clear morning between roughly June and November, settle on a headland with a thermos, and there's a very good chance you'll see a blow, a fin, or a full breach." },
+    { "type": "p", "text": "Yes - you can absolutely watch whales from Bondi, and you don't need a boat or a booking to do it. Every winter and spring, tens of thousands of humpbacks migrate along the Sydney coast, and our clifftops sit right on their path. Pick a clear morning between roughly June and November, settle on a headland with a thermos, and there's a very good chance you'll see a blow, a fin, or a full breach." },
     { "type": "quickFacts", "items": [
       { "label": "Best months", "value": "June–November (peak migration)" },
       { "label": "Northbound", "value": "Roughly June–August" },
@@ -16,35 +16,35 @@
       { "label": "Cost", "value": "Free from the clifftops" },
       { "label": "Top free lookout", "value": "Mackenzies Point" }
     ] },
-    { "type": "h2", "text": "When to come — the migration in a nutshell" },
+    { "type": "h2", "text": "When to come - the migration in a nutshell" },
     { "type": "p", "text": "What we're watching is the East Australian humpback migration. After feeding all summer in Antarctic waters, the whales head north to warmer breeding grounds off Queensland, then turn around and bring their calves back south. The broad season runs May through November, but the two windows I'd circle are the northbound push (June to August) and the southbound return (September to November)." },
     { "type": "p", "text": "The southbound leg is my quiet favourite. The whales tend to travel closer to shore on the way home, often with new calves in tow, and you'll sometimes catch the young ones practising their tail-slaps and breaches. Numbers and timing shift year to year, so for how the current season is tracking I'd check the NSW National Parks and NSW environment pages in my sources." },
     { "type": "callout", "tone": "note", "title": "It's a wild animal, not a scheduled event", "text": "Nobody can promise you a whale on any given day. Some mornings the horizon is empty; other times three pods pass in an hour. Give it time, scan patiently, and treat a sighting as a gift rather than a guarantee." },
     { "type": "h2", "text": "The best free spots to watch from" },
-    { "type": "p", "text": "You don't have to pay for this. What makes Bondi such a good land-based lookout is the string of elevated headlands along the Bondi to Coogee coastal walk — an easy, well-signed cliff path of about 6km. Here are the vantage points I steer people to." },
+    { "type": "p", "text": "You don't have to pay for this. What makes Bondi such a good land-based lookout is the string of elevated headlands along the Bondi to Coogee coastal walk - an easy, well-signed cliff path of about 6km. Here are the vantage points I steer people to." },
     { "type": "h3", "text": "Mackenzies Point" },
     { "type": "p", "text": "This is the one. The little rocky point between Bondi and Tamarama juts into the ocean and gives you a wide, unobstructed sweep of horizon in both directions. On a calm winter morning you'll usually find a few quiet locals already up there, eyes on the water." },
     { "type": "h3", "text": "Marks Park" },
     { "type": "p", "text": "Just above Mackenzies Point, the grassy headland of Marks Park is roomy and comfortable, perfect if you're bringing kids or a picnic. It's also home to Aboriginal rock engravings, so tread respectfully and stick to the paths. The open aspect makes it easy to keep half an eye on the sea." },
     { "type": "h3", "text": "Ben Buckler, North Bondi" },
     { "type": "p", "text": "At the northern end of the beach, the Ben Buckler headland sits high above the water and looks straight out to the Pacific. It's a short stroll from the North Bondi end of the promenade and a lovely spot to pair a coffee with some horizon-scanning." },
-    { "type": "localTip", "text": "Go early. The morning light is behind you, the wind is softer, and the sea is glassier — which makes a distant blow (that puff of spray when a whale exhales) far easier to spot. Watch for the blow first; the body follows." },
+    { "type": "localTip", "text": "Go early. The morning light is behind you, the wind is softer, and the sea is glassier - which makes a distant blow (that puff of spray when a whale exhales) far easier to spot. Watch for the blow first; the body follows." },
     { "type": "h2", "text": "How to actually spot one" },
     { "type": "list", "items": [
-      "Scan for the blow — a low white puff of mist above the water is usually the first thing you'll notice.",
+      "Scan for the blow - a low white puff of mist above the water is usually the first thing you'll notice.",
       "Bring binoculars. The whales can be a fair way out, and a decent pair turns a distant splash into a clear fin or fluke.",
       "Pick a calm, clear day. Choppy, white-capped seas hide everything; glassy water reveals it.",
-      "Be patient — settle in for an hour rather than a rushed fifteen minutes.",
+      "Be patient - settle in for an hour rather than a rushed fifteen minutes.",
       "Watch the other watchers. If a cluster of people suddenly points the same way, follow the fingers."
     ] },
     { "type": "callout", "tone": "warning", "title": "Mind the cliff edges", "text": "These headlands have unfenced drops and slippery rock, and swells can surge without warning. Keep back from the edge, keep kids and dogs close, and never turn your back on the sea near the water line." },
     { "type": "p", "text": "If you'd rather get out on the water, plenty of operators run whale-watching cruises out of Sydney Harbour during the season. Prices and departure times change constantly, so book directly through a licensed operator and check their current schedule. For a free, unhurried morning, though, our own clifftops are hard to beat." },
     { "type": "faq", "items": [
-      { "q": "What's the best time of year to see whales at Bondi?", "a": "Broadly June to November — northbound roughly June to August, southbound roughly September to November, when calves often pass closer to shore. Check NSW National Parks for how the current season is tracking." },
-      { "q": "Where is the best free spot to watch whales at Bondi?", "a": "Mackenzies Point, the rocky headland between Bondi and Tamarama, gives the widest ocean view. Marks Park just above it and Ben Buckler at North Bondi are also excellent — all three are free." },
+      { "q": "What's the best time of year to see whales at Bondi?", "a": "Broadly June to November - northbound roughly June to August, southbound roughly September to November, when calves often pass closer to shore. Check NSW National Parks for how the current season is tracking." },
+      { "q": "Where is the best free spot to watch whales at Bondi?", "a": "Mackenzies Point, the rocky headland between Bondi and Tamarama, gives the widest ocean view. Marks Park just above it and Ben Buckler at North Bondi are also excellent - all three are free." },
       { "q": "What kind of whales pass Bondi?", "a": "Overwhelmingly humpback whales on their annual east-coast migration. Southern right whales pass occasionally too, and you may see dolphins year-round." },
       { "q": "What time of day is best?", "a": "Early morning, when calmer wind and a smoother sea make a whale's blow much easier to spot." }
     ] },
-    { "type": "p", "text": "So grab your binoculars, layer up against the winter wind, and head for a headland. Whale season is one of Bondi's quiet joys — no ticket, no crowd, just you, a thermos and the chance of watching something enormous roll by." }
+    { "type": "p", "text": "So grab your binoculars, layer up against the winter wind, and head for a headland. Whale season is one of Bondi's quiet joys - no ticket, no crowd, just you, a thermos and the chance of watching something enormous roll by." }
   ]
 }

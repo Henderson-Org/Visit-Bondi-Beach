@@ -3,11 +3,11 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Transport for NSW — Trip Planner", "url": "https://transportnsw.info/trip" },
-    { "label": "Transport for NSW — Opal fares & contactless payments", "url": "https://transportnsw.info/tickets-opal" }
+    { "label": "Transport for NSW - Trip Planner", "url": "https://transportnsw.info/trip" },
+    { "label": "Transport for NSW - Opal fares & contactless payments", "url": "https://transportnsw.info/tickets-opal" }
   ],
   "blocks": [
-    { "type": "p", "text": "The question I hear most from first-time visitors is a simple one: what's the nearest train station to Bondi Beach? The honest answer is that no train runs all the way to the sand — the closest station is Bondi Junction, about 2 to 3 kilometres uphill from the beach. From there you finish the trip with a short bus ride, a taxi, or a downhill walk. Let me walk you through exactly how I do it." },
+    { "type": "p", "text": "The question I hear most from first-time visitors is a simple one: what's the nearest train station to Bondi Beach? The honest answer is that no train runs all the way to the sand - the closest station is Bondi Junction, about 2 to 3 kilometres uphill from the beach. From there you finish the trip with a short bus ride, a taxi, or a downhill walk. Let me walk you through exactly how I do it." },
     { "type": "quickFacts", "items": [
       { "label": "Nearest station", "value": "Bondi Junction (T4 line)" },
       { "label": "Distance to beach", "value": "~2–3 km" },
@@ -15,24 +15,24 @@
       { "label": "Bus lines", "value": "333, 380, 381" },
       { "label": "Pay with", "value": "Opal card or contactless card/phone" }
     ] },
-    { "type": "h2", "text": "There's no train to the beach — but Bondi Junction gets you close" },
-    { "type": "p", "text": "Bondi Junction is the terminus of the T4 Eastern Suburbs & Illawarra line, so trains from the city, Central and the southern suburbs run straight there without a change. It's a proper interchange — trains, buses and a big shopping centre all in one spot — which makes it the natural gateway to the beach. What it isn't, despite the name confusion, is walking distance to the water. Bondi Junction sits up on the hill; Bondi Beach is down at sea level, a couple of kilometres east." },
+    { "type": "h2", "text": "There's no train to the beach - but Bondi Junction gets you close" },
+    { "type": "p", "text": "Bondi Junction is the terminus of the T4 Eastern Suburbs & Illawarra line, so trains from the city, Central and the southern suburbs run straight there without a change. It's a proper interchange - trains, buses and a big shopping centre all in one spot - which makes it the natural gateway to the beach. What it isn't, despite the name confusion, is walking distance to the water. Bondi Junction sits up on the hill; Bondi Beach is down at sea level, a couple of kilometres east." },
     { "type": "p", "text": "If you're coming from the CBD, Circular Quay or Central, catch any T4 train heading to Bondi Junction and ride it to the end of the line. From the platforms, follow the signs up to the bus interchange on the same level as the shopping centre. It's all clearly marked." },
     { "type": "h2", "text": "From Bondi Junction to the sand" },
     { "type": "h3", "text": "By bus (the usual way)" },
-    { "type": "p", "text": "The buses leave from the interchange right above the station. Routes 333, 380 and 381 all run down to Campbell Parade, the road that hugs the beachfront. The 333 is the frequent prepaid express and is usually the quickest; the 380 and 381 make more stops along the way. It's a short ride down the hill — tap on when you board and tap off when you hop out at the beach." },
-    { "type": "callout", "tone": "warning", "title": "Summer buses fill up fast", "text": "On hot weekends and through the peak of summer, the beach-bound buses can be standing-room-only and you may have to let a full one pass. If you're travelling light and the weather's good, the walk down is often faster than waiting — see below." },
+    { "type": "p", "text": "The buses leave from the interchange right above the station. Routes 333, 380 and 381 all run down to Campbell Parade, the road that hugs the beachfront. The 333 is the frequent prepaid express and is usually the quickest; the 380 and 381 make more stops along the way. It's a short ride down the hill - tap on when you board and tap off when you hop out at the beach." },
+    { "type": "callout", "tone": "warning", "title": "Summer buses fill up fast", "text": "On hot weekends and through the peak of summer, the beach-bound buses can be standing-room-only and you may have to let a full one pass. If you're travelling light and the weather's good, the walk down is often faster than waiting - see below." },
     { "type": "h3", "text": "On foot" },
-    { "type": "p", "text": "My favourite option on a fine day is to walk. It's a straightforward downhill stroll from Bondi Junction to the beach along Bondi Road, roughly half an hour, past cafés and shops the whole way. The catch is the return leg — it's all uphill back to the station, which is less charming with sandy feet and a towel over your shoulder. Plenty of people walk down and bus or taxi back up." },
+    { "type": "p", "text": "My favourite option on a fine day is to walk. It's a straightforward downhill stroll from Bondi Junction to the beach along Bondi Road, roughly half an hour, past cafés and shops the whole way. The catch is the return leg - it's all uphill back to the station, which is less charming with sandy feet and a towel over your shoulder. Plenty of people walk down and bus or taxi back up." },
     { "type": "h3", "text": "By taxi or rideshare" },
     { "type": "p", "text": "Taxis and rideshares are easy to find at both ends. There's usually a rank near Bondi Junction, and at the beach you'll easily get an Uber or cab back up the hill when the buses are packed." },
-    { "type": "localTip", "text": "You don't need to buy a paper ticket for any of this. Just tap on and off with a contactless Visa/Mastercard, your phone or watch, or an Opal card — the same tap works across the train and the connecting bus, and the transfer counts as one journey if you keep moving. Grab an Opal card at the station kiosk or a nearby convenience store if you'd rather use one." },
+    { "type": "localTip", "text": "You don't need to buy a paper ticket for any of this. Just tap on and off with a contactless Visa/Mastercard, your phone or watch, or an Opal card - the same tap works across the train and the connecting bus, and the transfer counts as one journey if you keep moving. Grab an Opal card at the station kiosk or a nearby convenience store if you'd rather use one." },
     { "type": "h2", "text": "Planning your exact trip" },
-    { "type": "p", "text": "Bus routes, timetables and fares do change from time to time, so I always plug my start point into the Transport for NSW trip planner before heading out — it gives you the live next-service times and the current fare for the day you're travelling, so you're never guessing at a platform or a bus stop." },
+    { "type": "p", "text": "Bus routes, timetables and fares do change from time to time, so I always plug my start point into the Transport for NSW trip planner before heading out - it gives you the live next-service times and the current fare for the day you're travelling, so you're never guessing at a platform or a bus stop." },
     { "type": "faq", "items": [
-      { "q": "What is the nearest train station to Bondi Beach?", "a": "Bondi Junction, the terminus of the T4 Eastern Suburbs & Illawarra line. It's about 2–3 km uphill from the beach, so you finish the journey by bus, taxi or on foot — there is no train directly to the sand." },
+      { "q": "What is the nearest train station to Bondi Beach?", "a": "Bondi Junction, the terminus of the T4 Eastern Suburbs & Illawarra line. It's about 2–3 km uphill from the beach, so you finish the journey by bus, taxi or on foot - there is no train directly to the sand." },
       { "q": "How do I get from Bondi Junction to Bondi Beach?", "a": "From the bus interchange above the station, take route 333, 380 or 381 down to Campbell Parade at the beach. It's a short ride. You can also walk (about 30 minutes downhill along Bondi Road) or grab a taxi or rideshare." },
-      { "q": "Can I walk from Bondi Junction to Bondi Beach?", "a": "Yes — it's a pleasant, mostly downhill walk of around half an hour along Bondi Road. The return trip is uphill, so many visitors walk down and catch a bus or taxi back." },
+      { "q": "Can I walk from Bondi Junction to Bondi Beach?", "a": "Yes - it's a pleasant, mostly downhill walk of around half an hour along Bondi Road. The return trip is uphill, so many visitors walk down and catch a bus or taxi back." },
       { "q": "How do I pay for the train and bus?", "a": "Tap on and off with an Opal card or a contactless credit/debit card, phone or smartwatch. The same card works on both the train and the connecting bus. Check current fares on the Transport for NSW website." },
       { "q": "Is it better to take the bus or walk in summer?", "a": "In peak summer the beach buses often fill up, so if the weather's good and you're travelling light, walking down can be quicker than waiting. Save the bus or a taxi for the uphill return." }
     ] },

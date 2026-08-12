@@ -1,6 +1,6 @@
 /**
  * Natural Bondi combinations. Bundles nudge the scoring (via a bonus) so coherent days
- * emerge — the Icebergs pool + Icebergs dining, a market morning, an active loop — without
+ * emerge - the Icebergs pool + Icebergs dining, a market morning, an active loop - without
  * hard-coding a fixed itinerary. A bundle is "active" when the visitor's interests overlap
  * its triggers; experiences/venues in an active bundle get a small bonus.
  */

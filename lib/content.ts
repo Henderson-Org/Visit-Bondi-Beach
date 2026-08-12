@@ -167,7 +167,7 @@ export function getPage(path: string): Page | undefined {
 
 /**
  * Resolve a page from catch-all route segments. Exact (case-sensitive) match wins
- * — preserving Squarespace's case-sensitive URLs — with a decoded/normalized
+ * - preserving Squarespace's case-sensitive URLs - with a decoded/normalized
  * fallback for percent-encoded slugs (e.g. category "Out+%26+About").
  */
 export function getPageBySegments(segments: string[]): Page | undefined {
@@ -225,7 +225,7 @@ function topicKey(p: Page): string {
 
 /**
  * Homepage featured articles, ranked by real search demand (Search Console
- * impressions), then de-duplicated so each TOPIC appears only once — we keep the
+ * impressions), then de-duplicated so each TOPIC appears only once - we keep the
  * highest-ranked article per topic and pull in the next distinct topic for the
  * remaining slots (so the homepage isn't five City2Surf posts). Order within the
  * candidate pool: impressions → clicks → recency; articles with no demand data
@@ -303,7 +303,7 @@ export function breadcrumbs(page: Page): { name: string; path: string }[] {
   // unchanged; only the section framing moved). "What's On" is events-only.
   if (page.section === 'blog' && page.contentType !== 'blog-index') {
     // Route each article to its TOPICAL hub as the immediate parent (Home › {Hub} › post)
-    // so the breadcrumb — the most reliable spoke→hub signal — reinforces the subject hub
+    // so the breadcrumb - the most reliable spoke→hub signal - reinforces the subject hub
     // rather than the generic /articles index. Falls back to Articles for unmapped topics.
     const hub = articleHub(page);
     const parent = hub ? { name: hub.label, path: hub.path } : { name: 'Articles', path: '/articles' };

@@ -5,13 +5,13 @@
   "freshnessClass": "quarterly",
   "checkType": "desk",
   "sources": [
-    { "label": "Waverley Council — Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
-    { "label": "Surf Life Saving — Rip currents", "url": "https://www.surflifesaving.com.au/beach-safety/rip-currents/" },
+    { "label": "Waverley Council - Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
+    { "label": "Surf Life Saving - Rip currents", "url": "https://www.surflifesaving.com.au/beach-safety/rip-currents/" },
     { "label": "Beachsafe (Surf Life Saving Australia)", "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi/bondi-beach" }
   ],
   "blocks": [
-    { "type": "answer", "text": "Yes — Bondi Beach is safe to swim as long as you stay between the red and yellow flags during patrol hours. Lifeguards patrol year-round and place the flags on the safest sand for the day's conditions. The main hazard is rip currents, which is exactly why the flags matter." },
-    { "type": "p", "text": "That single habit — swimming between the flags — is the difference between a relaxed dip and a scary afternoon, because those flags are placed by the lifeguards on the safest patch of sand for the conditions that day, and it's the stretch they watch most closely. I've swum here in every season, and the ocean is genuinely welcoming most days. But Bondi is a real surf beach, not a swimming pool, so a little know-how goes a long way." },
+    { "type": "answer", "text": "Yes - Bondi Beach is safe to swim as long as you stay between the red and yellow flags during patrol hours. Lifeguards patrol year-round and place the flags on the safest sand for the day's conditions. The main hazard is rip currents, which is exactly why the flags matter." },
+    { "type": "p", "text": "That single habit - swimming between the flags - is the difference between a relaxed dip and a scary afternoon, because those flags are placed by the lifeguards on the safest patch of sand for the conditions that day, and it's the stretch they watch most closely. I've swum here in every season, and the ocean is genuinely welcoming most days. But Bondi is a real surf beach, not a swimming pool, so a little know-how goes a long way." },
     { "type": "quickFacts", "items": [
       { "label": "Patrolled", "value": "Year-round by professional lifeguards" },
       { "label": "Golden rule", "value": "Swim between the red & yellow flags" },
@@ -21,35 +21,35 @@
     ] },
     { "type": "h2", "text": "The flags are the whole game" },
     { "type": "p", "text": "If you remember one thing, make it this: swim between the flags. The red and yellow flags mark the supervised zone where the lifeguards have judged conditions to be least hazardous, and it's the area under constant watch. Outside that zone you might be swimming over a rip, a sudden drop-off, or a spot no one is scanning. The flags also move through the day as the surf shifts, so glance up and check where they are before you wade in, not just when you arrive." },
-    { "type": "p", "text": "Bondi is patrolled year-round by Waverley Council's professional lifeguards — the same crew you've seen on Bondi Rescue — backed by volunteer surf lifesavers on weekends and holidays. Patrol hours change with the season, and are longer in summer than winter, so if you want the exact times for the day you're visiting, check Waverley Council's beach safety page rather than trusting a number that drifts through the year." },
+    { "type": "p", "text": "Bondi is patrolled year-round by Waverley Council's professional lifeguards - the same crew you've seen on Bondi Rescue - backed by volunteer surf lifesavers on weekends and holidays. Patrol hours change with the season, and are longer in summer than winter, so if you want the exact times for the day you're visiting, check Waverley Council's beach safety page rather than trusting a number that drifts through the year." },
     { "type": "callout", "tone": "warning", "title": "Don't swim outside patrol hours", "text": "Early-morning and after-dark swims outside the flagged, patrolled window mean no one is watching if something goes wrong. If you love a dawn or dusk dip, the Icebergs pool or the rock pools at each end are a far safer bet than the open surf." },
     { "type": "h2", "text": "Rip currents: the real risk, and how to beat one" },
-    { "type": "p", "text": "The genuine danger at Bondi isn't sharks or jellyfish — it's rip currents. A rip is a strong, narrow channel of water flowing back out to sea, and it can carry a swimmer away from shore faster than they can swim. Bondi has a notorious one at the southern end near the rocks, long nicknamed the \"Backpackers' Rip\" because visitors who don't know the beach tend to wander in there, straight into trouble." },
-    { "type": "p", "text": "You can often spot a rip if you know what to look for: a darker, calmer-looking gap in the breaking waves, a rippled channel of water sitting between areas of white surf, or foam and sand streaming out past the break. That deceptively calm patch is usually the rip — not the easy option it looks like." },
+    { "type": "p", "text": "The genuine danger at Bondi isn't sharks or jellyfish - it's rip currents. A rip is a strong, narrow channel of water flowing back out to sea, and it can carry a swimmer away from shore faster than they can swim. Bondi has a notorious one at the southern end near the rocks, long nicknamed the \"Backpackers' Rip\" because visitors who don't know the beach tend to wander in there, straight into trouble." },
+    { "type": "p", "text": "You can often spot a rip if you know what to look for: a darker, calmer-looking gap in the breaking waves, a rippled channel of water sitting between areas of white surf, or foam and sand streaming out past the break. That deceptively calm patch is usually the rip - not the easy option it looks like." },
     { "type": "p", "text": "If you're ever caught in one, the advice from Surf Life Saving is simple and it saves lives:" },
     { "type": "list", "items": [
-      "Don't panic and don't try to swim straight back against the current — you'll only exhaust yourself.",
+      "Don't panic and don't try to swim straight back against the current - you'll only exhaust yourself.",
       "Stay calm and float. A rip pulls you out, but it won't pull you under.",
-      "Raise one arm and call out for help — the lifeguards are watching the flagged zone and will come.",
+      "Raise one arm and call out for help - the lifeguards are watching the flagged zone and will come.",
       "If you're a confident swimmer, swim parallel to the beach, towards the breaking waves, until you're out of the channel, then head in."
     ] },
-    { "type": "localTip", "text": "Before you get in, take thirty seconds on the promenade to actually read the water. Find the flags, then look for that darker, wave-free gap that marks a rip — and put a good stretch of sand between it and where you swim. Reading the beach first is the most local thing you can do." },
+    { "type": "localTip", "text": "Before you get in, take thirty seconds on the promenade to actually read the water. Find the flags, then look for that darker, wave-free gap that marks a rip - and put a good stretch of sand between it and where you swim. Reading the beach first is the most local thing you can do." },
     { "type": "h2", "text": "Calmer options and knowing your limits" },
     { "type": "p", "text": "Some days the surf is big and dumping, and there's no shame in staying out of it. The northern end of the beach is generally the gentler half, and when the ocean looks too rough I head for the seawater pools instead: the famous Bondi Icebergs pool at the south end, or the free Ross Jones Memorial rock pool tucked below it. They give you the salt water and the view with none of the rip risk, which makes them brilliant for kids and less-confident swimmers. For current session times and entry fees, check the Icebergs website directly, as those do change." },
     { "type": "table", "caption": "Where to swim at Bondi, from calmest to most exposed", "columns": ["Spot", "Best for", "Rip risk"], "rows": [
-      ["Bondi Icebergs pool", "Laps, nervous swimmers, dawn/dusk swims", "None — enclosed seawater pool"],
-      ["Ross Jones rock pool", "Kids, a free calm dip at the south end", "None — enclosed rock pool"],
+      ["Bondi Icebergs pool", "Laps, nervous swimmers, dawn/dusk swims", "None - enclosed seawater pool"],
+      ["Ross Jones rock pool", "Kids, a free calm dip at the south end", "None - enclosed rock pool"],
       ["Northern end (between flags)", "Families, gentler surf on most days", "Lower, but still swim between the flags"],
-      ["Southern end near the rocks", "Experienced surfers only", "High — the notorious \"Backpackers' Rip\""]
+      ["Southern end near the rocks", "Experienced surfers only", "High - the notorious \"Backpackers' Rip\""]
     ] },
-    { "type": "p", "text": "The rest is common sense that locals live by: never swim alone, don't swim straight after drinking, keep a constant eye on children in or near the water, and if you're at all unsure, ask a lifeguard — they would genuinely rather you ask than get into difficulty. Slip on a rashie or sunscreen too; the Australian sun is fierce even when the water is cool." },
+    { "type": "p", "text": "The rest is common sense that locals live by: never swim alone, don't swim straight after drinking, keep a constant eye on children in or near the water, and if you're at all unsure, ask a lifeguard - they would genuinely rather you ask than get into difficulty. Slip on a rashie or sunscreen too; the Australian sun is fierce even when the water is cool." },
     { "type": "faq", "items": [
       { "q": "Is it safe to swim at Bondi Beach?", "a": "Yes, provided you swim between the red and yellow flags during patrol hours. That flagged zone is chosen by lifeguards as the safest area for the day's conditions and is watched constantly. The main hazard is rip currents, which is exactly why the flags matter so much." },
-      { "q": "Are there lifeguards at Bondi Beach all year?", "a": "Yes. Bondi is patrolled year-round by Waverley Council's professional lifeguards, with volunteer surf lifesavers on weekends and public holidays. Patrol hours are longer in summer than winter — check Waverley Council's beach safety page for the current day's times." },
+      { "q": "Are there lifeguards at Bondi Beach all year?", "a": "Yes. Bondi is patrolled year-round by Waverley Council's professional lifeguards, with volunteer surf lifesavers on weekends and public holidays. Patrol hours are longer in summer than winter - check Waverley Council's beach safety page for the current day's times." },
       { "q": "What should I do if I get caught in a rip current?", "a": "Don't panic and don't fight it. Stay calm, float, raise an arm and call for help so the lifeguards can reach you. If you're a strong swimmer, swim parallel to the beach towards the breaking waves until you're clear of the channel, then head back in." },
-      { "q": "Are sharks or jellyfish a danger at Bondi?", "a": "Serious encounters are very rare. Bondi is a busy, heavily patrolled urban beach, and by far the bigger real-world risk to swimmers is rip currents, not marine life. You may occasionally get a minor jellyfish sting — lifeguards can help with first aid." },
-      { "q": "Where is the calmest place to swim at Bondi?", "a": "The northern end of the beach is usually gentler than the south. For the calmest water, the Bondi Icebergs seawater pool and the free Ross Jones rock pool below it offer a controlled swim with no rip risk — ideal for children and nervous swimmers." }
+      { "q": "Are sharks or jellyfish a danger at Bondi?", "a": "Serious encounters are very rare. Bondi is a busy, heavily patrolled urban beach, and by far the bigger real-world risk to swimmers is rip currents, not marine life. You may occasionally get a minor jellyfish sting - lifeguards can help with first aid." },
+      { "q": "Where is the calmest place to swim at Bondi?", "a": "The northern end of the beach is usually gentler than the south. For the calmest water, the Bondi Icebergs seawater pool and the free Ross Jones rock pool below it offer a controlled swim with no rip risk - ideal for children and nervous swimmers." }
     ] },
-    { "type": "p", "text": "So, is it safe to swim at Bondi? Absolutely — it's one of my favourite swims in Sydney. Just respect the ocean the way locals do: read the water, stay between the flags, and never be shy about waving down a lifeguard. Do that, and Bondi gives you one of the best swims of your life." }
+    { "type": "p", "text": "So, is it safe to swim at Bondi? Absolutely - it's one of my favourite swims in Sydney. Just respect the ocean the way locals do: read the water, stay between the flags, and never be shy about waving down a lifeguard. Do that, and Bondi gives you one of the best swims of your life." }
   ]
 }

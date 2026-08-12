@@ -5,7 +5,7 @@ import { track } from '@/lib/analytics';
 import type { ItineraryItem } from '@/lib/generateBondiItinerary';
 
 /**
- * A bookable (affiliate) activity in the itinerary. Tasteful, not an ad — a small
+ * A bookable (affiliate) activity in the itinerary. Tasteful, not an ad - a small
  * "Bookable" tag and a single compact CTA. Only renders a live "Book on Klook" link when a
  * real affiliateUrl is set; otherwise it shows a non-linked bookable label (no fabricated
  * URLs). Fires GA4 klook_shown on render and affiliate_click on the CTA.

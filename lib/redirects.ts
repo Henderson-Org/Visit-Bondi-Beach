@@ -1,5 +1,5 @@
 /**
- * Redirect / owned-route registry — the single runtime source of truth for which content paths
+ * Redirect / owned-route registry - the single runtime source of truth for which content paths
  * are 301-redirected (consolidated duplicates, migrated URLs) or served by a dedicated app route.
  *
  * The list lives in content/redirected-paths.json so both this module (runtime) and
@@ -9,13 +9,13 @@
  *
  * Why the translation layer cares: a translation must automatically follow its English page's
  * redirect/removal status. If an English article is redirected but its translations lingered,
- * their hreflang (and the survivor's) would point at a 301/404 — the classic way an hreflang
+ * their hreflang (and the survivor's) would point at a 301/404 - the classic way an hreflang
  * cluster rots. `isRedirectedOrOwned` lets the translation layer exclude those bases so a
  * redirected English page never leaves orphaned, mis-linked translations behind.
  */
 import registry from '@/content/redirected-paths.json';
 
-/** Paths that 301 elsewhere — must NOT be statically generated (they'd shadow the redirect). */
+/** Paths that 301 elsewhere - must NOT be statically generated (they'd shadow the redirect). */
 export const REDIRECTED_PATHS: ReadonlySet<string> = new Set(registry.redirected);
 
 /** Paths in the content index now served by a dedicated app route that owns their canonical. */

@@ -21,7 +21,7 @@ import { ContentPlannerPromo } from '@/components/ContentPlannerPromo';
 const slugify = (s: string) =>
   s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
-// Card data for a hub link — keeps the curated section title, pulls the target
+// Card data for a hub link - keeps the curated section title, pulls the target
 // page's image + a clean excerpt (shared helpers, so hubs and homepage match).
 function cardFor(link: { title: string; path: string }): GuideCardData {
   const target = getPage(link.path);
@@ -200,7 +200,7 @@ export function HubView({ page }: { page: Page }) {
           </div>
         )}
 
-        {/* "Perfect for…" quick discovery — contextual entry points into the sections. */}
+        {/* "Perfect for…" quick discovery - contextual entry points into the sections. */}
         {design.discovery && design.discovery.items.length > 0 && (
           <div className="mt-8 flex flex-wrap items-center gap-x-2 gap-y-2.5">
             <span className="mr-1 text-xs font-semibold uppercase tracking-widest text-ink-500">
@@ -222,7 +222,7 @@ export function HubView({ page }: { page: Page }) {
           </div>
         )}
 
-        {/* Sections — separated from the quick-browse strip above by a hairline so the
+        {/* Sections - separated from the quick-browse strip above by a hairline so the
             guide proper reads as its own composed block. */}
         <div className="mt-10 border-t border-sand-200 pt-12 space-y-16 pb-4">
           {sections.map((s, i) => (

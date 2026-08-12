@@ -38,7 +38,7 @@ import { TranslatedArticle } from '@/components/TranslatedArticle';
 import { splitLocalePath, hreflangAlternates, localizedPath, LOCALE_OG, LOCALE_PREFIX } from '@/lib/i18n';
 import { getTranslation, availableLocales, allTranslations } from '@/lib/translations';
 // Redirect/owned registry (content/redirected-paths.json). Paths that 301 elsewhere or are
-// served by a dedicated route — don't statically generate them here or they'd shadow the
+// served by a dedicated route - don't statically generate them here or they'd shadow the
 // redirect with a dead page. Also gates translations so they follow their English page's status.
 import { REDIRECTED_PATHS, OWNED_BY_ROUTE, isRedirectedOrOwned } from '@/lib/redirects';
 
@@ -49,7 +49,7 @@ export function generateStaticParams() {
     .filter((p) => !/[%+]/.test(p) && !REDIRECTED_PATHS.has(p) && !OWNED_BY_ROUTE.has(p))
     .map((p) => ({ slug: p.split('/').filter(Boolean) }));
   // Every stored translation gets its own statically-generated locale-prefixed URL
-  // (/ja/…, /zh-cn/…, …) so bots crawl fully-rendered translated HTML — no client MT.
+  // (/ja/…, /zh-cn/…, …) so bots crawl fully-rendered translated HTML - no client MT.
   const translated = allTranslations().map(({ locale, path }) => ({
     slug: [LOCALE_PREFIX[locale], ...path.split('/').filter(Boolean)],
   }));
@@ -96,16 +96,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const clean = page.title
     ? page.title.replace(/\s*[—-]\s*Visit Bondi Beach\s*$/i, '').trim()
     : displayTitle(page);
-  // The layout appends " — Visit Bondi Beach" (20 chars) via the title template. That
+  // The layout appends " - Visit Bondi Beach" (20 chars) via the title template. That
   // pushes ~43% of titles past Google's ~60-char SERP cutoff, truncating keywords and
   // costing CTR (the site's #1 problem: 1.2% site-wide CTR). So keep the brand suffix
   // only when the result still fits; otherwise emit an `absolute` title (no suffix) so
-  // the descriptive, keyword-bearing title renders in full. Small brand, weak on its own —
+  // the descriptive, keyword-bearing title renders in full. Small brand, weak on its own -
   // the keyword earns the click, not the suffix.
-  const BRAND_SUFFIX = ' — Visit Bondi Beach';
+  const BRAND_SUFFIX = ' - Visit Bondi Beach';
   const title = clean.length + BRAND_SUFFIX.length > 60 ? { absolute: clean } : clean;
   const indexable = page.indexable && isProduction();
-  // Hub/core landing pages carry no ogImage/heroImage in pages.json — their hero lives in
+  // Hub/core landing pages carry no ogImage/heroImage in pages.json - their hero lives in
   // lib/hubs.ts. Wire it in so these (the most-shared nav URLs) get proper social/Discover cards.
   const ogImage =
     page.ogImage ||
@@ -134,7 +134,7 @@ export default async function CatchAllPage({ params }: Props) {
   // No fallback to English content under a translated URL (that would be a soft-404 duplicate).
   const { locale, path } = splitLocalePath(slug);
   if (locale) {
-    // A translation is served only while its English base is a live page — never when that base
+    // A translation is served only while its English base is a live page - never when that base
     // is redirected/owned (else the locale URL would be an orphan whose hreflang points at a 301).
     const tx = isRedirectedOrOwned(path) ? undefined : getTranslation(locale, path);
     if (!tx) notFound();
@@ -195,7 +195,7 @@ function injectLiveFacts(blocks: Block[], live: { waterTemp?: string | null }): 
  * Hub-styled core page (Swim): editorial hero + curated "explore" cards, while
  * keeping the page's existing body content (so no crawlable SEO copy is lost).
  * When the body has a live-marked quick fact (e.g. "Water temp"), today's Bondi
- * sea-surface temperature is fetched server-side (cached ~30 min) and injected —
+ * sea-surface temperature is fetched server-side (cached ~30 min) and injected -
  * so the box shows a current reading and the page revalidates (ISR) with it.
  */
 async function CorePageHubView({ page }: { page: Page }) {
@@ -427,7 +427,7 @@ function ArticlePage({ page }: { page: Page }) {
       )}
       <ContentPlannerPromo context={`${page.path} ${title}`} placement="article" />
       <RelatedGuides pages={relatedPages(page)} />
-      {/* Discreet, contextual "also available in …" — the only surfacing of translations on
+      {/* Discreet, contextual "also available in …" - the only surfacing of translations on
           English pages. Renders nothing unless a translation exists, so English is unchanged. */}
       <LanguageLinks path={page.path} current={null} />
       {!(page.blocks && page.blocks.length > 0) && <MigrationNote page={page} />}

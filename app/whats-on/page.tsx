@@ -11,7 +11,7 @@ import { EVENTS, type EventCategory, type Audience } from '@/data/events';
 
 const TITLE = "What's On in Bondi";
 const DESCRIPTION =
-  "What's on in Bondi Beach — markets, festivals, sport, arts and family events. Find what's happening today, this weekend and coming up, with free and family-friendly picks.";
+  "What's on in Bondi Beach - markets, festivals, sport, arts and family events. Find what's happening today, this weekend and coming up, with free and family-friendly picks.";
 const HERO = '/images/articles/41ae0d79fa63d41a.webp';
 
 export const revalidate = 1800; // keep "today / this weekend" fresh
@@ -41,7 +41,7 @@ const SHORTCUTS = [
 const FAQS = [
   { q: "What's on in Bondi today?", a: "See today's events on our What's On Today page. Bondi's regular fixtures are the Saturday Bondi Farmers Market and the Sunday Bondi Markets; bigger events like Sculpture by the Sea, City2Surf and Festival of the Winds run at set times each year." },
   { q: "What's on in Bondi this weekend?", a: 'Most weekends you can count on the Bondi Farmers Market on Saturday and the Bondi Markets on Sunday, both at Bondi Beach Public School on Campbell Parade. Check our This Weekend page for the current line-up.' },
-  { q: 'Are there free events in Bondi?', a: 'Yes — the weekly markets are free to enter, and major events like Sculpture by the Sea and Festival of the Winds are free to visit. See our Free events page.' },
+  { q: 'Are there free events in Bondi?', a: 'Yes - the weekly markets are free to enter, and major events like Sculpture by the Sea and Festival of the Winds are free to visit. See our Free events page.' },
   { q: 'What events in Bondi are good for families?', a: 'The weekend markets, Festival of the Winds (a free kite festival) and Sculpture by the Sea are all family-friendly. Use the “With kids” filter to find them.' },
 ];
 
@@ -64,7 +64,7 @@ export default function WhatsOnHub() {
         image={HERO}
         kicker="What's On"
         title={TITLE}
-        intro="Markets, festivals, sport and art by the beach — here's what's happening in Bondi. Jump to today or this weekend, or filter by what you're after."
+        intro="Markets, festivals, sport and art by the beach - here's what's happening in Bondi. Jump to today or this weekend, or filter by what you're after."
         crumbs={CRUMBS}
       />
 
@@ -113,8 +113,8 @@ export default function WhatsOnHub() {
       <section className="mx-auto max-w-3xl px-4 pb-12">
         <h2 className="font-display text-2xl text-ink-900">About what&rsquo;s on in Bondi</h2>
         <p className="mt-3 text-ink-700">
-          Bondi Beach has something on all year round. Weekends revolve around the markets — the Bondi
-          Farmers Market on Saturday and the original Bondi Markets on Sunday — while the calendar’s big
+          Bondi Beach has something on all year round. Weekends revolve around the markets - the Bondi
+          Farmers Market on Saturday and the original Bondi Markets on Sunday - while the calendar’s big
           moments include Sculpture by the Sea each spring, the City2Surf finish on the sand, and
           Festival of the Winds. We list the events we can verify, with a source and a last-checked date;
           always confirm exact dates on the official site before planning around them.

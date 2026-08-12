@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const p = getProperty(slug);
   const g = getGuide(slug);
   if (!p || !g) return { title: 'Page not found' };
-  const title = `${p.name} — Review & Guide`;
+  const title = `${p.name} - Review & Guide`;
   return {
     title,
     description: g.verdict,
@@ -49,7 +49,7 @@ function articleReviewJsonLd(p: Property, g: PropertyGuide, path: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: `${p.name} — Review & Guide`,
+    headline: `${p.name} - Review & Guide`,
     description: g.verdict,
     url,
     mainEntityOfPage: url,
@@ -156,7 +156,7 @@ export default async function PropertyGuidePage({ params }: Props) {
             variant={property.officialUrl ? 'outline' : 'solid'}
           />
         </div>
-        <p className="mt-2 text-xs text-ink-500">External links open on the provider&rsquo;s site — you&rsquo;re leaving Visit Bondi Beach.</p>
+        <p className="mt-2 text-xs text-ink-500">External links open on the provider&rsquo;s site - you&rsquo;re leaving Visit Bondi Beach.</p>
 
         <p className="mt-6 text-lg leading-relaxed text-ink-700">{guide.intro}</p>
       </div>
@@ -231,7 +231,7 @@ export default async function PropertyGuidePage({ params }: Props) {
           <time dateTime={property.lastReviewed}>
             {new Date(property.lastReviewed).toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' })}
           </time>
-          . We keep prices and availability off the page on purpose — check the booking links for today&rsquo;s rates.
+          . We keep prices and availability off the page on purpose - check the booking links for today&rsquo;s rates.
         </p>
       </div>
 

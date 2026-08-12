@@ -3,49 +3,49 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-10",
   "sources": [
-    { "label": "Waverley Council — Parking & car parks", "url": "https://www.waverley.nsw.gov.au/residents/parking/car_parks" },
-    { "label": "Randwick City Council — Parking rules", "url": "https://www.randwick.nsw.gov.au/services/parking/parking-rules" },
-    { "label": "Randwick City Council — 4P parking introduced in beachside areas", "url": "https://www.randwick.nsw.gov.au/about-us/news/news-items/2021/january/4p-parking-introduced-in-beachside-areas" },
-    { "label": "Randwick City Council — Clovelly Beach", "url": "https://www.randwick.nsw.gov.au/facilities-and-recreation/beaches-and-coast/beaches/clovelly-beach" },
-    { "label": "Randwick City Council — Councillors reject visitor pay parking at beaches (2026)", "url": "https://www.randwick.nsw.gov.au/about-us/news/news-items/2026/july/councillors-reject-visitor-pay-parking-at-beaches" },
-    { "label": "Transport for NSW — plan a trip / bus routes", "url": "https://transportnsw.info" },
-    { "label": "Destination NSW — Bondi to Coogee coastal walk", "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk" }
+    { "label": "Waverley Council - Parking & car parks", "url": "https://www.waverley.nsw.gov.au/residents/parking/car_parks" },
+    { "label": "Randwick City Council - Parking rules", "url": "https://www.randwick.nsw.gov.au/services/parking/parking-rules" },
+    { "label": "Randwick City Council - 4P parking introduced in beachside areas", "url": "https://www.randwick.nsw.gov.au/about-us/news/news-items/2021/january/4p-parking-introduced-in-beachside-areas" },
+    { "label": "Randwick City Council - Clovelly Beach", "url": "https://www.randwick.nsw.gov.au/facilities-and-recreation/beaches-and-coast/beaches/clovelly-beach" },
+    { "label": "Randwick City Council - Councillors reject visitor pay parking at beaches (2026)", "url": "https://www.randwick.nsw.gov.au/about-us/news/news-items/2026/july/councillors-reject-visitor-pay-parking-at-beaches" },
+    { "label": "Transport for NSW - plan a trip / bus routes", "url": "https://transportnsw.info" },
+    { "label": "Destination NSW - Bondi to Coogee coastal walk", "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk" }
   ],
   "blocks": [
     { "type": "p", "text": "Driving to Tamarama, Coogee or Clovelly on a warm weekend? Here's the honest short version: on-street parking is free at all three but tightly time-limited, and it fills scandalously early. Arrive before 9am, or don't drive at all." },
     { "type": "quickFacts", "items": [
-      { "label": "Tamarama", "value": "Waverley Council — a handful of time-limited on-street bays, no beach car park" },
-      { "label": "Coogee & Clovelly", "value": "Randwick Council — free 4-hour (4P) on-street" },
+      { "label": "Tamarama", "value": "Waverley Council - a handful of time-limited on-street bays, no beach car park" },
+      { "label": "Coogee & Clovelly", "value": "Randwick Council - free 4-hour (4P) on-street" },
       { "label": "Best free lot", "value": "Clovelly's car park, southern side of the beach" },
       { "label": "Busy-day reality", "value": "Closest bays gone by 9–10am in summer" },
       { "label": "Pay by", "value": "PayStay app at the metered Coogee car parks" }
     ] },
     { "type": "h2", "text": "Tamarama: the trickiest of the three" },
-    { "type": "p", "text": "Tamarama is my favourite little cove and the hardest place to park in this whole stretch. It sits in Waverley Council, and there simply isn't much room — a handful of bays on the streets around Tamarama Park and Tamarama Marine Drive, and no council beach car park at all. On a sunny Saturday those are gone by mid-morning. Most carry a daytime limit (often signed 2P) that's actively enforced, so read the pole before you walk off." },
-    { "type": "localTip", "text": "Honestly, I rarely drive here. Tamarama sits just a few hundred metres from Bronte on the 6km Bondi to Coogee coastal walk — park up at Bronte and stroll round in a few minutes. Or take the 381 loop from Bondi Junction, which runs along Tamarama Marine Drive right by the sand (roughly a 10-minute ride; check Transport for NSW for times). Either way you skip the parking lottery." },
+    { "type": "p", "text": "Tamarama is my favourite little cove and the hardest place to park in this whole stretch. It sits in Waverley Council, and there simply isn't much room - a handful of bays on the streets around Tamarama Park and Tamarama Marine Drive, and no council beach car park at all. On a sunny Saturday those are gone by mid-morning. Most carry a daytime limit (often signed 2P) that's actively enforced, so read the pole before you walk off." },
+    { "type": "localTip", "text": "Honestly, I rarely drive here. Tamarama sits just a few hundred metres from Bronte on the 6km Bondi to Coogee coastal walk - park up at Bronte and stroll round in a few minutes. Or take the 381 loop from Bondi Junction, which runs along Tamarama Marine Drive right by the sand (roughly a 10-minute ride; check Transport for NSW for times). Either way you skip the parking lottery." },
     { "type": "h2", "text": "Coogee: free 4P on-street, plus metered car parks" },
-    { "type": "p", "text": "Coogee and Clovelly both sit in Randwick City Council, which in January 2021 brought in a 4-hour limit (signed 4P) across its beachside streets. So on-street parking near Coogee Beach is free, but capped at four hours during enforced hours — fine for a swim and lunch, not a whole lazy day." },
+    { "type": "p", "text": "Coogee and Clovelly both sit in Randwick City Council, which in January 2021 brought in a 4-hour limit (signed 4P) across its beachside streets. So on-street parking near Coogee Beach is free, but capped at four hours during enforced hours - fine for a swim and lunch, not a whole lazy day." },
     { "type": "list", "items": [
-      "Free 4P bays run through the grid around the beach — Arden, Beach and Brook Streets and back from there.",
-      "The Coogee Beach and Coogee Oval car parks are metered via the PayStay app — pay only for the time you use and top up from your phone.",
+      "Free 4P bays run through the grid around the beach - Arden, Beach and Brook Streets and back from there.",
+      "The Coogee Beach and Coogee Oval car parks are metered via the PayStay app - pay only for the time you use and top up from your phone.",
       "Come early. In peak summer the closest bays are taken by 9–10am and you'll be walking in from several blocks back."
     ] },
-    { "type": "callout", "tone": "note", "title": "Rates change — check before you pay", "text": "I won't quote a metered hourly rate, since Randwick reviews them. Check the current rate on the meter or in PayStay, and read the sign for enforced hours — overnight rules differ from daytime." },
+    { "type": "callout", "tone": "note", "title": "Rates change - check before you pay", "text": "I won't quote a metered hourly rate, since Randwick reviews them. Check the current rate on the meter or in PayStay, and read the sign for enforced hours - overnight rules differ from daytime." },
     { "type": "h2", "text": "Clovelly: the easiest place to leave the car" },
-    { "type": "p", "text": "Of the three, Clovelly is where I rate your chances. As well as free 4P on-street bays, there's a free car park on the southern side of the beach, by the grassy park and playground. It still fills on a hot day, but the odds beat Tamarama — and you're steps from that flat-water swimming channel that makes Clovelly so good for kids and nervous swimmers." },
-    { "type": "localTip", "text": "If the beachside car park and closest streets are full, drive a few blocks uphill and walk down — the 4P bays extend well back, and a five-minute walk beats a 30-minute crawl." },
-    { "type": "callout", "tone": "note", "title": "Good news for 2026", "text": "In mid-2026 Randwick councillors voted against introducing visitor pay parking at its beaches (Coogee and Clovelly included), so the free 4P system stays for now. Rules can evolve and I'll keep this page updated — but for this summer, free-but-timed is the deal." },
+    { "type": "p", "text": "Of the three, Clovelly is where I rate your chances. As well as free 4P on-street bays, there's a free car park on the southern side of the beach, by the grassy park and playground. It still fills on a hot day, but the odds beat Tamarama - and you're steps from that flat-water swimming channel that makes Clovelly so good for kids and nervous swimmers." },
+    { "type": "localTip", "text": "If the beachside car park and closest streets are full, drive a few blocks uphill and walk down - the 4P bays extend well back, and a five-minute walk beats a 30-minute crawl." },
+    { "type": "callout", "tone": "note", "title": "Good news for 2026", "text": "In mid-2026 Randwick councillors voted against introducing visitor pay parking at its beaches (Coogee and Clovelly included), so the free 4P system stays for now. Rules can evolve and I'll keep this page updated - but for this summer, free-but-timed is the deal." },
     { "type": "h2", "text": "Or skip the car entirely" },
     { "type": "p", "text": "On summer weekends I'd genuinely leave the car at home. From the city, routes 373 and 374 run to Coogee (about 30–40 minutes from the CBD), the 339 loops down to Clovelly via Central, and the 381 covers Tamarama from Bondi Junction. Confirm current times and stops with Transport for NSW before you head out." },
     { "type": "itinerary", "stops": [
       { "time": "Before 9am", "title": "Drive if you must", "detail": "Aim for the Clovelly beachside car park or an on-street 4P bay while they're still open." },
-      { "time": "Peak day", "title": "Park & walk", "detail": "Grab any 4P bay a few blocks back and walk in — far less stressful than chasing the front row." },
-      { "time": "Anytime", "title": "Take the bus", "detail": "373/374 to Coogee, 339 to Clovelly, 381 to Tamarama — or walk the coastal path from Bronte for Tamarama." }
+      { "time": "Peak day", "title": "Park & walk", "detail": "Grab any 4P bay a few blocks back and walk in - far less stressful than chasing the front row." },
+      { "time": "Anytime", "title": "Take the bus", "detail": "373/374 to Coogee, 339 to Clovelly, 381 to Tamarama - or walk the coastal path from Bronte for Tamarama." }
     ] },
     { "type": "faq", "items": [
-      { "q": "Is parking free at Coogee and Clovelly?", "a": "Yes — on-street parking at both is free, but limited to four hours (signed 4P) during the enforced hours set by Randwick Council. The Coogee Beach and Coogee Oval car parks are metered and paid via the PayStay app. Always read the sign on the pole." },
+      { "q": "Is parking free at Coogee and Clovelly?", "a": "Yes - on-street parking at both is free, but limited to four hours (signed 4P) during the enforced hours set by Randwick Council. The Coogee Beach and Coogee Oval car parks are metered and paid via the PayStay app. Always read the sign on the pole." },
       { "q": "Where can I park for free at Clovelly Beach?", "a": "There's a free car park on the southern side of Clovelly Beach beside the park, plus free 4P on-street bays through the surrounding streets. Both fill early on hot days, so come before mid-morning." },
-      { "q": "Why is Tamarama so hard to park at?", "a": "It's a small cove with only a handful of time-limited on-street bays and no council car park, so on busy days they're taken by mid-morning. I usually walk in from Bronte — it's only a few hundred metres along the coastal walk." },
+      { "q": "Why is Tamarama so hard to park at?", "a": "It's a small cove with only a handful of time-limited on-street bays and no council car park, so on busy days they're taken by mid-morning. I usually walk in from Bronte - it's only a few hundred metres along the coastal walk." },
       { "q": "How long can I leave my car?", "a": "Most beachside on-street bays at Coogee and Clovelly are 4-hour (4P) limited during enforced hours; Tamarama's are typically shorter (often 2P). Check the exact limit on the signpost, as they're actively enforced." },
       { "q": "Which bus goes to each beach?", "a": "From the city, the 373 and 374 serve Coogee (roughly 30–40 minutes from the CBD), the 339 loops to Clovelly via Central, and the 381 runs to Tamarama from Bondi Junction. Check Transport for NSW for current timetables." }
     ] }

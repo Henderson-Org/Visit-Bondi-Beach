@@ -93,7 +93,7 @@ export function PreferenceCards({ onSubmit, initialInterests }: { onSubmit: (p: 
         ))}
       </Field>
 
-      <Field label="Food style (optional — pick any)">
+      <Field label="Food style (optional - pick any)">
         {FOOD_STYLES.map((o) => (
           <button key={o.v} type="button" className={chip(foodStyles.includes(o.v))} onClick={() => toggle(foodStyles, o.v, setFoodStyles)}>{o.label}</button>
         ))}

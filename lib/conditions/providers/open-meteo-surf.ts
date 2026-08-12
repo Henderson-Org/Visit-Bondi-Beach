@@ -2,7 +2,7 @@
  * Open-Meteo Marine adapter (surf/ocean conditions).
  *
  * Provides significant + swell wave height, swell direction/period, wind-wave
- * height and sea-surface (water) temperature — the structured, per-location
+ * height and sea-surface (water) temperature - the structured, per-location
  * marine data BOM does not expose in a reusable API (BOM marine forecasts are
  * text-based coastal-waters bulletins). Keyless, free, CC-BY 4.0. We link to
  * BOM's Sydney coastal-waters forecast and Beachsafe for authoritative info.

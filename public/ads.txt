@@ -1,3 +1,3 @@
-# ads.txt — authorized digital sellers
+# ads.txt - authorized digital sellers
 # Google AdSense (migrated from Squarespace, publisher ca-pub-3425864271290233)
 google.com, pub-3425864271290233, DIRECT, f08c47fec0942fa0

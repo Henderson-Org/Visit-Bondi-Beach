@@ -1,5 +1,5 @@
 /**
- * Light route / "where things are" module — a static, horizontally-scrollable
+ * Light route / "where things are" module - a static, horizontally-scrollable
  * stepped route (connected dots + labels). No external map tiles or JS, so it's
  * fast and needs no API key; it gives visitors the sequence and context at a
  * glance (used on Coastal Walk and Getting Here).

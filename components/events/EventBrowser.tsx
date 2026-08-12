@@ -7,7 +7,7 @@ import type { EventFacet, DateFilter } from '@/lib/events';
 
 /**
  * Client event browser. Every event card is server-rendered and present in the initial
- * HTML (crawlable, works without JS); filtering only toggles visibility — it never
+ * HTML (crawlable, works without JS); filtering only toggles visibility - it never
  * changes the URL, so no crawlable filter-combination pages are created. Date-filter
  * membership is precomputed server-side (needs "today" in Sydney) and passed in as
  * facets, keeping this component light.

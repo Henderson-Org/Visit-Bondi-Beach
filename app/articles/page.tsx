@@ -11,7 +11,7 @@ import { articleFacets, articleTopicsWithCounts, TOPIC_LABEL, TOPIC_SECTION } fr
 
 const TITLE = 'Bondi Articles & Guides';
 const DESCRIPTION =
-  'Bondi Beach articles and guides from local writers — things to do, where to eat, swimming, the coastal walk, getting here and more. Browse every Visit Bondi Beach guide by topic.';
+  'Bondi Beach articles and guides from local writers - things to do, where to eat, swimming, the coastal walk, getting here and more. Browse every Visit Bondi Beach guide by topic.';
 const HERO = '/images/articles/4f6ca1a5ae308e04.webp';
 
 export const revalidate = 86400;
@@ -44,7 +44,7 @@ export default function ArticlesHub() {
         image={HERO}
         kicker="Articles"
         title={TITLE}
-        intro="Every Bondi guide and story in one place — written by locals. Browse by topic, or dive into the sections below."
+        intro="Every Bondi guide and story in one place - written by locals. Browse by topic, or dive into the sections below."
         crumbs={CRUMBS}
       />
 
@@ -90,7 +90,7 @@ export default function ArticlesHub() {
 
       {/* Cross-link to events */}
       <section className="mx-auto max-w-6xl px-4 pb-12 pt-14">
-        <UpcomingEvents heading="While you're here — what's on in Bondi" limit={3} />
+        <UpcomingEvents heading="While you're here - what's on in Bondi" limit={3} />
       </section>
     </div>
   );

@@ -18,7 +18,7 @@ const MODE_LABEL: Record<string, string> = {
 
 /**
  * Reusable Bondi location / destination page. All content comes from one LocationPageData
- * record (data/locations.ts) — the template renders the sections that record supplies, so
+ * record (data/locations.ts) - the template renders the sections that record supplies, so
  * new location pages are added by adding data, not code. Answer-first copy, explicit factual
  * headings and location-specific FAQs make it strong for search and AI extraction; JSON-LD
  * (Place/Beach/…, BreadcrumbList, FAQPage) is emitted from the same verified data.
@@ -52,7 +52,7 @@ export function LocationPage({ location: loc }: { location: LocationPageData }) 
         ]}
       />
 
-      {/* Quick facts — answer-first, scannable, AI-extractable */}
+      {/* Quick facts - answer-first, scannable, AI-extractable */}
       <section id="quick-facts" className="mx-auto max-w-3xl px-4 pt-10">
         <QuickFacts items={loc.quickFacts} />
       </section>
@@ -80,7 +80,7 @@ export function LocationPage({ location: loc }: { location: LocationPageData }) 
         </section>
       )}
 
-      {/* Local tips — prominent */}
+      {/* Local tips - prominent */}
       {loc.localTips.length > 0 && (
         <section id="local-tips" className="mx-auto max-w-3xl px-4 pt-14">
           <div className="rounded-2xl border border-ocean-200 bg-ocean-50/50 p-5 sm:p-6">
@@ -189,7 +189,7 @@ export function LocationPage({ location: loc }: { location: LocationPageData }) 
         </section>
       )}
 
-      {/* Provenance — sources + last reviewed (integrity, mirrors article bodies) */}
+      {/* Provenance - sources + last reviewed (integrity, mirrors article bodies) */}
       {loc.sources.length > 0 && (
         <section className="mx-auto max-w-3xl px-4 pb-16">
           <details className="rounded-xl border border-sand-200 bg-white p-4 text-sm">

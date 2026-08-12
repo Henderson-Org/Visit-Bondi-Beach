@@ -7,7 +7,7 @@ import { TOPIC_LABEL, type ArticleTopic, type ArticleFacet } from '@/lib/article
 /**
  * Lightweight, filterable article index. Text rows (not image cards) so it scales to
  * hundreds of posts with minimal DOM/JS and no layout shift. Topic filter is client-side
- * visibility only — no URL params, no crawl traps. All rows are in the initial HTML.
+ * visibility only - no URL params, no crawl traps. All rows are in the initial HTML.
  */
 function dateLabel(iso: string): string {
   if (!iso) return '';

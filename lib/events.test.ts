@@ -146,7 +146,7 @@ describe('announced concrete editions', () => {
 });
 
 describe('fixed-day annual (e.g. New Year’s Eve)', () => {
-  it('always shows the fixed calendar date — never TBC', () => {
+  it('always shows the fixed calendar date - never TBC', () => {
     const r = resolveEvent(fixedAnnual(12, 31), WED);
     expect(r.nextDate).toBe('2026-12-31');
     expect(r.exact).toBe(true);
@@ -157,7 +157,7 @@ describe('fixed-day annual (e.g. New Year’s Eve)', () => {
   });
 });
 
-// Data-integrity invariants over the REAL event dataset — these fail the build if an
+// Data-integrity invariants over the REAL event dataset - these fail the build if an
 // event ever lands in a contradictory date state (the class of bug that produced the
 // "New Year's Eve → Dates TBC" issue). Mirrors scripts/verify-events.mjs.
 describe('event data integrity (real EVENTS)', () => {
@@ -190,7 +190,7 @@ describe('event data integrity (real EVENTS)', () => {
     for (const e of EVENTS) {
       if ((e.dateStatus === 'announced' || e.dateStatus === 'confirmed') && e.startDate) {
         const end = e.endDate ?? e.startDate;
-        expect(end >= today, `${e.slug} ${e.dateStatus} edition (${e.startDate}..${end}) has passed — research next edition`).toBe(true);
+        expect(end >= today, `${e.slug} ${e.dateStatus} edition (${e.startDate}..${end}) has passed - research next edition`).toBe(true);
       }
     }
   });

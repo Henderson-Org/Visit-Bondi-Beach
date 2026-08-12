@@ -5,7 +5,7 @@
  * for it (BOM's API forbids reuse) and Open-Meteo doesn't provide tides. WorldTides
  * is a clean tide-only API with a free tier that requires an API key. This adapter
  * activates ONLY when TIDE_API_KEY is set (see service.ts); with no key, tide stays
- * null and the UI simply omits it — never fabricated.
+ * null and the UI simply omits it - never fabricated.
  *
  * An Australian alternative with richer local tide data is WillyWeather (also
  * key/subscription based); it can be dropped in behind the same TideProvider

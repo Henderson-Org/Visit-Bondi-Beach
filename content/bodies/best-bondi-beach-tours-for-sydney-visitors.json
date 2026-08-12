@@ -4,9 +4,9 @@
   "lastReviewed": "2026-08-08",
   "sources": [
     { "label": "Let's Go Surfing (Bondi surf school)", "url": "https://letsgosurfing.com.au/lessons/bondi/" },
-    { "label": "Sydney.com — Bondi to Coogee Coastal Walk", "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk" },
+    { "label": "Sydney.com - Bondi to Coogee Coastal Walk", "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk" },
     { "label": "Big Bus Tours Sydney", "url": "https://www.bigbustours.com/en/sydney/sydney-bus-tours" },
-    { "label": "Waverley Council — Bondi Beach", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" }
+    { "label": "Waverley Council - Bondi Beach", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" }
   ],
   "blocks": [
     { "type": "p", "text": "If you're visiting Sydney and want to make the most of a day at Bondi, the best tours here fall into three simple camps: learn to surf on the beach itself, walk the clifftops to Coogee, or see the whole coastline from the air or a hop-on hop-off bus. I live around the corner and send friends off on these all the time, so here's my honest, local take on what's worth your money and how to book without getting stung." },
@@ -16,29 +16,29 @@
       { "label": "Best for city + beach", "value": "Hop-on hop-off bus" },
       { "label": "Book ahead?", "value": "Yes, especially Oct–Mar" }
     ] },
-    { "type": "h2", "text": "Surf lessons — the most 'Bondi' thing you can do" },
-    { "type": "p", "text": "Nothing says you've truly been to Bondi like standing up on your first wave. The name locals point newcomers to is Let's Go Surfing, the surf school based at the quieter north end of the beach — it has run lessons here for decades and teaches everyone from nervous first-timers to rusty returners. Boards, wetsuits and changing facilities are provided, and beginner lessons stay small so an instructor can actually get you standing." },
+    { "type": "h2", "text": "Surf lessons - the most 'Bondi' thing you can do" },
+    { "type": "p", "text": "Nothing says you've truly been to Bondi like standing up on your first wave. The name locals point newcomers to is Let's Go Surfing, the surf school based at the quieter north end of the beach - it has run lessons here for decades and teaches everyone from nervous first-timers to rusty returners. Boards, wetsuits and changing facilities are provided, and beginner lessons stay small so an instructor can actually get you standing." },
     { "type": "localTip", "text": "Book a morning session if you can. The wind is usually lightest early, the water is less crowded, and you'll have the rest of the day to recover with a coffee on Campbell Parade. Demand spikes over the warm months (roughly October to March), so reserve a few days ahead rather than rocking up." },
-    { "type": "callout", "tone": "note", "title": "Check current times and prices at the source", "text": "Session times, prices and age minimums change with the seasons. I've deliberately not quoted numbers here — check the Let's Go Surfing website for what's running the week you visit, and always surf between the red-and-yellow flags." },
+    { "type": "callout", "tone": "note", "title": "Check current times and prices at the source", "text": "Session times, prices and age minimums change with the seasons. I've deliberately not quoted numbers here - check the Let's Go Surfing website for what's running the week you visit, and always surf between the red-and-yellow flags." },
     { "type": "h2", "text": "The Bondi to Coogee coastal walk (the tour that's free)" },
-    { "type": "p", "text": "My single favourite way to 'tour' Bondi costs nothing: the clifftop coastal walk from Bondi to Coogee. It runs roughly six kilometres one way and threads past Tamarama, Bronte, Clovelly and Coogee, with rock pools, sandstone cliffs and the ocean the whole way. Most people take two to three hours at an easy pace with photo and swim stops. You don't need a guide — the path is well signed and hugs the coast — but there are plenty of paid guided and photography walks if you'd rather have company and commentary." },
+    { "type": "p", "text": "My single favourite way to 'tour' Bondi costs nothing: the clifftop coastal walk from Bondi to Coogee. It runs roughly six kilometres one way and threads past Tamarama, Bronte, Clovelly and Coogee, with rock pools, sandstone cliffs and the ocean the whole way. Most people take two to three hours at an easy pace with photo and swim stops. You don't need a guide - the path is well signed and hugs the coast - but there are plenty of paid guided and photography walks if you'd rather have company and commentary." },
     { "type": "list", "items": [
-      "Wear proper shoes — there are stairs and uneven sections, not a flat promenade.",
+      "Wear proper shoes - there are stairs and uneven sections, not a flat promenade.",
       "Go early or late to dodge the midday sun and crowds; there's little shade.",
       "Bronte and Clovelly both have sheltered spots for a mid-walk swim.",
-      "Carry water and sunscreen — this is exposed Australian coastline."
+      "Carry water and sunscreen - this is exposed Australian coastline."
     ] },
     { "type": "h2", "text": "Seeing more of Sydney: bus and scenic flights" },
-    { "type": "p", "text": "If Bondi is one stop on a bigger Sydney trip, the hop-on hop-off bus is the easy option. Big Bus Tours runs a Sydney and Bondi service that loops the CBD landmarks — Opera House, Harbour Bridge, Darling Harbour — and out to Bondi, with the beach stop on Campbell Parade. You ride the open top, jump off wherever you fancy, and pick up a later bus with the same ticket. It's touristy, sure, but handy if you're short on days and don't want to work out trains and buses." },
-    { "type": "p", "text": "For a splurge, scenic helicopter and seaplane flights over the coast are the showstopper — Bondi, Watsons Bay and the harbour in one loop. They depart from Sydney operators rather than the beach itself, and routes and prices vary a lot, so book direct with a licensed operator and confirm what you'll fly over before you pay." },
+    { "type": "p", "text": "If Bondi is one stop on a bigger Sydney trip, the hop-on hop-off bus is the easy option. Big Bus Tours runs a Sydney and Bondi service that loops the CBD landmarks - Opera House, Harbour Bridge, Darling Harbour - and out to Bondi, with the beach stop on Campbell Parade. You ride the open top, jump off wherever you fancy, and pick up a later bus with the same ticket. It's touristy, sure, but handy if you're short on days and don't want to work out trains and buses." },
+    { "type": "p", "text": "For a splurge, scenic helicopter and seaplane flights over the coast are the showstopper - Bondi, Watsons Bay and the harbour in one loop. They depart from Sydney operators rather than the beach itself, and routes and prices vary a lot, so book direct with a licensed operator and confirm what you'll fly over before you pay." },
     { "type": "callout", "tone": "warning", "title": "Book with the real operator", "text": "Bondi tours are heavily resold by third-party sites. Where you can, book on the operator's own website for clearer cancellation terms and no reseller markup." },
     { "type": "faq", "items": [
-      { "q": "What's the best Bondi tour for first-time visitors?", "a": "For most people it's a beginner surf lesson on the beach plus the free Bondi to Coogee coastal walk. Together they give you the two things Bondi is famous for — the surf and the clifftop views — in a single day." },
-      { "q": "Do I need to book Bondi tours in advance?", "a": "Surf lessons and popular guided experiences fill up fast in the warm months (roughly October to March) and on weekends, so book a few days ahead. The coastal walk needs no booking at all — it's free and self-guided." },
+      { "q": "What's the best Bondi tour for first-time visitors?", "a": "For most people it's a beginner surf lesson on the beach plus the free Bondi to Coogee coastal walk. Together they give you the two things Bondi is famous for - the surf and the clifftop views - in a single day." },
+      { "q": "Do I need to book Bondi tours in advance?", "a": "Surf lessons and popular guided experiences fill up fast in the warm months (roughly October to March) and on weekends, so book a few days ahead. The coastal walk needs no booking at all - it's free and self-guided." },
       { "q": "Can I get to Bondi from the Sydney CBD easily?", "a": "Yes. The hop-on hop-off bus stops at Bondi on Campbell Parade, and public transport (train to Bondi Junction then a bus, or a direct bus) is cheap and frequent. You don't need a car." },
-      { "q": "Are Bondi surf lessons suitable for complete beginners?", "a": "Absolutely — beginner group lessons are designed for people who've never surfed. Boards and wetsuits are provided, and instructors start you in the whitewater. Check the surf school's site for minimum ages and current session times." },
+      { "q": "Are Bondi surf lessons suitable for complete beginners?", "a": "Absolutely - beginner group lessons are designed for people who've never surfed. Boards and wetsuits are provided, and instructors start you in the whitewater. Check the surf school's site for minimum ages and current session times." },
       { "q": "How long is the Bondi to Coogee walk and is it hard?", "a": "It's about six kilometres one way and takes two to three hours at a relaxed pace. It's not difficult but there are stairs and exposed clifftop sections, so wear decent shoes and bring water and sunscreen." }
     ] },
-    { "type": "p", "text": "Mix and match to suit your trip: surf in the morning, walk the coast in the afternoon, and save the bus or a scenic flight for a wider Sydney day. Whatever you pick, check current times and prices with the operator first — and I'll see you down at the beach." }
+    { "type": "p", "text": "Mix and match to suit your trip: surf in the morning, walk the coast in the afternoon, and save the bus or a scenic flight for a wider Sydney day. Whatever you pick, check current times and prices with the operator first - and I'll see you down at the beach." }
   ]
 }

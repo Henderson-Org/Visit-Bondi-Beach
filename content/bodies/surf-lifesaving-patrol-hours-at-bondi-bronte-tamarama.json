@@ -3,8 +3,8 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Waverley Council — Our lifeguards", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/our_lifeguards" },
-    { "label": "Waverley Council — Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
+    { "label": "Waverley Council - Our lifeguards", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/our_lifeguards" },
+    { "label": "Waverley Council - Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
     { "label": "Surf Life Saving NSW", "url": "https://www.surflifesaving.com.au/" },
     { "label": "Bondi Surf Bathers' Life Saving Club", "url": "https://bondisurfclub.com/" }
   ],

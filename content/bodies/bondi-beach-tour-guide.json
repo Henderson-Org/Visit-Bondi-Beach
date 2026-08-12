@@ -4,11 +4,11 @@
   "lastReviewed": "2026-08-08",
   "sources": [
     { "label": "Let's Go Surfing (Bondi surf school)", "url": "https://letsgosurfing.com.au/lessons/bondi/" },
-    { "label": "Waverley Council — Bondi to Bronte coastal walk", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
-    { "label": "Sydney.com — Bondi to Coogee Coastal Walk", "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk" }
+    { "label": "Waverley Council - Bondi to Bronte coastal walk", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
+    { "label": "Sydney.com - Bondi to Coogee Coastal Walk", "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you've only got a day or two at Bondi and you're wondering which tour is actually worth your time, here's my honest local take: the best way to see Bondi isn't from a tour bus at all — it's on a surfboard, on foot along the clifftops, or from the air. I've lived and worked around this beach long enough to have tried most of what's on offer, so here's how I'd spend the time and money." },
+    { "type": "p", "text": "If you've only got a day or two at Bondi and you're wondering which tour is actually worth your time, here's my honest local take: the best way to see Bondi isn't from a tour bus at all - it's on a surfboard, on foot along the clifftops, or from the air. I've lived and worked around this beach long enough to have tried most of what's on offer, so here's how I'd spend the time and money." },
     { "type": "quickFacts", "items": [
       { "label": "Best free tour", "value": "Bondi to Coogee coastal walk" },
       { "label": "Best first-timer buzz", "value": "A group surf lesson" },
@@ -17,28 +17,28 @@
     ] },
     { "type": "h2", "text": "Learn to surf where it all started" },
     { "type": "p", "text": "You can't come to the home of Australian beach culture and not at least try to stand up on a board. The name locals point newcomers toward is Let's Go Surfing, a long-established surf school operating from Ramsgate Avenue at the north end of the beach. Lessons run in small groups with soft, beginner-friendly boards, wetsuits and rashies included, and the instructors are trained lifesavers who know exactly which patch of the beach is safest for learners on the day." },
-    { "type": "p", "text": "Don't stress about being hopeless — most people catch a wave (on their belly at least) inside the first session. Book ahead in summer, and check current session times and prices directly on the Let's Go Surfing website, as these shift with the seasons." },
-    { "type": "localTip", "text": "Always swim and surf between the red-and-yellow flags, and if you're learning, the gentler northern end is usually kinder than the southern corner near the rocks below Icebergs — that's where the notorious rip runs. The lifeguards move the flags for good reason — follow them." },
+    { "type": "p", "text": "Don't stress about being hopeless - most people catch a wave (on their belly at least) inside the first session. Book ahead in summer, and check current session times and prices directly on the Let's Go Surfing website, as these shift with the seasons." },
+    { "type": "localTip", "text": "Always swim and surf between the red-and-yellow flags, and if you're learning, the gentler northern end is usually kinder than the southern corner near the rocks below Icebergs - that's where the notorious rip runs. The lifeguards move the flags for good reason - follow them." },
     { "type": "h2", "text": "The coastal walk: the tour I recommend to everyone" },
-    { "type": "p", "text": "If you do one thing here, make it the Bondi to Coogee coastal walk. It's around 6 km of clifftop path stitching together Bondi, Tamarama, Bronte, Clovelly and Coogee, and it is completely free. Waverley Council maintains the Bondi-to-Bronte section, and you genuinely don't need a guide — the path is well signed and hugs the coast the whole way. Allow two to three hours if you stop for photos, a swim or a coffee, which you absolutely should." },
+    { "type": "p", "text": "If you do one thing here, make it the Bondi to Coogee coastal walk. It's around 6 km of clifftop path stitching together Bondi, Tamarama, Bronte, Clovelly and Coogee, and it is completely free. Waverley Council maintains the Bondi-to-Bronte section, and you genuinely don't need a guide - the path is well signed and hugs the coast the whole way. Allow two to three hours if you stop for photos, a swim or a coffee, which you absolutely should." },
     { "type": "p", "text": "You can book a guided version if you'd rather have the stories told to you, but honestly, half the joy is setting your own pace." },
     { "type": "list", "items": [
       "Start early to beat the midday sun and the crowds.",
-      "Wear proper shoes — there are stairs and uneven rock in places.",
+      "Wear proper shoes - there are stairs and uneven rock in places.",
       "Detour down to Bronte or Clovelly for a swim (Clovelly's sheltered channel is my favourite).",
-      "If you visit in late October or early November, the walk hosts the Sculpture by the Sea outdoor exhibition — check its official site for exact dates each year."
+      "If you visit in late October or early November, the walk hosts the Sculpture by the Sea outdoor exhibition - check its official site for exact dates each year."
     ] },
     { "type": "h2", "text": "See Bondi from the air (and other splurges)" },
-    { "type": "p", "text": "For a genuine once-in-a-trip moment, a scenic helicopter or seaplane flight over Bondi and Sydney Harbour is hard to beat — that first glimpse of the beach as a perfect gold crescent against turquoise water is something photos never quite capture. These leave from Sydney's airfields rather than the beach itself, so factor in travel, and book with a licensed operator; compare current flight lengths and prices on the operator's own site before you commit." },
-    { "type": "callout", "tone": "note", "title": "A note on booking", "text": "Tour prices, departure points and operating hours change constantly. I've deliberately not quoted figures here — always confirm the latest details and availability on the official operator's website before you pay, especially in peak summer when popular experiences sell out days ahead." },
+    { "type": "p", "text": "For a genuine once-in-a-trip moment, a scenic helicopter or seaplane flight over Bondi and Sydney Harbour is hard to beat - that first glimpse of the beach as a perfect gold crescent against turquoise water is something photos never quite capture. These leave from Sydney's airfields rather than the beach itself, so factor in travel, and book with a licensed operator; compare current flight lengths and prices on the operator's own site before you commit." },
+    { "type": "callout", "tone": "note", "title": "A note on booking", "text": "Tour prices, departure points and operating hours change constantly. I've deliberately not quoted figures here - always confirm the latest details and availability on the official operator's website before you pay, especially in peak summer when popular experiences sell out days ahead." },
     { "type": "p", "text": "Rounding out the options: private day tours that pair Bondi with the Opera House, Harbour Bridge and The Rocks are great if your time is tight and you'd rather not navigate public transport, and small-group local tours will walk you through Bondi's cafes, street art and swimming spots with someone who actually lives here. Both are worth it for the context; neither is essential if you're happy to explore under your own steam." },
     { "type": "faq", "items": [
-      { "q": "Do I need to book Bondi tours in advance?", "a": "For surf lessons, helicopter flights and private day tours, yes — especially over summer and on weekends, when they book out. The coastal walk needs no booking at all; just turn up." },
+      { "q": "Do I need to book Bondi tours in advance?", "a": "For surf lessons, helicopter flights and private day tours, yes - especially over summer and on weekends, when they book out. The coastal walk needs no booking at all; just turn up." },
       { "q": "Is the Bondi to Coogee coastal walk free?", "a": "Yes, it's completely free and open all year. It's roughly 6 km one way, and most people take two to three hours with stops. You can walk it in either direction." },
-      { "q": "Can complete beginners take a surf lesson at Bondi?", "a": "Absolutely — that's most of who the schools teach. Lessons include a board and wetsuit, and instructors pick the safest, gentlest part of the beach for learners on the day." },
+      { "q": "Can complete beginners take a surf lesson at Bondi?", "a": "Absolutely - that's most of who the schools teach. Lessons include a board and wetsuit, and instructors pick the safest, gentlest part of the beach for learners on the day." },
       { "q": "What's the best free thing to do at Bondi?", "a": "The coastal walk, hands down. Add a swim between the flags and a wander past the Bondi sea-wall street art and you've had a brilliant day without spending a cent." },
-      { "q": "Where do the helicopter and seaplane tours leave from?", "a": "Not from the beach — scenic flights depart from Sydney's airfields and harbour bases, so allow travel time and confirm the exact departure point with the operator when you book." }
+      { "q": "Where do the helicopter and seaplane tours leave from?", "a": "Not from the beach - scenic flights depart from Sydney's airfields and harbour bases, so allow travel time and confirm the exact departure point with the operator when you book." }
     ] },
-    { "type": "p", "text": "My advice? Do the walk, have a surf, and if the budget stretches, get in the air. Skip anything that promises to 'do' Bondi in twenty minutes — the whole point of this place is to slow down and stay a while." }
+    { "type": "p", "text": "My advice? Do the walk, have a surf, and if the budget stretches, get in the air. Skip anything that promises to 'do' Bondi in twenty minutes - the whole point of this place is to slow down and stay a while." }
   ]
 }

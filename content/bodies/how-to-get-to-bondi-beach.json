@@ -3,12 +3,12 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Transport for NSW — trip planner & timetables", "url": "https://transportnsw.info/" },
-    { "label": "Transport for NSW — Opal & contactless payments", "url": "https://transportnsw.info/tickets-opal" },
-    { "label": "Waverley Council — parking in Bondi", "url": "https://www.waverley.nsw.gov.au/" }
+    { "label": "Transport for NSW - trip planner & timetables", "url": "https://transportnsw.info/" },
+    { "label": "Transport for NSW - Opal & contactless payments", "url": "https://transportnsw.info/tickets-opal" },
+    { "label": "Waverley Council - parking in Bondi", "url": "https://www.waverley.nsw.gov.au/" }
   ],
   "blocks": [
-    { "type": "p", "text": "The simplest way to get to Bondi Beach without a car is to catch a train to Bondi Junction and hop on a bus down the hill to Campbell Parade, right across from the sand. It's one of my favourite things about living here: for a beach this famous, Bondi is genuinely easy to reach from almost anywhere in Sydney — no hire car needed." },
+    { "type": "p", "text": "The simplest way to get to Bondi Beach without a car is to catch a train to Bondi Junction and hop on a bus down the hill to Campbell Parade, right across from the sand. It's one of my favourite things about living here: for a beach this famous, Bondi is genuinely easy to reach from almost anywhere in Sydney - no hire car needed." },
     { "type": "p", "text": "There's no train station at the beach itself (a common surprise for first-timers), so nearly every public-transport route funnels through Bondi Junction first. Here's exactly how I'd do it, whether you're coming from the CBD, the airport, or driving in for the day." },
     { "type": "quickFacts", "items": [
       { "label": "Nearest station", "value": "Bondi Junction (T4 line)" },
@@ -17,24 +17,24 @@
       { "label": "Pay with", "value": "Opal card or contactless (tap on)" }
     ] },
     { "type": "h2", "text": "By public transport (my usual pick)" },
-    { "type": "p", "text": "From the city, take a T4 Eastern Suburbs line train to Bondi Junction — the end of the line and a big interchange. Follow the signs down to the bus stands, where frequent buses run to Bondi Beach and back. The 333 is the one I aim for: it makes fewer stops and drops you on Campbell Parade. Bus numbers can change, so it's worth checking the Transport for NSW trip planner for the current services before you set off." },
+    { "type": "p", "text": "From the city, take a T4 Eastern Suburbs line train to Bondi Junction - the end of the line and a big interchange. Follow the signs down to the bus stands, where frequent buses run to Bondi Beach and back. The 333 is the one I aim for: it makes fewer stops and drops you on Campbell Parade. Bus numbers can change, so it's worth checking the Transport for NSW trip planner for the current services before you set off." },
     { "type": "p", "text": "The 333 also runs all the way from the CBD (Circular Quay through to Bondi Beach), so if you'd rather stay on one bus the whole way you can skip the train entirely. It's slower than train-then-bus, but you get the harbour-to-ocean view for the trouble." },
-    { "type": "localTip", "text": "On a hot summer weekend, the bus down from Bondi Junction can crawl and fill up fast. If it's a gorgeous day and you're able, the walk from Bondi Junction to the beach is roughly 25–30 minutes downhill — sometimes genuinely quicker than waiting for a packed bus, and a nice way to arrive." },
+    { "type": "localTip", "text": "On a hot summer weekend, the bus down from Bondi Junction can crawl and fill up fast. If it's a gorgeous day and you're able, the walk from Bondi Junction to the beach is roughly 25–30 minutes downhill - sometimes genuinely quicker than waiting for a packed bus, and a nice way to arrive." },
     { "type": "h3", "text": "Paying your fare" },
-    { "type": "p", "text": "You don't need a paper ticket, and drivers don't sell them. Just tap on with an Opal card or any contactless card or phone (Apple Pay, Google Pay and the like) as you board — on buses you tap on only. Opal cards are sold at convenience stores, supermarkets and stations if you'd prefer one, but for most visitors the card already in your pocket is the easiest option. Fares are distance-based with daily and weekly caps — check Transport for NSW for the current amounts before you travel." },
-    { "type": "callout", "tone": "note", "title": "Coming from Sydney Airport?", "text": "Take the train from the airport to Central, then change to a T4 train to Bondi Junction, and finish on a bus down to Bondi Beach. Note the airport stations charge an extra station-access fee on top of the normal fare — an airport thing, not a Bondi thing." },
+    { "type": "p", "text": "You don't need a paper ticket, and drivers don't sell them. Just tap on with an Opal card or any contactless card or phone (Apple Pay, Google Pay and the like) as you board - on buses you tap on only. Opal cards are sold at convenience stores, supermarkets and stations if you'd prefer one, but for most visitors the card already in your pocket is the easiest option. Fares are distance-based with daily and weekly caps - check Transport for NSW for the current amounts before you travel." },
+    { "type": "callout", "tone": "note", "title": "Coming from Sydney Airport?", "text": "Take the train from the airport to Central, then change to a T4 train to Bondi Junction, and finish on a bus down to Bondi Beach. Note the airport stations charge an extra station-access fee on top of the normal fare - an airport thing, not a Bondi thing." },
     { "type": "h2", "text": "By car (and the parking reality)" },
-    { "type": "p", "text": "Driving is easy enough — Bondi sits only a handful of kilometres east of the CBD — but I'll be honest about parking, because it's the catch. There's metered street parking around Campbell Parade and the surrounding streets plus a car park behind the beach, but on any warm weekend it fills early and you'll be circling. The metered spots are paid and time-limited, so read the signs carefully and check current rates and time limits with Waverley Council." },
-    { "type": "localTip", "text": "If you're set on driving in summer, get there early or you'll spend your morning hunting for a space. Better yet, park at Bondi Junction and bus or walk down — it saves the beachfront scramble entirely." },
+    { "type": "p", "text": "Driving is easy enough - Bondi sits only a handful of kilometres east of the CBD - but I'll be honest about parking, because it's the catch. There's metered street parking around Campbell Parade and the surrounding streets plus a car park behind the beach, but on any warm weekend it fills early and you'll be circling. The metered spots are paid and time-limited, so read the signs carefully and check current rates and time limits with Waverley Council." },
+    { "type": "localTip", "text": "If you're set on driving in summer, get there early or you'll spend your morning hunting for a space. Better yet, park at Bondi Junction and bus or walk down - it saves the beachfront scramble entirely." },
     { "type": "h2", "text": "By rideshare or taxi" },
-    { "type": "p", "text": "Uber, taxis and other rideshare services all serve Bondi and will take you door to sand. It's the most convenient option if you're carrying gear or travelling as a group, though fares climb with demand — expect to pay noticeably more on hot afternoons and event weekends." },
+    { "type": "p", "text": "Uber, taxis and other rideshare services all serve Bondi and will take you door to sand. It's the most convenient option if you're carrying gear or travelling as a group, though fares climb with demand - expect to pay noticeably more on hot afternoons and event weekends." },
     { "type": "faq", "items": [
       { "q": "Is there a train station at Bondi Beach?", "a": "No. The closest station is Bondi Junction on the T4 line, a few kilometres uphill from the sand. From there you take a bus down (the 333 is the main one) or walk in roughly 25–30 minutes." },
-      { "q": "Which bus goes to Bondi Beach?", "a": "The 333 runs to Bondi Beach from both Bondi Junction and the city (Circular Quay), and it's the fastest as it makes fewer stops. Other routes serve the beach too — check the Transport for NSW trip planner for the current list." },
-      { "q": "Do I need an Opal card, or can I tap my phone?", "a": "Either works. You can tap on with a physical Opal card or with a contactless bank card or phone wallet — same fares and the same daily caps. On buses you only tap on." },
+      { "q": "Which bus goes to Bondi Beach?", "a": "The 333 runs to Bondi Beach from both Bondi Junction and the city (Circular Quay), and it's the fastest as it makes fewer stops. Other routes serve the beach too - check the Transport for NSW trip planner for the current list." },
+      { "q": "Do I need an Opal card, or can I tap my phone?", "a": "Either works. You can tap on with a physical Opal card or with a contactless bank card or phone wallet - same fares and the same daily caps. On buses you only tap on." },
       { "q": "How long does it take to get to Bondi from the city?", "a": "Allow roughly 40–50 minutes by train-then-bus from the CBD, longer on busy summer weekends when traffic and crowds slow the buses down. Check Transport for NSW's trip planner for live times." },
-      { "q": "Is it worth driving to Bondi Beach?", "a": "Only if you arrive early. Parking is metered, time-limited and fills fast on warm days. Public transport is usually the less stressful choice — or park at Bondi Junction and finish the trip by bus." }
+      { "q": "Is it worth driving to Bondi Beach?", "a": "Only if you arrive early. Parking is metered, time-limited and fills fast on warm days. Public transport is usually the less stressful choice - or park at Bondi Junction and finish the trip by bus." }
     ] },
-    { "type": "p", "text": "However you come, my advice is the same: travel light, go early on a summer weekend, and let the bus or train do the work. Bondi's genuinely one of the easiest world-famous beaches to reach — the hardest part is leaving." }
+    { "type": "p", "text": "However you come, my advice is the same: travel light, go early on a summer weekend, and let the bus or train do the work. Bondi's genuinely one of the easiest world-famous beaches to reach - the hardest part is leaving." }
   ]
 }

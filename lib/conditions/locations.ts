@@ -3,7 +3,7 @@
  *
  * This is the ONE place to edit where each destination gets its weather and surf
  * data, and which official pages to link for authoritative forecasts/safety.
- * Add a destination by adding an entry here — no UI or provider changes needed.
+ * Add a destination by adding an entry here - no UI or provider changes needed.
  *
  * `beachFacingDeg` is the compass bearing the beach looks out to sea (used to work
  * out onshore/offshore wind). Bondi faces roughly east-southeast (~110°).
@@ -28,7 +28,7 @@ export const DEFAULT_DESTINATION = 'bondi';
 
 /**
  * Pages (by path) that render the Daily Weather & Surf Summary module in-body,
- * mapped to the destination whose conditions to show. Editable here — add a path
+ * mapped to the destination whose conditions to show. Editable here - add a path
  * to surface the module on another page. (The homepage renders it directly.)
  */
 export const CONDITIONS_PAGES: Record<string, string> = {

@@ -17,7 +17,7 @@ function hasUnexplainedGap(warnings: string[]) {
   return warnings.some((w) => w.startsWith('Unexplained'));
 }
 
-describe('Test A — 2h swim/beach/views must not stack three water/beach stops', () => {
+describe('Test A - 2h swim/beach/views must not stack three water/beach stops', () => {
   const it2 = generateItinerary(P({ interests: ['swimming', 'beach', 'photography'], duration: '2h', startTime: 'midday', pace: 'balanced' }));
   it('does not return three consecutive water/beach experiences', () => {
     expect(waterBeachCount(it2.items)).toBeLessThanOrEqual(2);
@@ -30,7 +30,7 @@ describe('Test A — 2h swim/beach/views must not stack three water/beach stops'
   });
 });
 
-describe('Test B — food + relaxed + full day: restaurant anchor, no unexplained gaps', () => {
+describe('Test B - food + relaxed + full day: restaurant anchor, no unexplained gaps', () => {
   const it2 = generateItinerary(P({ interests: ['food', 'relaxing', 'beach'], foodStyles: ['modern-au'], budget: 4, duration: 'full', pace: 'relaxed' }));
   it('has a restaurant anchor', () => {
     expect(it2.items.some((i) => i.kind === 'venue')).toBe(true);
@@ -46,7 +46,7 @@ describe('Test B — food + relaxed + full day: restaurant anchor, no unexplaine
   });
 });
 
-describe('Test C — surfing/active/iconic half day can include a Klook activity', () => {
+describe('Test C - surfing/active/iconic half day can include a Klook activity', () => {
   const it2 = generateItinerary(P({ interests: ['fitness', 'iconic', 'beach'], foodStyles: [], duration: 'half', startTime: 'morning', pace: 'balanced' }));
   it('includes a bookable Klook activity for an active/iconic visitor', () => {
     expect(it2.items.some((i) => i.isAffiliate)).toBe(true);
@@ -56,7 +56,7 @@ describe('Test C — surfing/active/iconic half day can include a Klook activity
   });
 });
 
-describe('Test D — markets + food + low walking: market yes, no forced coastal walk', () => {
+describe('Test D - markets + food + low walking: market yes, no forced coastal walk', () => {
   const it2 = generateItinerary(P({ interests: ['markets', 'food', 'coffee'], foodStyles: [], walking: 'low', duration: 'half', startTime: 'morning' }));
   it('includes the Saturday farmers market', () => {
     expect(it2.items.map((i) => i.refId)).toContain('bondi-farmers-market');
@@ -66,7 +66,7 @@ describe('Test D — markets + food + low walking: market yes, no forced coastal
   });
 });
 
-describe('Test E — coastal walk + swimming + high walking + full day', () => {
+describe('Test E - coastal walk + swimming + high walking + full day', () => {
   const it2 = generateItinerary(P({ interests: ['coastal-walks', 'swimming', 'photography'], foodStyles: [], walking: 'high', duration: 'full', pace: 'balanced' }));
   it('includes a coastal walk', () => {
     expect(it2.items.some((i) => i.family === 'coastal-walk')).toBe(true);
@@ -76,7 +76,7 @@ describe('Test E — coastal walk + swimming + high walking + full day', () => {
   });
 });
 
-describe('regression — anchors, ordering, markets date-awareness, swap', () => {
+describe('regression - anchors, ordering, markets date-awareness, swap', () => {
   it('food fine-dining picks Icebergs and keeps chronological order', () => {
     const it2 = generateItinerary(P({ interests: ['food', 'iconic'], foodStyles: ['fine-dining', 'seafood'], budget: 4 }));
     expect(it2.items.map((i) => i.refId)).toContain('icebergs-dining');

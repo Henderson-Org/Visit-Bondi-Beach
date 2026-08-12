@@ -4,7 +4,7 @@
   "lastReviewed": "2026-08-11",
   "sources": [
     {
-      "label": "Waverley Council — Bondi Beach",
+      "label": "Waverley Council - Bondi Beach",
       "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/bondi_beach"
     },
     {
@@ -12,11 +12,11 @@
       "url": "https://transportnsw.info"
     },
     {
-      "label": "Surf Life Saving NSW — Beach safety",
+      "label": "Surf Life Saving NSW - Beach safety",
       "url": "https://www.surflifesaving.com.au/beach-safety"
     },
     {
-      "label": "NSW Government — Bondi to Coogee Coastal Walk",
+      "label": "NSW Government - Bondi to Coogee Coastal Walk",
       "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/locations-and-attractions/bondi-to-coogee-coastal-walk"
     },
     {
@@ -66,7 +66,7 @@
       "type": "callout",
       "tone": "warning",
       "title": "Rips are the real risk, not sharks",
-      "text": "Rip currents are the main hazard at Bondi. If you're caught in one, don't fight it — stay calm, raise an arm for help, and float until it eases or a lifesaver reaches you."
+      "text": "Rip currents are the main hazard at Bondi. If you're caught in one, don't fight it - stay calm, raise an arm for help, and float until it eases or a lifesaver reaches you."
     },
     {
       "type": "h2",
@@ -86,7 +86,7 @@
     },
     {
       "type": "p",
-      "text": "Bondi rewards early risers. A sunrise swim, a quiet promenade and a café table are all easier before the mid-morning crowd rolls in — and if you must drive, early is your only realistic shot at a park. Summer weekends and public holidays are busiest; a weekday morning feels like a calmer beach."
+      "text": "Bondi rewards early risers. A sunrise swim, a quiet promenade and a café table are all easier before the mid-morning crowd rolls in - and if you must drive, early is your only realistic shot at a park. Summer weekends and public holidays are busiest; a weekday morning feels like a calmer beach."
     },
     {
       "type": "h2",
@@ -98,7 +98,7 @@
     },
     {
       "type": "h2",
-      "text": "5. Bondi Icebergs — check times first"
+      "text": "5. Bondi Icebergs - check times first"
     },
     {
       "type": "p",
@@ -110,14 +110,14 @@
     },
     {
       "type": "p",
-      "text": "Australian sun is no joke — the UV here burns faster than you'd believe, so bring a hat, a rashie and high-SPF sunscreen, and reapply. Natural shade on the sand is limited, so claim a spot early or bring your own. A few unwritten local rules go a long way, too:"
+      "text": "Australian sun is no joke - the UV here burns faster than you'd believe, so bring a hat, a rashie and high-SPF sunscreen, and reapply. Natural shade on the sand is limited, so claim a spot early or bring your own. A few unwritten local rules go a long way, too:"
     },
     {
       "type": "list",
       "items": [
-        "Give surfers and boardriders room — the flagged zone keeps everyone apart for a reason.",
+        "Give surfers and boardriders room - the flagged zone keeps everyone apart for a reason.",
         "Take your rubbish with you; the bins fill fast on busy days.",
-        "Dogs aren't permitted on Bondi Beach itself — check Waverley Council for dog-friendly areas nearby.",
+        "Dogs aren't permitted on Bondi Beach itself - check Waverley Council for dog-friendly areas nearby.",
         "Keep music low and share the promenade with runners and prams."
       ]
     },
@@ -127,7 +127,7 @@
     },
     {
       "type": "p",
-      "text": "Bondi is far more than sand. The Bondi Markets run on Sundays at the local public school, and each spring the clifftop fills with Sculpture by the Sea, the free exhibition along the Bondi to Tamarama stretch. Hall Street and the beachfront brim with cafés and gelato — if you'd rather plan your eating properly, our full guide to [where to eat and drink in Bondi](/bondi-eat-and-drink) has the current line-up. Market and festival dates shift year to year, so check the official event pages first."
+      "text": "Bondi is far more than sand. The Bondi Markets run on Sundays at the local public school, and each spring the clifftop fills with Sculpture by the Sea, the free exhibition along the Bondi to Tamarama stretch. Hall Street and the beachfront brim with cafés and gelato - if you'd rather plan your eating properly, our full guide to [where to eat and drink in Bondi](/bondi-eat-and-drink) has the current line-up. Market and festival dates shift year to year, so check the official event pages first."
     },
     {
       "type": "h2",
@@ -135,14 +135,14 @@
     },
     {
       "type": "p",
-      "text": "Even if the surf's flat or the weather turns, Bondi holds up: the coastal walk, the ocean pools, the cafés, and the boutiques around Gould and Hall Streets. Come for a swim, but leave time to linger — that's when the place gets under your skin."
+      "text": "Even if the surf's flat or the weather turns, Bondi holds up: the coastal walk, the ocean pools, the cafés, and the boutiques around Gould and Hall Streets. Come for a swim, but leave time to linger - that's when the place gets under your skin."
     },
     {
       "type": "faq",
       "items": [
         {
           "q": "What's the best way to get to Bondi Beach from the city?",
-          "a": "Take a train to Bondi Junction, then a bus to the beach — the 333 and 380 run this corridor. It's usually faster and less stressful than driving. Check the Transport for NSW trip planner for live times."
+          "a": "Take a train to Bondi Junction, then a bus to the beach - the 333 and 380 run this corridor. It's usually faster and less stressful than driving. Check the Transport for NSW trip planner for live times."
         },
         {
           "q": "Is it safe to swim at Bondi Beach?",
@@ -154,7 +154,7 @@
         },
         {
           "q": "Do I need to pay to enjoy Bondi Beach?",
-          "a": "No — the beach, the promenade and the Bondi to Coogee coastal walk are free. You only pay for extras like the Icebergs pool, parking, food and tours."
+          "a": "No - the beach, the promenade and the Bondi to Coogee coastal walk are free. You only pay for extras like the Icebergs pool, parking, food and tours."
         }
       ]
     }

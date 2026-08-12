@@ -2,7 +2,7 @@ import Link from 'next/link';
 import type { Page } from '@/lib/content';
 import { displayTitle } from '@/lib/content';
 
-/** "Read next" — semantically related guides (brief §43), not random recent posts. */
+/** "Read next" - semantically related guides (brief §43), not random recent posts. */
 export function RelatedGuides({ pages }: { pages: Page[] }) {
   if (!pages?.length) return null;
   return (

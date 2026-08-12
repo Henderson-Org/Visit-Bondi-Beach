@@ -3,11 +3,11 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Christmas Light Search — Sydney", "url": "https://www.christmaslightsearch.com.au/sydney" },
-    { "label": "Eastern Suburbs Mums — Local Guide to Christmas Lights", "url": "https://easternsuburbsmums.com.au/local-guide-to-christmas-lights-in-the-eastern-suburbs/" }
+    { "label": "Christmas Light Search - Sydney", "url": "https://www.christmaslightsearch.com.au/sydney" },
+    { "label": "Eastern Suburbs Mums - Local Guide to Christmas Lights", "url": "https://easternsuburbsmums.com.au/local-guide-to-christmas-lights-in-the-eastern-suburbs/" }
   ],
   "blocks": [
-    { "type": "p", "text": "Every December I do the same slow loop through the back streets around Bondi, and every year it still gets me. The best Christmas lights near Bondi aren't at some ticketed attraction — they're on ordinary suburban streets where neighbours quietly try to out-dazzle each other. If you only chase one, make it Waratah Street in North Bondi; after that, Avoca Street in Bondi and Frederick Street in Randwick are the ones I send everyone to." },
+    { "type": "p", "text": "Every December I do the same slow loop through the back streets around Bondi, and every year it still gets me. The best Christmas lights near Bondi aren't at some ticketed attraction - they're on ordinary suburban streets where neighbours quietly try to out-dazzle each other. If you only chase one, make it Waratah Street in North Bondi; after that, Avoca Street in Bondi and Frederick Street in Randwick are the ones I send everyone to." },
     { "type": "quickFacts", "items": [
       { "label": "When", "value": "Early-to-mid December through Christmas" },
       { "label": "Best time", "value": "After dark, roughly 8–10pm" },
@@ -16,28 +16,28 @@
     ] },
     { "type": "h2", "text": "The streets I always steer people to" },
     { "type": "h3", "text": "Waratah Street, North Bondi" },
-    { "type": "p", "text": "This is the one locals mean when they talk about \"the Bondi Christmas house.\" A single home on Waratah Street goes all-in every year — think icicle lights, candy canes and a lit-up path to the front door — and it's become a genuine neighbourhood event, often with a donation tin for charity beside it. It's a residential street, so park a block away and walk in. Exact switch-on times shift year to year, so I'd check a current listing on Christmas Light Search before you head over." },
+    { "type": "p", "text": "This is the one locals mean when they talk about \"the Bondi Christmas house.\" A single home on Waratah Street goes all-in every year - think icicle lights, candy canes and a lit-up path to the front door - and it's become a genuine neighbourhood event, often with a donation tin for charity beside it. It's a residential street, so park a block away and walk in. Exact switch-on times shift year to year, so I'd check a current listing on Christmas Light Search before you head over." },
     { "type": "h3", "text": "Avoca Street, Bondi" },
-    { "type": "p", "text": "Avoca Street is my pick when you want quantity as well as quality. Rather than one showstopper, dozens of houses along here join in, so the whole street glows and you can amble the length of it with an ice cream in hand. It has a lovely communal feel — the sort of place where kids in pyjamas wander from house to house and no one's in a hurry." },
+    { "type": "p", "text": "Avoca Street is my pick when you want quantity as well as quality. Rather than one showstopper, dozens of houses along here join in, so the whole street glows and you can amble the length of it with an ice cream in hand. It has a lovely communal feel - the sort of place where kids in pyjamas wander from house to house and no one's in a hurry." },
     { "type": "h3", "text": "Frederick Street, Randwick" },
-    { "type": "p", "text": "A short drive from Bondi, Frederick Street in Randwick has a long tradition of neighbours decorating together, and it's one of the prettiest strips in the Eastern Suburbs. It's narrow and gets busy, so my standing advice is to park over on Oberon Street and walk up — you'll enjoy it far more on foot than crawling for a kerbside spot." },
+    { "type": "p", "text": "A short drive from Bondi, Frederick Street in Randwick has a long tradition of neighbours decorating together, and it's one of the prettiest strips in the Eastern Suburbs. It's narrow and gets busy, so my standing advice is to park over on Oberon Street and walk up - you'll enjoy it far more on foot than crawling for a kerbside spot." },
     { "type": "h3", "text": "Worth the extra few minutes" },
     { "type": "p", "text": "If you're making a night of it, the streets around Clovelly and further west towards Mascot and Botany often turn on a few displays worth the detour. Which houses join in changes from year to year, though, so pull up the community map first and treat these as a bonus loop rather than a guarantee." },
     { "type": "localTip", "text": "Displays come and go as families move house, so before you plan a whole evening, pull up the free community map at christmaslightsearch.com.au and filter to Sydney's Eastern Suburbs. It's crowd-updated each December and it's saved me more than one wasted detour to a house that's gone dark." },
     { "type": "h2", "text": "How to do a Bondi lights crawl the local way" },
     { "type": "list", "items": [
-      "Go after dark but not too late — most homes are lit from around 8pm, and weeknights are far quieter than the weekend crush.",
+      "Go after dark but not too late - most homes are lit from around 8pm, and weeknights are far quieter than the weekend crush.",
       "Walk, don't drive, once you're on a lights street. Parking is tight and these are narrow residential roads.",
-      "Bring a few coins or tap your phone if a house is collecting for charity — many, like the Waratah Street display, raise money for good causes.",
+      "Bring a few coins or tap your phone if a house is collecting for charity - many, like the Waratah Street display, raise money for good causes.",
       "Rug up lightly for the sea breeze and let the kids set the pace; it's a stroll, not a schedule."
     ] },
     { "type": "callout", "tone": "warning", "title": "These are people's homes", "text": "Every one of these displays is someone's private house, put up out of goodwill. Admire from the footpath, keep noise down late in the evening, don't block driveways, and never step onto a lawn or garden for a photo. A bit of courtesy is what keeps these families switching the lights on each year." },
     { "type": "faq", "items": [
       { "q": "Where is the best Christmas lights display in Bondi?", "a": "The most famous is the home on Waratah Street in North Bondi, which goes all-out every December and often has a donation tin for charity. For a whole street rather than a single house, Avoca Street in Bondi has dozens of homes lit up." },
       { "q": "When do the Bondi Christmas lights start?", "a": "Most homes have their lights up from early-to-mid December through Christmas, switched on after dark (roughly 8pm onwards). Exact dates and times vary by household each year, so check a current listing on Christmas Light Search before you go." },
-      { "q": "Are the Christmas lights free to see?", "a": "Yes — these are private homes on public streets, so it costs nothing to stroll past. Some displays, including Waratah Street, have a donation tin for charity, so it's nice to bring a few coins." },
+      { "q": "Are the Christmas lights free to see?", "a": "Yes - these are private homes on public streets, so it costs nothing to stroll past. Some displays, including Waratah Street, have a donation tin for charity, so it's nice to bring a few coins." },
       { "q": "Where should I park to see the Eastern Suburbs lights?", "a": "Parking on the lights streets themselves is limited and they get busy, so park a block or two away and walk. For Frederick Street in Randwick, locals park on Oberon Street and walk up." },
-      { "q": "Is it suitable for kids?", "a": "Absolutely — it's one of the best free family nights out in December. Keep to the footpath, go a little earlier on a weeknight to avoid crowds, and let the little ones lead the way." }
+      { "q": "Is it suitable for kids?", "a": "Absolutely - it's one of the best free family nights out in December. Keep to the footpath, go a little earlier on a weeknight to avoid crowds, and let the little ones lead the way." }
     ] },
     { "type": "p", "text": "That's the beauty of Christmas in Bondi: the best show in town is put on for free by your neighbours. Grab the family, take it slowly, and enjoy the streets while they're glowing." }
   ]

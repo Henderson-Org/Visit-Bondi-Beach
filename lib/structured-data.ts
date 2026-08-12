@@ -1,6 +1,6 @@
 /**
  * Structured-data helpers. Only emit schema that the visible page genuinely
- * supports — never fabricate ratings, prices, hours or reviews.
+ * supports - never fabricate ratings, prices, hours or reviews.
  */
 import { SITE, AUTHOR, siteOrigin } from './site';
 import type { Page } from './content';
@@ -14,7 +14,7 @@ const LODGING_TYPE: Record<StayType, string> = {
 };
 
 /**
- * LodgingBusiness schema for a property page. Names durable facts only — name, type,
+ * LodgingBusiness schema for a property page. Names durable facts only - name, type,
  * locality, price range, official/booking URL. Deliberately NO aggregateRating or
  * review: we don't hold compliant guest-review data, and our editorial score is not a
  * schema.org Rating, so emitting one would be a fake rich-result signal.
@@ -47,7 +47,7 @@ export function organizationJsonLd() {
     url: siteOrigin(),
     description: SITE.description,
     sameAs: [SITE.instagram],
-    // Editorial focus, not a physical business — express the destination it covers.
+    // Editorial focus, not a physical business - express the destination it covers.
     knowsAbout: ['Bondi Beach', 'Sydney', 'Eastern Suburbs Sydney', 'travel', 'ocean swimming'],
     areaServed: { '@type': 'Place', name: 'Bondi Beach, Sydney, Australia' },
   };
@@ -59,7 +59,7 @@ export function organizationJsonLd() {
  * place this site is authoritative about, with coordinates, the containment hierarchy
  * (Bondi Beach → Sydney → NSW → Australia) and sameAs links to Wikipedia/Wikidata so the
  * entity resolves to the Knowledge Graph. Referenced by @id from article `about`.
- * Coordinates, postcode and sameAs IDs are real and verified — never fabricated.
+ * Coordinates, postcode and sameAs IDs are real and verified - never fabricated.
  */
 export const BONDI_PLACE_ID = '#bondi-beach';
 export function bondiPlaceJsonLd() {
@@ -69,7 +69,7 @@ export function bondiPlaceJsonLd() {
     '@id': `${siteOrigin()}/${BONDI_PLACE_ID}`,
     name: 'Bondi Beach',
     description:
-      'Bondi Beach is a one-kilometre stretch of sand in the Eastern Suburbs of Sydney, New South Wales — one of Australia’s most famous beaches, known for swimming, surfing, the Icebergs ocean pool and the Bondi to Coogee coastal walk.',
+      'Bondi Beach is a one-kilometre stretch of sand in the Eastern Suburbs of Sydney, New South Wales - one of Australia’s most famous beaches, known for swimming, surfing, the Icebergs ocean pool and the Bondi to Coogee coastal walk.',
     url: siteOrigin(),
     geo: { '@type': 'GeoCoordinates', latitude: -33.8908, longitude: 151.2743 },
     address: {
@@ -112,12 +112,12 @@ export function authorId() {
 
 /**
  * The author entity. Emitted once globally (like Organization) so every article's
- * `author: { @id }` reference resolves to one identity — the biggest missing E-E-A-T
+ * `author: { @id }` reference resolves to one identity - the biggest missing E-E-A-T
  * signal on the site. Honest by construction: typed per AUTHOR.type (Organization for
- * the "team of five" voice — a fabricated single Person would breach the integrity rules;
+ * the "team of five" voice - a fabricated single Person would breach the integrity rules;
  * set NEXT_PUBLIC_AUTHOR_TYPE=Person + a real name only once a real named author exists).
  * `knowsAbout` ties the author to its beats; for a real Person, `homeLocation` would bind
- * to the canonical Bondi place @id — a claim no all-of-Sydney competitor can make truthfully.
+ * to the canonical Bondi place @id - a claim no all-of-Sydney competitor can make truthfully.
  */
 export function authorJsonLd() {
   const isPerson = AUTHOR.type === 'Person';
@@ -147,10 +147,10 @@ export function articleJsonLd(page: Page, opts?: { url?: string; inLanguage?: st
     url,
     mainEntityOfPage: url,
     ...(opts?.inLanguage ? { inLanguage: opts.inLanguage } : {}),
-    isPartOf: { '@type': 'Blog', name: `${SITE.name} — Articles`, url: `${siteOrigin()}/articles` },
+    isPartOf: { '@type': 'Blog', name: `${SITE.name} - Articles`, url: `${siteOrigin()}/articles` },
   };
   // Reference the single author entity by @id (emitted globally in app/layout.tsx) rather
-  // than inlining an anonymous author on every article — one resolvable identity for E-E-A-T.
+  // than inlining an anonymous author on every article - one resolvable identity for E-E-A-T.
   data.author = { '@id': authorId() };
   data.publisher = { '@type': 'Organization', '@id': `${siteOrigin()}/#org`, name: SITE.name, url: siteOrigin() };
   // Bind every article to the canonical Bondi Beach place entity so search/answer engines
@@ -171,7 +171,7 @@ export function articleJsonLd(page: Page, opts?: { url?: string; inLanguage?: st
 /**
  * Bondi→Coogee coastal walk: TouristAttraction + HowTo, built from the SAME visible route
  * module rendered on the /bondi-coastal-walk hub (RouteMap) so the schema never asserts a
- * step the page doesn't show. The walk is a real, free, publicly-documented attraction —
+ * step the page doesn't show. The walk is a real, free, publicly-documented attraction -
  * nested in the canonical Bondi place entity. Only emit on the coastal-walk hub.
  */
 export function coastalWalkSchema(
@@ -187,7 +187,7 @@ export function coastalWalkSchema(
     name: 'Bondi to Coogee Coastal Walk',
     description:
       opts?.note ||
-      'A roughly 6 km clifftop walk south from Bondi Beach past Tamarama, Bronte, Clovelly and Gordons Bay to Coogee — about 1.5–2 hours at an easy pace.',
+      'A roughly 6 km clifftop walk south from Bondi Beach past Tamarama, Bronte, Clovelly and Gordons Bay to Coogee - about 1.5–2 hours at an easy pace.',
     url,
     isAccessibleForFree: true,
     touristType: ['Walkers', 'Families', 'Photographers'],
@@ -206,7 +206,7 @@ export function coastalWalkSchema(
       '@type': 'HowToStep',
       position: i + 1,
       name: s.label,
-      text: s.sub ? `${s.label} — ${s.sub}` : s.label,
+      text: s.sub ? `${s.label} - ${s.sub}` : s.label,
       ...(s.href ? { url: s.href.startsWith('http') ? s.href : `${origin}${s.href}` } : {}),
     })),
   };
@@ -214,10 +214,10 @@ export function coastalWalkSchema(
 }
 
 /**
- * Dataset schema for an original-research asset (the flagship link/AEO play — e.g. the Bondi
+ * Dataset schema for an original-research asset (the flagship link/AEO play - e.g. the Bondi
  * Coffee Price Index, the coastal-walk dataset). This is the type Google Dataset Search and
  * answer engines index and cite. Emit ONLY when a real, downloadable dataset genuinely backs
- * the page (a published CSV/JSON with a stated methodology) — never for a page of prose.
+ * the page (a published CSV/JSON with a stated methodology) - never for a page of prose.
  */
 export function datasetJsonLd(d: {
   name: string;
@@ -249,7 +249,7 @@ export function datasetJsonLd(d: {
   };
 }
 
-/** FAQPage schema — only emit when the same Q&As are visibly on the page (brief §24). */
+/** FAQPage schema - only emit when the same Q&As are visibly on the page (brief §24). */
 export function faqJsonLd(items: { q: string; a: string }[]) {
   return {
     '@context': 'https://schema.org',
@@ -264,7 +264,7 @@ export function faqJsonLd(items: { q: string; a: string }[]) {
 
 /**
  * ItemList schema for a curated list (e.g. accommodation options). Names + optional
- * descriptions only — deliberately NO ratings, prices or review counts, so we never
+ * descriptions only - deliberately NO ratings, prices or review counts, so we never
  * emit an unsupported AggregateRating/Offer (Stay brief: no fake ratings).
  */
 export function itemListJsonLd(
@@ -291,7 +291,7 @@ export function itemListJsonLd(
 }
 
 /**
- * Event schema for an event page. Only emitted with a concrete startDate — never for
+ * Event schema for an event page. Only emitted with a concrete startDate - never for
  * annual events whose exact date is unconfirmed (no fabricated dates/offers/organisers).
  * Times are combined with the Sydney offset by the caller-supplied startDate/times.
  */
@@ -311,7 +311,7 @@ export function eventJsonLd(opts: {
   officialUrl?: string;
   /** Representative image (event-specific if we hold one, else a Bondi location image). */
   image?: string;
-  /** Date the (free or ticketed) offer is valid from — a real verification date, not invented. */
+  /** Date the (free or ticketed) offer is valid from - a real verification date, not invented. */
   offerValidFrom?: string; // YYYY-MM-DD
 }) {
   const statusMap = {
@@ -344,7 +344,7 @@ export function eventJsonLd(opts: {
   if (opts.image) data.image = opts.image.startsWith('http') ? opts.image : `${siteOrigin()}${opts.image}`;
   if (opts.organiser) data.organizer = { '@type': 'Organization', name: opts.organiser, ...(opts.officialUrl ? { url: opts.officialUrl } : {}) };
   // Only advertise an Offer for genuinely free events (price 0). Paid/varies link out
-  // instead — we never publish a fabricated price. validFrom is a real verification date.
+  // instead - we never publish a fabricated price. validFrom is a real verification date.
   const validFrom = opts.offerValidFrom ? { validFrom: opts.offerValidFrom } : {};
   if (opts.priceType === 'free') {
     data.offers = { '@type': 'Offer', price: '0', priceCurrency: 'AUD', availability: 'https://schema.org/InStock', url: opts.ticketUrl || opts.officialUrl || opts.url, ...validFrom };
@@ -372,7 +372,7 @@ const FOOD_TYPE: Record<string, string> = {
 const PRICE_RANGE: Record<number, string> = { 1: '$', 2: '$$', 3: '$$$', 4: '$$$$' };
 
 /**
- * FoodEstablishment schema for a venue page. Durable facts only — name, venue type,
+ * FoodEstablishment schema for a venue page. Durable facts only - name, venue type,
  * cuisine, price range, locality, and the venue's own URL. Deliberately NO
  * aggregateRating/review/openingHours: we hold no compliant review data, and hours are
  * volatile (they live on the venue's own site), so emitting them would be a fake signal.
@@ -412,7 +412,7 @@ export function restaurantJsonLd(
     areaServed: 'Bondi Beach, Sydney',
     containedInPlace: { '@id': `${siteOrigin()}/${BONDI_PLACE_ID}` },
   };
-  const cuisines = r.cuisines.filter((c) => c && c !== '—');
+  const cuisines = r.cuisines.filter((c) => c && c !== '-');
   if (cuisines.length) data.servesCuisine = cuisines;
   if (r.summary) data.description = r.summary;
   if (r.menuUrl) data.hasMenu = r.menuUrl;
@@ -424,7 +424,7 @@ export function restaurantJsonLd(
 
 /**
  * Place / TouristAttraction / Beach / Park schema for a location page. Emits only what the
- * page genuinely supports and the record verifies — name, description, the page URL, the
+ * page genuinely supports and the record verifies - name, description, the page URL, the
  * Bondi Beach locality, and `geo` ONLY when verified coordinates exist (never fabricated).
  * Binds to the canonical Bondi Beach place entity via `containedInPlace`/`isPartOf` so the
  * location resolves as part of the known Bondi entity.

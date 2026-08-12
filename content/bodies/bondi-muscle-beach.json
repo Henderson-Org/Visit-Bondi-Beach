@@ -3,44 +3,44 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Waverley Council — Find a park", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/find_a_park" },
-    { "label": "Calisthenics-Parks — Street Workout Park at Bondi Beach", "url": "https://calisthenics-parks.com/spots/255-en-street-workout-park-at-bondi-beach-sydney" },
-    { "label": "PedestrianTV — Bondi fitness community and Council", "url": "https://www.pedestrian.tv/news/bondi-fitness-community-beef-with-council/" }
+    { "label": "Waverley Council - Find a park", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/find_a_park" },
+    { "label": "Calisthenics-Parks - Street Workout Park at Bondi Beach", "url": "https://calisthenics-parks.com/spots/255-en-street-workout-park-at-bondi-beach-sydney" },
+    { "label": "PedestrianTV - Bondi fitness community and Council", "url": "https://www.pedestrian.tv/news/bondi-fitness-community-beef-with-council/" }
   ],
   "blocks": [
-    { "type": "p", "text": "If you're looking for Bondi's answer to Venice Beach's Muscle Beach, you'll find it at the free outdoor gym in Bondi Park, up the northern end of the beach near the North Bondi Surf Life Saving Club. It's an open-air calisthenics station — pull-up bars, parallel bars and benches rather than a rack of dumbbells — and it's completely free, all day, every day. No membership, no booking, no lock on the gate. Just turn up." },
+    { "type": "p", "text": "If you're looking for Bondi's answer to Venice Beach's Muscle Beach, you'll find it at the free outdoor gym in Bondi Park, up the northern end of the beach near the North Bondi Surf Life Saving Club. It's an open-air calisthenics station - pull-up bars, parallel bars and benches rather than a rack of dumbbells - and it's completely free, all day, every day. No membership, no booking, no lock on the gate. Just turn up." },
     { "type": "p", "text": "I walk past it most mornings and I've never seen it empty. It's one of my favourite corners of Bondi precisely because it's so democratic: the same set of bars gets used by shirtless gym junkies chalking up for muscle-ups, personal trainers running early bootcamps, backpackers doing a few casual chin-ups, and the odd acro-yoga pair balancing in the grass beside it. Everyone shares. That's the whole spirit of the place." },
     { "type": "quickFacts", "items": [
       { "label": "Where", "value": "Bondi Park, northern end, near North Bondi SLSC" },
       { "label": "Access", "value": "Off Campbell Parade / the beach promenade" },
       { "label": "Cost", "value": "Free" },
       { "label": "Style", "value": "Outdoor calisthenics / bodyweight" },
-      { "label": "Hours", "value": "Open-air, unstaffed — use anytime" }
+      { "label": "Hours", "value": "Open-air, unstaffed - use anytime" }
     ] },
     { "type": "h2", "text": "What's actually there" },
-    { "type": "p", "text": "This is a bodyweight setup, so come expecting bars rather than barbells. The station is built around the classic calisthenics kit: pull-up and horizontal bars at different heights, parallel and dip bars, and benches for core work — the council has tweaked the exact line-up over the years. It's ideal for pull-ups, dips, muscle-ups, L-sits, leg raises and the endless variations calisthenics people love." },
-    { "type": "callout", "tone": "note", "title": "It's not a weights gym", "text": "You won't find free weights or dumbbells here — the loose weights that once floated around the site were removed on public-safety grounds. If lifting heavy is your thing, bring your own resistance bands, or head to one of Bondi's indoor gyms instead." },
-    { "type": "p", "text": "Because it sits right on the grass above the sand, the view is the real draw. There aren't many places where you can knock out a set of pull-ups with the whole sweep of Bondi Beach in front of you. It's the reason the spot has a genuine community around it — Bondi has produced some well-known street-workout and calisthenics athletes, and this is one of their home bars." },
+    { "type": "p", "text": "This is a bodyweight setup, so come expecting bars rather than barbells. The station is built around the classic calisthenics kit: pull-up and horizontal bars at different heights, parallel and dip bars, and benches for core work - the council has tweaked the exact line-up over the years. It's ideal for pull-ups, dips, muscle-ups, L-sits, leg raises and the endless variations calisthenics people love." },
+    { "type": "callout", "tone": "note", "title": "It's not a weights gym", "text": "You won't find free weights or dumbbells here - the loose weights that once floated around the site were removed on public-safety grounds. If lifting heavy is your thing, bring your own resistance bands, or head to one of Bondi's indoor gyms instead." },
+    { "type": "p", "text": "Because it sits right on the grass above the sand, the view is the real draw. There aren't many places where you can knock out a set of pull-ups with the whole sweep of Bondi Beach in front of you. It's the reason the spot has a genuine community around it - Bondi has produced some well-known street-workout and calisthenics athletes, and this is one of their home bars." },
     { "type": "h2", "text": "When to go, and the unwritten etiquette" },
-    { "type": "p", "text": "Timing changes the whole feel of the place. Early morning — say, sunrise to about 8am — is the calm, focused window: trainers with clients, regulars doing their routines, plenty of room. Mid-morning to afternoon on a sunny weekend it becomes a scene, busier and more social, and you may wait your turn on the popular bars." },
+    { "type": "p", "text": "Timing changes the whole feel of the place. Early morning - say, sunrise to about 8am - is the calm, focused window: trainers with clients, regulars doing their routines, plenty of room. Mid-morning to afternoon on a sunny weekend it becomes a scene, busier and more social, and you may wait your turn on the popular bars." },
     { "type": "localTip", "text": "If you want the bars mostly to yourself, come at first light. You'll get an empty station, the best light on the water for photos, and a swim straight afterwards while the beach is still quiet." },
     { "type": "list", "items": [
-      "Share the bars — don't camp on one station between sets; let people work in.",
+      "Share the bars - don't camp on one station between sets; let people work in.",
       "Wipe down benches after a sweaty session; bring a small towel.",
-      "Bring your own water — there's no kiosk at the equipment itself.",
+      "Bring your own water - there's no kiosk at the equipment itself.",
       "Chalk sparingly and clean up after yourself; it's a shared public space.",
-      "Mind your gear and go easy on volume — it's a family park, not a private studio."
+      "Mind your gear and go easy on volume - it's a family park, not a private studio."
     ] },
     { "type": "p", "text": "None of this is signposted, but it's how the regulars keep the place friendly. Follow it and you'll fit right in, even on your first visit." },
     { "type": "h2", "text": "Making a morning of it" },
-    { "type": "p", "text": "The gym's location is half the appeal. You're a two-minute walk from the sand, so I'd pair a session with a cool-down swim between the flags — the North Bondi end is patrolled by Surf Life Saving in season, so check the flags and the conditions before you dive in. Afterwards, the cafés along Campbell Parade and around North Bondi are right there for a coffee or a post-workout breakfast. It makes for a properly Bondi morning: train, swim, eat, repeat." },
+    { "type": "p", "text": "The gym's location is half the appeal. You're a two-minute walk from the sand, so I'd pair a session with a cool-down swim between the flags - the North Bondi end is patrolled by Surf Life Saving in season, so check the flags and the conditions before you dive in. Afterwards, the cafés along Campbell Parade and around North Bondi are right there for a coffee or a post-workout breakfast. It makes for a properly Bondi morning: train, swim, eat, repeat." },
     { "type": "faq", "items": [
       { "q": "Where exactly is Bondi's outdoor gym?", "a": "It's in Bondi Park at the northern end of the beach, near the North Bondi Surf Life Saving Club, just up from the sand off Campbell Parade and the promenade. Look for the cluster of steel pull-up and parallel bars on the grass." },
-      { "q": "Is the Bondi outdoor gym free?", "a": "Yes — it's a free, public outdoor gym. There's no membership, no booking and no staff. Just turn up and use it, and share the equipment with whoever else is there." },
-      { "q": "Does it have weights and machines?", "a": "No. It's a calisthenics (bodyweight) station — pull-up bars, parallel bars, dip bars and benches. There are no free weights or resistance machines, so it suits bodyweight training. Bring resistance bands if you want extra load." },
-      { "q": "What are the opening hours?", "a": "It's an unstaffed open-air park facility, so there are no set hours — you can use it any time. For the quietest, coolest session, early morning is best; sunny weekend afternoons are the busiest." },
-      { "q": "Can beginners use it?", "a": "Absolutely. The equipment suits all levels, from casual chin-ups and assisted dips to advanced muscle-ups. Don't be put off by the strong crowd — the bars are there for everyone, and the regulars are more welcoming than they look." }
+      { "q": "Is the Bondi outdoor gym free?", "a": "Yes - it's a free, public outdoor gym. There's no membership, no booking and no staff. Just turn up and use it, and share the equipment with whoever else is there." },
+      { "q": "Does it have weights and machines?", "a": "No. It's a calisthenics (bodyweight) station - pull-up bars, parallel bars, dip bars and benches. There are no free weights or resistance machines, so it suits bodyweight training. Bring resistance bands if you want extra load." },
+      { "q": "What are the opening hours?", "a": "It's an unstaffed open-air park facility, so there are no set hours - you can use it any time. For the quietest, coolest session, early morning is best; sunny weekend afternoons are the busiest." },
+      { "q": "Can beginners use it?", "a": "Absolutely. The equipment suits all levels, from casual chin-ups and assisted dips to advanced muscle-ups. Don't be put off by the strong crowd - the bars are there for everyone, and the regulars are more welcoming than they look." }
     ] },
-    { "type": "p", "text": "So don't be intimidated by the hulks mid-muscle-up. Bondi's Muscle Beach is one of the friendliest free workouts in Sydney, with a view you'd normally pay a fortune for. Grab a bar, wait your turn, and enjoy it — that's exactly what it's there for." }
+    { "type": "p", "text": "So don't be intimidated by the hulks mid-muscle-up. Bondi's Muscle Beach is one of the friendliest free workouts in Sydney, with a view you'd normally pay a fortune for. Grab a bar, wait your turn, and enjoy it - that's exactly what it's there for." }
   ]
 }

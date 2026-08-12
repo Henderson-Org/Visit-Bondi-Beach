@@ -3,35 +3,35 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-10",
   "sources": [
-    { "label": "Voltaren City2Surf — official event site", "url": "https://city2surf.com.au/" },
-    { "label": "City2Surf history — official", "url": "https://city2surf.com.au/history/c2s-history/" },
-    { "label": "Waverley Council — City2Surf 2026", "url": "https://www.waverley.nsw.gov.au/recreation/events/events/city2surf_2026" },
-    { "label": "Transport for NSW — City2Surf 2026 travel", "url": "https://transportnsw.info/events/2026/08/city2surf-2026" },
-    { "label": "Great Runs — Heartbreak Hill (City2Surf course)", "url": "https://greatruns.com/heartbreak-hill-city2surf-course/" }
+    { "label": "Voltaren City2Surf - official event site", "url": "https://city2surf.com.au/" },
+    { "label": "City2Surf history - official", "url": "https://city2surf.com.au/history/c2s-history/" },
+    { "label": "Waverley Council - City2Surf 2026", "url": "https://www.waverley.nsw.gov.au/recreation/events/events/city2surf_2026" },
+    { "label": "Transport for NSW - City2Surf 2026 travel", "url": "https://transportnsw.info/events/2026/08/city2surf-2026" },
+    { "label": "Great Runs - Heartbreak Hill (City2Surf course)", "url": "https://greatruns.com/heartbreak-hill-city2surf-course/" }
   ],
   "blocks": [
-    { "type": "p", "text": "You've just run 14 km from the city to the sea — now for the best part. This year's Voltaren City2Surf finishes, as it has for decades, on Queen Elizabeth Drive right here at Bondi, and the moment the runners start pouring in the whole beachfront turns into one long celebration. Here's where I'd point you the second you cross the line." },
+    { "type": "p", "text": "You've just run 14 km from the city to the sea - now for the best part. This year's Voltaren City2Surf finishes, as it has for decades, on Queen Elizabeth Drive right here at Bondi, and the moment the runners start pouring in the whole beachfront turns into one long celebration. Here's where I'd point you the second you cross the line." },
     { "type": "quickFacts", "items": [
       { "label": "Event", "value": "Voltaren City2Surf 2026" },
       { "label": "Date", "value": "Sunday 9 August 2026" },
       { "label": "Course", "value": "14 km, Sydney CBD (near Hyde Park) to Bondi Beach" },
       { "label": "Finish", "value": "Queen Elizabeth Drive, Bondi Beach" },
-      { "label": "Since", "value": "First run in 1971 — one of the world's largest fun runs" }
+      { "label": "Since", "value": "First run in 1971 - one of the world's largest fun runs" }
     ] },
-    { "type": "p", "text": "A word on the course, because it shapes when the party peaks: Heartbreak Hill — the notorious two-kilometre climb up New South Head Road from Rose Bay to Vaucluse — bites at around the halfway mark. Clear it and the closing kilometres are a downhill roll to the sand, which is exactly why finishers arrive thirsty and ready to celebrate. Waves set off through the morning, so the crowd floods into Bondi from mid-morning into the early afternoon." },
-    { "type": "callout", "tone": "note", "title": "Get in early", "text": "Every good spot fills the instant tens of thousands of people arrive, and by midday you're looking at long queues. Head straight from the finish to your venue, or — if you're just here for the party — aim to be in place by around 11am. Line-ups, DJ sets and drink deals change every year, so check each venue's own socials for what they've got on for 2026." },
+    { "type": "p", "text": "A word on the course, because it shapes when the party peaks: Heartbreak Hill - the notorious two-kilometre climb up New South Head Road from Rose Bay to Vaucluse - bites at around the halfway mark. Clear it and the closing kilometres are a downhill roll to the sand, which is exactly why finishers arrive thirsty and ready to celebrate. Waves set off through the morning, so the crowd floods into Bondi from mid-morning into the early afternoon." },
+    { "type": "callout", "tone": "note", "title": "Get in early", "text": "Every good spot fills the instant tens of thousands of people arrive, and by midday you're looking at long queues. Head straight from the finish to your venue, or - if you're just here for the party - aim to be in place by around 11am. Line-ups, DJ sets and drink deals change every year, so check each venue's own socials for what they've got on for 2026." },
     { "type": "h2", "text": "Where to celebrate the finish" },
-    { "type": "li", "text": "Hotel Ravesis — the long-standing runners' HQ, on the Hall Street corner at 118 Campbell Parade, a short dash from the finish. Those beachfront balcony tables go first, so don't stop running just yet." },
-    { "type": "li", "text": "Royal Bondi — a Merivale venue that reliably throws one of the bigger, DJ-driven parties. A safe bet for atmosphere on the day." },
-    { "type": "li", "text": "Beach Road Hotel — \"The Beachy\" (71 Beach Road) is a Bondi institution and often hosts the biggest afterparty of the lot. It's a few blocks back from the sand, so it rewards anyone with legs left — and the queue can be the biggest too." },
-    { "type": "li", "text": "North Bondi RSL & North Bondi Fish — up the quieter northern end of the beach. The RSL is about the best-value, most easygoing spot on Bondi for a post-race beer, with North Bondi Fish next door doing ocean-view dining." },
-    { "type": "li", "text": "Hotel Bondi & the Bondi Pavilion — if your legs have completely seized, Hotel Bondi sits close to the finish and is always lively; the Pavilion, right on the sand, often runs finish-line and community events worth a look." },
+    { "type": "li", "text": "Hotel Ravesis - the long-standing runners' HQ, on the Hall Street corner at 118 Campbell Parade, a short dash from the finish. Those beachfront balcony tables go first, so don't stop running just yet." },
+    { "type": "li", "text": "Royal Bondi - a Merivale venue that reliably throws one of the bigger, DJ-driven parties. A safe bet for atmosphere on the day." },
+    { "type": "li", "text": "Beach Road Hotel - \"The Beachy\" (71 Beach Road) is a Bondi institution and often hosts the biggest afterparty of the lot. It's a few blocks back from the sand, so it rewards anyone with legs left - and the queue can be the biggest too." },
+    { "type": "li", "text": "North Bondi RSL & North Bondi Fish - up the quieter northern end of the beach. The RSL is about the best-value, most easygoing spot on Bondi for a post-race beer, with North Bondi Fish next door doing ocean-view dining." },
+    { "type": "li", "text": "Hotel Bondi & the Bondi Pavilion - if your legs have completely seized, Hotel Bondi sits close to the finish and is always lively; the Pavilion, right on the sand, often runs finish-line and community events worth a look." },
     { "type": "localTip", "text": "Mobile coverage around the finish gets swamped the moment the crowd arrives, so agree a meeting point with your crew before the race rather than trusting a text to land. The northern end of the promenade, away from the finish chute, is the easiest place to actually find each other." },
     { "type": "faq", "items": [
-      { "q": "Where does City2Surf 2026 finish?", "a": "On Queen Elizabeth Drive at Bondi Beach, on Sunday 9 August 2026 — the end of the 14 km course from the Sydney CBD, which is why the whole beachfront becomes one big afterparty." },
+      { "q": "Where does City2Surf 2026 finish?", "a": "On Queen Elizabeth Drive at Bondi Beach, on Sunday 9 August 2026 - the end of the 14 km course from the Sydney CBD, which is why the whole beachfront becomes one big afterparty." },
       { "q": "Where's the best City2Surf afterparty in Bondi?", "a": "Hotel Ravesis and Royal Bondi near the finish, with the Beach Road Hotel a little further on for the biggest party. North Bondi RSL and North Bondi Fish are the pick for a more relaxed celebration with a view." },
       { "q": "What time should I get there?", "a": "As early as you can. Finishers pour in from mid-morning and venues fill by midday, so head straight from the finish or be in place by around 11am if you're only coming for the party." }
     ] },
-    { "type": "p", "text": "However you celebrate, pace the day like you paced the run — plenty of water between drinks — and soak up that unbeatable Bondi finish-line feeling. You earned it." }
+    { "type": "p", "text": "However you celebrate, pace the day like you paced the run - plenty of water between drinks - and soak up that unbeatable Bondi finish-line feeling. You earned it." }
   ]
 }

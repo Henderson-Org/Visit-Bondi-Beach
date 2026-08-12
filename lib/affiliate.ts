@@ -2,7 +2,7 @@
  * Centralised affiliate-link system (Travelpayouts).
  *
  * The whole site asks for affiliate URLs through `getAffiliateLink()` and never
- * constructs provider URLs itself — so adding a property to data/accommodation.ts
+ * constructs provider URLs itself - so adding a property to data/accommodation.ts
  * automatically produces correct, tracked CTAs with no per-page URL maintenance.
  *
  * How it works:
@@ -12,12 +12,12 @@
  *  - If a Travelpayouts marker + the provider's program id are configured, the
  *    target URL is wrapped in a Travelpayouts redirect (tp.media/r) that carries
  *    the affiliate marker + a sub_id for granular tracking. If not configured yet,
- *    we return the plain provider URL — the CTA still works for users, it just
+ *    we return the plain provider URL - the CTA still works for users, it just
  *    isn't monetised until the marker is set. So the site is fully functional now
  *    and starts earning the moment the env vars are added.
  *
- * Security: the Travelpayouts MARKER and program ids are NOT secrets — they appear
- * in every affiliate URL by design — so they live in NEXT_PUBLIC_ env vars. The
+ * Security: the Travelpayouts MARKER and program ids are NOT secrets - they appear
+ * in every affiliate URL by design - so they live in NEXT_PUBLIC_ env vars. The
  * private Travelpayouts API token is never used here and is never sent to the browser.
  */
 
@@ -31,7 +31,7 @@ export interface AffiliateRequest {
   property?: string;
   /**
    * Exact provider property URL for a precise deep link (priority 1). When set, this is
-   * used as the target instead of a search. Only pass verified URLs — never fabricated.
+   * used as the target instead of a search. Only pass verified URLs - never fabricated.
    */
   targetUrl?: string;
   /** Optional provider-specific id/url for a precise deep link (future use). */
@@ -55,7 +55,7 @@ interface ProviderConfig {
 const enc = encodeURIComponent;
 
 // The affiliate marker is public (it's in the URL), so we can default it to the account's
-// own marker (220796 — the same id used by the Travelpayouts web-integration embed in
+// own marker (220796 - the same id used by the Travelpayouts web-integration embed in
 // components/TravelpayoutsEmbed.tsx). An env var overrides it if it ever changes. With the
 // marker known, turning on a provider only requires adding that provider's program id below.
 const marker = (): string | undefined => process.env.NEXT_PUBLIC_TRAVELPAYOUTS_MARKER || '220796';
@@ -93,8 +93,8 @@ function sanitizeCampaign(c?: string): string {
 }
 
 /**
- * Functional search params we keep on an OTA URL. EVERYTHING else — any affiliate id
- * (aid/label/affiliate_id), any click tracker (cjevent/clkid), any utm_* — is stripped.
+ * Functional search params we keep on an OTA URL. EVERYTHING else - any affiliate id
+ * (aid/label/affiliate_id), any click tracker (cjevent/clkid), any utm_* - is stripped.
  * This guarantees the ONLY affiliate identity that can ever appear on a Booking/Hostelworld/
  * Tripadvisor link is our own Travelpayouts marker (added by wrap(), or by Travelpayouts Drive
  * client-side). A third party's id can never ride along, even if one were pasted into the data.
@@ -112,7 +112,7 @@ function sanitizeProviderUrl(rawUrl: string): string {
     }
     return u.toString();
   } catch {
-    return rawUrl; // non-URL (shouldn't happen) — leave untouched
+    return rawUrl; // non-URL (shouldn't happen) - leave untouched
   }
 }
 
@@ -141,7 +141,7 @@ export interface AffiliateLink {
  * The single entry point the UI uses. Never construct provider URLs elsewhere.
  *
  * Target priority:
- *  1. `req.targetUrl` — an exact, verified provider property URL (deep link).
+ *  1. `req.targetUrl` - an exact, verified provider property URL (deep link).
  *  2. property-name search on the provider (still property-specific).
  * The chosen target is then wrapped in a Travelpayouts affiliate redirect when
  * configured. We never fall back to a generic, unrelated provider page.
@@ -151,7 +151,7 @@ export function getAffiliateLink(req: AffiliateRequest): AffiliateLink {
   const rawTarget = req.targetUrl || provider.targetUrl(req);
   const campaign = req.campaign ?? req.placement;
 
-  // A direct Klook affiliate deep link is already monetised (OUR Klook link) — use it as-is,
+  // A direct Klook affiliate deep link is already monetised (OUR Klook link) - use it as-is,
   // never wrap or sanitise it, and label it as Klook so the CTA is accurate.
   if (/klook\.com/.test(rawTarget)) {
     return { provider: req.provider, label: 'Klook', cta: provider.cta, href: rawTarget, tracked: true };

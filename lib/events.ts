@@ -1,5 +1,5 @@
 /**
- * Event date logic — Sydney-aware, recurrence-capable. Pure functions so they're
+ * Event date logic - Sydney-aware, recurrence-capable. Pure functions so they're
  * testable (see lib/events.test.ts) and safe to run at build/ISR time.
  *
  * All calendar maths anchors dates at UTC-noon to avoid DST edge cases; we only ever
@@ -90,7 +90,7 @@ export interface ResolvedEvent {
   event: BondiEvent;
   /** Concrete next date when we can state it; null when only approximate (annual, date TBC). */
   nextDate: string | null;
-  /** Always present — used purely for chronological ordering. */
+  /** Always present - used purely for chronological ordering. */
   sortDate: string;
   /** True when nextDate is a verified concrete date (safe for Event schema). */
   exact: boolean;
@@ -105,7 +105,7 @@ export function isExpired(e: BondiEvent, today: string): boolean {
 
 export function resolveEvent(e: BondiEvent, today: string): ResolvedEvent {
   // 1. A concrete announced/confirmed edition (start–end) that hasn't finished yet always
-  //    wins — this is the exact date the organiser has published.
+  //    wins - this is the exact date the organiser has published.
   if (e.startDate && (e.endDate ?? e.startDate) >= today) {
     return { event: e, nextDate: e.startDate, sortDate: e.startDate, exact: true };
   }
@@ -133,7 +133,7 @@ export function occursOn(e: BondiEvent, ymd: string): boolean {
   }
   // A concrete announced/confirmed edition (its published start–end range).
   if (e.startDate) return ymd >= e.startDate && ymd <= (e.endDate ?? e.startDate);
-  // A fixed-day annual (e.g. NYE = 31 Dec) — the only annual we treat as an exact day.
+  // A fixed-day annual (e.g. NYE = 31 Dec) - the only annual we treat as an exact day.
   if (e.recurrence?.freq === 'annual' && e.recurrence.day != null && e.dateStatus === 'confirmed') {
     return ymd.slice(5) === `${pad(e.recurrence.month!)}-${pad(e.recurrence.day)}`;
   }
@@ -193,7 +193,7 @@ export function passesDateFilter(e: BondiEvent, filter: DateFilter, today: strin
 
 /* --------------------------------- facets ---------------------------------- */
 
-/** Serializable facet for the client browser — includes precomputed date membership. */
+/** Serializable facet for the client browser - includes precomputed date membership. */
 export interface EventFacet {
   slug: string;
   categories: EventCategory[];

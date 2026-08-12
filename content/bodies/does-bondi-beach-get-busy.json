@@ -3,43 +3,43 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Waverley Council — Bondi Beach", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
-    { "label": "Waverley Council — Events", "url": "https://www.waverley.nsw.gov.au/community/events" },
-    { "label": "Sculpture by the Sea — Bondi", "url": "https://sculpturebythesea.com/bondi/" },
+    { "label": "Waverley Council - Bondi Beach", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
+    { "label": "Waverley Council - Events", "url": "https://www.waverley.nsw.gov.au/community/events" },
+    { "label": "Sculpture by the Sea - Bondi", "url": "https://sculpturebythesea.com/bondi/" },
     { "label": "City2Surf", "url": "https://city2surf.com.au/" }
   ],
   "blocks": [
-    { "type": "p", "text": "Yes — Bondi absolutely gets busy. On a hot summer weekend it's one of the most crowded stretches of sand in Australia, but here's the good news: the crowds are wonderfully predictable. Once you know the rhythm of the beach, you can catch Bondi at its best and skip it at its most hectic, sometimes on the same day." },
-    { "type": "p", "text": "I live around here, so I've watched this beach fill and empty thousands of times. The pattern barely changes — it's driven by heat, weekends, holidays and a handful of big events. Learn those four levers and you'll always know what you're walking into." },
+    { "type": "p", "text": "Yes - Bondi absolutely gets busy. On a hot summer weekend it's one of the most crowded stretches of sand in Australia, but here's the good news: the crowds are wonderfully predictable. Once you know the rhythm of the beach, you can catch Bondi at its best and skip it at its most hectic, sometimes on the same day." },
+    { "type": "p", "text": "I live around here, so I've watched this beach fill and empty thousands of times. The pattern barely changes - it's driven by heat, weekends, holidays and a handful of big events. Learn those four levers and you'll always know what you're walking into." },
     { "type": "h2", "text": "When Bondi is at its busiest" },
-    { "type": "p", "text": "The peak is summer, December through February, climaxing over the Christmas–New Year stretch when half of Sydney seems to head for the coast. On the hottest days the crowds are enormous — widely cited estimates put a peak day in the tens of thousands, on a beach only about a kilometre long. Weekends and public holidays run a close second, and a run of 30-degree days will pack the sand whatever the calendar says." },
+    { "type": "p", "text": "The peak is summer, December through February, climaxing over the Christmas–New Year stretch when half of Sydney seems to head for the coast. On the hottest days the crowds are enormous - widely cited estimates put a peak day in the tens of thousands, on a beach only about a kilometre long. Weekends and public holidays run a close second, and a run of 30-degree days will pack the sand whatever the calendar says." },
     { "type": "quickFacts", "items": [
       { "label": "Peak season", "value": "December–February (esp. Christmas–New Year)" },
       { "label": "Busiest days", "value": "Hot weekends & public holidays" },
       { "label": "Quietest", "value": "Weekday mornings, cooler months" },
       { "label": "Beat the crowd", "value": "Arrive early or come late afternoon" }
     ] },
-    { "type": "p", "text": "Within a single day there's a rhythm too. Mornings are calm and the light is beautiful; the crowd builds through late morning, peaks in the early-to-mid afternoon, then eases as the sun drops. The southern end near the Icebergs pool is always most crammed — everyone wants that postcard view — while the northern end breathes a little easier." },
+    { "type": "p", "text": "Within a single day there's a rhythm too. Mornings are calm and the light is beautiful; the crowd builds through late morning, peaks in the early-to-mid afternoon, then eases as the sun drops. The southern end near the Icebergs pool is always most crammed - everyone wants that postcard view - while the northern end breathes a little easier." },
     { "type": "h2", "text": "The event days that change everything" },
-    { "type": "p", "text": "A few times a year, big events pull huge crowds and snarl the surrounding streets — the ones to watch:" },
+    { "type": "p", "text": "A few times a year, big events pull huge crowds and snarl the surrounding streets - the ones to watch:" },
     { "type": "list", "items": [
-      "City2Surf — Sydney's giant fun run finishes at Bondi in winter, filling the beach and roads for a morning.",
-      "Sculpture by the Sea — the free coastal art walk between Bondi and Tamarama runs in spring and draws large weekend numbers.",
-      "Festival of the Winds — Bondi's colourful kite festival brings families down to the sand, usually in September."
+      "City2Surf - Sydney's giant fun run finishes at Bondi in winter, filling the beach and roads for a morning.",
+      "Sculpture by the Sea - the free coastal art walk between Bondi and Tamarama runs in spring and draws large weekend numbers.",
+      "Festival of the Winds - Bondi's colourful kite festival brings families down to the sand, usually in September."
     ] },
-    { "type": "callout", "tone": "warning", "title": "Check dates before you come", "text": "Event dates shift year to year and can change at short notice. Don't rely on a date from an old blog post — confirm on the official event site or Waverley Council's events page before you plan around one." },
+    { "type": "callout", "tone": "warning", "title": "Check dates before you come", "text": "Event dates shift year to year and can change at short notice. Don't rely on a date from an old blog post - confirm on the official event site or Waverley Council's events page before you plan around one." },
     { "type": "h2", "text": "How I dodge the crowds" },
-    { "type": "p", "text": "You don't have to give up on Bondi just because it's popular — my whole strategy is timing. Get down early: before mid-morning on a summer day the sand is open, the water's glassy and parking is far less of a nightmare. If mornings aren't your thing, late afternoon is the other sweet spot — the day-trippers pack up, the light turns golden, and you can actually find room on the sand." },
-    { "type": "localTip", "text": "Parking is the real bottleneck on a busy day, not the beach itself. Skip the endless loop for a space and catch public transport — the train to Bondi Junction then a short bus saves you the worst of the gridlock. If you must drive, arrive early and be ready to walk a few streets back from the sand." },
-    { "type": "p", "text": "If you want Bondi genuinely quiet, come on a weekday outside summer. Autumn and spring mornings are a local secret — mild, uncrowded, and often with the best surf. And whatever the season, remember the crowd doesn't spread evenly: a five-minute walk north, or along the coastal path toward Tamarama, and the density drops away fast." },
-    { "type": "callout", "tone": "note", "title": "Busy also means safe", "text": "Big crowds mean more people in the water, which is why Bondi is patrolled by professional lifeguards and volunteer surf lifesavers. Always swim between the red-and-yellow flags — on the busiest days that matters more than ever, because rip currents don't care how many people are around." },
+    { "type": "p", "text": "You don't have to give up on Bondi just because it's popular - my whole strategy is timing. Get down early: before mid-morning on a summer day the sand is open, the water's glassy and parking is far less of a nightmare. If mornings aren't your thing, late afternoon is the other sweet spot - the day-trippers pack up, the light turns golden, and you can actually find room on the sand." },
+    { "type": "localTip", "text": "Parking is the real bottleneck on a busy day, not the beach itself. Skip the endless loop for a space and catch public transport - the train to Bondi Junction then a short bus saves you the worst of the gridlock. If you must drive, arrive early and be ready to walk a few streets back from the sand." },
+    { "type": "p", "text": "If you want Bondi genuinely quiet, come on a weekday outside summer. Autumn and spring mornings are a local secret - mild, uncrowded, and often with the best surf. And whatever the season, remember the crowd doesn't spread evenly: a five-minute walk north, or along the coastal path toward Tamarama, and the density drops away fast." },
+    { "type": "callout", "tone": "note", "title": "Busy also means safe", "text": "Big crowds mean more people in the water, which is why Bondi is patrolled by professional lifeguards and volunteer surf lifesavers. Always swim between the red-and-yellow flags - on the busiest days that matters more than ever, because rip currents don't care how many people are around." },
     { "type": "faq", "items": [
       { "q": "What is the busiest time to visit Bondi Beach?", "a": "The busiest time is a hot summer weekend or public holiday between December and February, peaking over the Christmas and New Year period. Within a day, the crowd is heaviest through the early-to-mid afternoon." },
       { "q": "When is Bondi Beach least crowded?", "a": "Weekday mornings and the cooler months (autumn and spring) are the quietest. An early start or a late-afternoon visit will always beat the worst of the crowds, even in summer." },
-      { "q": "How many people visit Bondi on a busy day?", "a": "Estimates commonly put a peak summer day in the tens of thousands — a huge number for a beach only about a kilometre long. Exact figures vary by source and conditions." },
-      { "q": "Is it hard to park at Bondi Beach?", "a": "On busy days, yes — parking is the real challenge, not space on the sand. Public transport (train to Bondi Junction, then a bus) is usually the least stressful way in. If you drive, come early." },
+      { "q": "How many people visit Bondi on a busy day?", "a": "Estimates commonly put a peak summer day in the tens of thousands - a huge number for a beach only about a kilometre long. Exact figures vary by source and conditions." },
+      { "q": "Is it hard to park at Bondi Beach?", "a": "On busy days, yes - parking is the real challenge, not space on the sand. Public transport (train to Bondi Junction, then a bus) is usually the least stressful way in. If you drive, come early." },
       { "q": "Which end of Bondi Beach is less crowded?", "a": "The southern end near the Icebergs pool is always the most packed. Head toward the northern end, or onto the coastal walk, for more room." }
     ] },
-    { "type": "p", "text": "So does Bondi get busy? Undeniably. But busy is part of what makes it Bondi — the buzz, the sense that the whole city has come down for a swim. Time your visit well and you get both worlds: that famous atmosphere when you want it, and a quiet golden morning when you don't." }
+    { "type": "p", "text": "So does Bondi get busy? Undeniably. But busy is part of what makes it Bondi - the buzz, the sense that the whole city has come down for a swim. Time your visit well and you get both worlds: that famous atmosphere when you want it, and a quiet golden morning when you don't." }
   ]
 }

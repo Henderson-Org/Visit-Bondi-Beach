@@ -1,7 +1,7 @@
 import type { ScoreLine } from '@/data/accommodation-guides';
 
 /**
- * The Visit Bondi Beach rating — a transparent, multi-criteria score rather than a
+ * The Visit Bondi Beach rating - a transparent, multi-criteria score rather than a
  * single meaningless star. Every criterion shows its own score and a one-line reason,
  * and the methodology is stated plainly: we score what we can verify (location,
  * proximity, transport, what's nearby), and we don't score room quality or service
@@ -46,7 +46,7 @@ export function VbbRating({ scores, overall }: { scores: ScoreLine[]; overall: n
 
       <p className="mt-5 border-t border-sand-200 pt-3 text-xs text-ink-500">
         How we score: these are our own editorial ratings, weighted to what we can verify
-        from the ground — location, proximity to the beach, transport and what&rsquo;s nearby.
+        from the ground - location, proximity to the beach, transport and what&rsquo;s nearby.
         We don&rsquo;t publish room-quality, cleanliness or service scores of our own; for
         current prices and guest reviews, use the booking sites. We only rate a property when
         we have enough grounded information to justify it.

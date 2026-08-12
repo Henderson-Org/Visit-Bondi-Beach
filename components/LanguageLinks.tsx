@@ -3,7 +3,7 @@ import { availableLocales } from '@/lib/translations';
 import { LOCALE_LABEL, UI_STRINGS, localizedPath, type Locale } from '@/lib/i18n';
 
 /**
- * A DISCREET, contextual language control — the only visible surfacing of translations.
+ * A DISCREET, contextual language control - the only visible surfacing of translations.
  * Rendered small and muted at the very end of an article, and only when a translation exists.
  * No global selector, no banner, no auto-redirect: discovery is meant to happen via Google
  * (hreflang) and direct links, with this as a quiet convenience. Keeps the English experience

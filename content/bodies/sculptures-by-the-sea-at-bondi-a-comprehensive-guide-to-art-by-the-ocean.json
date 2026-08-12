@@ -3,10 +3,10 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-10",
   "sources": [
-    { "label": "Sculpture by the Sea — official site", "url": "https://sculpturebythesea.com/bondi/" },
-    { "label": "Sculpture by the Sea — history", "url": "https://sculpturebythesea.com/about/history/" },
-    { "label": "Sculpture by the Sea — getting there", "url": "https://sculpturebythesea.com/bondi/planning-your-trip/getting-there/" },
-    { "label": "University of Sydney — Sculpture by the Sea founder reflects", "url": "https://www.sydney.edu.au/news-opinion/news/2023/10/23/sculpture-by-the-sea-founder-reflects-on-25-years.html" }
+    { "label": "Sculpture by the Sea - official site", "url": "https://sculpturebythesea.com/bondi/" },
+    { "label": "Sculpture by the Sea - history", "url": "https://sculpturebythesea.com/about/history/" },
+    { "label": "Sculpture by the Sea - getting there", "url": "https://sculpturebythesea.com/bondi/planning-your-trip/getting-there/" },
+    { "label": "University of Sydney - Sculpture by the Sea founder reflects", "url": "https://www.sydney.edu.au/news-opinion/news/2023/10/23/sculpture-by-the-sea-founder-reflects-on-25-years.html" }
   ],
   "blocks": [
     { "type": "p", "text": "For a few weeks every spring, my favourite stretch of coastline becomes the world's most beautiful gallery. Sculpture by the Sea lines the Bondi to Tamarama clifftop with more than 100 works, set against the ocean, free to walk, and utterly unlike a gallery with a roof. I've done it most years and it still stops me in my tracks." },
@@ -14,28 +14,28 @@
       { "label": "What", "value": "Free outdoor sculpture exhibition, 100+ works" },
       { "label": "Where", "value": "Bondi to Tamarama coastal walk" },
       { "label": "Distance", "value": "About 2 km along the Bondi to Tamarama coastal walk (check the official site)" },
-      { "label": "When", "value": "Spring, roughly late October (dates vary — check the official site)" },
+      { "label": "When", "value": "Spring, roughly late October (dates vary - check the official site)" },
       { "label": "Cost", "value": "Free; donations welcomed" }
     ] },
-    { "type": "p", "text": "It started in 1997, when founder David Handley — a former commercial lawyer inspired by a sculpture park he'd seen in Bohemia — staged a single-day show of 64 works along this same path. It drew around 25,000 people on a shoestring budget, and the idea has never changed: put ambitious work by Australian and international artists against the sea and let the ocean do half the job. It's now billed as the world's largest free-to-the-public sculpture exhibition." },
+    { "type": "p", "text": "It started in 1997, when founder David Handley - a former commercial lawyer inspired by a sculpture park he'd seen in Bohemia - staged a single-day show of 64 works along this same path. It drew around 25,000 people on a shoestring budget, and the idea has never changed: put ambitious work by Australian and international artists against the sea and let the ocean do half the job. It's now billed as the world's largest free-to-the-public sculpture exhibition." },
     { "type": "h2", "text": "The walk itself" },
-    { "type": "p", "text": "It's roughly 2 kilometres one way, from the Icebergs pool at the southern end of Bondi around to Tamarama. As a plain stroll that's about 25 minutes, but you won't stroll — you'll stop constantly, so give yourself two to three hours. Works are scattered across the sand, perched on the cliffs, and clustered through Marks Park on Mackenzies Point, the grassy headland roughly halfway along with uninterrupted views north and south. Part of the joy is watching the light and tide reshape each piece as you go." },
+    { "type": "p", "text": "It's roughly 2 kilometres one way, from the Icebergs pool at the southern end of Bondi around to Tamarama. As a plain stroll that's about 25 minutes, but you won't stroll - you'll stop constantly, so give yourself two to three hours. Works are scattered across the sand, perched on the cliffs, and clustered through Marks Park on Mackenzies Point, the grassy headland roughly halfway along with uninterrupted views north and south. Part of the joy is watching the light and tide reshape each piece as you go." },
     { "type": "p", "text": "The path is sealed but narrow in places, with steps and a few steep pinches, so wear proper shoes rather than thongs. A few practical notes before you set off:" },
     { "type": "list", "items": [
-      "It's an active clifftop — stay behind the barriers and keep kids and dogs close near the edges.",
+      "It's an active clifftop - stay behind the barriers and keep kids and dogs close near the edges.",
       "Toilets are at Bondi and Tamarama beaches, with little in between, so go before you start.",
       "The Bondi end has plenty of food and coffee; Tamarama has far fewer options, so carry water and a snack.",
       "Most sculptures are for sale, and many are works you genuinely can't see anywhere else."
     ] },
     { "type": "h2", "text": "Getting there" },
-    { "type": "p", "text": "Public transport is the smart call — parking around Tamarama fills fast during the festival. Take a train to Bondi Junction, then a bus down to the beach, and pick up the path at the southern headland by the Icebergs. To walk against the main flow of the crowd, start instead at the quieter Tamarama end. Confirm current bus routes and any road closures on Transport for NSW or the event's own getting-there page." },
+    { "type": "p", "text": "Public transport is the smart call - parking around Tamarama fills fast during the festival. Take a train to Bondi Junction, then a bus down to the beach, and pick up the path at the southern headland by the Icebergs. To walk against the main flow of the crowd, start instead at the quieter Tamarama end. Confirm current bus routes and any road closures on Transport for NSW or the event's own getting-there page." },
     { "type": "localTip", "text": "Come at sunrise on a weekday. The path is emptiest in the first hour after dawn, the light is soft and gold, and you'll have the headline sculptures almost to yourself before the tour groups arrive. Weekday mornings beat weekends by a mile." },
     { "type": "callout", "tone": "warning", "title": "Confirm this year's dates before you plan", "text": "The exhibition runs each spring, usually across late October into early November, but the exact dates, opening hours and any ticketed extras (early-access or twilight tours) change year to year and can shift with the weather. Check the official Sculpture by the Sea site before you set a day." },
     { "type": "faq", "items": [
-      { "q": "Is Sculpture by the Sea free?", "a": "Yes — walking the exhibition is free and open to the public. Donations are warmly welcomed, and there are sometimes optional paid extras such as guided or early-access tours you can book through the official site." },
-      { "q": "How long does it take?", "a": "The route is about 2 kilometres between Bondi and Tamarama — around 25 minutes as a plain walk, but with 100-plus sculptures to stop for, most people spend two to three hours end to end." },
-      { "q": "Is the walk suitable for kids and prams?", "a": "Families do it every year and children love the scale of the works, but steps and steep, narrow sections make prams hard going — a carrier is easier for little ones. Keep everyone close to the barriers near the cliff edges." }
+      { "q": "Is Sculpture by the Sea free?", "a": "Yes - walking the exhibition is free and open to the public. Donations are warmly welcomed, and there are sometimes optional paid extras such as guided or early-access tours you can book through the official site." },
+      { "q": "How long does it take?", "a": "The route is about 2 kilometres between Bondi and Tamarama - around 25 minutes as a plain walk, but with 100-plus sculptures to stop for, most people spend two to three hours end to end." },
+      { "q": "Is the walk suitable for kids and prams?", "a": "Families do it every year and children love the scale of the works, but steps and steep, narrow sections make prams hard going - a carrier is easier for little ones. Keep everyone close to the barriers near the cliff edges." }
     ] },
-    { "type": "quote", "text": "The best sculpture here is never just the object — it's the object, the cliff and the sea, all at once." }
+    { "type": "quote", "text": "The best sculpture here is never just the object - it's the object, the cliff and the sea, all at once." }
   ]
 }

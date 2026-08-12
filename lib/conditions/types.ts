@@ -1,7 +1,7 @@
 /**
  * Normalized "today's conditions" model.
  *
- * The UI and summary engine depend ONLY on these internal types — never on a
+ * The UI and summary engine depend ONLY on these internal types - never on a
  * specific provider's response shape. Providers implement the interfaces at the
  * bottom and normalize their responses into these schemas, so a weather or surf
  * source can be swapped or supplemented later without touching the UI.
@@ -31,7 +31,7 @@ export interface ProviderMeta {
   url: string;
   /** When WE fetched it (ISO). */
   fetchedAt: string;
-  /** The provider's own data timestamp — model/observation time (ISO), if known. */
+  /** The provider's own data timestamp - model/observation time (ISO), if known. */
   providerUpdatedAt: string | null;
   /** The time/day this data is valid for (ISO), if known. */
   forecastValidTime: string | null;
@@ -78,7 +78,7 @@ export interface SurfConditions {
   swellPeriodS: number | null;
   windWaveHeightM: number | null;
   waterTempC: number | null;
-  /** Null when no authoritative tide source is configured — never fabricated. */
+  /** Null when no authoritative tide source is configured - never fabricated. */
   tide: TideInfo | null;
 }
 
@@ -129,7 +129,7 @@ export interface Conditions {
 }
 
 /* ------------------------------------------------------------------ *
- * Provider interfaces — implement these to add or replace a source.  *
+ * Provider interfaces - implement these to add or replace a source.  *
  * ------------------------------------------------------------------ */
 
 export interface WeatherProvider {
@@ -143,7 +143,7 @@ export interface SurfProvider {
   getSurfConditions(loc: GeoPoint): Promise<{ surf: SurfConditions; meta: ProviderMeta }>;
 }
 
-/** Optional tide source (activated when configured — see service.ts). */
+/** Optional tide source (activated when configured - see service.ts). */
 export interface TideProvider {
   readonly name: string;
   getTide(loc: GeoPoint): Promise<{ tide: TideInfo; meta: ProviderMeta }>;

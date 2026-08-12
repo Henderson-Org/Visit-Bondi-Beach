@@ -1,11 +1,11 @@
 /**
- * Canonical Bondi restaurant directory — the structured source of truth behind the
+ * Canonical Bondi restaurant directory - the structured source of truth behind the
  * searchable/filterable Eat & Drink product and every "best of" collection.
  *
  * INTEGRITY (non-negotiable, same bar as the rest of the site):
  *  - Every venue is real and verified against ≥1 source; `status` reflects current trading.
  *    Closed/relocated venues are marked, never shown as active.
- *  - Structured fields are durable facts (type, precinct, cuisine, meals) — NOT volatile
+ *  - Structured fields are durable facts (type, precinct, cuisine, meals) - NOT volatile
  *    ones. We deliberately do NOT store opening hours or phone numbers as fixed facts; the
  *    live source (official site / Google) owns those. `priceBand` is an editorial estimate.
  *  - Editorial fields are first-person Visit Bondi Beach JUDGEMENT, never fabricated
@@ -65,7 +65,7 @@ export interface Restaurant {
   suitability: Suitability[];
   dietary: Dietary[];      // verified only
   attributes: Attribute[];
-  // Practical links (real URLs only; NO fixed hours/phone here — those are volatile).
+  // Practical links (real URLs only; NO fixed hours/phone here - those are volatile).
   website?: string;
   bookingUrl?: string;
   instagram?: string;

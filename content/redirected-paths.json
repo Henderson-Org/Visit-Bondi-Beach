@@ -1,5 +1,5 @@
 {
-  "_comment": "Single source of truth for paths that are 301-redirected or owned by a dedicated route, consumed by lib/redirects.ts (runtime) and scripts/build-translations.mjs (build guard). The actual 301 source→destination mappings — and the rationale for each — live in next.config.mjs; keep this list in sync with those. A translation whose English base appears here is refused at build time and never generated, served, sitemapped, or advertised in an hreflang cluster, so translations automatically follow their English page's redirect/removal status (no hreflang pointing at a 301/404).",
+  "_comment": "Single source of truth for paths that are 301-redirected or owned by a dedicated route, consumed by lib/redirects.ts (runtime) and scripts/build-translations.mjs (build guard). The actual 301 source→destination mappings - and the rationale for each - live in next.config.mjs; keep this list in sync with those. A translation whose English base appears here is refused at build time and never generated, served, sitemapped, or advertised in an hreflang cluster, so translations automatically follow their English page's redirect/removal status (no hreflang pointing at a 301/404).",
   "redirected": [
     "/accommodation",
     "/visit-bondi-beach-guide",

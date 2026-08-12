@@ -1,11 +1,11 @@
 /**
  * Central accommodation data for the Stay section.
  *
- * EDITORIAL INTEGRITY (non-negotiable — see the Stay brief):
+ * EDITORIAL INTEGRITY (non-negotiable - see the Stay brief):
  *  - No invented facts. Every property here is a real, long-established Bondi-area
  *    business. Fields hold durable facts only (type, area, rough walk time, price
  *    positioning, well-known amenities). We do NOT store nightly prices, star ratings
- *    or guest-review scores — those are volatile and belong on the booking sites.
+ *    or guest-review scores - those are volatile and belong on the booking sites.
  *  - No fabricated ratings/reviews. There is no guest-rating field. The optional
  *    Visit Bondi Beach score lives in data/accommodation-guides.ts and is an editorial
  *    assessment grounded in verifiable location facts, with its method shown.
@@ -18,7 +18,7 @@
  * conservative values and today's date as `lastReviewed`. Cards, filters, comparison
  * tables, category pages and schema pick it up automatically. To publish a full
  * editorial review, add a matching entry to data/accommodation-guides.ts and set
- * `hasGuide: true` — the card then links to the internal guide first.
+ * `hasGuide: true` - the card then links to the internal guide first.
  */
 
 export type Provider = 'booking' | 'hostelworld' | 'tripadvisor';
@@ -27,7 +27,7 @@ export type StayType = 'hotel' | 'apartments' | 'hostel' | 'pub-hotel';
 
 export type PriceBand = '$' | '$$' | '$$$' | '$$$$';
 
-/** "Best for" tags — the visitor-facing taxonomy the filters use. */
+/** "Best for" tags - the visitor-facing taxonomy the filters use. */
 export type Tag =
   | 'families'
   | 'couples'
@@ -151,7 +151,7 @@ export const AREAS: Area[] = [
     slug: 'bondi-beach',
     name: 'Bondi Beach',
     blurb:
-      'The beachfront strip along Campbell Parade and the streets just behind it. You wake up near the sand, the cafés and the start of the coastal walk — the classic Bondi base, and the busiest.',
+      'The beachfront strip along Campbell Parade and the streets just behind it. You wake up near the sand, the cafés and the start of the coastal walk - the classic Bondi base, and the busiest.',
     toBeach: 'On or minutes from the sand',
     bestFor: ['first-time', 'couples', 'beach-access'],
   },
@@ -175,7 +175,7 @@ export const AREAS: Area[] = [
     slug: 'tamarama',
     name: 'Tamarama',
     blurb:
-      'The small, leafy cove one beach south of Bondi on the coastal walk — “Glamarama” to locals. Residential and quiet, a few minutes from Bondi along the clifftop path.',
+      'The small, leafy cove one beach south of Bondi on the coastal walk - “Glamarama” to locals. Residential and quiet, a few minutes from Bondi along the clifftop path.',
     toBeach: 'One beach south on the coastal walk',
     bestFor: ['couples', 'longer-stays'],
   },
@@ -370,7 +370,7 @@ export const PROPERTIES: Property[] = [
     bestFor: ['budget', 'groups', 'beach-access', 'ocean-views'],
     amenities: { kitchen: true, oceanViews: true },
     providers: ['hostelworld', 'booking'],
-    // Owner-supplied Klook affiliate booking link — used directly for "Check availability".
+    // Owner-supplied Klook affiliate booking link - used directly for "Check availability".
     bookingUrl: 'https://s.klook.com/c/2XALb2zD3l',
     hasGuide: true,
     image: null,
@@ -407,7 +407,7 @@ export const PROPERTIES: Property[] = [
     neighbourhood: 'By the Bondi Junction transport interchange',
     walkMinutes: null,
     walkText: '~10 min by bus',
-    summary: 'Self-contained studio aparthotel about 200 m from the Bondi Junction interchange — handy for transport and value.',
+    summary: 'Self-contained studio aparthotel about 200 m from the Bondi Junction interchange - handy for transport and value.',
     bestFor: ['longer-stays', 'families', 'budget'],
     amenities: { kitchen: true, parking: 'paid' },
     providers: ['booking', 'tripadvisor'],
@@ -427,7 +427,7 @@ export const PROPERTIES: Property[] = [
     neighbourhood: 'Bondi Junction, by the shopping & transport hub',
     walkMinutes: null,
     walkText: '~10 min by bus',
-    summary: 'Full-service hotel in Bondi Junction, close to the train and Westfield — a practical, well-connected base.',
+    summary: 'Full-service hotel in Bondi Junction, close to the train and Westfield - a practical, well-connected base.',
     bestFor: ['families', 'first-time', 'longer-stays'],
     amenities: { pool: true, parking: 'paid' },
     providers: ['booking', 'tripadvisor'],

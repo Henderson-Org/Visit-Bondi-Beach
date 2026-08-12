@@ -2,7 +2,7 @@
  * Deterministic venue (restaurant/café/bar) scoring. When food is a priority the
  * FOOD_WEIGHTS make quality/cuisine/local-favourite dominate; otherwise geography
  * matters more. Returns a transparent breakdown for the debug view. Numeric scores are
- * never shown to normal users — only the "why it's here" reason is.
+ * never shown to normal users - only the "why it's here" reason is.
  */
 import { FOOD_WEIGHTS, NONFOOD_VENUE_WEIGHTS, VENUE_PENALTIES } from '@/config/scoringWeights';
 import { walkMinutes, type Zone } from '@/lib/bondiZones';

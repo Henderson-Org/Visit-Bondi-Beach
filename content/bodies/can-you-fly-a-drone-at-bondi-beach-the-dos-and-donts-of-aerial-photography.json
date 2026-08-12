@@ -3,13 +3,13 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "CASA — Drone rules (fly for fun)", "url": "https://www.casa.gov.au/knowyourdrone/drone-rules" },
-    { "label": "CASA — Can I fly there? (drone safety apps)", "url": "https://www.casa.gov.au/drones/can-i-fly-there" },
-    { "label": "Waverley Council — Parks & reserves", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves" },
-    { "label": "NSW National Parks — Watching marine mammals", "url": "https://www.nationalparks.nsw.gov.au/things-to-do/whale-watching" }
+    { "label": "CASA - Drone rules (fly for fun)", "url": "https://www.casa.gov.au/knowyourdrone/drone-rules" },
+    { "label": "CASA - Can I fly there? (drone safety apps)", "url": "https://www.casa.gov.au/drones/can-i-fly-there" },
+    { "label": "Waverley Council - Parks & reserves", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves" },
+    { "label": "NSW National Parks - Watching marine mammals", "url": "https://www.nationalparks.nsw.gov.au/things-to-do/whale-watching" }
   ],
   "blocks": [
-    { "type": "p", "text": "Here's the honest answer I give every visitor who asks: you can legally fly a drone in the Bondi area, but almost certainly not the way you're imagining — hovering low over the sand, the surf break or the Icebergs pool full of swimmers. On a normal Bondi day the beach is a crowd, and Australia's drone rules don't allow flying over people, so the classic \"buzz the beach\" shot is off the table. The good news: with a bit of planning you can still get jaw-dropping aerial photos and stay on the right side of the law." },
+    { "type": "p", "text": "Here's the honest answer I give every visitor who asks: you can legally fly a drone in the Bondi area, but almost certainly not the way you're imagining - hovering low over the sand, the surf break or the Icebergs pool full of swimmers. On a normal Bondi day the beach is a crowd, and Australia's drone rules don't allow flying over people, so the classic \"buzz the beach\" shot is off the table. The good news: with a bit of planning you can still get jaw-dropping aerial photos and stay on the right side of the law." },
     { "type": "quickFacts", "items": [
       { "label": "Who regulates it", "value": "CASA (national air law)" },
       { "label": "Plus", "value": "Waverley Council land rules" },
@@ -21,27 +21,27 @@
     { "type": "p", "text": "Drones are governed nationally by the Civil Aviation Safety Authority (CASA). If you fly recreationally, these core rules apply at Bondi just as they do everywhere else:" },
     { "type": "list", "items": [
       "Stay at or below 120 metres (400 ft) above ground level.",
-      "Keep the drone at least 30 metres away from other people — and never fly directly over anyone.",
+      "Keep the drone at least 30 metres away from other people - and never fly directly over anyone.",
       "Don't fly over crowds, gatherings, sporting events or a busy beach.",
       "Fly only one drone at a time, in daylight, and always within your visual line of sight.",
       "Don't fly near where emergency operations (like a surf rescue) are underway.",
       "Keep well clear of controlled airspace and away from helicopters and other aircraft."
     ] },
-    { "type": "callout", "tone": "note", "title": "Check before you launch", "text": "To know whether the airspace above you is open, use a CASA-verified drone safety app (the \"Can I fly there?\" tools). It shows restricted zones and airport buffers in real time — which matters in Sydney, where airspace changes quickly." },
+    { "type": "callout", "tone": "note", "title": "Check before you launch", "text": "To know whether the airspace above you is open, use a CASA-verified drone safety app (the \"Can I fly there?\" tools). It shows restricted zones and airport buffers in real time - which matters in Sydney, where airspace changes quickly." },
     { "type": "h2", "text": "The Bondi problem: it's almost always a crowd" },
-    { "type": "p", "text": "The biggest thing that trips people up isn't the height limit — it's people. A patrolled, populated beach counts as a populous area, so the 30-metre rule and the no-flying-over-people rule make a full beach on a sunny Saturday a no-go for casual flying. Bondi also sits under busy Sydney airspace with helicopters passing along the coast, which is why keeping clear of aircraft and staying in line of sight isn't optional." },
+    { "type": "p", "text": "The biggest thing that trips people up isn't the height limit - it's people. A patrolled, populated beach counts as a populous area, so the 30-metre rule and the no-flying-over-people rule make a full beach on a sunny Saturday a no-go for casual flying. Bondi also sits under busy Sydney airspace with helicopters passing along the coast, which is why keeping clear of aircraft and staying in line of sight isn't optional." },
     { "type": "h3", "text": "Where you take off and land matters too" },
-    { "type": "p", "text": "On top of CASA's air rules there's a second layer people forget: the ground. The beach, promenade and surrounding parks are Waverley Council land, and councils can restrict or prohibit launching, landing and operating drones from their reserves — often with on-site signage. So even when the airspace looks clear, you may still not be permitted to take off from the sand or the park." },
-    { "type": "callout", "tone": "warning", "title": "Obey the signs and the council", "text": "Before you fly, read any on-site signage and check Waverley Council's current position on drones on council land. Anything commercial — paid photography, film or media — will generally need a council permit and, depending on the job, CASA accreditation. When in doubt, ask the council first." },
+    { "type": "p", "text": "On top of CASA's air rules there's a second layer people forget: the ground. The beach, promenade and surrounding parks are Waverley Council land, and councils can restrict or prohibit launching, landing and operating drones from their reserves - often with on-site signage. So even when the airspace looks clear, you may still not be permitted to take off from the sand or the park." },
+    { "type": "callout", "tone": "warning", "title": "Obey the signs and the council", "text": "Before you fly, read any on-site signage and check Waverley Council's current position on drones on council land. Anything commercial - paid photography, film or media - will generally need a council permit and, depending on the job, CASA accreditation. When in doubt, ask the council first." },
     { "type": "h2", "text": "Whales, wildlife and your neighbours' privacy" },
     { "type": "p", "text": "From roughly May to November the humpbacks migrate past Bondi, and it's tempting to chase them with a drone. Don't. NSW has strict approach distances for marine mammals, and a drone diving in on a whale is both illegal and a fast track to serious social-media backlash from locals. Keep your distance, check the current NSW National Parks marine mammal rules, and give sunbathers the same courtesy: no one wants a camera over their towel." },
     { "type": "localTip", "text": "My move for a clean Bondi aerial: get down for a weekday sunrise before the beach fills up, launch from a quiet, open spot away from people, and shoot out over the empty water toward the headland rather than back over the sand. Early light on the pool and the curve of the bay does the work for you." },
     { "type": "faq", "items": [
       { "q": "Can I legally fly a drone over Bondi Beach?", "a": "Not when the beach is populated, which is most of the time. CASA rules ban flying over people and require you to stay 30 m from them, so hovering over a busy beach isn't allowed. You can fly in the wider area if you keep clear of people, stay under 120 m and in line of sight, and check that both the airspace and the council land you use permit it." },
-      { "q": "Do I need a licence to fly a drone for fun at Bondi?", "a": "For purely recreational flying within CASA's standard rules you generally don't need a licence, but you must follow all the operating conditions. Anything commercial — paid photos, film or media — usually needs a Waverley Council permit and, depending on the job, CASA accreditation." },
+      { "q": "Do I need a licence to fly a drone for fun at Bondi?", "a": "For purely recreational flying within CASA's standard rules you generally don't need a licence, but you must follow all the operating conditions. Anything commercial - paid photos, film or media - usually needs a Waverley Council permit and, depending on the job, CASA accreditation." },
       { "q": "Can I film the whales migrating past Bondi with my drone?", "a": "No. NSW sets minimum approach distances for whales and other marine mammals, and flying close to them is against the rules. Watch from the clifftops instead and check the current NSW National Parks guidance first." },
       { "q": "How do I get a great Bondi aerial shot without breaking the rules?", "a": "Go at a quiet time like a weekday sunrise, launch from open ground away from people, stay under 120 m and in sight, and shoot out over open water rather than the sand or crowd. Check airspace with a CASA-verified app and obey on-site signage first." }
     ] },
-    { "type": "p", "text": "Bondi from the air really is something special — the pool, the sweep of the bay, the light at dawn. Earn it the responsible way: right time, right place, clear of people and wildlife, and a quick check of the rules before you launch. Nail the shot and tag @visitbondibeach and #visitbondibeach so we can all admire it." }
+    { "type": "p", "text": "Bondi from the air really is something special - the pool, the sweep of the bay, the light at dawn. Earn it the responsible way: right time, right place, clear of people and wildlife, and a quick check of the rules before you launch. Nail the shot and tag @visitbondibeach and #visitbondibeach so we can all admire it." }
   ]
 }

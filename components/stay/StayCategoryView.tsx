@@ -9,7 +9,7 @@ import type { StayCategory } from '@/data/stay-categories';
 
 /**
  * Shared renderer for the Stay category landing pages. One template, unique authored
- * content per category (via data/stay-categories.ts) — so each page is genuinely
+ * content per category (via data/stay-categories.ts) - so each page is genuinely
  * distinct, not a thin filter clone. Answer-first copy (AEO) → curated cards →
  * comparison → FAQ → internal links.
  */
@@ -59,7 +59,7 @@ export function StayCategoryView({ category }: { category: StayCategory }) {
             ))}
           </div>
         ) : (
-          <p className="mt-4 text-ink-600">We&rsquo;re still adding places here — check the main <Link href="/stay" className="text-ocean-700 underline">Stay guide</Link> in the meantime.</p>
+          <p className="mt-4 text-ink-600">We&rsquo;re still adding places here - check the main <Link href="/stay" className="text-ocean-700 underline">Stay guide</Link> in the meantime.</p>
         )}
       </section>
 

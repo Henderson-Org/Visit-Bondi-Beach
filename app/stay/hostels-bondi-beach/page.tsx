@@ -12,7 +12,7 @@ import { hostels } from '@/data/accommodation';
 
 const TITLE = 'Best Hostels in Bondi Beach';
 const DESCRIPTION =
-  'A local guide to hostels and backpackers in Bondi Beach — where they are, what to expect, and how to book a cheap bed near the sand without the guesswork.';
+  'A local guide to hostels and backpackers in Bondi Beach - where they are, what to expect, and how to book a cheap bed near the sand without the guesswork.';
 const HERO = '/images/articles/0886b63eac692e12.webp';
 
 export const revalidate = 86400;
@@ -48,7 +48,7 @@ const FAQS = [
   },
   {
     q: 'Do Bondi hostels have private rooms?',
-    a: 'Many do, alongside shared dorms — check each hostel&rsquo;s room types when you search. Private rooms cost more than a dorm bed but still less than most hotels.',
+    a: 'Many do, alongside shared dorms - check each hostel&rsquo;s room types when you search. Private rooms cost more than a dorm bed but still less than most hotels.',
   },
 ];
 
@@ -77,14 +77,14 @@ export default function HostelsBondi() {
         image={HERO}
         kicker="Stay · Budget"
         title={TITLE}
-        intro="Bondi is one of the easier Sydney beaches to do on a budget — there are backpacker hostels a two-minute walk from the sand. Here's where they are and how to book a bed."
+        intro="Bondi is one of the easier Sydney beaches to do on a budget - there are backpacker hostels a two-minute walk from the sand. Here's where they are and how to book a bed."
         crumbs={CRUMBS}
       />
 
       <div className="mx-auto max-w-3xl px-4 pt-10">
         <p className="text-lg text-ink-700">
           You don&rsquo;t need a beachfront-hotel budget to wake up near Bondi. A cluster of
-          long-running hostels sits along Campbell Parade at the south end of the beach — sociable,
+          long-running hostels sits along Campbell Parade at the south end of the beach - sociable,
           walkable and right by the buses. Below are the ones worth a look, plus a search for
           everything currently available.
         </p>
@@ -118,9 +118,9 @@ export default function HostelsBondi() {
         <h2 className="font-display text-2xl md:text-3xl text-ink-900">What to expect</h2>
         <ul className="mt-4 space-y-3 text-ink-700">
           <li><span className="font-medium text-ink-900">Location.</span> Most sit on Campbell Parade at the south end, opposite the beach and near the bus stops.</li>
-          <li><span className="font-medium text-ink-900">Rooms.</span> A mix of shared dorms and some private rooms — check room types when you search.</li>
+          <li><span className="font-medium text-ink-900">Rooms.</span> A mix of shared dorms and some private rooms - check room types when you search.</li>
           <li><span className="font-medium text-ink-900">Vibe.</span> Social and backpacker-focused; great for solo travellers and groups, busier over summer.</li>
-          <li><span className="font-medium text-ink-900">Book ahead.</span> Beds go fast in the Sydney summer and around big events — reserve early for those dates.</li>
+          <li><span className="font-medium text-ink-900">Book ahead.</span> Beds go fast in the Sydney summer and around big events - reserve early for those dates.</li>
         </ul>
       </section>
 

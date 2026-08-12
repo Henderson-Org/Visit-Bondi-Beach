@@ -166,7 +166,7 @@
     "status": "not-found",
     "note": "",
     "sources": [
-      "https://themitchellbondi.com.au/north-bondi-food/north-bondi-food/ (inaccessible — HTTP 403 / Cloudflare DNS Error 1000)",
+      "https://themitchellbondi.com.au/north-bondi-food/north-bondi-food/ (inaccessible - HTTP 403 / Cloudflare DNS Error 1000)",
       "https://www.bing.com/search?q=%22Bondi+Tony%27s+Burger+Joint%22 (no matching listing)"
     ]
   },
@@ -319,8 +319,8 @@
     "status": "not-found",
     "note": "",
     "sources": [
-      "https://combi.com.au (supplied source — returned HTTP 503, unresolvable)",
-      "https://wearecombi.com.au/combi-byron-bay/ (Combi Byron Bay — the actual brand home)"
+      "https://combi.com.au (supplied source - returned HTTP 503, unresolvable)",
+      "https://wearecombi.com.au/combi-byron-bay/ (Combi Byron Bay - the actual brand home)"
     ]
   },
   {

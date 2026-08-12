@@ -1,6 +1,6 @@
 /**
  * Editorial config for the Stay category landing pages. Each entry is a real search
- * intent we can answer with unique, useful content — NOT an auto-generated filter page.
+ * intent we can answer with unique, useful content - NOT an auto-generated filter page.
  * The `select` function curates which properties appear; copy is authored per page.
  */
 import {
@@ -17,7 +17,7 @@ export interface StayCategory {
   metaDescription: string;
   heroKicker: string;
   heroImage: string;
-  /** Answer-first paragraph (AEO) — may name specific picks. */
+  /** Answer-first paragraph (AEO) - may name specific picks. */
   answer: string;
   /** Supporting editorial paragraphs. */
   intro: string[];
@@ -38,19 +38,19 @@ export const STAY_CATEGORIES: StayCategory[] = [
     h1: 'The Best Hotels in Bondi Beach',
     metaTitle: 'The Best Hotels in Bondi Beach',
     metaDescription:
-      'The best hotels in Bondi Beach, chosen by locals — from the beachfront boutique QT Bondi to relaxed value stays, with who each suits and how close they are to the sand.',
+      'The best hotels in Bondi Beach, chosen by locals - from the beachfront boutique QT Bondi to relaxed value stays, with who each suits and how close they are to the sand.',
     heroKicker: 'Stay · Hotels',
     heroImage: HERO_BEACH,
     answer:
       'The best hotel in Bondi Beach for location and style is QT Bondi, a design-led boutique hotel right on the Campbell Parade beachfront. Hotel Ravesis is the other standout beachfront boutique, while families and longer stays are usually better in an apartment-hotel such as Adina Bondi Beach. Bondi is a boutique beach town rather than a big five-star strip, so the “best” hotel is the one that matches how you want to stay.',
     intro: [
-      'Bondi’s hotels are smaller and more characterful than a typical city strip — you’re choosing between beachfront boutiques, an apartment-hotel or a landmark pub hotel, not a row of chains. What almost all the best options share is walkability: on or just behind Campbell Parade, with the sand, the cafés and the coastal walk on your doorstep.',
+      'Bondi’s hotels are smaller and more characterful than a typical city strip - you’re choosing between beachfront boutiques, an apartment-hotel or a landmark pub hotel, not a row of chains. What almost all the best options share is walkability: on or just behind Campbell Parade, with the sand, the cafés and the coastal walk on your doorstep.',
     ],
     select: () => PROPERTIES.filter((p) => p.type === 'hotel' || p.type === 'pub-hotel').sort(byGuideThenBeach),
     faqs: [
-      { q: 'What is the best hotel in Bondi Beach?', a: 'For location and style, QT Bondi — a beachfront boutique hotel on Campbell Parade. For families or longer stays, an apartment-hotel such as Adina Bondi Beach is often the better fit.' },
+      { q: 'What is the best hotel in Bondi Beach?', a: 'For location and style, QT Bondi - a beachfront boutique hotel on Campbell Parade. For families or longer stays, an apartment-hotel such as Adina Bondi Beach is often the better fit.' },
       { q: 'Are there five-star hotels in Bondi Beach?', a: 'Bondi is a boutique beach town rather than a big five-star hotel strip. The top end is stylish boutique hotels like QT Bondi and Hotel Ravesis, plus premium serviced apartments.' },
-      { q: 'Which Bondi hotel is closest to the beach?', a: 'The beachfront boutiques — QT Bondi and Hotel Ravesis — sit directly on Campbell Parade, about a minute from the sand.' },
+      { q: 'Which Bondi hotel is closest to the beach?', a: 'The beachfront boutiques - QT Bondi and Hotel Ravesis - sit directly on Campbell Parade, about a minute from the sand.' },
     ],
     related: [
       { title: 'Where to eat & drink in Bondi', path: '/bondi-eat-and-drink' },
@@ -64,17 +64,17 @@ export const STAY_CATEGORIES: StayCategory[] = [
     h1: 'Family Accommodation in Bondi',
     metaTitle: 'Family-Friendly Accommodation in Bondi Beach',
     metaDescription:
-      'Where families should stay in Bondi Beach — serviced apartments with kitchens and pools, the calmest end of the beach, and practical bases near transport, chosen by locals.',
+      'Where families should stay in Bondi Beach - serviced apartments with kitchens and pools, the calmest end of the beach, and practical bases near transport, chosen by locals.',
     heroKicker: 'Stay · Families',
     heroImage: HERO_BEACH,
     answer:
-      'Families are usually happiest in a serviced apartment with a kitchen and a pool — Adina Bondi Beach just behind the sand, or Meriton Suites Bondi Junction for value and easy transport. Kitchens, laundry and a pool make a real difference with kids, and North Bondi is the calmest end of the beach for young children.',
+      'Families are usually happiest in a serviced apartment with a kitchen and a pool - Adina Bondi Beach just behind the sand, or Meriton Suites Bondi Junction for value and easy transport. Kitchens, laundry and a pool make a real difference with kids, and North Bondi is the calmest end of the beach for young children.',
     intro: [
       'With children, self-catering changes a trip: an apartment with a kitchen and laundry lets you keep routines and eat in when you need to. A pool is the other big win, giving you a safe swim when the surf is too big. Base yourself near the calmer north end of the beach, or in Bondi Junction if value and airport access matter more than beachfront.',
     ],
     select: () => PROPERTIES.filter((p) => p.bestFor.includes('families')).sort(byGuideThenBeach),
     faqs: [
-      { q: 'Where should families stay in Bondi?', a: 'In a serviced apartment with a kitchen and pool — Adina Bondi Beach near the sand, or Meriton Suites Bondi Junction for value and transport. North Bondi is the calmest stretch of beach for young kids.' },
+      { q: 'Where should families stay in Bondi?', a: 'In a serviced apartment with a kitchen and pool - Adina Bondi Beach near the sand, or Meriton Suites Bondi Junction for value and transport. North Bondi is the calmest stretch of beach for young kids.' },
       { q: 'What is the calmest part of Bondi Beach for children?', a: 'The northern end, by the North Bondi kids’ pool and playground, is the most sheltered spot for young children.' },
       { q: 'Do Bondi apartments have kitchens and pools?', a: 'Apartment-hotels like Adina Bondi Beach and Meriton Suites Bondi Junction have in-room kitchens and a pool, which is why they suit families.' },
     ],
@@ -90,13 +90,13 @@ export const STAY_CATEGORIES: StayCategory[] = [
     h1: 'Luxury Stays in Bondi',
     metaTitle: 'Luxury Hotels & Stays in Bondi Beach',
     metaDescription:
-      'The most upmarket places to stay in Bondi Beach — beachfront boutique hotels and premium apartments. An honest local take on what “luxury” means at Bondi.',
+      'The most upmarket places to stay in Bondi Beach - beachfront boutique hotels and premium apartments. An honest local take on what “luxury” means at Bondi.',
     heroKicker: 'Stay · Luxury',
     heroImage: HERO_BEACH,
     answer:
-      'Bondi’s luxury is boutique, not big-brand five-star. The top picks are QT Bondi and Hotel Ravesis — stylish beachfront boutique hotels on Campbell Parade — plus premium serviced apartments for space and views. If you want a large five-star resort, you’ll find those in the Sydney CBD; Bondi’s appeal is being right on the sand with a design-led room.',
+      'Bondi’s luxury is boutique, not big-brand five-star. The top picks are QT Bondi and Hotel Ravesis - stylish beachfront boutique hotels on Campbell Parade - plus premium serviced apartments for space and views. If you want a large five-star resort, you’ll find those in the Sydney CBD; Bondi’s appeal is being right on the sand with a design-led room.',
     intro: [
-      'It’s worth setting expectations honestly: Bondi doesn’t have a strip of grand five-star hotels. What it has is a handful of characterful beachfront boutiques and high-end apartments, where you’re paying for the location and the design rather than a big-hotel lobby. For many travellers that’s exactly the point — you’re a step from the sand, not behind a porte-cochère.',
+      'It’s worth setting expectations honestly: Bondi doesn’t have a strip of grand five-star hotels. What it has is a handful of characterful beachfront boutiques and high-end apartments, where you’re paying for the location and the design rather than a big-hotel lobby. For many travellers that’s exactly the point - you’re a step from the sand, not behind a porte-cochère.',
     ],
     select: () => PROPERTIES.filter((p) => p.bestFor.includes('luxury')).sort(byGuideThenBeach),
     faqs: [
@@ -115,18 +115,18 @@ export const STAY_CATEGORIES: StayCategory[] = [
     h1: 'Budget Accommodation near Bondi Beach',
     metaTitle: 'Budget Accommodation near Bondi Beach',
     metaDescription:
-      'How to stay near Bondi Beach on a budget — beachfront hostels, the landmark pub hotel and better-value bases in Bondi Junction, with honest local tips on where to save.',
+      'How to stay near Bondi Beach on a budget - beachfront hostels, the landmark pub hotel and better-value bases in Bondi Junction, with honest local tips on where to save.',
     heroKicker: 'Stay · Budget',
     heroImage: HERO_BEACH,
     answer:
-      'The cheapest way to stay right by the sand is a beachfront hostel on Campbell Parade — Noah’s Bondi Beach or Bondi Backpackers — with dorm beds and some private rooms. For a cheaper private room, Bondi Junction is the best value and is only a short bus from the beach. Book ahead for the Sydney summer, when budget beds go fast.',
+      'The cheapest way to stay right by the sand is a beachfront hostel on Campbell Parade - Noah’s Bondi Beach or Bondi Backpackers - with dorm beds and some private rooms. For a cheaper private room, Bondi Junction is the best value and is only a short bus from the beach. Book ahead for the Sydney summer, when budget beds go fast.',
     intro: [
       'You don’t need a beachfront-hotel budget to wake up near Bondi. The Campbell Parade hostels put you a two-minute walk from the sand for the lowest nightly rates, while Bondi Junction trades a short bus ride for noticeably better value on private rooms. The landmark Hotel Bondi is a mid-budget option right on the beachfront.',
     ],
     select: () => PROPERTIES.filter((p) => priceRank(p.priceBand) <= 2 || p.bestFor.includes('budget')).sort(byGuideThenBeach),
     faqs: [
       { q: 'What is the cheapest way to stay near Bondi Beach?', a: 'A dorm bed in a Campbell Parade hostel such as Noah’s Bondi Beach or Bondi Backpackers is the cheapest option by the sand. For a cheap private room, Bondi Junction is the best value.' },
-      { q: 'Are there hostels on Bondi Beach?', a: 'Yes — several backpacker hostels sit on Campbell Parade, opposite the sand at the south end of the beach.' },
+      { q: 'Are there hostels on Bondi Beach?', a: 'Yes - several backpacker hostels sit on Campbell Parade, opposite the sand at the south end of the beach.' },
       { q: 'Is Bondi Junction cheaper than Bondi Beach?', a: 'Usually. For a similar standard of room you generally pay less in Bondi Junction, in exchange for a short bus ride to the beach.' },
     ],
     related: [
@@ -141,7 +141,7 @@ export const STAY_CATEGORIES: StayCategory[] = [
     h1: 'Serviced Apartments in Bondi Beach',
     metaTitle: 'Serviced Apartments & Aparthotels in Bondi Beach',
     metaDescription:
-      'The best serviced apartments and aparthotels in and around Bondi Beach — kitchens, laundry and space for families and longer stays, chosen by locals.',
+      'The best serviced apartments and aparthotels in and around Bondi Beach - kitchens, laundry and space for families and longer stays, chosen by locals.',
     heroKicker: 'Stay · Apartments',
     heroImage: HERO_BEACH,
     answer:
@@ -152,7 +152,7 @@ export const STAY_CATEGORIES: StayCategory[] = [
     select: () => PROPERTIES.filter((p) => p.type === 'apartments').sort(byGuideThenBeach),
     faqs: [
       { q: 'Where are the best serviced apartments in Bondi Beach?', a: 'Adina Bondi Beach and Bondi 38 are just behind Campbell Parade near the sand; Meriton Suites Bondi Junction offers apartments with a pool by the transport hub.' },
-      { q: 'Do Bondi apartments have kitchens?', a: 'Yes — serviced apartments and aparthotels include in-room kitchen facilities, which is what makes them good for families and longer stays.' },
+      { q: 'Do Bondi apartments have kitchens?', a: 'Yes - serviced apartments and aparthotels include in-room kitchen facilities, which is what makes them good for families and longer stays.' },
       { q: 'Are apartments cheaper than hotels in Bondi?', a: 'For a family or a longer stay they often work out better value, because you can self-cater and you’re paying for space rather than nightly hotel service.' },
     ],
     related: [
@@ -167,19 +167,19 @@ export const STAY_CATEGORIES: StayCategory[] = [
     h1: 'Hotels Near Bondi Beach',
     metaTitle: 'Hotels Near Bondi Beach (Closest to the Sand)',
     metaDescription:
-      'The places to stay closest to Bondi Beach, ranked by walk to the sand — beachfront boutiques, apartments and hostels right on or just behind Campbell Parade.',
+      'The places to stay closest to Bondi Beach, ranked by walk to the sand - beachfront boutiques, apartments and hostels right on or just behind Campbell Parade.',
     heroKicker: 'Stay · Near the beach',
     heroImage: HERO_BEACH,
     answer:
       'The accommodation closest to Bondi Beach sits right on Campbell Parade: QT Bondi and Hotel Ravesis (beachfront boutiques), the beachfront hostels, and serviced apartments just behind them. All are within a couple of minutes’ walk of the sand. Below, everywhere is ordered by how close it is to the beach.',
     intro: [
-      'If being able to walk out onto the sand is the priority, stay on or just behind Campbell Parade. The list below is ordered by walking distance to the beach, so the most central options come first — from beachfront boutiques to apartments and hostels a couple of minutes back.',
+      'If being able to walk out onto the sand is the priority, stay on or just behind Campbell Parade. The list below is ordered by walking distance to the beach, so the most central options come first - from beachfront boutiques to apartments and hostels a couple of minutes back.',
     ],
     select: () => [...PROPERTIES].sort(byBeachProximity),
     faqs: [
-      { q: 'What hotels are closest to Bondi Beach?', a: 'The beachfront boutiques QT Bondi and Hotel Ravesis sit directly on Campbell Parade, opposite the sand — about a minute’s walk to the beach.' },
-      { q: 'Can you stay right on Bondi Beach?', a: 'Yes — several hotels, apartments and hostels line Campbell Parade directly across from the sand, so you can be on the beach within a minute or two.' },
-      { q: 'How far is Bondi Junction from the beach?', a: 'About a 10-minute bus ride, or a 25–30 minute walk downhill — handy for transport and value, but not walking-distance to the sand.' },
+      { q: 'What hotels are closest to Bondi Beach?', a: 'The beachfront boutiques QT Bondi and Hotel Ravesis sit directly on Campbell Parade, opposite the sand - about a minute’s walk to the beach.' },
+      { q: 'Can you stay right on Bondi Beach?', a: 'Yes - several hotels, apartments and hostels line Campbell Parade directly across from the sand, so you can be on the beach within a minute or two.' },
+      { q: 'How far is Bondi Junction from the beach?', a: 'About a 10-minute bus ride, or a 25–30 minute walk downhill - handy for transport and value, but not walking-distance to the sand.' },
     ],
     related: [
       { title: 'Where to swim at Bondi', path: '/where-to-swim-at-bondi-beach' },

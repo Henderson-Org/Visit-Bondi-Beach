@@ -2,7 +2,7 @@ import Script from 'next/script';
 import { isProduction } from '@/lib/site';
 
 /**
- * Google Analytics 4 — migrated from the Squarespace site (G-KQ2SFKV2EZ).
+ * Google Analytics 4 - migrated from the Squarespace site (G-KQ2SFKV2EZ).
  * Production-only so staging/preview traffic never pollutes reporting.
  * Override the id via NEXT_PUBLIC_GA_ID. Loaded afterInteractive to protect LCP/INP.
  */

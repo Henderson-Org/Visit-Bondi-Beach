@@ -3,13 +3,13 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "Waverley Council — Festival of the Winds", "url": "https://www.waverley.nsw.gov.au/recreation/arts_and_culture/major_annual_events/fotw" },
+    { "label": "Waverley Council - Festival of the Winds", "url": "https://www.waverley.nsw.gov.au/recreation/arts_and_culture/major_annual_events/fotw" },
     { "label": "Sculpture by the Sea, Bondi", "url": "https://sculpturebythesea.com/bondi/" },
-    { "label": "Destination NSW — Whale watching in Sydney", "url": "https://www.sydney.com/things-to-do/nature-and-parks/whale-watching" },
-    { "label": "Bureau of Meteorology — Sydney climate", "url": "http://www.bom.gov.au/nsw/" }
+    { "label": "Destination NSW - Whale watching in Sydney", "url": "https://www.sydney.com/things-to-do/nature-and-parks/whale-watching" },
+    { "label": "Bureau of Meteorology - Sydney climate", "url": "http://www.bom.gov.au/nsw/" }
   ],
   "blocks": [
-    { "type": "p", "text": "The honest answer to \"when's the best time to visit Bondi?\" is that there isn't a bad one — but if you want the classic sun-on-sand experience, come between December and February, and if you want Bondi at its most relaxed, come in autumn. I've lived a short walk from the sand for years, and every season here has its own personality. This is how I'd time your visit depending on what you're after." },
+    { "type": "p", "text": "The honest answer to \"when's the best time to visit Bondi?\" is that there isn't a bad one - but if you want the classic sun-on-sand experience, come between December and February, and if you want Bondi at its most relaxed, come in autumn. I've lived a short walk from the sand for years, and every season here has its own personality. This is how I'd time your visit depending on what you're after." },
     { "type": "quickFacts", "items": [
       { "label": "Peak season", "value": "Dec–Feb (summer)" },
       { "label": "Quietest & mildest", "value": "Autumn (Mar–May)" },
@@ -18,26 +18,26 @@
     ] },
     { "type": "callout", "tone": "note", "title": "Remember the seasons are reversed", "text": "Bondi is in the southern hemisphere, so summer falls over Christmas and New Year, and winter runs June to August. If you're coming from the north, mentally flip the calendar." },
     { "type": "h2", "text": "Summer (December to February): the full Bondi in bloom" },
-    { "type": "p", "text": "This is Bondi at its loudest and most alive — warm water, long evenings, and the promenade buzzing well past sunset. It's when the beach genuinely earns its reputation. It's also when everyone else has the same idea, so the sand fills fast and accommodation prices climb." },
+    { "type": "p", "text": "This is Bondi at its loudest and most alive - warm water, long evenings, and the promenade buzzing well past sunset. It's when the beach genuinely earns its reputation. It's also when everyone else has the same idea, so the sand fills fast and accommodation prices climb." },
     { "type": "p", "text": "Two summer fixtures are worth planning around: the New Year's Eve celebrations, when the whole coastline turns festive, and the open-air cinema season up at Dudley Page Reserve with the city skyline behind the screen. Dates and programs change yearly, so check the official listings before building a night around them." },
-    { "type": "localTip", "text": "In summer I never arrive between 11am and 2pm expecting a good patch of sand. Come before 9am or after 4pm — the light is softer, the crowds thinner, and the swim just as good. And always swim between the red-and-yellow flags." },
+    { "type": "localTip", "text": "In summer I never arrive between 11am and 2pm expecting a good patch of sand. Come before 9am or after 4pm - the light is softer, the crowds thinner, and the swim just as good. And always swim between the red-and-yellow flags." },
     { "type": "h2", "text": "Autumn (March to May): my quiet favourite" },
     { "type": "p", "text": "If you asked me to pick one window, it'd be autumn. The ocean holds onto its summer warmth for weeks, the fierce midday heat eases off, and the tourist crush thins out noticeably. It's the sweet spot for swimming, for walking the Bondi to Bronte coastal path without dodging crowds, and for actually getting a table at the cafés along Campbell Parade." },
     { "type": "p", "text": "You trade the peak-season events for calm, and to me that's a fair swap. Some businesses trim their hours as the season winds down, but the beach itself is arguably at its most enjoyable." },
     { "type": "h2", "text": "Winter (June to August): coastal walks and whales" },
-    { "type": "p", "text": "Bondi winters are mild by world standards — cool and crisp rather than freezing — and the beach takes on a completely different, quieter character. Swimming in the open ocean is bracing (this is when the Icebergs pool and its winter swimmers come into their own), but winter has one spectacular payoff: whales." },
+    { "type": "p", "text": "Bondi winters are mild by world standards - cool and crisp rather than freezing - and the beach takes on a completely different, quieter character. Swimming in the open ocean is bracing (this is when the Icebergs pool and its winter swimmers come into their own), but winter has one spectacular payoff: whales." },
     { "type": "p", "text": "Humpbacks migrate up and down the coast roughly from mid-May into November, and the clifftops along the Bondi to Coogee walk are one of Sydney's best free vantage points to spot them. Bring a jacket, walk the coastal path on a clear morning, and keep one eye on the horizon for a spout or a breach." },
-    { "type": "callout", "tone": "warning", "title": "Winter isn't beach-lazing weather", "text": "You can still enjoy Bondi in winter, but pack layers and don't count on sunbathing. The wind off the water has a bite, and patrol hours and flagged swimming areas are reduced — check conditions before you go in." },
+    { "type": "callout", "tone": "warning", "title": "Winter isn't beach-lazing weather", "text": "You can still enjoy Bondi in winter, but pack layers and don't count on sunbathing. The wind off the water has a bite, and patrol hours and flagged swimming areas are reduced - check conditions before you go in." },
     { "type": "h2", "text": "Spring (September to November): events and rising warmth" },
-    { "type": "p", "text": "Spring is when Bondi wakes back up. The water warms, the days lengthen, and two of the area's marquee events land in this window. The Festival of the Winds — Waverley Council's huge, free kite festival — fills the sky with colour in September. Then in late October and early November, Sculpture by the Sea turns the Bondi-to-Tamarama clifftop into the world's largest free outdoor sculpture exhibition." },
+    { "type": "p", "text": "Spring is when Bondi wakes back up. The water warms, the days lengthen, and two of the area's marquee events land in this window. The Festival of the Winds - Waverley Council's huge, free kite festival - fills the sky with colour in September. Then in late October and early November, Sculpture by the Sea turns the Bondi-to-Tamarama clifftop into the world's largest free outdoor sculpture exhibition." },
     { "type": "p", "text": "Both draw crowds on their peak days and shift dates each year, so confirm them on the official sites before locking in travel. Outside those weekends, spring gives you warm weather with fewer people than the summer peak." },
     { "type": "faq", "items": [
       { "q": "What is the overall best time to visit Bondi Beach?", "a": "For classic warm beach weather, December to February. For the best balance of warm water, good weather and smaller crowds, I'd choose autumn (March to May) or the shoulder weeks of spring." },
       { "q": "When is Bondi the least crowded?", "a": "Winter (June to August) is quietest overall, and autumn weekdays are wonderfully calm while the water is still swimmable. Summer weekends and public holidays are the busiest by far." },
       { "q": "When can I see whales at Bondi?", "a": "Roughly from mid-May to November, as humpbacks migrate along the coast. The Bondi to Coogee clifftop walk is one of the best free land-based spots to watch for them. See Destination NSW for tips." },
-      { "q": "Is the water warm enough to swim in winter?", "a": "The ocean is cool but swimmable for the hardy — you'll see year-round swimmers, especially at the Icebergs pool. Most visitors find spring through autumn far more comfortable for a proper swim." },
+      { "q": "Is the water warm enough to swim in winter?", "a": "The ocean is cool but swimmable for the hardy - you'll see year-round swimmers, especially at the Icebergs pool. Most visitors find spring through autumn far more comfortable for a proper swim." },
       { "q": "What are the big annual events and when are they?", "a": "The Festival of the Winds kite festival is in September, and Sculpture by the Sea runs from late October into early November. New Year's Eve is the summer highlight. Always confirm exact dates on the official event sites." }
     ] },
-    { "type": "p", "text": "Whenever you come, match the season to the trip you want — sun and buzz, quiet swims, whale-watching walks, or spring festivals — and you'll get the version of Bondi you came for." }
+    { "type": "p", "text": "Whenever you come, match the season to the trip you want - sun and buzz, quiet swims, whale-watching walks, or spring festivals - and you'll get the version of Bondi you came for." }
   ]
 }

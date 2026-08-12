@@ -21,7 +21,7 @@ function primaryProvider(p: Property): ProviderId {
 /**
  * The Booking.com (or primary provider) link for a property, affiliate-wrapped when
  * configured. Uses the exact property deep link when we hold a verified `bookingUrl`
- * (priority 1), otherwise a property-name search — never a generic page.
+ * (priority 1), otherwise a property-name search - never a generic page.
  */
 export function bookingLinkFor(p: Property, placement: string) {
   return getAffiliateLink({

@@ -4,12 +4,12 @@
   "lastReviewed": "2026-08-08",
   "sources": [
     { "label": "Let's Go Surfing (Bondi surf school)", "url": "https://letsgosurfing.com.au/lessons/bondi/adults/" },
-    { "label": "Surf Life Saving — Beachsafe: Bondi Beach", "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi/bondi-beach" },
-    { "label": "Waverley Council — Beaches & Coast", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
-    { "label": "Bureau of Meteorology — Sydney Coast forecast", "url": "http://www.bom.gov.au/nsw/forecasts/sydneycoast.shtml" }
+    { "label": "Surf Life Saving - Beachsafe: Bondi Beach", "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi/bondi-beach" },
+    { "label": "Waverley Council - Beaches & Coast", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
+    { "label": "Bureau of Meteorology - Sydney Coast forecast", "url": "http://www.bom.gov.au/nsw/forecasts/sydneycoast.shtml" }
   ],
   "blocks": [
-    { "type": "p", "text": "Short version: yes, you can surf at Bondi, and it's one of the friendliest beaches in Sydney to learn on — just stay well clear of the red-and-yellow swimming flags, keep beginners to the gentler northern half, and leave the punchier, rip-prone southern corner to those who know what they're doing. I've surfed here for years; below is what I'd tell a mate asking where to start." },
+    { "type": "p", "text": "Short version: yes, you can surf at Bondi, and it's one of the friendliest beaches in Sydney to learn on - just stay well clear of the red-and-yellow swimming flags, keep beginners to the gentler northern half, and leave the punchier, rip-prone southern corner to those who know what they're doing. I've surfed here for years; below is what I'd tell a mate asking where to start." },
     { "type": "quickFacts", "items": [
       { "label": "Best for beginners", "value": "Northern end (softer sandbank)" },
       { "label": "Best for experienced", "value": "Southern end / 'Backpackers' break" },
@@ -17,29 +17,29 @@
       { "label": "Board hire & lessons", "value": "On the promenade, south end" }
     ] },
     { "type": "h2", "text": "Where to surf if you're a beginner" },
-    { "type": "p", "text": "Bondi is a roughly one-kilometre crescent, and it doesn't surf the same all the way along. The northern end tends to be more sheltered and forgiving — the sandbank is gentler and catches less swell, exactly what you want while learning to pop up. That's where I'd send anyone on a soft-top for their first sessions." },
-    { "type": "p", "text": "The one rule you must never break: don't surf near, and definitely not between, the red-and-yellow flags. That's a patrolled swimming-only zone — turning up on a board there is dangerous for swimmers and a fast way to get a direct word from the lifeguards. Set up to the side, and you'll be welcome." },
-    { "type": "callout", "tone": "warning", "title": "The flags are for swimmers, not surfers", "text": "Soft learner boards are usually fine on the sandflats away from the flags; hard fibreglass boards belong at the southern breaks. When unsure, ask a lifeguard — the flag position changes daily." },
+    { "type": "p", "text": "Bondi is a roughly one-kilometre crescent, and it doesn't surf the same all the way along. The northern end tends to be more sheltered and forgiving - the sandbank is gentler and catches less swell, exactly what you want while learning to pop up. That's where I'd send anyone on a soft-top for their first sessions." },
+    { "type": "p", "text": "The one rule you must never break: don't surf near, and definitely not between, the red-and-yellow flags. That's a patrolled swimming-only zone - turning up on a board there is dangerous for swimmers and a fast way to get a direct word from the lifeguards. Set up to the side, and you'll be welcome." },
+    { "type": "callout", "tone": "warning", "title": "The flags are for swimmers, not surfers", "text": "Soft learner boards are usually fine on the sandflats away from the flags; hard fibreglass boards belong at the southern breaks. When unsure, ask a lifeguard - the flag position changes daily." },
     { "type": "h2", "text": "Bondi's breaks for experienced surfers" },
-    { "type": "p", "text": "Once you've got your bearings, the more interesting waves are at the southern end — the break locals call 'Backpackers', named for the hostels up the hill. It picks up more swell, breaks bigger and faster, and sits right beside Bondi's most notorious rip." },
-    { "type": "p", "text": "That rip, the 'Backpackers' Express', runs out along the southern rocks and is behind many rescues there each summer. For a confident surfer it can be a handy paddle-out channel — but know it's there, respect the rocks, and never rely on it unless you're a strong swimmer." },
-    { "type": "localTip", "text": "Check the sandbanks before you commit. After a big swell the banks shift, and last week's beautiful wave can become a shapeless closeout. Two minutes watching from the promenade — where the sets peak, which way the water moves — saves a frustrating session." },
+    { "type": "p", "text": "Once you've got your bearings, the more interesting waves are at the southern end - the break locals call 'Backpackers', named for the hostels up the hill. It picks up more swell, breaks bigger and faster, and sits right beside Bondi's most notorious rip." },
+    { "type": "p", "text": "That rip, the 'Backpackers' Express', runs out along the southern rocks and is behind many rescues there each summer. For a confident surfer it can be a handy paddle-out channel - but know it's there, respect the rocks, and never rely on it unless you're a strong swimmer." },
+    { "type": "localTip", "text": "Check the sandbanks before you commit. After a big swell the banks shift, and last week's beautiful wave can become a shapeless closeout. Two minutes watching from the promenade - where the sets peak, which way the water moves - saves a frustrating session." },
     { "type": "h2", "text": "When to surf, and reading the conditions" },
-    { "type": "p", "text": "Bondi surfs year-round. Summer waves are smaller and more forgiving, which suits beginners, but the beach is packed and shared with swimmers. Many locals prefer the cooler months, when the crowds thin and the swell is more consistent — bring a decent wetsuit. Early mornings are cleanest, before the sea breeze chops it up." },
+    { "type": "p", "text": "Bondi surfs year-round. Summer waves are smaller and more forgiving, which suits beginners, but the beach is packed and shared with swimmers. Many locals prefer the cooler months, when the crowds thin and the swell is more consistent - bring a decent wetsuit. Early mornings are cleanest, before the sea breeze chops it up." },
     { "type": "p", "text": "Rather than trust any fixed 'best time', check the forecast the morning you go. I look at the Bureau of Meteorology's Sydney coast swell and wind forecast, and Surf Life Saving's Beachsafe page, which flags current hazards and whether the beach is patrolled." },
     { "type": "h2", "text": "Lessons, board hire and staying safe" },
-    { "type": "p", "text": "If it's your first time, book a lesson — it's the fastest way to get standing up, and a good instructor teaches you to read rips and pick a safe spot as much as catch waves. Bondi's long-established, licensed surf school, Let's Go Surfing, runs beginner lessons and hires soft boards and wetsuits from the southern end of the promenade. Check their website for current times and prices." },
+    { "type": "p", "text": "If it's your first time, book a lesson - it's the fastest way to get standing up, and a good instructor teaches you to read rips and pick a safe spot as much as catch waves. Bondi's long-established, licensed surf school, Let's Go Surfing, runs beginner lessons and hires soft boards and wetsuits from the southern end of the promenade. Check their website for current times and prices." },
     { "type": "list", "items": [
-      "Start on a soft-top — stable, and far kinder if the board hits you or anyone else.",
+      "Start on a soft-top - stable, and far kinder if the board hits you or anyone else.",
       "Always surf near other people, ideally within sight of the lifeguard tower.",
       "Caught in a rip? Don't fight it. Stay calm, hang onto your board, raise an arm to signal for help, and let it carry you out until it releases.",
-      "Wear a rash vest and reef-safe sunscreen — the Australian sun burns fast, even on grey days."
+      "Wear a rash vest and reef-safe sunscreen - the Australian sun burns fast, even on grey days."
     ] },
     { "type": "h2", "text": "Beyond Bondi" },
     { "type": "p", "text": "If Bondi's crowded or the bank isn't working, the neighbouring beaches are a short hop away. Tamarama, around the headland, is smaller, punchier and best left to experienced surfers. Bronte has a fun little break and a good post-surf café strip. Further south, Maroubra offers more consistent, powerful waves and room to spread out." },
     { "type": "faq", "items": [
-      { "q": "Can beginners surf at Bondi Beach?", "a": "Yes — the northern end is one of the better spots in Sydney to learn, with a gentler sandbank and smaller waves. Stay well clear of the red-and-yellow flags, use a soft-top, and consider a lesson for your first go." },
-      { "q": "Where can I surf at Bondi without getting in trouble?", "a": "Surf to the side of the red-and-yellow flags, never between them — that's a swimming-only zone. Learners stick to the northern sandflats; stronger surfers head to the southern 'Backpackers' break." },
+      { "q": "Can beginners surf at Bondi Beach?", "a": "Yes - the northern end is one of the better spots in Sydney to learn, with a gentler sandbank and smaller waves. Stay well clear of the red-and-yellow flags, use a soft-top, and consider a lesson for your first go." },
+      { "q": "Where can I surf at Bondi without getting in trouble?", "a": "Surf to the side of the red-and-yellow flags, never between them - that's a swimming-only zone. Learners stick to the northern sandflats; stronger surfers head to the southern 'Backpackers' break." },
       { "q": "Is the surf at Bondi dangerous?", "a": "It can be. The southern end has the biggest waves and the strong 'Backpackers' Express rip, which drives many rescues each summer. Check Beachsafe, surf near the patrolled area, and don't paddle out far unless you're a strong swimmer." },
       { "q": "Where can I hire a board or take a surf lesson at Bondi?", "a": "Bondi's licensed surf school, Let's Go Surfing, offers beginner lessons and hires soft boards and wetsuits from the southern end of the promenade. Check their website for current times and prices." },
       { "q": "What's the best time of year to surf Bondi?", "a": "Summer brings smaller, friendlier waves but big crowds; the cooler months are often more consistent and far quieter, so bring a wetsuit. Whatever the season, check the Bureau of Meteorology forecast on the day." }

@@ -4,7 +4,7 @@
  * Interactive footer for the conditions module: the expandable "more detail" row,
  * the source/updated provenance lines, and the beach-safety link.
  *
- * Analytics: fires GA4 events ONLY on genuine interaction (expand, safety click) —
+ * Analytics: fires GA4 events ONLY on genuine interaction (expand, safety click) -
  * never on load. gtag is present only in production (see components/Analytics.tsx),
  * so these are no-ops elsewhere.
  */
@@ -95,7 +95,7 @@ export function ConditionsFooter(props: ConditionsFooterProps) {
 
       {safetyUrl && (
         <p className="mt-1 text-[11px] text-ink-500">
-          Always check current beach conditions and swim between the red and yellow flags —{' '}
+          Always check current beach conditions and swim between the red and yellow flags -{' '}
           <a
             href={safetyUrl}
             target="_blank"

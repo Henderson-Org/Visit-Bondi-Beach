@@ -16,7 +16,7 @@ export interface Experience {
   zone: Zone;
   categories: Interest[];
   durationMins: number;
-  /** 0–10 — how essential this is when it matches the visitor (drives the must-do boost). */
+  /** 0–10 - how essential this is when it matches the visitor (drives the must-do boost). */
   mustDoScore: number;
   idealTimeOfDay: TimeOfDay[];
   /** How much walking the experience itself involves. */
@@ -36,7 +36,7 @@ export const BONDI_EXPERIENCES: Experience[] = [
     categories: ['beach', 'swimming', 'relaxing', 'iconic', 'family', 'photography'],
     durationMins: 60, mustDoScore: 9, idealTimeOfDay: ['morning', 'midday', 'afternoon'],
     walkingLevel: 'low', viewScore: 9,
-    description: 'The main event — time on the famous sand between the flags.',
+    description: 'The main event - time on the famous sand between the flags.',
     whyGo: 'You can’t do Bondi without the beach itself.',
   },
   {
@@ -45,7 +45,7 @@ export const BONDI_EXPERIENCES: Experience[] = [
     durationMins: 45, mustDoScore: 8, idealTimeOfDay: ['morning', 'midday', 'afternoon'],
     walkingLevel: 'low', viewScore: 7,
     description: 'A dip between the flags on Bondi Beach.',
-    whyGo: 'The classic Bondi swim — always patrolled, always worth it.',
+    whyGo: 'The classic Bondi swim - always patrolled, always worth it.',
   },
   {
     id: 'icebergs-pool', name: 'Bondi Icebergs Ocean Pool', zone: 'south-bondi',
@@ -53,7 +53,7 @@ export const BONDI_EXPERIENCES: Experience[] = [
     durationMins: 45, mustDoScore: 10, idealTimeOfDay: ['morning', 'midday', 'afternoon'],
     walkingLevel: 'low', viewScore: 10, pairsWithVenues: ['icebergs-dining'],
     description: 'The world-famous ocean pool cut into the rocks at the south end.',
-    whyGo: 'One of Bondi’s essential experiences — swim it or just take it in.',
+    whyGo: 'One of Bondi’s essential experiences - swim it or just take it in.',
   },
   {
     id: 'bondi-bronte-walk', name: 'Bondi to Bronte Coastal Walk', zone: 'tamarama',
@@ -85,7 +85,7 @@ export const BONDI_EXPERIENCES: Experience[] = [
     durationMins: 45, mustDoScore: 6, idealTimeOfDay: ['morning', 'midday', 'afternoon'],
     walkingLevel: 'low', viewScore: 8,
     description: 'A relaxed family beach with its own ocean baths.',
-    whyGo: 'The reward at the end of the coastal walk — and a great coffee stop.',
+    whyGo: 'The reward at the end of the coastal walk - and a great coffee stop.',
   },
   {
     id: 'north-bondi-beach', name: 'North Bondi Beach', zone: 'north-bondi',
@@ -93,7 +93,7 @@ export const BONDI_EXPERIENCES: Experience[] = [
     durationMins: 45, mustDoScore: 6, idealTimeOfDay: ['morning', 'midday', 'afternoon'],
     walkingLevel: 'low', viewScore: 7,
     description: 'The calmer northern end of the beach, near the kids’ pool.',
-    whyGo: 'The most relaxed, sheltered stretch of sand — good for families.',
+    whyGo: 'The most relaxed, sheltered stretch of sand - good for families.',
   },
   {
     id: 'ben-buckler', name: 'Ben Buckler / North Bondi viewpoint', zone: 'north-bondi',
@@ -117,7 +117,7 @@ export const BONDI_EXPERIENCES: Experience[] = [
     durationMins: 60, mustDoScore: 7, idealTimeOfDay: ['morning', 'midday'],
     walkingLevel: 'low', viewScore: 3, operatingWeekdays: [0],
     description: 'The famous Sunday market for fashion, vintage and design at Bondi Beach Public School.',
-    whyGo: 'A Bondi Sunday institution — go early for the best of it.',
+    whyGo: 'A Bondi Sunday institution - go early for the best of it.',
   },
   {
     id: 'bondi-farmers-market', name: 'Bondi Farmers Market (Saturday)', zone: 'gould-hall',
@@ -182,7 +182,7 @@ export function getExperience(id: string): Experience | undefined {
 }
 
 /**
- * Activity "family" — used for redundancy control so the planner doesn't stack three
+ * Activity "family" - used for redundancy control so the planner doesn't stack three
  * experiences that all satisfy the same thing (e.g. beach + swim + pool back to back).
  */
 export type Family = 'swim-water' | 'beach' | 'coastal-walk' | 'views' | 'markets-shopping' | 'culture' | 'downtime';

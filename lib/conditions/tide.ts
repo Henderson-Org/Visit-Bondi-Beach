@@ -1,5 +1,5 @@
 /**
- * Pure tide helpers — derive a normalized TideInfo from a list of tide extremes.
+ * Pure tide helpers - derive a normalized TideInfo from a list of tide extremes.
  * No I/O and `now` is injected, so it's deterministic and unit-tested.
  */
 import type { TideExtreme, TideInfo } from './types';

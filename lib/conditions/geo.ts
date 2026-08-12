@@ -1,6 +1,6 @@
 /**
  * Pure geo/units helpers shared by adapters and the summary engine.
- * No I/O — safe to unit-test in isolation.
+ * No I/O - safe to unit-test in isolation.
  */
 import type { Compass } from './types';
 

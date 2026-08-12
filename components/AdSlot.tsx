@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 
 /**
- * A single, deliberately-placed AdSense display unit — NOT Auto Ads.
+ * A single, deliberately-placed AdSense display unit - NOT Auto Ads.
  * Design goals (owner: "natural fit, don't take over"):
  *  - reserved min-height so it never causes layout shift (CLS)
  *  - clearly labelled "Advertisement"
@@ -31,7 +31,7 @@ export function AdSlot({ slot, label = 'In-article' }: { slot?: string; label?: 
       try {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
       } catch {
-        /* AdSense not ready — ignore */
+        /* AdSense not ready - ignore */
       }
     }
   }, [adSlot]);
@@ -47,7 +47,7 @@ export function AdSlot({ slot, label = 'In-article' }: { slot?: string; label?: 
     );
   }
 
-  if (!adSlot) return null; // production, but no ad unit configured — render nothing
+  if (!adSlot) return null; // production, but no ad unit configured - render nothing
 
   return (
     <aside aria-label="Advertisement" className="my-8">

@@ -1,5 +1,5 @@
 /**
- * Daily Weather & Surf Summary — a compact, prominent "what's the day look like?"
+ * Daily Weather & Surf Summary - a compact, prominent "what's the day look like?"
  * module for the top of the page.
  *
  * Server component: it fetches (server-side, cached) and renders the written
@@ -72,9 +72,9 @@ function detailRows(c: Conditions): Labelled[] {
 }
 
 /**
- * Conditions information panel — a slim band high on the homepage that shows the whole
+ * Conditions information panel - a slim band high on the homepage that shows the whole
  * day's weather + surf at once (no horizontal scroll). The stats wrap into a responsive
- * auto-fitting grid, so every figure — including the richer surf/sun detail — stays
+ * auto-fitting grid, so every figure - including the richer surf/sun detail - stays
  * visible at any width. Same compact type size throughout. The full written summary lives
  * on the /bondi-weather hub.
  */
@@ -101,7 +101,7 @@ function ConditionsBar({ c }: { c: Conditions }) {
         <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
           <p className="text-sm text-ink-700">
             <span className="font-semibold text-ink-900">
-              <span aria-hidden="true">{emoji}</span> {temp != null ? `${temp}°` : '—'}
+              <span aria-hidden="true">{emoji}</span> {temp != null ? `${temp}°` : '-'}
             </span>
             {label && <span className="ml-2 text-ink-500">{label}</span>}
             <span className="ml-2 text-ink-400">· Bondi today</span>
@@ -166,7 +166,7 @@ export async function WeatherSurfSummary({
       <div className="mt-2 flex items-center gap-3">
         <span className="text-3xl leading-none" aria-hidden="true">{emoji}</span>
         <p className="text-2xl font-semibold text-ink-900">
-          {temp != null ? `${temp}°C` : '—'}
+          {temp != null ? `${temp}°C` : '-'}
           {label && <span className="ml-2 text-base font-normal text-ink-500">{label}</span>}
         </p>
       </div>

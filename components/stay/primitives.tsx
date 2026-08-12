@@ -2,7 +2,7 @@ import { PRICE_LABEL, TAG_LABEL, type PriceBand, type Tag } from '@/data/accommo
 
 /**
  * Price positioning shown as the band's dollar glyphs followed by the plain-English
- * label (e.g. "$ Budget", "$$$ Upper mid-range"). We render only the active glyphs —
+ * label (e.g. "$ Budget", "$$$ Upper mid-range"). We render only the active glyphs -
  * padding out to four with muted signs made cheap places read as "$$$$" at a glance.
  */
 export function PriceBadge({ band, className = '' }: { band: PriceBand; className?: string }) {

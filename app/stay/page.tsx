@@ -19,7 +19,7 @@ import {
 
 const TITLE = 'Where to Stay in Bondi Beach';
 const DESCRIPTION =
-  'Where to stay in Bondi Beach, from a local: how the areas compare, who each place suits, and a curated shortlist of hotels, apartments and hostels — with honest picks, not a booking engine.';
+  'Where to stay in Bondi Beach, from a local: how the areas compare, who each place suits, and a curated shortlist of hotels, apartments and hostels - with honest picks, not a booking engine.';
 const HERO = '/images/articles/0886b63eac692e12.webp';
 
 export const revalidate = 86400;
@@ -53,11 +53,11 @@ const CATEGORIES = [
 const FAQS = [
   {
     q: 'Where is the best area to stay in Bondi?',
-    a: 'For a first visit, stay on or just behind Campbell Parade at Bondi Beach — you wake up by the sand, the cafés and the start of the coastal walk. For better value and the easiest transport (the train ends there), stay in Bondi Junction, about a 10-minute bus down to the beach. North Bondi is calmer and good for families; Tamarama and Bronte suit couples wanting the Eastern Beaches without the crowds.',
+    a: 'For a first visit, stay on or just behind Campbell Parade at Bondi Beach - you wake up by the sand, the cafés and the start of the coastal walk. For better value and the easiest transport (the train ends there), stay in Bondi Junction, about a 10-minute bus down to the beach. North Bondi is calmer and good for families; Tamarama and Bronte suit couples wanting the Eastern Beaches without the crowds.',
   },
   {
     q: 'What is the best hotel in Bondi Beach?',
-    a: 'For location and style, QT Bondi is the standout beachfront boutique hotel, right on Campbell Parade. For families and longer stays, an apartment-hotel such as Adina Bondi Beach — with kitchens and a pool — is often the better choice. The right pick depends on whether you want to be directly on the sand or want space and self-catering.',
+    a: 'For location and style, QT Bondi is the standout beachfront boutique hotel, right on Campbell Parade. For families and longer stays, an apartment-hotel such as Adina Bondi Beach - with kitchens and a pool - is often the better choice. The right pick depends on whether you want to be directly on the sand or want space and self-catering.',
   },
   {
     q: 'Where should families stay in Bondi?',
@@ -92,7 +92,7 @@ export default function StayHub() {
         image={HERO}
         kicker="Stay"
         title={TITLE}
-        intro="Bondi is small, so where you stay shapes your whole trip more than the exact address does. Here's how the areas differ, a shortlist worth booking, and guides to the places we know best — written by locals, not a booking engine."
+        intro="Bondi is small, so where you stay shapes your whole trip more than the exact address does. Here's how the areas differ, a shortlist worth booking, and guides to the places we know best - written by locals, not a booking engine."
         crumbs={CRUMBS}
         chips={[
           { label: 'Find a place', href: '#browse' },
@@ -107,7 +107,7 @@ export default function StayHub() {
         <h2 className="font-display text-2xl text-ink-900">Where should you stay in Bondi Beach?</h2>
         <p className="mt-3 text-lg leading-relaxed text-ink-700">
           Stay <strong className="font-semibold text-ink-900">on Campbell Parade at Bondi Beach</strong> if
-          you want to walk out onto the sand and be in the middle of everything — best for first-timers and
+          you want to walk out onto the sand and be in the middle of everything - best for first-timers and
           couples. Choose <strong className="font-semibold text-ink-900">Bondi Junction</strong> for better
           value and the easiest transport, or a <strong className="font-semibold text-ink-900">serviced
           apartment</strong> if you&rsquo;re travelling as a family or staying a while and want a kitchen and
@@ -134,7 +134,7 @@ export default function StayHub() {
         </div>
       </section>
 
-      {/* Browse by need — category pages */}
+      {/* Browse by need - category pages */}
       <section className="mx-auto max-w-5xl px-4 pt-14">
         <h2 className="font-display text-2xl md:text-3xl text-ink-900">Browse by what you need</h2>
         <div className="mt-5 grid gap-2.5 sm:grid-cols-2">

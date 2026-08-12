@@ -55,7 +55,7 @@ export function PlannerApp() {
     track('itinerary_swap', { kind: item.kind, from: item.refId });
   };
 
-  // Switch a bookable to its free alternative — the "surf lesson or the coastal walk" fallback.
+  // Switch a bookable to its free alternative - the "surf lesson or the coastal walk" fallback.
   const onAlt = (index: number) => {
     if (!itinerary || !prefs) return;
     const item = itinerary.items[index];
@@ -109,12 +109,12 @@ export function PlannerApp() {
       {itinerary.hasAffiliate && (
         <p className="mt-5 rounded-lg border border-sand-200 bg-sand-100 px-3 py-2 text-xs text-ink-500">
           Some activities are bookable experiences with affiliate links. We may earn a commission if you book,
-          at no extra cost to you — and it never changes what we recommend.
+          at no extra cost to you - and it never changes what we recommend.
         </p>
       )}
 
       <p className="mt-4 text-center text-xs text-ink-400">
-        Built around Bondi’s best — swap anything you’re not sure about. Opening hours can change; confirm before you go.
+        Built around Bondi’s best - swap anything you’re not sure about. Opening hours can change; confirm before you go.
       </p>
     </div>
   );

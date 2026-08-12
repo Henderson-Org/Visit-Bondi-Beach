@@ -5,11 +5,11 @@
   "sources": [
     { "label": "City2Surf (official event site)", "url": "https://city2surf.com.au/" },
     { "label": "Transport for NSW", "url": "https://transportnsw.info/" },
-    { "label": "City2Surf (Sydney) — Wikipedia", "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)" }
+    { "label": "City2Surf (Sydney) - Wikipedia", "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)" }
   ],
   "blocks": [
     { "type": "p", "text": "Left your run a bit late? Don't panic. If you already have a base of fitness, three focused weeks is genuinely enough to get you across the City2Surf finish line at Bondi. You won't set a personal best off three weeks, but you can arrive fit, confident and smiling. Here's the realistic plan I'd hand a mate who signed up on a whim." },
-    { "type": "callout", "tone": "warning", "title": "One honest caveat first", "text": "This plan assumes you can already run a few kilometres without stopping. Cramming a 14km event into three weeks from zero is how people pick up shin splints and calf strains. If you're starting cold or nursing a niggle, check with a GP or physio — finishing healthy beats finishing fast." },
+    { "type": "callout", "tone": "warning", "title": "One honest caveat first", "text": "This plan assumes you can already run a few kilometres without stopping. Cramming a 14km event into three weeks from zero is how people pick up shin splints and calf strains. If you're starting cold or nursing a niggle, check with a GP or physio - finishing healthy beats finishing fast." },
     { "type": "quickFacts", "items": [
       { "label": "Distance", "value": "14 km, Hyde Park to Bondi Beach" },
       { "label": "The big obstacle", "value": "Heartbreak Hill (around the halfway mark)" },
@@ -17,47 +17,47 @@
       { "label": "Best prep", "value": "Consistency + hill practice" }
     ] },
     { "type": "h2", "text": "Know the course before you train for it" },
-    { "type": "p", "text": "The City2Surf runs 14km from Hyde Park in the CBD out to Bondi Beach, and the course is famous for one reason: Heartbreak Hill. It's the long, dragging climb up New South Head Road out of Rose Bay, roughly at the halfway point, and it's where undertrained runners fall apart. The rest rolls — a downhill blast through William Street early, then undulations to the coast. If you only have three weeks, spend some of it on hills." },
+    { "type": "p", "text": "The City2Surf runs 14km from Hyde Park in the CBD out to Bondi Beach, and the course is famous for one reason: Heartbreak Hill. It's the long, dragging climb up New South Head Road out of Rose Bay, roughly at the halfway point, and it's where undertrained runners fall apart. The rest rolls - a downhill blast through William Street early, then undulations to the coast. If you only have three weeks, spend some of it on hills." },
     { "type": "h2", "text": "The three-week plan" },
-    { "type": "p", "text": "Three runs and a long run each week, with genuine rest or cross-training between. Run at a pace where you could hold a conversation, unless I say otherwise — slower than you think is almost always right." },
-    { "type": "h3", "text": "Week 1 — build a base" },
+    { "type": "p", "text": "Three runs and a long run each week, with genuine rest or cross-training between. Run at a pace where you could hold a conversation, unless I say otherwise - slower than you think is almost always right." },
+    { "type": "h3", "text": "Week 1 - build a base" },
     { "type": "list", "items": [
-      "Mon: Rest or light cross-training — easy cycle, swim or yoga.",
-      "Tue: Tempo run — 5 km at a comfortably hard, controlled effort.",
-      "Wed: Easy run — 6 km, conversational.",
-      "Thu: Hill repeats — 1 km warm-up, 6 x 200 m uphill efforts jogging back down to recover, 1 km cool-down.",
+      "Mon: Rest or light cross-training - easy cycle, swim or yoga.",
+      "Tue: Tempo run - 5 km at a comfortably hard, controlled effort.",
+      "Wed: Easy run - 6 km, conversational.",
+      "Thu: Hill repeats - 1 km warm-up, 6 x 200 m uphill efforts jogging back down to recover, 1 km cool-down.",
       "Fri: Rest or light cross-training.",
-      "Sat: Long run — 8 km, easy and steady.",
-      "Sun: Recovery run — 5 km, very relaxed."
+      "Sat: Long run - 8 km, easy and steady.",
+      "Sun: Recovery run - 5 km, very relaxed."
     ] },
-    { "type": "h3", "text": "Week 2 — build endurance" },
+    { "type": "h3", "text": "Week 2 - build endurance" },
     { "type": "list", "items": [
       "Mon: Rest or light cross-training.",
-      "Tue: Intervals — 1 km warm-up, 4 x 800 m at a hard-but-repeatable pace with 400 m jog between, 1 km cool-down.",
-      "Wed: Easy run — 7 km, conversational.",
-      "Thu: Fartlek — 1 km warm-up, then 5 km alternating 1 min quicker / 1 min easy, 1 km cool-down.",
+      "Tue: Intervals - 1 km warm-up, 4 x 800 m at a hard-but-repeatable pace with 400 m jog between, 1 km cool-down.",
+      "Wed: Easy run - 7 km, conversational.",
+      "Thu: Fartlek - 1 km warm-up, then 5 km alternating 1 min quicker / 1 min easy, 1 km cool-down.",
       "Fri: Rest or light cross-training.",
-      "Sat: Long run — 10 km, easy and steady. This is your confidence builder.",
-      "Sun: Recovery run — 5 km, very relaxed."
+      "Sat: Long run - 10 km, easy and steady. This is your confidence builder.",
+      "Sun: Recovery run - 5 km, very relaxed."
     ] },
-    { "type": "h3", "text": "Race week — sharpen and rest" },
+    { "type": "h3", "text": "Race week - sharpen and rest" },
     { "type": "list", "items": [
-      "Mon: Easy run — 5 km, conversational.",
+      "Mon: Easy run - 5 km, conversational.",
       "Tue: Rest or 30 min light activity.",
-      "Wed: Easy run — 4 km with 4 x 100 m relaxed strides at the end to keep the legs snappy.",
+      "Wed: Easy run - 4 km with 4 x 100 m relaxed strides at the end to keep the legs snappy.",
       "Thu: Rest or 30 min light activity.",
       "Fri: Full rest.",
-      "Sat: Full rest — lay out your kit and hydrate through the day.",
+      "Sat: Full rest - lay out your kit and hydrate through the day.",
       "Sun: Race day. Start conservatively, walk the steep pinch of Heartbreak Hill if you need to, and pick it up over the final kilometres once you smell the salt air."
     ] },
-    { "type": "localTip", "text": "Do at least one training run on the actual finish. The last stretch through Bondi has a few sneaky rises before the reward, so jogging the Bondi end — even just Campbell Parade to the sand — makes race day feel like home turf." },
-    { "type": "callout", "tone": "note", "title": "The unglamorous stuff that actually matters", "text": "Sleep 7–9 hours, especially in race week. Hydrate steadily rather than gulping litres the morning of. Don't debut brand-new shoes or a new breakfast on race day — practise both on your long runs. If a pain feels sharp rather than tired, back off." },
+    { "type": "localTip", "text": "Do at least one training run on the actual finish. The last stretch through Bondi has a few sneaky rises before the reward, so jogging the Bondi end - even just Campbell Parade to the sand - makes race day feel like home turf." },
+    { "type": "callout", "tone": "note", "title": "The unglamorous stuff that actually matters", "text": "Sleep 7–9 hours, especially in race week. Hydrate steadily rather than gulping litres the morning of. Don't debut brand-new shoes or a new breakfast on race day - practise both on your long runs. If a pain feels sharp rather than tired, back off." },
     { "type": "faq", "items": [
-      { "q": "Can you really train for City2Surf in only three weeks?", "a": "If you already run occasionally and have no injuries, yes — three weeks is enough to complete the 14km comfortably, even walking parts of the hills. It's not enough to chase a fast time from scratch, or if you're starting from no running base at all. In that case, aim to finish and take walk breaks." },
+      { "q": "Can you really train for City2Surf in only three weeks?", "a": "If you already run occasionally and have no injuries, yes - three weeks is enough to complete the 14km comfortably, even walking parts of the hills. It's not enough to chase a fast time from scratch, or if you're starting from no running base at all. In that case, aim to finish and take walk breaks." },
       { "q": "How long is the City2Surf and where does it finish?", "a": "It's 14km, starting in Hyde Park in the Sydney CBD and finishing at Bondi Beach. Check the official City2Surf website for the current year's date, start waves and start times before you plan race week." },
-      { "q": "What should I do the day before the race?", "a": "Rest, hydrate steadily through the day, lay out your bib and kit, and eat familiar food — nothing experimental. Don't squeeze in a last-minute long run; the fitness is already banked and extra kilometres now only add fatigue." },
+      { "q": "What should I do the day before the race?", "a": "Rest, hydrate steadily through the day, lay out your bib and kit, and eat familiar food - nothing experimental. Don't squeeze in a last-minute long run; the fitness is already banked and extra kilometres now only add fatigue." },
       { "q": "How should I get home from Bondi after finishing?", "a": "Roads around Bondi close for the event and public transport is very busy on race morning, so plan ahead rather than relying on a quick pickup. Check Transport for NSW and the City2Surf site for current travel and road-closure advice before the day." }
     ] },
-    { "type": "p", "text": "That's it — nothing heroic, just three consistent weeks and a bit of respect for the hills. Do the sessions, sleep well, start steady, and I'll see you jogging onto the Bondi sand with a medal and a good excuse for a swim. Good luck." }
+    { "type": "p", "text": "That's it - nothing heroic, just three consistent weeks and a bit of respect for the hills. Do the sessions, sleep well, start steady, and I'll see you jogging onto the Bondi sand with a medal and a good excuse for a swim. Good luck." }
   ]
 }

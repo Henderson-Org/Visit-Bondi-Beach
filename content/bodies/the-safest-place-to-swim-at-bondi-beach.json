@@ -3,14 +3,14 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-10",
   "sources": [
-    { "label": "Beachsafe (Surf Life Saving Australia) — Bondi Beach conditions", "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi-beach/bondi-beach" },
-    { "label": "Bondi Lifeguards — Surf safety", "url": "https://www.bondilifeguards.com/surf-safety" },
-    { "label": "Waverley Council — Biddigal Reserve, North Bondi", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/biddigal_reserve" },
-    { "label": "Australia Unseen — North Bondi Children's Pool (Mermaid Pool, built 1947) history", "url": "https://australiaunseen.com/en-us/pages/rock-pool/north-bondi-childrens-pool" },
-    { "label": "Science of the Surf — the 'Backpackers Express' rip at Bondi", "url": "https://www.scienceofthesurf.com/rip-of-the-month-2009/june-2009-backpackersbondi" }
+    { "label": "Beachsafe (Surf Life Saving Australia) - Bondi Beach conditions", "url": "https://beachsafe.org.au/beach/nsw/waverley/bondi-beach/bondi-beach" },
+    { "label": "Bondi Lifeguards - Surf safety", "url": "https://www.bondilifeguards.com/surf-safety" },
+    { "label": "Waverley Council - Biddigal Reserve, North Bondi", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/biddigal_reserve" },
+    { "label": "Australia Unseen - North Bondi Children's Pool (Mermaid Pool, built 1947) history", "url": "https://australiaunseen.com/en-us/pages/rock-pool/north-bondi-childrens-pool" },
+    { "label": "Science of the Surf - the 'Backpackers Express' rip at Bondi", "url": "https://www.scienceofthesurf.com/rip-of-the-month-2009/june-2009-backpackersbondi" }
   ],
   "blocks": [
-    { "type": "p", "text": "The safest place to swim at Bondi is between the red-and-yellow flags — and most days that puts you toward the calmer northern end of the beach. The flags aren't decoration. The lifeguards plant them each morning over the water they've judged safest, and shift them as the surf changes through the day. Swim between them and you're swimming where trained eyes are watching." },
+    { "type": "p", "text": "The safest place to swim at Bondi is between the red-and-yellow flags - and most days that puts you toward the calmer northern end of the beach. The flags aren't decoration. The lifeguards plant them each morning over the water they've judged safest, and shift them as the surf changes through the day. Swim between them and you're swimming where trained eyes are watching." },
     { "type": "quickFacts", "items": [
       { "label": "Safest swim", "value": "Between the red-and-yellow flags" },
       { "label": "Calmest end", "value": "North Bondi, toward the Ben Buckler headland" },
@@ -18,25 +18,25 @@
       { "label": "Avoid if unsure", "value": "The southern end, near the Icebergs rocks" },
       { "label": "Patrol", "value": "Professional lifeguards on duty year-round" }
     ] },
-    { "type": "callout", "tone": "warning", "title": "The rip is the real danger, not the depth", "text": "Most Bondi rescues involve rip currents — narrow rivers of water pulling straight out to sea. The beach's notorious one is the 'Backpackers Express', which sets up toward the southern end near the rocks (named for the hostels nearby, whose guests would sprint in and get swept out). If it grabs you, don't fight it: stay calm, float, raise an arm for the lifeguards, and once it eases swim across it — parallel to the beach — back to the flags." },
+    { "type": "callout", "tone": "warning", "title": "The rip is the real danger, not the depth", "text": "Most Bondi rescues involve rip currents - narrow rivers of water pulling straight out to sea. The beach's notorious one is the 'Backpackers Express', which sets up toward the southern end near the rocks (named for the hostels nearby, whose guests would sprint in and get swept out). If it grabs you, don't fight it: stay calm, float, raise an arm for the lifeguards, and once it eases swim across it - parallel to the beach - back to the flags." },
     { "type": "h2", "text": "North end vs south end" },
-    { "type": "p", "text": "The safe zone moves, so I never point people at a fixed \"safe corner\". But as a rule I send families and less-confident swimmers north, up toward the Ben Buckler headland: it's the more sheltered stretch, the water tends to be shallower and gentler, and it's usually where the flags go. The southern end — down by the rocks below the Icebergs — is where the surf is punchier and rips set up along the rock line. That end is for surfers and strong swimmers." },
-    { "type": "localTip", "text": "Before you get changed, stand at the flags and watch the water for two minutes. A darker, flatter channel with fewer breaking waves, cutting out through the surf, is usually a rip — not a calm lane. When in doubt, ask a lifeguard. They would far rather point you to the right spot than pull you out of the wrong one." },
+    { "type": "p", "text": "The safe zone moves, so I never point people at a fixed \"safe corner\". But as a rule I send families and less-confident swimmers north, up toward the Ben Buckler headland: it's the more sheltered stretch, the water tends to be shallower and gentler, and it's usually where the flags go. The southern end - down by the rocks below the Icebergs - is where the surf is punchier and rips set up along the rock line. That end is for surfers and strong swimmers." },
+    { "type": "localTip", "text": "Before you get changed, stand at the flags and watch the water for two minutes. A darker, flatter channel with fewer breaking waves, cutting out through the surf, is usually a rip - not a calm lane. When in doubt, ask a lifeguard. They would far rather point you to the right spot than pull you out of the wrong one." },
     { "type": "h2", "text": "For little kids: the North Bondi children's pool" },
-    { "type": "p", "text": "If you've got toddlers, skip the open surf. At the far northern end there's a small, shallow, sandy-bottomed children's pool — first built by Waverley Council in 1947 as the 'Mermaid Pool' — tucked beside the Wally Weekes tidal pool. It's sheltered from the waves, knee-deep and calm, and it's my first recommendation for anyone travelling with small children." },
+    { "type": "p", "text": "If you've got toddlers, skip the open surf. At the far northern end there's a small, shallow, sandy-bottomed children's pool - first built by Waverley Council in 1947 as the 'Mermaid Pool' - tucked beside the Wally Weekes tidal pool. It's sheltered from the waves, knee-deep and calm, and it's my first recommendation for anyone travelling with small children." },
     { "type": "callout", "tone": "note", "title": "Supervision still comes first", "text": "Even in shallow, sheltered water, young children need an adult within arm's reach. Drowning is silent and fast. Stay off your phone, stay close, and take turns watching if you're in a group." },
     { "type": "list", "items": [
       "Always swim between the red-and-yellow flags, and do what the lifeguards tell you.",
       "Never swim alone, at night, or after drinking.",
-      "Check conditions on Beachsafe before you go in — surf, wind and hazard warnings change constantly.",
+      "Check conditions on Beachsafe before you go in - surf, wind and hazard warnings change constantly.",
       "If you're not a strong ocean swimmer, stay where you can comfortably touch the bottom.",
-      "In trouble? Don't thrash — float, stay calm, and raise one arm for help."
+      "In trouble? Don't thrash - float, stay calm, and raise one arm for help."
     ] },
     { "type": "faq", "items": [
-      { "q": "Where exactly is the safest place to swim at Bondi?", "a": "Between the red-and-yellow flags, which the lifeguards set over the safest water each day — usually toward the calmer northern end. For young children, the small sheltered children's pool at the far north end is safer still." },
+      { "q": "Where exactly is the safest place to swim at Bondi?", "a": "Between the red-and-yellow flags, which the lifeguards set over the safest water each day - usually toward the calmer northern end. For young children, the small sheltered children's pool at the far north end is safer still." },
       { "q": "Is the north or south end of Bondi safer?", "a": "The northern end, up toward the Ben Buckler headland, is the more sheltered, calmer stretch and where I'd send families. The southern end, below the Icebergs rocks, has stronger surf and is where rips commonly form, so it suits surfers and confident swimmers." },
       { "q": "What is the 'Backpackers Express'?", "a": "It's the nickname for Bondi's most persistent rip current, which typically forms toward the southern end near the rocks. Swimming between the flags keeps you clear of it and in view of the lifeguards." },
-      { "q": "What should I do if I'm caught in a rip?", "a": "Don't fight it. Stay calm, float and raise one arm for the lifeguards. Let the rip carry you until it weakens, then swim across it — parallel to the shore — back toward the flags." }
+      { "q": "What should I do if I'm caught in a rip?", "a": "Don't fight it. Stay calm, float and raise one arm for the lifeguards. Let the rip carry you until it weakens, then swim across it - parallel to the shore - back toward the flags." }
     ] }
   ]
 }
