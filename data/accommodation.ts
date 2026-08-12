@@ -322,7 +322,7 @@ export const PROPERTIES: Property[] = [
   {
     slug: 'bondi-beachouse-yha',
     name: 'Bondi Beachouse YHA',
-    area: 'north-bondi',
+    area: 'tamarama',
     type: 'hostel',
     priceBand: '$',
     neighbourhood: 'Fletcher Street, above the Tamarama end',

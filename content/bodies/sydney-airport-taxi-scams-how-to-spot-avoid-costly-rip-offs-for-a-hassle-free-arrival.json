@@ -32,7 +32,7 @@
     { "type": "quickFacts", "items": [
       { "label": "Where to queue", "value": "Official rank on the arrivals level, outside each terminal" },
       { "label": "Meter", "value": "Must be running (or a set fare agreed first)" },
-      { "label": "Airport to Bondi", "value": "Roughly 20–30 min in normal traffic" },
+      { "label": "Airport to Bondi", "value": "Roughly 25–45 min in normal traffic" },
       { "label": "If something's wrong", "value": "Get the receipt; report to NSW Fair Trading" }
     ] },
     { "type": "localTip", "text": "Fares to Bondi are metered, not a fixed CBD flat fare, so the cost shifts with traffic, tolls and time of day. Screenshot an estimate from your maps app before you land, and you'll know instantly if a driver's quote is out of line. For current regulated rates, check the Transport for NSW taxi fares page." },

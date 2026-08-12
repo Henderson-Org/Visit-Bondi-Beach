@@ -217,7 +217,7 @@ export const BONDI_VENUES: Venue[] = [
   },
   {
     id: 'porch-and-parlour',
-    name: 'Porch and Parlour',
+    name: 'Porch & Parlour',
     type: 'cafe',
     cuisine: ['cafe', 'healthy'],
     zone: 'north-bondi',
@@ -304,7 +304,7 @@ export const BONDI_VENUES: Venue[] = [
   },
   {
     id: 'lox-stock-barrel',
-    name: 'Lox, Stock & Barrel',
+    name: 'Lox Stock & Barrel',
     type: 'cafe',
     cuisine: ['cafe', 'jewish-deli'],
     zone: 'gould-hall',

@@ -10,7 +10,7 @@
     { "label": "Mascot railway station — no Station Access Fee since 2011", "url": "https://en.wikipedia.org/wiki/Mascot_railway_station" }
   ],
   "blocks": [
-    { "type": "p", "text": "Bondi is about 15 km from Sydney Airport, and I've done this run more times than I can count picking friends up off flights. The short version: a taxi or rideshare is fastest (roughly 30-50 minutes door to door), and the train to Bondi Junction plus a quick bus is cheapest (around 60-90 minutes all up). Here's every realistic option and who each one suits." },
+    { "type": "p", "text": "Bondi is about 14 km from Sydney Airport, and I've done this run more times than I can count picking friends up off flights. The short version: a taxi or rideshare is fastest (roughly 25-45 minutes door to door), and the train to Bondi Junction plus a quick bus is cheapest (around 60-90 minutes all up). Here's every realistic option and who each one suits." },
     { "type": "quickFacts", "items": [
       { "label": "Distance", "value": "About 15 km" },
       { "label": "Fastest", "value": "Taxi / rideshare, ~30-50 min" },

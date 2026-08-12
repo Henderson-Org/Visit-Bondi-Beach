@@ -122,7 +122,7 @@
       "type": "callout",
       "tone": "warning",
       "title": "Sort your ride home before you go out",
-      "text": "Bondi has no train station — the nearest is Bondi Junction, roughly 3km uphill. Late at night the 333 runs as a 24-hour service between the city and North Bondi, otherwise it's rideshare, where surge pricing on a warm Saturday is very real. Check the Transport for NSW trip planner for current routes and times before you leave."
+      "text": "Bondi has no train station — the nearest is Bondi Junction, roughly 2.5km uphill. Late at night the 333 runs as a 24-hour service between the city and North Bondi, otherwise it's rideshare, where surge pricing on a warm Saturday is very real. Check the Transport for NSW trip planner for current routes and times before you leave."
     },
     {
       "type": "faq",
@@ -137,7 +137,7 @@
         },
         {
           "q": "How do I get home from Bondi late at night?",
-          "a": "Bondi has no train station — the nearest is Bondi Junction, about 3km uphill. The 333 runs as a 24-hour service between the city and North Bondi, so it's the overnight bus option; otherwise rideshare is the usual choice. Check the Transport for NSW trip planner for current night-bus times."
+          "a": "Bondi has no train station — the nearest is Bondi Junction, about 2.5km uphill. The 333 runs as a 24-hour service between the city and North Bondi, so it's the overnight bus option; otherwise rideshare is the usual choice. Check the Transport for NSW trip planner for current night-bus times."
         }
       ]
     }
