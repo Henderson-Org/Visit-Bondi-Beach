@@ -112,19 +112,22 @@ export default function CoffeeIndexPage() {
         <section className="my-10">
           <h2 className="font-display text-2xl text-ink-900">The spread</h2>
           <p className="mt-2 text-ink-600">Every café in our sample, plotted by the price of a flat white. The line marks the median.</p>
-          <div className="mt-6 overflow-x-auto">
-            <svg viewBox="0 0 100 26" className="min-w-[520px] w-full" role="img" aria-label={`Distribution of Bondi flat white prices, median ${fmt(MEDIAN)}`}>
+          {/* viewBox margins (x: -6, y: -3) keep the edge axis labels and the median caption fully
+              inside the drawing area; no min-width so the whole plot fits a phone without
+              horizontal scrolling (it previously clipped/cut off on mobile). */}
+          <div className="mt-6">
+            <svg viewBox="-6 -3 112 31" className="w-full" role="img" aria-label={`Distribution of Bondi flat white prices, median ${fmt(MEDIAN)}`}>
               {/* axis */}
               <line x1="0" y1="20" x2="100" y2="20" className="stroke-sand-300" strokeWidth="0.3" />
               {[4, 4.5, 5, 5.5, 6].map((t) => (
                 <g key={t}>
                   <line x1={x(t)} y1="19.4" x2={x(t)} y2="20.6" className="stroke-sand-400" strokeWidth="0.3" />
-                  <text x={x(t)} y="24" textAnchor="middle" className="fill-ink-500" style={{ fontSize: 2.6 }}>${t.toFixed(2)}</text>
+                  <text x={x(t)} y="24" textAnchor="middle" className="fill-ink-500" style={{ fontSize: 3 }}>${t.toFixed(2)}</text>
                 </g>
               ))}
               {/* median line */}
               <line x1={x(MEDIAN)} y1="2" x2={x(MEDIAN)} y2="20" className="stroke-ocean-600" strokeWidth="0.4" strokeDasharray="0.8 0.8" />
-              <text x={x(MEDIAN)} y="1.4" textAnchor="middle" className="fill-ocean-700" style={{ fontSize: 2.6, fontWeight: 600 }}>median {fmt(MEDIAN)}</text>
+              <text x={x(MEDIAN)} y="0.8" textAnchor="middle" className="fill-ocean-700" style={{ fontSize: 3, fontWeight: 600 }}>median {fmt(MEDIAN)}</text>
               {/* dots (vertical jitter for overlaps by index parity) */}
               {ranked.map((r, i) => (
                 <circle key={r.venue_id} cx={x(r.price)} cy={17 - (i % 5) * 2.6} r="1.05" className="fill-ocean-500/80" >
