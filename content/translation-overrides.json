@@ -4901,7 +4901,7 @@
       },
       {
         "type": "p",
-        "text": "Sie brauchen kein Papierticket, und die Fahrer verkaufen auch keine. Tippen Sie beim Einsteigen einfach mit einer Opal-Karte oder einer beliebigen kontaktlosen Karte oder einem Smartphone (Apple Pay, Google Pay und dergleichen) - im Bus tippen Sie nur beim Einsteigen. Opal-Karten gibt es in Kiosken, Supermärkten und Bahnhöfen, falls Sie eine bevorzugen, aber für die meisten Besucher ist die Karte, die Sie ohnehin dabeihaben, die einfachste Option. Die Fahrpreise richten sich nach der Entfernung, mit Tages- und Wochenobergrenzen - prüfen Sie die aktuellen Beträge vor der Fahrt bei Transport for NSW."
+        "text": "Sie brauchen kein Papierticket, und die Fahrer verkaufen auch keine. Tippen Sie beim Einsteigen einfach mit einer Opal-Karte oder einer beliebigen kontaktlosen Karte oder einem Smartphone (Apple Pay, Google Pay und dergleichen) ein und beim Aussteigen wieder aus - Busse rechnen nach Entfernung ab, wer das Austippen vergisst, zahlt den Höchstpreis. Opal-Karten gibt es in Kiosken, Supermärkten und Bahnhöfen, falls Sie eine bevorzugen, aber für die meisten Besucher ist die Karte, die Sie ohnehin dabeihaben, die einfachste Option. Die Fahrpreise richten sich nach der Entfernung, mit Tages- und Wochenobergrenzen - prüfen Sie die aktuellen Beträge vor der Fahrt bei Transport for NSW."
       },
       {
         "type": "callout",
@@ -4942,11 +4942,11 @@
           },
           {
             "q": "Brauche ich eine Opal-Karte oder kann ich mit dem Handy tippen?",
-            "a": "Beides funktioniert. Sie können mit einer physischen Opal-Karte oder mit einer kontaktlosen Bankkarte oder einem Smartphone-Wallet einsteigen - gleiche Fahrpreise und gleiche Tagesobergrenzen. Im Bus tippen Sie nur beim Einsteigen."
+            "a": "Beides funktioniert. Sie können mit einer physischen Opal-Karte oder mit einer kontaktlosen Bankkarte oder einem Smartphone-Wallet einsteigen - gleiche Fahrpreise und gleiche Tagesobergrenzen. Im Bus tippen Sie beim Einsteigen ein und beim Aussteigen wieder aus - die Fahrpreise richten sich nach der Entfernung, und ohne Austippen wird der Höchstpreis berechnet."
           },
           {
             "q": "Wie lange dauert die Fahrt von der City nach Bondi?",
-            "a": "Planen Sie ab Circular Quay etwa 40-45 Minuten ein - egal, ob Sie Zug-plus-Bus nehmen oder den 333 die ganze Strecke fahren. An vollen Sommerwochenenden dauert es länger, wenn Verkehr und Menschenmengen die Busse ausbremsen. Prüfen Sie den Reiseplaner von Transport for NSW für aktuelle Zeiten."
+            "a": "Planen Sie ab Circular Quay etwa 40-45 Minuten mit Zug-plus-Bus ein (die direkte Fahrt mit dem 333 dauert ähnlich lang, ist aber meist etwas langsamer). An vollen Sommerwochenenden dauert es länger, wenn Verkehr und Menschenmengen die Busse ausbremsen. Prüfen Sie den Reiseplaner von Transport for NSW für aktuelle Zeiten."
           },
           {
             "q": "Lohnt sich die Anfahrt mit dem Auto zum Bondi Beach?",
@@ -10895,7 +10895,7 @@
       },
       {
         "type": "p",
-        "text": "No necesitas un billete de papel, y los conductores no los venden. Basta con validar al subir con una tarjeta Opal o con cualquier tarjeta o teléfono sin contacto (Apple Pay, Google Pay y similares); en los autobuses solo se valida al subir (tap on). Si prefieres una tarjeta Opal, se venden en tiendas de conveniencia, supermercados y estaciones, pero para la mayoría de los visitantes la tarjeta que ya llevas en el bolsillo es lo más cómodo. Las tarifas dependen de la distancia y tienen topes diarios y semanales: consulta los importes actuales en Transport for NSW antes de viajar."
+        "text": "No necesitas un billete de papel, y los conductores no los venden. Basta con validar al subir con una tarjeta Opal o con cualquier tarjeta o teléfono sin contacto (Apple Pay, Google Pay y similares), y volver a validar al bajar (tap off): los autobuses cobran según la distancia, así que saltarse la validación al bajar cuesta la tarifa máxima. Si prefieres una tarjeta Opal, se venden en tiendas de conveniencia, supermercados y estaciones, pero para la mayoría de los visitantes la tarjeta que ya llevas en el bolsillo es lo más cómodo. Las tarifas dependen de la distancia y tienen topes diarios y semanales: consulta los importes actuales en Transport for NSW antes de viajar."
       },
       {
         "type": "callout",
@@ -10936,11 +10936,11 @@
           },
           {
             "q": "¿Necesito una tarjeta Opal o puedo validar con el móvil?",
-            "a": "Ambas cosas sirven. Puedes validar con una tarjeta Opal física o con una tarjeta bancaria sin contacto o el monedero del móvil: mismas tarifas y mismos topes diarios. En los autobuses solo se valida al subir."
+            "a": "Ambas cosas sirven. Puedes validar con una tarjeta Opal física o con una tarjeta bancaria sin contacto o el monedero del móvil: mismas tarifas y mismos topes diarios. En los autobuses hay que validar al subir y también al bajar: las tarifas dependen de la distancia, y si no validas al bajar te cobran la tarifa máxima."
           },
           {
             "q": "¿Cuánto se tarda en llegar a Bondi desde la ciudad?",
-            "a": "Calcula unos 40-45 minutos desde Circular Quay, tanto si vas en tren y luego bus como si haces todo el trayecto en el 333; más en los concurridos fines de semana de verano, cuando el tráfico y la gente ralentizan los autobuses. Consulta el planificador de viajes de Transport for NSW para ver los tiempos en directo."
+            "a": "Calcula unos 40-45 minutos desde Circular Quay en tren y luego bus (el trayecto directo en el 333 es parecido, aunque suele ser algo más lento); más en los concurridos fines de semana de verano, cuando el tráfico y la gente ralentizan los autobuses. Consulta el planificador de viajes de Transport for NSW para ver los tiempos en directo."
           },
           {
             "q": "¿Merece la pena ir en coche a Bondi Beach?",
@@ -16889,7 +16889,7 @@
       },
       {
         "type": "p",
-        "text": "Non serve un biglietto cartaceo, e gli autisti non li vendono. Basta timbrare alla salita con una carta Opal o con qualsiasi carta o telefono contactless (Apple Pay, Google Pay e simili) - sugli autobus si timbra solo alla salita. Le carte Opal si vendono nei minimarket, nei supermercati e nelle stazioni, se ne preferisci una, ma per la maggior parte dei visitatori la carta che hai già in tasca è l'opzione più comoda. Le tariffe dipendono dalla distanza, con tetti massimi giornalieri e settimanali: controlla gli importi aggiornati su Transport for NSW prima di viaggiare."
+        "text": "Non serve un biglietto cartaceo, e gli autisti non li vendono. Basta timbrare alla salita con una carta Opal o con qualsiasi carta o telefono contactless (Apple Pay, Google Pay e simili) e timbrare di nuovo alla discesa - gli autobus applicano tariffe in base alla distanza, quindi chi salta la timbrata alla discesa paga la tariffa massima. Le carte Opal si vendono nei minimarket, nei supermercati e nelle stazioni, se ne preferisci una, ma per la maggior parte dei visitatori la carta che hai già in tasca è l'opzione più comoda. Le tariffe dipendono dalla distanza, con tetti massimi giornalieri e settimanali: controlla gli importi aggiornati su Transport for NSW prima di viaggiare."
       },
       {
         "type": "callout",
@@ -16930,11 +16930,11 @@
           },
           {
             "q": "Mi serve una carta Opal o posso timbrare con il telefono?",
-            "a": "Vanno bene entrambi. Puoi timbrare con una carta Opal fisica oppure con una carta bancaria contactless o un wallet sul telefono - stesse tariffe e stessi tetti giornalieri. Sugli autobus si timbra solo alla salita."
+            "a": "Vanno bene entrambi. Puoi timbrare con una carta Opal fisica oppure con una carta bancaria contactless o un wallet sul telefono - stesse tariffe e stessi tetti giornalieri. Sugli autobus si timbra alla salita e di nuovo alla discesa - le tariffe dipendono dalla distanza, e se dimentichi di timbrare alla discesa paghi la tariffa massima."
           },
           {
             "q": "Quanto ci vuole ad arrivare a Bondi dal centro?",
-            "a": "Calcola circa 40-45 minuti da Circular Quay, sia che tu faccia treno più autobus sia che resti sul 333 per tutto il tragitto - di più nei weekend estivi affollati, quando traffico e folla rallentano gli autobus. Controlla il pianificatore di viaggio di Transport for NSW per gli orari in tempo reale."
+            "a": "Calcola circa 40-45 minuti da Circular Quay con treno più autobus (la corsa diretta sul 333 è simile, ma di solito un po' più lenta) - di più nei weekend estivi affollati, quando traffico e folla rallentano gli autobus. Controlla il pianificatore di viaggio di Transport for NSW per gli orari in tempo reale."
           },
           {
             "q": "Vale la pena arrivare a Bondi Beach in auto?",
@@ -22883,7 +22883,7 @@
       },
       {
         "type": "p",
-        "text": "紙の切符は不要で、運転手も販売していません。乗車時にOpalカード、あるいはタッチ決済対応のカードやスマホ（Apple PayやGoogle Payなど）をタップするだけ。バスでは乗車時にタップするだけ（tap on）です。Opalカードが良ければコンビニ、スーパー、駅で買えますが、ほとんどの旅行者にとってはポケットにあるカードがいちばん手軽です。運賃は距離制で、1日と1週間の上限があります。出発前にTransport for NSWで最新の金額をご確認ください。"
+        "text": "紙の切符は不要で、運転手も販売していません。乗車時にOpalカード、あるいはタッチ決済対応のカードやスマホ（Apple PayやGoogle Payなど）をタップするだけ。バスでは乗車時にタップ（tap on）し、降車時にも忘れずにタップ（tap off）してください。運賃は距離制なので、降車時のタップを忘れると最高額の運賃が請求されます。Opalカードが良ければコンビニ、スーパー、駅で買えますが、ほとんどの旅行者にとってはポケットにあるカードがいちばん手軽です。運賃は距離制で、1日と1週間の上限があります。出発前にTransport for NSWで最新の金額をご確認ください。"
       },
       {
         "type": "callout",
@@ -22924,11 +22924,11 @@
           },
           {
             "q": "Opalカードは必要ですか、それともスマホをタップできますか？",
-            "a": "どちらでも大丈夫です。実物のOpalカードでも、タッチ決済対応の銀行カードやスマホのウォレットでもタップできます。運賃も1日の上限も同じです。バスでは乗車時にタップするだけです。"
+            "a": "どちらでも大丈夫です。実物のOpalカードでも、タッチ決済対応の銀行カードやスマホのウォレットでもタップできます。運賃も1日の上限も同じです。バスでは乗車時と降車時の両方でタップしてください。運賃は距離制のため、降車時のタップを忘れると最高額が請求されます。"
           },
           {
             "q": "市内からBondiまでどのくらいかかりますか？",
-            "a": "Circular Quayからおよそ40〜45分を見込んでください。電車＋バスでも、333に乗り通しでもほぼ同じです。交通や人出でバスが遅れる夏の混雑した週末はさらにかかります。リアルタイムの所要時間はTransport for NSWのトリッププランナーでご確認ください。"
+            "a": "Circular Quayから電車＋バスでおよそ40〜45分を見込んでください。333に乗り通す場合も所要時間はほぼ同じですが、たいてい少し遅くなります。交通や人出でバスが遅れる夏の混雑した週末はさらにかかります。リアルタイムの所要時間はTransport for NSWのトリッププランナーでご確認ください。"
           },
           {
             "q": "Bondi Beachへ車で行く価値はありますか？",
@@ -28877,7 +28877,7 @@
       },
       {
         "type": "p",
-        "text": "Je hebt geen papieren kaartje nodig, en chauffeurs verkopen ze ook niet. Tik bij het instappen gewoon aan met een Opal-kaart of een willekeurige contactloze kaart of telefoon (Apple Pay, Google Pay en dergelijke) - in de bus tik je alleen bij het instappen aan. Opal-kaarten zijn te koop bij avondwinkels, supermarkten en stations als je er liever een hebt, maar voor de meeste bezoekers is de kaart die je al op zak hebt de makkelijkste optie. De tarieven zijn afstandsgebonden met dag- en weeklimieten - check de actuele bedragen bij Transport for NSW voordat je reist."
+        "text": "Je hebt geen papieren kaartje nodig, en chauffeurs verkopen ze ook niet. Tik bij het instappen gewoon aan met een Opal-kaart of een willekeurige contactloze kaart of telefoon (Apple Pay, Google Pay en dergelijke) en tik bij het uitstappen weer af - bussen rekenen naar afstand, dus als je het aftikken overslaat betaal je het maximumtarief. Opal-kaarten zijn te koop bij avondwinkels, supermarkten en stations als je er liever een hebt, maar voor de meeste bezoekers is de kaart die je al op zak hebt de makkelijkste optie. De tarieven zijn afstandsgebonden met dag- en weeklimieten - check de actuele bedragen bij Transport for NSW voordat je reist."
       },
       {
         "type": "callout",
@@ -28918,11 +28918,11 @@
           },
           {
             "q": "Heb ik een Opal-kaart nodig, of kan ik met mijn telefoon aftikken?",
-            "a": "Beide werkt. Je kunt aantikken met een fysieke Opal-kaart of met een contactloze bankkaart of telefoonwallet - dezelfde tarieven en dezelfde daglimieten. In de bus tik je alleen bij het instappen aan."
+            "a": "Beide werkt. Je kunt aantikken met een fysieke Opal-kaart of met een contactloze bankkaart of telefoonwallet - dezelfde tarieven en dezelfde daglimieten. In de bus tik je aan bij het instappen en weer af bij het uitstappen - de tarieven zijn afstandsgebonden, dus wie het aftikken vergeet betaalt het maximumtarief."
           },
           {
             "q": "Hoe lang duurt het om vanuit de stad naar Bondi te komen?",
-            "a": "Reken op zo'n 40-45 minuten vanaf Circular Quay, of je nu trein-plus-bus doet of de hele weg met de 333 rijdt - langer op drukke zomerweekenden wanneer verkeer en drukte de bussen ophouden. Check de reisplanner van Transport for NSW voor actuele tijden."
+            "a": "Reken op zo'n 40-45 minuten vanaf Circular Quay met trein-plus-bus (de directe rit met de 333 duurt ongeveer even lang, maar is meestal net iets trager) - langer op drukke zomerweekenden wanneer verkeer en drukte de bussen ophouden. Check de reisplanner van Transport for NSW voor actuele tijden."
           },
           {
             "q": "Is het de moeite waard om met de auto naar Bondi Beach te rijden?",
@@ -34871,7 +34871,7 @@
       },
       {
         "type": "p",
-        "text": "Você não precisa de bilhete de papel, e os motoristas não vendem passagem. Basta aproximar ao embarcar um cartão Opal ou qualquer cartão ou celular por aproximação (Apple Pay, Google Pay e afins); nos ônibus você só valida ao embarcar (tap on). Se preferir um cartão Opal, ele é vendido em lojas de conveniência, supermercados e estações, mas para a maioria dos visitantes o cartão que já está no seu bolso é a opção mais prática. As tarifas são por distância, com limites diários e semanais: confira os valores atuais na Transport for NSW antes de viajar."
+        "text": "Você não precisa de bilhete de papel, e os motoristas não vendem passagem. Basta aproximar ao embarcar um cartão Opal ou qualquer cartão ou celular por aproximação (Apple Pay, Google Pay e afins) e aproximar de novo ao descer (tap off): os ônibus cobram por distância, então pular a validação na descida custa a tarifa máxima. Se preferir um cartão Opal, ele é vendido em lojas de conveniência, supermercados e estações, mas para a maioria dos visitantes o cartão que já está no seu bolso é a opção mais prática. As tarifas são por distância, com limites diários e semanais: confira os valores atuais na Transport for NSW antes de viajar."
       },
       {
         "type": "callout",
@@ -34912,11 +34912,11 @@
           },
           {
             "q": "Preciso de um cartão Opal ou posso aproximar o celular?",
-            "a": "Qualquer um funciona. Você pode validar com um cartão Opal físico ou com um cartão bancário por aproximação ou a carteira do celular - mesmas tarifas e mesmos limites diários. Nos ônibus você só valida ao embarcar."
+            "a": "Qualquer um funciona. Você pode validar com um cartão Opal físico ou com um cartão bancário por aproximação ou a carteira do celular - mesmas tarifas e mesmos limites diários. Nos ônibus é preciso validar ao embarcar e também ao descer: as tarifas são por distância, e quem esquece de validar na descida paga a tarifa máxima."
           },
           {
             "q": "Quanto tempo leva para chegar a Bondi saindo da cidade?",
-            "a": "Reserve cerca de 40-45 minutos a partir de Circular Quay, seja de trem e depois ônibus, seja no 333 o trajeto todo - mais nos movimentados fins de semana de verão, quando o trânsito e as multidões atrasam os ônibus. Confira o planejador de viagens da Transport for NSW para os tempos em tempo real."
+            "a": "Reserve cerca de 40-45 minutos a partir de Circular Quay, de trem e depois ônibus (o trajeto direto no 333 é parecido, mas costuma ser um pouco mais lento) - mais nos movimentados fins de semana de verão, quando o trânsito e as multidões atrasam os ônibus. Confira o planejador de viagens da Transport for NSW para os tempos em tempo real."
           },
           {
             "q": "Vale a pena ir de carro a Bondi Beach?",
@@ -40865,7 +40865,7 @@
       },
       {
         "type": "p",
-        "text": "你不需要纸质车票，司机也不售票。上车时用Opal卡，或任何非接触银行卡、手机（Apple Pay、Google Pay之类）轻轻一刷即可--公交车只需在上车时刷卡（tap on）。如果你想要一张Opal卡，便利店、超市和车站都有售，但对大多数游客来说，口袋里已有的卡就是最省事的选择。车费按里程计算，并设有每日和每周封顶--出行前请到Transport for NSW查看当前金额。"
+        "text": "你不需要纸质车票，司机也不售票。上车时用Opal卡，或任何非接触银行卡、手机（Apple Pay、Google Pay之类）上车时刷一下（tap on），下车时记得再刷一次（tap off）--公交按里程计费，下车漏刷会被收取最高票价。如果你想要一张Opal卡，便利店、超市和车站都有售，但对大多数游客来说，口袋里已有的卡就是最省事的选择。车费按里程计算，并设有每日和每周封顶--出行前请到Transport for NSW查看当前金额。"
       },
       {
         "type": "callout",
@@ -40906,11 +40906,11 @@
           },
           {
             "q": "我需要Opal卡吗，还是可以刷手机？",
-            "a": "两者都行。你可以用实体Opal卡，也可以用非接触银行卡或手机钱包刷卡--车费和每日封顶都一样。公交车只需上车时刷卡。"
+            "a": "两者都行。你可以用实体Opal卡，也可以用非接触银行卡或手机钱包刷卡--车费和每日封顶都一样。公交车上车和下车都要刷卡--车费按里程计算，下车忘记刷卡会按最高票价收费。"
           },
           {
             "q": "从市区到Bondi要多久？",
-            "a": "从Circular Quay出发大约需要40-45分钟，无论是火车加公交，还是全程坐333都差不多--夏季周末人多、交通和人流拖慢公交时会更久。实时用时请查看Transport for NSW的行程规划器。"
+            "a": "从Circular Quay出发，火车加公交大约需要40-45分钟（全程坐333时间相近，但通常略慢一点）--夏季周末人多、交通和人流拖慢公交时会更久。实时用时请查看Transport for NSW的行程规划器。"
           },
           {
             "q": "值得开车去Bondi Beach吗？",

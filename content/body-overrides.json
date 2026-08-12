@@ -25177,7 +25177,7 @@
           },
           {
             "q": "Do I need an Opal card, or can I tap my phone?",
-            "a": "Either works. You can tap on with a physical Opal card or with a contactless bank card or phone wallet - same fares and the same daily caps. On buses you only tap on."
+            "a": "Either works. You can tap on with a physical Opal card or with a contactless bank card or phone wallet - same fares and the same daily caps. On buses, tap on as you board and tap off as you get out - fares are distance-based, so missing the tap-off charges you the maximum fare."
           },
           {
             "q": "How long does it take to get to Bondi from the city?",
@@ -25194,7 +25194,7 @@
         "text": "However you come, my advice is the same: travel light, go early on a summer weekend, and let the bus or train do the work. Bondi's genuinely one of the easiest world-famous beaches to reach - the hardest part is leaving."
       }
     ],
-    "wordCount": 964,
+    "wordCount": 985,
     "sources": [
       {
         "label": "Transport for NSW - trip planner & timetables",
