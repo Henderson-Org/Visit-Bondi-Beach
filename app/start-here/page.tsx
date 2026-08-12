@@ -120,8 +120,8 @@ export default function StartHerePage() {
       <p className="mt-4 text-lg text-ink-700 leading-relaxed">
         You have seen it on Instagram and maybe on Bondi Rescue. This page is everything we would tell a friend
         landing in Sydney tomorrow - how to get here, what it costs, where to swim without scaring yourself,
-        where to put your phone, and exactly how we would spend your first day. Every price and timetable fact
-        on this page was checked against the official source in August 2026, and where things change often we
+        where to put your phone, and exactly how we would spend your first day. The key prices and timetable facts on
+        this page were checked against their official sources in August 2026, and where things change often we
         link you straight to the authority.
       </p>
 
@@ -151,9 +151,8 @@ export default function StartHerePage() {
 
       <Section id="worth-it" title="Is Bondi actually worth visiting?">
         <p>
-          Honest answer: yes, but the crowd complaints are real too - Bondi tops Australian &quot;overrated beach&quot;
-          lists almost entirely because of overcrowding. The fix is timing, not skipping it. Arrive before 10am
-          (before 8am in summer) and you get the beach the photos promised: mile of sand, ocean pool at one end,
+          Honest answer: yes, but the crowd complaints are real too - Bondi regularly shows up on &quot;overrated beach&quot; lists, mostly for crowding. The fix is timing, not skipping it. Arrive before 10am
+          (before 8am in summer) and you get the beach the photos promised: kilometre of sand, ocean pool at one end,
           clifftop walk unrolling south. Arrive at midday in January and you will queue for everything.
         </p>
         <p>
@@ -169,7 +168,7 @@ export default function StartHerePage() {
           <strong>Winter or rain?</strong> Still worth it - quieter, moodier, whales offshore roughly May-November, and
           the pools stay open. See{' '}
           <Link href="/bondi-blog/2024/6/9/the-best-time-to-visit-bondi-beach-a-seasonal-guide" className="text-ocean-700 underline">the seasonal guide</Link>{' '}
-          and our <Link href="/bondi-weather" className="text-ocean-700 underline">weather &amp; sea temperature hub</Link>.
+          and our <Link href="/bondi-weather" className="text-ocean-700 underline">weather &amp; sea temperature hub</Link>. If it actually rains: Icebergs + sauna, the Pavilion galleries, a long brunch one street back, then the Westfield at Bondi Junction - <Link href="/bondi-blog/2025/5/23/rain-or-shine-7-must-do-indoor-activities-in-bondi-beach-on-a-rainy-day" className="text-ocean-700 underline">the full rainy-day plan</Link>.
         </p>
       </Section>
 
@@ -180,12 +179,12 @@ export default function StartHerePage() {
           a short bus ride or a downhill walk.
         </p>
         <div className="grid gap-3 sm:grid-cols-2">
-          <Fact label="From the CBD / Circular Quay" value={<>T4 train to Bondi Junction, then bus <strong>333</strong> (Stand A) or <strong>380</strong> (Stand B) to Campbell Parade. ~40-45 min all up; the bus leg is ~15 min. The 333 runs every few minutes in daytime. ({CHECKED}, TfNSW trip planner)</>} />
+          <Fact label="From the CBD / Circular Quay" value={<>T4 train to Bondi Junction, then bus <strong>333</strong> (Stand A) or <strong>380</strong> (Stand B) to Campbell Parade. ~40-45 min all up; the bus leg is ~15 min. The 333 runs every few minutes in daytime ({CHECKED}, TfNSW trip planner). No bus in sight? It&apos;s a 25-30 min downhill walk from the Junction - often faster than a packed summer bus.</>} />
           <Fact label="Where to get off" value={<>Stay on until the ocean fills the windscreen - the beach stops are on <strong>Campbell Parade</strong>. Aim for the stop opposite Bondi Beach Public School or Stand C at the south end; you cannot really miss it, the beach is right there.</>} />
           <Fact label="Paying" value={<>Tap on and off with any contactless Visa/Mastercard/Amex or your phone - <strong>same price as an Opal card</strong>, with the same daily fare caps. No cash tickets on buses. Kids need a Child Opal card for child fares (a tapped bank card always charges adult fare). Current fares: <a className="text-ocean-700 underline" href="https://transportnsw.info/tickets-opal" rel="nofollow noopener" target="_blank">transportnsw.info</a>.</>} />
           <Fact label="From Sydney Airport" value={<>Train (T8 then change to T4) in 60-90 min - but airport stations add a <strong>$19.00 station access fee</strong> ($18.61 with Opal/contactless, as at mid-2026). Fee-free trick: bus <strong>350</strong> from the Domestic terminal to Bondi Junction, then the 333/380. Taxi: the airport quotes $45-55 to the CBD; Bondi is a similar distance band. Full details: <Link href="/bondi-blog/getting-from-sydney-airport-to-bondi-beach" className="text-ocean-700 underline">airport guide</Link>.</>} />
           <Fact label="Driving" value={<>Genuinely a mistake on warm weekends - parking is metered, scarce and fiercely contested. If you must: <Link href="/bondi-parking" className="text-ocean-700 underline">the parking guide</Link> maps every option including the free-ish streets.</>} />
-          <Fact label="Late at night" value={<>The <strong>333 runs 24 hours</strong>, roughly every 20 minutes through the small hours ({CHECKED}). Trains from Bondi Junction stop after midnight - after that it is the night 333 or rideshare.</>} />
+          <Fact label="Late at night" value={<>The <strong>333 runs 24 hours</strong>, roughly every 20 minutes through the small hours ({CHECKED}). Trains wind down around midnight; after that it&apos;s the night 333 or rideshare. Dawn start? The 333 runs all night from the CBD via Elizabeth and Oxford Streets - plug your hotel into the trip planner for your nearest stop.</>} />
         </div>
         <p>
           Deeper dives: <Link href="/getting-to-bondi" className="text-ocean-700 underline">Getting to Bondi hub</Link> ·{' '}
@@ -208,6 +207,9 @@ export default function StartHerePage() {
           real median), brunch $20-30, Icebergs entry $10, fish and chips on the grass $15-25, beginner surf lesson
           from $99 ({CHECKED}). A perfectly good Bondi day runs on $40; a great one on $100.
         </p>
+        <p>
+          <strong>Staying connected:</strong> don&apos;t count on public wi-fi at the beach - there isn&apos;t any to rely on. Sort an eSIM or local SIM before you need it (the airport sells both), and download offline maps; cafés will share wi-fi with a coffee.
+        </p>
       </Section>
 
       <Section id="what-to-bring" title="What to bring (and what you can skip)">
@@ -217,7 +219,7 @@ export default function StartHerePage() {
           <li><strong>Towel + swimwear</strong> - obvious, but there is no towel hire on the sand (Icebergs hires towels for $5 if you end up there).</li>
           <li><strong>Shade if you need it.</strong> Real talk: Bondi is bare sand - <strong>no umbrella or lounger hire on the beach</strong>, and almost no natural shade. Bring a beach umbrella or plan around the grass above the beach and the Pavilion.</li>
           <li><strong>A waterproof phone pouch</strong> if you are solo - it solves the valuables problem (more below).</li>
-          <li><strong>Skip:</strong> cash beyond a note or two, your passport, a suitcase (nowhere on the beach fits one - see lockers below), and a wetsuit in summer (Dec-Apr the water is 21-24°C; wetsuit season is roughly May-Oct, hire from $15).</li>
+          <li><strong>Skip:</strong> cash beyond a note or two, your passport, a suitcase (nowhere on the beach fits one - see lockers below), and a wetsuit in summer (Dec-Mar the water sits around 22-24°C; wetsuit season is roughly May-Oct - hire from $15 at the surf school at North Bondi, Let&apos;s Go Surfing, 128 Ramsgate Ave).</li>
         </ul>
       </Section>
 
@@ -238,8 +240,7 @@ export default function StartHerePage() {
 
       <Section id="safety" title="Swim safety - the two-minute version that matters">
         <p>
-          Bondi is a real surf beach, patrolled year-round by professional lifeguards (the Bondi Rescue crew), with
-          volunteer lifesavers on weekends. It is very safe <em>if</em> you follow one rule:{' '}
+          Bondi is a real surf beach, patrolled year-round by professional lifeguards (the Bondi Rescue crew) - roughly 6am-7pm October-April and 7am-5:30pm May-September (Waverley Council, checked Aug 2026) - with volunteer lifesavers on weekends. It is very safe <em>if</em> you follow one rule:{' '}
           <strong>swim between the red-and-yellow flags.</strong> They mark the zone the lifeguards judged safest today
           and watch constantly. The flags move during the day - re-check them after lunch.
         </p>
@@ -247,6 +248,7 @@ export default function StartHerePage() {
           <li><strong>Rips are the real hazard</strong> (not sharks). A rip looks deceptively calm: a darker, flatter gap between the breaking waves. The notorious one sits at the south end near the rocks - locals call it the Backpackers&apos; Rip because it catches tourists.</li>
           <li><strong>If you are caught in one:</strong> do not fight it. Stay calm, float, raise one arm - the lifeguards will come. If you swim well, go parallel to the beach until you are out of the channel.</li>
           <li><strong>Weak swimmer or first ocean swim?</strong> Stay waist-deep between the flags at the north end, keep your feet on the sand, and never turn your back on the waves. Or skip the surf entirely - the ocean pools below give you salt water with zero waves.</li>
+          <li><strong>A single red flag (or no flags at all) means don&apos;t swim</strong> - conditions or patrol status have closed the water even though the beach itself stays open; the ocean pools are your plan B. <Link href="/bondi-blog/2025/1/5/understanding-bondi-beach-safety-signs" className="text-ocean-700 underline">All the signs decoded</Link>.</li>
           <li><strong>After heavy rain</strong>, skip swimming for a day - stormwater runs into the bay. Check the NSW Government&apos;s <a className="text-ocean-700 underline" href="https://www.environment.nsw.gov.au/topics/water/beaches" rel="nofollow noopener" target="_blank">Beachwatch</a> rating first.</li>
           <li><strong>Emergency: dial 000.</strong> During patrol hours, the fastest help is the lifeguard tower near the Pavilion.</li>
         </ul>
@@ -289,7 +291,7 @@ export default function StartHerePage() {
           you are never more than a few hundred metres from a toilet.{' '}
           <Link href="/bondi-blog/bondi-beach-toilets-showers-change-rooms" className="text-ocean-700 underline">The full facilities map</Link>{' '}
           - including accessibility details and the{' '}
-          <Link href="/bondi-blog/2025/1/5/exploring-bondi-beach-a-guide-to-wheelchair-access" className="text-ocean-700 underline">beach wheelchair loan</Link> (bookings essential, (02) 9083 8400).
+          <Link href="/bondi-blog/2025/1/5/exploring-bondi-beach-a-guide-to-wheelchair-access" className="text-ocean-700 underline">beach wheelchair loan</Link> (bookings essential via Waverley Council, (02) 9083 8400 - checked Aug 2026).
         </p>
       </Section>
 
@@ -302,7 +304,7 @@ export default function StartHerePage() {
           first Bondi stretch; the beach promenade itself is flat and step-free.
         </p>
         <p>
-          Do it one-way and bus back (Bronte and Coogee both connect to Bondi Junction). Go at sunrise if you possibly can.
+          Do it one-way and bus back (Bronte and Coogee both connect to Bondi Junction). Go at sunrise if you possibly can (roughly 5:40am in midsummer, closer to 7am in midwinter).
           The definitive guide: <Link href="/bondi-coastal-walk" className="text-ocean-700 underline">coastal walk hub</Link> ·{' '}
           <Link href="/bondi-blog/2023/9/21/walking-on-sunshine-the-ultimate-guide-to-the-bondi-to-bronte-coastal-walk" className="text-ocean-700 underline">Bondi to Bronte step-by-step</Link>.
         </p>
@@ -339,14 +341,14 @@ export default function StartHerePage() {
       <Section id="first-day" title="Your first day, planned (steal this)">
         <ol className="list-decimal space-y-2 pl-5">
           <li><strong>7:30am</strong> - Bus down from Bondi Junction. Coffee one street back on Hall St/Gould St (10 min walk from the bus).</li>
-          <li><strong>8:15am</strong> - Swim between the flags, north end. Or laps at Icebergs if the surf intimidates (open from 6am, closed Thursdays).</li>
+          <li><strong>8:15am</strong> - Swim between the flags, north end. Or laps at Icebergs if the surf intimidates (from 6am weekdays, 6:30am weekends; closed Thursdays - confirm at icebergs.com.au).</li>
           <li><strong>9:30am</strong> - Rinse at the free promenade showers, change at the Pavilion.</li>
           <li><strong>10:00am</strong> - Walk south past Icebergs onto the coastal path → Tamarama → Bronte. Photos at Mackenzies Point. (45-60 min.)</li>
           <li><strong>11:30am</strong> - Early lunch at Bronte, or bus back and eat on Hall Street before the crowds.</li>
-          <li><strong>1:00pm</strong> - Pick one: markets (Sat farmers / Sun fashion, at the school on Campbell Parade), Pavilion galleries, North Bondi grass with a gelato, or a beginner surf lesson (from $99, book ahead).</li>
-          <li><strong>4:30pm</strong> - Golden hour from the north-end grass or Ben Buckler lookout - the classic across-the-bay shot.</li>
+          <li><strong>1:00pm</strong> - Pick one: markets (Sat farmers / Sun fashion, at the school on Campbell Parade), Pavilion galleries, North Bondi grass with a gelato, or a beginner surf lesson (from $99 - book a day or two ahead via the <Link href="/bondi-surfing" className="text-ocean-700 underline">learn-to-surf guide</Link>).</li>
+          <li><strong>~90 min before sunset</strong> - golden hour from the north-end grass or Ben Buckler lookout, the classic across-the-bay shot. (Sunset swings from about 5pm in June to 8pm in January - exact times on the <Link href="/bondi-weather" className="text-ocean-700 underline">weather hub</Link>.)</li>
           <li><strong>Evening</strong> - Dinner one street back, then the 333 home (it runs all night).</li>
-          <li>Behind schedule? Cut #6 first, then shorten the walk to Tamarama-and-back (30 min). Never cut the swim.</li>
+          <li>Behind schedule? Cut the 1pm pick-one block first, then shorten the walk to Tamarama-and-back (30 min). Never cut the swim.</li>
         </ol>
         <p>
           Want it tailored? <Link href="/plan" className="text-ocean-700 underline">The Bondi Day Planner</Link> builds a
@@ -388,8 +390,7 @@ export default function StartHerePage() {
           ))}
         </div>
         <p className="mt-4 text-xs text-ink-500">
-          Facts on this page checked against Transport for NSW, icebergs.com.au, bondipavilion.com.au,
-          bondimarkets.com.au, letsgosurfing.com.au and airportlink.com.au in August 2026. Prices and timetables
+          Facts on this page checked against Transport for NSW, Waverley Council, Surf Life Saving Australia (beachsafe.org.au), icebergs.com.au, bondipavilion.com.au, bondimarkets.com.au, letsgosurfing.com.au and airportlink.com.au in August 2026. Prices and timetables
           change - the linked official sources are always current.
         </p>
       </section>
