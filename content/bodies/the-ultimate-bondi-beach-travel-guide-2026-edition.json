@@ -60,7 +60,7 @@
     },
     {
       "type": "p",
-      "text": "There's no train to the sand itself, and you don't need one. From the city, the 333 is the fast, limited-stops bus from Circular Quay through the CBD to Bondi Beach. Already on the rail network? Take the T4 line to Bondi Junction - the closest station - then a connecting bus (333, 380 or 381) for the short leg to the water. Both run on Opal, or tap on with any contactless card or phone."
+      "text": "There's no train to the sand itself, and you don't need one. From the city, the 333 is the fast, limited-stops bus from Circular Quay through the CBD to Bondi Beach. Already on the rail network? Take the T4 line to Bondi Junction - the closest station - then a connecting bus (333 or 380) for the short leg to the water. Both run on Opal, or tap on with any contactless card or phone."
     },
     {
       "type": "p",
@@ -154,7 +154,7 @@
         },
         {
           "q": "Is there a train station at Bondi Beach?",
-          "a": "No. The closest station is Bondi Junction on the T4 line, a short bus ride from the beach on the 333, 380 or 381."
+          "a": "No. The closest station is Bondi Junction on the T4 line, a short bus ride from the beach on the 333 or 380."
         },
         {
           "q": "What is the best time of year to visit Bondi Beach?",

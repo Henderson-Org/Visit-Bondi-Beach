@@ -559,7 +559,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Yes - you can absolutely swim at Bondi Icebergs, and it's one of my favourite things to send visitors off to do. The famous ocean pool at the southern headland of Bondi Beach isn't a members-only secret; it's a public saltwater pool where anyone can pay a small entry fee, tumble into 50 metres of Pacific Ocean, and swim laps against a backdrop that shows up on half the postcards of Sydney."
+        "text": "Yes - you can absolutely swim at Bondi Icebergs, and it's one of my favourite things to send visitors off to do. The famous ocean pool at the southern headland of Bondi Beach isn't a members-only secret; it's a public saltwater pool where anyone can pay the entry fee ($10 for adults as at August 2026), tumble into 50 metres of Pacific Ocean, and swim laps against a backdrop that shows up on half the postcards of Sydney."
       },
       {
         "type": "p",
@@ -596,7 +596,7 @@
       },
       {
         "type": "p",
-        "text": "This is the question I get more than any other, and the answer is a happy yes. You don't need to be an Iceberg or know one. You walk up to the entry desk, pay for a single visit, and you're in. There's a single-visit fee with reduced rates for children and families, plus a few dollars for towel and locker hire if you need them. Prices do get reviewed, so I'd confirm the current rate on the official Icebergs pool page before you set off rather than trust a figure you read online."
+        "text": "This is the question I get more than any other, and the answer is a happy yes. You don't need to be an Iceberg or know one. You walk up to the entry desk, pay for a single visit, and you're in. As at August 2026, entry is $10 for an adult, $7 for a child and $30 for a family pass, with the sauna included in your admission, plus towel and locker hire if you need them. Prices do get reviewed, so I'd confirm the current rate on icebergs.com.au before you set off rather than trust a figure you read online."
       },
       {
         "type": "p",
@@ -670,7 +670,7 @@
         "text": "Whether you're chasing laps, a winter sauna ritual or just that one perfect photo of waves breaking over the edge, Icebergs delivers. Pay your entry, keep left in the lanes, dodge Thursdays, and you'll leave understanding exactly why this little pool on the rocks is famous the world over."
       }
     ],
-    "wordCount": 895,
+    "wordCount": 909,
     "sources": [
       {
         "label": "Bondi Icebergs Club - Pool Conditions & Hours",
@@ -1765,7 +1765,7 @@
           "Bondi Park playground - fully fenced, with grass, picnic and BBQ spots behind the beach.",
           "The beachfront promenade - flat, pram-friendly and lined with grass, perfect for a gentle stroll or a scooter.",
           "The skate park and the graffiti/art wall at the south end - great for older kids to watch or have a go.",
-          "Bondi to Bronte coastal walk - the first stretch out of Bondi is doable with sturdy prams and rewards you with a second, smaller beach at Bronte and its own kid-friendly rock pool."
+          "Coastal walk, first stretch only - push a sturdy pram as far as the Marks Park headland and turn back; the rest of the way to Bronte has flights of steps, so a carrier is the honest answer for the full walk (Bronte's smaller beach and rock pool are worth it)."
         ]
       },
       {
@@ -1783,6 +1783,12 @@
       {
         "type": "p",
         "text": "For food, you're spoiled. There's a cluster of cafés and casual eats along Campbell Parade and around the Bondi Pavilion, which often hosts family programming and has toilets, change facilities and shade close to the sand. Menus and hours change with the seasons, so check each venue's own page before you go."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "If you get separated from your child",
+        "text": "Bondi on a busy day is a crowd, so agree a meeting point the moment you arrive - we use the lifeguard tower just south of the Pavilion, because every lifeguard can see it and any adult can point to it. Teach the kids: if we lose each other, walk to the lifeguards. The lifeguards deal with lost children all summer and will put out the word between towers; tell the nearest lifeguard or roaming patrol immediately rather than searching alone."
       },
       {
         "type": "faq",
@@ -1806,6 +1812,10 @@
           {
             "q": "What should we bring for a family beach day at Bondi?",
             "a": "Sun protection is the big one - hats, high-SPF sunscreen, a shade tent and plenty of water, as the midday sun is strong. Add rashies, buckets and spades, a change of clothes, and snacks. Toilets and change facilities are near the Bondi Pavilion."
+          },
+          {
+            "q": "What should I do if I lose my child at Bondi Beach?",
+            "a": "Go straight to the nearest lifeguard - the main tower is just south of Bondi Pavilion, mid-beach. Lifeguards handle lost children constantly and coordinate between towers. Best prevention: agree on the lifeguard tower as your meeting point when you arrive, and point it out to the kids before anyone touches the water."
           }
         ]
       },
@@ -1814,7 +1824,7 @@
         "text": "That's the rhythm I'd aim for: a splash at the children's pool, a play in the park, a promenade stroll, maybe a first wave, and a babyccino to finish. Keep to the north end, watch the flags, and Bondi with kids is one of my favourite days in the city."
       }
     ],
-    "wordCount": 886,
+    "wordCount": 1056,
     "sources": [
       {
         "label": "Waverley Council - Bondi Park",
@@ -3992,7 +4002,7 @@
       },
       {
         "type": "p",
-        "text": "Admission is refreshingly cheap for something this iconic - a small single-visit fee, with concession rates for kids and families and multi-visit passes if you're staying a while. Prices and hours shift seasonally and the pool closes Thursdays for cleaning, so I always check the official Pool Conditions page the morning of a swim rather than trust a number read online months ago."
+        "text": "Admission is refreshingly cheap for something this iconic: as at August 2026 it's $10 for adults, $7 for kids and $30 for a family pass, with the sauna included in your admission, and multi-visit passes if you're staying a while. Prices and hours shift seasonally and the pool closes Thursdays for cleaning (in summer, when tides permit, it sometimes opens Thursdays - their words, not ours), so I always check icebergs.com.au the morning of a swim rather than trust a number read online months ago."
       },
       {
         "type": "localTip",
@@ -4041,11 +4051,11 @@
         "items": [
           {
             "q": "Do I have to be a member to swim at Bondi Icebergs?",
-            "a": "No. The pool is open to the public for a modest entry fee, with concession rates for kids and families. Membership of the Icebergs Swimming Club is a separate thing tied to winter-swimming commitments - you don't need it to swim."
+            "a": "No. The pool is open to the public - as at August 2026, entry is $10 for adults, $7 for kids and $30 for a family pass. Membership of the Icebergs Swimming Club is a separate thing tied to winter-swimming commitments - you don't need it to swim."
           },
           {
             "q": "How much does the Icebergs pool cost and what are the hours?",
-            "a": "It's inexpensive - a small single-visit fee with cheaper rates for kids and families. Because prices and hours change seasonally, and the pool closes Thursdays for cleaning (tides permitting in summer), check the official Pool Conditions page at icebergs.com.au before you go."
+            "a": "As at August 2026, entry is $10 for adults, $7 for children and $30 for a family pass, with the sauna included in admission. Because prices and hours change seasonally, and the pool closes Thursdays for cleaning (tides permitting in summer), check the official Pool Conditions page at icebergs.com.au before you go."
           },
           {
             "q": "Is the swimming pool the same as the famous restaurant?",
@@ -4072,7 +4082,7 @@
         "text": "That's the whole complex: swim the ocean pool, warm up in the sauna, grab a bistro lunch, then linger over a drink as the light turns gold over Bondi - which is exactly why Icebergs stays my favourite corner of the beach."
       }
     ],
-    "wordCount": 1090,
+    "wordCount": 1129,
     "sources": [
       {
         "label": "Bondi Icebergs Club - Pool Conditions",
@@ -5540,7 +5550,7 @@
   "/bondi-blog/2023/9/21/walking-on-sunshine-the-ultimate-guide-to-the-bondi-to-bronte-coastal-walk": {
     "blocks": [
       {
-        "type": "p",
+        "type": "answer",
         "text": "If you only do one walk while you're in Bondi, make it this one. The Bondi to Bronte coastal walk is a short, cliff-hugging stretch - roughly 2.5km one way - that most people knock over in 45 minutes to an hour, and it's the single best way I know to understand why we live here. You'll pass three beaches, an ocean pool or two, sandstone headlands and more ocean than your camera can hold. It's free, open year-round, and you don't need to be a hiker to do it."
       },
       {
@@ -5681,6 +5691,10 @@
           {
             "q": "When is the best time to do the walk?",
             "a": "Early morning for sunrise and quiet paths, or late afternoon for golden light. Weekdays are calmer than weekends. Aim for whale-watching season (roughly May–November) or catch Sculpture by the Sea in spring."
+          },
+          {
+            "q": "How do I get back from Bronte to Bondi?",
+            "a": "Either walk back the same way - it's only 2.5km, and the views run in reverse - or catch a bus from Bronte up to Bondi Junction and then the 333 or 380 back down to Bondi Beach. Use the Transport for NSW trip planner for today's times. Plenty of people deliberately walk one way and bus back."
           }
         ]
       },
@@ -5689,7 +5703,7 @@
         "text": "That's the walk in a nutshell - short enough to do before breakfast, beautiful enough to do again the next morning. Lace up, and I'll see you at the Bronte pool."
       }
     ],
-    "wordCount": 947,
+    "wordCount": 1014,
     "sources": [
       {
         "label": "Waverley Council",
@@ -5898,7 +5912,7 @@
         "type": "callout",
         "tone": "note",
         "title": "The net isn't a fence",
-        "text": "Bondi's shark net doesn't wall off the swimming area or run from the surface to the seabed. It's a mesh panel set out in the bay to deter sharks from settling close to shore - they can and do swim over, under and around it. It reduces risk but is not a solid barrier, so never assume the water is 'sealed off'."
+        "text": "Bondi's shark net doesn't wall off the swimming area or run from the surface to the seabed. It's a mesh panel set out in the bay to deter sharks from settling close to shore - they can and do swim over, under and around it. It reduces risk but is not a solid barrier, so never assume the water is 'sealed off'. One detail worth knowing: the nets are seasonal - under the NSW program they’re in the water from about 1 September to 31 March and out over winter (checked Aug 2026), when drone patrols and the tagged-shark listening station off Bondi carry the load."
       },
       {
         "type": "p",
@@ -5964,7 +5978,7 @@
         "text": "So yes, there are sharks at Bondi - as at every ocean beach in Australia. But between a near-century without a fatality, the flags, the lifeguards and the tech watching the water, it's a question I'd park at the back of your mind. Get in, swim between the flags, and enjoy it."
       }
     ],
-    "wordCount": 890,
+    "wordCount": 934,
     "sources": [
       {
         "label": "SharkSmart NSW - Shark Nets",
@@ -7700,7 +7714,7 @@
       },
       {
         "type": "p",
-        "text": "You've got two reliable routes. The first is the 333 express bus from the city, my go-to when I'm not in a rush - it drops you right at Campbell Parade, steps from the sand. The second is faster in peak hour: take a train to Bondi Junction, then jump on one of the frequent buses (the 333, 380 or 381) for the short ride down to the beach. There's no train that goes all the way to Bondi Beach itself, so that last leg is always a bus, a rideshare or a 25-minute walk downhill."
+        "text": "You've got two reliable routes. The first is the 333 express bus from the city, my go-to when I'm not in a rush - it drops you right at Campbell Parade, steps from the sand. The second is faster in peak hour: take a train to Bondi Junction, then jump on one of the frequent buses (the 333 or 380) for the short ride down to the beach. There's no train that goes all the way to Bondi Beach itself, so that last leg is always a bus, a rideshare or a 25-minute walk downhill."
       },
       {
         "type": "callout",
@@ -7761,7 +7775,7 @@
           },
           {
             "q": "Is there a train station at Bondi Beach?",
-            "a": "No. The nearest station is Bondi Junction, which is up the hill. From there you connect to the beach by bus (333, 380 or 381), rideshare, or about a 25-minute walk down."
+            "a": "No. The nearest station is Bondi Junction, which is up the hill. From there you connect to the beach by bus (333 or 380), rideshare, or about a 25-minute walk down."
           },
           {
             "q": "Is Bondi Beach free?",
@@ -7782,7 +7796,7 @@
         "text": "That's the shortlist I'd give any friend flying in. Get the transport sorted, respect the flags, and leave room to just sit on the sand and watch Bondi do its thing - the bit no guide can plan for you."
       }
     ],
-    "wordCount": 879,
+    "wordCount": 877,
     "sources": [
       {
         "label": "Transport for NSW - Trip Planner",
@@ -8897,6 +8911,46 @@
         "text": "Bondi is in the southern hemisphere, so summer falls over Christmas and New Year, and winter runs June to August. If you're coming from the north, mentally flip the calendar."
       },
       {
+        "type": "table",
+        "caption": "Typical conditions by season - air temperatures are Sydney long-term averages (Bureau of Meteorology); sea temperatures are approximate.",
+        "columns": [
+          "Season",
+          "Air (typical)",
+          "Sea (typical)",
+          "Crowds"
+        ],
+        "rows": [
+          [
+            "Summer (Dec-Feb)",
+            "~26°C days",
+            "22-24°C",
+            "Peak"
+          ],
+          [
+            "Autumn (Mar-May)",
+            "~22°C",
+            "20-22°C",
+            "Easing"
+          ],
+          [
+            "Winter (Jun-Aug)",
+            "~17°C days",
+            "17-18°C",
+            "Quiet"
+          ],
+          [
+            "Spring (Sep-Nov)",
+            "~22°C",
+            "18-20°C",
+            "Building"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Those numbers are typical rather than promises - Sydney can throw a 35°C scorcher in November or a grey week in January. For the detail, see my [month-by-month sea temperatures](/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide) guide, and check [live conditions](/bondi-weather) before you head down."
+      },
+      {
         "type": "h2",
         "text": "Summer (December to February): the full Bondi in bloom"
       },
@@ -8984,7 +9038,7 @@
         "text": "Whenever you come, match the season to the trip you want - sun and buzz, quiet swims, whale-watching walks, or spring festivals - and you'll get the version of Bondi you came for."
       }
     ],
-    "wordCount": 883,
+    "wordCount": 950,
     "sources": [
       {
         "label": "Waverley Council - Festival of the Winds",
@@ -9831,7 +9885,7 @@
           },
           {
             "label": "Getting between",
-            "value": "Bus (333/380/381) or a 30-ish min walk"
+            "value": "Bus (333 or 380) or a 30-ish min walk"
           }
         ]
       },
@@ -9859,12 +9913,12 @@
       },
       {
         "type": "p",
-        "text": "They're only about 2.5 kilometres apart, so hopping between the two is easy. The most common way is a short bus ride: routes like the 333, 380 and 381 run between Bondi Junction interchange and Bondi Beach along Campbell Parade, and they come frequently."
+        "text": "They're only about 2.5 kilometres apart, so hopping between the two is easy. The most common way is a short bus ride: routes like the 333 and 380 run between Bondi Junction interchange and Bondi Beach along Campbell Parade, and they come frequently."
       },
       {
         "type": "list",
         "items": [
-          "By bus: catch the 333, 380 or 381 from Bondi Junction interchange down to the beach - a short hop of well under 15 minutes in normal traffic.",
+          "By bus: catch the 333 or 380 from Bondi Junction interchange down to the beach - a short hop of well under 15 minutes in normal traffic.",
           "By train + bus: ride the T4 line to Bondi Junction, then transfer to a beach-bound bus upstairs at the interchange.",
           "On foot: it's roughly a 25–35 minute walk, mostly downhill on the way to the beach (and a decent uphill workout coming back).",
           "By car or taxi: a few minutes' drive, though beach parking is limited and pricey in summer."
@@ -9891,7 +9945,7 @@
         "items": [
           {
             "q": "Is there a train to Bondi Beach?",
-            "a": "No. The train line ends at Bondi Junction - the beach itself has no railway station. From Bondi Junction you finish the trip on a bus (333, 380 or 381) or on foot. Check current times on the Transport for NSW trip planner."
+            "a": "No. The train line ends at Bondi Junction - the beach itself has no railway station. From Bondi Junction you finish the trip on a bus (333 or 380) or on foot. Check current times on the Transport for NSW trip planner."
           },
           {
             "q": "How far is Bondi Junction from Bondi Beach?",
@@ -9916,7 +9970,7 @@
         "text": "So next time someone tells you they're \"staying in Bondi,\" it's worth asking which one they mean. Get the two straight and you'll navigate this corner of Sydney like a local - shopping and trains at the Junction, sand and surf down at the beach, and a quick, easy bus tying the two together."
       }
     ],
-    "wordCount": 893,
+    "wordCount": 892,
     "sources": [
       {
         "label": "Transport for NSW - trip planner & timetables",
@@ -9979,7 +10033,7 @@
       },
       {
         "type": "p",
-        "text": "Entry is refreshingly cheap - a single adult swim costs less than a fancy coffee, with a lower rate for children and a discounted family pass, plus towel and locker hire if you need them. I won't quote exact figures here, because pool prices creep up over time; check the current rates on the official [Icebergs pool page](https://icebergs.com.au/pool-conditions/) before you go. There are also multi-visit passes if you plan to swim often."
+        "text": "Entry is refreshingly cheap for something this famous: as at August 2026 it's $10 for an adult, $7 for a child and $30 for a family pass, with the sauna included in your admission - plus towel and locker hire if you need them. Pool prices creep up over time, so check the current rates on the official [Icebergs pool page](https://icebergs.com.au/pool-conditions/) before you go. There are also multi-visit passes if you plan to swim often."
       },
       {
         "type": "callout",
@@ -10028,7 +10082,7 @@
           },
           {
             "q": "How much does it cost to swim at Bondi Icebergs?",
-            "a": "Single-visit entry is modest - cheaper for children than adults, with a discounted family pass - and towel and locker hire cost extra. Prices change, so confirm the current rates on the official Icebergs pool page before you visit."
+            "a": "As at August 2026, single-visit entry is $10 for adults, $7 for children and $30 for a family pass, with the sauna included in admission; towel and locker hire cost extra. Prices change, so check icebergs.com.au before you visit."
           },
           {
             "q": "When is the pool closed?",
@@ -10045,7 +10099,7 @@
         "text": "So the short answer stands: yes, the public can absolutely swim at Bondi Icebergs. Pick a calmer day, get there early, avoid Thursdays, and you'll see in about thirty seconds why this rectangle of ocean has drawn swimmers for the better part of a century."
       }
     ],
-    "wordCount": 892,
+    "wordCount": 895,
     "sources": [
       {
         "label": "Bondi Icebergs - Pool Conditions & Hours",
@@ -10887,6 +10941,10 @@
             "value": "Year-round by professional lifeguards"
           },
           {
+            "label": "Patrol hours",
+            "value": "Oct-Apr 6am-7pm; May-Sep 7am-5:30pm (Waverley Council, checked Aug 2026)"
+          },
+          {
             "label": "Golden rule",
             "value": "Swim between the red & yellow flags"
           },
@@ -11016,6 +11074,10 @@
           {
             "q": "Where is the calmest place to swim at Bondi?",
             "a": "The northern end of the beach is usually gentler than the south. For the calmest water, the Bondi Icebergs seawater pool and the free Ross Jones rock pool below it offer a controlled swim with no rip risk - ideal for children and nervous swimmers."
+          },
+          {
+            "q": "How cold is the water - do I need a wetsuit?",
+            "a": "The sea peaks at about 23-24°C in February and bottoms out around 17-18°C in August-September. Most visitors swim comfortably in just swimwear from December to April; locals tend to pull on springsuits or wetsuits from May to October. See our [month-by-month temperatures](/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide) guide for the detail."
           }
         ]
       },
@@ -11024,7 +11086,7 @@
         "text": "So, is it safe to swim at Bondi? Absolutely - it's one of my favourite swims in Sydney. Just respect the ocean the way locals do: read the water, stay between the flags, and never be shy about waving down a lifeguard. Do that, and Bondi gives you one of the best swims of your life."
       }
     ],
-    "wordCount": 1212,
+    "wordCount": 1278,
     "sources": [
       {
         "label": "Waverley Council - Beach safety",
@@ -12898,6 +12960,22 @@
         "text": "Square, blue-and-white signs are informational rather than hazard warnings - think patrol hours, what's permitted where, and general beach rules. They're the fine print of the beach, worth a glance so you know where surfcraft are allowed and where they aren't."
       },
       {
+        "type": "h3",
+        "text": "The red-and-white flag (and the siren)"
+      },
+      {
+        "type": "p",
+        "text": "One flag most visitors have never seen: red and white quarters means evacuate the water - now. It goes up with a siren or bell for sharks or other serious hazards. If you hear the signal or see that flag, leave the water calmly and wait for the lifeguards’ all-clear. (Verified against Surf Life Saving Australia’s flag guide, August 2026.)"
+      },
+      {
+        "type": "h3",
+        "text": "Bluebottle stings: the first aid that actually helps"
+      },
+      {
+        "type": "p",
+        "text": "Bluebottles drift in on summer onshore winds, and their sting is sharp but rarely dangerous. Surf Life Saving Australia’s current advice (checked August 2026): don’t rub the area, pick off any tentacles, rinse with seawater (not fresh water), then immerse the sting in hot water - as hot as is comfortable - for about 20 minutes; use a cold pack only if heat isn’t available or doesn’t help. The lifeguards’ first-aid room at the tower near the Pavilion treats stings all summer - never be shy about going up. Seek medical help if pain persists or the reaction spreads."
+      },
+      {
         "type": "localTip",
         "text": "A rip often looks calmer, darker and flatter than the water around it - a deceptively 'inviting' gap in the breaking waves. That smooth patch is usually the current running back out to sea, which is exactly why the lifeguards plant the flags away from it. When in doubt, ask a lifeguard where to swim before you go in; they genuinely don't mind."
       },
@@ -12931,6 +13009,10 @@
           {
             "q": "Is Bondi Beach patrolled all year?",
             "a": "Yes. Professional lifeguards employed by Waverley Council patrol Bondi every day of the year, with volunteer surf lifesavers adding patrols in the warmer months. Check Waverley Council for current patrol hours."
+          },
+          {
+            "q": "What do I do if I’m stung by a bluebottle at Bondi?",
+            "a": "Don’t rub it. Remove any tentacles, rinse with seawater, then hot water on the sting for about 20 minutes - that’s Surf Life Saving Australia’s current first aid (August 2026). The lifeguards at the tower near the Pavilion can treat you. See a doctor if symptoms persist or worsen."
           }
         ]
       },
@@ -12939,7 +13021,7 @@
         "text": "None of this takes the fun out of Bondi - learning to read the beach is what lets you relax into it. Find the red and yellow flags and swim between them. Do that and you've done the single most important thing any local could tell you."
       }
     ],
-    "wordCount": 901,
+    "wordCount": 1135,
     "sources": [
       {
         "label": "Surf Life Saving Australia - Beachsafe: beach signage",
@@ -12952,6 +13034,10 @@
       {
         "label": "healthdirect - Beach safety: rules, signs and flags",
         "url": "https://www.healthdirect.gov.au/beach-safety"
+      },
+      {
+        "label": "Surf Life Saving Australia - Beachsafe: flags, rips and bluebottle first aid",
+        "url": "https://beachsafe.org.au/surf-safety"
       }
     ],
     "lastReviewed": "2026-08-08",
@@ -13020,7 +13106,7 @@
         "type": "callout",
         "tone": "warning",
         "title": "The pool usually closes on Thursdays",
-        "text": "Icebergs typically closes the pool on Thursdays for cleaning, and it can also close during big swells or club races. If a specific day is the whole plan, check the official pool-conditions page that morning first."
+        "text": "Icebergs typically closes the pool on Thursdays for cleaning (in summer, when tides permit, it sometimes opens Thursdays - their words, not ours), and it can also close during big swells or club races. If a specific day is the whole plan, check the official pool-conditions page that morning first."
       },
       {
         "type": "h2",
@@ -13028,7 +13114,7 @@
       },
       {
         "type": "p",
-        "text": "Entry is cheap - an adult swim costs less than a decent coffee, with a lower rate for children, a discounted family pass, and towel and locker hire on top. I won't quote exact figures, because pool prices creep up over time; check the current rates on the official [Icebergs pool page](https://icebergs.com.au/pool-conditions/) before you go. The pool keeps long days, but exact times shift with the season, tides and swell, so I check that same page the day before I visit."
+        "text": "Entry is cheap for something this famous: as at August 2026 it's $10 for an adult, $7 for a child and $30 for a family pass, with the sauna included in your admission; towel and locker hire cost a little extra. Pool prices creep up over time, so check icebergs.com.au before you go. The pool keeps long days, but exact times shift with the season, tides and swell, so I check the official [Icebergs pool page](https://icebergs.com.au/pool-conditions/) the day before I visit."
       },
       {
         "type": "localTip",
@@ -13059,11 +13145,11 @@
           },
           {
             "q": "How much does it cost?",
-            "a": "Single-visit entry is modest - cheaper for children, with a discounted family pass - and towel and locker hire cost extra. Prices change, so confirm the current rates on the official Icebergs pool page before you visit."
+            "a": "As at August 2026, single-visit entry is $10 for adults, $7 for children and $30 for a family pass, with the sauna included in admission; towel and locker hire cost extra. Prices change, so check icebergs.com.au before you visit."
           },
           {
             "q": "When is the pool closed?",
-            "a": "It usually closes Thursdays for cleaning, and can close during big swells or club races. Check the official pool-conditions page if you're planning around a particular day."
+            "a": "It usually closes Thursdays for cleaning (in summer, when tides permit, it sometimes opens Thursdays - their words, not ours), and can close during big swells or club races. Check the official pool-conditions page if you're planning around a particular day."
           }
         ]
       },
@@ -13072,7 +13158,7 @@
         "text": "So the short answer holds: anyone can swim at Bondi Icebergs. Lap-counting regular, family with toddlers, or visitor chasing that one perfect photo - the pool is yours for the price of entry. Pick a calmer day, get there early, dodge the Thursday cleaning, and you'll see why this rectangle of ocean has drawn swimmers for generations."
       }
     ],
-    "wordCount": 890,
+    "wordCount": 920,
     "sources": [
       {
         "label": "Bondi Icebergs - Pool Conditions & Hours",
@@ -14276,7 +14362,7 @@
           },
           {
             "q": "Can visitors swim in the Bondi Icebergs pool?",
-            "a": "Yes. It's open to the public for a small entry fee on most days, though it's a private club pool that closes on certain days for maintenance and squad training, and whenever the surf is dangerous. Check the official Icebergs site for the current schedule and prices."
+            "a": "Yes. It's open to the public on most days ($10 adult, $7 child, $30 family, sauna included, as at August 2026), though it's a private club pool that closes on certain days for maintenance and squad training, and whenever the surf is dangerous. Check icebergs.com.au for the current schedule and prices."
           },
           {
             "q": "How old is the Bondi Icebergs pool?",
@@ -14289,7 +14375,7 @@
         "text": "The fact that the Icebergs keeps taking hits like this and keeps coming back is exactly why locals love it. It's not a sanitised resort pool tucked safely inland - it's a piece of Bondi that lives and breathes with the ocean, storms and all. Come for a swim on a clear morning and you'll understand why we're so protective of it."
       }
     ],
-    "wordCount": 899,
+    "wordCount": 903,
     "sources": [
       {
         "label": "BBC News - Massive swells smash windows at Sydney's Bondi Beach",
@@ -15815,7 +15901,7 @@
           },
           {
             "q": "When is the pool closed?",
-            "a": "The pool closes one weekday each week for cleaning (traditionally Thursday), and it can also close during rough surf or maintenance, so always check the day's pool conditions before setting out."
+            "a": "The pool closes one weekday each week for cleaning (traditionally Thursday - though in summer, when tides permit, it sometimes opens Thursdays; their words, not ours), and it can also close during rough surf or maintenance, so always check the day's pool conditions before setting out."
           },
           {
             "q": "Are there lifeguards on duty?",
@@ -15828,7 +15914,7 @@
         "text": "Bottom line: Icebergs is a wonderful introduction to ocean swimming for kids, as long as you go in clear-eyed about cold water and changing conditions. Pick a calm summer morning, bring the layers, keep the little ones close, and you'll have one of those salty Bondi mornings the whole family remembers."
       }
     ],
-    "wordCount": 895,
+    "wordCount": 910,
     "sources": [
       {
         "label": "Bondi Icebergs - official site (pool hours, conditions & fees)",
@@ -15865,7 +15951,7 @@
           },
           {
             "label": "Getting here",
-            "value": "Bus 333 / 380 / 381 from Bondi Junction"
+            "value": "Bus 333 or 380 from Bondi Junction"
           }
         ]
       },
@@ -15935,7 +16021,7 @@
       },
       {
         "type": "p",
-        "text": "Parking near the beach is tight at the best of times and worse in the rain, so I skip the car. Trains run to Bondi Junction, and from the interchange frequent buses (333, 380 and 381 among them) drop you right at the beach. Tap on with an Opal or contactless card, and check the Transport for NSW trip planner for live times."
+        "text": "Parking near the beach is tight at the best of times and worse in the rain, so I skip the car. Trains run to Bondi Junction, and from the interchange frequent buses (333 and 380 among them) drop you right at the beach. Tap on with an Opal or contactless card, and check the Transport for NSW trip planner for live times."
       },
       {
         "type": "faq",
@@ -15954,7 +16040,7 @@
           },
           {
             "q": "How do I get to Bondi Beach without a car on a rainy day?",
-            "a": "Take a train to Bondi Junction, then a bus (333, 380 or 381) down to the beach - quicker and far less stressful than hunting for beachside parking. Use the Transport for NSW trip planner for live departures."
+            "a": "Take a train to Bondi Junction, then a bus (333 or 380) down to the beach - quicker and far less stressful than hunting for beachside parking. Use the Transport for NSW trip planner for live departures."
           },
           {
             "q": "Is the Bondi to Coogee walk safe in the rain?",
@@ -15967,7 +16053,7 @@
         "text": "So don't let a grey forecast change your plans. Some of Bondi's best moments happen when the sun clocks off - just swap the towel for a raincoat and lean in."
       }
     ],
-    "wordCount": 897,
+    "wordCount": 893,
     "sources": [
       {
         "label": "What's on at Bondi Pavilion - Waverley Council",
@@ -16016,7 +16102,7 @@
           },
           {
             "label": "Pools",
-            "value": "50 m nine-lane lap pool + sheltered 25 m pool"
+            "value": "50 m lap pool + smaller, shallower second pool"
           },
           {
             "label": "Water",
@@ -16039,7 +16125,7 @@
           },
           {
             "q": "How much does it cost to swim?",
-            "a": "There's a modest single-visit fee, with cheaper multi-visit passes for regulars. Because prices change, I check the official Pool Conditions page at icebergs.com.au for the current figures rather than quote a number that might be stale."
+            "a": "As at August 2026, entry is $10 for adults, $7 for children and $30 for a family pass, with the sauna included in admission - plus cheaper multi-visit passes for regulars. Because prices change, check icebergs.com.au for the current figures before you go."
           },
           {
             "q": "What are the opening hours?",
@@ -16047,7 +16133,7 @@
           },
           {
             "q": "How big is the pool?",
-            "a": "There are two: a 50-metre, nine-lane lap pool that faces the ocean and takes the full force of the waves, and a smaller, more sheltered 25-metre pool tucked behind it. Both are ocean-fed."
+            "a": "There are two: a 50-metre lap pool that faces the ocean and takes the full force of the waves, and a smaller, more sheltered 25-metre pool tucked behind it. Both are ocean-fed."
           },
           {
             "q": "Is the pool heated?",
@@ -16080,7 +16166,7 @@
         "text": "A little history for the swim: the club was founded in 1929 by a band of local life savers who wanted to keep fit through winter, and it still bills itself as the only licensed winter swimming club in the world. Women were admitted as members in 1995, and the premises you see today reopened after a major redevelopment in 2002. Pack a towel, check the tide, and I'll see you in the slow lane."
       }
     ],
-    "wordCount": 762,
+    "wordCount": 767,
     "sources": [
       {
         "label": "Bondi Icebergs - Pool Conditions & Fees",
@@ -16135,7 +16221,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi isn't on the train line itself, which trips up a lot of first-timers. The easiest route is a train to Bondi Junction (the end of the T4 line), then a bus down the hill. The 333, 380, 381 and 382 all run to Campbell Parade, right on the sand - the 333 is the express and my usual pick."
+        "text": "Bondi isn't on the train line itself, which trips up a lot of first-timers. The easiest route is a train to Bondi Junction (the end of the T4 line), then a bus down the hill. The 333 and 380 both run to Campbell Parade, right on the sand - the 333 is the express and my usual pick."
       },
       {
         "type": "list",
@@ -16226,7 +16312,7 @@
         "items": [
           {
             "q": "How do I get from Sydney city to Bondi Beach without a car?",
-            "a": "Train to Bondi Junction, then a bus - the 333, 380, 381 or 382 all run to Campbell Parade. Tap on and off with an Opal or contactless card; from the CBD it's usually under an hour."
+            "a": "Train to Bondi Junction, then a bus - the 333 or 380 both run to Campbell Parade. Tap on and off with an Opal or contactless card; from the CBD it's usually under an hour."
           },
           {
             "q": "Is there a train station at Bondi Beach?",
@@ -16251,7 +16337,7 @@
         "text": "That's the local's shortlist. Bondi rewards an early start and a slow afternoon more than a packed schedule - pick two or three, leave time for a swim and a long coffee, and you'll see why the rest of us never leave."
       }
     ],
-    "wordCount": 898,
+    "wordCount": 894,
     "sources": [
       {
         "label": "Transport for NSW - Trip Planner",
@@ -18546,7 +18632,7 @@
         "type": "callout",
         "tone": "note",
         "title": "Check before you go",
-        "text": "Icebergs closes its pools on some days (traditionally Thursdays) for cleaning, and entry fees and hours change from time to time. Confirm current session times and prices on the Icebergs website before you make the walk down."
+        "text": "Icebergs closes its pools on some days (traditionally Thursdays) for cleaning - though in summer, when tides permit, it sometimes opens Thursdays (their words, not ours) - and entry fees and hours change from time to time. Confirm current session times and prices on the Icebergs website before you make the walk down."
       },
       {
         "type": "localTip",
@@ -18621,7 +18707,7 @@
         "text": "That's the beauty of basing yourself here for marathon week: the running belongs to the city, and the recovery belongs to Bondi. Whether you ran the 42.2 or cheered every kilometre, the beach quietly keeps the whole family happy."
       }
     ],
-    "wordCount": 909,
+    "wordCount": 925,
     "sources": [
       {
         "label": "Sydney Marathon (official)",
@@ -18976,7 +19062,7 @@
       },
       {
         "type": "p",
-        "text": "There's no train to the sand itself, and you don't need one. From the city, the 333 is the fast, limited-stops bus from Circular Quay through the CBD to Bondi Beach. Already on the rail network? Take the T4 line to Bondi Junction - the closest station - then a connecting bus (333, 380 or 381) for the short leg to the water. Both run on Opal, or tap on with any contactless card or phone."
+        "text": "There's no train to the sand itself, and you don't need one. From the city, the 333 is the fast, limited-stops bus from Circular Quay through the CBD to Bondi Beach. Already on the rail network? Take the T4 line to Bondi Junction - the closest station - then a connecting bus (333 or 380) for the short leg to the water. Both run on Opal, or tap on with any contactless card or phone."
       },
       {
         "type": "p",
@@ -19070,7 +19156,7 @@
           },
           {
             "q": "Is there a train station at Bondi Beach?",
-            "a": "No. The closest station is Bondi Junction on the T4 line, a short bus ride from the beach on the 333, 380 or 381."
+            "a": "No. The closest station is Bondi Junction on the T4 line, a short bus ride from the beach on the 333 or 380."
           },
           {
             "q": "What is the best time of year to visit Bondi Beach?",
@@ -19091,7 +19177,7 @@
         "text": "Plan the getting-here part, come early, respect the flags, and give yourself time to just wander - that's how Bondi earns its reputation, and the easiest way to feel Sydney's coastal life in a single morning."
       }
     ],
-    "wordCount": 907,
+    "wordCount": 905,
     "sources": [
       {
         "label": "Transport for NSW - plan your trip",
@@ -19220,7 +19306,7 @@
           },
           {
             "q": "Can I swim at Bondi Icebergs pool as a visitor?",
-            "a": "Yes - the ocean pool is open to the public most days for a small entry fee, but it closes at times for cleaning and swimming races. Check the Icebergs website for the current session times and price before you head down."
+            "a": "Yes - the ocean pool is open to the public most days ($10 adult, $7 child, $30 family, sauna included, as at August 2026), but it closes at times for cleaning and swimming races. Check icebergs.com.au for the current session times and price before you head down."
           },
           {
             "q": "Is it safe to swim at Bondi Beach?",
@@ -19237,7 +19323,7 @@
         ]
       }
     ],
-    "wordCount": 891,
+    "wordCount": 896,
     "sources": [
       {
         "label": "Waverley Council - Bondi to Bronte Coastal Walk",
@@ -19849,7 +19935,7 @@
           },
           {
             "label": "Getting here",
-            "value": "Train to Bondi Junction (T4), then bus 333/380/381"
+            "value": "Train to Bondi Junction (T4), then bus 333 or 380"
           },
           {
             "label": "Best swim",
@@ -19871,7 +19957,7 @@
       },
       {
         "type": "p",
-        "text": "My standard advice: skip the car. The simplest run from the city is the T4 Eastern Suburbs line to Bondi Junction, then a short bus down the hill on the 333, 380 or 381. Tap on with an Opal or contactless card, and check the Transport for NSW trip planner for live times."
+        "text": "My standard advice: skip the car. The simplest run from the city is the T4 Eastern Suburbs line to Bondi Junction, then a short bus down the hill on the 333 or 380. Tap on with an Opal or contactless card, and check the Transport for NSW trip planner for live times."
       },
       {
         "type": "callout",
@@ -19941,7 +20027,7 @@
         "items": [
           {
             "q": "What's the easiest way to get to Bondi Beach from the city?",
-            "a": "Public transport. Take the T4 Eastern Suburbs line to Bondi Junction, then a bus (333, 380 or 381) to the beach. Use the Transport for NSW trip planner for live times and fares."
+            "a": "Public transport. Take the T4 Eastern Suburbs line to Bondi Junction, then a bus (333 or 380) to the beach. Use the Transport for NSW trip planner for live times and fares."
           },
           {
             "q": "Is it safe to swim at Bondi Beach?",
@@ -20125,7 +20211,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Yes - you can absolutely swim at Bondi Icebergs, and no, you don't need to be a member. It's a public ocean pool open to everyone for a small entry fee, seven days a week. It's easily the question I'm asked most about the place, so let me walk you through exactly where to enter, what to expect, and the one day of the week you'll want to double-check before you go."
+        "text": "Yes - you can absolutely swim at Bondi Icebergs, and no, you don't need to be a member. It's a public ocean pool open to everyone, seven days a week - $10 adult entry ($7 child, $30 family, sauna included) as at August 2026. It's easily the question I'm asked most about the place, so let me walk you through exactly where to enter, what to expect, and the one day of the week you'll want to double-check before you go."
       },
       {
         "type": "quickFacts",
@@ -20204,11 +20290,11 @@
         "items": [
           {
             "q": "Do you have to be a member to swim at Bondi Icebergs?",
-            "a": "No. The pool is open to the public and anyone can swim for a small entry fee paid at the pool desk. Membership relates to the Icebergs winter swimming club, not everyday public access."
+            "a": "No. The pool is open to the public and anyone can swim - entry is paid at the pool desk ($10 adult, $7 child, $30 family as at August 2026). Membership relates to the Icebergs winter swimming club, not everyday public access."
           },
           {
             "q": "How much does it cost to swim at Bondi Icebergs?",
-            "a": "There's a modest entry fee, with reduced rates typically available for children, seniors and families. Prices change from time to time, so check the current rates on the official Icebergs website before you go rather than relying on an old figure."
+            "a": "As at August 2026, entry is $10 for adults, $7 for children and $30 for a family pass, with the sauna included in admission. Prices change from time to time, so check icebergs.com.au before you go rather than relying on an old figure."
           },
           {
             "q": "What are the pool's opening hours?",
@@ -20229,7 +20315,7 @@
         "text": "That's all there is to it. No membership, no fuss - just wander to the southern end, pay at the desk, and lower into one of the most beautiful ocean pools in the world. Pick a calm morning, take your time, and you'll see why we locals never tire of it."
       }
     ],
-    "wordCount": 899,
+    "wordCount": 918,
     "sources": [
       {
         "label": "Bondi Icebergs Club - pool info",
@@ -21231,7 +21317,7 @@
           "Bondi Park playground - fenced, with grass, picnic and BBQ spots right behind the beach.",
           "The beachfront promenade - flat, pram-friendly and lined with grass, ideal for a gentle stroll or a scooter.",
           "The skate ramps and the painted sea wall at the south end - great for older kids to watch or have a go.",
-          "The first stretch of the Bondi to Bronte coastal walk - doable with a sturdy pram and it rewards you with a smaller, calmer beach and rock pool at Bronte."
+          "The first clifftop stretch of the coastal walk, as far as the Marks Park headland - pushable with a sturdy pram, then turn around: beyond it the path to Bronte has flights of steps, so take a carrier if you want the full walk."
         ]
       },
       {
@@ -21280,7 +21366,7 @@
         "text": "That's the rhythm I'd aim for with kids in tow: a splash at the children's pool, a play in the fenced park, a promenade stroll, maybe a first wave, and an ice cream to finish. Keep to the north end, watch the flags, and Bondi is one of my favourite family days in Sydney."
       }
     ],
-    "wordCount": 900,
+    "wordCount": 914,
     "sources": [
       {
         "label": "Waverley Council - Bondi Park",
@@ -22048,6 +22134,148 @@
     "lastReviewed": "2026-08-08",
     "voice": "first-person"
   },
+  "/bondi-blog/bondi-beach-lockers-where-to-leave-valuables": {
+    "blocks": [
+      {
+        "type": "answer",
+        "text": "Yes - there are lockers at Bondi Beach, inside the Bondi Pavilion in the middle of the beachfront, open 6am-10pm daily. A small locker is $6 for 4 hours ($10 all day) and a large one is $9 for 4 hours ($15 all day), verified August 2026. If the lockers are full or you'd rather not bother, the rule is simple: bring only what you can afford to lose, and use the strategies below."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Lockers",
+            "value": "Inside Bondi Pavilion, middle of the beach"
+          },
+          {
+            "label": "Hours",
+            "value": "6am-10pm daily"
+          },
+          {
+            "label": "Small locker (50 x 15 x 47 cm)",
+            "value": "$6/4hrs, $10 all day - fits phone, wallet, keys"
+          },
+          {
+            "label": "Large locker (50 x 45 x 47 cm)",
+            "value": "$9/4hrs, $15 all day - fits a daypack + towel"
+          },
+          {
+            "label": "Suitcases",
+            "value": "Won't fit - store luggage before you come"
+          },
+          {
+            "label": "My rule of thumb",
+            "value": "Bank card + phone only; leave the rest at your accommodation"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The lockers: inside the Bondi Pavilion"
+      },
+      {
+        "type": "p",
+        "text": "The only proper lockers at Bondi Beach live inside the Bondi Pavilion - the big Mediterranean-style building set back from the sand, right in the middle of the beach. They sit alongside the public change rooms and showers on the ground floor, and they're available 6am-10pm daily, which comfortably covers a dawn swim through to a sunset one. As at August 2026, a small locker (50 x 15 x 47 cm) costs $6 for four hours or $10 for the whole day, and a large one (50 x 45 x 47 cm) is $9 for four hours or $15 all day. Prices do drift, so if you're reading this well after I wrote it, double-check on the Pavilion's own site."
+      },
+      {
+        "type": "p",
+        "text": "Size-wise, be realistic. The small locker is a tall slim slot - perfect for a phone, wallet, keys, sunglasses and not much more. The large one swallows a daypack and a towel with room to spare. What neither will reliably take is a suitcase: a standard carry-on stands around 55 cm tall, and the lockers just aren't built for it. I've watched more than one traveller wheel a bag across the sand and discover this the hard way."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Don't bring your suitcase to the beach",
+        "text": "There is no left-luggage office at Bondi Beach, and the Pavilion lockers won't fit a suitcase. If you're between check-ins or on a layover, sort your luggage out before you come - your accommodation, a storage service in the city, or the airport. More on your options below."
+      },
+      {
+        "type": "h2",
+        "text": "No locker? The solo swimmer's playbook"
+      },
+      {
+        "type": "p",
+        "text": "On a hot Saturday the lockers can be spoken for, and honestly, most locals never use them anyway. Here's what actually works, ranked in the order I'd do it."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Wear your valuables into the water.** A waterproof pouch on a lanyard or waist strap takes your card, phone and a key with you through the surf. It's the only method where nothing is ever unattended, which is why it's first. The surf and beach shops along Campbell Parade generally stock them if you didn't pack one.",
+          "**The one-person-stays-dry rotation.** In a group, take turns: one person minds the towels while the others swim, then swap. Oldest trick on the beach and still the most reliable - it costs nothing and someone gets to hold the coffee.",
+          "**Bury-it-in-the-towel is not a strategy.** I have to be straight with you: opportunistic theft of unattended bags does happen at Bondi, like at any famous beach. It's not rampant and it's rarely dramatic - I've written honestly about [how common theft really is](/bondi-blog/2025/1/5/are-there-thieves-or-pickpockets-at-bondi-beach) - but a phone tucked under a corner of towel fools precisely nobody who's looking.",
+          "**Go minimal in the first place.** Bondi is tap-to-pay everywhere - cafés, the buses, the gelato window - so a single bank card and your phone covers the whole day. Leave the passport, the spare cards and the cash pile at your accommodation, and suddenly there's nothing on the sand worth worrying about."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Swimming with your phone"
+      },
+      {
+        "type": "p",
+        "text": "The waterproof pouch deserves its own word, because it's genuinely the best few dollars you'll spend at Bondi. The good ones are a clear soft-plastic sleeve with a roll-top or double-clip seal and a neck lanyard - your phone stays usable through the plastic, so you can even grab a photo out past the break. Seal it, give it a squeeze test before your phone goes in, and keep it under your rashie rather than swinging free in the waves."
+      },
+      {
+        "type": "p",
+        "text": "If you didn't bring one, you won't have to go far: the surf and beach shops along Campbell Parade, the strip that runs behind the beach, generally have them by the register in summer. I'd sort it before you hit the sand rather than after you've already staked out your spot."
+      },
+      {
+        "type": "h2",
+        "text": "Luggage and layovers: the honest answer"
+      },
+      {
+        "type": "p",
+        "text": "I'll say it plainly because nobody official does: Bondi Beach has no left-luggage office, and the Pavilion lockers are too small for suitcases. If you've checked out of your hotel at 10am and your flight is at 9pm, the beach itself cannot solve your luggage problem - you have to solve it before you get on the bus."
+      },
+      {
+        "type": "p",
+        "text": "Your realistic options, in order of convenience: ask your accommodation to hold your bags after checkout - most hotels and plenty of hostels will, often free for the day. Failing that, use a staffed luggage-storage service in the city before you head out; they cluster around Central and Circular Quay, which is handy because the 333 bus to Bondi leaves from Circular Quay anyway. And if you're on a genuine layover, storage at Sydney Airport means you ride out and back carrying nothing but a towel and a pouch - which, frankly, is the ideal way to arrive at Bondi regardless."
+      },
+      {
+        "type": "localTip",
+        "text": "The lifeguards cannot watch your stuff - they're watching the water, and they'll tell you the same. And remember the red-and-yellow flags move during the day as conditions shift, so the spot you swam out from isn't always the spot you'll swim back to. After each swim, re-check your line of sight to your towel before you head back out."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Are there lockers at Bondi Beach?",
+            "a": "Yes - inside the Bondi Pavilion, the large building in the middle of the beachfront, alongside the public change rooms and showers. They're available 6am-10pm daily."
+          },
+          {
+            "q": "How much do the Bondi Beach lockers cost?",
+            "a": "As at August 2026: a small locker (50 x 15 x 47 cm) is $6 for 4 hours or $10 all day; a large locker (50 x 45 x 47 cm) is $9 for 4 hours or $15 all day. Check the Bondi Pavilion website for current prices."
+          },
+          {
+            "q": "Can I leave my bag on the sand while I swim?",
+            "a": "You can, but an unattended bag is the one thing that does occasionally go missing at Bondi. Either have someone in your group stay with it, keep valuables on your body in a waterproof pouch, or use a Pavilion locker. Hiding things under a towel is not a plan."
+          },
+          {
+            "q": "Where do I store a suitcase near Bondi Beach?",
+            "a": "Not at the beach - there's no left-luggage office and the Pavilion lockers won't fit a suitcase. Leave it with your accommodation, use a staffed storage service in the city (they cluster near Central and Circular Quay) before you come out, or use airport storage if you're on a layover."
+          },
+          {
+            "q": "Is theft common at Bondi Beach?",
+            "a": "No - Bondi is a busy, well-patrolled beach and serious crime is rare. What does happen is opportunistic taking of unattended valuables left on the sand, which the simple habits above almost entirely prevent."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "So there's your system: card and phone in a pouch that swims with you, anything bigger in a Pavilion locker, and the suitcase dealt with before you ever see the sand. Once your gear's sorted, the Pavilion also covers [toilets, showers and change rooms](/bondi-blog/bondi-beach-toilets-showers-change-rooms) so you can rinse off and change before heading home - and if you're still sketching out the rest of your day, my [first-timer guide](/start-here) is the place to start."
+      }
+    ],
+    "wordCount": 1304,
+    "sources": [
+      {
+        "label": "Bondi Pavilion - facilities & lockers",
+        "url": "https://www.bondipavilion.com.au/visit/our_facilities"
+      },
+      {
+        "label": "NSW Police - keeping valuables safe at the beach",
+        "url": "https://www.police.nsw.gov.au/__data/assets/pdf_file/0006/781305/15255_Fact_Sheet_-_Keeping_Valuables_Safe_at_the_Beach.pdf"
+      }
+    ],
+    "lastReviewed": "2026-08-12",
+    "voice": "first-person"
+  },
   "/bondi-blog/bondi-beach-main-events": {
     "blocks": [
       {
@@ -22327,6 +22555,255 @@
     "lastReviewed": "2026-08-08",
     "voice": "first-person"
   },
+  "/bondi-blog/bondi-beach-rules-what-you-can-and-cant-do": {
+    "blocks": [
+      {
+        "type": "answer",
+        "text": "Here's the 15-second version: no alcohol (Bondi Beach and Bondi Park are an enforced alcohol-free zone), no glass, no smoking or vaping, no dogs on the sand or promenade at any time, and no drones without approval. BBQs are fine - but only on the free electric ones in the park, never on the sand, and never charcoal or open flame. Topless sunbathing is tolerated; full nudity isn't legal here. And the beach itself never \"closes\" - you can walk it at 3am - but only ever swim when the lifeguards are on and the flags are up."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Alcohol",
+            "value": "Banned - alcohol-free zone, enforced"
+          },
+          {
+            "label": "Glass",
+            "value": "Banned on the beach and in the park"
+          },
+          {
+            "label": "Smoking & vaping",
+            "value": "Banned - smoke-free beach"
+          },
+          {
+            "label": "Dogs",
+            "value": "Never on the beach or promenade"
+          },
+          {
+            "label": "Drones",
+            "value": "Council approval + CASA rules required"
+          },
+          {
+            "label": "Fires & charcoal",
+            "value": "Banned - free electric BBQs in the park only"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Drinking and glass: the rule everyone tests"
+      },
+      {
+        "type": "p",
+        "text": "This is the one visitors ask me about most, usually while holding a bottle of something nice. The answer is a flat no: Bondi Beach and Bondi Park are an alcohol-free zone, and it's actually enforced - this isn't one of those signs nobody reads. Council rangers and police patrol, they will tip your drinks out, and fines happen. The glass ban is separate and just as firm, and honestly it's the one I care about most as a local - nobody wants to find the bottom of a broken bottle with a bare foot. If you want a sunset drink, do what we do: the licensed venues along [Campbell Parade and around the beach](/bondi-eat-and-drink) exist precisely for this, most of them with a better view than your picnic rug anyway."
+      },
+      {
+        "type": "p",
+        "text": "Picnics themselves are completely welcome, to be clear - the grass in Bondi Park fills up with them every weekend. Just keep it dry and keep it out of glass. Cans and plastic for your soft drinks, and you'll never have a problem."
+      },
+      {
+        "type": "h2",
+        "text": "Smoking and vaping"
+      },
+      {
+        "type": "p",
+        "text": "Bondi is a smoke-free beach, and has been for years - it was one of the earliest in Australia to go that way, and locals are genuinely protective of it. Don't expect a vape to be treated any differently to a cigarette; treat the ban as covering both and you'll match how it's applied on the ground. If you need to know exactly where the smoke-free area starts and ends, Waverley Council publishes the boundaries - but the simple version is: not on the sand, not on the promenade, and read the room in the park."
+      },
+      {
+        "type": "h2",
+        "text": "Dogs: I'm sorry, but no"
+      },
+      {
+        "type": "p",
+        "text": "This one breaks hearts daily, and I get it - Bondi is one of the most dog-mad suburbs in Sydney, and the cafés are full of them. But dogs are not allowed on Bondi Beach or the promenade at any time. Not early morning, not off-season, not \"just for a quick photo\". Rangers patrol for this specifically because so many people chance it. Waverley does have on-leash and off-leash areas elsewhere in the area - check the council's current dog map for where your dog is genuinely welcome, because those rules shift by park and by time of day and I'd rather point you at the source than guess."
+      },
+      {
+        "type": "localTip",
+        "text": "The \"everyone does it\" myth is exactly that - a myth. I've watched rangers work the beach on an ordinary Tuesday, and alcohol and dogs are the two things they fine for most visibly. The people you see getting away with it are the ones who haven't been walked past yet."
+      },
+      {
+        "type": "h2",
+        "text": "BBQs, picnics and fires"
+      },
+      {
+        "type": "p",
+        "text": "Good news first: there are four free electric BBQ stations in Bondi Park, the grassy strip behind the beach, and they're open until dusk. They're first-come, first-served and genuinely well used - I've written a whole [local's guide to the free BBQ spots](/bondi-blog/2025/1/20/locals-guide-to-free-bbq-spots-at-bondi-bronte-tamarama) if a cook-up is the plan. The hard line is fuel: no charcoal, no solid fuel, no open fires, anywhere - not in the park and absolutely not on the sand. A bonfire on the beach might be the postcard fantasy, but at Bondi it's a fast way to meet a ranger."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Free electric BBQs: four stations in Bondi Park, open until dusk",
+          "Charcoal, solid fuel and open fires: banned everywhere, beach and park",
+          "Picnics on the grass or sand: welcome - just no glass and no booze",
+          "Big group or an event? That crosses into council permit territory - ask Waverley first"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Drones and filming"
+      },
+      {
+        "type": "p",
+        "text": "Short answer: don't fly a drone at Bondi without permission. Recreational drone flight over the beach needs Waverley Council approval on top of CASA's standard rules - and a summer crowd of thousands is close to the worst-case scenario for those rules anyway. If you're serious, start with [CASA's Know Your Drone rules](https://www.casa.gov.au/knowyourdrone) and then talk to the council; if you're casual, leave it in the bag and buy a postcard. The same permit logic applies to commercial photography and film shoots - Bondi hosts them constantly, but the ones you see have paperwork."
+      },
+      {
+        "type": "h2",
+        "text": "Swimwear, topless and nudity"
+      },
+      {
+        "type": "p",
+        "text": "Bondi is about as relaxed as a city beach gets. Wear whatever you're comfortable in - budgie smugglers, burkinis, full wetsuit in January, nobody blinks. Topless sunbathing is broadly tolerated here and has been for decades; you'll see it, especially down the quieter stretches, and it isn't an issue. Full nudity is a different story: Bondi is not a designated nude beach, so it's not legal here. Sydney does have legal clothing-optional beaches - Bondi just isn't one of them, whatever a 1970s guidebook may have told you."
+      },
+      {
+        "type": "h2",
+        "text": "Night: can you be on the beach after dark?"
+      },
+      {
+        "type": "p",
+        "text": "Yes - and this surprises people. Bondi Beach has no gates and no curfew; it's open 24 hours, and a moonlight walk along the sand is genuinely one of my favourite things about living here. The [333 bus even runs all night](/getting-to-bondi), roughly every 20 minutes, so you can get here and away at any hour. Being on the beach at night is legal and lovely. Swimming at night is neither smart nor safe - and that distinction matters enough that I'll give it its own box."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Never swim at night",
+        "text": "The beach is open 24/7, but the lifeguards aren't. Outside patrol hours there are no flags, no one watching, and rips you cannot see in the dark - Bondi's rips are serious even in daylight. Swim between the red-and-yellow flags during patrol hours, full stop. In an emergency, call 000."
+      },
+      {
+        "type": "p",
+        "text": "As for sleeping on the beach overnight: the sand not having a gate doesn't make it a campsite. Camping and sleeping in public reserves is regulated by the council, rangers do move people on, and between the sprinklers, the 5am swimmers and the seagulls you wouldn't enjoy it anyway. If you're stuck for a bed, [there are hostels and hotels at every budget](/stay) a few minutes' walk away."
+      },
+      {
+        "type": "h2",
+        "text": "Fishing, weddings, metal detecting and everything else"
+      },
+      {
+        "type": "p",
+        "text": "There's a long tail of \"can I...?\" questions - fishing off the rocks, a wedding ceremony on the sand, metal detecting, fitness bootcamps, busking, horses. I'm not going to bluff specifics I haven't verified, so here's the honest structure of it: anything organised, commercial or equipment-heavy generally falls under Waverley Council's permit system, and anything involving fishing sits under state rules as well as council ones. The pattern at Bondi is rarely \"banned outright\" - it's \"allowed with the right permission, in the right place\". [Waverley Council](https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety) is the authority for all of it, and a quick email to them before you plan a beach wedding will save you an expensive surprise on the day."
+      },
+      {
+        "type": "table",
+        "caption": "Bondi Beach rules at a glance",
+        "columns": [
+          "Activity",
+          "Verdict",
+          "The detail"
+        ],
+        "rows": [
+          [
+            "Swimming between the flags",
+            "Allowed",
+            "Patrolled year-round; the flags move during the day - swim between them"
+          ],
+          [
+            "Alcohol",
+            "Not allowed",
+            "Beach and park are an enforced alcohol-free zone"
+          ],
+          [
+            "Glass",
+            "Not allowed",
+            "Glass-free zone - bring cans and plastic instead"
+          ],
+          [
+            "Smoking & vaping",
+            "Not allowed",
+            "Smoke-free beach; treat vapes the same as cigarettes"
+          ],
+          [
+            "Dogs",
+            "Not allowed",
+            "Never on the beach or promenade; council maps show where dogs can go"
+          ],
+          [
+            "Council electric BBQs",
+            "Allowed",
+            "Four free stations in Bondi Park, open until dusk"
+          ],
+          [
+            "Charcoal, fires, solid fuel",
+            "Not allowed",
+            "No open fires anywhere - park or sand"
+          ],
+          [
+            "Topless sunbathing",
+            "Allowed",
+            "Broadly tolerated; full nudity is not legal - Bondi isn't a nude beach"
+          ],
+          [
+            "Being on the beach at night",
+            "Allowed",
+            "No gates, no curfew - but never swim outside patrol hours"
+          ],
+          [
+            "Drones",
+            "With permission",
+            "Waverley Council approval plus CASA rules"
+          ],
+          [
+            "Weddings, shoots, events, bootcamps",
+            "With permission",
+            "Waverley Council's permit system covers organised and commercial use"
+          ],
+          [
+            "Fishing",
+            "Check first",
+            "State fishing rules plus council rules apply - confirm before you cast"
+          ]
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Can you drink alcohol at Bondi Beach?",
+            "a": "No. Bondi Beach and Bondi Park are an alcohol-free zone and it's enforced - rangers and police patrol, confiscate drinks and issue fines. The licensed bars and restaurants along Campbell Parade are the legal (and frankly more comfortable) option for a drink with a beach view."
+          },
+          {
+            "q": "Are dogs allowed at Bondi Beach?",
+            "a": "No - dogs aren't allowed on the beach or the promenade at any time, and rangers do fine for it. Waverley Council has on-leash and off-leash areas elsewhere in the area; check their current dog rules for where your dog is welcome."
+          },
+          {
+            "q": "Can I fly a drone at Bondi Beach?",
+            "a": "Not without permission. Recreational drone flight over Bondi needs Waverley Council approval on top of CASA's standard drone rules, and a crowded beach is a hard place to fly legally under those rules anyway. Practical answer: don't, unless you've done the paperwork."
+          },
+          {
+            "q": "Is Bondi a nude beach?",
+            "a": "No. Topless sunbathing is broadly tolerated at Bondi and has been for decades, but full nudity isn't legal here - Bondi is not a designated clothing-optional beach."
+          },
+          {
+            "q": "Can you smoke or vape at Bondi Beach?",
+            "a": "No - Bondi is a smoke-free beach, and in practice vaping is treated the same as smoking. Waverley Council publishes the exact smoke-free boundaries if you need them, but the safe assumption is: not on the sand, not on the promenade."
+          },
+          {
+            "q": "Is Bondi Beach open at night?",
+            "a": "Yes - the beach has no gates or curfew, it's open 24 hours, and the 333 bus runs all night. But there are no lifeguards after patrol hours, so never swim at night. Walk the sand, enjoy the moon, stay out of the water."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "So that's the rulebook - and honestly, none of it is there to spoil your day. It's why the sand is clean, the water's watched and the whole place still works with a few million visitors a year. Once you've got the official rules down, there's a second, unwritten layer that locals care about just as much - I've covered that in my [Bondi Beach etiquette guide](/bondi-blog/bondi-beach-etiquette-guide). And when you're ready to put it all into practice, here's [how to get to Bondi](/getting-to-bondi) without the parking headache."
+      }
+    ],
+    "wordCount": 1801,
+    "sources": [
+      {
+        "label": "Waverley Council - Beach safety & beach rules",
+        "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety"
+      },
+      {
+        "label": "CASA - Know Your Drone (recreational drone rules)",
+        "url": "https://www.casa.gov.au/knowyourdrone"
+      },
+      {
+        "label": "Transport for NSW - trip planner",
+        "url": "https://transportnsw.info"
+      }
+    ],
+    "lastReviewed": "2026-08-12",
+    "voice": "first-person"
+  },
   "/bondi-blog/bondi-beach-surf-guide": {
     "blocks": [
       {
@@ -22480,8 +22957,8 @@
   "/bondi-blog/bondi-beach-toilets-showers-change-rooms": {
     "blocks": [
       {
-        "type": "p",
-        "text": "If you just need to know where to go: Bondi Beach has free public toilets and showers at three points - the north end near North Bondi, the middle at the Bondi Pavilion, and the south end near the Icebergs and the skate park. The Pavilion is your best all-rounder, with toilets, change rooms, lockers, baby-change tables and accessible facilities in one spot, all of it free. Below, I'll show you exactly where each one sits so you never have to do the wet-towel shuffle up the promenade."
+        "type": "answer",
+        "text": "Bondi Beach has free public toilets and showers at three points - the north end near North Bondi, the middle at the Bondi Pavilion, and the south end near the Icebergs and the skate park. The Pavilion is your best all-rounder, with free toilets, change rooms, baby-change tables and accessible facilities in one spot, plus paid lockers. Below, I'll show you exactly where each one sits so you never have to do the wet-towel shuffle up the promenade."
       },
       {
         "type": "quickFacts",
@@ -22544,7 +23021,7 @@
       },
       {
         "type": "p",
-        "text": "For actually getting changed, the Bondi Pavilion is the place. It has male and female change rooms and showers on the beach side, plus lockers if you'd rather not leave your bag on the sand. On a busy day it's a genuine relief - you can swim, rinse, change and stash your gear all in one building."
+        "text": "For actually getting changed, the Bondi Pavilion is the place. It has male and female change rooms and showers on the beach side, plus lockers if you'd rather not leave your bag on the sand. The lockers run 6am-10pm daily: a small one is $6 for 4 hours and a large one $9 for 4 hours, or $10 and $15 for all day (verified August 2026). There's more detail - what fits, what doesn't - in my [full lockers & valuables guide](/bondi-blog/bondi-beach-lockers-where-to-leave-valuables). On a busy day it's a genuine relief - you can swim, rinse, change and stash your gear all in one building."
       },
       {
         "type": "p",
@@ -22569,7 +23046,7 @@
         "items": [
           {
             "q": "Are the toilets and showers at Bondi Beach free?",
-            "a": "Yes. All the public toilets, the outdoor beachfront rinse-off showers and the foot taps along the promenade are free. The change rooms and lockers at the Bondi Pavilion are public facilities too."
+            "a": "Yes. All the public toilets, the outdoor beachfront rinse-off showers and the foot taps along the promenade are free, and so are the Pavilion change rooms. The Pavilion lockers are the exception - they're paid (from $6 for 4 hours, as at August 2026)."
           },
           {
             "q": "Where are the closest toilets to the flags?",
@@ -22594,7 +23071,7 @@
         "text": "That's the whole map in your head now: the middle of the beach for the full setup, the north and south ends for a quick stop, and free showers to rinse off before you go. Aim for the Pavilion when you need to change, and you'll spend your Bondi day in the water - not hunting for a bathroom."
       }
     ],
-    "wordCount": 900,
+    "wordCount": 949,
     "sources": [
       {
         "label": "Bondi Pavilion - Our facilities (Waverley Council)",
@@ -22779,7 +23256,7 @@
       },
       {
         "type": "p",
-        "text": "The easiest way in from Sydney's CBD is the 333 bus, which runs from the city down Oxford Street and drops you right at Campbell Parade beside the beach - it's the express of the Bondi bus routes. If you'd rather take the train, ride the T4 line to Bondi Junction, then jump on the 333, 380 or 381 bus for the last stretch down to the water. Because timetables shift, I always tell people to check the live times in the Transport for NSW trip planner before they set out."
+        "text": "The easiest way in from Sydney's CBD is the 333 bus, which runs from the city down Oxford Street and drops you right at Campbell Parade beside the beach - it's the express of the Bondi bus routes. If you'd rather take the train, ride the T4 line to Bondi Junction, then jump on the 333 or 380 bus for the last stretch down to the water. Because timetables shift, I always tell people to check the live times in the Transport for NSW trip planner before they set out."
       },
       {
         "type": "p",
@@ -22833,7 +23310,7 @@
         "items": [
           {
             "q": "How do I get to Bondi Beach from Sydney city?",
-            "a": "The simplest route is the 333 bus from the CBD straight to the beach. Alternatively, take the T4 train to Bondi Junction and transfer to the 333, 380 or 381 bus for the final leg. Check the Transport for NSW trip planner for live times."
+            "a": "The simplest route is the 333 bus from the CBD straight to the beach. Alternatively, take the T4 train to Bondi Junction and transfer to the 333 or 380 bus for the final leg. Check the Transport for NSW trip planner for live times."
           },
           {
             "q": "Are there lifeguards at Bondi Beach?",
@@ -22858,7 +23335,7 @@
         "text": "That's the short version of the Bondi bible. Whatever brings you down here - a swim, the walk, or a coffee with a sea view - come early, respect the flags, and you'll have a Bondi day worth coming back for."
       }
     ],
-    "wordCount": 894,
+    "wordCount": 892,
     "sources": [
       {
         "label": "Transport for NSW - trip planner",
@@ -23610,7 +24087,7 @@
           },
           {
             "q": "How much does it cost to swim at Bondi Icebergs?",
-            "a": "There's a modest entry fee with separate adult, child and family rates, plus cheaper multi-visit passes. Prices are reviewed periodically, so check the current rates on the Icebergs pool-conditions page rather than relying on an old figure. Towel and locker hire are available on the day."
+            "a": "As at August 2026, entry is $10 for adults, $7 for children and $30 for a family pass, with the sauna included in admission, plus cheaper multi-visit passes. Prices are reviewed periodically, so check icebergs.com.au before you go. Towel and locker hire are available on the day."
           },
           {
             "q": "Is Bondi Icebergs pool heated?",
@@ -23619,7 +24096,7 @@
         ]
       }
     ],
-    "wordCount": 613,
+    "wordCount": 614,
     "sources": [
       {
         "label": "Bondi Icebergs - Pool Conditions & Info",
@@ -24208,19 +24685,19 @@
   "/bondi-blog/getting-from-sydney-airport-to-bondi-beach": {
     "blocks": [
       {
-        "type": "p",
-        "text": "Bondi is about 14 km from Sydney Airport, and I've done this run more times than I can count picking friends up off flights. The short version: a taxi or rideshare is fastest (roughly 25-45 minutes door to door), and the train to Bondi Junction plus a quick bus is cheapest (around 60-90 minutes all up). Here's every realistic option and who each one suits."
+        "type": "answer",
+        "text": "Bondi is about 14 km from Sydney Airport. A taxi or rideshare is fastest - roughly 25-45 minutes door to door - and the train to Bondi Junction plus a quick bus is cheapest, around 60-90 minutes all up. There's no one-seat ride to the beach itself. I've done this run more times than I can count picking friends up off flights - here's every realistic option and who each one suits."
       },
       {
         "type": "quickFacts",
         "items": [
           {
             "label": "Distance",
-            "value": "About 15 km"
+            "value": "About 14 km"
           },
           {
             "label": "Fastest",
-            "value": "Taxi / rideshare, ~30-50 min"
+            "value": "Taxi / rideshare, ~25-45 min"
           },
           {
             "label": "Cheapest",
@@ -24241,8 +24718,8 @@
         "items": [
           "Train + bus via Bondi Junction - cheapest, ~60-90 min (mind the airport Station Access Fee). Best for solo, light-packing budget travellers.",
           "Bus 350 to Bondi Junction, then bus to the beach - one seat from the Domestic terminal, no rail fee. Best if you land at T2/T3 and aren't rushing.",
-          "Taxi - metered, door to door, ~30-50 min. Best for luggage, families and late arrivals.",
-          "Rideshare (Uber / DiDi / Ola) - app-quoted, door to door, ~30-50 min. Best value with no surge; check the in-app price.",
+          "Taxi - metered, door to door, ~25-45 min. Best for luggage, families and late arrivals.",
+          "Rideshare (Uber / DiDi / Ola) - app-quoted, door to door, ~25-45 min. Best value with no surge; check the in-app price.",
           "Pre-booked transfer / shuttle - fixed price, door to door. Best for groups and very early flights."
         ]
       },
@@ -24252,13 +24729,13 @@
       },
       {
         "type": "p",
-        "text": "Bondi Beach has no station of its own - the nearest is Bondi Junction, about 3 km up the hill. From the Domestic (T2/T3) or International (T1) terminal, follow the signs down to the Airport Link station beneath the terminal and catch the T8 Airport & South Line towards the city. Change at Central to the T4 Eastern Suburbs & Illawarra Line for Bondi Junction. At the interchange above that station, jump on the 333, 380 or 381 - all three reach Bondi Beach in about 10 to 15 minutes. Tap the same Opal or contactless card on and off the whole way."
+        "text": "Bondi Beach has no station of its own - the nearest is Bondi Junction, about 3 km up the hill. From the Domestic (T2/T3) or International (T1) terminal, follow the signs down to the Airport Link station beneath the terminal and catch the T8 Airport & South Line towards the city. Change at Central to the T4 Eastern Suburbs & Illawarra Line for Bondi Junction. At the interchange above that station, jump on the 333 or 380 - both reach Bondi Beach in about 15 minutes. Tap the same Opal or contactless card on and off the whole way. All up, allow 60-90 minutes."
       },
       {
         "type": "callout",
         "tone": "warning",
         "title": "Watch the airport Station Access Fee",
-        "text": "Both airport stations - International and Domestic - add a per-adult Station Access Fee on top of your fare, and it sits OUTSIDE the daily Opal cap, so it's a real chunk of the cost. Check the current amount on Transport for NSW before you budget."
+        "text": "Both airport stations - International and Domestic - add a per-adult Station Access Fee on top of your fare, and it sits OUTSIDE the daily Opal cap, so it's a real chunk of the cost: $19.00 per adult, or $18.61 with Opal/contactless, as at mid-2026 (per airportlink.com.au, where you'll find the current amount)."
       },
       {
         "type": "localTip",
@@ -24270,7 +24747,7 @@
       },
       {
         "type": "p",
-        "text": "If you land at the Domestic terminal (T3), route 350 runs straight to Bondi Junction via Mascot and Coogee, so you skip the rail Station Access Fee entirely and just swap to the 333, 380 or 381 at the far end. It's slower than the train but simpler with a suitcase and one less change. Note it serves the Domestic terminal only, not International."
+        "text": "If you land at the Domestic terminal (T3), route 350 runs straight to Bondi Junction via Mascot and Coogee, so you skip the rail Station Access Fee entirely and just swap to the 333 or 380 at the far end for the run down to the beach. It's slower than the train but simpler with a suitcase and one less change. Note it serves the Domestic terminal only - from International, the 420 bus connects the terminals first."
       },
       {
         "type": "h2",
@@ -24278,22 +24755,30 @@
       },
       {
         "type": "p",
-        "text": "With luggage, kids, or a late landing, I'd take a taxi or rideshare - the only truly door-to-door option, dropping you right at your accommodation in 30 to 50 minutes depending on traffic. Taxis queue at the rank outside each terminal; rideshare has its own signed pickup zones, so follow the prompts in your app. Taxis run on a meter and rideshare quotes you before you confirm - I won't name a figure because both move with traffic and demand, and rideshare can surge, so check the in-app price first. Taking a cab? It's worth two minutes on my guide to [Sydney Airport taxi scams and how to avoid them](/bondi-blog/2025/6/4/sydney-airport-taxi-scams-how-to-spot-avoid-costly-rip-offs-for-a-hassle-free-arrival) before you get in."
+        "text": "With luggage, kids, or a late landing, I'd take a taxi or rideshare - the only truly door-to-door option, dropping you right at your accommodation in 25 to 45 minutes depending on traffic. Taxis queue at the rank outside each terminal; rideshare has its own signed pickup zones, so follow the prompts in your app. Taxis run on a meter and rideshare quotes you before you confirm. For a ballpark, the airport's own estimate for a taxi to the CBD is $45-55, and Bondi is a comparable distance band - but fares move with traffic and demand, and rideshare can surge, so check the in-app price first. Taking a cab? It's worth two minutes on my guide to [Sydney Airport taxi scams and how to avoid them](/bondi-blog/2025/6/4/sydney-airport-taxi-scams-how-to-spot-avoid-costly-rip-offs-for-a-hassle-free-arrival) before you get in."
       },
       {
         "type": "p",
         "text": "Pre-booked transfers and shuttles suit groups or pre-dawn flights - reserve ahead and the price is locked in. Hiring a car rarely pays off unless you're touring beyond Sydney; around Bondi, parking is tight and metered, so an idle car is more hassle than help."
       },
       {
+        "type": "h2",
+        "text": "Getting back to the airport"
+      },
+      {
+        "type": "p",
+        "text": "It's the same trip in reverse: the 333 or 380 up to Bondi Junction, the T4 to Central, then the T8 out to the Domestic or International station - or a taxi or rideshare straight from your door. The one thing to plan properly is time. Airlines commonly advise arriving 3 hours before international departures, and the public-transport trip is 60-90 minutes on top of that - so for an international flight I'd be leaving Bondi a good 4 hours or more before departure, earlier again in weekday peak traffic if you're going by road."
+      },
+      {
         "type": "faq",
         "items": [
           {
             "q": "Is there a train station at Bondi Beach?",
-            "a": "No. The nearest is Bondi Junction, about 3 km from the sand. From there it's a 10 to 15 minute bus (333, 380 or 381) or a short taxi ride down to the beach."
+            "a": "No. The nearest is Bondi Junction, about 3 km from the sand. From there it's roughly a 15 minute bus (333 or 380) or a short taxi ride down to the beach."
           },
           {
             "q": "What's the cheapest way from the airport to Bondi?",
-            "a": "Public transport: the T8 train to Central, change to the T4 for Bondi Junction, then a bus to the beach. Just note the airport Station Access Fee adds a fixed per-adult charge on top of the fare - check the current amount on Transport for NSW."
+            "a": "Public transport: the T8 train to Central, change to the T4 for Bondi Junction, then a bus to the beach - about 60-90 minutes all up. Just note the airport Station Access Fee adds $19.00 per adult ($18.61 with Opal/contactless, as at mid-2026) on top of the fare - airportlink.com.au has the current amount."
           },
           {
             "q": "How do I avoid the airport Station Access Fee?",
@@ -24305,7 +24790,7 @@
           },
           {
             "q": "Is there a direct bus from the airport to Bondi Beach?",
-            "a": "Not one seat all the way. Route 350 runs from the Domestic terminal to Bondi Junction via Mascot and Coogee, where you swap to the 333, 380 or 381 for the last leg to the beach."
+            "a": "Not one seat all the way. Route 350 runs from the Domestic terminal to Bondi Junction via Mascot and Coogee, where you swap to the 333 or 380 for the last leg to the beach."
           }
         ]
       },
@@ -24314,7 +24799,7 @@
         "text": "However you arrive, the moment Campbell Parade opens onto that big blue arc of beach you'll know it was worth it. See you down there."
       }
     ],
-    "wordCount": 924,
+    "wordCount": 1075,
     "sources": [
       {
         "label": "Transport for NSW - Getting to and from Sydney Airport",
@@ -24335,6 +24820,14 @@
       {
         "label": "Mascot railway station - no Station Access Fee since 2011",
         "url": "https://en.wikipedia.org/wiki/Mascot_railway_station"
+      },
+      {
+        "label": "Sydney Airport Link - Station Access Fee",
+        "url": "https://www.airportlink.com.au/"
+      },
+      {
+        "label": "Sydney Airport - taxi fare estimates",
+        "url": "https://www.sydneyairport.com.au/"
       }
     ],
     "lastReviewed": "2026-08-10",
@@ -24544,7 +25037,7 @@
       },
       {
         "type": "p",
-        "text": "You don't need to be a member or a champion to swim here - the pool is open to the public for a small entry fee, and that fee covers both the main pool and the children's pool. Bring goggles if you actually want to swim laps, because the ocean water isn't crystal-clear and the sun glare off the surface is strong. There's a sauna, changing rooms and, up above, the well-known Icebergs dining room and bar if you'd rather admire those 50 metres with a drink in hand than swim them."
+        "text": "You don't need to be a member or a champion to swim here - the pool is open to the public ($10 adult, $7 child, $30 family, sauna included, as at August 2026), and that entry covers both the main pool and the children's pool. Bring goggles if you actually want to swim laps, because the ocean water isn't crystal-clear and the sun glare off the surface is strong. There's a sauna, changing rooms and, up above, the well-known Icebergs dining room and bar if you'd rather admire those 50 metres with a drink in hand than swim them."
       },
       {
         "type": "faq",
@@ -24567,7 +25060,7 @@
           },
           {
             "q": "Can anyone swim at Bondi Icebergs?",
-            "a": "Yes, it's open to the public for a small entry fee - you don't need to be a member. Hours, fees and maintenance closures change, so check the official Icebergs website before you go."
+            "a": "Yes, it's open to the public - you don't need to be a member. As at August 2026, entry is $10 for adults, $7 for children and $30 for a family pass, sauna included. Hours, fees and maintenance closures change, so check icebergs.com.au before you go."
           }
         ]
       },
@@ -24576,7 +25069,7 @@
         "text": "So next time someone asks you how long the Icebergs pool is, you'll know: 50 metres of Olympic-length, wave-topped seawater, hanging off the rocks at the end of one of the most famous beaches in the world. There aren't many better places to knock out a few laps."
       }
     ],
-    "wordCount": 792,
+    "wordCount": 811,
     "sources": [
       {
         "label": "Bondi Icebergs Club (official)",
@@ -24593,8 +25086,8 @@
   "/bondi-blog/how-to-get-to-bondi-beach": {
     "blocks": [
       {
-        "type": "p",
-        "text": "The simplest way to get to Bondi Beach without a car is to catch a train to Bondi Junction and hop on a bus down the hill to Campbell Parade, right across from the sand. It's one of my favourite things about living here: for a beach this famous, Bondi is genuinely easy to reach from almost anywhere in Sydney - no hire car needed."
+        "type": "answer",
+        "text": "Catch a T4 train to Bondi Junction, then the 333 or 380 bus down to Campbell Parade, right across from the sand. From Circular Quay it's about 40-45 minutes all up - the bus leg itself is only around 15 minutes. There's no train station at the beach. Just tap on with any contactless card or phone - it costs the same as an Opal card."
       },
       {
         "type": "p",
@@ -24609,11 +25102,11 @@
           },
           {
             "label": "Buses to the sand",
-            "value": "333 from the city; more from the Junction"
+            "value": "333 and 380"
           },
           {
             "label": "Junction to beach",
-            "value": "About 10–15 min by bus"
+            "value": "About 15 min by bus"
           },
           {
             "label": "Pay with",
@@ -24627,7 +25120,7 @@
       },
       {
         "type": "p",
-        "text": "From the city, take a T4 Eastern Suburbs line train to Bondi Junction - the end of the line and a big interchange. Follow the signs down to the bus stands, where frequent buses run to Bondi Beach and back. The 333 is the one I aim for: it makes fewer stops and drops you on Campbell Parade. Bus numbers can change, so it's worth checking the Transport for NSW trip planner for the current services before you set off."
+        "text": "From the city, take a T4 Eastern Suburbs line train to Bondi Junction - the end of the line and a big interchange. Follow the signs down to the bus stands: two routes run to the beach, the 333 (from Stand A at Bondi Junction) and the 380. The 333 is the one I aim for - mid-morning it's coming every few minutes. Either way, get off at Campbell Parade (the Stand C stop) and the sand is right across the road. Check the Transport for NSW trip planner for live times before you set off."
       },
       {
         "type": "p",
@@ -24649,7 +25142,7 @@
         "type": "callout",
         "tone": "note",
         "title": "Coming from Sydney Airport?",
-        "text": "Take the train from the airport to Central, then change to a T4 train to Bondi Junction, and finish on a bus down to Bondi Beach. Note the airport stations charge an extra station-access fee on top of the normal fare - an airport thing, not a Bondi thing."
+        "text": "Take the train from the airport to Central, then change to a T4 train to Bondi Junction, and finish on the 333 or 380 bus down to Bondi Beach. Note the airport stations charge an extra station-access fee on top of the normal fare - an airport thing, not a Bondi thing. I've written up every option, fees and all, in [our airport guide](/bondi-blog/getting-from-sydney-airport-to-bondi-beach)."
       },
       {
         "type": "h2",
@@ -24676,11 +25169,11 @@
         "items": [
           {
             "q": "Is there a train station at Bondi Beach?",
-            "a": "No. The closest station is Bondi Junction on the T4 line, a few kilometres uphill from the sand. From there you take a bus down (the 333 is the main one) or walk in roughly 25–30 minutes."
+            "a": "No. The closest station is Bondi Junction on the T4 line, a few kilometres uphill from the sand. From there you take the 333 or 380 bus down (the 333 leaves from Stand A) or walk in roughly 25-30 minutes."
           },
           {
             "q": "Which bus goes to Bondi Beach?",
-            "a": "The 333 runs to Bondi Beach from both Bondi Junction and the city (Circular Quay), and it's the fastest as it makes fewer stops. Other routes serve the beach too - check the Transport for NSW trip planner for the current list."
+            "a": "Two routes: the 333, which runs all the way from Circular Quay via Bondi Junction (Stand A at the interchange), and the 380 from Watsons Bay via Bondi Junction. Both drop you on Campbell Parade at the beach - check the Transport for NSW trip planner for today's times."
           },
           {
             "q": "Do I need an Opal card, or can I tap my phone?",
@@ -24688,7 +25181,7 @@
           },
           {
             "q": "How long does it take to get to Bondi from the city?",
-            "a": "Allow roughly 40–50 minutes by train-then-bus from the CBD, longer on busy summer weekends when traffic and crowds slow the buses down. Check Transport for NSW's trip planner for live times."
+            "a": "Allow roughly 40-45 minutes from Circular Quay, whether you go train-then-bus or ride the 333 the whole way - longer on busy summer weekends when traffic and crowds slow the buses down. Check Transport for NSW's trip planner for live times."
           },
           {
             "q": "Is it worth driving to Bondi Beach?",
@@ -24701,7 +25194,7 @@
         "text": "However you come, my advice is the same: travel light, go early on a summer weekend, and let the bus or train do the work. Bondi's genuinely one of the easiest world-famous beaches to reach - the hardest part is leaving."
       }
     ],
-    "wordCount": 900,
+    "wordCount": 947,
     "sources": [
       {
         "label": "Transport for NSW - trip planner & timetables",
@@ -25171,8 +25664,8 @@
   "/bondi-blog/nearest-train-station-bondi-beach": {
     "blocks": [
       {
-        "type": "p",
-        "text": "The question I hear most from first-time visitors is a simple one: what's the nearest train station to Bondi Beach? The honest answer is that no train runs all the way to the sand - the closest station is Bondi Junction, about 2 to 3 kilometres uphill from the beach. From there you finish the trip with a short bus ride, a taxi, or a downhill walk. Let me walk you through exactly how I do it."
+        "type": "answer",
+        "text": "No train runs all the way to the sand - the nearest station to Bondi Beach is Bondi Junction, the end of the T4 line, about 2 to 3 kilometres uphill from the beach. From there you finish the trip with a short bus ride (the 333 or 380), a taxi, or a downhill walk. Let me walk you through exactly how I do it."
       },
       {
         "type": "quickFacts",
@@ -25191,7 +25684,11 @@
           },
           {
             "label": "Bus lines",
-            "value": "333, 380, 381"
+            "value": "333, 380"
+          },
+          {
+            "label": "CBD to sand, all up",
+            "value": "~40-45 min (train + bus)"
           },
           {
             "label": "Pay with",
@@ -25221,7 +25718,7 @@
       },
       {
         "type": "p",
-        "text": "The buses leave from the interchange right above the station. Routes 333, 380 and 381 all run down to Campbell Parade, the road that hugs the beachfront. The 333 is the frequent prepaid express and is usually the quickest; the 380 and 381 make more stops along the way. It's a short ride down the hill - tap on when you board and tap off when you hop out at the beach."
+        "text": "The buses leave from the interchange right above the station. Routes 333 and 380 all run down to Campbell Parade, the road that hugs the beachfront. The 333 is the frequent prepaid express and is usually the quickest; the 380 makes more stops along the way. It's a short ride down the hill - tap on when you board and tap off when you hop out at the beach."
       },
       {
         "type": "callout",
@@ -25247,7 +25744,7 @@
       },
       {
         "type": "localTip",
-        "text": "You don't need to buy a paper ticket for any of this. Just tap on and off with a contactless Visa/Mastercard, your phone or watch, or an Opal card - the same tap works across the train and the connecting bus, and the transfer counts as one journey if you keep moving. Grab an Opal card at the station kiosk or a nearby convenience store if you'd rather use one."
+        "text": "You don't need to buy a paper ticket for any of this. Just tap on and off with a contactless Visa/Mastercard, your phone or watch, or an Opal card - the same tap works across the train and the connecting bus. One detail worth knowing: the train and bus legs are charged as separate fares, but switching between them within the transfer window earns you a transfer discount under Opal rather than one flat fare - check transportnsw.info for the current fares and discount amount. Grab an Opal card at the station kiosk or a nearby convenience store if you'd rather use one."
       },
       {
         "type": "h2",
@@ -25266,7 +25763,7 @@
           },
           {
             "q": "How do I get from Bondi Junction to Bondi Beach?",
-            "a": "From the bus interchange above the station, take route 333, 380 or 381 down to Campbell Parade at the beach. It's a short ride. You can also walk (about 30 minutes downhill along Bondi Road) or grab a taxi or rideshare."
+            "a": "From the bus interchange above the station, take route 333 or 380 down to Campbell Parade at the beach. It's a short ride. You can also walk (about 30 minutes downhill along Bondi Road) or grab a taxi or rideshare."
           },
           {
             "q": "Can I walk from Bondi Junction to Bondi Beach?",
@@ -25287,7 +25784,7 @@
         "text": "So while there's no station right on the sand, getting to Bondi is genuinely easy: train to Bondi Junction, then a quick bus, walk or taxi down the hill. Do that and you'll be on the beach before you know it."
       }
     ],
-    "wordCount": 898,
+    "wordCount": 919,
     "sources": [
       {
         "label": "Transport for NSW - Trip Planner",
@@ -26730,7 +27227,7 @@
       },
       {
         "type": "p",
-        "text": "After your swim, the Bondi to Coogee coastal walk is what people remember most. It runs roughly six kilometres along the clifftops, linking Bondi, Tamarama, Bronte, Clovelly and Coogee, and takes most people around two hours at an easy pace - longer if you stop. You needn't do it all; even the first stretch to Tamarama and Bronte is spectacular, and Bronte has an ocean pool and grassy park for a break."
+        "text": "After your swim, the [Bondi to Coogee coastal walk](/bondi-coastal-walk) is what people remember most. It runs roughly six kilometres along the clifftops, linking Bondi, Tamarama, Bronte, Clovelly and Coogee, and takes most people around two hours at an easy pace - longer if you stop. You needn't do it all; even the first stretch to Tamarama and Bronte is spectacular, and Bronte has an ocean pool and grassy park for a break."
       },
       {
         "type": "localTip",
@@ -26742,7 +27239,7 @@
       },
       {
         "type": "p",
-        "text": "At the southern end sits Bondi Icebergs - the famous ocean pool you've seen in a thousand photos, waves crashing over its edge. It's open to the public for a fee, but closes for cleaning and can shut in big swells, so check the Icebergs website for current session times and prices before you head down. Even if you don't swim, the view from the headland above it earns the walk."
+        "text": "At the southern end sits [Bondi Icebergs](/bondi-icebergs) - the famous ocean pool you've seen in a thousand photos, waves crashing over its edge. It's open to the public for a fee, but closes for cleaning and can shut in big swells, so check the Icebergs website for current session times and prices before you head down. Even if you don't swim, the view from the headland above it earns the walk."
       },
       {
         "type": "h2",
@@ -26764,7 +27261,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi is more than the beach. Campbell Parade and the streets behind it - Gould, Hall and Curlewis - are full of cafés, bakeries and shops, and this is where the brunch culture really lives. On weekends the Bondi Markets set up at the beachside school on Campbell Parade, with produce and fashion markets on different days, so check current market days before you plan around them."
+        "text": "Bondi is more than the beach. Campbell Parade and the streets behind it - Gould, Hall and Curlewis - are full of cafés, bakeries and shops, and this is where the brunch culture really lives - [our full eat & drink guide](/bondi-eat-and-drink) covers my picks. On weekends the Bondi Markets set up at the beachside school on Campbell Parade, with produce and fashion markets on different days, so check current market days before you plan around them."
       },
       {
         "type": "list",
@@ -26809,7 +27306,7 @@
         "text": "That's Bondi in a nutshell: swim safely, walk the coast, eat well and don't rush it. Do those four things and you'll understand exactly why the rest of us never seem to leave."
       }
     ],
-    "wordCount": 899,
+    "wordCount": 909,
     "sources": [
       {
         "label": "Bondi to Coogee Coastal Walk - NSW Government",
@@ -27043,7 +27540,7 @@
       },
       {
         "type": "p",
-        "text": "On a perfect summer's day, I skip the circling entirely: train to Bondi Junction, then the 333, 380 or 381 bus straight down to Campbell Parade - about a 10–13 minute run. You'll be on the sand while everyone else is still hunting for a bay. If you must drive on a busy day, try the quieter blocks toward the south end, or the streets back from the Beach Road Hotel; most people aim for the middle of the beach, so the edges can be surprisingly lucky."
+        "text": "On a perfect summer's day, I skip the circling entirely: train to Bondi Junction, then the 333 or 380 bus straight down to Campbell Parade - about a 10–13 minute run. You'll be on the sand while everyone else is still hunting for a bay. If you must drive on a busy day, try the quieter blocks toward the south end, or the streets back from the Beach Road Hotel; most people aim for the middle of the beach, so the edges can be surprisingly lucky."
       },
       {
         "type": "faq",
@@ -27058,12 +27555,12 @@
           },
           {
             "q": "Can I get to Bondi without driving?",
-            "a": "Easily. Take the train to Bondi Junction, then the 333, 380 or 381 bus down to Campbell Parade - around 10–13 minutes and no parking stress at all."
+            "a": "Easily. Take the train to Bondi Junction, then the 333 or 380 bus down to Campbell Parade - around 10–13 minutes and no parking stress at all."
           }
         ]
       }
     ],
-    "wordCount": 610,
+    "wordCount": 608,
     "sources": [
       {
         "label": "Waverley Council - parking (current meter rates & permits)",
@@ -27078,7 +27575,7 @@
         "url": "https://www.thehubhallstreet.com.au/parking-in-bondi"
       },
       {
-        "label": "Transport for NSW - routes 333 / 380 / 381, Bondi Junction to Bondi Beach",
+        "label": "Transport for NSW - routes 333 / 380, Bondi Junction to Bondi Beach",
         "url": "https://transportnsw.info"
       }
     ],
@@ -27804,7 +28301,11 @@
       },
       {
         "type": "p",
-        "text": "The Icebergs is the postcard shot - a 50-metre, eight-lane ocean pool cut into the rocks at the southern headland, washed and refilled by the waves that break over its edge, with a shallower pool alongside for little ones. There have been public baths on this rock shelf since the 1880s, and the Icebergs Swimming Club has been swimming through winter here since 1929. The pool is open to everyone, not just members; there's a sauna to thaw out in and the Crabbe Hole café tucked below for a coffee afterwards. Because it sits right on the ocean it closes for its regular clean and whenever big swells roll through, so check the Icebergs website for opening hours before you make a special trip."
+        "text": "The Icebergs is the postcard shot - a 50-metre ocean pool cut into the rocks at the southern headland, washed and refilled by the waves that break over its edge, with a shallower pool alongside for little ones. There have been public baths on this rock shelf since the 1880s, and the Icebergs Swimming Club has been swimming through winter here since 1929. The pool is open to everyone, not just members; there's a sauna to thaw out in and the Crabbe Hole café tucked below for a coffee afterwards. Because it sits right on the ocean it closes for its regular clean and whenever big swells roll through, so check the Icebergs website for opening hours before you make a special trip."
+      },
+      {
+        "type": "p",
+        "text": "Two free alternatives most visitors walk straight past: [Ross Jones Memorial Pool](/bondi-blog/2024/9/21/can-the-public-swim-at-bondi-icebergs-ocean-pool) - the little rock pool tucked directly below Icebergs - and the North Bondi children’s pool at the far northern corner. Both are calm, enclosed and cost nothing, which makes them the honest answer for nervous swimmers and small kids who want salt water without waves. And if you’d rather just wade: ankle-to-waist deep between the flags is a perfectly legitimate way to enjoy Bondi - keep your feet planted, never turn your back on the waves, and step out when the sets get bigger."
       },
       {
         "type": "h2",
@@ -27827,7 +28328,7 @@
         "items": [
           {
             "q": "Can the public swim at Bondi Icebergs?",
-            "a": "Yes - Bondi Icebergs is open to the public, not just members. There's a small entry fee, a 50-metre lap pool and a shallow kids' pool beside it. Check the Icebergs website for current hours, as it closes for cleaning and big swells."
+            "a": "Yes - Bondi Icebergs is open to the public, not just members. Entry is $10 for adults ($7 child, $30 family, sauna included, as at August 2026), for a 50-metre lap pool with a shallow kids' pool beside it. Check icebergs.com.au for current hours, as it closes for cleaning and big swells."
           },
           {
             "q": "Where is the calmest place to swim at Bondi?",
@@ -27840,7 +28341,7 @@
         ]
       }
     ],
-    "wordCount": 644,
+    "wordCount": 749,
     "sources": [
       {
         "label": "Bondi Icebergs Club - pool hours & closures",

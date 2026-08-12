@@ -7,7 +7,7 @@
     { "label": "Bondi Icebergs Club - pool conditions", "url": "https://icebergs.com.au/pool-conditions/" }
   ],
   "blocks": [
-    { "type": "p", "text": "Yes - you can absolutely swim at Bondi Icebergs, and no, you don't need to be a member. It's a public ocean pool open to everyone for a small entry fee, seven days a week. It's easily the question I'm asked most about the place, so let me walk you through exactly where to enter, what to expect, and the one day of the week you'll want to double-check before you go." },
+    { "type": "p", "text": "Yes - you can absolutely swim at Bondi Icebergs, and no, you don't need to be a member. It's a public ocean pool open to everyone, seven days a week - $10 adult entry ($7 child, $30 family, sauna included) as at August 2026. It's easily the question I'm asked most about the place, so let me walk you through exactly where to enter, what to expect, and the one day of the week you'll want to double-check before you go." },
     { "type": "quickFacts", "items": [
       { "label": "Address", "value": "1 Notts Avenue, Bondi Beach NSW 2026" },
       { "label": "Access", "value": "Open to the public - no membership needed" },
@@ -31,8 +31,8 @@
       "By public transport: buses run to Bondi Beach from Bondi Junction train station; from the bus stop it's a short walk to the southern end."
     ] },
     { "type": "faq", "items": [
-      { "q": "Do you have to be a member to swim at Bondi Icebergs?", "a": "No. The pool is open to the public and anyone can swim for a small entry fee paid at the pool desk. Membership relates to the Icebergs winter swimming club, not everyday public access." },
-      { "q": "How much does it cost to swim at Bondi Icebergs?", "a": "There's a modest entry fee, with reduced rates typically available for children, seniors and families. Prices change from time to time, so check the current rates on the official Icebergs website before you go rather than relying on an old figure." },
+      { "q": "Do you have to be a member to swim at Bondi Icebergs?", "a": "No. The pool is open to the public and anyone can swim - entry is paid at the pool desk ($10 adult, $7 child, $30 family as at August 2026). Membership relates to the Icebergs winter swimming club, not everyday public access." },
+      { "q": "How much does it cost to swim at Bondi Icebergs?", "a": "As at August 2026, entry is $10 for adults, $7 for children and $30 for a family pass, with the sauna included in admission. Prices change from time to time, so check icebergs.com.au before you go rather than relying on an old figure." },
       { "q": "What are the pool's opening hours?", "a": "The pool generally opens at 6am on weekdays and 6:30am on weekends, closing in the evening. It's closed on Thursdays for cleaning (with a summer exception when tides allow). Always confirm current hours on the Icebergs site." },
       { "q": "Where exactly is the pool entrance?", "a": "At the base of the Bondi Icebergs Club building on the ocean side, at the southern end of Bondi Beach - down to water level, separate from the upstairs restaurant. Look for the pool entrance and ramp along Notts Avenue as you approach the club." },
       { "q": "Is Bondi Icebergs suitable for kids?", "a": "Yes - alongside the 50-metre lap pool there's a smaller, shallower children's pool, and lifeguards patrol during opening hours. Keep little ones in the kids' pool, as the ocean end of the main pool can be choppy on big-swell days." }

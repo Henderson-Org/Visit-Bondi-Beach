@@ -18,7 +18,7 @@
   ],
   "blocks": [
     {
-      "type": "p",
+      "type": "answer",
       "text": "If you only do one walk while you're in Bondi, make it this one. The Bondi to Bronte coastal walk is a short, cliff-hugging stretch - roughly 2.5km one way - that most people knock over in 45 minutes to an hour, and it's the single best way I know to understand why we live here. You'll pass three beaches, an ocean pool or two, sandstone headlands and more ocean than your camera can hold. It's free, open year-round, and you don't need to be a hiker to do it."
     },
     {
@@ -159,6 +159,10 @@
         {
           "q": "When is the best time to do the walk?",
           "a": "Early morning for sunrise and quiet paths, or late afternoon for golden light. Weekdays are calmer than weekends. Aim for whale-watching season (roughly May–November) or catch Sculpture by the Sea in spring."
+        },
+        {
+          "q": "How do I get back from Bronte to Bondi?",
+          "a": "Either walk back the same way - it's only 2.5km, and the views run in reverse - or catch a bus from Bronte up to Bondi Junction and then the 333 or 380 back down to Bondi Beach. Use the Transport for NSW trip planner for today's times. Plenty of people deliberately walk one way and bus back."
         }
       ]
     },

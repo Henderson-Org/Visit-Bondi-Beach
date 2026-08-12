@@ -15,7 +15,7 @@
       { "label": "Best free option", "value": "Bondi Pavilion Gallery" },
       { "label": "Best for kids", "value": "Cinema at Bondi Junction" },
       { "label": "Best for the brave", "value": "Icebergs pool in the rain" },
-      { "label": "Getting here", "value": "Bus 333 / 380 / 381 from Bondi Junction" }
+      { "label": "Getting here", "value": "Bus 333 or 380 from Bondi Junction" }
     ] },
     { "type": "h2", "text": "Stay dry at the Bondi Pavilion" },
     { "type": "p", "text": "The Pavilion is the first place I send anyone caught in a downpour. Sitting right on the promenade after its heritage restoration, it's the cultural heart of the beach - an art gallery, a theatre, and music and pottery studios with rotating exhibitions. The gallery is free and there's almost always something on. Because the programme changes constantly, I never quote specific shows or times - check the Pavilion's What's On calendar on the day." },
@@ -32,12 +32,12 @@
     { "type": "callout", "tone": "warning", "title": "Big swell and slick rocks", "text": "Rain often arrives with heavy surf. Never venture onto exposed rock shelves or ocean pools during large swell, and keep well back from the edge on the coastal walk. If lifeguards have flagged dangerous conditions, believe them." },
     { "type": "localTip", "text": "Pack smart: a packable rain jacket, a waterproof phone pouch and a small towel beat a bulky umbrella that fights the sea breeze. Most indoor spots are only a few minutes apart, so you can hop between them without getting soaked." },
     { "type": "h2", "text": "Getting around when it's wet" },
-    { "type": "p", "text": "Parking near the beach is tight at the best of times and worse in the rain, so I skip the car. Trains run to Bondi Junction, and from the interchange frequent buses (333, 380 and 381 among them) drop you right at the beach. Tap on with an Opal or contactless card, and check the Transport for NSW trip planner for live times." },
+    { "type": "p", "text": "Parking near the beach is tight at the best of times and worse in the rain, so I skip the car. Trains run to Bondi Junction, and from the interchange frequent buses (333 and 380 among them) drop you right at the beach. Tap on with an Opal or contactless card, and check the Transport for NSW trip planner for live times." },
     { "type": "faq", "items": [
       { "q": "What is there to do in Bondi when it rains?", "a": "Plenty. Visit the free Bondi Pavilion gallery, catch a film at Westfield Bondi Junction, swim at the ocean-fed Icebergs pool, browse the Gould and Hall Street shops, or walk a moody stretch of the Bondi to Coogee path with a coffee." },
       { "q": "Is the Bondi Icebergs pool open in the rain?", "a": "Usually, yes - it's an outdoor saltwater pool, so rain alone doesn't close it. It does close for cleaning and can shut in big surf, so confirm the day's hours on the Icebergs website first." },
       { "q": "Is the Bondi Pavilion free to visit?", "a": "The Pavilion's art gallery is free and open to the public, and many events are free too. Because the programme changes often, check the What's On calendar for current exhibitions and workshops." },
-      { "q": "How do I get to Bondi Beach without a car on a rainy day?", "a": "Take a train to Bondi Junction, then a bus (333, 380 or 381) down to the beach - quicker and far less stressful than hunting for beachside parking. Use the Transport for NSW trip planner for live departures." },
+      { "q": "How do I get to Bondi Beach without a car on a rainy day?", "a": "Take a train to Bondi Junction, then a bus (333 or 380) down to the beach - quicker and far less stressful than hunting for beachside parking. Use the Transport for NSW trip planner for live departures." },
       { "q": "Is the Bondi to Coogee walk safe in the rain?", "a": "In light rain it's a beautiful, atmospheric walk - just wear grippy shoes and take it steady, as the path gets slippery. Avoid it in storms or big swell, and never step onto exposed rock shelves when the surf is up." }
     ] },
     { "type": "p", "text": "So don't let a grey forecast change your plans. Some of Bondi's best moments happen when the sun clocks off - just swap the towel for a raincoat and lean in." }

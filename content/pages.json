@@ -5476,7 +5476,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi is accessible via several direct buses, including the popular 333, 380, and 381 routes from the city and Bondi Junction. Parking can be tricky on weekends, so public transport is your best bet."
+        "text": "Bondi is accessible via several direct buses, including the popular 333 and 380 routes from the city and Bondi Junction. Parking can be tricky on weekends, so public transport is your best bet."
       },
       {
         "type": "p",
@@ -16113,7 +16113,7 @@
     "path": "/bondi-blog/what-to-do-bondi-beach-travel-guide",
     "contentType": "blog-post-legacy",
     "section": "blog",
-    "title": "What To Do In Bondi Beach: Everything You Need To Know - Visit Bondi Beach",
+    "title": "What To Do In Bondi Beach: Everything You Need To Know",
     "metaDescription": "What to do in Bondi Beach - a complete local guide to the beach, the coastal walk, the cafés and the sights on your visit.",
     "canonical": "https://www.visitbondibeach.com/bondi-blog/what-to-do-bondi-beach-travel-guide",
     "h1": "What To Do In Bondi Beach: Everything You Need To Know",
@@ -16159,11 +16159,11 @@
       },
       {
         "type": "p",
-        "text": "1. Train + Bus: Take a train to Bondi Junction and then catch a bus to the beach. Buses 333, 380, and 381 go from Bondi Junction to Bondi Beach."
+        "text": "1. Train + Bus: Take a train to Bondi Junction and then catch a bus to the beach. Buses 333 and 380 go from Bondi Junction to Bondi Beach."
       },
       {
         "type": "p",
-        "text": "2. Bus from City: You can also catch a bus directly from various points in Sydney, such as Circular Quay or Elizabeth Street. Again, buses 333, 380, and 381 are good options."
+        "text": "2. Bus from City: You can also catch a bus directly from various points in Sydney, such as Circular Quay or Elizabeth Street. Again, buses 333 and 380 are good options."
       },
       {
         "type": "p",
@@ -19867,7 +19867,7 @@
       },
       {
         "type": "p",
-        "text": "To get to Bondi Beach from Sydney CBD, you can take a bus or train. The 333 bus departs from Circular Quay and goes directly to Bondi Beach. Alternatively, take the T4 train line to Bondi Junction and transfer to bus lines 380, 381, or 333 to reach the beach."
+        "text": "To get to Bondi Beach from Sydney CBD, you can take a bus or train. The 333 bus departs from Circular Quay and goes directly to Bondi Beach. Alternatively, take the T4 train line to Bondi Junction and transfer to bus lines 333 or 380 to reach the beach."
       },
       {
         "type": "p",
@@ -20007,7 +20007,7 @@
       },
       {
         "type": "p",
-        "text": "Yes, you can take public transport to Bondi Beach. Buses such as the 333, 380, and 381 connect the beach with various locations in Sydney, including Bondi Junction and the CBD. Alternatively, you can take the T4 train line to Bondi Junction and then transfer to a bus for the final leg to the beach."
+        "text": "Yes, you can take public transport to Bondi Beach. Buses such as the 333 and 380 connect the beach with various locations in Sydney, including Bondi Junction and the CBD. Alternatively, you can take the T4 train line to Bondi Junction and then transfer to a bus for the final leg to the beach."
       },
       {
         "type": "p",
@@ -20193,7 +20193,7 @@
       },
       {
         "type": "p",
-        "text": "Step 2 - Bus: At Bondi Junction, proceed to the adjacent bus interchange and board the 333, 380, or 381 bus services to Bondi Beach."
+        "text": "Step 2 - Bus: At Bondi Junction, proceed to the adjacent bus interchange and board the 333 or 380 bus services to Bondi Beach."
       },
       {
         "type": "p",
@@ -20353,7 +20353,7 @@
     "contentType": "blog-post-legacy",
     "section": "blog",
     "title": "How to get to Bondi Beach - Visit Bondi Beach",
-    "metaDescription": "Bondi is about 15 minutes from the centre of the Sydney CBD by car when it is quiet, and at least double that when thousands of visitors descend on it during a hot summer weekend day. There are two main ways to get to the beach. More...",
+    "metaDescription": "How to get to Bondi Beach: T4 train to Bondi Junction then the 333 or 380 bus - about 40-45 minutes from the CBD. Plus airport, driving, parking and night options.",
     "canonical": "https://www.visitbondibeach.com/bondi-blog/how-to-get-to-bondi-beach",
     "h1": "How to get to Bondi Beach",
     "headings": [],
@@ -20371,7 +20371,7 @@
       },
       {
         "type": "p",
-        "text": "Public Transport - Get the train to Bondi Junction and then board a bus directly to Bondi Beach from the train/bus terminal. The 380, 381, 382, and 333 buses all run from Bondi Junction and will take about 10 minutes. You will need a pre-paid Opal Card, which you can buy from convenience stores and major stations, before boarding public transport."
+        "text": "Public Transport - Get the train to Bondi Junction and then board a bus directly to Bondi Beach from the train/bus terminal. The 333 and 380 buses run from Bondi Junction and will take about 10 minutes. You will need a pre-paid Opal Card, which you can buy from convenience stores and major stations, before boarding public transport."
       },
       {
         "type": "p",
@@ -21046,7 +21046,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi Beach is located just 7km east of the Sydney CBD, making it easily accessible by public transport. The easiest way to get to Bondi is by taking the 333, 380, or 381 bus from the city. Alternatively, you can catch the train to Bondi Junction and then take the bus or walk to the beach. If you're driving, there is limited parking available at the beach, but it can be difficult to find a spot during peak times."
+        "text": "Bondi Beach is located just 7km east of the Sydney CBD, making it easily accessible by public transport. The easiest way to get to Bondi is by taking the 333 or 380 bus from the city. Alternatively, you can catch the train to Bondi Junction and then take the bus or walk to the beach. If you're driving, there is limited parking available at the beach, but it can be difficult to find a spot during peak times."
       },
       {
         "type": "p",
@@ -29357,6 +29357,54 @@
     "status": 200,
     "liveUrl": "",
     "authored": true
+  },
+  {
+    "path": "/bondi-blog/bondi-beach-lockers-where-to-leave-valuables",
+    "contentType": "blog-post-legacy",
+    "section": "blog",
+    "title": "Bondi Beach Lockers & Where to Leave Your Valuables",
+    "metaDescription": "Yes, Bondi Beach has lockers - inside the Pavilion, 6am-10pm daily, from $6. Plus where to put your phone while you swim and what to do with a suitcase.",
+    "canonical": "",
+    "h1": "Bondi Beach Lockers & Where to Leave Your Valuables While You Swim",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "",
+    "wordCount": 0,
+    "jsonLdTypes": [
+      "WebSite",
+      "Article"
+    ],
+    "publishedAt": "2026-08-12",
+    "lastmod": "2026-08-12",
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "authored": true
+  },
+  {
+    "path": "/bondi-blog/bondi-beach-rules-what-you-can-and-cant-do",
+    "contentType": "blog-post-legacy",
+    "section": "blog",
+    "title": "Bondi Beach Rules: What You Can and Can’t Do (Local Guide)",
+    "metaDescription": "A local’s straight answers to every Bondi Beach rule - alcohol, dogs, smoking, drones, BBQs, topless sunbathing, night swimming and what needs a permit.",
+    "canonical": "https://www.visitbondibeach.com/bondi-blog/bondi-beach-rules-what-you-can-and-cant-do",
+    "h1": "Bondi Beach Rules: What You Can and Can’t Do",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "",
+    "wordCount": 0,
+    "jsonLdTypes": [],
+    "publishedAt": "2026-08-12",
+    "lastmod": "2026-08-12",
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "authored": true,
+    "blocks": null,
+    "impressions": 0,
+    "clicks": 0
   },
   {
     "path": "/bondi-blog/best-wine-bars-in-bondi",

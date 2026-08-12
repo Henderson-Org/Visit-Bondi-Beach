@@ -19,7 +19,7 @@
       { "label": "Cost to enjoy it", "value": "The beach and coastal walk are free" }
     ] },
     { "type": "h2", "text": "How to get to Bondi Beach" },
-    { "type": "p", "text": "Bondi isn't on the train line itself, which trips up a lot of first-timers. The easiest route is a train to Bondi Junction (the end of the T4 line), then a bus down the hill. The 333, 380, 381 and 382 all run to Campbell Parade, right on the sand - the 333 is the express and my usual pick." },
+    { "type": "p", "text": "Bondi isn't on the train line itself, which trips up a lot of first-timers. The easiest route is a train to Bondi Junction (the end of the T4 line), then a bus down the hill. The 333 and 380 both run to Campbell Parade, right on the sand - the 333 is the express and my usual pick." },
     { "type": "list", "items": [
       "From Sydney Airport: train to Bondi Junction, then a bus.",
       "From the CBD: T4 train to Bondi Junction, then the 333 bus.",
@@ -48,7 +48,7 @@
     { "type": "localTip", "text": "Walk it north-to-south, Bondi to Coogee, so the best headland views open up ahead of you - and you finish at Coogee, where a swim and a beer wait before the bus back." },
     { "type": "callout", "tone": "warning", "title": "Always swim between the red-and-yellow flags", "text": "Bondi has strong rips and the surf changes fast. The flagged zone is the patrolled area the lifeguards are watching - swim there, not the quieter-looking edges, which is often exactly where the rips run. If you're caught in one, don't fight it: raise an arm and float." },
     { "type": "faq", "items": [
-      { "q": "How do I get from Sydney city to Bondi Beach without a car?", "a": "Train to Bondi Junction, then a bus - the 333, 380, 381 or 382 all run to Campbell Parade. Tap on and off with an Opal or contactless card; from the CBD it's usually under an hour." },
+      { "q": "How do I get from Sydney city to Bondi Beach without a car?", "a": "Train to Bondi Junction, then a bus - the 333 or 380 both run to Campbell Parade. Tap on and off with an Opal or contactless card; from the CBD it's usually under an hour." },
       { "q": "Is there a train station at Bondi Beach?", "a": "No - this catches many visitors out. The nearest is Bondi Junction, roughly 3 km uphill; finish by bus, rideshare or a steep walk." },
       { "q": "What's the best time of year to visit Bondi?", "a": "December to February is warmest for swimming. For walking, photos and fewer crowds I love autumn and spring; winter is quiet and great for whale watching." },
       { "q": "How long is the Bondi to Coogee coastal walk?", "a": "About 6 km one way, roughly two hours at a relaxed pace with stops. It's well signposted and free, passing Tamarama, Bronte and Clovelly." },

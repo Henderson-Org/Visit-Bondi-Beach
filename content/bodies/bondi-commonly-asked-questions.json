@@ -18,7 +18,7 @@
       { "label": "Dogs", "value": "Not permitted on the sand" }
     ] },
     { "type": "h2", "text": "Getting to Bondi and getting around" },
-    { "type": "p", "text": "The easiest way in from Sydney's CBD is the 333 bus, which runs from the city down Oxford Street and drops you right at Campbell Parade beside the beach - it's the express of the Bondi bus routes. If you'd rather take the train, ride the T4 line to Bondi Junction, then jump on the 333, 380 or 381 bus for the last stretch down to the water. Because timetables shift, I always tell people to check the live times in the Transport for NSW trip planner before they set out." },
+    { "type": "p", "text": "The easiest way in from Sydney's CBD is the 333 bus, which runs from the city down Oxford Street and drops you right at Campbell Parade beside the beach - it's the express of the Bondi bus routes. If you'd rather take the train, ride the T4 line to Bondi Junction, then jump on the 333 or 380 bus for the last stretch down to the water. Because timetables shift, I always tell people to check the live times in the Transport for NSW trip planner before they set out." },
     { "type": "p", "text": "Driving? It can be done, but parking near the beach is metered, tightly timed and brutal on a sunny weekend. My advice: skip it and let public transport do the work." },
     { "type": "h2", "text": "Swimming, safety and the Icebergs pool" },
     { "type": "p", "text": "Yes, Bondi is patrolled by lifeguards, and yes, it's one of the safest beaches in Sydney to swim at - but only if you play by the flags. The red and yellow flags mark the supervised zone where lifeguards are actively watching, and it's the one part of the beach they can reach you fastest. Bondi is famous for its rips, so this genuinely matters." },
@@ -35,7 +35,7 @@
       "Best time to visit? I love the shoulder seasons - spring and autumn - for warm days without the peak-summer crush."
     ] },
     { "type": "faq", "items": [
-      { "q": "How do I get to Bondi Beach from Sydney city?", "a": "The simplest route is the 333 bus from the CBD straight to the beach. Alternatively, take the T4 train to Bondi Junction and transfer to the 333, 380 or 381 bus for the final leg. Check the Transport for NSW trip planner for live times." },
+      { "q": "How do I get to Bondi Beach from Sydney city?", "a": "The simplest route is the 333 bus from the CBD straight to the beach. Alternatively, take the T4 train to Bondi Junction and transfer to the 333 or 380 bus for the final leg. Check the Transport for NSW trip planner for live times." },
       { "q": "Are there lifeguards at Bondi Beach?", "a": "Yes. Bondi is patrolled by professional lifeguards, and it's one of Sydney's most closely watched beaches. Always swim inside the red and yellow flags, which mark the supervised zone." },
       { "q": "Can the public swim at Bondi Icebergs?", "a": "Yes - the Icebergs ocean pool is open to the public for an entry fee, not just to club members. It closes at times for cleaning, so check the Icebergs website for current opening hours and prices before you go." },
       { "q": "Are dogs allowed on Bondi Beach?", "a": "No, dogs aren't permitted on the sand at Bondi. There are designated off-leash areas elsewhere in the Waverley area, so check Waverley Council for the closest one." },

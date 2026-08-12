@@ -19,6 +19,8 @@ const REDIRECTED = new Set(['/accommodation', '/bondi-blog']);
 
 // Code-defined routes (app/*), not in the content index.
 const STATIC_ROUTES: { path: string; priority: number }[] = [
+  // First-timer front door - the site's flagship visitor page.
+  { path: '/start-here', priority: 0.9 },
   // Stay section
   { path: '/stay', priority: 0.8 },
   { path: '/stay/bondi-beach-vs-bondi-junction', priority: 0.6 },

@@ -14,13 +14,13 @@
     { "type": "p", "text": "Bondi sits about 7km east of the Sydney CBD, and while the whole city can feel like it descends here in summer, the place has a rhythm. Learn it and you get the golden light, quiet swims and good coffee - without the crowds and the parking meltdown." },
     { "type": "quickFacts", "items": [
       { "label": "Where", "value": "Bondi Beach, Waverley, ~7km east of Sydney CBD" },
-      { "label": "Getting here", "value": "Train to Bondi Junction (T4), then bus 333/380/381" },
+      { "label": "Getting here", "value": "Train to Bondi Junction (T4), then bus 333 or 380" },
       { "label": "Best swim", "value": "Between the flags - always patrolled" },
       { "label": "Signature walk", "value": "Bondi to Coogee coastal path (~6km)" },
       { "label": "Cost", "value": "The beach and the walk are free" }
     ] },
     { "type": "h2", "text": "Getting here without the headache" },
-    { "type": "p", "text": "My standard advice: skip the car. The simplest run from the city is the T4 Eastern Suburbs line to Bondi Junction, then a short bus down the hill on the 333, 380 or 381. Tap on with an Opal or contactless card, and check the Transport for NSW trip planner for live times." },
+    { "type": "p", "text": "My standard advice: skip the car. The simplest run from the city is the T4 Eastern Suburbs line to Bondi Junction, then a short bus down the hill on the 333 or 380. Tap on with an Opal or contactless card, and check the Transport for NSW trip planner for live times." },
     { "type": "callout", "tone": "warning", "title": "Driving on a summer weekend? Reconsider.", "text": "Parking near the beach is limited, metered and fiercely contested in peak season. If you must drive, come at first light or park near Bondi Junction and take the bus down. For current fares and times, use the Transport for NSW trip planner." },
     { "type": "h2", "text": "The best things to do (in the order I'd do them)" },
     { "type": "h3", "text": "Swim between the flags" },
@@ -41,7 +41,7 @@
     { "type": "h2", "text": "When to visit" },
     { "type": "p", "text": "Summer (December to February) is warmest and busiest - peak swimming, peak crowds. My favourites are the shoulders: spring (September to November) and autumn (March to May), when the water's still swimmable and the coastal walk isn't shoulder-to-shoulder. Even in winter, a bright still morning here is one of Sydney's quiet pleasures." },
     { "type": "faq", "items": [
-      { "q": "What's the easiest way to get to Bondi Beach from the city?", "a": "Public transport. Take the T4 Eastern Suburbs line to Bondi Junction, then a bus (333, 380 or 381) to the beach. Use the Transport for NSW trip planner for live times and fares." },
+      { "q": "What's the easiest way to get to Bondi Beach from the city?", "a": "Public transport. Take the T4 Eastern Suburbs line to Bondi Junction, then a bus (333 or 380) to the beach. Use the Transport for NSW trip planner for live times and fares." },
       { "q": "Is it safe to swim at Bondi Beach?", "a": "Yes, when you swim between the red-and-yellow flags, where lifeguards and surf lifesavers patrol. The main risk is rip currents outside the flagged area. Check Beachsafe for the day's conditions before you get in." },
       { "q": "How long is the Bondi to Coogee coastal walk?", "a": "About 6km one way - roughly two hours at an easy pace, longer if you swim or stop for coffee. It passes Tamarama, Bronte, Clovelly and Gordons Bay." },
       { "q": "When is the best time to visit Bondi?", "a": "For warm swimming, summer (December–February), though it's the busiest. For fewer crowds with lovely conditions, pick spring or autumn. Early mornings are quieter year-round." },

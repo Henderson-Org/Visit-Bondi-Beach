@@ -25,6 +25,7 @@ export const metadata: Metadata = {
 };
 
 const QUICK_LINKS = [
+  { label: 'First time? Start here', href: '/start-here' },
   { label: 'Things to do', href: '/things-to-do-in-bondi' },
   { label: 'Where to swim', href: '/where-to-swim-at-bondi-beach' },
   { label: 'Bondi Rescue', href: '/bondi-rescue' },

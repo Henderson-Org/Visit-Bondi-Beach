@@ -13,6 +13,13 @@
       {"label":"Hemisfério sul","value":"As estações estão invertidas"}
     ]},
     {"type":"callout","tone":"note","title":"Lembre-se de que as estações estão invertidas","text":"Bondi fica no hemisfério sul, então o verão cai no Natal e no Ano-Novo, e o inverno vai de junho a agosto. Se você vem do norte, inverta o calendário na sua cabeça."},
+    {"type":"table","caption":"Condições típicas por estação - as temperaturas do ar são médias de longo prazo de Sydney (Bureau of Meteorology); as do mar são aproximadas.","columns":["Estação","Ar (típico)","Mar (típico)","Movimento"],"rows":[
+      ["Verão (dez-fev)","~26°C de dia","22-24°C","Pico"],
+      ["Outono (mar-mai)","~22°C","20-22°C","Diminuindo"],
+      ["Inverno (jun-ago)","~17°C de dia","17-18°C","Tranquilo"],
+      ["Primavera (set-nov)","~22°C","18-20°C","Aumentando"]
+    ]},
+    {"type":"p","text":"Esses números são valores típicos, não promessas - Sydney pode mandar um dia escaldante de 35°C em novembro ou uma semana cinzenta em janeiro. Para os detalhes, veja o meu guia de [temperaturas do mar mês a mês](/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide) e confira as [condições ao vivo](/bondi-weather) antes de descer para a praia."},
     {"type":"h2","text":"Verão (de dezembro a fevereiro): Bondi em plena floração"},
     {"type":"p","text":"Este é o Bondi mais barulhento e mais vivo: água morna, entardeceres longos e o calçadão fervilhando até bem depois do pôr do sol. É quando a praia realmente faz jus à sua fama. Também é quando todo mundo tem a mesma ideia, então a areia enche rápido e os preços das hospedagens sobem."},
     {"type":"p","text":"Dois compromissos de verão valem o planejamento: as comemorações de Réveillon, quando todo o litoral fica festivo, e a temporada de cinema ao ar livre lá no Dudley Page Reserve, com o horizonte da cidade atrás da tela. As datas e a programação mudam a cada ano, então confira as informações oficiais antes de montar uma noite em torno delas."},

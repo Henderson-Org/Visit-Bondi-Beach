@@ -13,6 +13,13 @@
       {"label":"Hemisferio sur","value":"Las estaciones están invertidas"}
     ]},
     {"type":"callout","tone":"note","title":"Recuerda que las estaciones están al revés","text":"Bondi está en el hemisferio sur, así que el verano cae en Navidad y Año Nuevo, y el invierno va de junio a agosto. Si vienes del norte, dale la vuelta al calendario mentalmente."},
+    {"type":"table","caption":"Condiciones típicas por estación - las temperaturas del aire son promedios a largo plazo de Sídney (Bureau of Meteorology); las del mar son aproximadas.","columns":["Estación","Aire (típico)","Mar (típico)","Afluencia"],"rows":[
+      ["Verano (dic-feb)","~26°C de día","22-24°C","Máxima"],
+      ["Otoño (mar-may)","~22°C","20-22°C","En descenso"],
+      ["Invierno (jun-ago)","~17°C de día","17-18°C","Tranquila"],
+      ["Primavera (sep-nov)","~22°C","18-20°C","En aumento"]
+    ]},
+    {"type":"p","text":"Esos números son valores típicos, no promesas - Sídney puede soltar un día abrasador de 35°C en noviembre o una semana gris en enero. Para el detalle, consulta mi guía de [temperaturas del mar mes a mes](/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide) y revisa las [condiciones en vivo](/bondi-weather) antes de bajar a la playa."},
     {"type":"h2","text":"Verano (de diciembre a febrero): Bondi en plena flor"},
     {"type":"p","text":"Este es el Bondi más ruidoso y vivo: agua templada, atardeceres largos y un paseo marítimo que bulle hasta mucho después de que se pone el sol. Es cuando la playa se gana de verdad su reputación. También es cuando a todo el mundo se le ocurre lo mismo, así que la arena se llena rápido y los precios del alojamiento se disparan."},
     {"type":"p","text":"Hay dos citas veraniegas que vale la pena tener en cuenta al planificar: las celebraciones de Nochevieja, cuando toda la costa se vuelve festiva, y la temporada de cine al aire libre en Dudley Page Reserve, con el perfil de la ciudad detrás de la pantalla. Las fechas y los programas cambian cada año, así que consulta la información oficial antes de organizar una noche en torno a ellos."},

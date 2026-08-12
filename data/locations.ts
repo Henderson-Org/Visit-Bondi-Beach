@@ -123,7 +123,7 @@ const BONDI_BEACH: LocationPageData = {
     { label: 'Lifeguards', value: 'Professional lifeguards 7 days; 6am–7pm through summer' },
     { label: 'Toilets & showers', value: 'Yes - at Bondi Pavilion and the North Bondi amenities' },
     { label: 'Parking', value: 'Metered on Campbell Parade & Notts Ave; fills early on warm days' },
-    { label: 'Public transport', value: 'Train to Bondi Junction, then 333/380/381 bus' },
+    { label: 'Public transport', value: 'Train to Bondi Junction, then 333 or 380 bus' },
     { label: 'Accessibility', value: 'Beach wheelchairs, accessible toilets, shower & beach ramp at the north end' },
     { label: 'Dogs', value: 'Not allowed on the beach or in the ocean pools (assistance animals excepted)' },
     { label: 'Best time', value: 'Sunrise for calm and space; weekday mornings out of summer' },
@@ -153,7 +153,7 @@ const BONDI_BEACH: LocationPageData = {
   ],
   gettingThere: [
     { mode: 'train', label: 'Train', detail: 'Take the Eastern Suburbs & Illawarra line to Bondi Junction - the nearest station - then a bus or a ~25–30 minute downhill walk to the beach.' },
-    { mode: 'bus', label: 'Bus', detail: 'From Bondi Junction interchange, the 333 (to/from the City), 380 (Watsons Bay) and 381 (Tamarama loop) all run down to Bondi Beach. The 333 is the fastest connection.' },
+    { mode: 'bus', label: 'Bus', detail: 'From Bondi Junction interchange, the 333 (to/from the City) and 380 (Watsons Bay) run down to Bondi Beach, and the 381 loops to Tamarama. The 333 is the fastest connection.' },
     { mode: 'drive', label: 'Driving', detail: 'Roughly 30 minutes from the CBD outside peak. Traffic on Campbell Parade is slow on warm weekends.' },
     { mode: 'parking', label: 'Parking', detail: 'Metered parking on Campbell Parade and Notts Avenue, plus side streets up the hill (check signs for time limits). It fills early in summer.' },
     { mode: 'rideshare', label: 'Rideshare', detail: 'Drop-off and pick-up work well along Campbell Parade; expect surge pricing when the beach empties out at the end of a hot day.' },
@@ -175,7 +175,7 @@ const BONDI_BEACH: LocationPageData = {
   faqs: [
     { q: 'Can you swim at Bondi Beach?', a: 'Yes - Bondi is patrolled by professional lifeguards seven days a week. Always swim between the red-and-yellow flags, which mark the safest area on the day. The southern end near Icebergs holds a persistent rip, so the middle-to-northern end is usually the easier swim.' },
     { q: 'Is there parking at Bondi Beach?', a: 'There is metered street parking on Campbell Parade, Notts Avenue and the surrounding streets, but it fills early on warm days and weekends. Taking the train to Bondi Junction and a bus down is often faster than finding a space.' },
-    { q: 'How do you get to Bondi Beach without a car?', a: 'Take a train to Bondi Junction, then the 333, 380 or 381 bus to the beach (about 10–15 minutes), or walk down in roughly 25–30 minutes. The 333 runs to and from the City.' },
+    { q: 'How do you get to Bondi Beach without a car?', a: 'Take a train to Bondi Junction, then the 333 or 380 bus to the beach (about 10–15 minutes), or walk down in roughly 25–30 minutes. The 333 runs to and from the City.' },
     { q: 'Are there toilets and showers at Bondi Beach?', a: 'Yes - there are public toilets and showers at Bondi Pavilion in the middle of the beach and at the North Bondi amenities at the northern end.' },
     { q: 'Can you take dogs to Bondi Beach?', a: 'No. Dogs are not permitted on Bondi Beach, in the intertidal area or in the ocean pools. They must be on a leash in surrounding public areas. Assistance animals are permitted.' },
     { q: 'Is Bondi Beach accessible for wheelchairs?', a: 'Yes. Waverley Council provides beach wheelchairs (adult and child) in lockers on the promenade at the northern end, with accessible toilets, an outdoor shower and a beach-access ramp nearby.' },
@@ -337,7 +337,7 @@ const BONDI_ICEBERGS: LocationPageData = {
   ],
   gettingThere: [
     { mode: 'walk', label: 'Walk from Bondi Beach', detail: 'About 5 minutes from the middle of the beach: follow the promenade to the southern end and up Notts Avenue.' },
-    { mode: 'bus', label: 'Bus', detail: 'Take any Bondi Beach bus (333/380/381) to the southern end of Campbell Parade, then walk up Notts Avenue.' },
+    { mode: 'bus', label: 'Bus', detail: 'Take any Bondi Beach bus (333 or 380) to the southern end of Campbell Parade, then walk up Notts Avenue.' },
     { mode: 'train', label: 'Train', detail: 'Train to Bondi Junction, then a bus to Bondi Beach and a short walk to the southern headland.' },
     { mode: 'parking', label: 'Parking', detail: 'Metered parking on Notts Avenue and Campbell Parade nearby - limited and it fills early on warm days.' },
   ],

@@ -17,6 +17,13 @@
       { "label": "Southern hemisphere", "value": "Seasons are flipped" }
     ] },
     { "type": "callout", "tone": "note", "title": "Remember the seasons are reversed", "text": "Bondi is in the southern hemisphere, so summer falls over Christmas and New Year, and winter runs June to August. If you're coming from the north, mentally flip the calendar." },
+    { "type": "table", "caption": "Typical conditions by season - air temperatures are Sydney long-term averages (Bureau of Meteorology); sea temperatures are approximate.", "columns": ["Season", "Air (typical)", "Sea (typical)", "Crowds"], "rows": [
+      ["Summer (Dec-Feb)", "~26°C days", "22-24°C", "Peak"],
+      ["Autumn (Mar-May)", "~22°C", "20-22°C", "Easing"],
+      ["Winter (Jun-Aug)", "~17°C days", "17-18°C", "Quiet"],
+      ["Spring (Sep-Nov)", "~22°C", "18-20°C", "Building"]
+    ] },
+    { "type": "p", "text": "Those numbers are typical rather than promises - Sydney can throw a 35°C scorcher in November or a grey week in January. For the detail, see my [month-by-month sea temperatures](/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide) guide, and check [live conditions](/bondi-weather) before you head down." },
     { "type": "h2", "text": "Summer (December to February): the full Bondi in bloom" },
     { "type": "p", "text": "This is Bondi at its loudest and most alive - warm water, long evenings, and the promenade buzzing well past sunset. It's when the beach genuinely earns its reputation. It's also when everyone else has the same idea, so the sand fills fast and accommodation prices climb." },
     { "type": "p", "text": "Two summer fixtures are worth planning around: the New Year's Eve celebrations, when the whole coastline turns festive, and the open-air cinema season up at Dudley Page Reserve with the city skyline behind the screen. Dates and programs change yearly, so check the official listings before building a night around them." },

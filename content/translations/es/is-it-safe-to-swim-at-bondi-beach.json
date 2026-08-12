@@ -21,6 +21,10 @@
           "value": "Todo el año por socorristas profesionales"
         },
         {
+          "label": "Horario de vigilancia",
+          "value": "Oct-abr 6:00-19:00; may-sep 7:00-17:30 (Waverley Council, comprobado en agosto de 2026)"
+        },
+        {
           "label": "Regla de oro",
           "value": "Nada entre las banderas roja y amarilla"
         },
@@ -150,6 +154,10 @@
         {
           "q": "¿Cuál es el lugar más tranquilo para nadar en Bondi?",
           "a": "El extremo norte de la playa suele ser más suave que el sur. Para las aguas más tranquilas, la piscina de agua marina de Bondi Icebergs y la gratuita piscina natural Ross Jones que hay debajo ofrecen un baño controlado sin riesgo de resaca, ideal para niños y nadadores nerviosos."
+        },
+        {
+          "q": "¿Qué tan fría está el agua? ¿Necesito neopreno?",
+          "a": "El mar alcanza su máximo de unos 23-24°C en febrero y baja hasta alrededor de 17-18°C en agosto-septiembre. La mayoría de los visitantes nadan cómodamente solo con bañador de diciembre a abril; los locales suelen ponerse un neopreno corto o completo de mayo a octubre. Consulta nuestra guía de [temperaturas mes a mes](/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide) para el detalle."
         }
       ]
     },

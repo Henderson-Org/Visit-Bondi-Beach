@@ -3,35 +3,120 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-10",
   "sources": [
-    { "label": "Bondi Icebergs Club - pool hours & closures", "url": "https://www.icebergs.com.au/" },
-    { "label": "Bondi Icebergs Club - history (est. 1929)", "url": "https://en.wikipedia.org/wiki/Bondi_Icebergs_Club" },
-    { "label": "North Bondi Children's Pool - history (built 1947, ex-Mermaid's Pool)", "url": "https://australiaunseen.com/en-us/pages/rock-pool/north-bondi-childrens-pool" },
-    { "label": "Waverley Council - beaches & coast", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
-    { "label": "Bondi to Coogee coastal walk (Bronte is an early stop) - Sydney.com", "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk" },
-    { "label": "Beachsafe (Surf Life Saving) - Bondi Beach conditions", "url": "https://beachsafe.org.au/beach/bondi-beach" },
-    { "label": "Open-Meteo - marine (sea-surface temperature)", "url": "https://open-meteo.com/" }
+    {
+      "label": "Bondi Icebergs Club - pool hours & closures",
+      "url": "https://www.icebergs.com.au/"
+    },
+    {
+      "label": "Bondi Icebergs Club - history (est. 1929)",
+      "url": "https://en.wikipedia.org/wiki/Bondi_Icebergs_Club"
+    },
+    {
+      "label": "North Bondi Children's Pool - history (built 1947, ex-Mermaid's Pool)",
+      "url": "https://australiaunseen.com/en-us/pages/rock-pool/north-bondi-childrens-pool"
+    },
+    {
+      "label": "Waverley Council - beaches & coast",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast"
+    },
+    {
+      "label": "Bondi to Coogee coastal walk (Bronte is an early stop) - Sydney.com",
+      "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk"
+    },
+    {
+      "label": "Beachsafe (Surf Life Saving) - Bondi Beach conditions",
+      "url": "https://beachsafe.org.au/beach/bondi-beach"
+    },
+    {
+      "label": "Open-Meteo - marine (sea-surface temperature)",
+      "url": "https://open-meteo.com/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "A day at Bondi isn't complete without getting in the water, and you've really got three ways to do it: the open beach, the famous Icebergs ocean pool cut into the southern rocks, or the calm children's pool up at the north end. Here's how I'd choose between them, and how to stay safe once you're in." },
-    { "type": "quickFacts", "items": [
-      { "label": "Calmest swim", "value": "North Bondi & the children's pool" },
-      { "label": "Ocean pool", "value": "Bondi Icebergs (50 m)" },
-      { "label": "On the beach", "value": "Free · swim between the flags" },
-      { "label": "Water temp", "value": "See today's forecast", "live": "waterTemp" }
-    ] },
-    { "type": "h2", "text": "Swimming on the beach" },
-    { "type": "p", "text": "The beach is free, open to everyone and patrolled by professional lifeguards year-round. The one rule that matters most: swim between the red-and-yellow flags, where the lifeguards have judged the water safest and are keeping watch. The northern end is usually the calmer, more sheltered stretch - my pick for a relaxed dip or a swim with the kids. The southern end, over near the Icebergs, draws stronger swimmers and surfers, and it's where Bondi's notorious \"Backpackers'\" rip runs, so it's not the place to wade in if you're unsure of yourself." },
-    { "type": "callout", "tone": "warning", "title": "Read the water first", "text": "Bondi's rips can pull even confident swimmers out to sea quickly. Swim between the flags, never swim alone or after drinking, and if a rip takes you, stay calm, raise an arm for the lifeguards and float rather than fight the current. Check Beachsafe for the day's conditions before you get in." },
-    { "type": "h2", "text": "Bondi Icebergs ocean pool" },
-    { "type": "p", "text": "The Icebergs is the postcard shot - a 50-metre, eight-lane ocean pool cut into the rocks at the southern headland, washed and refilled by the waves that break over its edge, with a shallower pool alongside for little ones. There have been public baths on this rock shelf since the 1880s, and the Icebergs Swimming Club has been swimming through winter here since 1929. The pool is open to everyone, not just members; there's a sauna to thaw out in and the Crabbe Hole café tucked below for a coffee afterwards. Because it sits right on the ocean it closes for its regular clean and whenever big swells roll through, so check the Icebergs website for opening hours before you make a special trip." },
-    { "type": "h2", "text": "Calm water for young kids: North Bondi" },
-    { "type": "p", "text": "If you've got small children, head to the north end. The North Bondi Children's Pool - built in 1947 and still known to some locals as the Mermaid's Pool - is a shallow, sheltered seawater pool tucked between the sand and the rocks, by far the most relaxed place at Bondi to let little ones splash without the shore break. Right beside it sits Wally Weekes Pool, a separate tidal rock pool that's lovely at high tide but drains to barely a puddle at low, so time that one with the tide." },
-    { "type": "h2", "text": "A swim just up the coast" },
-    { "type": "p", "text": "If you fancy a change of scene, the clifftop path south runs about 2.5 km to Bronte, which has a free ocean pool of its own set into the rocks - one of my favourite swims in the whole city, and an easy 45-minute walk with the sea beside you the entire way." },
-    { "type": "faq", "items": [
-      { "q": "Can the public swim at Bondi Icebergs?", "a": "Yes - Bondi Icebergs is open to the public, not just members. There's a small entry fee, a 50-metre lap pool and a shallow kids' pool beside it. Check the Icebergs website for current hours, as it closes for cleaning and big swells." },
-      { "q": "Where is the calmest place to swim at Bondi?", "a": "The northern end of the beach and the shallow North Bondi Children's Pool are the calmest, most sheltered spots - ideal for families and less confident swimmers." },
-      { "q": "Is it safe to swim at Bondi Beach?", "a": "Bondi is patrolled by lifeguards every day, but the ocean always carries risk. Swim between the red-and-yellow flags, check conditions on Beachsafe, don't swim alone, and take the rips seriously - especially at the southern end." }
-    ] }
+    {
+      "type": "p",
+      "text": "A day at Bondi isn't complete without getting in the water, and you've really got three ways to do it: the open beach, the famous Icebergs ocean pool cut into the southern rocks, or the calm children's pool up at the north end. Here's how I'd choose between them, and how to stay safe once you're in."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Calmest swim",
+          "value": "North Bondi & the children's pool"
+        },
+        {
+          "label": "Ocean pool",
+          "value": "Bondi Icebergs (50 m)"
+        },
+        {
+          "label": "On the beach",
+          "value": "Free · swim between the flags"
+        },
+        {
+          "label": "Water temp",
+          "value": "See today's forecast",
+          "live": "waterTemp"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Swimming on the beach"
+    },
+    {
+      "type": "p",
+      "text": "The beach is free, open to everyone and patrolled by professional lifeguards year-round. The one rule that matters most: swim between the red-and-yellow flags, where the lifeguards have judged the water safest and are keeping watch. The northern end is usually the calmer, more sheltered stretch - my pick for a relaxed dip or a swim with the kids. The southern end, over near the Icebergs, draws stronger swimmers and surfers, and it's where Bondi's notorious \"Backpackers'\" rip runs, so it's not the place to wade in if you're unsure of yourself."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Read the water first",
+      "text": "Bondi's rips can pull even confident swimmers out to sea quickly. Swim between the flags, never swim alone or after drinking, and if a rip takes you, stay calm, raise an arm for the lifeguards and float rather than fight the current. Check Beachsafe for the day's conditions before you get in."
+    },
+    {
+      "type": "h2",
+      "text": "Bondi Icebergs ocean pool"
+    },
+    {
+      "type": "p",
+      "text": "The Icebergs is the postcard shot - a 50-metre ocean pool cut into the rocks at the southern headland, washed and refilled by the waves that break over its edge, with a shallower pool alongside for little ones. There have been public baths on this rock shelf since the 1880s, and the Icebergs Swimming Club has been swimming through winter here since 1929. The pool is open to everyone, not just members; there's a sauna to thaw out in and the Crabbe Hole café tucked below for a coffee afterwards. Because it sits right on the ocean it closes for its regular clean and whenever big swells roll through, so check the Icebergs website for opening hours before you make a special trip."
+    },
+    {
+      "type": "p",
+      "text": "Two free alternatives most visitors walk straight past: [Ross Jones Memorial Pool](/bondi-blog/2024/9/21/can-the-public-swim-at-bondi-icebergs-ocean-pool) - the little rock pool tucked directly below Icebergs - and the North Bondi children’s pool at the far northern corner. Both are calm, enclosed and cost nothing, which makes them the honest answer for nervous swimmers and small kids who want salt water without waves. And if you’d rather just wade: ankle-to-waist deep between the flags is a perfectly legitimate way to enjoy Bondi - keep your feet planted, never turn your back on the waves, and step out when the sets get bigger."
+    },
+    {
+      "type": "h2",
+      "text": "Calm water for young kids: North Bondi"
+    },
+    {
+      "type": "p",
+      "text": "If you've got small children, head to the north end. The North Bondi Children's Pool - built in 1947 and still known to some locals as the Mermaid's Pool - is a shallow, sheltered seawater pool tucked between the sand and the rocks, by far the most relaxed place at Bondi to let little ones splash without the shore break. Right beside it sits Wally Weekes Pool, a separate tidal rock pool that's lovely at high tide but drains to barely a puddle at low, so time that one with the tide."
+    },
+    {
+      "type": "h2",
+      "text": "A swim just up the coast"
+    },
+    {
+      "type": "p",
+      "text": "If you fancy a change of scene, the clifftop path south runs about 2.5 km to Bronte, which has a free ocean pool of its own set into the rocks - one of my favourite swims in the whole city, and an easy 45-minute walk with the sea beside you the entire way."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Can the public swim at Bondi Icebergs?",
+          "a": "Yes - Bondi Icebergs is open to the public, not just members. Entry is $10 for adults ($7 child, $30 family, sauna included, as at August 2026), for a 50-metre lap pool with a shallow kids' pool beside it. Check icebergs.com.au for current hours, as it closes for cleaning and big swells."
+        },
+        {
+          "q": "Where is the calmest place to swim at Bondi?",
+          "a": "The northern end of the beach and the shallow North Bondi Children's Pool are the calmest, most sheltered spots - ideal for families and less confident swimmers."
+        },
+        {
+          "q": "Is it safe to swim at Bondi Beach?",
+          "a": "Bondi is patrolled by lifeguards every day, but the ocean always carries risk. Swim between the red-and-yellow flags, check conditions on Beachsafe, don't swim alone, and take the rips seriously - especially at the southern end."
+        }
+      ]
+    }
   ]
 }

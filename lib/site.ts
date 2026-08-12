@@ -63,6 +63,7 @@ export const AUTHOR = {
 } as const;
 
 export const NAV = [
+  { label: 'Start Here', href: '/start-here' },
   { label: 'Things to Do', href: '/things-to-do-in-bondi' },
   { label: 'Swim', href: '/where-to-swim-at-bondi-beach' },
   { label: 'Eat & Drink', href: '/bondi-eat-and-drink' },
@@ -80,6 +81,7 @@ export const NAV = [
  */
 export const HUB_NAV: { group: string; items: { label: string; href: string }[] }[] = [
   { group: 'Plan your visit', items: [
+    { label: 'First time? Start here', href: '/start-here' },
     { label: 'Itineraries', href: '/itineraries' },
     { label: 'Weather & sea temps', href: '/bondi-weather' },
     { label: "What's On", href: '/whats-on' },

@@ -13,15 +13,15 @@
       { "label": "Where", "value": "1 Notts Avenue, Bondi Beach NSW 2026" },
       { "label": "Open", "value": "7 days (usually closed Thursdays for cleaning)" },
       { "label": "Public entry", "value": "Yes - no membership needed" },
-      { "label": "Pools", "value": "50 m nine-lane lap pool + sheltered 25 m pool" },
+      { "label": "Pools", "value": "50 m lap pool + smaller, shallower second pool" },
       { "label": "Water", "value": "Unheated, ocean-fed" }
     ] },
     { "type": "callout", "tone": "note", "title": "Check the tide before you cross town", "text": "Entry can be affected by tides, swimming races and event days, and the pool occasionally closes to public swimmers at short notice. If you've travelled for it, a quick look at the official Pool Conditions page saves a wasted trip." },
     { "type": "faq", "items": [
       { "q": "Can anyone swim at Bondi Icebergs, or do I need to be a member?", "a": "Anyone can swim. The pool has public entry seven days a week - you just pay at the kiosk and walk down. Club membership is a separate thing entirely and isn't needed for a casual dip." },
-      { "q": "How much does it cost to swim?", "a": "There's a modest single-visit fee, with cheaper multi-visit passes for regulars. Because prices change, I check the official Pool Conditions page at icebergs.com.au for the current figures rather than quote a number that might be stale." },
+      { "q": "How much does it cost to swim?", "a": "As at August 2026, entry is $10 for adults, $7 for children and $30 for a family pass, with the sauna included in admission - plus cheaper multi-visit passes for regulars. Because prices change, check icebergs.com.au for the current figures before you go." },
       { "q": "What are the opening hours?", "a": "It opens early - dawn most days - and runs into the early evening, seven days a week, though it's usually closed Thursdays for cleaning (in summer, when tides permit, Thursdays often stay open). Times shift with the season, races and the surf, so I check the official pool status the morning I'm heading down." },
-      { "q": "How big is the pool?", "a": "There are two: a 50-metre, nine-lane lap pool that faces the ocean and takes the full force of the waves, and a smaller, more sheltered 25-metre pool tucked behind it. Both are ocean-fed." },
+      { "q": "How big is the pool?", "a": "There are two: a 50-metre lap pool that faces the ocean and takes the full force of the waves, and a smaller, more sheltered 25-metre pool tucked behind it. Both are ocean-fed." },
       { "q": "Is the pool heated?", "a": "No. Both pools are unheated and topped up with sea water, so the temperature tracks the ocean - glorious in late summer, seriously bracing come winter. On a big swell, waves break clean over the sea wall and wash through the lanes, which is exactly the drama people come for." },
       { "q": "Is it good for young kids?", "a": "The sheltered 25-metre pool behind the main lap pool is calmer and better for little swimmers, and lifeguards are on duty during opening hours. That said, this is the ocean: when it's pumping, the seaward lanes get lively, so keep children in the sheltered pool on big days." },
       { "q": "Is there a sauna?", "a": "There is, and it's included with your pool admission - a proper reward after a cold lap. It's a shared space with time-capped sessions, so don't plan to linger, and bring your own towel. Freezing dip, warm sauna, repeat: my favourite winter ritual." },

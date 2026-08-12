@@ -6,7 +6,7 @@
     { "label": "Waverley Council - parking (current meter rates & permits)", "url": "https://www.waverley.nsw.gov.au/residents/parking" },
     { "label": "Waverley Council - beach parking permit (unlimited time in eligible metered beach bays)", "url": "https://www.waverley.nsw.gov.au/residents/parking/permits/beach_parking_permit" },
     { "label": "The Hub, Hall Street - parking in Bondi (Queen Elizabeth Drive car park details)", "url": "https://www.thehubhallstreet.com.au/parking-in-bondi" },
-    { "label": "Transport for NSW - routes 333 / 380 / 381, Bondi Junction to Bondi Beach", "url": "https://transportnsw.info" }
+    { "label": "Transport for NSW - routes 333 / 380, Bondi Junction to Bondi Beach", "url": "https://transportnsw.info" }
   ],
   "blocks": [
     { "type": "p", "text": "I'll be honest: parking at Bondi on a sunny weekend can test your patience like nothing else. But after years of doing it, I've got a system - where to leave the car for free, when to just pay for the closest station, and the one move that beats the whole lottery. Here it is." },
@@ -29,11 +29,11 @@
     { "type": "localTip", "text": "If you're down here often, a Waverley Council beach parking permit lets you stay unlimited time in the eligible metered beach bays - a genuinely good deal for regulars and worth checking your eligibility for with the council." },
     { "type": "callout", "tone": "note", "title": "What it costs", "text": "Beach-adjacent meters are the dearest and get cheaper the further back you go. Council adjusts these rates periodically, so check Waverley Council's current parking fees rather than trusting any fixed figure - including mine." },
     { "type": "h2", "text": "The move that beats the lottery" },
-    { "type": "p", "text": "On a perfect summer's day, I skip the circling entirely: train to Bondi Junction, then the 333, 380 or 381 bus straight down to Campbell Parade - about a 10–13 minute run. You'll be on the sand while everyone else is still hunting for a bay. If you must drive on a busy day, try the quieter blocks toward the south end, or the streets back from the Beach Road Hotel; most people aim for the middle of the beach, so the edges can be surprisingly lucky." },
+    { "type": "p", "text": "On a perfect summer's day, I skip the circling entirely: train to Bondi Junction, then the 333 or 380 bus straight down to Campbell Parade - about a 10–13 minute run. You'll be on the sand while everyone else is still hunting for a bay. If you must drive on a busy day, try the quieter blocks toward the south end, or the streets back from the Beach Road Hotel; most people aim for the middle of the beach, so the edges can be surprisingly lucky." },
     { "type": "faq", "items": [
       { "q": "Is there free parking at Bondi Beach?", "a": "Yes - many residential streets north of Blair Street are free and unrestricted, about a 5–7 minute walk to the beach. Always read the sign, as permit-only blocks are mixed in, and get there early on weekends." },
       { "q": "What's the closest car park to Bondi Beach?", "a": "The Queen Elizabeth Drive car park, the council station right behind the sand and the largest beachfront option. It's metered daily and fills quickly, so arrive early and check Waverley Council for current hours and rates." },
-      { "q": "Can I get to Bondi without driving?", "a": "Easily. Take the train to Bondi Junction, then the 333, 380 or 381 bus down to Campbell Parade - around 10–13 minutes and no parking stress at all." }
+      { "q": "Can I get to Bondi without driving?", "a": "Easily. Take the train to Bondi Junction, then the 333 or 380 bus down to Campbell Parade - around 10–13 minutes and no parking stress at all." }
     ] }
   ]
 }
