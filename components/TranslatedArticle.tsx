@@ -3,6 +3,7 @@ import Image from 'next/image';
 import type { Page } from '@/lib/content';
 import { BodyBlocks } from '@/components/BodyBlocks';
 import { LanguageLinks } from '@/components/LanguageLinks';
+import { TranslatedRelatedGuides } from '@/components/TranslatedRelatedGuides';
 import { breadcrumbJsonLd, articleJsonLd } from '@/lib/structured-data';
 import { AUTHOR } from '@/lib/site';
 import { UI_STRINGS, LOCALE_HREFLANG, localizedPath, type Locale } from '@/lib/i18n';
@@ -56,6 +57,10 @@ export function TranslatedArticle({ page, locale }: { page: Page; locale: Locale
           </ul>
         </footer>
       )}
+
+      {/* Internal linking: same-language "read next" (falls back to English only where a guide
+          isn't translated). Gives translations the internal links they need to get indexed. */}
+      <TranslatedRelatedGuides page={page} locale={locale} />
 
       <LanguageLinks path={page.path} current={locale} />
     </article>

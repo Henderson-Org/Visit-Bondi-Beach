@@ -54,12 +54,12 @@ export function hreflangAlternates(path: string, locales: Locale[]): Record<stri
 }
 
 /** Minimal UI-chrome strings (labels around the translated article, not the article copy). */
-export const UI_STRINGS: Record<Locale, { by: string; updated: string; lastReviewed: string; sources: string; home: string; readIn: string; english: string; alsoIn: string }> = {
-  ja: { by: '文：', updated: '更新', lastReviewed: '最終確認', sources: '出典', home: 'ホーム', readIn: '他の言語で読む：', english: 'English', alsoIn: '他の言語：' },
-  'zh-cn': { by: '作者：', updated: '更新', lastReviewed: '最后核查', sources: '来源', home: '首页', readIn: '其他语言阅读：', english: 'English', alsoIn: '其他语言：' },
-  es: { by: 'Por', updated: 'Actualizado', lastReviewed: 'Última revisión', sources: 'Fuentes', home: 'Inicio', readIn: 'Léelo en', english: 'English', alsoIn: 'También en:' },
-  pt: { by: 'Por', updated: 'Atualizado', lastReviewed: 'Última revisão', sources: 'Fontes', home: 'Início', readIn: 'Leia em', english: 'English', alsoIn: 'Também em:' },
-  de: { by: 'Von', updated: 'Aktualisiert', lastReviewed: 'Zuletzt geprüft', sources: 'Quellen', home: 'Startseite', readIn: 'Lesen auf', english: 'English', alsoIn: 'Auch auf:' },
-  nl: { by: 'Door', updated: 'Bijgewerkt', lastReviewed: 'Laatst gecontroleerd', sources: 'Bronnen', home: 'Home', readIn: 'Lees in het', english: 'English', alsoIn: 'Ook in:' },
-  it: { by: 'Di', updated: 'Aggiornato', lastReviewed: 'Ultima verifica', sources: 'Fonti', home: 'Home', readIn: 'Leggi in', english: 'English', alsoIn: 'Anche in:' },
+export const UI_STRINGS: Record<Locale, { by: string; updated: string; lastReviewed: string; sources: string; home: string; readIn: string; english: string; alsoIn: string; readNext: string }> = {
+  ja: { by: '文：', updated: '更新', lastReviewed: '最終確認', sources: '出典', home: 'ホーム', readIn: '他の言語で読む：', english: 'English', alsoIn: '他の言語：', readNext: '次に読む' },
+  'zh-cn': { by: '作者：', updated: '更新', lastReviewed: '最后核查', sources: '来源', home: '首页', readIn: '其他语言阅读：', english: 'English', alsoIn: '其他语言：', readNext: '继续阅读' },
+  es: { by: 'Por', updated: 'Actualizado', lastReviewed: 'Última revisión', sources: 'Fuentes', home: 'Inicio', readIn: 'Léelo en', english: 'English', alsoIn: 'También en:', readNext: 'Sigue leyendo' },
+  pt: { by: 'Por', updated: 'Atualizado', lastReviewed: 'Última revisão', sources: 'Fontes', home: 'Início', readIn: 'Leia em', english: 'English', alsoIn: 'Também em:', readNext: 'Leia a seguir' },
+  de: { by: 'Von', updated: 'Aktualisiert', lastReviewed: 'Zuletzt geprüft', sources: 'Quellen', home: 'Startseite', readIn: 'Lesen auf', english: 'English', alsoIn: 'Auch auf:', readNext: 'Weiterlesen' },
+  nl: { by: 'Door', updated: 'Bijgewerkt', lastReviewed: 'Laatst gecontroleerd', sources: 'Bronnen', home: 'Home', readIn: 'Lees in het', english: 'English', alsoIn: 'Ook in:', readNext: 'Lees verder' },
+  it: { by: 'Di', updated: 'Aggiornato', lastReviewed: 'Ultima verifica', sources: 'Fonti', home: 'Home', readIn: 'Leggi in', english: 'English', alsoIn: 'Anche in:', readNext: 'Continua a leggere' },
 };

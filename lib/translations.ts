@@ -50,6 +50,16 @@ export function availableLocales(path: string): Locale[] {
   return LOCALES.filter((l) => TX[key(l, path)]);
 }
 
+/**
+ * The translated H1/title for (locale, path), or undefined if there's no live translation.
+ * Lightweight (no block overlay) — for linking to same-language pages (e.g. Read-next cards).
+ */
+export function translatedTitle(locale: Locale, path: string): string | undefined {
+  if (!isLiveBase(path)) return undefined;
+  const ov = TX[key(locale, path)];
+  return ov ? ov.h1 || ov.title : undefined;
+}
+
 /** Every live (locale, path) that has a translation — for generateStaticParams + the sitemap. */
 export function allTranslations(): { locale: Locale; path: string }[] {
   return Object.keys(TX)
