@@ -1,42 +1,167 @@
 {
   "path": "/bondi-blog/city2surf-results",
   "voice": "first-person",
-  "lastReviewed": "2026-08-10",
+  "lastReviewed": "2026-08-14",
   "sources": [
-    { "label": "City2Surf 2026 results - Multisport Australia", "url": "https://www.multisportaustralia.com.au/races/city2surf-2026" },
-    { "label": "City2Surf - official site (results & event history)", "url": "https://city2surf.com.au/" },
-    { "label": "City2Surf - official course info (route, Heartbreak Hill, finish)", "url": "https://city2surf.com.au/event-info/course-info/" },
-    { "label": "City2Surf (Sydney) - Wikipedia (records, history, distance)", "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)" },
-    { "label": "Ausrunning - City to Surf rankings and results archive (1971–)", "url": "https://ausrunning.net/misc/city-to-surf/" }
+    {
+      "label": "Inside Athletics - Buchanan, Campbell claim City2Surf honours (2026 race report)",
+      "url": "https://insideathletics.com.au/buchanan-campbell-claim-city2surf-honours/"
+    },
+    {
+      "label": "City2Surf 2026 results - Multisport Australia",
+      "url": "https://www.multisportaustralia.com.au/races/city2surf-2026"
+    },
+    {
+      "label": "City2Surf - official site (results & event history)",
+      "url": "https://city2surf.com.au/"
+    },
+    {
+      "label": "City2Surf - official course info (route, Heartbreak Hill, finish)",
+      "url": "https://city2surf.com.au/event-info/course-info/"
+    },
+    {
+      "label": "City2Surf (Sydney) - Wikipedia (records, history, distance)",
+      "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)"
+    },
+    {
+      "label": "Ausrunning - City to Surf rankings and results archive (1971–)",
+      "url": "https://ausrunning.net/misc/city-to-surf/"
+    }
   ],
   "blocks": [
-    { "type": "callout", "tone": "note", "title": "2026 results are live", "text": "Search the **[official City2Surf 2026 results on Multisport Australia →](https://www.multisportaustralia.com.au/races/city2surf-2026)** by your name or bib number to pull up your finish time, category place and splits." },
-    { "type": "h2", "text": "Where to find your result, year by year" },
-    { "type": "p", "text": "I get asked this a lot - usually by someone who ran once years ago and wants to prove to their kids they did it. The good news is the results don't disappear. Here's where the accurate records actually live:" },
-    { "type": "list", "items": [
-      "Official results search - city2surf.com.au keeps a searchable database of past events. Search by first and last name, or by bib number if you still have it.",
-      "Ausrunning's archive - a runner-maintained record of placings and elite times all the way back to the first run in 1971, handy for comparing winners and fields across the decades.",
-      "Your confirmation email or charity page - if you fundraised through the official platform, your entry and result are usually linked to that account."
-    ] },
-    { "type": "localTip", "text": "Names are stored exactly as you registered them, so if a search comes up empty, try a nickname, a maiden name, or your surname alone. Misspelled and hyphenated names are the number-one reason people think their result 'vanished'." },
-    { "type": "h2", "text": "The records - and the course they were run on" },
-    { "type": "quickFacts", "items": [
-      { "label": "Distance", "value": "13.907 km - Sydney CBD to Bondi" },
-      { "label": "Elevation gain", "value": "≈221 m over the course" },
-      { "label": "Men's record", "value": "Steve Moneghetti - 40:02 (1991)" },
-      { "label": "Women's record", "value": "Susie Power - 45:08 (2001)" },
-      { "label": "First run", "value": "5 September 1971 - 1,576 starters" }
-    ] },
-    { "type": "p", "text": "Both outright course records were set decades ago and have never been beaten, so whatever year you ran, the field was chasing times already on the books. Moneghetti's 40:02 is the mark the elite men still measure themselves against - and remember, he ran it including Heartbreak Hill." },
-    { "type": "p", "text": "It helps to know the ground under those numbers. The course starts in the CBD by Hyde Park, drops down William Street and through the Kings Cross Tunnel, then follows New South Head Road out through the harbourside suburbs. Heartbreak Hill is the two-kilometre climb from Rose Bay up to Vaucluse, hitting at roughly the halfway mark - the reason so many personal times swing on one section. From there it runs down to the finish on Queen Elizabeth Drive, right at Bondi Beach." },
-    { "type": "p", "text": "The bigger story of the modern era isn't the pointy end, though - it's the scale. The event grew into the largest timed fun run of its kind in the world, cresting around 80,000 entrants for its 40th anniversary in 2010. That's why everyone sets off in colour-coded waves seeded by expected finish time: you can't put that many people on one line." },
-    { "type": "h2", "text": "Reading your result like a local" },
-    { "type": "p", "text": "When you pull up an old result, look past the gun time. Your net (chip) time - measured from when you actually crossed the start mat - is the fairer number if you went off in a back wave. Your category placing shows how you fared against your own age group, not the elites. And if you ran more than one year, line the net times up side by side: that's the real story of your City2Surf." },
-    { "type": "faq", "items": [
-      { "q": "Where can I find City2Surf results for a specific year?", "a": "For 2026, use the Multisport Australia results page at multisportaustralia.com.au/races/city2surf-2026. For other years, search the official portal at city2surf.com.au by name or bib number and choose the event year. For historical placings and elite times going back to 1971, the Ausrunning City to Surf archive is the most complete public record." },
-      { "q": "Why can't I find my result in the search?", "a": "Almost always it's a name mismatch. Try your surname alone, any nickname or maiden name you may have registered under, and double-check the year. If you have your old bib number, searching by that is the most reliable method." },
-      { "q": "What is the City2Surf course record?", "a": "The men's record is 40:02, set by Steve Moneghetti in 1991; the women's is 45:08, set by Susie Power in 2001. Both still stand." },
-      { "q": "How long is the course and where is Heartbreak Hill?", "a": "It's 13.907 km with about 221 m of climbing, running from the Sydney CBD near Hyde Park out to the finish on Queen Elizabeth Drive at Bondi. Heartbreak Hill is the roughly two-kilometre ascent along New South Head Road from Rose Bay up to Vaucluse, at about the halfway point." }
-    ] }
+    {
+      "type": "answer",
+      "text": "The 2026 Voltaren City2Surf was run on Sunday 9 August 2026, and Andy Buchanan won the men's race in 40:27 with Holly Campbell taking the women's in 46:35 on her elite debut. More than 90,000 people entered, making it the biggest field the race has seen. If you're here to find your own time rather than the winners', the official results search is below - and it goes back years, not just to this August."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "2026 results are live",
+      "text": "Search the **[official City2Surf 2026 results on Multisport Australia →](https://www.multisportaustralia.com.au/races/city2surf-2026)** by your name or bib number to pull up your finish time, category place and splits."
+    },
+    {
+      "type": "table",
+      "caption": "2026 Voltaren City2Surf podium, run Sunday 9 August 2026. Times as reported in the official race coverage.",
+      "columns": [
+        "Place",
+        "Men",
+        "Women"
+      ],
+      "rows": [
+        [
+          "1st",
+          "Andy Buchanan - 40:27",
+          "Holly Campbell - 46:35"
+        ],
+        [
+          "2nd",
+          "Luke Hince - 41:05",
+          "Eloise Wellings - 49:06"
+        ],
+        [
+          "3rd",
+          "Ed Goddard - 41:50",
+          "Stacy Winter - 49:19"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Where to find your result, year by year"
+    },
+    {
+      "type": "p",
+      "text": "I get asked this a lot - usually by someone who ran once years ago and wants to prove to their kids they did it. The good news is the results don't disappear. Here's where the accurate records actually live:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Official results search - city2surf.com.au keeps a searchable database of past events. Search by first and last name, or by bib number if you still have it.",
+        "Ausrunning's archive - a runner-maintained record of placings and elite times all the way back to the first run in 1971, handy for comparing winners and fields across the decades.",
+        "Your confirmation email or charity page - if you fundraised through the official platform, your entry and result are usually linked to that account."
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "Names are stored exactly as you registered them, so if a search comes up empty, try a nickname, a maiden name, or your surname alone. Misspelled and hyphenated names are the number-one reason people think their result 'vanished'."
+    },
+    {
+      "type": "h2",
+      "text": "The records - and the course they were run on"
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Distance",
+          "value": "13.907 km - Sydney CBD to Bondi"
+        },
+        {
+          "label": "Elevation gain",
+          "value": "≈221 m over the course"
+        },
+        {
+          "label": "Men's record",
+          "value": "Steve Moneghetti - 40:02 (1991)"
+        },
+        {
+          "label": "Women's record",
+          "value": "Susie Power - 45:08 (2001)"
+        },
+        {
+          "label": "First run",
+          "value": "5 September 1971 - 1,576 starters"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Both outright course records were set decades ago and have never been beaten, so whatever year you ran, the field was chasing times already on the books. Moneghetti's 40:02 is the mark the elite men still measure themselves against - and remember, he ran it including Heartbreak Hill. It stays remarkably close, though: Andy Buchanan's winning 40:27 in 2026 finished just 25 seconds outside it, the sort of margin that makes you realise how good that 1991 run was."
+    },
+    {
+      "type": "p",
+      "text": "It helps to know the ground under those numbers. The course starts in the CBD by Hyde Park, drops down William Street and through the Kings Cross Tunnel, then follows New South Head Road out through the harbourside suburbs. Heartbreak Hill is the two-kilometre climb from Rose Bay up to Vaucluse, hitting at roughly the halfway mark - the reason so many personal times swing on one section. From there it runs down to the finish on Queen Elizabeth Drive, right at Bondi Beach."
+    },
+    {
+      "type": "p",
+      "text": "The bigger story of the modern era isn't the pointy end, though - it's the scale. The event grew into the largest timed fun run of its kind in the world, cresting around 80,000 entrants for its 40th anniversary in 2010. That's why everyone sets off in colour-coded waves seeded by expected finish time: you can't put that many people on one line."
+    },
+    {
+      "type": "h2",
+      "text": "Reading your result like a local"
+    },
+    {
+      "type": "p",
+      "text": "When you pull up an old result, look past the gun time. Your net (chip) time - measured from when you actually crossed the start mat - is the fairer number if you went off in a back wave. Your category placing shows how you fared against your own age group, not the elites. And if you ran more than one year, line the net times up side by side: that's the real story of your City2Surf."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Who won City2Surf 2026?",
+          "a": "Andy Buchanan won the men's race in 40:27 and Holly Campbell won the women's in 46:35, on Sunday 9 August 2026. Luke Hince (41:05) and Ed Goddard (41:50) completed the men's podium; Eloise Wellings (49:06) and Stacy Winter (49:19) rounded out the women's."
+        },
+        {
+          "q": "When was City2Surf 2026 held and how many people ran?",
+          "a": "Sunday 9 August 2026, from the Sydney CBD to Bondi Beach. More than 90,000 people entered, the largest field in the event's history. The race is traditionally held on a Sunday in August; check city2surf.com.au for the next edition's date."
+        },
+        {
+          "q": "Where can I find City2Surf results for a specific year?",
+          "a": "For 2026, use the Multisport Australia results page at multisportaustralia.com.au/races/city2surf-2026. For other years, search the official portal at city2surf.com.au by name or bib number and choose the event year. For historical placings and elite times going back to 1971, the Ausrunning City to Surf archive is the most complete public record."
+        },
+        {
+          "q": "Why can't I find my result in the search?",
+          "a": "Almost always it's a name mismatch. Try your surname alone, any nickname or maiden name you may have registered under, and double-check the year. If you have your old bib number, searching by that is the most reliable method."
+        },
+        {
+          "q": "What is the City2Surf course record?",
+          "a": "The men's record is 40:02, set by Steve Moneghetti in 1991; the women's is 45:08, set by Susie Power in 2001. Both still stand."
+        },
+        {
+          "q": "How long is the course and where is Heartbreak Hill?",
+          "a": "It's 13.907 km with about 221 m of climbing, running from the Sydney CBD near Hyde Park out to the finish on Queen Elizabeth Drive at Bondi. Heartbreak Hill is the roughly two-kilometre ascent along New South Head Road from Rose Bay up to Vaucluse, at about the halfway point."
+        }
+      ]
+    }
   ]
 }

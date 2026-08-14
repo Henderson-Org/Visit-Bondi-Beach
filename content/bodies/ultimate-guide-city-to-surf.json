@@ -1,41 +1,126 @@
 {
   "path": "/bondi-blog/ultimate-guide-city-to-surf",
   "voice": "first-person",
-  "lastReviewed": "2026-08-10",
+  "lastReviewed": "2026-08-14",
   "sources": [
-    { "label": "Voltaren City2Surf - official site (dates, entries, waves, results)", "url": "https://city2surf.com.au/" },
-    { "label": "Transport for NSW - City2Surf event transport & road closures", "url": "https://transportnsw.info/events/2026/08/city2surf-2026" },
-    { "label": "City2Surf (Sydney) - Wikipedia (history, distance, course, Heartbreak Hill)", "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)" }
+    {
+      "label": "Inside Athletics - Buchanan, Campbell claim City2Surf honours (2026 race report)",
+      "url": "https://insideathletics.com.au/buchanan-campbell-claim-city2surf-honours/"
+    },
+    {
+      "label": "Voltaren City2Surf - official site (dates, entries, waves, results)",
+      "url": "https://city2surf.com.au/"
+    },
+    {
+      "label": "Transport for NSW - City2Surf event transport & road closures",
+      "url": "https://transportnsw.info/events/2026/08/city2surf-2026"
+    },
+    {
+      "label": "City2Surf (Sydney) - Wikipedia (history, distance, course, Heartbreak Hill)",
+      "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "Every August, my end of Sydney turns into a finish line. The City2Surf has run from the city to Bondi since 1971 - it started as a newspaper stunt for The Sun with 1,576 starters, and it's now the world's largest fun run, tens of thousands strong. Whether I'm out on the course or cheering from the promenade, it's one of my favourite days of the year. Here's how to run it well, and enjoy it." },
-    { "type": "quickFacts", "items": [
-      { "label": "Distance", "value": "14 km (Sydney CBD → Bondi Beach)" },
-      { "label": "First held", "value": "1971" },
-      { "label": "When", "value": "Annually in August" },
-      { "label": "2026", "value": "Sun 9 August (sold out)" }
-    ] },
-    { "type": "h2", "text": "The route - and yes, Heartbreak Hill" },
-    { "type": "p", "text": "From the start near Hyde Park you drop down William Street, through the Kings Cross tunnel, then out along New South Head Road with the harbour glinting beside you through Rose Bay. What first-timers never expect is how hilly the whole thing is - there are plenty of climbs before the famous one. Then comes the bit everyone's heard about: Heartbreak Hill, a roughly 2 km climb from Rose Bay up to Vaucluse that rises about 75 metres. It hits near the halfway mark, around the 6 km point, it's twisty, it steepens near the top, and the cruellest part is psychological - just when you're certain you've crested it, it keeps going. From Vaucluse you head along Old South Head Road and Military Road before a glorious downhill toward the coast, a final turnaround, and the finish on Queen Elizabeth Drive above Bondi Beach." },
-    { "type": "callout", "tone": "note", "title": "The local trick: run to the house, not the top", "text": "Here's the tip I give every first-timer. Somewhere up on the high part of the course there's a striking, futuristic-looking house you can't miss - and it's your signal that the worst of the climbing is behind you. The moment you pass it, the hard hills are done: there's just one last gentle incline before the sharp downhill into Bondi. I stop counting down to the 'top' of Heartbreak Hill and count down to that house instead - it's a much more honest finish line for the climbing." },
-    { "type": "callout", "tone": "warning", "title": "Two things that catch people out", "text": "Heartbreak Hill isn't the end of the climbing - several short, sharp pinches follow it, so keep something in reserve. And don't empty the tank sprinting the final downhill when you spot the water: once you reach the bottom there's still around a kilometre to run, in a flat switchback that doubles you back to the line. More runners than you'd think blow up here because they thought they were finished." },
-    { "type": "h2", "text": "My tips for a strong run" },
-    { "type": "list", "items": [
-      "Train on hills. Even a few weeks of hill repeats makes Heartbreak Hill far less scary.",
-      "Go out easy - aim to run the second half faster than the first. Crowd energy will tempt you to sprint the opening kilometres; don't.",
-      "On the hill, shorten your stride and hold a steady effort. The people charging past you early are usually the ones walking near the top.",
-      "Nothing new on race day - no untested shoes, gear or gels.",
-      "Keep moving through water stations rather than stopping dead; it's safer for you and everyone behind you.",
-      "Sunscreen and a cap. It's August, but the Sydney sun still bites by the time you reach Bondi."
-    ] },
-    { "type": "h2", "text": "Getting there and home" },
-    { "type": "p", "text": "Public transport is by far the easiest option - roads close across the eastern suburbs and parking near the start or finish is a nightmare. Bring an Opal card or tap on with a card or phone. For the start, trains to St James, Museum or Town Hall put you a short walk from the assembly area. Getting home from Bondi, there are usually free shuttle buses to Bondi Junction, where you pick up the T4 line back to the city. The exact shuttle and closure details change each year, so I check Transport for NSW's event page in the days before." },
-    { "type": "p", "text": "Then the reward: crossing the line above Bondi Beach with salt air in your lungs and the ocean right there never gets old. Once you've caught your breath, the Bondi pubs and the Pavilion turn on afterparties every year. I've written a separate guide to the best spots to recover and celebrate, and a companion piece on the things I wish I'd known before my first City2Surf. Train a little, pace it smart, and I'll see you at the Bondi end." },
-    { "type": "faq", "items": [
-      { "q": "How long is the City2Surf?", "a": "About 14 kilometres, from Sydney's CBD near Hyde Park to the finish above Bondi Beach." },
-      { "q": "When is City2Surf 2026?", "a": "Sunday 9 August 2026. The 2026 event is sold out - for entries and future dates, check the official site at city2surf.com.au." },
-      { "q": "Where is Heartbreak Hill?", "a": "It's a roughly 2 km climb along New South Head Road from Rose Bay up to Vaucluse, rising about 75 metres, at around the 6 km mark - the halfway point of the course. It steepens near the top and tends to keep going just when you think you've finished it." },
-      { "q": "How do I get to the start and home from Bondi?", "a": "Use public transport - roads close and parking is very limited. Trains reach the CBD start; from the Bondi finish there are usually free shuttles to Bondi Junction for the train home. Check Transport for NSW for the current year's details." }
-    ] }
+    {
+      "type": "p",
+      "text": "Every August, my end of Sydney turns into a finish line. The City2Surf has run from the city to Bondi since 1971 - it started as a newspaper stunt for The Sun with 1,576 starters, and it's now the world's largest fun run, tens of thousands strong. Whether I'm out on the course or cheering from the promenade, it's one of my favourite days of the year. The 2026 race has just been run - Andy Buchanan took the men's title in 40:27 and Holly Campbell the women's in 46:35 on 9 August, from a record field of more than 90,000 - and you can [look up any finisher's time](/bondi-blog/city2surf-results). Here's how to run it well, and enjoy it."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Distance",
+          "value": "14 km (Sydney CBD → Bondi Beach)"
+        },
+        {
+          "label": "First held",
+          "value": "1971"
+        },
+        {
+          "label": "When",
+          "value": "Annually in August"
+        },
+        {
+          "label": "2026 result",
+          "value": "Run Sun 9 Aug 2026 - Andy Buchanan 40:27, Holly Campbell 46:35"
+        },
+        {
+          "label": "Next edition",
+          "value": "Annually on a Sunday in August - date announced at city2surf.com.au"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The route - and yes, Heartbreak Hill"
+    },
+    {
+      "type": "p",
+      "text": "From the start near Hyde Park you drop down William Street, through the Kings Cross tunnel, then out along New South Head Road with the harbour glinting beside you through Rose Bay. What first-timers never expect is how hilly the whole thing is - there are plenty of climbs before the famous one. Then comes the bit everyone's heard about: Heartbreak Hill, a roughly 2 km climb from Rose Bay up to Vaucluse that rises about 75 metres. It hits near the halfway mark, around the 6 km point, it's twisty, it steepens near the top, and the cruellest part is psychological - just when you're certain you've crested it, it keeps going. From Vaucluse you head along Old South Head Road and Military Road before a glorious downhill toward the coast, a final turnaround, and the finish on Queen Elizabeth Drive above Bondi Beach."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "The local trick: run to the house, not the top",
+      "text": "Here's the tip I give every first-timer. Somewhere up on the high part of the course there's a striking, futuristic-looking house you can't miss - and it's your signal that the worst of the climbing is behind you. The moment you pass it, the hard hills are done: there's just one last gentle incline before the sharp downhill into Bondi. I stop counting down to the 'top' of Heartbreak Hill and count down to that house instead - it's a much more honest finish line for the climbing."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Two things that catch people out",
+      "text": "Heartbreak Hill isn't the end of the climbing - several short, sharp pinches follow it, so keep something in reserve. And don't empty the tank sprinting the final downhill when you spot the water: once you reach the bottom there's still around a kilometre to run, in a flat switchback that doubles you back to the line. More runners than you'd think blow up here because they thought they were finished."
+    },
+    {
+      "type": "h2",
+      "text": "My tips for a strong run"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Train on hills. Even a few weeks of hill repeats makes Heartbreak Hill far less scary.",
+        "Go out easy - aim to run the second half faster than the first. Crowd energy will tempt you to sprint the opening kilometres; don't.",
+        "On the hill, shorten your stride and hold a steady effort. The people charging past you early are usually the ones walking near the top.",
+        "Nothing new on race day - no untested shoes, gear or gels.",
+        "Keep moving through water stations rather than stopping dead; it's safer for you and everyone behind you.",
+        "Sunscreen and a cap. It's August, but the Sydney sun still bites by the time you reach Bondi."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Getting there and home"
+    },
+    {
+      "type": "p",
+      "text": "Public transport is by far the easiest option - roads close across the eastern suburbs and parking near the start or finish is a nightmare. Bring an Opal card or tap on with a card or phone. For the start, trains to St James, Museum or Town Hall put you a short walk from the assembly area. Getting home from Bondi, there are usually free shuttle buses to Bondi Junction, where you pick up the T4 line back to the city. The exact shuttle and closure details change each year, so I check Transport for NSW's event page in the days before."
+    },
+    {
+      "type": "p",
+      "text": "Then the reward: crossing the line above Bondi Beach with salt air in your lungs and the ocean right there never gets old. Once you've caught your breath, the Bondi pubs and the Pavilion turn on afterparties every year. I've written a separate guide to the best spots to recover and celebrate, and a companion piece on the things I wish I'd known before my first City2Surf. Train a little, pace it smart, and I'll see you at the Bondi end."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How long is the City2Surf?",
+          "a": "About 14 kilometres, from Sydney's CBD near Hyde Park to the finish above Bondi Beach."
+        },
+        {
+          "q": "When was City2Surf 2026, and when is the next one?",
+          "a": "The 2026 race was run on Sunday 9 August 2026, won by Andy Buchanan (40:27) and Holly Campbell (46:35). City2Surf is held annually on a Sunday in August; the next edition's date and entry opening are announced on the official site at city2surf.com.au. You can search any past finisher's time in our [City2Surf results guide](/bondi-blog/city2surf-results)."
+        },
+        {
+          "q": "Where is Heartbreak Hill?",
+          "a": "It's a roughly 2 km climb along New South Head Road from Rose Bay up to Vaucluse, rising about 75 metres, at around the 6 km mark - the halfway point of the course. It steepens near the top and tends to keep going just when you think you've finished it."
+        },
+        {
+          "q": "How do I get to the start and home from Bondi?",
+          "a": "Use public transport - roads close and parking is very limited. Trains reach the CBD start; from the Bondi finish there are usually free shuttles to Bondi Junction for the train home. Check Transport for NSW for the current year's details."
+        },
+        {
+          "q": "Who won the 2026 City2Surf?",
+          "a": "Andy Buchanan won the men's race in 40:27, finishing 25 seconds outside Steve Moneghetti's 1991 course record of 40:02. Holly Campbell won the women's race in 46:35 on her elite debut."
+        }
+      ]
+    }
   ]
 }

@@ -1,1 +1,90 @@
-{"locale":"es","path":"/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide","title":"Temperatura del mar en Bondi Beach: guía mes a mes","metaDescription":"La temperatura media del mar en Bondi Beach, mes a mes: cuándo el agua está más cálida, cuándo querrás un traje de neopreno y los mejores meses para nadar.","h1":"Temperatura media del mar en Bondi Beach: guía mes a mes","blocks":[{"type":"p","text":"«¿Está muy fría el agua?» es la pregunta que más me hacen antes del primer baño de alguien en Bondi. Respuesta corta: el mar alcanza su punto máximo cerca de los 23–24°C en febrero y toca fondo alrededor de los 17–18°C a finales del invierno, así que no hay ningún mes en el que de verdad no puedas meterte: solo meses en los que querrás un traje de neopreno. Aquí te cuento cómo cambia a lo largo del año y por qué el agua casi nunca hace lo que sugiere el calendario."},{"type":"quickFacts","items":[{"label":"Más cálida","value":"Febrero (~23–24°C)"},{"label":"Más fría","value":"Agosto–septiembre (~17–18°C)"},{"label":"Época de neopreno","value":"Aproximadamente de mayo a septiembre"},{"label":"Temperatura de hoy","value":"Consulta nuestro parte diario de la playa"}]},{"type":"h2","text":"Temperatura del mar en Bondi, mes a mes"},{"type":"list","items":["Enero - unos 23°C. Baños en pleno verano; agua cálida y acogedora.","Febrero - unos 23–24°C. Suele ser el agua más cálida del año.","Marzo - unos 23°C. Todavía deliciosa, aflojando a medida que se acerca el otoño.","Abril - unos 21–22°C. Agradable para casi todos, algo más fresca que el pico del verano.","Mayo - unos 20°C. Empieza el enfriamiento; muchos se pasan al neopreno.","Junio - unos 18–19°C. Llega el invierno; mejor para surfistas y nadadores curtidos.","Julio - unos 18°C. Ya fría de verdad; se recomienda neopreno para algo más que un chapuzón.","Agosto - unos 17–18°C. De las más frías del año, con retraso respecto al aire invernal.","Septiembre - unos 18°C. Suele ser el punto más bajo del año antes de que remonte.","Octubre - unos 19°C. Notablemente más cálida; los habituales empiezan a volver.","Noviembre - unos 20–21°C. Subiendo hacia el verano; cada vez más agradable.","Diciembre - unos 22°C. Cálida otra vez: uno de los mejores meses para estar en el agua."]},{"type":"p","text":"Tómalos como medias mensuales a largo plazo, no como promesas. Cualquier día concreto, la lectura puede variar un par de grados según el viento, el oleaje y la marea, así que para saber qué está haciendo el agua ahora mismo yo consultaría la temperatura en directo en nuestro resumen diario del tiempo y el surf en Bondi."},{"type":"callout","tone":"note","title":"Por qué el mar va por detrás de las estaciones","text":"El agua de Sídney va más o menos uno o dos meses por detrás del aire. Parte es un simple retraso térmico: el océano tarda en soltar el calor del verano, y por eso abril resulta más cálido de lo que le correspondería. La otra parte es la Corriente del Este de Australia, la corriente cálida que arrastra agua tropical por la costa de NSW y mantiene templados nuestros baños de otoño. La otra cara: el agua de primavera sigue fría mucho después del primer día de calor en la arena. No juzgues el mar por el aire."},{"type":"h2","text":"La prueba de Icebergs"},{"type":"p","text":"Si quieres un adelanto gratis de la temperatura del mar, fíjate en Bondi Icebergs, en el extremo sur de la playa. Esta piscina oceánica de 50 metros se llena con las olas que rebasan su borde, así que se mantiene a menos de un grado del mar abierto: estas cifras mensuales sirven también como buena guía para la piscina. Además es la sede de un club de natación invernal fundado en 1929, cuyos socios son famosos por lanzar bloques de hielo a la piscina el primer domingo de mayo para inaugurar la temporada. Si ellos pueden a 17°C, tú puedes con un chapuzón en verano."},{"type":"faq","items":[{"q":"¿Cuál es el mes más cálido para nadar en Bondi?","a":"Febrero, cuando el agua promedia unos 23–24°C. De enero a marzo el agua es siempre cálida de forma fiable, y diciembre casi llega también."},{"q":"¿Cuánto se enfría Bondi en invierno?","a":"El agua toca fondo en torno a los 17–18°C, normalmente en agosto o septiembre y no en pleno invierno, porque el mar va uno o dos meses por detrás del aire más frío. Es apta para los curtidos, pero la mayoría lleva neopreno desde aproximadamente mayo hasta septiembre."},{"q":"¿La piscina de Bondi Icebergs es climatizada?","a":"No: Icebergs es una piscina oceánica sin calefacción que renuevan las olas, así que su temperatura sigue la del mar con menos de un grado de diferencia. Estas medias mensuales son una buena guía de cómo sentirás la piscina."}]}]}
+{
+  "locale": "es",
+  "path": "/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide",
+  "title": "Temperatura del mar en Bondi Beach: guía mes a mes",
+  "metaDescription": "La temperatura media del mar en Bondi Beach, mes a mes: cuándo el agua está más cálida, cuándo querrás un traje de neopreno y los mejores meses para nadar.",
+  "h1": "Temperatura media del mar en Bondi Beach: guía mes a mes",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "«¿Está muy fría el agua?» es la pregunta que más me hacen antes del primer baño de alguien en Bondi. Respuesta corta: el mar alcanza su punto máximo cerca de los 23–24°C en febrero y toca fondo alrededor de los 17–18°C a finales del invierno, así que no hay ningún mes en el que de verdad no puedas meterte: solo meses en los que querrás un traje de neopreno. Aquí te cuento cómo cambia a lo largo del año y por qué el agua casi nunca hace lo que sugiere el calendario."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Más cálida",
+          "value": "Febrero (~23–24°C)"
+        },
+        {
+          "label": "Más fría",
+          "value": "Agosto–septiembre (~17–18°C)"
+        },
+        {
+          "label": "Época de neopreno",
+          "value": "Aproximadamente de mayo a septiembre"
+        },
+        {
+          "label": "Temperatura de hoy",
+          "value": "Consulta nuestro parte diario de la playa"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Temperatura del mar en Bondi, mes a mes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Enero - unos 23°C. Baños en pleno verano; agua cálida y acogedora.",
+        "Febrero - unos 23–24°C. Suele ser el agua más cálida del año.",
+        "Marzo - unos 23°C. Todavía deliciosa, aflojando a medida que se acerca el otoño.",
+        "Abril - unos 21–22°C. Agradable para casi todos, algo más fresca que el pico del verano.",
+        "Mayo - unos 20°C. Empieza el enfriamiento; muchos se pasan al neopreno.",
+        "Junio - unos 18–19°C. Llega el invierno; mejor para surfistas y nadadores curtidos.",
+        "Julio - unos 18°C. Ya fría de verdad; se recomienda neopreno para algo más que un chapuzón.",
+        "Agosto - unos 17–18°C. De las más frías del año, con retraso respecto al aire invernal.",
+        "Septiembre - unos 18°C. Suele ser el punto más bajo del año antes de que remonte.",
+        "Octubre - unos 19°C. Notablemente más cálida; los habituales empiezan a volver.",
+        "Noviembre - unos 20–21°C. Subiendo hacia el verano; cada vez más agradable.",
+        "Diciembre - unos 22°C. Cálida otra vez: uno de los mejores meses para estar en el agua."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Tómalos como medias mensuales a largo plazo, no como promesas. Cualquier día concreto, la lectura puede variar un par de grados según el viento, el oleaje y la marea, así que para saber qué está haciendo el agua ahora mismo consulta nuestras [condiciones en directo del tiempo y el surf en Bondi](/bondi-weather). Y si quieres la medición oficial en lugar de una estimación, el Manly Hydraulics Laboratory del Gobierno de Nueva Gales del Sur publica las temperaturas registradas del agua en la costa de Sídney en mhl.nsw.gov.au."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Por qué el mar va por detrás de las estaciones",
+      "text": "El agua de Sídney va más o menos uno o dos meses por detrás del aire. Parte es un simple retraso térmico: el océano tarda en soltar el calor del verano, y por eso abril resulta más cálido de lo que le correspondería. La otra parte es la Corriente del Este de Australia, la corriente cálida que arrastra agua tropical por la costa de NSW y mantiene templados nuestros baños de otoño. La otra cara: el agua de primavera sigue fría mucho después del primer día de calor en la arena. No juzgues el mar por el aire."
+    },
+    {
+      "type": "h2",
+      "text": "La prueba de Icebergs"
+    },
+    {
+      "type": "p",
+      "text": "Si quieres un adelanto gratis de la temperatura del mar, fíjate en Bondi Icebergs, en el extremo sur de la playa. Esta piscina oceánica de 50 metros se llena con las olas que rebasan su borde, así que se mantiene a menos de un grado del mar abierto: estas cifras mensuales sirven también como buena guía para la piscina. Además es la sede de un club de natación invernal fundado en 1929, cuyos socios son famosos por lanzar bloques de hielo a la piscina el primer domingo de mayo para inaugurar la temporada. Si ellos pueden a 17°C, tú puedes con un chapuzón en verano."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "¿Cuál es el mes más cálido para nadar en Bondi?",
+          "a": "Febrero, cuando el agua promedia unos 23–24°C. De enero a marzo el agua es siempre cálida de forma fiable, y diciembre casi llega también."
+        },
+        {
+          "q": "¿Cuánto se enfría Bondi en invierno?",
+          "a": "El agua toca fondo en torno a los 17–18°C, normalmente en agosto o septiembre y no en pleno invierno, porque el mar va uno o dos meses por detrás del aire más frío. Es apta para los curtidos, pero la mayoría lleva neopreno desde aproximadamente mayo hasta septiembre."
+        },
+        {
+          "q": "¿La piscina de Bondi Icebergs es climatizada?",
+          "a": "No: Icebergs es una piscina oceánica sin calefacción que renuevan las olas, así que su temperatura sigue la del mar con menos de un grado de diferencia. Estas medias mensuales son una buena guía de cómo sentirás la piscina."
+        }
+      ]
+    }
+  ]
+}

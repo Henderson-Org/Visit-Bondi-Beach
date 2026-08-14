@@ -9269,7 +9269,7 @@
       },
       {
         "type": "p",
-        "text": "Treat these as long-term monthly averages, not promises. On any given day the reading can swing a couple of degrees with the wind, swell and tide, so for what the water's actually doing right now I'd check the live temperature in our daily Bondi weather and surf summary."
+        "text": "Treat these as long-term monthly averages, not promises. On any given day the reading can swing a couple of degrees with the wind, swell and tide, so for what the water's actually doing right now, check our live [Bondi weather and surf conditions](/bondi-weather). If you want the official measurement rather than an estimate, the NSW Government's Manly Hydraulics Laboratory publishes recorded ocean water temperatures for the Sydney coast at mhl.nsw.gov.au."
       },
       {
         "type": "callout",
@@ -9303,7 +9303,7 @@
         ]
       }
     ],
-    "wordCount": 595,
+    "wordCount": 617,
     "sources": [
       {
         "label": "Manly Hydraulics Laboratory (NSW Government) - Sydney ocean water temperatures",
@@ -9318,7 +9318,7 @@
         "url": "https://en.wikipedia.org/wiki/East_Australian_Current"
       }
     ],
-    "lastReviewed": "2026-08-10",
+    "lastReviewed": "2026-08-14",
     "voice": "first-person"
   },
   "/bondi-blog/2024/9/12/why-bondi-beach-is-so-famous-history-fame-and-culture": {
@@ -24499,10 +24499,40 @@
   "/bondi-blog/city2surf-results": {
     "blocks": [
       {
+        "type": "answer",
+        "text": "The 2026 Voltaren City2Surf was run on Sunday 9 August 2026, and Andy Buchanan won the men's race in 40:27 with Holly Campbell taking the women's in 46:35 on her elite debut. More than 90,000 people entered, making it the biggest field the race has seen. If you're here to find your own time rather than the winners', the official results search is below - and it goes back years, not just to this August."
+      },
+      {
         "type": "callout",
         "tone": "note",
         "title": "2026 results are live",
         "text": "Search the **[official City2Surf 2026 results on Multisport Australia →](https://www.multisportaustralia.com.au/races/city2surf-2026)** by your name or bib number to pull up your finish time, category place and splits."
+      },
+      {
+        "type": "table",
+        "caption": "2026 Voltaren City2Surf podium, run Sunday 9 August 2026. Times as reported in the official race coverage.",
+        "columns": [
+          "Place",
+          "Men",
+          "Women"
+        ],
+        "rows": [
+          [
+            "1st",
+            "Andy Buchanan - 40:27",
+            "Holly Campbell - 46:35"
+          ],
+          [
+            "2nd",
+            "Luke Hince - 41:05",
+            "Eloise Wellings - 49:06"
+          ],
+          [
+            "3rd",
+            "Ed Goddard - 41:50",
+            "Stacy Winter - 49:19"
+          ]
+        ]
       },
       {
         "type": "h2",
@@ -24555,7 +24585,7 @@
       },
       {
         "type": "p",
-        "text": "Both outright course records were set decades ago and have never been beaten, so whatever year you ran, the field was chasing times already on the books. Moneghetti's 40:02 is the mark the elite men still measure themselves against - and remember, he ran it including Heartbreak Hill."
+        "text": "Both outright course records were set decades ago and have never been beaten, so whatever year you ran, the field was chasing times already on the books. Moneghetti's 40:02 is the mark the elite men still measure themselves against - and remember, he ran it including Heartbreak Hill. It stays remarkably close, though: Andy Buchanan's winning 40:27 in 2026 finished just 25 seconds outside it, the sort of margin that makes you realise how good that 1991 run was."
       },
       {
         "type": "p",
@@ -24577,6 +24607,14 @@
         "type": "faq",
         "items": [
           {
+            "q": "Who won City2Surf 2026?",
+            "a": "Andy Buchanan won the men's race in 40:27 and Holly Campbell won the women's in 46:35, on Sunday 9 August 2026. Luke Hince (41:05) and Ed Goddard (41:50) completed the men's podium; Eloise Wellings (49:06) and Stacy Winter (49:19) rounded out the women's."
+          },
+          {
+            "q": "When was City2Surf 2026 held and how many people ran?",
+            "a": "Sunday 9 August 2026, from the Sydney CBD to Bondi Beach. More than 90,000 people entered, the largest field in the event's history. The race is traditionally held on a Sunday in August; check city2surf.com.au for the next edition's date."
+          },
+          {
             "q": "Where can I find City2Surf results for a specific year?",
             "a": "For 2026, use the Multisport Australia results page at multisportaustralia.com.au/races/city2surf-2026. For other years, search the official portal at city2surf.com.au by name or bib number and choose the event year. For historical placings and elite times going back to 1971, the Ausrunning City to Surf archive is the most complete public record."
           },
@@ -24595,8 +24633,12 @@
         ]
       }
     ],
-    "wordCount": 712,
+    "wordCount": 945,
     "sources": [
+      {
+        "label": "Inside Athletics - Buchanan, Campbell claim City2Surf honours (2026 race report)",
+        "url": "https://insideathletics.com.au/buchanan-campbell-claim-city2surf-honours/"
+      },
       {
         "label": "City2Surf 2026 results - Multisport Australia",
         "url": "https://www.multisportaustralia.com.au/races/city2surf-2026"
@@ -24618,7 +24660,7 @@
         "url": "https://ausrunning.net/misc/city-to-surf/"
       }
     ],
-    "lastReviewed": "2026-08-10",
+    "lastReviewed": "2026-08-14",
     "voice": "first-person"
   },
   "/bondi-blog/day-trip-bondi-beach-top-tips": {
@@ -27352,7 +27394,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Every August, my end of Sydney turns into a finish line. The City2Surf has run from the city to Bondi since 1971 - it started as a newspaper stunt for The Sun with 1,576 starters, and it's now the world's largest fun run, tens of thousands strong. Whether I'm out on the course or cheering from the promenade, it's one of my favourite days of the year. Here's how to run it well, and enjoy it."
+        "text": "Every August, my end of Sydney turns into a finish line. The City2Surf has run from the city to Bondi since 1971 - it started as a newspaper stunt for The Sun with 1,576 starters, and it's now the world's largest fun run, tens of thousands strong. Whether I'm out on the course or cheering from the promenade, it's one of my favourite days of the year. The 2026 race has just been run - Andy Buchanan took the men's title in 40:27 and Holly Campbell the women's in 46:35 on 9 August, from a record field of more than 90,000 - and you can [look up any finisher's time](/bondi-blog/city2surf-results). Here's how to run it well, and enjoy it."
       },
       {
         "type": "quickFacts",
@@ -27370,8 +27412,12 @@
             "value": "Annually in August"
           },
           {
-            "label": "2026",
-            "value": "Sun 9 August (sold out)"
+            "label": "2026 result",
+            "value": "Run Sun 9 Aug 2026 - Andy Buchanan 40:27, Holly Campbell 46:35"
+          },
+          {
+            "label": "Next edition",
+            "value": "Annually on a Sunday in August - date announced at city2surf.com.au"
           }
         ]
       },
@@ -27430,8 +27476,8 @@
             "a": "About 14 kilometres, from Sydney's CBD near Hyde Park to the finish above Bondi Beach."
           },
           {
-            "q": "When is City2Surf 2026?",
-            "a": "Sunday 9 August 2026. The 2026 event is sold out - for entries and future dates, check the official site at city2surf.com.au."
+            "q": "When was City2Surf 2026, and when is the next one?",
+            "a": "The 2026 race was run on Sunday 9 August 2026, won by Andy Buchanan (40:27) and Holly Campbell (46:35). City2Surf is held annually on a Sunday in August; the next edition's date and entry opening are announced on the official site at city2surf.com.au. You can search any past finisher's time in our [City2Surf results guide](/bondi-blog/city2surf-results)."
           },
           {
             "q": "Where is Heartbreak Hill?",
@@ -27440,12 +27486,20 @@
           {
             "q": "How do I get to the start and home from Bondi?",
             "a": "Use public transport - roads close and parking is very limited. Trains reach the CBD start; from the Bondi finish there are usually free shuttles to Bondi Junction for the train home. Check Transport for NSW for the current year's details."
+          },
+          {
+            "q": "Who won the 2026 City2Surf?",
+            "a": "Andy Buchanan won the men's race in 40:27, finishing 25 seconds outside Steve Moneghetti's 1991 course record of 40:02. Holly Campbell won the women's race in 46:35 on her elite debut."
           }
         ]
       }
     ],
-    "wordCount": 878,
+    "wordCount": 1014,
     "sources": [
+      {
+        "label": "Inside Athletics - Buchanan, Campbell claim City2Surf honours (2026 race report)",
+        "url": "https://insideathletics.com.au/buchanan-campbell-claim-city2surf-honours/"
+      },
       {
         "label": "Voltaren City2Surf - official site (dates, entries, waves, results)",
         "url": "https://city2surf.com.au/"
@@ -27459,7 +27513,7 @@
         "url": "https://en.wikipedia.org/wiki/City2Surf_(Sydney)"
       }
     ],
-    "lastReviewed": "2026-08-10",
+    "lastReviewed": "2026-08-14",
     "voice": "first-person"
   },
   "/bondi-blog/waverley-cemetery-sydney-australia": {
@@ -28344,18 +28398,18 @@
     "blocks": [
       {
         "type": "p",
-        "text": "You've just run 14 km from the city to the sea - now for the best part. This year's Voltaren City2Surf finishes, as it has for decades, on Queen Elizabeth Drive right here at Bondi, and the moment the runners start pouring in the whole beachfront turns into one long celebration. Here's where I'd point you the second you cross the line."
+        "text": "You've just run 14 km from the city to the sea - now for the best part. The Voltaren City2Surf finishes, as it has for decades, on Queen Elizabeth Drive right here at Bondi, and the moment the runners start pouring in the whole beachfront turns into one long celebration. Here's where I'd point you the second you cross the line."
       },
       {
         "type": "quickFacts",
         "items": [
           {
             "label": "Event",
-            "value": "Voltaren City2Surf 2026"
+            "value": "Voltaren City2Surf - held annually in August"
           },
           {
-            "label": "Date",
-            "value": "Sunday 9 August 2026"
+            "label": "Most recent race",
+            "value": "Sunday 9 August 2026 - next date announced at city2surf.com.au"
           },
           {
             "label": "Course",
@@ -28413,8 +28467,8 @@
         "type": "faq",
         "items": [
           {
-            "q": "Where does City2Surf 2026 finish?",
-            "a": "On Queen Elizabeth Drive at Bondi Beach, on Sunday 9 August 2026 - the end of the 14 km course from the Sydney CBD, which is why the whole beachfront becomes one big afterparty."
+            "q": "Where does the City2Surf finish?",
+            "a": "On Queen Elizabeth Drive at Bondi Beach - the end of the 14 km course from the Sydney CBD, which is why the whole beachfront becomes one big afterparty. The most recent race was run on Sunday 9 August 2026; the event is held annually on a Sunday in August."
           },
           {
             "q": "Where's the best City2Surf afterparty in Bondi?",
@@ -28431,7 +28485,7 @@
         "text": "However you celebrate, pace the day like you paced the run - plenty of water between drinks - and soak up that unbeatable Bondi finish-line feeling. You earned it."
       }
     ],
-    "wordCount": 637,
+    "wordCount": 662,
     "sources": [
       {
         "label": "Voltaren City2Surf - official event site",
@@ -28454,7 +28508,7 @@
         "url": "https://greatruns.com/heartbreak-hill-city2surf-course/"
       }
     ],
-    "lastReviewed": "2026-08-10",
+    "lastReviewed": "2026-08-14",
     "voice": "first-person"
   },
   "/bondi-blog/where-to-watch-sport-in-bondi": {

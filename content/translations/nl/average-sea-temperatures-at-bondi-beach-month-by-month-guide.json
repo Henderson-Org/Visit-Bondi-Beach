@@ -1,1 +1,90 @@
-{"locale":"nl","path":"/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide","title":"Zeewatertemperatuur Bondi Beach: maand per maand","metaDescription":"Zeewatertemperaturen bij Bondi Beach, maand per maand: wanneer het water het warmst is, wanneer je een wetsuit wilt en de beste maanden om te zwemmen.","h1":"Gemiddelde zeewatertemperaturen bij Bondi Beach: maand per maand","blocks":[{"type":"p","text":"„Hoe koud is het water?“ is de vraag die ik het vaakst krijg vóór iemands eerste duik in Bondi. Kort antwoord: de zee piekt rond 23–24 °C in februari en zakt in de late winter naar zo'n 17–18 °C, dus er is geen maand waarin je er echt niet in kunt – alleen maanden waarvoor je een wetsuit wilt. Zo verloopt het door het jaar heen, en waarom het water zelden doet wat de kalender suggereert."},{"type":"quickFacts","items":[{"label":"Warmst","value":"Februari (~23–24 °C)"},{"label":"Koudst","value":"Augustus–september (~17–18 °C)"},{"label":"Wetsuit-weer","value":"Ongeveer mei–september"},{"label":"Temperatuur vandaag","value":"Zie onze dagelijkse strandcondities"}]},{"type":"h2","text":"Zeewatertemperatuur bij Bondi, maand per maand"},{"type":"list","items":["Januari – rond 23 °C. Volop zomerzwemmen; warm en uitnodigend.","Februari – rond 23–24 °C. Meestal het warmste water van het jaar.","Maart – rond 23 °C. Nog steeds heerlijk, zakt langzaam nu de herfst nadert.","April – rond 21–22 °C. Aangenaam voor de meesten, koeler dan de zomerpiek.","Mei – rond 20 °C. De afkoeling begint; velen stappen over op een wetsuit.","Juni – rond 18–19 °C. De winter zet in; beter voor surfers en geharde zwemmers.","Juli – rond 18 °C. Echt koud; een wetsuit is aan te raden voor meer dan een snelle duik.","Augustus – rond 17–18 °C. Bij de koudste van het jaar, achterlopend op de winterlucht.","September – rond 18 °C. Vaak het dieptepunt van het jaar voordat het keert.","Oktober – rond 19 °C. Merkbaar warmer; de vaste gasten komen terug.","November – rond 20–21 °C. Opbouwend naar de zomer; steeds comfortabeler.","December – rond 22 °C. Weer warm – een van de beste maanden om in het water te zijn."]},{"type":"p","text":"Zie dit als langjarige maandgemiddelden, geen beloften. Op een willekeurige dag kan de meting een paar graden schommelen met de wind, deining en het getij, dus voor wat het water op dit moment echt doet, check ik de live temperatuur in onze dagelijkse weer- en surfsamenvatting van Bondi."},{"type":"callout","tone":"note","title":"Waarom de zee achterloopt op de seizoenen","text":"Het water van Sydney loopt ongeveer een tot twee maanden achter op de lucht. Deels is het simpele thermische traagheid – de oceaan geeft de zomerwarmte maar langzaam af, en daarom voelt april warmer aan dan je zou verwachten. Het andere deel is de East Australian Current, de warme stroming die tropisch water langs de kust van NSW naar beneden voert en onze herfstduiken mild houdt. De keerzijde: het lentewater blijft koel tot lang na de eerste hete dag op het zand. Beoordeel de zee niet naar de lucht."},{"type":"h2","text":"De Icebergs-test"},{"type":"p","text":"Wil je een gratis voorproefje van de zeewatertemperatuur, kijk dan naar Bondi Icebergs aan het zuidelijke einde van het strand. Het zeebad van 50 meter wordt gevuld door de golven die over de rand slaan, dus het blijft binnen een graad van het open water – deze maandcijfers gelden ook aardig voor het bad. Het is bovendien de thuisbasis van een winterzwemclub die in 1929 werd opgericht, wiens leden op de eerste zondag van mei beroemd ijsblokken in het bad gooien om het seizoen te openen. Als zij het bij 17 °C kunnen, lukt jou een zomerse duik zeker."},{"type":"faq","items":[{"q":"Wat is de warmste maand om in Bondi te zwemmen?","a":"Februari, wanneer het water gemiddeld rond 23–24 °C ligt. Januari tot en met maart zijn allemaal betrouwbaar warm, en december komt daar bijna bij in de buurt."},{"q":"Hoe koud wordt Bondi in de winter?","a":"Het water zakt naar zo'n 17–18 °C op zijn laagst, meestal in augustus of september in plaats van midden in de winter, omdat de zee een tot twee maanden achterloopt op de koudste lucht. Voor de geharden is het zwembaar, maar de meesten dragen van ongeveer mei tot september een wetsuit."},{"q":"Is het zwembad van Bondi Icebergs verwarmd?","a":"Nee – Icebergs is een onverwarmd zeebad dat door de branding wordt doorgespoeld, dus de temperatuur volgt de zee tot op ongeveer een graad. Deze maandgemiddelden zijn een goede leidraad voor hoe het bad zal aanvoelen."}]}]}
+{
+  "locale": "nl",
+  "path": "/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide",
+  "title": "Zeewatertemperatuur Bondi Beach: maand per maand",
+  "metaDescription": "Zeewatertemperaturen bij Bondi Beach, maand per maand: wanneer het water het warmst is, wanneer je een wetsuit wilt en de beste maanden om te zwemmen.",
+  "h1": "Gemiddelde zeewatertemperaturen bij Bondi Beach: maand per maand",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "„Hoe koud is het water?“ is de vraag die ik het vaakst krijg vóór iemands eerste duik in Bondi. Kort antwoord: de zee piekt rond 23–24 °C in februari en zakt in de late winter naar zo'n 17–18 °C, dus er is geen maand waarin je er echt niet in kunt – alleen maanden waarvoor je een wetsuit wilt. Zo verloopt het door het jaar heen, en waarom het water zelden doet wat de kalender suggereert."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Warmst",
+          "value": "Februari (~23–24 °C)"
+        },
+        {
+          "label": "Koudst",
+          "value": "Augustus–september (~17–18 °C)"
+        },
+        {
+          "label": "Wetsuit-weer",
+          "value": "Ongeveer mei–september"
+        },
+        {
+          "label": "Temperatuur vandaag",
+          "value": "Zie onze dagelijkse strandcondities"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Zeewatertemperatuur bij Bondi, maand per maand"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Januari – rond 23 °C. Volop zomerzwemmen; warm en uitnodigend.",
+        "Februari – rond 23–24 °C. Meestal het warmste water van het jaar.",
+        "Maart – rond 23 °C. Nog steeds heerlijk, zakt langzaam nu de herfst nadert.",
+        "April – rond 21–22 °C. Aangenaam voor de meesten, koeler dan de zomerpiek.",
+        "Mei – rond 20 °C. De afkoeling begint; velen stappen over op een wetsuit.",
+        "Juni – rond 18–19 °C. De winter zet in; beter voor surfers en geharde zwemmers.",
+        "Juli – rond 18 °C. Echt koud; een wetsuit is aan te raden voor meer dan een snelle duik.",
+        "Augustus – rond 17–18 °C. Bij de koudste van het jaar, achterlopend op de winterlucht.",
+        "September – rond 18 °C. Vaak het dieptepunt van het jaar voordat het keert.",
+        "Oktober – rond 19 °C. Merkbaar warmer; de vaste gasten komen terug.",
+        "November – rond 20–21 °C. Opbouwend naar de zomer; steeds comfortabeler.",
+        "December – rond 22 °C. Weer warm – een van de beste maanden om in het water te zijn."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Zie dit als langjarige maandgemiddelden, niet als belofte. Op een willekeurige dag kan de temperatuur een paar graden schelen door wind, deining en getij. Wat het water op dit moment echt doet, zie je in onze live [weers- en surfomstandigheden voor Bondi](/bondi-weather). Wil je de officiële meting in plaats van een schatting, dan publiceert het Manly Hydraulics Laboratory van de regering van New South Wales de gemeten zeewatertemperaturen voor de kust van Sydney op mhl.nsw.gov.au."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Waarom de zee achterloopt op de seizoenen",
+      "text": "Het water van Sydney loopt ongeveer een tot twee maanden achter op de lucht. Deels is het simpele thermische traagheid – de oceaan geeft de zomerwarmte maar langzaam af, en daarom voelt april warmer aan dan je zou verwachten. Het andere deel is de East Australian Current, de warme stroming die tropisch water langs de kust van NSW naar beneden voert en onze herfstduiken mild houdt. De keerzijde: het lentewater blijft koel tot lang na de eerste hete dag op het zand. Beoordeel de zee niet naar de lucht."
+    },
+    {
+      "type": "h2",
+      "text": "De Icebergs-test"
+    },
+    {
+      "type": "p",
+      "text": "Wil je een gratis voorproefje van de zeewatertemperatuur, kijk dan naar Bondi Icebergs aan het zuidelijke einde van het strand. Het zeebad van 50 meter wordt gevuld door de golven die over de rand slaan, dus het blijft binnen een graad van het open water – deze maandcijfers gelden ook aardig voor het bad. Het is bovendien de thuisbasis van een winterzwemclub die in 1929 werd opgericht, wiens leden op de eerste zondag van mei beroemd ijsblokken in het bad gooien om het seizoen te openen. Als zij het bij 17 °C kunnen, lukt jou een zomerse duik zeker."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Wat is de warmste maand om in Bondi te zwemmen?",
+          "a": "Februari, wanneer het water gemiddeld rond 23–24 °C ligt. Januari tot en met maart zijn allemaal betrouwbaar warm, en december komt daar bijna bij in de buurt."
+        },
+        {
+          "q": "Hoe koud wordt Bondi in de winter?",
+          "a": "Het water zakt naar zo'n 17–18 °C op zijn laagst, meestal in augustus of september in plaats van midden in de winter, omdat de zee een tot twee maanden achterloopt op de koudste lucht. Voor de geharden is het zwembaar, maar de meesten dragen van ongeveer mei tot september een wetsuit."
+        },
+        {
+          "q": "Is het zwembad van Bondi Icebergs verwarmd?",
+          "a": "Nee – Icebergs is een onverwarmd zeebad dat door de branding wordt doorgespoeld, dus de temperatuur volgt de zee tot op ongeveer een graad. Deze maandgemiddelden zijn een goede leidraad voor hoe het bad zal aanvoelen."
+        }
+      ]
+    }
+  ]
+}
