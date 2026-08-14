@@ -4234,12 +4234,61 @@
         "text": "Maxi kam als einer der jüngeren Rettungsschwimmer dazu und wurde zum Publikumsliebling. Er ist außerdem weithin dafür bekannt, als Feuerwehrmann zu arbeiten und seine Zeit zwischen dem Retten von Leben am Strand und in der Stadt aufzuteilen."
       },
       {
+        "type": "h3",
+        "text": "Ryan ‘Whippet’ Clark"
+      },
+      {
         "type": "p",
-        "text": "Viele andere waren über die Jahre zu sehen - Sie werden Spitznamen hören wie Deano, Jesse, Chappo, Whippet, Yatesy, Mouse und Kobi. Weil das Team rotiert, konzentriere ich mich auf die bekanntesten Stammkräfte, statt zu versuchen, alle aktuell im Dienst befindlichen aufzuzählen."
+        "text": "Whippet hat die ungewöhnlichste Vorgeschichte im Turm: Bevor er Rettungsschwimmer wurde, arbeitete er als Kinderdarsteller, und heute kennt man ihn unter seinem Spitznamen weit besser als unter seinem bürgerlichen Namen. Er gehört zu den Leuten, nach denen Zuschauer nach einer Folge am häufigsten suchen - meist tippen sie ‘Whippy’ ins Suchfeld, weshalb es oft dauert, bis sie ihn finden."
+      },
+      {
+        "type": "p",
+        "text": "Über die Staffeln hinweg waren viele weitere dabei, und weil man sie als Zuschauer meist zuerst über den Spitznamen kennenlernt, hier die Liste mit den Namen dahinter. Das Team wechselt, nehmen Sie das also als die bekannten Gesichter der Serie und nicht als den Dienstplan von heute."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Chris ‘Chappo’ Chapman** - taucht im Bild auch als ‘Chips’ auf.",
+          "**Dean ‘Deano’ Gladstone**",
+          "**Tom ‘Egg’ Bunting**",
+          "**Matt ‘Matty’ Dee**",
+          "**Terry ‘Tezz’ McDermott**",
+          "**Dunstan ‘Dunno’ Foss**",
+          "**Kobi Graham** und **Aaron**, am Strand ‘Azza’ genannt."
+        ]
       },
       {
         "type": "h2",
         "text": "Über die Serie"
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Erstausstrahlung",
+            "value": "15. Februar 2006, Network 10"
+          },
+          {
+            "label": "Produziert von",
+            "value": "Cordell Jigsaw (CJZ), Sydney"
+          },
+          {
+            "label": "Staffeln bisher",
+            "value": "18, rund 201 Folgen"
+          },
+          {
+            "label": "Neueste Staffel",
+            "value": "Staffel 18, ausgestrahlt Mitte 2024"
+          },
+          {
+            "label": "Arbeitgeber",
+            "value": "Waverley Council - die Rettungsschwimmer sind Angestellte der Gemeinde, keine Darsteller"
+          },
+          {
+            "label": "Wo sie patrouillieren",
+            "value": "Bondi, Tamarama und Bronte, 365 Tage im Jahr"
+          }
+        ]
       },
       {
         "type": "p",
@@ -4281,6 +4330,22 @@
           {
             "q": "Sind die Rettungsschwimmer von Bondi dasselbe wie die Surf Life Saver?",
             "a": "Nein. Die Rettungsschwimmer von Bondi Rescue sind bezahlte Profis des Councils. Die ehrenamtlichen Surf Life Saver mit den rot-gelben Kappen sind ein eigener Dienst, der ebenfalls patrouilliert, in der Regel an Wochenenden und Feiertagen."
+          },
+          {
+            "q": "Wie heißt Chappo mit richtigem Namen?",
+            "a": "Chris Chapman. In der Serie taucht er auch unter dem Spitznamen ‘Chips’ auf - deshalb findet man ihn manchmal nicht, wenn man nur nach einem der beiden Namen sucht."
+          },
+          {
+            "q": "War Whippet ein Kinderdarsteller?",
+            "a": "Ja: Ryan ‘Whippet’ Clark arbeitete als Kinderdarsteller, bevor er Rettungsschwimmer in Bondi wurde, und ist heute unter dem Spitznamen deutlich bekannter."
+          },
+          {
+            "q": "Wie alt sind die Rettungsschwimmer von Bondi Rescue?",
+            "a": "Weder Waverley Council noch die Produktionsfirma veröffentlichen das Alter der Rettungsschwimmer. Jede konkrete Zahl im Netz ist also eine Schätzung und keine bestätigte Angabe. Belegt sind die Dienstjahre: Hoppo etwa kam 1991 dazu und ist seit 2000 leitender Rettungsschwimmer."
+          },
+          {
+            "q": "An welchen Stränden patrouillieren die Bondi-Rettungsschwimmer?",
+            "a": "Die professionellen Rettungsschwimmer des Waverley Council patrouillieren an 365 Tagen im Jahr in Bondi, Tamarama und Bronte. Sie tragen Blau-Gelb; die ehrenamtlichen Lifesaver in Rot-Gelb sind ein eigener Dienst."
           }
         ]
       },
@@ -10073,12 +10138,61 @@
         "text": "Maxi surgió como uno de los socorristas más jóvenes y se convirtió en favorito del público. También es muy conocido por trabajar como bombero, repartiendo su tiempo entre salvar vidas en la playa y en la ciudad."
       },
       {
+        "type": "h3",
+        "text": "Ryan ‘Whippet’ Clark"
+      },
+      {
         "type": "p",
-        "text": "Muchos otros han aparecido con los años: oirás apodos como Deano, Jesse, Chappo, Whippet, Yatesy, Mouse y Kobi. Como el equipo rota, me centro en los habituales más conocidos en lugar de intentar enumerar a todos los que están de turno ahora mismo."
+        "text": "Whippet tiene la historia más insólita de la torre: antes de ser socorrista trabajó como actor infantil y hoy se le conoce mucho más por el apodo que por el nombre de su partida de nacimiento. Es uno de los miembros que más gente intenta buscar después de un episodio, normalmente escribiendo ‘Whippy’ en el buscador, y por eso cuesta tanto dar con él."
+      },
+      {
+        "type": "p",
+        "text": "Muchos otros han aparecido a lo largo de las temporadas y, como el público suele conocerlos primero por el apodo, aquí tienes la lista con los nombres que hay detrás. El equipo rota, así que tómatelo como las caras reconocibles del programa y no como el turno de hoy."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Chris ‘Chappo’ Chapman**: en pantalla también aparece como ‘Chips’.",
+          "**Dean ‘Deano’ Gladstone**",
+          "**Tom ‘Egg’ Bunting**",
+          "**Matt ‘Matty’ Dee**",
+          "**Terry ‘Tezz’ McDermott**",
+          "**Dunstan ‘Dunno’ Foss**",
+          "**Kobi Graham** y **Aaron**, conocido en la playa como ‘Azza’."
+        ]
       },
       {
         "type": "h2",
         "text": "Sobre el programa"
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Estreno",
+            "value": "15 de febrero de 2006, Network 10"
+          },
+          {
+            "label": "Producido por",
+            "value": "Cordell Jigsaw (CJZ), Sídney"
+          },
+          {
+            "label": "Temporadas hasta la fecha",
+            "value": "18, unos 201 episodios"
+          },
+          {
+            "label": "Última temporada",
+            "value": "Temporada 18, emitida a mediados de 2024"
+          },
+          {
+            "label": "Para quién trabajan",
+            "value": "Waverley Council: son empleados municipales, no actores"
+          },
+          {
+            "label": "Dónde patrullan",
+            "value": "Bondi, Tamarama y Bronte, 365 días al año"
+          }
+        ]
       },
       {
         "type": "p",
@@ -10120,6 +10234,22 @@
           {
             "q": "¿Los socorristas de Bondi son lo mismo que los voluntarios de Surf Life Saving?",
             "a": "No. Los socorristas de Bondi Rescue son profesionales pagados por el council. Los voluntarios de Surf Life Saving, con las gorras rojas y amarillas, son un servicio aparte que también patrulla, normalmente los fines de semana y festivos."
+          },
+          {
+            "q": "¿Cuál es el nombre real de Chappo?",
+            "a": "Chris Chapman. En el programa también aparece con el apodo ‘Chips’, por eso a veces buscar solo uno de los dos nombres no da resultados."
+          },
+          {
+            "q": "¿Whippet fue actor infantil?",
+            "a": "Sí: Ryan ‘Whippet’ Clark trabajó como actor infantil antes de ser socorrista en Bondi, y hoy se le conoce mucho más por el apodo."
+          },
+          {
+            "q": "¿Qué edad tienen los socorristas de Bondi Rescue?",
+            "a": "Ni el Waverley Council ni la productora publican sus edades, así que cualquier cifra concreta que encuentres en internet es una suposición y no un dato confirmado. Lo que sí consta son los años de servicio: Hoppo, por ejemplo, entró en 1991 y es jefe de socorristas desde 2000."
+          },
+          {
+            "q": "¿En qué playas patrullan los socorristas de Bondi?",
+            "a": "Los socorristas profesionales del Waverley Council patrullan Bondi, Tamarama y Bronte los 365 días del año. Visten de azul y amarillo; los voluntarios de rojo y amarillo son un servicio distinto."
           }
         ]
       },
@@ -15912,12 +16042,61 @@
         "text": "Maxi è arrivato come uno dei bagnini più giovani ed è diventato un beniamino del pubblico. È inoltre molto conosciuto perché lavora come vigile del fuoco, dividendo il suo tempo tra il salvare vite in spiaggia e in città."
       },
       {
+        "type": "h3",
+        "text": "Ryan ‘Whippet’ Clark"
+      },
+      {
         "type": "p",
-        "text": "Molti altri sono comparsi nel corso degli anni - sentirai soprannomi come Deano, Jesse, Chappo, Whippet, Yatesy, Mouse e Kobi. Poiché la squadra ruota, mi concentro sui volti più noti invece di provare a elencare tutti quelli attualmente in turno."
+        "text": "Whippet ha la storia più insolita della torretta: prima di fare il bagnino ha lavorato come attore bambino e oggi è molto più noto con il soprannome che con il nome all'anagrafe. È uno di quelli che gli spettatori cercano più spesso dopo una puntata, di solito scrivendo ‘Whippy’ nella barra di ricerca, ed è per questo che ci mettono un po' a trovarlo."
+      },
+      {
+        "type": "p",
+        "text": "Nel corso delle stagioni ne sono passati molti altri e, siccome il pubblico li conosce prima di tutto per il soprannome, ecco l'elenco con i nomi che ci stanno dietro. La squadra ruota, quindi prendetelo come i volti riconoscibili del programma e non come il turno di oggi."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Chris ‘Chappo’ Chapman**: sullo schermo compare anche come ‘Chips’.",
+          "**Dean ‘Deano’ Gladstone**",
+          "**Tom ‘Egg’ Bunting**",
+          "**Matt ‘Matty’ Dee**",
+          "**Terry ‘Tezz’ McDermott**",
+          "**Dunstan ‘Dunno’ Foss**",
+          "**Kobi Graham** e **Aaron**, sulla spiaggia noto come ‘Azza’."
+        ]
       },
       {
         "type": "h2",
         "text": "Sulla serie"
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Prima messa in onda",
+            "value": "15 febbraio 2006, Network 10"
+          },
+          {
+            "label": "Prodotto da",
+            "value": "Cordell Jigsaw (CJZ), Sydney"
+          },
+          {
+            "label": "Stagioni finora",
+            "value": "18, circa 201 episodi"
+          },
+          {
+            "label": "Stagione più recente",
+            "value": "Stagione 18, andata in onda a metà 2024"
+          },
+          {
+            "label": "Per chi lavorano",
+            "value": "Waverley Council: sono dipendenti comunali, non attori"
+          },
+          {
+            "label": "Dove pattugliano",
+            "value": "Bondi, Tamarama e Bronte, 365 giorni all'anno"
+          }
+        ]
       },
       {
         "type": "p",
@@ -15959,6 +16138,22 @@
           {
             "q": "I bagnini di Bondi sono gli stessi dei surf lifesaver?",
             "a": "No. I bagnini di Bondi Rescue sono professionisti retribuiti del council. I volontari del surf lifesaving con le cuffie rosse e gialle sono un servizio a parte che pattuglia anch'esso, di solito nei weekend e nei giorni festivi."
+          },
+          {
+            "q": "Qual è il vero nome di Chappo?",
+            "a": "Chris Chapman. Nel programma compare anche con il soprannome ‘Chips’, ed è per questo che cercare solo uno dei due nomi a volte non dà risultati."
+          },
+          {
+            "q": "Whippet è stato un attore bambino?",
+            "a": "Sì: Ryan ‘Whippet’ Clark ha lavorato come attore bambino prima di diventare bagnino a Bondi, e oggi è molto più noto con il soprannome."
+          },
+          {
+            "q": "Quanti anni hanno i bagnini di Bondi Rescue?",
+            "a": "Né il Waverley Council né la produzione pubblicano le loro età, quindi qualsiasi cifra precisa trovata online è un'ipotesi e non un dato confermato. Quello che risulta agli atti sono gli anni di servizio: Hoppo, per esempio, è entrato nel 1991 ed è capo bagnino dal 2000."
+          },
+          {
+            "q": "Su quali spiagge pattugliano i bagnini di Bondi?",
+            "a": "I bagnini professionisti del Waverley Council pattugliano Bondi, Tamarama e Bronte 365 giorni all'anno. Indossano il blu e giallo; i volontari in rosso e giallo sono un servizio distinto."
           }
         ]
       },
@@ -21751,12 +21946,61 @@
         "text": "Maxiは若手ライフガードの一人として頭角を現し、ファンのお気に入りになりました。消防士としても働いていることでも広く知られ、ビーチと街の両方で人命を救うことに時間を分けています。"
       },
       {
+        "type": "h3",
+        "text": "Ryan ‘Whippet’ Clark"
+      },
+      {
         "type": "p",
-        "text": "長年にわたり、ほかにも多くの人が登場してきました。Deano、Jesse、Chappo、Whippet、Yatesy、Mouse、Kobiといったニックネームを耳にすることでしょう。チームは入れ替わるので、私は現在シフトに入っている全員を挙げようとするのではなく、最もよく知られた常連に焦点を当てています。"
+        "text": "Whippetは、タワーの中でも最も変わった経歴の持ち主です。ライフガードになる前は子役として活動していて、今では本名よりもニックネームのほうがはるかによく知られています。エピソードを見たあとに視聴者が最も検索したがるメンバーの一人ですが、検索窓では『Whippy』と綴られることが多く、そのせいでなかなか見つけられないのです。"
+      },
+      {
+        "type": "p",
+        "text": "ほかにも多くのメンバーが各シーズンに登場してきました。視聴者はたいていニックネームで先に覚えるので、その裏にある本名とあわせて一覧にしておきます。チームは入れ替わるため、これは今日のシフト表ではなく、番組でおなじみの顔ぶれとして見てください。"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Chris ‘Chappo’ Chapman** - 画面では『Chips』として登場することもあります。",
+          "**Dean ‘Deano’ Gladstone**",
+          "**Tom ‘Egg’ Bunting**",
+          "**Matt ‘Matty’ Dee**",
+          "**Terry ‘Tezz’ McDermott**",
+          "**Dunstan ‘Dunno’ Foss**",
+          "**Kobi Graham**、そしてビーチでは『Azza』と呼ばれる**Aaron**。"
+        ]
       },
       {
         "type": "h2",
         "text": "番組について"
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "初放送",
+            "value": "2006年2月15日、Network 10"
+          },
+          {
+            "label": "制作",
+            "value": "Cordell Jigsaw（CJZ）、シドニー"
+          },
+          {
+            "label": "これまでのシーズン数",
+            "value": "18シーズン、約201エピソード"
+          },
+          {
+            "label": "最新シーズン",
+            "value": "シーズン18、2024年半ばに放送"
+          },
+          {
+            "label": "雇用主",
+            "value": "Waverley Council - ライフガードは出演者ではなく市の職員です"
+          },
+          {
+            "label": "パトロール範囲",
+            "value": "Bondi、Tamarama、Bronte、年中無休"
+          }
+        ]
       },
       {
         "type": "p",
@@ -21798,6 +22042,22 @@
           {
             "q": "Bondiのライフガードはサーフライフセーバーと同じですか？",
             "a": "いいえ。Bondi Rescueのライフガードは、報酬を受けるカウンシルのプロフェッショナルです。赤と黄色のキャップをかぶったボランティアのサーフライフセーバーは別の組織で、こちらも通常は週末や祝日にパトロールします。"
+          },
+          {
+            "q": "Chappoの本名は何ですか？",
+            "a": "Chris Chapmanです。番組では『Chips』というニックネームでも登場するため、片方の名前だけで検索しても見つからないことがあります。"
+          },
+          {
+            "q": "Whippetは子役だったのですか？",
+            "a": "はい。Ryan ‘Whippet’ ClarkはBondiのライフガードになる前は子役として活動していて、今ではニックネームのほうがはるかによく知られています。"
+          },
+          {
+            "q": "Bondi Rescueのライフガードは何歳ですか？",
+            "a": "Waverley Councilも制作陣もライフガードの年齢を公表していないため、ネット上で見かける具体的な数字は確認された事実ではなく誰かの推測です。記録として確かなのは勤続年数で、たとえばHoppoは1991年に入り、2000年にヘッドライフガードになりました。"
+          },
+          {
+            "q": "Bondiのライフガードはどのビーチをパトロールしていますか？",
+            "a": "Waverley Councilのプロのライフガードは、Bondi、Tamarama、Bronteを年中無休でパトロールしています。青と黄色のユニフォームを着ており、赤と黄色のボランティアのライフセーバーは別の組織です。"
           }
         ]
       },
@@ -27590,12 +27850,61 @@
         "text": "Maxi kwam op als een van de jongere lifeguards en werd een publiekslieveling. Hij is ook wijd en zijd bekend omdat hij als brandweerman werkt en zijn tijd verdeelt tussen levens redden op het strand en in de stad."
       },
       {
+        "type": "h3",
+        "text": "Ryan ‘Whippet’ Clark"
+      },
+      {
         "type": "p",
-        "text": "Talloze anderen kwamen door de jaren heen in beeld - je hoort bijnamen als Deano, Jesse, Chappo, Whippet, Yatesy, Mouse en Kobi. Omdat het team rouleert, richt ik me op de bekendste vaste krachten in plaats van iedereen op te sommen die nu is ingeroosterd."
+        "text": "Whippet heeft de bijzonderste voorgeschiedenis van de toren: voordat hij strandwacht werd, werkte hij als kindacteur, en inmiddels kent iedereen hem veel beter onder zijn bijnaam dan onder zijn echte naam. Hij is een van de mensen die kijkers na een aflevering het vaakst proberen op te zoeken - meestal typen ze ‘Whippy’ in de zoekbalk, en daarom duurt het even voor ze hem vinden."
+      },
+      {
+        "type": "p",
+        "text": "Door de seizoenen heen zijn er nog veel meer voorbijgekomen, en omdat kijkers ze meestal eerst via hun bijnaam leren kennen, hier de lijst met de namen erachter. Het team rouleert, dus zie dit als de bekende gezichten van de serie en niet als het rooster van vandaag."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Chris ‘Chappo’ Chapman** - verschijnt in beeld ook als ‘Chips’.",
+          "**Dean ‘Deano’ Gladstone**",
+          "**Tom ‘Egg’ Bunting**",
+          "**Matt ‘Matty’ Dee**",
+          "**Terry ‘Tezz’ McDermott**",
+          "**Dunstan ‘Dunno’ Foss**",
+          "**Kobi Graham** en **Aaron**, op het strand ‘Azza’ genoemd."
+        ]
       },
       {
         "type": "h2",
         "text": "Over de serie"
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Eerste uitzending",
+            "value": "15 februari 2006, Network 10"
+          },
+          {
+            "label": "Gemaakt door",
+            "value": "Cordell Jigsaw (CJZ), Sydney"
+          },
+          {
+            "label": "Seizoenen tot nu toe",
+            "value": "18, ongeveer 201 afleveringen"
+          },
+          {
+            "label": "Meest recente seizoen",
+            "value": "Seizoen 18, uitgezonden medio 2024"
+          },
+          {
+            "label": "Voor wie ze werken",
+            "value": "Waverley Council - de strandwachten zijn gemeenteambtenaren, geen acteurs"
+          },
+          {
+            "label": "Waar ze patrouilleren",
+            "value": "Bondi, Tamarama en Bronte, 365 dagen per jaar"
+          }
+        ]
       },
       {
         "type": "p",
@@ -27637,6 +27946,22 @@
           {
             "q": "Zijn de lifeguards van Bondi hetzelfde als surf lifesavers?",
             "a": "Nee. De lifeguards van Bondi Rescue zijn betaalde professionals van de council. De vrijwillige surf lifesavers met de rood-gele mutsen vormen een aparte dienst die ook patrouilleert, doorgaans in het weekend en op feestdagen."
+          },
+          {
+            "q": "Wat is de echte naam van Chappo?",
+            "a": "Chris Chapman. In de serie duikt hij ook op onder de bijnaam ‘Chips’, en daarom levert zoeken op maar één van beide namen soms niets op."
+          },
+          {
+            "q": "Was Whippet een kindacteur?",
+            "a": "Ja: Ryan ‘Whippet’ Clark werkte als kindacteur voordat hij strandwacht werd in Bondi, en is nu veel bekender onder zijn bijnaam."
+          },
+          {
+            "q": "Hoe oud zijn de strandwachten van Bondi Rescue?",
+            "a": "Noch Waverley Council noch de producent maakt de leeftijden bekend, dus elk concreet getal dat je online vindt is een gok en geen bevestigd feit. Wat wel vastligt zijn de dienstjaren: Hoppo begon bijvoorbeeld in 1991 en is sinds 2000 hoofdstrandwacht."
+          },
+          {
+            "q": "Op welke stranden patrouilleren de strandwachten van Bondi?",
+            "a": "De professionele strandwachten van Waverley Council patrouilleren 365 dagen per jaar op Bondi, Tamarama en Bronte. Zij dragen blauw-geel; de vrijwilligers in rood-geel zijn een aparte dienst."
           }
         ]
       },
@@ -33429,12 +33754,61 @@
         "text": "Maxi despontou como um dos salva-vidas mais jovens e virou queridinho dos fãs. Também é bastante conhecido por atuar como bombeiro, dividindo o tempo entre salvar vidas na praia e na cidade."
       },
       {
+        "type": "h3",
+        "text": "Ryan ‘Whippet’ Clark"
+      },
+      {
         "type": "p",
-        "text": "Muitos outros apareceram ao longo dos anos - você vai ouvir apelidos como Deano, Jesse, Chappo, Whippet, Yatesy, Mouse e Kobi. Como a equipe faz rodízio, prefiro focar nos veteranos mais conhecidos a tentar listar todos que estão de plantão neste momento."
+        "text": "Whippet tem a história mais inusitada da torre: antes de ser salva-vidas, trabalhou como ator infantil e hoje é muito mais conhecido pelo apelido do que pelo nome de registo. É um dos membros que mais gente tenta procurar depois de um episódio, normalmente escrevendo ‘Whippy’ na caixa de pesquisa, e é por isso que demora tanto a encontrá-lo."
+      },
+      {
+        "type": "p",
+        "text": "Muitos outros apareceram ao longo das temporadas e, como o público costuma conhecê-los primeiro pelo apelido, aqui fica a lista com os nomes por trás deles. A equipa faz rotação, por isso encare isto como os rostos conhecidos do programa e não como a escala de hoje."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Chris ‘Chappo’ Chapman**: no ecrã também aparece como ‘Chips’.",
+          "**Dean ‘Deano’ Gladstone**",
+          "**Tom ‘Egg’ Bunting**",
+          "**Matt ‘Matty’ Dee**",
+          "**Terry ‘Tezz’ McDermott**",
+          "**Dunstan ‘Dunno’ Foss**",
+          "**Kobi Graham** e **Aaron**, conhecido na praia como ‘Azza’."
+        ]
       },
       {
         "type": "h2",
         "text": "Sobre o programa"
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Estreia",
+            "value": "15 de fevereiro de 2006, Network 10"
+          },
+          {
+            "label": "Produzido por",
+            "value": "Cordell Jigsaw (CJZ), Sydney"
+          },
+          {
+            "label": "Temporadas até agora",
+            "value": "18, cerca de 201 episódios"
+          },
+          {
+            "label": "Temporada mais recente",
+            "value": "Temporada 18, exibida em meados de 2024"
+          },
+          {
+            "label": "Para quem trabalham",
+            "value": "Waverley Council: são funcionários municipais, não atores"
+          },
+          {
+            "label": "Onde patrulham",
+            "value": "Bondi, Tamarama e Bronte, 365 dias por ano"
+          }
+        ]
       },
       {
         "type": "p",
@@ -33476,6 +33850,22 @@
           {
             "q": "Os salva-vidas de Bondi são a mesma coisa que os voluntários de Surf Life Saving?",
             "a": "Não. Os salva-vidas de Bondi Rescue são profissionais pagos pelo council. Os voluntários de Surf Life Saving, de touca vermelha e amarela, são um serviço à parte que também patrulha, normalmente nos fins de semana e feriados."
+          },
+          {
+            "q": "Qual é o nome verdadeiro do Chappo?",
+            "a": "Chris Chapman. No programa também aparece com o apelido ‘Chips’, e é por isso que procurar apenas um dos nomes às vezes não dá resultado."
+          },
+          {
+            "q": "O Whippet foi ator infantil?",
+            "a": "Sim: Ryan ‘Whippet’ Clark trabalhou como ator infantil antes de se tornar salva-vidas em Bondi, e hoje é muito mais conhecido pelo apelido."
+          },
+          {
+            "q": "Que idade têm os salva-vidas do Bondi Rescue?",
+            "a": "Nem o Waverley Council nem a produtora divulgam as idades, por isso qualquer número concreto que encontre online é um palpite e não um facto confirmado. O que está registado são os anos de serviço: o Hoppo, por exemplo, entrou em 1991 e é chefe dos salva-vidas desde 2000."
+          },
+          {
+            "q": "Em que praias patrulham os salva-vidas de Bondi?",
+            "a": "Os salva-vidas profissionais do Waverley Council patrulham Bondi, Tamarama e Bronte, 365 dias por ano. Usam azul e amarelo; os voluntários de vermelho e amarelo são um serviço diferente."
           }
         ]
       },
@@ -39268,12 +39658,61 @@
         "text": "Maxi作为较年轻的一批救生员崭露头角，成了粉丝的宠儿。他还因兼任消防员而广为人知，把时间分给了在海滩和在城里救人两头。"
       },
       {
+        "type": "h3",
+        "text": "Ryan ‘Whippet’ Clark"
+      },
+      {
         "type": "p",
-        "text": "这些年里还有许多人出过镜--你会听到Deano、Jesse、Chappo、Whippet、Yatesy、Mouse和Kobi这些外号。因为团队会轮换，我更愿意聚焦于最为人熟知的常客，而不是把当下所有值勤的人一一列出。"
+        "text": "Whippet 是瞭望塔上经历最特别的一位：在成为救生员之前，他曾是童星，如今人们对这个绰号的熟悉程度远超他的本名。他也是观众看完节目后最常想搜索的成员之一，但大家在搜索框里往往拼成 ‘Whippy’，所以总要费一番功夫才能找到他。"
+      },
+      {
+        "type": "p",
+        "text": "多年来还有许多人出现在节目中。由于观众通常先记住绰号，这里把绰号和本名一并列出。团队会轮换，所以请把这份名单看作节目中为人熟知的面孔，而不是当天的排班表。"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Chris ‘Chappo’ Chapman** - 在节目中有时也以 ‘Chips’ 出现。",
+          "**Dean ‘Deano’ Gladstone**",
+          "**Tom ‘Egg’ Bunting**",
+          "**Matt ‘Matty’ Dee**",
+          "**Terry ‘Tezz’ McDermott**",
+          "**Dunstan ‘Dunno’ Foss**",
+          "**Kobi Graham**，以及在海滩上被称作 ‘Azza’ 的 **Aaron**。"
+        ]
       },
       {
         "type": "h2",
         "text": "关于这档节目"
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "首播",
+            "value": "2006年2月15日，Network 10"
+          },
+          {
+            "label": "制作方",
+            "value": "Cordell Jigsaw（CJZ），悉尼"
+          },
+          {
+            "label": "已播季数",
+            "value": "18季，约201集"
+          },
+          {
+            "label": "最新一季",
+            "value": "第18季，2024年年中播出"
+          },
+          {
+            "label": "雇主",
+            "value": "Waverley Council - 救生员是市政雇员，不是演员"
+          },
+          {
+            "label": "巡逻范围",
+            "value": "Bondi、Tamarama 和 Bronte，全年无休"
+          }
+        ]
       },
       {
         "type": "p",
@@ -39315,6 +39754,22 @@
           {
             "q": "Bondi的救生员和冲浪救生员是一回事吗？",
             "a": "不是。Bondi Rescue的救生员是拿薪水的council专业人员。那些戴红黄相间泳帽的志愿冲浪救生员则是另一支队伍，通常在周末和公共假日巡逻。"
+          },
+          {
+            "q": "Chappo 的真名是什么？",
+            "a": "Chris Chapman。他在节目中也以绰号 ‘Chips’ 出现，所以只搜其中一个名字有时会搜不到。"
+          },
+          {
+            "q": "Whippet 以前是童星吗？",
+            "a": "是的。Ryan ‘Whippet’ Clark 在成为 Bondi 救生员之前当过童星，如今人们对他的绰号远比本名熟悉。"
+          },
+          {
+            "q": "Bondi Rescue 的救生员多大年纪？",
+            "a": "Waverley Council 和制作方都没有公布救生员的年龄，因此网上看到的具体数字是猜测，而不是经过确认的事实。有据可查的是工作年限，例如 Hoppo 于 1991 年入职，2000 年成为总救生员。"
+          },
+          {
+            "q": "Bondi 的救生员在哪些海滩巡逻？",
+            "a": "Waverley Council 的专业救生员全年无休地在 Bondi、Tamarama 和 Bronte 巡逻。他们穿蓝黄制服；穿红黄制服的志愿救生员属于另一支队伍。"
           }
         ]
       },

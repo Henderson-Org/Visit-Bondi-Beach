@@ -23821,12 +23821,61 @@
         "text": "Maxi came through as one of the younger lifeguards and became a fan favourite. He's also widely known for working as a firefighter, splitting his time between saving lives on the beach and in the city."
       },
       {
+        "type": "h3",
+        "text": "Ryan ‘Whippet’ Clark"
+      },
+      {
         "type": "p",
-        "text": "Plenty of others have featured over the years - you'll hear nicknames like Deano, Jesse, Chappo, Whippet, Yatesy, Mouse and Kobi. Because the team rotates, I focus on the best-known regulars rather than trying to list everyone currently rostered."
+        "text": "Whippet has the most unusual back story on the tower: before lifeguarding he worked as a child actor, and he's now far better known by the nickname than the name on his birth certificate. He's one of the crew viewers most often try to look up after an episode - usually spelled ‘Whippy’ in the search box, which is why it takes people a while to find him."
+      },
+      {
+        "type": "p",
+        "text": "Plenty of others have featured across the seasons, and because viewers usually meet them by nickname first, here's the roster with the names behind them. The team rotates, so treat this as the recognisable faces of the show rather than today's shift list."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Chris ‘Chappo’ Chapman** - also turns up on screen as ‘Chips’.",
+          "**Dean ‘Deano’ Gladstone**",
+          "**Tom ‘Egg’ Bunting**",
+          "**Matt ‘Matty’ Dee**",
+          "**Terry ‘Tezz’ McDermott**",
+          "**Dunstan ‘Dunno’ Foss**",
+          "**Kobi Graham**, and **Aaron**, known on the beach as ‘Azza’."
+        ]
       },
       {
         "type": "h2",
         "text": "About the show"
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "First aired",
+            "value": "15 February 2006, Network 10"
+          },
+          {
+            "label": "Made by",
+            "value": "Cordell Jigsaw (CJZ), Sydney"
+          },
+          {
+            "label": "Seasons to date",
+            "value": "18, around 201 episodes"
+          },
+          {
+            "label": "Most recent season",
+            "value": "Season 18, aired mid-2024"
+          },
+          {
+            "label": "Who they work for",
+            "value": "Waverley Council - the lifeguards are council employees, not cast"
+          },
+          {
+            "label": "Where they patrol",
+            "value": "Bondi, Tamarama and Bronte, 365 days a year"
+          }
+        ]
       },
       {
         "type": "p",
@@ -23868,6 +23917,22 @@
           {
             "q": "Are Bondi lifeguards the same as surf lifesavers?",
             "a": "No. The Bondi Rescue lifeguards are paid council professionals. The volunteer surf lifesavers in the red-and-yellow caps are a separate service that also patrols, typically on weekends and public holidays."
+          },
+          {
+            "q": "What is Chappo's real name?",
+            "a": "Chris Chapman. He also appears on the show under the nickname ‘Chips’, which is why searching one name sometimes turns up nothing."
+          },
+          {
+            "q": "Was Whippet a child actor?",
+            "a": "Yes - Ryan ‘Whippet’ Clark worked as a child actor before becoming a Bondi lifeguard, and is now much better known by the nickname."
+          },
+          {
+            "q": "How old are the Bondi Rescue lifeguards?",
+            "a": "Neither Waverley Council nor the producers publish the lifeguards' ages, so any specific number you find online is someone's guess rather than a confirmed fact. What is on the record is service length - Hoppo, for instance, joined in 1991 and became head lifeguard in 2000."
+          },
+          {
+            "q": "Which beaches do the Bondi lifeguards patrol?",
+            "a": "Waverley Council's professional lifeguards patrol Bondi, Tamarama and Bronte, 365 days a year. They wear blue and yellow; the volunteer lifesavers in red and yellow are a separate service."
           }
         ]
       },
@@ -23876,7 +23941,7 @@
         "text": "However you know them - from the tower or the TV - Bondi's lifeguards are a huge part of what makes the beach what it is. For more, see the [Bondi Rescue hub](/bondi-rescue) and the rest of [things to do in Bondi](/things-to-do-in-bondi)."
       }
     ],
-    "wordCount": 760,
+    "wordCount": 1051,
     "sources": [
       {
         "label": "Wikipedia - Bondi Rescue",
@@ -23885,6 +23950,14 @@
       {
         "label": "Wikipedia - Bruce Hopkins (surf lifesaver)",
         "url": "https://en.wikipedia.org/wiki/Bruce_Hopkins_(surf_lifesaver)"
+      },
+      {
+        "label": "Wikipedia - Ryan Clark (actor)",
+        "url": "https://en.wikipedia.org/wiki/Ryan_Clark_(actor)"
+      },
+      {
+        "label": "HelloBondi (Waverley Council official tourism site) - lifeguards",
+        "url": "https://hellobondi.com.au/beach-use/lifeguard-profiles/"
       },
       {
         "label": "Cordell Jigsaw (CJZ) - Bondi Rescue",
@@ -23903,7 +23976,7 @@
         "url": "https://www.scienceofthesurf.com/rip-of-the-month-2009/june-2009-backpackersbondi"
       }
     ],
-    "lastReviewed": "2026-08-10",
+    "lastReviewed": "2026-08-14",
     "voice": "first-person"
   },
   "/bondi-blog/bondi-winter-magic": {
