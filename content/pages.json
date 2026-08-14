@@ -29908,5 +29908,101 @@
         ]
       }
     ]
+  },
+  {
+    "path": "/bondi-blog/can-you-get-to-bondi-beach-by-ferry",
+    "contentType": "blog-post-legacy",
+    "section": "blog",
+    "title": "Can You Get to Bondi Beach by Ferry? No - But Here's How",
+    "metaDescription": "No - Bondi faces the open ocean, so there's no ferry. A local explains the fast train-and-bus route and the scenic Watsons Bay ferry + 380 bus workaround.",
+    "canonical": "",
+    "h1": "Can You Get to Bondi Beach by Ferry?",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "",
+    "wordCount": 0,
+    "jsonLdTypes": [
+      "WebSite",
+      "Article"
+    ],
+    "publishedAt": "2026-08-14",
+    "lastmod": "2026-08-14",
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "authored": true
+  },
+  {
+    "path": "/bondi-blog/shade-at-bondi-beach-umbrellas-and-escaping-the-sun",
+    "contentType": "blog-post-legacy",
+    "section": "blog",
+    "title": "Shade at Bondi Beach: Umbrella Hire and Escaping the Sun",
+    "metaDescription": "No, there's no umbrella or lounger hire at Bondi Beach - a local explains where to buy shade, the free tree shade in Bondi Park, and the timing trick that beats the sun.",
+    "canonical": "",
+    "h1": "Shade at Bondi Beach: Can You Hire an Umbrella? (And How Locals Escape the Sun)",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "",
+    "wordCount": 0,
+    "jsonLdTypes": [
+      "WebSite",
+      "Article"
+    ],
+    "publishedAt": "2026-08-14",
+    "lastmod": "2026-08-14",
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "authored": true
+  },
+  {
+    "path": "/bondi-blog/how-much-does-a-day-at-bondi-beach-cost",
+    "contentType": "blog-post-legacy",
+    "section": "blog",
+    "title": "How Much Does a Day at Bondi Beach Cost? (2026 Prices)",
+    "metaDescription": "The beach is free - here's what the rest costs. Verified August 2026 prices for Icebergs, surf lessons, coffee and lockers, plus a $0, $40 and $100 day.",
+    "canonical": "",
+    "h1": "How Much Does a Day at Bondi Beach Cost?",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "",
+    "wordCount": 0,
+    "jsonLdTypes": [
+      "WebSite",
+      "Article"
+    ],
+    "publishedAt": "2026-08-14",
+    "lastmod": "2026-08-14",
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "authored": true
+  },
+  {
+    "path": "/bondi-blog/is-bondi-beach-man-made-and-other-questions",
+    "contentType": "blog-post-legacy",
+    "section": "blog",
+    "title": "Is Bondi Beach Man-Made? Odd Questions, Locally Answered",
+    "metaDescription": "Is Bondi man-made? Is it salt water? Is Bondi Rescue real? A local answers the internet's oddest (and fairest) Bondi Beach questions, honestly.",
+    "canonical": "",
+    "h1": "Is Bondi Beach man-made? The internet's oddest Bondi questions, answered by a local",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "",
+    "wordCount": 0,
+    "jsonLdTypes": [
+      "WebSite",
+      "Article"
+    ],
+    "publishedAt": "2026-08-14",
+    "lastmod": "2026-08-14",
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "authored": true
   }
 ]

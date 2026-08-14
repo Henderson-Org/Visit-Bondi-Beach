@@ -174,7 +174,8 @@ export default function StartHerePage() {
 
       <Section id="getting-there" title="Getting there (the part everyone gets wrong)">
         <p>
-          The single most important fact: <strong>there is no train station at Bondi Beach, and no ferry.</strong>{' '}
+          The single most important fact: <strong>there is no train station at Bondi Beach, and no ferry</strong>{' '}
+          (<Link href="/bondi-blog/can-you-get-to-bondi-beach-by-ferry" className="text-ocean-700 underline">though there is a scenic ferry-plus-bus workaround</Link>).
           The station called &quot;Bondi Junction&quot; is a shopping district 2.5 km up the hill. Every trip ends with
           a short bus ride or a downhill walk.
         </p>
@@ -205,7 +206,9 @@ export default function StartHerePage() {
           A realistic day&apos;s budget beyond transport: flat white ~$5 (our{' '}
           <Link href="/bondi-coffee-price-index" className="text-ocean-700 underline">Coffee Price Index</Link> tracks the
           real median), brunch $20-30, Icebergs entry $10, fish and chips on the grass $15-25, beginner surf lesson
-          from $99 ({CHECKED}). A perfectly good Bondi day runs on $40; a great one on $100.
+          from $99 ({CHECKED}). A perfectly good Bondi day runs on $40; a great one on $100 - the{' '}
+          <Link href="/bondi-blog/how-much-does-a-day-at-bondi-beach-cost" className="text-ocean-700 underline">full price breakdown</Link>{' '}
+          itemises every verified cost.
         </p>
         <p>
           <strong>Staying connected:</strong> don&apos;t count on public wi-fi at the beach - there isn&apos;t any to rely on. Sort an eSIM or local SIM before you need it (the airport sells both), and download offline maps; cafés will share wi-fi with a coffee.
@@ -217,7 +220,7 @@ export default function StartHerePage() {
           <li><strong>SPF50+ sunscreen, hat, sunglasses.</strong> The Australian sun is not like your sun - UV here burns fast even on cool, cloudy days. Reapply after swimming. Forgot it? Supermarkets and pharmacies around Hall Street sell it.</li>
           <li><strong>Water bottle.</strong> Free refill bubblers sit along the promenade; Sydney tap water is safe to drink.</li>
           <li><strong>Towel + swimwear</strong> - obvious, but there is no towel hire on the sand (Icebergs hires towels for $5 if you end up there).</li>
-          <li><strong>Shade if you need it.</strong> Real talk: Bondi is bare sand - <strong>no umbrella or lounger hire on the beach</strong>, and almost no natural shade. Bring a beach umbrella or plan around the grass above the beach and the Pavilion.</li>
+          <li><strong>Shade if you need it.</strong> Real talk: Bondi is bare sand - <strong>no umbrella or lounger hire on the beach</strong>, and almost no natural shade. Bring a beach umbrella or plan around the grass above the beach and the Pavilion - <Link href="/bondi-blog/shade-at-bondi-beach-umbrellas-and-escaping-the-sun" className="text-ocean-700 underline">the full shade playbook is here</Link>.</li>
           <li><strong>A waterproof phone pouch</strong> if you are solo - it solves the valuables problem (more below).</li>
           <li><strong>Skip:</strong> cash beyond a note or two, your passport, a suitcase (nowhere on the beach fits one - see lockers below), and a wetsuit in summer (Dec-Mar the water sits around 22-24°C; wetsuit season is roughly May-Oct - hire from $15 at the surf school at North Bondi, Let&apos;s Go Surfing, 128 Ramsgate Ave).</li>
         </ul>

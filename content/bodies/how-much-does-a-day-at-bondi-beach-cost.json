@@ -1,0 +1,67 @@
+{
+  "path": "/bondi-blog/how-much-does-a-day-at-bondi-beach-cost",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-14",
+  "sources": [
+    { "label": "Bondi Icebergs - pool", "url": "https://icebergs.com.au" },
+    { "label": "Bondi Pavilion - facilities", "url": "https://www.bondipavilion.com.au/visit/our_facilities" },
+    { "label": "Let's Go Surfing - lessons & hire", "url": "https://letsgosurfing.com.au" },
+    { "label": "Transport for NSW - fares", "url": "https://transportnsw.info/tickets-opal" }
+  ],
+  "blocks": [
+    { "type": "answer", "text": "Bondi Beach itself costs nothing - the sand, the surf, the lifeguards and flags, the showers, the coastal walk, even the park BBQs are all free. A good day here runs $0-40 depending on how you eat, and a properly great one - surf lesson, Icebergs, a long lunch - lands around the $100 mark. Below is every price on the beach as I verified it in August 2026, plus three honest ways to spend the day at each budget." },
+    { "type": "quickFacts", "items": [
+      { "label": "The beach", "value": "Free - no entry fee, ever" },
+      { "label": "Getting here", "value": "Tap on with any contactless card - Opal fares and daily caps apply" },
+      { "label": "Icebergs pool", "value": "Adult $10, child $7, family $30 - sauna included (Aug 2026)" },
+      { "label": "Flat white", "value": "$5.10 median, from our Coffee Price Index" },
+      { "label": "Surf lesson", "value": "From $99; board hire from $25/hr (Aug 2026)" },
+      { "label": "The budget killer", "value": "Parking - take the bus if you possibly can" }
+    ] },
+    { "type": "table", "caption": "What things cost at Bondi Beach, as verified August 2026. Prices drift - always check the venue's own site if you're reading this much later.", "columns": ["Item", "Cost", "Verified"], "rows": [
+      ["The beach, flags and lifeguards, showers, toilets", "Free", "Evergreen"],
+      ["Bondi to Bronte or Coogee coastal walk", "Free", "Evergreen"],
+      ["Kids' rock pools (Ross Jones, North Bondi)", "Free", "Evergreen"],
+      ["Park BBQs (four stations in Bondi Park)", "Free", "Evergreen"],
+      ["Bondi Markets entry (Sat farmers, Sun fashion/vintage)", "Free to browse", "Aug 2026"],
+      ["Bus from the city (333/380)", "Opal/contactless fares, daily caps - see transportnsw.info", "Aug 2026"],
+      ["Flat white (median across the strip)", "$5.10", "Aug 2026"],
+      ["Icebergs pool + sauna", "Adult $10 / child $7 / family $30; towel or locker $5", "Aug 2026"],
+      ["Pavilion locker", "Small $6/4hrs ($10 day); large $9/4hrs ($15 day)", "Aug 2026"],
+      ["Surfboard hire (Let's Go Surfing)", "$25/1hr; board + wetsuit $35/1hr; wetsuit $15", "Aug 2026"],
+      ["Beginner surf lesson", "From $99, gear included", "Aug 2026"],
+      ["Brunch at a beach cafe", "$20-30", "Editorial range"],
+      ["Fish and chips", "$15-25", "Editorial range"]
+    ] },
+    { "type": "h2", "text": "The $0 day" },
+    { "type": "p", "text": "This is the day I'd actually defend as the best one, and it costs exactly nothing once you're here. Everything that makes Bondi famous is free: the kilometre of sand, the patrolled water between the red-and-yellow flags, the outdoor showers to rinse off, the public toilets, and the promenade for the world's best people-watching. Nobody has ever paid to swim at Bondi Beach and nobody ever will." },
+    { "type": "list", "items": [
+      "**Swim between the flags** - the lifeguards and lifesavers who patrol them are a public service, not a paid attraction.",
+      "**Walk the coastal path** - Bondi to Bronte is about 2.5 km of clifftop drama and costs you only the 45-60 minutes; push on to Coogee (about 6 km) if your legs are willing.",
+      "**Splash in the free rock pools** - Ross Jones Memorial Pool and the shallow kids' pools at North Bondi are free, calm and brilliant for little ones.",
+      "**Fire up a free BBQ** - there are four free electric BBQ stations in Bondi Park, usable until dusk. Bring your own snags; leave the charcoal at home, open fires aren't allowed.",
+      "**Browse the markets** - entry is free at both the Saturday farmers market (9am-1pm) and the Sunday fashion-and-vintage markets (10am-4pm) at Bondi Beach Public School. Sampling and gawking cost nothing; the danger is entirely self-inflicted."
+    ] },
+    { "type": "h2", "text": "The $40 day" },
+    { "type": "p", "text": "Add money's three best uses at Bondi - caffeine, hot chips and a legendary pool - and you're still comfortably under $40 plus your bus fare. Start with a flat white ($5.10 is the median across the beach cafes, from our verified [Coffee Price Index](/bondi-coffee-price-index)), swim and walk for free all morning, then get fish and chips ($15-25 depending where you sit) and eat them on the grass in Bondi Park." },
+    { "type": "p", "text": "The non-negotiable upgrade is Bondi Icebergs, the ocean pool at the south end you've seen in every photo of this beach. As at August 2026, entry is $10 for adults, $7 for kids, $30 for a family - and the sauna is included in that, which for ten dollars might be the best-value ticket in Sydney. Tally it up: coffee plus lunch plus Icebergs comes to roughly $30-40, and the bus out from the city is an Opal-capped fare on any contactless card - I won't quote amounts because they change, so check transportnsw.info for current fares and daily caps." },
+    { "type": "h2", "text": "The $100 day" },
+    { "type": "p", "text": "This is the full Bondi experience day. The centrepiece is a beginner surf lesson with Let's Go Surfing, the licensed surf school right on the beach at North Bondi - from $99 as at August 2026, with the board, wetsuit, rashie and sunscreen all included. That's most of the budget in one go, and it's the single best thing to spend money on here: two-ish hours later you will have stood up on a wave at Bondi Beach, which is a sentence you get to say forever. Round out the day with the free stuff - flags, coastal walk - a $5.10 coffee and a cheap eat, and you land almost exactly on $100. Already know how to surf? Swap the lesson for hire - a board is $25 an hour, board and wetsuit $35 - and put the change towards a proper sit-down brunch ($20-30 along the beachfront). And if you add the Icebergs swim-and-sauna and a bigger lunch on top of the lesson, be honest with yourself that it's become the $130-something day. Worth it, in my view - but that's your call to make, not mine to hide." },
+    { "type": "h2", "text": "What quietly inflates the day" },
+    { "type": "list", "items": [
+      "**Parking.** The single biggest avoidable cost of a Bondi day. Beachside parking is metered and genuinely expensive, and on a sunny weekend you'll pay it after circling for half an hour. I've written a full honest [guide to Bondi parking](/bondi-parking) - the short version is that the 333 or 380 bus wins almost every time.",
+      "**Eating on the waterfront strip.** The closer your table is to the sand, the more the view is baked into the bill. One street back the food is often better and cheaper - my [cheap eats guide](/bondi-blog/bondi-beach-cheap-food) maps exactly where locals actually eat.",
+      "**Forgotten sunscreen.** Buying sunscreen, a hat or a towel at beachside convenience prices because you left yours at home is the classic Bondi surcharge. Pack them and the sun costs nothing.",
+      "**The little add-ons.** A $5 towel or locker at Icebergs, a $6-15 Pavilion locker for your valuables - each is fair value, but they're the difference between the $40 day you planned and the $60 one you had. Decide what you'll need before you leave the house."
+    ] },
+    { "type": "localTip", "text": "My cheapest great day, in order: early bus out, free swim between the flags while the sand is quiet, $5.10 flat white as the crowds arrive, walk to Bronte and back, $10 Icebergs entry in the early afternoon when the sun is on the pool, sauna until I'm a raisin, fish and chips in the park. Under $45, and I would not trade a minute of it for the $300 version." },
+    { "type": "faq", "items": [
+      { "q": "Is Bondi Beach free to visit?", "a": "Yes, completely. There's no entry fee to the beach and there never has been - the sand, the patrolled swimming area, the outdoor showers, toilets, coastal walk and the free BBQs in Bondi Park all cost nothing." },
+      { "q": "Do you have to pay to swim at Bondi Beach?", "a": "No. Swimming in the ocean between the flags is free, and so are the kids' rock pools at either end of the beach. The only swim you pay for is the Icebergs ocean pool, which is a separate (and very cheap) attraction." },
+      { "q": "How much does Bondi Icebergs cost?", "a": "As at August 2026, pool entry is $10 for adults, $7 for children and $30 for a family, with the sauna included in admission. Towel hire or a locker is $5 each. Prices change, so check icebergs.com.au before you go." },
+      { "q": "Is Bondi Beach expensive?", "a": "Only if you let it be. The beach and everything around it is free, coffee runs about $5.10 for a flat white, and fish and chips is $15-25. The costs that sting are parking near the beach and dining right on the waterfront strip - avoid those two and Bondi is one of Sydney's cheapest great days out." },
+      { "q": "How much is a surf lesson at Bondi Beach?", "a": "A beginner group lesson with Let's Go Surfing, the licensed surf school on the beach, starts from $99 as at August 2026 - board, wetsuit, rashie and sunscreen included. If you already surf, board hire is $25 for an hour, or $35 with a wetsuit." }
+    ] },
+    { "type": "p", "text": "So budget whatever suits you - $0 is genuinely enough, $40 is comfortable and $100 is the works. If you're still planning the wider trip, the money section of my [first-timer guide](/start-here) covers the practical bits, my [cheap eats guide](/bondi-blog/bondi-beach-cheap-food) will feed you well for under $15, and if you want to see exactly how we track coffee prices across the beach, the [Bondi Coffee Price Index](/bondi-coffee-price-index) is updated venue by venue. See you between the flags - it's free there." }
+  ]
+}
