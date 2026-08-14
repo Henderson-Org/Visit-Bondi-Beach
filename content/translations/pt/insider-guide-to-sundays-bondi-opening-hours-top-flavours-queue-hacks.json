@@ -5,43 +5,126 @@
   "metaDescription": "Um guia local do Sundays em Bondi: os melhores pedidos do cardápio, os horários e como escapar da fila em um dos points mais concorridos de Bondi Beach.",
   "h1": "Guia de quem é da área para o Sundays Bondi: horários, melhores sabores e truques para a fila",
   "blocks": [
-    {"type":"p","text":"O [Sundays](/bondi-eat-and-drink/venues/sundays-bondi) é a minúscula micropadaria no número 211 da Bondi Road que a fundadora Laetitia Loefti transformou num verdadeiro fenômeno, em boa parte por filmar tudo no Instagram. Num dia bom, o balcão pode esvaziar em cerca de uma hora depois de abrir. Então garantir o seu rolinho sem perder a manhã na fila se resume, no fim das contas, a três jogadas: confira se eles estão mesmo abertos, chegue antes das portas e saiba o seu pedido antes de chegar à janelinha."},
-    {"type":"quickFacts","items":[
-      {"label":"Onde","value":"211 Bondi Road, Bondi"},
-      {"label":"Fundadora","value":"Laetitia Loefti"},
-      {"label":"Famoso por","value":"Rolinhos de canela e de matcha, leves e areados"},
-      {"label":"Regra de ouro","value":"Chegue antes de abrir - eles esgotam"},
-      {"label":"Dias e horários","value":"Confirme no @sundaysbondi antes de ir"}
-    ]},
-    {"type":"callout","tone":"warning","title":"Veja o dia e chegue antes das portas","text":"O Sundays funciona um número limitado de dias por semana e a agenda mudou desde que abriu, então listagens antigas se contradizem - abra o @sundaysbondi na véspera à noite para confirmar se eles vão assar. E encare o horário de fechamento anunciado como um limite, não como uma promessa: no fim de semana de inauguração esgotou tudo na primeira hora, então estar lá antes de abrir é a diferença entre pegar a primeira fornada e não pegar nada."},
-    {"type":"h2","text":"O que pedir"},
-    {"type":"p","text":"Os rolinhos não são daqueles densos e pesados de padaria - são leves e quase como uma panqueca, porque cada leva de massa passa a noite em fermentação a frio e ainda cresce mais duas vezes antes de ir ao forno. Essa textura é justamente a graça de tudo, então peça pelo menos um clássico para entender o porquê de tanto alvoroço."},
-    {"type":"list","items":[
-      "Clássico de canela com cream cheese - o carro-chefe e o primeiro a acabar. Peça esse primeiro.",
-      "Biscoff - um sabor fixo, mais encorpado e caramelizado se você curte as coisas mais doces.",
-      "Kinder chocolate - o outro figurinha carimbada, e um sucesso com a criançada.",
-      "Especiais rotativos, como o de pistache - são os que somem mais rápido, então se estiver no balcão, agarra um.",
-      "Os twists de matcha e o coconut cloud coffee (espresso batido sobre água de coco) - o Sundays investe pesado nos dois, e qualquer um deles faz a dupla clássica com o seu rolinho."
-    ]},
-    {"type":"localTip","text":"Os lugares para sentar são pouquíssimos, quase nenhum, então eu sempre peço para viagem e desço a pé até o calçadão. Um rolinho de canela quentinho na grama acima da areia, café na mão, é uma das minhas manhãs preferidas em Bondi - um luxo que custa quase nada."},
-    {"type":"h2","text":"Se o Sundays já esgotou"},
-    {"type":"p","text":"Como o Sundays só assa alguns dias por semana e o balcão muitas vezes fica vazio bem antes do almoço, vale ter um plano B na manga. Estes são os lugares para onde eu escapo quando perco a fornada - todos a uma caminhada tranquila ou a um ônibus curto da Bondi Road:"},
-    {"type":"list","items":[
-      "[Bondi Boulangerie](/bondi-eat-and-drink/venues/bondi-boulangerie) - minha aposta certa quando o que eu quero é um croissant de verdade, e não um rolinho.",
-      "[François Artisan Baker](/bondi-eat-and-drink/venues/fran-ois-artisan-baker) - pães de fermentação natural e folhados feitos do jeito antigo, sem pressa.",
-      "[Shuk Bakery](/bondi-eat-and-drink/venues/shuk-bakery) - outra padaria de bairro que vale o desvio pelos assados.",
-      "[Sonoma Bakery Cafe Bondi](/bondi-eat-and-drink/venues/sonoma-bakery-cafe-bondi) - certeira quando você só quer sentar com um folhado e um café."
-    ]},
-    {"type":"p","text":"Para a lista completa de opções de doce matinal, temos a nossa seleção das [melhores padarias e doces de Bondi](/bondi-eat-and-drink/bakeries-sweets-bondi-beach), e se no fim das contas você quer mesmo é só o café, o especial dos [melhores cafés de Bondi](/bondi-eat-and-drink/best-cafes-bondi-beach) reúne os torrefadores levados a sério do bairro."},
-    {"type":"h2","text":"Como chegar"},
-    {"type":"p","text":"O número 211 da Bondi Road fica mais ou menos na metade do caminho entre Bondi Junction e a praia. Os ônibus 333 e 380 percorrem a Bondi Road de ponta a ponta entre o terminal de integração de Bondi Junction (que conecta com a linha de trem) e a areia, então dá para descer quase na porta - digite '211 Bondi Road' no planejador de viagens da Transport for NSW para ver os horários em tempo real. Por aqui o estacionamento de fim de semana é pago por parquímetro e ferozmente disputado, então deixe o carro em casa se puder."},
-    {"type":"callout","tone":"note","title":"Quer transformar a ida atrás de um rolinho num dia inteiro de comer e beber em Bondi?","text":"O nosso [guia de comer e beber em Bondi](/bondi-eat-and-drink) mapeia cada estabelecimento da praia - mais de 160 - com filtros por cozinha, área, preço e com quem você vai, para você emendar café da manhã, cafezinho e almoço de uma vez. Comece pelas [melhores padarias e doces](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) se ainda estiver naquela vibe de doce matinal."},
-    {"type":"faq","items":[
-      {"q":"Em quais dias o Sundays Bondi abre?","a":"É uma micropadaria de dias limitados e a agenda mudou desde a abertura, com listagens diferentes se contradizendo - então confirme no Instagram deles (@sundaysbondi) na véspera à noite, em vez de confiar num post antigo."},
-      {"q":"A que horas devo chegar para escapar da fila?","a":"Antes de abrir. A primeira fornada pode voar - no fim de semana de inauguração esgotou em cerca de uma hora -, então estar na fila antes de as portas abrirem é a sua melhor chance de pegar todos os sabores."},
-      {"q":"O que eu deveria pedir?","a":"Comece pelo clássico rolinho de canela com cream cheese. A linha principal também inclui Biscoff e Kinder chocolate, além de especiais rotativos como o de pistache, os twists de matcha e o coconut cloud coffee."},
-      {"q":"Como chego ao número 211 da Bondi Road?","a":"Fica mais ou menos na metade do caminho entre Bondi Junction e Bondi Beach, na Bondi Road, atendido pelos ônibus 333 e 380 a partir do terminal de Bondi Junction, e dá para subir a pé desde o calçadão."},
-      {"q":"E se o Sundays esgotou ou não vai assar naquele dia?","a":"Você tem boas alternativas por perto: [Bondi Boulangerie](/bondi-eat-and-drink/venues/bondi-boulangerie), [François Artisan Baker](/bondi-eat-and-drink/venues/fran-ois-artisan-baker), [Shuk Bakery](/bondi-eat-and-drink/venues/shuk-bakery) e [Sonoma Bakery Cafe Bondi](/bondi-eat-and-drink/venues/sonoma-bakery-cafe-bondi) estão todos a uma caminhada curta, e o nosso [guia de padarias e doces](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) tem a lista completa."}
-    ]}
+    {
+      "type": "p",
+      "text": "O [Sundays](/bondi-eat-and-drink/venues/sundays-bondi) é a minúscula micropadaria no número 211 da Bondi Road que a fundadora Laetitia Loefti transformou num verdadeiro fenômeno, em boa parte por filmar tudo no Instagram. Num dia bom, o balcão pode esvaziar em cerca de uma hora depois de abrir. Então garantir o seu rolinho sem perder a manhã na fila se resume, no fim das contas, a três jogadas: confira se eles estão mesmo abertos, chegue antes das portas e saiba o seu pedido antes de chegar à janelinha."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Onde",
+          "value": "211 Bondi Road, Bondi"
+        },
+        {
+          "label": "Fundadora",
+          "value": "Laetitia Loefti"
+        },
+        {
+          "label": "Famoso por",
+          "value": "Rolinhos de canela e de matcha, leves e areados"
+        },
+        {
+          "label": "Regra de ouro",
+          "value": "Chegue antes de abrir - eles esgotam"
+        },
+        {
+          "label": "Dias e horários",
+          "value": "Confirme no @sundaysbondi antes de ir"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Veja o dia e chegue antes das portas",
+      "text": "O Sundays funciona um número limitado de dias por semana e a agenda mudou desde que abriu, então listagens antigas se contradizem - abra o @sundaysbondi na véspera à noite para confirmar se eles vão assar. E encare o horário de fechamento anunciado como um limite, não como uma promessa: no fim de semana de inauguração esgotou tudo na primeira hora, então estar lá antes de abrir é a diferença entre pegar a primeira fornada e não pegar nada."
+    },
+    {
+      "type": "h2",
+      "text": "O que pedir"
+    },
+    {
+      "type": "p",
+      "text": "Os rolinhos não são daqueles densos e pesados de padaria - são leves e quase como uma panqueca, porque cada leva de massa passa a noite em fermentação a frio e ainda cresce mais duas vezes antes de ir ao forno. Essa textura é justamente a graça de tudo, então peça pelo menos um clássico para entender o porquê de tanto alvoroço."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Clássico de canela com cream cheese - o carro-chefe e o primeiro a acabar. Peça esse primeiro.",
+        "Biscoff - um sabor fixo, mais encorpado e caramelizado se você curte as coisas mais doces.",
+        "Kinder chocolate - o outro figurinha carimbada, e um sucesso com a criançada.",
+        "Especiais rotativos, como o de pistache - são os que somem mais rápido, então se estiver no balcão, agarra um.",
+        "Os twists de matcha e o coconut cloud coffee (espresso batido sobre água de coco) - o Sundays investe pesado nos dois, e qualquer um deles faz a dupla clássica com o seu rolinho."
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "Os lugares para sentar são pouquíssimos, quase nenhum, então eu sempre peço para viagem e desço a pé até o calçadão. Um rolinho de canela quentinho na grama acima da areia, café na mão, é uma das minhas manhãs preferidas em Bondi - um luxo que custa quase nada."
+    },
+    {
+      "type": "h2",
+      "text": "Se o Sundays já esgotou"
+    },
+    {
+      "type": "p",
+      "text": "Como o Sundays só assa alguns dias por semana e o balcão muitas vezes fica vazio bem antes do almoço, vale ter um plano B na manga. Estes são os lugares para onde eu escapo quando perco a fornada - todos a uma caminhada tranquila ou a um ônibus curto da Bondi Road:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[Bondi Boulangerie](/bondi-eat-and-drink/venues/bondi-boulangerie) - minha aposta certa quando o que eu quero é um croissant de verdade, e não um rolinho.",
+        "[François Artisan Baker](/bondi-eat-and-drink/venues/fran-ois-artisan-baker) - pães de fermentação natural e folhados feitos do jeito antigo, sem pressa.",
+        "[Shuk Bakery](/bondi-eat-and-drink/venues/shuk-bakery) - outra padaria de bairro que vale o desvio pelos assados.",
+        "[Sonoma Bakery Cafe Bondi](/bondi-eat-and-drink/venues/sonoma-bakery-cafe-bondi) - certeira quando você só quer sentar com um folhado e um café."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Para a lista completa de opções de doce matinal, temos a nossa seleção das [melhores padarias e doces de Bondi](/bondi-eat-and-drink/bakeries-sweets-bondi-beach), e se no fim das contas você quer mesmo é só o café, o especial dos [melhores cafés de Bondi](/bondi-eat-and-drink/best-cafes-bondi-beach) reúne os torrefadores levados a sério do bairro."
+    },
+    {
+      "type": "h2",
+      "text": "Como chegar"
+    },
+    {
+      "type": "p",
+      "text": "O número 211 da Bondi Road fica mais ou menos na metade do caminho entre Bondi Junction e a praia. Os ônibus 333 e 380 percorrem a Bondi Road de ponta a ponta entre o terminal de integração de Bondi Junction (que conecta com a linha de trem) e a areia, então dá para descer quase na porta - digite '211 Bondi Road' no planejador de viagens da Transport for NSW para ver os horários em tempo real. Por aqui o estacionamento de fim de semana é pago por parquímetro e ferozmente disputado, então deixe o carro em casa se puder."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Quer transformar a ida atrás de um rolinho num dia inteiro de comer e beber em Bondi?",
+      "text": "O nosso [guia de comer e beber em Bondi](/bondi-eat-and-drink) mapeia cada estabelecimento da praia - mais de 160 - com filtros por cozinha, área, preço e com quem você vai, para você emendar café da manhã, cafezinho e almoço de uma vez. Comece pelas [melhores padarias e doces](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) se ainda estiver naquela vibe de doce matinal."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Em quais dias o Sundays Bondi abre?",
+          "a": "É uma micropadaria de dias limitados e a agenda mudou desde a abertura, com listagens diferentes se contradizendo - então confirme no Instagram deles (@sundaysbondi) na véspera à noite, em vez de confiar num post antigo."
+        },
+        {
+          "q": "A que horas devo chegar para escapar da fila?",
+          "a": "Antes de abrir. A primeira fornada pode voar - no fim de semana de inauguração esgotou em cerca de uma hora -, então estar na fila antes de as portas abrirem é a sua melhor chance de pegar todos os sabores."
+        },
+        {
+          "q": "O que eu deveria pedir?",
+          "a": "Comece pelo clássico rolinho de canela com cream cheese. A linha principal também inclui Biscoff e Kinder chocolate, além de especiais rotativos como o de pistache, os twists de matcha e o coconut cloud coffee."
+        },
+        {
+          "q": "Como chego ao número 211 da Bondi Road?",
+          "a": "Fica mais ou menos na metade do caminho entre Bondi Junction e Bondi Beach, na Bondi Road, atendido pelos ônibus 333 e 380 a partir do terminal de Bondi Junction, e dá para subir a pé desde o calçadão."
+        },
+        {
+          "q": "E se o Sundays esgotou ou não vai assar naquele dia?",
+          "a": "Você tem boas alternativas por perto: [Bondi Boulangerie](/bondi-eat-and-drink/venues/bondi-boulangerie), [François Artisan Baker](/bondi-eat-and-drink/venues/fran-ois-artisan-baker), [Shuk Bakery](/bondi-eat-and-drink/venues/shuk-bakery) e [Sonoma Bakery Cafe Bondi](/bondi-eat-and-drink/venues/sonoma-bakery-cafe-bondi) estão todos a uma caminhada curta, e o nosso [guia de padarias e doces](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) tem a lista completa."
+        },
+        {
+          "q": "Existe um cardápio do Sundays Bondi online?",
+          "a": "Não um fixo - o cardápio é o que saiu do forno naquela manhã. A base é o clássico rolinho de canela com cream cheese, mais alguns sabores rotativos anunciados no Instagram deles (@sundays.bondi) a cada fornada. Nossa lista do que pedir, logo acima, cobre os clássicos que valem a fila."
+        }
+      ]
+    }
   ]
 }

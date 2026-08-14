@@ -8707,11 +8707,19 @@
           {
             "q": "How hard is Heartbreak Hill?",
             "a": "It's a roughly 2 km climb along New South Head Road from Rose Bay up to Vaucluse, beginning about 6 km into the race and gaining around 75 m. It's the steepest sustained section, but there are also several shorter rises after it before the downhill run to Bondi."
+          },
+          {
+            "q": "Is there an official City2Surf course map PDF I can download?",
+            "a": "Yes - the event publishes an official downloadable course map at city2surf.com.au each year, and that is the copy to trust for road closures and village layouts. Our section-by-section walkthrough above tells you what each part of that map actually feels like to run."
+          },
+          {
+            "q": "Can I get the route as a GPX file or follow it on Google Maps?",
+            "a": "The official interactive map at city2surf.com.au is the reliable source, and running platforms like Strava carry the course from previous years’ activities if you want a GPX to study. One caveat: on race day the 14 km route runs on closed roads, so regular Google Maps navigation will not follow it - use the official map on the day."
           }
         ]
       }
     ],
-    "wordCount": 526,
+    "wordCount": 655,
     "sources": [
       {
         "label": "Voltaren City2Surf - official course map & route",
@@ -18284,11 +18292,15 @@
           {
             "q": "What if Sundays has sold out or isn't baking that day?",
             "a": "You've got good fallbacks nearby: [Bondi Boulangerie](/bondi-eat-and-drink/venues/bondi-boulangerie), [François Artisan Baker](/bondi-eat-and-drink/venues/fran-ois-artisan-baker), [Shuk Bakery](/bondi-eat-and-drink/venues/shuk-bakery) and [Sonoma Bakery Cafe Bondi](/bondi-eat-and-drink/venues/sonoma-bakery-cafe-bondi) are all a short walk away, and our [bakeries & sweets guide](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) has the full list."
+          },
+          {
+            "q": "Is there a Sundays Bondi menu online?",
+            "a": "Not a fixed one - the menu is whatever came out of the oven that morning. The core line-up is the classic cinnamon scroll with cream cheese plus a few rotating flavours, announced on their Instagram (@sundays.bondi) bake by bake. Our what-to-order list above covers the signatures worth queueing for."
           }
         ]
       }
     ],
-    "wordCount": 842,
+    "wordCount": 899,
     "sources": [
       {
         "label": "Broadsheet - Sundays, a Scroll Micro-Bakery in Bondi",
@@ -22653,7 +22665,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi is about as relaxed as a city beach gets. Wear whatever you're comfortable in - budgie smugglers, burkinis, full wetsuit in January, nobody blinks. Topless sunbathing is broadly tolerated here and has been for decades; you'll see it, especially down the quieter stretches, and it isn't an issue. Full nudity is a different story: Bondi is not a designated nude beach, so it's not legal here. Sydney does have legal clothing-optional beaches - Bondi just isn't one of them, whatever a 1970s guidebook may have told you."
+        "text": "Bondi is about as relaxed as a city beach gets. Wear whatever you're comfortable in - budgie smugglers, burkinis, full wetsuit in January, nobody blinks. Topless sunbathing is broadly tolerated here and has been for decades; you'll see it, especially down the quieter stretches, and it isn't an issue. Full nudity is a different story: Bondi is not a designated nude beach, so it's not legal here. Sydney does have legal clothing-optional beaches - Bondi just isn't one of them, whatever a 1970s guidebook may have told you. If you’re wondering about a dress code more broadly: the beach itself has none worth naming, but venues expect a shirt and footwear."
       },
       {
         "type": "h2",
@@ -22778,6 +22790,10 @@
           {
             "q": "Is Bondi Beach open at night?",
             "a": "Yes - the beach has no gates or curfew, it's open 24 hours, and the 333 bus runs all night. But there are no lifeguards after patrol hours, so never swim at night. Walk the sand, enjoy the moon, stay out of the water."
+          },
+          {
+            "q": "Is there a dress code at Bondi Beach?",
+            "a": "On the sand, no - any swimwear is normal, from budgie smugglers to full coverage, and topless sunbathing is broadly tolerated (full nudity is not legal at Bondi). The unwritten dress code kicks in when you leave the beach: put a shirt and footwear on for cafés, shops and the bus - the “no shirt, no shoes, no service” convention is real here."
           }
         ]
       },
@@ -22786,7 +22802,7 @@
         "text": "So that's the rulebook - and honestly, none of it is there to spoil your day. It's why the sand is clean, the water's watched and the whole place still works with a few million visitors a year. Once you've got the official rules down, there's a second, unwritten layer that locals care about just as much - I've covered that in my [Bondi Beach etiquette guide](/bondi-blog/bondi-beach-etiquette-guide). And when you're ready to put it all into practice, here's [how to get to Bondi](/getting-to-bondi) without the parking headache."
       }
     ],
-    "wordCount": 1801,
+    "wordCount": 1895,
     "sources": [
       {
         "label": "Waverley Council - Beach safety & beach rules",

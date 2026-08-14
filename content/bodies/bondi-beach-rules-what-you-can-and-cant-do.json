@@ -3,68 +3,251 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-12",
   "sources": [
-    { "label": "Waverley Council - Beach safety & beach rules", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
-    { "label": "CASA - Know Your Drone (recreational drone rules)", "url": "https://www.casa.gov.au/knowyourdrone" },
-    { "label": "Transport for NSW - trip planner", "url": "https://transportnsw.info" }
+    {
+      "label": "Waverley Council - Beach safety & beach rules",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety"
+    },
+    {
+      "label": "CASA - Know Your Drone (recreational drone rules)",
+      "url": "https://www.casa.gov.au/knowyourdrone"
+    },
+    {
+      "label": "Transport for NSW - trip planner",
+      "url": "https://transportnsw.info"
+    }
   ],
   "blocks": [
-    { "type": "answer", "text": "Here's the 15-second version: no alcohol (Bondi Beach and Bondi Park are an enforced alcohol-free zone), no glass, no smoking or vaping, no dogs on the sand or promenade at any time, and no drones without approval. BBQs are fine - but only on the free electric ones in the park, never on the sand, and never charcoal or open flame. Topless sunbathing is tolerated; full nudity isn't legal here. And the beach itself never \"closes\" - you can walk it at 3am - but only ever swim when the lifeguards are on and the flags are up." },
-    { "type": "quickFacts", "items": [
-      { "label": "Alcohol", "value": "Banned - alcohol-free zone, enforced" },
-      { "label": "Glass", "value": "Banned on the beach and in the park" },
-      { "label": "Smoking & vaping", "value": "Banned - smoke-free beach" },
-      { "label": "Dogs", "value": "Never on the beach or promenade" },
-      { "label": "Drones", "value": "Council approval + CASA rules required" },
-      { "label": "Fires & charcoal", "value": "Banned - free electric BBQs in the park only" }
-    ] },
-    { "type": "h2", "text": "Drinking and glass: the rule everyone tests" },
-    { "type": "p", "text": "This is the one visitors ask me about most, usually while holding a bottle of something nice. The answer is a flat no: Bondi Beach and Bondi Park are an alcohol-free zone, and it's actually enforced - this isn't one of those signs nobody reads. Council rangers and police patrol, they will tip your drinks out, and fines happen. The glass ban is separate and just as firm, and honestly it's the one I care about most as a local - nobody wants to find the bottom of a broken bottle with a bare foot. If you want a sunset drink, do what we do: the licensed venues along [Campbell Parade and around the beach](/bondi-eat-and-drink) exist precisely for this, most of them with a better view than your picnic rug anyway." },
-    { "type": "p", "text": "Picnics themselves are completely welcome, to be clear - the grass in Bondi Park fills up with them every weekend. Just keep it dry and keep it out of glass. Cans and plastic for your soft drinks, and you'll never have a problem." },
-    { "type": "h2", "text": "Smoking and vaping" },
-    { "type": "p", "text": "Bondi is a smoke-free beach, and has been for years - it was one of the earliest in Australia to go that way, and locals are genuinely protective of it. Don't expect a vape to be treated any differently to a cigarette; treat the ban as covering both and you'll match how it's applied on the ground. If you need to know exactly where the smoke-free area starts and ends, Waverley Council publishes the boundaries - but the simple version is: not on the sand, not on the promenade, and read the room in the park." },
-    { "type": "h2", "text": "Dogs: I'm sorry, but no" },
-    { "type": "p", "text": "This one breaks hearts daily, and I get it - Bondi is one of the most dog-mad suburbs in Sydney, and the cafés are full of them. But dogs are not allowed on Bondi Beach or the promenade at any time. Not early morning, not off-season, not \"just for a quick photo\". Rangers patrol for this specifically because so many people chance it. Waverley does have on-leash and off-leash areas elsewhere in the area - check the council's current dog map for where your dog is genuinely welcome, because those rules shift by park and by time of day and I'd rather point you at the source than guess." },
-    { "type": "localTip", "text": "The \"everyone does it\" myth is exactly that - a myth. I've watched rangers work the beach on an ordinary Tuesday, and alcohol and dogs are the two things they fine for most visibly. The people you see getting away with it are the ones who haven't been walked past yet." },
-    { "type": "h2", "text": "BBQs, picnics and fires" },
-    { "type": "p", "text": "Good news first: there are four free electric BBQ stations in Bondi Park, the grassy strip behind the beach, and they're open until dusk. They're first-come, first-served and genuinely well used - I've written a whole [local's guide to the free BBQ spots](/bondi-blog/2025/1/20/locals-guide-to-free-bbq-spots-at-bondi-bronte-tamarama) if a cook-up is the plan. The hard line is fuel: no charcoal, no solid fuel, no open fires, anywhere - not in the park and absolutely not on the sand. A bonfire on the beach might be the postcard fantasy, but at Bondi it's a fast way to meet a ranger." },
-    { "type": "list", "items": [
-      "Free electric BBQs: four stations in Bondi Park, open until dusk",
-      "Charcoal, solid fuel and open fires: banned everywhere, beach and park",
-      "Picnics on the grass or sand: welcome - just no glass and no booze",
-      "Big group or an event? That crosses into council permit territory - ask Waverley first"
-    ] },
-    { "type": "h2", "text": "Drones and filming" },
-    { "type": "p", "text": "Short answer: don't fly a drone at Bondi without permission. Recreational drone flight over the beach needs Waverley Council approval on top of CASA's standard rules - and a summer crowd of thousands is close to the worst-case scenario for those rules anyway. If you're serious, start with [CASA's Know Your Drone rules](https://www.casa.gov.au/knowyourdrone) and then talk to the council; if you're casual, leave it in the bag and buy a postcard. The same permit logic applies to commercial photography and film shoots - Bondi hosts them constantly, but the ones you see have paperwork." },
-    { "type": "h2", "text": "Swimwear, topless and nudity" },
-    { "type": "p", "text": "Bondi is about as relaxed as a city beach gets. Wear whatever you're comfortable in - budgie smugglers, burkinis, full wetsuit in January, nobody blinks. Topless sunbathing is broadly tolerated here and has been for decades; you'll see it, especially down the quieter stretches, and it isn't an issue. Full nudity is a different story: Bondi is not a designated nude beach, so it's not legal here. Sydney does have legal clothing-optional beaches - Bondi just isn't one of them, whatever a 1970s guidebook may have told you." },
-    { "type": "h2", "text": "Night: can you be on the beach after dark?" },
-    { "type": "p", "text": "Yes - and this surprises people. Bondi Beach has no gates and no curfew; it's open 24 hours, and a moonlight walk along the sand is genuinely one of my favourite things about living here. The [333 bus even runs all night](/getting-to-bondi), roughly every 20 minutes, so you can get here and away at any hour. Being on the beach at night is legal and lovely. Swimming at night is neither smart nor safe - and that distinction matters enough that I'll give it its own box." },
-    { "type": "callout", "tone": "warning", "title": "Never swim at night", "text": "The beach is open 24/7, but the lifeguards aren't. Outside patrol hours there are no flags, no one watching, and rips you cannot see in the dark - Bondi's rips are serious even in daylight. Swim between the red-and-yellow flags during patrol hours, full stop. In an emergency, call 000." },
-    { "type": "p", "text": "As for sleeping on the beach overnight: the sand not having a gate doesn't make it a campsite. Camping and sleeping in public reserves is regulated by the council, rangers do move people on, and between the sprinklers, the 5am swimmers and the seagulls you wouldn't enjoy it anyway. If you're stuck for a bed, [there are hostels and hotels at every budget](/stay) a few minutes' walk away." },
-    { "type": "h2", "text": "Fishing, weddings, metal detecting and everything else" },
-    { "type": "p", "text": "There's a long tail of \"can I...?\" questions - fishing off the rocks, a wedding ceremony on the sand, metal detecting, fitness bootcamps, busking, horses. I'm not going to bluff specifics I haven't verified, so here's the honest structure of it: anything organised, commercial or equipment-heavy generally falls under Waverley Council's permit system, and anything involving fishing sits under state rules as well as council ones. The pattern at Bondi is rarely \"banned outright\" - it's \"allowed with the right permission, in the right place\". [Waverley Council](https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety) is the authority for all of it, and a quick email to them before you plan a beach wedding will save you an expensive surprise on the day." },
-    { "type": "table", "caption": "Bondi Beach rules at a glance", "columns": ["Activity", "Verdict", "The detail"], "rows": [
-      ["Swimming between the flags", "Allowed", "Patrolled year-round; the flags move during the day - swim between them"],
-      ["Alcohol", "Not allowed", "Beach and park are an enforced alcohol-free zone"],
-      ["Glass", "Not allowed", "Glass-free zone - bring cans and plastic instead"],
-      ["Smoking & vaping", "Not allowed", "Smoke-free beach; treat vapes the same as cigarettes"],
-      ["Dogs", "Not allowed", "Never on the beach or promenade; council maps show where dogs can go"],
-      ["Council electric BBQs", "Allowed", "Four free stations in Bondi Park, open until dusk"],
-      ["Charcoal, fires, solid fuel", "Not allowed", "No open fires anywhere - park or sand"],
-      ["Topless sunbathing", "Allowed", "Broadly tolerated; full nudity is not legal - Bondi isn't a nude beach"],
-      ["Being on the beach at night", "Allowed", "No gates, no curfew - but never swim outside patrol hours"],
-      ["Drones", "With permission", "Waverley Council approval plus CASA rules"],
-      ["Weddings, shoots, events, bootcamps", "With permission", "Waverley Council's permit system covers organised and commercial use"],
-      ["Fishing", "Check first", "State fishing rules plus council rules apply - confirm before you cast"]
-    ] },
-    { "type": "faq", "items": [
-      { "q": "Can you drink alcohol at Bondi Beach?", "a": "No. Bondi Beach and Bondi Park are an alcohol-free zone and it's enforced - rangers and police patrol, confiscate drinks and issue fines. The licensed bars and restaurants along Campbell Parade are the legal (and frankly more comfortable) option for a drink with a beach view." },
-      { "q": "Are dogs allowed at Bondi Beach?", "a": "No - dogs aren't allowed on the beach or the promenade at any time, and rangers do fine for it. Waverley Council has on-leash and off-leash areas elsewhere in the area; check their current dog rules for where your dog is welcome." },
-      { "q": "Can I fly a drone at Bondi Beach?", "a": "Not without permission. Recreational drone flight over Bondi needs Waverley Council approval on top of CASA's standard drone rules, and a crowded beach is a hard place to fly legally under those rules anyway. Practical answer: don't, unless you've done the paperwork." },
-      { "q": "Is Bondi a nude beach?", "a": "No. Topless sunbathing is broadly tolerated at Bondi and has been for decades, but full nudity isn't legal here - Bondi is not a designated clothing-optional beach." },
-      { "q": "Can you smoke or vape at Bondi Beach?", "a": "No - Bondi is a smoke-free beach, and in practice vaping is treated the same as smoking. Waverley Council publishes the exact smoke-free boundaries if you need them, but the safe assumption is: not on the sand, not on the promenade." },
-      { "q": "Is Bondi Beach open at night?", "a": "Yes - the beach has no gates or curfew, it's open 24 hours, and the 333 bus runs all night. But there are no lifeguards after patrol hours, so never swim at night. Walk the sand, enjoy the moon, stay out of the water." }
-    ] },
-    { "type": "p", "text": "So that's the rulebook - and honestly, none of it is there to spoil your day. It's why the sand is clean, the water's watched and the whole place still works with a few million visitors a year. Once you've got the official rules down, there's a second, unwritten layer that locals care about just as much - I've covered that in my [Bondi Beach etiquette guide](/bondi-blog/bondi-beach-etiquette-guide). And when you're ready to put it all into practice, here's [how to get to Bondi](/getting-to-bondi) without the parking headache." }
+    {
+      "type": "answer",
+      "text": "Here's the 15-second version: no alcohol (Bondi Beach and Bondi Park are an enforced alcohol-free zone), no glass, no smoking or vaping, no dogs on the sand or promenade at any time, and no drones without approval. BBQs are fine - but only on the free electric ones in the park, never on the sand, and never charcoal or open flame. Topless sunbathing is tolerated; full nudity isn't legal here. And the beach itself never \"closes\" - you can walk it at 3am - but only ever swim when the lifeguards are on and the flags are up."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Alcohol",
+          "value": "Banned - alcohol-free zone, enforced"
+        },
+        {
+          "label": "Glass",
+          "value": "Banned on the beach and in the park"
+        },
+        {
+          "label": "Smoking & vaping",
+          "value": "Banned - smoke-free beach"
+        },
+        {
+          "label": "Dogs",
+          "value": "Never on the beach or promenade"
+        },
+        {
+          "label": "Drones",
+          "value": "Council approval + CASA rules required"
+        },
+        {
+          "label": "Fires & charcoal",
+          "value": "Banned - free electric BBQs in the park only"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Drinking and glass: the rule everyone tests"
+    },
+    {
+      "type": "p",
+      "text": "This is the one visitors ask me about most, usually while holding a bottle of something nice. The answer is a flat no: Bondi Beach and Bondi Park are an alcohol-free zone, and it's actually enforced - this isn't one of those signs nobody reads. Council rangers and police patrol, they will tip your drinks out, and fines happen. The glass ban is separate and just as firm, and honestly it's the one I care about most as a local - nobody wants to find the bottom of a broken bottle with a bare foot. If you want a sunset drink, do what we do: the licensed venues along [Campbell Parade and around the beach](/bondi-eat-and-drink) exist precisely for this, most of them with a better view than your picnic rug anyway."
+    },
+    {
+      "type": "p",
+      "text": "Picnics themselves are completely welcome, to be clear - the grass in Bondi Park fills up with them every weekend. Just keep it dry and keep it out of glass. Cans and plastic for your soft drinks, and you'll never have a problem."
+    },
+    {
+      "type": "h2",
+      "text": "Smoking and vaping"
+    },
+    {
+      "type": "p",
+      "text": "Bondi is a smoke-free beach, and has been for years - it was one of the earliest in Australia to go that way, and locals are genuinely protective of it. Don't expect a vape to be treated any differently to a cigarette; treat the ban as covering both and you'll match how it's applied on the ground. If you need to know exactly where the smoke-free area starts and ends, Waverley Council publishes the boundaries - but the simple version is: not on the sand, not on the promenade, and read the room in the park."
+    },
+    {
+      "type": "h2",
+      "text": "Dogs: I'm sorry, but no"
+    },
+    {
+      "type": "p",
+      "text": "This one breaks hearts daily, and I get it - Bondi is one of the most dog-mad suburbs in Sydney, and the cafés are full of them. But dogs are not allowed on Bondi Beach or the promenade at any time. Not early morning, not off-season, not \"just for a quick photo\". Rangers patrol for this specifically because so many people chance it. Waverley does have on-leash and off-leash areas elsewhere in the area - check the council's current dog map for where your dog is genuinely welcome, because those rules shift by park and by time of day and I'd rather point you at the source than guess."
+    },
+    {
+      "type": "localTip",
+      "text": "The \"everyone does it\" myth is exactly that - a myth. I've watched rangers work the beach on an ordinary Tuesday, and alcohol and dogs are the two things they fine for most visibly. The people you see getting away with it are the ones who haven't been walked past yet."
+    },
+    {
+      "type": "h2",
+      "text": "BBQs, picnics and fires"
+    },
+    {
+      "type": "p",
+      "text": "Good news first: there are four free electric BBQ stations in Bondi Park, the grassy strip behind the beach, and they're open until dusk. They're first-come, first-served and genuinely well used - I've written a whole [local's guide to the free BBQ spots](/bondi-blog/2025/1/20/locals-guide-to-free-bbq-spots-at-bondi-bronte-tamarama) if a cook-up is the plan. The hard line is fuel: no charcoal, no solid fuel, no open fires, anywhere - not in the park and absolutely not on the sand. A bonfire on the beach might be the postcard fantasy, but at Bondi it's a fast way to meet a ranger."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Free electric BBQs: four stations in Bondi Park, open until dusk",
+        "Charcoal, solid fuel and open fires: banned everywhere, beach and park",
+        "Picnics on the grass or sand: welcome - just no glass and no booze",
+        "Big group or an event? That crosses into council permit territory - ask Waverley first"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Drones and filming"
+    },
+    {
+      "type": "p",
+      "text": "Short answer: don't fly a drone at Bondi without permission. Recreational drone flight over the beach needs Waverley Council approval on top of CASA's standard rules - and a summer crowd of thousands is close to the worst-case scenario for those rules anyway. If you're serious, start with [CASA's Know Your Drone rules](https://www.casa.gov.au/knowyourdrone) and then talk to the council; if you're casual, leave it in the bag and buy a postcard. The same permit logic applies to commercial photography and film shoots - Bondi hosts them constantly, but the ones you see have paperwork."
+    },
+    {
+      "type": "h2",
+      "text": "Swimwear, topless and nudity"
+    },
+    {
+      "type": "p",
+      "text": "Bondi is about as relaxed as a city beach gets. Wear whatever you're comfortable in - budgie smugglers, burkinis, full wetsuit in January, nobody blinks. Topless sunbathing is broadly tolerated here and has been for decades; you'll see it, especially down the quieter stretches, and it isn't an issue. Full nudity is a different story: Bondi is not a designated nude beach, so it's not legal here. Sydney does have legal clothing-optional beaches - Bondi just isn't one of them, whatever a 1970s guidebook may have told you. If you’re wondering about a dress code more broadly: the beach itself has none worth naming, but venues expect a shirt and footwear."
+    },
+    {
+      "type": "h2",
+      "text": "Night: can you be on the beach after dark?"
+    },
+    {
+      "type": "p",
+      "text": "Yes - and this surprises people. Bondi Beach has no gates and no curfew; it's open 24 hours, and a moonlight walk along the sand is genuinely one of my favourite things about living here. The [333 bus even runs all night](/getting-to-bondi), roughly every 20 minutes, so you can get here and away at any hour. Being on the beach at night is legal and lovely. Swimming at night is neither smart nor safe - and that distinction matters enough that I'll give it its own box."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Never swim at night",
+      "text": "The beach is open 24/7, but the lifeguards aren't. Outside patrol hours there are no flags, no one watching, and rips you cannot see in the dark - Bondi's rips are serious even in daylight. Swim between the red-and-yellow flags during patrol hours, full stop. In an emergency, call 000."
+    },
+    {
+      "type": "p",
+      "text": "As for sleeping on the beach overnight: the sand not having a gate doesn't make it a campsite. Camping and sleeping in public reserves is regulated by the council, rangers do move people on, and between the sprinklers, the 5am swimmers and the seagulls you wouldn't enjoy it anyway. If you're stuck for a bed, [there are hostels and hotels at every budget](/stay) a few minutes' walk away."
+    },
+    {
+      "type": "h2",
+      "text": "Fishing, weddings, metal detecting and everything else"
+    },
+    {
+      "type": "p",
+      "text": "There's a long tail of \"can I...?\" questions - fishing off the rocks, a wedding ceremony on the sand, metal detecting, fitness bootcamps, busking, horses. I'm not going to bluff specifics I haven't verified, so here's the honest structure of it: anything organised, commercial or equipment-heavy generally falls under Waverley Council's permit system, and anything involving fishing sits under state rules as well as council ones. The pattern at Bondi is rarely \"banned outright\" - it's \"allowed with the right permission, in the right place\". [Waverley Council](https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety) is the authority for all of it, and a quick email to them before you plan a beach wedding will save you an expensive surprise on the day."
+    },
+    {
+      "type": "table",
+      "caption": "Bondi Beach rules at a glance",
+      "columns": [
+        "Activity",
+        "Verdict",
+        "The detail"
+      ],
+      "rows": [
+        [
+          "Swimming between the flags",
+          "Allowed",
+          "Patrolled year-round; the flags move during the day - swim between them"
+        ],
+        [
+          "Alcohol",
+          "Not allowed",
+          "Beach and park are an enforced alcohol-free zone"
+        ],
+        [
+          "Glass",
+          "Not allowed",
+          "Glass-free zone - bring cans and plastic instead"
+        ],
+        [
+          "Smoking & vaping",
+          "Not allowed",
+          "Smoke-free beach; treat vapes the same as cigarettes"
+        ],
+        [
+          "Dogs",
+          "Not allowed",
+          "Never on the beach or promenade; council maps show where dogs can go"
+        ],
+        [
+          "Council electric BBQs",
+          "Allowed",
+          "Four free stations in Bondi Park, open until dusk"
+        ],
+        [
+          "Charcoal, fires, solid fuel",
+          "Not allowed",
+          "No open fires anywhere - park or sand"
+        ],
+        [
+          "Topless sunbathing",
+          "Allowed",
+          "Broadly tolerated; full nudity is not legal - Bondi isn't a nude beach"
+        ],
+        [
+          "Being on the beach at night",
+          "Allowed",
+          "No gates, no curfew - but never swim outside patrol hours"
+        ],
+        [
+          "Drones",
+          "With permission",
+          "Waverley Council approval plus CASA rules"
+        ],
+        [
+          "Weddings, shoots, events, bootcamps",
+          "With permission",
+          "Waverley Council's permit system covers organised and commercial use"
+        ],
+        [
+          "Fishing",
+          "Check first",
+          "State fishing rules plus council rules apply - confirm before you cast"
+        ]
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Can you drink alcohol at Bondi Beach?",
+          "a": "No. Bondi Beach and Bondi Park are an alcohol-free zone and it's enforced - rangers and police patrol, confiscate drinks and issue fines. The licensed bars and restaurants along Campbell Parade are the legal (and frankly more comfortable) option for a drink with a beach view."
+        },
+        {
+          "q": "Are dogs allowed at Bondi Beach?",
+          "a": "No - dogs aren't allowed on the beach or the promenade at any time, and rangers do fine for it. Waverley Council has on-leash and off-leash areas elsewhere in the area; check their current dog rules for where your dog is welcome."
+        },
+        {
+          "q": "Can I fly a drone at Bondi Beach?",
+          "a": "Not without permission. Recreational drone flight over Bondi needs Waverley Council approval on top of CASA's standard drone rules, and a crowded beach is a hard place to fly legally under those rules anyway. Practical answer: don't, unless you've done the paperwork."
+        },
+        {
+          "q": "Is Bondi a nude beach?",
+          "a": "No. Topless sunbathing is broadly tolerated at Bondi and has been for decades, but full nudity isn't legal here - Bondi is not a designated clothing-optional beach."
+        },
+        {
+          "q": "Can you smoke or vape at Bondi Beach?",
+          "a": "No - Bondi is a smoke-free beach, and in practice vaping is treated the same as smoking. Waverley Council publishes the exact smoke-free boundaries if you need them, but the safe assumption is: not on the sand, not on the promenade."
+        },
+        {
+          "q": "Is Bondi Beach open at night?",
+          "a": "Yes - the beach has no gates or curfew, it's open 24 hours, and the 333 bus runs all night. But there are no lifeguards after patrol hours, so never swim at night. Walk the sand, enjoy the moon, stay out of the water."
+        },
+        {
+          "q": "Is there a dress code at Bondi Beach?",
+          "a": "On the sand, no - any swimwear is normal, from budgie smugglers to full coverage, and topless sunbathing is broadly tolerated (full nudity is not legal at Bondi). The unwritten dress code kicks in when you leave the beach: put a shirt and footwear on for cafés, shops and the bus - the “no shirt, no shoes, no service” convention is real here."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So that's the rulebook - and honestly, none of it is there to spoil your day. It's why the sand is clean, the water's watched and the whole place still works with a few million visitors a year. Once you've got the official rules down, there's a second, unwritten layer that locals care about just as much - I've covered that in my [Bondi Beach etiquette guide](/bondi-blog/bondi-beach-etiquette-guide). And when you're ready to put it all into practice, here's [how to get to Bondi](/getting-to-bondi) without the parking headache."
+    }
   ]
 }

@@ -5,43 +5,126 @@
   "metaDescription": "Bondi の Sundays を地元目線でご案内。看板メニュー、営業時間、そして混雑を避けて並ばずに買うコツまでまとめました。",
   "h1": "Sundays Bondi インサイダーガイド ― 営業時間・人気フレーバー・行列回避術",
   "blocks": [
-    {"type":"p","text":"[Sundays](/bondi-eat-and-drink/venues/sundays-bondi) は、Bondi Road 211 番地にある小さなマイクロベーカリーです。創業者の Laetitia Loefti さんが、その一部始終を Instagram で発信したことで、いまや本物の話題スポットになりました。人気の日には、開店からおよそ1時間でショーケースが空になることも。だからこそ、朝を行列で潰さずにスクロールを手に入れるカギは、たった三つです。まず本当に営業しているか確認すること、次に開店前に着いておくこと、そして窓口に着く前に注文を決めておくことです。"},
-    {"type":"quickFacts","items":[
-      {"label":"場所","value":"211 Bondi Road, Bondi"},
-      {"label":"創業者","value":"Laetitia Loefti"},
-      {"label":"名物","value":"軽くてふんわりしたシナモン&抹茶のスクロール"},
-      {"label":"鉄則","value":"開店前に到着を ― すぐ売り切れます"},
-      {"label":"営業日・時間","value":"行く前に @sundaysbondi で確認を"}
-    ]},
-    {"type":"callout","tone":"warning","title":"営業日を確かめ、開店前に着く","text":"Sundays は週に限られた日数しか営業しておらず、オープン以来スケジュールも変わっているので、古い情報同士が食い違っています。前の晩に @sundaysbondi を開いて、その日焼いているか確認しましょう。そして掲示された閉店時間は「約束」ではなく「上限」と考えてください。オープンした週末は最初の1時間で完売したので、開店前にいるかどうかが、最初のひと窯にありつけるか、何も残っていないかの分かれ目になります。"},
-    {"type":"h2","text":"何を注文する?"},
-    {"type":"p","text":"ここのスクロールは、ずっしり重いベーカリー系ではありません。生地は一晩かけて低温発酵させ、焼く前にさらに二度ふくらませているので、軽くて、まるでパンケーキのような食感です。その食感こそがすべての肝なので、まずは定番をひとつ頼んで、この騒ぎの理由を確かめてみてください。"},
-    {"type":"list","items":[
-      "クリームチーズ入りのクラシックシナモン ― 看板メニューで、真っ先に売り切れる一品。最初に頼みましょう。",
-      "Biscoff ― 定番フレーバーのひとつ。より濃厚でキャラメル感が強く、甘めが好きな方に。",
-      "Kinder チョコレート ― もうひとつの定番で、子どもに大人気です。",
-      "ピスタチオなど日替わりのスペシャル ― これが一番早く消えるので、出ていたら迷わずどうぞ。",
-      "抹茶ツイストと coconut cloud coffee(ココナッツウォーターに泡立てたエスプレッソをのせたもの)― Sundays はこの二つに力を入れていて、どちらもスクロールとの王道の組み合わせです。"
-    ]},
-    {"type":"localTip","text":"座席はほとんど、いえ、ほぼありません。だから私はいつもテイクアウトにして、そのままプロムナードまで歩いて行きます。砂浜を見下ろす芝生の上で、温かいシナモンスクロールを頬張り、片手にコーヒー。これは私のお気に入りの、ささやかで最高な Bondi の朝のひとつです。"},
-    {"type":"h2","text":"Sundays が売り切れていたら"},
-    {"type":"p","text":"Sundays は週に数日しか焼かず、しかもお昼のかなり前にショーケースが空になることも多いので、代わりの手を用意しておくと安心です。ひと窯を逃したときに私が向かう先はこちら。どれも Bondi Road から歩いてすぐ、あるいはバスでひと区間の距離です。"},
-    {"type":"list","items":[
-      "[Bondi Boulangerie](/bondi-eat-and-drink/venues/bondi-boulangerie) ― スクロールではなく、きちんとしたクロワッサンが欲しいときの私の定番。",
-      "[François Artisan Baker](/bondi-eat-and-drink/venues/fran-ois-artisan-baker) ― サワードウやペストリーを、昔ながらの手間をかけた製法で。",
-      "[Shuk Bakery](/bondi-eat-and-drink/venues/shuk-bakery) ― その焼き菓子のために回り道する価値のある、もうひとつの街のベーカリー。",
-      "[Sonoma Bakery Cafe Bondi](/bondi-eat-and-drink/venues/sonoma-bakery-cafe-bondi) ― ペストリーとコーヒーで腰を落ち着けたいだけなら、間違いのない一軒。"
-    ]},
-    {"type":"p","text":"朝のスイーツ選びをまるごと知りたいなら、私たちの [Bondi のベストベーカリー&スイーツ](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) のおすすめリストをどうぞ。目当てが本当にコーヒーだけなら、[Bondi のベストカフェ&コーヒー](/bondi-eat-and-drink/best-cafes-bondi-beach) 特集に、この街の本格ロースターがそろっています。"},
-    {"type":"h2","text":"行き方"},
-    {"type":"p","text":"211 Bondi Road は、Bondi Junction とビーチのちょうど中間あたりにあります。333番と380番のバスがどちらも Bondi Road を端から端まで走り、Bondi Junction のインターチェンジ(こちらは鉄道路線とつながっています)と砂浜を結んでいるので、ほぼお店の前で降りられます。'211 Bondi Road' を Transport for NSW のトリッププランナーに入れれば、リアルタイムの時刻が分かります。ここの週末の駐車はメーター制でしかも争奪戦なので、できれば車は避けるのが賢明です。"},
-    {"type":"callout","tone":"note","title":"スクロール巡りを、もっと大きな Bondi 食べ歩きの一日に?","text":"私たちの [Bondi eat & drink ガイド](/bondi-eat-and-drink) は、ビーチのお店を160軒以上すべてマッピングしていて、料理ジャンル・エリア・価格・同行者で絞り込めます。朝食、コーヒー、ランチまで一気に段取りできますよ。まだ朝のスイーツ気分なら、[ベストベーカリー&スイーツ](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) から始めてみてください。"},
-    {"type":"faq","items":[
-      {"q":"Sundays Bondi は何曜日に営業していますか?","a":"営業日が限られたマイクロベーカリーで、オープン以来スケジュールも変わっており、掲載情報同士も食い違っています。ですから古い投稿を信じるより、前の晩に彼らの Instagram(@sundaysbondi)で確認してください。"},
-      {"q":"行列を避けるには何時に着けばいいですか?","a":"開店前です。最初のひと窯はすぐになくなることがあり、オープンした週末はおよそ1時間で完売しました。ですから開店前から並んでおくのが、全種類のフレーバーに出会える一番のチャンスです。"},
-      {"q":"何を注文すべきですか?","a":"まずはクリームチーズ入りのクラシックシナモンスクロールから。定番のラインナップには Biscoff と Kinder チョコレートもあり、さらにピスタチオなどの日替わりスペシャル、抹茶ツイスト、coconut cloud coffee もあります。"},
-      {"q":"211 Bondi Road へはどう行けばいいですか?","a":"Bondi Road 沿い、Bondi Junction と Bondi Beach のちょうど中間あたりにあります。Bondi Junction のインターチェンジから出る333番と380番のバスが通っていて、プロムナードから歩いて上がることもできます。"},
-      {"q":"Sundays が売り切れ、あるいはその日焼いていなかったら?","a":"近くに頼れる代わりがあります。[Bondi Boulangerie](/bondi-eat-and-drink/venues/bondi-boulangerie)、[François Artisan Baker](/bondi-eat-and-drink/venues/fran-ois-artisan-baker)、[Shuk Bakery](/bondi-eat-and-drink/venues/shuk-bakery)、[Sonoma Bakery Cafe Bondi](/bondi-eat-and-drink/venues/sonoma-bakery-cafe-bondi) はどれも歩いてすぐ。私たちの [ベーカリー&スイーツガイド](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) に全リストがあります。"}
-    ]}
+    {
+      "type": "p",
+      "text": "[Sundays](/bondi-eat-and-drink/venues/sundays-bondi) は、Bondi Road 211 番地にある小さなマイクロベーカリーです。創業者の Laetitia Loefti さんが、その一部始終を Instagram で発信したことで、いまや本物の話題スポットになりました。人気の日には、開店からおよそ1時間でショーケースが空になることも。だからこそ、朝を行列で潰さずにスクロールを手に入れるカギは、たった三つです。まず本当に営業しているか確認すること、次に開店前に着いておくこと、そして窓口に着く前に注文を決めておくことです。"
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "場所",
+          "value": "211 Bondi Road, Bondi"
+        },
+        {
+          "label": "創業者",
+          "value": "Laetitia Loefti"
+        },
+        {
+          "label": "名物",
+          "value": "軽くてふんわりしたシナモン&抹茶のスクロール"
+        },
+        {
+          "label": "鉄則",
+          "value": "開店前に到着を ― すぐ売り切れます"
+        },
+        {
+          "label": "営業日・時間",
+          "value": "行く前に @sundaysbondi で確認を"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "営業日を確かめ、開店前に着く",
+      "text": "Sundays は週に限られた日数しか営業しておらず、オープン以来スケジュールも変わっているので、古い情報同士が食い違っています。前の晩に @sundaysbondi を開いて、その日焼いているか確認しましょう。そして掲示された閉店時間は「約束」ではなく「上限」と考えてください。オープンした週末は最初の1時間で完売したので、開店前にいるかどうかが、最初のひと窯にありつけるか、何も残っていないかの分かれ目になります。"
+    },
+    {
+      "type": "h2",
+      "text": "何を注文する?"
+    },
+    {
+      "type": "p",
+      "text": "ここのスクロールは、ずっしり重いベーカリー系ではありません。生地は一晩かけて低温発酵させ、焼く前にさらに二度ふくらませているので、軽くて、まるでパンケーキのような食感です。その食感こそがすべての肝なので、まずは定番をひとつ頼んで、この騒ぎの理由を確かめてみてください。"
+    },
+    {
+      "type": "list",
+      "items": [
+        "クリームチーズ入りのクラシックシナモン ― 看板メニューで、真っ先に売り切れる一品。最初に頼みましょう。",
+        "Biscoff ― 定番フレーバーのひとつ。より濃厚でキャラメル感が強く、甘めが好きな方に。",
+        "Kinder チョコレート ― もうひとつの定番で、子どもに大人気です。",
+        "ピスタチオなど日替わりのスペシャル ― これが一番早く消えるので、出ていたら迷わずどうぞ。",
+        "抹茶ツイストと coconut cloud coffee(ココナッツウォーターに泡立てたエスプレッソをのせたもの)― Sundays はこの二つに力を入れていて、どちらもスクロールとの王道の組み合わせです。"
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "座席はほとんど、いえ、ほぼありません。だから私はいつもテイクアウトにして、そのままプロムナードまで歩いて行きます。砂浜を見下ろす芝生の上で、温かいシナモンスクロールを頬張り、片手にコーヒー。これは私のお気に入りの、ささやかで最高な Bondi の朝のひとつです。"
+    },
+    {
+      "type": "h2",
+      "text": "Sundays が売り切れていたら"
+    },
+    {
+      "type": "p",
+      "text": "Sundays は週に数日しか焼かず、しかもお昼のかなり前にショーケースが空になることも多いので、代わりの手を用意しておくと安心です。ひと窯を逃したときに私が向かう先はこちら。どれも Bondi Road から歩いてすぐ、あるいはバスでひと区間の距離です。"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[Bondi Boulangerie](/bondi-eat-and-drink/venues/bondi-boulangerie) ― スクロールではなく、きちんとしたクロワッサンが欲しいときの私の定番。",
+        "[François Artisan Baker](/bondi-eat-and-drink/venues/fran-ois-artisan-baker) ― サワードウやペストリーを、昔ながらの手間をかけた製法で。",
+        "[Shuk Bakery](/bondi-eat-and-drink/venues/shuk-bakery) ― その焼き菓子のために回り道する価値のある、もうひとつの街のベーカリー。",
+        "[Sonoma Bakery Cafe Bondi](/bondi-eat-and-drink/venues/sonoma-bakery-cafe-bondi) ― ペストリーとコーヒーで腰を落ち着けたいだけなら、間違いのない一軒。"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "朝のスイーツ選びをまるごと知りたいなら、私たちの [Bondi のベストベーカリー&スイーツ](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) のおすすめリストをどうぞ。目当てが本当にコーヒーだけなら、[Bondi のベストカフェ&コーヒー](/bondi-eat-and-drink/best-cafes-bondi-beach) 特集に、この街の本格ロースターがそろっています。"
+    },
+    {
+      "type": "h2",
+      "text": "行き方"
+    },
+    {
+      "type": "p",
+      "text": "211 Bondi Road は、Bondi Junction とビーチのちょうど中間あたりにあります。333番と380番のバスがどちらも Bondi Road を端から端まで走り、Bondi Junction のインターチェンジ(こちらは鉄道路線とつながっています)と砂浜を結んでいるので、ほぼお店の前で降りられます。'211 Bondi Road' を Transport for NSW のトリッププランナーに入れれば、リアルタイムの時刻が分かります。ここの週末の駐車はメーター制でしかも争奪戦なので、できれば車は避けるのが賢明です。"
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "スクロール巡りを、もっと大きな Bondi 食べ歩きの一日に?",
+      "text": "私たちの [Bondi eat & drink ガイド](/bondi-eat-and-drink) は、ビーチのお店を160軒以上すべてマッピングしていて、料理ジャンル・エリア・価格・同行者で絞り込めます。朝食、コーヒー、ランチまで一気に段取りできますよ。まだ朝のスイーツ気分なら、[ベストベーカリー&スイーツ](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) から始めてみてください。"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Sundays Bondi は何曜日に営業していますか?",
+          "a": "営業日が限られたマイクロベーカリーで、オープン以来スケジュールも変わっており、掲載情報同士も食い違っています。ですから古い投稿を信じるより、前の晩に彼らの Instagram(@sundaysbondi)で確認してください。"
+        },
+        {
+          "q": "行列を避けるには何時に着けばいいですか?",
+          "a": "開店前です。最初のひと窯はすぐになくなることがあり、オープンした週末はおよそ1時間で完売しました。ですから開店前から並んでおくのが、全種類のフレーバーに出会える一番のチャンスです。"
+        },
+        {
+          "q": "何を注文すべきですか?",
+          "a": "まずはクリームチーズ入りのクラシックシナモンスクロールから。定番のラインナップには Biscoff と Kinder チョコレートもあり、さらにピスタチオなどの日替わりスペシャル、抹茶ツイスト、coconut cloud coffee もあります。"
+        },
+        {
+          "q": "211 Bondi Road へはどう行けばいいですか?",
+          "a": "Bondi Road 沿い、Bondi Junction と Bondi Beach のちょうど中間あたりにあります。Bondi Junction のインターチェンジから出る333番と380番のバスが通っていて、プロムナードから歩いて上がることもできます。"
+        },
+        {
+          "q": "Sundays が売り切れ、あるいはその日焼いていなかったら?",
+          "a": "近くに頼れる代わりがあります。[Bondi Boulangerie](/bondi-eat-and-drink/venues/bondi-boulangerie)、[François Artisan Baker](/bondi-eat-and-drink/venues/fran-ois-artisan-baker)、[Shuk Bakery](/bondi-eat-and-drink/venues/shuk-bakery)、[Sonoma Bakery Cafe Bondi](/bondi-eat-and-drink/venues/sonoma-bakery-cafe-bondi) はどれも歩いてすぐ。私たちの [ベーカリー&スイーツガイド](/bondi-eat-and-drink/bakeries-sweets-bondi-beach) に全リストがあります。"
+        },
+        {
+          "q": "Sundays Bondi のメニューはオンラインで見られますか?",
+          "a": "固定のメニューはありません - その日の朝オーブンから出てきたものがすべてです。定番はクリームチーズをのせたクラシックなシナモンスクロールで、そこに日替わりのフレーバーが数種類加わり、Instagram(@sundays.bondi)で焼き上がりごとに発表されます。並んででも食べたい看板メニューは、上の「何を注文すべきか」のリストにまとめています。"
+        }
+      ]
+    }
   ]
 }
