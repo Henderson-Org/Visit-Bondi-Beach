@@ -7,6 +7,7 @@ import { eventSlugs } from '@/data/events';
 import { collectionSlugs as diningCollectionSlugs, venuesWithPages } from '@/lib/restaurantGuide';
 import { allTranslations, availableLocales } from '@/lib/translations';
 import { hreflangAlternates, localizedPath } from '@/lib/i18n';
+import { REDIRECTED_PATHS } from '@/lib/redirects';
 
 /**
  * XML sitemap generated from the content index. Only indexable pages are included
@@ -14,8 +15,9 @@ import { hreflangAlternates, localizedPath } from '@/lib/i18n';
  * per the migration checklist.
  */
 
-// Paths that redirect (301) and must NOT appear in the sitemap.
-const REDIRECTED = new Set(['/accommodation', '/bondi-blog']);
+// Paths that redirect (301) must NOT appear in the sitemap - shared registry
+// (content/redirected-paths.json), same source the router and translation guard use.
+const REDIRECTED = REDIRECTED_PATHS;
 
 // Code-defined routes (app/*), not in the content index.
 const STATIC_ROUTES: { path: string; priority: number }[] = [

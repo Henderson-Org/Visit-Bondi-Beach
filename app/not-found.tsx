@@ -7,7 +7,7 @@ const TOP_GUIDES = [
   { label: 'Where to swim at Bondi', href: '/where-to-swim-at-bondi-beach' },
   { label: 'Bondi Icebergs guide', href: '/bondi-icebergs' },
   { label: 'Bondi to Bronte coastal walk', href: '/bondi-blog/2023/9/21/walking-on-sunshine-the-ultimate-guide-to-the-bondi-to-bronte-coastal-walk' },
-  { label: 'Bondi parking guide', href: '/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days' },
+  { label: 'Bondi parking guide', href: '/bondi-blog/where-to-find-carpark-bondi-beach' },
 ];
 
 export default function NotFound() {

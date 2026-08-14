@@ -80,6 +80,14 @@ const nextConfig = {
       { source: '/bondi-blog/access-bondi-icebergs-pool', destination: '/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool', statusCode: 301 },
       { source: '/bondi-blog/is-bondi-icebergs-pool-heated', destination: '/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more', statusCode: 301 },
       { source: '/bondi-blog/how-long-is-bondi-icebergs-poo', destination: '/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more', statusCode: 301 },
+      // Round 5 (GSC-driven consolidation, 2026-08-14): three cannibalising clusters.
+      // Whale watching: two dated near-dupes (3 + 4 impressions) -> the evergreen guide (8, translated x7).
+      { source: '/bondi-blog/whale-watching-bondi-guide-2024', destination: '/bondi-blog/whale-watching-bondi-beach', statusCode: 301 },
+      { source: '/bondi-blog/2025/4/27/whale-watching-season-at-bondi-2025-everything-you-need-to-know', destination: '/bondi-blog/whale-watching-bondi-beach', statusCode: 301 },
+      // Icebergs public-access: same query intent (9 imp) -> the 46-impression survivor; richer body migrated first.
+      { source: '/bondi-blog/2024/9/21/can-the-public-swim-at-bondi-icebergs-ocean-pool', destination: '/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool', statusCode: 301 },
+      // Bondi parking: duplicate topic (15 imp) -> the 75-impression, most-backlinked article; unique blocks migrated.
+      { source: '/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days', destination: '/bondi-blog/where-to-find-carpark-bondi-beach', statusCode: 301 },
     ];
   },
 };
