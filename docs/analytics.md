@@ -51,9 +51,10 @@ Indexes lead with `occurred_at` (every dashboard panel filters by date first), p
 ### Retention
 
 **Raw events are kept indefinitely.** There is no TTL, no pruning job, no cron and no
-retention policy anywhere in this project. `scripts/migrate-analytics.mjs` refuses to run
-if `schema.sql` ever contains `DROP`, `DELETE` or `TRUNCATE`. Rollup tables may be added
-later for speed, but they must be derived from this table, never replace it.
+retention policy anywhere in this project. Both the runtime and the migration script call
+`schemaIsNonDestructive()` (`lib/analytics/schema.ts`) and refuse to execute anything
+containing `DROP`, `DELETE` or `TRUNCATE`. Rollup tables may be added later for speed, but
+they must be derived from this table, never replace it.
 
 ### What is deliberately NOT collected
 
