@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { EditorialHero } from '@/components/EditorialHero';
 import { EventCard } from '@/components/events/EventCard';
 import { GlanceItem } from '@/components/stay/primitives';
-import { isProduction, siteOrigin } from '@/lib/site';
+import { isProduction, siteOrigin, seoTitle } from '@/lib/site';
 import { breadcrumbJsonLd, eventJsonLd } from '@/lib/structured-data';
 import {
   getEvent,
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const e = getEvent(slug);
   if (!e) return { title: 'Event not found' };
   return {
-    title: `${e.title} - Bondi Beach`,
+    title: seoTitle(`${e.title} - Bondi Beach`),
     description: e.summary,
     alternates: { canonical: `/whats-on/${slug}` },
     robots: isProduction() ? undefined : { index: false, follow: true },

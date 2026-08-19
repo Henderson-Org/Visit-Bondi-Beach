@@ -4,7 +4,7 @@ import { EditorialHero } from '@/components/EditorialHero';
 import { Faq } from '@/components/blocks';
 import { RestaurantCard } from '@/components/eat/RestaurantCard';
 import { RestaurantBrowser } from '@/components/eat/RestaurantBrowser';
-import { isProduction } from '@/lib/site';
+import { isProduction, seoTitle } from '@/lib/site';
 import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from '@/lib/structured-data';
 import { restaurants, byScore, cuisineFacets, PRECINCT_LABEL } from '@/data/restaurants';
 import {
@@ -29,7 +29,7 @@ export const revalidate = 86400;
 
 export function generateMetadata(): Metadata {
   return {
-    title: TITLE,
+    title: seoTitle(TITLE),
     description: DESCRIPTION,
     alternates: { canonical: '/bondi-eat-and-drink' },
     robots: isProduction() ? undefined : { index: false, follow: true },

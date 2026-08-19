@@ -6,7 +6,7 @@ import { AccommodationCard } from '@/components/stay/AccommodationCard';
 import { StayBrowser } from '@/components/stay/StayBrowser';
 import { ComparisonTable } from '@/components/stay/ComparisonTable';
 import { AffiliateDisclosure } from '@/components/stay/AffiliateDisclosure';
-import { isProduction } from '@/lib/site';
+import { isProduction, seoTitle } from '@/lib/site';
 import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from '@/lib/structured-data';
 import { facetFor, FILTER_TAGS, FILTER_TYPES } from '@/lib/stay';
 import {
@@ -26,7 +26,7 @@ export const revalidate = 86400;
 
 export function generateMetadata(): Metadata {
   return {
-    title: TITLE,
+    title: seoTitle(TITLE),
     description: DESCRIPTION,
     alternates: { canonical: '/stay' },
     robots: isProduction() ? undefined : { index: false, follow: true },

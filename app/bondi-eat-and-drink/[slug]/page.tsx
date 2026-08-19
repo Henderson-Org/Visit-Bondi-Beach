@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { EditorialHero } from '@/components/EditorialHero';
 import { RestaurantCard } from '@/components/eat/RestaurantCard';
-import { isProduction } from '@/lib/site';
+import { isProduction, seoTitle } from '@/lib/site';
 import { breadcrumbJsonLd, itemListJsonLd } from '@/lib/structured-data';
 import { getCollection, collectionSlugs, venuesForCollection, venuePageHref } from '@/lib/restaurantGuide';
 import { PRICE_LABEL } from '@/data/restaurants';
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = getCollection(slug);
   if (!c) return { title: 'Page not found' };
   return {
-    title: c.metaTitle,
+    title: seoTitle(c.metaTitle),
     description: c.metaDescription,
     alternates: { canonical: `/bondi-eat-and-drink/${slug}` },
     robots: isProduction() ? undefined : { index: false, follow: true },

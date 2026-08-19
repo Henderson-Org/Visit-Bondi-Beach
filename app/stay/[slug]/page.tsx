@@ -9,7 +9,7 @@ import { AffiliateDisclosure } from '@/components/stay/AffiliateDisclosure';
 import { AtAGlance } from '@/components/stay/AtAGlance';
 import { VbbRating } from '@/components/stay/VbbRating';
 import { PriceBadge } from '@/components/stay/primitives';
-import { isProduction, AUTHOR } from '@/lib/site';
+import { isProduction, AUTHOR, seoTitle } from '@/lib/site';
 import { bookingLinkFor } from '@/lib/stay';
 import {
   breadcrumbJsonLd,
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!p || !g) return { title: 'Page not found' };
   const title = `${p.name} - Review & Guide`;
   return {
-    title,
+    title: seoTitle(title),
     description: g.verdict,
     alternates: { canonical: `/stay/${slug}` },
     robots: isProduction() ? undefined : { index: false, follow: true },

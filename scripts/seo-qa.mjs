@@ -28,6 +28,21 @@ function group(pages, keyFn) {
 
 async function main() {
   const pages = JSON.parse(await readFile(join(ROOT, 'content', 'pages.json'), 'utf8'));
+  // Authored bodies replace the original crawled content, so pages.json's `wordCount` is
+  // stale for them (it still describes the pre-rewrite page). The runtime overlays the
+  // override's count (lib/content.ts), so QA must read the same value the site renders -
+  // otherwise fully-rewritten articles are reported as thin and real thin pages get lost
+  // in the noise.
+  let overrides = {};
+  try {
+    overrides = JSON.parse(await readFile(join(ROOT, 'content', 'body-overrides.json'), 'utf8'));
+  } catch {
+    /* bodies not built yet - fall back to pages.json counts */
+  }
+  for (const p of pages) {
+    const ov = overrides[p.path];
+    if (ov && typeof ov.wordCount === 'number') p.wordCount = ov.wordCount;
+  }
   const indexable = pages.filter((p) => p.indexable);
   const issues = { error: [], warn: [] };
 

@@ -44,6 +44,28 @@ export const SITE = {
 } as const;
 
 /**
+ * The brand suffix appended by the root layout's title template (`%s - Visit Bondi Beach`).
+ */
+export const BRAND_SUFFIX = ` - ${SITE.name}`;
+
+/**
+ * Returns a Next.js `title` value that keeps the descriptive, keyword-bearing part of a
+ * title visible in the SERP. The layout template appends BRAND_SUFFIX (20 chars) to every
+ * plain-string title, which pushes long titles past Google's ~60-char cutoff and truncates
+ * exactly the words that earn the click. So: keep the suffix only while the FULL rendered
+ * title still fits; otherwise emit `{ absolute }` (no suffix).
+ *
+ * Callers must pass the bare title WITHOUT the suffix - the length test has to be applied
+ * to the rendered result, not the input, which is the bug this helper exists to prevent.
+ * `app/[...slug]` implements the same rule inline for content pages; code routes (venues,
+ * stay, what's-on, dining collections) should use this.
+ */
+export function seoTitle(clean: string): string | { absolute: string } {
+  const bare = clean.replace(new RegExp(`\\s*${BRAND_SUFFIX}\\s*$`, 'i'), '').trim();
+  return bare.length + BRAND_SUFFIX.length > 60 ? { absolute: bare } : bare;
+}
+
+/**
  * Editorial author. Content is written in a first-person local voice (the owner's
  * own opinion / local knowledge), so first-person is legitimate. Default attributes
  * to the local brand; set NEXT_PUBLIC_AUTHOR_NAME to a real person + switch `type`

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { StayCategoryView } from '@/components/stay/StayCategoryView';
 import { getStayCategory } from '@/data/stay-categories';
-import { isProduction } from '@/lib/site';
+import { isProduction, seoTitle } from '@/lib/site';
 
 const SLUG = 'hotels-near-bondi-beach';
 export const revalidate = 86400;
@@ -9,7 +9,7 @@ export const revalidate = 86400;
 export function generateMetadata(): Metadata {
   const c = getStayCategory(SLUG)!;
   return {
-    title: c.metaTitle,
+    title: seoTitle(c.metaTitle),
     description: c.metaDescription,
     alternates: { canonical: `/stay/${SLUG}` },
     robots: isProduction() ? undefined : { index: false, follow: true },

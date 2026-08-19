@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { EditorialHero } from '@/components/EditorialHero';
 import { RestaurantCard } from '@/components/eat/RestaurantCard';
-import { isProduction } from '@/lib/site';
+import { isProduction, seoTitle } from '@/lib/site';
 import { breadcrumbJsonLd, restaurantJsonLd } from '@/lib/structured-data';
 import { getRestaurant, PRICE_LABEL, PRECINCT_LABEL, VENUE_TYPE_LABEL } from '@/data/restaurants';
 import {
@@ -39,7 +39,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description =
     r.summary.length > 155 ? `${r.summary.slice(0, 152).trimEnd()}…` : r.summary;
   return {
-    title: title.length > 60 ? { absolute: `${r.name}, Bondi Beach` } : title,
+    // seoTitle() measures the FULL rendered title (this + the layout's brand suffix).
+    // Testing `title.length > 60` here missed the 20-char suffix, so venue titles were
+    // rendering at 61-80 chars and truncating the precinct/type words in the SERP.
+    // A handful of venue names are long enough that even "<name> - <type> in <precinct>"
+    // overflows on its own, so fall back to the name plus a plain locality.
+    title: title.length > 60 ? { absolute: `${r.name}, Bondi Beach` } : seoTitle(title),
     description,
     alternates: { canonical: `/bondi-eat-and-drink/venues/${id}` },
     robots: isProduction() ? undefined : { index: false, follow: true },

@@ -95,13 +95,28 @@ export function bondiPlaceJsonLd() {
   };
 }
 
+/** Stable @id for the WebSite node, so other nodes can reference it instead of re-declaring it. */
+export function websiteId() {
+  return `${siteOrigin()}/#website`;
+}
+
+/**
+ * The WebSite node. Carries an @id so BlogPosting/Article can point `isPartOf` at this one
+ * entity rather than each inlining an anonymous Blog object, and names the publisher by @id
+ * so the site → publisher → author chain resolves as a single connected graph (the thing
+ * search and answer engines use to decide who is behind the content).
+ */
 export function websiteJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
+    '@id': websiteId(),
     name: SITE.name,
     url: siteOrigin(),
     description: SITE.description,
+    inLanguage: 'en-AU',
+    publisher: { '@id': `${siteOrigin()}/#org` },
+    about: { '@id': `${siteOrigin()}/${BONDI_PLACE_ID}` },
   };
 }
 
@@ -147,7 +162,9 @@ export function articleJsonLd(page: Page, opts?: { url?: string; inLanguage?: st
     url,
     mainEntityOfPage: url,
     ...(opts?.inLanguage ? { inLanguage: opts.inLanguage } : {}),
-    isPartOf: { '@type': 'Blog', name: `${SITE.name} - Articles`, url: `${siteOrigin()}/articles` },
+    // Reference the single WebSite node (emitted globally in app/layout.tsx) by @id rather
+    // than inlining an anonymous Blog on every article - one connected graph, not 500 islands.
+    isPartOf: { '@id': websiteId() },
   };
   // Reference the single author entity by @id (emitted globally in app/layout.tsx) rather
   // than inlining an anonymous author on every article - one resolvable identity for E-E-A-T.

@@ -4,7 +4,7 @@ import { EditorialHero } from '@/components/EditorialHero';
 import { GuideCard, guideCardFromPage } from '@/components/GuideCard';
 import { ArticleList } from '@/components/articles/ArticleList';
 import { UpcomingEvents } from '@/components/events/UpcomingEvents';
-import { isProduction } from '@/lib/site';
+import { isProduction, seoTitle } from '@/lib/site';
 import { breadcrumbJsonLd } from '@/lib/structured-data';
 import { featuredArticles } from '@/lib/content';
 import { articleFacets, articleTopicsWithCounts, TOPIC_LABEL, TOPIC_SECTION } from '@/lib/articles';
@@ -18,7 +18,7 @@ export const revalidate = 86400;
 
 export function generateMetadata(): Metadata {
   return {
-    title: TITLE,
+    title: seoTitle(TITLE),
     description: DESCRIPTION,
     alternates: { canonical: '/articles' },
     robots: isProduction() ? undefined : { index: false, follow: true },

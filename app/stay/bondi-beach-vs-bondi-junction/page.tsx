@@ -4,7 +4,7 @@ import { EditorialHero } from '@/components/EditorialHero';
 import { Faq } from '@/components/blocks';
 import { AffiliateButton } from '@/components/stay/AffiliateButton';
 import { AffiliateDisclosure } from '@/components/stay/AffiliateDisclosure';
-import { isProduction } from '@/lib/site';
+import { isProduction, seoTitle } from '@/lib/site';
 import { breadcrumbJsonLd, faqJsonLd } from '@/lib/structured-data';
 import { getAffiliateLink } from '@/lib/affiliate';
 
@@ -17,7 +17,7 @@ export const revalidate = 86400;
 
 export function generateMetadata(): Metadata {
   return {
-    title: TITLE,
+    title: seoTitle(TITLE),
     description: DESCRIPTION,
     alternates: { canonical: '/stay/bondi-beach-vs-bondi-junction' },
     robots: isProduction() ? undefined : { index: false, follow: true },

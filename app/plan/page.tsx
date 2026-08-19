@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import { PlannerApp } from '@/components/PlannerApp';
-import { isProduction } from '@/lib/site';
+import { isProduction, seoTitle } from '@/lib/site';
 
 const TITLE = 'Bondi Day Planner';
 const DESCRIPTION =
@@ -10,7 +10,7 @@ const HERO = '/images/hero-bondi-sunrise.webp';
 
 export function generateMetadata(): Metadata {
   return {
-    title: TITLE,
+    title: seoTitle(TITLE),
     description: DESCRIPTION,
     alternates: { canonical: '/plan' },
     robots: isProduction() ? undefined : { index: false, follow: true },

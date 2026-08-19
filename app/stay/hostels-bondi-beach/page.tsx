@@ -5,7 +5,7 @@ import { Faq } from '@/components/blocks';
 import { AccommodationCard } from '@/components/stay/AccommodationCard';
 import { AffiliateButton } from '@/components/stay/AffiliateButton';
 import { AffiliateDisclosure } from '@/components/stay/AffiliateDisclosure';
-import { isProduction } from '@/lib/site';
+import { isProduction, seoTitle } from '@/lib/site';
 import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from '@/lib/structured-data';
 import { getAffiliateLink } from '@/lib/affiliate';
 import { hostels } from '@/data/accommodation';
@@ -19,7 +19,7 @@ export const revalidate = 86400;
 
 export function generateMetadata(): Metadata {
   return {
-    title: TITLE,
+    title: seoTitle(TITLE),
     description: DESCRIPTION,
     alternates: { canonical: '/stay/hostels-bondi-beach' },
     robots: isProduction() ? undefined : { index: false, follow: true },

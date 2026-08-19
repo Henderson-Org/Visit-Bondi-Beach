@@ -3,34 +3,109 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-14",
   "sources": [
-    { "label": "Transport for NSW - trip planner", "url": "https://transportnsw.info" }
+    {
+      "label": "Transport for NSW - trip planner",
+      "url": "https://transportnsw.info"
+    }
   ],
   "blocks": [
-    { "type": "answer", "text": "No - there's no ferry to Bondi Beach, and there never has been. Bondi faces the open Pacific Ocean, not Sydney Harbour, so there's no wharf and no ferry route. The fast way here is the T4 train to Bondi Junction plus a 333 or 380 bus - about 40-45 minutes from Circular Quay. But if you had your heart set on a boat, there's a genuinely lovely workaround: catch the ferry from Circular Quay to Watsons Bay, then ride the 380 bus along the clifftops down to Bondi. Slower, but the prettiest public-transport approach to the beach there is." },
-    { "type": "quickFacts", "items": [
-      { "label": "Ferry to Bondi?", "value": "No - no wharf, no route. Bondi is an ocean beach" },
-      { "label": "Fast way", "value": "T4 train to Bondi Junction + 333/380 bus, ~40-45 min from Circular Quay" },
-      { "label": "Scenic way", "value": "Circular Quay ferry to Watsons Bay, then the 380 bus to Bondi" },
-      { "label": "Where to get off", "value": "Campbell Parade, right behind the beach" },
-      { "label": "Payment", "value": "Tap on/off with any contactless card or phone - no cash on buses" },
-      { "label": "The beach with the ferry", "value": "That's Manly - a different beach, on the harbour side" }
-    ] },
-    { "type": "h2", "text": "Why there's no ferry to Bondi" },
-    { "type": "p", "text": "It comes down to geography. Sydney's ferries live on the harbour - that sheltered, wharf-lined waterway you see in every postcard of the Opera House. Bondi isn't on the harbour at all. It's an ocean beach, a kilometre-long crescent of sand facing straight out into the Pacific swell, with headlands on either side and surf rolling in all day. There's no wharf, no sheltered water to build one in, and no ferry captain who'd want to dock in a beach break anyway. So when you search the trip planner for a ferry to Bondi, it will quietly hand you a train and a bus instead - that's not an error, that's the geography talking." },
-    { "type": "p", "text": "I mention this because it catches people out constantly. Visitors quite reasonably assume that Sydney's most famous beach and Sydney's famous ferries must connect. They don't - and the beach that does have the famous ferry ride is Manly, over on the other side of the harbour. If a ferry ride is the whole point of your day, I've written an honest comparison of [Bondi versus Manly](/bondi-blog/bondi-or-manly-travel-guide) to help you choose." },
-    { "type": "h2", "text": "The scenic workaround: ferry to Watsons Bay, then the 380" },
-    { "type": "p", "text": "Here's the good news: you can still get most of the way to Bondi by boat, and honestly it's my favourite way to bring visitors out. Catch a ferry from Circular Quay to Watsons Bay - a gorgeous run down the harbour past the Opera House, the naval yards and a string of little bays. From the Watsons Bay wharf, walk up to the bus stop and catch the 380 towards Bondi Junction - the route is literally named \"Watsons Bay to Bondi Junction via Bondi Beach\" (verified August 2026), so you can't go wrong. Get off on Campbell Parade, the strip that runs right behind the sand, and you're there." },
-    { "type": "p", "text": "The 380 leg is the treat. The bus climbs out of Watsons Bay and runs along the top of the coast through Dover Heights and North Bondi, and on a clear day you get flashes of open ocean and clifftop that most visitors never see. Then the road tips over the hill and the whole Bondi crescent opens up below you - it's a proper arrival. I won't pretend it's quick: between waiting for the ferry, the sailing and the bus, it's comfortably slower than the train, so treat it as part of the day out rather than a commute. Check [transportnsw.info](https://transportnsw.info) for today's ferry and bus times before you set off, and tap on and off with any contactless card or phone - there are no cash tickets on board." },
-    { "type": "localTip", "text": "On the 380 from Watsons Bay, sit on the left - the ocean side. That's where the clifftop views are, and it's the side the beach appears on when the bus comes over the hill into North Bondi. Best free scenic ride in the eastern suburbs." },
-    { "type": "h2", "text": "The fast way, for when you just want the sand" },
-    { "type": "p", "text": "If you're not fussed about the boat, the standard route is quicker and dead simple: take the T4 train to Bondi Junction - the end of the line, so you can't overshoot - then hop on a 333 or 380 bus from the interchange upstairs down to the beach. Get off on Campbell Parade and walk straight onto the sand. All up it's about 40-45 minutes from Circular Quay, and the same tap-on, tap-off contactless payment covers the whole trip, with the transfer between train and bus discounted automatically. I've broken the whole thing down stop by stop in my full [getting to Bondi guide](/getting-to-bondi)." },
-    { "type": "faq", "items": [
-      { "q": "Is there a ferry to Bondi Beach?", "a": "No. Bondi is an open-ocean beach on the Pacific coast, not on Sydney Harbour, so it has no wharf and no ferry service. The public-transport route is the T4 train to Bondi Junction plus a 333 or 380 bus." },
-      { "q": "What's the closest ferry wharf to Bondi Beach?", "a": "Watsons Bay, at the harbour entrance north of Bondi. From the wharf, the 380 bus runs to Bondi Beach along the clifftops - get off on Campbell Parade. Use the trip planner at transportnsw.info for connection times." },
-      { "q": "Is the ferry-plus-bus route worth it?", "a": "As a scenic day out, absolutely - the harbour ferry to Watsons Bay and the clifftop 380 is the prettiest public-transport approach to Bondi. As a way to get to the beach quickly, no - the train to Bondi Junction plus a bus is faster and more frequent." },
-      { "q": "Should I choose Bondi or Manly if I want a ferry ride?", "a": "If the ferry ride itself is the main event, Manly is the honest answer - the Circular Quay to Manly ferry is one of Sydney's great experiences and drops you a short walk from the beach. Bondi wins on surf-beach atmosphere and the coastal walk. My Bondi-or-Manly guide compares them properly." },
-      { "q": "How do I pay on the ferry and the bus?", "a": "Tap on and off with any contactless Visa, Mastercard or Amex card, or your phone or watch - the same card gets you transfer discounts across ferry, train and bus. Buses take no cash. Kids need a Child Opal card for child fares; a tapped bank card always charges the adult fare." }
-    ] },
-    { "type": "p", "text": "So no, you can't step off a ferry onto Bondi sand - but between the fast train-and-bus run and the Watsons Bay ferry workaround, you've got two good ways in, one for pace and one for the view. Every route, stop and step is laid out in my [getting to Bondi guide](/getting-to-bondi), and if this is your first visit, my [first-timer guide](/start-here) will sort the rest of your day once your feet hit Campbell Parade." }
+    {
+      "type": "answer",
+      "text": "No - there's no ferry to Bondi Beach, and there never has been. Bondi faces the open Pacific Ocean, not Sydney Harbour, so there's no wharf and no ferry route. The fast way here is the T4 train to Bondi Junction plus a 333 or 380 bus - about 40-45 minutes from Circular Quay. But if you had your heart set on a boat, there's a genuinely lovely workaround: catch the ferry from Circular Quay to Watsons Bay, then ride the 380 bus along the clifftops down to Bondi. Slower, but the prettiest public-transport approach to the beach there is."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Ferry to Bondi?",
+          "value": "No - no wharf, no route. Bondi is an ocean beach"
+        },
+        {
+          "label": "Fast way",
+          "value": "T4 train to Bondi Junction + 333/380 bus, ~40-45 min from Circular Quay"
+        },
+        {
+          "label": "Scenic way",
+          "value": "Circular Quay ferry to Watsons Bay, then the 380 bus to Bondi"
+        },
+        {
+          "label": "Where to get off",
+          "value": "Campbell Parade, right behind the beach"
+        },
+        {
+          "label": "Payment",
+          "value": "Tap on/off with any contactless card or phone - no cash on buses"
+        },
+        {
+          "label": "The beach with the ferry",
+          "value": "That's Manly - a different beach, on the harbour side"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why there's no ferry to Bondi"
+    },
+    {
+      "type": "p",
+      "text": "It comes down to geography. Sydney's ferries live on the harbour - that sheltered, wharf-lined waterway you see in every postcard of the Opera House. Bondi isn't on the harbour at all. It's an ocean beach, a kilometre-long crescent of sand facing straight out into the Pacific swell, with headlands on either side and surf rolling in all day. There's no wharf, no sheltered water to build one in, and no ferry captain who'd want to dock in a beach break anyway. So when you search the trip planner for a ferry to Bondi, it will quietly hand you a train and a bus instead - that's not an error, that's the geography talking."
+    },
+    {
+      "type": "p",
+      "text": "I mention this because it catches people out constantly. Visitors quite reasonably assume that Sydney's most famous beach and Sydney's famous ferries must connect. They don't - and the beach that does have the famous ferry ride is Manly, over on the other side of the harbour. If a ferry ride is the whole point of your day, I've written an honest comparison of [Bondi versus Manly](/bondi-blog/bondi-or-manly-travel-guide) to help you choose."
+    },
+    {
+      "type": "h2",
+      "text": "The scenic workaround: ferry to Watsons Bay, then the 380"
+    },
+    {
+      "type": "p",
+      "text": "Here's the good news: you can still get most of the way to Bondi by boat, and honestly it's my favourite way to bring visitors out. Catch a ferry from Circular Quay to Watsons Bay - a gorgeous run down the harbour past the Opera House, the naval yards and a string of little bays. From the Watsons Bay wharf, walk up to the bus stop and catch the 380 towards Bondi Junction - the route is literally named \"Watsons Bay to Bondi Junction via Bondi Beach\" (verified August 2026), so you can't go wrong. Get off on Campbell Parade, the strip that runs right behind the sand, and you're there."
+    },
+    {
+      "type": "p",
+      "text": "The 380 leg is the treat. The bus climbs out of Watsons Bay and runs along the top of the coast through Dover Heights and North Bondi, and on a clear day you get flashes of open ocean and clifftop that most visitors never see. Then the road tips over the hill and the whole Bondi crescent opens up below you - it's a proper arrival. I won't pretend it's quick: between waiting for the ferry, the sailing and the bus, it's comfortably slower than the train, so treat it as part of the day out rather than a commute. Check [transportnsw.info](https://transportnsw.info) for today's ferry and bus times before you set off, and tap on and off with any contactless card or phone - there are no cash tickets on board."
+    },
+    {
+      "type": "localTip",
+      "text": "On the 380 from Watsons Bay, sit on the left - the ocean side. That's where the clifftop views are, and it's the side the beach appears on when the bus comes over the hill into North Bondi. Best free scenic ride in the eastern suburbs."
+    },
+    {
+      "type": "h2",
+      "text": "The fast way, for when you just want the sand"
+    },
+    {
+      "type": "p",
+      "text": "If you're not fussed about the boat, the standard route is quicker and dead simple: take the T4 train to Bondi Junction - the end of the line, so you can't overshoot - then hop on a 333 or 380 bus from the interchange upstairs down to the beach. Get off on Campbell Parade and walk straight onto the sand. All up it's about 40-45 minutes from Circular Quay, and the same tap-on, tap-off contactless payment covers the whole trip, with the transfer between train and bus discounted automatically. I've broken the whole thing down stop by stop in my full [getting to Bondi guide](/getting-to-bondi). One thing worth knowing before you set off: [Bondi Junction is not Bondi Beach](/bondi-blog/2024/9/20/is-bondi-junction-the-same-as-bondi-beach) - it's a shopping district 2.5 km up the hill, and the bus leg is what closes the gap."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is there a ferry to Bondi Beach?",
+          "a": "No. Bondi is an open-ocean beach on the Pacific coast, not on Sydney Harbour, so it has no wharf and no ferry service. The public-transport route is the T4 train to Bondi Junction plus a 333 or 380 bus."
+        },
+        {
+          "q": "What's the closest ferry wharf to Bondi Beach?",
+          "a": "Watsons Bay, at the harbour entrance north of Bondi. From the wharf, the 380 bus runs to Bondi Beach along the clifftops - get off on Campbell Parade. Use the trip planner at transportnsw.info for connection times."
+        },
+        {
+          "q": "Is the ferry-plus-bus route worth it?",
+          "a": "As a scenic day out, absolutely - the harbour ferry to Watsons Bay and the clifftop 380 is the prettiest public-transport approach to Bondi. As a way to get to the beach quickly, no - the train to Bondi Junction plus a bus is faster and more frequent."
+        },
+        {
+          "q": "Should I choose Bondi or Manly if I want a ferry ride?",
+          "a": "If the ferry ride itself is the main event, Manly is the honest answer - the Circular Quay to Manly ferry is one of Sydney's great experiences and drops you a short walk from the beach. Bondi wins on surf-beach atmosphere and the coastal walk. My Bondi-or-Manly guide compares them properly."
+        },
+        {
+          "q": "How do I pay on the ferry and the bus?",
+          "a": "Tap on and off with any contactless Visa, Mastercard or Amex card, or your phone or watch - the same card gets you transfer discounts across ferry, train and bus. Buses take no cash. Kids need a Child Opal card for child fares; a tapped bank card always charges the adult fare."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So no, you can't step off a ferry onto Bondi sand - but between the fast train-and-bus run and the Watsons Bay ferry workaround, you've got two good ways in, one for pace and one for the view. Every route, stop and step is laid out in my [getting to Bondi guide](/getting-to-bondi), and if this is your first visit, my [first-timer guide](/start-here) will sort the rest of your day once your feet hit Campbell Parade."
+    }
   ]
 }
