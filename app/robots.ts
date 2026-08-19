@@ -17,7 +17,10 @@ export default function robots(): MetadataRoute.Robots {
   // from this allow. (The non-standard `host` directive was dropped - Google/Bing ignore it.)
   return {
     rules: [
-      { userAgent: '*', allow: '/', disallow: ['/api/', '/search'] },
+      // /admin is disallowed as an extra signal only. The actual protection is the
+      // authentication enforced in middleware.ts - robots.txt is a request, not a lock,
+      // and a disallowed path can still be discovered. Never treat this line as security.
+      { userAgent: '*', allow: '/', disallow: ['/api/', '/search', '/admin'] },
     ],
     sitemap: `${PROD_ORIGIN}/sitemap.xml`,
   };

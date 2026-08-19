@@ -23,6 +23,7 @@ import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { AdsenseScript } from '@/components/Adsense';
 import { Analytics } from '@/components/Analytics';
+import { AnalyticsBeacon } from '@/components/AnalyticsBeacon';
 import { TravelpayoutsEmbed } from '@/components/TravelpayoutsEmbed';
 import { SITE, siteOrigin, isProduction } from '@/lib/site';
 import { organizationJsonLd, websiteJsonLd, authorJsonLd } from '@/lib/structured-data';
@@ -68,6 +69,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteFooter />
         <AdsenseScript />
         <Analytics />
+        {/* First-party analytics. Runs alongside GA4 (which is untouched) and writes to
+            our own database, so the site's history survives dropping any third party. */}
+        <AnalyticsBeacon />
         <TravelpayoutsEmbed />
       </body>
     </html>
