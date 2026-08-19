@@ -23,7 +23,7 @@
     "seo:regression": "node scripts/seo-regression.mjs",
     "seo:check-index": "node scripts/check-indexability.mjs",
     "freshness:audit": "node scripts/freshness-audit.mjs",
-    "analytics:migrate": "node scripts/migrate-analytics.mjs"
+    "analytics:migrate": "node --experimental-strip-types scripts/migrate-analytics.ts"
   },
   "dependencies": {
     "isbot": "^5.2.1",

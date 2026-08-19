@@ -1,4 +1,5 @@
 import { Pool, type QueryResultRow } from 'pg';
+import { SCHEMA_STATEMENTS, schemaIsNonDestructive } from './schema';
 
 /**
  * Database access for analytics.
@@ -55,11 +56,46 @@ export function pool(): Pool {
   return globalThis.__vbbAnalyticsPool;
 }
 
-/** Run a parameterised query. Never interpolate user input into the SQL text. */
+/**
+ * Create the analytics table and indexes if they are not already there.
+ *
+ * The site owner should not have to run SQL by hand to switch analytics on, so the app
+ * provisions its own schema on first use. This is safe to call constantly because every
+ * statement is `IF NOT EXISTS`, and the result is cached per process, so the DDL runs at
+ * most once per server instance rather than once per request.
+ *
+ * It only ever CREATEs. `schemaIsNonDestructive()` refuses to run anything that could
+ * drop or delete data, so this path can never destroy collected analytics.
+ */
+let schemaReady: Promise<void> | null = null;
+
+export function ensureSchema(): Promise<void> {
+  if (!schemaReady) {
+    schemaReady = (async () => {
+      if (!schemaIsNonDestructive()) {
+        throw new Error('Refusing to apply analytics schema: it contains a destructive statement.');
+      }
+      const p = pool();
+      for (const stmt of SCHEMA_STATEMENTS) await p.query(stmt);
+    })().catch((err) => {
+      // Let the next call retry rather than caching a permanent failure (e.g. the
+      // database was still waking up, as Neon does after idling).
+      schemaReady = null;
+      throw err;
+    });
+  }
+  return schemaReady;
+}
+
+/**
+ * Run a parameterised query. Never interpolate user input into the SQL text.
+ * Ensures the schema exists first, so a fresh database works with no manual setup.
+ */
 export async function query<T extends QueryResultRow = QueryResultRow>(
   text: string,
   params: unknown[] = [],
 ): Promise<T[]> {
+  await ensureSchema();
   const res = await pool().query<T>(text, params as never[]);
   return res.rows;
 }

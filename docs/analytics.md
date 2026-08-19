@@ -206,12 +206,21 @@ node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"   # ses
 
 ## Deployment
 
-1. Attach a Postgres store (Vercel → Storage → Postgres sets `POSTGRES_URL` automatically).
-2. Set the five variables above in the Production environment.
-3. Run the migration once against production:
-   `POSTGRES_URL=… npm run analytics:migrate`
-   It is idempotent, creates only, and is safe to re-run.
-4. Deploy. Visit `/admin`, sign in, and confirm events appear.
+1. Attach a Postgres store (Vercel → Storage → Create Database → Neon sets the connection
+   string automatically; `POSTGRES_URL` and `DATABASE_URL` are both accepted).
+2. Set the four other variables above in the Production environment.
+3. Deploy.
+4. Visit `/admin`, sign in, and confirm events appear.
+
+**No manual SQL is required.** The app creates its own table and indexes on first use
+(`ensureSchema()` in `lib/analytics/db.ts`), because the site owner should not have to run
+migrations by hand to switch analytics on. Every statement is `IF NOT EXISTS` and the
+result is cached per process, so the DDL runs at most once per server instance. It only
+ever CREATEs - `schemaIsNonDestructive()` blocks anything that could drop or delete data.
+
+`npm run analytics:migrate` still exists for anyone who prefers to apply the schema
+explicitly. It shares the same statements (`lib/analytics/schema.ts`), so the two can
+never drift.
 
 ---
 
