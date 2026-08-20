@@ -11944,10 +11944,10 @@
       "Article"
     ],
     "publishedAt": "2023-09-09",
-    "lastmod": "2024-08-26",
+    "lastmod": "2026-08-20",
     "impressions": 1,
     "clicks": 0,
-    "indexable": true,
+    "indexable": false,
     "status": 200,
     "liveUrl": "https://www.visitbondibeach.com/bondi-blog/2023/9/9/soaring-high-at-bondi-beach-festival-of-the-winds"
   },
@@ -30000,6 +30000,30 @@
     ],
     "publishedAt": "2026-08-14",
     "lastmod": "2026-08-14",
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "authored": true
+  },
+  {
+    "path": "/bondi-blog/festival-of-the-winds-bondi",
+    "contentType": "blog-post-legacy",
+    "section": "blog",
+    "title": "Festival of the Winds 2026: Bondi's Free Kite Festival",
+    "metaDescription": "Festival of the Winds returns to Bondi Beach on Sunday 13 September 2026, 11am-4pm. Free entry, giant kites and workshops - plus how to actually get there.",
+    "canonical": "",
+    "h1": "Festival of the Winds 2026 at Bondi Beach",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "",
+    "wordCount": 0,
+    "jsonLdTypes": [
+      "WebSite",
+      "Article"
+    ],
+    "publishedAt": "2026-08-20",
+    "lastmod": "2026-08-20",
     "indexable": true,
     "status": 200,
     "liveUrl": "",

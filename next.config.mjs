@@ -88,6 +88,9 @@ const nextConfig = {
       { source: '/bondi-blog/2024/9/21/can-the-public-swim-at-bondi-icebergs-ocean-pool', destination: '/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool', statusCode: 301 },
       // Bondi parking: duplicate topic (15 imp) -> the 75-impression, most-backlinked article; unique blocks migrated.
       { source: '/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days', destination: '/bondi-blog/where-to-find-carpark-bondi-beach', statusCode: 301 },
+      // Festival of the Winds: a dated 2023 URL whose title still said "2024" -> one
+      // evergreen guide that is updated each year rather than a new page per edition.
+      { source: '/bondi-blog/2023/9/9/soaring-high-at-bondi-beach-festival-of-the-winds', destination: '/bondi-blog/festival-of-the-winds-bondi', statusCode: 301 },
     ];
   },
 };

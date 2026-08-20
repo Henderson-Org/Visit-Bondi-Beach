@@ -316,7 +316,7 @@ export const EVENTS: BondiEvent[] = [
     lastVerified: VERIFIED,
     source: 'https://www.waverley.nsw.gov.au/',
     relatedArticles: [
-      { title: 'Festival of the Winds at Bondi Beach', path: '/bondi-blog/2023/9/9/soaring-high-at-bondi-beach-festival-of-the-winds' },
+      { title: 'Festival of the Winds 2026: full guide', path: '/bondi-blog/festival-of-the-winds-bondi' },
       { title: 'Bondi with kids', path: '/bondi-with-kids' },
     ],
   },
