@@ -143,3 +143,67 @@ export async function query<T extends QueryResultRow = QueryResultRow>(
   const res = await pool().query<T>(text, params as never[]);
   return res.rows;
 }
+
+export interface AnalyticsStatus {
+  dbConfigured: boolean;
+  dbSource: string | null;
+  dbTarget: { host: string; database: string } | null;
+  dbReachable: boolean;
+  dbError: string | null;
+  tableExists: boolean;
+  totalRows: number | null;
+  lastEventAt: string | null;
+  serverSwitch: boolean;
+  clientSwitch: boolean;
+  collecting: boolean;
+}
+
+/**
+ * Live self-diagnosis for the dashboard.
+ *
+ * Recording depends on several independent things being true at once: a configured
+ * database, a reachable connection, and TWO separate on-switches (one server-side, one
+ * inlined into the client bundle at build time). Every failure is deliberately silent on
+ * the public site so a visitor never sees an analytics problem - which is right for
+ * visitors and useless for the owner. This reports each condition explicitly, behind
+ * admin auth. No credential is exposed; only host and database name.
+ */
+export async function analyticsStatus(): Promise<AnalyticsStatus> {
+  const serverSwitch = process.env.ANALYTICS_ENABLED === 'true';
+  const clientSwitch = process.env.NEXT_PUBLIC_ANALYTICS_ENABLED === 'true';
+  const status: AnalyticsStatus = {
+    dbConfigured: analyticsConfigured(),
+    dbSource: connectionSource(),
+    dbTarget: connectionTarget(),
+    dbReachable: false,
+    dbError: null,
+    tableExists: false,
+    totalRows: null,
+    lastEventAt: null,
+    serverSwitch,
+    clientSwitch,
+    collecting: serverSwitch && clientSwitch && analyticsConfigured(),
+  };
+  if (!status.dbConfigured) return status;
+
+  try {
+    const rows = await query<{ n: string }>(
+      `SELECT COUNT(*) AS n FROM information_schema.tables WHERE table_name = 'analytics_page_view'`,
+    );
+    status.dbReachable = true;
+    status.tableExists = Number(rows[0]?.n ?? 0) > 0;
+    if (status.tableExists) {
+      const t = await query<{ n: string; last: string | null }>(
+        `SELECT COUNT(*) AS n,
+                to_char(MAX(occurred_at AT TIME ZONE 'Australia/Sydney'), 'YYYY-MM-DD HH24:MI') AS last
+         FROM analytics_page_view`,
+      );
+      status.totalRows = Number(t[0]?.n ?? 0);
+      status.lastEventAt = t[0]?.last ?? null;
+    }
+  } catch (err) {
+    status.dbError = err instanceof Error ? err.message : String(err);
+  }
+  return status;
+}
+

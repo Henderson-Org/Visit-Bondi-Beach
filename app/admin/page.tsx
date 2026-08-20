@@ -2,7 +2,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { DateFilter } from './DateFilter';
 import { VisitsChart, type ChartPoint } from './VisitsChart';
-import { analyticsConfigured, connectionSource, connectionTarget } from '@/lib/analytics/db';
+import { StatusPanel } from './StatusPanel';
+import { analyticsConfigured, analyticsStatus, connectionSource, connectionTarget } from '@/lib/analytics/db';
 import {
   bucketFor,
   formatBucketLabel,
@@ -70,9 +71,11 @@ export default async function AdminDashboard({ searchParams }: Props) {
   const source = connectionSource();
 
   if (!analyticsConfigured()) {
+    const status = await analyticsStatus();
     return (
       <main className="mx-auto max-w-6xl px-4 py-10">
         <h1 className="font-display text-2xl text-ink-900">Analytics</h1>
+        <StatusPanel status={status} />
         <div role="alert" className="mt-6 rounded-xl border border-amber-300 bg-amber-50 p-5 text-sm text-ink-800">
           <p className="font-medium">No analytics database is configured.</p>
           <p className="mt-1">
@@ -88,7 +91,7 @@ export default async function AdminDashboard({ searchParams }: Props) {
   }
 
   // One failure must not take the whole dashboard down; each panel degrades on its own.
-  const [kpis, series, topPages, languages, countries, distinctPages, firstDate, allTime] =
+  const [kpis, series, topPages, languages, countries, distinctPages, firstDate, allTime, status] =
     await Promise.all([
       fetchKpis(range).catch(() => null),
       fetchSeries(range, bucket).catch(() => null),
@@ -98,6 +101,7 @@ export default async function AdminDashboard({ searchParams }: Props) {
       countDistinctPages(range).catch(() => 0),
       fetchFirstEventDate().catch(() => null),
       fetchAllTimeTotals().catch(() => null),
+      analyticsStatus().catch(() => null),
     ]);
 
   const dbDown = kpis === null && series === null && topPages === null && languages === null;
@@ -149,6 +153,8 @@ export default async function AdminDashboard({ searchParams }: Props) {
           </p>
         )}
       </div>
+
+      {status && !status.collecting && <StatusPanel status={status} />}
 
       {dbDown ? (
         <div role="alert" className="mt-8 rounded-xl border border-red-300 bg-red-50 p-5 text-sm text-red-900">
