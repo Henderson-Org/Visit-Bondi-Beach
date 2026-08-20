@@ -1,0 +1,319 @@
+{
+  "path": "/bondi-blog/christmas-day-at-coogee-beach",
+  "voice": "first-person",
+  "lastReviewed": "2026-08-20",
+  "sources": [
+    {
+      "label": "Randwick City Council - Coogee Beach cleanup complete after 20 tonnes of rubbish cleared from backpacker Christmas party (Dec 2025)",
+      "url": "https://www.randwick.nsw.gov.au/about-us/news/news-items/2025/december/coogee-beach-cleanup-complete-after-20-tonnes-of-rubbish-cleared-from-backpacker-christmas-party"
+    },
+    {
+      "label": "ABC News - Revellers swarm Coogee Beach for Christmas Day celebrations after Bronte Beach off-limits (26 Dec 2025)",
+      "url": "https://www.abc.net.au/news/2025-12-26/nsw-christmas-cleanup-at-coogee-beach/106179370"
+    },
+    {
+      "label": "Waverley Council - Bronte spared from usual 'Backpacker Christmas' chaos, clean-up help sent to Coogee",
+      "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/bronte-xmas-update"
+    },
+    {
+      "label": "Randwick City Council - Alcohol restrictions",
+      "url": "https://www.randwick.nsw.gov.au/facilities-and-recreation/using-a-public-space/alcohol-restrictions"
+    },
+    {
+      "label": "Randwick City Council - Alcohol ban at Coogee made permanent (March 2017)",
+      "url": "https://www.randwick.nsw.gov.au/about-us/news/news-items/2017/march/alcohol-ban-at-coogee-made-permanent"
+    },
+    {
+      "label": "ABC News - Coogee Beach booze ban after 'disgraceful' Christmas Day (Dec 2016)",
+      "url": "https://www.abc.net.au/news/2016-12-27/coogee-beach-booze-ban-after-disgraceful-christmas-day/8149670"
+    },
+    {
+      "label": "Randwick City Council - Coogee Beach",
+      "url": "https://www.randwick.nsw.gov.au/facilities-and-recreation/beaches-and-coast/beaches/coogee-beach"
+    },
+    {
+      "label": "Randwick City Council - Goldstein Reserve",
+      "url": "https://www.randwick.nsw.gov.au/facilities-and-recreation/parks/parks-by-suburb/coogee/goldstein-reserve"
+    },
+    {
+      "label": "Randwick City Council - Christmas in Randwick City (incl. Coogee Carols)",
+      "url": "https://www.randwick.nsw.gov.au/community/whats-on/major-events/christmas-in-randwick-city"
+    },
+    {
+      "label": "Transport for NSW - trip planner and public holiday timetables",
+      "url": "https://transportnsw.info/"
+    },
+    {
+      "label": "Beachsafe (Surf Life Saving Australia) - Coogee Beach",
+      "url": "https://beachsafe.org.au/beach/nsw/randwick/coogee/coogee-beach"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "answer",
+      "text": "Coogee Beach is where Sydney's travellers' Christmas Day gathering now happens. Around 15,000 people came in 2025, and NSW Police reported no arrests and no fines - but the crowd left more than 20 tonnes of rubbish for Randwick City Council to clear overnight. The single thing most people get wrong: alcohol is permanently banned on Coogee Beach and in Goldstein Reserve, and glass and smoking are banned on every Randwick beach. That ban is not new and it is not seasonal. Come for the day, take the bus, bring a bag for your rubbish, and leave the esky at home."
+    },
+    {
+      "type": "p",
+      "text": "If you are a backpacker planning your first Australian Christmas, or a local wondering whether to avoid the place entirely, this is the honest version. I have watched this gathering move around the eastern beaches for years, and 2025 was the year it came full circle - back to the beach where it started, and where it got banned."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "When",
+          "value": "December 25, building from late morning"
+        },
+        {
+          "label": "Where",
+          "value": "Coogee Beach, Goldstein Reserve and Dunningham Reserve"
+        },
+        {
+          "label": "Council",
+          "value": "Randwick City - not Waverley, and the rules differ"
+        },
+        {
+          "label": "2025 crowd",
+          "value": "About 15,000"
+        },
+        {
+          "label": "Alcohol",
+          "value": "Permanently banned on the beach and in Goldstein Reserve"
+        },
+        {
+          "label": "Glass & smoking",
+          "value": "Banned on all Randwick beaches, year round"
+        },
+        {
+          "label": "Organised by",
+          "value": "Nobody - it is not an official event"
+        },
+        {
+          "label": "Cost",
+          "value": "Free"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What actually happened in 2025"
+    },
+    {
+      "type": "p",
+      "text": "For most of the last decade the travellers' Christmas - \"Orphans' Christmas\", if you have been in a hostel long enough to hear it called that - belonged to Bronte. In 2025 it stopped belonging to Bronte. Waverley Council spent more than $220,000 on a management plan with a glass ban, alcohol checkpoints and a heavy police presence, and asked people plainly not to come. On top of that, the Bronte Surf Life Saving Club redevelopment turned half the park into a construction site. The message landed, and the crowd simply went somewhere else."
+    },
+    {
+      "type": "p",
+      "text": "Somewhere else was Coogee. On Christmas Day 2025 roughly 15,000 people filled the beach and the two grassy reserves above it, with DJ tents, a sea of Santa hats and a lot of red swimwear. Randwick City Council had prepared for large crowds as a precaution even though the gathering had been billed for Bronte - extra staff, extra bins, extra rubbish bags, and close coordination with NSW Police. Waverley Council sent its own clean-up resources across the boundary to help."
+    },
+    {
+      "type": "p",
+      "text": "Two things are worth holding side by side, because the headlines only carried one of them. The behaviour was fine: NSW Police reported no arrests and no fines across the whole day. The mess was not: council crews worked through the night with beach rakes, footpath sweepers and high-pressure hoses to clear more than 20 tonnes of rubbish from the sand, the grass and the toilets. A well-behaved crowd and a badly-littered beach turn out to be entirely compatible, and that gap is the thing worth fixing."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Why this keeps moving",
+      "text": "Nobody runs this gathering. There is no organiser, no permit, no ticket and no website - which is exactly why it drifts from beach to beach as councils respond. It is also why you will never see it \"announced\". Treat any year's location as likely rather than certain, and check the council pages linked below in the week before Christmas."
+    },
+    {
+      "type": "h2",
+      "text": "The rule everyone gets wrong: alcohol"
+    },
+    {
+      "type": "p",
+      "text": "People arrive at Coogee assuming that because the crowd was pushed out of Bronte by an alcohol crackdown, Coogee must be the relaxed option. It is the opposite. Randwick City Council banned alcohol at Coogee Beach and the surrounding parks after Christmas Day 2016, and councillors made that ban permanent in March 2017. It has been in force ever since. Alcohol and glass are prohibited on all Randwick beaches - the sand and the rock platforms - and there is a permanent alcohol ban in Goldstein Reserve, the grassy terrace right above the beach where most of the crowd sits."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Alcohol** - banned on Coogee Beach and in Goldstein Reserve, permanently and year round. Not a Christmas measure.",
+        "**Glass** - banned on all Randwick beaches, in any form, at any time of year.",
+        "**Smoking** - banned on Randwick beaches, and that includes vaping.",
+        "**Enforcement** - police and council rangers are on the ground on Christmas Day. Expect alcohol to be tipped out or confiscated."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "This is where the day goes wrong for people",
+      "text": "The 2016 Christmas Day crowd is the reason the ban exists: about 10,000 people left roughly 15 tonnes of rubbish across Dunningham and Goldstein Reserves, and the council described the scene as disgraceful. If you turn up in 2026 with a case of beer, you are not testing a grey area - you are repeating the exact behaviour that got the beach locked down, at the one beach in Sydney with the longest memory of it."
+    },
+    {
+      "type": "p",
+      "text": "If a drink is central to your Christmas, the answer is a licensed venue rather than the sand. Coogee has pubs and hotels along Arden Street and Coogee Bay Road, and on a public holiday you should book well ahead and expect surcharges. Do not plan on walking up on the day."
+    },
+    {
+      "type": "h2",
+      "text": "Getting there"
+    },
+    {
+      "type": "p",
+      "text": "There is no train to Coogee - there never has been - so it is buses or a long walk, and on Christmas Day driving is the worst of the options. Christmas Day is a NSW public holiday, so everything runs to a holiday timetable. Check Transport for NSW before you leave rather than trusting a weekday memory."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**From the city** - the 373 and 374 run to Coogee, roughly 30 to 40 minutes from the CBD.",
+        "**From Bondi Junction** - the 350 is the quick one, around 12 minutes down to Arden Street. The 313 also connects. (If you have an old set of directions mentioning the 353, that route has been replaced.)",
+        "**From Bondi Beach** - up to Bondi Junction on the 333 or 380, then the 350 down. Allow far longer than the map suggests on the day.",
+        "**On foot** - the Bondi to Coogee coastal walk is about 6 km and finishes right at the beach. Lovely in the morning; unpleasant in the middle of a hot afternoon with no water."
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "Go early and leave early. The buses in are manageable before midday; the buses out, between about 4pm and 7pm, are the worst part of the whole day. If you can walk the coastal path back towards Clovelly or Bronte and pick up transport from there, you will skip the crush entirely."
+    },
+    {
+      "type": "p",
+      "text": "Driving is a genuinely bad idea. Randwick's beachside streets are signed 4P - a four-hour limit - and they fill early on any warm day, let alone this one. Randwick councillors voted against introducing visitor pay parking at Coogee and Clovelly, so the free 4P system stands for now, but a free space you cannot find is not much use. There is more detail in my [guide to parking at Coogee, Clovelly and Tamarama](/bondi-blog/2025/6/4/tamarama-coogee-clovelly-beach-parking-ultimate-guide-to-free-paid-spots)."
+    },
+    {
+      "type": "h2",
+      "text": "Swimming, and the four ocean pools"
+    },
+    {
+      "type": "p",
+      "text": "Coogee is a patrolled beach and a relatively gentle one by eastern-suburbs standards - it sits in a bay with Wedding Cake Island offshore taking the sting out of the swell, which is why families have come here for a century. That does not make it a swimming pool. Swim between the red and yellow flags, where the lifesavers have judged it safest and are actually watching, and if no flags are up, stay out."
+    },
+    {
+      "type": "p",
+      "text": "Coogee also has four ocean pools within a few hundred metres, which is more than anywhere else in Sydney:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Ross Jones Memorial Pool** - the castellated one at the southern end of the beach, shallow and sheltered, and the best option with small children.",
+        "**Giles Baths** - at the northern end, a rougher, rockier natural pool that fills with the swell.",
+        "**McIver's Ladies Baths** - on the cliff between Ross Jones and Wylie's, and one of the last women-and-children-only ocean pools in Australia. A small entry fee applies.",
+        "**Wylie's Baths** - about 300 m south, a 50-metre pool built in 1907 on a heritage timber boardwalk, with a cafe above it. Ticketed."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Never swim after drinking",
+      "text": "Alcohol is behind a large share of avoidable drownings and rescues in Australia, and Christmas Day is exactly the combination - heat, a long day, unfamiliar water, and swimmers who overrate their ability in surf. If you have been drinking, stay on the sand. The flags and the lifesavers cannot help with a decision you made an hour earlier."
+    },
+    {
+      "type": "p",
+      "text": "Do not count on any of the ticketed pools keeping normal hours on a public holiday - Wylie's and McIver's set their own, and they change. Check their official pages before you build a plan around them."
+    },
+    {
+      "type": "h2",
+      "text": "Facilities, and what to bring"
+    },
+    {
+      "type": "p",
+      "text": "There are public toilets and showers at the beach, and the reserves have shade trees and grass - but 15,000 people put every one of those facilities under real strain, and the queues by mid-afternoon are long. Sort yourself out before you arrive rather than after."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Water** - bring more than you think. Australian December heat catches northern-hemisphere visitors out badly.",
+        "**Sun protection** - a shirt, SPF50+ reapplied after every swim, a hat and sunglasses. The UV here in late December is far stronger than a European summer, and burns happen inside an hour.",
+        "**Shade** - the shady spots in the reserves are taken early. Bring your own if you want any.",
+        "**Food** - Christmas Day is a public holiday and most cafes and shops will be closed or on short hours. Assume you are catering for yourself.",
+        "**A rubbish bag** - the single most useful thing you can carry. See below.",
+        "**No glass, and no alcohol** - not on the sand, not in the reserves."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The 20 tonnes, and how not to be part of it"
+    },
+    {
+      "type": "p",
+      "text": "This is the part I would ask you to actually take on. The gathering is not in trouble because of how people behave - the police record from 2025 is about as clean as a 15,000-person event gets. It is in trouble because of what gets left behind. Twenty tonnes of rubbish is not a few dropped cups; it is council crews working through Christmas night with hoses and beach rakes so that residents can use their own beach on Boxing Day."
+    },
+    {
+      "type": "p",
+      "text": "Coogee has already lost this once. The 2016 mess is precisely why alcohol was banned here, and Bronte's crackdown followed the same pattern a decade later. If the day is going to survive at Coogee, it survives on this:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Take a bag, and take your rubbish out with you. If the bins are full, that is a reason to carry it, not to stack it beside them.",
+        "Bring reusable cups, plates and cutlery instead of single-use.",
+        "Nothing glass, at any point.",
+        "Pick up what is near you when you leave, even if it is not yours. It costs a minute.",
+        "Follow directions from rangers, lifesavers and police - they are the reason this is still allowed to happen at all."
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "A crowd with no arrests and no fines still lost a beach once, on rubbish alone. That is the whole lesson."
+    },
+    {
+      "type": "h2",
+      "text": "If you would rather avoid the crowd"
+    },
+    {
+      "type": "p",
+      "text": "Plenty of locals do, and there is no shame in it. A few honest alternatives:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Go early.** Coogee before about 10am on Christmas morning is still a normal, lovely Sydney beach. The character of the day changes around midday.",
+        "**Clovelly or Gordons Bay** - a short walk north, calmer water, far fewer people, and genuinely good snorkelling.",
+        "**Bronte** - now the quiet option, which is a strange sentence to write. Enforced alcohol rules, a park, a rock pool, and a fraction of the crowd. I have written the full picture in [Christmas Day at Bronte Beach](/bondi-blog/2023/12/26/celebrating-christmas-day-at-bronte-beach-australias-biggest-christmas-party).",
+        "**Bondi** - busy but far more spread out, with more space and more facilities. See [Christmas Day at Bondi Beach](/bondi-blog/2023/12/13/christmas-day-at-bondi-beach).",
+        "**Coogee Carols** - Randwick City Council runs official Christmas events in the weeks before the 25th, including carols at Coogee. Family-friendly, sanctioned, and a completely different proposition. Dates are set each year on the council's Christmas page."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is the Christmas party at Coogee Beach on in 2026?",
+          "a": "Expect so, but understand what you are relying on. It is an unofficial gathering with no organiser, no permit and no announcement, so nothing is ever confirmed. Around 15,000 people came to Coogee on Christmas Day 2025 after the crowd left Bronte, and the reasons they moved - Waverley's enforcement and the Bronte Surf Life Saving Club construction site - have not changed. Check Randwick City Council's website in the week before Christmas for anything new."
+        },
+        {
+          "q": "Can I drink alcohol at Coogee Beach on Christmas Day?",
+          "a": "No. Alcohol is permanently banned on Coogee Beach and in Goldstein Reserve, and has been since Randwick City Council made the ban permanent in March 2017. Glass and smoking are banned on all Randwick beaches year round. Police and rangers are present on Christmas Day and will confiscate alcohol. If you want a drink, book a licensed venue well in advance."
+        },
+        {
+          "q": "Why did the Christmas party move from Bronte to Coogee?",
+          "a": "Two reasons at once. Waverley Council spent more than $220,000 on a 2025 management plan - a glass ban, alcohol checkpoints and a large police presence - and publicly asked people to stay away. At the same time, the Bronte Surf Life Saving Club redevelopment closed off half the park. The crowd went to Coogee instead, which is in Randwick City Council, not Waverley."
+        },
+        {
+          "q": "How many people go to Coogee on Christmas Day?",
+          "a": "About 15,000 in 2025, according to NSW Police. For comparison, roughly 10,000 came to Coogee in 2016 before the alcohol ban, and about 15,000 were at Bronte in 2024."
+        },
+        {
+          "q": "Was there any trouble at Coogee in 2025?",
+          "a": "No arrests and no fines were reported by NSW Police, who described the day as running smoothly. The problem was litter rather than behaviour: council crews cleared more than 20 tonnes of rubbish overnight."
+        },
+        {
+          "q": "How do I get to Coogee Beach on Christmas Day?",
+          "a": "By bus - there is no train to Coogee. The 373 and 374 run from the city in roughly 30 to 40 minutes, and the 350 comes down from Bondi Junction in about 12 minutes. Christmas Day is a public holiday, so services run to a holiday timetable; check Transport for NSW before you travel. Driving is a poor idea: beachside streets are 4P limited and fill very early."
+        },
+        {
+          "q": "Is there parking at Coogee on Christmas Day?",
+          "a": "Very little in practice. Randwick's beachside on-street bays are mostly four-hour (4P) limited, and they fill early on any warm day. Randwick councillors voted against visitor pay parking at Coogee and Clovelly, so the free 4P system stands for now - but take the bus."
+        },
+        {
+          "q": "Can I swim at Coogee on Christmas Day?",
+          "a": "Yes, between the red and yellow flags, and only if you are sober. Coogee is patrolled and relatively sheltered by Wedding Cake Island, but it is still open ocean. If no flags are up, do not swim. The Ross Jones Memorial Pool at the southern end is a calmer option, especially with children."
+        },
+        {
+          "q": "Are there toilets and showers at Coogee Beach?",
+          "a": "Yes, there are public toilets and showers at the beach, but with a crowd this size they are heavily used and queues get long by mid-afternoon. Plan accordingly rather than assuming you will find them free."
+        },
+        {
+          "q": "Is the Coogee Christmas gathering family-friendly?",
+          "a": "Before midday, largely yes - it is a beach with a shallow ocean pool and grass above it. From early afternoon it becomes a very large, very loud young crowd with sound systems, and most families I know are gone by then. Come early or choose Clovelly."
+        },
+        {
+          "q": "Can I bring my dog?",
+          "a": "Not to Coogee Beach - dogs are not permitted on the beach. Check Randwick City Council for the current rules on the surrounding reserves before you assume, and never leave a dog in a car in December heat."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That is the whole picture: a genuinely good day, at a beach that has already taken it away once. Come early, take the bus, swim between the flags, skip the drink on the sand, and carry your rubbish out. Do that and the day survives - and Coogee stays the kind of place that lets 15,000 strangers spend Christmas together. For the wider picture of the eastern beaches over the holidays, see [Christmas Day at Bondi Beach](/bondi-blog/2023/12/13/christmas-day-at-bondi-beach) and my [guide to the Bondi to Coogee coastal walk](/bondi-coastal-walk)."
+    }
+  ]
+}

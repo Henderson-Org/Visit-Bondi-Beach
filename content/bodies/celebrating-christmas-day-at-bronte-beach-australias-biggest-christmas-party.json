@@ -3,55 +3,177 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-20",
   "sources": [
-    { "label": "Waverley Council - Bronte spared from usual 'Backpacker Christmas' chaos, clean-up help sent to Coogee", "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/bronte-xmas-update" },
-    { "label": "Waverley Council - A plan for managing the impacts of Christmas Day at Bronte", "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/12_8_managing_the_impacts_of_christmas_day_at_bronte" },
-    { "label": "Waverley Council - Safety concerns over Christmas at Bronte gathering", "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/safety_concerns_over_christmas_at_bronte_gathering" },
-    { "label": "ABC News - Waverley Council to spend extra $220,000 to manage 'out of control' beach Christmas Day party", "url": "https://www.abc.net.au/news/2025-06-18/bronte-beach-christmas-day-party-council/105427252" },
-    { "label": "Waverley Council - Beaches and coast", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
-    { "label": "Beachsafe (Surf Life Saving Australia) - Bronte Beach", "url": "https://beachsafe.org.au/beach/nsw/waverley/bronte/bronte-beach" },
-    { "label": "Transport for NSW - Public holiday timetables", "url": "https://transportnsw.info/" }
+    {
+      "label": "Waverley Council - Bronte spared from usual 'Backpacker Christmas' chaos, clean-up help sent to Coogee",
+      "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/bronte-xmas-update"
+    },
+    {
+      "label": "Waverley Council - A plan for managing the impacts of Christmas Day at Bronte",
+      "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/12_8_managing_the_impacts_of_christmas_day_at_bronte"
+    },
+    {
+      "label": "Waverley Council - Safety concerns over Christmas at Bronte gathering",
+      "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/safety_concerns_over_christmas_at_bronte_gathering"
+    },
+    {
+      "label": "ABC News - Waverley Council to spend extra $220,000 to manage 'out of control' beach Christmas Day party",
+      "url": "https://www.abc.net.au/news/2025-06-18/bronte-beach-christmas-day-party-council/105427252"
+    },
+    {
+      "label": "Waverley Council - Beaches and coast",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast"
+    },
+    {
+      "label": "Beachsafe (Surf Life Saving Australia) - Bronte Beach",
+      "url": "https://beachsafe.org.au/beach/nsw/waverley/bronte/bronte-beach"
+    },
+    {
+      "label": "Transport for NSW - Public holiday timetables",
+      "url": "https://transportnsw.info/"
+    }
   ],
   "blocks": [
-    { "type": "answer", "text": "The big backpackers' Christmas party at Bronte Beach is effectively over. After an estimated 15,000 people packed Bronte on Christmas Day 2024, Waverley Council spent more than $220,000 on a management plan for 2025 - a glass ban, alcohol checkpoints and a large police and crowd-control presence - and urged people to stay away. It worked: Christmas Day 2025 at Bronte was quiet and peaceful, and the travelling crowd moved to Coogee Beach instead. Bronte is still a lovely place to spend Christmas morning, but come expecting a family picnic beach with enforced alcohol rules, not a party." },
-    { "type": "p", "text": "For years Bronte was the unofficial home of what travellers call \"Orphan's Christmas\" - the day backpackers and working travellers spent with their found family instead of their real one. If that's the Bronte you've been told about, I owe you the honest update before you plan your 25th around it: that version of the day has been deliberately dismantled, and the crowd has gone elsewhere." },
-    { "type": "quickFacts", "items": [
-      { "label": "When", "value": "December 25, from mid-morning" },
-      { "label": "Where", "value": "Bronte Beach and Park, Waverley" },
-      { "label": "Vibe now", "value": "Family picnics and locals - not a party" },
-      { "label": "Alcohol", "value": "Banned and actively enforced; glass not permitted" },
-      { "label": "Where the crowd went", "value": "Coogee Beach, in 2025" },
-      { "label": "Cost", "value": "Free (the beach and park)" },
-      { "label": "Don't forget", "value": "Sunscreen, water, a rubbish bag" }
-    ] },
-    { "type": "h2", "text": "What changed, and when" },
-    { "type": "p", "text": "The gathering grew for years on reputation alone - it was never an organised event, and nobody ran it. By Christmas Day 2024 an estimated 15,000 people were on Bronte Beach and in the park behind it, and the day brought anti-social behaviour, noise and a very large mess for a small residential beach to absorb. Local residents had had enough, and the council acted." },
-    { "type": "p", "text": "In mid-2025 Waverley Council adopted a management plan costing more than $220,000: a ban on glass, alcohol checkpoints, and a substantially increased police and crowd-control presence, but no fencing and no ticketing. Alongside it the council ran a clear public message asking people not to come. Both parts worked. Council reported low, manageable crowds on Christmas Day 2025, no repeat of the 2024 scenes - and the backpacker contingent relocated to Coogee Beach, where the clean-up help was sent instead." },
-    { "type": "callout", "tone": "warning", "title": "Alcohol is banned, and it is enforced", "text": "Bronte Beach and Bronte Park fall under Waverley Council's alcohol-free and alcohol-prohibited area rules, and on Christmas Day these are actively policed with checkpoints. Glass is not permitted at any time. This is not the 'bring an esky and see what happens' day it once was - if you turn up with drinks you should expect them to be confiscated." },
-    { "type": "h2", "text": "So is Bronte still worth it on Christmas Day?" },
-    { "type": "p", "text": "Genuinely, yes - just for a different day than the one it was famous for. What makes Bronte special is the park: a wide band of grass, shade trees and public barbecues sitting right behind the sand, so instead of everyone crammed onto the beach you get a proper picnic ground overlooking the ocean. Take away the crowd and that is a lovely place to spend a warm Christmas morning, with a swim, a cooked breakfast on the BBQs and the rock pool at the southern end." },
-    { "type": "p", "text": "If what you actually want is the travellers' Christmas gathering, be aware it followed the crowd to Coogee in 2025. Coogee sits in Randwick City Council, not Waverley, so it has its own rules and its own alcohol restrictions - check Randwick City Council rather than assuming Waverley's rules apply, and expect councils to keep adjusting their approach year to year." },
-    { "type": "h2", "text": "Swim safety and the sun" },
-    { "type": "p", "text": "Bronte is a patrolled beach, but it's also known for a strong permanent rip near the southern rocks - locally called the Bronte Express - so treat the water with respect. Swim between the red and yellow flags where the lifeguards are watching, and if no flags are up, stay out. The Bronte rock pool at the southern end is a calmer alternative if the surf is big or you've got kids. Never swim after drinking." },
-    { "type": "localTip", "text": "The late-December Sydney sun is fierce - far stronger than a northern-hemisphere winter sun, and it catches visitors out fast. Slip on a shirt, slop on SPF50+ and reapply, grab a hat, and bring shade and plenty of water. The shady spots in Bronte Park go early, so arrive in good time if you want a tree." },
-    { "type": "h2", "text": "Leave it better than you found it" },
-    { "type": "p", "text": "The mess was a large part of why the old Bronte Christmas ended. Whatever the crowd size, the same courtesy applies on a beach that people live beside year-round:" },
-    { "type": "list", "items": [
-      "Use the bins provided, and take your rubbish with you if they're full.",
-      "Bring reusable plates, cups and cutlery instead of single-use.",
-      "Pack a spare bag for your rubbish and recycling.",
-      "No glass, anywhere, at any time.",
-      "Follow any directions from rangers, lifeguards and police on the day."
-    ] },
-    { "type": "h2", "text": "Getting there" },
-    { "type": "p", "text": "Christmas Day is a NSW public holiday, so public transport runs to a holiday timetable and nearby cafés and shops are likely closed or on reduced hours - bring your own food and water. Check Transport for NSW before you set out. Bronte's parking is limited and fills early on a warm 25th, so a bus or an early arrival saves a lot of circling." },
-    { "type": "faq", "items": [
-      { "q": "Is the Bronte Beach Christmas party still on?", "a": "No, not in the form it was famous for. After an estimated 15,000 people came in 2024, Waverley Council introduced a glass ban, alcohol checkpoints and a heavy police presence for Christmas Day 2025 and asked people to stay away. The day was quiet, and the travelling crowd moved to Coogee Beach instead." },
-      { "q": "Can I drink alcohol at Bronte on Christmas Day?", "a": "No. Bronte Beach and Bronte Park are covered by Waverley Council's alcohol-free and alcohol-prohibited area rules, and on Christmas Day these are enforced with checkpoints and police. Glass is not permitted at any time." },
-      { "q": "Where did the backpackers' Christmas move to?", "a": "Coogee Beach, in 2025 - Waverley Council sent clean-up help there after Christmas Day. Coogee is in Randwick City Council, so check that council's rules rather than Waverley's, and expect the approach to keep changing year to year." },
-      { "q": "Is it safe to swim at Bronte on Christmas Day?", "a": "Only between the red and yellow flags, and only if you're sober. Bronte is patrolled but has a strong permanent rip near the southern rocks. If no flags are up, don't swim - the rock pool is a safer alternative." },
-      { "q": "Will cafés and shops nearby be open?", "a": "Assume most are closed or on reduced hours, since Christmas Day is a NSW public holiday. Bring your own picnic, water and snacks." },
-      { "q": "How do I get to Bronte on Christmas Day?", "a": "Public transport runs to a holiday timetable, so check Transport for NSW before you travel. Parking is limited and fills early, so a bus or an early arrival is easier." }
-    ] },
-    { "type": "p", "text": "If you came looking for the party, I'm sorry to be the one to tell you. But a quiet Christmas morning in Bronte Park - a swim, a barbecue, the pool, and the ocean right there - is a genuinely lovely way to spend the day, and it's the version the people who live here can live with. For the Bondi side of the 25th, see my guide to [Christmas Day at Bondi Beach](/bondi-blog/2023/12/13/christmas-day-at-bondi-beach)." }
+    {
+      "type": "answer",
+      "text": "The big backpackers' Christmas party at Bronte Beach is effectively over. After an estimated 15,000 people packed Bronte on Christmas Day 2024, Waverley Council spent more than $220,000 on a management plan for 2025 - a glass ban, alcohol checkpoints and a large police and crowd-control presence - and urged people to stay away. It worked: Christmas Day 2025 at Bronte was quiet and peaceful, and the travelling crowd moved to Coogee Beach instead. Bronte is still a lovely place to spend Christmas morning, but come expecting a family picnic beach with enforced alcohol rules, not a party."
+    },
+    {
+      "type": "p",
+      "text": "For years Bronte was the unofficial home of what travellers call \"Orphan's Christmas\" - the day backpackers and working travellers spent with their found family instead of their real one. If that's the Bronte you've been told about, I owe you the honest update before you plan your 25th around it: that version of the day has been deliberately dismantled, and the crowd has gone elsewhere."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "When",
+          "value": "December 25, from mid-morning"
+        },
+        {
+          "label": "Where",
+          "value": "Bronte Beach and Park, Waverley"
+        },
+        {
+          "label": "Vibe now",
+          "value": "Family picnics and locals - not a party"
+        },
+        {
+          "label": "Alcohol",
+          "value": "Banned and actively enforced; glass not permitted"
+        },
+        {
+          "label": "Where the crowd went",
+          "value": "Coogee Beach, in 2025"
+        },
+        {
+          "label": "Cost",
+          "value": "Free (the beach and park)"
+        },
+        {
+          "label": "Don't forget",
+          "value": "Sunscreen, water, a rubbish bag"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What changed, and when"
+    },
+    {
+      "type": "p",
+      "text": "The gathering grew for years on reputation alone - it was never an organised event, and nobody ran it. By Christmas Day 2024 an estimated 15,000 people were on Bronte Beach and in the park behind it, and the day brought anti-social behaviour, noise and a very large mess for a small residential beach to absorb. Local residents had had enough, and the council acted."
+    },
+    {
+      "type": "p",
+      "text": "In mid-2025 Waverley Council adopted a management plan costing more than $220,000: a ban on glass, alcohol checkpoints, and a substantially increased police and crowd-control presence, but no fencing and no ticketing. Alongside it the council ran a clear public message asking people not to come. Both parts worked. Council reported low, manageable crowds on Christmas Day 2025, no repeat of the 2024 scenes - and the backpacker contingent relocated to Coogee Beach, where the clean-up help was sent instead."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Alcohol is banned, and it is enforced",
+      "text": "Bronte Beach and Bronte Park fall under Waverley Council's alcohol-free and alcohol-prohibited area rules, and on Christmas Day these are actively policed with checkpoints. Glass is not permitted at any time. This is not the 'bring an esky and see what happens' day it once was - if you turn up with drinks you should expect them to be confiscated."
+    },
+    {
+      "type": "h2",
+      "text": "So is Bronte still worth it on Christmas Day?"
+    },
+    {
+      "type": "p",
+      "text": "Genuinely, yes - just for a different day than the one it was famous for. What makes Bronte special is the park: a wide band of grass, shade trees and public barbecues sitting right behind the sand, so instead of everyone crammed onto the beach you get a proper picnic ground overlooking the ocean. Take away the crowd and that is a lovely place to spend a warm Christmas morning, with a swim, a cooked breakfast on the BBQs and the rock pool at the southern end."
+    },
+    {
+      "type": "p",
+      "text": "If what you actually want is the travellers' Christmas gathering, be aware it followed the crowd to Coogee in 2025 - I have written the full picture in [Christmas Day at Coogee Beach](/bondi-blog/christmas-day-at-coogee-beach). Coogee sits in Randwick City Council rather than Waverley, and its alcohol ban on the beach and in Goldstein Reserve is permanent rather than a Christmas measure - so check that council's rules, and expect both councils to keep adjusting their approach year to year."
+    },
+    {
+      "type": "h2",
+      "text": "Swim safety and the sun"
+    },
+    {
+      "type": "p",
+      "text": "Bronte is a patrolled beach, but it's also known for a strong permanent rip near the southern rocks - locally called the Bronte Express - so treat the water with respect. Swim between the red and yellow flags where the lifeguards are watching, and if no flags are up, stay out. The Bronte rock pool at the southern end is a calmer alternative if the surf is big or you've got kids. Never swim after drinking."
+    },
+    {
+      "type": "localTip",
+      "text": "The late-December Sydney sun is fierce - far stronger than a northern-hemisphere winter sun, and it catches visitors out fast. Slip on a shirt, slop on SPF50+ and reapply, grab a hat, and bring shade and plenty of water. The shady spots in Bronte Park go early, so arrive in good time if you want a tree."
+    },
+    {
+      "type": "h2",
+      "text": "Leave it better than you found it"
+    },
+    {
+      "type": "p",
+      "text": "The mess was a large part of why the old Bronte Christmas ended. Whatever the crowd size, the same courtesy applies on a beach that people live beside year-round:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Use the bins provided, and take your rubbish with you if they're full.",
+        "Bring reusable plates, cups and cutlery instead of single-use.",
+        "Pack a spare bag for your rubbish and recycling.",
+        "No glass, anywhere, at any time.",
+        "Follow any directions from rangers, lifeguards and police on the day."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Getting there"
+    },
+    {
+      "type": "p",
+      "text": "Christmas Day is a NSW public holiday, so public transport runs to a holiday timetable and nearby cafés and shops are likely closed or on reduced hours - bring your own food and water. Check Transport for NSW before you set out. Bronte's parking is limited and fills early on a warm 25th, so a bus or an early arrival saves a lot of circling."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is the Bronte Beach Christmas party still on?",
+          "a": "No, not in the form it was famous for. After an estimated 15,000 people came in 2024, Waverley Council introduced a glass ban, alcohol checkpoints and a heavy police presence for Christmas Day 2025 and asked people to stay away. The day was quiet, and the travelling crowd moved to Coogee Beach instead."
+        },
+        {
+          "q": "Can I drink alcohol at Bronte on Christmas Day?",
+          "a": "No. Bronte Beach and Bronte Park are covered by Waverley Council's alcohol-free and alcohol-prohibited area rules, and on Christmas Day these are enforced with checkpoints and police. Glass is not permitted at any time."
+        },
+        {
+          "q": "Where did the backpackers' Christmas move to?",
+          "a": "Coogee Beach, in 2025 - Waverley Council sent clean-up help there after Christmas Day. Around 15,000 people came, and council crews cleared more than 20 tonnes of rubbish overnight. Coogee is in Randwick City Council, where alcohol has been permanently banned on the beach and in Goldstein Reserve since 2017. See [Christmas Day at Coogee Beach](/bondi-blog/christmas-day-at-coogee-beach) for the full guide."
+        },
+        {
+          "q": "Is it safe to swim at Bronte on Christmas Day?",
+          "a": "Only between the red and yellow flags, and only if you're sober. Bronte is patrolled but has a strong permanent rip near the southern rocks. If no flags are up, don't swim - the rock pool is a safer alternative."
+        },
+        {
+          "q": "Will cafés and shops nearby be open?",
+          "a": "Assume most are closed or on reduced hours, since Christmas Day is a NSW public holiday. Bring your own picnic, water and snacks."
+        },
+        {
+          "q": "How do I get to Bronte on Christmas Day?",
+          "a": "Public transport runs to a holiday timetable, so check Transport for NSW before you travel. Parking is limited and fills early, so a bus or an early arrival is easier."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If you came looking for the party, I'm sorry to be the one to tell you. But a quiet Christmas morning in Bronte Park - a swim, a barbecue, the pool, and the ocean right there - is a genuinely lovely way to spend the day, and it's the version the people who live here can live with. For the Bondi side of the 25th, see my guide to [Christmas Day at Bondi Beach](/bondi-blog/2023/12/13/christmas-day-at-bondi-beach)."
+    }
   ]
 }

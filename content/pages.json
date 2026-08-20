@@ -10098,6 +10098,33 @@
     "liveUrl": "https://www.visitbondibeach.com/bondi-blog/2023/12/26/celebrating-christmas-day-at-bronte-beach-australias-biggest-christmas-party"
   },
   {
+    "path": "/bondi-blog/christmas-day-at-coogee-beach",
+    "contentType": "blog-post-legacy",
+    "section": "blog",
+    "title": "Christmas Day at Coogee Beach: The Complete Guide",
+    "metaDescription": "Around 15,000 people spend Christmas Day at Coogee. What to expect, how to get there, and the alcohol ban almost everyone gets wrong.",
+    "canonical": "",
+    "h1": "Christmas Day at Coogee Beach",
+    "headings": [],
+    "ogImage": "",
+    "heroImage": "",
+    "intro": "",
+    "blocks": [],
+    "wordCount": 0,
+    "jsonLdTypes": [
+      "WebSite",
+      "Article"
+    ],
+    "publishedAt": "2026-08-20",
+    "lastmod": "2026-08-20",
+    "impressions": 0,
+    "clicks": 0,
+    "indexable": true,
+    "status": 200,
+    "liveUrl": "",
+    "authored": true
+  },
+  {
     "path": "/bondi-blog/2024/10/17/sydney-beaches-closed-as-mystery-tar-balls-reach-bondi-beach",
     "contentType": "blog-post-dated",
     "section": "blog",
