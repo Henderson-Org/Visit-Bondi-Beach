@@ -3,7 +3,7 @@
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
   "sources": [
-    { "label": "NSW National Parks - Whale watching", "url": "https://www.nationalparks.nsw.gov.au/things-to-do/whale-watching" },
+    { "label": "NSW National Parks - Whale watching", "url": "https://www.nationalparks.nsw.gov.au/things-to-do" },
     { "label": "Destination NSW (Sydney.com) - Whale watching in Sydney", "url": "https://www.sydney.com/things-to-do/nature-and-parks/whale-watching" },
     { "label": "Waverley Council - Bondi to Bronte coastal walk", "url": "https://www.waverley.nsw.gov.au/recreation/out_and_about/bondi_to_bronte_coastal_walk" }
   ],

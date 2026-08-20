@@ -5,7 +5,7 @@
   "sources": [
     { "label": "Geoscience Australia - sunrise/sunset times calculator", "url": "https://geodesyapps.ga.gov.au/sunrise" },
     { "label": "Waverley Council - Beaches & coast (Bondi to Bronte walk)", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
-    { "label": "NSW National Parks - whale watching seasons", "url": "https://www.nationalparks.nsw.gov.au/things-to-do/whale-watching" },
+    { "label": "NSW National Parks - whale watching seasons", "url": "https://www.nationalparks.nsw.gov.au/things-to-do" },
     { "label": "Bondi Icebergs Club - Wikipedia (founded 1929; 50m ocean pool)", "url": "https://en.wikipedia.org/wiki/Bondi_Icebergs_Club" },
     { "label": "Sculpture by the Sea - Bondi to Tamarama (Marks Park)", "url": "https://sculpturebythesea.com/" }
   ],

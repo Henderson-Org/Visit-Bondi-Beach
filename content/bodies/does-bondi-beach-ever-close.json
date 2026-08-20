@@ -6,7 +6,7 @@
     { "label": "Waverley Council - Beaches & Coast", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
     { "label": "Beachwatch NSW - water quality & pollution forecasts", "url": "https://www.beachwatch.nsw.gov.au/" },
     { "label": "Surf Life Saving - Beachsafe", "url": "https://beachsafe.org.au/" },
-    { "label": "NSW EPA - Beach ball debris investigation (2024)", "url": "https://www.epa.nsw.gov.au/news/media-releases" }
+    { "label": "NSW EPA - Beach ball debris investigation (2024)", "url": "https://www.epa.nsw.gov.au/news" }
   ],
   "blocks": [
     { "type": "p", "text": "Short answer: no, Bondi Beach never really closes. It's a public beach with no gates, no ticket booth and no opening hours - you can walk onto the sand at 3am if you like, and people do, for a sunrise swim. What can change, and what people usually mean when they ask me this, is whether it's safe to swim and whether the lifeguards have the red-and-yellow flags up. Those two things do close, sometimes for a few hours, occasionally for a day or two." },

@@ -5,7 +5,7 @@
   "sources": [
     { "label": "Bureau of Meteorology - ENSO Wrap-Up", "url": "https://www.bom.gov.au/climate/enso/" },
     { "label": "Bureau of Meteorology - About El Niño and La Niña", "url": "https://www.bom.gov.au/climate/about/?bookmark=enso" },
-    { "label": "CSIRO - East Australian Current", "url": "https://www.csiro.au/en/research/natural-environment/oceans/east-australian-current" },
+    { "label": "CSIRO - East Australian Current", "url": "https://www.csiro.au/en/research/natural-environment/oceans" },
     { "label": "Surf Life Saving NSW - Beach safety", "url": "https://www.surflifesaving.com.au/" }
   ],
   "blocks": [

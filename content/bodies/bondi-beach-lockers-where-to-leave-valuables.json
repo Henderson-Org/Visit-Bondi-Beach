@@ -7,7 +7,7 @@
     { "label": "NSW Police - keeping valuables safe at the beach", "url": "https://www.police.nsw.gov.au/__data/assets/pdf_file/0006/781305/15255_Fact_Sheet_-_Keeping_Valuables_Safe_at_the_Beach.pdf" }
   ],
   "blocks": [
-    { "type": "answer", "text": "Yes - there are lockers at Bondi Beach, inside the Bondi Pavilion in the middle of the beachfront, open 6am-10pm daily. A small locker is $6 for 4 hours ($10 all day) and a large one is $9 for 4 hours ($15 all day), verified August 2026. If the lockers are full or you'd rather not bother, the rule is simple: bring only what you can afford to lose, and use the strategies below." },
+    { "type": "answer", "text": "Yes - there are lockers at Bondi Beach, inside the [Bondi Pavilion](/bondi-pavilion) in the middle of the beachfront, open 6am-10pm daily. A small locker is $6 for 4 hours ($10 all day) and a large one is $9 for 4 hours ($15 all day), verified August 2026. If the lockers are full or you'd rather not bother, the rule is simple: bring only what you can afford to lose, and use the strategies below." },
     { "type": "quickFacts", "items": [
       { "label": "Lockers", "value": "Inside Bondi Pavilion, middle of the beach" },
       { "label": "Hours", "value": "6am-10pm daily" },

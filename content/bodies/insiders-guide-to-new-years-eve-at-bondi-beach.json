@@ -5,7 +5,7 @@
   "sources": [
     { "label": "Waverley Council - Events", "url": "https://www.waverley.nsw.gov.au/recreation/events" },
     { "label": "Sydney New Year's Eve - official site", "url": "https://www.sydneynewyearseve.com" },
-    { "label": "Sydney.com - New Year's Eve in Sydney", "url": "https://www.sydney.com/things-to-do/new-years-eve-sydney" },
+    { "label": "Sydney.com - New Year's Eve in Sydney", "url": "https://www.sydney.com/events" },
     { "label": "Transport for NSW - trip planner", "url": "https://transportnsw.info" }
   ],
   "blocks": [

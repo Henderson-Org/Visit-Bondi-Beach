@@ -4,12 +4,12 @@
   "lastReviewed": "2026-08-08",
   "sources": [
     { "label": "Waverley Council - Bondi Pavilion", "url": "https://www.waverley.nsw.gov.au/recreation/bondi_pavilion" },
-    { "label": "Bondi Icebergs Club", "url": "https://www.icebergs.com.au/" },
+    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" },
     { "label": "Event Cinemas - Bondi Junction", "url": "https://www.eventcinemas.com.au/Cinema/Bondi-Junction" },
     { "label": "Bureau of Meteorology - Sydney forecast", "url": "http://www.bom.gov.au/nsw/forecasts/sydney.shtml" }
   ],
   "blocks": [
-    { "type": "p", "text": "A rainy day at Bondi is nothing to mourn - some of my favourite hours here have been spent under grey skies. The short answer: you can still fill a whole day easily, between the Bondi Pavilion's galleries and studios, a long lunch in a steamy café, a movie up at Bondi Junction, and even a swim (yes, really). Here's exactly how I'd spend a wet one, without ever wishing I'd stayed home." },
+    { "type": "p", "text": "A rainy day at Bondi is nothing to mourn - some of my favourite hours here have been spent under grey skies. The short answer: you can still fill a whole day easily, between the [Bondi Pavilion](/bondi-pavilion)'s galleries and studios, a long lunch in a steamy café, a movie up at Bondi Junction, and even a swim (yes, really). Here's exactly how I'd spend a wet one, without ever wishing I'd stayed home." },
     { "type": "quickFacts", "items": [
       { "label": "Best rain plan", "value": "Bondi Pavilion + café + cinema" },
       { "label": "Wettest months", "value": "Autumn (Mar–Jun) tends to be Sydney's rainiest" },

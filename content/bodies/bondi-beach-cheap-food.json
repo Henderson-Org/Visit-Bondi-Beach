@@ -4,10 +4,6 @@
   "lastReviewed": "2026-08-11",
   "sources": [
     {
-      "label": "Sabbaba (Bondi)",
-      "url": "https://www.sabbaba.com.au/"
-    },
-    {
       "label": "North Bondi RSL - Bistro",
       "url": "https://northbondirsl.com.au/bistro/"
     },
@@ -18,6 +14,10 @@
     {
       "label": "Waverley Council - Bondi Beach",
       "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/bondi_beach"
+    },
+    {
+      "label": "Sabbaba - 152-162 Campbell Parade, Bondi Beach (address verified Aug 2026)",
+      "url": "https://www.tripadvisor.com.au/Restaurant_Review-g947961-d1115115-Reviews-Sabbaba-Bondi_Greater_Sydney_New_South_Wales.html"
     }
   ],
   "blocks": [

@@ -5,7 +5,7 @@
   "sources": [
     { "label": "Sydney.com - Whale watching in Sydney (Destination NSW)", "url": "https://www.sydney.com/things-to-do/nature-and-parks/whale-watching" },
     { "label": "Australian Museum - Bottlenose Dolphin", "url": "https://australian.museum/learn/animals/mammals/bottlenose-dolphin/" },
-    { "label": "Bondi Icebergs Club", "url": "https://www.icebergs.com.au/" }
+    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" }
   ],
   "blocks": [
     { "type": "p", "text": "Can you see dolphins at Bondi Beach? Yes - but let me be honest with you: it's a lucky bonus, not a sure thing. Dolphins do cruise this stretch of the Sydney coast, and every so often a pod slides past the surf line at Bondi. There's no feeding station, no resident pod parked in the bay, and no timetable. What there is, if you keep your eyes on the water long enough, is a genuine chance of spotting those unmistakable dark fins rolling through the swell." },
