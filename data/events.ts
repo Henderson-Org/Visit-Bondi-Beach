@@ -290,11 +290,14 @@ export const EVENTS: BondiEvent[] = [
     summary: "Sydney's biggest kite festival - a free, colourful family day on Bondi Beach.",
     description: [
       'Festival of the Winds fills the Bondi sky with kites for a free, family-friendly day on the beach - giant display kites, workshops, music and food stalls.',
-      'It is run by Waverley Council and is one of the most family-friendly days on the Bondi calendar. Dates are set each year; confirm on the council’s events page.',
+      'It is run by Waverley Council and is one of the most family-friendly days on the Bondi calendar. The 2026 edition runs 11am to 4pm on Sunday 13 September, with road closures around Queen Elizabeth Drive and Park Drive South - check the council’s event page before you drive.',
     ],
     timezone: 'Australia/Sydney',
     startDate: '2026-09-13',
     endDate: '2026-09-13',
+    // 11am-4pm confirmed on Waverley Council's 2026 event page (see dateSourceUrl).
+    startTime: '11:00',
+    endTime: '16:00',
     recurrence: { freq: 'annual', month: 9 },
     dateStatus: 'announced',
     typicalTiming: 'A Sunday in September',
@@ -312,7 +315,7 @@ export const EVENTS: BondiEvent[] = [
     status: 'scheduled',
     dateSourceUrl: 'https://www.waverley.nsw.gov.au/recreation/arts_and_culture/major_annual_events/fotw',
     dateSourceName: 'Waverley Council (official)',
-    dateVerifiedAt: '2026-08-10',
+    dateVerifiedAt: '2026-08-20',
     lastVerified: VERIFIED,
     source: 'https://www.waverley.nsw.gov.au/',
     relatedArticles: [
