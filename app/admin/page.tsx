@@ -196,35 +196,51 @@ export default async function AdminDashboard({ searchParams }: Props) {
               <p className="py-8 text-center text-sm text-ink-500">No page views in this period.</p>
             ) : (
               <>
-                <div className="overflow-x-auto">
-                  <table className="w-full min-w-[640px] text-sm">
+                <div>
+                  <table className="w-full text-sm">
                     <thead>
                       <tr className="border-b border-sand-200 text-left text-xs uppercase tracking-wide text-ink-500">
                         <th scope="col" className="py-2 pr-3">Page</th>
-                        <th scope="col" className="py-2 pr-3">Path</th>
-                        <th scope="col" className="py-2 pr-3 text-right">Views</th>
-                        <th scope="col" className="py-2 pr-3 text-right">Visitors</th>
-                        <th scope="col" className="py-2 text-right">% of views</th>
+                        {/* The path is folded under the title on small screens, so the
+                            counts stay on-screen instead of scrolling out of view. */}
+                        <th scope="col" className="hidden py-2 pr-3 lg:table-cell">Path</th>
+                        <th scope="col" className="py-2 pr-2 text-right">Views</th>
+                        <th scope="col" className="py-2 pr-2 text-right">Viewers</th>
+                        <th scope="col" className="hidden py-2 text-right sm:table-cell">% of views</th>
                       </tr>
                     </thead>
                     <tbody>
                       {topPages.map((p: TopPage) => (
-                        <tr key={p.pathname} className="border-b border-sand-100 last:border-0">
+                        <tr key={p.pathname} className="border-b border-sand-100 last:border-0 align-top">
                           <td className="py-2 pr-3 text-ink-900">
-                            {p.pageTitle ?? <span className="text-ink-400">Untitled</span>}
-                            <span className="ml-2 rounded bg-sand-100 px-1.5 py-0.5 text-[11px] text-ink-600">
-                              {languageLabel(p.language)}
+                            <span className="block">
+                              {p.pageTitle ?? <span className="text-ink-400">Untitled</span>}
+                              <span className="ml-2 whitespace-nowrap rounded bg-sand-100 px-1.5 py-0.5 text-[11px] text-ink-600">
+                                {languageLabel(p.language)}
+                              </span>
+                            </span>
+                            <span className="mt-0.5 block break-all font-mono text-[11px] text-ink-500 lg:hidden">
+                              {p.pathname}
+                            </span>
+                            <span className="mt-0.5 block text-[11px] text-ink-500 sm:hidden">
+                              {pct(p.pageViews, totalViews)}% of views
                             </span>
                           </td>
-                          <td className="py-2 pr-3 font-mono text-xs text-ink-600">{p.pathname}</td>
-                          <td className="py-2 pr-3 text-right tabular-nums">{p.pageViews.toLocaleString()}</td>
-                          <td className="py-2 pr-3 text-right tabular-nums">{p.visitors.toLocaleString()}</td>
-                          <td className="py-2 text-right tabular-nums">{pct(p.pageViews, totalViews)}%</td>
+                          <td className="hidden py-2 pr-3 font-mono text-xs text-ink-600 lg:table-cell">{p.pathname}</td>
+                          <td className="py-2 pr-2 text-right tabular-nums">{p.pageViews.toLocaleString()}</td>
+                          <td className="py-2 pr-2 text-right tabular-nums">{p.visitors.toLocaleString()}</td>
+                          <td className="hidden py-2 text-right tabular-nums sm:table-cell">{pct(p.pageViews, totalViews)}%</td>
                         </tr>
                       ))}
                     </tbody>
                   </table>
                 </div>
+                <p className="mt-3 text-xs text-ink-500">
+                  <strong>Views</strong> counts every time the page was opened.{' '}
+                  <strong>Viewers</strong> counts the distinct anonymous browsers that opened it,
+                  so one person reloading five times is 5 views and 1 viewer. Translated pages are
+                  listed separately at their own URL.
+                </p>
                 {(hasMore || pageNum > 1) && (
                   <nav className="mt-4 flex items-center justify-between text-sm" aria-label="Top pages pagination">
                     {pageNum > 1 ? (
@@ -251,8 +267,8 @@ export default async function AdminDashboard({ searchParams }: Props) {
             {!countries?.length ? (
               <p className="py-8 text-center text-sm text-ink-500">No visits in this period.</p>
             ) : (
-              <div className="overflow-x-auto">
-                <table className="w-full min-w-[520px] text-sm">
+              <div>
+                <table className="w-full text-sm">
                   <thead>
                     <tr className="border-b border-sand-200 text-left text-xs uppercase tracking-wide text-ink-500">
                       <th scope="col" className="py-2 pr-3">Country</th>
@@ -300,8 +316,8 @@ export default async function AdminDashboard({ searchParams }: Props) {
             {!languages?.length ? (
               <p className="py-8 text-center text-sm text-ink-500">No page views in this period.</p>
             ) : (
-              <div className="overflow-x-auto">
-                <table className="w-full min-w-[520px] text-sm">
+              <div>
+                <table className="w-full text-sm">
                   <thead>
                     <tr className="border-b border-sand-200 text-left text-xs uppercase tracking-wide text-ink-500">
                       <th scope="col" className="py-2 pr-3">Language</th>
