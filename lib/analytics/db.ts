@@ -12,8 +12,52 @@ import { SCHEMA_STATEMENTS, schemaIsNonDestructive } from './schema';
  * This is the project's first database; there was none before. See docs/analytics.md.
  */
 
+/**
+ * Which database analytics uses.
+ *
+ * `ANALYTICS_DATABASE_URL` wins when set. That override exists because a Vercel project
+ * can have more than one Postgres store attached, and `POSTGRES_URL` / `DATABASE_URL` are
+ * generic names that another integration may also populate. Since this code creates its
+ * own table on first use (`ensureSchema()`), resolving to the wrong database would mean
+ * writing a table into a different application's schema - non-destructive, but plainly
+ * not where the site's analytics belong. Setting ANALYTICS_DATABASE_URL removes the
+ * ambiguity instead of relying on which variable happens to win.
+ *
+ * The generic names remain as a fallback for the ordinary single-database setup.
+ */
 function connectionString(): string | undefined {
-  return process.env.POSTGRES_URL || process.env.DATABASE_URL || undefined;
+  return (
+    process.env.ANALYTICS_DATABASE_URL ||
+    process.env.POSTGRES_URL ||
+    process.env.DATABASE_URL ||
+    undefined
+  );
+}
+
+/** Which env var supplied the connection, for display on the dashboard. */
+export function connectionSource(): string | null {
+  if (process.env.ANALYTICS_DATABASE_URL) return 'ANALYTICS_DATABASE_URL';
+  if (process.env.POSTGRES_URL) return 'POSTGRES_URL';
+  if (process.env.DATABASE_URL) return 'DATABASE_URL';
+  return null;
+}
+
+/**
+ * The database host and name currently in use, with credentials stripped.
+ *
+ * Shown on the dashboard so the owner can confirm at a glance WHICH database their
+ * analytics are landing in - the question is impossible to answer confidently from the
+ * Vercel UI alone when several stores exist. Never includes the user or password.
+ */
+export function connectionTarget(): { host: string; database: string } | null {
+  const cs = connectionString();
+  if (!cs) return null;
+  try {
+    const u = new URL(cs);
+    return { host: u.hostname, database: u.pathname.replace(/^\//, '') || '(default)' };
+  } catch {
+    return null;
+  }
 }
 
 /** True when a database connection string is configured. */

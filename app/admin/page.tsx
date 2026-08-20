@@ -2,7 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { DateFilter } from './DateFilter';
 import { VisitsChart, type ChartPoint } from './VisitsChart';
-import { analyticsConfigured } from '@/lib/analytics/db';
+import { analyticsConfigured, connectionSource, connectionTarget } from '@/lib/analytics/db';
 import {
   bucketFor,
   formatBucketLabel,
@@ -61,6 +61,8 @@ export default async function AdminDashboard({ searchParams }: Props) {
   const range = resolveRange({ preset: sp.preset, from: sp.from, to: sp.to });
   const bucket = bucketFor(range);
   const pageNum = Math.max(1, Number(sp.page) || 1);
+  const target = connectionTarget();
+  const source = connectionSource();
 
   if (!analyticsConfigured()) {
     return (
@@ -69,9 +71,11 @@ export default async function AdminDashboard({ searchParams }: Props) {
         <div role="alert" className="mt-6 rounded-xl border border-amber-300 bg-amber-50 p-5 text-sm text-ink-800">
           <p className="font-medium">No analytics database is configured.</p>
           <p className="mt-1">
-            Set <code className="font-mono text-xs">POSTGRES_URL</code> in the deployment
-            environment and run <code className="font-mono text-xs">npm run analytics:migrate</code>.
-            See <code className="font-mono text-xs">docs/analytics.md</code>.
+            Set <code className="font-mono text-xs">ANALYTICS_DATABASE_URL</code> (or
+            <code className="font-mono text-xs"> POSTGRES_URL</code> /
+            <code className="font-mono text-xs"> DATABASE_URL</code>) in the deployment
+            environment and redeploy. The table is created automatically on first use - no
+            manual SQL. See <code className="font-mono text-xs">docs/analytics.md</code>.
           </p>
         </div>
       </main>
@@ -259,6 +263,15 @@ export default async function AdminDashboard({ searchParams }: Props) {
           </Panel>
 
           <footer className="mt-8 text-xs leading-relaxed text-ink-500">
+            {target && (
+              <p className="mb-1">
+                Reading from <code className="font-mono">{target.database}</code> on{' '}
+                <code className="font-mono">{target.host}</code>
+                {source ? ` (via ${source})` : ''}. Set{' '}
+                <code className="font-mono">ANALYTICS_DATABASE_URL</code> to pin this to a
+                specific database if the project has more than one.
+              </p>
+            )}
             <p>
               {firstDate
                 ? `First-party tracking has been recording since ${firstDate}. Nothing before that date exists in this database.`

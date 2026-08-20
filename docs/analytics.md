@@ -192,7 +192,8 @@ Four independent layers:
 
 | Variable | Required | Purpose |
 |---|---|---|
-| `POSTGRES_URL` | yes | Postgres connection string (`DATABASE_URL` also accepted) |
+| `ANALYTICS_DATABASE_URL` | preferred | Postgres connection string. Takes precedence; use it when the project has more than one database |
+| `POSTGRES_URL` / `DATABASE_URL` | fallback | Used when the above is unset. Set automatically by Vercel/Neon |
 | `ANALYTICS_ENABLED` | yes, to record | Server switch. Must be exactly `true` |
 | `NEXT_PUBLIC_ANALYTICS_ENABLED` | yes, to record | Client switch. Must be exactly `true` |
 | `ADMIN_PASSWORD` | yes, for /admin | Long, high-entropy. Primary protection |
@@ -209,6 +210,15 @@ node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"   # ses
 
 1. Attach a Postgres store (Vercel → Storage → Create Database → Neon sets the connection
    string automatically; `POSTGRES_URL` and `DATABASE_URL` are both accepted).
+
+   **If the project has more than one database attached**, set `ANALYTICS_DATABASE_URL`
+   to the one you want analytics in. The generic names can be populated by any
+   integration, and because the app creates its own table on first use, resolving to the
+   wrong database would add an `analytics_page_view` table to another application's
+   schema. That is non-destructive - the code only ever runs `CREATE ... IF NOT EXISTS`,
+   never DROP or DELETE - but it is not where your analytics belong. The dashboard footer
+   always shows the host and database name actually in use so this is verifiable at a
+   glance.
 2. Set the four other variables above in the Production environment.
 3. Deploy.
 4. Visit `/admin`, sign in, and confirm events appear.
