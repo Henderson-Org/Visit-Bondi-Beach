@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { DateFilter } from './DateFilter';
 import { VisitsChart, type ChartPoint } from './VisitsChart';
 import { StatusPanel } from './StatusPanel';
+import { WeeklyReport } from './WeeklyReport';
 import { analyticsConfigured, analyticsStatus, connectionSource, connectionTarget } from '@/lib/analytics/db';
 import {
   bucketFor,
@@ -13,6 +14,7 @@ import {
   languageLabel,
   pct,
   resolveRange,
+  sydneyToday,
 } from '@/lib/analytics/core';
 import {
   countDistinctPages,
@@ -23,6 +25,7 @@ import {
   fetchLanguages,
   fetchSeries,
   fetchTopPages,
+  fetchWeeklyComparison,
   type CountryRow,
   type LanguageRow,
   type TopPage,
@@ -91,7 +94,7 @@ export default async function AdminDashboard({ searchParams }: Props) {
   }
 
   // One failure must not take the whole dashboard down; each panel degrades on its own.
-  const [kpis, series, topPages, languages, countries, distinctPages, firstDate, allTime, status] =
+  const [kpis, series, topPages, languages, countries, distinctPages, firstDate, allTime, status, weekly] =
     await Promise.all([
       fetchKpis(range).catch(() => null),
       fetchSeries(range, bucket).catch(() => null),
@@ -102,6 +105,7 @@ export default async function AdminDashboard({ searchParams }: Props) {
       fetchFirstEventDate().catch(() => null),
       fetchAllTimeTotals().catch(() => null),
       analyticsStatus().catch(() => null),
+      fetchWeeklyComparison(sydneyToday()).catch(() => null),
     ]);
 
   const dbDown = kpis === null && series === null && topPages === null && languages === null;
@@ -353,6 +357,8 @@ export default async function AdminDashboard({ searchParams }: Props) {
               </div>
             )}
           </Panel>
+
+          {weekly && <WeeklyReport data={weekly} />}
 
           <footer className="mt-8 text-xs leading-relaxed text-ink-500">
             {target && (

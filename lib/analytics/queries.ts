@@ -1,5 +1,10 @@
 import { query } from './db';
-import { SITE_TZ, type Bucket, type DateRange } from './core';
+import { SITE_TZ, addDays, daysBetweenInclusive, type Bucket, type DateRange } from './core';
+import {
+  channelFor,
+  type PeriodMetrics,
+  type WeeklyComparison,
+} from './insights';
 
 /**
  * Dashboard queries.
@@ -210,6 +215,94 @@ export async function fetchAllTimeTotals(): Promise<AllTimeTotals> {
     visits: Number(r?.visits ?? 0),
     visitors: Number(r?.visitors ?? 0),
   };
+}
+
+/**
+ * Rolling week-on-week comparison: the last 7 Sydney days against the 7 before them.
+ *
+ * "Every 7 days" is implemented as a rolling window computed on each load rather than a
+ * scheduled job, so the panel is always current, needs no cron, and cannot silently go
+ * stale if a scheduler fails.
+ */
+export async function fetchWeeklyComparison(today: string): Promise<WeeklyComparison> {
+  const curFrom = addDays(today, -6);
+  const prevFrom = addDays(today, -13);
+  const prevTo = addDays(today, -7);
+  const params = [SITE_TZ, prevFrom, today, curFrom];
+
+  // $4 splits the 14-day window into the current and previous weeks in one pass.
+  const PERIOD = `CASE WHEN (occurred_at AT TIME ZONE $1)::date >= $4::date THEN 'cur' ELSE 'prev' END`;
+  const WINDOW = `(occurred_at AT TIME ZONE $1)::date >= $2::date AND (occurred_at AT TIME ZONE $1)::date <= $3::date`;
+
+  const [totals, channels, langs, pages, firstDay] = await Promise.all([
+    query<{ period: string; visits: string; visitors: string; page_views: string }>(
+      `SELECT ${PERIOD} AS period,
+              COUNT(DISTINCT session_id) AS visits,
+              COUNT(DISTINCT visitor_id) AS visitors,
+              COUNT(*)                   AS page_views
+       FROM analytics_page_view WHERE ${WINDOW} GROUP BY 1`,
+      params,
+    ),
+    // Channel is a property of the VISIT, so count distinct sessions per referrer host.
+    query<{ period: string; referrer_host: string | null; visits: string }>(
+      `SELECT ${PERIOD} AS period, referrer_host, COUNT(DISTINCT session_id) AS visits
+       FROM analytics_page_view WHERE ${WINDOW} GROUP BY 1, 2`,
+      params,
+    ),
+    query<{ period: string; language: string; page_views: string }>(
+      `SELECT ${PERIOD} AS period, language, COUNT(*) AS page_views
+       FROM analytics_page_view WHERE ${WINDOW} GROUP BY 1, 2`,
+      params,
+    ),
+    query<{ pathname: string; cur: string; prev: string }>(
+      `SELECT pathname,
+              COUNT(*) FILTER (WHERE (occurred_at AT TIME ZONE $1)::date >= $4::date) AS cur,
+              COUNT(*) FILTER (WHERE (occurred_at AT TIME ZONE $1)::date <  $4::date) AS prev
+       FROM analytics_page_view WHERE ${WINDOW} GROUP BY pathname`,
+      params,
+    ),
+    query<{ d: string | null }>(
+      `SELECT to_char(MIN(occurred_at AT TIME ZONE $1), 'YYYY-MM-DD') AS d FROM analytics_page_view`,
+      [SITE_TZ],
+    ),
+  ]);
+
+  const blank = (): PeriodMetrics => ({
+    visits: 0,
+    visitors: 0,
+    pageViews: 0,
+    byChannel: { search: 0, social: 0, referral: 0, direct: 0 },
+    byLanguage: {},
+  });
+  const cur = blank();
+  const prev = blank();
+  const pick = (p: string) => (p === 'cur' ? cur : prev);
+
+  for (const r of totals) {
+    const m = pick(r.period);
+    m.visits = Number(r.visits);
+    m.visitors = Number(r.visitors);
+    m.pageViews = Number(r.page_views);
+  }
+  for (const r of channels) {
+    pick(r.period).byChannel[channelFor(r.referrer_host)] += Number(r.visits);
+  }
+  for (const r of langs) {
+    const m = pick(r.period);
+    m.byLanguage[r.language] = (m.byLanguage[r.language] ?? 0) + Number(r.page_views);
+  }
+
+  const moved = pages
+    .map((r) => ({ pathname: r.pathname, cur: Number(r.cur), prev: Number(r.prev) }))
+    .filter((m) => m.cur + m.prev >= 5); // ignore noise from near-zero pages
+  const risers = moved.filter((m) => m.cur > m.prev).sort((a, b) => b.cur - b.prev - (a.cur - a.prev));
+  const fallers = moved.filter((m) => m.cur < m.prev).sort((a, b) => a.cur - a.prev - (b.cur - b.prev));
+
+  // How many days of history actually exist, so the panel can caveat a short baseline.
+  const first = firstDay[0]?.d ?? today;
+  const daysOfData = Math.max(1, daysBetweenInclusive(first, today));
+
+  return { cur, prev, risers, fallers, daysOfData };
 }
 
 /** Sydney date of the earliest recorded event, so the UI can state when tracking began. */

@@ -265,6 +265,34 @@ Verified end-to-end against a real Postgres: idempotent duplicate suppression, b
 filtering, server-side admin-path rejection, cookie-based visitor/session reuse, the
 timezone boundary through the dashboard, and every filter driving every panel.
 
+## Weekly performance panel
+
+"How the last 7 days went" compares the last 7 Sydney days with the 7 before, recomputed
+on every page load. It is a rolling window rather than a scheduled job, so it is always
+current and there is no cron that can fail silently.
+
+It shows visits/visitors/page views/search visits with week-on-week deltas, a breakdown of
+where visits came from (search / other websites / social / direct), and plain-English
+statements derived from those numbers.
+
+**There is deliberately no "SEO score".** A single 0-100 figure would need weightings
+nobody can justify, would look more authoritative than it deserves, and would invite
+decisions based on a number that was invented rather than measured. Every statement in the
+panel instead quotes the figures it came from, and a test asserts that no insight ever
+emits a score or grade.
+
+Channel comes from `referrer_host` (`lib/analytics/insights.ts`). Two honest caveats the
+panel states on screen:
+
+- **"From search" understates reality.** It counts visits whose referrer was a recognised
+  search engine; browsers and privacy tools frequently strip the referrer, and those land
+  in "Direct / unknown".
+- **It cannot see rankings, impressions or click-through rate.** Those exist only in
+  Search Console. This panel measures what happened *on the site*, not how Google ranks it.
+
+With fewer than 14 days of history the panel says so, so an incomplete baseline is never
+presented as a trend.
+
 ## Limitations
 
 - **No history before deployment.** Nothing existed to import; GA4 holds the earlier data.
