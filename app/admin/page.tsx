@@ -7,17 +7,22 @@ import {
   bucketFor,
   formatBucketLabel,
   generateBuckets,
+  countryFlag,
+  countryLabel,
   languageLabel,
   pct,
   resolveRange,
 } from '@/lib/analytics/core';
 import {
   countDistinctPages,
+  fetchAllTimeTotals,
+  fetchCountries,
   fetchFirstEventDate,
   fetchKpis,
   fetchLanguages,
   fetchSeries,
   fetchTopPages,
+  type CountryRow,
   type LanguageRow,
   type TopPage,
 } from '@/lib/analytics/queries';
@@ -83,14 +88,17 @@ export default async function AdminDashboard({ searchParams }: Props) {
   }
 
   // One failure must not take the whole dashboard down; each panel degrades on its own.
-  const [kpis, series, topPages, languages, distinctPages, firstDate] = await Promise.all([
-    fetchKpis(range).catch(() => null),
-    fetchSeries(range, bucket).catch(() => null),
-    fetchTopPages(range, PAGE_SIZE, (pageNum - 1) * PAGE_SIZE).catch(() => null),
-    fetchLanguages(range).catch(() => null),
-    countDistinctPages(range).catch(() => 0),
-    fetchFirstEventDate().catch(() => null),
-  ]);
+  const [kpis, series, topPages, languages, countries, distinctPages, firstDate, allTime] =
+    await Promise.all([
+      fetchKpis(range).catch(() => null),
+      fetchSeries(range, bucket).catch(() => null),
+      fetchTopPages(range, PAGE_SIZE, (pageNum - 1) * PAGE_SIZE).catch(() => null),
+      fetchLanguages(range).catch(() => null),
+      fetchCountries(range).catch(() => null),
+      countDistinctPages(range).catch(() => 0),
+      fetchFirstEventDate().catch(() => null),
+      fetchAllTimeTotals().catch(() => null),
+    ]);
 
   const dbDown = kpis === null && series === null && topPages === null && languages === null;
 
@@ -160,6 +168,19 @@ export default async function AdminDashboard({ searchParams }: Props) {
             <Kpi label="Pages per visit" value={(kpis?.pagesPerVisit ?? 0).toFixed(1)} />
           </div>
 
+          {/* Lifetime totals. Deliberately NOT filtered by the range above, so it is
+              labelled unmistakably to avoid looking like a broken date filter. */}
+          {allTime && (
+            <p className="mt-3 rounded-xl border border-sand-200 bg-white px-4 py-2.5 text-sm text-ink-600">
+              <strong className="font-semibold text-ink-800">All time</strong> (ignores the date
+              filter): {allTime.pageViews.toLocaleString()} page view
+              {allTime.pageViews === 1 ? '' : 's'} · {allTime.visits.toLocaleString()} visit
+              {allTime.visits === 1 ? '' : 's'} · {allTime.visitors.toLocaleString()} unique visitor
+              {allTime.visitors === 1 ? '' : 's'}
+              {firstDate ? ` since ${firstDate}` : ''}.
+            </p>
+          )}
+
           <Panel title="Visits over time">
             <VisitsChart points={points} />
           </Panel>
@@ -217,6 +238,55 @@ export default async function AdminDashboard({ searchParams }: Props) {
                   </nav>
                 )}
               </>
+            )}
+          </Panel>
+
+          <Panel title="Visits by country">
+            {!countries?.length ? (
+              <p className="py-8 text-center text-sm text-ink-500">No visits in this period.</p>
+            ) : (
+              <div className="overflow-x-auto">
+                <table className="w-full min-w-[520px] text-sm">
+                  <thead>
+                    <tr className="border-b border-sand-200 text-left text-xs uppercase tracking-wide text-ink-500">
+                      <th scope="col" className="py-2 pr-3">Country</th>
+                      <th scope="col" className="py-2 pr-3">Share</th>
+                      <th scope="col" className="py-2 pr-3 text-right">Visits</th>
+                      <th scope="col" className="py-2 pr-3 text-right">% of visits</th>
+                      <th scope="col" className="py-2 text-right">Page views</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {countries.map((c: CountryRow) => {
+                      const share = pct(c.visits, kpis?.visits ?? 0);
+                      return (
+                        <tr key={c.country ?? 'unknown'} className="border-b border-sand-100 last:border-0">
+                          <td className="py-2 pr-3 text-ink-900">
+                            <span aria-hidden="true" className="mr-1.5">{countryFlag(c.country)}</span>
+                            {countryLabel(c.country)}
+                          </td>
+                          <td className="py-2 pr-3">
+                            <div className="h-2 w-full min-w-[80px] rounded-full bg-sand-100">
+                              <div
+                                className="h-2 rounded-full bg-ocean-500"
+                                style={{ width: `${Math.max(share, share > 0 ? 2 : 0)}%` }}
+                              />
+                            </div>
+                          </td>
+                          <td className="py-2 pr-3 text-right tabular-nums">{c.visits.toLocaleString()}</td>
+                          <td className="py-2 pr-3 text-right tabular-nums">{share}%</td>
+                          <td className="py-2 text-right tabular-nums">{c.pageViews.toLocaleString()}</td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+                <p className="mt-3 text-xs text-ink-500">
+                  Country is resolved at the edge from the request and stored as a two-letter code.
+                  The IP address it came from is never stored. &ldquo;Unknown&rdquo; means the
+                  platform supplied no location for that request.
+                </p>
+              </div>
             )}
           </Panel>
 

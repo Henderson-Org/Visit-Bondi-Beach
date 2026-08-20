@@ -3,12 +3,15 @@ import {
   addDays,
   bucketFor,
   classifyPath,
+  countryFlag,
+  countryLabel,
   daysBetweenInclusive,
   formatBucketLabel,
   generateBuckets,
   isExcludedPath,
   isValidDateString,
   languageLabel,
+  normaliseCountry,
   pct,
   referrerHost,
   resolveRange,
@@ -176,6 +179,34 @@ describe('graph bucketing', () => {
     expect(formatBucketLabel('2026-08-14T09:00', 'hour')).toBe('09:00');
     expect(formatBucketLabel('2026-08-14', 'day')).toBe('14 Aug');
     expect(formatBucketLabel('2026-08-01', 'month')).toBe('Aug 2026');
+  });
+});
+
+describe('country from edge geolocation', () => {
+  it('accepts and upper-cases a valid ISO code', () => {
+    expect(normaliseCountry('au')).toBe('AU');
+    expect(normaliseCountry('JP')).toBe('JP');
+    expect(normaliseCountry(' de ')).toBe('DE');
+  });
+
+  it('treats unknown/placeholder values as no country rather than inventing one', () => {
+    expect(normaliseCountry('XX')).toBeNull();
+    expect(normaliseCountry('T1')).toBeNull(); // Tor exit node placeholder
+    expect(normaliseCountry('')).toBeNull();
+    expect(normaliseCountry(null)).toBeNull();
+    expect(normaliseCountry('AUS')).toBeNull();
+    expect(normaliseCountry('1')).toBeNull();
+  });
+
+  it('renders readable names and falls back safely', () => {
+    expect(countryLabel('AU')).toBe('Australia');
+    expect(countryLabel('JP')).toBe('Japan');
+    expect(countryLabel(null)).toBe('Unknown');
+  });
+
+  it('produces a flag for a valid code and a globe otherwise', () => {
+    expect(countryFlag('AU')).toBe('🇦🇺');
+    expect(countryFlag(null)).toBe('🌐');
   });
 });
 

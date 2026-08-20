@@ -83,6 +83,40 @@ export function classifyPath(pathname: string): {
   return { path: clean, language: 'en', contentId: clean };
 }
 
+/**
+ * Normalise an edge geolocation country code to ISO 3166-1 alpha-2, or null.
+ *
+ * Only the country is kept - never the IP it was derived from, and never a region or
+ * city. Anything that is not exactly two letters (including Vercel's 'XX' placeholder
+ * for "unknown") becomes null, so the dashboard reports "Unknown" honestly instead of
+ * inventing a location.
+ */
+export function normaliseCountry(raw: string | null | undefined): string | null {
+  if (!raw) return null;
+  const c = raw.trim().toUpperCase();
+  if (!/^[A-Z]{2}$/.test(c) || c === 'XX' || c === 'T1') return null;
+  return c;
+}
+
+/**
+ * Human-readable country name for a code, via Intl (no dependency, no lookup table to
+ * fall out of date). Falls back to the raw code if the runtime cannot resolve it.
+ */
+export function countryLabel(code: string | null): string {
+  if (!code) return 'Unknown';
+  try {
+    return new Intl.DisplayNames(['en'], { type: 'region' }).of(code) ?? code;
+  } catch {
+    return code;
+  }
+}
+
+/** Regional-indicator flag emoji for a country code. Purely decorative. */
+export function countryFlag(code: string | null): string {
+  if (!code || !/^[A-Z]{2}$/.test(code)) return '🌐';
+  return String.fromCodePoint(...[...code].map((ch) => 0x1f1e6 + ch.charCodeAt(0) - 65));
+}
+
 /** Hostname of a referrer, or null for direct/invalid/same-site-stripped referrers. */
 export function referrerHost(referrer: string | null | undefined): string | null {
   if (!referrer) return null;

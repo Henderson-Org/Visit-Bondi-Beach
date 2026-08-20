@@ -155,6 +155,63 @@ export async function fetchLanguages(range: DateRange): Promise<LanguageRow[]> {
   }));
 }
 
+export interface CountryRow {
+  country: string | null;
+  visits: number;
+  pageViews: number;
+}
+
+/**
+ * Visits by country, from the edge geolocation recorded at collection time.
+ *
+ * Rows with no country (local development, or platforms that supply no geolocation)
+ * group under NULL and are shown as "Unknown" rather than being dropped, so the totals
+ * still reconcile with the KPI cards.
+ */
+export async function fetchCountries(range: DateRange): Promise<CountryRow[]> {
+  const rows = await query<{ country: string | null; visits: string; page_views: string }>(
+    `SELECT country,
+            COUNT(DISTINCT session_id) AS visits,
+            COUNT(*)                   AS page_views
+     FROM analytics_page_view
+     WHERE ${IN_RANGE}
+     GROUP BY country
+     ORDER BY visits DESC, page_views DESC, country ASC NULLS LAST`,
+    rangeParams(range),
+  );
+  return rows.map((r) => ({
+    country: r.country,
+    visits: Number(r.visits),
+    pageViews: Number(r.page_views),
+  }));
+}
+
+export interface AllTimeTotals {
+  pageViews: number;
+  visits: number;
+  visitors: number;
+}
+
+/**
+ * Lifetime totals across every event ever recorded - deliberately NOT filtered by the
+ * selected range. Shown under an explicit "All time" heading so it can never be mistaken
+ * for the range-filtered KPI cards above it.
+ */
+export async function fetchAllTimeTotals(): Promise<AllTimeTotals> {
+  const rows = await query<{ page_views: string; visits: string; visitors: string }>(
+    `SELECT COUNT(*)                   AS page_views,
+            COUNT(DISTINCT session_id) AS visits,
+            COUNT(DISTINCT visitor_id) AS visitors
+     FROM analytics_page_view`,
+  );
+  const r = rows[0];
+  return {
+    pageViews: Number(r?.page_views ?? 0),
+    visits: Number(r?.visits ?? 0),
+    visitors: Number(r?.visitors ?? 0),
+  };
+}
+
 /** Sydney date of the earliest recorded event, so the UI can state when tracking began. */
 export async function fetchFirstEventDate(): Promise<string | null> {
   const rows = await query<{ d: string | null }>(

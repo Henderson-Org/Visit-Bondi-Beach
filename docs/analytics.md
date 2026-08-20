@@ -40,13 +40,14 @@ analytics_page_view
   page_title     text
   content_id     text                     -- canonical English path (translation group)
   language       text  not null           -- 'en' | ja | zh-cn | es | pt | de | nl | it
+  country        text                     -- ISO 3166-1 alpha-2, or NULL when unknown
   referrer       text
   referrer_host  text
   created_at     timestamptz not null default now()
 ```
 
 Indexes lead with `occurred_at` (every dashboard panel filters by date first), paired with
-`visitor_id`, `session_id`, `pathname`, `language` and `content_id`.
+`visitor_id`, `session_id`, `pathname`, `language`, `content_id` and `country`.
 
 ### Retention
 
@@ -56,10 +57,23 @@ retention policy anywhere in this project. Both the runtime and the migration sc
 containing `DROP`, `DELETE` or `TRUNCATE`. Rollup tables may be added later for speed, but
 they must be derived from this table, never replace it.
 
+### Country
+
+Resolved at the edge from the request (`x-vercel-ip-country`, with `cf-ipcountry` as a
+fallback) and stored as a two-letter ISO code. **Country only** - the region and city
+headers are deliberately ignored, and the IP it was derived from is never stored in any
+form. Unresolvable values (including Vercel's `XX` placeholder and the `T1` Tor marker)
+are stored as NULL and reported as "Unknown" rather than guessed.
+
+Off-platform (local development, self-hosting) no geolocation header exists, so country
+is NULL. Rows recorded before country tracking existed also stay NULL - they are shown as
+"Unknown", never back-filled with an assumption.
+
 ### What is deliberately NOT collected
 
-No IP address, in any form — not stored, not hashed. No fingerprinting, no device or
-browser profiling, no cross-site identifiers, no advertising trackers, no personal data.
+No IP address, in any form — not stored, not hashed. No region or city. No fingerprinting,
+no device or browser profiling, no cross-site identifiers, no advertising trackers, no
+personal data.
 
 ---
 
@@ -143,7 +157,12 @@ UTC-only aggregation would file it on the wrong day; this system files it on the
 
 The range lives in the URL (`/admin?preset=30d`, `/admin?preset=custom&from=…&to=…`) so a
 filtered view can be refreshed and shared inside the admin area, and it drives **every**
-panel: KPIs, graph, Top pages and Page views by language.
+panel: KPIs, graph, Top pages, Visits by country and Page views by language.
+
+The one deliberate exception is the **All time** line beneath the KPI cards, which reports
+lifetime page views, visits and unique visitors across every event ever recorded. It is
+labelled "(ignores the date filter)" precisely so it can never be mistaken for a range
+figure or read as a broken filter.
 
 Graph grouping is chosen from the range: 1 day → hourly, ≤ 92 days → daily, longer →
 monthly. Empty buckets are plotted as explicit zeros, and the graph plots per-bucket

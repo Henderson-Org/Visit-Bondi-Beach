@@ -8,6 +8,7 @@ import {
   VISITOR_COOKIE_DAYS,
   classifyPath,
   isExcludedPath,
+  normaliseCountry,
   referrerHost,
 } from '@/lib/analytics/core';
 
@@ -23,7 +24,9 @@ import {
  *  - Language and content id are derived on the SERVER from the pathname, so a forged
  *    request cannot mislabel a page's language, and admin/API paths cannot be injected
  *    into public analytics.
- *  - No IP address is stored, in any form.
+ *  - No IP address is stored, in any form. Country comes from the platform's own
+ *    geolocation header, so we record a two-letter country and never touch the IP
+ *    it was resolved from.
  */
 
 export const runtime = 'nodejs';
@@ -56,6 +59,13 @@ export async function POST(req: NextRequest) {
     if (isExcludedPath(rawPath)) return noContent();
 
     const { path, language, contentId } = classifyPath(rawPath);
+
+    // Vercel resolves the country at the edge and passes it as a header. Country only -
+    // we deliberately ignore the region/city headers. Absent off-platform (local dev),
+    // in which case this is null and the dashboard shows "Unknown".
+    const country = normaliseCountry(
+      req.headers.get('x-vercel-ip-country') ?? req.headers.get('cf-ipcountry'),
+    );
 
     const title =
       typeof body.title === 'string' && body.title.trim() ? body.title.trim().slice(0, 300) : null;
@@ -95,10 +105,10 @@ export async function POST(req: NextRequest) {
     // beacon carrying the same eventId can never create a second page view.
     await query(
       `INSERT INTO analytics_page_view
-         (event_id, occurred_at, visitor_id, session_id, pathname, page_title, content_id, language, referrer, referrer_host)
-       VALUES ($1::uuid, now(), $2::uuid, $3::uuid, $4, $5, $6, $7, $8, $9)
+         (event_id, occurred_at, visitor_id, session_id, pathname, page_title, content_id, language, country, referrer, referrer_host)
+       VALUES ($1::uuid, now(), $2::uuid, $3::uuid, $4, $5, $6, $7, $8, $9, $10)
        ON CONFLICT (event_id) DO NOTHING`,
-      [eventId, visitorId, sessionId, path, title, contentId, language, referrer, referrerHost(referrer)],
+      [eventId, visitorId, sessionId, path, title, contentId, language, country, referrer, referrerHost(referrer)],
     );
 
     return res;

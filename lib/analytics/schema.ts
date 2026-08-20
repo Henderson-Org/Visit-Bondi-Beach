@@ -34,10 +34,19 @@ export const SCHEMA_STATEMENTS: string[] = [
      -- Normalised language of the RENDERED content (never the browser's Accept-Language).
      -- 'en' for the English original, otherwise the site's locale code (ja, zh-cn, ...).
      language      TEXT        NOT NULL,
+     -- ISO 3166-1 alpha-2, from the edge's geolocation header. Country only - coarse
+     -- enough not to identify anyone, and the IP it was derived from is never stored.
+     -- NULL when the platform supplies no geolocation (e.g. local development).
+     country       TEXT,
      referrer      TEXT,
      referrer_host TEXT,
      created_at    TIMESTAMPTZ NOT NULL DEFAULT now()
    )`,
+
+  // Additive column for databases created before country tracking existed. ADD COLUMN
+  // IF NOT EXISTS is idempotent and leaves existing rows intact (their country is NULL,
+  // which the dashboard reports honestly as "Unknown" rather than guessing).
+  `ALTER TABLE analytics_page_view ADD COLUMN IF NOT EXISTS country TEXT`,
 
   // Idempotency: the same event_id can only ever produce one row.
   `CREATE UNIQUE INDEX IF NOT EXISTS analytics_page_view_event_id_key
@@ -57,6 +66,8 @@ export const SCHEMA_STATEMENTS: string[] = [
      ON analytics_page_view (occurred_at, language)`,
   `CREATE INDEX IF NOT EXISTS analytics_page_view_occurred_content_idx
      ON analytics_page_view (occurred_at, content_id)`,
+  `CREATE INDEX IF NOT EXISTS analytics_page_view_occurred_country_idx
+     ON analytics_page_view (occurred_at, country)`,
 ];
 
 /**
