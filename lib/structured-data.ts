@@ -358,6 +358,16 @@ export function eventJsonLd(opts: {
   };
   if (opts.endDate) data.endDate = opts.endDate;
   if (opts.description) data.description = opts.description;
+  // Verified from the event's own source, so it is a fact rather than an inference.
+  if (opts.priceType === 'free') data.isAccessibleForFree = true;
+  // NOTE ON `performer`: Search Console lists it as a recommended (non-critical) field
+  // and it is deliberately omitted. None of the events on this site has a performer we
+  // can verify - a farmers market, a fun run and a sculpture exhibition have no
+  // performer at all, and the line-ups for the council's NYE event change yearly and
+  // are not published in a form we hold. Naming the organiser as the "performer" to
+  // silence the warning would be both semantically wrong and a fabricated claim, which
+  // the site's integrity rules forbid. Add it only for an event with a real, sourced
+  // line-up.
   if (opts.image) data.image = opts.image.startsWith('http') ? opts.image : `${siteOrigin()}${opts.image}`;
   if (opts.organiser) data.organizer = { '@type': 'Organization', name: opts.organiser, ...(opts.officialUrl ? { url: opts.officialUrl } : {}) };
   // Only advertise an Offer for genuinely free events (price 0). Paid/varies link out
