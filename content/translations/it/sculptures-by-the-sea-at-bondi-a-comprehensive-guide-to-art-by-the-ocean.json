@@ -5,18 +5,127 @@
   "metaDescription": "Una guida pratica a Sculpture by the Sea lungo la passeggiata costiera da Bondi a Tamarama - quando si tiene, come arrivarci e come evitare la folla.",
   "h1": "Sculpture by the Sea lungo la passeggiata costiera da Bondi a Tamarama: la mia guida pratica",
   "blocks": [
-    {"type":"p","text":"Per qualche settimana ogni primavera, il mio tratto di costa preferito si trasforma nella galleria più bella del mondo. Sculpture by the Sea costeggia le scogliere da Bondi a Tamarama con oltre 100 opere, disposte davanti all'oceano, percorribili gratuitamente e del tutto diverse da una galleria con un tetto. L'ho fatta quasi ogni anno e continua a lasciarmi senza fiato."},
-    {"type":"quickFacts","items":[{"label":"Cosa","value":"Mostra di sculture all'aperto e gratuita, oltre 100 opere"},{"label":"Dove","value":"Passeggiata costiera da Bondi a Tamarama"},{"label":"Distanza","value":"Circa 2 km lungo la passeggiata costiera da Bondi a Tamarama (verifica sul sito ufficiale)"},{"label":"Quando","value":"Primavera, all'incirca fine ottobre (le date variano - verifica sul sito ufficiale)"},{"label":"Costo","value":"Gratuito; donazioni benvenute"}]},
-    {"type":"p","text":"Tutto è cominciato nel 1997, quando il fondatore David Handley - un ex avvocato d'affari ispirato da un parco di sculture che aveva visto in Boemia - allestì una mostra di un solo giorno con 64 opere lungo questo stesso sentiero. Con un budget minimo attirò circa 25.000 persone, e l'idea non è mai cambiata: mettere opere ambiziose di artisti australiani e internazionali di fronte al mare e lasciare che l'oceano faccia metà del lavoro. Oggi è presentata come la più grande mostra di sculture gratuita al pubblico del mondo."},
-    {"type":"h2","text":"La passeggiata in sé"},
-    {"type":"p","text":"Sono circa 2 chilometri per una tratta, dalla piscina degli Icebergs all'estremità meridionale di Bondi fino a Tamarama. Come semplice passeggiata sarebbero circa 25 minuti, ma non passeggerai - ti fermerai in continuazione, quindi concediti due o tre ore. Le opere sono sparse sulla sabbia, appollaiate sulle scogliere e raggruppate nel Marks Park su Mackenzies Point, il promontorio erboso circa a metà percorso con vedute libere a nord e a sud. Parte del piacere sta nel guardare come la luce e la marea rimodellano ogni pezzo lungo il cammino."},
-    {"type":"p","text":"Il sentiero è asfaltato ma stretto in alcuni punti, con gradini e qualche strappo ripido, quindi indossa scarpe adatte anziché infradito. Qualche nota pratica prima di partire:"},
-    {"type":"list","items":["È una scogliera viva - resta dietro le barriere e tieni bambini e cani vicini vicino ai bordi.","I bagni si trovano alle spiagge di Bondi e Tamarama, con poco in mezzo, quindi vacci prima di partire.","Il lato di Bondi ha abbondanza di cibo e caffè; Tamarama ha molte meno opzioni, quindi porta con te acqua e uno spuntino.","La maggior parte delle sculture è in vendita, e molte sono opere che davvero non puoi vedere da nessun'altra parte."]},
-    {"type":"h2","text":"Come arrivare"},
-    {"type":"p","text":"I mezzi pubblici sono la scelta furba - i parcheggi intorno a Tamarama si riempiono in fretta durante il festival. Prendi il treno per Bondi Junction, poi un autobus fino alla spiaggia, e imbocca il sentiero al promontorio meridionale presso gli Icebergs. Per camminare contro il flusso principale della folla, parti invece dall'estremità più tranquilla di Tamarama. Conferma le linee di autobus attuali ed eventuali chiusure stradali su Transport for NSW o sulla pagina dedicata agli spostamenti dell'evento."},
-    {"type":"localTip","text":"Vieni all'alba in un giorno feriale. Il sentiero è più vuoto nella prima ora dopo l'alba, la luce è morbida e dorata, e avrai le sculture principali quasi tutte per te prima che arrivino i gruppi turistici. Le mattine feriali battono i fine settimana di gran lunga."},
-    {"type":"callout","tone":"warning","title":"Conferma le date di quest'anno prima di organizzarti","text":"La mostra si tiene ogni primavera, di solito da fine ottobre a inizio novembre, ma le date esatte, gli orari di apertura ed eventuali extra a pagamento (accesso anticipato o tour al tramonto) cambiano di anno in anno e possono slittare per il meteo. Controlla il sito ufficiale di Sculpture by the Sea prima di fissare una giornata."},
-    {"type":"faq","items":[{"q":"Sculpture by the Sea è gratuita?","a":"Sì - percorrere la mostra è gratuito e aperto al pubblico. Le donazioni sono calorosamente benvenute, e a volte ci sono extra facoltativi a pagamento come tour guidati o ad accesso anticipato che puoi prenotare tramite il sito ufficiale."},{"q":"Quanto tempo ci vuole?","a":"Il percorso è di circa 2 chilometri tra Bondi e Tamarama - circa 25 minuti come semplice passeggiata, ma con oltre 100 sculture per cui fermarsi, la maggior parte delle persone impiega dalle due alle tre ore da un capo all'altro."},{"q":"La passeggiata è adatta a bambini e passeggini?","a":"Le famiglie la fanno ogni anno e i bambini adorano le dimensioni delle opere, ma gradini e tratti stretti e ripidi rendono i passeggini faticosi - per i più piccoli è più comodo un marsupio. Tieni tutti vicini alle barriere in prossimità dei bordi della scogliera."}]},
-    {"type":"quote","text":"La scultura migliore qui non è mai solo l'oggetto - sono l'oggetto, la scogliera e il mare, tutti insieme."}
+    {
+      "type": "answer",
+      "text": "Sculpture by the Sea 2026 si tiene dal 16 ottobre al 2 novembre 2026 lungo la passeggiata costiera da Bondi a Tamarama. È gratuita, non serve biglietto e le sculture sono all'aperto, visibili per tutto il giorno. L'edizione 2026 segna 30 anni dalla prima Sculpture by the Sea a Bondi, nel 1997. Calcola dalle due alle tre ore per i 2 km del percorso, vai se puoi in una mattina infrasettimanale e prendi l'autobus: durante la mostra i parcheggi attorno a Bondi e Tamarama sono pochissimi."
+    },
+    {
+      "type": "p",
+      "text": "Per qualche settimana ogni primavera, il mio tratto di costa preferito si trasforma nella galleria più bella del mondo. Sculpture by the Sea costeggia le scogliere da Bondi a Tamarama con oltre 100 opere, disposte davanti all'oceano, percorribili gratuitamente e del tutto diverse da una galleria con un tetto. L'ho fatta quasi ogni anno e continua a lasciarmi senza fiato."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Date 2026",
+          "value": "Dal 16 ottobre al 2 novembre 2026"
+        },
+        {
+          "label": "Che cos'è",
+          "value": "Mostra di sculture all'aperto e gratuita, oltre 100 opere"
+        },
+        {
+          "label": "Dove",
+          "value": "Passeggiata costiera da Bondi a Tamarama"
+        },
+        {
+          "label": "Distanza",
+          "value": "Circa 2 km solo andata; calcola 2-3 ore"
+        },
+        {
+          "label": "Costo",
+          "value": "Gratuito; donazioni benvenute"
+        },
+        {
+          "label": "Anniversario",
+          "value": "30 anni dalla prima mostra a Bondi, nel 1997"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Tutto è cominciato nel 1997, quando il fondatore David Handley - un ex avvocato d'affari ispirato da un parco di sculture che aveva visto in Boemia - allestì una mostra di un solo giorno con 64 opere lungo questo stesso sentiero. Con un budget minimo attirò circa 25.000 persone, e l'idea non è mai cambiata: mettere opere ambiziose di artisti australiani e internazionali di fronte al mare e lasciare che l'oceano faccia metà del lavoro. Oggi è presentata come la più grande mostra di sculture gratuita al pubblico del mondo."
+    },
+    {
+      "type": "h2",
+      "text": "La passeggiata in sé"
+    },
+    {
+      "type": "p",
+      "text": "Sono circa 2 chilometri per una tratta, dalla piscina degli Icebergs all'estremità meridionale di Bondi fino a Tamarama. Come semplice passeggiata sarebbero circa 25 minuti, ma non passeggerai - ti fermerai in continuazione, quindi concediti due o tre ore. Le opere sono sparse sulla sabbia, appollaiate sulle scogliere e raggruppate nel Marks Park su Mackenzies Point, il promontorio erboso circa a metà percorso con vedute libere a nord e a sud. Parte del piacere sta nel guardare come la luce e la marea rimodellano ogni pezzo lungo il cammino."
+    },
+    {
+      "type": "p",
+      "text": "Il sentiero è asfaltato ma stretto in alcuni punti, con gradini e qualche strappo ripido, quindi indossa scarpe adatte anziché infradito. Qualche nota pratica prima di partire:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "È una scogliera viva - resta dietro le barriere e tieni bambini e cani vicini vicino ai bordi.",
+        "I bagni si trovano alle spiagge di Bondi e Tamarama, con poco in mezzo, quindi vacci prima di partire.",
+        "Il lato di Bondi ha abbondanza di cibo e caffè; Tamarama ha molte meno opzioni, quindi porta con te acqua e uno spuntino.",
+        "La maggior parte delle sculture è in vendita, e molte sono opere che davvero non puoi vedere da nessun'altra parte."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Come arrivare"
+    },
+    {
+      "type": "p",
+      "text": "I mezzi pubblici sono la scelta furba - i parcheggi intorno a Tamarama si riempiono in fretta durante il festival. Prendi il treno per Bondi Junction, poi un autobus fino alla spiaggia, e imbocca il sentiero al promontorio meridionale presso gli Icebergs. Per camminare contro il flusso principale della folla, parti invece dall'estremità più tranquilla di Tamarama. Conferma le linee di autobus attuali ed eventuali chiusure stradali su Transport for NSW o sulla pagina dedicata agli spostamenti dell'evento."
+    },
+    {
+      "type": "localTip",
+      "text": "Vieni all'alba in un giorno feriale. Il sentiero è più vuoto nella prima ora dopo l'alba, la luce è morbida e dorata, e avrai le sculture principali quasi tutte per te prima che arrivino i gruppi turistici. Le mattine feriali battono i fine settimana di gran lunga."
+    },
+    {
+      "type": "h2",
+      "text": "Come evitare la folla"
+    },
+    {
+      "type": "p",
+      "text": "È uno degli appuntamenti più affollati del calendario primaverile di Sydney - gli organizzatori parlano di oltre 450.000 visitatori l'anno lungo tutta la durata - quindi quando ci vai conta più di ogni altra cosa. Un pomeriggio soleggiato del fine settimana significa spalla a spalla su un sentiero a picco sul mare che in certi tratti è stretto. Una mattina infrasettimanale è un'altra mostra."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Vai in settimana, e vai presto. La prima ora dopo l'alba è il momento più tranquillo del sentiero.",
+        "Parti dal lato di Tamarama. La maggior parte della gente entra da Bondi, quindi camminare controcorrente regala visuali più libere e foto più facili.",
+        "Lascia perdere l'auto. Durante la mostra i posti auto su strada attorno a Bondi e Tamarama sono pochi e molto regolamentati: prendi l'autobus, o il treno fino a Bondi Junction e poi un bus per scendere.",
+        "Metti in conto più tempo di quanto pensi. Due o tre ore sono realistiche appena inizi a fermarti."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "È una scogliera vera, e si riempie",
+      "text": "La passeggiata costeggia scogliere vere, con salti senza protezione in alcuni punti, e durante la mostra si può stare spalla a spalla. Tieni i bambini vicini, resta dietro le barriere, non salire sulle sculture e fai molta attenzione se porti attrezzatura fotografica. Orari ed extra a pagamento (ingresso anticipato o tour al tramonto) possono cambiare, e il maltempo a volte chiude tratti del sentiero: controlla il sito ufficiale in giornata."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Quando si tiene Sculpture by the Sea 2026?",
+          "a": "La mostra di Bondi del 2026 va dal 16 ottobre al 2 novembre 2026, lungo la passeggiata costiera da Bondi a Tamarama. Segna 30 anni dalla prima Sculpture by the Sea a Bondi, nel 1997."
+        },
+        {
+          "q": "Sculpture by the Sea è gratuita?",
+          "a": "Sì - percorrere la mostra è gratuito e aperto al pubblico. Le donazioni sono calorosamente benvenute, e a volte ci sono extra facoltativi a pagamento come tour guidati o ad accesso anticipato che puoi prenotare tramite il sito ufficiale."
+        },
+        {
+          "q": "Quanto tempo ci vuole?",
+          "a": "Il percorso è di circa 2 chilometri tra Bondi e Tamarama - circa 25 minuti come semplice passeggiata, ma con oltre 100 sculture per cui fermarsi, la maggior parte delle persone impiega dalle due alle tre ore da un capo all'altro."
+        },
+        {
+          "q": "La passeggiata è adatta a bambini e passeggini?",
+          "a": "Le famiglie la fanno ogni anno e i bambini adorano le dimensioni delle opere, ma gradini e tratti stretti e ripidi rendono i passeggini faticosi - per i più piccoli è più comodo un marsupio. Tieni tutti vicini alle barriere in prossimità dei bordi della scogliera."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "La scultura migliore qui non è mai solo l'oggetto - sono l'oggetto, la scogliera e il mare, tutti insieme."
+    }
   ]
 }

@@ -1344,6 +1344,10 @@
     "metaDescription": "Ein praktischer Leitfaden zu Sculpture by the Sea am Küstenweg von Bondi nach Tamarama - wann sie stattfindet, wie Sie hinkommen und den Menschenmassen entgehen.",
     "blocks": [
       {
+        "type": "answer",
+        "text": "Sculpture by the Sea 2026 läuft vom 16. Oktober bis 2. November 2026 entlang des Küstenwegs von Bondi nach Tamarama. Der Eintritt ist frei, es gibt kein Ticket, und die Skulpturen stehen im Freien und sind den ganzen Tag zu sehen. Die Ausgabe 2026 markiert 30 Jahre seit der ersten Sculpture by the Sea in Bondi im Jahr 1997. Planen Sie zwei bis drei Stunden für die 2 km ein, kommen Sie möglichst an einem Wochentagmorgen und nehmen Sie den Bus - während der Ausstellung sind Parkplätze rund um Bondi und Tamarama sehr knapp."
+      },
+      {
         "type": "p",
         "text": "Für ein paar Wochen jeden Frühling verwandelt sich mein liebster Küstenabschnitt in die schönste Galerie der Welt. Sculpture by the Sea säumt die Klippen von Bondi bis Tamarama mit mehr als 100 Werken, aufgestellt vor dem Meer, frei begehbar und ganz und gar anders als eine Galerie mit Dach. Ich habe sie fast jedes Jahr erlebt, und sie bringt mich immer noch zum Innehalten."
       },
@@ -1351,8 +1355,12 @@
         "type": "quickFacts",
         "items": [
           {
+            "label": "Termine 2026",
+            "value": "16. Oktober bis 2. November 2026"
+          },
+          {
             "label": "Was",
-            "value": "Kostenlose Freiluft-Skulpturenausstellung, mehr als 100 Werke"
+            "value": "Kostenlose Freiluft-Skulpturenausstellung, über 100 Werke"
           },
           {
             "label": "Wo",
@@ -1360,15 +1368,15 @@
           },
           {
             "label": "Distanz",
-            "value": "Etwa 2 km entlang des Küstenwegs von Bondi nach Tamarama (auf der offiziellen Website prüfen)"
-          },
-          {
-            "label": "Wann",
-            "value": "Frühling, etwa Ende Oktober (Termine variieren - auf der offiziellen Website prüfen)"
+            "value": "Rund 2 km einfach; planen Sie 2-3 Stunden ein"
           },
           {
             "label": "Kosten",
             "value": "Kostenlos; Spenden willkommen"
+          },
+          {
+            "label": "Jubiläum",
+            "value": "30 Jahre seit der ersten Ausstellung in Bondi 1997"
           }
         ]
       },
@@ -1410,14 +1418,35 @@
         "text": "Kommen Sie an einem Wochentag zum Sonnenaufgang. Der Weg ist in der ersten Stunde nach Tagesanbruch am leersten, das Licht ist weich und golden, und Sie haben die Hauptwerke fast für sich allein, bevor die Reisegruppen eintreffen. Wochentagmorgen schlagen Wochenenden um Längen."
       },
       {
+        "type": "h2",
+        "text": "So entgehen Sie dem Andrang"
+      },
+      {
+        "type": "p",
+        "text": "Das ist einer der meistbesuchten Termine im Frühlingskalender von Sydney - die Veranstalter beziffern den jährlichen Besuch auf über 450.000 Menschen über die Laufzeit -, also zählt der Zeitpunkt mehr als alles andere. An einem sonnigen Wochenendnachmittag steht man Schulter an Schulter auf einem Klippenweg, der stellenweise schmal ist. Ein Wochentagmorgen ist eine völlig andere Ausstellung."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Gehen Sie unter der Woche, und gehen Sie früh. Die erste Stunde nach Sonnenaufgang ist die ruhigste, die der Weg je erlebt.",
+          "Starten Sie am Ende von Tamarama. Die meisten strömen von Bondi herein, wer gegen den Strom läuft, hat freiere Sicht und leichtere Fotos.",
+          "Lassen Sie das Auto stehen. Während der Ausstellung sind Parkplätze am Straßenrand rund um Bondi und Tamarama knapp und stark reglementiert - nehmen Sie den Bus oder den Zug nach Bondi Junction und dann einen Bus hinunter.",
+          "Planen Sie mehr Zeit ein, als Sie denken. Zwei bis drei Stunden sind realistisch, sobald Sie anfangen stehen zu bleiben."
+        ]
+      },
+      {
         "type": "callout",
         "tone": "warning",
-        "title": "Bestätigen Sie die diesjährigen Termine, bevor Sie planen",
-        "text": "Die Ausstellung findet jeden Frühling statt, meist von Ende Oktober bis Anfang November, doch die genauen Termine, Öffnungszeiten und etwaige kostenpflichtige Extras (Früheinlass- oder Dämmerungstouren) ändern sich von Jahr zu Jahr und können sich wetterbedingt verschieben. Prüfen Sie die offizielle Website von Sculpture by the Sea, bevor Sie einen Tag festlegen."
+        "title": "Es ist eine echte Klippe - und es wird voll",
+        "text": "Der Küstenweg verläuft entlang echter Klippen, teils ohne Geländer, und während der Ausstellung kann es Schulter an Schulter zugehen. Halten Sie Kinder nah bei sich, bleiben Sie hinter den Absperrungen, klettern Sie nicht auf die Skulpturen und seien Sie besonders vorsichtig, wenn Sie Kameraausrüstung tragen. Öffnungszeiten und kostenpflichtige Extras (Früheinlass oder Dämmerungstouren) können sich ändern, und schweres Wetter sperrt gelegentlich Abschnitte des Wegs - schauen Sie am Tag selbst auf die offizielle Seite."
       },
       {
         "type": "faq",
         "items": [
+          {
+            "q": "Wann ist Sculpture by the Sea 2026?",
+            "a": "Die Bondi-Ausstellung 2026 läuft vom 16. Oktober bis 2. November 2026 entlang des Küstenwegs von Bondi nach Tamarama. Sie markiert 30 Jahre seit der ersten Sculpture by the Sea in Bondi im Jahr 1997."
+          },
           {
             "q": "Ist Sculpture by the Sea kostenlos?",
             "a": "Ja - das Begehen der Ausstellung ist kostenlos und für die Öffentlichkeit zugänglich. Spenden sind herzlich willkommen, und es gibt manchmal optionale kostenpflichtige Extras wie geführte Touren oder Touren mit Früheinlass, die Sie über die offizielle Website buchen können."
@@ -4278,7 +4307,11 @@
           },
           {
             "label": "Neueste Staffel",
-            "value": "Staffel 18, ausgestrahlt Mitte 2024"
+            "value": "Staffel 18, ausgestrahlt vom 10. Juli bis 7. August 2024"
+          },
+          {
+            "label": "Neue Staffel?",
+            "value": "Stand August 2026 weder ausgestrahlt noch angekündigt"
           },
           {
             "label": "Arbeitgeber",
@@ -4292,7 +4325,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi Rescue ist eine Dokumentarserie, kein Drehbuch-Drama - die Rettungen sind echt. Sie wurde erstmals am 15. Februar 2006 auf Network 10 ausgestrahlt, wird von der Sydneyer Produktionsfirma Cordell Jigsaw (CJZ) gemacht und läuft seit rund 18 Staffeln, was sie zu einer der langlebigsten und meistexportierten Doku-Sendungen Australiens macht. 2025 pausierte sie ohne neue Staffel in jenem Jahr, und laut ihren Produzenten wird eine Rückkehr erwartet, vorbehaltlich der Absprachen mit dem Waverley Council. So oder so - die Rettungsschwimmer patrouillieren weiter."
+        "text": "Bondi Rescue ist eine Dokumentarserie, kein Drehbuch-Drama - die Rettungen sind echt. Sie wurde erstmals am 15. Februar 2006 auf Network 10 ausgestrahlt, wird von der Sydneyer Produktionsfirma Cordell Jigsaw (CJZ) gemacht und läuft seit rund 18 Staffeln, was sie zu einer der langlebigsten und meistexportierten Doku-Sendungen Australiens macht. Die neueste Staffel ist Staffel 18, ausgestrahlt vom 10. Juli bis 7. August 2024. Die Serie pausierte 2025, und Stand August 2026 wurde keine neue Staffel ausgestrahlt oder angekündigt - die Episodenübersicht von Network 10 endet weiterhin bei Staffel 18. Die Produzenten von CJZ sagten 2025, sie rechneten mit einer Rückkehr, ein Termin ist aber nicht bestätigt. So oder so patrouillieren die Rettungsschwimmer weiter: Das ist echte Arbeit für den Waverley Council, keine Fernsehproduktion."
       },
       {
         "type": "p",
@@ -4325,7 +4358,7 @@
           },
           {
             "q": "Läuft Bondi Rescue noch?",
-            "a": "2025 pausierte die Serie ohne neue Staffel in jenem Jahr, doch laut ihren Produzenten wird eine Rückkehr erwartet, vorbehaltlich der Absprachen mit dem Waverley Council. Die Rettungsschwimmer patrouillieren ungeachtet dessen weiter."
+            "a": "Derzeit nicht. Die neueste Staffel ist Staffel 18, ausgestrahlt vom 10. Juli bis 7. August 2024. Die Serie pausierte 2025, und Stand August 2026 wurde keine neue Staffel ausgestrahlt oder angekündigt - die Episodenübersicht von Network 10 endet weiterhin bei Staffel 18. Die Produzenten von CJZ rechneten 2025 mit einer Rückkehr, ein Termin ist aber nicht bestätigt. Die Rettungsschwimmer patrouillieren Bondi jeden Tag, ob Kameras da sind oder nicht."
           },
           {
             "q": "Sind die Rettungsschwimmer von Bondi dasselbe wie die Surf Life Saver?",
@@ -7248,6 +7281,10 @@
     "metaDescription": "Guía práctica de Sculpture by the Sea en el paseo costero de Bondi a Tamarama: cuándo se celebra, cómo llegar y cómo esquivar las multitudes con calma.",
     "blocks": [
       {
+        "type": "answer",
+        "text": "Sculpture by the Sea 2026 se celebra del 16 de octubre al 2 de noviembre de 2026 a lo largo del paseo costero de Bondi a Tamarama. Es gratis, no hay entrada y las esculturas están al aire libre y se ven durante todo el día. La edición de 2026 marca 30 años desde la primera Sculpture by the Sea en Bondi, en 1997. Calcula entre dos y tres horas para los 2 km del recorrido, ve entre semana por la mañana si puedes y toma el autobús: durante la exposición hay muy poco aparcamiento en Bondi y Tamarama."
+      },
+      {
         "type": "p",
         "text": "Durante unas pocas semanas cada primavera, mi tramo de costa favorito se convierte en la galería más hermosa del mundo. Sculpture by the Sea llena el acantilado de Bondi a Tamarama con más de 100 obras, frente al océano, gratis para recorrer y absolutamente distinto a cualquier galería con techo. Lo he hecho casi todos los años y todavía me deja sin palabras."
       },
@@ -7255,7 +7292,11 @@
         "type": "quickFacts",
         "items": [
           {
-            "label": "Qué",
+            "label": "Fechas 2026",
+            "value": "Del 16 de octubre al 2 de noviembre de 2026"
+          },
+          {
+            "label": "Qué es",
             "value": "Exposición de escultura al aire libre y gratuita, más de 100 obras"
           },
           {
@@ -7264,15 +7305,15 @@
           },
           {
             "label": "Distancia",
-            "value": "Unos 2 km por el paseo costero de Bondi a Tamarama (consulta el sitio oficial)"
-          },
-          {
-            "label": "Cuándo",
-            "value": "Primavera, más o menos a finales de octubre (las fechas varían: consulta el sitio oficial)"
+            "value": "Unos 2 km solo ida; calcula 2-3 horas"
           },
           {
             "label": "Precio",
             "value": "Gratis; se agradecen las donaciones"
+          },
+          {
+            "label": "Aniversario",
+            "value": "30 años desde la primera exposición en Bondi, en 1997"
           }
         ]
       },
@@ -7314,14 +7355,35 @@
         "text": "Ven al amanecer entre semana. El sendero está más vacío en la primera hora tras el alba, la luz es suave y dorada, y tendrás las esculturas estrella casi para ti solo antes de que lleguen los grupos de turistas. Las mañanas entre semana les ganan por goleada a los fines de semana."
       },
       {
+        "type": "h2",
+        "text": "Cómo evitar las multitudes"
+      },
+      {
+        "type": "p",
+        "text": "Es una de las citas más concurridas del calendario primaveral de Sydney: la organización cifra la asistencia anual en más de 450.000 personas a lo largo de la muestra, así que cuándo vas importa más que ninguna otra cosa. Una tarde soleada de fin de semana se convierte en un hombro con hombro sobre un sendero de acantilado que en tramos es estrecho. Una mañana entre semana es sencillamente otra exposición."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Ve entre semana, y ve temprano. La primera hora tras el amanecer es lo más tranquilo que llega a estar el sendero.",
+          "Empieza por el extremo de Tamarama. La mayoría entra desde Bondi, así que caminar a contracorriente te da mejores vistas y fotos más fáciles.",
+          "Olvídate del coche. Durante la exposición el aparcamiento en la calle alrededor de Bondi y Tamarama es escaso y está muy restringido: toma el autobús, o el tren hasta Bondi Junction y un autobús para bajar.",
+          "Reserva más tiempo del que crees. Dos o tres horas es lo realista en cuanto empiezas a pararte."
+        ]
+      },
+      {
         "type": "callout",
         "tone": "warning",
-        "title": "Confirma las fechas de este año antes de planear nada",
-        "text": "La exposición se celebra cada primavera, normalmente desde finales de octubre hasta comienzos de noviembre, pero las fechas exactas, el horario de apertura y cualquier extra con entrada (visitas de acceso anticipado o al atardecer) cambian de un año a otro y pueden moverse por el clima. Consulta el sitio oficial de Sculpture by the Sea antes de fijar un día."
+        "title": "Es un acantilado de verdad, y se llena",
+        "text": "El paseo costero discurre por acantilados reales, con caídas sin vallar en algunos puntos, y durante la exposición puede ir hombro con hombro. Mantén cerca a los niños, no salgas de las barreras, no te subas a las esculturas y extrema el cuidado si llevas equipo fotográfico. Los horarios y los extras de pago (acceso anticipado o visitas al atardecer) pueden cambiar, y el mal tiempo cierra ocasionalmente tramos del sendero: consulta la web oficial el mismo día."
       },
       {
         "type": "faq",
         "items": [
+          {
+            "q": "¿Cuándo es Sculpture by the Sea 2026?",
+            "a": "La exposición de Bondi de 2026 va del 16 de octubre al 2 de noviembre de 2026, a lo largo del paseo costero de Bondi a Tamarama. Marca 30 años desde la primera Sculpture by the Sea en Bondi, en 1997."
+          },
           {
             "q": "¿Es gratis Sculpture by the Sea?",
             "a": "Sí: recorrer la exposición es gratuito y está abierto al público. Las donaciones se agradecen de corazón, y a veces hay extras opcionales de pago, como visitas guiadas o de acceso anticipado, que puedes reservar a través del sitio oficial."
@@ -10182,7 +10244,11 @@
           },
           {
             "label": "Última temporada",
-            "value": "Temporada 18, emitida a mediados de 2024"
+            "value": "Temporada 18, emitida del 10 de julio al 7 de agosto de 2024"
+          },
+          {
+            "label": "¿Temporada nueva?",
+            "value": "Ninguna emitida ni anunciada a agosto de 2026"
           },
           {
             "label": "Para quién trabajan",
@@ -10196,7 +10262,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi Rescue es una serie documental, no una ficción con guion: los rescates son reales. Se estrenó en Network 10 el 15 de febrero de 2006, lo produce la compañía de Sydney Cordell Jigsaw (CJZ) y ha durado alrededor de 18 temporadas, lo que lo convierte en uno de los programas de no ficción más longevos y más exportados de Australia. En 2025 se detuvo, sin temporada nueva ese año, y, según sus productores, se espera que regrese, sujeto a acuerdos con el Waverley Council. En cualquier caso, los socorristas siguen patrullando."
+        "text": "Bondi Rescue es una serie documental, no una ficción con guion: los rescates son reales. Se estrenó en Network 10 el 15 de febrero de 2006, lo produce la compañía de Sydney Cordell Jigsaw (CJZ) y ha durado alrededor de 18 temporadas, lo que lo convierte en uno de los programas de no ficción más longevos y más exportados de Australia. La temporada más reciente es la 18, emitida del 10 de julio al 7 de agosto de 2024. El programa se detuvo en 2025 y, a agosto de 2026, no se ha emitido ni anunciado ninguna temporada nueva: el propio listado de episodios de Network 10 sigue terminando en la temporada 18. Sus productores, CJZ, dijeron en 2025 que esperaban volver, pero no hay fecha confirmada. En cualquier caso, los socorristas siguen patrullando: es un trabajo real para el Waverley Council, no una producción televisiva."
       },
       {
         "type": "p",
@@ -10229,7 +10295,7 @@
           },
           {
             "q": "¿Bondi Rescue sigue en emisión?",
-            "a": "En 2025 se detuvo, sin temporada nueva ese año, pero sus productores dicen que se espera que regrese, sujeto a acuerdos con el Waverley Council. Los socorristas siguen patrullando de todos modos."
+            "a": "Ahora mismo no. La temporada más reciente es la 18, emitida del 10 de julio al 7 de agosto de 2024. El programa se detuvo en 2025 y, a agosto de 2026, no se ha emitido ni anunciado ninguna temporada nueva: el listado de episodios de Network 10 sigue terminando en la temporada 18. Los productores CJZ dijeron en 2025 que esperaban que volviera, pero no hay fecha confirmada. Los socorristas patrullan Bondi todos los días, haya cámaras o no."
           },
           {
             "q": "¿Los socorristas de Bondi son lo mismo que los voluntarios de Surf Life Saving?",
@@ -13152,6 +13218,10 @@
     "metaDescription": "Una guida pratica a Sculpture by the Sea lungo la passeggiata costiera da Bondi a Tamarama - quando si tiene, come arrivarci e come evitare la folla.",
     "blocks": [
       {
+        "type": "answer",
+        "text": "Sculpture by the Sea 2026 si tiene dal 16 ottobre al 2 novembre 2026 lungo la passeggiata costiera da Bondi a Tamarama. È gratuita, non serve biglietto e le sculture sono all'aperto, visibili per tutto il giorno. L'edizione 2026 segna 30 anni dalla prima Sculpture by the Sea a Bondi, nel 1997. Calcola dalle due alle tre ore per i 2 km del percorso, vai se puoi in una mattina infrasettimanale e prendi l'autobus: durante la mostra i parcheggi attorno a Bondi e Tamarama sono pochissimi."
+      },
+      {
         "type": "p",
         "text": "Per qualche settimana ogni primavera, il mio tratto di costa preferito si trasforma nella galleria più bella del mondo. Sculpture by the Sea costeggia le scogliere da Bondi a Tamarama con oltre 100 opere, disposte davanti all'oceano, percorribili gratuitamente e del tutto diverse da una galleria con un tetto. L'ho fatta quasi ogni anno e continua a lasciarmi senza fiato."
       },
@@ -13159,7 +13229,11 @@
         "type": "quickFacts",
         "items": [
           {
-            "label": "Cosa",
+            "label": "Date 2026",
+            "value": "Dal 16 ottobre al 2 novembre 2026"
+          },
+          {
+            "label": "Che cos'è",
             "value": "Mostra di sculture all'aperto e gratuita, oltre 100 opere"
           },
           {
@@ -13168,15 +13242,15 @@
           },
           {
             "label": "Distanza",
-            "value": "Circa 2 km lungo la passeggiata costiera da Bondi a Tamarama (verifica sul sito ufficiale)"
-          },
-          {
-            "label": "Quando",
-            "value": "Primavera, all'incirca fine ottobre (le date variano - verifica sul sito ufficiale)"
+            "value": "Circa 2 km solo andata; calcola 2-3 ore"
           },
           {
             "label": "Costo",
             "value": "Gratuito; donazioni benvenute"
+          },
+          {
+            "label": "Anniversario",
+            "value": "30 anni dalla prima mostra a Bondi, nel 1997"
           }
         ]
       },
@@ -13218,14 +13292,35 @@
         "text": "Vieni all'alba in un giorno feriale. Il sentiero è più vuoto nella prima ora dopo l'alba, la luce è morbida e dorata, e avrai le sculture principali quasi tutte per te prima che arrivino i gruppi turistici. Le mattine feriali battono i fine settimana di gran lunga."
       },
       {
+        "type": "h2",
+        "text": "Come evitare la folla"
+      },
+      {
+        "type": "p",
+        "text": "È uno degli appuntamenti più affollati del calendario primaverile di Sydney - gli organizzatori parlano di oltre 450.000 visitatori l'anno lungo tutta la durata - quindi quando ci vai conta più di ogni altra cosa. Un pomeriggio soleggiato del fine settimana significa spalla a spalla su un sentiero a picco sul mare che in certi tratti è stretto. Una mattina infrasettimanale è un'altra mostra."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Vai in settimana, e vai presto. La prima ora dopo l'alba è il momento più tranquillo del sentiero.",
+          "Parti dal lato di Tamarama. La maggior parte della gente entra da Bondi, quindi camminare controcorrente regala visuali più libere e foto più facili.",
+          "Lascia perdere l'auto. Durante la mostra i posti auto su strada attorno a Bondi e Tamarama sono pochi e molto regolamentati: prendi l'autobus, o il treno fino a Bondi Junction e poi un bus per scendere.",
+          "Metti in conto più tempo di quanto pensi. Due o tre ore sono realistiche appena inizi a fermarti."
+        ]
+      },
+      {
         "type": "callout",
         "tone": "warning",
-        "title": "Conferma le date di quest'anno prima di organizzarti",
-        "text": "La mostra si tiene ogni primavera, di solito da fine ottobre a inizio novembre, ma le date esatte, gli orari di apertura ed eventuali extra a pagamento (accesso anticipato o tour al tramonto) cambiano di anno in anno e possono slittare per il meteo. Controlla il sito ufficiale di Sculpture by the Sea prima di fissare una giornata."
+        "title": "È una scogliera vera, e si riempie",
+        "text": "La passeggiata costeggia scogliere vere, con salti senza protezione in alcuni punti, e durante la mostra si può stare spalla a spalla. Tieni i bambini vicini, resta dietro le barriere, non salire sulle sculture e fai molta attenzione se porti attrezzatura fotografica. Orari ed extra a pagamento (ingresso anticipato o tour al tramonto) possono cambiare, e il maltempo a volte chiude tratti del sentiero: controlla il sito ufficiale in giornata."
       },
       {
         "type": "faq",
         "items": [
+          {
+            "q": "Quando si tiene Sculpture by the Sea 2026?",
+            "a": "La mostra di Bondi del 2026 va dal 16 ottobre al 2 novembre 2026, lungo la passeggiata costiera da Bondi a Tamarama. Segna 30 anni dalla prima Sculpture by the Sea a Bondi, nel 1997."
+          },
           {
             "q": "Sculpture by the Sea è gratuita?",
             "a": "Sì - percorrere la mostra è gratuito e aperto al pubblico. Le donazioni sono calorosamente benvenute, e a volte ci sono extra facoltativi a pagamento come tour guidati o ad accesso anticipato che puoi prenotare tramite il sito ufficiale."
@@ -16086,7 +16181,11 @@
           },
           {
             "label": "Stagione più recente",
-            "value": "Stagione 18, andata in onda a metà 2024"
+            "value": "Stagione 18, andata in onda dal 10 luglio al 7 agosto 2024"
+          },
+          {
+            "label": "Nuova stagione?",
+            "value": "Ad agosto 2026 nessuna trasmessa né annunciata"
           },
           {
             "label": "Per chi lavorano",
@@ -16100,7 +16199,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi Rescue è una serie documentaristica, non una fiction con copione - i salvataggi sono reali. È andata in onda per la prima volta su Network 10 il 15 febbraio 2006, è realizzata dalla casa di produzione di Sydney Cordell Jigsaw (CJZ) e va avanti da circa 18 stagioni, il che la rende uno dei programmi factual più longevi ed esportati d'Australia. Nel 2025 è stata messa in pausa senza una nuova stagione quell'anno e, secondo i suoi produttori, ci si aspetta un ritorno, subordinato agli accordi con il Waverley Council. In ogni caso, i bagnini continuano a pattugliare."
+        "text": "Bondi Rescue è una serie documentaristica, non una fiction con copione - i salvataggi sono reali. È andata in onda per la prima volta su Network 10 il 15 febbraio 2006, è realizzata dalla casa di produzione di Sydney Cordell Jigsaw (CJZ) e va avanti da circa 18 stagioni, il che la rende uno dei programmi factual più longevi ed esportati d'Australia. La stagione più recente è la 18, andata in onda dal 10 luglio al 7 agosto 2024. Il programma è stato messo in pausa nel 2025 e, ad agosto 2026, nessuna nuova stagione è stata trasmessa o annunciata: l'elenco episodi di Network 10 si ferma ancora alla stagione 18. I produttori di CJZ nel 2025 dissero di aspettarsi un ritorno, ma non c'è una data confermata. In ogni caso i bagnini continuano a pattugliare: è lavoro vero per il Waverley Council, non una produzione televisiva."
       },
       {
         "type": "p",
@@ -16133,7 +16232,7 @@
           },
           {
             "q": "Bondi Rescue è ancora in onda?",
-            "a": "Nel 2025 è stata messa in pausa senza una nuova stagione quell'anno, ma secondo i suoi produttori ci si aspetta un ritorno, subordinato agli accordi con il Waverley Council. I bagnini continuano comunque a pattugliare."
+            "a": "Al momento no. La stagione più recente è la 18, andata in onda dal 10 luglio al 7 agosto 2024. Il programma è stato messo in pausa nel 2025 e, ad agosto 2026, nessuna nuova stagione è stata trasmessa o annunciata: l'elenco episodi di Network 10 si ferma ancora alla stagione 18. I produttori di CJZ nel 2025 si aspettavano un ritorno, ma non c'è una data confermata. I bagnini pattugliano Bondi ogni giorno, con o senza telecamere."
           },
           {
             "q": "I bagnini di Bondi sono gli stessi dei surf lifesaver?",
@@ -19056,6 +19155,10 @@
     "metaDescription": "Bondi からTamarama へ続く海岸遊歩道の野外彫刻展 Sculpture by the Sea。開催時期、行き方、混雑を避けるコツをご紹介します。",
     "blocks": [
       {
+        "type": "answer",
+        "text": "Sculpture by the Sea 2026は、2026年10月16日から11月2日まで、BondiからTamaramaへ続く海岸ウォーク沿いで開催されます。入場は無料でチケットは不要、彫刻は屋外にあり日中はいつでも見られます。2026年展は、1997年にBondiで第1回が開かれてから30年の節目にあたります。約2kmの道のりには2〜3時間をみておき、可能なら平日の午前中に。会期中はBondiとTamarama周辺の駐車場がとても少ないので、バスで向かってください。"
+      },
+      {
         "type": "p",
         "text": "毎年春になると、私のいちばん好きな海岸線が、世界でいちばん美しいギャラリーへと姿を変えます。Sculpture by the Sea は、Bondi からTamarama までの断崖沿いに100点を超える作品が並ぶ展覧会。海を背景に、無料で歩けて、屋根のあるギャラリーとはまるで違う体験です。私もほとんど毎年訪れていますが、それでもいつも足が止まってしまいます。"
       },
@@ -19063,24 +19166,28 @@
         "type": "quickFacts",
         "items": [
           {
+            "label": "2026年の会期",
+            "value": "2026年10月16日〜11月2日"
+          },
+          {
             "label": "内容",
             "value": "無料の野外彫刻展、100点以上の作品"
           },
           {
             "label": "場所",
-            "value": "Bondi からTamarama への海岸ウォーク"
+            "value": "BondiからTamaramaへの海岸ウォーク"
           },
           {
             "label": "距離",
-            "value": "Bondi からTamarama への海岸ウォーク沿いに約2km（公式サイトでご確認ください）"
-          },
-          {
-            "label": "時期",
-            "value": "春、だいたい10月下旬ごろ（日程は年により変動。公式サイトでご確認ください）"
+            "value": "片道約2km。2〜3時間をみておきましょう"
           },
           {
             "label": "料金",
             "value": "無料。寄付は歓迎されています"
+          },
+          {
+            "label": "節目",
+            "value": "1997年の第1回から30年"
           }
         ]
       },
@@ -19122,14 +19229,35 @@
         "text": "平日の日の出に合わせて訪れてみてください。夜明けからの最初の1時間は道がいちばん空いていて、光はやわらかく金色に輝き、ツアー客が来る前に目玉の彫刻をほぼ独り占めできます。平日の朝は、週末より断然おすすめです。"
       },
       {
+        "type": "h2",
+        "text": "混雑を避けるには"
+      },
+      {
+        "type": "p",
+        "text": "これはシドニーの春のイベントの中でも屈指の人出です。主催者によれば会期を通じて45万人以上が訪れるといい、いつ行くかが何よりも大切になります。晴れた週末の午後は、場所によっては狭い断崖の道が肩の触れ合うほどの混雑に。平日の朝は、まったく別の展覧会といっていいほど違います。"
+      },
+      {
+        "type": "list",
+        "items": [
+          "平日に、そして早い時間に。夜明けからの1時間が、道がいちばん空いている時間です。",
+          "Tamarama側から歩き始めましょう。多くの人はBondi側から入ってくるので、流れに逆らって進むと視界が開け、写真も撮りやすくなります。",
+          "車は避けてください。会期中、BondiとTamarama周辺の路上駐車はとても少なく規制も厳しいので、バスか、Bondi Junctionまで電車で行ってバスで下るのがおすすめです。",
+          "思っているより時間をとって。立ち止まり始めると、2〜3時間はあっという間です。"
+        ]
+      },
+      {
         "type": "callout",
         "tone": "warning",
-        "title": "計画の前に、今年の日程を必ず確認してください",
-        "text": "展覧会は毎年春、たいてい10月下旬から11月初旬にかけて開催されますが、正確な日程や開場時間、早朝入場や夕暮れツアーといった有料オプションは年ごとに変わり、天候で動くこともあります。日取りを決める前に、Sculpture by the Sea の公式サイトでご確認ください。"
+        "title": "本物の断崖で、しかも混み合います",
+        "text": "この海岸ウォークは本物の断崖沿いを通り、場所によっては柵のない崖もあります。会期中は肩が触れ合うほど混雑することも。子どもからは目を離さず、柵の内側にとどまり、彫刻には登らないでください。カメラ機材を持ち歩くときはとくに注意を。開場時間や早朝入場・夕暮れツアーなどの有料オプションは変わることがあり、荒天で道の一部が閉鎖されることもあります。当日、公式サイトでご確認ください。"
       },
       {
         "type": "faq",
         "items": [
+          {
+            "q": "Sculpture by the Sea 2026はいつ開催されますか？",
+            "a": "2026年のBondi展は、2026年10月16日から11月2日まで、BondiからTamaramaへの海岸ウォーク沿いで開催されます。1997年にBondiで第1回が開かれてから30年の節目にあたります。"
+          },
           {
             "q": "Sculpture by the Sea は無料ですか？",
             "a": "はい。展覧会を歩いて鑑賞するのは無料で、どなたでもご覧いただけます。寄付は温かく歓迎されており、ガイド付きツアーや早朝入場など、公式サイトから予約できる有料オプションが用意されることもあります。"
@@ -21990,7 +22118,11 @@
           },
           {
             "label": "最新シーズン",
-            "value": "シーズン18、2024年半ばに放送"
+            "value": "シーズン18、2024年7月10日〜8月7日放送"
+          },
+          {
+            "label": "新シーズンは？",
+            "value": "2026年8月時点で放送・発表ともになし"
           },
           {
             "label": "雇用主",
@@ -22004,7 +22136,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi Rescueは台本のあるドラマではなくドキュメンタリー番組で、レスキューはすべて本物です。2006年2月15日にNetwork 10で初放送され、シドニーの制作会社Cordell Jigsaw（CJZ）が手がけ、約18シーズンにわたって続いてきました。オーストラリアで最も長く続き、最も多くの国に輸出されたドキュメンタリー番組の一つです。2025年は新シーズンなしで休止しましたが、制作陣によれば、Waverley Councilとの取り決め次第で再開が見込まれています。いずれにせよ、ライフガードたちはパトロールを続けています。"
+        "text": "Bondi Rescueは台本のあるドラマではなくドキュメンタリー番組で、レスキューはすべて本物です。2006年2月15日にNetwork 10で初放送され、シドニーの制作会社Cordell Jigsaw（CJZ）が手がけ、約18シーズンにわたって続いてきました。オーストラリアで最も長く続き、最も多くの国に輸出されたドキュメンタリー番組の一つです。最新シーズンはシーズン18で、2024年7月10日から8月7日にかけて放送されました。2025年は休止となり、2026年8月時点で新シーズンは放送も発表もされていません。Network 10のエピソード一覧も、いまだシーズン18で止まっています。制作陣のCJZは2025年に再開を見込んでいると述べましたが、時期は確定していません。いずれにせよ、ライフガードたちはパトロールを続けています。これはテレビの企画ではなく、Waverley Councilの実際の仕事だからです。"
       },
       {
         "type": "p",
@@ -22037,7 +22169,7 @@
           },
           {
             "q": "Bondi Rescueはまだ放送されていますか？",
-            "a": "2025年は新シーズンなしで休止しましたが、制作陣によれば、Waverley Councilとの取り決め次第で再開が見込まれています。いずれにせよ、ライフガードたちはパトロールを続けています。"
+            "a": "現在は放送されていません。最新シーズンはシーズン18で、2024年7月10日から8月7日にかけて放送されました。番組は2025年に休止となり、2026年8月時点で新シーズンは放送も発表もされていません。Network 10のエピソード一覧もシーズン18で止まっています。制作陣のCJZは2025年に再開を見込んでいると述べましたが、時期は確定していません。カメラの有無にかかわらず、ライフガードたちは毎日Bondiをパトロールしています。"
           },
           {
             "q": "Bondiのライフガードはサーフライフセーバーと同じですか？",
@@ -24960,6 +25092,10 @@
     "metaDescription": "Een praktische gids voor Sculpture by the Sea langs de kustwandeling van Bondi naar Tamarama - wanneer het is, hoe je er komt en hoe je de drukte vermijdt.",
     "blocks": [
       {
+        "type": "answer",
+        "text": "Sculpture by the Sea 2026 loopt van 16 oktober tot 2 november 2026 langs de kustwandeling van Bondi naar Tamarama. Het is gratis, er is geen ticket, en de sculpturen staan buiten en zijn de hele dag te zien. De editie van 2026 markeert 30 jaar sinds de eerste Sculpture by the Sea in Bondi in 1997. Reken op twee tot drie uur voor de 2 km, ga als het kan op een doordeweekse ochtend en neem de bus - tijdens de tentoonstelling is er nauwelijks parkeerruimte rond Bondi en Tamarama."
+      },
+      {
         "type": "p",
         "text": "Een paar weken lang, elk voorjaar, verandert mijn favoriete stuk kust in de mooiste galerie ter wereld. Sculpture by the Sea vult de kliffen van Bondi tot Tamarama met meer dan 100 werken, opgesteld tegen de oceaan, gratis te belopen en compleet anders dan een galerie met een dak. Ik heb hem bijna elk jaar gelopen en hij brengt me nog altijd tot stilstand."
       },
@@ -24967,8 +25103,12 @@
         "type": "quickFacts",
         "items": [
           {
+            "label": "Data 2026",
+            "value": "16 oktober tot 2 november 2026"
+          },
+          {
             "label": "Wat",
-            "value": "Gratis openluchttentoonstelling met beelden, 100+ werken"
+            "value": "Gratis openluchttentoonstelling met meer dan 100 sculpturen"
           },
           {
             "label": "Waar",
@@ -24976,15 +25116,15 @@
           },
           {
             "label": "Afstand",
-            "value": "Ongeveer 2 km langs de kustwandeling van Bondi naar Tamarama (controleer de officiële site)"
-          },
-          {
-            "label": "Wanneer",
-            "value": "Voorjaar, ruwweg eind oktober (data variëren - controleer de officiële site)"
+            "value": "Ongeveer 2 km enkele reis; reken op 2-3 uur"
           },
           {
             "label": "Kosten",
             "value": "Gratis; donaties welkom"
+          },
+          {
+            "label": "Mijlpaal",
+            "value": "30 jaar sinds de eerste tentoonstelling in Bondi in 1997"
           }
         ]
       },
@@ -25026,14 +25166,35 @@
         "text": "Kom bij zonsopgang op een doordeweekse dag. Het pad is het leegst in het eerste uur na de dageraad, het licht is zacht en goudkleurig, en je hebt de topstukken bijna voor jezelf voordat de reisgroepen arriveren. Doordeweekse ochtenden verslaan het weekend met gemak."
       },
       {
+        "type": "h2",
+        "text": "De drukte vermijden"
+      },
+      {
+        "type": "p",
+        "text": "Dit is een van de drukste dingen op de Sydneyse lentekalender - de organisatie houdt het op meer dan 450.000 bezoekers per jaar over de hele looptijd - dus wannéér je gaat telt meer dan wat dan ook. Een zonnige weekendmiddag betekent schouder aan schouder op een kliffenpad dat op sommige plekken smal is. Een doordeweekse ochtend is een compleet andere tentoonstelling."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Ga doordeweeks, en ga vroeg. Het eerste uur na zonsopgang is het rustigste moment op het pad.",
+          "Begin aan de kant van Tamarama. De meeste mensen stromen vanuit Bondi binnen, dus tegen de stroom in lopen geeft vrijer zicht en makkelijkere foto's.",
+          "Laat de auto staan. Tijdens de tentoonstelling is straatparkeren rond Bondi en Tamarama schaars en streng gereguleerd - neem de bus, of de trein naar Bondi Junction en dan een bus naar beneden.",
+          "Trek meer tijd uit dan je denkt. Twee tot drie uur is realistisch zodra je begint stil te staan."
+        ]
+      },
+      {
         "type": "callout",
         "tone": "warning",
-        "title": "Bevestig de data van dit jaar voordat je plant",
-        "text": "De tentoonstelling vindt elk voorjaar plaats, meestal van eind oktober tot begin november, maar de exacte data, openingstijden en eventuele betaalde extra's (early-access- of schemeringtours) verschillen per jaar en kunnen verschuiven door het weer. Raadpleeg de officiële site van Sculpture by the Sea voordat je een dag vastlegt."
+        "title": "Het is een echte klif, en het wordt druk",
+        "text": "De kustwandeling loopt langs echte kliffen, op sommige plekken zonder hek, en tijdens de tentoonstelling kan het schouder aan schouder zijn. Houd kinderen dichtbij, blijf achter de hekken, klim niet op de sculpturen en wees extra voorzichtig als je camera-apparatuur draagt. Openingstijden en betaalde extra's (vroege toegang of schemertours) kunnen veranderen, en zwaar weer sluit soms delen van het pad af - check op de dag zelf de officiële site."
       },
       {
         "type": "faq",
         "items": [
+          {
+            "q": "Wanneer is Sculpture by the Sea 2026?",
+            "a": "De Bondi-tentoonstelling van 2026 loopt van 16 oktober tot 2 november 2026, langs de kustwandeling van Bondi naar Tamarama. Ze markeert 30 jaar sinds de eerste Sculpture by the Sea in Bondi in 1997."
+          },
           {
             "q": "Is Sculpture by the Sea gratis?",
             "a": "Ja - het lopen van de tentoonstelling is gratis en toegankelijk voor het publiek. Donaties zijn van harte welkom, en er zijn soms optionele betaalde extra's zoals rondleidingen of tours met vervroegde toegang die je via de officiële site kunt boeken."
@@ -27894,7 +28055,11 @@
           },
           {
             "label": "Meest recente seizoen",
-            "value": "Seizoen 18, uitgezonden medio 2024"
+            "value": "Seizoen 18, uitgezonden van 10 juli tot 7 augustus 2024"
+          },
+          {
+            "label": "Nieuw seizoen?",
+            "value": "Per augustus 2026 niet uitgezonden of aangekondigd"
           },
           {
             "label": "Voor wie ze werken",
@@ -27908,7 +28073,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi Rescue is een documentaireserie, geen gescript drama - de reddingen zijn echt. De serie ging op 15 februari 2006 in première op Network 10, wordt gemaakt door het Sydneyse productiebedrijf Cordell Jigsaw (CJZ) en loopt inmiddels zo'n 18 seizoenen, waarmee het een van de langstlopende en meest geëxporteerde factuele programma's van Australië is. In 2025 lag de serie stil zonder nieuw seizoen dat jaar en volgens de makers wordt een terugkeer verwacht, onder voorbehoud van afspraken met Waverley Council. Hoe dan ook: de lifeguards blijven patrouilleren."
+        "text": "Bondi Rescue is een documentaireserie, geen gescript drama - de reddingen zijn echt. De serie ging op 15 februari 2006 in première op Network 10, wordt gemaakt door het Sydneyse productiebedrijf Cordell Jigsaw (CJZ) en loopt inmiddels zo'n 18 seizoenen, waarmee het een van de langstlopende en meest geëxporteerde factuele programma's van Australië is. Het meest recente seizoen is seizoen 18, uitgezonden van 10 juli tot 7 augustus 2024. De serie lag stil in 2025 en per augustus 2026 is er geen nieuw seizoen uitgezonden of aangekondigd - het eigen afleveringsoverzicht van Network 10 eindigt nog steeds bij seizoen 18. Makers CJZ zeiden in 2025 een terugkeer te verwachten, maar een datum is niet bevestigd. Hoe dan ook blijven de lifeguards patrouilleren: het is echt werk voor Waverley Council, geen televisieproductie."
       },
       {
         "type": "p",
@@ -27941,7 +28106,7 @@
           },
           {
             "q": "Loopt Bondi Rescue nog?",
-            "a": "In 2025 lag de serie stil zonder nieuw seizoen dat jaar, maar volgens de makers wordt een terugkeer verwacht, onder voorbehoud van afspraken met Waverley Council. De lifeguards blijven hoe dan ook patrouilleren."
+            "a": "Op dit moment niet. Het meest recente seizoen is seizoen 18, uitgezonden van 10 juli tot 7 augustus 2024. De serie lag stil in 2025 en per augustus 2026 is er geen nieuw seizoen uitgezonden of aangekondigd - het afleveringsoverzicht van Network 10 eindigt nog steeds bij seizoen 18. Makers CJZ verwachtten in 2025 een terugkeer, maar een datum is niet bevestigd. De lifeguards patrouilleren elke dag op Bondi, met of zonder camera."
           },
           {
             "q": "Zijn de lifeguards van Bondi hetzelfde als surf lifesavers?",
@@ -30864,6 +31029,10 @@
     "metaDescription": "Guia prático da Sculpture by the Sea na trilha costeira de Bondi a Tamarama: quando acontece, como chegar e como escapar das multidões com tranquilidade.",
     "blocks": [
       {
+        "type": "answer",
+        "text": "A Sculpture by the Sea 2026 acontece de 16 de outubro a 2 de novembro de 2026, ao longo da caminhada costeira de Bondi a Tamarama. É gratuita, não há ingresso e as esculturas ficam ao ar livre, visíveis o dia todo. A edição de 2026 marca 30 anos desde a primeira Sculpture by the Sea em Bondi, em 1997. Reserve de duas a três horas para os 2 km do percurso, vá em uma manhã de dia útil se puder e pegue o ônibus: durante a exposição há pouquíssimo estacionamento em Bondi e Tamarama."
+      },
+      {
         "type": "p",
         "text": "Por algumas semanas a cada primavera, o meu trecho de costa favorito se transforma na galeria mais linda do mundo. A Sculpture by the Sea preenche o penhasco de Bondi a Tamarama com mais de 100 obras, diante do oceano, de graça para caminhar e completamente diferente de uma galeria com teto. Faço esse passeio quase todos os anos e ele ainda me faz parar de admiração."
       },
@@ -30871,24 +31040,28 @@
         "type": "quickFacts",
         "items": [
           {
-            "label": "O quê",
-            "value": "Exposição de escultura ao ar livre e gratuita, mais de 100 obras"
+            "label": "Datas 2026",
+            "value": "De 16 de outubro a 2 de novembro de 2026"
+          },
+          {
+            "label": "O que é",
+            "value": "Exposição de esculturas ao ar livre e gratuita, mais de 100 obras"
           },
           {
             "label": "Onde",
-            "value": "Trilha costeira de Bondi a Tamarama"
+            "value": "Caminhada costeira de Bondi a Tamarama"
           },
           {
             "label": "Distância",
-            "value": "Cerca de 2 km pela trilha costeira de Bondi a Tamarama (confira o site oficial)"
-          },
-          {
-            "label": "Quando",
-            "value": "Primavera, mais ou menos no fim de outubro (as datas variam - confira o site oficial)"
+            "value": "Cerca de 2 km só de ida; reserve 2-3 horas"
           },
           {
             "label": "Preço",
             "value": "Gratuito; doações são bem-vindas"
+          },
+          {
+            "label": "Marco",
+            "value": "30 anos desde a primeira exposição em Bondi, em 1997"
           }
         ]
       },
@@ -30930,14 +31103,35 @@
         "text": "Venha ao nascer do sol num dia de semana. A trilha fica mais vazia na primeira hora após o amanhecer, a luz é suave e dourada, e você terá as esculturas principais quase só para você antes de os grupos de turistas chegarem. As manhãs de dia de semana ganham dos fins de semana de lavada."
       },
       {
+        "type": "h2",
+        "text": "Como fugir da multidão"
+      },
+      {
+        "type": "p",
+        "text": "É um dos eventos mais movimentados do calendário de primavera de Sydney - a organização estima mais de 450 mil visitantes por ano ao longo da mostra -, então a hora que você escolhe importa mais do que qualquer outra coisa. Uma tarde ensolarada de fim de semana vira um ombro a ombro numa trilha de penhasco que é estreita em trechos. Uma manhã de dia útil é outra exposição."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Vá em dia útil, e vá cedo. A primeira hora depois do amanhecer é o momento mais tranquilo da trilha.",
+          "Comece pelo lado de Tamarama. A maioria entra por Bondi, então caminhar na contramão do fluxo rende visadas mais limpas e fotos mais fáceis.",
+          "Deixe o carro. Durante a exposição, as vagas na rua em Bondi e Tamarama são escassas e muito restritas - pegue o ônibus, ou o trem até Bondi Junction e um ônibus para descer.",
+          "Reserve mais tempo do que imagina. Duas a três horas é realista assim que você começa a parar."
+        ]
+      },
+      {
         "type": "callout",
         "tone": "warning",
-        "title": "Confirme as datas deste ano antes de planejar",
-        "text": "A exposição acontece a cada primavera, normalmente do fim de outubro ao início de novembro, mas as datas exatas, o horário de funcionamento e quaisquer extras pagos (passeios de acesso antecipado ou ao entardecer) mudam de ano para ano e podem se deslocar por causa do clima. Confira o site oficial da Sculpture by the Sea antes de marcar um dia."
+        "title": "É um penhasco de verdade, e lota",
+        "text": "A caminhada costeira corre por penhascos reais, com quedas sem proteção em alguns pontos, e durante a exposição pode ficar ombro a ombro. Mantenha as crianças por perto, fique atrás das barreiras, não suba nas esculturas e redobre o cuidado se estiver carregando equipamento fotográfico. Horários e extras pagos (acesso antecipado ou visitas ao entardecer) podem mudar, e o mau tempo às vezes fecha trechos da trilha - confira o site oficial no dia."
       },
       {
         "type": "faq",
         "items": [
+          {
+            "q": "Quando é a Sculpture by the Sea 2026?",
+            "a": "A exposição de Bondi de 2026 vai de 16 de outubro a 2 de novembro de 2026, ao longo da caminhada costeira de Bondi a Tamarama. Ela marca 30 anos desde a primeira Sculpture by the Sea em Bondi, em 1997."
+          },
           {
             "q": "A Sculpture by the Sea é gratuita?",
             "a": "Sim - caminhar pela exposição é gratuito e aberto ao público. As doações são calorosamente bem-vindas, e às vezes há extras pagos opcionais, como passeios guiados ou de acesso antecipado, que você pode reservar pelo site oficial."
@@ -33798,7 +33992,11 @@
           },
           {
             "label": "Temporada mais recente",
-            "value": "Temporada 18, exibida em meados de 2024"
+            "value": "Temporada 18, exibida de 10 de julho a 7 de agosto de 2024"
+          },
+          {
+            "label": "Temporada nova?",
+            "value": "Nenhuma exibida ou anunciada em agosto de 2026"
           },
           {
             "label": "Para quem trabalham",
@@ -33812,7 +34010,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi Rescue é uma série documental, não uma ficção com roteiro - os resgates são reais. Estreou na Network 10 em 15 de fevereiro de 2006, é produzido pela produtora de Sydney Cordell Jigsaw (CJZ) e já teve cerca de 18 temporadas, o que o torna um dos programas factuais mais longevos e mais exportados da Austrália. Em 2025 ele foi pausado, sem temporada nova naquele ano, e, segundo os produtores, tem retorno previsto, sujeito a acordos com o Waverley Council. De todo modo, os salva-vidas continuam patrulhando."
+        "text": "Bondi Rescue é uma série documental, não uma ficção com roteiro - os resgates são reais. Estreou na Network 10 em 15 de fevereiro de 2006, é produzido pela produtora de Sydney Cordell Jigsaw (CJZ) e já teve cerca de 18 temporadas, o que o torna um dos programas factuais mais longevos e mais exportados da Austrália. A temporada mais recente é a 18, exibida de 10 de julho a 7 de agosto de 2024. O programa foi pausado em 2025 e, em agosto de 2026, nenhuma temporada nova foi exibida ou anunciada - a própria lista de episódios da Network 10 ainda termina na temporada 18. Os produtores da CJZ disseram em 2025 que esperavam voltar, mas não há data confirmada. De todo modo, os salva-vidas continuam patrulhando: é trabalho de verdade para o Waverley Council, não uma produção de TV."
       },
       {
         "type": "p",
@@ -33845,7 +34043,7 @@
           },
           {
             "q": "Bondi Rescue ainda está no ar?",
-            "a": "Em 2025 ele foi pausado, sem temporada nova naquele ano, mas os produtores dizem que há retorno previsto, sujeito a acordos com o Waverley Council. De todo modo, os salva-vidas continuam patrulhando."
+            "a": "No momento, não. A temporada mais recente é a 18, exibida de 10 de julho a 7 de agosto de 2024. O programa foi pausado em 2025 e, em agosto de 2026, nenhuma temporada nova foi exibida ou anunciada - a lista de episódios da Network 10 ainda termina na temporada 18. Os produtores da CJZ disseram em 2025 que esperavam o retorno, mas não há data confirmada. Os salva-vidas patrulham Bondi todos os dias, com ou sem câmeras."
           },
           {
             "q": "Os salva-vidas de Bondi são a mesma coisa que os voluntários de Surf Life Saving?",
@@ -36768,6 +36966,10 @@
     "metaDescription": "从 Bondi 到 Tamarama 海岸步道的户外雕塑展 Sculpture by the Sea：何时举办、怎么前往、如何避开人潮，一篇讲清楚。",
     "blocks": [
       {
+        "type": "answer",
+        "text": "Sculpture by the Sea 2026将于2026年10月16日至11月2日，在Bondi至Tamarama的海岸步道沿线举行。免费入场，无需门票，雕塑均在户外，白天随时可以观看。2026年展览标志着自1997年首届Bondi展以来的30年。约2公里的路程建议预留2至3小时，尽量选择工作日上午前往。展期内Bondi和Tamarama周边停车位极其紧张，请乘坐巴士。"
+      },
+      {
         "type": "p",
         "text": "每年春天有那么几周，我最喜欢的这段海岸线，会变成全世界最美的一座画廊。Sculpture by the Sea 沿着 Bondi 到 Tamarama 的崖顶步道，摆放着100多件作品，以大海为背景，免费漫步，和有屋顶的画廊完全是两回事。这些年我几乎年年都去，可它至今仍能让我停下脚步、看得入神。"
       },
@@ -36775,24 +36977,28 @@
         "type": "quickFacts",
         "items": [
           {
+            "label": "2026年展期",
+            "value": "2026年10月16日至11月2日"
+          },
+          {
             "label": "内容",
-            "value": "免费户外雕塑展，100多件作品"
+            "value": "免费户外雕塑展，100件以上作品"
           },
           {
             "label": "地点",
-            "value": "Bondi 到 Tamarama 海岸步道"
+            "value": "Bondi 至 Tamarama 海岸步道"
           },
           {
             "label": "距离",
-            "value": "沿 Bondi 到 Tamarama 海岸步道约2公里（请以官网为准）"
-          },
-          {
-            "label": "时间",
-            "value": "春季，大致在10月下旬（日期每年不同，请以官网为准）"
+            "value": "单程约2公里；建议预留2至3小时"
           },
           {
             "label": "费用",
             "value": "免费；欢迎捐赠"
+          },
+          {
+            "label": "里程碑",
+            "value": "自1997年首届展览以来的30年"
           }
         ]
       },
@@ -36834,14 +37040,35 @@
         "text": "挑一个工作日的日出时分来吧。破晓后的头一个小时，步道最空旷，光线柔和金黄，在旅行团抵达之前，那些最出彩的雕塑几乎归你独享。工作日的清晨，比周末强太多了。"
       },
       {
+        "type": "h2",
+        "text": "如何避开人潮"
+      },
+      {
+        "type": "p",
+        "text": "这是悉尼春季最热闹的活动之一--主办方称整个展期的年度参观人次超过45万--所以什么时候去比什么都重要。晴朗的周末下午，这条部分路段狭窄的悬崖步道会挤得摩肩接踵。而工作日的早晨，完全是另一场展览。"
+      },
+      {
+        "type": "list",
+        "items": [
+          "选工作日，并且要早。天亮后的第一个小时是步道最安静的时候。",
+          "从Tamarama那头出发。大多数人从Bondi涌入，逆着人流走视野更开阔，也更好拍照。",
+          "别开车。展期内Bondi和Tamarama周边的路边停车位稀少且限制严格--坐巴士，或乘火车到Bondi Junction再换巴士下来。",
+          "多留些时间。一旦开始停下来看，两三个小时是很现实的。"
+        ]
+      },
+      {
         "type": "callout",
         "tone": "warning",
-        "title": "做计划前，请先确认今年的日期",
-        "text": "展览每年春季举办，通常从10月下旬持续到11月初，但具体日期、开放时间以及任何需购票的额外项目（如提前入场或黄昏导览），每年都会变动，也可能因天气而调整。定下出行日期之前，请先查看 Sculpture by the Sea 官网。"
+        "title": "这是真正的悬崖，而且很拥挤",
+        "text": "这条海岸步道沿真正的悬崖而行，部分路段没有围栏。展期内可能人挤人。请看好孩子，待在护栏内侧，不要攀爬雕塑；携带摄影器材时尤其小心。开放时间以及早鸟入场、黄昏导览等付费项目可能会变动，恶劣天气偶尔也会导致部分路段关闭--出发当天请查看官方网站。"
       },
       {
         "type": "faq",
         "items": [
+          {
+            "q": "Sculpture by the Sea 2026什么时候举行？",
+            "a": "2026年Bondi展于2026年10月16日至11月2日举行，沿Bondi至Tamarama海岸步道展出。今年标志着自1997年首届Bondi展以来的30年。"
+          },
           {
             "q": "Sculpture by the Sea 是免费的吗？",
             "a": "是的--步行观展免费，向公众开放。主办方也热忱欢迎捐赠；有时还会有可选的付费项目，比如导览团或提前入场，可通过官网预订。"
@@ -39702,7 +39929,11 @@
           },
           {
             "label": "最新一季",
-            "value": "第18季，2024年年中播出"
+            "value": "第18季，2024年7月10日至8月7日播出"
+          },
+          {
+            "label": "有新一季吗？",
+            "value": "截至2026年8月，既未播出也未宣布"
           },
           {
             "label": "雇主",
@@ -39716,7 +39947,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi Rescue是一档纪录片式的节目，而非有剧本的剧集--救援都是真实的。它于2006年2月15日在Network 10首播，由悉尼制作公司Cordell Jigsaw（CJZ）出品，已经播出了约18季，是澳大利亚播出时间最长、外销最广的纪实节目之一。2025年它进入休整，当年没有推出新季，但制作方表示，在与Waverley Council达成安排的前提下，节目有望回归。无论如何，救生员们都在继续巡逻。"
+        "text": "Bondi Rescue是一档纪录片式的节目，而非有剧本的剧集--救援都是真实的。它于2006年2月15日在Network 10首播，由悉尼制作公司Cordell Jigsaw（CJZ）出品，已经播出了约18季，是澳大利亚播出时间最长、外销最广的纪实节目之一。最新一季是第18季，于2024年7月10日至8月7日播出。节目在2025年进入休整，截至2026年8月，尚无新季播出或获得宣布--Network 10自己的剧集列表也仍停在第18季。制作方CJZ曾在2025年表示预计会回归，但尚未确定具体时间。无论如何，救生员们都在继续巡逻：这是Waverley Council的实际工作，不是电视制作。"
       },
       {
         "type": "p",
@@ -39749,7 +39980,7 @@
           },
           {
             "q": "Bondi Rescue还在播吗？",
-            "a": "2025年它进入休整，当年没有推出新季，但制作方表示，在与Waverley Council达成安排的前提下，节目有望回归。无论如何，救生员们都在继续巡逻。"
+            "a": "目前没有。最新一季是第18季，于2024年7月10日至8月7日播出。节目在2025年休整，截至2026年8月尚无新季播出或获得宣布--Network 10的剧集列表仍停在第18季。制作方CJZ曾在2025年表示预计会回归，但尚未确定日期。无论摄影机在不在，救生员每天都在Bondi巡逻。"
           },
           {
             "q": "Bondi的救生员和冲浪救生员是一回事吗？",

@@ -394,5 +394,22 @@
       "https://www.notquitenigella.com/2018/11/28/medani-bakery-bondi/",
       "https://restaurantguru.com/Medani-Bakery-Bondi-Junction"
     ]
+  },
+  {
+    "name": "Bondi Hardware",
+    "status": "permanently-closed",
+    "note": "Closed; confirmed in reporting on the Bondi Road venue closures (verified 2026-08-20).",
+    "sources": [
+      "https://bondibeachnews.com.au/bondi-beach-locals-left-reeling-as-once-busy-restaurants-close-down/",
+      "https://au.finance.yahoo.com/news/bondi-institution-closing-doors-in-another-cost-of-living-collapse-024213111.html"
+    ]
+  },
+  {
+    "name": "Mojos Tapas Bar",
+    "status": "permanently-closed",
+    "note": "Closed; confirmed in reporting on the Bondi Road venue closures (verified 2026-08-20).",
+    "sources": [
+      "https://bondibeachnews.com.au/bondi-beach-locals-left-reeling-as-once-busy-restaurants-close-down/"
+    ]
   }
 ]

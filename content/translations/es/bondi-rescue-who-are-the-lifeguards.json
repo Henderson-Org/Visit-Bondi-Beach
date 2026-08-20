@@ -90,7 +90,11 @@
         },
         {
           "label": "Última temporada",
-          "value": "Temporada 18, emitida a mediados de 2024"
+          "value": "Temporada 18, emitida del 10 de julio al 7 de agosto de 2024"
+        },
+        {
+          "label": "¿Temporada nueva?",
+          "value": "Ninguna emitida ni anunciada a agosto de 2026"
         },
         {
           "label": "Para quién trabajan",
@@ -104,7 +108,7 @@
     },
     {
       "type": "p",
-      "text": "Bondi Rescue es una serie documental, no una ficción con guion: los rescates son reales. Se estrenó en Network 10 el 15 de febrero de 2006, lo produce la compañía de Sydney Cordell Jigsaw (CJZ) y ha durado alrededor de 18 temporadas, lo que lo convierte en uno de los programas de no ficción más longevos y más exportados de Australia. En 2025 se detuvo, sin temporada nueva ese año, y, según sus productores, se espera que regrese, sujeto a acuerdos con el Waverley Council. En cualquier caso, los socorristas siguen patrullando."
+      "text": "Bondi Rescue es una serie documental, no una ficción con guion: los rescates son reales. Se estrenó en Network 10 el 15 de febrero de 2006, lo produce la compañía de Sydney Cordell Jigsaw (CJZ) y ha durado alrededor de 18 temporadas, lo que lo convierte en uno de los programas de no ficción más longevos y más exportados de Australia. La temporada más reciente es la 18, emitida del 10 de julio al 7 de agosto de 2024. El programa se detuvo en 2025 y, a agosto de 2026, no se ha emitido ni anunciado ninguna temporada nueva: el propio listado de episodios de Network 10 sigue terminando en la temporada 18. Sus productores, CJZ, dijeron en 2025 que esperaban volver, pero no hay fecha confirmada. En cualquier caso, los socorristas siguen patrullando: es un trabajo real para el Waverley Council, no una producción televisiva."
     },
     {
       "type": "p",
@@ -137,7 +141,7 @@
         },
         {
           "q": "¿Bondi Rescue sigue en emisión?",
-          "a": "En 2025 se detuvo, sin temporada nueva ese año, pero sus productores dicen que se espera que regrese, sujeto a acuerdos con el Waverley Council. Los socorristas siguen patrullando de todos modos."
+          "a": "Ahora mismo no. La temporada más reciente es la 18, emitida del 10 de julio al 7 de agosto de 2024. El programa se detuvo en 2025 y, a agosto de 2026, no se ha emitido ni anunciado ninguna temporada nueva: el listado de episodios de Network 10 sigue terminando en la temporada 18. Los productores CJZ dijeron en 2025 que esperaban que volviera, pero no hay fecha confirmada. Los socorristas patrullan Bondi todos los días, haya cámaras o no."
         },
         {
           "q": "¿Los socorristas de Bondi son lo mismo que los voluntarios de Surf Life Saving?",

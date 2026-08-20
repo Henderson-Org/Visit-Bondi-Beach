@@ -5,18 +5,127 @@
   "metaDescription": "Een praktische gids voor Sculpture by the Sea langs de kustwandeling van Bondi naar Tamarama - wanneer het is, hoe je er komt en hoe je de drukte vermijdt.",
   "h1": "Sculpture by the Sea langs de kustwandeling van Bondi naar Tamarama: mijn praktische gids",
   "blocks": [
-    {"type":"p","text":"Een paar weken lang, elk voorjaar, verandert mijn favoriete stuk kust in de mooiste galerie ter wereld. Sculpture by the Sea vult de kliffen van Bondi tot Tamarama met meer dan 100 werken, opgesteld tegen de oceaan, gratis te belopen en compleet anders dan een galerie met een dak. Ik heb hem bijna elk jaar gelopen en hij brengt me nog altijd tot stilstand."},
-    {"type":"quickFacts","items":[{"label":"Wat","value":"Gratis openluchttentoonstelling met beelden, 100+ werken"},{"label":"Waar","value":"Kustwandeling van Bondi naar Tamarama"},{"label":"Afstand","value":"Ongeveer 2 km langs de kustwandeling van Bondi naar Tamarama (controleer de officiële site)"},{"label":"Wanneer","value":"Voorjaar, ruwweg eind oktober (data variëren - controleer de officiële site)"},{"label":"Kosten","value":"Gratis; donaties welkom"}]},
-    {"type":"p","text":"Het begon in 1997, toen oprichter David Handley - een voormalig bedrijfsjurist, geïnspireerd door een beeldenpark dat hij in Bohemen had gezien - een eendaagse expositie van 64 werken langs ditzelfde pad organiseerde. Met een minimaal budget trok het zo'n 25.000 mensen, en het idee is nooit veranderd: zet ambitieus werk van Australische en internationale kunstenaars tegen de zee en laat de oceaan de helft van het werk doen. Inmiddels geldt het als de grootste voor het publiek gratis toegankelijke beeldententoonstelling ter wereld."},
-    {"type":"h2","text":"De wandeling zelf"},
-    {"type":"p","text":"Het is ruwweg 2 kilometer enkele reis, van het Icebergs-zwembad aan de zuidkant van Bondi naar Tamarama. Als gewone wandeling is dat ongeveer 25 minuten, maar wandelen zul je niet - je blijft voortdurend staan, dus reken op twee tot drie uur. De werken liggen verspreid over het strand, staan op de kliffen en dringen samen in Marks Park op Mackenzies Point, de begroeide landtong ongeveer halverwege met ongehinderd uitzicht naar het noorden en zuiden. Een deel van het plezier is te zien hoe licht en getij elk werk onderweg opnieuw vormgeven."},
-    {"type":"p","text":"Het pad is verhard maar plaatselijk smal, met trappen en een paar steile stukjes, dus draag stevige schoenen in plaats van teenslippers. Een paar praktische opmerkingen voor je vertrekt:"},
-    {"type":"list","items":["Het is een actieve kliftop - blijf achter de afzettingen en houd kinderen en honden dicht bij je in de buurt van de randen.","Toiletten zijn er bij de stranden van Bondi en Tamarama, met weinig ertussen, dus ga vooraf.","Aan de Bondi-kant is er volop eten en koffie; Tamarama heeft veel minder opties, dus neem water en een snack mee.","De meeste beelden zijn te koop, en veel ervan zijn werken die je echt nergens anders kunt zien."]},
-    {"type":"h2","text":"Er komen"},
-    {"type":"p","text":"Het openbaar vervoer is de slimme keuze - de parkeerplaatsen rond Tamarama zitten tijdens het festival snel vol. Neem de trein naar Bondi Junction, dan een bus omlaag naar het strand, en pik het pad op bij de zuidelijke landtong bij de Icebergs. Om tegen de hoofdstroom van de menigte in te lopen, begin je juist aan de rustigere kant van Tamarama. Bevestig de actuele buslijnen en eventuele wegafsluitingen via Transport for NSW of de eigen bereikbaarheidspagina van het evenement."},
-    {"type":"localTip","text":"Kom bij zonsopgang op een doordeweekse dag. Het pad is het leegst in het eerste uur na de dageraad, het licht is zacht en goudkleurig, en je hebt de topstukken bijna voor jezelf voordat de reisgroepen arriveren. Doordeweekse ochtenden verslaan het weekend met gemak."},
-    {"type":"callout","tone":"warning","title":"Bevestig de data van dit jaar voordat je plant","text":"De tentoonstelling vindt elk voorjaar plaats, meestal van eind oktober tot begin november, maar de exacte data, openingstijden en eventuele betaalde extra's (early-access- of schemeringtours) verschillen per jaar en kunnen verschuiven door het weer. Raadpleeg de officiële site van Sculpture by the Sea voordat je een dag vastlegt."},
-    {"type":"faq","items":[{"q":"Is Sculpture by the Sea gratis?","a":"Ja - het lopen van de tentoonstelling is gratis en toegankelijk voor het publiek. Donaties zijn van harte welkom, en er zijn soms optionele betaalde extra's zoals rondleidingen of tours met vervroegde toegang die je via de officiële site kunt boeken."},{"q":"Hoe lang duurt het?","a":"De route is ongeveer 2 kilometer tussen Bondi en Tamarama - zo'n 25 minuten als gewone wandeling, maar met meer dan 100 beelden om voor stil te staan, besteden de meeste mensen twee tot drie uur van begin tot eind."},{"q":"Is de wandeling geschikt voor kinderen en kinderwagens?","a":"Gezinnen doen hem elk jaar en kinderen zijn dol op de omvang van de werken, maar trappen en steile, smalle stukken maken kinderwagens lastig - voor de kleintjes is een draagzak makkelijker. Houd iedereen dicht bij de afzettingen langs de klifranden."}]},
-    {"type":"quote","text":"Het beste beeld hier is nooit alleen het object - het zijn het object, de klif en de zee, allemaal tegelijk."}
+    {
+      "type": "answer",
+      "text": "Sculpture by the Sea 2026 loopt van 16 oktober tot 2 november 2026 langs de kustwandeling van Bondi naar Tamarama. Het is gratis, er is geen ticket, en de sculpturen staan buiten en zijn de hele dag te zien. De editie van 2026 markeert 30 jaar sinds de eerste Sculpture by the Sea in Bondi in 1997. Reken op twee tot drie uur voor de 2 km, ga als het kan op een doordeweekse ochtend en neem de bus - tijdens de tentoonstelling is er nauwelijks parkeerruimte rond Bondi en Tamarama."
+    },
+    {
+      "type": "p",
+      "text": "Een paar weken lang, elk voorjaar, verandert mijn favoriete stuk kust in de mooiste galerie ter wereld. Sculpture by the Sea vult de kliffen van Bondi tot Tamarama met meer dan 100 werken, opgesteld tegen de oceaan, gratis te belopen en compleet anders dan een galerie met een dak. Ik heb hem bijna elk jaar gelopen en hij brengt me nog altijd tot stilstand."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Data 2026",
+          "value": "16 oktober tot 2 november 2026"
+        },
+        {
+          "label": "Wat",
+          "value": "Gratis openluchttentoonstelling met meer dan 100 sculpturen"
+        },
+        {
+          "label": "Waar",
+          "value": "Kustwandeling van Bondi naar Tamarama"
+        },
+        {
+          "label": "Afstand",
+          "value": "Ongeveer 2 km enkele reis; reken op 2-3 uur"
+        },
+        {
+          "label": "Kosten",
+          "value": "Gratis; donaties welkom"
+        },
+        {
+          "label": "Mijlpaal",
+          "value": "30 jaar sinds de eerste tentoonstelling in Bondi in 1997"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Het begon in 1997, toen oprichter David Handley - een voormalig bedrijfsjurist, geïnspireerd door een beeldenpark dat hij in Bohemen had gezien - een eendaagse expositie van 64 werken langs ditzelfde pad organiseerde. Met een minimaal budget trok het zo'n 25.000 mensen, en het idee is nooit veranderd: zet ambitieus werk van Australische en internationale kunstenaars tegen de zee en laat de oceaan de helft van het werk doen. Inmiddels geldt het als de grootste voor het publiek gratis toegankelijke beeldententoonstelling ter wereld."
+    },
+    {
+      "type": "h2",
+      "text": "De wandeling zelf"
+    },
+    {
+      "type": "p",
+      "text": "Het is ruwweg 2 kilometer enkele reis, van het Icebergs-zwembad aan de zuidkant van Bondi naar Tamarama. Als gewone wandeling is dat ongeveer 25 minuten, maar wandelen zul je niet - je blijft voortdurend staan, dus reken op twee tot drie uur. De werken liggen verspreid over het strand, staan op de kliffen en dringen samen in Marks Park op Mackenzies Point, de begroeide landtong ongeveer halverwege met ongehinderd uitzicht naar het noorden en zuiden. Een deel van het plezier is te zien hoe licht en getij elk werk onderweg opnieuw vormgeven."
+    },
+    {
+      "type": "p",
+      "text": "Het pad is verhard maar plaatselijk smal, met trappen en een paar steile stukjes, dus draag stevige schoenen in plaats van teenslippers. Een paar praktische opmerkingen voor je vertrekt:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Het is een actieve kliftop - blijf achter de afzettingen en houd kinderen en honden dicht bij je in de buurt van de randen.",
+        "Toiletten zijn er bij de stranden van Bondi en Tamarama, met weinig ertussen, dus ga vooraf.",
+        "Aan de Bondi-kant is er volop eten en koffie; Tamarama heeft veel minder opties, dus neem water en een snack mee.",
+        "De meeste beelden zijn te koop, en veel ervan zijn werken die je echt nergens anders kunt zien."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Er komen"
+    },
+    {
+      "type": "p",
+      "text": "Het openbaar vervoer is de slimme keuze - de parkeerplaatsen rond Tamarama zitten tijdens het festival snel vol. Neem de trein naar Bondi Junction, dan een bus omlaag naar het strand, en pik het pad op bij de zuidelijke landtong bij de Icebergs. Om tegen de hoofdstroom van de menigte in te lopen, begin je juist aan de rustigere kant van Tamarama. Bevestig de actuele buslijnen en eventuele wegafsluitingen via Transport for NSW of de eigen bereikbaarheidspagina van het evenement."
+    },
+    {
+      "type": "localTip",
+      "text": "Kom bij zonsopgang op een doordeweekse dag. Het pad is het leegst in het eerste uur na de dageraad, het licht is zacht en goudkleurig, en je hebt de topstukken bijna voor jezelf voordat de reisgroepen arriveren. Doordeweekse ochtenden verslaan het weekend met gemak."
+    },
+    {
+      "type": "h2",
+      "text": "De drukte vermijden"
+    },
+    {
+      "type": "p",
+      "text": "Dit is een van de drukste dingen op de Sydneyse lentekalender - de organisatie houdt het op meer dan 450.000 bezoekers per jaar over de hele looptijd - dus wannéér je gaat telt meer dan wat dan ook. Een zonnige weekendmiddag betekent schouder aan schouder op een kliffenpad dat op sommige plekken smal is. Een doordeweekse ochtend is een compleet andere tentoonstelling."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ga doordeweeks, en ga vroeg. Het eerste uur na zonsopgang is het rustigste moment op het pad.",
+        "Begin aan de kant van Tamarama. De meeste mensen stromen vanuit Bondi binnen, dus tegen de stroom in lopen geeft vrijer zicht en makkelijkere foto's.",
+        "Laat de auto staan. Tijdens de tentoonstelling is straatparkeren rond Bondi en Tamarama schaars en streng gereguleerd - neem de bus, of de trein naar Bondi Junction en dan een bus naar beneden.",
+        "Trek meer tijd uit dan je denkt. Twee tot drie uur is realistisch zodra je begint stil te staan."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Het is een echte klif, en het wordt druk",
+      "text": "De kustwandeling loopt langs echte kliffen, op sommige plekken zonder hek, en tijdens de tentoonstelling kan het schouder aan schouder zijn. Houd kinderen dichtbij, blijf achter de hekken, klim niet op de sculpturen en wees extra voorzichtig als je camera-apparatuur draagt. Openingstijden en betaalde extra's (vroege toegang of schemertours) kunnen veranderen, en zwaar weer sluit soms delen van het pad af - check op de dag zelf de officiële site."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Wanneer is Sculpture by the Sea 2026?",
+          "a": "De Bondi-tentoonstelling van 2026 loopt van 16 oktober tot 2 november 2026, langs de kustwandeling van Bondi naar Tamarama. Ze markeert 30 jaar sinds de eerste Sculpture by the Sea in Bondi in 1997."
+        },
+        {
+          "q": "Is Sculpture by the Sea gratis?",
+          "a": "Ja - het lopen van de tentoonstelling is gratis en toegankelijk voor het publiek. Donaties zijn van harte welkom, en er zijn soms optionele betaalde extra's zoals rondleidingen of tours met vervroegde toegang die je via de officiële site kunt boeken."
+        },
+        {
+          "q": "Hoe lang duurt het?",
+          "a": "De route is ongeveer 2 kilometer tussen Bondi en Tamarama - zo'n 25 minuten als gewone wandeling, maar met meer dan 100 beelden om voor stil te staan, besteden de meeste mensen twee tot drie uur van begin tot eind."
+        },
+        {
+          "q": "Is de wandeling geschikt voor kinderen en kinderwagens?",
+          "a": "Gezinnen doen hem elk jaar en kinderen zijn dol op de omvang van de werken, maar trappen en steile, smalle stukken maken kinderwagens lastig - voor de kleintjes is een draagzak makkelijker. Houd iedereen dicht bij de afzettingen langs de klifranden."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "Het beste beeld hier is nooit alleen het object - het zijn het object, de klif en de zee, allemaal tegelijk."
+    }
   ]
 }

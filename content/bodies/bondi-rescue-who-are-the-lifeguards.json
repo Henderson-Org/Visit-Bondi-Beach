@@ -1,7 +1,7 @@
 {
   "path": "/bondi-blog/bondi-rescue-who-are-the-lifeguards",
   "voice": "first-person",
-  "lastReviewed": "2026-08-14",
+  "lastReviewed": "2026-08-20",
   "sources": [
     {
       "label": "Wikipedia - Bondi Rescue",
@@ -28,7 +28,7 @@
       "url": "https://10.com.au/bondi-rescue"
     },
     {
-      "label": "New Idea - Bondi Rescue rested in 2025, expected to return",
+      "label": "New Idea - Bondi Rescue rested, producers expect a return (July 2025)",
       "url": "https://www.newidea.com.au/entertainment/bondi-rescue-returning/"
     },
     {
@@ -122,7 +122,11 @@
         },
         {
           "label": "Most recent season",
-          "value": "Season 18, aired mid-2024"
+          "value": "Season 18, aired 10 July - 7 August 2024"
+        },
+        {
+          "label": "New season?",
+          "value": "None aired or announced as at August 2026"
         },
         {
           "label": "Who they work for",
@@ -136,7 +140,7 @@
     },
     {
       "type": "p",
-      "text": "Bondi Rescue is a documentary series, not scripted drama - the rescues are real. It first aired on Network 10 on 15 February 2006, is made by Sydney production company Cordell Jigsaw (CJZ), and has run for around 18 seasons, making it one of Australia's longest-running and most-exported factual shows. It was rested in 2025 with no new season that year and, its producers say, is expected to return, subject to arrangements with Waverley Council. Either way, the lifeguards keep patrolling."
+      "text": "Bondi Rescue is a documentary series, not scripted drama - the rescues are real. It first aired on Network 10 on 15 February 2006, is made by Sydney production company Cordell Jigsaw (CJZ), and has run for around 18 seasons, making it one of Australia's longest-running and most-exported factual shows. The most recent season is season 18, which aired from 10 July to 7 August 2024. The show was rested in 2025, and as at August 2026 no new season has aired or been announced - Network 10's own episode listing still ends at season 18. Producers CJZ said in 2025 they expected to be back on the beach, but no return date has been confirmed. Either way, the lifeguards keep patrolling: the job is real work for Waverley Council, not a TV production."
     },
     {
       "type": "p",
@@ -169,7 +173,7 @@
         },
         {
           "q": "Is Bondi Rescue still on?",
-          "a": "It was rested in 2025 with no new season that year, but its producers say it's expected to return, subject to arrangements with Waverley Council. The lifeguards continue to patrol regardless."
+          "a": "Not currently. The most recent season is season 18, which aired from 10 July to 7 August 2024. The show was rested in 2025 and, as at August 2026, no new season has aired or been announced - Network 10's episode listing still ends at season 18. Producers CJZ said in 2025 they expected it to return, but no date has been confirmed. The lifeguards themselves patrol Bondi every day regardless of whether cameras are there."
         },
         {
           "q": "Are Bondi lifeguards the same as surf lifesavers?",

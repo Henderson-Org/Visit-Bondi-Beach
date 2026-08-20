@@ -90,7 +90,11 @@
         },
         {
           "label": "Stagione più recente",
-          "value": "Stagione 18, andata in onda a metà 2024"
+          "value": "Stagione 18, andata in onda dal 10 luglio al 7 agosto 2024"
+        },
+        {
+          "label": "Nuova stagione?",
+          "value": "Ad agosto 2026 nessuna trasmessa né annunciata"
         },
         {
           "label": "Per chi lavorano",
@@ -104,7 +108,7 @@
     },
     {
       "type": "p",
-      "text": "Bondi Rescue è una serie documentaristica, non una fiction con copione - i salvataggi sono reali. È andata in onda per la prima volta su Network 10 il 15 febbraio 2006, è realizzata dalla casa di produzione di Sydney Cordell Jigsaw (CJZ) e va avanti da circa 18 stagioni, il che la rende uno dei programmi factual più longevi ed esportati d'Australia. Nel 2025 è stata messa in pausa senza una nuova stagione quell'anno e, secondo i suoi produttori, ci si aspetta un ritorno, subordinato agli accordi con il Waverley Council. In ogni caso, i bagnini continuano a pattugliare."
+      "text": "Bondi Rescue è una serie documentaristica, non una fiction con copione - i salvataggi sono reali. È andata in onda per la prima volta su Network 10 il 15 febbraio 2006, è realizzata dalla casa di produzione di Sydney Cordell Jigsaw (CJZ) e va avanti da circa 18 stagioni, il che la rende uno dei programmi factual più longevi ed esportati d'Australia. La stagione più recente è la 18, andata in onda dal 10 luglio al 7 agosto 2024. Il programma è stato messo in pausa nel 2025 e, ad agosto 2026, nessuna nuova stagione è stata trasmessa o annunciata: l'elenco episodi di Network 10 si ferma ancora alla stagione 18. I produttori di CJZ nel 2025 dissero di aspettarsi un ritorno, ma non c'è una data confermata. In ogni caso i bagnini continuano a pattugliare: è lavoro vero per il Waverley Council, non una produzione televisiva."
     },
     {
       "type": "p",
@@ -137,7 +141,7 @@
         },
         {
           "q": "Bondi Rescue è ancora in onda?",
-          "a": "Nel 2025 è stata messa in pausa senza una nuova stagione quell'anno, ma secondo i suoi produttori ci si aspetta un ritorno, subordinato agli accordi con il Waverley Council. I bagnini continuano comunque a pattugliare."
+          "a": "Al momento no. La stagione più recente è la 18, andata in onda dal 10 luglio al 7 agosto 2024. Il programma è stato messo in pausa nel 2025 e, ad agosto 2026, nessuna nuova stagione è stata trasmessa o annunciata: l'elenco episodi di Network 10 si ferma ancora alla stagione 18. I produttori di CJZ nel 2025 si aspettavano un ritorno, ma non c'è una data confermata. I bagnini pattugliano Bondi ogni giorno, con o senza telecamere."
         },
         {
           "q": "I bagnini di Bondi sono gli stessi dei surf lifesaver?",

@@ -91,6 +91,22 @@ const nextConfig = {
       // Festival of the Winds: a dated 2023 URL whose title still said "2024" -> one
       // evergreen guide that is updated each year rather than a new page per edition.
       { source: '/bondi-blog/2023/9/9/soaring-high-at-bondi-beach-festival-of-the-winds', destination: '/bondi-blog/festival-of-the-winds-bondi', statusCode: 301 },
+      // Round 6 (2026 freshness audit, 2026-08-20).
+      // Christmas Day at Bronte: four pages on one intent, two of which still described the
+      // backpackers' party in the present tense after Waverley Council shut it down. The
+      // survivor (2 imp, best slug) was rewritten with the 2024/2025 facts and retitled;
+      // the other three 301 into it.
+      { source: '/bondi-blog/2024/12/26/australias-best-christmas-party-at-sydneys-bronte-beach', destination: '/bondi-blog/2023/12/26/celebrating-christmas-day-at-bronte-beach-australias-biggest-christmas-party', statusCode: 301 },
+      { source: '/bondi-blog/2025/4/15/your-complete-guide-to-christmas-day-at-bronte-beach-sydney-december-25-2025', destination: '/bondi-blog/2023/12/26/celebrating-christmas-day-at-bronte-beach-australias-biggest-christmas-party', statusCode: 301 },
+      { source: '/bondi-blog/2025/6/21/bronte-beach-backpackers-christmas-2025-ultimate-guide-for-the-orphans-christmas-celebration', destination: '/bondi-blog/2023/12/26/celebrating-christmas-day-at-bronte-beach-australias-biggest-christmas-party', statusCode: 301 },
+      // Sculpture by the Sea: a date-locked "…in 2025" page (0 imp) duplicating the evergreen
+      // guide (14 imp, translated x7). The guide now carries the confirmed 2026 dates and is
+      // updated each year instead of spawning a new page per edition.
+      { source: '/bondi-blog/2025/10/15/sculpture-by-the-seareturns-to-bondi-and-tamarama-what-you-need-to-know-in-2025', destination: '/bondi-blog/2023/9/21/sculptures-by-the-sea-at-bondi-a-comprehensive-guide-to-art-by-the-ocean', statusCode: 301 },
+      // Noah's Bondi Beach closed: the hostel went into receivership and the site sold in 2026
+      // for redevelopment, so its property guide was removed rather than left recommending a
+      // hostel nobody can book. 301 to the hostels category so the intent still lands somewhere.
+      { source: '/stay/noahs-bondi-beach', destination: '/stay/hostels-bondi-beach', statusCode: 301 },
     ];
   },
 };

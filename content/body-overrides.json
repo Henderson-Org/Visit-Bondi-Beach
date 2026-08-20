@@ -3487,8 +3487,12 @@
   "/bondi-blog/2023/12/26/celebrating-christmas-day-at-bronte-beach-australias-biggest-christmas-party": {
     "blocks": [
       {
+        "type": "answer",
+        "text": "The big backpackers' Christmas party at Bronte Beach is effectively over. After an estimated 15,000 people packed Bronte on Christmas Day 2024, Waverley Council spent more than $220,000 on a management plan for 2025 - a glass ban, alcohol checkpoints and a large police and crowd-control presence - and urged people to stay away. It worked: Christmas Day 2025 at Bronte was quiet and peaceful, and the travelling crowd moved to Coogee Beach instead. Bronte is still a lovely place to spend Christmas morning, but come expecting a family picnic beach with enforced alcohol rules, not a party."
+      },
+      {
         "type": "p",
-        "text": "If you've heard that Bronte Beach is where Sydney throws its big Christmas Day beach party, you've heard right - for years Bronte has been the go-to gathering for backpackers, working travellers and locals who fancy an outdoor Christmas over a formal lunch. The grassy park behind the sand fills with picnics, cricket and Santa-hatted swimmers, and it has a reputation as one of the city's largest travellers' Christmas get-togethers. Here's what the day is like, and how to do it well - it's a brilliant day out if you turn up prepared and respectful."
+        "text": "For years Bronte was the unofficial home of what travellers call \"Orphan's Christmas\" - the day backpackers and working travellers spent with their found family instead of their real one. If that's the Bronte you've been told about, I owe you the honest update before you plan your 25th around it: that version of the day has been deliberately dismantled, and the crowd has gone elsewhere."
       },
       {
         "type": "quickFacts",
@@ -3502,12 +3506,16 @@
             "value": "Bronte Beach and Park, Waverley"
           },
           {
-            "label": "Vibe",
-            "value": "Busy, international, friendly"
+            "label": "Vibe now",
+            "value": "Family picnics and locals - not a party"
           },
           {
             "label": "Alcohol",
-            "value": "Restricted - check Waverley Council"
+            "value": "Banned and actively enforced; glass not permitted"
+          },
+          {
+            "label": "Where the crowd went",
+            "value": "Coogee Beach, in 2025"
           },
           {
             "label": "Cost",
@@ -3521,25 +3529,33 @@
       },
       {
         "type": "h2",
-        "text": "Why Bronte on Christmas Day"
+        "text": "What changed, and when"
       },
       {
         "type": "p",
-        "text": "What makes Bronte different from Bondi on the 25th is the park. A wide band of grass, shade trees and public barbecues sits right behind the beach, so instead of everyone crammed onto the sand you get a proper picnic ground overlooking the ocean. Over the years that made Bronte the natural meeting point for travellers spending Christmas far from home."
-      },
-      {
-        "type": "h2",
-        "text": "What the day actually feels like"
+        "text": "The gathering grew for years on reputation alone - it was never an organised event, and nobody ran it. By Christmas Day 2024 an estimated 15,000 people were on Bronte Beach and in the park behind it, and the day brought anti-social behaviour, noise and a very large mess for a small residential beach to absorb. Local residents had had enough, and the council acted."
       },
       {
         "type": "p",
-        "text": "People drift down from mid-morning and settle in for the long haul. You'll see picnic rugs and Esky lunches, backyard cricket on the grass, groups swapping stories in a dozen accents, and a steady stream of people cooling off in the ocean and the Bronte rock pool. It's relaxed rather than rowdy - closer to a giant shared picnic than a nightclub - and easy to fall in with a crowd."
+        "text": "In mid-2025 Waverley Council adopted a management plan costing more than $220,000: a ban on glass, alcohol checkpoints, and a substantially increased police and crowd-control presence, but no fencing and no ticketing. Alongside it the council ran a clear public message asking people not to come. Both parts worked. Council reported low, manageable crowds on Christmas Day 2025, no repeat of the 2024 scenes - and the backpacker contingent relocated to Coogee Beach, where the clean-up help was sent instead."
       },
       {
         "type": "callout",
         "tone": "warning",
-        "title": "Check the alcohol rules before you pack",
-        "text": "Bronte's beach and park fall under Waverley Council's alcohol-free and alcohol-prohibited area rules, and police manage the area closely at Christmas. Restrictions and enforcement change year to year, so check Waverley Council for the current rules before you assume you can bring drinks - and leave glass at home regardless."
+        "title": "Alcohol is banned, and it is enforced",
+        "text": "Bronte Beach and Bronte Park fall under Waverley Council's alcohol-free and alcohol-prohibited area rules, and on Christmas Day these are actively policed with checkpoints. Glass is not permitted at any time. This is not the 'bring an esky and see what happens' day it once was - if you turn up with drinks you should expect them to be confiscated."
+      },
+      {
+        "type": "h2",
+        "text": "So is Bronte still worth it on Christmas Day?"
+      },
+      {
+        "type": "p",
+        "text": "Genuinely, yes - just for a different day than the one it was famous for. What makes Bronte special is the park: a wide band of grass, shade trees and public barbecues sitting right behind the sand, so instead of everyone crammed onto the beach you get a proper picnic ground overlooking the ocean. Take away the crowd and that is a lovely place to spend a warm Christmas morning, with a swim, a cooked breakfast on the BBQs and the rock pool at the southern end."
+      },
+      {
+        "type": "p",
+        "text": "If what you actually want is the travellers' Christmas gathering, be aware it followed the crowd to Coogee in 2025. Coogee sits in Randwick City Council, not Waverley, so it has its own rules and its own alcohol restrictions - check Randwick City Council rather than assuming Waverley's rules apply, and expect councils to keep adjusting their approach year to year."
       },
       {
         "type": "h2",
@@ -3547,11 +3563,11 @@
       },
       {
         "type": "p",
-        "text": "Bronte is a patrolled beach, but it's also known for a strong rip near the southern rocks, so treat the water with respect. Swim between the red and yellow flags where the lifeguards are watching, and if no flags are up, stay out. The calm Bronte rock pool is a good alternative if the surf is big or you've got kids. Never swim after drinking - alcohol is behind a huge share of avoidable rescues, and even strong swimmers get caught out."
+        "text": "Bronte is a patrolled beach, but it's also known for a strong permanent rip near the southern rocks - locally called the Bronte Express - so treat the water with respect. Swim between the red and yellow flags where the lifeguards are watching, and if no flags are up, stay out. The Bronte rock pool at the southern end is a calmer alternative if the surf is big or you've got kids. Never swim after drinking."
       },
       {
         "type": "localTip",
-        "text": "The late-December Sydney sun is fierce - much stronger than a northern-hemisphere winter sun, and it catches visitors out fast. Slip on a shirt, slop on SPF50+ and reapply, grab a hat, and bring shade and plenty of water. The shady spots in Bronte Park go early, so arrive in good time if you want a tree."
+        "text": "The late-December Sydney sun is fierce - far stronger than a northern-hemisphere winter sun, and it catches visitors out fast. Slip on a shirt, slop on SPF50+ and reapply, grab a hat, and bring shade and plenty of water. The shady spots in Bronte Park go early, so arrive in good time if you want a tree."
       },
       {
         "type": "h2",
@@ -3559,7 +3575,7 @@
       },
       {
         "type": "p",
-        "text": "The one blemish on Bronte's Christmas is the mess a big crowd can leave behind. Overflowing bins and litter are hard on the wildlife and on the residents who share this beach year-round, and it's easily avoided if everyone chips in:"
+        "text": "The mess was a large part of why the old Bronte Christmas ended. Whatever the crowd size, the same courtesy applies on a beach that people live beside year-round:"
       },
       {
         "type": "list",
@@ -3567,7 +3583,7 @@
           "Use the bins provided, and take your rubbish with you if they're full.",
           "Bring reusable plates, cups and cutlery instead of single-use.",
           "Pack a spare bag for your rubbish and recycling.",
-          "Respect the local wildlife and the rock platform habitats.",
+          "No glass, anywhere, at any time.",
           "Follow any directions from rangers, lifeguards and police on the day."
         ]
       },
@@ -3577,22 +3593,26 @@
       },
       {
         "type": "p",
-        "text": "Christmas Day is a NSW public holiday, so public transport runs to a holiday timetable and nearby cafés and shops are likely closed or on reduced hours - bring your food and water. Check Transport for NSW before you set out. Bronte's parking is limited and fills early on a warm 25th, so a bus or an early arrival saves a lot of circling."
+        "text": "Christmas Day is a NSW public holiday, so public transport runs to a holiday timetable and nearby cafés and shops are likely closed or on reduced hours - bring your own food and water. Check Transport for NSW before you set out. Bronte's parking is limited and fills early on a warm 25th, so a bus or an early arrival saves a lot of circling."
       },
       {
         "type": "faq",
         "items": [
           {
-            "q": "Is Bronte really Australia's biggest Christmas party?",
-            "a": "Bronte has a long-standing reputation as one of Sydney's largest Christmas Day beach gatherings, especially among travellers, thanks to the big grassy park behind the beach. It's famous rather than officially ranked, so treat 'biggest' as reputation, not a measured fact."
+            "q": "Is the Bronte Beach Christmas party still on?",
+            "a": "No, not in the form it was famous for. After an estimated 15,000 people came in 2024, Waverley Council introduced a glass ban, alcohol checkpoints and a heavy police presence for Christmas Day 2025 and asked people to stay away. The day was quiet, and the travelling crowd moved to Coogee Beach instead."
           },
           {
             "q": "Can I drink alcohol at Bronte on Christmas Day?",
-            "a": "Bronte's beach and park fall under Waverley Council's alcohol-free and alcohol-prohibited area rules, and enforcement is tight at Christmas. The rules can change year to year, so check Waverley Council for the current details and leave glass at home either way."
+            "a": "No. Bronte Beach and Bronte Park are covered by Waverley Council's alcohol-free and alcohol-prohibited area rules, and on Christmas Day these are enforced with checkpoints and police. Glass is not permitted at any time."
+          },
+          {
+            "q": "Where did the backpackers' Christmas move to?",
+            "a": "Coogee Beach, in 2025 - Waverley Council sent clean-up help there after Christmas Day. Coogee is in Randwick City Council, so check that council's rules rather than Waverley's, and expect the approach to keep changing year to year."
           },
           {
             "q": "Is it safe to swim at Bronte on Christmas Day?",
-            "a": "Only between the red and yellow flags, and only if you're sober. Bronte is patrolled but has a strong rip near the southern rocks. If no flags are up, don't swim - the calm rock pool is a safer alternative."
+            "a": "Only between the red and yellow flags, and only if you're sober. Bronte is patrolled but has a strong permanent rip near the southern rocks. If no flags are up, don't swim - the rock pool is a safer alternative."
           },
           {
             "q": "Will cafés and shops nearby be open?",
@@ -3606,18 +3626,30 @@
       },
       {
         "type": "p",
-        "text": "That's the trick to a Bronte Christmas: come prepared for sun and surf, check the current rules, and take your rubbish home. Local or traveller far from home, a morning in Bronte Park has a way of becoming one you remember."
+        "text": "If you came looking for the party, I'm sorry to be the one to tell you. But a quiet Christmas morning in Bronte Park - a swim, a barbecue, the pool, and the ocean right there - is a genuinely lovely way to spend the day, and it's the version the people who live here can live with. For the Bondi side of the 25th, see my guide to [Christmas Day at Bondi Beach](/bondi-blog/2023/12/13/christmas-day-at-bondi-beach)."
       }
     ],
-    "wordCount": 889,
+    "wordCount": 1206,
     "sources": [
+      {
+        "label": "Waverley Council - Bronte spared from usual 'Backpacker Christmas' chaos, clean-up help sent to Coogee",
+        "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/bronte-xmas-update"
+      },
+      {
+        "label": "Waverley Council - A plan for managing the impacts of Christmas Day at Bronte",
+        "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/12_8_managing_the_impacts_of_christmas_day_at_bronte"
+      },
+      {
+        "label": "Waverley Council - Safety concerns over Christmas at Bronte gathering",
+        "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/safety_concerns_over_christmas_at_bronte_gathering"
+      },
+      {
+        "label": "ABC News - Waverley Council to spend extra $220,000 to manage 'out of control' beach Christmas Day party",
+        "url": "https://www.abc.net.au/news/2025-06-18/bronte-beach-christmas-day-party-council/105427252"
+      },
       {
         "label": "Waverley Council - Beaches and coast",
         "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast"
-      },
-      {
-        "label": "Waverley Council - Alcohol Free Zones and Alcohol Prohibited Areas",
-        "url": "https://www.waverley.nsw.gov.au"
       },
       {
         "label": "Beachsafe (Surf Life Saving Australia) - Bronte Beach",
@@ -3628,7 +3660,7 @@
         "url": "https://transportnsw.info/"
       }
     ],
-    "lastReviewed": "2026-08-08",
+    "lastReviewed": "2026-08-20",
     "voice": "first-person"
   },
   "/bondi-blog/2023/12/26/gwyneth-paltrows-bondi-recommendations-one-we-cant-agree-with": {
@@ -5432,12 +5464,20 @@
   "/bondi-blog/2023/9/21/sculptures-by-the-sea-at-bondi-a-comprehensive-guide-to-art-by-the-ocean": {
     "blocks": [
       {
+        "type": "answer",
+        "text": "Sculpture by the Sea 2026 runs from 16 October to 2 November 2026 along the Bondi to Tamarama coastal walk. It is free, there is no ticket, and the sculptures are outdoors and visible all day. The 2026 exhibition marks 30 years since the first Sculpture by the Sea at Bondi in 1997. Allow two to three hours for the 2 km walk, come on a weekday morning if you can, and take the bus - parking around Bondi and Tamarama is scarce during the exhibition."
+      },
+      {
         "type": "p",
         "text": "For a few weeks every spring, my favourite stretch of coastline becomes the world's most beautiful gallery. Sculpture by the Sea lines the Bondi to Tamarama clifftop with more than 100 works, set against the ocean, free to walk, and utterly unlike a gallery with a roof. I've done it most years and it still stops me in my tracks."
       },
       {
         "type": "quickFacts",
         "items": [
+          {
+            "label": "2026 dates",
+            "value": "16 October - 2 November 2026"
+          },
           {
             "label": "What",
             "value": "Free outdoor sculpture exhibition, 100+ works"
@@ -5448,15 +5488,15 @@
           },
           {
             "label": "Distance",
-            "value": "About 2 km along the Bondi to Tamarama coastal walk (check the official site)"
-          },
-          {
-            "label": "When",
-            "value": "Spring, roughly late October (dates vary - check the official site)"
+            "value": "About 2 km one way; allow 2-3 hours"
           },
           {
             "label": "Cost",
             "value": "Free; donations welcomed"
+          },
+          {
+            "label": "Milestone",
+            "value": "30 years since the first Bondi exhibition in 1997"
           }
         ]
       },
@@ -5498,14 +5538,35 @@
         "text": "Come at sunrise on a weekday. The path is emptiest in the first hour after dawn, the light is soft and gold, and you'll have the headline sculptures almost to yourself before the tour groups arrive. Weekday mornings beat weekends by a mile."
       },
       {
+        "type": "h2",
+        "text": "Beating the crowds"
+      },
+      {
+        "type": "p",
+        "text": "This is one of the busiest things on Sydney's spring calendar - the organisers put annual attendance at more than 450,000 across the run - so when you go matters more than anything else. A sunny weekend afternoon is shoulder-to-shoulder on a clifftop path that is narrow in places. A weekday morning is a different exhibition entirely."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Go on a weekday, and go early. The first hour after dawn is the quietest the path ever gets.",
+          "Start at the Tamarama end. Most people pour in from Bondi, so walking against the flow gives you cleaner sightlines and easier photos.",
+          "Skip the car. Street parking around Bondi and Tamarama is scarce and heavily restricted during the exhibition - take the bus, or the train to Bondi Junction and a bus down.",
+          "Allow more time than you think. Two to three hours is realistic once you start stopping."
+        ]
+      },
+      {
         "type": "callout",
         "tone": "warning",
-        "title": "Confirm this year's dates before you plan",
-        "text": "The exhibition runs each spring, usually across late October into early November, but the exact dates, opening hours and any ticketed extras (early-access or twilight tours) change year to year and can shift with the weather. Check the official Sculpture by the Sea site before you set a day."
+        "title": "It's a real clifftop, and it gets busy",
+        "text": "The coastal walk runs along genuine clifftops with unfenced drops in places, and during the exhibition it can be shoulder-to-shoulder. Keep children close, stay behind the barriers, don't climb on the sculptures, and take extra care if you're carrying camera gear. Opening hours and any ticketed extras (early-access or twilight tours) can change, and severe weather occasionally closes sections of the path - check the official site on the day."
       },
       {
         "type": "faq",
         "items": [
+          {
+            "q": "When is Sculpture by the Sea 2026?",
+            "a": "The 2026 Bondi exhibition runs from 16 October to 2 November 2026, along the Bondi to Tamarama coastal walk. It marks 30 years since the first Sculpture by the Sea at Bondi in 1997."
+          },
           {
             "q": "Is Sculpture by the Sea free?",
             "a": "Yes - walking the exhibition is free and open to the public. Donations are warmly welcomed, and there are sometimes optional paid extras such as guided or early-access tours you can book through the official site."
@@ -5525,10 +5586,10 @@
         "text": "The best sculpture here is never just the object - it's the object, the cliff and the sea, all at once."
       }
     ],
-    "wordCount": 694,
+    "wordCount": 990,
     "sources": [
       {
-        "label": "Sculpture by the Sea - official site",
+        "label": "Sculpture by the Sea - Bondi (official)",
         "url": "https://sculpturebythesea.com/bondi/"
       },
       {
@@ -5540,11 +5601,15 @@
         "url": "https://sculpturebythesea.com/bondi/planning-your-trip/getting-there/"
       },
       {
+        "label": "Australian Arts Review - Sculpture by the Sea returns to Bondi, marking 30 years",
+        "url": "https://artsreview.com.au/sculpture-by-the-sea-returns-to-bondi-marking-30-years-since-its-beginning/"
+      },
+      {
         "label": "University of Sydney - Sculpture by the Sea founder reflects",
         "url": "https://www.sydney.edu.au/news-opinion/news/2023/10/23/sculpture-by-the-sea-founder-reflects-on-25-years.html"
       }
     ],
-    "lastReviewed": "2026-08-10",
+    "lastReviewed": "2026-08-20",
     "voice": "first-person"
   },
   "/bondi-blog/2023/9/21/walking-on-sunshine-the-ultimate-guide-to-the-bondi-to-bronte-coastal-walk": {
@@ -16861,8 +16926,8 @@
       {
         "type": "callout",
         "tone": "warning",
-        "title": "The rights have changed - this matters in 2025/26",
-        "text": "Optus Sport shut down in August 2025. The Premier League and the Emirates FA Cup are now shown in Australia by Stan Sport, with a handful of marquee matches also free-to-air on the Nine Network. So when you ask a venue \"are you showing the football?\", you're really asking whether they've got the Stan Sport (or Nine) feed on that night. Always confirm the specific fixture before you head down."
+        "title": "Where the football actually lives now",
+        "text": "Optus Sport shut down in August 2025. The Premier League and the Emirates FA Cup are now shown in Australia by Stan Sport, which holds the exclusive rights through the end of the 2027/28 season, with a handful of marquee matches also free-to-air on the Nine Network. So when you ask a venue \"are you showing the football?\", you are really asking whether they have the Stan Sport (or Nine) feed on that night. Always confirm the specific fixture before you head down."
       },
       {
         "type": "h2",
@@ -16989,7 +17054,7 @@
         "text": "That's my playbook: pick The Royal or Beach Road, confirm the exact game and the local kickoff time, and remember the rights now sit with Stan Sport rather than Optus. Do that and you'll be shoulder-to-shoulder with fellow supporters when the whistle blows - or on the couch with the surf just down the road. Up the football."
       }
     ],
-    "wordCount": 1247,
+    "wordCount": 1257,
     "sources": [
       {
         "label": "The Royal Bondi (Merivale) - venue page",
@@ -17008,7 +17073,7 @@
         "url": "https://www.whistleout.com.au/PayTV/Guides/watch-english-premier-league-australia"
       }
     ],
-    "lastReviewed": "2026-08-11",
+    "lastReviewed": "2026-08-20",
     "voice": "first-person"
   },
   "/bondi-blog/2025/5/6/10-things-you-need-to-know-before-running-the-city2surf": {
@@ -20386,11 +20451,11 @@
       },
       {
         "type": "h3",
-        "text": "Noah's Bondi Beach"
+        "text": "Noah's Bondi Beach - now closed"
       },
       {
         "type": "p",
-        "text": "Noah's is the perennial backpacker favourite perched on the southern headland end of the beach, with a rooftop terrace that catches one of the best sunrises in the suburb. It runs a mix of dorms and private rooms and has that easygoing, been-here-forever feel. Rates and room types are on the Noah's website."
+        "text": "Worth saying plainly, because people still search for it: Noah's, the landmark backpackers on the southern headland end of Campbell Parade, is no longer operating as a hostel. The building went into receivership and the site sold in 2026 for redevelopment. If a listing site still shows it, treat that listing as out of date - book one of the hostels above instead."
       },
       {
         "type": "h3",
@@ -20451,7 +20516,7 @@
           },
           {
             "q": "Which Bondi hostels are best for solo travellers?",
-            "a": "The big social hostels near the beach - like Wake Up! Bondi Beach and Noah's Bondi Beach - run regular events and are the easiest places to meet other travellers. Check each hostel's official site for current rates and room types."
+            "a": "The big social hostels near the beach - like Wake Up! Bondi Beach and Bondi Beach Backpackers - run regular events and are the easiest places to meet other travellers. Check each hostel's official site for current rates and room types."
           },
           {
             "q": "Do I need to book Bondi hostels in advance?",
@@ -20468,15 +20533,11 @@
         "text": "Whichever bed you pick, you're never far from the surf. Sort the accommodation early, keep your booking through trusted channels, and the rest of Bondi takes care of itself."
       }
     ],
-    "wordCount": 880,
+    "wordCount": 893,
     "sources": [
       {
         "label": "Wake Up! Bondi Beach (official)",
         "url": "https://wakeup.com.au/bondibeach/"
-      },
-      {
-        "label": "Noah's Bondi Beach (official)",
-        "url": "https://noahsbondibeach.com/"
       },
       {
         "label": "Bondi Beachouse YHA (YHA)",
@@ -20489,9 +20550,17 @@
       {
         "label": "Transport for NSW",
         "url": "https://transportnsw.info/"
+      },
+      {
+        "label": "Bondi Beach News - Noah's Backpackers changes hands",
+        "url": "https://bondibeachnews.com.au/noahs-backpackers-in-bondi-beach-changes-hands/"
+      },
+      {
+        "label": "The Urban Developer - Noah's Backpackers Bondi sale",
+        "url": "https://www.theurbandeveloper.com/articles/noahs-backpackers-bondi-sale-john-adgemis"
       }
     ],
-    "lastReviewed": "2026-08-08",
+    "lastReviewed": "2026-08-20",
     "voice": "first-person"
   },
   "/bondi-blog/are-airbnb-legal-in-sydney-bondi": {
@@ -23865,7 +23934,11 @@
           },
           {
             "label": "Most recent season",
-            "value": "Season 18, aired mid-2024"
+            "value": "Season 18, aired 10 July - 7 August 2024"
+          },
+          {
+            "label": "New season?",
+            "value": "None aired or announced as at August 2026"
           },
           {
             "label": "Who they work for",
@@ -23879,7 +23952,7 @@
       },
       {
         "type": "p",
-        "text": "Bondi Rescue is a documentary series, not scripted drama - the rescues are real. It first aired on Network 10 on 15 February 2006, is made by Sydney production company Cordell Jigsaw (CJZ), and has run for around 18 seasons, making it one of Australia's longest-running and most-exported factual shows. It was rested in 2025 with no new season that year and, its producers say, is expected to return, subject to arrangements with Waverley Council. Either way, the lifeguards keep patrolling."
+        "text": "Bondi Rescue is a documentary series, not scripted drama - the rescues are real. It first aired on Network 10 on 15 February 2006, is made by Sydney production company Cordell Jigsaw (CJZ), and has run for around 18 seasons, making it one of Australia's longest-running and most-exported factual shows. The most recent season is season 18, which aired from 10 July to 7 August 2024. The show was rested in 2025, and as at August 2026 no new season has aired or been announced - Network 10's own episode listing still ends at season 18. Producers CJZ said in 2025 they expected to be back on the beach, but no return date has been confirmed. Either way, the lifeguards keep patrolling: the job is real work for Waverley Council, not a TV production."
       },
       {
         "type": "p",
@@ -23912,7 +23985,7 @@
           },
           {
             "q": "Is Bondi Rescue still on?",
-            "a": "It was rested in 2025 with no new season that year, but its producers say it's expected to return, subject to arrangements with Waverley Council. The lifeguards continue to patrol regardless."
+            "a": "Not currently. The most recent season is season 18, which aired from 10 July to 7 August 2024. The show was rested in 2025 and, as at August 2026, no new season has aired or been announced - Network 10's episode listing still ends at season 18. Producers CJZ said in 2025 they expected it to return, but no date has been confirmed. The lifeguards themselves patrol Bondi every day regardless of whether cameras are there."
           },
           {
             "q": "Are Bondi lifeguards the same as surf lifesavers?",
@@ -23941,7 +24014,7 @@
         "text": "However you know them - from the tower or the TV - Bondi's lifeguards are a huge part of what makes the beach what it is. For more, see the [Bondi Rescue hub](/bondi-rescue) and the rest of [things to do in Bondi](/things-to-do-in-bondi)."
       }
     ],
-    "wordCount": 1051,
+    "wordCount": 1162,
     "sources": [
       {
         "label": "Wikipedia - Bondi Rescue",
@@ -23968,7 +24041,7 @@
         "url": "https://10.com.au/bondi-rescue"
       },
       {
-        "label": "New Idea - Bondi Rescue rested in 2025, expected to return",
+        "label": "New Idea - Bondi Rescue rested, producers expect a return (July 2025)",
         "url": "https://www.newidea.com.au/entertainment/bondi-rescue-returning/"
       },
       {
@@ -23976,7 +24049,7 @@
         "url": "https://www.scienceofthesurf.com/rip-of-the-month-2009/june-2009-backpackersbondi"
       }
     ],
-    "lastReviewed": "2026-08-14",
+    "lastReviewed": "2026-08-20",
     "voice": "first-person"
   },
   "/bondi-blog/bondi-winter-magic": {
@@ -25029,7 +25102,7 @@
       },
       {
         "type": "p",
-        "text": "The good news is that **additional bus services will operate on the day**. Only two routes serve Bondi Beach normally: the **333** and the **380**. The 333 runs from Circular Quay through the city and Bondi Junction down to North Bondi - roughly 40-45 minutes end to end, checked against the Transport for NSW trip planner in August 2026 - and it runs 24 hours, so a late finish is never a problem. The 380 runs between Watsons Bay and Bondi Junction via the beach. If you are coming by train, the nearest station is **Bondi Junction** on the T4 line; there is no train at the beach and no ferry to Bondi. From the Junction it is a 333 or 380 down the hill, or a 25-30 minute downhill walk if the buses are full - which, on this particular Sunday, they will be."
+        "text": "The good news is that **additional bus services will operate on the day**. The two main routes are the **333** and the **380**. The 333 runs from Circular Quay through the city and Bondi Junction down to North Bondi - roughly 40-45 minutes end to end, checked against the Transport for NSW trip planner in August 2026 - and it has run as a 24-hour service since 2021, so a late finish is never a problem. It is prepaid, so tap on with an Opal card or a contactless card; you cannot pay the driver cash. The 380 runs between Watsons Bay and Bondi Junction via the beach. From Bondi Junction the **381** (the Tamarama loop) and the **382** also come down to the beach. If you are coming by train, the nearest station is **Bondi Junction** on the T4 line; there is no train at the beach and no ferry to Bondi. From the Junction it is a 333 or 380 down the hill, or a 25-30 minute downhill walk if the buses are full - which, on this particular Sunday, they will be."
       },
       {
         "type": "callout",
@@ -25282,7 +25355,7 @@
           },
           {
             "q": "How do I get to Festival of the Winds?",
-            "a": "By bus. The 333 and 380 are the only routes serving Bondi Beach, and the council is running additional services on the day. From the city, the 333 takes about 40-45 minutes from Circular Quay. By train, take the T4 to Bondi Junction then a bus down the hill. There is no train at the beach and no ferry to Bondi."
+            "a": "By bus. The 333 and 380 are the main routes to Bondi Beach - the 381 and 382 also run down from Bondi Junction - and the council is running additional services on the day. From the city, the 333 takes about 40-45 minutes from Circular Quay. By train, take the T4 to Bondi Junction then a bus down the hill. There is no train at the beach and no ferry to Bondi."
           },
           {
             "q": "Is there parking at Festival of the Winds?",
@@ -25307,7 +25380,7 @@
         "text": "So: Sunday 13 September 2026, 11am to 4pm, free, on the bus, with a rug and sunscreen, and not a hope of parking. If you are building a day around it, the [Bondi Markets on a Sunday](/whats-on/bondi-markets-sunday) are two minutes away, my [Bondi with kids guide](/bondi-with-kids) covers the playgrounds and the calmest swimming, and [what's on at Bondi](/whats-on) has the rest of the year. First time at the beach? Start with my [first-timer guide](/start-here)."
       }
     ],
-    "wordCount": 1810,
+    "wordCount": 1862,
     "sources": [
       {
         "label": "Waverley Council - Festival of the Winds 2026 (programme, road closures)",
