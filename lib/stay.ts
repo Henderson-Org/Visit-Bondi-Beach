@@ -4,6 +4,7 @@
  * pages and the hub all behave consistently.
  */
 import { getAffiliateLink, type ProviderId } from '@/lib/affiliate';
+import { getGuide } from '@/data/accommodation-guides';
 import {
   type Property,
   type Tag,
@@ -11,6 +12,19 @@ import {
   TAG_LABEL,
   STAY_TYPE_PLURAL,
 } from '@/data/accommodation';
+
+/**
+ * Whether a property actually has a guide page at /stay/<slug>.
+ *
+ * Derived from the guides map rather than the `hasGuide` flag on the property.
+ * /stay/[slug] builds its params from that same map, so trusting the flag let the
+ * two drift: six properties were flagged `hasGuide: true` without a guide and
+ * linked to pages that were never generated (404). Deriving it here means a card
+ * can only ever link to a page that exists.
+ */
+export function hasGuidePage(p: Property): boolean {
+  return Boolean(p.hasGuide) && getGuide(p.slug) !== undefined;
+}
 
 /** Preferred provider for a property's primary booking CTA (Booking.com first). */
 function primaryProvider(p: Property): ProviderId {
@@ -50,7 +64,7 @@ export interface CardTarget {
  *    verified URL, else a booking search), opened in a new tab and clearly external.
  */
 export function cardTarget(p: Property, campaign: string): CardTarget {
-  if (p.hasGuide) return { href: `/stay/${p.slug}`, external: false };
+  if (hasGuidePage(p)) return { href: `/stay/${p.slug}`, external: false };
   if (p.officialUrl) {
     return { href: p.officialUrl, external: true, destinationLabel: 'official site' };
   }
@@ -100,6 +114,8 @@ export function facetFor(p: Property): Facet {
     tags: p.bestFor,
     price: p.priceBand.length,
     walk: p.walkMinutes ?? 999,
-    hasGuide: Boolean(p.hasGuide),
+    // Derived, not the raw flag - see hasGuidePage. The "guides only" filter must
+    // only surface properties whose guide page actually exists.
+    hasGuide: hasGuidePage(p),
   };
 }

@@ -40,7 +40,7 @@ export function ComparisonTable({ properties }: { properties: Property[] }) {
             return (
               <tr key={p.slug} className="border-b border-sand-200 last:border-0 align-middle">
                 <th scope="row" className="px-4 py-3 text-left font-medium text-ink-900">
-                  {p.hasGuide ? (
+                  {guide ? (
                     <Link href={`/stay/${p.slug}`} className="text-ocean-700 hover:underline">{p.name}</Link>
                   ) : (
                     p.name

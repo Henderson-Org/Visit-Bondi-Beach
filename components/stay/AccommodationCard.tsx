@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { STAY_TYPE_LABEL, type Property } from '@/data/accommodation';
-import { bookingLinkFor } from '@/lib/stay';
+import { bookingLinkFor, hasGuidePage } from '@/lib/stay';
 import { PriceBadge, TagChips } from './primitives';
 import { AffiliateButton } from './AffiliateButton';
 
@@ -16,7 +16,7 @@ import { AffiliateButton } from './AffiliateButton';
  * No scraped photography - a clean text-led design when we hold no rights-cleared image.
  */
 export function AccommodationCard({ property, campaign = 'stay' }: { property: Property; campaign?: string }) {
-  const guideHref = property.hasGuide ? `/stay/${property.slug}` : null;
+  const guideHref = hasGuidePage(property) ? `/stay/${property.slug}` : null;
   const booking = bookingLinkFor(property, `${campaign}-check-availability`);
 
   return (
