@@ -3,7 +3,7 @@
 Only genuinely blocking questions are listed. Work continues on everything else.
 
 ## ✅ Resolved
-- **Repo:** the site now lives in its own dedicated repository, **`njhenderson-dev/Visit-Bondi-Beach`**. `main` is the single source of truth; Vercel auto-redeploys on push. It is fully decoupled from the unrelated `japan-travel` project.
+- **Repo:** the site now lives in its own dedicated repository, **`Henderson-Org/Visit-Bondi-Beach`**. `main` is the single source of truth; Vercel auto-redeploys on push. It is fully decoupled from the unrelated `japan-travel` project.
 - **CMS:** code-based, no Sanity. Content in `content/*.json`, edited via Git.
 - **Google Ads:** AdSense direct (pub-3425864271290233). Preserved; natural fit — no Auto Ads. In-article unit slot `2638734601` wired (production-only).
 - **Analytics:** GA4 `G-KQ2SFKV2EZ` wired (production-only).
@@ -19,7 +19,7 @@ Only genuinely blocking questions are listed. Work continues on everything else.
 ## 1. Which repository should the Bondi site live in? (RESOLVED — kept for history)
 
 **Resolved:** the Bondi site now lives in its own dedicated repository,
-**`njhenderson-dev/Visit-Bondi-Beach`**, with a fresh Vercel project. It is fully
+**`Henderson-Org/Visit-Bondi-Beach`**, with a fresh Vercel project. It is fully
 decoupled from the unrelated `njhenderson-dev/japan-travel` ("Small Steps Japan")
 platform — separate repo, separate deploy, separate domain — so there is no risk of an
 accidental cross-deploy and no entanglement of the two codebases. This audit/planning

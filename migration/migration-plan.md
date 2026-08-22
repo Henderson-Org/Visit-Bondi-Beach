@@ -16,7 +16,7 @@ See `current-site-audit.md` for the detailed inventory. Summary:
 - **Automatable:** URL/slug preservation, content + metadata extraction (via crawler script), sitemap generation.
 - **Manual:** tag-page strategy (223 pages), 16 case-sensitive URLs, 1 non-ASCII URL, 5 junk slugs, volatile-fact re-verification, image licensing/re-hosting.
 - **Top SEO risk:** silent 404s from case/slug drift, and index bloat vs. lost link-equity on tag pages.
-- **Repository:** the site now lives in its own dedicated repo, `njhenderson-dev/Visit-Bondi-Beach`, fully decoupled from the unrelated `japan-travel` project (the early phase that briefly staged this work inside `japan-travel` is closed — see Owner Input #1).
+- **Repository:** the site now lives in its own dedicated repo, `Henderson-Org/Visit-Bondi-Beach`, fully decoupled from the unrelated `japan-travel` project (the early phase that briefly staged this work inside `japan-travel` is closed — see Owner Input #1).
 
 ## 2. Proposed architecture
 

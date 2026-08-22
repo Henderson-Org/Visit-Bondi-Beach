@@ -2,7 +2,7 @@
 
 ## Staging (now)
 
-1. In Vercel, **Add New → Project → Import** `njhenderson-dev/Visit-Bondi-Beach`.
+1. In Vercel, **Add New → Project → Import** `Henderson-Org/Visit-Bondi-Beach`.
 2. Framework preset: **Next.js** (auto-detected). No build settings to change.
 3. **Do not** set `NEXT_PUBLIC_IS_PRODUCTION`. This keeps the deployment `noindex`.
 4. Deploy. You get a `*.vercel.app` URL — a private staging site, safe to share for review.
