@@ -16,7 +16,7 @@ See `current-site-audit.md` for the detailed inventory. Summary:
 - **Automatable:** URL/slug preservation, content + metadata extraction (via crawler script), sitemap generation.
 - **Manual:** tag-page strategy (223 pages), 16 case-sensitive URLs, 1 non-ASCII URL, 5 junk slugs, volatile-fact re-verification, image licensing/re-hosting.
 - **Top SEO risk:** silent 404s from case/slug drift, and index bloat vs. lost link-equity on tag pages.
-- **Repository:** the site now lives in its own dedicated repo, `Henderson-Org/Visit-Bondi-Beach`, fully decoupled from the unrelated `japan-travel` project (the early phase that briefly staged this work inside `japan-travel` is closed — see Owner Input #1).
+- **Repository:** the site lives in its own dedicated repo, `Henderson-Org/Visit-Bondi-Beach`, with its own Vercel project and domain — see Owner Input #1.
 
 ## 2. Proposed architecture
 
@@ -74,7 +74,7 @@ Provide via a secrets manager / owner-performed steps — **never paste password
 | DNS/email broken at cutover | Low | High | Snapshot all records; change only A/CNAME for web; never touch MX/SPF/DKIM/DMARC without approval | Post-cutover mail send/receive test |
 | Volatile facts (prices/hours) stale | High | Medium | Re-verify at migration; `sources`+`lastVerified` required | Content QA before launch |
 | Image rights unclear | Medium | Medium | Owner holds rights; all images re-hosted locally (`public/images/articles/`) — Squarespace CDN dependency removed | Re-host script run; built HTML references only local images |
-| Built into wrong repo (japan-travel) | Resolved | High | Now in its own dedicated repo, `Visit-Bondi-Beach`, decoupled from `japan-travel` | Repo separated + build green |
+| Built into the wrong repo | Resolved | High | Has its own dedicated repo, `Visit-Bondi-Beach`, with its own Vercel project | Repo separated + build green |
 
 ## 6. Estimated workload (by phase)
 

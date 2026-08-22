@@ -4,7 +4,7 @@
 **Source of truth:** `https://www.visitbondibeach.com/sitemap.xml` (snapshot saved as `squarespace-sitemap-snapshot.xml`)
 **Status:** Non-destructive audit — the live Squarespace site is untouched. Nothing has been made live.
 
-> **Status update:** The structural decisions this audit flagged are resolved. The site now lives in its own dedicated repository, **`Henderson-Org/Visit-Bondi-Beach`** (fully decoupled from the unrelated `japan-travel` project), content is code-based (no CMS), and the Squarespace images have been re-hosted locally. See `OWNER-INPUT-REQUIRED.md` for the current open items. The audit below remains valid as the record of the original crawl.
+> **Status update:** The structural decisions this audit flagged are resolved. The site lives in its own dedicated repository, **`Henderson-Org/Visit-Bondi-Beach`**, with its own Vercel project, content is code-based (no CMS), and the Squarespace images have been re-hosted locally. See `OWNER-INPUT-REQUIRED.md` for the current open items. The audit below remains valid as the record of the original crawl.
 
 ---
 
@@ -60,7 +60,7 @@
 
 ## 5. Major technical risks
 
-- **Repository (resolved).** The site now lives in its own dedicated repo, `Henderson-Org/Visit-Bondi-Beach`, decoupled from `japan-travel`. This risk is closed.
+- **Repository (resolved).** The site lives in its own dedicated repo, `Henderson-Org/Visit-Bondi-Beach`, with its own Vercel project and domain. This risk is closed.
 - **Access** to DNS, Squarespace admin, and Search Console is still needed for launch-time steps and backlink-informed decisions (which tags to keep, which junk URLs matter). None of these block the staging build.
 - **Image licensing (resolved).** The owner holds the rights and is retiring Squarespace; all ~273 hero/OG images have been re-hosted locally under `public/images/articles/` (see `content/image-map.json`). The site no longer depends on the Squarespace CDN.
 

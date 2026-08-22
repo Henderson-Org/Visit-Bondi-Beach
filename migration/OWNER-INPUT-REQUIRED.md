@@ -3,7 +3,7 @@
 Only genuinely blocking questions are listed. Work continues on everything else.
 
 ## ✅ Resolved
-- **Repo:** the site now lives in its own dedicated repository, **`Henderson-Org/Visit-Bondi-Beach`**. `main` is the single source of truth; Vercel auto-redeploys on push. It is fully decoupled from the unrelated `japan-travel` project.
+- **Repo:** the site lives in its own dedicated repository, **`Henderson-Org/Visit-Bondi-Beach`**, with its own Vercel project. `main` is the single source of truth; Vercel auto-redeploys on push.
 - **CMS:** code-based, no Sanity. Content in `content/*.json`, edited via Git.
 - **Google Ads:** AdSense direct (pub-3425864271290233). Preserved; natural fit — no Auto Ads. In-article unit slot `2638734601` wired (production-only).
 - **Analytics:** GA4 `G-KQ2SFKV2EZ` wired (production-only).
@@ -18,16 +18,10 @@ Only genuinely blocking questions are listed. Work continues on everything else.
 
 ## 1. Which repository should the Bondi site live in? (RESOLVED — kept for history)
 
-**Resolved:** the Bondi site now lives in its own dedicated repository,
-**`Henderson-Org/Visit-Bondi-Beach`**, with a fresh Vercel project. It is fully
-decoupled from the unrelated `njhenderson-dev/japan-travel` ("Small Steps Japan")
-platform — separate repo, separate deploy, separate domain — so there is no risk of an
-accidental cross-deploy and no entanglement of the two codebases. This audit/planning
+**Resolved:** the Bondi site lives in its own dedicated repository,
+**`Henderson-Org/Visit-Bondi-Beach`**, with its own Vercel project — separate repo,
+separate deploy, separate domain, standing entirely on its own. This audit/planning
 package lives alongside the app in the Bondi repo.
-
-*(Historical context: an early phase of this migration was staged, non-destructively,
-inside the `japan-travel` repo before the dedicated repo existed. That is no longer the
-case — nothing here depends on or touches `japan-travel`.)*
 
 ## 2. Content management: Sanity (headless CMS) or in-repo typed content? (RESOLVED)
 

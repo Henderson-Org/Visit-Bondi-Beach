@@ -5,9 +5,9 @@ React 19, TypeScript, Tailwind), 100% static/SSG + ISR, deployed on Vercel. The 
 voice is **first person, warm, genuinely local** ("I", "we", "my favourite…"), authored as the
 "Visit Bondi Beach Editorial Team". Never corporate, never AI-generic.
 
-> NOTE: this session may also mount a separate `Japan-Travel` repo (a different project,
-> "Small Steps Japan"). That repo has its own CLAUDE.md — do not apply its deploy targets or
-> brand here. This file governs **Visit Bondi Beach only**.
+> NOTE: this file governs **Visit Bondi Beach only**. If a session mounts any other repo
+> alongside this one, that repo has its own CLAUDE.md — never apply its deploy targets,
+> brand or content conventions here, and never link the two sites to each other.
 
 ## Deploy (production = `main`)
 - Production (`www.visitbondibeach.com`) serves from **`main`**; Vercel auto-deploys on every

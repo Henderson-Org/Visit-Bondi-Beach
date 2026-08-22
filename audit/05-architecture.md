@@ -266,7 +266,8 @@ sitemap — correct. Rule: **do not** link them from primary nav or hubs (they'd
 budget); they exist only to pass `follow` equity. Leave as-is.
 
 **G. Never self-link / never cross-brand.** `articleHub()` already returns null when the page IS
-the hub. Keep the Japan-Travel repo entirely separate (different CLAUDE.md/brand).
+the hub. Internal linking stays inside `visitbondibeach.com` — never link out to another site
+the owner happens to run; an unrelated brand in the link graph dilutes topical authority.
 
 ---
 
