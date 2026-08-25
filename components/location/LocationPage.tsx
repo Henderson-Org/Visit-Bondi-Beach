@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { EditorialHero } from '@/components/EditorialHero';
 import { QuickFacts, Faq } from '@/components/blocks';
 import { LocationMap } from '@/components/location/LocationMap';
+import { BondiToday } from '@/components/BondiToday';
 import { breadcrumbJsonLd, faqJsonLd, locationPlaceJsonLd } from '@/lib/structured-data';
 import { CATEGORY_LABEL, type LocationPageData } from '@/data/locations';
 
@@ -51,6 +52,16 @@ export function LocationPage({ location: loc }: { location: LocationPageData }) 
           { label: 'FAQ', href: '#faq' },
         ]}
       />
+
+      {/* Live conditions, above the evergreen facts: someone opening this page today wants
+          to know what today is like before they read what the place is generally like.
+          Opt-in per location (see LocationPageData.liveConditions) - the readings are
+          measured at Bondi and must not be implied for the other beaches. */}
+      {loc.liveConditions && (
+        <section className="mx-auto max-w-3xl px-4 pt-10">
+          <BondiToday />
+        </section>
+      )}
 
       {/* Quick facts - answer-first, scannable, AI-extractable */}
       <section id="quick-facts" className="mx-auto max-w-3xl px-4 pt-10">

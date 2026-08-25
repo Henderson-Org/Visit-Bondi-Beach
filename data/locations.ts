@@ -85,6 +85,13 @@ export interface LocationPageData {
   relatedGuides: RelatedGuideLink[];
   sources: { label: string; url: string }[];
   lastReviewed: string; // YYYY-MM-DD
+  /**
+   * Render the live "Bondi right now" dashboard on this page. Deliberately opt-in and
+   * currently only Bondi Beach itself: the conditions we hold are measured at Bondi, so
+   * showing them on Bronte or Tamarama would imply readings we do not have for those
+   * beaches, and repeating the same module across ten location pages would be noise.
+   */
+  liveConditions?: boolean;
   /** Anything still needing editorial/local verification (not rendered on the page). */
   editorialNotes?: string[];
 }
@@ -107,6 +114,8 @@ const BONDI_BEACH: LocationPageData = {
   slug: 'bondi-beach',
   path: '/bondi-beach',
   name: 'Bondi Beach',
+  // The flagship page: the one URL a visitor should be able to open before a trip.
+  liveConditions: true,
   shortDescription:
     'Bondi Beach is a one-kilometre crescent of sand in Sydney’s Eastern Suburbs - patrolled year-round, backed by Campbell Parade’s cafés, and home to the Icebergs ocean pool and the start of the Bondi to Coogee coastal walk.',
   category: 'beach',
@@ -181,12 +190,23 @@ const BONDI_BEACH: LocationPageData = {
     { q: 'Is Bondi Beach accessible for wheelchairs?', a: 'Yes. Waverley Council provides beach wheelchairs (adult and child) in lockers on the promenade at the northern end, with accessible toilets, an outdoor shower and a beach-access ramp nearby.' },
   ],
   relatedGuides: [
+    // This is the master page: if someone opens only one URL before visiting Bondi, every
+    // major intent has to be one click away from here. The set below covers the full
+    // journey - what to do, where to swim, where to eat, where to stay, how to arrive,
+    // what's on, and how to plan the day.
+    { title: 'Start here: first-time visitor guide', href: '/start-here' },
     { title: 'Things to do in Bondi', href: '/things-to-do-in-bondi' },
     { title: 'Where to swim at Bondi Beach', href: '/where-to-swim-at-bondi-beach' },
     { title: 'The Bondi to Coogee coastal walk', href: '/bondi-coastal-walk' },
+    { title: 'Surfing at Bondi', href: '/bondi-surfing' },
     { title: 'Bondi with kids', href: '/bondi-with-kids' },
     { title: 'Getting to Bondi', href: '/getting-to-bondi' },
+    { title: 'Parking at Bondi Beach', href: '/bondi-parking' },
     { title: 'Where to eat & drink in Bondi', href: '/bondi-eat-and-drink' },
+    { title: 'Where to stay in Bondi', href: '/stay' },
+    { title: "What's on in Bondi", href: '/whats-on' },
+    { title: 'Bondi weather & when to visit', href: '/bondi-weather' },
+    { title: 'Plan your Bondi day', href: '/plan' },
   ],
   sources: [
     { label: 'Waverley Council - Beach safety & lifeguards', url: 'https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/our_lifeguards' },
