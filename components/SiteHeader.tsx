@@ -19,7 +19,9 @@ export function SiteHeader() {
           <ul className="flex items-center gap-5 text-sm">
             {NAV.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="text-ink-700 hover:text-ocean-700">
+                {/* Padding on the LINK, not the list: the padding is what makes the tap
+                    target, and on the <ul> it belongs to the row instead of the control. */}
+                <Link href={item.href} className="inline-flex items-center py-2 text-ink-700 hover:text-ocean-700">
                   {item.label}
                 </Link>
               </li>
@@ -28,11 +30,18 @@ export function SiteHeader() {
         </nav>
       </div>
       {/* Mobile nav: simple, crawlable, no JS dependency */}
+      {/* Mobile nav: simple, crawlable, no JS dependency. The links carry their own
+          vertical padding so each tap target is ~40px tall — with the padding on the <ul>
+          they measured 16px, under the 24px WCAG 2.2 minimum, on the primary navigation of
+          the device most likely to be used standing on the beach. */}
       <nav aria-label="Primary mobile" className="md:hidden border-t border-sand-200 overflow-x-auto">
-        <ul className="flex gap-4 px-4 py-2 text-sm whitespace-nowrap">
+        <ul className="flex gap-4 px-4 text-sm whitespace-nowrap">
           {NAV.map((item) => (
             <li key={item.href}>
-              <Link href={item.href} className="text-ink-700 hover:text-ocean-700">
+              <Link
+                href={item.href}
+                className="inline-flex min-h-[44px] items-center text-ink-700 hover:text-ocean-700"
+              >
                 {item.label}
               </Link>
             </li>

@@ -33,7 +33,7 @@ export function RestaurantCard({ venue }: { venue: Restaurant }) {
 
       <h3 className="mt-1.5 font-display text-lg leading-snug text-ink-900">
         {href ? (
-          <Link href={href} className="hover:text-ocean-700">{venue.name}</Link>
+          <Link href={href} className="inline-block min-h-[28px] hover:text-ocean-700">{venue.name}</Link>
         ) : (
           venue.name
         )}
@@ -54,7 +54,10 @@ export function RestaurantCard({ venue }: { venue: Restaurant }) {
 
       <div className="mt-auto flex items-center justify-between gap-3 pt-4 text-sm">
         {href ? (
-          <Link href={href} className="font-medium text-ocean-700 hover:underline">
+          <Link
+            href={href}
+            className="-my-1.5 inline-flex min-h-[36px] items-center font-medium text-ocean-700 hover:underline"
+          >
             Read more →
           </Link>
         ) : out ? (
@@ -62,7 +65,7 @@ export function RestaurantCard({ venue }: { venue: Restaurant }) {
             href={out.href}
             target="_blank"
             rel="noopener nofollow"
-            className="font-medium text-ocean-700 hover:underline"
+            className="-my-1.5 inline-flex min-h-[36px] items-center font-medium text-ocean-700 hover:underline"
           >
             {out.label} ↗
           </a>

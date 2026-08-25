@@ -1,6 +1,6 @@
 'use client';
 
-import { Children, useMemo, useState } from 'react';
+import { Children, useEffect, useMemo, useState } from 'react';
 import type { ReactNode } from 'react';
 import type { VenueFacet } from '@/lib/restaurantGuide';
 import {
@@ -12,6 +12,8 @@ import {
   VENUE_TYPE_LABEL,
 } from '@/lib/restaurantGuide';
 import type { VenueType, Precinct, Meal, Suitability, Attribute, Dietary } from '@/data/restaurants';
+import { track } from '@/lib/analytics';
+import { EVENTS, SEARCH_DEBOUNCE_MS, trackFilter, trackSearch } from '@/lib/analytics/events';
 
 /**
  * Client-side browser for the restaurant directory. Every card is server-rendered and
@@ -80,7 +82,34 @@ export function RestaurantBrowser({
   const clearAll = () => {
     setQ(''); setType(null); setPrecinct(null); setMeal(null); setCuisine(null);
     setSuit(null); setAttr(null); setDiet(null); setPrice(null);
+    trackFilter('all', null, facets.length);
   };
+
+  /**
+   * Toggle a filter AND record it in one place, so a filter row cannot be added later
+   * without its analytics. Declared after `order` so the result count sent is the one the
+   * visitor was looking at when they clicked, not the one their click produces.
+   */
+  const applyFilter = <T,>(facet: string, set: (v: T | null) => void, current: T | null, value: T) => {
+    const next = current === value ? null : value;
+    set(next);
+    trackFilter(facet, next === null ? null : String(next), order.length);
+  };
+
+  // The search box fires one event once typing settles - not one per keystroke, which
+  // would be both noise and a fair description of nobody's intent.
+  useEffect(() => {
+    const q2 = q.trim();
+    if (q2.length < 2) return;
+    const t = setTimeout(
+      () => trackSearch(EVENTS.DIRECTORY_SEARCH, q2, order.length, 'eat-drink-directory'),
+      SEARCH_DEBOUNCE_MS,
+    );
+    return () => clearTimeout(t);
+    // `order.length` is read inside the timeout; depending on it here would restart the
+    // timer on every result change, which is the same keystroke noise by another route.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [q]);
 
   const chip = (active: boolean) =>
     `rounded-full border px-3.5 py-1.5 text-sm transition ${
@@ -107,7 +136,7 @@ export function RestaurantBrowser({
         <div className="mt-3 space-y-1">
           <FilterRow label="Type">
             {options.types.map((t) => (
-              <button key={t} type="button" className={chip(type === t)} onClick={() => setType(type === t ? null : t)}>
+              <button key={t} type="button" className={chip(type === t)} onClick={() => applyFilter('type', setType, type, t)}>
                 {VENUE_TYPE_LABEL[t]}
               </button>
             ))}
@@ -115,7 +144,7 @@ export function RestaurantBrowser({
 
           <FilterRow label="Area">
             {options.precincts.map((p) => (
-              <button key={p} type="button" className={chip(precinct === p)} onClick={() => setPrecinct(precinct === p ? null : p)}>
+              <button key={p} type="button" className={chip(precinct === p)} onClick={() => applyFilter('precinct', setPrecinct, precinct, p)}>
                 {PRECINCT_LABEL[p]}
               </button>
             ))}
@@ -123,7 +152,7 @@ export function RestaurantBrowser({
 
           <FilterRow label="Meal">
             {options.meals.map((m) => (
-              <button key={m} type="button" className={chip(meal === m)} onClick={() => setMeal(meal === m ? null : m)}>
+              <button key={m} type="button" className={chip(meal === m)} onClick={() => applyFilter('meal', setMeal, meal, m)}>
                 {MEAL_LABEL[m]}
               </button>
             ))}
@@ -131,7 +160,7 @@ export function RestaurantBrowser({
 
           <FilterRow label="Price">
             {[1, 2, 3, 4].map((p) => (
-              <button key={p} type="button" className={chip(price === p)} onClick={() => setPrice(price === p ? null : p)}>
+              <button key={p} type="button" className={chip(price === p)} onClick={() => applyFilter('price', setPrice, price, p)}>
                 {'$'.repeat(p)}
               </button>
             ))}
@@ -142,7 +171,7 @@ export function RestaurantBrowser({
               {options.suitability.length > 0 && (
                 <FilterRow label="Good for">
                   {options.suitability.map((s) => (
-                    <button key={s} type="button" className={chip(suit === s)} onClick={() => setSuit(suit === s ? null : s)}>
+                    <button key={s} type="button" className={chip(suit === s)} onClick={() => applyFilter('suitability', setSuit, suit, s)}>
                       {SUITABILITY_LABEL[s]}
                     </button>
                   ))}
@@ -151,7 +180,7 @@ export function RestaurantBrowser({
               {options.attributes.length > 0 && (
                 <FilterRow label="Features">
                   {options.attributes.map((a) => (
-                    <button key={a} type="button" className={chip(attr === a)} onClick={() => setAttr(attr === a ? null : a)}>
+                    <button key={a} type="button" className={chip(attr === a)} onClick={() => applyFilter('attribute', setAttr, attr, a)}>
                       {ATTRIBUTE_LABEL[a]}
                     </button>
                   ))}
@@ -160,7 +189,7 @@ export function RestaurantBrowser({
               {options.dietary.length > 0 && (
                 <FilterRow label="Dietary">
                   {options.dietary.map((d) => (
-                    <button key={d} type="button" className={chip(diet === d)} onClick={() => setDiet(diet === d ? null : d)}>
+                    <button key={d} type="button" className={chip(diet === d)} onClick={() => applyFilter('dietary', setDiet, diet, d)}>
                       {DIETARY_LABEL[d]}
                     </button>
                   ))}
@@ -169,7 +198,7 @@ export function RestaurantBrowser({
               {options.cuisines.length > 0 && (
                 <FilterRow label="Cuisine">
                   {options.cuisines.map((c) => (
-                    <button key={c} type="button" className={chip(cuisine === c)} onClick={() => setCuisine(cuisine === c ? null : c)}>
+                    <button key={c} type="button" className={chip(cuisine === c)} onClick={() => applyFilter('cuisine', setCuisine, cuisine, c)}>
                       {c}
                     </button>
                   ))}

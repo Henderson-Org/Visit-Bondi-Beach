@@ -1,6 +1,8 @@
 'use client';
 
 import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
+import { track } from '@/lib/analytics';
+import { EVENTS, SEARCH_DEBOUNCE_MS, trackSearch } from '@/lib/analytics/events';
 import { useRouter } from 'next/navigation';
 
 type Entry = { t: string; p: string; c: string; k: string };
@@ -78,10 +80,23 @@ export function SiteSearch() {
   }, [ensureIndex]);
 
   const go = (p: string) => {
+    track(EVENTS.SITE_SEARCH_RESULT_CLICK, { query: q.trim().slice(0, 64), path: p, result_count: results.length });
     setOpen(false);
     setQ('');
     router.push(p);
   };
+
+  // One event once typing settles. A zero-result search is the most useful thing this
+  // box can tell us - it names content the site does not have.
+  useEffect(() => {
+    const q2 = q.trim();
+    if (q2.length < 2) return;
+    const t = setTimeout(() => trackSearch(EVENTS.SITE_SEARCH, q2, results.length, 'site-header'), SEARCH_DEBOUNCE_MS);
+    return () => clearTimeout(t);
+    // Intentionally keyed on the query only - depending on results.length would restart
+    // the timer as results settle, re-introducing per-keystroke noise.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [q]);
 
   const onKeyDown = (ev: React.KeyboardEvent) => {
     if (ev.key === 'ArrowDown') { ev.preventDefault(); setActive((a) => Math.min(a + 1, results.length - 1)); }
@@ -108,7 +123,9 @@ export function SiteSearch() {
           aria-controls="site-search-list"
           aria-label="Search Visit Bondi Beach"
           placeholder="Search Bondi…"
-          className="w-full bg-transparent text-sm text-ink-900 placeholder:text-ink-400 focus:outline-none"
+          // min-h keeps the input itself a legitimate tap target; the padded wrapper around it
+          // is only decorative, so its height did not count towards the control's.
+          className="w-full min-h-[28px] bg-transparent text-sm text-ink-900 placeholder:text-ink-400 focus:outline-none"
           onFocus={() => { ensureIndex(); setOpen(true); }}
           onChange={(e) => { setQ(e.target.value); setOpen(true); }}
           onKeyDown={onKeyDown}

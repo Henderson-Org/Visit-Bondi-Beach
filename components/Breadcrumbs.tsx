@@ -13,7 +13,7 @@ export function Breadcrumbs({ items }: { items: { name: string; path: string }[]
               {last ? (
                 <span aria-current="page" className="text-ink-700 line-clamp-1">{it.name}</span>
               ) : (
-                <Link href={it.path} className="hover:text-ocean-700">{it.name}</Link>
+                <Link href={it.path} className="inline-flex min-h-[24px] items-center hover:text-ocean-700">{it.name}</Link>
               )}
               {!last && <span aria-hidden="true">/</span>}
             </li>

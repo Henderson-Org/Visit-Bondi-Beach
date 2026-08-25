@@ -132,6 +132,11 @@ export function facetFor(r: Restaurant): VenueFacet {
     cuisines: r.cuisines.map((c) => c.toLowerCase()),
     score: r.score ?? 0,
     hasPage: hasVenuePage(r),
+    // The searchable haystack. Inlining the full `summary` duplicates text that is also in
+    // the server-rendered card beside it, so this looks like an easy byte saving. It is not:
+    // truncating it was measured at ~1KB brotli on the whole directory, because the
+    // compressor already deduplicates the second copy against the first. The cost would have
+    // been real (a word deep in a summary stops being findable), so the full text stays.
     text: `${r.name} ${r.formerName ?? ''} ${r.cuisines.join(' ')} ${PRECINCT_LABEL[r.precinct]} ${r.street ?? ''} ${VENUE_TYPE_LABEL[r.type]} ${r.summary} ${r.bestFor ?? ''}`.toLowerCase(),
   };
 }

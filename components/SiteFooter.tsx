@@ -19,7 +19,10 @@ export function SiteFooter() {
             <ul className="space-y-1">
               {col.items.map((i) => (
                 <li key={i.href}>
-                  <Link href={i.href} className="text-ink-500 hover:text-ocean-700">
+                  <Link
+                    href={i.href}
+                    className="inline-flex min-h-[28px] items-center text-ink-500 hover:text-ocean-700"
+                  >
                     {i.label}
                   </Link>
                 </li>

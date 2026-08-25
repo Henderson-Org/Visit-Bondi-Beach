@@ -303,3 +303,63 @@ presented as a trend.
   executes JavaScript is not distinguishable without fingerprinting, which is deliberately
   not done.
 - Login rate limiting is per serverless instance, not global.
+
+---
+
+# GA4 event vocabulary
+
+The first-party analytics above answers *where visitors went*. GA4 events answer *what
+they did there*. The canonical list lives in `lib/analytics/events.ts` — add an event
+there first, so a name is never invented twice with two spellings.
+
+## Rules
+
+- **Fire on intent, never on render.** An event that fires when a component mounts
+  measures our layout, not the visitor, and inflates every rate derived from it.
+- **Debounce typed input.** Search boxes emit one event once typing settles
+  (`SEARCH_DEBOUNCE_MS`, 800 ms), not one per keystroke.
+- **One event per action.** Reuse an existing event rather than adding a near-synonym.
+  Duplicate events are worse than no event because they silently double-count.
+- **Nothing identifying.** Query text is truncated to 64 characters and sent only for the
+  site's own search boxes.
+- Events are no-ops off production (`window.gtag` is absent), so they are safe to call
+  anywhere.
+
+## Events
+
+| Event | Fires when | Parameters |
+| --- | --- | --- |
+| `directory_search` | Eat & drink directory search box settles (≥2 chars) | `query`, `result_count`, `placement` |
+| `directory_filter` | A directory filter is applied or cleared | `facet`, `value` (`(cleared)` when unset), `applied`, `result_count` |
+| `directory_sort` | Directory sort order changes | `sort`, `result_count` |
+| `site_search` | Header search settles (≥2 chars) | `query`, `result_count`, `placement` |
+| `site_search_result_click` | A header search result is opened | `query`, `path`, `result_count` |
+| `weather_summary_expanded` | Conditions "more detail" is opened | — |
+| `surf_details_opened` | As above, on a page that has surf data | — |
+| `beach_safety_clicked` | The official beach-safety link is followed | — |
+| `planner_started` | The day planner is opened with preset interests | `placement`, `interests` |
+| `itinerary_generated` | An itinerary is produced | see `PlannerApp` |
+| `itinerary_swap` | A visitor swaps an itinerary item | `kind`, `from` |
+| `itinerary_use_alternative` | A visitor accepts a suggested alternative | `from`, `to` |
+| `planner_cta_click` | A planner promo is clicked | `placement`, `variant`, `interests` |
+| `klook_activity_shown` | A Klook activity is rendered in an itinerary | `activity`, `activity_type` |
+| `affiliate_click` | Any affiliate outbound link is followed | `provider`, `item`/`activity`, `campaign`/`cta`, `placement` |
+
+`result_count` is the count the visitor was looking at when they acted — a run of
+`directory_search` or `site_search` events with `result_count: 0` is the clearest signal
+of content the site is missing.
+
+## Deliberately not tracked
+
+**Venue card clicks.** `RestaurantCard` is a server component rendered 200+ times on the
+directory. An `onClick` would make every card a client component and ship the JavaScript
+to match, on the page most likely to be opened on a phone standing in Bondi. Venue page
+views are already recorded by the first-party collector, and the referrer identifies the
+surface that sent them — so the metric exists without the cost.
+
+**The Bondi Today dashboard.** It is a pure server component with no client JavaScript at
+all. Instrumenting its outbound links would mean hydrating it. Its engagement is visible
+as page views on the pages it links to.
+
+Both are judgement calls in favour of mobile performance. If either metric later justifies
+the bytes, the events go in `lib/analytics/events.ts` first.
