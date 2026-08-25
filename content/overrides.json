@@ -1,633 +1,639 @@
 {
-  "_comment": "Authored SEO overrides merged over crawled data by build-content.mjs. Prioritised from Search Console (high impressions, low CTR). Titles omit the brand (template adds it). Descriptions summarise real page intent - no invented prices/hours.",
-  "/bondi-blog/2025/10/13/are-there-snakes-in-bondi": {
-    "metaDescription": "Are there snakes in Bondi? Only one - Blake, the Blair Street Snake, a free community painted-rock art trail. Here's where to find him and how to add your own rock."
-  },
-  "/bondi-blog/where-to-go-afterparty-city-to-surf": {
-    "title": "The Ultimate City2Surf Afterparty Guide",
-    "h1": "The Ultimate City2Surf Afterparty Guide"
-  },
-  "/bondi-blog/where-to-find-carpark-bondi-beach": {
-    "metaDescription": "Where to park at Bondi Beach - the free streets locals use, the closest paid stations, what parking roughly costs, and the best spots to try on busy days."
-  },
-  "/bondi-blog/bondi-rescue-who-are-the-lifeguards": {
-    "title": "Bondi Rescue Lifeguards: Who Are They? Bios, Facts & the Show",
-    "metaDescription": "Meet the Bondi Rescue lifeguards - bios of Hoppo, Harries, Reidy, Maxi and Deano, facts about the show, key moments, and how to see the real Waverley Council team at Bondi.",
-    "h1": "Bondi Rescue Lifeguards: Who Are They?"
-  },
-  "/bondi-blog/meet-bondi-lifeguards": {
-    "title": "Meet the Bondi Beach Lifeguards",
-    "metaDescription": "The Bondi lifeguards behind Bondi Rescue - names, faces and what they actually do each day patrolling Australia's most famous beach.",
-    "indexable": false
-  },
-  "/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue": {
-    "title": "The 20 Most Dramatic Bondi Rescue Moments",
-    "metaDescription": "The most dramatic rescues and moments from Bondi Rescue, ranked - the shark alarms, mass rescues and close calls that made the show famous."
-  },
-  "/bondi-blog/2025/4/29/behind-the-scenes-at-bondi-rescue-20-things-you-may-not-know-about-the-show": {
-    "title": "Bondi Rescue: 20 Behind-the-Scenes Facts",
-    "metaDescription": "20 things you didn't know about Bondi Rescue - how it's filmed, whether it's staged, and what really happens behind the scenes at Bondi Beach.",
-    "indexable": false
-  },
-  "/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue": {
-    "title": "20 Obscure Facts About Bondi Rescue",
-    "metaDescription": "20 obscure facts about Bondi Rescue most fans don't know - from the lifeguards' nicknames to the filming secrets behind Australia's iconic beach show."
-  },
-  "/bondi-blog/2025/7/19/insider-guide-to-sundays-bondi-opening-hours-top-flavours-queue-hacks": {
-    "title": "Sundays Bondi: What to Order, Hours & Queue Tips",
-    "metaDescription": "A local's guide to Sundays in Bondi - top menu picks, opening hours and how to beat the queue at one of Bondi Beach's busiest spots."
-  },
-  "/bondi-blog/ultimate-guide-city-to-surf": {
-    "title": "City2Surf: The Ultimate Runner's Guide",
-    "metaDescription": "Your complete guide to Sydney's City2Surf - the 14km route, Heartbreak Hill, start times, training tips and finishing strong at Bondi Beach."
-  },
-  "/bondi-blog/2024/4/1/city2surf-course-map": {
-    "title": "City2Surf Course Map & Route Guide",
-    "metaDescription": "The City2Surf course map explained - the full 14km route from the CBD to Bondi, elevation, Heartbreak Hill and the best spots to watch or push hard."
-  },
-  "/bondi-blog/how-to-pronounce-bondi-beach": {
-    "title": "How to Pronounce Bondi Beach",
-    "metaDescription": "How do you say Bondi? It's 'BON-dye', not 'BON-dee'. Here's how to pronounce Bondi Beach like a local - and what the name actually means."
-  },
-  "/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy": {
-    "title": "Free Parking at Bondi Beach: Local Tips",
-    "metaDescription": "Where to actually find free parking near Bondi Beach - the streets locals use, the time limits to watch, and when to arrive to get a spot."
-  },
-  "/where-to-swim-at-bondi-beach": {
-    "title": "Where to Swim at Bondi Beach",
-    "h1": "Where to swim at Bondi Beach",
-    "metaDescription": "The best places to swim at Bondi Beach - between the flags, the Icebergs ocean pool and the North Bondi kids' pool. A local guide to swimming safely."
-  },
-  "/bondi-icebergs": {
-    "title": "Bondi Icebergs: Ocean Pool Visitor Guide",
-    "metaDescription": "An insider's guide to Bondi Icebergs, the famous ocean pool at Bondi Beach - who can swim, what to expect, the restaurant, and how to visit."
-  },
-  "/bondi-blog/why-is-bondi-beach-famous": {
-    "title": "Why Is Bondi Beach So Famous?",
-    "metaDescription": "Why is Bondi Beach famous? From Bondi Rescue and the Icebergs to the surf, coastal walk and its history - here's what makes Bondi world-famous."
-  },
-  "/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide": {
-    "title": "Bondi Beach Sea Temperatures Month by Month",
-    "metaDescription": "Average sea temperatures at Bondi Beach, month by month - when the water's warmest, when you'll want a wetsuit, and the best months to swim."
-  },
-  "/bondi-blog/city2surf-results": {
-    "title": "City2Surf Results: 2026 Results & Every Year Since 2000",
-    "metaDescription": "City2Surf results year by year, 2000 to 2024 - winning times, records and how the field has changed at Sydney's iconic 14km run to Bondi.",
-    "h1": "City2Surf Results: 2026 & Every Year Since 2000"
-  },
-  "/bondi-blog/2023/11/16/insiders-guide-to-the-bronte-ocean-pool": {
-    "title": "Bronte Ocean Pool: An Insider's Guide",
-    "metaDescription": "A local's guide to the Bronte ocean pool - the free seawater baths near Bondi. When to go, what to expect, and how it compares to Bondi Icebergs."
-  },
-  "/bondi-blog/2025/6/18/how-to-train-for-heartbreak-hill-without-being-a-fitness-freak": {
-    "title": "How to Train for Heartbreak Hill (City2Surf)",
-    "metaDescription": "How to train for City2Surf's Heartbreak Hill without being a fitness fanatic - a realistic plan to conquer Sydney's toughest race climb."
-  },
-  "/bondi-blog/2025/6/4/tamarama-coogee-clovelly-beach-parking-ultimate-guide-to-free-paid-spots": {
-    "title": "Tamarama, Coogee & Clovelly Parking Guide",
-    "metaDescription": "Where to park at Tamarama, Coogee and Clovelly - free and paid spots, time limits and local tips for the Eastern Beaches south of Bondi."
-  },
-  "/bondi-blog/the-ultimate-guide-to-bondi-beach-nightlife": {
-    "title": "Bondi Beach Nightlife: The Local Guide",
-    "metaDescription": "Where to go out in Bondi after dark - the best bars, live music and late-night spots, from beachfront drinks to hidden local favourites."
-  },
-  "/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more": {
-    "title": "Bondi Icebergs FAQ: 20 Questions Answered",
-    "metaDescription": "20 essential Bondi Icebergs questions answered - who can swim, opening times, entry, membership and the restaurant. Everything before you visit."
-  },
-  "/bondi-blog/2024/9/12/why-bondi-beach-is-so-famous-history-fame-and-culture": {
-    "title": "Why Bondi Beach Is So Famous: History & Culture",
-    "metaDescription": "The history and culture behind Bondi's fame - from surf lifesaving and the Icebergs to Bondi Rescue and its place in Australian identity."
-  },
-  "/bondi-blog/2025/4/27/how-to-score-a-booking-at-tottis-bondi-without-the-stress": {
-    "title": "How to Get a Booking at Totti's Bondi",
-    "metaDescription": "How to actually score a table at Totti's Bondi - when to book, how the waitlist works and local tricks for one of Bondi's hardest reservations."
-  },
-  "/bondi-blog/2025/1/2/how-far-is-bondi-beach-from-key-sydney-locations": {
-    "title": "How Far Is Bondi Beach From Key Sydney Spots?",
-    "metaDescription": "How far is Bondi Beach from the CBD, the airport, Manly and more - distances and realistic travel times by car and public transport."
-  },
-  "/bondi-blog/Bondi-beach-temperature": {
-    "title": "Bondi Beach Temperatures: What to Expect",
-    "metaDescription": "Average temperatures at Bondi Beach through the year, air and sea - so you know what to pack and the best months to swim or walk the coast."
-  },
-  "/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days": {
-    "title": "Bondi Beach Parking: Every Car Park, Prices & Free Options",
-    "metaDescription": "Every Bondi Beach car park and what it costs, plus the local free-parking secret north of Blair Street - the beachfront car park, metered streets, time limits and smarter alternatives.",
-    "h1": "Bondi Beach Parking: Every Car Park, Prices & Free Options"
-  },
-  "/bondi-blog/2025/1/5/catch-the-waves-live-bondi-beach-surf-cam": {
-    "title": "Bondi Beach Surf Cam (Live)",
-    "metaDescription": "Check Bondi Beach conditions live with the surf cam - see the swell, the crowds and the weather before you head down for a swim or surf."
-  },
-  "/bondi-blog/2023/11/7/the-safest-place-to-swim-at-bondi-beach": {
-    "title": "The Safest Place to Swim at Bondi Beach",
-    "metaDescription": "Where it's safest to swim at Bondi Beach - why the southern end has rips, where the flags go, and the calmest spots for families and kids."
-  },
-  "/bondi-blog/2023/9/21/sculptures-by-the-sea-at-bondi-a-comprehensive-guide-to-art-by-the-ocean": {
-    "title": "Sculpture by the Sea: Bondi to Tamarama Guide",
-    "metaDescription": "A practical guide to Sculpture by the Sea along the Bondi to Tamarama coastal walk - when it's on, how to get there and how to beat the crowds."
-  },
-  "/bondi-blog/getting-from-sydney-airport-to-bondi-beach": {
-    "title": "Sydney Airport to Bondi Beach: Every Option Compared",
-    "metaDescription": "Every way from Sydney Airport to Bondi Beach compared - train, taxi, rideshare, pre-booked transfer and driving - with rough times, costs and which option suits you.",
-    "h1": "Sydney Airport to Bondi Beach: Every Option Compared"
-  },
-  "/bondi-blog/2024/1/7/sydneys-best-playground-in-the-heart-of-bondi": {
-    "title": "Waverley Park Playground, Bondi: Family Guide",
-    "metaDescription": "Waverley Park playground in the heart of Bondi - one of Sydney's best. What's there for kids, shade, toilets and why families love it."
-  },
-  "/bondi-blog/is-bondi-icebergs-pool-heated": {
-    "title": "Is the Bondi Icebergs Pool Heated?",
-    "metaDescription": "Is Bondi Icebergs pool heated? The short answer, and what the water's really like across the seasons - plus how cold the winter swims get."
-  },
-  "/bondi-blog/2024/6/9/the-best-time-to-visit-bondi-beach-a-seasonal-guide": {
-    "title": "Bondi Beach Season by Season",
-    "metaDescription": "Bondi Beach season by season - summer crowds, autumn's sweet spot, winter walks and spring swells. What to expect whenever you visit."
-  },
-  "/bondi-blog/2023/12/13/christmas-day-at-bondi-beach": {
-    "title": "Christmas Day at Bondi Beach: What to Know",
-    "metaDescription": "What Christmas Day at Bondi Beach is really like - the crowds, the rules, what's open and how to enjoy an Aussie beach Christmas like a local."
-  },
-  "/bondi-blog/2023/10/18/bondi-beach-etiquette-guide": {
-    "title": "Bondi Beach Etiquette: The Local Rules",
-    "metaDescription": "The unwritten rules of Bondi Beach - swimming between the flags, sharing the sand, surf etiquette and how not to stand out as a tourist."
-  },
-  "/bondi-blog/2025/1/5/are-there-thieves-or-pickpockets-at-bondi-beach": {
-    "title": "Theft at Bondi Beach: Keeping Your Stuff Safe",
-    "metaDescription": "Are there thieves at Bondi Beach? How common beach theft is, and simple local tips to keep your phone, wallet and valuables safe while you swim."
-  },
-  "/bondi-blog/2024/9/18/guide-to-metal-detecting-at-bondi-beach": {
-    "title": "Metal Detecting at Bondi Beach: A Guide",
-    "metaDescription": "Metal detecting at Bondi Beach - the rules, the best times to search, what people actually find, and how to do it without annoying beachgoers."
-  },
-  "/bondi-blog/2023/9/28/bondi-beach-and-the-shark-question-unraveling-the-mystery": {
-    "title": "Are There Sharks at Bondi Beach?",
-    "metaDescription": "Are there sharks at Bondi Beach? The real risk, the shark net, how often they're seen, and why swimming between the flags keeps you safe."
-  },
-  "/bondi-blog/2023/8/29/mackenzies-bay-is-back-the-ultimate-sydney-hidden-gem": {
-    "title": "Mackenzies Bay: Sydney's Vanishing Beach",
-    "metaDescription": "Mackenzies Bay - the hidden beach between Bondi and Tamarama that only appears some years. What it is, why it comes and goes, and how to find it."
-  },
-  "/bondi-blog/2023/11/20/an-insiders-guide-to-finding-a-car-park-at-bronte-beach": {
-    "title": "Bronte Beach Parking: An Insider's Guide",
-    "metaDescription": "Where to find a car park at Bronte Beach - the streets locals use, time limits, and the best times to arrive near this popular Bondi neighbour."
-  },
-  "/bondi-blog/ben-buckler-name-history": {
-    "title": "Ben Buckler: How Bondi's Headland Got Its Name",
-    "metaDescription": "The story behind Ben Buckler, the rocky headland at North Bondi - where the name comes from, and the history most visitors walk straight past."
-  },
-  "/bondi-blog/2025/1/20/locals-guide-to-free-bbq-spots-at-bondi-bronte-tamarama": {
-    "title": "Free BBQ Spots at Bondi, Bronte & Tamarama",
-    "metaDescription": "The best free public BBQ spots at Bondi, Bronte and Tamarama - where they are, when to grab one, and local tips for a beachside cook-up."
-  },
-  "/bondi-blog/2024/9/21/can-the-public-swim-at-bondi-icebergs-ocean-pool": {
-    "title": "Can the Public Swim at Bondi Icebergs?",
-    "metaDescription": "Can anyone swim at Bondi Icebergs? Yes - here's how public access to the famous ocean pool works, when it's open to visitors, and what to expect."
-  },
-  "/bondi-blog/2024/9/20/is-bondi-junction-the-same-as-bondi-beach": {
-    "title": "Is Bondi Junction the Same as Bondi Beach?",
-    "metaDescription": "Bondi Junction vs Bondi Beach - no, they're not the same place. Here's the difference, how far apart they are, and how to get between them."
-  },
-  "/bondi-blog/2023/9/11/can-you-fly-a-drone-at-bondi-beach-the-dos-and-donts-of-aerial-photography": {
-    "title": "Can You Fly a Drone at Bondi Beach?",
-    "metaDescription": "Can you fly a drone at Bondi Beach? The rules, the no-fly zones and how to get aerial shots without falling foul of Australian drone laws."
-  },
-  "/bondi-blog/2024/9/8/is-it-safe-to-swim-at-bondi-beach-a-complete-guide": {
-    "title": "Is It Safe to Swim at Bondi Beach?",
-    "metaDescription": "Is it safe to swim at Bondi Beach? Rips, flags, surf conditions and lifeguards explained - plus the safest spots for a worry-free swim."
-  },
-  "/bondi-blog/2024/3/19/bondis-best-running-routes": {
-    "title": "Bondi's Best Running Routes",
-    "metaDescription": "The best running routes around Bondi Beach - from the clifftop coastal path to flat beachfront loops, with distances and where to start."
-  },
-  "/bondi-blog/2024/7/25/help-3-week-city2surf-training-plan": {
-    "title": "3-Week City2Surf Training Plan",
-    "metaDescription": "Left it late? A realistic 3-week City2Surf training plan to get you race-ready for the 14km run to Bondi, even from a standing start."
-  },
-  "/bondi-blog/everything-to-know-bondi-salties-ocean-swimming": {
-    "title": "The Bondi Salties: Ocean Swimming Guide",
-    "metaDescription": "Everything to know about the Bondi Salties ocean swimming group - who they are, how to join a swim, and what to expect in the water."
-  },
-  "/bondi-blog/Bondi-beach-history": {
-    "title": "The History of Bondi Beach",
-    "metaDescription": "The history of Bondi Beach - from its Aboriginal roots and the meaning of the name to surf lifesaving, the Icebergs, and how Bondi became world-famous."
-  },
-  "/bondi-blog/2024/9/7/getting-to-sydney-marathon-from-bondi-beach": {
-    "title": "Getting to the Sydney Marathon from Bondi",
-    "metaDescription": "How to get to and from the Sydney Marathon from Bondi Beach - transport options, road closures and timing tips for race morning."
-  },
-  "/bondi-blog/2024/1/1/must-do-bondi-summer-activities-for-first-time-visitors": {
-    "title": "Must-Do Bondi Summer Activities",
-    "metaDescription": "The must-do Bondi Beach activities for a first summer visit - swimming, the coastal walk, the markets and the sunrise spots locals love."
-  },
-  "/bondi-blog/bondi-muscle-beach": {
-    "title": "Bondi's Muscle Beach & Outdoor Gym",
-    "metaDescription": "Bondi's Muscle Beach - the famous outdoor gym by the sand. Where it is, what equipment's there, and the etiquette for a workout with a view."
-  },
-  "/bondi-blog/bondi-beach-surf-guide": {
-    "title": "Surfing at Bondi Beach: A Complete Guide",
-    "metaDescription": "A complete guide to surfing at Bondi Beach - the breaks, where beginners should paddle out, board hire, lessons, and the local surf etiquette."
-  },
-  "/bondi-blog/2023/9/21/walking-on-sunshine-the-ultimate-guide-to-the-bondi-to-bronte-coastal-walk": {
-    "title": "The Ultimate Bondi to Bronte Coastal Walk Guide",
-    "metaDescription": "The ultimate guide to the Bondi to Bronte coastal walk - the route, how long it takes, swimming stops, cafés and the best photo spots."
-  },
-  "/bondi-blog/10-biggest-events-bondi-beach": {
-    "title": "The Events That Shaped Bondi Beach",
-    "metaDescription": "Ten weird and wonderful events that shaped Bondi Beach's identity - the moments, characters and happenings behind the world-famous beach."
-  },
-  "/bondi-blog/2025/5/6/kids-eat-free-in-sydneys-eastern-suburbs-12-family-friendly-dining-deals": {
-    "title": "Kids Eat Free: 12 Eastern Suburbs Deals",
-    "metaDescription": "12 places where kids eat free in Sydney's Eastern Suburbs - family-friendly dining deals near Bondi, and the days each one runs."
-  },
-  "/bondi-blog/bondi-beach-playground-guide": {
-    "title": "Bondi Beach Playgrounds: A Local's Guide",
-    "metaDescription": "A local's guide to Bondi Beach's kids' playgrounds - which suit toddlers vs big kids, and the ones with shade and toilets nearby."
-  },
-  "/bondi-blog/access-bondi-icebergs-pool": {
-    "title": "How to Access the Bondi Icebergs Pool",
-    "metaDescription": "How to access the Bondi Icebergs pool as a visitor - where to enter, whether you need to be a member, and what to expect when you arrive."
-  },
-  "/bondi-blog/2025/4/25/10-must-try-bondi-beach-bars-backed-in-2025": {
-    "title": "10 Must-Try Bondi Beach Bars",
-    "metaDescription": "10 must-try Bondi Beach bars - from beachfront sundowners to hidden local haunts, here's where to drink in Bondi and what to order."
-  },
-  "/bondi-blog/2025/1/4/nielsen-park-your-guide-to-sydneys-beloved-coastal-escape": {
-    "title": "Nielsen Park: A Local's Guide",
-    "metaDescription": "Nielsen Park - Sydney's calm harbour beach near Bondi. The netted swimming, parking, the kiosk, and why families love this coastal escape."
-  },
-  "/bondi-blog/2024/9/13/25-reasons-why-sydney-is-better-than-melbourne": {
-    "title": "25 Reasons Sydney Beats Melbourne",
-    "metaDescription": "25 (only slightly biased) reasons Sydney is better than Melbourne - the beaches, the weather, the harbour and, of course, Bondi."
-  },
-  "/bondi-blog/best-time-to-visit-bondi-beach": {
-    "title": "The Best Time to Visit Bondi Beach",
-    "metaDescription": "The best time to visit Bondi Beach - when weather, water and crowds line up. A quick local verdict on the ideal months, plus what each season is really like."
-  },
-  "/bondi-blog/2023/4/1/l0k8f8ky8s4yf6dxrl7mo9r4s25vx7": {
-    "metaDescription": "Bondi Beach or Bondi Junction - what's the difference? A local explains the two neighbouring suburbs, how far apart they are and which one you actually want."
-  },
-  "/bondi-blog/2025/3/8/best-time-to-visit-bondi-beach-seasonal-guide-to-weather-events": {
-    "metaDescription": "The best time to visit Bondi Beach, season by season - weather, crowds, surf and events - so you can plan your trip around the Bondi you're after."
-  },
-  "/bondi-blog/whale-watching-bondi-guide-2024": {
-    "metaDescription": "Whale watching at Bondi Beach - when whales migrate past Sydney, what you'll see and the best clifftop spots to watch them for free."
-  },
-  "/bondi-blog/2024/1/21/is-bondi-beach-a-safe-area-crime-rate": {
-    "metaDescription": "Is Bondi Beach a safe suburb? A local look at crime, how safe it feels by day and night, and sensible precautions for visitors."
-  },
-  "/bondi-blog/2023/9/20/chasing-sunrise-bondi-beachs-perfect-weather-conditions": {
-    "metaDescription": "How to catch the perfect Bondi Beach sunrise - the weather conditions that make it glow, the best time to arrive and where to stand."
-  },
-  "/bondi-blog/2026/3/24/bondis-best-cafs-right-now-where-to-eat-sip-and-soak-up-the-beach-vibe": {
-    "metaDescription": "Bondi's best cafés right now - where locals go for coffee, brunch and a post-swim feed, from beachfront hotspots to hidden laneway gems.",
-    "indexable": false
-  },
-  "/bondi-blog/2025/8/9/the-best-places-to-carb-load-before-the-sydney-marathon": {
-    "metaDescription": "Where to carb-load in Bondi before the Sydney Marathon - the best pasta, pizza and pre-race feeds near the course, from a local."
-  },
-  "/bondi-blog/2025/6/23/bondi-to-bronte-swim-the-ultimate-beginners-guide-to-sydneys-most-iconic-ocean-race": {
-    "metaDescription": "A beginner's guide to the Bondi to Bronte ocean swim - how to enter, train and get through Sydney's most iconic open-water race."
-  },
-  "/bondi-blog/2025/6/4/sydney-airport-taxi-scams-how-to-spot-avoid-costly-rip-offs-for-a-hassle-free-arrival": {
-    "metaDescription": "How to spot and avoid taxi scams at Sydney Airport - the common rip-offs, your rights and cheaper, safer ways to get to Bondi."
-  },
-  "/bondi-blog/2025/5/25/where-to-watch-english-football-in-bondi-the-best-pubs-and-bars-for-premier-league-fans": {
-    "metaDescription": "Where to watch English football and the Premier League in Bondi - the best pubs and bars for live matches and a pint by the beach."
-  },
-  "/bondi-blog/2025/4/27/whale-watching-season-at-bondi-2025-everything-you-need-to-know": {
-    "metaDescription": "Whale watching season at Bondi - when whales migrate past Sydney (roughly May to November), where to spot them and how to see them for free."
-  },
-  "/bondi-blog/2025/3/8/the-ultimate-bondi-beach-travel-guide-must-see-spots-hidden-gems": {
-    "metaDescription": "The ultimate Bondi Beach travel guide - must-see spots, hidden gems and local tips for making the most of Sydney's most famous beach."
-  },
-  "/bondi-blog/2025/1/1/locals-guide-to-sydneys-20-best-hidden-beaches": {
-    "metaDescription": "A local's guide to Sydney's 20 best hidden beaches - the quiet coves and secret swimming spots beyond Bondi and Manly."
-  },
-  "/bondi-blog/2023/11/16/hxnovb41qon8zebftsjodt0g8tvhde": {
-    "metaDescription": "Surprising facts about Bondi Beach - the history, records and quirks behind the world's most famous beach, from a local."
-  },
-  "/bondi-blog/2023/10/1/daylight-saving-time-in-sydney-a-quick-guide-to-octobers-clock-change": {
-    "metaDescription": "Daylight saving in Sydney - when the clocks change in October, why it matters for your Bondi trip and how to adjust."
-  },
-  "/bondi-blog/waverley-cemetery-sydney-australia": {
-    "metaDescription": "Waverley Cemetery - the hauntingly beautiful clifftop resting place on the Bondi to Coogee walk, its history and how to visit."
-  },
-  "/bondi-blog/2023/9/4/bond-market-sunday-guide": {
-    "metaDescription": "A guide to the Bondi Markets - Sydney's coolest Sunday market for vintage, design and food, plus when and where it's held."
-  },
-  "/bondi-blog/what-to-do-bondi-beach-travel-guide": {
-    "metaDescription": "What to do in Bondi Beach - a complete local guide to the beach, the coastal walk, the cafés and the sights on your visit."
-  },
-  "/bondi-blog/2023/8/10/a-guide-to-sydneys-eastern-suburbs-beaches": {
-    "metaDescription": "A guide to Sydney's Eastern Suburbs beaches - Bondi, Tamarama, Bronte, Clovelly and Coogee, and what makes each one worth a visit."
-  },
-  "/bondi-blog/Sydney’s-best-bookstore-gertude-alice": {
-    "metaDescription": "Gertrude & Alice - Bondi's beloved secondhand bookstore and café, a literary haven just back from the beach. What to expect and why locals love it."
-  },
-  "/bondi-blog/2026/2/21/the-ultimate-bondi-beach-travel-guide-2026-edition": {
-    "metaDescription": "The ultimate Bondi Beach travel guide - where to swim, eat, stay and explore, plus local tips for your trip to Sydney's famous beach."
-  },
-  "/bondi-blog/2025/6/26/ranked-bondis-top-10-coffee-spots-you-cant-miss": {
-    "metaDescription": "Ranked: Bondi's top 10 coffee spots - the best cafés and roasters for a proper flat white, from beachfront to backstreet, chosen by locals.",
-    "indexable": false
-  },
-  "/bondi-blog/2025/5/25/10-hidden-gems-at-bondi-beach-youll-wish-you-discovered-sooner": {
-    "metaDescription": "10 hidden gems at Bondi Beach you'll wish you'd found sooner - the local spots beyond the surf and the sunbathers, from a Bondi insider."
-  },
-  "/bondi-blog/2025/1/5/who-can-swim-at-bondi-icebergs-ocean-pool": {
-    "metaDescription": "Who can swim at Bondi Icebergs? Yes, the public can use the iconic ocean pool - here's how, plus the lap lanes, the kids' pool and what to expect."
-  },
-  "/bondi-blog/2025/1/10/the-best-places-to-snorkel-in-and-around-bondi": {
-    "metaDescription": "The best places to snorkel in and around Bondi - the calm, clear spots like Clovelly and Gordons Bay to see fish and rays."
-  },
-  "/bondi-blog/2024/12/13/moving-to-bondi-your-complete-guide-to-life-by-the-beach": {
-    "metaDescription": "Moving to Bondi - a complete local guide to life by the beach: rent, the lifestyle, getting around and what to know before you go."
-  },
-  "/bondi-blog/2023/12/26/celebrating-christmas-day-at-bronte-beach-australias-biggest-christmas-party": {
-    "metaDescription": "Christmas Day at Bronte Beach - the story behind Sydney's biggest beach Christmas party, what to expect and how to do it respectfully."
-  },
-  "/bondi-blog/2024/1/25/can-you-see-dolphins-at-bondi-beach": {
-    "metaDescription": "Can you see dolphins at Bondi Beach? Yes, occasionally - when and where you're most likely to spot dolphins off Bondi."
-  },
-  "/bondi-blog/2023/11/17/a-parents-guide-to-bondi-beach-activities-eats-and-entertainment-for-kids": {
-    "metaDescription": "A parent's guide to Bondi Beach - the best family activities, calm swim spots, playgrounds and kid-friendly eats, from local parents."
-  },
-  "/bondi-blog/2023/11/9/the-440-run-club-at-bronte-beach-sydneys-open-invitation-for-runners": {
-    "metaDescription": "The 440 Run Club at Bronte Beach - Sydney's free, open-invitation running group. When it meets and how to join for a coastal run."
-  },
-  "/bondi-blog/is-bondi-good-to-live": {
-    "metaDescription": "Is Bondi a good place to live? An honest local take on the lifestyle, cost, community and trade-offs of living at Sydney's famous beach."
-  },
-  "/bondi-blog/city-to-surf-training-plan": {
-    "metaDescription": "A realistic 8-week City2Surf training plan for beginners - how to build up to the 14km run and conquer Heartbreak Hill without the panic."
-  },
-  "/bondi-blog/2023/4/1/3003c62xnorpgvx461rhjrkhp6p56f": {
-    "metaDescription": "The complete guide to Bondi Icebergs - the iconic ocean pool, the bistro and the wellness experiences at Sydney's most famous swimming spot."
-  },
-  "/bondi-blog/2025/12/19/the-inside-story-on-the-bondi-lifeguards-who-ran-toward-danger": {
-    "metaDescription": "The inside story of the Bondi lifeguards and surf lifesavers who ran toward danger - courage, training and instinct on Sydney's most famous beach."
-  },
-  "/bondi-blog/2025/8/24/the-tcs-sydney-marathon-a-beginners-guide": {
-    "metaDescription": "A beginner's guide to the TCS Sydney Marathon - the course, key dates, training and what to expect on race day."
-  },
-  "/bondi-blog/2025/8/9/bondi-beach-shakeout-run-the-perfect-pre-marathon-jog": {
-    "metaDescription": "The perfect Bondi Beach shakeout run before the Sydney Marathon - easy, scenic routes, sunrise views and a café stop to loosen up."
-  },
-  "/bondi-blog/2025/6/21/bronte-beach-backpackers-christmas-2025-ultimate-guide-for-the-orphans-christmas-celebration": {
-    "metaDescription": "Bronte Beach Backpackers' Christmas - the famous free Christmas Day gathering. What's on, the rules and how to join the celebration."
-  },
-  "/bondi-blog/2025/4/2/bondi-icebergs-closed-due-to-destructive-waves": {
-    "metaDescription": "Bondi Icebergs closed after huge waves damaged the iconic ocean pool - what happened, the repairs and when the pool reopened."
-  },
-  "/bondi-blog/2025/1/5/understanding-bondi-beach-safety-signs": {
-    "metaDescription": "Understanding Bondi Beach safety signs - what the flags, hazard symbols and warnings mean, so you can read the beach and swim smart."
-  },
-  "/bondi-blog/2025/1/5/exploring-bondi-beach-a-guide-to-wheelchair-access": {
-    "metaDescription": "An accessibility guide to Bondi Beach - beach wheelchairs, accessible parking and toilets, step-free access to the sand and promenade, and wheelchair-friendly routes, from a local.",
-    "title": "Bondi Beach Accessibility & Wheelchair Guide",
-    "h1": "Bondi Beach Accessibility & Wheelchair Guide"
-  },
-  "/bondi-blog/2025/1/5/surf-lifesaving-patrol-hours-at-bondi-bronte-tamarama": {
-    "metaDescription": "Surf lifesaving patrol hours at Bondi, Bronte and Tamarama - roughly when the flags are up, and why you should always swim between them."
-  },
-  "/bondi-blog/2024/12/13/bondi-beach-travel-guide-50-frequently-asked-questions-for-first-time-visitors": {
-    "metaDescription": "50 frequently asked questions about Bondi Beach, answered - location, getting there, swimming, costs and everything first-time visitors need."
-  },
-  "/bondi-blog/2024/12/1/ranked-20-most-dramatic-bondi-rescue-rescues": {
-    "metaDescription": "Ranked: the 20 most dramatic Bondi Rescue rescues - the biggest moments from the Bondi lifeguards and the show that made them famous.",
-    "indexable": false
-  },
-  "/bondi-blog/2024/10/1/the-great-bondi-crumbl-cookie-scam": {
-    "metaDescription": "The great Bondi Crumbl cookie saga - how a cult-brand pop-up left locals queuing for day-old cookies, and what really happened."
-  },
-  "/bondi-blog/2024/9/16/how-to-find-a-housemate-in-bondi-beach": {
-    "metaDescription": "How to find a place to live (and a housemate) in Bondi Beach - where to look, what to pay and tips for landing a share house by the sand."
-  },
-  "/bondi-blog/2023/9/9/soaring-high-at-bondi-beach-festival-of-the-winds": {
-    "metaDescription": "Festival of the Winds - Bondi Beach's colourful annual kite festival. What to expect at Sydney's biggest kite-flying day out."
-  },
-  "/bondi-blog/2024/2/12/an-insiders-guide-to-the-best-ice-cream-in-bondi": {
-    "metaDescription": "An insider's guide to the best ice cream in Bondi - the gelato, soft serve and scoops locals queue for on a hot beach day."
-  },
-  "/bondi-blog/2024/1/20/is-bondi-beach-water-clean-or-polluted": {
-    "metaDescription": "How clean is the water at Bondi Beach? A look at water quality, when it dips after rain, and how to check before you swim."
-  },
-  "/bondi-blog/2023/9/19/a-guide-to-the-bondi-beach-sunday-drummer": {
-    "metaDescription": "The Sunday drummers on North Bondi's grassy knoll - the story of Bondi Sunset Music and the beach's best free Sunday session."
-  },
-  "/bondi-blog/2023/9/22/el-nio-and-its-unexpected-chilly-effect-on-bondis-sea-temperature": {
-    "metaDescription": "El Niño and Bondi's sea temperature - why the ocean can run cooler than you'd expect, and what it means for your swim."
-  },
-  "/bondi-blog/2023/8/8/does-bondi-beach-get-busy": {
-    "metaDescription": "Does Bondi Beach get busy? When it's packed, when it's quiet, and how to time your visit to beat the crowds."
-  },
-  "/bondi-blog/2018/10/17/when-is-the-best-time-to-visit-bondi-beach": {
-    "metaDescription": "When is the best time to visit Bondi Beach? A quick local guide to the seasons, weather and crowds so you pick the right day."
-  },
-  "/bondi-blog/category/City2Surf": {
-    "metaDescription": "City2Surf guides from Visit Bondi Beach - the route, training, results and afterparties for Sydney's iconic 14km run to Bondi."
-  },
-  "/bondi-blog/2025/10/15/sculpture-by-the-seareturns-to-bondi-and-tamarama-what-you-need-to-know-in-2025": {
-    "metaDescription": "Sculpture by the Sea returns to Bondi and Tamarama - what to know about the free coastal-walk art exhibition and how to see it."
-  },
-  "/bondi-blog/2025/8/9/family-fun-in-bondi-during-sydney-marathon-week": {
-    "metaDescription": "Family fun in Bondi during Sydney Marathon week - safe swim spots, playgrounds, cafés and rainy-day ideas to keep kids happy."
-  },
-  "/bondi-blog/2025/8/9/the-ultimate-bondi-beach-recovery-guide-for-sydney-marathon-runners": {
-    "metaDescription": "The ultimate Bondi recovery guide for Sydney Marathon runners - ocean dips, big breakfasts and the best ways to bounce back."
-  },
-  "/bondi-blog/2025/6/14/25-essential-hacks-for-starting-a-new-life-in-australia-the-ultimate-aussie-arrival-guide": {
-    "metaDescription": "25 essential hacks for starting a new life in Australia - banking, SIMs, tax, transport and finding your feet, from new arrivals in Bondi."
-  },
-  "/bondi-blog/2025/5/25/secret-eats-off-menu-items-you-didnt-know-you-could-order-in-bondi-beach": {
-    "metaDescription": "Bondi's secret eats - the off-menu items and locals-only orders you didn't know you could get at Bondi Beach's cafés and takeaways."
-  },
-  "/bondi-blog/2024/1/19/bondis-best-coffee-shops": {
-    "metaDescription": "10 must-try Bondi cafés for coffee lovers - the beachfront hotspots and cosy hideaways for the best brew, rain or shine.",
-    "indexable": false
-  },
-  "/bondi-blog/2025/5/23/rain-or-shine-7-must-do-indoor-activities-in-bondi-beach-on-a-rainy-day": {
-    "metaDescription": "Rain or shine - 7 must-do indoor activities in Bondi on a rainy day, from art and wellness to long lunches and shopping."
-  },
-  "/bondi-blog/2025/4/29/ultimate-wet-weather-guide-to-bondi-rainy-day-activities-tips": {
-    "metaDescription": "The ultimate wet-weather guide to Bondi - the best rainy-day activities, cosy cafés and things to do when the surf turns grey."
-  },
-  "/bondi-blog/2025/4/25/must-experience-bondi-restaurants-our-top-10-best-restaurants-ranked": {
-    "title": "The Best Restaurants in Bondi Beach (2026): Where I’d Book",
-    "metaDescription": "A local’s shortlist of the best restaurants in Bondi Beach for 2026 - special-occasion dining, beachfront seafood, Italian and newer share-plate spots, and who each suits.",
-    "h1": "The Best Restaurants in Bondi Beach (2026)"
-  },
-  "/bondi-blog/2025/4/25/9-unique-bondi-beach-experiences-to-try-beyond-the-sand-and-surf": {
-    "metaDescription": "9 unique Bondi Beach experiences beyond the sand and surf - the off-beat adventures and only-in-Bondi things to try."
-  },
-  "/bondi-blog/2025/4/23/8-things-to-know-before-visiting-bondi-beach": {
-    "metaDescription": "8 things to know before visiting Bondi Beach - practical local tips on swimming, parking, timing and etiquette for a smooth trip."
-  },
-  "/bondi-blog/2025/4/15/your-complete-guide-to-christmas-day-at-bronte-beach-sydney-december-25-2025": {
-    "metaDescription": "Your complete guide to Christmas Day at Bronte Beach - Sydney's biggest beach Christmas, what to bring and how to do it right."
-  },
-  "/bondi-blog/2025/3/21/bondi-beach-new-years-eve-festival-returns-council-approves-iconic-celebrations-revival": {
-    "metaDescription": "The Bondi Beach New Year's Eve festival returns - Waverley Council's revived celebration, what's planned and how to be part of it."
-  },
-  "/bondi-blog/2024/12/26/australias-best-christmas-party-at-sydneys-bronte-beach": {
-    "metaDescription": "Christmas Day at Bronte Beach - Sydney's most exciting beach Christmas party, with festive fun, ocean pools and stunning views."
-  },
-  "/bondi-blog/2025/1/20/does-bondi-beach-ever-close": {
-    "metaDescription": "Does Bondi Beach ever close? When and why the beach or coastal walk shuts - storms, hazards and events - and how to check."
-  },
-  "/bondi-blog/2025/1/5/the-best-places-to-sit-on-bondi-beach-a-complete-guide": {
-    "metaDescription": "The best places to sit on Bondi Beach - where to lay your towel for sun, shade, calm water or people-watching, from a local."
-  },
-  "/bondi-blog/2025/1/7/top-things-to-do-in-bondi-for-kids-during-school-holidays": {
-    "metaDescription": "Top things to do in Bondi with kids these school holidays - beaches, playgrounds, workshops and rainy-day ideas for all ages."
-  },
-  "/bondi-blog/2025/1/1/top-50-activities-to-do-in-sydney-a-locals-guide": {
-    "metaDescription": "Top 50 things to do in Sydney - a local's guide to the icons, hidden gems and experiences beyond Bondi worth your time."
-  },
-  "/bondi-blog/2023/12/13/celebrating-new-years-day-with-a-dutch-twist-at-bondi-beach": {
-    "metaDescription": "New Year's Day at Bondi with a Dutch twist - the polar-plunge-style beach celebration, when it's on and how to join in."
-  },
-  "/bondi-blog/2024/12/26/can-you-jump-from-the-cliff-at-bronte-beach": {
-    "metaDescription": "Can you jump from the cliff at Bronte Beach? Why cliff jumping there is prohibited and dangerous - and safer ways to cool off."
-  },
-  "/bondi-blog/2024/12/1/a-festive-guide-best-streets-in-and-around-bondi-to-see-christmas-lights": {
-    "metaDescription": "The best streets in and around Bondi to see Christmas lights - a festive local guide to the Eastern Suburbs' brightest displays."
-  },
-  "/bondi-blog/2024/10/17/sydney-beaches-closed-as-mystery-tar-balls-reach-bondi-beach": {
-    "metaDescription": "Mystery tar balls at Bondi - how the black balls washed up, closed Sydney's beaches and what authorities found."
-  },
-  "/bondi-blog/2024/10/9/best-bondi-beach-tours-for-sydney-visitors": {
-    "metaDescription": "The best Bondi Beach tours for Sydney visitors - coastal walks, surf lessons and guided experiences to make the most of your time."
-  },
-  "/bondi-blog/2023/11/17/tee-off-with-a-view-discover-bondi-golf-diggers-club": {
-    "metaDescription": "Tee off with a view at the Bondi Golf & Diggers Club - the clifftop course on North Bondi, its ocean panoramas and how to play."
-  },
-  "/bondi-blog/2024/9/23/locals-guide-to-the-best-kids-playgrounds-around-bondi": {
-    "metaDescription": "A local's guide to the best kids' playgrounds around Bondi - from ocean-view play spaces to shaded parks the whole family will love."
-  },
-  "/bondi-blog/2024/9/21/locals-guide-to-bondi-beachs-best-ice-cream": {
-    "metaDescription": "A local's guide to Bondi's best ice cream - the gelato, soft serve and frozen treats worth the walk on a hot Bondi day."
-  },
-  "/bondi-blog/2024/9/21/the-bondi-hum-real-or-hoax": {
-    "metaDescription": "The Bondi Hum - the mysterious low-frequency sound locals report. Real phenomenon or hoax? A look at the theories."
-  },
-  "/bondi-blog/2024/9/7/the-best-vegetarian-and-vegan-restaurants-in-bondi-beach": {
-    "metaDescription": "The best vegetarian and vegan restaurants in Bondi Beach - the plant-based cafés and eateries locals rate, from bowls to bakeries."
-  },
-  "/bondi-blog/2024/9/7/an-insiders-guide-to-the-sydney-marathon-2024": {
-    "metaDescription": "An insider's guide to the Sydney Marathon - the course, key dates and tips for runners and spectators around Bondi and the city."
-  },
-  "/bondi-blog/2024/4/6/storm-chaos-forced-closures-around-bondi-beach": {
-    "metaDescription": "Storm closures around Bondi Beach - how heavy rain shut beaches and the coastal walk, and how to check conditions before you go."
-  },
-  "/bondi-blog/2024/2/9/sydneys-mystery-beach-at-mackenzies-bay": {
-    "metaDescription": "Sydney's mystery beach at Mackenzies Bay - the sandy cove between Bondi and Tamarama that appears and vanishes with the swell."
-  },
-  "/bondi-blog/2024/1/13/a-guide-to-australia-day-at-bondi-beach": {
-    "metaDescription": "A guide to Australia Day at Bondi Beach - what's on, how locals mark the day, and how to enjoy it thoughtfully."
-  },
-  "/bondi-blog/2023/11/9/2024-bondi-beach-event-calendar": {
-    "metaDescription": "The Bondi Beach event calendar - the festivals, races and celebrations worth planning around, from City2Surf to Sculpture by the Sea."
-  },
-  "/bondi-blog/2023/12/28/insiders-guide-to-new-years-day-at-bondi": {
-    "metaDescription": "An insider's guide to New Year's Day at Bondi - how Icebergs and the beach celebrate, and what's changed after two decades of tradition."
-  },
-  "/bondi-blog/2023/12/26/gwyneth-paltrows-bondi-recommendations-one-we-cant-agree-with": {
-    "metaDescription": "Gwyneth Paltrow's Bondi recommendations - her Goop picks for Sydney's famous beach, and the one a local can't quite agree with."
-  },
-  "/bondi-blog/2023/12/24/insiders-guide-to-new-years-eve-at-bondi-beach": {
-    "metaDescription": "An insider's guide to New Year's Eve in Bondi - where to watch the fireworks, what's on and how to make the most of the night."
-  },
-  "/bondi-blog/2023/12/20/christmas-2024-bondi-weather-forecast": {
-    "metaDescription": "The Bondi Beach Christmas weather forecast - what to expect on Christmas Day, and how to plan your beach time around it."
-  },
-  "/bondi-blog/2023/12/10/from-the-mundane-to-the-outrageous-ranking-the-most-memorable-headline-grabbing-stories-from-bondi-local-loop": {
-    "metaDescription": "Ranked: Bondi Local Loop's most memorable, headline-grabbing moments - the stories that capture the suburb's unique character."
-  },
-  "/bondi-blog/2023/11/8/definitive-guide-to-bondis-best-restaurants": {
-    "metaDescription": "The definitive guide to Bondi's best restaurants - an objective ranking of where to eat, from beachfront dining to local favourites."
-  },
-  "/bondi-blog/2023/11/5/things-to-do-at-bondi-beach-in-the-rain": {
-    "metaDescription": "Things to do at Bondi Beach in the rain - indoor activities, cosy cafés and rainy-day ideas when the surf turns grey."
-  },
-  "/bondi-blog/best-backpacker-hostels-bondi-beach": {
-    "metaDescription": "The best backpacker hostels in Bondi Beach - where budget travellers should stay for the beach, the social scene and value."
-  },
-  "/bondi-blog/2023/8/22/bondis-saturday-farmers-market-your-complete-guide-to-fresh-local-produce-by-the-beach": {
-    "metaDescription": "A guide to the Bondi Farmers Market - the Saturday-morning stalls for fresh local produce, coffee and breakfast by the beach."
-  },
-  "/bondi-blog/swimming-between-flags-bondi-beach": {
-    "metaDescription": "Do you have to swim between the flags at Bondi? Why the red-and-yellow flags matter, and how to swim safely on a patrolled beach."
-  },
-  "/bondi-blog/bondi-beach-main-events": {
-    "metaDescription": "A local's guide to Bondi's top annual events - the festivals, races and seasonal celebrations worth timing your visit around."
-  },
-  "/bondi-blog/bondi-or-manly-travel-guide": {
-    "metaDescription": "Bondi or Manly? A local compares Sydney's two most famous beaches - vibe, surf, getting there and which suits your trip."
-  },
-  "/bondi-blog/hidden-gems-bondi-beach": {
-    "metaDescription": "Locals only: the hidden gems of Bondi Beach - the lesser-known spots and secret corners most visitors walk straight past."
-  },
-  "/bondi-blog/day-trip-bondi-beach-top-tips": {
-    "metaDescription": "Bondi Beach day-trip tips - how to make the most of one day at Bondi, from the best swim to the coastal walk and a feed."
-  },
-  "/bondi-blog/bondi-beach-cheap-food": {
-    "metaDescription": "The best cheap eats in Bondi Beach right now - where to fill up for less, from takeaway classics to budget-friendly local favourites."
-  },
-  "/bondi-blog/34-best-things-to-do-bondi-beach": {
-    "metaDescription": "34 of the best things to do in Bondi - the essential local list, from the beach and coastal walk to hidden gems and great eats."
-  },
-  "/bondi-blog/safe-swimming-bondi-beach": {
-    "metaDescription": "Swim safety at Bondi Beach - the essential local tips on rips, flags and conditions to help you stay safe in the water."
-  },
-  "/bondi-blog/Bondi-to-manly-walk-guide": {
-    "metaDescription": "The ultimate guide to the 80km Bondi to Manly walk - the route, how to break it into stages and the best sections to tackle."
-  },
-  "/bondi-blog/best-kids-activities-bondi-beach": {
-    "metaDescription": "The best activities for kids at Bondi Beach - family-friendly things to do, calm swim spots and ways to keep little ones happy."
-  },
-  "/bondi-blog/Locals-guide-Bondi-Beach": {
-    "metaDescription": "A local's guide to Bondi Beach - the views, the surf, the best swims and the tips only regulars know."
-  },
-  "/bondi-blog/best-restaurants-bondi-beach": {
-    "metaDescription": "The best restaurants in Bondi Beach - a local's pick of where to eat, from beachfront dining to neighbourhood favourites."
-  },
-  "/bondi-blog/24-hours-in-bondi-beach": {
-    "metaDescription": "24 hours in Bondi - a local's itinerary for the perfect day, from a sunrise swim to the coastal walk to sunset drinks."
-  },
-  "/bondi-blog/category/Travel": {
-    "metaDescription": "Bondi Beach travel guides from Visit Bondi Beach - trip planning, getting here, itineraries and local tips for your visit."
-  },
-  "/bondi-blog/category/Out+%26+About": {
-    "metaDescription": "Out & About in Bondi - local guides to events, markets, walks and things to do around Bondi Beach and the Eastern Beaches."
-  },
-  "/bondi-blog/category/People": {
-    "metaDescription": "The people of Bondi - local stories, characters and community from Bondi Beach, by Visit Bondi Beach."
-  },
-  "/bondi-blog/category/History": {
-    "metaDescription": "The history of Bondi Beach - how Sydney's most famous beach became an icon, from its Aboriginal name to its surf-culture legacy."
-  },
-  "/bondi-blog/category/Swim": {
-    "metaDescription": "Swimming at Bondi - local guides to the best swims, the ocean pools, water temperature and beach safety around Bondi Beach."
-  },
-  "/adstxt": {
-    "indexable": false
-  },
-  "/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach": {
-    "title": "The Best Cafés in Bondi Beach (2026): Coffee & Brunch by the Sand",
-    "metaDescription": "My local shortlist of the best cafés in Bondi Beach for 2026 - beachfront brunch, top coffee, newer openings and who each café suits, plus what has recently changed.",
-    "h1": "The Best Cafés in Bondi Beach (2026)"
-  },
-  "/bondi-blog/sunrise-sunset-bondi": {
-    "title": "Bondi Beach Sunrise: Best Spots, Times & Photography Guide",
-    "h1": "Bondi Beach Sunrise: Best Spots, Times & Photography Guide",
-    "metaDescription": "Where and when to catch sunrise at Bondi Beach - the best vantage points, roughly what time the sun rises each season, and photography tips for the shot, from a local."
-  },
-  "/bondi-blog/bondi-beach-toilets-showers-change-rooms": {
-    "title": "Bondi Beach Public Toilets, Showers & Changing Rooms",
-    "h1": "Bondi Beach Public Toilets, Showers & Changing Rooms",
-    "metaDescription": "Where to find public toilets, free beachfront showers and changing rooms at Bondi Beach - the north end, south end and the Pavilion, plus baby-change and accessible facilities."
-  }
+ "_comment": "Authored SEO overrides merged over crawled data by build-content.mjs. Prioritised from Search Console (high impressions, low CTR). Titles omit the brand (template adds it). Descriptions summarise real page intent - no invented prices/hours.",
+ "/bondi-blog/2025/10/13/are-there-snakes-in-bondi": {
+  "metaDescription": "Are there snakes in Bondi? Only one - Blake, the Blair Street Snake, a free community painted-rock art trail. Here's where to find him and how to add your own rock."
+ },
+ "/bondi-blog/where-to-go-afterparty-city-to-surf": {
+  "title": "The Ultimate City2Surf Afterparty Guide",
+  "h1": "The Ultimate City2Surf Afterparty Guide"
+ },
+ "/bondi-blog/where-to-find-carpark-bondi-beach": {
+  "metaDescription": "Where to park at Bondi Beach - the free streets locals use, the closest paid stations, what parking roughly costs, and the best spots to try on busy days."
+ },
+ "/bondi-blog/bondi-rescue-who-are-the-lifeguards": {
+  "title": "Bondi Rescue Lifeguards: Who Are They? Bios, Facts & the Show",
+  "metaDescription": "Meet the Bondi Rescue lifeguards - bios of Hoppo, Harries, Reidy, Maxi and Deano, facts about the show, key moments, and how to see the real Waverley Council team at Bondi.",
+  "h1": "Bondi Rescue Lifeguards: Who Are They?"
+ },
+ "/bondi-blog/meet-bondi-lifeguards": {
+  "title": "Meet the Bondi Beach Lifeguards",
+  "metaDescription": "The Bondi lifeguards behind Bondi Rescue - names, faces and what they actually do each day patrolling Australia's most famous beach.",
+  "indexable": false
+ },
+ "/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue": {
+  "title": "The 20 Most Dramatic Bondi Rescue Moments",
+  "metaDescription": "The most dramatic rescues and moments from Bondi Rescue, ranked - the shark alarms, mass rescues and close calls that made the show famous."
+ },
+ "/bondi-blog/2025/4/29/behind-the-scenes-at-bondi-rescue-20-things-you-may-not-know-about-the-show": {
+  "title": "Bondi Rescue: 20 Behind-the-Scenes Facts",
+  "metaDescription": "20 things you didn't know about Bondi Rescue - how it's filmed, whether it's staged, and what really happens behind the scenes at Bondi Beach.",
+  "indexable": false
+ },
+ "/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue": {
+  "title": "20 Obscure Facts About Bondi Rescue",
+  "metaDescription": "20 obscure facts about Bondi Rescue most fans don't know - from the lifeguards' nicknames to the filming secrets behind Australia's iconic beach show."
+ },
+ "/bondi-blog/2025/7/19/insider-guide-to-sundays-bondi-opening-hours-top-flavours-queue-hacks": {
+  "title": "Sundays Bondi: What to Order, Hours & Queue Tips",
+  "metaDescription": "A local's guide to Sundays in Bondi - top menu picks, opening hours and how to beat the queue at one of Bondi Beach's busiest spots."
+ },
+ "/bondi-blog/ultimate-guide-city-to-surf": {
+  "title": "City2Surf: The Ultimate Runner's Guide",
+  "metaDescription": "Your complete guide to Sydney's City2Surf - the 14km route, Heartbreak Hill, start times, training tips and finishing strong at Bondi Beach."
+ },
+ "/bondi-blog/2024/4/1/city2surf-course-map": {
+  "title": "City2Surf Course Map & Route Guide",
+  "metaDescription": "The City2Surf course map explained - the full 14km route from the CBD to Bondi, elevation, Heartbreak Hill and the best spots to watch or push hard."
+ },
+ "/bondi-blog/how-to-pronounce-bondi-beach": {
+  "title": "How to Pronounce Bondi Beach",
+  "metaDescription": "How do you say Bondi? It's 'BON-dye', not 'BON-dee'. Here's how to pronounce Bondi Beach like a local - and what the name actually means."
+ },
+ "/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy": {
+  "title": "Free Parking at Bondi Beach: Local Tips",
+  "metaDescription": "Where to actually find free parking near Bondi Beach - the streets locals use, the time limits to watch, and when to arrive to get a spot."
+ },
+ "/where-to-swim-at-bondi-beach": {
+  "title": "Where to Swim at Bondi Beach",
+  "h1": "Where to swim at Bondi Beach",
+  "metaDescription": "The best places to swim at Bondi Beach - between the flags, the Icebergs ocean pool and the North Bondi kids' pool. A local guide to swimming safely."
+ },
+ "/bondi-icebergs": {
+  "title": "Bondi Icebergs: Ocean Pool Visitor Guide",
+  "metaDescription": "An insider's guide to Bondi Icebergs, the famous ocean pool at Bondi Beach - who can swim, what to expect, the restaurant, and how to visit."
+ },
+ "/bondi-blog/why-is-bondi-beach-famous": {
+  "title": "Why Is Bondi Beach So Famous?",
+  "metaDescription": "Why is Bondi Beach famous? From Bondi Rescue and the Icebergs to the surf, coastal walk and its history - here's what makes Bondi world-famous."
+ },
+ "/bondi-blog/2024/8/28/average-sea-temperatures-at-bondi-beach-month-by-month-guide": {
+  "title": "Bondi Beach Sea Temperatures Month by Month",
+  "metaDescription": "Average sea temperatures at Bondi Beach, month by month - when the water's warmest, when you'll want a wetsuit, and the best months to swim."
+ },
+ "/bondi-blog/city2surf-results": {
+  "title": "City2Surf Results: 2026 Results & Every Year Since 2000",
+  "metaDescription": "City2Surf results year by year, 2000 to 2024 - winning times, records and how the field has changed at Sydney's iconic 14km run to Bondi.",
+  "h1": "City2Surf Results: 2026 & Every Year Since 2000"
+ },
+ "/bondi-blog/2023/11/16/insiders-guide-to-the-bronte-ocean-pool": {
+  "title": "Bronte Ocean Pool: An Insider's Guide",
+  "metaDescription": "A local's guide to the Bronte ocean pool - the free seawater baths near Bondi. When to go, what to expect, and how it compares to Bondi Icebergs."
+ },
+ "/bondi-blog/2025/6/18/how-to-train-for-heartbreak-hill-without-being-a-fitness-freak": {
+  "title": "How to Train for Heartbreak Hill (City2Surf)",
+  "metaDescription": "How to train for City2Surf's Heartbreak Hill without being a fitness fanatic - a realistic plan to conquer Sydney's toughest race climb."
+ },
+ "/bondi-blog/2025/6/4/tamarama-coogee-clovelly-beach-parking-ultimate-guide-to-free-paid-spots": {
+  "title": "Tamarama, Coogee & Clovelly Parking Guide",
+  "metaDescription": "Where to park at Tamarama, Coogee and Clovelly - free and paid spots, time limits and local tips for the Eastern Beaches south of Bondi."
+ },
+ "/bondi-blog/the-ultimate-guide-to-bondi-beach-nightlife": {
+  "title": "Bondi Beach Nightlife: The Local Guide",
+  "metaDescription": "Where to go out in Bondi after dark - the best bars, live music and late-night spots, from beachfront drinks to hidden local favourites."
+ },
+ "/bondi-blog/2025/4/30/bondi-icebergs-ocean-pool-faq-20-essential-questions-answered-hours-fees-membership-more": {
+  "title": "Bondi Icebergs FAQ: 20 Questions Answered",
+  "metaDescription": "20 essential Bondi Icebergs questions answered - who can swim, opening times, entry, membership and the restaurant. Everything before you visit."
+ },
+ "/bondi-blog/2024/9/12/why-bondi-beach-is-so-famous-history-fame-and-culture": {
+  "title": "Why Bondi Beach Is So Famous: History & Culture",
+  "metaDescription": "The history and culture behind Bondi's fame - from surf lifesaving and the Icebergs to Bondi Rescue and its place in Australian identity."
+ },
+ "/bondi-blog/2025/4/27/how-to-score-a-booking-at-tottis-bondi-without-the-stress": {
+  "title": "How to Get a Booking at Totti's Bondi",
+  "metaDescription": "How to actually score a table at Totti's Bondi - when to book, how the waitlist works and local tricks for one of Bondi's hardest reservations."
+ },
+ "/bondi-blog/2025/1/2/how-far-is-bondi-beach-from-key-sydney-locations": {
+  "title": "How Far Is Bondi Beach From Key Sydney Spots?",
+  "metaDescription": "How far is Bondi Beach from the CBD, the airport, Manly and more - distances and realistic travel times by car and public transport."
+ },
+ "/bondi-blog/Bondi-beach-temperature": {
+  "title": "Bondi Beach Temperatures: What to Expect",
+  "metaDescription": "Average temperatures at Bondi Beach through the year, air and sea - so you know what to pack and the best months to swim or walk the coast."
+ },
+ "/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days": {
+  "title": "Bondi Beach Parking Costs: Car Parks, Meters & Rates",
+  "h1": "What parking at Bondi actually costs",
+  "metaDescription": "What you will pay to park at Bondi Beach - the Pavilion car park, metered street bays, how the rates work and when the free options are realistic."
+ },
+ "/bondi-blog/2025/1/5/catch-the-waves-live-bondi-beach-surf-cam": {
+  "title": "Bondi Beach Surf Cam (Live)",
+  "metaDescription": "Check Bondi Beach conditions live with the surf cam - see the swell, the crowds and the weather before you head down for a swim or surf."
+ },
+ "/bondi-blog/2023/11/7/the-safest-place-to-swim-at-bondi-beach": {
+  "title": "The Safest Place to Swim at Bondi Beach",
+  "metaDescription": "Where it's safest to swim at Bondi Beach - why the southern end has rips, where the flags go, and the calmest spots for families and kids."
+ },
+ "/bondi-blog/2023/9/21/sculptures-by-the-sea-at-bondi-a-comprehensive-guide-to-art-by-the-ocean": {
+  "title": "Sculpture by the Sea: Bondi to Tamarama Guide",
+  "metaDescription": "A practical guide to Sculpture by the Sea along the Bondi to Tamarama coastal walk - when it's on, how to get there and how to beat the crowds."
+ },
+ "/bondi-blog/getting-from-sydney-airport-to-bondi-beach": {
+  "title": "Sydney Airport to Bondi Beach: Every Option Compared",
+  "metaDescription": "Every way from Sydney Airport to Bondi Beach compared - train, taxi, rideshare, pre-booked transfer and driving - with rough times, costs and which option suits you.",
+  "h1": "Sydney Airport to Bondi Beach: Every Option Compared"
+ },
+ "/bondi-blog/2024/1/7/sydneys-best-playground-in-the-heart-of-bondi": {
+  "title": "Waverley Park Playground, Bondi: Family Guide",
+  "metaDescription": "Waverley Park playground in the heart of Bondi - one of Sydney's best. What's there for kids, shade, toilets and why families love it."
+ },
+ "/bondi-blog/is-bondi-icebergs-pool-heated": {
+  "title": "Is the Bondi Icebergs Pool Heated?",
+  "metaDescription": "Is Bondi Icebergs pool heated? The short answer, and what the water's really like across the seasons - plus how cold the winter swims get."
+ },
+ "/bondi-blog/2024/6/9/the-best-time-to-visit-bondi-beach-a-seasonal-guide": {
+  "title": "Bondi Beach Season by Season",
+  "metaDescription": "Bondi Beach season by season - summer crowds, autumn's sweet spot, winter walks and spring swells. What to expect whenever you visit."
+ },
+ "/bondi-blog/2023/12/13/christmas-day-at-bondi-beach": {
+  "title": "Christmas Day at Bondi Beach: What to Know",
+  "metaDescription": "What Christmas Day at Bondi Beach is really like - the crowds, the rules, what's open and how to enjoy an Aussie beach Christmas like a local."
+ },
+ "/bondi-blog/2023/10/18/bondi-beach-etiquette-guide": {
+  "title": "Bondi Beach Etiquette: The Local Rules",
+  "metaDescription": "The unwritten rules of Bondi Beach - swimming between the flags, sharing the sand, surf etiquette and how not to stand out as a tourist."
+ },
+ "/bondi-blog/2025/1/5/are-there-thieves-or-pickpockets-at-bondi-beach": {
+  "title": "Theft at Bondi Beach: Keeping Your Stuff Safe",
+  "metaDescription": "Are there thieves at Bondi Beach? How common beach theft is, and simple local tips to keep your phone, wallet and valuables safe while you swim."
+ },
+ "/bondi-blog/2024/9/18/guide-to-metal-detecting-at-bondi-beach": {
+  "title": "Metal Detecting at Bondi Beach: A Guide",
+  "metaDescription": "Metal detecting at Bondi Beach - the rules, the best times to search, what people actually find, and how to do it without annoying beachgoers."
+ },
+ "/bondi-blog/2023/9/28/bondi-beach-and-the-shark-question-unraveling-the-mystery": {
+  "title": "Are There Sharks at Bondi Beach?",
+  "metaDescription": "Are there sharks at Bondi Beach? The real risk, the shark net, how often they're seen, and why swimming between the flags keeps you safe."
+ },
+ "/bondi-blog/2023/8/29/mackenzies-bay-is-back-the-ultimate-sydney-hidden-gem": {
+  "title": "Mackenzies Bay: Sydney's Vanishing Beach",
+  "metaDescription": "Mackenzies Bay - the hidden beach between Bondi and Tamarama that only appears some years. What it is, why it comes and goes, and how to find it."
+ },
+ "/bondi-blog/2023/11/20/an-insiders-guide-to-finding-a-car-park-at-bronte-beach": {
+  "title": "Bronte Beach Parking: An Insider's Guide",
+  "metaDescription": "Where to find a car park at Bronte Beach - the streets locals use, time limits, and the best times to arrive near this popular Bondi neighbour."
+ },
+ "/bondi-blog/ben-buckler-name-history": {
+  "title": "Ben Buckler: How Bondi's Headland Got Its Name",
+  "metaDescription": "The story behind Ben Buckler, the rocky headland at North Bondi - where the name comes from, and the history most visitors walk straight past."
+ },
+ "/bondi-blog/2025/1/20/locals-guide-to-free-bbq-spots-at-bondi-bronte-tamarama": {
+  "title": "Free BBQ Spots at Bondi, Bronte & Tamarama",
+  "metaDescription": "The best free public BBQ spots at Bondi, Bronte and Tamarama - where they are, when to grab one, and local tips for a beachside cook-up."
+ },
+ "/bondi-blog/2024/9/21/can-the-public-swim-at-bondi-icebergs-ocean-pool": {
+  "title": "Can the Public Swim at Bondi Icebergs?",
+  "metaDescription": "Can anyone swim at Bondi Icebergs? Yes - here's how public access to the famous ocean pool works, when it's open to visitors, and what to expect."
+ },
+ "/bondi-blog/2024/9/20/is-bondi-junction-the-same-as-bondi-beach": {
+  "title": "Is Bondi Junction the Same as Bondi Beach?",
+  "metaDescription": "Bondi Junction vs Bondi Beach - no, they're not the same place. Here's the difference, how far apart they are, and how to get between them."
+ },
+ "/bondi-blog/2023/9/11/can-you-fly-a-drone-at-bondi-beach-the-dos-and-donts-of-aerial-photography": {
+  "title": "Can You Fly a Drone at Bondi Beach?",
+  "metaDescription": "Can you fly a drone at Bondi Beach? The rules, the no-fly zones and how to get aerial shots without falling foul of Australian drone laws."
+ },
+ "/bondi-blog/2024/9/8/is-it-safe-to-swim-at-bondi-beach-a-complete-guide": {
+  "title": "Is It Safe to Swim at Bondi Beach?",
+  "metaDescription": "Is it safe to swim at Bondi Beach? Rips, flags, surf conditions and lifeguards explained - plus the safest spots for a worry-free swim."
+ },
+ "/bondi-blog/2024/3/19/bondis-best-running-routes": {
+  "title": "Bondi's Best Running Routes",
+  "metaDescription": "The best running routes around Bondi Beach - from the clifftop coastal path to flat beachfront loops, with distances and where to start."
+ },
+ "/bondi-blog/2024/7/25/help-3-week-city2surf-training-plan": {
+  "title": "3-Week City2Surf Training Plan",
+  "metaDescription": "Left it late? A realistic 3-week City2Surf training plan to get you race-ready for the 14km run to Bondi, even from a standing start."
+ },
+ "/bondi-blog/everything-to-know-bondi-salties-ocean-swimming": {
+  "title": "The Bondi Salties: Ocean Swimming Guide",
+  "metaDescription": "Everything to know about the Bondi Salties ocean swimming group - who they are, how to join a swim, and what to expect in the water."
+ },
+ "/bondi-blog/Bondi-beach-history": {
+  "title": "The History of Bondi Beach",
+  "metaDescription": "The history of Bondi Beach - from its Aboriginal roots and the meaning of the name to surf lifesaving, the Icebergs, and how Bondi became world-famous."
+ },
+ "/bondi-blog/2024/9/7/getting-to-sydney-marathon-from-bondi-beach": {
+  "title": "Getting to the Sydney Marathon from Bondi",
+  "metaDescription": "How to get to and from the Sydney Marathon from Bondi Beach - transport options, road closures and timing tips for race morning."
+ },
+ "/bondi-blog/2024/1/1/must-do-bondi-summer-activities-for-first-time-visitors": {
+  "title": "Must-Do Bondi Summer Activities",
+  "metaDescription": "The must-do Bondi Beach activities for a first summer visit - swimming, the coastal walk, the markets and the sunrise spots locals love."
+ },
+ "/bondi-blog/bondi-muscle-beach": {
+  "title": "Bondi's Muscle Beach & Outdoor Gym",
+  "metaDescription": "Bondi's Muscle Beach - the famous outdoor gym by the sand. Where it is, what equipment's there, and the etiquette for a workout with a view."
+ },
+ "/bondi-blog/bondi-beach-surf-guide": {
+  "title": "Surfing at Bondi Beach: A Complete Guide",
+  "metaDescription": "A complete guide to surfing at Bondi Beach - the breaks, where beginners should paddle out, board hire, lessons, and the local surf etiquette."
+ },
+ "/bondi-blog/2023/9/21/walking-on-sunshine-the-ultimate-guide-to-the-bondi-to-bronte-coastal-walk": {
+  "title": "The Ultimate Bondi to Bronte Coastal Walk Guide",
+  "metaDescription": "The ultimate guide to the Bondi to Bronte coastal walk - the route, how long it takes, swimming stops, cafés and the best photo spots."
+ },
+ "/bondi-blog/10-biggest-events-bondi-beach": {
+  "title": "The Events That Shaped Bondi Beach",
+  "metaDescription": "Ten weird and wonderful events that shaped Bondi Beach's identity - the moments, characters and happenings behind the world-famous beach."
+ },
+ "/bondi-blog/2025/5/6/kids-eat-free-in-sydneys-eastern-suburbs-12-family-friendly-dining-deals": {
+  "title": "Kids Eat Free: 12 Eastern Suburbs Deals",
+  "metaDescription": "12 places where kids eat free in Sydney's Eastern Suburbs - family-friendly dining deals near Bondi, and the days each one runs."
+ },
+ "/bondi-blog/bondi-beach-playground-guide": {
+  "title": "Bondi Beach Playgrounds: A Local's Guide",
+  "metaDescription": "A local's guide to Bondi Beach's kids' playgrounds - which suit toddlers vs big kids, and the ones with shade and toilets nearby."
+ },
+ "/bondi-blog/access-bondi-icebergs-pool": {
+  "title": "How to Access the Bondi Icebergs Pool",
+  "metaDescription": "How to access the Bondi Icebergs pool as a visitor - where to enter, whether you need to be a member, and what to expect when you arrive."
+ },
+ "/bondi-blog/2025/4/25/10-must-try-bondi-beach-bars-backed-in-2025": {
+  "title": "A Bondi Bar Crawl: Where to Start and Where to End",
+  "h1": "How to do a Bondi bar crawl",
+  "metaDescription": "How a local strings a night in Bondi together - which bar to start at, where to eat between rounds, and where to finish, in walking order."
+ },
+ "/bondi-blog/2025/1/4/nielsen-park-your-guide-to-sydneys-beloved-coastal-escape": {
+  "title": "Nielsen Park: A Local's Guide",
+  "metaDescription": "Nielsen Park - Sydney's calm harbour beach near Bondi. The netted swimming, parking, the kiosk, and why families love this coastal escape."
+ },
+ "/bondi-blog/2024/9/13/25-reasons-why-sydney-is-better-than-melbourne": {
+  "title": "25 Reasons Sydney Beats Melbourne",
+  "metaDescription": "25 (only slightly biased) reasons Sydney is better than Melbourne - the beaches, the weather, the harbour and, of course, Bondi."
+ },
+ "/bondi-blog/best-time-to-visit-bondi-beach": {
+  "title": "The Best Time to Visit Bondi Beach",
+  "metaDescription": "The best time to visit Bondi Beach - when weather, water and crowds line up. A quick local verdict on the ideal months, plus what each season is really like."
+ },
+ "/bondi-blog/2023/4/1/l0k8f8ky8s4yf6dxrl7mo9r4s25vx7": {
+  "metaDescription": "Bondi Beach or Bondi Junction - what's the difference? A local explains the two neighbouring suburbs, how far apart they are and which one you actually want."
+ },
+ "/bondi-blog/2025/3/8/best-time-to-visit-bondi-beach-seasonal-guide-to-weather-events": {
+  "metaDescription": "The best time to visit Bondi Beach, season by season - weather, crowds, surf and events - so you can plan your trip around the Bondi you're after."
+ },
+ "/bondi-blog/whale-watching-bondi-guide-2024": {
+  "metaDescription": "Whale watching at Bondi Beach - when whales migrate past Sydney, what you'll see and the best clifftop spots to watch them for free."
+ },
+ "/bondi-blog/2024/1/21/is-bondi-beach-a-safe-area-crime-rate": {
+  "metaDescription": "Is Bondi Beach a safe suburb? A local look at crime, how safe it feels by day and night, and sensible precautions for visitors."
+ },
+ "/bondi-blog/2023/9/20/chasing-sunrise-bondi-beachs-perfect-weather-conditions": {
+  "metaDescription": "How to catch the perfect Bondi Beach sunrise - the weather conditions that make it glow, the best time to arrive and where to stand."
+ },
+ "/bondi-blog/2026/3/24/bondis-best-cafs-right-now-where-to-eat-sip-and-soak-up-the-beach-vibe": {
+  "metaDescription": "Bondi's best cafés right now - where locals go for coffee, brunch and a post-swim feed, from beachfront hotspots to hidden laneway gems.",
+  "indexable": false
+ },
+ "/bondi-blog/2025/8/9/the-best-places-to-carb-load-before-the-sydney-marathon": {
+  "metaDescription": "Where to carb-load in Bondi before the Sydney Marathon - the best pasta, pizza and pre-race feeds near the course, from a local."
+ },
+ "/bondi-blog/2025/6/23/bondi-to-bronte-swim-the-ultimate-beginners-guide-to-sydneys-most-iconic-ocean-race": {
+  "metaDescription": "A beginner's guide to the Bondi to Bronte ocean swim - how to enter, train and get through Sydney's most iconic open-water race."
+ },
+ "/bondi-blog/2025/6/4/sydney-airport-taxi-scams-how-to-spot-avoid-costly-rip-offs-for-a-hassle-free-arrival": {
+  "metaDescription": "How to spot and avoid taxi scams at Sydney Airport - the common rip-offs, your rights and cheaper, safer ways to get to Bondi."
+ },
+ "/bondi-blog/2025/5/25/where-to-watch-english-football-in-bondi-the-best-pubs-and-bars-for-premier-league-fans": {
+  "metaDescription": "Where to watch English football and the Premier League in Bondi - the best pubs and bars for live matches and a pint by the beach."
+ },
+ "/bondi-blog/2025/4/27/whale-watching-season-at-bondi-2025-everything-you-need-to-know": {
+  "metaDescription": "Whale watching season at Bondi - when whales migrate past Sydney (roughly May to November), where to spot them and how to see them for free."
+ },
+ "/bondi-blog/2025/3/8/the-ultimate-bondi-beach-travel-guide-must-see-spots-hidden-gems": {
+  "metaDescription": "The ultimate Bondi Beach travel guide - must-see spots, hidden gems and local tips for making the most of Sydney's most famous beach."
+ },
+ "/bondi-blog/2025/1/1/locals-guide-to-sydneys-20-best-hidden-beaches": {
+  "metaDescription": "A local's guide to Sydney's 20 best hidden beaches - the quiet coves and secret swimming spots beyond Bondi and Manly."
+ },
+ "/bondi-blog/2023/11/16/hxnovb41qon8zebftsjodt0g8tvhde": {
+  "metaDescription": "Surprising facts about Bondi Beach - the history, records and quirks behind the world's most famous beach, from a local."
+ },
+ "/bondi-blog/2023/10/1/daylight-saving-time-in-sydney-a-quick-guide-to-octobers-clock-change": {
+  "metaDescription": "Daylight saving in Sydney - when the clocks change in October, why it matters for your Bondi trip and how to adjust."
+ },
+ "/bondi-blog/waverley-cemetery-sydney-australia": {
+  "metaDescription": "Waverley Cemetery - the hauntingly beautiful clifftop resting place on the Bondi to Coogee walk, its history and how to visit."
+ },
+ "/bondi-blog/2023/9/4/bond-market-sunday-guide": {
+  "metaDescription": "A guide to the Bondi Markets - Sydney's coolest Sunday market for vintage, design and food, plus when and where it's held."
+ },
+ "/bondi-blog/what-to-do-bondi-beach-travel-guide": {
+  "metaDescription": "What to do in Bondi Beach - a complete local guide to the beach, the coastal walk, the cafés and the sights on your visit."
+ },
+ "/bondi-blog/2023/8/10/a-guide-to-sydneys-eastern-suburbs-beaches": {
+  "metaDescription": "A guide to Sydney's Eastern Suburbs beaches - Bondi, Tamarama, Bronte, Clovelly and Coogee, and what makes each one worth a visit."
+ },
+ "/bondi-blog/Sydney’s-best-bookstore-gertude-alice": {
+  "metaDescription": "Gertrude & Alice - Bondi's beloved secondhand bookstore and café, a literary haven just back from the beach. What to expect and why locals love it."
+ },
+ "/bondi-blog/2026/2/21/the-ultimate-bondi-beach-travel-guide-2026-edition": {
+  "metaDescription": "The ultimate Bondi Beach travel guide - where to swim, eat, stay and explore, plus local tips for your trip to Sydney's famous beach."
+ },
+ "/bondi-blog/2025/6/26/ranked-bondis-top-10-coffee-spots-you-cant-miss": {
+  "metaDescription": "Ranked: Bondi's top 10 coffee spots - the best cafés and roasters for a proper flat white, from beachfront to backstreet, chosen by locals.",
+  "indexable": false
+ },
+ "/bondi-blog/2025/5/25/10-hidden-gems-at-bondi-beach-youll-wish-you-discovered-sooner": {
+  "metaDescription": "10 hidden gems at Bondi Beach you'll wish you'd found sooner - the local spots beyond the surf and the sunbathers, from a Bondi insider."
+ },
+ "/bondi-blog/2025/1/5/who-can-swim-at-bondi-icebergs-ocean-pool": {
+  "metaDescription": "Who can swim at Bondi Icebergs? Yes, the public can use the iconic ocean pool - here's how, plus the lap lanes, the kids' pool and what to expect."
+ },
+ "/bondi-blog/2025/1/10/the-best-places-to-snorkel-in-and-around-bondi": {
+  "metaDescription": "The best places to snorkel in and around Bondi - the calm, clear spots like Clovelly and Gordons Bay to see fish and rays."
+ },
+ "/bondi-blog/2024/12/13/moving-to-bondi-your-complete-guide-to-life-by-the-beach": {
+  "metaDescription": "Moving to Bondi - a complete local guide to life by the beach: rent, the lifestyle, getting around and what to know before you go."
+ },
+ "/bondi-blog/2023/12/26/celebrating-christmas-day-at-bronte-beach-australias-biggest-christmas-party": {
+  "metaDescription": "Christmas Day at Bronte Beach - the story behind Sydney's biggest beach Christmas party, what to expect and how to do it respectfully."
+ },
+ "/bondi-blog/2024/1/25/can-you-see-dolphins-at-bondi-beach": {
+  "metaDescription": "Can you see dolphins at Bondi Beach? Yes, occasionally - when and where you're most likely to spot dolphins off Bondi."
+ },
+ "/bondi-blog/2023/11/17/a-parents-guide-to-bondi-beach-activities-eats-and-entertainment-for-kids": {
+  "metaDescription": "A parent's guide to Bondi Beach - the best family activities, calm swim spots, playgrounds and kid-friendly eats, from local parents."
+ },
+ "/bondi-blog/2023/11/9/the-440-run-club-at-bronte-beach-sydneys-open-invitation-for-runners": {
+  "metaDescription": "The 440 Run Club at Bronte Beach - Sydney's free, open-invitation running group. When it meets and how to join for a coastal run."
+ },
+ "/bondi-blog/is-bondi-good-to-live": {
+  "metaDescription": "Is Bondi a good place to live? An honest local take on the lifestyle, cost, community and trade-offs of living at Sydney's famous beach."
+ },
+ "/bondi-blog/city-to-surf-training-plan": {
+  "metaDescription": "A realistic 8-week City2Surf training plan for beginners - how to build up to the 14km run and conquer Heartbreak Hill without the panic."
+ },
+ "/bondi-blog/2023/4/1/3003c62xnorpgvx461rhjrkhp6p56f": {
+  "metaDescription": "The complete guide to Bondi Icebergs - the iconic ocean pool, the bistro and the wellness experiences at Sydney's most famous swimming spot."
+ },
+ "/bondi-blog/2025/12/19/the-inside-story-on-the-bondi-lifeguards-who-ran-toward-danger": {
+  "metaDescription": "The inside story of the Bondi lifeguards and surf lifesavers who ran toward danger - courage, training and instinct on Sydney's most famous beach."
+ },
+ "/bondi-blog/2025/8/24/the-tcs-sydney-marathon-a-beginners-guide": {
+  "metaDescription": "A beginner's guide to the TCS Sydney Marathon - the course, key dates, training and what to expect on race day."
+ },
+ "/bondi-blog/2025/8/9/bondi-beach-shakeout-run-the-perfect-pre-marathon-jog": {
+  "metaDescription": "The perfect Bondi Beach shakeout run before the Sydney Marathon - easy, scenic routes, sunrise views and a café stop to loosen up."
+ },
+ "/bondi-blog/2025/6/21/bronte-beach-backpackers-christmas-2025-ultimate-guide-for-the-orphans-christmas-celebration": {
+  "metaDescription": "Bronte Beach Backpackers' Christmas - the famous free Christmas Day gathering. What's on, the rules and how to join the celebration."
+ },
+ "/bondi-blog/2025/4/2/bondi-icebergs-closed-due-to-destructive-waves": {
+  "metaDescription": "Bondi Icebergs closed after huge waves damaged the iconic ocean pool - what happened, the repairs and when the pool reopened."
+ },
+ "/bondi-blog/2025/1/5/understanding-bondi-beach-safety-signs": {
+  "metaDescription": "Understanding Bondi Beach safety signs - what the flags, hazard symbols and warnings mean, so you can read the beach and swim smart."
+ },
+ "/bondi-blog/2025/1/5/exploring-bondi-beach-a-guide-to-wheelchair-access": {
+  "metaDescription": "An accessibility guide to Bondi Beach - beach wheelchairs, accessible parking and toilets, step-free access to the sand and promenade, and wheelchair-friendly routes, from a local.",
+  "title": "Bondi Beach Accessibility & Wheelchair Guide",
+  "h1": "Bondi Beach Accessibility & Wheelchair Guide"
+ },
+ "/bondi-blog/2025/1/5/surf-lifesaving-patrol-hours-at-bondi-bronte-tamarama": {
+  "metaDescription": "Surf lifesaving patrol hours at Bondi, Bronte and Tamarama - roughly when the flags are up, and why you should always swim between them."
+ },
+ "/bondi-blog/2024/12/13/bondi-beach-travel-guide-50-frequently-asked-questions-for-first-time-visitors": {
+  "metaDescription": "50 frequently asked questions about Bondi Beach, answered - location, getting there, swimming, costs and everything first-time visitors need."
+ },
+ "/bondi-blog/2024/12/1/ranked-20-most-dramatic-bondi-rescue-rescues": {
+  "metaDescription": "Ranked: the 20 most dramatic Bondi Rescue rescues - the biggest moments from the Bondi lifeguards and the show that made them famous.",
+  "indexable": false
+ },
+ "/bondi-blog/2024/10/1/the-great-bondi-crumbl-cookie-scam": {
+  "metaDescription": "The great Bondi Crumbl cookie saga - how a cult-brand pop-up left locals queuing for day-old cookies, and what really happened."
+ },
+ "/bondi-blog/2024/9/16/how-to-find-a-housemate-in-bondi-beach": {
+  "metaDescription": "How to find a place to live (and a housemate) in Bondi Beach - where to look, what to pay and tips for landing a share house by the sand."
+ },
+ "/bondi-blog/2023/9/9/soaring-high-at-bondi-beach-festival-of-the-winds": {
+  "metaDescription": "Festival of the Winds - Bondi Beach's colourful annual kite festival. What to expect at Sydney's biggest kite-flying day out."
+ },
+ "/bondi-blog/2024/2/12/an-insiders-guide-to-the-best-ice-cream-in-bondi": {
+  "metaDescription": "An insider's guide to the best ice cream in Bondi - the gelato, soft serve and scoops locals queue for on a hot beach day."
+ },
+ "/bondi-blog/2024/1/20/is-bondi-beach-water-clean-or-polluted": {
+  "metaDescription": "How clean is the water at Bondi Beach? A look at water quality, when it dips after rain, and how to check before you swim."
+ },
+ "/bondi-blog/2023/9/19/a-guide-to-the-bondi-beach-sunday-drummer": {
+  "metaDescription": "The Sunday drummers on North Bondi's grassy knoll - the story of Bondi Sunset Music and the beach's best free Sunday session."
+ },
+ "/bondi-blog/2023/9/22/el-nio-and-its-unexpected-chilly-effect-on-bondis-sea-temperature": {
+  "metaDescription": "El Niño and Bondi's sea temperature - why the ocean can run cooler than you'd expect, and what it means for your swim."
+ },
+ "/bondi-blog/2023/8/8/does-bondi-beach-get-busy": {
+  "metaDescription": "Does Bondi Beach get busy? When it's packed, when it's quiet, and how to time your visit to beat the crowds."
+ },
+ "/bondi-blog/2018/10/17/when-is-the-best-time-to-visit-bondi-beach": {
+  "metaDescription": "When is the best time to visit Bondi Beach? A quick local guide to the seasons, weather and crowds so you pick the right day."
+ },
+ "/bondi-blog/category/City2Surf": {
+  "metaDescription": "City2Surf guides from Visit Bondi Beach - the route, training, results and afterparties for Sydney's iconic 14km run to Bondi."
+ },
+ "/bondi-blog/2025/10/15/sculpture-by-the-seareturns-to-bondi-and-tamarama-what-you-need-to-know-in-2025": {
+  "metaDescription": "Sculpture by the Sea returns to Bondi and Tamarama - what to know about the free coastal-walk art exhibition and how to see it."
+ },
+ "/bondi-blog/2025/8/9/family-fun-in-bondi-during-sydney-marathon-week": {
+  "metaDescription": "Family fun in Bondi during Sydney Marathon week - safe swim spots, playgrounds, cafés and rainy-day ideas to keep kids happy."
+ },
+ "/bondi-blog/2025/8/9/the-ultimate-bondi-beach-recovery-guide-for-sydney-marathon-runners": {
+  "metaDescription": "The ultimate Bondi recovery guide for Sydney Marathon runners - ocean dips, big breakfasts and the best ways to bounce back."
+ },
+ "/bondi-blog/2025/6/14/25-essential-hacks-for-starting-a-new-life-in-australia-the-ultimate-aussie-arrival-guide": {
+  "metaDescription": "25 essential hacks for starting a new life in Australia - banking, SIMs, tax, transport and finding your feet, from new arrivals in Bondi."
+ },
+ "/bondi-blog/2025/5/25/secret-eats-off-menu-items-you-didnt-know-you-could-order-in-bondi-beach": {
+  "metaDescription": "Bondi's secret eats - the off-menu items and locals-only orders you didn't know you could get at Bondi Beach's cafés and takeaways."
+ },
+ "/bondi-blog/2024/1/19/bondis-best-coffee-shops": {
+  "metaDescription": "10 must-try Bondi cafés for coffee lovers - the beachfront hotspots and cosy hideaways for the best brew, rain or shine.",
+  "indexable": false
+ },
+ "/bondi-blog/2025/5/23/rain-or-shine-7-must-do-indoor-activities-in-bondi-beach-on-a-rainy-day": {
+  "metaDescription": "Rain or shine - 7 must-do indoor activities in Bondi on a rainy day, from art and wellness to long lunches and shopping."
+ },
+ "/bondi-blog/2025/4/29/ultimate-wet-weather-guide-to-bondi-rainy-day-activities-tips": {
+  "metaDescription": "The ultimate wet-weather guide to Bondi - the best rainy-day activities, cosy cafés and things to do when the surf turns grey."
+ },
+ "/bondi-blog/2025/4/25/must-experience-bondi-restaurants-our-top-10-best-restaurants-ranked": {
+  "title": "The Best Restaurants in Bondi Beach (2026): Where I’d Book",
+  "metaDescription": "A local’s shortlist of the best restaurants in Bondi Beach for 2026 - special-occasion dining, beachfront seafood, Italian and newer share-plate spots, and who each suits.",
+  "h1": "The Best Restaurants in Bondi Beach (2026)"
+ },
+ "/bondi-blog/2025/4/25/9-unique-bondi-beach-experiences-to-try-beyond-the-sand-and-surf": {
+  "metaDescription": "9 unique Bondi Beach experiences beyond the sand and surf - the off-beat adventures and only-in-Bondi things to try."
+ },
+ "/bondi-blog/2025/4/23/8-things-to-know-before-visiting-bondi-beach": {
+  "metaDescription": "8 things to know before visiting Bondi Beach - practical local tips on swimming, parking, timing and etiquette for a smooth trip."
+ },
+ "/bondi-blog/2025/4/15/your-complete-guide-to-christmas-day-at-bronte-beach-sydney-december-25-2025": {
+  "metaDescription": "Your complete guide to Christmas Day at Bronte Beach - Sydney's biggest beach Christmas, what to bring and how to do it right."
+ },
+ "/bondi-blog/2025/3/21/bondi-beach-new-years-eve-festival-returns-council-approves-iconic-celebrations-revival": {
+  "metaDescription": "The Bondi Beach New Year's Eve festival returns - Waverley Council's revived celebration, what's planned and how to be part of it."
+ },
+ "/bondi-blog/2024/12/26/australias-best-christmas-party-at-sydneys-bronte-beach": {
+  "metaDescription": "Christmas Day at Bronte Beach - Sydney's most exciting beach Christmas party, with festive fun, ocean pools and stunning views."
+ },
+ "/bondi-blog/2025/1/20/does-bondi-beach-ever-close": {
+  "metaDescription": "Does Bondi Beach ever close? When and why the beach or coastal walk shuts - storms, hazards and events - and how to check."
+ },
+ "/bondi-blog/2025/1/5/the-best-places-to-sit-on-bondi-beach-a-complete-guide": {
+  "metaDescription": "The best places to sit on Bondi Beach - where to lay your towel for sun, shade, calm water or people-watching, from a local."
+ },
+ "/bondi-blog/2025/1/7/top-things-to-do-in-bondi-for-kids-during-school-holidays": {
+  "metaDescription": "Top things to do in Bondi with kids these school holidays - beaches, playgrounds, workshops and rainy-day ideas for all ages."
+ },
+ "/bondi-blog/2025/1/1/top-50-activities-to-do-in-sydney-a-locals-guide": {
+  "metaDescription": "Top 50 things to do in Sydney - a local's guide to the icons, hidden gems and experiences beyond Bondi worth your time."
+ },
+ "/bondi-blog/2023/12/13/celebrating-new-years-day-with-a-dutch-twist-at-bondi-beach": {
+  "metaDescription": "New Year's Day at Bondi with a Dutch twist - the polar-plunge-style beach celebration, when it's on and how to join in."
+ },
+ "/bondi-blog/2024/12/26/can-you-jump-from-the-cliff-at-bronte-beach": {
+  "metaDescription": "Can you jump from the cliff at Bronte Beach? Why cliff jumping there is prohibited and dangerous - and safer ways to cool off."
+ },
+ "/bondi-blog/2024/12/1/a-festive-guide-best-streets-in-and-around-bondi-to-see-christmas-lights": {
+  "metaDescription": "The best streets in and around Bondi to see Christmas lights - a festive local guide to the Eastern Suburbs' brightest displays."
+ },
+ "/bondi-blog/2024/10/17/sydney-beaches-closed-as-mystery-tar-balls-reach-bondi-beach": {
+  "metaDescription": "Mystery tar balls at Bondi - how the black balls washed up, closed Sydney's beaches and what authorities found."
+ },
+ "/bondi-blog/2024/10/9/best-bondi-beach-tours-for-sydney-visitors": {
+  "metaDescription": "The best Bondi Beach tours for Sydney visitors - coastal walks, surf lessons and guided experiences to make the most of your time."
+ },
+ "/bondi-blog/2023/11/17/tee-off-with-a-view-discover-bondi-golf-diggers-club": {
+  "metaDescription": "Tee off with a view at the Bondi Golf & Diggers Club - the clifftop course on North Bondi, its ocean panoramas and how to play."
+ },
+ "/bondi-blog/2024/9/23/locals-guide-to-the-best-kids-playgrounds-around-bondi": {
+  "metaDescription": "A local's guide to the best kids' playgrounds around Bondi - from ocean-view play spaces to shaded parks the whole family will love."
+ },
+ "/bondi-blog/2024/9/21/locals-guide-to-bondi-beachs-best-ice-cream": {
+  "metaDescription": "A local's guide to Bondi's best ice cream - the gelato, soft serve and frozen treats worth the walk on a hot Bondi day."
+ },
+ "/bondi-blog/2024/9/21/the-bondi-hum-real-or-hoax": {
+  "metaDescription": "The Bondi Hum - the mysterious low-frequency sound locals report. Real phenomenon or hoax? A look at the theories."
+ },
+ "/bondi-blog/2024/9/7/the-best-vegetarian-and-vegan-restaurants-in-bondi-beach": {
+  "metaDescription": "The best vegetarian and vegan restaurants in Bondi Beach - the plant-based cafés and eateries locals rate, from bowls to bakeries."
+ },
+ "/bondi-blog/2024/9/7/an-insiders-guide-to-the-sydney-marathon-2024": {
+  "metaDescription": "An insider's guide to the Sydney Marathon - the course, key dates and tips for runners and spectators around Bondi and the city."
+ },
+ "/bondi-blog/2024/4/6/storm-chaos-forced-closures-around-bondi-beach": {
+  "metaDescription": "Storm closures around Bondi Beach - how heavy rain shut beaches and the coastal walk, and how to check conditions before you go."
+ },
+ "/bondi-blog/2024/2/9/sydneys-mystery-beach-at-mackenzies-bay": {
+  "metaDescription": "Sydney's mystery beach at Mackenzies Bay - the sandy cove between Bondi and Tamarama that appears and vanishes with the swell."
+ },
+ "/bondi-blog/2024/1/13/a-guide-to-australia-day-at-bondi-beach": {
+  "metaDescription": "A guide to Australia Day at Bondi Beach - what's on, how locals mark the day, and how to enjoy it thoughtfully."
+ },
+ "/bondi-blog/2023/11/9/2024-bondi-beach-event-calendar": {
+  "metaDescription": "The Bondi Beach event calendar - the festivals, races and celebrations worth planning around, from City2Surf to Sculpture by the Sea."
+ },
+ "/bondi-blog/2023/12/28/insiders-guide-to-new-years-day-at-bondi": {
+  "metaDescription": "An insider's guide to New Year's Day at Bondi - how Icebergs and the beach celebrate, and what's changed after two decades of tradition."
+ },
+ "/bondi-blog/2023/12/26/gwyneth-paltrows-bondi-recommendations-one-we-cant-agree-with": {
+  "metaDescription": "Gwyneth Paltrow's Bondi recommendations - her Goop picks for Sydney's famous beach, and the one a local can't quite agree with."
+ },
+ "/bondi-blog/2023/12/24/insiders-guide-to-new-years-eve-at-bondi-beach": {
+  "metaDescription": "An insider's guide to New Year's Eve in Bondi - where to watch the fireworks, what's on and how to make the most of the night."
+ },
+ "/bondi-blog/2023/12/20/christmas-2024-bondi-weather-forecast": {
+  "metaDescription": "The Bondi Beach Christmas weather forecast - what to expect on Christmas Day, and how to plan your beach time around it."
+ },
+ "/bondi-blog/2023/12/10/from-the-mundane-to-the-outrageous-ranking-the-most-memorable-headline-grabbing-stories-from-bondi-local-loop": {
+  "metaDescription": "Ranked: Bondi Local Loop's most memorable, headline-grabbing moments - the stories that capture the suburb's unique character."
+ },
+ "/bondi-blog/2023/11/8/definitive-guide-to-bondis-best-restaurants": {
+  "metaDescription": "The definitive guide to Bondi's best restaurants - an objective ranking of where to eat, from beachfront dining to local favourites."
+ },
+ "/bondi-blog/2023/11/5/things-to-do-at-bondi-beach-in-the-rain": {
+  "metaDescription": "Things to do at Bondi Beach in the rain - indoor activities, cosy cafés and rainy-day ideas when the surf turns grey."
+ },
+ "/bondi-blog/best-backpacker-hostels-bondi-beach": {
+  "metaDescription": "The best backpacker hostels in Bondi Beach - where budget travellers should stay for the beach, the social scene and value."
+ },
+ "/bondi-blog/2023/8/22/bondis-saturday-farmers-market-your-complete-guide-to-fresh-local-produce-by-the-beach": {
+  "metaDescription": "A guide to the Bondi Farmers Market - the Saturday-morning stalls for fresh local produce, coffee and breakfast by the beach."
+ },
+ "/bondi-blog/swimming-between-flags-bondi-beach": {
+  "metaDescription": "Do you have to swim between the flags at Bondi? Why the red-and-yellow flags matter, and how to swim safely on a patrolled beach."
+ },
+ "/bondi-blog/bondi-beach-main-events": {
+  "metaDescription": "A local's guide to Bondi's top annual events - the festivals, races and seasonal celebrations worth timing your visit around."
+ },
+ "/bondi-blog/bondi-or-manly-travel-guide": {
+  "metaDescription": "Bondi or Manly? A local compares Sydney's two most famous beaches - vibe, surf, getting there and which suits your trip."
+ },
+ "/bondi-blog/hidden-gems-bondi-beach": {
+  "metaDescription": "Locals only: the hidden gems of Bondi Beach - the lesser-known spots and secret corners most visitors walk straight past."
+ },
+ "/bondi-blog/day-trip-bondi-beach-top-tips": {
+  "metaDescription": "Bondi Beach day-trip tips - how to make the most of one day at Bondi, from the best swim to the coastal walk and a feed."
+ },
+ "/bondi-blog/bondi-beach-cheap-food": {
+  "metaDescription": "The best cheap eats in Bondi Beach right now - where to fill up for less, from takeaway classics to budget-friendly local favourites."
+ },
+ "/bondi-blog/34-best-things-to-do-bondi-beach": {
+  "metaDescription": "34 of the best things to do in Bondi - the essential local list, from the beach and coastal walk to hidden gems and great eats."
+ },
+ "/bondi-blog/safe-swimming-bondi-beach": {
+  "metaDescription": "Swim safety at Bondi Beach - the essential local tips on rips, flags and conditions to help you stay safe in the water."
+ },
+ "/bondi-blog/Bondi-to-manly-walk-guide": {
+  "metaDescription": "The ultimate guide to the 80km Bondi to Manly walk - the route, how to break it into stages and the best sections to tackle."
+ },
+ "/bondi-blog/best-kids-activities-bondi-beach": {
+  "metaDescription": "The best activities for kids at Bondi Beach - family-friendly things to do, calm swim spots and ways to keep little ones happy."
+ },
+ "/bondi-blog/Locals-guide-Bondi-Beach": {
+  "metaDescription": "A local's guide to Bondi Beach - the views, the surf, the best swims and the tips only regulars know."
+ },
+ "/bondi-blog/best-restaurants-bondi-beach": {
+  "metaDescription": "The best restaurants in Bondi Beach - a local's pick of where to eat, from beachfront dining to neighbourhood favourites."
+ },
+ "/bondi-blog/24-hours-in-bondi-beach": {
+  "metaDescription": "24 hours in Bondi - a local's itinerary for the perfect day, from a sunrise swim to the coastal walk to sunset drinks."
+ },
+ "/bondi-blog/category/Travel": {
+  "metaDescription": "Bondi Beach travel guides from Visit Bondi Beach - trip planning, getting here, itineraries and local tips for your visit."
+ },
+ "/bondi-blog/category/Out+%26+About": {
+  "metaDescription": "Out & About in Bondi - local guides to events, markets, walks and things to do around Bondi Beach and the Eastern Beaches."
+ },
+ "/bondi-blog/category/People": {
+  "metaDescription": "The people of Bondi - local stories, characters and community from Bondi Beach, by Visit Bondi Beach."
+ },
+ "/bondi-blog/category/History": {
+  "metaDescription": "The history of Bondi Beach - how Sydney's most famous beach became an icon, from its Aboriginal name to its surf-culture legacy."
+ },
+ "/bondi-blog/category/Swim": {
+  "metaDescription": "Swimming at Bondi - local guides to the best swims, the ocean pools, water temperature and beach safety around Bondi Beach."
+ },
+ "/adstxt": {
+  "indexable": false
+ },
+ "/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach": {
+  "title": "A Local's Cafe-by-Cafe Guide to Bondi",
+  "h1": "Bondi cafes, one by one: where we go and what we order",
+  "metaDescription": "Not a ranking - a cafe-by-cafe walk through Bondi from a local: who each place suits, what to order, and which ones are worth the queue."
+ },
+ "/bondi-blog/sunrise-sunset-bondi": {
+  "title": "Bondi Beach Sunrise: Best Spots, Times & Photography Guide",
+  "h1": "Bondi Beach Sunrise: Best Spots, Times & Photography Guide",
+  "metaDescription": "Where and when to catch sunrise at Bondi Beach - the best vantage points, roughly what time the sun rises each season, and photography tips for the shot, from a local."
+ },
+ "/bondi-blog/bondi-beach-toilets-showers-change-rooms": {
+  "title": "Bondi Beach Public Toilets, Showers & Changing Rooms",
+  "h1": "Bondi Beach Public Toilets, Showers & Changing Rooms",
+  "metaDescription": "Where to find public toilets, free beachfront showers and changing rooms at Bondi Beach - the north end, south end and the Pavilion, plus baby-change and accessible facilities."
+ },
+ "/bondi-blog/best-accommodation-bondi-beach": {
+  "title": "How to Choose Where to Stay in Bondi Beach",
+  "h1": "How to choose where to stay in Bondi",
+  "metaDescription": "Beachfront or up the hill, hotel or hostel, Bondi or the Junction - how to work out which part of Bondi to book, and what you trade off either way."
+ }
 }

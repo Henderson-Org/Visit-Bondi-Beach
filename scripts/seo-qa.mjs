@@ -90,6 +90,41 @@ async function main() {
     }
   }
 
+  // --- A protected page must never be redirected or de-indexed ---
+  // seo-protected-pages.json records the owner's policy for the site's highest-traffic
+  // URLs, with YTD pageview evidence. That evidence is NOT in content/pages.json, whose
+  // Search Console impressions are near-zero site-wide post-migration — so a consolidation
+  // decision made on impressions alone can look safe while removing a page with real
+  // traffic. This check is the backstop: it caught three such redirects on pages carrying
+  // 142, 120 and 130 YTD pageviews.
+  let protectedPages = [];
+  try {
+    protectedPages = (JSON.parse(await readFile(join(ROOT, 'seo-protected-pages.json'), 'utf8')).pages || [])
+      .filter((p) => p.allowRedirect === false);
+  } catch { /* manifest optional */ }
+  // An acknowledgedRedirects entry records a protected page the owner has since agreed to
+  // redirect. It is deliberately explicit: overriding this policy should be a decision
+  // someone wrote down, not a silent edit to the redirect list.
+  let acknowledged = new Set();
+  try {
+    const manifest = JSON.parse(await readFile(join(ROOT, 'seo-protected-pages.json'), 'utf8'));
+    acknowledged = new Set(manifest.acknowledgedRedirects || []);
+  } catch { /* manifest optional */ }
+  const byPath = new Map(pages.map((p) => [p.path, p]));
+  for (const prot of protectedPages) {
+    if (redirectSources.has(prot.url) && !acknowledged.has(prot.url)) {
+      issues.error.push(
+        `Protected page is redirected (allowRedirect:false, ${prot.ytdPageviews} YTD views): ${prot.url}`,
+      );
+    }
+    const page = byPath.get(prot.url);
+    if (prot.expectedIndexable && page && !page.indexable && !acknowledged.has(prot.url)) {
+      issues.error.push(
+        `Protected page is not indexable (expectedIndexable, ${prot.ytdPageviews} YTD views): ${prot.url}`,
+      );
+    }
+  }
+
   const missingDesc = indexable.filter((p) => !p.metaDescription).length;
   console.log('— SEO QA report —');
   console.log(`Total pages:        ${pages.length}`);

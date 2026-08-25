@@ -87,7 +87,6 @@ const nextConfig = {
       // Icebergs public-access: same query intent (9 imp) -> the 46-impression survivor; richer body migrated first.
       { source: '/bondi-blog/2024/9/21/can-the-public-swim-at-bondi-icebergs-ocean-pool', destination: '/bondi-blog/can-anyone-swim-at-bondi-icebergs-swimming-pool', statusCode: 301 },
       // Bondi parking: duplicate topic (15 imp) -> the 75-impression, most-backlinked article; unique blocks migrated.
-      { source: '/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days', destination: '/bondi-blog/where-to-find-carpark-bondi-beach', statusCode: 301 },
       // Festival of the Winds: a dated 2023 URL whose title still said "2024" -> one
       // evergreen guide that is updated each year rather than a new page per edition.
       { source: '/bondi-blog/2023/9/9/soaring-high-at-bondi-beach-festival-of-the-winds', destination: '/bondi-blog/festival-of-the-winds-bondi', statusCode: 301 },
@@ -126,8 +125,6 @@ const nextConfig = {
 
       // Eat & drink: the blog list vs. the database collection that supersedes it.
       { source: '/bondi-blog/best-restaurants-bondi-beach', destination: '/bondi-eat-and-drink/best-restaurants-bondi-beach', statusCode: 301 },
-      { source: '/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach', destination: '/bondi-eat-and-drink/best-cafes-bondi-beach', statusCode: 301 },
-      { source: '/bondi-blog/2025/4/25/10-must-try-bondi-beach-bars-backed-in-2025', destination: '/bondi-eat-and-drink/best-bars-bondi-beach', statusCode: 301 },
       { source: '/bondi-blog/bondi-beach-cheap-food', destination: '/bondi-eat-and-drink/cheap-eats-bondi-beach', statusCode: 301 },
       { source: '/bondi-blog/2024/9/7/the-best-vegetarian-and-vegan-restaurants-in-bondi-beach', destination: '/bondi-eat-and-drink/vegan-vegetarian-bondi-beach', statusCode: 301 },
       { source: '/bondi-blog/best-breakfast-bondi-right-now', destination: '/bondi-eat-and-drink/breakfast-brunch-bondi-beach', statusCode: 301 },
@@ -156,7 +153,6 @@ const nextConfig = {
       // Accommodation: the /stay section supersedes the old blog round-ups. The two
       // backpacker articles go to the hostels category rather than the /stay root, so the
       // more specific intent still lands on the more specific page.
-      { source: '/bondi-blog/best-accommodation-bondi-beach', destination: '/stay', statusCode: 301 },
       { source: '/bondi-blog/best-backpacker-hostels-bondi-beach', destination: '/stay/hostels-bondi-beach', statusCode: 301 },
       { source: '/bondi-blog/accommodation-options-for-backpackers-in-bondi-beach', destination: '/stay/hostels-bondi-beach', statusCode: 301 },
 

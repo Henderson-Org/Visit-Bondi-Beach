@@ -54,8 +54,12 @@ const EXPECT_200 = [
   '/bondi-blog/sunrise-sunset-bondi',
   '/bondi-blog/the-ultimate-guide-to-bondi-beach-nightlife',
   '/bondi-blog/2024/9/12/why-bondi-beach-is-so-famous-history-fame-and-culture',
-  '/bondi-blog/best-restaurants-bondi-beach',
-  '/bondi-blog/best-breakfast-bondi-right-now',
+  // Protected pages (seo-protected-pages.json, allowRedirect:false) - these carry real
+  // YTD traffic and must never redirect. Retargeted, not consolidated.
+  '/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach',
+  '/bondi-blog/2025/4/25/10-must-try-bondi-beach-bars-backed-in-2025',
+  '/bondi-blog/best-accommodation-bondi-beach',
+  '/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days',
   '/bondi-blog/best-wine-bars-in-bondi',
   '/bondi-blog/where-to-watch-sport-in-bondi',
 ];
@@ -63,6 +67,9 @@ const EXPECT_200 = [
 // expect301: redirect sources — must 301 in ONE hop to a 200 destination.
 const EXPECT_301 = [
   '/accommodation', '/bondi-blog', '/visit-bondi-beach-guide',
+  // Round 7 consolidation - the blog list vs. the database collection that supersedes it.
+  '/bondi-blog/best-restaurants-bondi-beach',
+  '/bondi-blog/best-breakfast-bondi-right-now',
   '/bondi-blog/2024/1/19/bondis-best-coffee-shops',
   '/bondi-blog/why-is-bondi-so-popular',
 ];
