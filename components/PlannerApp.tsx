@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { PreferenceCards } from '@/components/PreferenceCards';
 import { ItineraryTimeline } from '@/components/ItineraryTimeline';
+import { weatherAppliesTo, type PlanWeather } from '@/lib/weatherFit';
 import { generateItinerary, swapExperience, swapVenue, swapKlook, useAlternative, type Itinerary } from '@/lib/generateBondiItinerary';
 import { track } from '@/lib/analytics';
 import type { Interest, Preferences } from '@/types/preferences';
@@ -17,7 +18,15 @@ function formatDate(iso: string): string {
   return new Intl.DateTimeFormat('en-AU', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(Date.UTC(y, m - 1, d, 12)));
 }
 
-export function PlannerApp() {
+export function PlannerApp({
+  todayWeather = null,
+  todayDate,
+}: {
+  /** Today's conditions, fetched server-side. Null when the providers were unavailable. */
+  todayWeather?: PlanWeather | null;
+  /** Today's date in Sydney, resolved on the server so client-clock skew cannot shift it. */
+  todayDate: string;
+}) {
   const [prefs, setPrefs] = useState<Preferences | null>(null);
   const [itinerary, setItinerary] = useState<Itinerary | null>(null);
   const [debug, setDebug] = useState(false);
@@ -35,12 +44,17 @@ export function PlannerApp() {
   }, []);
 
   const build = (p: Preferences) => {
-    const generated = generateItinerary(p);
+    // Weather shapes the plan only when the visitor is planning TODAY - that is the only
+    // day we hold conditions for. Any other date generates exactly as it did before rather
+    // than being shaped by a forecast that does not apply to it.
+    const weather = todayWeather && weatherAppliesTo(p.date, todayDate) ? todayWeather : null;
+    const generated = generateItinerary(p, weather);
     setPrefs(p);
     setItinerary(generated);
     track('itinerary_generated', {
       interests: p.interests.join(','), duration: p.duration, pace: p.pace,
       stops: generated.items.length, affiliate_shown: generated.hasAffiliate ? 1 : 0,
+      weather_aware: weather ? 1 : 0,
     });
     if (typeof window !== 'undefined') window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -93,6 +107,21 @@ export function PlannerApp() {
           Start over
         </button>
       </div>
+
+      {/* Safety advisories first and visually distinct - surf and UV are the two things
+          on this page that can actually hurt someone. */}
+      {itinerary.advisories.length > 0 && (
+        <ul className="mt-4 space-y-1" aria-label="Conditions advisories">
+          {itinerary.advisories.map((a) => (
+            <li
+              key={a}
+              className="rounded-lg border-l-4 border-amber-500 bg-amber-50 px-3 py-2 text-xs text-amber-900"
+            >
+              {a}
+            </li>
+          ))}
+        </ul>
+      )}
 
       {itinerary.notes.length > 0 && (
         <ul className="mt-4 space-y-1">

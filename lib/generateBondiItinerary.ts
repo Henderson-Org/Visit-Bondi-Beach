@@ -19,6 +19,7 @@ import { walkMinutes, ZONE_LABEL, type Zone } from '@/lib/bondiZones';
 import { PACE_TARGET, REDUNDANCY, MAX_UNEXPLAINED_GAP, MAX_AFFILIATE_ACTIVITIES, TIER_BOOST, tierOf, FEATURED_EXPERIENCES, FEATURED_EXPERIENCE_BOOST } from '@/config/scoringWeights';
 import { activeBundles, bundleBonus } from '@/lib/bundles';
 import { foodIsPriority, type Interest, type MealSlot, type Preferences, type StartTime, type Duration } from '@/types/preferences';
+import { weatherAdjustment, weatherNotes, type PlanWeather } from '@/lib/weatherFit';
 
 /* ------------------------------- time helpers ------------------------------ */
 
@@ -76,7 +77,17 @@ export interface Itinerary {
   window: { start: number; end: number };
   foodPriority: boolean;
   notes: string[];
+  /**
+   * Internal validation messages (overlaps, unexplained gaps). Developer-facing - these
+   * describe faults in OUR plan and are never rendered to a visitor.
+   */
   warnings: string[];
+  /**
+   * Visitor-facing advisories, e.g. big surf or very high UV. Rendered prominently.
+   * Kept separate from `warnings` precisely because that array is not rendered - putting a
+   * safety advisory there would have made it invisible.
+   */
+  advisories: string[];
   hasAffiliate: boolean;
 }
 
@@ -130,7 +141,15 @@ function detour(prev: Zone | null, z: Zone, next: Zone | null): number {
 
 /* --------------------------------- engine --------------------------------- */
 
-export function generateItinerary(prefs: Preferences): Itinerary {
+/**
+ * Build a day plan.
+ *
+ * `weather` is optional and applies ONLY when the caller has established that the planned
+ * date is the day those conditions describe (see lib/weatherFit.ts `weatherAppliesTo`).
+ * Passing null - the default - reproduces the previous behaviour exactly, so a plan for a
+ * future date is never shaped by today's forecast.
+ */
+export function generateItinerary(prefs: Preferences, weather: PlanWeather | null = null): Itinerary {
   const window = windowFor(prefs);
   const weekday = weekdayOf(prefs.date);
   const foodPriority = foodIsPriority(prefs);
@@ -195,6 +214,9 @@ export function generateItinerary(prefs: Preferences): Itinerary {
       if (FEATURED_EXPERIENCES.has(id)) v += FEATURED_EXPERIENCE_BOOST;
       v -= detour(prevZoneOf(), zone, nextAnchor?.zone ?? null) * 1.2;
       if (!isAffiliate) v += (anchorExpPairs.has(id) ? 10 : 0) + bundleBonus(id, bundles);
+      // Today's weather nudges exposed activities down when the day is against them and up
+      // when it is a good one. A nudge, not a veto: the stop still wins if nothing fits better.
+      if (weather) v += weatherAdjustment(fulfils, weather);
       return v;
     };
 
@@ -286,7 +308,15 @@ export function generateItinerary(prefs: Preferences): Itinerary {
   if (items.length === 0) notes.push('No stops matched - try widening your interests or time.');
   if (anchorItems.some((i) => i.hoursVerified === false)) notes.push('Some opening hours are indicative - confirm before you go.');
 
-  return { items, weekday, window, foodPriority, notes, warnings, hasAffiliate: items.some((i) => i.isAffiliate) };
+  // Weather advisories go FIRST: a plan that quietly drops the swim is worse than one that
+  // says why it did. Prepended so the reason precedes the plan it shaped.
+  const advisories: string[] = [];
+  if (weather) {
+    const wn = weatherNotes(weather);
+    notes.unshift(...wn.notes);
+    advisories.push(...wn.warnings);
+  }
+  return { items, weekday, window, foodPriority, notes, warnings, advisories, hasAffiliate: items.some((i) => i.isAffiliate) };
 }
 
 /* ------------------------------- validation ------------------------------- */

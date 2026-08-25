@@ -2,6 +2,10 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import { PlannerApp } from '@/components/PlannerApp';
 import { isProduction, seoTitle } from '@/lib/site';
+import { getConditions } from '@/lib/conditions/service';
+import { sydneyToday } from '@/lib/events';
+import { isWetCode } from '@/lib/conditions/wmo';
+import type { PlanWeather } from '@/lib/weatherFit';
 
 const TITLE = 'Bondi Day Planner';
 const DESCRIPTION =
@@ -18,7 +22,31 @@ export function generateMetadata(): Metadata {
   };
 }
 
-export default function PlanPage() {
+/**
+ * Today's conditions, reduced to what the planner reasons about. Fetched server-side
+ * through the cached provider layer, so the planner costs the visitor no extra request and
+ * the client bundle gains nothing. Returns null if the providers are down - the planner
+ * then behaves exactly as it did before, rather than planning around invented weather.
+ */
+async function todayWeather(): Promise<PlanWeather | null> {
+  try {
+    const c = await getConditions('bondi');
+    if (!c.current && !c.today) return null;
+    return {
+      wet: isWetCode(c.current?.weather?.code ?? null),
+      rainChancePct: c.today?.rainChancePct ?? null,
+      maxTempC: c.today?.maxTempC ?? null,
+      waveHeightM: c.surf?.waveHeightM ?? null,
+      waterTempC: c.surf?.waterTempC ?? null,
+      uvIndexMax: c.today?.uvIndexMax ?? null,
+    };
+  } catch {
+    return null;
+  }
+}
+
+export default async function PlanPage() {
+  const [weather, today] = [await todayWeather(), sydneyToday()];
   return (
     <div>
       {/* Compact hero - deliberately short on mobile so the planner is front-and-centre. */}
@@ -42,7 +70,7 @@ export default function PlanPage() {
         </p>
       </div>
 
-      <PlannerApp />
+      <PlannerApp todayWeather={weather} todayDate={today} />
     </div>
   );
 }
