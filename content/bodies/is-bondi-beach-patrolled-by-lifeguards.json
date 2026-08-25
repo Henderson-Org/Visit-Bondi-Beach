@@ -2,43 +2,127 @@
   "path": "/bondi-blog/is-bondi-beach-patrolled-by-lifeguards",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "seasonal",
   "sources": [
-    { "label": "Waverley Council - Beach Safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
-    { "label": "Surf Life Saving NSW", "url": "https://www.surflifesaving.com.au/" },
-    { "label": "Beachsafe - Bondi Beach", "url": "https://beachsafe.org.au/beach/bondi" }
+    {
+      "label": "Waverley Council - Beach Safety",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety"
+    },
+    {
+      "label": "Surf Life Saving NSW",
+      "url": "https://www.surflifesaving.com.au/"
+    },
+    {
+      "label": "Beachsafe - Bondi Beach",
+      "url": "https://beachsafe.org.au/beach/bondi"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "Yes - Bondi Beach is patrolled by professional lifeguards every single day of the year. These are the same blue-shirted crew you'll recognise from the TV show Bondi Rescue, employed by Waverley Council, and they're on the sand 365 days a year keeping watch over one of the busiest swimming beaches on earth. If you only remember one thing from this guide, make it this: swim between the red and yellow flags, and you're swimming in the safest patch of water on the beach." },
-    { "type": "quickFacts", "items": [
-      { "label": "Who patrols", "value": "Waverley Council professional lifeguards (blue uniforms)" },
-      { "label": "When", "value": "365 days a year, daylight hours" },
-      { "label": "Safe zone", "value": "Between the red & yellow flags" },
-      { "label": "In an emergency", "value": "Raise one arm, stay calm, float" }
-    ] },
-    { "type": "h2", "text": "Lifeguards vs lifesavers - who's actually watching?" },
-    { "type": "p", "text": "This trips a lot of visitors up. Bondi has two kinds of guardian. The professional lifeguards wear blue and are paid, full-time Waverley Council staff - on duty here year-round, rain, hail or 40-degree heatwave. The volunteer surf lifesavers wear the iconic red and yellow, are trained through Surf Life Saving, and turn out on weekends and public holidays through the warmer months. On a busy summer Sunday you'll often see both teams working the beach together." },
-    { "type": "h2", "text": "What hours are the lifeguards on duty?" },
-    { "type": "p", "text": "Lifeguards patrol during daylight hours all year, but the exact start and finish times shift with the season - longer through the warmer months (roughly October to April) and shorter through winter. Waverley Council is known for some of the longest patrol hours in the country, but because the times shift seasonally, I won't pin an exact figure here that could be out of date by the time you visit." },
-    { "type": "callout", "tone": "note", "title": "Check the current times before you go", "text": "For the exact patrol hours on the day you're visiting, check the Waverley Council beach safety page. Times change between summer and winter, so it's worth a 30-second look - especially if you're planning an early-morning or late-afternoon swim." },
-    { "type": "h2", "text": "Swim between the flags - this is the whole game" },
-    { "type": "p", "text": "The two red and yellow flags planted in the sand mark the supervised swimming area. The lifeguards choose that spot deliberately - it's where the conditions are safest that day and where they can see every swimmer. The flags move as the surf and the sandbanks shift, so don't assume yesterday's spot is today's. If you're in the water and you can't see a flag on either side of you, you've drifted too far. Swim back in." },
-    { "type": "list", "items": [
-      "Always swim between the red and yellow flags.",
-      "Read the beach safety signs at the promenade before you go in.",
-      "Never swim alone, at night, or after drinking.",
-      "Keep kids within arm's reach in the water at all times.",
-      "If you're unsure about conditions, just ask a lifeguard - that's what they're there for."
-    ] },
-    { "type": "h2", "text": "Rip currents: the real hazard, and how to survive one" },
-    { "type": "p", "text": "Rips are the single biggest danger at any Australian surf beach, Bondi included. A rip is a strong, narrow current that pulls water - and swimmers - away from the shore, often faster than you can swim against it. The classic Bondi rip is the notorious \"Backpackers' Express\" near the southern end, which catches out visitors who set up their towel by the closest car park and swim straight out in front of it, well away from the flags." },
-    { "type": "localTip", "text": "If you get caught in a rip, don't fight it and don't panic - that's what tires people out. Stay calm, float, and raise one arm straight up to signal the lifeguards. A rip won't pull you under, only outward, and the lifeguards are watching the flagged area constantly. Let the current ease, then swim parallel to the beach toward the breaking waves to get back in." },
-    { "type": "p", "text": "Bondi's other hazards are the ordinary ones of any ocean beach: dumping waves, the odd submerged rock near the headlands, and strong sun. Slip on a rashie, slop on sunscreen, and give the water the respect it deserves. Do that, stay between the flags, and Bondi is a genuinely safe and glorious place to swim." },
-    { "type": "faq", "items": [
-      { "q": "Is Bondi Beach patrolled all year round?", "a": "Yes. Professional lifeguards employed by Waverley Council patrol Bondi 365 days a year during daylight hours. Volunteer surf lifesavers in red and yellow add extra weekend and public-holiday coverage through the warmer months." },
-      { "q": "What time do the Bondi lifeguards start and finish?", "a": "They patrol during daylight hours all year, with longer hours in the warmer months and shorter ones in winter. Because the times are adjusted seasonally, check the Waverley Council beach safety page for the current hours on the day you visit." },
-      { "q": "What do the red and yellow flags mean at Bondi?", "a": "They mark the supervised swimming area the lifeguards have judged safest that day. Always swim between them - that's where the lifeguards are actively watching and where the conditions are best." },
-      { "q": "What should I do if I get caught in a rip current?", "a": "Stay calm and don't try to swim against it. Float to conserve energy and raise one arm to signal for help. A rip pulls you out, not under. Once it eases, swim parallel to the beach toward the breaking waves." },
-      { "q": "Is it safe to swim at Bondi outside patrol hours?", "a": "It's not recommended. If there are no lifeguards on duty and no flags flying, there's no one watching if you get into trouble. Wait until the beach is patrolled and swim between the flags." }
-    ] }
+    {
+      "type": "p",
+      "text": "Yes - Bondi Beach is patrolled by professional lifeguards every single day of the year. These are the same blue-shirted crew you'll recognise from the TV show Bondi Rescue, employed by Waverley Council, and they're on the sand 365 days a year keeping watch over one of the busiest swimming beaches on earth. If you only remember one thing from this guide, make it this: swim between the red and yellow flags, and you're swimming in the safest patch of water on the beach."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Who patrols",
+          "value": "Waverley Council professional lifeguards (blue uniforms)"
+        },
+        {
+          "label": "When",
+          "value": "365 days a year, daylight hours"
+        },
+        {
+          "label": "Safe zone",
+          "value": "Between the red & yellow flags"
+        },
+        {
+          "label": "In an emergency",
+          "value": "Raise one arm, stay calm, float"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Lifeguards vs lifesavers - who's actually watching?"
+    },
+    {
+      "type": "p",
+      "text": "This trips a lot of visitors up. Bondi has two kinds of guardian. The professional lifeguards wear blue and are paid, full-time Waverley Council staff - on duty here year-round, rain, hail or 40-degree heatwave. The volunteer surf lifesavers wear the iconic red and yellow, are trained through Surf Life Saving, and turn out on weekends and public holidays through the warmer months. On a busy summer Sunday you'll often see both teams working the beach together."
+    },
+    {
+      "type": "h2",
+      "text": "What hours are the lifeguards on duty?"
+    },
+    {
+      "type": "p",
+      "text": "Lifeguards patrol during daylight hours all year, but the exact start and finish times shift with the season - longer through the warmer months (roughly October to April) and shorter through winter. Waverley Council is known for some of the longest patrol hours in the country, but because the times shift seasonally, I won't pin an exact figure here that could be out of date by the time you visit."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Check the current times before you go",
+      "text": "For the exact patrol hours on the day you're visiting, check the Waverley Council beach safety page. Times change between summer and winter, so it's worth a 30-second look - especially if you're planning an early-morning or late-afternoon swim."
+    },
+    {
+      "type": "h2",
+      "text": "Swim between the flags - this is the whole game"
+    },
+    {
+      "type": "p",
+      "text": "The two red and yellow flags planted in the sand mark the supervised swimming area. The lifeguards choose that spot deliberately - it's where the conditions are safest that day and where they can see every swimmer. The flags move as the surf and the sandbanks shift, so don't assume yesterday's spot is today's. If you're in the water and you can't see a flag on either side of you, you've drifted too far. Swim back in."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Always swim between the red and yellow flags.",
+        "Read the beach safety signs at the promenade before you go in.",
+        "Never swim alone, at night, or after drinking.",
+        "Keep kids within arm's reach in the water at all times.",
+        "If you're unsure about conditions, just ask a lifeguard - that's what they're there for."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Rip currents: the real hazard, and how to survive one"
+    },
+    {
+      "type": "p",
+      "text": "Rips are the single biggest danger at any Australian surf beach, Bondi included. A rip is a strong, narrow current that pulls water - and swimmers - away from the shore, often faster than you can swim against it. The classic Bondi rip is the notorious \"Backpackers' Express\" near the southern end, which catches out visitors who set up their towel by the closest car park and swim straight out in front of it, well away from the flags."
+    },
+    {
+      "type": "localTip",
+      "text": "If you get caught in a rip, don't fight it and don't panic - that's what tires people out. Stay calm, float, and raise one arm straight up to signal the lifeguards. A rip won't pull you under, only outward, and the lifeguards are watching the flagged area constantly. Let the current ease, then swim parallel to the beach toward the breaking waves to get back in."
+    },
+    {
+      "type": "p",
+      "text": "Bondi's other hazards are the ordinary ones of any ocean beach: dumping waves, the odd submerged rock near the headlands, and strong sun. Slip on a rashie, slop on sunscreen, and give the water the respect it deserves. Do that, stay between the flags, and Bondi is a genuinely safe and glorious place to swim."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is Bondi Beach patrolled all year round?",
+          "a": "Yes. Professional lifeguards employed by Waverley Council patrol Bondi 365 days a year during daylight hours. Volunteer surf lifesavers in red and yellow add extra weekend and public-holiday coverage through the warmer months."
+        },
+        {
+          "q": "What time do the Bondi lifeguards start and finish?",
+          "a": "They patrol during daylight hours all year, with longer hours in the warmer months and shorter ones in winter. Because the times are adjusted seasonally, check the Waverley Council beach safety page for the current hours on the day you visit."
+        },
+        {
+          "q": "What do the red and yellow flags mean at Bondi?",
+          "a": "They mark the supervised swimming area the lifeguards have judged safest that day. Always swim between them - that's where the lifeguards are actively watching and where the conditions are best."
+        },
+        {
+          "q": "What should I do if I get caught in a rip current?",
+          "a": "Stay calm and don't try to swim against it. Float to conserve energy and raise one arm to signal for help. A rip pulls you out, not under. Once it eases, swim parallel to the beach toward the breaking waves."
+        },
+        {
+          "q": "Is it safe to swim at Bondi outside patrol hours?",
+          "a": "It's not recommended. If there are no lifeguards on duty and no flags flying, there's no one watching if you get into trouble. Wait until the beach is patrolled and swim between the flags."
+        }
+      ]
+    }
   ]
 }

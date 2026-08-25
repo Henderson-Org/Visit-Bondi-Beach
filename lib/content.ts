@@ -5,6 +5,7 @@
  */
 import pagesData from '@/content/pages.json';
 import bodyOverridesData from '@/content/body-overrides.json';
+import freshnessPolicy from '@/content/freshness-policy.json';
 // Note: articles.ts imports from this module too; the cycle is safe because both sides
 // only use the other's bindings at call time (never at module init).
 import { articleHub } from '@/lib/articles';
@@ -75,10 +76,12 @@ export interface Source {
 export type FreshnessClass =
   | 'live' | 'weekly' | 'monthly' | 'quarterly' | 'seasonal' | 'annual' | 'evergreen';
 
-/** Max days before a page of each class is "overdue" for review (used by the audit script). */
-export const FRESHNESS_MAX_DAYS: Record<FreshnessClass, number> = {
-  live: 7, weekly: 10, monthly: 45, quarterly: 100, seasonal: 200, annual: 400, evergreen: 550,
-};
+/**
+ * Max days before a page of each class is "overdue" for review. The cadences live in
+ * content/freshness-policy.json so the app, lib/freshness.ts and the .mjs audit script
+ * all read one file - previously the same table was hard-coded in two places and could drift.
+ */
+export const FRESHNESS_MAX_DAYS = freshnessPolicy.maxDays as Record<FreshnessClass, number>;
 
 export interface Page {
   path: string;

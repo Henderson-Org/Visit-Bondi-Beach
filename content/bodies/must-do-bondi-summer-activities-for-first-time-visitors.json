@@ -2,45 +2,140 @@
   "path": "/bondi-blog/2024/1/1/must-do-bondi-summer-activities-for-first-time-visitors",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "seasonal",
   "sources": [
-    { "label": "Bondi Markets (official)", "url": "https://bondimarkets.com.au/bondi-markets" },
-    { "label": "Sydney.com - Bondi to Coogee Coastal Walk", "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk" },
-    { "label": "Surf Life Saving NSW - Swim between the flags", "url": "https://www.surflifesaving.com.au/programs/beach-safety" },
-    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" },
-    { "label": "Waverley Council - Bondi Beach", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" }
+    {
+      "label": "Bondi Markets (official)",
+      "url": "https://bondimarkets.com.au/bondi-markets"
+    },
+    {
+      "label": "Sydney.com - Bondi to Coogee Coastal Walk",
+      "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-coogee-coastal-walk"
+    },
+    {
+      "label": "Surf Life Saving NSW - Swim between the flags",
+      "url": "https://www.surflifesaving.com.au/programs/beach-safety"
+    },
+    {
+      "label": "Bondi Icebergs Club",
+      "url": "https://icebergs.com.au/"
+    },
+    {
+      "label": "Waverley Council - Bondi Beach",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If it's your first Bondi summer and you only have a day or two, do these five things first: swim between the red-and-yellow flags, walk at least the opening stretch of the Bondi to Coogee coastal path, watch the waves from the Icebergs pool, browse the Sunday markets, and be on the sand for one sunrise. That's the shortlist I give every visiting friend; everything else is a bonus." },
-    { "type": "quickFacts", "items": [
-      { "label": "Best months", "value": "December to February (peak summer)" },
-      { "label": "Coastal walk", "value": "Bondi to Coogee, ~6km, allow 2-3 hours" },
-      { "label": "Markets", "value": "Bondi Markets, Sundays, Bondi Beach Public School" },
-      { "label": "Golden rule", "value": "Always swim between the flags" }
-    ] },
-    { "type": "h2", "text": "Swim between the flags (this one's non-negotiable)" },
-    { "type": "p", "text": "The single most important thing I can tell a first-timer is where to get in the water. Bondi has rips - narrow channels of water pulling back out to sea - and they're the reason lifesavers plant the red-and-yellow flags where they do. The patrolled zone between those flags is the safest water on the beach, watched over all summer. Swim there, not in the tempting-but-empty corners near the rocks. If you're unsure, the north end near the pavilion is usually the gentlest." },
-    { "type": "callout", "tone": "warning", "title": "If you get caught in a rip", "text": "Don't fight it and don't panic. Raise an arm to signal for help, float to conserve energy, and let it carry you out until it weakens - then swim back at an angle, parallel to the beach, towards the flags. Rips pull you out, not under." },
-    { "type": "h2", "text": "Walk the coast to Coogee" },
-    { "type": "p", "text": "The Bondi to Coogee coastal walk is the best free thing to do in the east. It runs roughly 6km along the cliffs, dipping down to Tamarama, Bronte, Clovelly and finally Coogee, and most people take two to three hours with photo stops. You don't have to do the whole thing on a first visit - even the first leg to Bronte, past the Icebergs pool and Mackenzies Point, delivers the postcard views." },
-    { "type": "list", "items": [
-      "Go early: by mid-morning in summer the cliff path is busy and the sun is fierce.",
-      "Bronte and Clovelly make great swim-and-turnaround points if you don't want the full 6km.",
-      "Carry water and sunscreen - there's little shade on the clifftops.",
-      "Check the tide and swell if you plan to swim; the ocean pools along the way are the calm option."
-    ] },
-    { "type": "localTip", "text": "Do the walk from Bondi towards Coogee in the morning with the sun behind you, then get the bus back. It's flatter on the eyes for photos and you finish near Coogee's cafes for a well-earned lunch instead of a long trudge home." },
-    { "type": "h2", "text": "Icebergs, the markets and a sunrise" },
-    { "type": "p", "text": "No first Bondi summer is complete without the Icebergs pool - that famous ocean pool at the south end where waves crash straight over the lap lanes. You can swim in the public pool or just watch from above with a coffee - it's the shot everyone comes for. Session times, entry and dining hours change with the season, so check the Icebergs website before you go rather than turning up on spec." },
-    { "type": "p", "text": "On a Sunday, the Bondi Markets fill the Bondi Beach Public School grounds on Campbell Parade, a block back from the sand - vintage clothing, local designers, handmade jewellery, art and food stalls. There's a separate farmers' market on Saturdays if you're chasing fresh produce and breakfast." },
-    { "type": "p", "text": "If you do one thing at an odd hour, make it sunrise. Bondi faces east, so the sun rises straight out of the ocean. Walk down early, watch the surfers paddle into the pink light, and you'll understand why locals put up with the crowds the rest of the day. It's my favourite hour on the beach." },
-    { "type": "callout", "tone": "note", "title": "Sun sense", "text": "Australian summer sun is no joke. Slip on a shirt, slop on SPF 50+, slap on a hat, and reapply after swimming. The UV is often extreme even when it doesn't feel hot, so seek shade in the middle of the day." },
-    { "type": "faq", "items": [
-      { "q": "When is summer in Bondi?", "a": "Australian summer runs December to February, with the warmest, busiest beach weather usually from mid-December through February. Shoulder months like November and March are quieter and still lovely for swimming." },
-      { "q": "Is Bondi Beach safe to swim at?", "a": "Yes, when you swim between the red-and-yellow flags on the patrolled section of the beach. That's where lifesavers watch and where the water is safest. Avoid swimming near the rocks or in unpatrolled corners where rips form." },
-      { "q": "Do I need to book anything in advance?", "a": "Most of the classics - the beach, the coastal walk, the markets - are free and need no booking. For surf lessons or a table on a busy summer weekend, check ahead and confirm current times and prices on each venue's official site." },
-      { "q": "How do I get to Bondi Beach?", "a": "The easiest public-transport route from the city is a train to Bondi Junction, then a bus down to the beach, tapping on with an Opal or contactless card. Check Transport for NSW for current timetables and route numbers." },
-      { "q": "What's the one thing I shouldn't miss?", "a": "Walk the first stretch of the Bondi to Coogee path in the morning light, then finish with a swim between the flags. It captures everything people love about a Bondi summer in a couple of hours." }
-    ] },
-    { "type": "p", "text": "That's the honest first-timer's list. Swim safely, walk the cliffs, and give yourself one early morning on the sand - do that and you'll leave already planning your next Bondi summer." }
+    {
+      "type": "p",
+      "text": "If it's your first Bondi summer and you only have a day or two, do these five things first: swim between the red-and-yellow flags, walk at least the opening stretch of the Bondi to Coogee coastal path, watch the waves from the Icebergs pool, browse the Sunday markets, and be on the sand for one sunrise. That's the shortlist I give every visiting friend; everything else is a bonus."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Best months",
+          "value": "December to February (peak summer)"
+        },
+        {
+          "label": "Coastal walk",
+          "value": "Bondi to Coogee, ~6km, allow 2-3 hours"
+        },
+        {
+          "label": "Markets",
+          "value": "Bondi Markets, Sundays, Bondi Beach Public School"
+        },
+        {
+          "label": "Golden rule",
+          "value": "Always swim between the flags"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Swim between the flags (this one's non-negotiable)"
+    },
+    {
+      "type": "p",
+      "text": "The single most important thing I can tell a first-timer is where to get in the water. Bondi has rips - narrow channels of water pulling back out to sea - and they're the reason lifesavers plant the red-and-yellow flags where they do. The patrolled zone between those flags is the safest water on the beach, watched over all summer. Swim there, not in the tempting-but-empty corners near the rocks. If you're unsure, the north end near the pavilion is usually the gentlest."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "If you get caught in a rip",
+      "text": "Don't fight it and don't panic. Raise an arm to signal for help, float to conserve energy, and let it carry you out until it weakens - then swim back at an angle, parallel to the beach, towards the flags. Rips pull you out, not under."
+    },
+    {
+      "type": "h2",
+      "text": "Walk the coast to Coogee"
+    },
+    {
+      "type": "p",
+      "text": "The Bondi to Coogee coastal walk is the best free thing to do in the east. It runs roughly 6km along the cliffs, dipping down to Tamarama, Bronte, Clovelly and finally Coogee, and most people take two to three hours with photo stops. You don't have to do the whole thing on a first visit - even the first leg to Bronte, past the Icebergs pool and Mackenzies Point, delivers the postcard views."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Go early: by mid-morning in summer the cliff path is busy and the sun is fierce.",
+        "Bronte and Clovelly make great swim-and-turnaround points if you don't want the full 6km.",
+        "Carry water and sunscreen - there's little shade on the clifftops.",
+        "Check the tide and swell if you plan to swim; the ocean pools along the way are the calm option."
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "Do the walk from Bondi towards Coogee in the morning with the sun behind you, then get the bus back. It's flatter on the eyes for photos and you finish near Coogee's cafes for a well-earned lunch instead of a long trudge home."
+    },
+    {
+      "type": "h2",
+      "text": "Icebergs, the markets and a sunrise"
+    },
+    {
+      "type": "p",
+      "text": "No first Bondi summer is complete without the Icebergs pool - that famous ocean pool at the south end where waves crash straight over the lap lanes. You can swim in the public pool or just watch from above with a coffee - it's the shot everyone comes for. Session times, entry and dining hours change with the season, so check the Icebergs website before you go rather than turning up on spec."
+    },
+    {
+      "type": "p",
+      "text": "On a Sunday, the Bondi Markets fill the Bondi Beach Public School grounds on Campbell Parade, a block back from the sand - vintage clothing, local designers, handmade jewellery, art and food stalls. There's a separate farmers' market on Saturdays if you're chasing fresh produce and breakfast."
+    },
+    {
+      "type": "p",
+      "text": "If you do one thing at an odd hour, make it sunrise. Bondi faces east, so the sun rises straight out of the ocean. Walk down early, watch the surfers paddle into the pink light, and you'll understand why locals put up with the crowds the rest of the day. It's my favourite hour on the beach."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Sun sense",
+      "text": "Australian summer sun is no joke. Slip on a shirt, slop on SPF 50+, slap on a hat, and reapply after swimming. The UV is often extreme even when it doesn't feel hot, so seek shade in the middle of the day."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "When is summer in Bondi?",
+          "a": "Australian summer runs December to February, with the warmest, busiest beach weather usually from mid-December through February. Shoulder months like November and March are quieter and still lovely for swimming."
+        },
+        {
+          "q": "Is Bondi Beach safe to swim at?",
+          "a": "Yes, when you swim between the red-and-yellow flags on the patrolled section of the beach. That's where lifesavers watch and where the water is safest. Avoid swimming near the rocks or in unpatrolled corners where rips form."
+        },
+        {
+          "q": "Do I need to book anything in advance?",
+          "a": "Most of the classics - the beach, the coastal walk, the markets - are free and need no booking. For surf lessons or a table on a busy summer weekend, check ahead and confirm current times and prices on each venue's official site."
+        },
+        {
+          "q": "How do I get to Bondi Beach?",
+          "a": "The easiest public-transport route from the city is a train to Bondi Junction, then a bus down to the beach, tapping on with an Opal or contactless card. Check Transport for NSW for current timetables and route numbers."
+        },
+        {
+          "q": "What's the one thing I shouldn't miss?",
+          "a": "Walk the first stretch of the Bondi to Coogee path in the morning light, then finish with a swim between the flags. It captures everything people love about a Bondi summer in a couple of hours."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's the honest first-timer's list. Swim safely, walk the cliffs, and give yourself one early morning on the sand - do that and you'll leave already planning your next Bondi summer."
+    }
   ]
 }

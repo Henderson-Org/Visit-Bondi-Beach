@@ -2,37 +2,121 @@
   "path": "/bondi-blog/2023/12/13/celebrating-new-years-day-with-a-dutch-twist-at-bondi-beach",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "annual",
   "sources": [
-    { "label": "Waverley Council - Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
-    { "label": "Surf Life Saving - Beachsafe", "url": "https://beachsafe.org.au" },
-    { "label": "Transport for NSW - trip planner", "url": "https://transportnsw.info" }
+    {
+      "label": "Waverley Council - Beach safety",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety"
+    },
+    {
+      "label": "Surf Life Saving - Beachsafe",
+      "url": "https://beachsafe.org.au"
+    },
+    {
+      "label": "Transport for NSW - trip planner",
+      "url": "https://transportnsw.info"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you want something a little different for New Year's Day at Bondi, this is it: a Dutch-flavoured ocean plunge known as the Nieuwjaarsduik, or “New Year's Dive.” On January 1, a crowd of orange-clad swimmers - many of them Dutch expats and friends of the Netherlands - gathers on the sand to run into the Pacific together and wash off the old year. It's part cultural ritual, part joyful excuse for a cold-ish swim, and anyone is welcome to join in." },
-    { "type": "p", "text": "The Nieuwjaarsduik is a genuine Dutch institution. Back home in the Netherlands, thousands plunge into the freezing North Sea every New Year's Day, traditionally pulling on a bright orange hat - orange being the national colour. Transplanted to Bondi, the ritual keeps the orange and the camaraderie but swaps the icy grey North Sea for a sunny Sydney summer, which, frankly, is a much easier sell." },
-    { "type": "h2", "text": "How to find the plunge" },
-    { "type": "p", "text": "This gathering is community-organised by Bondi's Dutch crowd rather than a ticketed, council-run festival, so I won't pin down an exact meeting time or a fixed spot that could be wrong by the time you read this - those details shift from year to year. In practice it forms up on the main stretch of sand, and you'll spot it a mile off: look for the cluster of orange hats and shirts near the flags. The reliable way to get the confirmed date, time and meeting point for the coming year is to check the organisers' own website and social channels before you head down." },
-    { "type": "localTip", "text": "Pack an orange hat or shirt if you can - it's the whole point, and it's how the group finds each other on a packed beach. If you forget, don't stress; nobody's turned away for wearing the wrong colour." },
-    { "type": "h2", "text": "Swim smart on the day" },
-    { "type": "callout", "tone": "warning", "title": "Swim between the flags", "text": "Bondi is patrolled by Surf Life Saving lifeguards, but New Year's Day brings big crowds and plenty of tired swimmers into the water. Always swim between the red-and-yellow flags, keep an eye on the kids, and if the surf looks heavy, ease in slowly rather than sprinting in with the pack. A group plunge is a laugh; a rip is not." },
-    { "type": "p", "text": "A few things worth knowing whether or not you join the dive: Bondi Beach is a permanent alcohol-free and glass-free zone that Waverley Council enforces, New Year's Day included, so any celebrating with a drink happens up on the promenade or inside the venues, not on the sand. January is peak Sydney summer, too - the water is refreshing but the sun is fierce, and the promenade offers almost no shade." },
-    { "type": "quickFacts", "items": [
-      { "label": "What", "value": "Dutch New Year's Dive (Nieuwjaarsduik)" },
-      { "label": "When", "value": "New Year's Day - confirm the time with the organisers" },
-      { "label": "Dress code", "value": "Orange, ideally a hat" },
-      { "label": "Cost", "value": "Free to join the swim" },
-      { "label": "Beach rules", "value": "Alcohol-free & glass-free zone" }
-    ] },
-    { "type": "h2", "text": "Getting there" },
-    { "type": "p", "text": "Leave the car at home if you can. Parking near the beach is scarce and metered, and New Year's road closures and clean-up can make the surrounding streets a headache. Public transport is far easier: take a train to Bondi Junction and connect to a bus down to the beach - the 333 and 380 both run to Bondi Beach. Check Transport for NSW for live times, because holiday timetables differ from an ordinary day." },
-    { "type": "localTip", "text": "Bring reef-safe sunscreen, a hat for after the swim and your own water bottle. There are public bubblers along the promenade to refill - I've watched too many visitors get fried by 11am with nothing to drink." },
-    { "type": "faq", "items": [
-      { "q": "What is the Dutch New Year's Dive at Bondi?", "a": "It's a Bondi version of the Nieuwjaarsduik, the Dutch tradition of plunging into the sea on January 1. A crowd, many of them Dutch expats, wears orange and runs into the ocean together to start the year fresh. Anyone can join." },
-      { "q": "Do I have to be Dutch to take part?", "a": "Not at all. It's an open, welcoming swim - locals, tourists and curious passers-by are all encouraged to jump in. Wearing orange is the only real dress code, and even that's optional." },
-      { "q": "What time and where does it happen?", "a": "The meeting time and spot are set by the community organisers and can change year to year, so I won't quote a time that might be out of date. It gathers on the main beach near the flags; check the organisers' website and social channels for this year's confirmed details." },
-      { "q": "Is it free?", "a": "Yes, joining the swim itself is free. Some organisers sell commemorative orange hats to mark the occasion, but there's no ticket needed to run into the water." },
-      { "q": "Can I drink alcohol on the beach to celebrate?", "a": "No. Bondi Beach is a permanent alcohol-free and glass-free zone enforced by Waverley Council, on New Year's Day too. Save the toast for the promenade or a nearby venue." }
-    ] },
-    { "type": "p", "text": "That's the Dutch twist on a Bondi New Year - no fireworks, no cover charge, just a sea of orange, a bracing swim and a big shared laugh to kick off the year. Wear the hat, swim between the flags, and I'll see you in the water." }
+    {
+      "type": "p",
+      "text": "If you want something a little different for New Year's Day at Bondi, this is it: a Dutch-flavoured ocean plunge known as the Nieuwjaarsduik, or “New Year's Dive.” On January 1, a crowd of orange-clad swimmers - many of them Dutch expats and friends of the Netherlands - gathers on the sand to run into the Pacific together and wash off the old year. It's part cultural ritual, part joyful excuse for a cold-ish swim, and anyone is welcome to join in."
+    },
+    {
+      "type": "p",
+      "text": "The Nieuwjaarsduik is a genuine Dutch institution. Back home in the Netherlands, thousands plunge into the freezing North Sea every New Year's Day, traditionally pulling on a bright orange hat - orange being the national colour. Transplanted to Bondi, the ritual keeps the orange and the camaraderie but swaps the icy grey North Sea for a sunny Sydney summer, which, frankly, is a much easier sell."
+    },
+    {
+      "type": "h2",
+      "text": "How to find the plunge"
+    },
+    {
+      "type": "p",
+      "text": "This gathering is community-organised by Bondi's Dutch crowd rather than a ticketed, council-run festival, so I won't pin down an exact meeting time or a fixed spot that could be wrong by the time you read this - those details shift from year to year. In practice it forms up on the main stretch of sand, and you'll spot it a mile off: look for the cluster of orange hats and shirts near the flags. The reliable way to get the confirmed date, time and meeting point for the coming year is to check the organisers' own website and social channels before you head down."
+    },
+    {
+      "type": "localTip",
+      "text": "Pack an orange hat or shirt if you can - it's the whole point, and it's how the group finds each other on a packed beach. If you forget, don't stress; nobody's turned away for wearing the wrong colour."
+    },
+    {
+      "type": "h2",
+      "text": "Swim smart on the day"
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Swim between the flags",
+      "text": "Bondi is patrolled by Surf Life Saving lifeguards, but New Year's Day brings big crowds and plenty of tired swimmers into the water. Always swim between the red-and-yellow flags, keep an eye on the kids, and if the surf looks heavy, ease in slowly rather than sprinting in with the pack. A group plunge is a laugh; a rip is not."
+    },
+    {
+      "type": "p",
+      "text": "A few things worth knowing whether or not you join the dive: Bondi Beach is a permanent alcohol-free and glass-free zone that Waverley Council enforces, New Year's Day included, so any celebrating with a drink happens up on the promenade or inside the venues, not on the sand. January is peak Sydney summer, too - the water is refreshing but the sun is fierce, and the promenade offers almost no shade."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "What",
+          "value": "Dutch New Year's Dive (Nieuwjaarsduik)"
+        },
+        {
+          "label": "When",
+          "value": "New Year's Day - confirm the time with the organisers"
+        },
+        {
+          "label": "Dress code",
+          "value": "Orange, ideally a hat"
+        },
+        {
+          "label": "Cost",
+          "value": "Free to join the swim"
+        },
+        {
+          "label": "Beach rules",
+          "value": "Alcohol-free & glass-free zone"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Getting there"
+    },
+    {
+      "type": "p",
+      "text": "Leave the car at home if you can. Parking near the beach is scarce and metered, and New Year's road closures and clean-up can make the surrounding streets a headache. Public transport is far easier: take a train to Bondi Junction and connect to a bus down to the beach - the 333 and 380 both run to Bondi Beach. Check Transport for NSW for live times, because holiday timetables differ from an ordinary day."
+    },
+    {
+      "type": "localTip",
+      "text": "Bring reef-safe sunscreen, a hat for after the swim and your own water bottle. There are public bubblers along the promenade to refill - I've watched too many visitors get fried by 11am with nothing to drink."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What is the Dutch New Year's Dive at Bondi?",
+          "a": "It's a Bondi version of the Nieuwjaarsduik, the Dutch tradition of plunging into the sea on January 1. A crowd, many of them Dutch expats, wears orange and runs into the ocean together to start the year fresh. Anyone can join."
+        },
+        {
+          "q": "Do I have to be Dutch to take part?",
+          "a": "Not at all. It's an open, welcoming swim - locals, tourists and curious passers-by are all encouraged to jump in. Wearing orange is the only real dress code, and even that's optional."
+        },
+        {
+          "q": "What time and where does it happen?",
+          "a": "The meeting time and spot are set by the community organisers and can change year to year, so I won't quote a time that might be out of date. It gathers on the main beach near the flags; check the organisers' website and social channels for this year's confirmed details."
+        },
+        {
+          "q": "Is it free?",
+          "a": "Yes, joining the swim itself is free. Some organisers sell commemorative orange hats to mark the occasion, but there's no ticket needed to run into the water."
+        },
+        {
+          "q": "Can I drink alcohol on the beach to celebrate?",
+          "a": "No. Bondi Beach is a permanent alcohol-free and glass-free zone enforced by Waverley Council, on New Year's Day too. Save the toast for the promenade or a nearby venue."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's the Dutch twist on a Bondi New Year - no fireworks, no cover charge, just a sea of orange, a bracing swim and a big shared laugh to kick off the year. Wear the hat, swim between the flags, and I'll see you in the water."
+    }
   ]
 }

@@ -2,46 +2,142 @@
   "path": "/bondi-blog/bondi-beach-lockers-where-to-leave-valuables",
   "voice": "first-person",
   "lastReviewed": "2026-08-12",
+  "freshnessClass": "monthly",
   "sources": [
-    { "label": "Bondi Pavilion - facilities & lockers", "url": "https://www.bondipavilion.com.au/visit/our_facilities" },
-    { "label": "NSW Police - keeping valuables safe at the beach", "url": "https://www.police.nsw.gov.au/__data/assets/pdf_file/0006/781305/15255_Fact_Sheet_-_Keeping_Valuables_Safe_at_the_Beach.pdf" }
+    {
+      "label": "Bondi Pavilion - facilities & lockers",
+      "url": "https://www.bondipavilion.com.au/visit/our_facilities"
+    },
+    {
+      "label": "NSW Police - keeping valuables safe at the beach",
+      "url": "https://www.police.nsw.gov.au/__data/assets/pdf_file/0006/781305/15255_Fact_Sheet_-_Keeping_Valuables_Safe_at_the_Beach.pdf"
+    }
   ],
   "blocks": [
-    { "type": "answer", "text": "Yes - there are lockers at Bondi Beach, inside the [Bondi Pavilion](/bondi-pavilion) in the middle of the beachfront, open 6am-10pm daily. A small locker is $6 for 4 hours ($10 all day) and a large one is $9 for 4 hours ($15 all day), verified August 2026. If the lockers are full or you'd rather not bother, the rule is simple: bring only what you can afford to lose, and use the strategies below." },
-    { "type": "quickFacts", "items": [
-      { "label": "Lockers", "value": "Inside Bondi Pavilion, middle of the beach" },
-      { "label": "Hours", "value": "6am-10pm daily" },
-      { "label": "Small locker (50 x 15 x 47 cm)", "value": "$6/4hrs, $10 all day - fits phone, wallet, keys" },
-      { "label": "Large locker (50 x 45 x 47 cm)", "value": "$9/4hrs, $15 all day - fits a daypack + towel" },
-      { "label": "Suitcases", "value": "Won't fit - store luggage before you come" },
-      { "label": "My rule of thumb", "value": "Bank card + phone only; leave the rest at your accommodation" }
-    ] },
-    { "type": "h2", "text": "The lockers: inside the Bondi Pavilion" },
-    { "type": "p", "text": "The only proper lockers at Bondi Beach live inside the Bondi Pavilion - the big Mediterranean-style building set back from the sand, right in the middle of the beach. They sit alongside the public change rooms and showers on the ground floor, and they're available 6am-10pm daily, which comfortably covers a dawn swim through to a sunset one. As at August 2026, a small locker (50 x 15 x 47 cm) costs $6 for four hours or $10 for the whole day, and a large one (50 x 45 x 47 cm) is $9 for four hours or $15 all day. Prices do drift, so if you're reading this well after I wrote it, double-check on the Pavilion's own site." },
-    { "type": "p", "text": "Size-wise, be realistic. The small locker is a tall slim slot - perfect for a phone, wallet, keys, sunglasses and not much more. The large one swallows a daypack and a towel with room to spare. What neither will reliably take is a suitcase: a standard carry-on stands around 55 cm tall, and the lockers just aren't built for it. I've watched more than one traveller wheel a bag across the sand and discover this the hard way." },
-    { "type": "callout", "tone": "warning", "title": "Don't bring your suitcase to the beach", "text": "There is no left-luggage office at Bondi Beach, and the Pavilion lockers won't fit a suitcase. If you're between check-ins or on a layover, sort your luggage out before you come - your accommodation, a storage service in the city, or the airport. More on your options below." },
-    { "type": "h2", "text": "No locker? The solo swimmer's playbook" },
-    { "type": "p", "text": "On a hot Saturday the lockers can be spoken for, and honestly, most locals never use them anyway. Here's what actually works, ranked in the order I'd do it." },
-    { "type": "list", "items": [
-      "**Wear your valuables into the water.** A waterproof pouch on a lanyard or waist strap takes your card, phone and a key with you through the surf. It's the only method where nothing is ever unattended, which is why it's first. The surf and beach shops along Campbell Parade generally stock them if you didn't pack one.",
-      "**The one-person-stays-dry rotation.** In a group, take turns: one person minds the towels while the others swim, then swap. Oldest trick on the beach and still the most reliable - it costs nothing and someone gets to hold the coffee.",
-      "**Bury-it-in-the-towel is not a strategy.** I have to be straight with you: opportunistic theft of unattended bags does happen at Bondi, like at any famous beach. It's not rampant and it's rarely dramatic - I've written honestly about [how common theft really is](/bondi-blog/2025/1/5/are-there-thieves-or-pickpockets-at-bondi-beach) - but a phone tucked under a corner of towel fools precisely nobody who's looking.",
-      "**Go minimal in the first place.** Bondi is tap-to-pay everywhere - cafés, the buses, the gelato window - so a single bank card and your phone covers the whole day. Leave the passport, the spare cards and the cash pile at your accommodation, and suddenly there's nothing on the sand worth worrying about."
-    ] },
-    { "type": "h2", "text": "Swimming with your phone" },
-    { "type": "p", "text": "The waterproof pouch deserves its own word, because it's genuinely the best few dollars you'll spend at Bondi. The good ones are a clear soft-plastic sleeve with a roll-top or double-clip seal and a neck lanyard - your phone stays usable through the plastic, so you can even grab a photo out past the break. Seal it, give it a squeeze test before your phone goes in, and keep it under your rashie rather than swinging free in the waves." },
-    { "type": "p", "text": "If you didn't bring one, you won't have to go far: the surf and beach shops along Campbell Parade, the strip that runs behind the beach, generally have them by the register in summer. I'd sort it before you hit the sand rather than after you've already staked out your spot." },
-    { "type": "h2", "text": "Luggage and layovers: the honest answer" },
-    { "type": "p", "text": "I'll say it plainly because nobody official does: Bondi Beach has no left-luggage office, and the Pavilion lockers are too small for suitcases. If you've checked out of your hotel at 10am and your flight is at 9pm, the beach itself cannot solve your luggage problem - you have to solve it before you get on the bus." },
-    { "type": "p", "text": "Your realistic options, in order of convenience: ask your accommodation to hold your bags after checkout - most hotels and plenty of hostels will, often free for the day. Failing that, use a staffed luggage-storage service in the city before you head out; they cluster around Central and Circular Quay, which is handy because the 333 bus to Bondi leaves from Circular Quay anyway. And if you're on a genuine layover, storage at Sydney Airport means you ride out and back carrying nothing but a towel and a pouch - which, frankly, is the ideal way to arrive at Bondi regardless." },
-    { "type": "localTip", "text": "The lifeguards cannot watch your stuff - they're watching the water, and they'll tell you the same. And remember the red-and-yellow flags move during the day as conditions shift, so the spot you swam out from isn't always the spot you'll swim back to. After each swim, re-check your line of sight to your towel before you head back out." },
-    { "type": "faq", "items": [
-      { "q": "Are there lockers at Bondi Beach?", "a": "Yes - inside the Bondi Pavilion, the large building in the middle of the beachfront, alongside the public change rooms and showers. They're available 6am-10pm daily." },
-      { "q": "How much do the Bondi Beach lockers cost?", "a": "As at August 2026: a small locker (50 x 15 x 47 cm) is $6 for 4 hours or $10 all day; a large locker (50 x 45 x 47 cm) is $9 for 4 hours or $15 all day. Check the Bondi Pavilion website for current prices." },
-      { "q": "Can I leave my bag on the sand while I swim?", "a": "You can, but an unattended bag is the one thing that does occasionally go missing at Bondi. Either have someone in your group stay with it, keep valuables on your body in a waterproof pouch, or use a Pavilion locker. Hiding things under a towel is not a plan." },
-      { "q": "Where do I store a suitcase near Bondi Beach?", "a": "Not at the beach - there's no left-luggage office and the Pavilion lockers won't fit a suitcase. Leave it with your accommodation, use a staffed storage service in the city (they cluster near Central and Circular Quay) before you come out, or use airport storage if you're on a layover." },
-      { "q": "Is theft common at Bondi Beach?", "a": "No - Bondi is a busy, well-patrolled beach and serious crime is rare. What does happen is opportunistic taking of unattended valuables left on the sand, which the simple habits above almost entirely prevent." }
-    ] },
-    { "type": "p", "text": "So there's your system: card and phone in a pouch that swims with you, anything bigger in a Pavilion locker, and the suitcase dealt with before you ever see the sand. Once your gear's sorted, the Pavilion also covers [toilets, showers and change rooms](/bondi-blog/bondi-beach-toilets-showers-change-rooms) so you can rinse off and change before heading home - and if you're still sketching out the rest of your day, my [first-timer guide](/start-here) is the place to start." }
+    {
+      "type": "answer",
+      "text": "Yes - there are lockers at Bondi Beach, inside the [Bondi Pavilion](/bondi-pavilion) in the middle of the beachfront, open 6am-10pm daily. A small locker is $6 for 4 hours ($10 all day) and a large one is $9 for 4 hours ($15 all day), verified August 2026. If the lockers are full or you'd rather not bother, the rule is simple: bring only what you can afford to lose, and use the strategies below."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Lockers",
+          "value": "Inside Bondi Pavilion, middle of the beach"
+        },
+        {
+          "label": "Hours",
+          "value": "6am-10pm daily"
+        },
+        {
+          "label": "Small locker (50 x 15 x 47 cm)",
+          "value": "$6/4hrs, $10 all day - fits phone, wallet, keys"
+        },
+        {
+          "label": "Large locker (50 x 45 x 47 cm)",
+          "value": "$9/4hrs, $15 all day - fits a daypack + towel"
+        },
+        {
+          "label": "Suitcases",
+          "value": "Won't fit - store luggage before you come"
+        },
+        {
+          "label": "My rule of thumb",
+          "value": "Bank card + phone only; leave the rest at your accommodation"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The lockers: inside the Bondi Pavilion"
+    },
+    {
+      "type": "p",
+      "text": "The only proper lockers at Bondi Beach live inside the Bondi Pavilion - the big Mediterranean-style building set back from the sand, right in the middle of the beach. They sit alongside the public change rooms and showers on the ground floor, and they're available 6am-10pm daily, which comfortably covers a dawn swim through to a sunset one. As at August 2026, a small locker (50 x 15 x 47 cm) costs $6 for four hours or $10 for the whole day, and a large one (50 x 45 x 47 cm) is $9 for four hours or $15 all day. Prices do drift, so if you're reading this well after I wrote it, double-check on the Pavilion's own site."
+    },
+    {
+      "type": "p",
+      "text": "Size-wise, be realistic. The small locker is a tall slim slot - perfect for a phone, wallet, keys, sunglasses and not much more. The large one swallows a daypack and a towel with room to spare. What neither will reliably take is a suitcase: a standard carry-on stands around 55 cm tall, and the lockers just aren't built for it. I've watched more than one traveller wheel a bag across the sand and discover this the hard way."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Don't bring your suitcase to the beach",
+      "text": "There is no left-luggage office at Bondi Beach, and the Pavilion lockers won't fit a suitcase. If you're between check-ins or on a layover, sort your luggage out before you come - your accommodation, a storage service in the city, or the airport. More on your options below."
+    },
+    {
+      "type": "h2",
+      "text": "No locker? The solo swimmer's playbook"
+    },
+    {
+      "type": "p",
+      "text": "On a hot Saturday the lockers can be spoken for, and honestly, most locals never use them anyway. Here's what actually works, ranked in the order I'd do it."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Wear your valuables into the water.** A waterproof pouch on a lanyard or waist strap takes your card, phone and a key with you through the surf. It's the only method where nothing is ever unattended, which is why it's first. The surf and beach shops along Campbell Parade generally stock them if you didn't pack one.",
+        "**The one-person-stays-dry rotation.** In a group, take turns: one person minds the towels while the others swim, then swap. Oldest trick on the beach and still the most reliable - it costs nothing and someone gets to hold the coffee.",
+        "**Bury-it-in-the-towel is not a strategy.** I have to be straight with you: opportunistic theft of unattended bags does happen at Bondi, like at any famous beach. It's not rampant and it's rarely dramatic - I've written honestly about [how common theft really is](/bondi-blog/2025/1/5/are-there-thieves-or-pickpockets-at-bondi-beach) - but a phone tucked under a corner of towel fools precisely nobody who's looking.",
+        "**Go minimal in the first place.** Bondi is tap-to-pay everywhere - cafés, the buses, the gelato window - so a single bank card and your phone covers the whole day. Leave the passport, the spare cards and the cash pile at your accommodation, and suddenly there's nothing on the sand worth worrying about."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Swimming with your phone"
+    },
+    {
+      "type": "p",
+      "text": "The waterproof pouch deserves its own word, because it's genuinely the best few dollars you'll spend at Bondi. The good ones are a clear soft-plastic sleeve with a roll-top or double-clip seal and a neck lanyard - your phone stays usable through the plastic, so you can even grab a photo out past the break. Seal it, give it a squeeze test before your phone goes in, and keep it under your rashie rather than swinging free in the waves."
+    },
+    {
+      "type": "p",
+      "text": "If you didn't bring one, you won't have to go far: the surf and beach shops along Campbell Parade, the strip that runs behind the beach, generally have them by the register in summer. I'd sort it before you hit the sand rather than after you've already staked out your spot."
+    },
+    {
+      "type": "h2",
+      "text": "Luggage and layovers: the honest answer"
+    },
+    {
+      "type": "p",
+      "text": "I'll say it plainly because nobody official does: Bondi Beach has no left-luggage office, and the Pavilion lockers are too small for suitcases. If you've checked out of your hotel at 10am and your flight is at 9pm, the beach itself cannot solve your luggage problem - you have to solve it before you get on the bus."
+    },
+    {
+      "type": "p",
+      "text": "Your realistic options, in order of convenience: ask your accommodation to hold your bags after checkout - most hotels and plenty of hostels will, often free for the day. Failing that, use a staffed luggage-storage service in the city before you head out; they cluster around Central and Circular Quay, which is handy because the 333 bus to Bondi leaves from Circular Quay anyway. And if you're on a genuine layover, storage at Sydney Airport means you ride out and back carrying nothing but a towel and a pouch - which, frankly, is the ideal way to arrive at Bondi regardless."
+    },
+    {
+      "type": "localTip",
+      "text": "The lifeguards cannot watch your stuff - they're watching the water, and they'll tell you the same. And remember the red-and-yellow flags move during the day as conditions shift, so the spot you swam out from isn't always the spot you'll swim back to. After each swim, re-check your line of sight to your towel before you head back out."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Are there lockers at Bondi Beach?",
+          "a": "Yes - inside the Bondi Pavilion, the large building in the middle of the beachfront, alongside the public change rooms and showers. They're available 6am-10pm daily."
+        },
+        {
+          "q": "How much do the Bondi Beach lockers cost?",
+          "a": "As at August 2026: a small locker (50 x 15 x 47 cm) is $6 for 4 hours or $10 all day; a large locker (50 x 45 x 47 cm) is $9 for 4 hours or $15 all day. Check the Bondi Pavilion website for current prices."
+        },
+        {
+          "q": "Can I leave my bag on the sand while I swim?",
+          "a": "You can, but an unattended bag is the one thing that does occasionally go missing at Bondi. Either have someone in your group stay with it, keep valuables on your body in a waterproof pouch, or use a Pavilion locker. Hiding things under a towel is not a plan."
+        },
+        {
+          "q": "Where do I store a suitcase near Bondi Beach?",
+          "a": "Not at the beach - there's no left-luggage office and the Pavilion lockers won't fit a suitcase. Leave it with your accommodation, use a staffed storage service in the city (they cluster near Central and Circular Quay) before you come out, or use airport storage if you're on a layover."
+        },
+        {
+          "q": "Is theft common at Bondi Beach?",
+          "a": "No - Bondi is a busy, well-patrolled beach and serious crime is rare. What does happen is opportunistic taking of unattended valuables left on the sand, which the simple habits above almost entirely prevent."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So there's your system: card and phone in a pouch that swims with you, anything bigger in a Pavilion locker, and the suitcase dealt with before you ever see the sand. Once your gear's sorted, the Pavilion also covers [toilets, showers and change rooms](/bondi-blog/bondi-beach-toilets-showers-change-rooms) so you can rinse off and change before heading home - and if you're still sketching out the rest of your day, my [first-timer guide](/start-here) is the place to start."
+    }
   ]
 }

@@ -2,47 +2,143 @@
   "path": "/bondi-blog/2025/1/1/locals-guide-to-sydneys-20-best-hidden-beaches",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "monthly",
   "sources": [
-    { "label": "NSW National Parks - Sydney Harbour National Park", "url": "https://www.nationalparks.nsw.gov.au/visit-a-park/parks/sydney-harbour-national-park" },
-    { "label": "NSW National Parks - Ku-ring-gai Chase National Park", "url": "https://www.nationalparks.nsw.gov.au/visit-a-park/parks/ku-ring-gai-chase-national-park" },
-    { "label": "NSW DPI - Cabbage Tree Bay Aquatic Reserve", "url": "https://www.dpi.nsw.gov.au/fishing/marine-protected-areas/aquatic-reserves/cabbage-tree-bay-aquatic-reserve" },
-    { "label": "Surf Life Saving Australia - BeachSafe", "url": "https://beachsafe.org.au" }
+    {
+      "label": "NSW National Parks - Sydney Harbour National Park",
+      "url": "https://www.nationalparks.nsw.gov.au/visit-a-park/parks/sydney-harbour-national-park"
+    },
+    {
+      "label": "NSW National Parks - Ku-ring-gai Chase National Park",
+      "url": "https://www.nationalparks.nsw.gov.au/visit-a-park/parks/ku-ring-gai-chase-national-park"
+    },
+    {
+      "label": "NSW DPI - Cabbage Tree Bay Aquatic Reserve",
+      "url": "https://www.dpi.nsw.gov.au/fishing/marine-protected-areas/aquatic-reserves/cabbage-tree-bay-aquatic-reserve"
+    },
+    {
+      "label": "Surf Life Saving Australia - BeachSafe",
+      "url": "https://beachsafe.org.au"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you want Sydney's best hidden beaches, skip the postcard names and hunt the little coves tucked behind headlands, national parks and quiet harbour streets. I live on the eastern beaches and spend half my weekends chasing exactly these - the sheltered swims, the boat-only bays, the sand most visitors walk past. Here's my honest local shortlist of 20, with the ones I'd send you to first." },
-    { "type": "p", "text": "A quick word before you pack the towel: \"hidden\" usually means unpatrolled. Most of these have no lifeguards, no flags and sometimes no easy exit. Swim within your limits, check conditions first, and treat the calm harbour beaches as the safer bet if you've got kids." },
-    { "type": "h2", "text": "My favourite hidden beaches around the harbour" },
-    { "type": "p", "text": "The harbour hides Sydney's most magical little beaches - glassy water, ridiculous backdrops. Milk Beach, off the Hermitage Foreshore Walk in Vaucluse, frames the Opera House and Harbour Bridge across the water; it's my go-to for a late-afternoon swim and a picnic. Nearby, Parsley Bay in Vaucluse is a gentle, netted cove with a suspension bridge and grass for the kids, and Camp Cove near Watsons Bay is a calm, golden crescent a short walk from the ferry crowds." },
-    { "type": "p", "text": "Over on the lower north shore, Chinamans Beach in Mosman is a wide, quiet stretch that's brilliant for paddleboarding, and Store Beach near Manly is the real secret - inside Sydney Harbour National Park, reachable only by kayak or boat, with a protected penguin colony ashore, so landing is restricted at times to keep the birds safe." },
-    { "type": "quickFacts", "items": [
-      { "label": "Best for a view swim", "value": "Milk Beach, Vaucluse" },
-      { "label": "Best with kids", "value": "Parsley Bay, Vaucluse" },
-      { "label": "Best boat-only escape", "value": "Store Beach, Sydney Harbour NP" },
-      { "label": "Best snorkelling", "value": "Shelly Beach & Gordon's Bay" },
-      { "label": "Typical facilities", "value": "Minimal - no lifeguards on most" }
-    ] },
-    { "type": "localTip", "text": "For the harbour coves, aim for a rising-to-high tide - several shrink to almost nothing at low water. Go early on summer weekends too: parking around Vaucluse and Mosman fills fast, so take the ferry or a bus." },
-    { "type": "h2", "text": "Where I go to snorkel" },
-    { "type": "p", "text": "Two spots earn their reputation. Shelly Beach at Manly sits inside the Cabbage Tree Bay Aquatic Reserve - a no-take reserve since 2002 - so the marine life is genuinely abundant; on a calm day you'll spot wrasse, gropers and sometimes a resident turtle. Closer to home, Gordon's Bay between Clovelly and Coogee has an underwater nature trail and clear, sheltered water - perfect for a first snorkel." },
-    { "type": "callout", "tone": "warning", "title": "These beaches are mostly unpatrolled", "text": "Bushwalk and boat-only beaches have no lifeguards and can have strong currents, sudden swell and slippery rock scrambles. Check the surf forecast and any national-park access notes first. If it looks sketchy, the calm harbour beaches are the safer choice." },
-    { "type": "h2", "text": "The full 20 - and how to reach them" },
-    { "type": "p", "text": "Beyond my favourites, here's the rest, grouped by effort. The bush-and-boat ones reward a walk or a paddle." },
-    { "type": "list", "items": [
-      "Easy harbour coves: Milk Beach, Parsley Bay, Camp Cove, Kutti Beach, Queens Beach, Redleaf (Murray Rose Pool), Chinamans Beach, Fairlight",
-      "Snorkelling favourites: Shelly Beach (Manly), Gordon's Bay, Little Congwong (La Perouse)",
-      "Reached by bushwalk: Reef Beach, Castle Rock and Collins Flat (Manly area), Resolute Beach (Ku-ring-gai Chase), Little Bay",
-      "Boat or kayak only: Store Beach, Washaway Beach",
-      "Tide-and-timing gems: Mackenzies Beach (between Bondi and Tamarama), Balmoral's quiet Rocky Point end"
-    ] },
-    { "type": "p", "text": "Mackenzies Beach, the closest to us, is less a beach than a strip of sand that surfaces between Bondi and Tamarama when the tide and swell cooperate - a happy surprise on the Bondi to Bronte coastal walk, not a whole-day plan." },
-    { "type": "localTip", "text": "For national-park beaches like Resolute and the Manly bushwalk coves, wear proper shoes, carry water, and check the relevant NSW National Parks page for track closures or seasonal alerts - trails do close after storms." },
-    { "type": "faq", "items": [
-      { "q": "What is the most hidden beach in Sydney?", "a": "Store Beach near Manly is hard to beat - inside Sydney Harbour National Park, reachable only by kayak or boat, with a protected penguin colony ashore. Washaway Beach nearby is similarly cut off, reached only on foot or by boat." },
-      { "q": "Which hidden beaches are best for families?", "a": "Stick to the calm harbour beaches. Parsley Bay in Vaucluse has a netted swimming area and grassy picnic space, and Redleaf (the Murray Rose Pool) in Double Bay has a floating pontoon and gentle water - far safer for little swimmers than the ocean coves." },
-      { "q": "Are these hidden beaches patrolled by lifeguards?", "a": "Mostly no. Unlike Bondi or Manly, most of these coves are unpatrolled, with no flags and sometimes strong currents or rock-scramble access. Check conditions on Surf Life Saving's BeachSafe and swim within your limits." },
-      { "q": "Where's the best hidden snorkelling near Sydney?", "a": "Shelly Beach at Manly, inside the Cabbage Tree Bay Aquatic Reserve, is the standout - a no-take reserve packed with fish. Gordon's Bay between Clovelly and Coogee is a calmer alternative with its own underwater nature trail." },
-      { "q": "Do I need to pay to visit any of these?", "a": "The beaches are free; access is the catch. National-park beaches like Resolute in Ku-ring-gai Chase may involve a vehicle-entry fee if you drive in, and boat-only spots like Store Beach mean hiring a kayak or a tour. Check the relevant NSW National Parks page for current fees." }
-    ] },
-    { "type": "p", "text": "That's my map to Sydney's quiet corners. Start with Milk Beach or Camp Cove for the view, Shelly Beach for the fish, and save Store Beach for the day you feel like earning it. Tread lightly, check conditions, and leave each cove as gorgeous as you found it." }
+    {
+      "type": "p",
+      "text": "If you want Sydney's best hidden beaches, skip the postcard names and hunt the little coves tucked behind headlands, national parks and quiet harbour streets. I live on the eastern beaches and spend half my weekends chasing exactly these - the sheltered swims, the boat-only bays, the sand most visitors walk past. Here's my honest local shortlist of 20, with the ones I'd send you to first."
+    },
+    {
+      "type": "p",
+      "text": "A quick word before you pack the towel: \"hidden\" usually means unpatrolled. Most of these have no lifeguards, no flags and sometimes no easy exit. Swim within your limits, check conditions first, and treat the calm harbour beaches as the safer bet if you've got kids."
+    },
+    {
+      "type": "h2",
+      "text": "My favourite hidden beaches around the harbour"
+    },
+    {
+      "type": "p",
+      "text": "The harbour hides Sydney's most magical little beaches - glassy water, ridiculous backdrops. Milk Beach, off the Hermitage Foreshore Walk in Vaucluse, frames the Opera House and Harbour Bridge across the water; it's my go-to for a late-afternoon swim and a picnic. Nearby, Parsley Bay in Vaucluse is a gentle, netted cove with a suspension bridge and grass for the kids, and Camp Cove near Watsons Bay is a calm, golden crescent a short walk from the ferry crowds."
+    },
+    {
+      "type": "p",
+      "text": "Over on the lower north shore, Chinamans Beach in Mosman is a wide, quiet stretch that's brilliant for paddleboarding, and Store Beach near Manly is the real secret - inside Sydney Harbour National Park, reachable only by kayak or boat, with a protected penguin colony ashore, so landing is restricted at times to keep the birds safe."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Best for a view swim",
+          "value": "Milk Beach, Vaucluse"
+        },
+        {
+          "label": "Best with kids",
+          "value": "Parsley Bay, Vaucluse"
+        },
+        {
+          "label": "Best boat-only escape",
+          "value": "Store Beach, Sydney Harbour NP"
+        },
+        {
+          "label": "Best snorkelling",
+          "value": "Shelly Beach & Gordon's Bay"
+        },
+        {
+          "label": "Typical facilities",
+          "value": "Minimal - no lifeguards on most"
+        }
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "For the harbour coves, aim for a rising-to-high tide - several shrink to almost nothing at low water. Go early on summer weekends too: parking around Vaucluse and Mosman fills fast, so take the ferry or a bus."
+    },
+    {
+      "type": "h2",
+      "text": "Where I go to snorkel"
+    },
+    {
+      "type": "p",
+      "text": "Two spots earn their reputation. Shelly Beach at Manly sits inside the Cabbage Tree Bay Aquatic Reserve - a no-take reserve since 2002 - so the marine life is genuinely abundant; on a calm day you'll spot wrasse, gropers and sometimes a resident turtle. Closer to home, Gordon's Bay between Clovelly and Coogee has an underwater nature trail and clear, sheltered water - perfect for a first snorkel."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "These beaches are mostly unpatrolled",
+      "text": "Bushwalk and boat-only beaches have no lifeguards and can have strong currents, sudden swell and slippery rock scrambles. Check the surf forecast and any national-park access notes first. If it looks sketchy, the calm harbour beaches are the safer choice."
+    },
+    {
+      "type": "h2",
+      "text": "The full 20 - and how to reach them"
+    },
+    {
+      "type": "p",
+      "text": "Beyond my favourites, here's the rest, grouped by effort. The bush-and-boat ones reward a walk or a paddle."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Easy harbour coves: Milk Beach, Parsley Bay, Camp Cove, Kutti Beach, Queens Beach, Redleaf (Murray Rose Pool), Chinamans Beach, Fairlight",
+        "Snorkelling favourites: Shelly Beach (Manly), Gordon's Bay, Little Congwong (La Perouse)",
+        "Reached by bushwalk: Reef Beach, Castle Rock and Collins Flat (Manly area), Resolute Beach (Ku-ring-gai Chase), Little Bay",
+        "Boat or kayak only: Store Beach, Washaway Beach",
+        "Tide-and-timing gems: Mackenzies Beach (between Bondi and Tamarama), Balmoral's quiet Rocky Point end"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Mackenzies Beach, the closest to us, is less a beach than a strip of sand that surfaces between Bondi and Tamarama when the tide and swell cooperate - a happy surprise on the Bondi to Bronte coastal walk, not a whole-day plan."
+    },
+    {
+      "type": "localTip",
+      "text": "For national-park beaches like Resolute and the Manly bushwalk coves, wear proper shoes, carry water, and check the relevant NSW National Parks page for track closures or seasonal alerts - trails do close after storms."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What is the most hidden beach in Sydney?",
+          "a": "Store Beach near Manly is hard to beat - inside Sydney Harbour National Park, reachable only by kayak or boat, with a protected penguin colony ashore. Washaway Beach nearby is similarly cut off, reached only on foot or by boat."
+        },
+        {
+          "q": "Which hidden beaches are best for families?",
+          "a": "Stick to the calm harbour beaches. Parsley Bay in Vaucluse has a netted swimming area and grassy picnic space, and Redleaf (the Murray Rose Pool) in Double Bay has a floating pontoon and gentle water - far safer for little swimmers than the ocean coves."
+        },
+        {
+          "q": "Are these hidden beaches patrolled by lifeguards?",
+          "a": "Mostly no. Unlike Bondi or Manly, most of these coves are unpatrolled, with no flags and sometimes strong currents or rock-scramble access. Check conditions on Surf Life Saving's BeachSafe and swim within your limits."
+        },
+        {
+          "q": "Where's the best hidden snorkelling near Sydney?",
+          "a": "Shelly Beach at Manly, inside the Cabbage Tree Bay Aquatic Reserve, is the standout - a no-take reserve packed with fish. Gordon's Bay between Clovelly and Coogee is a calmer alternative with its own underwater nature trail."
+        },
+        {
+          "q": "Do I need to pay to visit any of these?",
+          "a": "The beaches are free; access is the catch. National-park beaches like Resolute in Ku-ring-gai Chase may involve a vehicle-entry fee if you drive in, and boat-only spots like Store Beach mean hiring a kayak or a tour. Check the relevant NSW National Parks page for current fees."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's my map to Sydney's quiet corners. Start with Milk Beach or Camp Cove for the view, Shelly Beach for the fish, and save Store Beach for the day you feel like earning it. Tread lightly, check conditions, and leave each cove as gorgeous as you found it."
+    }
   ]
 }

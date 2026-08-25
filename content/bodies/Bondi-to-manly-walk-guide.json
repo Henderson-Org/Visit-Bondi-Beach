@@ -2,52 +2,145 @@
   "path": "/bondi-blog/Bondi-to-manly-walk-guide",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "monthly",
   "sources": [
-    { "label": "Bondi to Manly Walk (official)", "url": "https://www.bonditomanly.com/" },
-    { "label": "Sydney.com - Bondi to Manly Walk", "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-manly-walk" },
-    { "label": "Transport for NSW - trip planner & ferries", "url": "https://transportnsw.info/" }
+    {
+      "label": "Bondi to Manly Walk (official)",
+      "url": "https://www.bonditomanly.com/"
+    },
+    {
+      "label": "Sydney.com - Bondi to Manly Walk",
+      "url": "https://www.sydney.com/things-to-do/nature-and-parks/walks/bondi-to-manly-walk"
+    },
+    {
+      "label": "Transport for NSW - trip planner & ferries",
+      "url": "https://transportnsw.info/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "The Bondi to Manly Walk is an 80km signed coastal and harbour route that links two of Sydney's most famous beaches, and the honest answer to \"can I do it in one go?\" is: almost nobody does. I live at the Bondi end and have walked every part in pieces over the years - the smart way to tackle it is in stages, using the ferries to get home each evening. This guide covers the route, how to break it up, and the sections I'd send you to first." },
-    { "type": "quickFacts", "items": [
-      { "label": "Distance", "value": "About 80km, Bondi Beach to Manly" },
-      { "label": "Direction", "value": "North from Bondi, around Sydney Harbour" },
-      { "label": "Typical time", "value": "Spread over several days or outings" },
-      { "label": "Cost", "value": "Free - it's public coast and parkland" },
-      { "label": "Best for", "value": "Staged day walks, not a single push" }
-    ] },
-    { "type": "h2", "text": "What the walk actually is" },
-    { "type": "p", "text": "Despite the name, this isn't a straight line up the coast. From Bondi the route heads north through the eastern beaches, up to the South Head clifftops around Watsons Bay, then swings inland to follow the Sydney Harbour foreshore - through harbourside parks and bushland, across the Spit Bridge, and out along Manly's headlands to finish at Manly Beach. It stitches together existing tracks, so you walk a mix of clifftop path, sandy beach, leafy suburb and national-park bush." },
-    { "type": "p", "text": "It's one of the best urban walks anywhere, but it's long. The official Bondi to Manly organisation suggests spreading it over two to seven days in shorter connected sections - tackle a chunk on a Saturday and come back for the next bit another day." },
-    { "type": "callout", "tone": "note", "title": "Check the official map before you go", "text": "Signage is good in places and thin in others, and a few sections (clifftop stairs, national-park gates) close at night. Download the official map or app for the current route, and use the Transport for NSW trip planner for live ferry and bus times rather than an old schedule." },
-    { "type": "h2", "text": "How I'd break it into stages" },
-    { "type": "p", "text": "Rather than quote exact kilometre splits - the route gets tweaked and everyone walks at a different pace - I think in natural start and finish points with a cafe, bus stop or ferry wharf, so you can bail out or resume easily. Roughly:" },
-    { "type": "list", "items": [
-      "The Bondi end - the famous Bondi to Bronte to Coogee coastal clifftops.",
-      "Up to South Head - the eastern-suburbs beaches and the Watsons Bay clifftops.",
-      "The harbour's south shore - foreshore parks and bushland heading west.",
-      "Across the top - the Spit Bridge and the Manly-side bush tracks.",
-      "The Manly finish - headland trails down to the beach and the ferry home."
-    ] },
-    { "type": "p", "text": "For exact daily distances and where the official stage breaks fall, check the Bondi to Manly website - they publish suggested itineraries and update them as the route evolves." },
-    { "type": "h3", "text": "The section I'd do first" },
-    { "type": "p", "text": "If you only walk one part, make it the Bondi to Bronte coastal walk - about 2.5km of clifftop path past the Icebergs pool, Tamarama and Waverley Cemetery, ending at Bronte where you can swim and eat. Keep going to Coogee and you've done the most spectacular stretch of the whole 80km - all well-signed, with buses back to the city from either beach." },
-    { "type": "localTip", "text": "Use the ferries as your shuttle. Wharves at Watsons Bay, Rose Bay, the Spit area and Manly let you walk one direction and catch a boat back - turning a brutal 80km slog into a series of gorgeous half-day walks. Manly Beach is a short stroll from Manly Wharf, where the ferry runs straight back to Circular Quay." },
-    { "type": "h2", "text": "Practical tips before you set off" },
-    { "type": "list", "items": [
-      "Walk north (Bondi to Manly) so the afternoon sun is behind you on the coast.",
-      "Carry water and sun protection - long clifftop stretches have little shade.",
-      "Wear proper shoes; it's paths and stairs, not a flat promenade.",
-      "Start early on summer weekends - the Bondi-end paths get very busy.",
-      "Save the ferry timetable to your phone so you're not stranded at a wharf."
-    ] },
-    { "type": "faq", "items": [
-      { "q": "How long does the Bondi to Manly walk take?", "a": "The full 80km is usually spread over several days or separate outings - the official organisers suggest anywhere from about two to seven days. Most locals I know do it in stages rather than one continuous push." },
-      { "q": "Do I have to walk the whole 80km?", "a": "Not at all. The route is designed for shorter connected sections, and most people only ever walk the parts they love. The Bondi to Bronte to Coogee clifftops are the perfect standalone taste of it." },
-      { "q": "Is the Bondi to Manly walk free?", "a": "Yes - it follows public coastline, foreshore and parkland, so there's no fee to walk it. You'll only pay for optional extras like ferries, buses or food." },
-      { "q": "Can I use ferries to shorten it?", "a": "Absolutely, and I'd recommend it. Wharves along the harbour let you walk a section and catch a ferry back, so each outing ends with a boat ride, not a long trudge home. Check Transport for NSW for current times." },
-      { "q": "Which direction should I walk?", "a": "Most people go north from Bondi to Manly. It keeps the sun at your back on the exposed coast and finishes at Manly Wharf, where the ferry back to Circular Quay is a lovely way to end the day." }
-    ] },
-    { "type": "p", "text": "However you tackle it, don't get hung up on all 80km. Treat the walk as a menu, not a marathon - pick a section, take your time, and let the ferries carry you home." }
+    {
+      "type": "p",
+      "text": "The Bondi to Manly Walk is an 80km signed coastal and harbour route that links two of Sydney's most famous beaches, and the honest answer to \"can I do it in one go?\" is: almost nobody does. I live at the Bondi end and have walked every part in pieces over the years - the smart way to tackle it is in stages, using the ferries to get home each evening. This guide covers the route, how to break it up, and the sections I'd send you to first."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Distance",
+          "value": "About 80km, Bondi Beach to Manly"
+        },
+        {
+          "label": "Direction",
+          "value": "North from Bondi, around Sydney Harbour"
+        },
+        {
+          "label": "Typical time",
+          "value": "Spread over several days or outings"
+        },
+        {
+          "label": "Cost",
+          "value": "Free - it's public coast and parkland"
+        },
+        {
+          "label": "Best for",
+          "value": "Staged day walks, not a single push"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What the walk actually is"
+    },
+    {
+      "type": "p",
+      "text": "Despite the name, this isn't a straight line up the coast. From Bondi the route heads north through the eastern beaches, up to the South Head clifftops around Watsons Bay, then swings inland to follow the Sydney Harbour foreshore - through harbourside parks and bushland, across the Spit Bridge, and out along Manly's headlands to finish at Manly Beach. It stitches together existing tracks, so you walk a mix of clifftop path, sandy beach, leafy suburb and national-park bush."
+    },
+    {
+      "type": "p",
+      "text": "It's one of the best urban walks anywhere, but it's long. The official Bondi to Manly organisation suggests spreading it over two to seven days in shorter connected sections - tackle a chunk on a Saturday and come back for the next bit another day."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Check the official map before you go",
+      "text": "Signage is good in places and thin in others, and a few sections (clifftop stairs, national-park gates) close at night. Download the official map or app for the current route, and use the Transport for NSW trip planner for live ferry and bus times rather than an old schedule."
+    },
+    {
+      "type": "h2",
+      "text": "How I'd break it into stages"
+    },
+    {
+      "type": "p",
+      "text": "Rather than quote exact kilometre splits - the route gets tweaked and everyone walks at a different pace - I think in natural start and finish points with a cafe, bus stop or ferry wharf, so you can bail out or resume easily. Roughly:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The Bondi end - the famous Bondi to Bronte to Coogee coastal clifftops.",
+        "Up to South Head - the eastern-suburbs beaches and the Watsons Bay clifftops.",
+        "The harbour's south shore - foreshore parks and bushland heading west.",
+        "Across the top - the Spit Bridge and the Manly-side bush tracks.",
+        "The Manly finish - headland trails down to the beach and the ferry home."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For exact daily distances and where the official stage breaks fall, check the Bondi to Manly website - they publish suggested itineraries and update them as the route evolves."
+    },
+    {
+      "type": "h3",
+      "text": "The section I'd do first"
+    },
+    {
+      "type": "p",
+      "text": "If you only walk one part, make it the Bondi to Bronte coastal walk - about 2.5km of clifftop path past the Icebergs pool, Tamarama and Waverley Cemetery, ending at Bronte where you can swim and eat. Keep going to Coogee and you've done the most spectacular stretch of the whole 80km - all well-signed, with buses back to the city from either beach."
+    },
+    {
+      "type": "localTip",
+      "text": "Use the ferries as your shuttle. Wharves at Watsons Bay, Rose Bay, the Spit area and Manly let you walk one direction and catch a boat back - turning a brutal 80km slog into a series of gorgeous half-day walks. Manly Beach is a short stroll from Manly Wharf, where the ferry runs straight back to Circular Quay."
+    },
+    {
+      "type": "h2",
+      "text": "Practical tips before you set off"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Walk north (Bondi to Manly) so the afternoon sun is behind you on the coast.",
+        "Carry water and sun protection - long clifftop stretches have little shade.",
+        "Wear proper shoes; it's paths and stairs, not a flat promenade.",
+        "Start early on summer weekends - the Bondi-end paths get very busy.",
+        "Save the ferry timetable to your phone so you're not stranded at a wharf."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How long does the Bondi to Manly walk take?",
+          "a": "The full 80km is usually spread over several days or separate outings - the official organisers suggest anywhere from about two to seven days. Most locals I know do it in stages rather than one continuous push."
+        },
+        {
+          "q": "Do I have to walk the whole 80km?",
+          "a": "Not at all. The route is designed for shorter connected sections, and most people only ever walk the parts they love. The Bondi to Bronte to Coogee clifftops are the perfect standalone taste of it."
+        },
+        {
+          "q": "Is the Bondi to Manly walk free?",
+          "a": "Yes - it follows public coastline, foreshore and parkland, so there's no fee to walk it. You'll only pay for optional extras like ferries, buses or food."
+        },
+        {
+          "q": "Can I use ferries to shorten it?",
+          "a": "Absolutely, and I'd recommend it. Wharves along the harbour let you walk a section and catch a ferry back, so each outing ends with a boat ride, not a long trudge home. Check Transport for NSW for current times."
+        },
+        {
+          "q": "Which direction should I walk?",
+          "a": "Most people go north from Bondi to Manly. It keeps the sun at your back on the exposed coast and finishes at Manly Wharf, where the ferry back to Circular Quay is a lovely way to end the day."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "However you tackle it, don't get hung up on all 80km. Treat the walk as a menu, not a marathon - pick a section, take your time, and let the ferries carry you home."
+    }
   ]
 }

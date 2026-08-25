@@ -2,39 +2,114 @@
   "path": "/bondi-blog/2024/1/7/sydneys-best-playground-in-the-heart-of-bondi",
   "voice": "first-person",
   "lastReviewed": "2026-08-10",
+  "freshnessClass": "monthly",
   "sources": [
-    { "label": "Waverley Council - Waverley Park play space upgrade", "url": "https://haveyoursay.waverley.nsw.gov.au/waverley-park-play-space-upgrade" },
-    { "label": "Waverley Council - Waverley Park upgrade countdown begins", "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2023/waverley_park_upgrade_countdown_begins" },
-    { "label": "Proludic - Waverley Park Playground case study", "url": "https://www.proludic.com.au/inspirations/case-studies/waverley-park-playground/" },
-    { "label": "Eastern Suburbs Mums - Waverley Park's iconic rocket ship", "url": "https://easternsuburbsmums.com.au/waverley-park-playground-bondi-junction-home-of-the-iconic-rocket-ship/" },
-    { "label": "National Public Toilet Map - Waverley Park", "url": "https://toiletmap.gov.au/542" }
+    {
+      "label": "Waverley Council - Waverley Park play space upgrade",
+      "url": "https://haveyoursay.waverley.nsw.gov.au/waverley-park-play-space-upgrade"
+    },
+    {
+      "label": "Waverley Council - Waverley Park upgrade countdown begins",
+      "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2023/waverley_park_upgrade_countdown_begins"
+    },
+    {
+      "label": "Proludic - Waverley Park Playground case study",
+      "url": "https://www.proludic.com.au/inspirations/case-studies/waverley-park-playground/"
+    },
+    {
+      "label": "Eastern Suburbs Mums - Waverley Park's iconic rocket ship",
+      "url": "https://easternsuburbsmums.com.au/waverley-park-playground-bondi-junction-home-of-the-iconic-rocket-ship/"
+    },
+    {
+      "label": "National Public Toilet Map - Waverley Park",
+      "url": "https://toiletmap.gov.au/542"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you ask me where to take kids for a big, joyful morning near Bondi, my answer never changes: the rebuilt playground at Waverley Park, up the hill in Bondi Junction. It's the one with the rocket ship - and it has a fair claim to being the best playground in Sydney. This spot has drawn kids for generations: Waverley Park was home to one of the last of Sydney's original 1960s 'Moon Rocket' slippery dips, and when the playground was rebuilt in 2023 the council made sure that space-age spirit came back with it." },
-    { "type": "quickFacts", "items": [
-      { "label": "Where", "value": "Waverley Park, Paul St, Bondi Junction" },
-      { "label": "Star attraction", "value": "Multi-storey rocket ship & launch tower" },
-      { "label": "Cost", "value": "Free" },
-      { "label": "Great for", "value": "Toddlers through primary-age kids" },
-      { "label": "Fenced", "value": "Yes - fully enclosed" }
-    ] },
-    { "type": "h2", "text": "The rocket ship everyone comes for" },
-    { "type": "p", "text": "The centrepiece is a bespoke, multi-storey rocket ship with a launch tower and mission-control station - a modern tribute to the beloved 1960s original. Designed by Proludic and craned into place on 20 October 2023 as part of a $1.7 million upgrade funded through the NSW Public Spaces Legacy Program, it's a proper piece of imaginative play, not a slide with a paint job. Press the launch button and 'steam' (harmless water vapour) billows out for a genuine-looking blast-off. There's a control panel of knobs and dials for little commanders, and a climb up through the tower that feels like an achievement before kids reach the big slide at the top. My nephews would happily launch that rocket a hundred times in a row." },
-    { "type": "p", "text": "What lifts it above the average playground is how well it works across ages. Older kids test themselves on the tower and rope climb while little ones potter safely nearby - exactly what you want with siblings in tow. Beyond the rocket you'll find:" },
-    { "type": "list", "items": [
-      "Slides, spinners, a see-saw and inclusive swings (including a wide 'Duo' seat for an adult and toddler together)",
-      "A separate, fenced-off toddler zone",
-      "Sensory and musical play, plus a water course with a hand pump",
-      "Plenty of seating and shade trees around the edges for parents"
-    ] },
-    { "type": "callout", "tone": "note", "title": "It's Bondi Junction, not the beachfront", "text": "Despite the 'heart of Bondi' billing, Waverley Park sits up in Bondi Junction on Paul Street - roughly a 10-minute walk from Bondi Junction station and moments from Westfield and Waverley Library. It pairs neatly with a shopping run or a library visit, but it's not down on the sand." },
-    { "type": "p", "text": "The playground is fully fenced, which is a relief with fast toddlers about - though the accessible gate latches sit low, and I've watched determined two-year-olds work them out, so keep an eye on the exits. My one honest gripe is shade: much of the equipment sits in open sun, so this is a hat-and-sunscreen destination. In summer I'd aim for morning or late afternoon over the middle of the day, when the metal slides bake." },
-    { "type": "localTip", "text": "Come early on a weekend. By mid-morning on a sunny Saturday the rocket has a queue and the shady benches go fast. Arrive by 9am and you'll get the run of the place - plus cooler equipment before the sun hits." },
-    { "type": "faq", "items": [
-      { "q": "Where exactly is the Bondi rocket ship playground?", "a": "It's at Waverley Park on Paul Street, Bondi Junction - about a 10-minute walk from Bondi Junction train station and close to Westfield Bondi Junction, not down on the beachfront." },
-      { "q": "Is it fenced and good for toddlers?", "a": "Yes - it's fully fenced with a dedicated toddler zone, so it suits little ones well. Just note the accessible gate latches sit low and small kids can sometimes open them, so watch the exits." },
-      { "q": "How much does it cost?", "a": "Nothing. The playground is free and open to the public; you only pay if you grab a coffee or snack from the park kiosk." }
-    ] },
-    { "type": "p", "text": "For a free morning out near Bondi, this is hard to beat. Pack the hats, let the kids launch that rocket until their arms give out, and grab a coffee while they do. It earns the hype." }
+    {
+      "type": "p",
+      "text": "If you ask me where to take kids for a big, joyful morning near Bondi, my answer never changes: the rebuilt playground at Waverley Park, up the hill in Bondi Junction. It's the one with the rocket ship - and it has a fair claim to being the best playground in Sydney. This spot has drawn kids for generations: Waverley Park was home to one of the last of Sydney's original 1960s 'Moon Rocket' slippery dips, and when the playground was rebuilt in 2023 the council made sure that space-age spirit came back with it."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Where",
+          "value": "Waverley Park, Paul St, Bondi Junction"
+        },
+        {
+          "label": "Star attraction",
+          "value": "Multi-storey rocket ship & launch tower"
+        },
+        {
+          "label": "Cost",
+          "value": "Free"
+        },
+        {
+          "label": "Great for",
+          "value": "Toddlers through primary-age kids"
+        },
+        {
+          "label": "Fenced",
+          "value": "Yes - fully enclosed"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The rocket ship everyone comes for"
+    },
+    {
+      "type": "p",
+      "text": "The centrepiece is a bespoke, multi-storey rocket ship with a launch tower and mission-control station - a modern tribute to the beloved 1960s original. Designed by Proludic and craned into place on 20 October 2023 as part of a $1.7 million upgrade funded through the NSW Public Spaces Legacy Program, it's a proper piece of imaginative play, not a slide with a paint job. Press the launch button and 'steam' (harmless water vapour) billows out for a genuine-looking blast-off. There's a control panel of knobs and dials for little commanders, and a climb up through the tower that feels like an achievement before kids reach the big slide at the top. My nephews would happily launch that rocket a hundred times in a row."
+    },
+    {
+      "type": "p",
+      "text": "What lifts it above the average playground is how well it works across ages. Older kids test themselves on the tower and rope climb while little ones potter safely nearby - exactly what you want with siblings in tow. Beyond the rocket you'll find:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Slides, spinners, a see-saw and inclusive swings (including a wide 'Duo' seat for an adult and toddler together)",
+        "A separate, fenced-off toddler zone",
+        "Sensory and musical play, plus a water course with a hand pump",
+        "Plenty of seating and shade trees around the edges for parents"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "It's Bondi Junction, not the beachfront",
+      "text": "Despite the 'heart of Bondi' billing, Waverley Park sits up in Bondi Junction on Paul Street - roughly a 10-minute walk from Bondi Junction station and moments from Westfield and Waverley Library. It pairs neatly with a shopping run or a library visit, but it's not down on the sand."
+    },
+    {
+      "type": "p",
+      "text": "The playground is fully fenced, which is a relief with fast toddlers about - though the accessible gate latches sit low, and I've watched determined two-year-olds work them out, so keep an eye on the exits. My one honest gripe is shade: much of the equipment sits in open sun, so this is a hat-and-sunscreen destination. In summer I'd aim for morning or late afternoon over the middle of the day, when the metal slides bake."
+    },
+    {
+      "type": "localTip",
+      "text": "Come early on a weekend. By mid-morning on a sunny Saturday the rocket has a queue and the shady benches go fast. Arrive by 9am and you'll get the run of the place - plus cooler equipment before the sun hits."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Where exactly is the Bondi rocket ship playground?",
+          "a": "It's at Waverley Park on Paul Street, Bondi Junction - about a 10-minute walk from Bondi Junction train station and close to Westfield Bondi Junction, not down on the beachfront."
+        },
+        {
+          "q": "Is it fenced and good for toddlers?",
+          "a": "Yes - it's fully fenced with a dedicated toddler zone, so it suits little ones well. Just note the accessible gate latches sit low and small kids can sometimes open them, so watch the exits."
+        },
+        {
+          "q": "How much does it cost?",
+          "a": "Nothing. The playground is free and open to the public; you only pay if you grab a coffee or snack from the park kiosk."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For a free morning out near Bondi, this is hard to beat. Pack the hats, let the kids launch that rocket until their arms give out, and grab a coffee while they do. It earns the hype."
+    }
   ]
 }

@@ -2,32 +2,101 @@
   "path": "/bondi-blog/Bondi-beach-temperature",
   "voice": "first-person",
   "lastReviewed": "2026-08-10",
+  "freshnessClass": "seasonal",
   "sources": [
-    { "label": "Bureau of Meteorology - Sydney climate averages (Observatory Hill, station 066062)", "url": "http://www.bom.gov.au/climate/averages/tables/cw_066062.shtml" },
-    { "label": "Bureau of Meteorology - Sydney forecast", "url": "http://www.bom.gov.au/nsw/forecasts/sydney.shtml" },
-    { "label": "Manly Hydraulics Laboratory (NSW Government) - Sydney ocean water temperatures", "url": "https://mhl.nsw.gov.au/Data-Water-Temperature" },
-    { "label": "Bondi Icebergs Club - history and pool", "url": "https://icebergs.com.au/icebergs-club/" }
+    {
+      "label": "Bureau of Meteorology - Sydney climate averages (Observatory Hill, station 066062)",
+      "url": "http://www.bom.gov.au/climate/averages/tables/cw_066062.shtml"
+    },
+    {
+      "label": "Bureau of Meteorology - Sydney forecast",
+      "url": "http://www.bom.gov.au/nsw/forecasts/sydney.shtml"
+    },
+    {
+      "label": "Manly Hydraulics Laboratory (NSW Government) - Sydney ocean water temperatures",
+      "url": "https://mhl.nsw.gov.au/Data-Water-Temperature"
+    },
+    {
+      "label": "Bondi Icebergs Club - history and pool",
+      "url": "https://icebergs.com.au/icebergs-club/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "Here's the short version I give friends before they visit: Bondi is mild and swimmable for a big slice of the year, with warm summers, cool-but-sunny winters and very few genuine extremes. The one thing that catches people out is that the water and the air don't move in step - so below I've split them out. For the actual figures on your travel day, always trust the Bureau of Meteorology's Sydney forecast over any long-term average, mine included." },
-    { "type": "quickFacts", "items": [
-      { "label": "Warmest month", "value": "January (Observatory Hill mean max ~26°C)" },
-      { "label": "Coolest air", "value": "Jun–Aug (mild, often sunny, above freezing)" },
-      { "label": "Sea range", "value": "About 17°C in winter to 24°C at the Feb peak" },
-      { "label": "Seasons", "value": "Opposite the northern hemisphere: summer is Dec–Feb" },
-      { "label": "Today's reading", "value": "See our daily Bondi weather summary" }
-    ] },
-    { "type": "p", "text": "Bondi sits right on the coast, so the ocean keeps things a degree or two milder than the western suburbs - cooler on a scorching day, a touch warmer on a cold winter night. Sydney's benchmark figures come from the Bureau's Observatory Hill station (066062), which has kept the city's longest continuous weather record since 1858, and January there averages a mean maximum of around 26°C." },
-    { "type": "h2", "text": "Why the water feels colder than the air" },
-    { "type": "p", "text": "Don't judge the ocean by the thermometer on the sand. Sydney's sea lags the seasons by a month or two: it's warmest around February and coldest in July and August, so autumn water often feels warmer than you'd expect because it's still carrying summer's heat, while a hot spring day can sit over surprisingly chilly water. From roughly May to September a lot of regulars switch to a wetsuit. For the sea specifically I lean on the NSW Government's Manly Hydraulics Laboratory readings rather than guessing." },
-    { "type": "callout", "tone": "note", "title": "The Icebergs test", "text": "The 50-metre ocean pool at the southern headland - home to Bondi Icebergs, founded in 1929 and the world's only licensed winter swimming club - is filled by the Pacific washing over its edge, so its water tracks the open sea almost exactly. If the pool looks bracing, the beach will be too." },
-    { "type": "h2", "text": "So when should you go?" },
-    { "type": "p", "text": "For reliable swimming and buzz, come in summer or early autumn - the sea holds summer's warmth well into April, and the crowds have thinned. If you'd trade a few degrees for space, clear skies and cheaper stays, winter and early spring are underrated: Bondi gets some of its brightest days in June and July, and you can have the sand half to yourself. Whichever month you pick, pack a light layer for the evening southerly and let the forecast make the final call." },
-    { "type": "faq", "items": [
-      { "q": "What are the warmest months at Bondi Beach?", "a": "January and February bring the warmest air and sea, which is why they're the busiest. December and March are close behind and usually a little quieter." },
-      { "q": "How warm is the water for swimming?", "a": "The sea runs from roughly 17°C in winter to about 24°C at the February peak. Many people wear a wetsuit from about May to September. The NSW Manly Hydraulics Laboratory publishes the current Sydney water temperature." },
-      { "q": "How cold does Bondi get in winter?", "a": "Winter days are cool but often sunny, and overnight lows stay well above freezing - snow and hard frost aren't part of the picture. Bring a jacket, but genuine cold snaps are rare. Check the Bureau of Meteorology's Sydney page for the exact forecast." },
-      { "q": "Is the Bondi Icebergs pool heated?", "a": "No - it's an unheated ocean pool fed by the Pacific, so its temperature closely follows the sea through the year." }
-    ] }
+    {
+      "type": "p",
+      "text": "Here's the short version I give friends before they visit: Bondi is mild and swimmable for a big slice of the year, with warm summers, cool-but-sunny winters and very few genuine extremes. The one thing that catches people out is that the water and the air don't move in step - so below I've split them out. For the actual figures on your travel day, always trust the Bureau of Meteorology's Sydney forecast over any long-term average, mine included."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Warmest month",
+          "value": "January (Observatory Hill mean max ~26°C)"
+        },
+        {
+          "label": "Coolest air",
+          "value": "Jun–Aug (mild, often sunny, above freezing)"
+        },
+        {
+          "label": "Sea range",
+          "value": "About 17°C in winter to 24°C at the Feb peak"
+        },
+        {
+          "label": "Seasons",
+          "value": "Opposite the northern hemisphere: summer is Dec–Feb"
+        },
+        {
+          "label": "Today's reading",
+          "value": "See our daily Bondi weather summary"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bondi sits right on the coast, so the ocean keeps things a degree or two milder than the western suburbs - cooler on a scorching day, a touch warmer on a cold winter night. Sydney's benchmark figures come from the Bureau's Observatory Hill station (066062), which has kept the city's longest continuous weather record since 1858, and January there averages a mean maximum of around 26°C."
+    },
+    {
+      "type": "h2",
+      "text": "Why the water feels colder than the air"
+    },
+    {
+      "type": "p",
+      "text": "Don't judge the ocean by the thermometer on the sand. Sydney's sea lags the seasons by a month or two: it's warmest around February and coldest in July and August, so autumn water often feels warmer than you'd expect because it's still carrying summer's heat, while a hot spring day can sit over surprisingly chilly water. From roughly May to September a lot of regulars switch to a wetsuit. For the sea specifically I lean on the NSW Government's Manly Hydraulics Laboratory readings rather than guessing."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "The Icebergs test",
+      "text": "The 50-metre ocean pool at the southern headland - home to Bondi Icebergs, founded in 1929 and the world's only licensed winter swimming club - is filled by the Pacific washing over its edge, so its water tracks the open sea almost exactly. If the pool looks bracing, the beach will be too."
+    },
+    {
+      "type": "h2",
+      "text": "So when should you go?"
+    },
+    {
+      "type": "p",
+      "text": "For reliable swimming and buzz, come in summer or early autumn - the sea holds summer's warmth well into April, and the crowds have thinned. If you'd trade a few degrees for space, clear skies and cheaper stays, winter and early spring are underrated: Bondi gets some of its brightest days in June and July, and you can have the sand half to yourself. Whichever month you pick, pack a light layer for the evening southerly and let the forecast make the final call."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What are the warmest months at Bondi Beach?",
+          "a": "January and February bring the warmest air and sea, which is why they're the busiest. December and March are close behind and usually a little quieter."
+        },
+        {
+          "q": "How warm is the water for swimming?",
+          "a": "The sea runs from roughly 17°C in winter to about 24°C at the February peak. Many people wear a wetsuit from about May to September. The NSW Manly Hydraulics Laboratory publishes the current Sydney water temperature."
+        },
+        {
+          "q": "How cold does Bondi get in winter?",
+          "a": "Winter days are cool but often sunny, and overnight lows stay well above freezing - snow and hard frost aren't part of the picture. Bring a jacket, but genuine cold snaps are rare. Check the Bureau of Meteorology's Sydney page for the exact forecast."
+        },
+        {
+          "q": "Is the Bondi Icebergs pool heated?",
+          "a": "No - it's an unheated ocean pool fed by the Pacific, so its temperature closely follows the sea through the year."
+        }
+      ]
+    }
   ]
 }

@@ -2,48 +2,150 @@
   "path": "/bondi-blog/2018/10/17/when-is-the-best-time-to-visit-bondi-beach",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "seasonal",
   "sources": [
-    { "label": "Bureau of Meteorology - Sydney climate", "url": "http://www.bom.gov.au/nsw/" },
-    { "label": "Waverley Council - Beaches & coast (Bondi lifeguards & patrols)", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
-    { "label": "Sculpture by the Sea - Bondi", "url": "https://sculpturebythesea.com/bondi/" }
+    {
+      "label": "Bureau of Meteorology - Sydney climate",
+      "url": "http://www.bom.gov.au/nsw/"
+    },
+    {
+      "label": "Waverley Council - Beaches & coast (Bondi lifeguards & patrols)",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast"
+    },
+    {
+      "label": "Sculpture by the Sea - Bondi",
+      "url": "https://sculpturebythesea.com/bondi/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "The honest answer I give friends flying in is this: the best time to visit Bondi Beach is late spring and early autumn - roughly October to November and March to April - when the days are warm, the water is swimmable and the summer crowds haven't taken over. If it has to be one month, I'll point people at March: still-warm ocean, softer light, and a beach that finally feels like it belongs to the locals again." },
-    { "type": "p", "text": "That said, there's no genuinely bad time to come. Bondi works in every season - it just rewards you differently. Here's how I'd think about it." },
-    { "type": "quickFacts", "items": [
-      { "label": "Peak season", "value": "Dec–Feb (summer)" },
-      { "label": "My pick", "value": "Mar–Apr & Oct–Nov" },
-      { "label": "Warmest water", "value": "Around February" },
-      { "label": "Quietest", "value": "Jun–Aug (winter)" },
-      { "label": "Lifeguards", "value": "Year-round, daily" }
-    ] },
-    { "type": "h2", "text": "Season by season, the way a local sees it" },
-    { "type": "h3", "text": "Summer (December to February)" },
-    { "type": "p", "text": "This is Bondi at full volume. The water is at its warmest, the flags are up, the promenade hums until late, and every second person is carrying a towel. It's genuinely brilliant - but it's also when the beach, the car parks and the café queues are busiest, especially on weekends, public holidays and anywhere near Christmas and New Year. Come for the energy; just arrive early and manage your expectations on space." },
-    { "type": "h3", "text": "Autumn (March to May)" },
-    { "type": "p", "text": "My favourite window. The ocean holds onto its summer warmth well into autumn, so March and April often give you the best of both worlds: comfortable swimming without the January crush. Restaurant bookings open up, the light turns golden, and the whole place exhales. If you want the classic Bondi experience minus the mayhem, this is when I'd book." },
-    { "type": "h3", "text": "Winter (June to August)" },
-    { "type": "p", "text": "Cooler and quieter, but far from dead. Sydney winters are mild by most of the world's standards, and a crisp, sunny Bondi day in July - coffee in hand, walking the Bondi to Coogee coastal path - is one of my favourite things. The water is cold, so it's more for the hardy and the wetsuit crowd, but the cafés, the pool at the Icebergs and the clifftop walk are all still very much on." },
-    { "type": "h3", "text": "Spring (September to November)" },
-    { "type": "p", "text": "The beach wakes back up. Days lengthen, the water starts to warm, and the crowds haven't fully returned yet. Late October into November also brings Sculpture by the Sea along the Bondi to Tamarama coastal walk, which is one of the best free things you can do in Sydney - check the official site for the current year's dates." },
-    { "type": "h2", "text": "Weather, water and crowds" },
-    { "type": "p", "text": "Bondi's climate is what draws people from October through April: warm days and an ocean that's actually inviting. Water temperatures peak in the warmer months (around February) and are coldest in winter, but exact figures shift year to year - I'd trust the Bureau of Meteorology for current conditions over any number baked in here." },
-    { "type": "localTip", "text": "Weekday mornings are the secret. Turn up before about 9am on a Tuesday or Wednesday in the shoulder seasons and you get parking, an easy café table and a stretch of sand almost to yourself - the same beach that's shoulder-to-shoulder by Saturday lunchtime." },
-    { "type": "callout", "tone": "note", "title": "Always swim between the flags", "text": "Council lifeguards patrol Bondi every day of the year, and the red-and-yellow flags mark the safest, supervised area to swim. If there are no flags up, don't swim. Check Waverley Council's lifeguard page for current patrol details before you go." },
-    { "type": "h2", "text": "So when should you book?" },
-    { "type": "list", "items": [
-      "Want peak summer buzz and the warmest swim? December to February - but book early and come on weekdays if you can.",
-      "Want warm water without the crowds? March and April, hands down.",
-      "Travelling on a budget or craving calm? Winter (June to August) is quietest, and the coastal walk shines.",
-      "Chasing events and blooming shoulder-season weather? Late October and November, around Sculpture by the Sea."
-    ] },
-    { "type": "faq", "items": [
-      { "q": "What is the overall best time to visit Bondi Beach?", "a": "For most people I'd say March–April or October–November: the water is warm enough to swim, the weather is reliably good, and you avoid the heaviest summer crowds. Peak summer (Dec–Feb) is best if you specifically want the warmest ocean and the liveliest atmosphere." },
-      { "q": "When is Bondi Beach least crowded?", "a": "Winter (June to August) is the quietest time on the sand, and weekday mornings are calm year-round. If you want summer weather with fewer people, aim for the autumn and spring shoulder seasons and avoid weekends and public holidays." },
-      { "q": "Can you swim at Bondi in winter?", "a": "You can, but the water is cold - most winter swimmers wear a wetsuit or stick to short dips and the Icebergs pool. Lifeguards still patrol year-round, so always swim between the flags when they're up." },
-      { "q": "What's the warmest month for the water at Bondi?", "a": "The ocean is generally warmest around February, at the tail end of summer, and coldest in mid-winter. Exact temperatures vary year to year, so check the Bureau of Meteorology for current sea conditions." },
-      { "q": "Is it worth visiting Bondi outside of summer?", "a": "Absolutely. Sydney winters are mild, the coastal walk is spectacular in any season, and the cafés, Icebergs and clifftop views don't close when the crowds thin out. Some of my best Bondi days have been in autumn and winter." }
-    ] },
-    { "type": "p", "text": "Bottom line: if you can, come in the shoulder seasons for warm water, easy tables and a beach that still feels like ours. Whenever you land, Bondi will show you a good day - pack sunscreen, come early, and swim between the flags." }
+    {
+      "type": "p",
+      "text": "The honest answer I give friends flying in is this: the best time to visit Bondi Beach is late spring and early autumn - roughly October to November and March to April - when the days are warm, the water is swimmable and the summer crowds haven't taken over. If it has to be one month, I'll point people at March: still-warm ocean, softer light, and a beach that finally feels like it belongs to the locals again."
+    },
+    {
+      "type": "p",
+      "text": "That said, there's no genuinely bad time to come. Bondi works in every season - it just rewards you differently. Here's how I'd think about it."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Peak season",
+          "value": "Dec–Feb (summer)"
+        },
+        {
+          "label": "My pick",
+          "value": "Mar–Apr & Oct–Nov"
+        },
+        {
+          "label": "Warmest water",
+          "value": "Around February"
+        },
+        {
+          "label": "Quietest",
+          "value": "Jun–Aug (winter)"
+        },
+        {
+          "label": "Lifeguards",
+          "value": "Year-round, daily"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Season by season, the way a local sees it"
+    },
+    {
+      "type": "h3",
+      "text": "Summer (December to February)"
+    },
+    {
+      "type": "p",
+      "text": "This is Bondi at full volume. The water is at its warmest, the flags are up, the promenade hums until late, and every second person is carrying a towel. It's genuinely brilliant - but it's also when the beach, the car parks and the café queues are busiest, especially on weekends, public holidays and anywhere near Christmas and New Year. Come for the energy; just arrive early and manage your expectations on space."
+    },
+    {
+      "type": "h3",
+      "text": "Autumn (March to May)"
+    },
+    {
+      "type": "p",
+      "text": "My favourite window. The ocean holds onto its summer warmth well into autumn, so March and April often give you the best of both worlds: comfortable swimming without the January crush. Restaurant bookings open up, the light turns golden, and the whole place exhales. If you want the classic Bondi experience minus the mayhem, this is when I'd book."
+    },
+    {
+      "type": "h3",
+      "text": "Winter (June to August)"
+    },
+    {
+      "type": "p",
+      "text": "Cooler and quieter, but far from dead. Sydney winters are mild by most of the world's standards, and a crisp, sunny Bondi day in July - coffee in hand, walking the Bondi to Coogee coastal path - is one of my favourite things. The water is cold, so it's more for the hardy and the wetsuit crowd, but the cafés, the pool at the Icebergs and the clifftop walk are all still very much on."
+    },
+    {
+      "type": "h3",
+      "text": "Spring (September to November)"
+    },
+    {
+      "type": "p",
+      "text": "The beach wakes back up. Days lengthen, the water starts to warm, and the crowds haven't fully returned yet. Late October into November also brings Sculpture by the Sea along the Bondi to Tamarama coastal walk, which is one of the best free things you can do in Sydney - check the official site for the current year's dates."
+    },
+    {
+      "type": "h2",
+      "text": "Weather, water and crowds"
+    },
+    {
+      "type": "p",
+      "text": "Bondi's climate is what draws people from October through April: warm days and an ocean that's actually inviting. Water temperatures peak in the warmer months (around February) and are coldest in winter, but exact figures shift year to year - I'd trust the Bureau of Meteorology for current conditions over any number baked in here."
+    },
+    {
+      "type": "localTip",
+      "text": "Weekday mornings are the secret. Turn up before about 9am on a Tuesday or Wednesday in the shoulder seasons and you get parking, an easy café table and a stretch of sand almost to yourself - the same beach that's shoulder-to-shoulder by Saturday lunchtime."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Always swim between the flags",
+      "text": "Council lifeguards patrol Bondi every day of the year, and the red-and-yellow flags mark the safest, supervised area to swim. If there are no flags up, don't swim. Check Waverley Council's lifeguard page for current patrol details before you go."
+    },
+    {
+      "type": "h2",
+      "text": "So when should you book?"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Want peak summer buzz and the warmest swim? December to February - but book early and come on weekdays if you can.",
+        "Want warm water without the crowds? March and April, hands down.",
+        "Travelling on a budget or craving calm? Winter (June to August) is quietest, and the coastal walk shines.",
+        "Chasing events and blooming shoulder-season weather? Late October and November, around Sculpture by the Sea."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What is the overall best time to visit Bondi Beach?",
+          "a": "For most people I'd say March–April or October–November: the water is warm enough to swim, the weather is reliably good, and you avoid the heaviest summer crowds. Peak summer (Dec–Feb) is best if you specifically want the warmest ocean and the liveliest atmosphere."
+        },
+        {
+          "q": "When is Bondi Beach least crowded?",
+          "a": "Winter (June to August) is the quietest time on the sand, and weekday mornings are calm year-round. If you want summer weather with fewer people, aim for the autumn and spring shoulder seasons and avoid weekends and public holidays."
+        },
+        {
+          "q": "Can you swim at Bondi in winter?",
+          "a": "You can, but the water is cold - most winter swimmers wear a wetsuit or stick to short dips and the Icebergs pool. Lifeguards still patrol year-round, so always swim between the flags when they're up."
+        },
+        {
+          "q": "What's the warmest month for the water at Bondi?",
+          "a": "The ocean is generally warmest around February, at the tail end of summer, and coldest in mid-winter. Exact temperatures vary year to year, so check the Bureau of Meteorology for current sea conditions."
+        },
+        {
+          "q": "Is it worth visiting Bondi outside of summer?",
+          "a": "Absolutely. Sydney winters are mild, the coastal walk is spectacular in any season, and the cafés, Icebergs and clifftop views don't close when the crowds thin out. Some of my best Bondi days have been in autumn and winter."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bottom line: if you can, come in the shoulder seasons for warm water, easy tables and a beach that still feels like ours. Whenever you land, Bondi will show you a good day - pack sunscreen, come early, and swim between the flags."
+    }
   ]
 }

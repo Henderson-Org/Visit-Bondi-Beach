@@ -2,44 +2,131 @@
   "path": "/bondi-blog/2024/1/25/can-you-see-dolphins-at-bondi-beach",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "seasonal",
   "sources": [
-    { "label": "Sydney.com - Whale watching in Sydney (Destination NSW)", "url": "https://www.sydney.com/things-to-do/nature-and-parks/whale-watching" },
-    { "label": "Australian Museum - Bottlenose Dolphin", "url": "https://australian.museum/learn/animals/mammals/bottlenose-dolphin/" },
-    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" }
+    {
+      "label": "Sydney.com - Whale watching in Sydney (Destination NSW)",
+      "url": "https://www.sydney.com/things-to-do/nature-and-parks/whale-watching"
+    },
+    {
+      "label": "Australian Museum - Bottlenose Dolphin",
+      "url": "https://australian.museum/learn/animals/mammals/bottlenose-dolphin/"
+    },
+    {
+      "label": "Bondi Icebergs Club",
+      "url": "https://icebergs.com.au/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "Can you see dolphins at Bondi Beach? Yes - but let me be honest with you: it's a lucky bonus, not a sure thing. Dolphins do cruise this stretch of the Sydney coast, and every so often a pod slides past the surf line at Bondi. There's no feeding station, no resident pod parked in the bay, and no timetable. What there is, if you keep your eyes on the water long enough, is a genuine chance of spotting those unmistakable dark fins rolling through the swell." },
-    { "type": "p", "text": "I've lived and swum here for years, and I still get that little jolt of delight when someone on the promenade points and shouts \"dolphins!\" It happens often enough that locals aren't shocked, but rarely enough that it never stops feeling special. So manage your expectations, bring a bit of patience, and I'll tell you how to give yourself the best shot." },
-    { "type": "h2", "text": "What you're actually looking at" },
-    { "type": "p", "text": "The dolphins that pass Sydney's ocean beaches are usually bottlenose dolphins, and sometimes common dolphins travelling in larger groups. They move along the coast following fish, so a sighting at Bondi is typically a pod passing through rather than stopping to hang around. That's why timing and a bit of luck matter more than picking the \"right\" spot." },
-    { "type": "p", "text": "Look for a smooth, rolling motion - a curved fin breaking the surface again and again in the same direction - rather than the single big blow-and-tail of a whale. Dolphins often travel just beyond the breakers, so scanning the water past the surf line is where you'll usually catch them." },
-    { "type": "quickFacts", "items": [
-      { "label": "Can you see them?", "value": "Yes - occasionally, not guaranteed" },
-      { "label": "Most likely species", "value": "Bottlenose & common dolphins" },
-      { "label": "Best conditions", "value": "Early morning, calm, glassy sea" },
-      { "label": "Where to look", "value": "Just beyond the surf line" },
-      { "label": "Bonus season", "value": "Whales, roughly mid-May–Nov" }
-    ] },
-    { "type": "h2", "text": "When and where you've got the best chance" },
-    { "type": "p", "text": "Early morning is my honest tip. The sea is usually at its calmest and glassiest just after dawn, the light is low and easy on the eyes, and the beach is quiet, so a fin is far easier to pick out. Calm, flat days beat big, messy surf days every time - chop hides everything." },
-    { "type": "p", "text": "For height and a clear line of sight, the southern end of the beach is your friend. The cliff path toward the Bondi Icebergs pool and the Bondi to Coogee coastal walk both give you an elevated vantage over open water, which makes spotting a passing pod far easier than standing on the flat sand. Icebergs itself has a wonderful outlook over the ocean - if you're visiting the pool or the club, keep half an eye on the water while you're there." },
-    { "type": "localTip", "text": "Between roughly mid-May and November, humpback whales migrate along this coast, and that's prime \"look at the ocean\" season. Even if you're really hoping for dolphins, this is when I'd most reliably set aside ten minutes to scan the horizon from the clifftop - you might get whales, dolphins, or both. Check Destination NSW's whale-watching guide for the current season." },
-    { "type": "callout", "tone": "note", "title": "No dolphin? Still a win", "text": "Sightings are unpredictable and completely wild, so please don't build your whole day around a guaranteed encounter. Treat any dolphin you see as a gift on top of an already-great morning at Bondi - that way you're never disappointed." },
-    { "type": "h2", "text": "How to actually spot them" },
-    { "type": "list", "items": [
-      "Come early, on a calm day with a flat, glassy sea.",
-      "Get some height - the cliff path near Icebergs or the coastal walk beats the flat sand.",
-      "Scan slowly just beyond the breakers, not the far horizon.",
-      "Look for a repeated rolling fin moving in one direction.",
-      "Bring binoculars if you have them, and give it a patient ten minutes."
-    ] },
-    { "type": "faq", "items": [
-      { "q": "Are dolphins common at Bondi Beach?", "a": "They're seen from time to time rather than daily. Pods travel along the Sydney coast following fish, so a Bondi sighting is usually a pod passing through. It's a lucky bonus, not something you can count on." },
-      { "q": "What time of day is best to see dolphins at Bondi?", "a": "Early morning, when the sea is typically calmest and glassiest and the beach is quiet. Low light and flat water make a fin far easier to pick out beyond the surf line." },
-      { "q": "Where's the best place to look?", "a": "Somewhere with height and a clear ocean view - the cliff path toward Bondi Icebergs at the southern end, or along the Bondi to Coogee coastal walk. Elevation beats standing on the flat sand." },
-      { "q": "Do I need a boat or a tour to see dolphins at Bondi?", "a": "No. Dolphins here are wild and pass close to shore, so you can spot them for free from the beach or clifftop. Dedicated dolphin- and whale-watching cruises operate elsewhere in Sydney if you want a more reliable, up-close experience." },
-      { "q": "Is there a season for marine life at Bondi?", "a": "Dolphins can appear year-round with no set season. For whales, humpbacks migrate along this coast roughly from mid-May to November - check Destination NSW's whale-watching guide for current timing." }
-    ] },
-    { "type": "p", "text": "So yes, you can absolutely see dolphins at Bondi Beach - I've watched them roll past on a still morning more times than I can count. Give yourself an early start, a calm day and a good vantage point, keep your expectations gentle, and let the ocean surprise you. When that fin does appear, trust me: it makes the whole trip." }
+    {
+      "type": "p",
+      "text": "Can you see dolphins at Bondi Beach? Yes - but let me be honest with you: it's a lucky bonus, not a sure thing. Dolphins do cruise this stretch of the Sydney coast, and every so often a pod slides past the surf line at Bondi. There's no feeding station, no resident pod parked in the bay, and no timetable. What there is, if you keep your eyes on the water long enough, is a genuine chance of spotting those unmistakable dark fins rolling through the swell."
+    },
+    {
+      "type": "p",
+      "text": "I've lived and swum here for years, and I still get that little jolt of delight when someone on the promenade points and shouts \"dolphins!\" It happens often enough that locals aren't shocked, but rarely enough that it never stops feeling special. So manage your expectations, bring a bit of patience, and I'll tell you how to give yourself the best shot."
+    },
+    {
+      "type": "h2",
+      "text": "What you're actually looking at"
+    },
+    {
+      "type": "p",
+      "text": "The dolphins that pass Sydney's ocean beaches are usually bottlenose dolphins, and sometimes common dolphins travelling in larger groups. They move along the coast following fish, so a sighting at Bondi is typically a pod passing through rather than stopping to hang around. That's why timing and a bit of luck matter more than picking the \"right\" spot."
+    },
+    {
+      "type": "p",
+      "text": "Look for a smooth, rolling motion - a curved fin breaking the surface again and again in the same direction - rather than the single big blow-and-tail of a whale. Dolphins often travel just beyond the breakers, so scanning the water past the surf line is where you'll usually catch them."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Can you see them?",
+          "value": "Yes - occasionally, not guaranteed"
+        },
+        {
+          "label": "Most likely species",
+          "value": "Bottlenose & common dolphins"
+        },
+        {
+          "label": "Best conditions",
+          "value": "Early morning, calm, glassy sea"
+        },
+        {
+          "label": "Where to look",
+          "value": "Just beyond the surf line"
+        },
+        {
+          "label": "Bonus season",
+          "value": "Whales, roughly mid-May–Nov"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "When and where you've got the best chance"
+    },
+    {
+      "type": "p",
+      "text": "Early morning is my honest tip. The sea is usually at its calmest and glassiest just after dawn, the light is low and easy on the eyes, and the beach is quiet, so a fin is far easier to pick out. Calm, flat days beat big, messy surf days every time - chop hides everything."
+    },
+    {
+      "type": "p",
+      "text": "For height and a clear line of sight, the southern end of the beach is your friend. The cliff path toward the Bondi Icebergs pool and the Bondi to Coogee coastal walk both give you an elevated vantage over open water, which makes spotting a passing pod far easier than standing on the flat sand. Icebergs itself has a wonderful outlook over the ocean - if you're visiting the pool or the club, keep half an eye on the water while you're there."
+    },
+    {
+      "type": "localTip",
+      "text": "Between roughly mid-May and November, humpback whales migrate along this coast, and that's prime \"look at the ocean\" season. Even if you're really hoping for dolphins, this is when I'd most reliably set aside ten minutes to scan the horizon from the clifftop - you might get whales, dolphins, or both. Check Destination NSW's whale-watching guide for the current season."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "No dolphin? Still a win",
+      "text": "Sightings are unpredictable and completely wild, so please don't build your whole day around a guaranteed encounter. Treat any dolphin you see as a gift on top of an already-great morning at Bondi - that way you're never disappointed."
+    },
+    {
+      "type": "h2",
+      "text": "How to actually spot them"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Come early, on a calm day with a flat, glassy sea.",
+        "Get some height - the cliff path near Icebergs or the coastal walk beats the flat sand.",
+        "Scan slowly just beyond the breakers, not the far horizon.",
+        "Look for a repeated rolling fin moving in one direction.",
+        "Bring binoculars if you have them, and give it a patient ten minutes."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Are dolphins common at Bondi Beach?",
+          "a": "They're seen from time to time rather than daily. Pods travel along the Sydney coast following fish, so a Bondi sighting is usually a pod passing through. It's a lucky bonus, not something you can count on."
+        },
+        {
+          "q": "What time of day is best to see dolphins at Bondi?",
+          "a": "Early morning, when the sea is typically calmest and glassiest and the beach is quiet. Low light and flat water make a fin far easier to pick out beyond the surf line."
+        },
+        {
+          "q": "Where's the best place to look?",
+          "a": "Somewhere with height and a clear ocean view - the cliff path toward Bondi Icebergs at the southern end, or along the Bondi to Coogee coastal walk. Elevation beats standing on the flat sand."
+        },
+        {
+          "q": "Do I need a boat or a tour to see dolphins at Bondi?",
+          "a": "No. Dolphins here are wild and pass close to shore, so you can spot them for free from the beach or clifftop. Dedicated dolphin- and whale-watching cruises operate elsewhere in Sydney if you want a more reliable, up-close experience."
+        },
+        {
+          "q": "Is there a season for marine life at Bondi?",
+          "a": "Dolphins can appear year-round with no set season. For whales, humpbacks migrate along this coast roughly from mid-May to November - check Destination NSW's whale-watching guide for current timing."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So yes, you can absolutely see dolphins at Bondi Beach - I've watched them roll past on a still morning more times than I can count. Give yourself an early start, a calm day and a good vantage point, keep your expectations gentle, and let the ocean surprise you. When that fin does appear, trust me: it makes the whole trip."
+    }
   ]
 }

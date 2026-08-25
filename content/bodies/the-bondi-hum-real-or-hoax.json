@@ -2,37 +2,121 @@
   "path": "/bondi-blog/2024/9/21/the-bondi-hum-real-or-hoax",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "annual",
   "sources": [
-    { "label": "ScienceDaily - 2026 NTNU study on 'the Hum'", "url": "https://www.sciencedaily.com/releases/2026/07/260719040002.htm" },
-    { "label": "NSW EPA - noise", "url": "https://www.epa.nsw.gov.au/Your-environment/Noise" },
-    { "label": "HowStuffWorks - How the Hum Works", "url": "https://science.howstuffworks.com/science-vs-myth/unexplained-phenomena/the-hum.htm" }
+    {
+      "label": "ScienceDaily - 2026 NTNU study on 'the Hum'",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260719040002.htm"
+    },
+    {
+      "label": "NSW EPA - noise",
+      "url": "https://www.epa.nsw.gov.au/Your-environment/Noise"
+    },
+    {
+      "label": "HowStuffWorks - How the Hum Works",
+      "url": "https://science.howstuffworks.com/science-vs-myth/unexplained-phenomena/the-hum.htm"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "Is the Bondi Hum real or a hoax? After years of fielding this over coffee on the promenade, here's my honest answer: it's real in the sense that people genuinely hear it - it isn't invented for attention - but nobody has ever pinned down a confirmed external source, and the latest science points inward, at our own hearing, rather than out to sea. So: not a hoax, but not the tidy villain everyone hopes to catch either." },
-    { "type": "quickFacts", "items": [
-      { "label": "What", "value": "A persistent low-frequency droning noise" },
-      { "label": "Who hears it", "value": "A small minority in affected areas" },
-      { "label": "When it's worst", "value": "Indoors, at night, in quiet" },
-      { "label": "Confirmed source", "value": "None - still unexplained" }
-    ] },
-    { "type": "h2", "text": "So what exactly is the Bondi Hum?" },
-    { "type": "p", "text": "People who hear it describe a steady, monotonous drone - a distant idling truck, a far-off fan, a low-flying plane that never arrives. It's low-frequency and relentless, and here's the strange part: the person next to you often can't hear a thing. It's loudest indoors and after dark, once the clamour of the suburb dies down and nothing masks it." },
-    { "type": "p", "text": "For most of us it's a curiosity. For the unlucky few, it's miserable - disturbed sleep, headaches, a sense of pressure, and the frustration of a problem no one else can hear and no meter has caught." },
-    { "type": "h2", "text": "Part of a worldwide mystery" },
-    { "type": "p", "text": "The thing I always tell people: Bondi isn't special here. \"The Hum\" is a global phenomenon reported for decades - famously in Bristol, England, from the mid-1970s, then in the 1990s in Taos, New Mexico and Kokomo, Indiana, each with its own name and baffled residents. The reports are remarkably consistent: a low rumble, usually put in the 30–80 Hz range, worse at night, audible to only a small slice of the local population." },
-    { "type": "localTip", "text": "If you think you're hearing it, try a simple test: step well away from any building and see whether it fades. A real external source usually changes as you move; a hum that follows you everywhere, even out in the open, is a strong hint it's your own hearing rather than the neighbourhood." },
-    { "type": "h2", "text": "Real or hoax? Where the science actually sits" },
-    { "type": "p", "text": "Here's where it gets interesting. A 2026 study led by Professor Markus Drexl at Norway's NTNU tested people who hear the Hum and found that, for most, the likeliest explanation is low-frequency tinnitus - a sound generated within the auditory system itself, even though it feels utterly external. Of 28 participants, only two showed better-than-average low-frequency hearing, and the inner-ear emissions you'd expect from unusually sensitive ears simply weren't there. Most of the time, in other words, the hum may be coming from inside the listener, not the coastline." },
-    { "type": "p", "text": "That said, the researchers were careful - and so am I. They didn't rule external sources out, and standard tests can miss extremely narrow sensitivities. Some hums genuinely are machinery, traced over the years to industrial or infrastructure noise. So the honest verdict is split: not a hoax; often a real quirk of hearing; occasionally a real external source that simply hasn't been found." },
-    { "type": "callout", "tone": "warning", "title": "If it's affecting your health", "text": "A hum that's wrecking your sleep or causing headaches is worth taking seriously. See a GP or an audiologist - low-frequency tinnitus is a recognised, manageable condition, and ruling it in or out beats chasing a phantom machine. If you're convinced it's an external source, the NSW EPA handles noise complaints." },
-    { "type": "h2", "text": "What locals and authorities have made of it" },
-    { "type": "p", "text": "Over the years, eastern-suburbs residents have raised low-frequency noise with local authorities, and the usual suspects - traffic, sewerage infrastructure, industrial plant - have been floated and largely dismissed without a smoking gun. The NSW Environment Protection Authority investigates persistent noise complaints across Sydney, and its noise pages are the best place to check what's currently on its radar. For the Bondi Hum itself, no conclusive cause has ever been confirmed." },
-    { "type": "faq", "items": [
-      { "q": "Is the Bondi Hum a hoax?", "a": "No. People genuinely perceive it - it isn't made up. What's unproven is the cause. There's no confirmed external source, and recent research suggests it may, for many, be low-frequency tinnitus generated within the ear itself." },
-      { "q": "Why can only some people hear the Bondi Hum?", "a": "That's the defining feature of 'the Hum' everywhere: only a small minority report it. If it were loud environmental noise, most people nearby would notice - part of why an internal, hearing-based explanation is taken seriously." },
-      { "q": "Has the cause of the Bondi Hum ever been found?", "a": "No. Suggested sources like traffic, sewerage plant and industrial equipment have been considered and not confirmed. As with the Taos and Bristol hums, no definitive external cause has been established for Bondi." },
-      { "q": "What should I do if I can hear it?", "a": "Try moving well away from any building to see if it fades. If it persists and affects your sleep or wellbeing, see a GP or audiologist about low-frequency tinnitus. If you believe it's genuinely an outside source, the NSW EPA handles noise investigations." }
-    ] },
-    { "type": "p", "text": "So, real or hoax? Neither label quite fits - which is why the Bondi Hum endures in local folklore. It sits in the genuinely unexplained middle: a real experience with a stubbornly elusive cause. Next time someone swears they hear a droning out over the water on a still night, don't dismiss them. They might be one of the few - and if you are too, you're in good company, from Taos to Bristol." }
+    {
+      "type": "p",
+      "text": "Is the Bondi Hum real or a hoax? After years of fielding this over coffee on the promenade, here's my honest answer: it's real in the sense that people genuinely hear it - it isn't invented for attention - but nobody has ever pinned down a confirmed external source, and the latest science points inward, at our own hearing, rather than out to sea. So: not a hoax, but not the tidy villain everyone hopes to catch either."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "What",
+          "value": "A persistent low-frequency droning noise"
+        },
+        {
+          "label": "Who hears it",
+          "value": "A small minority in affected areas"
+        },
+        {
+          "label": "When it's worst",
+          "value": "Indoors, at night, in quiet"
+        },
+        {
+          "label": "Confirmed source",
+          "value": "None - still unexplained"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "So what exactly is the Bondi Hum?"
+    },
+    {
+      "type": "p",
+      "text": "People who hear it describe a steady, monotonous drone - a distant idling truck, a far-off fan, a low-flying plane that never arrives. It's low-frequency and relentless, and here's the strange part: the person next to you often can't hear a thing. It's loudest indoors and after dark, once the clamour of the suburb dies down and nothing masks it."
+    },
+    {
+      "type": "p",
+      "text": "For most of us it's a curiosity. For the unlucky few, it's miserable - disturbed sleep, headaches, a sense of pressure, and the frustration of a problem no one else can hear and no meter has caught."
+    },
+    {
+      "type": "h2",
+      "text": "Part of a worldwide mystery"
+    },
+    {
+      "type": "p",
+      "text": "The thing I always tell people: Bondi isn't special here. \"The Hum\" is a global phenomenon reported for decades - famously in Bristol, England, from the mid-1970s, then in the 1990s in Taos, New Mexico and Kokomo, Indiana, each with its own name and baffled residents. The reports are remarkably consistent: a low rumble, usually put in the 30–80 Hz range, worse at night, audible to only a small slice of the local population."
+    },
+    {
+      "type": "localTip",
+      "text": "If you think you're hearing it, try a simple test: step well away from any building and see whether it fades. A real external source usually changes as you move; a hum that follows you everywhere, even out in the open, is a strong hint it's your own hearing rather than the neighbourhood."
+    },
+    {
+      "type": "h2",
+      "text": "Real or hoax? Where the science actually sits"
+    },
+    {
+      "type": "p",
+      "text": "Here's where it gets interesting. A 2026 study led by Professor Markus Drexl at Norway's NTNU tested people who hear the Hum and found that, for most, the likeliest explanation is low-frequency tinnitus - a sound generated within the auditory system itself, even though it feels utterly external. Of 28 participants, only two showed better-than-average low-frequency hearing, and the inner-ear emissions you'd expect from unusually sensitive ears simply weren't there. Most of the time, in other words, the hum may be coming from inside the listener, not the coastline."
+    },
+    {
+      "type": "p",
+      "text": "That said, the researchers were careful - and so am I. They didn't rule external sources out, and standard tests can miss extremely narrow sensitivities. Some hums genuinely are machinery, traced over the years to industrial or infrastructure noise. So the honest verdict is split: not a hoax; often a real quirk of hearing; occasionally a real external source that simply hasn't been found."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "If it's affecting your health",
+      "text": "A hum that's wrecking your sleep or causing headaches is worth taking seriously. See a GP or an audiologist - low-frequency tinnitus is a recognised, manageable condition, and ruling it in or out beats chasing a phantom machine. If you're convinced it's an external source, the NSW EPA handles noise complaints."
+    },
+    {
+      "type": "h2",
+      "text": "What locals and authorities have made of it"
+    },
+    {
+      "type": "p",
+      "text": "Over the years, eastern-suburbs residents have raised low-frequency noise with local authorities, and the usual suspects - traffic, sewerage infrastructure, industrial plant - have been floated and largely dismissed without a smoking gun. The NSW Environment Protection Authority investigates persistent noise complaints across Sydney, and its noise pages are the best place to check what's currently on its radar. For the Bondi Hum itself, no conclusive cause has ever been confirmed."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is the Bondi Hum a hoax?",
+          "a": "No. People genuinely perceive it - it isn't made up. What's unproven is the cause. There's no confirmed external source, and recent research suggests it may, for many, be low-frequency tinnitus generated within the ear itself."
+        },
+        {
+          "q": "Why can only some people hear the Bondi Hum?",
+          "a": "That's the defining feature of 'the Hum' everywhere: only a small minority report it. If it were loud environmental noise, most people nearby would notice - part of why an internal, hearing-based explanation is taken seriously."
+        },
+        {
+          "q": "Has the cause of the Bondi Hum ever been found?",
+          "a": "No. Suggested sources like traffic, sewerage plant and industrial equipment have been considered and not confirmed. As with the Taos and Bristol hums, no definitive external cause has been established for Bondi."
+        },
+        {
+          "q": "What should I do if I can hear it?",
+          "a": "Try moving well away from any building to see if it fades. If it persists and affects your sleep or wellbeing, see a GP or audiologist about low-frequency tinnitus. If you believe it's genuinely an outside source, the NSW EPA handles noise investigations."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So, real or hoax? Neither label quite fits - which is why the Bondi Hum endures in local folklore. It sits in the genuinely unexplained middle: a real experience with a stubbornly elusive cause. Next time someone swears they hear a droning out over the water on a still night, don't dismiss them. They might be one of the few - and if you are too, you're in good company, from Taos to Bristol."
+    }
   ]
 }

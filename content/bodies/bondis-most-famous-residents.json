@@ -2,38 +2,125 @@
   "path": "/bondi-blog/2017/5/7/bondis-most-famous-residents",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "evergreen",
   "sources": [
-    { "label": "Waverley Council - Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
-    { "label": "Bondi Rescue - Network 10", "url": "https://10play.com.au/bondi-rescue" },
-    { "label": "Surf Life Saving NSW", "url": "https://www.surflifesaving.com.au/" }
+    {
+      "label": "Waverley Council - Beach safety",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety"
+    },
+    {
+      "label": "Bondi Rescue - Network 10",
+      "url": "https://10play.com.au/bondi-rescue"
+    },
+    {
+      "label": "Surf Life Saving NSW",
+      "url": "https://www.surflifesaving.com.au/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "Ask me who Bondi's most famous residents are and I won't point to a celebrity's clifftop mansion - I'll point straight at the sand. The best-known faces around here are the Waverley Council lifeguards in blue, the men and women made famous around the world by the TV show 'Bondi Rescue'. If you've ever watched them sprint into a rip on television, you've already met the locals who define this beach." },
-    { "type": "p", "text": "'Bondi Rescue' first aired in 2006 on Network 10 and has since been broadcast in something like 100 countries, which means visitors turn up already knowing the flags, the tower and the routine. For a lot of people, the lifeguards ARE Bondi - and honestly, spend a summer here and you'll see why." },
-    { "type": "quickFacts", "items": [
-      { "label": "Who", "value": "Waverley Council professional lifeguards" },
-      { "label": "Uniform", "value": "Blue (paid lifeguards)" },
-      { "label": "On TV", "value": "'Bondi Rescue', Network 10, since 2006" },
-      { "label": "Patrols", "value": "365 days a year" },
-      { "label": "Rescues", "value": "Thousands every summer" }
-    ] },
-    { "type": "h2", "text": "The lifeguards in blue" },
-    { "type": "p", "text": "The professionals you see on the show are employed by Waverley Council and patrol Bondi every single day of the year - not just Bondi, either, but nearby Tamarama and Bronte as well. They're the ones in blue: putting out the red-and-yellow flags each morning, watching the water like hawks, running first aid and, when a rip fires up on a packed day, pulling swimmer after swimmer back to safety." },
-    { "type": "p", "text": "A busy summer at Bondi means thousands of rescues, and on the worst days - big swell, strong rips, a beach packed with people who don't know the water - the crew can be pulling swimmers back to safety one after another from morning to dark. It's a genuinely high-stakes job dressed up as a day at the beach, which is exactly what makes the TV show so watchable." },
-    { "type": "localTip", "text": "Always swim between the red-and-yellow flags. That patch isn't decorative - it's the stretch the lifeguards have judged safest and are actively watching. Step outside it and you're on your own with Bondi's rips, which is where the overwhelming majority of rescues happen." },
-    { "type": "h2", "text": "Blue vs red-and-yellow: two kinds of hero" },
-    { "type": "p", "text": "Here's a distinction worth knowing, because visitors mix it up constantly. The paid council lifeguards wear blue and work year-round. The volunteers - the surf lifesavers based at the local Surf Life Saving Clubs - wear the classic red and yellow, and you'll mostly see them patrolling on weekends and public holidays through the warmer months. Same beach, same mission, two different crews. Both are keeping an eye on you." },
-    { "type": "callout", "tone": "note", "title": "Patrol hours change with the season", "text": "Bondi is patrolled all year, but the exact hours shift between summer and winter (and around daylight saving). Rather than trust an out-of-date timetable, check Waverley Council's beach safety page for the current patrol times before you plan a swim - especially early morning or late afternoon." },
-    { "type": "h2", "text": "Meeting the famous residents" },
-    { "type": "p", "text": "You don't need a camera crew to see them at work - just come down to the beach. The lifeguard tower sits above the sand towards the southern end, and the crew are out on the flags all day. Give them room to do their job, but a friendly nod goes a long way; they're locals, and most are happy to point you to the safest spot to swim." },
-    { "type": "p", "text": "What I love is that for all the international fame, they've stayed exactly what they always were: people who love this beach and take its safety seriously. That's the real story behind Bondi's most famous residents - not the celebrity of the show, but the fact that the water is watched from dawn to dusk, every day of the year." },
-    { "type": "faq", "items": [
-      { "q": "Who are Bondi's most famous residents?", "a": "The Waverley Council lifeguards, made internationally famous by the TV show 'Bondi Rescue'. They patrol Bondi (plus Tamarama and Bronte) 365 days a year and are the faces most visitors associate with the beach." },
-      { "q": "What's the difference between lifeguards and surf lifesavers at Bondi?", "a": "The lifeguards in blue are paid professionals employed by Waverley Council and work year-round. The surf lifesavers in red and yellow are volunteers from the local Surf Life Saving Clubs, typically patrolling on weekends and public holidays in the warmer months." },
-      { "q": "When did 'Bondi Rescue' start?", "a": "It first aired in 2006 on Network 10 and has run for many seasons since, screening in roughly 100 countries around the world." },
-      { "q": "Can I meet the Bondi Rescue lifeguards?", "a": "You can see them working on the beach any day of the year around the lifeguard tower towards the southern end. They're on duty, so give them space, but they're locals and usually happy to advise on where it's safe to swim." },
-      { "q": "How many rescues do Bondi lifeguards do?", "a": "Thousands over a summer season, with the busiest days - strong rips, big crowds - keeping the crew pulling swimmers out one after another. Swimming between the red-and-yellow flags is the single best way to avoid needing one." }
-    ] },
-    { "type": "p", "text": "So next time you spread your towel out on the sand, take a second to look up at the tower. The people watching over you are the ones the whole world tunes in to see - and they're doing it live, for free, right in front of you." }
+    {
+      "type": "p",
+      "text": "Ask me who Bondi's most famous residents are and I won't point to a celebrity's clifftop mansion - I'll point straight at the sand. The best-known faces around here are the Waverley Council lifeguards in blue, the men and women made famous around the world by the TV show 'Bondi Rescue'. If you've ever watched them sprint into a rip on television, you've already met the locals who define this beach."
+    },
+    {
+      "type": "p",
+      "text": "'Bondi Rescue' first aired in 2006 on Network 10 and has since been broadcast in something like 100 countries, which means visitors turn up already knowing the flags, the tower and the routine. For a lot of people, the lifeguards ARE Bondi - and honestly, spend a summer here and you'll see why."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Who",
+          "value": "Waverley Council professional lifeguards"
+        },
+        {
+          "label": "Uniform",
+          "value": "Blue (paid lifeguards)"
+        },
+        {
+          "label": "On TV",
+          "value": "'Bondi Rescue', Network 10, since 2006"
+        },
+        {
+          "label": "Patrols",
+          "value": "365 days a year"
+        },
+        {
+          "label": "Rescues",
+          "value": "Thousands every summer"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The lifeguards in blue"
+    },
+    {
+      "type": "p",
+      "text": "The professionals you see on the show are employed by Waverley Council and patrol Bondi every single day of the year - not just Bondi, either, but nearby Tamarama and Bronte as well. They're the ones in blue: putting out the red-and-yellow flags each morning, watching the water like hawks, running first aid and, when a rip fires up on a packed day, pulling swimmer after swimmer back to safety."
+    },
+    {
+      "type": "p",
+      "text": "A busy summer at Bondi means thousands of rescues, and on the worst days - big swell, strong rips, a beach packed with people who don't know the water - the crew can be pulling swimmers back to safety one after another from morning to dark. It's a genuinely high-stakes job dressed up as a day at the beach, which is exactly what makes the TV show so watchable."
+    },
+    {
+      "type": "localTip",
+      "text": "Always swim between the red-and-yellow flags. That patch isn't decorative - it's the stretch the lifeguards have judged safest and are actively watching. Step outside it and you're on your own with Bondi's rips, which is where the overwhelming majority of rescues happen."
+    },
+    {
+      "type": "h2",
+      "text": "Blue vs red-and-yellow: two kinds of hero"
+    },
+    {
+      "type": "p",
+      "text": "Here's a distinction worth knowing, because visitors mix it up constantly. The paid council lifeguards wear blue and work year-round. The volunteers - the surf lifesavers based at the local Surf Life Saving Clubs - wear the classic red and yellow, and you'll mostly see them patrolling on weekends and public holidays through the warmer months. Same beach, same mission, two different crews. Both are keeping an eye on you."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Patrol hours change with the season",
+      "text": "Bondi is patrolled all year, but the exact hours shift between summer and winter (and around daylight saving). Rather than trust an out-of-date timetable, check Waverley Council's beach safety page for the current patrol times before you plan a swim - especially early morning or late afternoon."
+    },
+    {
+      "type": "h2",
+      "text": "Meeting the famous residents"
+    },
+    {
+      "type": "p",
+      "text": "You don't need a camera crew to see them at work - just come down to the beach. The lifeguard tower sits above the sand towards the southern end, and the crew are out on the flags all day. Give them room to do their job, but a friendly nod goes a long way; they're locals, and most are happy to point you to the safest spot to swim."
+    },
+    {
+      "type": "p",
+      "text": "What I love is that for all the international fame, they've stayed exactly what they always were: people who love this beach and take its safety seriously. That's the real story behind Bondi's most famous residents - not the celebrity of the show, but the fact that the water is watched from dawn to dusk, every day of the year."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Who are Bondi's most famous residents?",
+          "a": "The Waverley Council lifeguards, made internationally famous by the TV show 'Bondi Rescue'. They patrol Bondi (plus Tamarama and Bronte) 365 days a year and are the faces most visitors associate with the beach."
+        },
+        {
+          "q": "What's the difference between lifeguards and surf lifesavers at Bondi?",
+          "a": "The lifeguards in blue are paid professionals employed by Waverley Council and work year-round. The surf lifesavers in red and yellow are volunteers from the local Surf Life Saving Clubs, typically patrolling on weekends and public holidays in the warmer months."
+        },
+        {
+          "q": "When did 'Bondi Rescue' start?",
+          "a": "It first aired in 2006 on Network 10 and has run for many seasons since, screening in roughly 100 countries around the world."
+        },
+        {
+          "q": "Can I meet the Bondi Rescue lifeguards?",
+          "a": "You can see them working on the beach any day of the year around the lifeguard tower towards the southern end. They're on duty, so give them space, but they're locals and usually happy to advise on where it's safe to swim."
+        },
+        {
+          "q": "How many rescues do Bondi lifeguards do?",
+          "a": "Thousands over a summer season, with the busiest days - strong rips, big crowds - keeping the crew pulling swimmers out one after another. Swimming between the red-and-yellow flags is the single best way to avoid needing one."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So next time you spread your towel out on the sand, take a second to look up at the tower. The people watching over you are the ones the whole world tunes in to see - and they're doing it live, for free, right in front of you."
+    }
   ]
 }

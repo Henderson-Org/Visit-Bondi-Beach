@@ -2,43 +2,130 @@
   "path": "/bondi-blog/2023/11/5/things-to-do-at-bondi-beach-in-the-rain",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "seasonal",
   "sources": [
-    { "label": "Waverley Council - Bondi Pavilion", "url": "https://www.waverley.nsw.gov.au/recreation/bondi_pavilion" },
-    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" },
-    { "label": "Event Cinemas - Bondi Junction", "url": "https://www.eventcinemas.com.au/Cinema/Bondi-Junction" },
-    { "label": "Bureau of Meteorology - Sydney forecast", "url": "http://www.bom.gov.au/nsw/forecasts/sydney.shtml" }
+    {
+      "label": "Waverley Council - Bondi Pavilion",
+      "url": "https://www.waverley.nsw.gov.au/recreation/bondi_pavilion"
+    },
+    {
+      "label": "Bondi Icebergs Club",
+      "url": "https://icebergs.com.au/"
+    },
+    {
+      "label": "Event Cinemas - Bondi Junction",
+      "url": "https://www.eventcinemas.com.au/Cinema/Bondi-Junction"
+    },
+    {
+      "label": "Bureau of Meteorology - Sydney forecast",
+      "url": "http://www.bom.gov.au/nsw/forecasts/sydney.shtml"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "A rainy day at Bondi is nothing to mourn - some of my favourite hours here have been spent under grey skies. The short answer: you can still fill a whole day easily, between the [Bondi Pavilion](/bondi-pavilion)'s galleries and studios, a long lunch in a steamy café, a movie up at Bondi Junction, and even a swim (yes, really). Here's exactly how I'd spend a wet one, without ever wishing I'd stayed home." },
-    { "type": "quickFacts", "items": [
-      { "label": "Best rain plan", "value": "Bondi Pavilion + café + cinema" },
-      { "label": "Wettest months", "value": "Autumn (Mar–Jun) tends to be Sydney's rainiest" },
-      { "label": "Bring", "value": "Rain jacket over an umbrella - Bondi gets windy" },
-      { "label": "Nearest cinema", "value": "Bondi Junction (approx. 10 min by bus)" }
-    ] },
-    { "type": "h2", "text": "Stay dry inside the Bondi Pavilion" },
-    { "type": "p", "text": "The Pavilion is my first call whenever the clouds roll in. After its big restoration it reopened as a proper cultural centre, with an art gallery, a pottery studio, a theatre, music studios and the Bondi Story Room celebrating local and First Nations heritage - much of it free to wander. Programming rotates constantly, so I never assume; I check what's on before I walk over." },
-    { "type": "callout", "tone": "note", "title": "Check what's on first", "text": "Exhibitions, workshops and opening hours at the Pavilion change week to week. Look up the current programme on Waverley Council's Bondi Pavilion page rather than turning up on spec - that way a rainy detour is never a wasted one." },
-    { "type": "h2", "text": "Eat, shop and be pampered" },
-    { "type": "p", "text": "Bondi does the cosy-café thing better than almost anywhere. When it's bucketing down I'll happily lose an hour over a flat white and a big breakfast, watching the rain streak the windows and the surf turn moody and grey. Campbell Parade and the side streets are thick with options, from surfer-plain to properly good coffee." },
-    { "type": "p", "text": "If you'd rather keep moving, here's my wet-weather shortlist:" },
-    { "type": "list", "items": [
-      "Browse the boutiques and surf shops on Gould Street and Hall Street - most of it is a quick dash between awnings.",
-      "Book a massage or facial at one of Bondi's day spas; a downpour is the perfect excuse to slow down.",
-      "Drop into a yoga, pilates or reformer class - Bondi is full of studios and many take casual drop-ins.",
-      "Walk a stretch of the Bondi to Bronte coastal path anyway. In the rain it's dramatic and near-empty - just wear a proper rain jacket, and stay well back from the wet rocks and the sea wall when the swell is up."
-    ] },
-    { "type": "localTip", "text": "Skip the umbrella and wear a hooded rain jacket instead. The wind coming off the water turns umbrellas inside out within about thirty seconds - I've watched it happen to more tourists than I can count." },
-    { "type": "h2", "text": "The classic wet-weather move: cinema and a swim" },
-    { "type": "p", "text": "When the rain has properly set in, I head up to Bondi Junction, ten minutes or so away by bus, where Westfield's cinema complex, shops and food can swallow an entire afternoon indoors - the reliable no-fuss option when you just want to be warm and dry." },
-    { "type": "p", "text": "And here's my slightly contrarian favourite: go for a swim. The Bondi Icebergs pool is an ocean-fed, open-air saltwater pool, and it's open rain or shine - floating there while a light drizzle dimples the surface, with the grey sea crashing over the wall beside you, is genuinely one of Bondi's best experiences. There's a sauna to warm up in afterwards. Heavy rain and big swells can occasionally close the pool or cloud the water, and the pool is emptied and cleaned each week, so check the Icebergs website or socials for current session times and closures before you go." },
-    { "type": "faq", "items": [
-      { "q": "What is there to do at Bondi Beach when it rains?", "a": "Plenty. My go-to plan is the Bondi Pavilion (gallery, pottery studio, theatre and the Bondi Story Room), a long café lunch, boutique shopping on Gould and Hall Streets, a day-spa treatment or drop-in yoga class, and - for the full wet-weather afternoon - the cinema at Westfield Bondi Junction. If you're brave, the Icebergs saltwater pool is open in the rain too." },
-      { "q": "Is the Bondi Icebergs pool open when it's raining?", "a": "Generally yes - it's an open-air ocean pool that operates rain or shine, and swimming in a light rain is wonderful. But heavy rain, big swells and the weekly clean can affect water quality or force a closure, so always check the Icebergs website for current session times before heading down." },
-      { "q": "Is the Bondi Pavilion free to visit?", "a": "Much of the Pavilion - including the public spaces and gallery - is free to wander, though ticketed events, workshops and performances run too. Because the programme changes constantly, check Waverley Council's Bondi Pavilion page for current exhibitions and opening hours." },
-      { "q": "Where's the nearest cinema to Bondi Beach?", "a": "Event Cinemas at Westfield Bondi Junction, roughly ten minutes from the beach by bus. It's the classic rainy-day move - pair a film with the shopping centre's shops and food court to fill a whole afternoon indoors." },
-      { "q": "When is Bondi most likely to be rainy?", "a": "Sydney gets rain year-round, but autumn (roughly March to June) tends to be the wettest stretch. For any specific day, check the Bureau of Meteorology's Sydney forecast rather than relying on the season." }
-    ] },
-    { "type": "p", "text": "So don't let a grey sky put you off. Some of the most memorable days I've had here came with a rain jacket on - the crowds thin out and Bondi shows you a quieter, cosier side the sunshine crowd never sees." }
+    {
+      "type": "p",
+      "text": "A rainy day at Bondi is nothing to mourn - some of my favourite hours here have been spent under grey skies. The short answer: you can still fill a whole day easily, between the [Bondi Pavilion](/bondi-pavilion)'s galleries and studios, a long lunch in a steamy café, a movie up at Bondi Junction, and even a swim (yes, really). Here's exactly how I'd spend a wet one, without ever wishing I'd stayed home."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Best rain plan",
+          "value": "Bondi Pavilion + café + cinema"
+        },
+        {
+          "label": "Wettest months",
+          "value": "Autumn (Mar–Jun) tends to be Sydney's rainiest"
+        },
+        {
+          "label": "Bring",
+          "value": "Rain jacket over an umbrella - Bondi gets windy"
+        },
+        {
+          "label": "Nearest cinema",
+          "value": "Bondi Junction (approx. 10 min by bus)"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Stay dry inside the Bondi Pavilion"
+    },
+    {
+      "type": "p",
+      "text": "The Pavilion is my first call whenever the clouds roll in. After its big restoration it reopened as a proper cultural centre, with an art gallery, a pottery studio, a theatre, music studios and the Bondi Story Room celebrating local and First Nations heritage - much of it free to wander. Programming rotates constantly, so I never assume; I check what's on before I walk over."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Check what's on first",
+      "text": "Exhibitions, workshops and opening hours at the Pavilion change week to week. Look up the current programme on Waverley Council's Bondi Pavilion page rather than turning up on spec - that way a rainy detour is never a wasted one."
+    },
+    {
+      "type": "h2",
+      "text": "Eat, shop and be pampered"
+    },
+    {
+      "type": "p",
+      "text": "Bondi does the cosy-café thing better than almost anywhere. When it's bucketing down I'll happily lose an hour over a flat white and a big breakfast, watching the rain streak the windows and the surf turn moody and grey. Campbell Parade and the side streets are thick with options, from surfer-plain to properly good coffee."
+    },
+    {
+      "type": "p",
+      "text": "If you'd rather keep moving, here's my wet-weather shortlist:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Browse the boutiques and surf shops on Gould Street and Hall Street - most of it is a quick dash between awnings.",
+        "Book a massage or facial at one of Bondi's day spas; a downpour is the perfect excuse to slow down.",
+        "Drop into a yoga, pilates or reformer class - Bondi is full of studios and many take casual drop-ins.",
+        "Walk a stretch of the Bondi to Bronte coastal path anyway. In the rain it's dramatic and near-empty - just wear a proper rain jacket, and stay well back from the wet rocks and the sea wall when the swell is up."
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "Skip the umbrella and wear a hooded rain jacket instead. The wind coming off the water turns umbrellas inside out within about thirty seconds - I've watched it happen to more tourists than I can count."
+    },
+    {
+      "type": "h2",
+      "text": "The classic wet-weather move: cinema and a swim"
+    },
+    {
+      "type": "p",
+      "text": "When the rain has properly set in, I head up to Bondi Junction, ten minutes or so away by bus, where Westfield's cinema complex, shops and food can swallow an entire afternoon indoors - the reliable no-fuss option when you just want to be warm and dry."
+    },
+    {
+      "type": "p",
+      "text": "And here's my slightly contrarian favourite: go for a swim. The Bondi Icebergs pool is an ocean-fed, open-air saltwater pool, and it's open rain or shine - floating there while a light drizzle dimples the surface, with the grey sea crashing over the wall beside you, is genuinely one of Bondi's best experiences. There's a sauna to warm up in afterwards. Heavy rain and big swells can occasionally close the pool or cloud the water, and the pool is emptied and cleaned each week, so check the Icebergs website or socials for current session times and closures before you go."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What is there to do at Bondi Beach when it rains?",
+          "a": "Plenty. My go-to plan is the Bondi Pavilion (gallery, pottery studio, theatre and the Bondi Story Room), a long café lunch, boutique shopping on Gould and Hall Streets, a day-spa treatment or drop-in yoga class, and - for the full wet-weather afternoon - the cinema at Westfield Bondi Junction. If you're brave, the Icebergs saltwater pool is open in the rain too."
+        },
+        {
+          "q": "Is the Bondi Icebergs pool open when it's raining?",
+          "a": "Generally yes - it's an open-air ocean pool that operates rain or shine, and swimming in a light rain is wonderful. But heavy rain, big swells and the weekly clean can affect water quality or force a closure, so always check the Icebergs website for current session times before heading down."
+        },
+        {
+          "q": "Is the Bondi Pavilion free to visit?",
+          "a": "Much of the Pavilion - including the public spaces and gallery - is free to wander, though ticketed events, workshops and performances run too. Because the programme changes constantly, check Waverley Council's Bondi Pavilion page for current exhibitions and opening hours."
+        },
+        {
+          "q": "Where's the nearest cinema to Bondi Beach?",
+          "a": "Event Cinemas at Westfield Bondi Junction, roughly ten minutes from the beach by bus. It's the classic rainy-day move - pair a film with the shopping centre's shops and food court to fill a whole afternoon indoors."
+        },
+        {
+          "q": "When is Bondi most likely to be rainy?",
+          "a": "Sydney gets rain year-round, but autumn (roughly March to June) tends to be the wettest stretch. For any specific day, check the Bureau of Meteorology's Sydney forecast rather than relying on the season."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So don't let a grey sky put you off. Some of the most memorable days I've had here came with a rain jacket on - the crowds thin out and Bondi shows you a quieter, cosier side the sunshine crowd never sees."
+    }
   ]
 }

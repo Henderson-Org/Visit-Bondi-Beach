@@ -134,6 +134,14 @@ async function main() {
       wordCount,
       ...(rec.sources ? { sources: rec.sources } : {}),
       ...(rec.lastReviewed ? { lastReviewed: rec.lastReviewed } : {}),
+      // freshnessClass/checkType are validated above and MUST be emitted: lib/content.ts
+      // overlays them onto the Page, the renderer uses freshnessClass to suppress the
+      // visible "checked" date on evergreen pages and checkType to choose the wording
+      // ("Last locally checked" vs "Last reviewed"), and the maintenance calendar reads
+      // the class to schedule the next review. Dropping them here silently disabled all
+      // three - every page fell back to the undated/desk default regardless of its source file.
+      ...(rec.freshnessClass ? { freshnessClass: rec.freshnessClass } : {}),
+      ...(rec.checkType ? { checkType: rec.checkType } : {}),
       ...(rec.voice ? { voice: rec.voice } : {}),
     };
   }

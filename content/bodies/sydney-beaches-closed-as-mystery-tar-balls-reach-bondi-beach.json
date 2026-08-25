@@ -2,40 +2,133 @@
   "path": "/bondi-blog/2024/10/17/sydney-beaches-closed-as-mystery-tar-balls-reach-bondi-beach",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "seasonal",
   "sources": [
-    { "label": "NSW Environment Protection Authority - beach ball debris investigation", "url": "https://www.epa.nsw.gov.au/" },
-    { "label": "Randwick City Council", "url": "https://www.randwick.nsw.gov.au/" },
-    { "label": "Waverley Council (Bondi, Bronte, Tamarama)", "url": "https://www.waverley.nsw.gov.au/" },
-    { "label": "UNSW Sydney Newsroom - analysis of the debris balls", "url": "https://www.unsw.edu.au/newsroom" },
-    { "label": "Beachwatch NSW - beach water-quality status", "url": "https://www.beachwatch.nsw.gov.au/" }
+    {
+      "label": "NSW Environment Protection Authority - beach ball debris investigation",
+      "url": "https://www.epa.nsw.gov.au/"
+    },
+    {
+      "label": "Randwick City Council",
+      "url": "https://www.randwick.nsw.gov.au/"
+    },
+    {
+      "label": "Waverley Council (Bondi, Bronte, Tamarama)",
+      "url": "https://www.waverley.nsw.gov.au/"
+    },
+    {
+      "label": "UNSW Sydney Newsroom - analysis of the debris balls",
+      "url": "https://www.unsw.edu.au/newsroom"
+    },
+    {
+      "label": "Beachwatch NSW - beach water-quality status",
+      "url": "https://www.beachwatch.nsw.gov.au/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you searched this after seeing headlines about mysterious black balls on Sydney's beaches, here's the short version: in mid-October 2024, thousands of small, dark, sticky balls washed up along Sydney's eastern coastline, and councils temporarily closed a string of beaches - starting with Coogee and the other Randwick beaches - while authorities worked out what the debris was. It was first reported as 'tar balls' from a possible oil spill, but that early label turned out to be wrong. The affected beaches were cleaned and reopened within days, and have long since been back to normal." },
-    { "type": "p", "text": "I want to be careful with the detail, because this story changed a lot between the first alarming headlines and what investigators eventually found - including the 'tar ball' framing in this article's own title." },
-    { "type": "h2", "text": "What actually washed up" },
-    { "type": "p", "text": "The debris appeared as small, blackish, ball-shaped lumps scattered across the sand. Because they were dark, greasy and sticky, the immediate assumption was tar balls - the weathered hydrocarbon blobs you sometimes get after crude oil breaks down at sea. That drove the first round of closures and the early talk of an oil slick offshore." },
-    { "type": "p", "text": "When the NSW Environment Protection Authority and researchers at UNSW Sydney analysed samples, though, the picture turned out to be messier. Rather than simple oil-spill tar, the balls were found to be a mixture of materials more consistent with human-generated waste than a single marine oil spill. I won't reproduce a chemical breakdown from memory - the official findings are the thing to rely on, and the EPA and UNSW links below cover what the testing actually showed." },
-    { "type": "callout", "tone": "warning", "title": "The 'tar ball' label was an early guess", "text": "Much of the first coverage described these as tar balls from an oil spill. Later testing pointed somewhere quite different. If you're researching what the balls were made of, go to the EPA's investigation updates rather than trusting the original headlines - this page's title included." },
-    { "type": "h2", "text": "Which beaches closed, and was Bondi one of them" },
-    { "type": "p", "text": "The first and most extensive closures were on the Randwick City Council beaches to Bondi's south - Coogee, Gordons Bay, Clovelly, Maroubra, Malabar and Little Bay among them - where the debris was heaviest. Waverley Council, which looks after Bondi, Bronte and Tamarama, also responded as material was found along its stretch of coast. Exactly which beaches were shut on which day shifted as the clean-up progressed, so for the precise closure list I'd point you to the two councils rather than pin down a figure that was changing daily." },
-    { "type": "quickFacts", "items": [
-      { "label": "When", "value": "Mid-October 2024" },
-      { "label": "What", "value": "Small, dark, ball-shaped debris washing up on Sydney's eastern beaches" },
-      { "label": "First affected", "value": "Randwick's beaches - Coogee and its neighbours - then others along the coast" },
-      { "label": "Early label", "value": "'Tar balls' from a suspected oil spill, later contradicted by testing" },
-      { "label": "Status now", "value": "Beaches cleaned, reopened and back to normal" }
-    ] },
-    { "type": "h2", "text": "Is it safe to swim now?" },
-    { "type": "p", "text": "Yes. The affected beaches were cleaned and reopened within days of each closure, and normal swimming resumed. This page is a record of what happened, not a live warning. Beach conditions still change with weather, swell and water quality, so before any swim it's worth a quick look at the current Beachwatch status and any council notices - good practice regardless of tar balls." },
-    { "type": "localTip", "text": "If odd debris ever washes up while you're at the beach, don't pick it up. Through the 2024 event the consistent advice was to avoid touching the balls and let lifeguards or council crews deal with them - sensible whether the material turns out to be oil, waste or anything else." },
-    { "type": "p", "text": "One footnote worth knowing: similar ball-shaped debris turned up again on other Sydney beaches, including some of the northern beaches, in early 2025, keeping the investigation going. It's a reminder that these events can recur, and that the source was never a simple, single, obvious spill." },
-    { "type": "faq", "items": [
-      { "q": "Were Sydney's beaches really closed because of the tar balls?", "a": "Yes - in October 2024 a run of eastern Sydney beaches was temporarily closed after dark, ball-shaped debris washed ashore, starting with Coogee and the other Randwick beaches. They were cleaned and reopened within days." },
-      { "q": "Did the debris actually reach Bondi?", "a": "The heaviest debris and the first closures were on Randwick's beaches south of Bondi. Waverley Council, which covers Bondi, Bronte and Tamarama, also responded as material appeared along its coast. For the exact beach-by-beach closure list, check the Randwick and Waverley council updates." },
-      { "q": "What were the black balls actually made of?", "a": "They were first assumed to be tar balls from an oil spill, but testing by the NSW EPA and UNSW pointed to a mixture more consistent with human-generated waste than a straightforward oil spill. Rely on the official EPA and UNSW findings for the composition." },
-      { "q": "Is it safe to swim at Bondi and the eastern beaches now?", "a": "Yes. The beaches were cleaned and reopened, and normal swimming resumed. As always, check the current Beachwatch water-quality rating and any council signage before you get in." },
-      { "q": "Did it happen again?", "a": "Similar debris washed up on other Sydney beaches, including some northern beaches, in early 2025. Check the EPA for the latest on the suspected source." }
-    ] },
-    { "type": "p", "text": "For a beach as loved as Bondi, a scare like this lands hard - but the reassuring part is how quickly the sand was cleared and the water reopened. If you're planning a visit, this is history now, not a hazard. Just glance at the day's conditions before you dive in." }
+    {
+      "type": "p",
+      "text": "If you searched this after seeing headlines about mysterious black balls on Sydney's beaches, here's the short version: in mid-October 2024, thousands of small, dark, sticky balls washed up along Sydney's eastern coastline, and councils temporarily closed a string of beaches - starting with Coogee and the other Randwick beaches - while authorities worked out what the debris was. It was first reported as 'tar balls' from a possible oil spill, but that early label turned out to be wrong. The affected beaches were cleaned and reopened within days, and have long since been back to normal."
+    },
+    {
+      "type": "p",
+      "text": "I want to be careful with the detail, because this story changed a lot between the first alarming headlines and what investigators eventually found - including the 'tar ball' framing in this article's own title."
+    },
+    {
+      "type": "h2",
+      "text": "What actually washed up"
+    },
+    {
+      "type": "p",
+      "text": "The debris appeared as small, blackish, ball-shaped lumps scattered across the sand. Because they were dark, greasy and sticky, the immediate assumption was tar balls - the weathered hydrocarbon blobs you sometimes get after crude oil breaks down at sea. That drove the first round of closures and the early talk of an oil slick offshore."
+    },
+    {
+      "type": "p",
+      "text": "When the NSW Environment Protection Authority and researchers at UNSW Sydney analysed samples, though, the picture turned out to be messier. Rather than simple oil-spill tar, the balls were found to be a mixture of materials more consistent with human-generated waste than a single marine oil spill. I won't reproduce a chemical breakdown from memory - the official findings are the thing to rely on, and the EPA and UNSW links below cover what the testing actually showed."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "The 'tar ball' label was an early guess",
+      "text": "Much of the first coverage described these as tar balls from an oil spill. Later testing pointed somewhere quite different. If you're researching what the balls were made of, go to the EPA's investigation updates rather than trusting the original headlines - this page's title included."
+    },
+    {
+      "type": "h2",
+      "text": "Which beaches closed, and was Bondi one of them"
+    },
+    {
+      "type": "p",
+      "text": "The first and most extensive closures were on the Randwick City Council beaches to Bondi's south - Coogee, Gordons Bay, Clovelly, Maroubra, Malabar and Little Bay among them - where the debris was heaviest. Waverley Council, which looks after Bondi, Bronte and Tamarama, also responded as material was found along its stretch of coast. Exactly which beaches were shut on which day shifted as the clean-up progressed, so for the precise closure list I'd point you to the two councils rather than pin down a figure that was changing daily."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "When",
+          "value": "Mid-October 2024"
+        },
+        {
+          "label": "What",
+          "value": "Small, dark, ball-shaped debris washing up on Sydney's eastern beaches"
+        },
+        {
+          "label": "First affected",
+          "value": "Randwick's beaches - Coogee and its neighbours - then others along the coast"
+        },
+        {
+          "label": "Early label",
+          "value": "'Tar balls' from a suspected oil spill, later contradicted by testing"
+        },
+        {
+          "label": "Status now",
+          "value": "Beaches cleaned, reopened and back to normal"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Is it safe to swim now?"
+    },
+    {
+      "type": "p",
+      "text": "Yes. The affected beaches were cleaned and reopened within days of each closure, and normal swimming resumed. This page is a record of what happened, not a live warning. Beach conditions still change with weather, swell and water quality, so before any swim it's worth a quick look at the current Beachwatch status and any council notices - good practice regardless of tar balls."
+    },
+    {
+      "type": "localTip",
+      "text": "If odd debris ever washes up while you're at the beach, don't pick it up. Through the 2024 event the consistent advice was to avoid touching the balls and let lifeguards or council crews deal with them - sensible whether the material turns out to be oil, waste or anything else."
+    },
+    {
+      "type": "p",
+      "text": "One footnote worth knowing: similar ball-shaped debris turned up again on other Sydney beaches, including some of the northern beaches, in early 2025, keeping the investigation going. It's a reminder that these events can recur, and that the source was never a simple, single, obvious spill."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Were Sydney's beaches really closed because of the tar balls?",
+          "a": "Yes - in October 2024 a run of eastern Sydney beaches was temporarily closed after dark, ball-shaped debris washed ashore, starting with Coogee and the other Randwick beaches. They were cleaned and reopened within days."
+        },
+        {
+          "q": "Did the debris actually reach Bondi?",
+          "a": "The heaviest debris and the first closures were on Randwick's beaches south of Bondi. Waverley Council, which covers Bondi, Bronte and Tamarama, also responded as material appeared along its coast. For the exact beach-by-beach closure list, check the Randwick and Waverley council updates."
+        },
+        {
+          "q": "What were the black balls actually made of?",
+          "a": "They were first assumed to be tar balls from an oil spill, but testing by the NSW EPA and UNSW pointed to a mixture more consistent with human-generated waste than a straightforward oil spill. Rely on the official EPA and UNSW findings for the composition."
+        },
+        {
+          "q": "Is it safe to swim at Bondi and the eastern beaches now?",
+          "a": "Yes. The beaches were cleaned and reopened, and normal swimming resumed. As always, check the current Beachwatch water-quality rating and any council signage before you get in."
+        },
+        {
+          "q": "Did it happen again?",
+          "a": "Similar debris washed up on other Sydney beaches, including some northern beaches, in early 2025. Check the EPA for the latest on the suspected source."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For a beach as loved as Bondi, a scare like this lands hard - but the reassuring part is how quickly the sand was cleared and the water reopened. If you're planning a visit, this is history now, not a hazard. Just glance at the day's conditions before you dive in."
+    }
   ]
 }

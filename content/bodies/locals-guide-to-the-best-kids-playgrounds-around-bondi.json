@@ -2,42 +2,129 @@
   "path": "/bondi-blog/2024/9/23/locals-guide-to-the-best-kids-playgrounds-around-bondi",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "monthly",
   "sources": [
-    { "label": "Waverley Council - Find a park", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/find_a_park" },
-    { "label": "Waverley Council - Waverley Park", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/find_a_park/waverley_park" },
-    { "label": "Waverley Park Playground - Proludic case study", "url": "https://www.proludic.com.au/inspirations/case-studies/waverley-park-playground/" }
+    {
+      "label": "Waverley Council - Find a park",
+      "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/find_a_park"
+    },
+    {
+      "label": "Waverley Council - Waverley Park",
+      "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/find_a_park/waverley_park"
+    },
+    {
+      "label": "Waverley Park Playground - Proludic case study",
+      "url": "https://www.proludic.com.au/inspirations/case-studies/waverley-park-playground/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you're travelling to Bondi with kids, my honest answer to \"where are the best playgrounds?\" is that you're spoilt - the two I send every family to are the playground right on the sand at North Bondi and the rocket-ship playground at Waverley Park in Bondi Junction. Between those two, plus a couple of quieter local favourites, you can fill a whole weekend without the kids ever getting bored. Here's how I'd actually plan it." },
-    { "type": "quickFacts", "items": [
-      { "label": "Best for beach + play", "value": "North Bondi (Biddigal Reserve)" },
-      { "label": "Best all-rounder", "value": "Waverley Park, Bondi Junction" },
-      { "label": "Cost", "value": "All free" },
-      { "label": "Fenced options", "value": "Waverley Park" }
-    ] },
-    { "type": "h2", "text": "North Bondi Playground - play with an ocean view" },
-    { "type": "p", "text": "This is the one I send first-timers to: a compact playground tucked into the leafy corner of Biddigal Reserve at the northern end of Bondi Beach, up on the grass off Ramsgate Avenue. The draw here isn't the size of the kit - it's small and geared to younger kids - it's that you can let the little ones play while the surf rolls in behind you. We come with buckets and towels so it doubles as a beach day: playground for a while, then straight down onto the sand." },
-    { "type": "p", "text": "It sits at the calmer north end, close to the North Bondi kiosks and the start of the coastal walk, so a coffee is never far away. Metered street parking on Ramsgate Avenue is the closest and fills fast on sunny weekends, which is my single biggest tip for this spot." },
-    { "type": "localTip", "text": "Come before 9am on a summer weekend. You'll get a shady spot, an easy park on Ramsgate Avenue, and the playground to yourselves for an hour before the beach crowds arrive." },
-    { "type": "h2", "text": "Waverley Park - the famous rocket ship" },
-    { "type": "p", "text": "If it's blowing a southerly or the kids need more room than the beach allows, we head inland to Waverley Park in Bondi Junction. The centrepiece is a multi-storey rocket ship - a modern rebuild of the beloved 1960s original - surrounded by a jungle gym, swings, musical play and water-play features for hot days. It's a genuine all-ages, all-abilities playground, and crucially for parents of runners, it's fully fenced." },
-    { "type": "p", "text": "There's a kiosk inside the park for coffee and snacks, public toilets nearby, and huge open lawns for a picnic or a kick of the footy. It's roughly a ten-minute walk from Bondi Junction station and minutes from Westfield, so it's the easy pick if you're arriving by train or want everything in one place." },
-    { "type": "callout", "tone": "note", "title": "Check before a special trip", "text": "Kiosk hours, water-play operation and occasional maintenance closures change with the seasons. If you're travelling specially for a particular feature, check the current details on the Waverley Council park page first." },
-    { "type": "h2", "text": "Quieter local favourites" },
-    { "type": "p", "text": "When we want to dodge the crowds, there are smaller neighbourhood playgrounds worth knowing. Tamarama has a compact, grassy playground a short stroll from its little beach - lovely and low-key for toddlers, with the ocean breeze right there. Bronte Park, one bay further south, pairs a playground with big shady lawns, a saltwater pool and the famous Bronte kiosk, and it's the easiest of the three beaches for parking and picnics." },
-    { "type": "list", "items": [
-      "Tamarama Beach - small, grassy playground steps from a sheltered beach; great for younger kids.",
-      "Bronte Park - playground plus lawns, the Bronte Baths and a much-loved kiosk; a solid rainy-plan B and picnic spot.",
-      "North Bondi - the ocean-view classic when you want beach and play in one hit."
-    ] },
-    { "type": "localTip", "text": "String them together along the Bondi to Bronte coastal walk: start at North Bondi, then drive or stroll to Tamarama and Bronte. It turns \"which playground?\" into a proper half-day out." },
-    { "type": "faq", "items": [
-      { "q": "Which Bondi playground is best if we want beach and play together?", "a": "North Bondi, in Biddigal Reserve at the northern end of the beach. It's up on the grass off Ramsgate Avenue, so kids can play and then head straight down for a swim or a paddle." },
-      { "q": "Are any of the playgrounds fully fenced?", "a": "Waverley Park in Bondi Junction is fully fenced, which is the reason we recommend it for families with toddlers who like to bolt. The beachfront playgrounds are open, so keep little ones within reach." },
-      { "q": "Is there anywhere to get coffee and use a toilet?", "a": "Yes. Waverley Park has a kiosk and public toilets inside the park. North Bondi and Bronte both have kiosks and public amenities close to the playgrounds." },
-      { "q": "What's the best playground on a very hot or very windy day?", "a": "Waverley Park. It sits back from the coast so it's more sheltered from the sea breeze, it has shade and water play, and being fully fenced it's the most relaxed option for parents." },
-      { "q": "Do the playgrounds cost anything?", "a": "No - all of these are free public playgrounds managed by Waverley Council. Your only likely cost is metered parking near the beaches or a coffee from the kiosk." }
-    ] },
-    { "type": "p", "text": "That's my local shortlist: North Bondi for the view, Waverley Park for the works, and Tamarama or Bronte when you want it quieter. Pack water, hats and a picnic rug, aim for an early start, and you've got a Bondi family day that keeps everyone happy - kids and parents alike." }
+    {
+      "type": "p",
+      "text": "If you're travelling to Bondi with kids, my honest answer to \"where are the best playgrounds?\" is that you're spoilt - the two I send every family to are the playground right on the sand at North Bondi and the rocket-ship playground at Waverley Park in Bondi Junction. Between those two, plus a couple of quieter local favourites, you can fill a whole weekend without the kids ever getting bored. Here's how I'd actually plan it."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Best for beach + play",
+          "value": "North Bondi (Biddigal Reserve)"
+        },
+        {
+          "label": "Best all-rounder",
+          "value": "Waverley Park, Bondi Junction"
+        },
+        {
+          "label": "Cost",
+          "value": "All free"
+        },
+        {
+          "label": "Fenced options",
+          "value": "Waverley Park"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "North Bondi Playground - play with an ocean view"
+    },
+    {
+      "type": "p",
+      "text": "This is the one I send first-timers to: a compact playground tucked into the leafy corner of Biddigal Reserve at the northern end of Bondi Beach, up on the grass off Ramsgate Avenue. The draw here isn't the size of the kit - it's small and geared to younger kids - it's that you can let the little ones play while the surf rolls in behind you. We come with buckets and towels so it doubles as a beach day: playground for a while, then straight down onto the sand."
+    },
+    {
+      "type": "p",
+      "text": "It sits at the calmer north end, close to the North Bondi kiosks and the start of the coastal walk, so a coffee is never far away. Metered street parking on Ramsgate Avenue is the closest and fills fast on sunny weekends, which is my single biggest tip for this spot."
+    },
+    {
+      "type": "localTip",
+      "text": "Come before 9am on a summer weekend. You'll get a shady spot, an easy park on Ramsgate Avenue, and the playground to yourselves for an hour before the beach crowds arrive."
+    },
+    {
+      "type": "h2",
+      "text": "Waverley Park - the famous rocket ship"
+    },
+    {
+      "type": "p",
+      "text": "If it's blowing a southerly or the kids need more room than the beach allows, we head inland to Waverley Park in Bondi Junction. The centrepiece is a multi-storey rocket ship - a modern rebuild of the beloved 1960s original - surrounded by a jungle gym, swings, musical play and water-play features for hot days. It's a genuine all-ages, all-abilities playground, and crucially for parents of runners, it's fully fenced."
+    },
+    {
+      "type": "p",
+      "text": "There's a kiosk inside the park for coffee and snacks, public toilets nearby, and huge open lawns for a picnic or a kick of the footy. It's roughly a ten-minute walk from Bondi Junction station and minutes from Westfield, so it's the easy pick if you're arriving by train or want everything in one place."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Check before a special trip",
+      "text": "Kiosk hours, water-play operation and occasional maintenance closures change with the seasons. If you're travelling specially for a particular feature, check the current details on the Waverley Council park page first."
+    },
+    {
+      "type": "h2",
+      "text": "Quieter local favourites"
+    },
+    {
+      "type": "p",
+      "text": "When we want to dodge the crowds, there are smaller neighbourhood playgrounds worth knowing. Tamarama has a compact, grassy playground a short stroll from its little beach - lovely and low-key for toddlers, with the ocean breeze right there. Bronte Park, one bay further south, pairs a playground with big shady lawns, a saltwater pool and the famous Bronte kiosk, and it's the easiest of the three beaches for parking and picnics."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tamarama Beach - small, grassy playground steps from a sheltered beach; great for younger kids.",
+        "Bronte Park - playground plus lawns, the Bronte Baths and a much-loved kiosk; a solid rainy-plan B and picnic spot.",
+        "North Bondi - the ocean-view classic when you want beach and play in one hit."
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "String them together along the Bondi to Bronte coastal walk: start at North Bondi, then drive or stroll to Tamarama and Bronte. It turns \"which playground?\" into a proper half-day out."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Which Bondi playground is best if we want beach and play together?",
+          "a": "North Bondi, in Biddigal Reserve at the northern end of the beach. It's up on the grass off Ramsgate Avenue, so kids can play and then head straight down for a swim or a paddle."
+        },
+        {
+          "q": "Are any of the playgrounds fully fenced?",
+          "a": "Waverley Park in Bondi Junction is fully fenced, which is the reason we recommend it for families with toddlers who like to bolt. The beachfront playgrounds are open, so keep little ones within reach."
+        },
+        {
+          "q": "Is there anywhere to get coffee and use a toilet?",
+          "a": "Yes. Waverley Park has a kiosk and public toilets inside the park. North Bondi and Bronte both have kiosks and public amenities close to the playgrounds."
+        },
+        {
+          "q": "What's the best playground on a very hot or very windy day?",
+          "a": "Waverley Park. It sits back from the coast so it's more sheltered from the sea breeze, it has shade and water play, and being fully fenced it's the most relaxed option for parents."
+        },
+        {
+          "q": "Do the playgrounds cost anything?",
+          "a": "No - all of these are free public playgrounds managed by Waverley Council. Your only likely cost is metered parking near the beaches or a coffee from the kiosk."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's my local shortlist: North Bondi for the view, Waverley Park for the works, and Tamarama or Bronte when you want it quieter. Pack water, hats and a picnic rug, aim for an early start, and you've got a Bondi family day that keeps everyone happy - kids and parents alike."
+    }
   ]
 }

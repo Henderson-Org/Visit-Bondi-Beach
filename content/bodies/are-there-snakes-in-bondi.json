@@ -2,26 +2,81 @@
   "path": "/bondi-blog/2025/10/13/are-there-snakes-in-bondi",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "annual",
   "blocks": [
-    { "type": "p", "text": "People ask me this more than you'd think, usually with one eyebrow raised: are there snakes in Bondi? I always give the same answer - only one, and his name is Blake." },
-    { "type": "quickFacts", "items": [
-      { "label": "Where", "value": "Blair Street, Bondi" },
-      { "label": "What", "value": "Community painted-rock art trail" },
-      { "label": "Cost", "value": "Free" },
-      { "label": "Great for", "value": "Kids & families" }
-    ] },
-    { "type": "p", "text": "If you've wandered down Blair Street lately, you might have spotted a curious creature slithering along the footpath. Don't panic - this isn't the sort of snake that sends you running. He's the friendliest serpent in Sydney: Blake the Blair Street Snake, a community art project made entirely of painted rocks." },
-    { "type": "p", "text": "It starts with a single boulder - Blake's cheerful head, painted minty green with pink and black patches, perched beside a hand-lettered sign that reads: \"I'm Blake the Blair St Snake. Add a painted rock to see how long I can get :)\"" },
-    { "type": "p", "text": "From there, a colourful line of rocks winds down the stone wall like scales on a giant, happy reptile. Some are splashed in pastels, others flecked with stars or faces, and a few were clearly painted by very small and very enthusiastic hands. Every week Blake stretches a little further as locals and passers-by add to him." },
-    { "type": "h2", "text": "Why I love stumbling across Blake" },
-    { "type": "p", "text": "In a world of \"Do Not Touch\" signs and endless screens, here's a simple invitation to join in. No permissions, no forms - just grab a rock, grab some paint, and make your mark. I've watched joggers pause mid-stride to admire him before carrying on toward the beach, and I've never once seen someone walk past without smiling." },
-    { "type": "p", "text": "Each rock tells a tiny story: maybe painted on a rainy afternoon, maybe made at a weekend craft session, maybe left by a visitor who wanted to be part of something local. To me, Blake is like Bondi's community diary - only instead of words, it's written in colour. Bondi's famous for its shimmering water and perfect surf, but this quirky reptile has become just as iconic in his own way." },
-    { "type": "localTip", "text": "If you're bringing kids, paint a rock at home the night before and let it dry - then it's ready to add to Blake's tail on the day. A weatherproof outdoor paint or a coat of clear sealer helps your rock survive Bondi's sun and salt air." },
-    { "type": "faq", "items": [
-      { "q": "Are there actually dangerous snakes at Bondi Beach?", "a": "Bondi is a busy urban beach, so you're extremely unlikely to encounter a wild snake on the sand or promenade. The only \"snake\" locals talk about is Blake, the painted-rock art trail on Blair Street." },
-      { "q": "Where exactly is Blake the Blair Street Snake?", "a": "Along the stone wall on Blair Street in Bondi. Look for the minty-green painted boulder with the sign inviting you to add a rock - the trail of rocks grows from there." },
-      { "q": "Can I add my own rock?", "a": "Yes - that's the whole idea. Paint a rock, bring it down to Blair Street, and add it to the end of Blake's body to help him grow a little longer." }
-    ] },
-    { "type": "p", "text": "So next time you're wandering Blair Street, keep an eye out. Bring a rock, add your touch, and help Blake slither a little further. Because yes - there is a snake in Bondi. Just one. And he's the kind that makes everyone smile." }
+    {
+      "type": "p",
+      "text": "People ask me this more than you'd think, usually with one eyebrow raised: are there snakes in Bondi? I always give the same answer - only one, and his name is Blake."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Where",
+          "value": "Blair Street, Bondi"
+        },
+        {
+          "label": "What",
+          "value": "Community painted-rock art trail"
+        },
+        {
+          "label": "Cost",
+          "value": "Free"
+        },
+        {
+          "label": "Great for",
+          "value": "Kids & families"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If you've wandered down Blair Street lately, you might have spotted a curious creature slithering along the footpath. Don't panic - this isn't the sort of snake that sends you running. He's the friendliest serpent in Sydney: Blake the Blair Street Snake, a community art project made entirely of painted rocks."
+    },
+    {
+      "type": "p",
+      "text": "It starts with a single boulder - Blake's cheerful head, painted minty green with pink and black patches, perched beside a hand-lettered sign that reads: \"I'm Blake the Blair St Snake. Add a painted rock to see how long I can get :)\""
+    },
+    {
+      "type": "p",
+      "text": "From there, a colourful line of rocks winds down the stone wall like scales on a giant, happy reptile. Some are splashed in pastels, others flecked with stars or faces, and a few were clearly painted by very small and very enthusiastic hands. Every week Blake stretches a little further as locals and passers-by add to him."
+    },
+    {
+      "type": "h2",
+      "text": "Why I love stumbling across Blake"
+    },
+    {
+      "type": "p",
+      "text": "In a world of \"Do Not Touch\" signs and endless screens, here's a simple invitation to join in. No permissions, no forms - just grab a rock, grab some paint, and make your mark. I've watched joggers pause mid-stride to admire him before carrying on toward the beach, and I've never once seen someone walk past without smiling."
+    },
+    {
+      "type": "p",
+      "text": "Each rock tells a tiny story: maybe painted on a rainy afternoon, maybe made at a weekend craft session, maybe left by a visitor who wanted to be part of something local. To me, Blake is like Bondi's community diary - only instead of words, it's written in colour. Bondi's famous for its shimmering water and perfect surf, but this quirky reptile has become just as iconic in his own way."
+    },
+    {
+      "type": "localTip",
+      "text": "If you're bringing kids, paint a rock at home the night before and let it dry - then it's ready to add to Blake's tail on the day. A weatherproof outdoor paint or a coat of clear sealer helps your rock survive Bondi's sun and salt air."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Are there actually dangerous snakes at Bondi Beach?",
+          "a": "Bondi is a busy urban beach, so you're extremely unlikely to encounter a wild snake on the sand or promenade. The only \"snake\" locals talk about is Blake, the painted-rock art trail on Blair Street."
+        },
+        {
+          "q": "Where exactly is Blake the Blair Street Snake?",
+          "a": "Along the stone wall on Blair Street in Bondi. Look for the minty-green painted boulder with the sign inviting you to add a rock - the trail of rocks grows from there."
+        },
+        {
+          "q": "Can I add my own rock?",
+          "a": "Yes - that's the whole idea. Paint a rock, bring it down to Blair Street, and add it to the end of Blake's body to help him grow a little longer."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So next time you're wandering Blair Street, keep an eye out. Bring a rock, add your touch, and help Blake slither a little further. Because yes - there is a snake in Bondi. Just one. And he's the kind that makes everyone smile."
+    }
   ]
 }

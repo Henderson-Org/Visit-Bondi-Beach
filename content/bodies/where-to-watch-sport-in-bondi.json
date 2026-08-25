@@ -2,6 +2,7 @@
   "path": "/bondi-blog/where-to-watch-sport-in-bondi",
   "voice": "first-person",
   "lastReviewed": "2026-08-11",
+  "freshnessClass": "quarterly",
   "sources": [
     {
       "label": "Beach Road Hotel - What's On (official)",
@@ -16,7 +17,6 @@
       "url": "https://www.fanzo.com/en-au/bars-pubs/bondi/4113"
     }
   ],
-  "title": "Where to Watch Live Sport in Bondi",
   "blocks": [
     {
       "type": "p",
@@ -164,5 +164,6 @@
       "type": "p",
       "text": "That's the local's shortlist. Bondi isn't a suburb of cavernous sports bars - it's pubs with history and clubs with a view - and that's the charm of watching a game here: sea air, cold schooner, and a room full of people who care as much as you do. Pick your venue, confirm your fixture, get there before kick-off, and enjoy it. See you at the bar."
     }
-  ]
+  ],
+  "title": "Where to Watch Live Sport in Bondi"
 }

@@ -4,6 +4,8 @@ import { DateFilter } from './DateFilter';
 import { VisitsChart, type ChartPoint } from './VisitsChart';
 import { StatusPanel } from './StatusPanel';
 import { WeeklyReport } from './WeeklyReport';
+import { FreshnessPanel } from './FreshnessPanel';
+import { reviewWorklist, reviewSummary } from '@/lib/freshness';
 import { analyticsConfigured, analyticsStatus, connectionSource, connectionTarget } from '@/lib/analytics/db';
 import {
   bucketFor,
@@ -79,6 +81,11 @@ export default async function AdminDashboard({ searchParams }: Props) {
       <main className="mx-auto max-w-6xl px-4 py-10">
         <h1 className="font-display text-2xl text-ink-900">Analytics</h1>
         <StatusPanel status={status} />
+        {/* Content freshness reads committed content files, not the analytics DB, so it
+            still works (and is still worth showing) when analytics is unconfigured. */}
+        <div className="mt-6">
+          <FreshnessPanel worklist={reviewWorklist()} summary={reviewSummary()} />
+        </div>
         <div role="alert" className="mt-6 rounded-xl border border-amber-300 bg-amber-50 p-5 text-sm text-ink-800">
           <p className="font-medium">No analytics database is configured.</p>
           <p className="mt-1">
@@ -159,6 +166,12 @@ export default async function AdminDashboard({ searchParams }: Props) {
       </div>
 
       {status && !status.collecting && <StatusPanel status={status} />}
+
+      {/* Content maintenance worklist. Independent of the analytics DB and of the date
+          filter above - it reflects the committed content files, not traffic. */}
+      <div className="mt-6">
+        <FreshnessPanel worklist={reviewWorklist()} summary={reviewSummary()} />
+      </div>
 
       {dbDown ? (
         <div role="alert" className="mt-8 rounded-xl border border-red-300 bg-red-50 p-5 text-sm text-red-900">

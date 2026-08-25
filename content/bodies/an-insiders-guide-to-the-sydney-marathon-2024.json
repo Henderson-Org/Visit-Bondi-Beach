@@ -2,43 +2,127 @@
   "path": "/bondi-blog/2024/9/7/an-insiders-guide-to-the-sydney-marathon-2024",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "annual",
   "sources": [
-    { "label": "TCS Sydney Marathon - official site", "url": "https://www.tcssydneymarathon.com/" },
-    { "label": "Abbott World Marathon Majors - Sydney becomes seventh Major", "url": "https://www.worldmarathonmajors.com/sydney-major" },
-    { "label": "Transport for NSW - trip planner", "url": "https://transportnsw.info/" }
+    {
+      "label": "TCS Sydney Marathon - official site",
+      "url": "https://www.tcssydneymarathon.com/"
+    },
+    {
+      "label": "Abbott World Marathon Majors - Sydney becomes seventh Major",
+      "url": "https://www.worldmarathonmajors.com/sydney-major"
+    },
+    {
+      "label": "Transport for NSW - trip planner",
+      "url": "https://transportnsw.info/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "The 2024 TCS Sydney Marathon ran on Sunday 15 September 2024, starting near North Sydney Oval and finishing at the Sydney Opera House forecourt - and here in Bondi we watched with more than the usual interest, because this was the race that clinched Sydney's place as the seventh Abbott World Marathon Major. I've cheered friends across that finish line, so here's my local's guide to the day and how you'd tackle it from this side of town." },
-    { "type": "h2", "text": "Why the 2024 edition mattered" },
-    { "type": "p", "text": "For years the Sydney Marathon was our city's best-kept running secret. The 2024 event was its final candidacy assessment for the Abbott World Marathon Majors - the elite club that includes Boston, London, Berlin, Chicago, New York and Tokyo. It passed, with a record field crossing the line, and in November 2024 Sydney was officially confirmed as the seventh Major, the first ever in the southern hemisphere. If you ran it in 2024, you were part of that history." },
-    { "type": "quickFacts", "items": [
-      { "label": "Date", "value": "Sunday 15 September 2024" },
-      { "label": "Start", "value": "Miller Street, North Sydney (near North Sydney Oval)" },
-      { "label": "Finish", "value": "Sydney Opera House forecourt" },
-      { "label": "Distance", "value": "42.195 km (full marathon)" },
-      { "label": "Milestone", "value": "Confirmed as 7th Abbott World Marathon Major" }
-    ] },
-    { "type": "h2", "text": "The course, and why it's a stunner" },
-    { "type": "p", "text": "This is one of the most scenic marathon routes I know. Runners leave North Sydney and cross the Sydney Harbour Bridge in the first few kilometres - closed to traffic, which almost never happens - with the harbour opening up on both sides. From there the course rolls through The Rocks and Circular Quay, out along the water past Pyrmont, and through the green calm of Centennial Park before the run home to the Opera House. It's a genuine highlight reel of Sydney, and that Bridge crossing at dawn is the moment everyone remembers." },
-    { "type": "list", "items": [
-      "Sydney Harbour Bridge - the early, iconic crossing with harbour views",
-      "The Rocks & Circular Quay - historic laneways and big early crowds",
-      "Pyrmont waterfront - a calmer, breezy stretch beside the water",
-      "Centennial Park - leafy green respite before the final push",
-      "Sydney Opera House - the finish, with the sails as your backdrop"
-    ] },
-    { "type": "localTip", "text": "Course details, start times and entries change every year. For the next edition, don't rely on last year's numbers - check the official TCS Sydney Marathon site for the current date, route map and registration before you plan anything." },
-    { "type": "h2", "text": "Doing it from Bondi - spectating and getting there" },
-    { "type": "p", "text": "Bondi isn't on the marathon course, but it's an easy base, and race morning is early. The start is over on the north side of the harbour, and public transport is the only sensible way in - roads around the Bridge, the CBD and the finish close for hours. From the eastern beaches I'd catch a bus toward the city and connect to a train, and I always check the Transport for NSW trip planner the night before, because event-day timetables shift." },
-    { "type": "callout", "tone": "warning", "title": "Plan for road closures", "text": "On race morning, large parts of North Sydney, the Harbour Bridge, the CBD and the Opera House precinct close to traffic from the early hours. Leave the car at home, allow extra time, and treat the official event and Transport for NSW pages as the source of truth for closures and replacement services." },
-    { "type": "p", "text": "If you're spectating, Circular Quay and the Opera House forecourt are the spots I'd aim for - the early-race energy near the Quay, or the raw emotion of the finish by the sails. Get there early and bring layers for a cool September morning. When the medals are handed out, you've the perfect excuse to head back east and let the runners recover with a flat white and a swim at Bondi." },
-    { "type": "faq", "items": [
-      { "q": "When was the 2024 Sydney Marathon held?", "a": "The 2024 TCS Sydney Marathon took place on Sunday 15 September 2024, starting near North Sydney Oval and finishing at the Sydney Opera House forecourt. Future editions have moved to late August - check the official site for the current year's date." },
-      { "q": "Is the Sydney Marathon a World Marathon Major?", "a": "Yes. The 2024 race was its final successful candidacy assessment, and in November 2024 Sydney was confirmed as the seventh Abbott World Marathon Major, joining Boston, London, Berlin, Chicago, New York and Tokyo - the first Major in the southern hemisphere." },
-      { "q": "Does the marathon route go through Bondi?", "a": "No - the course runs across the Harbour Bridge and through the city, The Rocks, Pyrmont and Centennial Park before finishing at the Opera House. Bondi still makes a great base, and a post-race swim is the ideal reward." },
-      { "q": "What's the best way to get to the start and finish?", "a": "Public transport, without question. The Bridge, CBD and Opera House precinct close to traffic for hours on race morning. From Bondi, take a bus toward the city and connect to a train, and check the Transport for NSW trip planner for event-day services and closures." },
-      { "q": "How do I enter the next Sydney Marathon?", "a": "Entries, distances and prices are set each year by the organisers. Head to the official TCS Sydney Marathon website for current registration details rather than relying on past information." }
-    ] },
-    { "type": "p", "text": "Whether you ran it, cheered it, or watched the Bridge crossing on the news, the 2024 Sydney Marathon was a landmark day - it turned a much-loved local race into a global one, and gave everyone from North Sydney to Bondi a reason to feel proud." }
+    {
+      "type": "p",
+      "text": "The 2024 TCS Sydney Marathon ran on Sunday 15 September 2024, starting near North Sydney Oval and finishing at the Sydney Opera House forecourt - and here in Bondi we watched with more than the usual interest, because this was the race that clinched Sydney's place as the seventh Abbott World Marathon Major. I've cheered friends across that finish line, so here's my local's guide to the day and how you'd tackle it from this side of town."
+    },
+    {
+      "type": "h2",
+      "text": "Why the 2024 edition mattered"
+    },
+    {
+      "type": "p",
+      "text": "For years the Sydney Marathon was our city's best-kept running secret. The 2024 event was its final candidacy assessment for the Abbott World Marathon Majors - the elite club that includes Boston, London, Berlin, Chicago, New York and Tokyo. It passed, with a record field crossing the line, and in November 2024 Sydney was officially confirmed as the seventh Major, the first ever in the southern hemisphere. If you ran it in 2024, you were part of that history."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Date",
+          "value": "Sunday 15 September 2024"
+        },
+        {
+          "label": "Start",
+          "value": "Miller Street, North Sydney (near North Sydney Oval)"
+        },
+        {
+          "label": "Finish",
+          "value": "Sydney Opera House forecourt"
+        },
+        {
+          "label": "Distance",
+          "value": "42.195 km (full marathon)"
+        },
+        {
+          "label": "Milestone",
+          "value": "Confirmed as 7th Abbott World Marathon Major"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The course, and why it's a stunner"
+    },
+    {
+      "type": "p",
+      "text": "This is one of the most scenic marathon routes I know. Runners leave North Sydney and cross the Sydney Harbour Bridge in the first few kilometres - closed to traffic, which almost never happens - with the harbour opening up on both sides. From there the course rolls through The Rocks and Circular Quay, out along the water past Pyrmont, and through the green calm of Centennial Park before the run home to the Opera House. It's a genuine highlight reel of Sydney, and that Bridge crossing at dawn is the moment everyone remembers."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sydney Harbour Bridge - the early, iconic crossing with harbour views",
+        "The Rocks & Circular Quay - historic laneways and big early crowds",
+        "Pyrmont waterfront - a calmer, breezy stretch beside the water",
+        "Centennial Park - leafy green respite before the final push",
+        "Sydney Opera House - the finish, with the sails as your backdrop"
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "Course details, start times and entries change every year. For the next edition, don't rely on last year's numbers - check the official TCS Sydney Marathon site for the current date, route map and registration before you plan anything."
+    },
+    {
+      "type": "h2",
+      "text": "Doing it from Bondi - spectating and getting there"
+    },
+    {
+      "type": "p",
+      "text": "Bondi isn't on the marathon course, but it's an easy base, and race morning is early. The start is over on the north side of the harbour, and public transport is the only sensible way in - roads around the Bridge, the CBD and the finish close for hours. From the eastern beaches I'd catch a bus toward the city and connect to a train, and I always check the Transport for NSW trip planner the night before, because event-day timetables shift."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Plan for road closures",
+      "text": "On race morning, large parts of North Sydney, the Harbour Bridge, the CBD and the Opera House precinct close to traffic from the early hours. Leave the car at home, allow extra time, and treat the official event and Transport for NSW pages as the source of truth for closures and replacement services."
+    },
+    {
+      "type": "p",
+      "text": "If you're spectating, Circular Quay and the Opera House forecourt are the spots I'd aim for - the early-race energy near the Quay, or the raw emotion of the finish by the sails. Get there early and bring layers for a cool September morning. When the medals are handed out, you've the perfect excuse to head back east and let the runners recover with a flat white and a swim at Bondi."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "When was the 2024 Sydney Marathon held?",
+          "a": "The 2024 TCS Sydney Marathon took place on Sunday 15 September 2024, starting near North Sydney Oval and finishing at the Sydney Opera House forecourt. Future editions have moved to late August - check the official site for the current year's date."
+        },
+        {
+          "q": "Is the Sydney Marathon a World Marathon Major?",
+          "a": "Yes. The 2024 race was its final successful candidacy assessment, and in November 2024 Sydney was confirmed as the seventh Abbott World Marathon Major, joining Boston, London, Berlin, Chicago, New York and Tokyo - the first Major in the southern hemisphere."
+        },
+        {
+          "q": "Does the marathon route go through Bondi?",
+          "a": "No - the course runs across the Harbour Bridge and through the city, The Rocks, Pyrmont and Centennial Park before finishing at the Opera House. Bondi still makes a great base, and a post-race swim is the ideal reward."
+        },
+        {
+          "q": "What's the best way to get to the start and finish?",
+          "a": "Public transport, without question. The Bridge, CBD and Opera House precinct close to traffic for hours on race morning. From Bondi, take a bus toward the city and connect to a train, and check the Transport for NSW trip planner for event-day services and closures."
+        },
+        {
+          "q": "How do I enter the next Sydney Marathon?",
+          "a": "Entries, distances and prices are set each year by the organisers. Head to the official TCS Sydney Marathon website for current registration details rather than relying on past information."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Whether you ran it, cheered it, or watched the Bridge crossing on the news, the 2024 Sydney Marathon was a landmark day - it turned a much-loved local race into a global one, and gave everyone from North Sydney to Bondi a reason to feel proud."
+    }
   ]
 }

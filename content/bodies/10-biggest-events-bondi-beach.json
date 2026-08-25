@@ -2,52 +2,181 @@
   "path": "/bondi-blog/10-biggest-events-bondi-beach",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "monthly",
   "sources": [
-    { "label": "Bondi Surf Bathers' Life Saving Club - History", "url": "https://bondisurfclub.com/the-club/history/" },
-    { "label": "NSW Environment & Heritage - Blue Plaques: first surf life saving club", "url": "https://www.environment.nsw.gov.au/topics/heritage/blue-plaques/establishment-of-the-first-surf-life-saving-club" },
-    { "label": "City2Surf - Race History", "url": "https://city2surf.com.au/history/c2s-history/" },
-    { "label": "Sculpture by the Sea - History", "url": "https://sculpturebythesea.com/about/history/" },
-    { "label": "Waverley Council - Festival of the Winds", "url": "https://www.waverley.nsw.gov.au/recreation/events/festival_of_the_winds" }
+    {
+      "label": "Bondi Surf Bathers' Life Saving Club - History",
+      "url": "https://bondisurfclub.com/the-club/history/"
+    },
+    {
+      "label": "NSW Environment & Heritage - Blue Plaques: first surf life saving club",
+      "url": "https://www.environment.nsw.gov.au/topics/heritage/blue-plaques/establishment-of-the-first-surf-life-saving-club"
+    },
+    {
+      "label": "City2Surf - Race History",
+      "url": "https://city2surf.com.au/history/c2s-history/"
+    },
+    {
+      "label": "Sculpture by the Sea - History",
+      "url": "https://sculpturebythesea.com/about/history/"
+    },
+    {
+      "label": "Waverley Council - Festival of the Winds",
+      "url": "https://www.waverley.nsw.gov.au/recreation/events/festival_of_the_winds"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "People picture Bondi as a beach; I see a stage - where surf lifesaving was born, where giant kites fill the sky each spring, and where the world's largest fun run comes pouring over the hill. These are the ten biggest events that, to me, turned an ordinary bay into the most famous beach on earth." },
-    { "type": "quickFacts", "items": [
-      { "label": "Oldest institution", "value": "Bondi Surf Bathers' Life Saving Club" },
-      { "label": "Icebergs pool", "value": "Club formed 1929" },
-      { "label": "City2Surf finish line", "value": "Bondi Beach, since 1971" },
-      { "label": "Big spring event", "value": "Festival of the Winds" }
-    ] },
-    { "type": "h2", "text": "The moments that made Bondi Bondi" },
-    { "type": "p", "text": "Some are grand and global, others gloriously silly - but together they're why Bondi feels the way it does when you reach the promenade." },
-    { "type": "h3", "text": "1. The birth of surf lifesaving" },
-    { "type": "p", "text": "The Bondi Surf Bathers' Life Saving Club is recognised as the world's oldest surf life saving club, and it changed how the country goes to the beach. It long celebrated a 1906 founding, though its own historians later settled on a formal establishment date of 21 February 1907. Either way, this is where the reel, line and red-and-yellow flags began." },
-    { "type": "h3", "text": "2. Bondi Icebergs (club formed 1929)" },
-    { "type": "p", "text": "That emerald pool at the southern end, waves crashing over the lane ropes, is the most photographed corner of Bondi. The Icebergs Club was formed in 1929 by local lifesavers wanting to stay fit through winter - hence the rule about swimming through the cold months. The pool is still a working ocean bath, so check the Icebergs website for current public-swim times and prices." },
-    { "type": "h3", "text": "3. City2Surf comes over the hill" },
-    { "type": "p", "text": "First run in 1971, the City2Surf pours 14 kilometres from the Sydney CBD down to Bondi Beach and has grown into the world's largest fun run. If you've never watched the finish, do it - tens of thousands of runners cresting the hill on a winter Sunday." },
-    { "type": "h3", "text": "4. Sculpture by the Sea" },
-    { "type": "p", "text": "In 1997 someone dotted the Bondi-to-Tamarama coastal walk with sculptures for a single day. It's now the world's largest free-to-the-public outdoor sculpture exhibition, drawing huge crowds each spring. Dates shift year to year, so confirm this season's run on the Sculpture by the Sea site before planning." },
-    { "type": "h3", "text": "5. Festival of the Winds" },
-    { "type": "p", "text": "My personal favourite. First held in 1978, this Waverley Council event has been Bondi's most colourful day ever since - the whole beach turned upward to giant kites, music and multicultural stalls." },
-    { "type": "h3", "text": "6. Beach volleyball at the Sydney 2000 Olympics" },
-    { "type": "p", "text": "For the Sydney 2000 Games, a temporary stadium rose on the sand and the world watched Olympic beach volleyball at Bondi. Locals argued about it, but it cemented Bondi's image as Australia's beach." },
-    { "type": "h3", "text": "7. Bondi Rescue hits the screen (2006)" },
-    { "type": "p", "text": "When the reality series following Bondi's lifeguards began airing in 2006, it carried the beach into living rooms worldwide. Half the visitors I meet came because they watched it - and yes, the lifeguards really are that busy." },
-    { "type": "h3", "text": "8. The pink bikini fundraiser (2007)" },
-    { "type": "p", "text": "In 2007 a mass beach shoot packed the sand with women in pink bikinis for a record-setting breast-cancer fundraiser. Peak Bondi: a serious cause wrapped in something wonderfully over-the-top." },
-    { "type": "h3", "text": "9. The graffiti (art) wall" },
-    { "type": "p", "text": "The long sea wall along the promenade doubles as a legal, ever-changing art canvas - layers of murals painted by locals and visiting artists for decades. It's one of the few places where you can watch a piece being made and see it painted over within the month." },
-    { "type": "h3", "text": "10. Bondi as a place to gather" },
-    { "type": "p", "text": "From climate and community rallies to spontaneous dawn services, Bondi has become the beach Sydney comes to when it wants to be together. That, more than any single day, is what shaped it." },
-    { "type": "localTip", "text": "The big free events - Festival of the Winds, Sculpture by the Sea and the City2Surf finish - all bring road closures and packed buses. Leave the car at home: take the train to Bondi Junction, then a bus or walk down to the sand." },
-    { "type": "callout", "tone": "note", "title": "Dates move - always double-check", "text": "Annual events shift their dates every year, and some founding dates are still debated by the institutions themselves. The official organisers are linked in the sources below; confirm this year's programme with them first." },
-    { "type": "faq", "items": [
-      { "q": "What is the oldest event or institution at Bondi Beach?", "a": "The Bondi Surf Bathers' Life Saving Club, the world's oldest surf life saving club. It long marked 1906 as its founding year, though its historians later settled on a formal date of 21 February 1907." },
-      { "q": "When is the City2Surf and where does it finish?", "a": "It runs in winter and finishes at Bondi Beach after 14km from the Sydney CBD. First held in 1971, it's now the world's largest fun run. Check the official City2Surf website for this year's date and entry." },
-      { "q": "What is the Festival of the Winds?", "a": "Bondi's annual kite festival, first held in 1978 and now presented by Waverley Council. Expect giant kites, live music and multicultural food stalls, usually in early spring - confirm the date on the council's events page." },
-      { "q": "Can I still see Sculpture by the Sea at Bondi?", "a": "Yes. It runs each spring along the free Bondi-to-Tamarama coastal walk and began in 1997. Dates change annually, so check the Sculpture by the Sea website before you go." },
-      { "q": "Is the Bondi graffiti wall legal?", "a": "The promenade sea wall is a long-standing public art space where murals are painted openly and change constantly. It's one of Bondi's most photographed backdrops, but the artwork is temporary by design." }
-    ] },
-    { "type": "p", "text": "Ten events, one beach - and the list keeps growing. Stand on the promenade during any of them and you'll feel why this place matters." }
+    {
+      "type": "p",
+      "text": "People picture Bondi as a beach; I see a stage - where surf lifesaving was born, where giant kites fill the sky each spring, and where the world's largest fun run comes pouring over the hill. These are the ten biggest events that, to me, turned an ordinary bay into the most famous beach on earth."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Oldest institution",
+          "value": "Bondi Surf Bathers' Life Saving Club"
+        },
+        {
+          "label": "Icebergs pool",
+          "value": "Club formed 1929"
+        },
+        {
+          "label": "City2Surf finish line",
+          "value": "Bondi Beach, since 1971"
+        },
+        {
+          "label": "Big spring event",
+          "value": "Festival of the Winds"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The moments that made Bondi Bondi"
+    },
+    {
+      "type": "p",
+      "text": "Some are grand and global, others gloriously silly - but together they're why Bondi feels the way it does when you reach the promenade."
+    },
+    {
+      "type": "h3",
+      "text": "1. The birth of surf lifesaving"
+    },
+    {
+      "type": "p",
+      "text": "The Bondi Surf Bathers' Life Saving Club is recognised as the world's oldest surf life saving club, and it changed how the country goes to the beach. It long celebrated a 1906 founding, though its own historians later settled on a formal establishment date of 21 February 1907. Either way, this is where the reel, line and red-and-yellow flags began."
+    },
+    {
+      "type": "h3",
+      "text": "2. Bondi Icebergs (club formed 1929)"
+    },
+    {
+      "type": "p",
+      "text": "That emerald pool at the southern end, waves crashing over the lane ropes, is the most photographed corner of Bondi. The Icebergs Club was formed in 1929 by local lifesavers wanting to stay fit through winter - hence the rule about swimming through the cold months. The pool is still a working ocean bath, so check the Icebergs website for current public-swim times and prices."
+    },
+    {
+      "type": "h3",
+      "text": "3. City2Surf comes over the hill"
+    },
+    {
+      "type": "p",
+      "text": "First run in 1971, the City2Surf pours 14 kilometres from the Sydney CBD down to Bondi Beach and has grown into the world's largest fun run. If you've never watched the finish, do it - tens of thousands of runners cresting the hill on a winter Sunday."
+    },
+    {
+      "type": "h3",
+      "text": "4. Sculpture by the Sea"
+    },
+    {
+      "type": "p",
+      "text": "In 1997 someone dotted the Bondi-to-Tamarama coastal walk with sculptures for a single day. It's now the world's largest free-to-the-public outdoor sculpture exhibition, drawing huge crowds each spring. Dates shift year to year, so confirm this season's run on the Sculpture by the Sea site before planning."
+    },
+    {
+      "type": "h3",
+      "text": "5. Festival of the Winds"
+    },
+    {
+      "type": "p",
+      "text": "My personal favourite. First held in 1978, this Waverley Council event has been Bondi's most colourful day ever since - the whole beach turned upward to giant kites, music and multicultural stalls."
+    },
+    {
+      "type": "h3",
+      "text": "6. Beach volleyball at the Sydney 2000 Olympics"
+    },
+    {
+      "type": "p",
+      "text": "For the Sydney 2000 Games, a temporary stadium rose on the sand and the world watched Olympic beach volleyball at Bondi. Locals argued about it, but it cemented Bondi's image as Australia's beach."
+    },
+    {
+      "type": "h3",
+      "text": "7. Bondi Rescue hits the screen (2006)"
+    },
+    {
+      "type": "p",
+      "text": "When the reality series following Bondi's lifeguards began airing in 2006, it carried the beach into living rooms worldwide. Half the visitors I meet came because they watched it - and yes, the lifeguards really are that busy."
+    },
+    {
+      "type": "h3",
+      "text": "8. The pink bikini fundraiser (2007)"
+    },
+    {
+      "type": "p",
+      "text": "In 2007 a mass beach shoot packed the sand with women in pink bikinis for a record-setting breast-cancer fundraiser. Peak Bondi: a serious cause wrapped in something wonderfully over-the-top."
+    },
+    {
+      "type": "h3",
+      "text": "9. The graffiti (art) wall"
+    },
+    {
+      "type": "p",
+      "text": "The long sea wall along the promenade doubles as a legal, ever-changing art canvas - layers of murals painted by locals and visiting artists for decades. It's one of the few places where you can watch a piece being made and see it painted over within the month."
+    },
+    {
+      "type": "h3",
+      "text": "10. Bondi as a place to gather"
+    },
+    {
+      "type": "p",
+      "text": "From climate and community rallies to spontaneous dawn services, Bondi has become the beach Sydney comes to when it wants to be together. That, more than any single day, is what shaped it."
+    },
+    {
+      "type": "localTip",
+      "text": "The big free events - Festival of the Winds, Sculpture by the Sea and the City2Surf finish - all bring road closures and packed buses. Leave the car at home: take the train to Bondi Junction, then a bus or walk down to the sand."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Dates move - always double-check",
+      "text": "Annual events shift their dates every year, and some founding dates are still debated by the institutions themselves. The official organisers are linked in the sources below; confirm this year's programme with them first."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What is the oldest event or institution at Bondi Beach?",
+          "a": "The Bondi Surf Bathers' Life Saving Club, the world's oldest surf life saving club. It long marked 1906 as its founding year, though its historians later settled on a formal date of 21 February 1907."
+        },
+        {
+          "q": "When is the City2Surf and where does it finish?",
+          "a": "It runs in winter and finishes at Bondi Beach after 14km from the Sydney CBD. First held in 1971, it's now the world's largest fun run. Check the official City2Surf website for this year's date and entry."
+        },
+        {
+          "q": "What is the Festival of the Winds?",
+          "a": "Bondi's annual kite festival, first held in 1978 and now presented by Waverley Council. Expect giant kites, live music and multicultural food stalls, usually in early spring - confirm the date on the council's events page."
+        },
+        {
+          "q": "Can I still see Sculpture by the Sea at Bondi?",
+          "a": "Yes. It runs each spring along the free Bondi-to-Tamarama coastal walk and began in 1997. Dates change annually, so check the Sculpture by the Sea website before you go."
+        },
+        {
+          "q": "Is the Bondi graffiti wall legal?",
+          "a": "The promenade sea wall is a long-standing public art space where murals are painted openly and change constantly. It's one of Bondi's most photographed backdrops, but the artwork is temporary by design."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ten events, one beach - and the list keeps growing. Stand on the promenade during any of them and you'll feel why this place matters."
+    }
   ]
 }

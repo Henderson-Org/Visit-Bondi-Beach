@@ -2,49 +2,171 @@
   "path": "/bondi-blog/day-trip-bondi-beach-top-tips",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "monthly",
   "sources": [
-    { "label": "Bondi to Coogee Coastal Walk - NSW Government", "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/locations-and-attractions/bondi-to-coogee-coastal-walk" },
-    { "label": "Bondi Markets (official)", "url": "https://bondimarkets.com.au/bondi-markets" },
-    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" },
-    { "label": "Transport for NSW - trip planner", "url": "https://transportnsw.info/" },
-    { "label": "Surf Life Saving NSW - beach safety", "url": "https://www.surflifesaving.com.au/" }
+    {
+      "label": "Bondi to Coogee Coastal Walk - NSW Government",
+      "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/locations-and-attractions/bondi-to-coogee-coastal-walk"
+    },
+    {
+      "label": "Bondi Markets (official)",
+      "url": "https://bondimarkets.com.au/bondi-markets"
+    },
+    {
+      "label": "Bondi Icebergs Club",
+      "url": "https://icebergs.com.au/"
+    },
+    {
+      "label": "Transport for NSW - trip planner",
+      "url": "https://transportnsw.info/"
+    },
+    {
+      "label": "Surf Life Saving NSW - beach safety",
+      "url": "https://www.surflifesaving.com.au/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you've only got one day at Bondi, here's how I'd spend it: arrive early for a swim between the flags, walk the coastal path toward Bronte, refuel at a beachfront cafe, then stay for the golden-hour light. One day is plenty to fall for this place - you just want to move in the right order so you're never fighting the crowds." },
-    { "type": "quickFacts", "items": [
-      { "label": "Time needed", "value": "A full day (arrive by 9am)" },
-      { "label": "Signature walk", "value": "Bondi to Bronte (part of the 6km Bondi–Coogee path)" },
-      { "label": "Best swim", "value": "Between the red-and-yellow flags" },
-      { "label": "Markets", "value": "Bondi Markets, Sundays" },
-      { "label": "Getting here", "value": "Train to Bondi Junction, then a bus" }
-    ] },
-    { "type": "h2", "text": "Start with the beach while it's quiet" },
-    { "type": "p", "text": "My first tip is the simplest: come early. Before about 10am the sand is calmer, the light is soft, and you'll find a spot without circling for parking. Bondi is a patrolled surf beach, so always swim between the red-and-yellow flags - that's the stretch the lifesavers watch, moved daily to the safest water. The southern end near the point tends to hold a rip, so it's not the spot for a casual dip." },
-    { "type": "callout", "tone": "warning", "title": "Swim between the flags", "text": "Bondi has real ocean conditions and rip currents. Only swim in the flagged area, keep an eye on kids, and if you're caught in a rip, stay calm, raise an arm and float - don't fight it. When in doubt, ask a lifesaver." },
-    { "type": "p", "text": "If the surf looks big, or you prefer flat water, the ocean pools are a Bondi institution. The Bondi Icebergs pool at the southern headland is the famous one, waves washing over its edge - public hours shift with the seasons and swim squads, so check the Icebergs website before you count on a lap." },
-    { "type": "h2", "text": "Walk the coastal path" },
-    { "type": "p", "text": "The Bondi to Bronte stretch is, for my money, the best free thing you can do in Sydney. It's the opening leg of the larger Bondi to Coogee Coastal Walk - around six kilometres end to end - but you don't have to do the whole thing. Walk south from the Icebergs end, past Tamarama, and stop at Bronte for a coffee; that alone takes well under an hour and delivers the cliff-top views everyone photographs." },
-    { "type": "localTip", "text": "Do the walk from Bondi toward Bronte in the morning with the sun behind you - the light on the sandstone cliffs is gorgeous and you'll dodge the midday heat. Bronte and Clovelly have bus stops, so you can walk one-way and ride back." },
-    { "type": "p", "text": "Wear proper shoes rather than thongs - there are stairs, and the path is fully exposed. Take water and slap on sunscreen even in winter; the glare off the water is stronger than it feels." },
-    { "type": "h2", "text": "Eat, browse and stay for sunset" },
-    { "type": "p", "text": "You won't go hungry here. Campbell Parade and Hall Street behind the beach are lined with cafes, bakeries and casual eats, from a proper flat white to fish and chips on the sand. If your day trip lands on a Sunday, the Bondi Markets run at Bondi Beach Public School on Campbell Parade - local designers, vintage finds and food stalls, and a good way to pick up something that isn't a fridge magnet." },
-    { "type": "p", "text": "With whatever's left in the tank, wander north. The street art along the sea wall is worth a slow look, and the walk toward Ben Buckler rewards you with clifftop views and some of Sydney's most jaw-dropping homes. Then find a perch and let the light go golden over the water." },
-    { "type": "itinerary", "stops": [
-      { "time": "9:00am", "title": "Swim between the flags", "detail": "Beat the crowds, grab a coffee, get in the water while it's quiet." },
-      { "time": "10:30am", "title": "Walk Bondi to Bronte", "detail": "Clifftop views past Tamarama; stop at Bronte for a break." },
-      { "time": "12:30pm", "title": "Lunch + a browse", "detail": "Eat around Hall Street or Campbell Parade; on Sundays, hit the Bondi Markets." },
-      { "time": "3:00pm", "title": "Street art + Ben Buckler", "detail": "Sea-wall murals, then the northern point for the big houses and views." },
-      { "time": "5:30pm", "title": "Golden hour", "detail": "Find a spot and watch the light drop over the water before you head off." }
-    ] },
-    { "type": "h2", "text": "Getting here and getting around" },
-    { "type": "p", "text": "There's no train station at the beach itself. The easiest run from the city is a train to Bondi Junction, then a short bus down the hill - the 333 is the frequent one, tapped on with a contactless card or Opal, same as the trains. If you're driving, the beachfront parking is metered and fills fast, one more reason to arrive early. Check the Transport for NSW trip planner for live routes and times before you set out." },
-    { "type": "faq", "items": [
-      { "q": "How long do I need for a day trip to Bondi?", "a": "A full day is ideal but not essential. From mid-morning to late afternoon you can fit a swim, the Bondi to Bronte walk, lunch and a browse. Arriving by 9am makes the biggest difference - quieter sand, softer light, easier parking." },
-      { "q": "What's the single best thing to do at Bondi in one day?", "a": "Walk the coastal path from Bondi toward Bronte. It's free, it's the view everyone comes for, and even the first section past Tamarama takes under an hour. Pair it with a swim between the flags and you've got the essence of Bondi." },
-      { "q": "Is it safe to swim at Bondi Beach?", "a": "Yes, provided you swim between the red-and-yellow flags where the lifesavers patrol. Bondi is an open ocean beach with rip currents, so avoid unflagged areas - especially the southern end - and never swim alone or after dark." },
-      { "q": "How do I get to Bondi Beach by public transport?", "a": "Take a train to Bondi Junction, then a bus down to the beach - the 333 is the frequent route. Tap on with a contactless card or Opal, and check the Transport for NSW trip planner at transportnsw.info for current times." },
-      { "q": "When are the Bondi Markets on?", "a": "The Bondi Markets run on Sundays at Bondi Beach Public School on Campbell Parade, opposite the beach. If your trip falls on a Sunday it's an easy add-on - check the official Bondi Markets site for current hours." }
-    ] },
-    { "type": "p", "text": "That's my playbook for a perfect Bondi day: early swim, coastal walk, a good feed and a golden-hour send-off. Do it in that order and you'll wonder why you didn't book two days." }
+    {
+      "type": "p",
+      "text": "If you've only got one day at Bondi, here's how I'd spend it: arrive early for a swim between the flags, walk the coastal path toward Bronte, refuel at a beachfront cafe, then stay for the golden-hour light. One day is plenty to fall for this place - you just want to move in the right order so you're never fighting the crowds."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Time needed",
+          "value": "A full day (arrive by 9am)"
+        },
+        {
+          "label": "Signature walk",
+          "value": "Bondi to Bronte (part of the 6km Bondi–Coogee path)"
+        },
+        {
+          "label": "Best swim",
+          "value": "Between the red-and-yellow flags"
+        },
+        {
+          "label": "Markets",
+          "value": "Bondi Markets, Sundays"
+        },
+        {
+          "label": "Getting here",
+          "value": "Train to Bondi Junction, then a bus"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Start with the beach while it's quiet"
+    },
+    {
+      "type": "p",
+      "text": "My first tip is the simplest: come early. Before about 10am the sand is calmer, the light is soft, and you'll find a spot without circling for parking. Bondi is a patrolled surf beach, so always swim between the red-and-yellow flags - that's the stretch the lifesavers watch, moved daily to the safest water. The southern end near the point tends to hold a rip, so it's not the spot for a casual dip."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Swim between the flags",
+      "text": "Bondi has real ocean conditions and rip currents. Only swim in the flagged area, keep an eye on kids, and if you're caught in a rip, stay calm, raise an arm and float - don't fight it. When in doubt, ask a lifesaver."
+    },
+    {
+      "type": "p",
+      "text": "If the surf looks big, or you prefer flat water, the ocean pools are a Bondi institution. The Bondi Icebergs pool at the southern headland is the famous one, waves washing over its edge - public hours shift with the seasons and swim squads, so check the Icebergs website before you count on a lap."
+    },
+    {
+      "type": "h2",
+      "text": "Walk the coastal path"
+    },
+    {
+      "type": "p",
+      "text": "The Bondi to Bronte stretch is, for my money, the best free thing you can do in Sydney. It's the opening leg of the larger Bondi to Coogee Coastal Walk - around six kilometres end to end - but you don't have to do the whole thing. Walk south from the Icebergs end, past Tamarama, and stop at Bronte for a coffee; that alone takes well under an hour and delivers the cliff-top views everyone photographs."
+    },
+    {
+      "type": "localTip",
+      "text": "Do the walk from Bondi toward Bronte in the morning with the sun behind you - the light on the sandstone cliffs is gorgeous and you'll dodge the midday heat. Bronte and Clovelly have bus stops, so you can walk one-way and ride back."
+    },
+    {
+      "type": "p",
+      "text": "Wear proper shoes rather than thongs - there are stairs, and the path is fully exposed. Take water and slap on sunscreen even in winter; the glare off the water is stronger than it feels."
+    },
+    {
+      "type": "h2",
+      "text": "Eat, browse and stay for sunset"
+    },
+    {
+      "type": "p",
+      "text": "You won't go hungry here. Campbell Parade and Hall Street behind the beach are lined with cafes, bakeries and casual eats, from a proper flat white to fish and chips on the sand. If your day trip lands on a Sunday, the Bondi Markets run at Bondi Beach Public School on Campbell Parade - local designers, vintage finds and food stalls, and a good way to pick up something that isn't a fridge magnet."
+    },
+    {
+      "type": "p",
+      "text": "With whatever's left in the tank, wander north. The street art along the sea wall is worth a slow look, and the walk toward Ben Buckler rewards you with clifftop views and some of Sydney's most jaw-dropping homes. Then find a perch and let the light go golden over the water."
+    },
+    {
+      "type": "itinerary",
+      "stops": [
+        {
+          "time": "9:00am",
+          "title": "Swim between the flags",
+          "detail": "Beat the crowds, grab a coffee, get in the water while it's quiet."
+        },
+        {
+          "time": "10:30am",
+          "title": "Walk Bondi to Bronte",
+          "detail": "Clifftop views past Tamarama; stop at Bronte for a break."
+        },
+        {
+          "time": "12:30pm",
+          "title": "Lunch + a browse",
+          "detail": "Eat around Hall Street or Campbell Parade; on Sundays, hit the Bondi Markets."
+        },
+        {
+          "time": "3:00pm",
+          "title": "Street art + Ben Buckler",
+          "detail": "Sea-wall murals, then the northern point for the big houses and views."
+        },
+        {
+          "time": "5:30pm",
+          "title": "Golden hour",
+          "detail": "Find a spot and watch the light drop over the water before you head off."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Getting here and getting around"
+    },
+    {
+      "type": "p",
+      "text": "There's no train station at the beach itself. The easiest run from the city is a train to Bondi Junction, then a short bus down the hill - the 333 is the frequent one, tapped on with a contactless card or Opal, same as the trains. If you're driving, the beachfront parking is metered and fills fast, one more reason to arrive early. Check the Transport for NSW trip planner for live routes and times before you set out."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How long do I need for a day trip to Bondi?",
+          "a": "A full day is ideal but not essential. From mid-morning to late afternoon you can fit a swim, the Bondi to Bronte walk, lunch and a browse. Arriving by 9am makes the biggest difference - quieter sand, softer light, easier parking."
+        },
+        {
+          "q": "What's the single best thing to do at Bondi in one day?",
+          "a": "Walk the coastal path from Bondi toward Bronte. It's free, it's the view everyone comes for, and even the first section past Tamarama takes under an hour. Pair it with a swim between the flags and you've got the essence of Bondi."
+        },
+        {
+          "q": "Is it safe to swim at Bondi Beach?",
+          "a": "Yes, provided you swim between the red-and-yellow flags where the lifesavers patrol. Bondi is an open ocean beach with rip currents, so avoid unflagged areas - especially the southern end - and never swim alone or after dark."
+        },
+        {
+          "q": "How do I get to Bondi Beach by public transport?",
+          "a": "Take a train to Bondi Junction, then a bus down to the beach - the 333 is the frequent route. Tap on with a contactless card or Opal, and check the Transport for NSW trip planner at transportnsw.info for current times."
+        },
+        {
+          "q": "When are the Bondi Markets on?",
+          "a": "The Bondi Markets run on Sundays at Bondi Beach Public School on Campbell Parade, opposite the beach. If your trip falls on a Sunday it's an easy add-on - check the official Bondi Markets site for current hours."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's my playbook for a perfect Bondi day: early swim, coastal walk, a good feed and a golden-hour send-off. Do it in that order and you'll wonder why you didn't book two days."
+    }
   ]
 }

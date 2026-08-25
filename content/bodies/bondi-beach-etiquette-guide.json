@@ -2,44 +2,151 @@
   "path": "/bondi-blog/2023/10/18/bondi-beach-etiquette-guide",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "seasonal",
   "sources": [
-    { "label": "Waverley Council - Beach safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
-    { "label": "Waverley Council - Bondi Park", "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/bondi_park" },
-    { "label": "Surf Life Saving NSW - Beachsafe", "url": "https://beachsafe.org.au/beach/nsw/waverley/north-bondi/bondi-beach" }
+    {
+      "label": "Waverley Council - Beach safety",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety"
+    },
+    {
+      "label": "Waverley Council - Bondi Park",
+      "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/bondi_park"
+    },
+    {
+      "label": "Surf Life Saving NSW - Beachsafe",
+      "url": "https://beachsafe.org.au/beach/nsw/waverley/north-bondi/bondi-beach"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "Bondi has a rhythm, and the quickest way to enjoy your day is to fall into step with it. The etiquette isn't complicated - swim between the red and yellow flags, keep your music to yourself, take your rubbish home, and remember the beach belongs to everyone. Get those right and you'll blend in like a regular. Here's how we actually do things on our patch of sand." },
-    { "type": "quickFacts", "items": [
-      { "label": "Golden rule", "value": "Swim between the red & yellow flags" },
-      { "label": "Alcohol", "value": "Not permitted on the beach or in Bondi Park" },
-      { "label": "Dogs", "value": "Not allowed on the beach at any time" },
-      { "label": "Smoking & vaping", "value": "No - keep it off the sand" },
-      { "label": "Rubbish", "value": "Bin it or take it with you" }
-    ] },
-    { "type": "h2", "text": "Safety first: swim between the flags" },
-    { "type": "p", "text": "If you take one thing from this guide, make it this. The red and yellow flags mark the patrolled swimming area, and the lifeguards move them to wherever is safest that day, which shifts with the surf and the rips. Swim between them and you're in the eyes of the professionals; wander outside and you're on your own, often right where the rips run. Surfers stay well clear of the flagged zone; boards and swimmers don't mix." },
-    { "type": "callout", "tone": "warning", "title": "Respect the lifeguards", "text": "The lifeguards are here to keep everyone safe, so follow their instructions without argument - if they wave you in or move the flags, there's a reason. And if they're too busy to stop for a chat, don't take it personally." },
-    { "type": "localTip", "text": "New to ocean swimming or travelling with kids? The northern end near the flags tends to be gentler and shallower, which is why families cluster there, along with the surf school." },
-    { "type": "h2", "text": "Sharing the sand" },
-    { "type": "p", "text": "Bondi gets packed in summer, and the unwritten rules are really just common courtesy dialled up for a crowd. The ones that matter:" },
-    { "type": "li", "text": "Leave the speaker at home. There's nowhere on this beach your playlist won't carry, and the person next to you didn't come to hear it. Headphones instead." },
-    { "type": "li", "text": "Choose your spot with the crowd in mind. For breathing room, the middle of the beach or the southern end gives you more space than the busy northern corner near the flags." },
-    { "type": "li", "text": "Set up your tent or umbrella toward the back of the beach so you're not blocking anyone's view of the water - and if someone parks in front of you, let it go. It's public sand." },
-    { "type": "li", "text": "Be sun smart. Our UV is fierce even on cool days, so slip, slop, slap and reapply; that first-day-in-Australia sunburn is brutal and entirely avoidable." },
-    { "type": "li", "text": "Watch for the little ones. Kids dart in and out everywhere in summer, so keep an eye out when you're moving around or bodysurfing in." },
-    { "type": "h2", "text": "The things that'll actually get you in trouble" },
-    { "type": "p", "text": "Some Bondi rules aren't just etiquette - they're enforced by Waverley Council, and rangers do patrol. Alcohol isn't permitted on Bondi Beach or in Bondi Park, so leave the esky at home. Smoking and vaping don't belong on the sand either. And dogs aren't allowed on the beach at any time, though you can walk them on a lead along the promenade and through the park." },
-    { "type": "callout", "tone": "note", "title": "Parking: don't risk the big fine", "text": "After circling for a park it's tempting to chance it - don't. Blocking a driveway or a no-parking zone can land you a hefty fine, and boxing someone in can mean a call to the police. Don't idle at the entrance stalking a spot, either; it gridlocks Campbell Parade." },
-    { "type": "p", "text": "Rules and specifics can change, so if you're unsure about alcohol zones, dog areas or seasonal restrictions, the Waverley Council beach pages are the source of truth - I've linked them below." },
-    { "type": "h2", "text": "The little local courtesies" },
-    { "type": "p", "text": "Beyond the official stuff, there's the Bondi finishing school. Take your rubbish with you - bins line the promenade, so use them; the gulls and the ocean will thank you. And if you've left a pram in the North Bondi rack, check you're grabbing your own before you wheel off; near-identical black prams are everywhere, and a mix-up ruins two families' afternoons." },
-    { "type": "quote", "text": "The ethos is simple: the beach isn't here to watch you, it's here for everyone. Come to have fun, not to be seen." },
-    { "type": "faq", "items": [
-      { "q": "Can you drink alcohol on Bondi Beach?", "a": "No. Bondi Beach and Bondi Park sit within Waverley Council's alcohol-free zones, so drinking isn't allowed and rangers do enforce it. Check the Waverley Council website for the exact zones and current rules." },
-      { "q": "Are dogs allowed on Bondi Beach?", "a": "Dogs aren't permitted on Bondi Beach at any time. You can walk a dog on a lead along the promenade and through the park; for nearby off-leash areas, check Waverley Council's dog rules." },
-      { "q": "Why does everyone say to swim between the flags?", "a": "The red and yellow flags mark the area the lifeguards patrol and have judged safest that day. Bondi is known for its rips, which shift with conditions, so swimming between the flags keeps you in the safest water and in the lifeguards' sight." },
-      { "q": "Can you smoke or vape on Bondi Beach?", "a": "Keep it off the sand - smoking and vaping aren't welcome on the beach. It's both etiquette and health on a crowded family beach, and butts are a real pollution problem for the ocean." },
-      { "q": "What's the most common tourist mistake at Bondi?", "a": "Two stand out: getting badly sunburnt on day one, because the Australian UV is stronger than most expect, and swimming outside the flags. Sort those and you're ahead of most first-timers." }
-    ] }
+    {
+      "type": "p",
+      "text": "Bondi has a rhythm, and the quickest way to enjoy your day is to fall into step with it. The etiquette isn't complicated - swim between the red and yellow flags, keep your music to yourself, take your rubbish home, and remember the beach belongs to everyone. Get those right and you'll blend in like a regular. Here's how we actually do things on our patch of sand."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Golden rule",
+          "value": "Swim between the red & yellow flags"
+        },
+        {
+          "label": "Alcohol",
+          "value": "Not permitted on the beach or in Bondi Park"
+        },
+        {
+          "label": "Dogs",
+          "value": "Not allowed on the beach at any time"
+        },
+        {
+          "label": "Smoking & vaping",
+          "value": "No - keep it off the sand"
+        },
+        {
+          "label": "Rubbish",
+          "value": "Bin it or take it with you"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Safety first: swim between the flags"
+    },
+    {
+      "type": "p",
+      "text": "If you take one thing from this guide, make it this. The red and yellow flags mark the patrolled swimming area, and the lifeguards move them to wherever is safest that day, which shifts with the surf and the rips. Swim between them and you're in the eyes of the professionals; wander outside and you're on your own, often right where the rips run. Surfers stay well clear of the flagged zone; boards and swimmers don't mix."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Respect the lifeguards",
+      "text": "The lifeguards are here to keep everyone safe, so follow their instructions without argument - if they wave you in or move the flags, there's a reason. And if they're too busy to stop for a chat, don't take it personally."
+    },
+    {
+      "type": "localTip",
+      "text": "New to ocean swimming or travelling with kids? The northern end near the flags tends to be gentler and shallower, which is why families cluster there, along with the surf school."
+    },
+    {
+      "type": "h2",
+      "text": "Sharing the sand"
+    },
+    {
+      "type": "p",
+      "text": "Bondi gets packed in summer, and the unwritten rules are really just common courtesy dialled up for a crowd. The ones that matter:"
+    },
+    {
+      "type": "li",
+      "text": "Leave the speaker at home. There's nowhere on this beach your playlist won't carry, and the person next to you didn't come to hear it. Headphones instead."
+    },
+    {
+      "type": "li",
+      "text": "Choose your spot with the crowd in mind. For breathing room, the middle of the beach or the southern end gives you more space than the busy northern corner near the flags."
+    },
+    {
+      "type": "li",
+      "text": "Set up your tent or umbrella toward the back of the beach so you're not blocking anyone's view of the water - and if someone parks in front of you, let it go. It's public sand."
+    },
+    {
+      "type": "li",
+      "text": "Be sun smart. Our UV is fierce even on cool days, so slip, slop, slap and reapply; that first-day-in-Australia sunburn is brutal and entirely avoidable."
+    },
+    {
+      "type": "li",
+      "text": "Watch for the little ones. Kids dart in and out everywhere in summer, so keep an eye out when you're moving around or bodysurfing in."
+    },
+    {
+      "type": "h2",
+      "text": "The things that'll actually get you in trouble"
+    },
+    {
+      "type": "p",
+      "text": "Some Bondi rules aren't just etiquette - they're enforced by Waverley Council, and rangers do patrol. Alcohol isn't permitted on Bondi Beach or in Bondi Park, so leave the esky at home. Smoking and vaping don't belong on the sand either. And dogs aren't allowed on the beach at any time, though you can walk them on a lead along the promenade and through the park."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Parking: don't risk the big fine",
+      "text": "After circling for a park it's tempting to chance it - don't. Blocking a driveway or a no-parking zone can land you a hefty fine, and boxing someone in can mean a call to the police. Don't idle at the entrance stalking a spot, either; it gridlocks Campbell Parade."
+    },
+    {
+      "type": "p",
+      "text": "Rules and specifics can change, so if you're unsure about alcohol zones, dog areas or seasonal restrictions, the Waverley Council beach pages are the source of truth - I've linked them below."
+    },
+    {
+      "type": "h2",
+      "text": "The little local courtesies"
+    },
+    {
+      "type": "p",
+      "text": "Beyond the official stuff, there's the Bondi finishing school. Take your rubbish with you - bins line the promenade, so use them; the gulls and the ocean will thank you. And if you've left a pram in the North Bondi rack, check you're grabbing your own before you wheel off; near-identical black prams are everywhere, and a mix-up ruins two families' afternoons."
+    },
+    {
+      "type": "quote",
+      "text": "The ethos is simple: the beach isn't here to watch you, it's here for everyone. Come to have fun, not to be seen."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Can you drink alcohol on Bondi Beach?",
+          "a": "No. Bondi Beach and Bondi Park sit within Waverley Council's alcohol-free zones, so drinking isn't allowed and rangers do enforce it. Check the Waverley Council website for the exact zones and current rules."
+        },
+        {
+          "q": "Are dogs allowed on Bondi Beach?",
+          "a": "Dogs aren't permitted on Bondi Beach at any time. You can walk a dog on a lead along the promenade and through the park; for nearby off-leash areas, check Waverley Council's dog rules."
+        },
+        {
+          "q": "Why does everyone say to swim between the flags?",
+          "a": "The red and yellow flags mark the area the lifeguards patrol and have judged safest that day. Bondi is known for its rips, which shift with conditions, so swimming between the flags keeps you in the safest water and in the lifeguards' sight."
+        },
+        {
+          "q": "Can you smoke or vape on Bondi Beach?",
+          "a": "Keep it off the sand - smoking and vaping aren't welcome on the beach. It's both etiquette and health on a crowded family beach, and butts are a real pollution problem for the ocean."
+        },
+        {
+          "q": "What's the most common tourist mistake at Bondi?",
+          "a": "Two stand out: getting badly sunburnt on day one, because the Australian UV is stronger than most expect, and swimming outside the flags. Sort those and you're ahead of most first-timers."
+        }
+      ]
+    }
   ]
 }

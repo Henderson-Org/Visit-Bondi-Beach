@@ -2,42 +2,126 @@
   "path": "/bondi-blog/is-bondi-good-to-live",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "monthly",
   "sources": [
-    { "label": "Waverley Council", "url": "https://www.waverley.nsw.gov.au/" },
-    { "label": "id community - Waverley area profile", "url": "https://profile.id.com.au/waverley" },
-    { "label": "Transport for NSW - Trip Planner", "url": "https://transportnsw.info/" }
+    {
+      "label": "Waverley Council",
+      "url": "https://www.waverley.nsw.gov.au/"
+    },
+    {
+      "label": "id community - Waverley area profile",
+      "url": "https://profile.id.com.au/waverley"
+    },
+    {
+      "label": "Transport for NSW - Trip Planner",
+      "url": "https://transportnsw.info/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "Is Bondi a good place to live? Honestly - yes, and I say that as someone who's called it home for years. You wake up minutes from one of the best beaches on the planet, you can swim before work, and the community is warmer than the reputation suggests. But it's not for everyone, and I'd rather give you the real trade-offs than sell you a postcard. So here's my honest local take on the lifestyle, the cost and the crowds." },
-    { "type": "quickFacts", "items": [
-      { "label": "Where", "value": "Eastern Suburbs, ~7 km east of Sydney CBD" },
-      { "label": "Postcode", "value": "2026 (Waverley Council LGA)" },
-      { "label": "Getting to the city", "value": "Buses to the CBD; nearest train at Bondi Junction" },
-      { "label": "Best for", "value": "Beach lovers, swimmers, walkers, café people" }
-    ] },
-    { "type": "h2", "text": "The lifestyle - why I love living here" },
-    { "type": "p", "text": "The beach reorganises your whole day. In summer I'll do a dawn swim before the crowds arrive; in winter I'll rug up and walk the promenade with a coffee while the ocean pool churns. The Bondi to Coogee coastal walk starts right here, and having that clifftop path on your doorstep genuinely changes how much you move. There's an outdoor, sociable rhythm to Bondi that's hard to find anywhere else in Sydney." },
-    { "type": "p", "text": "It's also more of a real neighbourhood than visitors expect. Behind the beachfront you've got the surf clubs, the weekend markets, the little grocers and the regulars who nod hello. Bondi is home to roughly 11,500 residents (2021 Census) packed into a small, walkable pocket - dense enough to feel alive, small enough that you start recognising faces." },
-    { "type": "localTip", "text": "The blocks north of the beach around Ben Buckler and the streets above North Bondi are noticeably calmer than the south end near the promenade. For beach access without the constant foot traffic, that's where I'd look." },
-    { "type": "h2", "text": "The honest trade-offs" },
-    { "type": "p", "text": "It's not all paradise. Bondi is one of Australia's most expensive places to rent or buy, and prices move fast - I won't quote a figure that'll be stale by the time you read this, so check current listings on realestate.com.au or Domain for the real number. Parking is genuinely painful; many streets are resident-permit or metered, so a lot of locals happily live car-free." },
-    { "type": "callout", "tone": "warning", "title": "Summer and event days get intense", "text": "On hot weekends, New Year's Eve and event days the beachfront swells, traffic backs up and parking evaporates. If you live near the promenade, weigh the peak-season buzz - some love the energy, others find it exhausting." },
-    { "type": "list", "items": [
-      "Cost of living is high - rent, buying and everyday café prices all sit above the Sydney average.",
-      "Parking is scarce; car-free or one-car living is common and often easier.",
-      "Salt air and westerly sun are hard on cars, balconies and anything metal.",
-      "It's a tourist beach - expect crowds, especially the south end in summer."
-    ] },
-    { "type": "h2", "text": "Getting around and getting to work" },
-    { "type": "p", "text": "Here's the thing a lot of newcomers don't realise: Bondi Beach itself has no train station. The nearest is Bondi Junction, about 2.5 km up the hill, which is a major bus and rail interchange with a fast train to the city. Day to day you rely on buses - the 333 runs between North Bondi and Circular Quay via Bondi Road and Oxford Street, with the 380 and other routes filling in. It's frequent and it works, but on a packed summer Saturday buses fill up, so I always check the Transport for NSW trip planner before heading out." },
-    { "type": "p", "text": "For commuters, the play is a bus to Bondi Junction then a quick train into the CBD. Cyclists do well once they're used to the hills, and for a lot of local trips walking beats everything." },
-    { "type": "faq", "items": [
-      { "q": "Is Bondi expensive to live in?", "a": "Yes - it's one of Sydney's priciest suburbs for both renting and buying, and everyday costs like cafés and groceries run above average. Because property prices shift constantly, I'd check current figures on realestate.com.au or Domain rather than trust any number in an article." },
-      { "q": "Does Bondi Beach have a train station?", "a": "No. The closest station is Bondi Junction, roughly 2.5 km inland, which connects to the city rail line. From the beach you take a bus (the 333 is the workhorse) up to the Junction to catch a train." },
-      { "q": "Is Bondi a good place to live if you're not into surfing?", "a": "Absolutely. Plenty of locals never surf - they come for the swimming, the coastal walk, the ocean pools, the café scene and the outdoor community." },
-      { "q": "Is Bondi family-friendly?", "a": "It can be. The north end of the beach is gentler and popular with families, there are parks and playgrounds nearby, and it's a walkable neighbourhood. The main trade-offs are cost and summer crowds rather than anything unsafe." },
-      { "q": "What's the downside of living in Bondi?", "a": "Cost, crowds and parking, mostly. It's expensive, the beachfront gets very busy in summer and on event days, and street parking is scarce enough that many residents go car-free." }
-    ] },
-    { "type": "p", "text": "So - is Bondi a good place to live? If you value an outdoor, beach-first lifestyle and a genuine neighbourhood feel, and you can make peace with the cost and the crowds, I think it's one of the best places in Sydney to wake up. Come spend a full day here first: do the coastal walk, catch a bus at peak time, and see how the place feels when the tourists go home. That's when you'll know if it's for you." }
+    {
+      "type": "p",
+      "text": "Is Bondi a good place to live? Honestly - yes, and I say that as someone who's called it home for years. You wake up minutes from one of the best beaches on the planet, you can swim before work, and the community is warmer than the reputation suggests. But it's not for everyone, and I'd rather give you the real trade-offs than sell you a postcard. So here's my honest local take on the lifestyle, the cost and the crowds."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Where",
+          "value": "Eastern Suburbs, ~7 km east of Sydney CBD"
+        },
+        {
+          "label": "Postcode",
+          "value": "2026 (Waverley Council LGA)"
+        },
+        {
+          "label": "Getting to the city",
+          "value": "Buses to the CBD; nearest train at Bondi Junction"
+        },
+        {
+          "label": "Best for",
+          "value": "Beach lovers, swimmers, walkers, café people"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The lifestyle - why I love living here"
+    },
+    {
+      "type": "p",
+      "text": "The beach reorganises your whole day. In summer I'll do a dawn swim before the crowds arrive; in winter I'll rug up and walk the promenade with a coffee while the ocean pool churns. The Bondi to Coogee coastal walk starts right here, and having that clifftop path on your doorstep genuinely changes how much you move. There's an outdoor, sociable rhythm to Bondi that's hard to find anywhere else in Sydney."
+    },
+    {
+      "type": "p",
+      "text": "It's also more of a real neighbourhood than visitors expect. Behind the beachfront you've got the surf clubs, the weekend markets, the little grocers and the regulars who nod hello. Bondi is home to roughly 11,500 residents (2021 Census) packed into a small, walkable pocket - dense enough to feel alive, small enough that you start recognising faces."
+    },
+    {
+      "type": "localTip",
+      "text": "The blocks north of the beach around Ben Buckler and the streets above North Bondi are noticeably calmer than the south end near the promenade. For beach access without the constant foot traffic, that's where I'd look."
+    },
+    {
+      "type": "h2",
+      "text": "The honest trade-offs"
+    },
+    {
+      "type": "p",
+      "text": "It's not all paradise. Bondi is one of Australia's most expensive places to rent or buy, and prices move fast - I won't quote a figure that'll be stale by the time you read this, so check current listings on realestate.com.au or Domain for the real number. Parking is genuinely painful; many streets are resident-permit or metered, so a lot of locals happily live car-free."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Summer and event days get intense",
+      "text": "On hot weekends, New Year's Eve and event days the beachfront swells, traffic backs up and parking evaporates. If you live near the promenade, weigh the peak-season buzz - some love the energy, others find it exhausting."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cost of living is high - rent, buying and everyday café prices all sit above the Sydney average.",
+        "Parking is scarce; car-free or one-car living is common and often easier.",
+        "Salt air and westerly sun are hard on cars, balconies and anything metal.",
+        "It's a tourist beach - expect crowds, especially the south end in summer."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Getting around and getting to work"
+    },
+    {
+      "type": "p",
+      "text": "Here's the thing a lot of newcomers don't realise: Bondi Beach itself has no train station. The nearest is Bondi Junction, about 2.5 km up the hill, which is a major bus and rail interchange with a fast train to the city. Day to day you rely on buses - the 333 runs between North Bondi and Circular Quay via Bondi Road and Oxford Street, with the 380 and other routes filling in. It's frequent and it works, but on a packed summer Saturday buses fill up, so I always check the Transport for NSW trip planner before heading out."
+    },
+    {
+      "type": "p",
+      "text": "For commuters, the play is a bus to Bondi Junction then a quick train into the CBD. Cyclists do well once they're used to the hills, and for a lot of local trips walking beats everything."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is Bondi expensive to live in?",
+          "a": "Yes - it's one of Sydney's priciest suburbs for both renting and buying, and everyday costs like cafés and groceries run above average. Because property prices shift constantly, I'd check current figures on realestate.com.au or Domain rather than trust any number in an article."
+        },
+        {
+          "q": "Does Bondi Beach have a train station?",
+          "a": "No. The closest station is Bondi Junction, roughly 2.5 km inland, which connects to the city rail line. From the beach you take a bus (the 333 is the workhorse) up to the Junction to catch a train."
+        },
+        {
+          "q": "Is Bondi a good place to live if you're not into surfing?",
+          "a": "Absolutely. Plenty of locals never surf - they come for the swimming, the coastal walk, the ocean pools, the café scene and the outdoor community."
+        },
+        {
+          "q": "Is Bondi family-friendly?",
+          "a": "It can be. The north end of the beach is gentler and popular with families, there are parks and playgrounds nearby, and it's a walkable neighbourhood. The main trade-offs are cost and summer crowds rather than anything unsafe."
+        },
+        {
+          "q": "What's the downside of living in Bondi?",
+          "a": "Cost, crowds and parking, mostly. It's expensive, the beachfront gets very busy in summer and on event days, and street parking is scarce enough that many residents go car-free."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So - is Bondi a good place to live? If you value an outdoor, beach-first lifestyle and a genuine neighbourhood feel, and you can make peace with the cost and the crowds, I think it's one of the best places in Sydney to wake up. Come spend a full day here first: do the coastal walk, catch a bus at peak time, and see how the place feels when the tourists go home. That's when you'll know if it's for you."
+    }
   ]
 }

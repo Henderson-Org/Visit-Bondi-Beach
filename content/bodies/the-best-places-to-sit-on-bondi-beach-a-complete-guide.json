@@ -2,43 +2,133 @@
   "path": "/bondi-blog/2025/1/5/the-best-places-to-sit-on-bondi-beach-a-complete-guide",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "quarterly",
   "sources": [
-    { "label": "Waverley Council - Beach Safety", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety" },
-    { "label": "Bondi Pavilion - Waverley Council", "url": "https://www.waverley.nsw.gov.au/recreation/places_of_interest/bondi_pavilion" },
-    { "label": "Surf Life Saving NSW - Beach Safety", "url": "https://www.surflifesaving.com.au/programs/beach-safety" }
+    {
+      "label": "Waverley Council - Beach Safety",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/beach_safety"
+    },
+    {
+      "label": "Bondi Pavilion - Waverley Council",
+      "url": "https://www.waverley.nsw.gov.au/recreation/places_of_interest/bondi_pavilion"
+    },
+    {
+      "label": "Surf Life Saving NSW - Beach Safety",
+      "url": "https://www.surflifesaving.com.au/programs/beach-safety"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "The honest answer to where you should sit on Bondi is that it depends on what you came for. After years of laying my towel down here, my rule is simple: the north end for calm water and families, the south end for surf and afternoon shade, and the middle if you want to be right between the flags. Here's how I choose, section by section." },
-    { "type": "quickFacts", "items": [
-      { "label": "Calmest water", "value": "North end (near North Bondi)" },
-      { "label": "Best for surfers", "value": "South end (Icebergs side)" },
-      { "label": "Safest swimming", "value": "Between the red & yellow flags" },
-      { "label": "Facilities", "value": "Bondi Pavilion, central beach" },
-      { "label": "Shade", "value": "Limited - bring your own" }
-    ] },
-    { "type": "h2", "text": "The north end: my pick for families and calm water" },
-    { "type": "p", "text": "The northern stretch, up towards the North Bondi Surf Life Saving Club, is where I send anyone with small kids or nervous swimmers. The headland shelters this corner, so the water tends to sit flatter, and you're close to the North Bondi rockpool and the grassy reserve above the sand. Toilets, a playground and casual cafes are a short barefoot walk away - which matters with a toddler and a bucket of sand to manage." },
-    { "type": "localTip", "text": "On a busy summer weekend the north end fills first, because locals know it. For a good patch, I'd be set up before about 9am - after that you're threading your towel between other people's." },
-    { "type": "h2", "text": "The south end: surf culture, and afternoon shade" },
-    { "type": "p", "text": "Down the southern end, below the Bondi Icebergs Club, the beach takes on a different character. This is the surfers' end - the waves have punch, the rips are stronger, and the crowd skews towards boards and wetsuits. Even if you never get in, it's a brilliant place to watch good surfing with the Icebergs pool as a backdrop. A quiet local trick: in the late afternoon, the cliffs here throw welcome shade onto the sand while the rest of the beach bakes." },
-    { "type": "callout", "tone": "warning", "title": "The south corner is not a casual swim spot", "text": "The powerful water that makes the south end great for surfing also makes it one of Bondi's rip-prone corners. If you're swimming rather than surfing, don't just wade in front of your towel - walk to the patrolled flags, which lifeguards set where it's safest on the day." },
-    { "type": "h2", "text": "The middle: between the flags, closest to everything" },
-    { "type": "p", "text": "The centre is the busiest and, for most visitors, the most sensible place to plant yourself. It's usually where the lifeguards fly the red and yellow flags, so it's the safest zone for a swim, and it sits within easy reach of the Bondi Pavilion - the central building with public toilets, showers, change rooms and cafes. If you like a bit of buzz and a short walk to coffee or the bathroom, sit here." },
-    { "type": "list", "items": [
-      "Right on the promenade edge: easiest for facilities, least sand to cross, best people-watching.",
-      "Mid-sand, near the flags: the sweet spot for swimming with kids or as a confident adult.",
-      "Up towards the dry, soft sand: warmer and quieter, but a longer trek back to the Pavilion."
-    ] },
-    { "type": "h2", "text": "When I skip the sand altogether" },
-    { "type": "p", "text": "Some of my favourite Bondi sitting isn't on the beach at all. The grassy verge and benches above the north end are perfect for a picnic, a book, or watching the crescent light up at sunset without getting sand in everything. And the rock platforms out past North Bondi, towards Ben Buckler point, are the place for quiet and big ocean views - for sitting and looking, not swimming. On a blustery day, that's where you'll find me." },
-    { "type": "localTip", "text": "Bondi has almost no natural shade. If you're staying more than an hour or two, bring an umbrella or pop-up tent - and check the wind, because a strong nor'easter turns the exposed middle of the beach into a sandblasting session." },
-    { "type": "faq", "items": [
-      { "q": "Where is the best place to sit on Bondi Beach with kids?", "a": "The north end, near the North Bondi Surf Life Saving Club. The water is generally calmer thanks to the headland, and you're close to the rockpool, playground, toilets and cafes. Wherever you settle, only swim between the flags." },
-      { "q": "Which end of Bondi is best for surfing?", "a": "The south end, below the Bondi Icebergs Club, has the bigger, more powerful waves and is where most surfers head. The currents are strong, so it's better for surfing and watching than a casual swim." },
-      { "q": "Is there any shade on Bondi Beach?", "a": "Very little. The south end near the cliffs picks up some in the late afternoon, but for a reliable spot bring your own umbrella or tent. The grassy area at the north end is a shadier, non-sand alternative." },
-      { "q": "Where can I sit near the toilets and showers?", "a": "The central section, in front of the Bondi Pavilion, which houses public toilets, showers and change rooms on the promenade. Check Waverley Council's Bondi Pavilion page for current opening hours." },
-      { "q": "How early should I arrive to get a good spot in summer?", "a": "On summer weekends and public holidays Bondi gets very busy. I'd aim to be set up before around 9am for the popular north and central spots; later than that and you'll be squeezing in." }
-    ] },
-    { "type": "p", "text": "That's the whole beach as I use it: north for calm and family comfort, south for surf and shade, the middle for safety and convenience, and the grass and rocks for days you'd rather watch than swim. Pick the spot that matches your day, keep an eye on the flags, and Bondi rarely disappoints." }
+    {
+      "type": "p",
+      "text": "The honest answer to where you should sit on Bondi is that it depends on what you came for. After years of laying my towel down here, my rule is simple: the north end for calm water and families, the south end for surf and afternoon shade, and the middle if you want to be right between the flags. Here's how I choose, section by section."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Calmest water",
+          "value": "North end (near North Bondi)"
+        },
+        {
+          "label": "Best for surfers",
+          "value": "South end (Icebergs side)"
+        },
+        {
+          "label": "Safest swimming",
+          "value": "Between the red & yellow flags"
+        },
+        {
+          "label": "Facilities",
+          "value": "Bondi Pavilion, central beach"
+        },
+        {
+          "label": "Shade",
+          "value": "Limited - bring your own"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The north end: my pick for families and calm water"
+    },
+    {
+      "type": "p",
+      "text": "The northern stretch, up towards the North Bondi Surf Life Saving Club, is where I send anyone with small kids or nervous swimmers. The headland shelters this corner, so the water tends to sit flatter, and you're close to the North Bondi rockpool and the grassy reserve above the sand. Toilets, a playground and casual cafes are a short barefoot walk away - which matters with a toddler and a bucket of sand to manage."
+    },
+    {
+      "type": "localTip",
+      "text": "On a busy summer weekend the north end fills first, because locals know it. For a good patch, I'd be set up before about 9am - after that you're threading your towel between other people's."
+    },
+    {
+      "type": "h2",
+      "text": "The south end: surf culture, and afternoon shade"
+    },
+    {
+      "type": "p",
+      "text": "Down the southern end, below the Bondi Icebergs Club, the beach takes on a different character. This is the surfers' end - the waves have punch, the rips are stronger, and the crowd skews towards boards and wetsuits. Even if you never get in, it's a brilliant place to watch good surfing with the Icebergs pool as a backdrop. A quiet local trick: in the late afternoon, the cliffs here throw welcome shade onto the sand while the rest of the beach bakes."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "The south corner is not a casual swim spot",
+      "text": "The powerful water that makes the south end great for surfing also makes it one of Bondi's rip-prone corners. If you're swimming rather than surfing, don't just wade in front of your towel - walk to the patrolled flags, which lifeguards set where it's safest on the day."
+    },
+    {
+      "type": "h2",
+      "text": "The middle: between the flags, closest to everything"
+    },
+    {
+      "type": "p",
+      "text": "The centre is the busiest and, for most visitors, the most sensible place to plant yourself. It's usually where the lifeguards fly the red and yellow flags, so it's the safest zone for a swim, and it sits within easy reach of the Bondi Pavilion - the central building with public toilets, showers, change rooms and cafes. If you like a bit of buzz and a short walk to coffee or the bathroom, sit here."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Right on the promenade edge: easiest for facilities, least sand to cross, best people-watching.",
+        "Mid-sand, near the flags: the sweet spot for swimming with kids or as a confident adult.",
+        "Up towards the dry, soft sand: warmer and quieter, but a longer trek back to the Pavilion."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "When I skip the sand altogether"
+    },
+    {
+      "type": "p",
+      "text": "Some of my favourite Bondi sitting isn't on the beach at all. The grassy verge and benches above the north end are perfect for a picnic, a book, or watching the crescent light up at sunset without getting sand in everything. And the rock platforms out past North Bondi, towards Ben Buckler point, are the place for quiet and big ocean views - for sitting and looking, not swimming. On a blustery day, that's where you'll find me."
+    },
+    {
+      "type": "localTip",
+      "text": "Bondi has almost no natural shade. If you're staying more than an hour or two, bring an umbrella or pop-up tent - and check the wind, because a strong nor'easter turns the exposed middle of the beach into a sandblasting session."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Where is the best place to sit on Bondi Beach with kids?",
+          "a": "The north end, near the North Bondi Surf Life Saving Club. The water is generally calmer thanks to the headland, and you're close to the rockpool, playground, toilets and cafes. Wherever you settle, only swim between the flags."
+        },
+        {
+          "q": "Which end of Bondi is best for surfing?",
+          "a": "The south end, below the Bondi Icebergs Club, has the bigger, more powerful waves and is where most surfers head. The currents are strong, so it's better for surfing and watching than a casual swim."
+        },
+        {
+          "q": "Is there any shade on Bondi Beach?",
+          "a": "Very little. The south end near the cliffs picks up some in the late afternoon, but for a reliable spot bring your own umbrella or tent. The grassy area at the north end is a shadier, non-sand alternative."
+        },
+        {
+          "q": "Where can I sit near the toilets and showers?",
+          "a": "The central section, in front of the Bondi Pavilion, which houses public toilets, showers and change rooms on the promenade. Check Waverley Council's Bondi Pavilion page for current opening hours."
+        },
+        {
+          "q": "How early should I arrive to get a good spot in summer?",
+          "a": "On summer weekends and public holidays Bondi gets very busy. I'd aim to be set up before around 9am for the popular north and central spots; later than that and you'll be squeezing in."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's the whole beach as I use it: north for calm and family comfort, south for surf and shade, the middle for safety and convenience, and the grass and rocks for days you'd rather watch than swim. Pick the spot that matches your day, keep an eye on the flags, and Bondi rarely disappoints."
+    }
   ]
 }

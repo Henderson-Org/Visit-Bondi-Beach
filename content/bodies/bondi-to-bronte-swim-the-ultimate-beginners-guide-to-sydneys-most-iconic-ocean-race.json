@@ -2,47 +2,143 @@
   "path": "/bondi-blog/2025/6/23/bondi-to-bronte-swim-the-ultimate-beginners-guide-to-sydneys-most-iconic-ocean-race",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "seasonal",
   "sources": [
-    { "label": "Macquarie Bondi to Bronte Ocean Swim - official site", "url": "https://www.bonditobronte.com.au/" },
-    { "label": "Bondi to Bronte - course details", "url": "https://www.bonditobronte.com.au/b2b-course" },
-    { "label": "World Series Swims - Bondi to Bronte", "url": "https://worldseriesswims.com.au/bondi-to-bronte/" },
-    { "label": "Surf Life Saving NSW - beach safety", "url": "https://www.surflifesaving.com.au/" }
+    {
+      "label": "Macquarie Bondi to Bronte Ocean Swim - official site",
+      "url": "https://www.bonditobronte.com.au/"
+    },
+    {
+      "label": "Bondi to Bronte - course details",
+      "url": "https://www.bonditobronte.com.au/b2b-course"
+    },
+    {
+      "label": "World Series Swims - Bondi to Bronte",
+      "url": "https://worldseriesswims.com.au/bondi-to-bronte/"
+    },
+    {
+      "label": "Surf Life Saving NSW - beach safety",
+      "url": "https://www.surflifesaving.com.au/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "Here's the short version if you're eyeing the Bondi to Bronte for your first proper ocean swim: it's a point-to-point race of roughly 2 km that starts on my home beach at Bondi, rounds the rocks at Mackenzies Point, and finishes in the cove at Bronte. And yes, a first-timer can do it - provided you can already swim a couple of kilometres in open water non-stop." },
-    { "type": "p", "text": "It's run by Bronte Surf Life Saving Club alongside World Series Swims, and it's one of the oldest, best-loved races on Sydney's calendar. What makes it special isn't the distance - it's the water: real swell, the odd rip, deep stretches over reef, and that slightly intimidating moment when you round the headland and Bronte comes into view." },
-    { "type": "quickFacts", "items": [
-      { "label": "Route", "value": "Bondi Beach → Mackenzies Point → Bronte Beach" },
-      { "label": "Distance", "value": "~2 km (buoy position varies with conditions)" },
-      { "label": "Organiser", "value": "Bronte Surf Life Saving Club / World Series Swims" },
-      { "label": "Season", "value": "Sydney summer - check official site for the date" },
-      { "label": "Entries", "value": "bonditobronte.com.au" }
-    ] },
-    { "type": "h2", "text": "The course, and why it earns its reputation" },
-    { "type": "p", "text": "You start on the sand in front of the Bondi Pavilion. Your first landmark is Mackenzies Point, the rocky headland between the beaches - keep it on your left and follow the coast down, over reef, until you drop into Bronte's surf zone. The official course details put it at 2.0 to 2.4 km depending on where the buoys sit." },
-    { "type": "p", "text": "The honest truth is that it swims harder than its distance suggests. With swell running, the middle past the headland gets lumpy, and the finish funnels you into a smaller, punchier beach. That's exactly why it's such a satisfying first race - a genuine adventure, not a lap of a pool." },
-    { "type": "callout", "tone": "warning", "title": "Be honest about your ability", "text": "This is an ocean race, not flat water. You should be able to swim 2 km continuously in open water, stay calm when you can't touch the bottom, and signal for help if you need to. If that's not you yet, build up over a season." },
-    { "type": "h2", "text": "Training as a beginner" },
-    { "type": "p", "text": "Ocean swimming is a different sport to pool swimming, and the gap catches people out - you can be fit in the pool and still feel wobbly the first time there's swell and no black line to follow. Give yourself a solid run-in, and make sure some of it happens in the sea." },
-    { "type": "list", "items": [
-      "Build a pool base: two to three swims a week, mixing distance with intervals so 2 km stops feeling long.",
-      "Get in the ocean weekly: nothing replaces real swell, sighting off landmarks, and colder water.",
-      "Practise sighting: lift your eyes every few strokes to spot a buoy or headland so you swim straight, not zig-zag.",
-      "Rehearse the surf: wade out through small waves and body-surf one in, since the start and finish undo most beginners.",
-      "Dress-rehearse: one continuous 1.5–2 km ocean swim before race week, so the distance is nothing new."
-    ] },
-    { "type": "localTip", "text": "The best free training partner is the coastal path - walk it before you swim it. Seeing Mackenzies Point, the reef and the finish from above makes the course far less daunting at water level. And join a local ocean swim squad if you can; swimming with others builds confidence fast." },
-    { "type": "h2", "text": "Race day, entries and spectating" },
-    { "type": "p", "text": "Entries open online at bonditobronte.com.au, and a popular swim like this can fill before race day - so enter early rather than banking on the morning. There are often shorter options too; check the official entries page for the current distances, categories and fees, which change season to season." },
-    { "type": "p", "text": "On the day, get there early - parking around Bondi and Bronte is tight on a summer weekend, so walk, bus or train if you can. Warm up with an easy few hundred metres, start a little wider than the pack, and follow the lifesavers' directions at the finish." },
-    { "type": "p", "text": "If you're not swimming, Bronte is the place to watch. Take a spot on the grassy hill above the beach, bring coffee, and you'll catch the whole drama of the finish - the sprint up the sand and the salty, happy faces." },
-    { "type": "faq", "items": [
-      { "q": "How far is the Bondi to Bronte swim?", "a": "It's a point-to-point ocean course of roughly 2 km - the official course details list 2.0 to 2.4 km depending on where the buoys sit. Train for about 2 km and be ready for it to swim slightly longer." },
-      { "q": "Do I need to be a competitive swimmer?", "a": "No, but you do need to be a confident open-water swimmer. If you can comfortably swim 2 km non-stop in the ocean and stay calm out of your depth, you're the right kind of prepared. It's about water confidence, not speed." },
-      { "q": "When is the Bondi to Bronte swim held?", "a": "It runs during Sydney's summer ocean-swim season, but the date moves year to year - check bonditobronte.com.au for the current one." },
-      { "q": "How do I enter, and can I enter on the day?", "a": "Enter online at bonditobronte.com.au. Don't count on race-morning entry - it can sell out, so register early." },
-      { "q": "Is it safe for a first-timer?", "a": "It's professionally run and well patrolled by surf lifesavers with rescue craft on the course. The main risk is overestimating yourself, so be sure you can genuinely swim the distance in open water first." }
-    ] },
-    { "type": "p", "text": "Done the training and picked your date? Then back yourself, round Mackenzies Point, and enjoy that grin when your feet hit the Bronte sand - a rite of passage for a reason." }
+    {
+      "type": "p",
+      "text": "Here's the short version if you're eyeing the Bondi to Bronte for your first proper ocean swim: it's a point-to-point race of roughly 2 km that starts on my home beach at Bondi, rounds the rocks at Mackenzies Point, and finishes in the cove at Bronte. And yes, a first-timer can do it - provided you can already swim a couple of kilometres in open water non-stop."
+    },
+    {
+      "type": "p",
+      "text": "It's run by Bronte Surf Life Saving Club alongside World Series Swims, and it's one of the oldest, best-loved races on Sydney's calendar. What makes it special isn't the distance - it's the water: real swell, the odd rip, deep stretches over reef, and that slightly intimidating moment when you round the headland and Bronte comes into view."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Route",
+          "value": "Bondi Beach → Mackenzies Point → Bronte Beach"
+        },
+        {
+          "label": "Distance",
+          "value": "~2 km (buoy position varies with conditions)"
+        },
+        {
+          "label": "Organiser",
+          "value": "Bronte Surf Life Saving Club / World Series Swims"
+        },
+        {
+          "label": "Season",
+          "value": "Sydney summer - check official site for the date"
+        },
+        {
+          "label": "Entries",
+          "value": "bonditobronte.com.au"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The course, and why it earns its reputation"
+    },
+    {
+      "type": "p",
+      "text": "You start on the sand in front of the Bondi Pavilion. Your first landmark is Mackenzies Point, the rocky headland between the beaches - keep it on your left and follow the coast down, over reef, until you drop into Bronte's surf zone. The official course details put it at 2.0 to 2.4 km depending on where the buoys sit."
+    },
+    {
+      "type": "p",
+      "text": "The honest truth is that it swims harder than its distance suggests. With swell running, the middle past the headland gets lumpy, and the finish funnels you into a smaller, punchier beach. That's exactly why it's such a satisfying first race - a genuine adventure, not a lap of a pool."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Be honest about your ability",
+      "text": "This is an ocean race, not flat water. You should be able to swim 2 km continuously in open water, stay calm when you can't touch the bottom, and signal for help if you need to. If that's not you yet, build up over a season."
+    },
+    {
+      "type": "h2",
+      "text": "Training as a beginner"
+    },
+    {
+      "type": "p",
+      "text": "Ocean swimming is a different sport to pool swimming, and the gap catches people out - you can be fit in the pool and still feel wobbly the first time there's swell and no black line to follow. Give yourself a solid run-in, and make sure some of it happens in the sea."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Build a pool base: two to three swims a week, mixing distance with intervals so 2 km stops feeling long.",
+        "Get in the ocean weekly: nothing replaces real swell, sighting off landmarks, and colder water.",
+        "Practise sighting: lift your eyes every few strokes to spot a buoy or headland so you swim straight, not zig-zag.",
+        "Rehearse the surf: wade out through small waves and body-surf one in, since the start and finish undo most beginners.",
+        "Dress-rehearse: one continuous 1.5–2 km ocean swim before race week, so the distance is nothing new."
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "The best free training partner is the coastal path - walk it before you swim it. Seeing Mackenzies Point, the reef and the finish from above makes the course far less daunting at water level. And join a local ocean swim squad if you can; swimming with others builds confidence fast."
+    },
+    {
+      "type": "h2",
+      "text": "Race day, entries and spectating"
+    },
+    {
+      "type": "p",
+      "text": "Entries open online at bonditobronte.com.au, and a popular swim like this can fill before race day - so enter early rather than banking on the morning. There are often shorter options too; check the official entries page for the current distances, categories and fees, which change season to season."
+    },
+    {
+      "type": "p",
+      "text": "On the day, get there early - parking around Bondi and Bronte is tight on a summer weekend, so walk, bus or train if you can. Warm up with an easy few hundred metres, start a little wider than the pack, and follow the lifesavers' directions at the finish."
+    },
+    {
+      "type": "p",
+      "text": "If you're not swimming, Bronte is the place to watch. Take a spot on the grassy hill above the beach, bring coffee, and you'll catch the whole drama of the finish - the sprint up the sand and the salty, happy faces."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How far is the Bondi to Bronte swim?",
+          "a": "It's a point-to-point ocean course of roughly 2 km - the official course details list 2.0 to 2.4 km depending on where the buoys sit. Train for about 2 km and be ready for it to swim slightly longer."
+        },
+        {
+          "q": "Do I need to be a competitive swimmer?",
+          "a": "No, but you do need to be a confident open-water swimmer. If you can comfortably swim 2 km non-stop in the ocean and stay calm out of your depth, you're the right kind of prepared. It's about water confidence, not speed."
+        },
+        {
+          "q": "When is the Bondi to Bronte swim held?",
+          "a": "It runs during Sydney's summer ocean-swim season, but the date moves year to year - check bonditobronte.com.au for the current one."
+        },
+        {
+          "q": "How do I enter, and can I enter on the day?",
+          "a": "Enter online at bonditobronte.com.au. Don't count on race-morning entry - it can sell out, so register early."
+        },
+        {
+          "q": "Is it safe for a first-timer?",
+          "a": "It's professionally run and well patrolled by surf lifesavers with rescue craft on the course. The main risk is overestimating yourself, so be sure you can genuinely swim the distance in open water first."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Done the training and picked your date? Then back yourself, round Mackenzies Point, and enjoy that grin when your feet hit the Bronte sand - a rite of passage for a reason."
+    }
   ]
 }

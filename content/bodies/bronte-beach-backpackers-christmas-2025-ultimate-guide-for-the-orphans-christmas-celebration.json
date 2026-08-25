@@ -2,44 +2,134 @@
   "path": "/bondi-blog/2025/6/21/bronte-beach-backpackers-christmas-2025-ultimate-guide-for-the-orphans-christmas-celebration",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "quarterly",
   "sources": [
-    { "label": "Waverley Council - Bronte spared from usual 'Backpacker Christmas' chaos", "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/bronte-xmas-update" },
-    { "label": "Waverley Council - Safety concerns over Christmas at Bronte gathering", "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/safety_concerns_over_christmas_at_bronte_gathering" },
-    { "label": "The New Daily - Christmas revellers switch beaches to Coogee", "url": "https://www.thenewdaily.com.au/news/state/nsw/2025/12/26/coogee-beach-christmas-party" },
-    { "label": "Bronte News - Bronte Beach to see glass ban and more police on Christmas Day", "url": "https://brontenews.com.au/bronte-beach-to-see-glass-ban-and-more-police-on-christmas-day/" }
+    {
+      "label": "Waverley Council - Bronte spared from usual 'Backpacker Christmas' chaos",
+      "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/bronte-xmas-update"
+    },
+    {
+      "label": "Waverley Council - Safety concerns over Christmas at Bronte gathering",
+      "url": "https://www.waverley.nsw.gov.au/top/news_and_media/council_news/all/2025/safety_concerns_over_christmas_at_bronte_gathering"
+    },
+    {
+      "label": "The New Daily - Christmas revellers switch beaches to Coogee",
+      "url": "https://www.thenewdaily.com.au/news/state/nsw/2025/12/26/coogee-beach-christmas-party"
+    },
+    {
+      "label": "Bronte News - Bronte Beach to see glass ban and more police on Christmas Day",
+      "url": "https://brontenews.com.au/bronte-beach-to-see-glass-ban-and-more-police-on-christmas-day/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you've landed here hoping to plan your spot at Bronte Beach's famous backpackers' \"Orphan's Christmas\", I owe you the honest update first: it didn't happen at Bronte in 2025. Waverley Council urged everyone to stay away, the crowd read the room, and the whole thing shifted south to Coogee instead. So this is less a how-to-join guide and more a straight account of what happened - and what it means if you want somewhere to spend Christmas Day near Sydney's eastern beaches." },
-    { "type": "quickFacts", "items": [
-      { "label": "The tradition", "value": "\"Orphan's\" / Backpacker's Christmas gathering" },
-      { "label": "Usual home", "value": "Bronte Beach & park, Sydney's east" },
-      { "label": "2025 reality", "value": "Council urged people away; Bronte stayed quiet" },
-      { "label": "Where it moved", "value": "Coogee Beach, Randwick" },
-      { "label": "Cost", "value": "Free (but no organiser, no party facilities laid on)" }
-    ] },
-    { "type": "h2", "text": "What the tradition actually is" },
-    { "type": "p", "text": "For years, Bronte Beach was the unofficial home of what travellers call \"Orphan's Christmas\" - the name backpackers gave to the day they spent with their travelling family instead of their real one, half a world from home. It was never ticketed and never run by anyone. People just turned up on the sand with an esky and a Santa hat. In 2024 it swelled to a reported 15,000-odd people, and with the crowd came the noise, the mess and the safety headaches that turned a sweet idea into a real problem for its host suburb." },
-    { "type": "h2", "text": "Why 2025 was different" },
-    { "type": "p", "text": "Two things reshaped the day. First, the Bronte Surf Life Saving Club redevelopment turned roughly half of Bronte Park into a fenced construction site - so the space that once absorbed thousands of picnickers simply wasn't there, and cramming a crowd into what was left was, in the Council's own words, a real safety risk. Second, the Council brought in firmer rules: a glass ban, an alcohol crackdown with checkpoints, and extra police. Rather than fence or ticket the beach, they asked people not to come at all." },
-    { "type": "callout", "tone": "warning", "title": "Bronte Park is still a building site", "text": "The surf club redevelopment means part of Bronte Park remains closed off, and the alcohol and glass bans around Christmas are actively enforced. Don't plan a large gathering here assuming it'll be business as usual - check the latest Waverley Council advice before Christmas Day." },
-    { "type": "h2", "text": "So where did everyone go?" },
-    { "type": "p", "text": "Coogee. Partway through Christmas Day it was clear the backpacker contingent had heeded the warnings and headed to Coogee Beach instead, where thousands packed the foreshore. Police reported no major incidents, and - happily for Bronte's residents - it was a peaceful day on their beach for the first time in years. The flip side: Coogee was left blanketed in rubbish, and Randwick City Council, helped by Waverley, copped the clean-up." },
-    { "type": "localTip", "text": "If you're a solo traveller who just wants company on Christmas Day, you don't need a chaotic beach party. A quieter Bronte morning - a swim in the Bronte Baths, a walk along the Bondi-to-Bronte coastal path, then a booked lunch nearby - is a lovelier way to spend it, and you'll still meet people. Book any Christmas Day meal well ahead; spots fill fast." },
-    { "type": "h2", "text": "Thinking about Christmas Day 2026?" },
-    { "type": "p", "text": "I can't tell you where the crowd will land next - that genuinely isn't decided, and anyone promising a confirmed \"event\" at Bronte is guessing. Plan around the official word, not rumour. Waverley Council publishes its approach each December, and it now leans toward discouraging a mass gathering at Bronte while the works continue. Whichever beach you choose, treat it like the residential neighbourhood it is." },
-    { "type": "list", "items": [
-      "No glass on the sand or in the parks - it's banned and enforced.",
-      "Expect alcohol restrictions and police checkpoints around Christmas; don't assume you can drink freely.",
-      "Bring sun protection and a refillable water bottle - Sydney's December sun is fierce by mid-morning.",
-      "Carry out everything you carry in; the clean-up bill and local goodwill both depend on it."
-    ] },
-    { "type": "faq", "items": [
-      { "q": "Is the Bronte backpackers' Christmas still happening?", "a": "Not at Bronte, as of Christmas 2025. Waverley Council urged people away over the surf-club construction and safety, and the crowd moved to Coogee instead. There's no organised event, and its Bronte future is uncertain - check Waverley Council's latest advice." },
-      { "q": "Why did Waverley Council try to shut it down?", "a": "The surf club redevelopment closed off around half of Bronte Park, leaving too little room for a large crowd, and the 2024 gathering of a reported 15,000 brought serious noise and mess. Council responded with a glass ban, alcohol controls and extra police." },
-      { "q": "Can I drink alcohol at Bronte Beach on Christmas Day?", "a": "Don't count on it. Council enforced alcohol restrictions and checkpoints around Christmas 2025, and glass is banned outright. Check Waverley Council's current rules first." },
-      { "q": "Where did the backpackers gather instead?", "a": "Coogee Beach, in the neighbouring Randwick council area, where thousands packed the foreshore on Christmas Day 2025 with no major incidents reported. Whether that continues is up to the crowd." },
-      { "q": "How do I get to Bronte on public transport?", "a": "Take a train to Bondi Junction, then a local bus to Bronte Beach. Timetables change on public holidays, so check the Transport for NSW app on the day, and note that Bronte parking is extremely limited." }
-    ] },
-    { "type": "p", "text": "Bronte is one of my favourite pockets of Sydney - the baths, the Norfolk pines, the little cove of sand - and the best way to keep it that way is to let it breathe. If you spend Christmas here, come for the coastline, be kind, and check the official sources for the day's rules." }
+    {
+      "type": "p",
+      "text": "If you've landed here hoping to plan your spot at Bronte Beach's famous backpackers' \"Orphan's Christmas\", I owe you the honest update first: it didn't happen at Bronte in 2025. Waverley Council urged everyone to stay away, the crowd read the room, and the whole thing shifted south to Coogee instead. So this is less a how-to-join guide and more a straight account of what happened - and what it means if you want somewhere to spend Christmas Day near Sydney's eastern beaches."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "The tradition",
+          "value": "\"Orphan's\" / Backpacker's Christmas gathering"
+        },
+        {
+          "label": "Usual home",
+          "value": "Bronte Beach & park, Sydney's east"
+        },
+        {
+          "label": "2025 reality",
+          "value": "Council urged people away; Bronte stayed quiet"
+        },
+        {
+          "label": "Where it moved",
+          "value": "Coogee Beach, Randwick"
+        },
+        {
+          "label": "Cost",
+          "value": "Free (but no organiser, no party facilities laid on)"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What the tradition actually is"
+    },
+    {
+      "type": "p",
+      "text": "For years, Bronte Beach was the unofficial home of what travellers call \"Orphan's Christmas\" - the name backpackers gave to the day they spent with their travelling family instead of their real one, half a world from home. It was never ticketed and never run by anyone. People just turned up on the sand with an esky and a Santa hat. In 2024 it swelled to a reported 15,000-odd people, and with the crowd came the noise, the mess and the safety headaches that turned a sweet idea into a real problem for its host suburb."
+    },
+    {
+      "type": "h2",
+      "text": "Why 2025 was different"
+    },
+    {
+      "type": "p",
+      "text": "Two things reshaped the day. First, the Bronte Surf Life Saving Club redevelopment turned roughly half of Bronte Park into a fenced construction site - so the space that once absorbed thousands of picnickers simply wasn't there, and cramming a crowd into what was left was, in the Council's own words, a real safety risk. Second, the Council brought in firmer rules: a glass ban, an alcohol crackdown with checkpoints, and extra police. Rather than fence or ticket the beach, they asked people not to come at all."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Bronte Park is still a building site",
+      "text": "The surf club redevelopment means part of Bronte Park remains closed off, and the alcohol and glass bans around Christmas are actively enforced. Don't plan a large gathering here assuming it'll be business as usual - check the latest Waverley Council advice before Christmas Day."
+    },
+    {
+      "type": "h2",
+      "text": "So where did everyone go?"
+    },
+    {
+      "type": "p",
+      "text": "Coogee. Partway through Christmas Day it was clear the backpacker contingent had heeded the warnings and headed to Coogee Beach instead, where thousands packed the foreshore. Police reported no major incidents, and - happily for Bronte's residents - it was a peaceful day on their beach for the first time in years. The flip side: Coogee was left blanketed in rubbish, and Randwick City Council, helped by Waverley, copped the clean-up."
+    },
+    {
+      "type": "localTip",
+      "text": "If you're a solo traveller who just wants company on Christmas Day, you don't need a chaotic beach party. A quieter Bronte morning - a swim in the Bronte Baths, a walk along the Bondi-to-Bronte coastal path, then a booked lunch nearby - is a lovelier way to spend it, and you'll still meet people. Book any Christmas Day meal well ahead; spots fill fast."
+    },
+    {
+      "type": "h2",
+      "text": "Thinking about Christmas Day 2026?"
+    },
+    {
+      "type": "p",
+      "text": "I can't tell you where the crowd will land next - that genuinely isn't decided, and anyone promising a confirmed \"event\" at Bronte is guessing. Plan around the official word, not rumour. Waverley Council publishes its approach each December, and it now leans toward discouraging a mass gathering at Bronte while the works continue. Whichever beach you choose, treat it like the residential neighbourhood it is."
+    },
+    {
+      "type": "list",
+      "items": [
+        "No glass on the sand or in the parks - it's banned and enforced.",
+        "Expect alcohol restrictions and police checkpoints around Christmas; don't assume you can drink freely.",
+        "Bring sun protection and a refillable water bottle - Sydney's December sun is fierce by mid-morning.",
+        "Carry out everything you carry in; the clean-up bill and local goodwill both depend on it."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is the Bronte backpackers' Christmas still happening?",
+          "a": "Not at Bronte, as of Christmas 2025. Waverley Council urged people away over the surf-club construction and safety, and the crowd moved to Coogee instead. There's no organised event, and its Bronte future is uncertain - check Waverley Council's latest advice."
+        },
+        {
+          "q": "Why did Waverley Council try to shut it down?",
+          "a": "The surf club redevelopment closed off around half of Bronte Park, leaving too little room for a large crowd, and the 2024 gathering of a reported 15,000 brought serious noise and mess. Council responded with a glass ban, alcohol controls and extra police."
+        },
+        {
+          "q": "Can I drink alcohol at Bronte Beach on Christmas Day?",
+          "a": "Don't count on it. Council enforced alcohol restrictions and checkpoints around Christmas 2025, and glass is banned outright. Check Waverley Council's current rules first."
+        },
+        {
+          "q": "Where did the backpackers gather instead?",
+          "a": "Coogee Beach, in the neighbouring Randwick council area, where thousands packed the foreshore on Christmas Day 2025 with no major incidents reported. Whether that continues is up to the crowd."
+        },
+        {
+          "q": "How do I get to Bronte on public transport?",
+          "a": "Take a train to Bondi Junction, then a local bus to Bronte Beach. Timetables change on public holidays, so check the Transport for NSW app on the day, and note that Bronte parking is extremely limited."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bronte is one of my favourite pockets of Sydney - the baths, the Norfolk pines, the little cove of sand - and the best way to keep it that way is to let it breathe. If you spend Christmas here, come for the coastline, be kind, and check the official sources for the day's rules."
+    }
   ]
 }

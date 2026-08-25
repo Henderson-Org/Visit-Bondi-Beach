@@ -2,49 +2,158 @@
   "path": "/bondi-blog/2025/1/7/top-things-to-do-in-bondi-for-kids-during-school-holidays",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "monthly",
   "sources": [
-    { "label": "Waverley Council - Events", "url": "https://www.waverley.nsw.gov.au/recreation/events" },
-    { "label": "Waverley Council - Activities for children", "url": "https://www.waverley.nsw.gov.au/community/children_youth_and_family_support/children_and_families/activities_for_children" },
-    { "label": "Let's Go Surfing - Bondi families & kids", "url": "https://letsgosurfing.com.au/lessons/bondi/families-and-kids/" },
-    { "label": "Centennial Parklands - Wild Play Garden", "url": "https://www.centennialparklands.com.au/visit/things-to-do/playgrounds" },
-    { "label": "Bondi Icebergs Club", "url": "https://icebergs.com.au/" }
+    {
+      "label": "Waverley Council - Events",
+      "url": "https://www.waverley.nsw.gov.au/recreation/events"
+    },
+    {
+      "label": "Waverley Council - Activities for children",
+      "url": "https://www.waverley.nsw.gov.au/community/children_youth_and_family_support/children_and_families/activities_for_children"
+    },
+    {
+      "label": "Let's Go Surfing - Bondi families & kids",
+      "url": "https://letsgosurfing.com.au/lessons/bondi/families-and-kids/"
+    },
+    {
+      "label": "Centennial Parklands - Wild Play Garden",
+      "url": "https://www.centennialparklands.com.au/visit/things-to-do/playgrounds"
+    },
+    {
+      "label": "Bondi Icebergs Club",
+      "url": "https://icebergs.com.au/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "Every school holidays I get the same question from friends visiting with kids: what actually keeps them happy in Bondi all day? The short answer is that you barely need a plan - a learn-to-surf lesson in the morning, a splash at a rock pool, and a walk along the cliffs with a play stop built in will fill a day easily. Here's how I'd string it together, plus the rainy-day backups I lean on when the weather turns." },
-    { "type": "quickFacts", "items": [
-      { "label": "Best for", "value": "Ages 3–14, all energy levels" },
-      { "label": "Free wins", "value": "Beach, playgrounds, coastal walk" },
-      { "label": "Rainy-day plan", "value": "Cinema, workshops, indoor play" },
-      { "label": "Getting here", "value": "Bus/train to Bondi Junction, then bus" }
-    ] },
-    { "type": "h2", "text": "Get them in the water" },
-    { "type": "p", "text": "Bondi's south end, near the Icebergs, is where the waves are gentlest and the surf schools set up. Let's Go Surfing runs kids' lessons and school-holiday programs with qualified instructors and soft foam boards, so even a nervous first-timer usually stands up before the session's out. Check their site for current age brackets, session times and prices - these change with the seasons, so I won't quote a figure here." },
-    { "type": "p", "text": "Whatever you do, swim between the red and yellow flags. Bondi has strong rips, and the flagged zone is the patrolled area the lifeguards are actively watching. If you're unsure about conditions, ask a lifeguard - they'd far rather you asked." },
-    { "type": "callout", "tone": "warning", "title": "Flags first, always", "text": "Bondi's rips can pull strongly even on calm-looking days. Keep kids between the red-and-yellow flags and within arm's reach in the shallows. Check the current beach-safety status with Surf Life Saving before you go in." },
-    { "type": "h2", "text": "Playgrounds, pools and the coastal walk" },
-    { "type": "p", "text": "When little legs need a break from the sand, there's plenty within a short stroll or drive:" },
-    { "type": "list", "items": [
-      "Bondi to Bronte coastal walk - a scenic clifftop path of roughly two and a half kilometres, with rock pools and beaches to peer into along the way. Bronte's playground and grassy park at the far end make a perfect turnaround-and-picnic point.",
-      "Bondi Icebergs ocean pool - the famous seawater pool at the south end has a shallow children's pool alongside the main one. Session times and entry fees vary, so check the Icebergs website before you set out.",
-      "Wild Play Garden, Centennial Park - a short drive away, this nature playground has a water-play area, a treehouse, bamboo forest and dry creek bed. Bring a change of clothes; someone always ends up soaked."
-    ] },
-    { "type": "localTip", "text": "Do the coastal walk early - before about 9am in summer - while it's cool and quiet, then reward everyone with breakfast back at the beach. Push a pram? The Bondi-to-Bronte path has steps and narrow sections, so a carrier is easier with toddlers." },
-    { "type": "h2", "text": "Council programs and rainy-day backups" },
-    { "type": "p", "text": "Waverley Council runs a genuinely good school-holiday program each break - think art and craft workshops, sport clinics, science and STEM sessions, and activities based at Bondi Pavilion, the library and the Margaret Whitlam Recreation Centre. It's the first thing I'd check when you know your dates: the timetable and bookings go up ahead of each holiday period on the council's events page, and popular sessions fill fast." },
-    { "type": "p", "text": "For a wet day, the restored Bondi Pavilion is a lovely place to duck into for creative workshops and exhibitions, and Westfield Bondi Junction - a short bus ride away - has a cinema that usually screens kids' films through the holidays. Both are easy, low-stress fallbacks when the forecast lets you down." },
-    { "type": "itinerary", "stops": [
-      { "time": "8:30am", "title": "Coastal walk", "detail": "Bondi to Bronte before the heat, with rock-pool spotting along the way." },
-      { "time": "10:00am", "title": "Beach & surf", "detail": "Learn-to-surf lesson or a swim between the flags at the south end." },
-      { "time": "12:30pm", "title": "Picnic & playground", "detail": "Lunch and a run-around at a nearby park to burn off the last of the energy." },
-      { "time": "2:00pm", "title": "Workshop or pool", "detail": "A council holiday session, the Icebergs pool, or the cinema if it's raining." }
-    ] },
-    { "type": "faq", "items": [
-      { "q": "What's the best free activity in Bondi with kids?", "a": "The beach itself and the Bondi-to-Bronte coastal walk cost nothing, and Bronte's playground at the far end is a great free finish. Bring water, hats and sunscreen - Sydney sun is fierce even in the cooler months." },
-      { "q": "Where can young kids surf safely in Bondi?", "a": "The gentler waves are at the southern end near the Icebergs, where the surf schools operate. Let's Go Surfing runs kids' lessons and holiday programs; check their site for current ages, times and prices." },
-      { "q": "What can we do in Bondi with kids when it rains?", "a": "Head to Bondi Pavilion for workshops and exhibitions, catch a kids' film at the cinema in nearby Bondi Junction, or book an indoor session from Waverley Council's school-holiday program." },
-      { "q": "How do I find out what's on these particular school holidays?", "a": "Check the Waverley Council events page ahead of your dates. Their school-holiday timetable lists workshops, sport clinics and creative sessions, and popular ones sell out early, so book as soon as it's published." },
-      { "q": "Is Bondi Beach safe for children to swim?", "a": "It can be, as long as you swim between the red-and-yellow flags in the patrolled area and keep young children within arm's reach. Bondi has rips, so always check conditions and ask a lifeguard if you're unsure." }
-    ] },
-    { "type": "p", "text": "That's the beauty of Bondi with kids - you can throw the schedule out and still have a brilliant day. Sun, saltwater, a play in the park and an ice cream on the promenade is a holiday all on its own." }
+    {
+      "type": "p",
+      "text": "Every school holidays I get the same question from friends visiting with kids: what actually keeps them happy in Bondi all day? The short answer is that you barely need a plan - a learn-to-surf lesson in the morning, a splash at a rock pool, and a walk along the cliffs with a play stop built in will fill a day easily. Here's how I'd string it together, plus the rainy-day backups I lean on when the weather turns."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Best for",
+          "value": "Ages 3–14, all energy levels"
+        },
+        {
+          "label": "Free wins",
+          "value": "Beach, playgrounds, coastal walk"
+        },
+        {
+          "label": "Rainy-day plan",
+          "value": "Cinema, workshops, indoor play"
+        },
+        {
+          "label": "Getting here",
+          "value": "Bus/train to Bondi Junction, then bus"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Get them in the water"
+    },
+    {
+      "type": "p",
+      "text": "Bondi's south end, near the Icebergs, is where the waves are gentlest and the surf schools set up. Let's Go Surfing runs kids' lessons and school-holiday programs with qualified instructors and soft foam boards, so even a nervous first-timer usually stands up before the session's out. Check their site for current age brackets, session times and prices - these change with the seasons, so I won't quote a figure here."
+    },
+    {
+      "type": "p",
+      "text": "Whatever you do, swim between the red and yellow flags. Bondi has strong rips, and the flagged zone is the patrolled area the lifeguards are actively watching. If you're unsure about conditions, ask a lifeguard - they'd far rather you asked."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Flags first, always",
+      "text": "Bondi's rips can pull strongly even on calm-looking days. Keep kids between the red-and-yellow flags and within arm's reach in the shallows. Check the current beach-safety status with Surf Life Saving before you go in."
+    },
+    {
+      "type": "h2",
+      "text": "Playgrounds, pools and the coastal walk"
+    },
+    {
+      "type": "p",
+      "text": "When little legs need a break from the sand, there's plenty within a short stroll or drive:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bondi to Bronte coastal walk - a scenic clifftop path of roughly two and a half kilometres, with rock pools and beaches to peer into along the way. Bronte's playground and grassy park at the far end make a perfect turnaround-and-picnic point.",
+        "Bondi Icebergs ocean pool - the famous seawater pool at the south end has a shallow children's pool alongside the main one. Session times and entry fees vary, so check the Icebergs website before you set out.",
+        "Wild Play Garden, Centennial Park - a short drive away, this nature playground has a water-play area, a treehouse, bamboo forest and dry creek bed. Bring a change of clothes; someone always ends up soaked."
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "Do the coastal walk early - before about 9am in summer - while it's cool and quiet, then reward everyone with breakfast back at the beach. Push a pram? The Bondi-to-Bronte path has steps and narrow sections, so a carrier is easier with toddlers."
+    },
+    {
+      "type": "h2",
+      "text": "Council programs and rainy-day backups"
+    },
+    {
+      "type": "p",
+      "text": "Waverley Council runs a genuinely good school-holiday program each break - think art and craft workshops, sport clinics, science and STEM sessions, and activities based at Bondi Pavilion, the library and the Margaret Whitlam Recreation Centre. It's the first thing I'd check when you know your dates: the timetable and bookings go up ahead of each holiday period on the council's events page, and popular sessions fill fast."
+    },
+    {
+      "type": "p",
+      "text": "For a wet day, the restored Bondi Pavilion is a lovely place to duck into for creative workshops and exhibitions, and Westfield Bondi Junction - a short bus ride away - has a cinema that usually screens kids' films through the holidays. Both are easy, low-stress fallbacks when the forecast lets you down."
+    },
+    {
+      "type": "itinerary",
+      "stops": [
+        {
+          "time": "8:30am",
+          "title": "Coastal walk",
+          "detail": "Bondi to Bronte before the heat, with rock-pool spotting along the way."
+        },
+        {
+          "time": "10:00am",
+          "title": "Beach & surf",
+          "detail": "Learn-to-surf lesson or a swim between the flags at the south end."
+        },
+        {
+          "time": "12:30pm",
+          "title": "Picnic & playground",
+          "detail": "Lunch and a run-around at a nearby park to burn off the last of the energy."
+        },
+        {
+          "time": "2:00pm",
+          "title": "Workshop or pool",
+          "detail": "A council holiday session, the Icebergs pool, or the cinema if it's raining."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What's the best free activity in Bondi with kids?",
+          "a": "The beach itself and the Bondi-to-Bronte coastal walk cost nothing, and Bronte's playground at the far end is a great free finish. Bring water, hats and sunscreen - Sydney sun is fierce even in the cooler months."
+        },
+        {
+          "q": "Where can young kids surf safely in Bondi?",
+          "a": "The gentler waves are at the southern end near the Icebergs, where the surf schools operate. Let's Go Surfing runs kids' lessons and holiday programs; check their site for current ages, times and prices."
+        },
+        {
+          "q": "What can we do in Bondi with kids when it rains?",
+          "a": "Head to Bondi Pavilion for workshops and exhibitions, catch a kids' film at the cinema in nearby Bondi Junction, or book an indoor session from Waverley Council's school-holiday program."
+        },
+        {
+          "q": "How do I find out what's on these particular school holidays?",
+          "a": "Check the Waverley Council events page ahead of your dates. Their school-holiday timetable lists workshops, sport clinics and creative sessions, and popular ones sell out early, so book as soon as it's published."
+        },
+        {
+          "q": "Is Bondi Beach safe for children to swim?",
+          "a": "It can be, as long as you swim between the red-and-yellow flags in the patrolled area and keep young children within arm's reach. Bondi has rips, so always check conditions and ask a lifeguard if you're unsure."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's the beauty of Bondi with kids - you can throw the schedule out and still have a brilliant day. Sun, saltwater, a play in the park and an ice cream on the promenade is a holiday all on its own."
+    }
   ]
 }

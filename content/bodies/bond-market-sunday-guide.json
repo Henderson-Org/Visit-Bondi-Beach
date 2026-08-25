@@ -2,44 +2,131 @@
   "path": "/bondi-blog/2023/9/4/bond-market-sunday-guide",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "quarterly",
   "sources": [
-    { "label": "Bondi Markets (official)", "url": "https://bondimarkets.com.au/bondi-markets" },
-    { "label": "Sydney.com - Bondi Markets", "url": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/events/bondi-markets" },
-    { "label": "Transport for NSW - trip planner", "url": "https://transportnsw.info/" }
+    {
+      "label": "Bondi Markets (official)",
+      "url": "https://bondimarkets.com.au/bondi-markets"
+    },
+    {
+      "label": "Sydney.com - Bondi Markets",
+      "url": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/events/bondi-markets"
+    },
+    {
+      "label": "Transport for NSW - trip planner",
+      "url": "https://transportnsw.info/"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you only do one thing in Bondi on a Sunday, make it the Bondi Markets - they run every Sunday from 10am to 4pm at Bondi Beach Public School on Campbell Parade, right across the road from the sand, and entry is free. It's my favourite lazy-Sunday ritual: a coffee, a slow lap of the stalls, and almost always something I didn't know I needed tucked under my arm on the way out." },
-    { "type": "quickFacts", "items": [
-      { "label": "When", "value": "Every Sunday, 10am–4pm" },
-      { "label": "Where", "value": "Bondi Beach Public School, Campbell Parade" },
-      { "label": "Cost", "value": "Free entry" },
-      { "label": "Best for", "value": "Vintage, design, one-off finds" }
-    ] },
-    { "type": "p", "text": "The markets have been running for decades and they've kept that scrappy, creative, unmistakably-Bondi energy the whole way through. This isn't a polished shopping-centre experience - it's a school playground turned over to emerging designers, vintage dealers and makers, with the ocean breeze doing half the styling. That's exactly why I keep coming back." },
-    { "type": "h2", "text": "What you'll actually find" },
-    { "type": "p", "text": "The mix shifts week to week, which is the whole charm of it - no two Sundays turn up the same stalls. But there are a few things I can pretty reliably point you toward." },
-    { "type": "list", "items": [
-      "Emerging fashion - pieces from designers you won't see on the high street yet",
-      "Vintage and retro - recycled clothing, records, homewares and the occasional bit of furniture worth carrying home",
-      "Handmade jewellery and art - original work straight from the person who made it",
-      "Homewares and ceramics - small-batch, one-off, easy to fit in a suitcase",
-      "Coffee and food to wander with while you browse"
-    ] },
-    { "type": "localTip", "text": "The vintage and pre-loved racks are the real treasure here, and the good stuff moves fast. If you're hunting a specific find, get there closer to 10am when the racks are full rather than rolling in mid-afternoon." },
-    { "type": "h2", "text": "Getting there (and parking honestly)" },
-    { "type": "p", "text": "The market sits on Campbell Parade opposite the beach, so if you're already in Bondi you can walk. Coming from the city, the easiest run is a train to Bondi Junction and then a bus down to Bondi Beach - check the Transport for NSW trip planner for the current bus number and times, as they do change. Driving on a sunny Sunday is the one thing I'd talk you out of: Campbell Parade parking is fiercely contested and metered, and you'll spend more time circling than shopping. If you must drive, aim early or use one of the paid car parks and accept the walk." },
-    { "type": "callout", "tone": "note", "title": "Sunday market, not the Saturday one", "text": "The Sunday Bondi Markets (fashion, vintage, design) and the Saturday Bondi Farmers Market (fresh produce and food) are two different events at the same school. If it's fruit, veg and a Saturday-morning graze you're after, that's the Farmers Market - check the official Bondi Markets site for its current hours." },
-    { "type": "h2", "text": "Rain, weather and what to bring" },
-    { "type": "p", "text": "One of the things I love about this market is that it simply doesn't cancel - it runs rain or shine. The flip side is that it's open-air, so a wet forecast means bringing an umbrella and expecting a slightly quieter, cosier version of the day. On a hot Sunday, the opposite applies: hat, water, sunscreen, because there's not a lot of shade between the stalls. Bring cash as well as a card - most stallholders take card these days, but a few smaller makers still prefer notes." },
-    { "type": "h3", "text": "Thinking of selling?" },
-    { "type": "p", "text": "If you make something and fancy a stall of your own, the markets take a wide range of vendors. Rather than quote fees that shift, I'd send you straight to the 'Stallholder Info' section on the official Bondi Markets website - that's where the current pricing, insurance requirements and application form live." },
-    { "type": "faq", "items": [
-      { "q": "What time are the Bondi Markets on Sunday?", "a": "Every Sunday from 10am to 4pm, at Bondi Beach Public School on Campbell Parade, directly across from Bondi Beach. Entry is free." },
-      { "q": "Are the Bondi Markets on when it rains?", "a": "Yes - the markets run rain or shine. It's an open-air venue, so bring an umbrella if the forecast looks wet; the market itself won't be cancelled for weather." },
-      { "q": "What's the difference between the Bondi Markets and the Bondi Farmers Market?", "a": "The Sunday Bondi Markets focus on fashion, vintage, design and art. The Bondi Farmers Market is a separate Saturday event at the same school, focused on fresh produce and food. Check the official site for the Farmers Market's current hours." },
-      { "q": "How do I get to the Bondi Markets without driving?", "a": "Take a train to Bondi Junction, then a bus down to Bondi Beach and get off on Campbell Parade opposite the sand. Use the Transport for NSW trip planner for the current bus route and times." },
-      { "q": "Do I need cash at the Bondi Markets?", "a": "Most stallholders accept card, but it's worth carrying some cash too - a few smaller independent makers still prefer notes." }
-    ] },
-    { "type": "p", "text": "That's the market in a nutshell: free, easygoing, endlessly browsable, and one of the best ways I know to spend a Bondi Sunday. Come for the vintage, stay for the coffee, and leave a little room in your bag for whatever finds you." }
+    {
+      "type": "p",
+      "text": "If you only do one thing in Bondi on a Sunday, make it the Bondi Markets - they run every Sunday from 10am to 4pm at Bondi Beach Public School on Campbell Parade, right across the road from the sand, and entry is free. It's my favourite lazy-Sunday ritual: a coffee, a slow lap of the stalls, and almost always something I didn't know I needed tucked under my arm on the way out."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "When",
+          "value": "Every Sunday, 10am–4pm"
+        },
+        {
+          "label": "Where",
+          "value": "Bondi Beach Public School, Campbell Parade"
+        },
+        {
+          "label": "Cost",
+          "value": "Free entry"
+        },
+        {
+          "label": "Best for",
+          "value": "Vintage, design, one-off finds"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The markets have been running for decades and they've kept that scrappy, creative, unmistakably-Bondi energy the whole way through. This isn't a polished shopping-centre experience - it's a school playground turned over to emerging designers, vintage dealers and makers, with the ocean breeze doing half the styling. That's exactly why I keep coming back."
+    },
+    {
+      "type": "h2",
+      "text": "What you'll actually find"
+    },
+    {
+      "type": "p",
+      "text": "The mix shifts week to week, which is the whole charm of it - no two Sundays turn up the same stalls. But there are a few things I can pretty reliably point you toward."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Emerging fashion - pieces from designers you won't see on the high street yet",
+        "Vintage and retro - recycled clothing, records, homewares and the occasional bit of furniture worth carrying home",
+        "Handmade jewellery and art - original work straight from the person who made it",
+        "Homewares and ceramics - small-batch, one-off, easy to fit in a suitcase",
+        "Coffee and food to wander with while you browse"
+      ]
+    },
+    {
+      "type": "localTip",
+      "text": "The vintage and pre-loved racks are the real treasure here, and the good stuff moves fast. If you're hunting a specific find, get there closer to 10am when the racks are full rather than rolling in mid-afternoon."
+    },
+    {
+      "type": "h2",
+      "text": "Getting there (and parking honestly)"
+    },
+    {
+      "type": "p",
+      "text": "The market sits on Campbell Parade opposite the beach, so if you're already in Bondi you can walk. Coming from the city, the easiest run is a train to Bondi Junction and then a bus down to Bondi Beach - check the Transport for NSW trip planner for the current bus number and times, as they do change. Driving on a sunny Sunday is the one thing I'd talk you out of: Campbell Parade parking is fiercely contested and metered, and you'll spend more time circling than shopping. If you must drive, aim early or use one of the paid car parks and accept the walk."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Sunday market, not the Saturday one",
+      "text": "The Sunday Bondi Markets (fashion, vintage, design) and the Saturday Bondi Farmers Market (fresh produce and food) are two different events at the same school. If it's fruit, veg and a Saturday-morning graze you're after, that's the Farmers Market - check the official Bondi Markets site for its current hours."
+    },
+    {
+      "type": "h2",
+      "text": "Rain, weather and what to bring"
+    },
+    {
+      "type": "p",
+      "text": "One of the things I love about this market is that it simply doesn't cancel - it runs rain or shine. The flip side is that it's open-air, so a wet forecast means bringing an umbrella and expecting a slightly quieter, cosier version of the day. On a hot Sunday, the opposite applies: hat, water, sunscreen, because there's not a lot of shade between the stalls. Bring cash as well as a card - most stallholders take card these days, but a few smaller makers still prefer notes."
+    },
+    {
+      "type": "h3",
+      "text": "Thinking of selling?"
+    },
+    {
+      "type": "p",
+      "text": "If you make something and fancy a stall of your own, the markets take a wide range of vendors. Rather than quote fees that shift, I'd send you straight to the 'Stallholder Info' section on the official Bondi Markets website - that's where the current pricing, insurance requirements and application form live."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What time are the Bondi Markets on Sunday?",
+          "a": "Every Sunday from 10am to 4pm, at Bondi Beach Public School on Campbell Parade, directly across from Bondi Beach. Entry is free."
+        },
+        {
+          "q": "Are the Bondi Markets on when it rains?",
+          "a": "Yes - the markets run rain or shine. It's an open-air venue, so bring an umbrella if the forecast looks wet; the market itself won't be cancelled for weather."
+        },
+        {
+          "q": "What's the difference between the Bondi Markets and the Bondi Farmers Market?",
+          "a": "The Sunday Bondi Markets focus on fashion, vintage, design and art. The Bondi Farmers Market is a separate Saturday event at the same school, focused on fresh produce and food. Check the official site for the Farmers Market's current hours."
+        },
+        {
+          "q": "How do I get to the Bondi Markets without driving?",
+          "a": "Take a train to Bondi Junction, then a bus down to Bondi Beach and get off on Campbell Parade opposite the sand. Use the Transport for NSW trip planner for the current bus route and times."
+        },
+        {
+          "q": "Do I need cash at the Bondi Markets?",
+          "a": "Most stallholders accept card, but it's worth carrying some cash too - a few smaller independent makers still prefer notes."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's the market in a nutshell: free, easygoing, endlessly browsable, and one of the best ways I know to spend a Bondi Sunday. Come for the vintage, stay for the coffee, and leave a little room in your bag for whatever finds you."
+    }
   ]
 }

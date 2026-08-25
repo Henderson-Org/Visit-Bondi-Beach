@@ -2,125 +2,349 @@
   "path": "/bondi-blog/festival-of-the-winds-bondi",
   "voice": "first-person",
   "lastReviewed": "2026-08-20",
+  "freshnessClass": "annual",
   "sources": [
-    { "label": "Waverley Council - Festival of the Winds 2026 (programme, road closures)", "url": "https://www.waverley.nsw.gov.au/recreation/events/events/festival_of_the_winds_2026" },
-    { "label": "Australian Kiteflyers Society - Bondi Festival of the Winds", "url": "https://akfs.org.au/bondi-festival-of-the-winds/" },
-    { "label": "Transport for NSW - trip planner", "url": "https://transportnsw.info" },
-    { "label": "Bondi Markets - Sunday markets", "url": "https://www.bondimarkets.com.au" }
+    {
+      "label": "Waverley Council - Festival of the Winds 2026 (programme, road closures)",
+      "url": "https://www.waverley.nsw.gov.au/recreation/events/events/festival_of_the_winds_2026"
+    },
+    {
+      "label": "Australian Kiteflyers Society - Bondi Festival of the Winds",
+      "url": "https://akfs.org.au/bondi-festival-of-the-winds/"
+    },
+    {
+      "label": "Transport for NSW - trip planner",
+      "url": "https://transportnsw.info"
+    },
+    {
+      "label": "Bondi Markets - Sunday markets",
+      "url": "https://www.bondimarkets.com.au"
+    }
   ],
   "blocks": [
-    { "type": "answer", "text": "Festival of the Winds 2026 is on Sunday 13 September 2026, from 11am to 4pm, across Bondi Beach, Bondi Park and the Bondi Pavilion. Entry is free and there is no ticket. Waverley Council expects crowds of up to 50,000, two stages of live performance run all day, and there are real road closures - Park Drive South is closed, and Queen Elizabeth Drive is closed south of the Pavilion from 6am to 6pm. Take the bus. The council is putting on extra services." },
-
-    { "type": "quickFacts", "items": [
-      { "label": "Date", "value": "Sunday 13 September 2026" },
-      { "label": "Time", "value": "11am - 4pm" },
-      { "label": "Where", "value": "Bondi Beach, Bondi Park and the Bondi Pavilion" },
-      { "label": "Cost", "value": "Free - no ticket needed" },
-      { "label": "Expected crowd", "value": "Up to 50,000 (Waverley Council)" },
-      { "label": "Road closures", "value": "Park Drive South closed; Queen Elizabeth Dr closed south of the Pavilion 6am-6pm" },
-      { "label": "Getting there", "value": "Bus 333 or 380 - extra services on the day. Do not drive" }
-    ] },
-
-    { "type": "h2", "text": "Road closures, transport and parking" },
-    { "type": "p", "text": "I am going to put this first, because it is the thing that will actually shape your day. Waverley Council has confirmed traffic, transport and parking changes for the festival: **Park Drive South will be closed**, and **Queen Elizabeth Drive will be closed south of the Pavilion from 6am to 6pm**. The council warns of heavy congestion, delays and limited parking from the influx of visitors arriving from across greater Sydney, and it explicitly recommends public transport." },
-    { "type": "p", "text": "The good news is that **additional bus services will operate on the day**. The two main routes are the **333** and the **380**. The 333 runs from Circular Quay through the city and Bondi Junction down to North Bondi - roughly 40-45 minutes end to end, checked against the Transport for NSW trip planner in August 2026 - and it has run as a 24-hour service since 2021, so a late finish is never a problem. It is prepaid, so tap on with an Opal card or a contactless card; you cannot pay the driver cash. The 380 runs between Watsons Bay and Bondi Junction via the beach. From Bondi Junction the **381** (the Tamarama loop) and the **382** also come down to the beach. If you are coming by train, the nearest station is **Bondi Junction** on the T4 line; there is no train at the beach and no ferry to Bondi. From the Junction it is a 333 or 380 down the hill, or a 25-30 minute downhill walk if the buses are full - which, on this particular Sunday, they will be." },
-    { "type": "callout", "tone": "warning", "title": "Do not plan to park", "text": "Between the closures on Park Drive South and Queen Elizabeth Drive, heavy congestion and limited parking, driving to this one is a genuinely bad idea. Tap on and off with any contactless card, phone or watch - same price as an Opal card. One catch worth knowing: a tapped bank card always charges the adult fare, so children need their own Child Opal card. Check [transportnsw.info](https://transportnsw.info) on the morning for the extra services." },
-
-    { "type": "h2", "text": "The 2026 programme" },
-    { "type": "p", "text": "There are two stages plus a creative zone inside the Pavilion, all running through the middle of the day. Here is the published programme - worth a glance before you go, because the good stuff is spread across the afternoon rather than bunched at the start." },
-
-    { "type": "table", "caption": "Mainstage programme, Festival of the Winds, Sunday 13 September 2026 (Waverley Council).", "columns": ["Time", "Act"], "rows": [
-      ["11:00am", "Welcome to Country by Gujaga Foundation"],
-      ["11:10am", "Suwitra Jaya Gamelan"],
-      ["12:00pm", "Gagliardes"],
-      ["12:15pm", "Bandaluzia Flamenco"],
-      ["1:05pm", "Gagliardes"],
-      ["1:15pm", "The Polynesian Dance Crew"],
-      ["1:50pm", "Gagliardes"],
-      ["2:05pm", "Lemonise"],
-      ["3:00pm", "Mayor Will Nemesh speech"],
-      ["3:05pm", "Gagliardes"],
-      ["3:20pm", "Mister OTT"]
-    ] },
-
-    { "type": "table", "caption": "Forecourt Stage programme - heavy on local schools and community groups.", "columns": ["Time", "Act"], "rows": [
-      ["11:00am", "Bondi Brass"],
-      ["11:45am", "Black Joak Morris"],
-      ["12:00pm", "Rose Bay Secondary College Music Ensemble"],
-      ["12:30pm", "Beeswax and Bottlecaps"],
-      ["12:40pm", "Bondi Beach Recorder Ensemble"],
-      ["1:00pm", "Bondi Beach Public School Choir"],
-      ["1:15pm", "Black Joak Morris"],
-      ["1:30pm", "Tap Pups"],
-      ["1:40pm", "Beeswax and Bottlecaps"],
-      ["1:50pm", "Salsa and Latin Fusion Show with Feel Free Dance Studio"],
-      ["2:10pm", "Tap Pups"],
-      ["2:20pm", "Black Joak Morris"],
-      ["2:40pm", "100% Dance"],
-      ["2:55pm", "Beeswax and Bottlecaps"],
-      ["3:10pm", "Latin Dance Workshop with Feel Free Dance Studio"],
-      ["3:40pm", "Feel Free Dance Studio's all-in-dance social"]
-    ] },
-
-    { "type": "h2", "text": "Courtyard Creative Zone, 11am - 4pm" },
-    { "type": "p", "text": "Inside and around the Pavilion, running the whole festival - this is your wet-weather-ish, out-of-the-wind option and where I would head with younger kids when they have had enough sun." },
-    { "type": "list", "items": [
-      "**Eastside Radio DJ**",
-      "**Origami craft** in the Bondi Pavilion Art Gallery",
-      "**Circus skills**, outside the High Tide Room",
-      "**Games on the grass**",
-      "**Film screening** (Yalagang)",
-      "**Bondi Pavilion Clay Studio workshop**",
-      "**Face painters**, in the High Tide Room",
-      "**ARTEXPRESS exhibition** in the Bondi Pavilion Art Gallery",
-      "**2026-in-2026 postcard colouring**, in the Story Room"
-    ] },
-
-    { "type": "h2", "text": "In the park, 11am - 4pm" },
-    { "type": "list", "items": [
-      "**Edgee kite workshops** - make your own",
-      "**Rides**",
-      "**Petting zoo**",
-      "**Food stalls**",
-      "**Kite stalls** - if you arrive without one",
-      "**Roaming performers**"
-    ] },
-
-    { "type": "h2", "text": "The kites themselves" },
-    { "type": "p", "text": "This is not a paddock full of supermarket kites. The draw is the giant international kites - in 2026 that includes the **Winds of Sumpango** from Guatemala, part of a tradition where enormous, intricately decorated kites are built by hand - flying alongside the display kites of our own Australian Kiteflyers Society. These are creatures the size of small aircraft, taking several people to launch, and once they are up they hang over the beach like they have been painted onto the sky." },
-    { "type": "p", "text": "Around them you get the fast stuff: stunt kites cutting figure-eights low over the sand, and the intricate handmade pieces people have spent months building. Bring your own if you have one - plenty of families fly theirs - but keep well clear of the big display kites and their lines, which need a lot of space and carry serious force." },
-
-    { "type": "localTip", "text": "The grass of Bondi Park, on the rise above the sand, is the best seat in the house: the whole sky in one view, the kites above you rather than in front of you, and you are close to the food and the toilets. With a crowd this size, get there before midday with a picnic rug and claim a patch - by early afternoon the good ground is gone. For photographs, the south end gives you kites with the Icebergs pool and the headland in frame." },
-
-    { "type": "h2", "text": "The Sunday markets are on the same day" },
-    { "type": "p", "text": "Here is the bit the event listings miss. Festival of the Winds falls on a Sunday, and the **Bondi Markets run every Sunday from 10am to 4pm** at Bondi Beach Public School on Campbell Parade - the fashion, vintage and design market, two minutes' walk from the festival. The hours overlap almost exactly. Do the markets first when they open at 10am, then cross to the park as the kites go up at 11am. Two events, one bus trip." },
-
-    { "type": "h2", "text": "Going with kids" },
-    { "type": "p", "text": "With a petting zoo, rides, face painting, circus skills and kite workshops, this is one of the best free family days on the Bondi calendar. A few practical things before you go." },
-    { "type": "list", "items": [
-      "**Sunscreen and hats.** September is spring here and the UV is already strong, cloudy or not. Reapply.",
-      "**Water is free.** Refill bubblers run along the promenade, and Sydney tap water is fine to drink.",
-      "**Toilets, showers and change rooms** are in the Bondi Pavilion, open 6am-10pm daily, with baby-change facilities.",
-      "**No dogs.** Dogs are not allowed on Bondi Beach or the promenade at any time, festival or not.",
-      "**No alcohol, no glass.** Bondi Beach and Bondi Park are an enforced alcohol-free and glass-free zone. There are free public BBQs in Bondi Park if you want to cook.",
-      "**Agree a meeting point** before you arrive. In a crowd of tens of thousands, the Pavilion is the obvious landmark."
-    ] },
-
-    { "type": "h2", "text": "A Bondi tradition since 1978" },
-    { "type": "p", "text": "The first Festival of the Winds was held at Bondi Beach in 1978, and it has grown into one of Australia's largest and most iconic kite festivals - a day the council describes as turning the beach into a celebration of colour, creativity and community. Nearly fifty years on, with international kites, two stages and up to 50,000 people on the sand and the grass, it still has the feel of a community day rather than a corporate one. That is a rare thing for an event this size." },
-
-    { "type": "faq", "items": [
-      { "q": "When is Festival of the Winds 2026?", "a": "Sunday 13 September 2026, from 11am to 4pm, at Bondi Beach. The festival is traditionally held on the second Sunday of September each year." },
-      { "q": "Is Festival of the Winds free?", "a": "Yes. Entry is free and there is no ticket or registration - you simply turn up. Food, rides and anything you buy from the stalls cost money, but the festival itself does not." },
-      { "q": "What is the Festival of the Winds 2026 programme?", "a": "Two stages run all day. The Mainstage opens with a Welcome to Country by the Gujaga Foundation at 11am and runs through to Mister OTT at 3:20pm. The Forecourt Stage runs from Bondi Brass at 11am to Feel Free Dance Studio's all-in-dance social at 3:40pm. The Courtyard Creative Zone and the activities in the park both run 11am to 4pm. Full timings are in the tables above." },
-      { "q": "Are there road closures for Festival of the Winds?", "a": "Yes. Waverley Council has confirmed that Park Drive South will be closed, and Queen Elizabeth Drive will be closed south of the Pavilion from 6am to 6pm. Expect heavy congestion and limited parking across the area, and check the council's event page for any late changes." },
-      { "q": "How do I get to Festival of the Winds?", "a": "By bus. The 333 and 380 are the main routes to Bondi Beach - the 381 and 382 also run down from Bondi Junction - and the council is running additional services on the day. From the city, the 333 takes about 40-45 minutes from Circular Quay. By train, take the T4 to Bondi Junction then a bus down the hill. There is no train at the beach and no ferry to Bondi." },
-      { "q": "Is there parking at Festival of the Winds?", "a": "Very little, and the council advises against driving. Parking around Bondi is metered and limited at the best of times, and with road closures and up to 50,000 visitors it fills extremely early. Take public transport." },
-      { "q": "Can I bring my own kite?", "a": "Yes, and lots of families do. There are also kite stalls in the park if you arrive without one, and Edgee kite workshops where you can make your own. Keep well away from the large international and Kiteflyers Society display kites and their lines." },
-      { "q": "Is Festival of the Winds good for young children?", "a": "Very. Alongside the kites there is a petting zoo, rides, face painting, circus skills, origami and clay workshops and games on the grass, all running 11am to 4pm. Agree a meeting point when you arrive - the crowd is large." },
-      { "q": "Can I bring my dog to Festival of the Winds?", "a": "No. Dogs are not permitted on Bondi Beach or the promenade at any time, including during the festival." }
-    ] },
-
-    { "type": "p", "text": "So: Sunday 13 September 2026, 11am to 4pm, free, on the bus, with a rug and sunscreen, and not a hope of parking. If you are building a day around it, the [Bondi Markets on a Sunday](/whats-on/bondi-markets-sunday) are two minutes away, my [Bondi with kids guide](/bondi-with-kids) covers the playgrounds and the calmest swimming, and [what's on at Bondi](/whats-on) has the rest of the year. First time at the beach? Start with my [first-timer guide](/start-here)." }
+    {
+      "type": "answer",
+      "text": "Festival of the Winds 2026 is on Sunday 13 September 2026, from 11am to 4pm, across Bondi Beach, Bondi Park and the Bondi Pavilion. Entry is free and there is no ticket. Waverley Council expects crowds of up to 50,000, two stages of live performance run all day, and there are real road closures - Park Drive South is closed, and Queen Elizabeth Drive is closed south of the Pavilion from 6am to 6pm. Take the bus. The council is putting on extra services."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Date",
+          "value": "Sunday 13 September 2026"
+        },
+        {
+          "label": "Time",
+          "value": "11am - 4pm"
+        },
+        {
+          "label": "Where",
+          "value": "Bondi Beach, Bondi Park and the Bondi Pavilion"
+        },
+        {
+          "label": "Cost",
+          "value": "Free - no ticket needed"
+        },
+        {
+          "label": "Expected crowd",
+          "value": "Up to 50,000 (Waverley Council)"
+        },
+        {
+          "label": "Road closures",
+          "value": "Park Drive South closed; Queen Elizabeth Dr closed south of the Pavilion 6am-6pm"
+        },
+        {
+          "label": "Getting there",
+          "value": "Bus 333 or 380 - extra services on the day. Do not drive"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Road closures, transport and parking"
+    },
+    {
+      "type": "p",
+      "text": "I am going to put this first, because it is the thing that will actually shape your day. Waverley Council has confirmed traffic, transport and parking changes for the festival: **Park Drive South will be closed**, and **Queen Elizabeth Drive will be closed south of the Pavilion from 6am to 6pm**. The council warns of heavy congestion, delays and limited parking from the influx of visitors arriving from across greater Sydney, and it explicitly recommends public transport."
+    },
+    {
+      "type": "p",
+      "text": "The good news is that **additional bus services will operate on the day**. The two main routes are the **333** and the **380**. The 333 runs from Circular Quay through the city and Bondi Junction down to North Bondi - roughly 40-45 minutes end to end, checked against the Transport for NSW trip planner in August 2026 - and it has run as a 24-hour service since 2021, so a late finish is never a problem. It is prepaid, so tap on with an Opal card or a contactless card; you cannot pay the driver cash. The 380 runs between Watsons Bay and Bondi Junction via the beach. From Bondi Junction the **381** (the Tamarama loop) and the **382** also come down to the beach. If you are coming by train, the nearest station is **Bondi Junction** on the T4 line; there is no train at the beach and no ferry to Bondi. From the Junction it is a 333 or 380 down the hill, or a 25-30 minute downhill walk if the buses are full - which, on this particular Sunday, they will be."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Do not plan to park",
+      "text": "Between the closures on Park Drive South and Queen Elizabeth Drive, heavy congestion and limited parking, driving to this one is a genuinely bad idea. Tap on and off with any contactless card, phone or watch - same price as an Opal card. One catch worth knowing: a tapped bank card always charges the adult fare, so children need their own Child Opal card. Check [transportnsw.info](https://transportnsw.info) on the morning for the extra services."
+    },
+    {
+      "type": "h2",
+      "text": "The 2026 programme"
+    },
+    {
+      "type": "p",
+      "text": "There are two stages plus a creative zone inside the Pavilion, all running through the middle of the day. Here is the published programme - worth a glance before you go, because the good stuff is spread across the afternoon rather than bunched at the start."
+    },
+    {
+      "type": "table",
+      "caption": "Mainstage programme, Festival of the Winds, Sunday 13 September 2026 (Waverley Council).",
+      "columns": [
+        "Time",
+        "Act"
+      ],
+      "rows": [
+        [
+          "11:00am",
+          "Welcome to Country by Gujaga Foundation"
+        ],
+        [
+          "11:10am",
+          "Suwitra Jaya Gamelan"
+        ],
+        [
+          "12:00pm",
+          "Gagliardes"
+        ],
+        [
+          "12:15pm",
+          "Bandaluzia Flamenco"
+        ],
+        [
+          "1:05pm",
+          "Gagliardes"
+        ],
+        [
+          "1:15pm",
+          "The Polynesian Dance Crew"
+        ],
+        [
+          "1:50pm",
+          "Gagliardes"
+        ],
+        [
+          "2:05pm",
+          "Lemonise"
+        ],
+        [
+          "3:00pm",
+          "Mayor Will Nemesh speech"
+        ],
+        [
+          "3:05pm",
+          "Gagliardes"
+        ],
+        [
+          "3:20pm",
+          "Mister OTT"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Forecourt Stage programme - heavy on local schools and community groups.",
+      "columns": [
+        "Time",
+        "Act"
+      ],
+      "rows": [
+        [
+          "11:00am",
+          "Bondi Brass"
+        ],
+        [
+          "11:45am",
+          "Black Joak Morris"
+        ],
+        [
+          "12:00pm",
+          "Rose Bay Secondary College Music Ensemble"
+        ],
+        [
+          "12:30pm",
+          "Beeswax and Bottlecaps"
+        ],
+        [
+          "12:40pm",
+          "Bondi Beach Recorder Ensemble"
+        ],
+        [
+          "1:00pm",
+          "Bondi Beach Public School Choir"
+        ],
+        [
+          "1:15pm",
+          "Black Joak Morris"
+        ],
+        [
+          "1:30pm",
+          "Tap Pups"
+        ],
+        [
+          "1:40pm",
+          "Beeswax and Bottlecaps"
+        ],
+        [
+          "1:50pm",
+          "Salsa and Latin Fusion Show with Feel Free Dance Studio"
+        ],
+        [
+          "2:10pm",
+          "Tap Pups"
+        ],
+        [
+          "2:20pm",
+          "Black Joak Morris"
+        ],
+        [
+          "2:40pm",
+          "100% Dance"
+        ],
+        [
+          "2:55pm",
+          "Beeswax and Bottlecaps"
+        ],
+        [
+          "3:10pm",
+          "Latin Dance Workshop with Feel Free Dance Studio"
+        ],
+        [
+          "3:40pm",
+          "Feel Free Dance Studio's all-in-dance social"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Courtyard Creative Zone, 11am - 4pm"
+    },
+    {
+      "type": "p",
+      "text": "Inside and around the Pavilion, running the whole festival - this is your wet-weather-ish, out-of-the-wind option and where I would head with younger kids when they have had enough sun."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Eastside Radio DJ**",
+        "**Origami craft** in the Bondi Pavilion Art Gallery",
+        "**Circus skills**, outside the High Tide Room",
+        "**Games on the grass**",
+        "**Film screening** (Yalagang)",
+        "**Bondi Pavilion Clay Studio workshop**",
+        "**Face painters**, in the High Tide Room",
+        "**ARTEXPRESS exhibition** in the Bondi Pavilion Art Gallery",
+        "**2026-in-2026 postcard colouring**, in the Story Room"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "In the park, 11am - 4pm"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Edgee kite workshops** - make your own",
+        "**Rides**",
+        "**Petting zoo**",
+        "**Food stalls**",
+        "**Kite stalls** - if you arrive without one",
+        "**Roaming performers**"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The kites themselves"
+    },
+    {
+      "type": "p",
+      "text": "This is not a paddock full of supermarket kites. The draw is the giant international kites - in 2026 that includes the **Winds of Sumpango** from Guatemala, part of a tradition where enormous, intricately decorated kites are built by hand - flying alongside the display kites of our own Australian Kiteflyers Society. These are creatures the size of small aircraft, taking several people to launch, and once they are up they hang over the beach like they have been painted onto the sky."
+    },
+    {
+      "type": "p",
+      "text": "Around them you get the fast stuff: stunt kites cutting figure-eights low over the sand, and the intricate handmade pieces people have spent months building. Bring your own if you have one - plenty of families fly theirs - but keep well clear of the big display kites and their lines, which need a lot of space and carry serious force."
+    },
+    {
+      "type": "localTip",
+      "text": "The grass of Bondi Park, on the rise above the sand, is the best seat in the house: the whole sky in one view, the kites above you rather than in front of you, and you are close to the food and the toilets. With a crowd this size, get there before midday with a picnic rug and claim a patch - by early afternoon the good ground is gone. For photographs, the south end gives you kites with the Icebergs pool and the headland in frame."
+    },
+    {
+      "type": "h2",
+      "text": "The Sunday markets are on the same day"
+    },
+    {
+      "type": "p",
+      "text": "Here is the bit the event listings miss. Festival of the Winds falls on a Sunday, and the **Bondi Markets run every Sunday from 10am to 4pm** at Bondi Beach Public School on Campbell Parade - the fashion, vintage and design market, two minutes' walk from the festival. The hours overlap almost exactly. Do the markets first when they open at 10am, then cross to the park as the kites go up at 11am. Two events, one bus trip."
+    },
+    {
+      "type": "h2",
+      "text": "Going with kids"
+    },
+    {
+      "type": "p",
+      "text": "With a petting zoo, rides, face painting, circus skills and kite workshops, this is one of the best free family days on the Bondi calendar. A few practical things before you go."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Sunscreen and hats.** September is spring here and the UV is already strong, cloudy or not. Reapply.",
+        "**Water is free.** Refill bubblers run along the promenade, and Sydney tap water is fine to drink.",
+        "**Toilets, showers and change rooms** are in the Bondi Pavilion, open 6am-10pm daily, with baby-change facilities.",
+        "**No dogs.** Dogs are not allowed on Bondi Beach or the promenade at any time, festival or not.",
+        "**No alcohol, no glass.** Bondi Beach and Bondi Park are an enforced alcohol-free and glass-free zone. There are free public BBQs in Bondi Park if you want to cook.",
+        "**Agree a meeting point** before you arrive. In a crowd of tens of thousands, the Pavilion is the obvious landmark."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "A Bondi tradition since 1978"
+    },
+    {
+      "type": "p",
+      "text": "The first Festival of the Winds was held at Bondi Beach in 1978, and it has grown into one of Australia's largest and most iconic kite festivals - a day the council describes as turning the beach into a celebration of colour, creativity and community. Nearly fifty years on, with international kites, two stages and up to 50,000 people on the sand and the grass, it still has the feel of a community day rather than a corporate one. That is a rare thing for an event this size."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "When is Festival of the Winds 2026?",
+          "a": "Sunday 13 September 2026, from 11am to 4pm, at Bondi Beach. The festival is traditionally held on the second Sunday of September each year."
+        },
+        {
+          "q": "Is Festival of the Winds free?",
+          "a": "Yes. Entry is free and there is no ticket or registration - you simply turn up. Food, rides and anything you buy from the stalls cost money, but the festival itself does not."
+        },
+        {
+          "q": "What is the Festival of the Winds 2026 programme?",
+          "a": "Two stages run all day. The Mainstage opens with a Welcome to Country by the Gujaga Foundation at 11am and runs through to Mister OTT at 3:20pm. The Forecourt Stage runs from Bondi Brass at 11am to Feel Free Dance Studio's all-in-dance social at 3:40pm. The Courtyard Creative Zone and the activities in the park both run 11am to 4pm. Full timings are in the tables above."
+        },
+        {
+          "q": "Are there road closures for Festival of the Winds?",
+          "a": "Yes. Waverley Council has confirmed that Park Drive South will be closed, and Queen Elizabeth Drive will be closed south of the Pavilion from 6am to 6pm. Expect heavy congestion and limited parking across the area, and check the council's event page for any late changes."
+        },
+        {
+          "q": "How do I get to Festival of the Winds?",
+          "a": "By bus. The 333 and 380 are the main routes to Bondi Beach - the 381 and 382 also run down from Bondi Junction - and the council is running additional services on the day. From the city, the 333 takes about 40-45 minutes from Circular Quay. By train, take the T4 to Bondi Junction then a bus down the hill. There is no train at the beach and no ferry to Bondi."
+        },
+        {
+          "q": "Is there parking at Festival of the Winds?",
+          "a": "Very little, and the council advises against driving. Parking around Bondi is metered and limited at the best of times, and with road closures and up to 50,000 visitors it fills extremely early. Take public transport."
+        },
+        {
+          "q": "Can I bring my own kite?",
+          "a": "Yes, and lots of families do. There are also kite stalls in the park if you arrive without one, and Edgee kite workshops where you can make your own. Keep well away from the large international and Kiteflyers Society display kites and their lines."
+        },
+        {
+          "q": "Is Festival of the Winds good for young children?",
+          "a": "Very. Alongside the kites there is a petting zoo, rides, face painting, circus skills, origami and clay workshops and games on the grass, all running 11am to 4pm. Agree a meeting point when you arrive - the crowd is large."
+        },
+        {
+          "q": "Can I bring my dog to Festival of the Winds?",
+          "a": "No. Dogs are not permitted on Bondi Beach or the promenade at any time, including during the festival."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So: Sunday 13 September 2026, 11am to 4pm, free, on the bus, with a rug and sunscreen, and not a hope of parking. If you are building a day around it, the [Bondi Markets on a Sunday](/whats-on/bondi-markets-sunday) are two minutes away, my [Bondi with kids guide](/bondi-with-kids) covers the playgrounds and the calmest swimming, and [what's on at Bondi](/whats-on) has the rest of the year. First time at the beach? Start with my [first-timer guide](/start-here)."
+    }
   ]
 }

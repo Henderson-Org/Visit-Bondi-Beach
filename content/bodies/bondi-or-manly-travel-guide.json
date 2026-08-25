@@ -2,39 +2,129 @@
   "path": "/bondi-blog/bondi-or-manly-travel-guide",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "monthly",
   "sources": [
-    { "label": "Transport for NSW - Trip Planner", "url": "https://transportnsw.info/trip" },
-    { "label": "Waverley Council - Beaches & coast (Bondi)", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
-    { "label": "Northern Beaches Council - Beaches (Manly)", "url": "https://www.northernbeaches.nsw.gov.au" },
-    { "label": "Destination NSW - Sydney", "url": "https://www.sydney.com" }
+    {
+      "label": "Transport for NSW - Trip Planner",
+      "url": "https://transportnsw.info/trip"
+    },
+    {
+      "label": "Waverley Council - Beaches & coast (Bondi)",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast"
+    },
+    {
+      "label": "Northern Beaches Council - Beaches (Manly)",
+      "url": "https://www.northernbeaches.nsw.gov.au"
+    },
+    {
+      "label": "Destination NSW - Sydney",
+      "url": "https://www.sydney.com"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you've only got time for one of Sydney's two most famous beaches, here's my honest short answer: choose Bondi for surf culture, a buzzing café and bar scene and the iconic clifftop coastal walk; choose Manly if you'd rather ride a harbour ferry to a calmer, more laid-back beach town with a sheltered swimming cove. Neither is a mistake - they're genuinely different days out. Below I compare them on getting there, vibe, surf and things to do, so you can pick the one that suits your trip." },
-    { "type": "quickFacts", "items": [
-      { "label": "Bondi", "value": "Eastern suburbs; surf beach, Icebergs pool, Bondi to Coogee walk" },
-      { "label": "Manly", "value": "Northern beaches; reached by ferry, sheltered Shelly Beach nearby" },
-      { "label": "Best for Bondi", "value": "Surf, people-watching, café and bar scene" },
-      { "label": "Best for Manly", "value": "The ferry ride, a mellower pace, easy swimming" },
-      { "label": "Getting there", "value": "Plan both with the Transport for NSW Trip Planner" }
-    ] },
-    { "type": "h2", "text": "Getting there is half the decision" },
-    { "type": "p", "text": "How you arrive shapes each day. Manly's big drawcard is the ferry from Circular Quay - gliding out past the Opera House and Harbour Bridge across open water is one of Sydney's great cheap thrills, and a reason to visit on its own. Bondi has no ferry; the usual route is a train to Bondi Junction and then a bus down the hill, with the 333 and 380 the services most visitors use. Both trips are straightforward on an Opal card or contactless tap. Because times shift with the day and any events on, I always check current departures in the Transport for NSW Trip Planner rather than trusting a fixed number." },
-    { "type": "h2", "text": "The vibe: buzzing versus breezy" },
-    { "type": "p", "text": "This is where they split most clearly. Bondi is Sydney's showpiece beach - busy, glamorous and a little on-show, with a dense strip of cafés, restaurants and bars behind the sand and a steady parade of surfers, joggers and sunbathers. Manly feels more like a relaxed beach town: a walkable village of shops and eateries along the palm-lined Corso from the ferry wharf to the ocean, with a slower, family-holiday air. If you want energy and a scene, lean Bondi. If you want to exhale, lean Manly." },
-    { "type": "h2", "text": "Surf and swimming" },
-    { "type": "p", "text": "Both are proper ocean surf beaches patrolled by lifeguards, and both catch out visitors with rip currents. Bondi faces the open Pacific and usually has something to ride, plus the famous Bondi Icebergs ocean pool in the southern rocks. Manly has consistent surf too, but its ace is nearby Shelly Beach - a small, sheltered cove inside Cabbage Tree Bay, calm enough for easy swimming and snorkelling. If a gentle dip matters more than waves, that cove tips things toward Manly." },
-    { "type": "callout", "tone": "warning", "title": "Swim between the flags", "text": "Bondi and Manly both have real rip currents. Always swim inside the red-and-yellow flags, which mark the zone lifeguards are actively watching, and never off at the quiet, unpatrolled ends of the beach." },
-    { "type": "h2", "text": "Walks and things to do" },
-    { "type": "p", "text": "Each beach anchors a walk worth doing. From Bondi you can pick up the coastal path running south past Tamarama and Bronte toward Coogee - clifftops, ocean pools and hidden sand the whole way, and each spring it hosts the free Sculpture by the Sea exhibition (check the official sources for current dates). From Manly the easy stroll to Shelly Beach hugs the water, while the longer Manly to Spit Bridge track heads through bushland and harbour beaches. Both towns are full of places to eat and drink, though Bondi's after-dark scene is livelier." },
-    { "type": "localTip", "text": "Manly early, when the ferry is quiet and Shelly Beach is glassy, then Bondi for a late lunch and a sunset drink, makes a brilliant one-day Sydney combo." },
-    { "type": "h2", "text": "So which should you visit?" },
-    { "type": "p", "text": "My rule of thumb: if this is your one big Sydney beach day and you want the postcard - surf, the Icebergs, the coastal walk and a proper café strip - go to Bondi. If you'd trade a little of that buzz for a memorable harbour ferry, a calmer pace and an easy swimming cove, go to Manly. If you have two days, do both. Whichever you choose, swim between the flags and plan your transport before you set off." },
-    { "type": "faq", "items": [
-      { "q": "Should I visit Bondi or Manly?", "a": "Pick Bondi for surf culture, the Icebergs ocean pool, the Bondi to Coogee coastal walk and a lively café and bar scene. Pick Manly for the harbour ferry ride, a more relaxed pace and the sheltered swimming at nearby Shelly Beach. Both are excellent - they just offer different days out." },
-      { "q": "Which is easier to get to from the city?", "a": "Manly is reached by ferry from Circular Quay, a highlight in itself. Bondi is a train to Bondi Junction followed by a bus (the 333 or 380). Both are simple on an Opal card or contactless payment - check current times in the Transport for NSW Trip Planner." },
-      { "q": "Which beach is better for families?", "a": "Many families lean toward Manly for its calmer village feel and the sheltered Shelly Beach cove. Bondi is family-friendly too but busier. Either way, keep young swimmers between the patrol flags." },
-      { "q": "Can I visit both in one day?", "a": "Yes. They're on opposite sides of the city, so it takes some travel, but doing Manly in the morning and Bondi in the afternoon (or the reverse) is a popular way to see both. Plan the connections with the Transport for NSW Trip Planner." }
-    ] },
-    { "type": "p", "text": "Still torn? You can't lose here - both are free, beautiful and quintessentially Sydney. Match the beach to your mood and enjoy." }
+    {
+      "type": "p",
+      "text": "If you've only got time for one of Sydney's two most famous beaches, here's my honest short answer: choose Bondi for surf culture, a buzzing café and bar scene and the iconic clifftop coastal walk; choose Manly if you'd rather ride a harbour ferry to a calmer, more laid-back beach town with a sheltered swimming cove. Neither is a mistake - they're genuinely different days out. Below I compare them on getting there, vibe, surf and things to do, so you can pick the one that suits your trip."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Bondi",
+          "value": "Eastern suburbs; surf beach, Icebergs pool, Bondi to Coogee walk"
+        },
+        {
+          "label": "Manly",
+          "value": "Northern beaches; reached by ferry, sheltered Shelly Beach nearby"
+        },
+        {
+          "label": "Best for Bondi",
+          "value": "Surf, people-watching, café and bar scene"
+        },
+        {
+          "label": "Best for Manly",
+          "value": "The ferry ride, a mellower pace, easy swimming"
+        },
+        {
+          "label": "Getting there",
+          "value": "Plan both with the Transport for NSW Trip Planner"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Getting there is half the decision"
+    },
+    {
+      "type": "p",
+      "text": "How you arrive shapes each day. Manly's big drawcard is the ferry from Circular Quay - gliding out past the Opera House and Harbour Bridge across open water is one of Sydney's great cheap thrills, and a reason to visit on its own. Bondi has no ferry; the usual route is a train to Bondi Junction and then a bus down the hill, with the 333 and 380 the services most visitors use. Both trips are straightforward on an Opal card or contactless tap. Because times shift with the day and any events on, I always check current departures in the Transport for NSW Trip Planner rather than trusting a fixed number."
+    },
+    {
+      "type": "h2",
+      "text": "The vibe: buzzing versus breezy"
+    },
+    {
+      "type": "p",
+      "text": "This is where they split most clearly. Bondi is Sydney's showpiece beach - busy, glamorous and a little on-show, with a dense strip of cafés, restaurants and bars behind the sand and a steady parade of surfers, joggers and sunbathers. Manly feels more like a relaxed beach town: a walkable village of shops and eateries along the palm-lined Corso from the ferry wharf to the ocean, with a slower, family-holiday air. If you want energy and a scene, lean Bondi. If you want to exhale, lean Manly."
+    },
+    {
+      "type": "h2",
+      "text": "Surf and swimming"
+    },
+    {
+      "type": "p",
+      "text": "Both are proper ocean surf beaches patrolled by lifeguards, and both catch out visitors with rip currents. Bondi faces the open Pacific and usually has something to ride, plus the famous Bondi Icebergs ocean pool in the southern rocks. Manly has consistent surf too, but its ace is nearby Shelly Beach - a small, sheltered cove inside Cabbage Tree Bay, calm enough for easy swimming and snorkelling. If a gentle dip matters more than waves, that cove tips things toward Manly."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Swim between the flags",
+      "text": "Bondi and Manly both have real rip currents. Always swim inside the red-and-yellow flags, which mark the zone lifeguards are actively watching, and never off at the quiet, unpatrolled ends of the beach."
+    },
+    {
+      "type": "h2",
+      "text": "Walks and things to do"
+    },
+    {
+      "type": "p",
+      "text": "Each beach anchors a walk worth doing. From Bondi you can pick up the coastal path running south past Tamarama and Bronte toward Coogee - clifftops, ocean pools and hidden sand the whole way, and each spring it hosts the free Sculpture by the Sea exhibition (check the official sources for current dates). From Manly the easy stroll to Shelly Beach hugs the water, while the longer Manly to Spit Bridge track heads through bushland and harbour beaches. Both towns are full of places to eat and drink, though Bondi's after-dark scene is livelier."
+    },
+    {
+      "type": "localTip",
+      "text": "Manly early, when the ferry is quiet and Shelly Beach is glassy, then Bondi for a late lunch and a sunset drink, makes a brilliant one-day Sydney combo."
+    },
+    {
+      "type": "h2",
+      "text": "So which should you visit?"
+    },
+    {
+      "type": "p",
+      "text": "My rule of thumb: if this is your one big Sydney beach day and you want the postcard - surf, the Icebergs, the coastal walk and a proper café strip - go to Bondi. If you'd trade a little of that buzz for a memorable harbour ferry, a calmer pace and an easy swimming cove, go to Manly. If you have two days, do both. Whichever you choose, swim between the flags and plan your transport before you set off."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Should I visit Bondi or Manly?",
+          "a": "Pick Bondi for surf culture, the Icebergs ocean pool, the Bondi to Coogee coastal walk and a lively café and bar scene. Pick Manly for the harbour ferry ride, a more relaxed pace and the sheltered swimming at nearby Shelly Beach. Both are excellent - they just offer different days out."
+        },
+        {
+          "q": "Which is easier to get to from the city?",
+          "a": "Manly is reached by ferry from Circular Quay, a highlight in itself. Bondi is a train to Bondi Junction followed by a bus (the 333 or 380). Both are simple on an Opal card or contactless payment - check current times in the Transport for NSW Trip Planner."
+        },
+        {
+          "q": "Which beach is better for families?",
+          "a": "Many families lean toward Manly for its calmer village feel and the sheltered Shelly Beach cove. Bondi is family-friendly too but busier. Either way, keep young swimmers between the patrol flags."
+        },
+        {
+          "q": "Can I visit both in one day?",
+          "a": "Yes. They're on opposite sides of the city, so it takes some travel, but doing Manly in the morning and Bondi in the afternoon (or the reverse) is a popular way to see both. Plan the connections with the Transport for NSW Trip Planner."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Still torn? You can't lose here - both are free, beautiful and quintessentially Sydney. Match the beach to your mood and enjoy."
+    }
   ]
 }

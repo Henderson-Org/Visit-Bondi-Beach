@@ -2,37 +2,121 @@
   "path": "/bondi-blog/why-is-bondi-so-popular",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "evergreen",
   "sources": [
-    { "label": "Waverley Council - Bondi Beach", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast" },
-    { "label": "Waverley Council - Coastal walks", "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/coastal_walks" },
-    { "label": "Transport for NSW - trip planner", "url": "https://transportnsw.info" }
+    {
+      "label": "Waverley Council - Bondi Beach",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast"
+    },
+    {
+      "label": "Waverley Council - Coastal walks",
+      "url": "https://www.waverley.nsw.gov.au/recreation/beaches_and_coast/coastal_walks"
+    },
+    {
+      "label": "Transport for NSW - trip planner",
+      "url": "https://transportnsw.info"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "People ask me this all the time, and my honest answer is that Bondi packs so much into one kilometre of sand: a beautiful surf beach that sits just a few kilometres from the middle of Sydney, wrapped in cafes, restaurants, ocean pools and a coastal walk that people fly across the world to do. Australia has thousands of gorgeous beaches, but very few let you swim between the flags in the morning and be back in the city for lunch. That mix of postcard scenery and sheer ease is why Bondi is the beach the world knows by name." },
-    { "type": "quickFacts", "items": [
-      { "label": "Where", "value": "Bondi Beach, Waverley (eastern Sydney)" },
-      { "label": "Beach length", "value": "About 1 km of sand" },
-      { "label": "From the CBD", "value": "Roughly 7 km east" },
-      { "label": "Patrolled", "value": "Yes - swim between the red-and-yellow flags" },
-      { "label": "Cost to visit", "value": "Free" }
-    ] },
-    { "type": "h2", "text": "It's ridiculously easy to reach" },
-    { "type": "p", "text": "Half of Bondi's fame comes down to geography - it's one of the closest ocean beaches to central Sydney, so you don't need a car, a tour or a full day to get here. The classic route is the train to Bondi Junction on the T4 line, then a short bus down the hill to the sand; on a busy summer weekend, when the beach road clogs up, that combo is usually the fastest way in. You can also catch the 333 or 380 bus straight from the city." },
-    { "type": "localTip", "text": "Tap on and off with a contactless card or your phone - no paper ticket needed on Sydney trains and buses. For the quickest door-to-beach route on the day, plug your start point into the Transport for NSW trip planner rather than trusting a fixed number, since services shift with roadworks and events." },
-    { "type": "h2", "text": "The beach itself genuinely delivers" },
-    { "type": "p", "text": "Plenty of places are easy to get to and still disappointing when you arrive. Bondi isn't one of them. You get a wide, gently curving crescent of pale sand framed by sandstone headlands, water that glows turquoise on a clear day, and a rolling beach break that suits everyone from first-time surfers on the southern end to bodyboarders in the shore dump. It's patrolled, too - the lifeguards from the Bondi Rescue TV series are the real crew who watch this beach every day." },
-    { "type": "callout", "tone": "warning", "title": "Always swim between the flags", "text": "Bondi is safer than many beaches because it's professionally patrolled, but it still has rips and a heavy shorebreak. The red-and-yellow flags mark the supervised area - swim inside them, and if you're not a confident ocean swimmer, stay no deeper than waist height." },
-    { "type": "h3", "text": "There's far more than the sand" },
-    { "type": "p", "text": "A lot of Bondi's pull is what surrounds the beach. The southern end anchors the Bondi to Coogee coastal walk, a clifftop path of roughly six kilometres that strings together beaches, rock pools and lookouts - most people take two to three hours with photo stops. There are ocean pools carved into the rocks at both ends, a Sunday market up at Bondi Beach Public School, and the famous Icebergs pool and dining room perched over the water. Behind the promenade, Campbell Parade and the backstreets are stacked with cafes, brunch spots, gelato and restaurants for every budget." },
-    { "type": "h2", "text": "A culture, not just a beach" },
-    { "type": "p", "text": "The last ingredient is harder to bottle. Bondi has a distinct personality - a mix of surf culture, backpackers, long-time locals and sea-pool swimmers that gives it a buzz you feel the moment the water comes into view. Street art on the sea wall, dawn swimmers, the seasonal Sculpture by the Sea show along the coastal walk - it all adds up to a place that feels alive rather than just scenic. That energy, more than any single attraction, keeps people coming back." },
-    { "type": "faq", "items": [
-      { "q": "Why is Bondi Beach so famous?", "a": "Because it combines a beautiful, patrolled surf beach with an unbeatable location just a few kilometres from central Sydney, plus a coastal walk, ocean pools, markets and a lively cafe-and-restaurant scene all within walking distance. It's easy to reach, free to enjoy, and it delivers on the postcard." },
-      { "q": "What is Bondi Beach best known for?", "a": "Its golden crescent of sand and reliable surf, the Bondi to Coogee coastal walk, the Icebergs ocean pool, and being the home beach of the lifeguards from the Bondi Rescue TV show." },
-      { "q": "How do I get to Bondi Beach from Sydney city?", "a": "The most reliable way is the T4 train to Bondi Junction, then a short bus down to the beach. You can also take the 333 or 380 bus directly from the city. Check the Transport for NSW trip planner for live times and the quickest option on the day." },
-      { "q": "Is Bondi Beach worth visiting?", "a": "Yes. Even if you don't swim, the promenade, the coastal path and a coffee overlooking the water make it worth a half-day. Come early on summer weekends to beat the crowds." },
-      { "q": "Is Bondi Beach free?", "a": "The beach itself is completely free to visit and swim at, with public toilets, showers and lifeguard patrols. You'll only pay for the extras - food, drinks, parking, or a session at a paid pool like Icebergs." }
-    ] },
-    { "type": "p", "text": "So why is Bondi so popular? It's the rare beach that's world-class and around the corner at once - beautiful enough to earn its reputation, easy enough that you've no excuse not to go, and lively enough that you'll want to come back. My advice: arrive early, swim between the flags, walk at least the first stretch of the coast, and let the place win you over." }
+    {
+      "type": "p",
+      "text": "People ask me this all the time, and my honest answer is that Bondi packs so much into one kilometre of sand: a beautiful surf beach that sits just a few kilometres from the middle of Sydney, wrapped in cafes, restaurants, ocean pools and a coastal walk that people fly across the world to do. Australia has thousands of gorgeous beaches, but very few let you swim between the flags in the morning and be back in the city for lunch. That mix of postcard scenery and sheer ease is why Bondi is the beach the world knows by name."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Where",
+          "value": "Bondi Beach, Waverley (eastern Sydney)"
+        },
+        {
+          "label": "Beach length",
+          "value": "About 1 km of sand"
+        },
+        {
+          "label": "From the CBD",
+          "value": "Roughly 7 km east"
+        },
+        {
+          "label": "Patrolled",
+          "value": "Yes - swim between the red-and-yellow flags"
+        },
+        {
+          "label": "Cost to visit",
+          "value": "Free"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "It's ridiculously easy to reach"
+    },
+    {
+      "type": "p",
+      "text": "Half of Bondi's fame comes down to geography - it's one of the closest ocean beaches to central Sydney, so you don't need a car, a tour or a full day to get here. The classic route is the train to Bondi Junction on the T4 line, then a short bus down the hill to the sand; on a busy summer weekend, when the beach road clogs up, that combo is usually the fastest way in. You can also catch the 333 or 380 bus straight from the city."
+    },
+    {
+      "type": "localTip",
+      "text": "Tap on and off with a contactless card or your phone - no paper ticket needed on Sydney trains and buses. For the quickest door-to-beach route on the day, plug your start point into the Transport for NSW trip planner rather than trusting a fixed number, since services shift with roadworks and events."
+    },
+    {
+      "type": "h2",
+      "text": "The beach itself genuinely delivers"
+    },
+    {
+      "type": "p",
+      "text": "Plenty of places are easy to get to and still disappointing when you arrive. Bondi isn't one of them. You get a wide, gently curving crescent of pale sand framed by sandstone headlands, water that glows turquoise on a clear day, and a rolling beach break that suits everyone from first-time surfers on the southern end to bodyboarders in the shore dump. It's patrolled, too - the lifeguards from the Bondi Rescue TV series are the real crew who watch this beach every day."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Always swim between the flags",
+      "text": "Bondi is safer than many beaches because it's professionally patrolled, but it still has rips and a heavy shorebreak. The red-and-yellow flags mark the supervised area - swim inside them, and if you're not a confident ocean swimmer, stay no deeper than waist height."
+    },
+    {
+      "type": "h3",
+      "text": "There's far more than the sand"
+    },
+    {
+      "type": "p",
+      "text": "A lot of Bondi's pull is what surrounds the beach. The southern end anchors the Bondi to Coogee coastal walk, a clifftop path of roughly six kilometres that strings together beaches, rock pools and lookouts - most people take two to three hours with photo stops. There are ocean pools carved into the rocks at both ends, a Sunday market up at Bondi Beach Public School, and the famous Icebergs pool and dining room perched over the water. Behind the promenade, Campbell Parade and the backstreets are stacked with cafes, brunch spots, gelato and restaurants for every budget."
+    },
+    {
+      "type": "h2",
+      "text": "A culture, not just a beach"
+    },
+    {
+      "type": "p",
+      "text": "The last ingredient is harder to bottle. Bondi has a distinct personality - a mix of surf culture, backpackers, long-time locals and sea-pool swimmers that gives it a buzz you feel the moment the water comes into view. Street art on the sea wall, dawn swimmers, the seasonal Sculpture by the Sea show along the coastal walk - it all adds up to a place that feels alive rather than just scenic. That energy, more than any single attraction, keeps people coming back."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Why is Bondi Beach so famous?",
+          "a": "Because it combines a beautiful, patrolled surf beach with an unbeatable location just a few kilometres from central Sydney, plus a coastal walk, ocean pools, markets and a lively cafe-and-restaurant scene all within walking distance. It's easy to reach, free to enjoy, and it delivers on the postcard."
+        },
+        {
+          "q": "What is Bondi Beach best known for?",
+          "a": "Its golden crescent of sand and reliable surf, the Bondi to Coogee coastal walk, the Icebergs ocean pool, and being the home beach of the lifeguards from the Bondi Rescue TV show."
+        },
+        {
+          "q": "How do I get to Bondi Beach from Sydney city?",
+          "a": "The most reliable way is the T4 train to Bondi Junction, then a short bus down to the beach. You can also take the 333 or 380 bus directly from the city. Check the Transport for NSW trip planner for live times and the quickest option on the day."
+        },
+        {
+          "q": "Is Bondi Beach worth visiting?",
+          "a": "Yes. Even if you don't swim, the promenade, the coastal path and a coffee overlooking the water make it worth a half-day. Come early on summer weekends to beat the crowds."
+        },
+        {
+          "q": "Is Bondi Beach free?",
+          "a": "The beach itself is completely free to visit and swim at, with public toilets, showers and lifeguard patrols. You'll only pay for the extras - food, drinks, parking, or a session at a paid pool like Icebergs."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So why is Bondi so popular? It's the rare beach that's world-class and around the corner at once - beautiful enough to earn its reputation, easy enough that you've no excuse not to go, and lively enough that you'll want to come back. My advice: arrive early, swim between the flags, walk at least the first stretch of the coast, and let the place win you over."
+    }
   ]
 }

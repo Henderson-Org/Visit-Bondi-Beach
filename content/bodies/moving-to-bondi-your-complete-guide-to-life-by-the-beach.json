@@ -2,46 +2,142 @@
   "path": "/bondi-blog/2024/12/13/moving-to-bondi-your-complete-guide-to-life-by-the-beach",
   "voice": "first-person",
   "lastReviewed": "2026-08-08",
+  "freshnessClass": "monthly",
   "sources": [
-    { "label": "Transport for NSW", "url": "https://transportnsw.info/" },
-    { "label": "Waverley Council", "url": "https://www.waverley.nsw.gov.au/" },
-    { "label": "Bondi Markets", "url": "https://bondimarkets.com.au/" },
-    { "label": "Domain (property listings & suburb data)", "url": "https://www.domain.com.au/suburb-profile/bondi-beach-nsw-2026" }
+    {
+      "label": "Transport for NSW",
+      "url": "https://transportnsw.info/"
+    },
+    {
+      "label": "Waverley Council",
+      "url": "https://www.waverley.nsw.gov.au/"
+    },
+    {
+      "label": "Bondi Markets",
+      "url": "https://bondimarkets.com.au/"
+    },
+    {
+      "label": "Domain (property listings & suburb data)",
+      "url": "https://www.domain.com.au/suburb-profile/bondi-beach-nsw-2026"
+    }
   ],
   "blocks": [
-    { "type": "p", "text": "If you're thinking about moving to Bondi, here's the honest version from someone who lives here: it's as good as the postcard, but you trade a real chunk of your budget for waking up near that water. Bondi is a small, walkable beachside pocket of Sydney's eastern suburbs - surf out front, cafes everywhere, a village feel under the fame. Here's my local's guide to daily life here, and what to sort before you sign a lease." },
-    { "type": "quickFacts", "items": [
-      { "label": "Where", "value": "Eastern suburbs, ~7km from Sydney CBD" },
-      { "label": "Council", "value": "Waverley Council" },
-      { "label": "Postcodes", "value": "Bondi Beach 2026, Bondi 2026, North Bondi 2026" },
-      { "label": "Getting to town", "value": "Bus + Bondi Junction (T4 line)" }
-    ] },
-    { "type": "h2", "text": "The lifestyle you're actually buying into" },
-    { "type": "p", "text": "What people underestimate is how much of Bondi life happens outdoors. A normal morning means a swim or a walk before work - I'll often do the Bondi to Coogee coastal walk as far as Bronte and back before I've woken up. Weekends revolve around the beach, the ocean pools and the markets. The Bondi Markets run at Bondi Beach Public School on Sundays, with a farmers' market on Saturdays; check bondimarkets.com.au for current times." },
-    { "type": "p", "text": "It's a health-conscious, active, slightly showy crowd - joggers, ocean swimmers, yoga, and coffee culture taken seriously. If that's your speed, you'll settle in fast. If you want quiet suburbia, Bondi isn't it: it's busy in summer, and the beach belongs to the whole city on a hot Saturday." },
-    { "type": "localTip", "text": "Live one street back from Campbell Parade rather than directly on it. You keep the two-minute beach walk but escape the tour buses, the 3am revellers and the summer traffic on the beachfront strip." },
-    { "type": "h2", "text": "Choosing your patch" },
-    { "type": "p", "text": "Bondi is small, but the micro-neighbourhoods have real personalities:" },
-    { "type": "list", "items": [
-      "North Bondi - quieter and family-leaning, near the golf club and Ben Buckler at the calm northern end.",
-      "Bondi Beach / Campbell Parade - the heart of the action, walk-to-sand living with cafes and nightlife on your doorstep.",
-      "Bondi Road corridor - the everyday high street: grocers, pubs, cheaper eats and easier buses to Bondi Junction.",
-      "Tamarama & Bronte - a short walk south along the coastal path, leafier and lower-key while still on the water."
-    ] },
-    { "type": "p", "text": "My advice: rent for six months before you commit to buying. Which end of Bondi suits you depends on whether you prioritise nightlife, family calm, or transport." },
-    { "type": "h2", "text": "Rent, buying and the cost of living" },
-    { "type": "p", "text": "There's no way around it - Bondi is expensive, and beachfront apartments command a premium that eases the further inland you go. Rents and prices move constantly, so I won't quote a number that'll be stale next month; for current figures pull up the Bondi Beach suburb profile on Domain or realestate.com.au. The rental market is competitive, so come to inspections with your application, ID, references and payslips ready to lodge on the spot." },
-    { "type": "callout", "tone": "note", "title": "Budget beyond the rent", "text": "Groceries, dining out and gym or wellness memberships all run higher in Bondi than in Sydney's outer suburbs. Cook at home, use the supermarkets on Bondi Road, and shop the markets for produce to keep costs down." },
-    { "type": "h2", "text": "Getting around without a car" },
-    { "type": "p", "text": "Most locals I know don't own a car, or barely use one. Frequent buses run down Bondi Road to the city - the 333 is the express - and Bondi Junction is the transport hub, where the T4 Eastern Suburbs & Illawarra train line reaches the CBD in well under 20 minutes. Tap on with any contactless card or Opal, and check transportnsw.info for live timetables and fares. Parking near the beach is painful and residents need a Waverley Council permit, so factor that in before you bring a car." },
-    { "type": "localTip", "text": "If you keep a car, apply for your Waverley Council residential parking permit as soon as your lease starts - you'll need proof of address, and beachside parking without one is a fast track to fines in summer." },
-    { "type": "faq", "items": [
-      { "q": "Is it expensive to live in Bondi?", "a": "Yes - it's one of Sydney's pricier suburbs, with a premium on anything close to the beach that eases as you move inland toward Bondi Junction. For current medians, check live suburb data on Domain or realestate.com.au rather than any fixed figure." },
-      { "q": "Do I need a car if I live in Bondi?", "a": "Not really. Frequent buses and the T4 train from nearby Bondi Junction cover most trips, and the suburb is walkable. Parking is limited and needs a Waverley Council resident permit, so many locals skip car ownership." },
-      { "q": "How far is Bondi from the Sydney CBD?", "a": "Bondi Beach sits about 7km east of the city centre - roughly 30–40 minutes door to door by bus, or faster if you switch to the T4 train at Bondi Junction. Check transportnsw.info for current times." },
-      { "q": "Which part of Bondi is best to live in?", "a": "It depends on your priorities. North Bondi is quieter and family-friendly, Campbell Parade puts you among the cafes and nightlife, the Bondi Road corridor is the everyday high street, and Tamarama or Bronte offer a calmer coastal feel a short walk south." },
-      { "q": "What's the best way to find a rental in Bondi?", "a": "Watch Domain and realestate.com.au daily, and come to inspections with a complete application ready to submit - the market moves quickly. A local agent who knows the eastern suburbs can also flag listings early." }
-    ] },
-    { "type": "p", "text": "Moving to Bondi isn't the cheapest decision you'll make, but for the right person it's the easiest to justify: you're paying for a life lived outdoors, salt water on tap, and a community that uses its beach every day. Rent first, pick your end of the sand, and welcome to the neighbourhood." }
+    {
+      "type": "p",
+      "text": "If you're thinking about moving to Bondi, here's the honest version from someone who lives here: it's as good as the postcard, but you trade a real chunk of your budget for waking up near that water. Bondi is a small, walkable beachside pocket of Sydney's eastern suburbs - surf out front, cafes everywhere, a village feel under the fame. Here's my local's guide to daily life here, and what to sort before you sign a lease."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Where",
+          "value": "Eastern suburbs, ~7km from Sydney CBD"
+        },
+        {
+          "label": "Council",
+          "value": "Waverley Council"
+        },
+        {
+          "label": "Postcodes",
+          "value": "Bondi Beach 2026, Bondi 2026, North Bondi 2026"
+        },
+        {
+          "label": "Getting to town",
+          "value": "Bus + Bondi Junction (T4 line)"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The lifestyle you're actually buying into"
+    },
+    {
+      "type": "p",
+      "text": "What people underestimate is how much of Bondi life happens outdoors. A normal morning means a swim or a walk before work - I'll often do the Bondi to Coogee coastal walk as far as Bronte and back before I've woken up. Weekends revolve around the beach, the ocean pools and the markets. The Bondi Markets run at Bondi Beach Public School on Sundays, with a farmers' market on Saturdays; check bondimarkets.com.au for current times."
+    },
+    {
+      "type": "p",
+      "text": "It's a health-conscious, active, slightly showy crowd - joggers, ocean swimmers, yoga, and coffee culture taken seriously. If that's your speed, you'll settle in fast. If you want quiet suburbia, Bondi isn't it: it's busy in summer, and the beach belongs to the whole city on a hot Saturday."
+    },
+    {
+      "type": "localTip",
+      "text": "Live one street back from Campbell Parade rather than directly on it. You keep the two-minute beach walk but escape the tour buses, the 3am revellers and the summer traffic on the beachfront strip."
+    },
+    {
+      "type": "h2",
+      "text": "Choosing your patch"
+    },
+    {
+      "type": "p",
+      "text": "Bondi is small, but the micro-neighbourhoods have real personalities:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "North Bondi - quieter and family-leaning, near the golf club and Ben Buckler at the calm northern end.",
+        "Bondi Beach / Campbell Parade - the heart of the action, walk-to-sand living with cafes and nightlife on your doorstep.",
+        "Bondi Road corridor - the everyday high street: grocers, pubs, cheaper eats and easier buses to Bondi Junction.",
+        "Tamarama & Bronte - a short walk south along the coastal path, leafier and lower-key while still on the water."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "My advice: rent for six months before you commit to buying. Which end of Bondi suits you depends on whether you prioritise nightlife, family calm, or transport."
+    },
+    {
+      "type": "h2",
+      "text": "Rent, buying and the cost of living"
+    },
+    {
+      "type": "p",
+      "text": "There's no way around it - Bondi is expensive, and beachfront apartments command a premium that eases the further inland you go. Rents and prices move constantly, so I won't quote a number that'll be stale next month; for current figures pull up the Bondi Beach suburb profile on Domain or realestate.com.au. The rental market is competitive, so come to inspections with your application, ID, references and payslips ready to lodge on the spot."
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Budget beyond the rent",
+      "text": "Groceries, dining out and gym or wellness memberships all run higher in Bondi than in Sydney's outer suburbs. Cook at home, use the supermarkets on Bondi Road, and shop the markets for produce to keep costs down."
+    },
+    {
+      "type": "h2",
+      "text": "Getting around without a car"
+    },
+    {
+      "type": "p",
+      "text": "Most locals I know don't own a car, or barely use one. Frequent buses run down Bondi Road to the city - the 333 is the express - and Bondi Junction is the transport hub, where the T4 Eastern Suburbs & Illawarra train line reaches the CBD in well under 20 minutes. Tap on with any contactless card or Opal, and check transportnsw.info for live timetables and fares. Parking near the beach is painful and residents need a Waverley Council permit, so factor that in before you bring a car."
+    },
+    {
+      "type": "localTip",
+      "text": "If you keep a car, apply for your Waverley Council residential parking permit as soon as your lease starts - you'll need proof of address, and beachside parking without one is a fast track to fines in summer."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is it expensive to live in Bondi?",
+          "a": "Yes - it's one of Sydney's pricier suburbs, with a premium on anything close to the beach that eases as you move inland toward Bondi Junction. For current medians, check live suburb data on Domain or realestate.com.au rather than any fixed figure."
+        },
+        {
+          "q": "Do I need a car if I live in Bondi?",
+          "a": "Not really. Frequent buses and the T4 train from nearby Bondi Junction cover most trips, and the suburb is walkable. Parking is limited and needs a Waverley Council resident permit, so many locals skip car ownership."
+        },
+        {
+          "q": "How far is Bondi from the Sydney CBD?",
+          "a": "Bondi Beach sits about 7km east of the city centre - roughly 30–40 minutes door to door by bus, or faster if you switch to the T4 train at Bondi Junction. Check transportnsw.info for current times."
+        },
+        {
+          "q": "Which part of Bondi is best to live in?",
+          "a": "It depends on your priorities. North Bondi is quieter and family-friendly, Campbell Parade puts you among the cafes and nightlife, the Bondi Road corridor is the everyday high street, and Tamarama or Bronte offer a calmer coastal feel a short walk south."
+        },
+        {
+          "q": "What's the best way to find a rental in Bondi?",
+          "a": "Watch Domain and realestate.com.au daily, and come to inspections with a complete application ready to submit - the market moves quickly. A local agent who knows the eastern suburbs can also flag listings early."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Moving to Bondi isn't the cheapest decision you'll make, but for the right person it's the easiest to justify: you're paying for a life lived outdoors, salt water on tap, and a community that uses its beach every day. Rent first, pick your end of the sand, and welcome to the neighbourhood."
+    }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "_comment": "Single source of truth for the review cadence. Max days since lastReviewed before a page of each freshnessClass is OVERDUE, and the fraction of that window at which it becomes DUE SOON (so a review can be scheduled before it lapses, not after). Consumed by lib/content.ts (FRESHNESS_MAX_DAYS), lib/freshness.ts (the derived review state + the admin worklist) and scripts/freshness-audit.mjs. Change cadences here only - never in one consumer.",
+  "maxDays": {
+    "live": 7,
+    "weekly": 10,
+    "monthly": 45,
+    "quarterly": 100,
+    "seasonal": 200,
+    "annual": 400,
+    "evergreen": 550
+  },
+  "dueSoonAtFraction": 0.8
+}
