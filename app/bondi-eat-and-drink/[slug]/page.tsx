@@ -5,7 +5,7 @@ import { EditorialHero } from '@/components/EditorialHero';
 import { RestaurantCard } from '@/components/eat/RestaurantCard';
 import { isProduction, seoTitle } from '@/lib/site';
 import { breadcrumbJsonLd, itemListJsonLd } from '@/lib/structured-data';
-import { getCollection, collectionSlugs, venuesForCollection, venuePageHref, collectionBody } from '@/lib/restaurantGuide';
+import { getCollection, collectionSlugs, venuesForCollection, venuePageHref, collectionBody, isCollectionIndexable } from '@/lib/restaurantGuide';
 import { PRICE_LABEL } from '@/data/restaurants';
 import { BodyBlocks } from '@/components/BodyBlocks';
 
@@ -24,11 +24,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const c = getCollection(slug);
   if (!c) return { title: 'Page not found' };
+  // A collection that does not earn an index slot (too few venues, or the same declared
+  // intent as one that already owns the query) still renders in full for visitors - it is
+  // a useful filter - but is noindex,follow so it passes equity without competing.
+  const indexable = isCollectionIndexable(c) && isProduction();
   return {
     title: seoTitle(c.metaTitle),
     description: c.metaDescription,
     alternates: { canonical: `/bondi-eat-and-drink/${slug}` },
-    robots: isProduction() ? undefined : { index: false, follow: true },
+    robots: indexable ? undefined : { index: false, follow: true },
     openGraph: { title: c.metaTitle, description: c.metaDescription, type: 'website', images: HERO },
   };
 }

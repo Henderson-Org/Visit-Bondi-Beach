@@ -4,7 +4,7 @@ import { PROD_ORIGIN } from '@/lib/site';
 import { stayCategorySlugs } from '@/data/stay-categories';
 import { guideSlugs } from '@/data/accommodation-guides';
 import { eventSlugs } from '@/data/events';
-import { collectionSlugs as diningCollectionSlugs, venuesWithPages } from '@/lib/restaurantGuide';
+import { indexableCollectionSlugs, venuesWithPages } from '@/lib/restaurantGuide';
 import { allTranslations, availableLocales } from '@/lib/translations';
 import { hreflangAlternates, localizedPath } from '@/lib/i18n';
 import { REDIRECTED_PATHS } from '@/lib/redirects';
@@ -31,7 +31,10 @@ const STATIC_ROUTES: { path: string; priority: number }[] = [
   ...guideSlugs().map((slug) => ({ path: `/stay/${slug}`, priority: 0.6 })),
   // Eat & Drink directory - the hub, curated collection pages, and venue pages.
   { path: '/bondi-eat-and-drink', priority: 0.9 },
-  ...diningCollectionSlugs().map((slug) => ({ path: `/bondi-eat-and-drink/${slug}`, priority: 0.7 })),
+  // Only collections that pass the indexability gate (lib/restaurantGuide.ts). A collection
+  // that is noindex must not be advertised in the sitemap - asking Google to crawl a page
+  // we then tell it not to index is the contradictory signal that causes coverage warnings.
+  ...indexableCollectionSlugs().map((slug) => ({ path: `/bondi-eat-and-drink/${slug}`, priority: 0.7 })),
   // Individual venue pages (only venues with real editorial depth get an indexable page,
   // via /bondi-eat-and-drink/venues/[id]; the rest live in the directory listing only).
   ...venuesWithPages().map((r) => ({ path: `/bondi-eat-and-drink/venues/${r.id}`, priority: 0.6 })),

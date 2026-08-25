@@ -180,6 +180,19 @@ export interface GuideCollection {
    * page that lists everywhere in one part of Bondi. Drives where the hub surfaces it.
    */
   kind?: 'best-of' | 'area';
+  /**
+   * The search intent this collection is written to own. Two collections sharing an intent
+   * are two URLs chasing one query, and the later one is de-indexed. Distinct intents may
+   * legitimately share most of their venues ("romantic" vs "best" restaurants), which is
+   * why intent — not venue overlap — is the primary duplication test.
+   */
+  intent?: string;
+  /**
+   * 'never' keeps the page usable for visitors but out of the index. Use it for a
+   * combination that is a genuinely useful filter but not a distinct search intent.
+   * Omit to let collectionIndexDecision() judge it on venue count and overlap.
+   */
+  index?: 'never';
   /** Editorial articles worth surfacing on this collection page (database → article). */
   relatedReads?: { title: string; path: string }[];
 }
@@ -187,6 +200,7 @@ export interface GuideCollection {
 export const COLLECTIONS: GuideCollection[] = [
   {
     slug: 'best-restaurants-bondi-beach',
+    intent: 'restaurants',
     h1: 'The best restaurants in Bondi Beach',
     kicker: 'Best of Bondi',
     intro:
@@ -199,6 +213,7 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'waterfront-dining-bondi-beach',
+    intent: 'waterfront',
     h1: 'Beachfront & ocean-view dining in Bondi',
     kicker: 'With a view',
     intro:
@@ -210,6 +225,7 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'breakfast-brunch-bondi-beach',
+    intent: 'breakfast',
     h1: 'The best breakfast & brunch in Bondi',
     kicker: 'Morning',
     intro:
@@ -222,6 +238,7 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'best-cafes-bondi-beach',
+    intent: 'cafes',
     h1: 'The best cafés & coffee in Bondi',
     kicker: 'Coffee',
     intro:
@@ -234,6 +251,7 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'best-bars-bondi-beach',
+    intent: 'bars',
     h1: 'The best bars in Bondi Beach',
     kicker: 'Drinks',
     intro:
@@ -250,6 +268,7 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'cheap-eats-bondi-beach',
+    intent: 'cheap-eats',
     h1: 'The best cheap eats in Bondi',
     kicker: 'Under $25',
     intro:
@@ -262,6 +281,7 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'family-friendly-bondi-beach',
+    intent: 'family',
     h1: 'The best family-friendly places to eat in Bondi',
     kicker: 'With kids',
     intro:
@@ -274,6 +294,7 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'vegan-vegetarian-bondi-beach',
+    intent: 'vegan',
     h1: 'The best vegan & vegetarian food in Bondi',
     kicker: 'Plant-based',
     intro:
@@ -286,6 +307,7 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'date-night-bondi-beach',
+    intent: 'romantic',
     h1: 'The best date-night restaurants in Bondi',
     kicker: 'For two',
     intro:
@@ -298,6 +320,7 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'pubs-bondi-beach',
+    intent: 'pubs',
     h1: 'The best pubs in Bondi',
     kicker: 'Pub',
     intro:
@@ -314,6 +337,7 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'bakeries-sweets-bondi-beach',
+    intent: 'bakery',
     h1: 'The best bakeries & sweets in Bondi',
     kicker: 'Sweet',
     intro:
@@ -326,6 +350,7 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'late-night-bondi-beach',
+    intent: 'late-night',
     h1: 'Late-night eats & drinks in Bondi',
     kicker: 'After dark',
     intro:
@@ -338,6 +363,7 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'sunset-rooftop-bondi-beach',
+    intent: 'sunset',
     h1: 'The best sunset & rooftop drinks in Bondi',
     kicker: 'Golden hour',
     intro:
@@ -348,9 +374,84 @@ export const COLLECTIONS: GuideCollection[] = [
     select: (r) => r.attributes.includes('rooftop') || r.attributes.includes('sunset'),
     limit: 16,
   },
+  // --- Added for the high-value queries named in the SEO brief. Each is declared with a
+  // distinct intent and its own editorial framing; the indexability gate below decides
+  // whether it actually reaches the index, so a near-duplicate of an existing collection
+  // (e.g. "best coffee" against "best cafés") stays usable but noindex rather than
+  // splitting the same intent across two URLs. ---
+  {
+    slug: 'best-lunch-bondi-beach',
+    intent: 'lunch',
+    h1: 'Where to have lunch in Bondi',
+    kicker: 'Lunch',
+    intro:
+      "Lunch in Bondi splits two ways: the long, sit-down kind with a view of the water, and the fast, salty kind you eat on a wall with sand on your feet. These are the places we'd pick for either, and they're all open in the middle of the day.",
+    metaTitle: 'The Best Lunch Spots in Bondi Beach',
+    metaDescription:
+      'Where a local goes for lunch in Bondi - long lunches with an ocean view, quick counter feeds and everything in between, ranked.',
+    select: (r) => r.meals.includes('lunch'),
+    limit: 24,
+  },
+  {
+    slug: 'best-dinner-bondi-beach',
+    intent: 'dinner',
+    h1: 'Where to have dinner in Bondi',
+    kicker: 'Dinner',
+    intro:
+      "Bondi at night is quieter than the daytime crowds suggest, and better for it. These are the rooms we book for dinner - the special-occasion tables, the reliable neighbourhood standbys and the ones worth the walk up the hill.",
+    metaTitle: 'The Best Dinner Spots in Bondi Beach',
+    metaDescription:
+      'Where to eat dinner in Bondi Beach - a local’s ranked pick of the beachfront rooms, neighbourhood favourites and special-occasion tables.',
+    select: (r) => r.meals.includes('dinner'),
+    limit: 24,
+  },
+  {
+    slug: 'bondi-restaurants-for-groups',
+    intent: 'groups',
+    h1: 'Bondi restaurants that work for groups',
+    kicker: 'For a group',
+    intro:
+      "Eating out in a group in Bondi is mostly a logistics problem: who takes a booking, who has a table big enough, and who won't mind a birthday. These are the places that handle it well, from long share tables to pubs with room to spread out.",
+    metaTitle: 'Bondi Restaurants for Groups & Big Tables',
+    metaDescription:
+      'Where to eat in Bondi with a group - venues with big tables, bookings and room to spread out, picked by a local.',
+    select: (r) => r.suitability.includes('groups'),
+    limit: 20,
+  },
+  {
+    slug: 'restaurants-near-bondi-icebergs',
+    intent: 'near-icebergs',
+    h1: 'Where to eat near Bondi Icebergs',
+    kicker: 'South end',
+    intro:
+      "The Icebergs end of the beach is the postcard corner, and the eating around it runs from the famous dining room upstairs to the cafés a short walk back up Notts Avenue and along the south end of Campbell Parade. Here's what's actually within a few minutes' walk.",
+    metaTitle: 'Where to Eat Near Bondi Icebergs',
+    metaDescription:
+      'Restaurants, cafés and bars within walking distance of Bondi Icebergs - the south end of the beach, picked by a local.',
+    // The south end: the beachfront precinct plus anything explicitly beachfront/ocean-view.
+    // Kept to a walkable definition rather than a radius we cannot verify.
+    select: (r) =>
+      (r.precinct === 'bondi-beach' || r.precinct === 'campbell-parade') &&
+      (r.attributes.includes('beachfront') || r.attributes.includes('ocean-views')),
+    limit: 20,
+  },
+  {
+    slug: 'best-coffee-bondi',
+    intent: 'cafes',
+    h1: 'Where to find the best coffee in Bondi',
+    kicker: 'Coffee',
+    intro:
+      "Bondi takes its coffee seriously enough that the queue outside a window at 7am is a normal sight. These are the roasters, windows and cafés we actually walk to.",
+    metaTitle: 'The Best Coffee in Bondi Beach',
+    metaDescription:
+      'Where to get the best coffee in Bondi - the specialty roasters, coffee windows and cafés a local rates.',
+    select: (r) => r.type === 'cafe',
+    limit: 20,
+  },
   // --- Area (precinct) landing pages: everywhere to eat in one pocket of Bondi. ---
   {
     slug: 'north-bondi',
+    intent: 'area-north-bondi',
     kind: 'area',
     h1: 'Where to eat & drink in North Bondi',
     kicker: 'North Bondi',
@@ -363,6 +464,7 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'campbell-parade',
+    intent: 'area-campbell-parade',
     kind: 'area',
     h1: 'Where to eat & drink on Campbell Parade',
     kicker: 'Campbell Parade',
@@ -375,6 +477,7 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'bondi-road',
+    intent: 'area-bondi-road',
     kind: 'area',
     h1: 'Where to eat & drink on Bondi Road',
     kicker: 'Bondi Road',
@@ -455,6 +558,106 @@ export function areaPageFor(precinct: Precinct): string | null {
 export function venuesForCollection(c: GuideCollection): Restaurant[] {
   const picked = restaurants().filter(c.select).sort(byScore);
   return c.limit ? picked.slice(0, c.limit) : picked;
+}
+
+/* ------------------------- indexability of a collection -------------------------- *
+ *
+ * A filter combination is easy to generate and easy to over-generate. The failure mode
+ * of programmatic SEO is not "too few pages", it is a long tail of near-identical thin
+ * lists that dilute the pages which deserve to rank. So a collection has to EARN its
+ * place in the index; the ones that do not still render for visitors, but noindex.
+ *
+ * Note on what is NOT in the gate: search demand. The site holds no keyword-level data
+ * (content/search-demand.json is per-URL Search Console data, not per-query), so a
+ * demand threshold here would be a number we made up. Demand is therefore an editorial
+ * judgement made when a collection is added — see ACTION REQUIRED in the handover — and
+ * the gate enforces only what can actually be verified from the data.
+ */
+
+/** Fewer than this many venues and the page is a list too short to beat the directory. */
+export const MIN_INDEXABLE_VENUES = 8;
+/**
+ * Overlap above which two collections with DIFFERENT declared intents are treated as the
+ * same page anyway. Set high on purpose. Venue overlap alone cannot detect cannibalisation:
+ * "romantic restaurants in Bondi" and "the best restaurants in Bondi" share most of their
+ * venues (the good rooms are often the romantic ones) yet are different queries with
+ * different results pages, and de-indexing one would lose a query the site should own.
+ * Same-intent collisions are caught by the `intent` rule instead, which is the accurate
+ * test; this threshold only catches sets that are effectively identical.
+ */
+export const MAX_COLLECTION_OVERLAP = 0.9;
+
+export type IndexDecision = {
+  indexable: boolean;
+  /** Why, in one line — surfaced by scripts/seo-qa.mjs so the decision is auditable. */
+  reason: string;
+};
+
+function overlap(a: Restaurant[], b: Restaurant[]): number {
+  if (!a.length || !b.length) return 0;
+  const bIds = new Set(b.map((r) => r.id));
+  const shared = a.filter((r) => bIds.has(r.id)).length;
+  return shared / new Set([...a.map((r) => r.id), ...bIds]).size;
+}
+
+/**
+ * Whether a collection earns an indexable landing page.
+ *
+ * Evaluated in declaration order, so an earlier collection keeps the index slot and a
+ * later near-duplicate is the one that yields — which makes the outcome deterministic
+ * rather than dependent on venue counts that shift as the directory changes.
+ */
+export function collectionIndexDecision(c: GuideCollection): IndexDecision {
+  if (c.index === 'never') {
+    return { indexable: false, reason: 'explicitly excluded from the index' };
+  }
+
+  const venues = venuesForCollection(c);
+  if (venues.length < MIN_INDEXABLE_VENUES) {
+    return {
+      indexable: false,
+      reason: `only ${venues.length} qualifying venue(s), below the ${MIN_INDEXABLE_VENUES} needed to be worth indexing`,
+    };
+  }
+
+  // Area pages are precinct-exclusive by construction, so they cannot duplicate each
+  // other and are not compared against the best-of lists (a precinct page and a "best
+  // cafés" page answer different questions even when they share venues).
+  if (c.kind !== 'area') {
+    for (const other of COLLECTIONS) {
+      if (other.slug === c.slug) break; // only compare against earlier collections
+      if (other.kind === 'area' || other.index === 'never') continue;
+
+      // Declared same intent = two URLs chasing one query. The earlier collection keeps
+      // the index slot, so the outcome is deterministic rather than dependent on venue
+      // counts that shift as the directory changes.
+      if (c.intent && other.intent && c.intent === other.intent) {
+        return {
+          indexable: false,
+          reason: `same declared intent ("${c.intent}") as /${other.slug}, which already owns that query`,
+        };
+      }
+
+      const o = overlap(venues, venuesForCollection(other));
+      if (o > MAX_COLLECTION_OVERLAP) {
+        return {
+          indexable: false,
+          reason: `${Math.round(o * 100)}% of its venues are already on /${other.slug} — effectively the same list`,
+        };
+      }
+    }
+  }
+
+  return { indexable: true, reason: `${venues.length} venues, distinct from the other collections` };
+}
+
+export function isCollectionIndexable(c: GuideCollection): boolean {
+  return collectionIndexDecision(c).indexable;
+}
+
+/** Slugs that should appear in the sitemap (indexable collections only). */
+export function indexableCollectionSlugs(): string[] {
+  return COLLECTIONS.filter(isCollectionIndexable).map((c) => c.slug);
 }
 
 /* --------------------------------- labels ---------------------------------- */
