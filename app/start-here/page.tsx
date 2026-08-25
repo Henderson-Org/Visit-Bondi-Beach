@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { breadcrumbJsonLd, faqJsonLd } from '@/lib/structured-data';
+import { Faq } from '@/components/blocks';
 
 /**
  * /start-here - "First time at Bondi? Start here."
@@ -369,6 +370,14 @@ export default function StartHerePage() {
           covers the fee-free 350-bus route and timings both ways.
         </p>
       </Section>
+
+      {/* These Q&As back the FAQPage schema this page emits. They MUST stay rendered:
+          schema whose questions are not visible on the page breaks Google's FAQ guidelines
+          and is exactly the schema-spam the site's integrity rules forbid. They were being
+          emitted as structured data only until scripts/schema-audit.mjs caught it. */}
+      <div className="mx-auto mt-12 max-w-3xl">
+        <Faq items={FAQS.map((f) => ({ q: f.q, a: f.a }))} />
+      </div>
 
       <section className="mt-12 rounded-2xl border border-sand-200 bg-sand-100/60 p-5">
         <h2 className="font-display text-xl text-ink-900">Go deeper</h2>

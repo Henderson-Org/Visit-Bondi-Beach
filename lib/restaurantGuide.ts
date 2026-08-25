@@ -660,6 +660,25 @@ export function indexableCollectionSlugs(): string[] {
   return COLLECTIONS.filter(isCollectionIndexable).map((c) => c.slug);
 }
 
+/**
+ * The collections a venue actually appears on, for the entity → intent-page up-link.
+ *
+ * This closes the other half of the hub-and-spoke: collections already link down to
+ * venues, but a venue page had no curated link back up, so ~163 entity pages sat at the
+ * bottom of the graph passing nothing to the pages meant to rank. Membership is computed
+ * from the same `venuesForCollection` the collection page renders, so a venue can never
+ * advertise a list it is not actually on (a cap can exclude it even when the predicate
+ * matches).
+ *
+ * Only indexable collections are returned — pointing at noindex pages would spend the
+ * venue's outbound equity on URLs we have asked Google to ignore.
+ */
+export function collectionsForVenue(r: Restaurant): GuideCollection[] {
+  return COLLECTIONS.filter(
+    (c) => isCollectionIndexable(c) && venuesForCollection(c).some((v) => v.id === r.id),
+  );
+}
+
 /* --------------------------------- labels ---------------------------------- */
 
 export { PRECINCT_LABEL, VENUE_TYPE_LABEL };

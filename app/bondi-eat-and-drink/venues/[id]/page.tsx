@@ -14,6 +14,7 @@ import {
   venueTypeInPrecinct,
   bookingStatus,
   establishedYear,
+  collectionsForVenue,
   MEAL_LABEL,
   SUITABILITY_LABEL,
   ATTRIBUTE_LABEL,
@@ -66,6 +67,7 @@ export default async function VenuePage({ params }: Props) {
     { name: venue.name, path },
   ];
   const out = outboundLink(venue);
+  const featuredIn = collectionsForVenue(venue);
   const cuisines = venue.cuisines.filter((c) => c && c !== '-');
 
   // "More like this" - same precinct first, then same type, excluding self.
@@ -234,6 +236,28 @@ export default async function VenuePage({ params }: Props) {
           </details>
         )}
       </div>
+
+      {/* Featured in — the entity → intent-page up-link. Computed from actual collection
+          membership, so this can never advertise a list the venue is not on. */}
+      {featuredIn.length > 0 && (
+        <section className="mx-auto max-w-3xl px-4 pb-4">
+          <h2 className="text-xs font-semibold uppercase tracking-widest text-ink-500">
+            {venue.name} appears in
+          </h2>
+          <ul className="mt-3 flex flex-wrap gap-2">
+            {featuredIn.map((c) => (
+              <li key={c.slug}>
+                <Link
+                  href={`/bondi-eat-and-drink/${c.slug}`}
+                  className="inline-block rounded-full border border-sand-300 bg-white px-3 py-1.5 text-sm text-ink-700 transition hover:border-ocean-500 hover:text-ocean-700"
+                >
+                  {c.h1}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {/* More like this */}
       {related.length > 0 && (

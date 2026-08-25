@@ -2,7 +2,7 @@
   "name": "visitbondibeach",
   "version": "0.1.0",
   "private": true,
-  "description": "VisitBondiBeach.com — modern Next.js rebuild migrated from Squarespace",
+  "description": "VisitBondiBeach.com \u2014 modern Next.js rebuild migrated from Squarespace",
   "scripts": {
     "dev": "next dev",
     "build:search": "node scripts/build-search-index.mjs",
@@ -23,7 +23,10 @@
     "seo:regression": "node scripts/seo-regression.mjs",
     "seo:check-index": "node scripts/check-indexability.mjs",
     "freshness:audit": "node scripts/freshness-audit.mjs",
-    "analytics:migrate": "node --experimental-strip-types scripts/migrate-analytics.ts"
+    "analytics:migrate": "node --experimental-strip-types scripts/migrate-analytics.ts",
+    "schema:audit": "node scripts/schema-audit.mjs",
+    "links:fix": "node scripts/fix-internal-links.mjs",
+    "freshness:classify": "node scripts/classify-freshness.mjs"
   },
   "dependencies": {
     "isbot": "^5.2.1",
