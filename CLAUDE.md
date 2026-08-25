@@ -27,6 +27,9 @@ voice is **first person, warm, genuinely local** ("I", "we", "my favourite…"),
   ```
 - Never deploy a red build or failing tests. Gates: `npx tsc --noEmit` · `npx vitest run` ·
   `node scripts/seo-qa.mjs` (0 errors) · `NEXT_PUBLIC_IS_PRODUCTION=true npm run build`.
+  Against a running server: `BASE=… npm run seo:regression` · `npm run schema:audit -- <base>`.
+- **Never run bare `npx <pkg>`** — installing a package into the project wipes `node_modules`.
+  Use `npx --no-install <pkg>` for anything already in devDependencies.
 
 ## Content pipeline
 - Pages live in `content/pages.json` (crawled corpus + **embedded Search Console
@@ -60,6 +63,21 @@ voice is **first person, warm, genuinely local** ("I", "we", "my favourite…"),
 - Consolidate cannibalizing near-duplicates via 301 in `next.config.mjs` + `REDIRECTED_PATHS`
   (`app/[...slug]/page.tsx`) + `indexable: false` in pages.json. Preserve the higher-impression
   URL; migrate the richer body into the survivor before redirecting.
+- **Check `seo-protected-pages.json` BEFORE redirecting anything.** It carries YTD *pageview*
+  data that exists nowhere else; the Search Console impressions in pages.json are near-zero
+  site-wide post-migration and will make a high-traffic page look disposable. Pages with
+  `allowRedirect: false` must never redirect or lose `indexable` - `seo-qa.mjs` enforces this,
+  and an override has to be written into the manifest's `acknowledgedRedirects`.
+- When a page must keep its URL but still competes, **retarget** it (title/h1/meta in
+  `content/overrides.json` *and* `content/pages.json`) rather than redirecting it.
+- Dining collections earn their index slot via `collectionIndexDecision()` (min venues +
+  a declared `intent`); failing ones stay usable but `noindex` and drop out of the sitemap.
+- Internal links must never point at a redirect: `npm run links:fix` repairs, `seo-qa.mjs` fails.
+- Freshness: every authored body needs a `freshnessClass` (`npm run freshness:classify` backfills).
+  `nextReviewAt`/status are DERIVED in `lib/freshness.ts`, never stored. Worklist: `/admin` or
+  `npm run freshness:audit`.
+- Live conditions: `lib/conditions/today.ts` labels every figure measured / forecast / derived.
+  Never present a derived figure as an observation, and never invent one we lack.
 
 ## Commit convention
 End commit messages with the Co-Authored-By + Claude-Session trailers used across the repo
