@@ -27,9 +27,9 @@ const nextConfig = {
       // keyword cannibalisation between near-duplicate articles. No redirect chains:
       // every destination is a canonical page that is not itself redirected.
       // Café / coffee cluster → the canonical Bondi cafés guide:
-      { source: '/bondi-blog/2026/3/24/bondis-best-cafs-right-now-where-to-eat-sip-and-soak-up-the-beach-vibe', destination: '/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach', statusCode: 301 },
-      { source: '/bondi-blog/2025/6/26/ranked-bondis-top-10-coffee-spots-you-cant-miss', destination: '/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach', statusCode: 301 },
-      { source: '/bondi-blog/2024/1/19/bondis-best-coffee-shops', destination: '/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach', statusCode: 301 },
+      { source: '/bondi-blog/2026/3/24/bondis-best-cafs-right-now-where-to-eat-sip-and-soak-up-the-beach-vibe', destination: '/bondi-eat-and-drink/best-cafes-bondi-beach', statusCode: 301 },
+      { source: '/bondi-blog/2025/6/26/ranked-bondis-top-10-coffee-spots-you-cant-miss', destination: '/bondi-eat-and-drink/best-cafes-bondi-beach', statusCode: 301 },
+      { source: '/bondi-blog/2024/1/19/bondis-best-coffee-shops', destination: '/bondi-eat-and-drink/best-cafes-bondi-beach', statusCode: 301 },
       // Bondi Rescue cluster → the stronger page in each pair:
       { source: '/bondi-blog/2024/12/1/ranked-20-most-dramatic-bondi-rescue-rescues', destination: '/bondi-blog/2025/1/12/the-20-most-dramatic-moments-on-bondi-rescue', statusCode: 301 },
       { source: '/bondi-blog/2025/4/29/behind-the-scenes-at-bondi-rescue-20-things-you-may-not-know-about-the-show', destination: '/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue', statusCode: 301 },
@@ -58,8 +58,8 @@ const nextConfig = {
       // Cannibalisation consolidation, round 3 (all near-zero impressions; no chains —
       // destinations are canonical pages that are not themselves redirect sources).
       // Restaurants (3 competing "best Bondi restaurants" pages) → the clean-slug canonical:
-      { source: '/bondi-blog/2023/11/8/definitive-guide-to-bondis-best-restaurants', destination: '/bondi-blog/best-restaurants-bondi-beach', statusCode: 301 },
-      { source: '/bondi-blog/2025/4/25/must-experience-bondi-restaurants-our-top-10-best-restaurants-ranked', destination: '/bondi-blog/best-restaurants-bondi-beach', statusCode: 301 },
+      { source: '/bondi-blog/2023/11/8/definitive-guide-to-bondis-best-restaurants', destination: '/bondi-eat-and-drink/best-restaurants-bondi-beach', statusCode: 301 },
+      { source: '/bondi-blog/2025/4/25/must-experience-bondi-restaurants-our-top-10-best-restaurants-ranked', destination: '/bondi-eat-and-drink/best-restaurants-bondi-beach', statusCode: 301 },
       // Best time to visit (thin duplicate) → the 11-impression seasonal guide:
       { source: '/bondi-blog/best-time-to-visit-bondi-beach', destination: '/bondi-blog/2024/6/9/the-best-time-to-visit-bondi-beach-a-seasonal-guide', statusCode: 301 },
       // City2Surf training duplicates → the 58-impression Heartbreak Hill training pillar:
@@ -107,6 +107,67 @@ const nextConfig = {
       // for redevelopment, so its property guide was removed rather than left recommending a
       // hostel nobody can book. 301 to the hostels category so the intent still lands somewhere.
       { source: '/stay/noahs-bondi-beach', destination: '/stay/hostels-bondi-beach', statusCode: 301 },
+
+      // Round 7 (2026-08-25): the last structural cannibalisation — legacy editorial
+      // articles competing with the structured pages that now own their intent. Every
+      // source below is a blog URL whose primary query is already owned by a richer
+      // database-driven or hub page, and all are near-zero-impression (site-wide total is
+      // ~3.3k impressions post-migration, so there is very little equity at risk here and
+      // a clean one-page-per-intent map is worth far more than the scraps).
+      //
+      // Where the article carried real editorial weight (cafés 776w, bars 980w, vegan
+      // 827w) the writing was NOT discarded: it moved to the surviving collection page as
+      // a collection body (content/collection-bodies/*.json), so the survivor now carries
+      // both the ranked directory and the local voice. Thin sources were simply redirected.
+      //
+      // Chain-free: the two former destinations that now redirect themselves
+      // (/bondi-blog/best-restaurants-bondi-beach and the 2025/4/27 cafés article) had
+      // their five inbound redirects repointed above to the final targets.
+
+      // Eat & drink: the blog list vs. the database collection that supersedes it.
+      { source: '/bondi-blog/best-restaurants-bondi-beach', destination: '/bondi-eat-and-drink/best-restaurants-bondi-beach', statusCode: 301 },
+      { source: '/bondi-blog/2025/4/27/top-10-bondi-cafs-in-2025-best-coffee-brunch-by-the-beach', destination: '/bondi-eat-and-drink/best-cafes-bondi-beach', statusCode: 301 },
+      { source: '/bondi-blog/2025/4/25/10-must-try-bondi-beach-bars-backed-in-2025', destination: '/bondi-eat-and-drink/best-bars-bondi-beach', statusCode: 301 },
+      { source: '/bondi-blog/bondi-beach-cheap-food', destination: '/bondi-eat-and-drink/cheap-eats-bondi-beach', statusCode: 301 },
+      { source: '/bondi-blog/2024/9/7/the-best-vegetarian-and-vegan-restaurants-in-bondi-beach', destination: '/bondi-eat-and-drink/vegan-vegetarian-bondi-beach', statusCode: 301 },
+      { source: '/bondi-blog/best-breakfast-bondi-right-now', destination: '/bondi-eat-and-drink/breakfast-brunch-bondi-beach', statusCode: 301 },
+
+      // Swimming: three thin pages (184w / 228w / 268w) all answering "where is it safe to
+      // swim at Bondi" -> the swim core page, which answers it with a live water temperature.
+      { source: '/bondi-blog/2023/11/7/the-safest-place-to-swim-at-bondi-beach', destination: '/where-to-swim-at-bondi-beach', statusCode: 301 },
+      { source: '/bondi-blog/safe-swimming-bondi-beach', destination: '/where-to-swim-at-bondi-beach', statusCode: 301 },
+      { source: '/bondi-blog/swimming-between-flags-bondi-beach', destination: '/where-to-swim-at-bondi-beach', statusCode: 301 },
+
+      // Surfing: a 204-word stub vs. the 590-word guide on the same query. Thin -> strong,
+      // keeping the guide as the spoke under the /bondi-surfing hub (hubs aggregate spokes,
+      // so the spoke is deliberately NOT redirected into its own hub).
+      { source: '/bondi-blog/surfing-at-bondi', destination: '/bondi-blog/bondi-beach-surf-guide', statusCode: 301 },
+
+      // Things to do / itineraries: thin listicles duplicating the hub that owns the intent.
+      { source: '/bondi-blog/34-best-things-to-do-bondi-beach', destination: '/things-to-do-in-bondi', statusCode: 301 },
+      { source: '/bondi-blog/24-hours-in-bondi-beach', destination: '/itineraries', statusCode: 301 },
+
+      // Events: two evergreen duplicates plus a page frozen on the 2024 calendar -> the
+      // What's On hub, which is generated from data/events.ts and cannot go stale the same way.
+      { source: '/bondi-blog/10-biggest-events-bondi-beach', destination: '/whats-on', statusCode: 301 },
+      { source: '/bondi-blog/bondi-beach-main-events', destination: '/whats-on', statusCode: 301 },
+      { source: '/bondi-blog/2023/11/9/2024-bondi-beach-event-calendar', destination: '/whats-on', statusCode: 301 },
+
+      // Accommodation: the /stay section supersedes the old blog round-ups. The two
+      // backpacker articles go to the hostels category rather than the /stay root, so the
+      // more specific intent still lands on the more specific page.
+      { source: '/bondi-blog/best-accommodation-bondi-beach', destination: '/stay', statusCode: 301 },
+      { source: '/bondi-blog/best-backpacker-hostels-bondi-beach', destination: '/stay/hostels-bondi-beach', statusCode: 301 },
+      { source: '/bondi-blog/accommodation-options-for-backpackers-in-bondi-beach', destination: '/stay/hostels-bondi-beach', statusCode: 301 },
+
+      // A 140-word forecast page for a Christmas that has passed twice. Nothing on it can
+      // be made evergreen, so it goes to the weather hub.
+      { source: '/bondi-blog/2023/12/20/christmas-2024-bondi-weather-forecast', destination: '/bondi-weather', statusCode: 301 },
+
+      // First-time visitor: two general "before you go" articles duplicating /start-here,
+      // which is the designated front door for that intent and far more complete.
+      { source: '/bondi-blog/Locals-guide-Bondi-Beach', destination: '/start-here', statusCode: 301 },
+      { source: '/bondi-blog/2025/4/23/8-things-to-know-before-visiting-bondi-beach', destination: '/start-here', statusCode: 301 },
     ];
   },
 };

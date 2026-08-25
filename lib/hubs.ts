@@ -63,7 +63,7 @@ const HUB_DESIGN: Record<string, HubDesign> = {
     cta: {
       title: 'Hungry for more?',
       text: 'From hidden coffee spots to the best fish and chips on the sand - keep exploring where Bondi eats.',
-      href: '/bondi-blog',
+      href: '/articles',
       label: 'Browse all food & drink guides',
     },
   },

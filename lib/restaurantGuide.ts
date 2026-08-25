@@ -8,6 +8,8 @@
  * (hours, prices, phone) are asserted - those defer to each venue's own live source.
  * Every venue in the directory is source-verified with a current `status`.
  */
+import collectionBodyData from '@/content/collection-body-overrides.json';
+import type { Block, Source, FreshnessClass } from '@/lib/content';
 import {
   type Restaurant,
   type VenueType,
@@ -384,6 +386,46 @@ export const COLLECTIONS: GuideCollection[] = [
     select: (r) => r.precinct === 'bondi-road',
   },
 ];
+
+/* ---------------------- collection editorial bodies ------------------------ */
+
+/**
+ * First-person editorial migrated onto a collection page when a competing article was
+ * consolidated into it. This is what makes the consolidation additive: the surviving URL
+ * gains the writing instead of the site losing it, so one page carries both the ranked
+ * directory and the local voice.
+ *
+ * Compiled from content/collection-bodies/*.json by scripts/build-bodies.mjs (same block
+ * validation as article bodies).
+ */
+export interface CollectionBody {
+  blocks: Block[];
+  wordCount?: number;
+  sources?: Source[];
+  lastReviewed?: string;
+  freshnessClass?: FreshnessClass;
+  checkType?: 'local' | 'desk';
+}
+
+const COLLECTION_BODIES = collectionBodyData as unknown as Record<string, CollectionBody>;
+
+// The build script cannot import this registry to validate slugs, so assert here: a
+// collection body whose slug does not exist would silently render nothing, which is
+// exactly the kind of failure that hides for months. Fail the build instead.
+{
+  const known = new Set(COLLECTIONS.map((c) => c.slug));
+  const unknown = Object.keys(COLLECTION_BODIES).filter((s) => !known.has(s));
+  if (unknown.length > 0) {
+    throw new Error(
+      `content/collection-bodies: no such collection slug(s): ${unknown.join(', ')}. ` +
+      `Known slugs: ${[...known].sort().join(', ')}`,
+    );
+  }
+}
+
+export function collectionBody(slug: string): CollectionBody | undefined {
+  return COLLECTION_BODIES[slug];
+}
 
 export function getCollection(slug: string): GuideCollection | undefined {
   return COLLECTIONS.find((c) => c.slug === slug);

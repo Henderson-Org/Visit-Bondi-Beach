@@ -62,6 +62,34 @@ async function main() {
       issues.warn.push(`Thin page (<150 words): ${p.path} (${p.wordCount}w)`);
   }
 
+  // --- Internal links must not point at a URL that 301s ---
+  // Linking internally to a redirect spends crawl budget on a hop that resolves nowhere,
+  // dilutes the anchor signal, and renders a hub card for a page the visitor never lands
+  // on. Six rounds of consolidation left 21 of these behind before this check existed;
+  // scripts/fix-internal-links.mjs repairs them.
+  const cfg = await readFile(join(ROOT, 'next.config.mjs'), 'utf8');
+  const redirectSources = new Set(
+    [...cfg.matchAll(/\{\s*source:\s*'([^']+)',\s*destination:\s*'([^']+)'/g)].map((m) => m[1]),
+  );
+  for (const p of pages) {
+    for (const s of p.sections || []) {
+      for (const l of s.links || []) {
+        if (redirectSources.has(l.path))
+          issues.error.push(`Hub link to a redirected URL: ${p.path} § ${s.heading} → ${l.path}`);
+        if (l.path === p.path)
+          issues.error.push(`Hub link to itself: ${p.path} § ${s.heading}`);
+      }
+    }
+  }
+  // In-body markdown links on pages that actually render (a redirected page's body never does).
+  for (const [path, ov] of Object.entries(overrides)) {
+    if (redirectSources.has(path)) continue;
+    for (const m of JSON.stringify(ov).matchAll(/\]\((\/[^)"\s]+)\)/g)) {
+      if (redirectSources.has(m[1]))
+        issues.error.push(`Body link to a redirected URL: ${path} → ${m[1]}`);
+    }
+  }
+
   const missingDesc = indexable.filter((p) => !p.metaDescription).length;
   console.log('— SEO QA report —');
   console.log(`Total pages:        ${pages.length}`);

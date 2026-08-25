@@ -42,6 +42,13 @@ const ROOT = join(HERE, '..');
 const BODIES_DIR = join(ROOT, 'content', 'bodies');
 const PAGES = join(ROOT, 'content', 'pages.json');
 const OUT = join(ROOT, 'content', 'body-overrides.json');
+// Editorial bodies for the dining COLLECTION routes (/bondi-eat-and-drink/<slug>).
+// Those pages are generated from data/restaurants.ts, so they have no entry in
+// content/pages.json and cannot live in the map above. They get their own directory
+// and output map, keyed by collection slug, but reuse this file's block validation
+// so a collection body and an article body obey exactly the same rules.
+const COLLECTION_BODIES_DIR = join(ROOT, 'content', 'collection-bodies');
+const COLLECTION_OUT = join(ROOT, 'content', 'collection-body-overrides.json');
 
 const isNonEmptyString = (v) => typeof v === 'string' && v.trim().length > 0;
 const countWords = (s = '') => (s.trim() ? s.trim().split(/\s+/).length : 0);
@@ -151,6 +158,60 @@ async function main() {
   for (const k of Object.keys(map).sort()) sorted[k] = map[k];
   await writeFile(OUT, JSON.stringify(sorted, null, 2) + '\n');
   console.log(`content/body-overrides.json: ${Object.keys(sorted).length} authored body(ies) from ${files.length} file(s).`);
+
+  await buildCollectionBodies();
+}
+
+/**
+ * Editorial bodies for the dining collection routes, keyed by collection slug.
+ *
+ * These exist so consolidating a strong editorial article into its database collection
+ * ADDS the writing to the surviving page instead of discarding it. A collection page
+ * then carries both the ranked directory (from data/restaurants.ts) and the local
+ * editorial voice, which is the whole point of the consolidation.
+ *
+ * The slug is NOT validated here - this script cannot import the TypeScript collection
+ * registry. lib/restaurantGuide.ts asserts at module load that every key in the emitted
+ * map matches a real collection, so a typo fails the build there rather than silently
+ * rendering nothing.
+ */
+async function buildCollectionBodies() {
+  let files = [];
+  try { files = (await readdir(COLLECTION_BODIES_DIR)).filter((f) => f.endsWith('.json')); }
+  catch { /* no collection bodies yet — emit an empty map */ }
+
+  const map = {};
+  for (const f of files.sort()) {
+    const rec = JSON.parse(await readFile(join(COLLECTION_BODIES_DIR, f), 'utf8'));
+    if (!isNonEmptyString(rec.collection)) fail(f, 'missing "collection" (the collection slug)');
+    if (map[rec.collection]) fail(f, `duplicate collection "${rec.collection}"`);
+    if (!Array.isArray(rec.blocks) || !rec.blocks.length) fail(f, 'requires a non-empty "blocks" array');
+    if (rec.lastReviewed && !/^\d{4}-\d{2}-\d{2}$/.test(rec.lastReviewed)) fail(f, 'lastReviewed must be YYYY-MM-DD');
+    if (rec.checkType && rec.checkType !== 'local' && rec.checkType !== 'desk') fail(f, 'checkType must be "local" or "desk"');
+    const FRESHNESS = ['live', 'weekly', 'monthly', 'quarterly', 'seasonal', 'annual', 'evergreen'];
+    if (rec.freshnessClass && !FRESHNESS.includes(rec.freshnessClass)) fail(f, `freshnessClass must be one of ${FRESHNESS.join(', ')}`);
+    if (rec.sources) {
+      if (!Array.isArray(rec.sources)) fail(f, '"sources" must be an array');
+      rec.sources.forEach((s) => { if (!isNonEmptyString(s?.label) || !isNonEmptyString(s?.url)) fail(f, 'each source needs "label" and "url"'); });
+    }
+
+    let wordCount = 0;
+    rec.blocks.forEach((b, i) => { wordCount += validateBlock(f, b, i); });
+
+    map[rec.collection] = {
+      blocks: rec.blocks,
+      wordCount,
+      ...(rec.sources ? { sources: rec.sources } : {}),
+      ...(rec.lastReviewed ? { lastReviewed: rec.lastReviewed } : {}),
+      ...(rec.freshnessClass ? { freshnessClass: rec.freshnessClass } : {}),
+      ...(rec.checkType ? { checkType: rec.checkType } : {}),
+    };
+  }
+
+  const sorted = {};
+  for (const k of Object.keys(map).sort()) sorted[k] = map[k];
+  await writeFile(COLLECTION_OUT, JSON.stringify(sorted, null, 2) + '\n');
+  console.log(`content/collection-body-overrides.json: ${Object.keys(sorted).length} collection body(ies) from ${files.length} file(s).`);
 }
 
 main().catch((e) => { console.error(String(e.message || e)); process.exit(1); });

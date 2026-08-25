@@ -319,7 +319,7 @@ export const EVENTS: BondiEvent[] = [
     source: 'https://www.waverley.nsw.gov.au/recreation/events/events/bondi_festival',
     relatedArticles: [
       { title: 'Bondi Winter Magic, and what it is now', path: '/bondi-blog/bondi-winter-magic' },
-      { title: 'The main events at Bondi Beach', path: '/bondi-blog/bondi-beach-main-events' },
+      { title: "What's on in Bondi", path: '/whats-on' },
     ],
   },
   {

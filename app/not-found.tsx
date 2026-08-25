@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { NAV } from '@/lib/site';
 
 const TOP_GUIDES = [
-  { label: 'Ultimate Bondi Beach travel guide', href: '/bondi-blog/2026/2/21/the-ultimate-bondi-beach-travel-guide-2026-edition' },
+  { label: 'Ultimate Bondi Beach travel guide', href: '/bondi-blog/what-to-do-bondi-beach-travel-guide' },
   { label: 'Getting to Bondi from the airport', href: '/bondi-blog/getting-from-sydney-airport-to-bondi-beach' },
   { label: 'Where to swim at Bondi', href: '/where-to-swim-at-bondi-beach' },
   { label: 'Bondi Icebergs guide', href: '/bondi-icebergs' },

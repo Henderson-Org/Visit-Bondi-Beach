@@ -5,8 +5,9 @@ import { EditorialHero } from '@/components/EditorialHero';
 import { RestaurantCard } from '@/components/eat/RestaurantCard';
 import { isProduction, seoTitle } from '@/lib/site';
 import { breadcrumbJsonLd, itemListJsonLd } from '@/lib/structured-data';
-import { getCollection, collectionSlugs, venuesForCollection, venuePageHref } from '@/lib/restaurantGuide';
+import { getCollection, collectionSlugs, venuesForCollection, venuePageHref, collectionBody } from '@/lib/restaurantGuide';
 import { PRICE_LABEL } from '@/data/restaurants';
+import { BodyBlocks } from '@/components/BodyBlocks';
 
 export const dynamicParams = false;
 export const revalidate = 86400;
@@ -45,6 +46,7 @@ export default async function DiningCollectionPage({ params }: Props) {
   if (!collection) notFound();
 
   const venues = venuesForCollection(collection);
+  const body = collectionBody(slug);
   const path = `/bondi-eat-and-drink/${slug}`;
   const crumbs = [
     { name: 'Home', path: '/' },
@@ -104,6 +106,44 @@ export default async function DiningCollectionPage({ params }: Props) {
           </p>
         )}
       </section>
+
+      {/* Editorial migrated onto this collection when a competing article was consolidated
+          into it (content/collection-bodies/*.json). Runs BELOW the venue grid: the ranked
+          list is what the query asked for, the writing is the reason to stay. */}
+      {body && (
+        <section className="mx-auto max-w-3xl px-4 pt-14">
+          <BodyBlocks blocks={body.blocks} />
+          {(body.lastReviewed || (body.sources && body.sources.length > 0)) && (
+            <footer className="mt-8 border-t border-sand-200 pt-4 text-sm text-ink-500">
+              {body.lastReviewed && body.freshnessClass !== 'evergreen' && (
+                <p>
+                  {body.checkType === 'local' ? 'Last locally checked' : 'Last reviewed'}{' '}
+                  <time dateTime={body.lastReviewed}>
+                    {new Date(body.lastReviewed).toLocaleDateString('en-AU', {
+                      day: 'numeric', month: 'long', year: 'numeric',
+                    })}
+                  </time>
+                  .
+                </p>
+              )}
+              {body.sources && body.sources.length > 0 && (
+                <div className="mt-2">
+                  <p className="font-medium text-ink-700">Sources</p>
+                  <ul className="mt-1 list-disc pl-5">
+                    {body.sources.map((s) => (
+                      <li key={s.url}>
+                        <a href={s.url} className="text-ocean-700 underline" rel="nofollow noopener" target="_blank">
+                          {s.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </footer>
+          )}
+        </section>
+      )}
 
       {collection.relatedReads && collection.relatedReads.length > 0 && (
         <section className="mx-auto max-w-5xl px-4 pt-14">
