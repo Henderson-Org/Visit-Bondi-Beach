@@ -1,0 +1,51 @@
+name: Water quality snapshot
+
+# Records one day of NSW Beachwatch readings for the Bondi-to-Coogee beaches.
+#
+# This is the mechanism that turns a public snapshot feed into a dataset we own. Beachwatch
+# publishes only the CURRENT forecast and latest sample per beach - there is no history
+# endpoint - so the series exists only if something observes the feed every day. Miss a day
+# and that day is gone for good, which is why this runs on a schedule rather than on deploy.
+#
+# It commits to the default branch. The CSV is append-only and the script is idempotent, so
+# a double-fire replaces the day's rows rather than duplicating them.
+
+on:
+  schedule:
+    # 06:10 UTC = 16:10 or 17:10 Sydney depending on daylight saving. Beachwatch issues its
+    # daily forecast in the morning Sydney time, so an afternoon run always sees that day's
+    # forecast rather than racing it.
+    - cron: '10 6 * * *'
+  workflow_dispatch: # so a missed day can be backfilled manually
+
+permissions:
+  contents: write
+
+concurrency:
+  group: water-quality-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch today's readings
+        run: node scripts/snapshot-water-quality.mjs
+
+      - name: Commit the day's observations
+        run: |
+          if git diff --quiet -- data/water-quality-history.csv; then
+            echo "No change — Beachwatch returned the same rows already recorded today."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/water-quality-history.csv
+          git commit -m "Water quality: record $(date -u +%Y-%m-%d) Beachwatch readings"
+          git push

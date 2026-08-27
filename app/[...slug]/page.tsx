@@ -32,6 +32,7 @@ import { EditorialHero } from '@/components/EditorialHero';
 import { GuideCard, excerptFor } from '@/components/GuideCard';
 import { ContentPlannerPromo } from '@/components/ContentPlannerPromo';
 import { LocationPage } from '@/components/location/LocationPage';
+import { WaterQualityPanel } from '@/components/WaterQualityPanel';
 import { getLocation } from '@/data/locations';
 import { LanguageLinks } from '@/components/LanguageLinks';
 import { TranslatedArticle } from '@/components/TranslatedArticle';
@@ -269,6 +270,14 @@ async function CorePageHubView({ page }: { page: Page }) {
           )}
         </div>
       )}
+      {/* Swim pages get the Beachwatch module: "is the water clean" is a question this
+          page is expected to answer and previously could not. */}
+      {page.path === '/where-to-swim-at-bondi-beach' && (
+        <div className="mx-auto max-w-3xl px-4 pt-10">
+          <WaterQualityPanel />
+        </div>
+      )}
+
       <div className="mx-auto max-w-5xl px-4 py-12">
         <h2 className="font-display text-2xl md:text-3xl text-ink-900">{coreHub.explore.heading}</h2>
         <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

@@ -16,6 +16,7 @@ import { getDestination } from './locations';
 import { createOpenMeteoWeatherProvider } from './providers/open-meteo-weather';
 import { createOpenMeteoSurfProvider } from './providers/open-meteo-surf';
 import { createWorldTidesProvider } from './providers/worldtides';
+import { createBeachwatchProvider, BEACHWATCH_SITES } from './providers/beachwatch';
 import { buildSummary } from './summary';
 
 /** Cache window for upstream weather/surf data (seconds). 30 min balances freshness vs. load. */
@@ -40,6 +41,11 @@ const weatherProvider: WeatherProvider = createOpenMeteoWeatherProvider(cachingF
 const surfProvider: SurfProvider = createOpenMeteoSurfProvider(cachingFetch);
 // Tide is optional: it activates only when TIDE_API_KEY is configured. With no key,
 // tide stays null and the UI omits it - never fabricated.
+// Beachwatch is keyless and covers every NSW beach in one request, so it is always on.
+// Cached on the same 30-minute window as weather: its forecast is issued once daily, so a
+// tighter window would only add load without adding freshness.
+const beachwatchProvider = createBeachwatchProvider(cachingFetch);
+
 const tideProvider: TideProvider | null = process.env.TIDE_API_KEY
   ? createWorldTidesProvider(tideFetch, process.env.TIDE_API_KEY, () => Date.now())
   : null;
@@ -73,6 +79,23 @@ async function loadSurf(loc: ConditionsLocation) {
   }
 }
 
+/**
+ * Water quality for a destination. Beachwatch names its own sites, so we look up by the
+ * mapped name rather than by our slug. Any failure yields null and the UI omits the module
+ * - a beach-pollution figure is exactly the kind of thing never to guess at.
+ */
+async function loadWaterQuality(destinationKey: string) {
+  const siteName = BEACHWATCH_SITES[destinationKey as keyof typeof BEACHWATCH_SITES];
+  if (!siteName) return { water: null, meta: null };
+  try {
+    const { sites, meta } = await beachwatchProvider.getAll();
+    return { water: sites.get(siteName.toLowerCase()) ?? null, meta };
+  } catch (err) {
+    console.error('[conditions] beachwatch provider failed:', err);
+    return { water: null, meta: null };
+  }
+}
+
 async function loadTide(loc: ConditionsLocation['surf']) {
   if (!tideProvider || !loc) return null;
   try {
@@ -86,7 +109,11 @@ async function loadTide(loc: ConditionsLocation['surf']) {
 /** Fetch + assemble today's conditions for a destination key (e.g. "bondi"). */
 export async function getConditions(destinationKey?: string): Promise<Conditions> {
   const location = getDestination(destinationKey);
-  const [weather, surfResult] = await Promise.all([loadWeather(location), loadSurf(location)]);
+  const [weather, surfResult, waterResult] = await Promise.all([
+    loadWeather(location),
+    loadSurf(location),
+    loadWaterQuality(location.key),
+  ]);
 
   const summary = buildSummary({
     location,
@@ -103,6 +130,8 @@ export async function getConditions(destinationKey?: string): Promise<Conditions
     weatherMeta: weather.meta,
     surfMeta: surfResult.meta,
     tideMeta: surfResult.tideMeta,
+    water: waterResult.water,
+    waterMeta: waterResult.meta,
     summary,
   };
 }

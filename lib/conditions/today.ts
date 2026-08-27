@@ -19,6 +19,7 @@
 import type { Conditions } from './types';
 import { roundTemp, surfBand } from './geo';
 import { isWetCode } from './wmo';
+import { FORECAST_LABEL, GRADE_LABEL, sampleAgeDays, isSampleStale, waterAdvice } from '@/lib/waterQuality';
 
 export type DataKind = 'measured' | 'forecast' | 'derived';
 
@@ -49,6 +50,16 @@ export interface TodayModel {
   busyness: DerivedCall | null;
   /** Best part of the day to be outside - derived. */
   bestWindow: string | null;
+  /**
+   * NSW Beachwatch water quality, split into today's FORECAST and the most recent LAB
+   * SAMPLE - which are different claims about different days and must never be merged.
+   */
+  water: {
+    forecastLabel: string;
+    advice: string | null;
+    /** Grade of the most recent sample, with how old it is. Null when stale or absent. */
+    sample: { grade: string; ageDays: number } | null;
+  } | null;
   /** Provenance lines, one per upstream dataset actually used. */
   sources: { label: string; url: string; fetchedAt: string; kind: DataKind }[];
 }
@@ -148,7 +159,7 @@ export function busynessCall(c: Conditions, weekday: number): DerivedCall | null
 }
 
 /** Build the full dashboard model. `weekday` comes from the caller so this stays pure. */
-export function buildToday(c: Conditions, weekday: number): TodayModel {
+export function buildToday(c: Conditions, weekday: number, now: Date = new Date()): TodayModel {
   const stats: TodayStat[] = [];
 
   const air = roundTemp(c.current?.temperatureC ?? null);
@@ -184,6 +195,19 @@ export function buildToday(c: Conditions, weekday: number): TodayModel {
   const sunrise = clockTime(c.today?.sunrise);
   if (sunrise) stats.push({ key: 'sunrise', label: 'Sunrise', value: sunrise, note: 'today', kind: 'forecast' });
 
+  // Beachwatch pollution forecast: a forecast for TODAY, so it sits with the other
+  // forecast stats. The lab sample is deliberately NOT a stat - it describes the day it
+  // was taken, and a tile reading "Good" next to "Air 17°C now" would imply otherwise.
+  if (c.water && c.water.forecast !== 'unknown') {
+    stats.push({
+      key: 'pollution',
+      label: 'Pollution',
+      value: c.water.forecast === 'unlikely' ? 'Unlikely' : c.water.forecast === 'possible' ? 'Possible' : 'Likely',
+      note: 'forecast today',
+      kind: 'forecast',
+    });
+  }
+
   const sources: TodayModel['sources'] = [];
   if (c.weatherMeta) {
     sources.push({ label: c.weatherMeta.name, url: c.weatherMeta.url, fetchedAt: c.weatherMeta.fetchedAt, kind: 'forecast' });
@@ -194,12 +218,25 @@ export function buildToday(c: Conditions, weekday: number): TodayModel {
   if (c.tideMeta) {
     sources.push({ label: c.tideMeta.name, url: c.tideMeta.url, fetchedAt: c.tideMeta.fetchedAt, kind: 'measured' });
   }
+  if (c.waterMeta) {
+    sources.push({ label: c.waterMeta.name, url: c.waterMeta.url, fetchedAt: c.waterMeta.fetchedAt, kind: 'forecast' });
+  }
 
   return {
     stats,
     swim: swimCall(c),
     busyness: busynessCall(c, weekday),
     bestWindow: c.summary.bestSurfTime,
+    water: c.water
+      ? {
+          forecastLabel: FORECAST_LABEL[c.water.forecast],
+          advice: waterAdvice(c.water, now),
+          sample:
+            c.water.grade !== 'unknown' && !isSampleStale(c.water, now)
+              ? { grade: GRADE_LABEL[c.water.grade], ageDays: sampleAgeDays(c.water, now) ?? 0 }
+              : null,
+        }
+      : null,
     sources,
   };
 }

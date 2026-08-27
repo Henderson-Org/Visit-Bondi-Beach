@@ -100,6 +100,8 @@ export interface ConditionsLocation {
   authoritativeSurfUrl: string | null;
 }
 
+import type { WaterQuality } from '@/lib/waterQuality';
+
 export type SurfSuitability = 'beginner' | 'moderate' | 'experienced' | 'poor';
 
 export interface ConditionsSummary {
@@ -125,6 +127,12 @@ export interface Conditions {
   weatherMeta: ProviderMeta | null;
   surfMeta: ProviderMeta | null;
   tideMeta: ProviderMeta | null;
+  /**
+   * NSW Beachwatch water quality for this beach. Null when the beach is not monitored or
+   * the feed was unavailable - never inferred from rainfall or anything else we hold.
+   */
+  water: WaterQuality | null;
+  waterMeta: ProviderMeta | null;
   summary: ConditionsSummary;
 }
 

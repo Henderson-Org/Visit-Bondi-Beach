@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getConditions } from '@/lib/conditions/service';
 import { buildToday, type DataKind, type DerivedCall } from '@/lib/conditions/today';
+import { RAIN_RULE } from '@/lib/waterQuality';
 import { sydneyToday, weekdayOf, upcomingEvents, passesDateFilter, whenLabel } from '@/lib/events';
 
 /**
@@ -120,6 +121,32 @@ export async function BondiToday({ heading = 'Bondi right now' }: { heading?: st
         <span className={`rounded-full px-1.5 py-0.5 font-medium ${KIND_CHIP.derived}`}>est</span>{' '}
         our estimate
       </p>
+
+      {/* Water quality. Separated from the swim verdict on purpose: that one is OUR
+          inference, this is NSW Beachwatch's. The lab sample carries its own age so a
+          week-old grade can never read as a measurement of the water right now. */}
+      {model.water?.advice && (
+        <div className="mt-5 rounded-xl border border-sand-200 bg-white p-4">
+          <div className="flex flex-wrap items-baseline gap-2">
+            <h3 className="text-sm font-semibold uppercase tracking-wide text-ink-500">Water quality</h3>
+            <span className={`rounded-full px-1.5 py-0.5 text-[10px] font-medium ${KIND_CHIP.forecast}`}>
+              NSW Beachwatch
+            </span>
+          </div>
+          <p className="mt-1.5 font-display text-lg leading-snug text-ink-900">{model.water.forecastLabel}</p>
+          <p className="mt-1.5 text-sm leading-relaxed text-ink-500">{model.water.advice}</p>
+          {model.water.sample && (
+            <p className="mt-1.5 text-xs text-ink-400">
+              Most recent lab sample graded {model.water.sample.grade.toLowerCase()},{' '}
+              {model.water.sample.ageDays === 0
+                ? 'taken today'
+                : `taken ${model.water.sample.ageDays} day${model.water.sample.ageDays === 1 ? '' : 's'} ago`}
+              .
+            </p>
+          )}
+          <p className="mt-2 text-xs leading-relaxed text-ink-500">{RAIN_RULE}</p>
+        </div>
+      )}
 
       {(model.swim || model.busyness) && (
         <div className="mt-5 grid gap-3 sm:grid-cols-2">

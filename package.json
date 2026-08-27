@@ -26,7 +26,8 @@
     "analytics:migrate": "node --experimental-strip-types scripts/migrate-analytics.ts",
     "schema:audit": "node scripts/schema-audit.mjs",
     "links:fix": "node scripts/fix-internal-links.mjs",
-    "freshness:classify": "node scripts/classify-freshness.mjs"
+    "freshness:classify": "node scripts/classify-freshness.mjs",
+    "water:snapshot": "node scripts/snapshot-water-quality.mjs"
   },
   "dependencies": {
     "isbot": "^5.2.1",

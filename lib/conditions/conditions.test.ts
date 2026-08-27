@@ -160,7 +160,8 @@ function conditions(o: Partial<SummaryInput>): Conditions {
   const i = input(o);
   return {
     location: i.location, current: i.current, today: i.today, surf: i.surf,
-    weatherMeta: null, surfMeta: null, tideMeta: null, summary: buildSummary(i),
+    weatherMeta: null, surfMeta: null, tideMeta: null,
+    water: null, waterMeta: null, summary: buildSummary(i),
   };
 }
 

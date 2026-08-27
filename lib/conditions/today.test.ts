@@ -20,7 +20,7 @@ const conds = (over: {
     surf: { waveHeightM: over.wave ?? null, waveHeightMaxM: null, swellHeightM: null,
       swellDirectionDeg: null, swellCompass: null, swellPeriodS: null, windWaveHeightM: null,
       waterTempC: over.water ?? null, tide: null },
-    weatherMeta: null, surfMeta: null, tideMeta: null,
+    weatherMeta: null, surfMeta: null, tideMeta: null, water: null, waterMeta: null,
     summary: { headline: '', paragraph: '', bestSurfTime: null, surfOutlook: null, suitability: null, safetyNote: null },
   }) as Conditions;
 
