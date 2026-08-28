@@ -27,7 +27,8 @@
     "schema:audit": "node scripts/schema-audit.mjs",
     "links:fix": "node scripts/fix-internal-links.mjs",
     "freshness:classify": "node scripts/classify-freshness.mjs",
-    "water:snapshot": "node scripts/snapshot-water-quality.mjs"
+    "water:snapshot": "node scripts/snapshot-water-quality.mjs",
+    "build:rescue-csv": "node scripts/build-rescue-csv.mjs"
   },
   "dependencies": {
     "isbot": "^5.2.1",

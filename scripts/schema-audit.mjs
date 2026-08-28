@@ -34,6 +34,7 @@ const PAGES = [
   '/start-here',
   '/articles',
   '/bondi-blog/bondi-rescue-who-are-the-lifeguards',
+  '/bondi-rescue-statistics',
 ];
 
 const errors = [];
