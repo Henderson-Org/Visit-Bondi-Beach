@@ -11,7 +11,9 @@
  *   • Waverley Council lifeguards — the paid, year-round professionals seen on Bondi
  *     Rescue. They patrol Bondi, Tamarama and Bronte 365 days a year and perform the
  *     majority of Bondi's rescues. Their per-beach figures are NOT published in any
- *     source we could obtain; they appear only in council reporting.
+ *     source we could obtain; they appear only in council reporting. See
+ *     docs/rescue-data-request.md for the GIPA request that would obtain them, and for
+ *     how to merge them in WITHOUT summing the two services (they count differently).
  *
  *   • Volunteer surf lifesavers — the club members in red and yellow, patrolling
  *     weekends and public holidays in season. Their statistics are published by Surf
