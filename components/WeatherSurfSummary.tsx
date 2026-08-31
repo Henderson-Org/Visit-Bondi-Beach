@@ -81,7 +81,9 @@ function detailRows(c: Conditions): Labelled[] {
 function ConditionsBar({ c }: { c: Conditions }) {
   const { location, current } = c;
   const temp = roundTemp(current?.temperatureC ?? null);
-  const emoji = current?.weather?.emoji ?? c.today?.weather?.emoji ?? '🌤️';
+  // No default: a sun-behind-cloud glyph when the weather provider is down is the same
+  // fabrication as the old "Mild today" fallback, just in picture form. Render nothing.
+  const emoji = current?.weather?.emoji ?? c.today?.weather?.emoji ?? null;
   const label = current?.weather?.label ?? c.today?.weather?.label ?? null;
   const updated = clockTime(c.weatherMeta?.providerUpdatedAt ?? null);
 
@@ -151,7 +153,9 @@ export async function WeatherSurfSummary({
   if (variant === 'bar') return <ConditionsBar c={c} />;
 
   const temp = roundTemp(current?.temperatureC ?? null);
-  const emoji = current?.weather?.emoji ?? c.today?.weather?.emoji ?? '🌤️';
+  // No default: a sun-behind-cloud glyph when the weather provider is down is the same
+  // fabrication as the old "Mild today" fallback, just in picture form. Render nothing.
+  const emoji = current?.weather?.emoji ?? c.today?.weather?.emoji ?? null;
   const label = current?.weather?.label ?? c.today?.weather?.label ?? null;
 
   return (

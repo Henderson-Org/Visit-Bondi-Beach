@@ -9,12 +9,19 @@
  * Headline index = MEDIAN standard-coffee price per year. Only HIGH/MEDIUM confidence
  * observations feed the headline calcs (LOW kept in raw for transparency, excluded here).
  *
+ * It also republishes the raw CSV to public/data/, which is the URL the page's download
+ * link and its Dataset schema `distribution` point at. That copy used to be made by hand
+ * and had silently drifted from the source (a venue's suburb was missing from the published
+ * file), so the file we hand to Google Dataset Search disagreed with the file we compute
+ * from. Copying it here makes drift impossible; lib/coffeeIndex.test.ts asserts it.
+ *
  *   node scripts/coffee-index.mjs
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 
 const CSV = 'data/bondi-coffee-index.csv';
 const OUT = 'data/bondi-coffee-index.derived.json';
+const PUBLISHED_CSV = 'public/data/bondi-coffee-index.csv';
 
 // --- tiny CSV parser (quoted fields, commas, escaped quotes) ---
 function parseCsv(text) {
@@ -37,7 +44,8 @@ function parseCsv(text) {
   return rows;
 }
 
-const raw = parseCsv(readFileSync(CSV, 'utf8'));
+const csvText = readFileSync(CSV, 'utf8');
+const raw = parseCsv(csvText);
 const header = raw.shift().map((h) => h.trim());
 const obs = raw
   .filter((r) => r.length >= header.length && r.some((c) => c.trim() !== ''))
@@ -155,8 +163,10 @@ const derived = {
 };
 
 writeFileSync(OUT, JSON.stringify(derived, null, 2) + '\n');
+writeFileSync(PUBLISHED_CSV, csvText);
 console.log(`Bondi Coffee Index — ${headline.length} headline obs (of ${obs.length} raw) across years ${years.join(', ') || '(none yet)'}`);
 if (idxLatest != null) console.log(`  ${latest} index (median): $${idxLatest.toFixed(2)}  ·  ${byYear[latest].n} venues`);
 if (fiveYear) console.log(`  ${fiveYear.fromYear}->${fiveYear.toYear}: ${fiveYear.totalPct}%  (CAGR ${fiveYear.cagrPct}%/yr)`);
 console.log(`  matched cohort: ${matched.length} venues`);
 console.log(`  wrote ${OUT}`);
+console.log(`  wrote ${PUBLISHED_CSV}`);

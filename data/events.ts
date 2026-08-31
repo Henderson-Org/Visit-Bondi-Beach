@@ -333,15 +333,14 @@ export const EVENTS: BondiEvent[] = [
       'It is not a Bondi event - the course stays on the harbour side of the city - but race weekend reshapes the whole of Sydney, and a lot of runners base themselves in Bondi for the coastal-walk hills and the cold-water recovery. Expect widespread road closures and busy trains across the CBD and North Sydney on race morning.',
     ],
     timezone: 'Australia/Sydney',
-    // Sunday 30 August 2026 (marathon + 10 km); the 5 km Mini Marathon runs Saturday 29 August.
-    // endDate covers the weekend as a whole so the What's On listing spans both days.
-    startDate: '2026-08-29',
-    endDate: '2026-08-30',
+    // The 2026 edition ran 29-30 August 2026 (5 km Mini Marathon Saturday, marathon and 10 km
+    // Sunday) and has passed; 2027 dates are not yet published, so TBC is accurate here rather
+    // than an asserted date. Flagged for re-check by scripts/verify-events.mjs.
     recurrence: { freq: 'annual', month: 8 },
-    dateStatus: 'announced',
+    dateStatus: 'tbc',
     typicalTiming: 'The last weekend of August',
-    nextEditionYear: 2026,
-    whenText: 'Sat 29 - Sun 30 August 2026',
+    nextEditionYear: 2027,
+    whenText: 'Next edition August 2027 - dates to be announced',
     venue: 'North Sydney to the Sydney Opera House',
     suburb: 'Sydney',
     categories: ['sport', 'fitness', 'community'],

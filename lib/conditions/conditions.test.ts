@@ -149,9 +149,20 @@ describe('written-summary engine', () => {
     expect(s.paragraph.toLowerCase()).toContain('today');
   });
 
-  it('always produces a headline and a non-empty paragraph', () => {
-    const s = buildSummary(input({}));
-    expect(s.headline.length).toBeGreaterThan(0);
+  // This previously asserted a non-empty paragraph for empty input, which locked in a
+  // fabrication: with no temperature the summary said "Mild today". Saying nothing is the
+  // correct behaviour when we know nothing.
+  it('says nothing rather than inventing a temperature when there is no reading', () => {
+    const s = buildSummary(input({ current: null, today: null, surf: null }));
+    expect(s.paragraph.toLowerCase()).not.toContain('mild');
+    expect(s.headline.toLowerCase()).not.toContain('mild');
+  });
+
+  it('does not invent a temperature word when only the marine provider responded', () => {
+    // The real partial-outage shape: weather 404s, surf succeeds.
+    const s = buildSummary(input({ current: null, today: null }));
+    expect(s.paragraph.toLowerCase()).not.toContain('mild today');
+    // It should still describe the surf it actually has.
     expect(s.paragraph.length).toBeGreaterThan(0);
   });
 });

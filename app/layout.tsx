@@ -35,7 +35,13 @@ export const metadata: Metadata = {
     template: `%s - ${SITE.name}`,
   },
   description: SITE.description,
-  alternates: { canonical: '/' },
+  // No default canonical here. Next.js metadata is inherited, so a `canonical: '/'` on the
+  // root layout silently makes every page that forgets its own canonical claim to BE the
+  // homepage - the one canonical error search engines act on immediately, by dropping the
+  // page. Every indexable route sets its own (the homepage included, in app/page.tsx); the
+  // only routes without one are /admin and /admin/login, which are noindex and auth-gated,
+  // and are better off with no canonical than a wrong one. scripts/seo-regression.mjs
+  // checks canonicals against the served URL.
   openGraph: {
     siteName: SITE.name,
     type: 'website',

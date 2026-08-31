@@ -26,9 +26,17 @@ export interface SummaryInput {
 
 const cap = (s: string) => (s ? s[0].toUpperCase() + s.slice(1) : s);
 
-function tempWord(maxC: number | null, currentC: number | null): string {
+/**
+ * A word for the day's temperature, or NULL when we have no temperature.
+ *
+ * This used to fall back to 'Mild', which meant a partial provider outage (weather down,
+ * marine up) rendered "Mild today" — a fabricated observation, in the one module whose
+ * whole job is to never present a guess as a reading. Callers must now handle null by
+ * omitting the sentence rather than inventing a word for it.
+ */
+function tempWord(maxC: number | null, currentC: number | null): string | null {
   const t = maxC ?? currentC;
-  if (t == null) return 'Mild';
+  if (t == null) return null;
   if (t < 10) return 'Cold';
   if (t < 15) return 'Cool';
   if (t < 20) return 'Mild';
@@ -55,11 +63,16 @@ function swellSizeWord(m: number | null): string {
 }
 
 /** Weather sentence - always available (falls back to current temp). */
-function weatherSentence(input: SummaryInput): string {
+function weatherSentence(input: SummaryInput): string | null {
   const { current, today } = input;
   const label = today?.weather?.label ?? current?.weather?.label ?? null;
   const word = tempWord(today?.maxTempC ?? null, current?.temperatureC ?? null);
   const max = roundTemp(today?.maxTempC ?? null);
+
+  // No temperature: say only what we actually have. With a weather label ("light
+  // showers") we can still describe the day honestly; with nothing, say nothing.
+  if (!word) return label ? `${cap(label)} today.` : null;
+
   const base = label ? `${word} and ${label.toLowerCase()} today` : `${word} today`;
   return max != null ? `${base}, with a top of ${max}°C.` : `${base}.`;
 }
@@ -212,7 +225,11 @@ export function buildSummary(input: SummaryInput): ConditionsSummary {
 
   const label = input.today?.weather?.label ?? input.current?.weather?.label ?? null;
   const word = tempWord(input.today?.maxTempC ?? null, input.current?.temperatureC ?? null);
-  const headline = label ? `${word} and ${label.toLowerCase()}` : `${cap(word)} today`;
+  // Same rule for the headline: no temperature means no temperature word. Falls back to
+  // the weather label, then to the empty string, rather than to an invented 'Mild'.
+  const headline = word
+    ? (label ? `${word} and ${label.toLowerCase()}` : `${cap(word)} today`)
+    : (label ? `${cap(label)} today` : '');
 
   return {
     headline: cap(headline),
