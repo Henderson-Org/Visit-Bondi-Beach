@@ -121,6 +121,7 @@ describe('range presets', () => {
 
   it('resolves each quick option', () => {
     expect(resolveRange({ preset: 'today' }, now)).toMatchObject({ from: '2026-08-14', to: '2026-08-14' });
+    expect(resolveRange({ preset: 'yesterday' }, now)).toMatchObject({ from: '2026-08-13', to: '2026-08-13' });
     expect(resolveRange({ preset: '7d' }, now)).toMatchObject({ from: '2026-08-08', to: '2026-08-14' });
     expect(resolveRange({ preset: '30d' }, now)).toMatchObject({ from: '2026-07-16', to: '2026-08-14' });
     expect(resolveRange({ preset: 'year' }, now)).toMatchObject({ from: '2026-01-01', to: '2026-08-14' });
@@ -129,6 +130,51 @@ describe('range presets', () => {
 
   it('defaults to 30 days when nothing is specified', () => {
     expect(resolveRange({}, now).preset).toBe('30d');
+  });
+
+  it('ends "yesterday" on yesterday, not today', () => {
+    // Every other preset runs up to today. Yesterday is the one that must not, or it would
+    // be indistinguishable from a 2-day range with a part day tacked on the end.
+    const r = resolveRange({ preset: 'yesterday' }, now);
+    expect(r.to).toBe('2026-08-13');
+    expect(r.preset).toBe('yesterday');
+    expect(daysBetweenInclusive(r.from, r.to)).toBe(1);
+  });
+
+  it('takes "yesterday" from the Sydney day, not the UTC one', () => {
+    // 22:00 UTC on 14 Aug is already 15 Aug in Sydney, so yesterday is the 14th.
+    expect(resolveRange({ preset: 'yesterday' }, new Date('2026-08-14T22:00:00Z'))).toMatchObject({
+      from: '2026-08-14',
+      to: '2026-08-14',
+    });
+  });
+
+  it('crosses a Sydney DST boundary without losing or repeating a day', () => {
+    // Sydney leaves DST on 5 April 2026 (clocks back at 03:00). A yesterday computed by
+    // subtracting 24 hours of wall time would land back on the 5th; calendar arithmetic
+    // on the Sydney date gives the 5th from the 6th, and the 4th from the 5th.
+    expect(resolveRange({ preset: 'yesterday' }, new Date('2026-04-06T02:00:00Z')).from).toBe('2026-04-05');
+    expect(resolveRange({ preset: 'yesterday' }, new Date('2026-04-05T02:00:00Z')).from).toBe('2026-04-04');
+    // Same at the start of DST (clocks forward 4 October 2026).
+    expect(resolveRange({ preset: 'yesterday' }, new Date('2026-10-04T02:00:00Z')).from).toBe('2026-10-03');
+  });
+
+  it('buckets yesterday hourly, over a full 24 hours', () => {
+    // A complete day, unlike "today", which is only ever filled up to the current hour.
+    const r = resolveRange({ preset: 'yesterday' }, now);
+    expect(bucketFor(r)).toBe('hour');
+    const buckets = generateBuckets(r, 'hour');
+    expect(buckets).toHaveLength(24);
+    expect(buckets[0]).toBe('2026-08-13T00:00');
+    expect(buckets[23]).toBe('2026-08-13T23:00');
+  });
+
+  it('still treats the word "yesterday" as a malformed custom date', () => {
+    // The preset shares its name with nothing in the date parser: a custom range is only
+    // ever YYYY-MM-DD, so a stray `from=yesterday` must not resolve to the preset.
+    const r = resolveRange({ preset: 'custom', from: 'yesterday', to: '2026-08-01' }, now);
+    expect(r.preset).toBe('30d');
+    expect(r.invalid).toMatch(/invalid/i);
   });
 
   it('accepts a valid custom range', () => {

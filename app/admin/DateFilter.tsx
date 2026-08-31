@@ -5,6 +5,7 @@ import { useState } from 'react';
 
 const PRESETS: { key: string; label: string }[] = [
   { key: 'today', label: 'Today' },
+  { key: 'yesterday', label: 'Yesterday' },
   { key: '7d', label: '7 days' },
   { key: '30d', label: '30 days' },
   { key: 'year', label: 'This year' },
@@ -107,7 +108,8 @@ export function DateFilter({ preset, from, to }: { preset: string; from: string;
         </form>
       )}
       <p className="text-xs text-ink-500">
-        Showing {from} to {to} (Australia/Sydney)
+        {/* Two presets are a single day, so "from X to X" would be the common case. */}
+        {from === to ? `Showing ${from}` : `Showing ${from} to ${to}`} (Australia/Sydney)
         {params.get('page') ? ' · page ' + params.get('page') : ''}
       </p>
     </div>

@@ -131,7 +131,7 @@ export function referrerHost(referrer: string | null | undefined): string | null
  * Date ranges - all reasoning is in Sydney local dates (YYYY-MM-DD).  *
  * ------------------------------------------------------------------ */
 
-export type Preset = 'today' | '7d' | '30d' | 'year' | 'all' | 'custom';
+export type Preset = 'today' | 'yesterday' | '7d' | '30d' | 'year' | 'all' | 'custom';
 
 export interface DateRange {
   /** Inclusive Sydney-local start date, YYYY-MM-DD. */
@@ -205,6 +205,13 @@ export function resolveRange(
   switch (preset) {
     case 'today':
       return fixed('today', today);
+    case 'yesterday': {
+      // The only preset that does not run up to today. Yesterday is the most useful single
+      // day to look at: it is the most recent COMPLETE one, where "today" is always a part
+      // day whose totals are still climbing and can't be compared with anything.
+      const y = addDays(today, -1);
+      return { from: y, to: y, preset: 'yesterday' };
+    }
     case '7d':
       return fixed('7d', addDays(today, -6));
     case '30d':
