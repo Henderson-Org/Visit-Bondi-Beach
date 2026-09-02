@@ -47,3 +47,30 @@ video {
   max-width: 100%;
   height: auto;
 }
+
+/*
+ * Third-party embed containment.
+ *
+ * The Travelpayouts web integration (components/TravelpayoutsEmbed.tsx) picks its own
+ * insertion points: it ships a snapshot of the page to their service and injects the
+ * returned widget as RAW DOM - no shadow root, no iframe - so the widget inherits our
+ * CSS and sits in our layout flow. It exposes no opt-out attribute and no placement API,
+ * so where a widget lands is not something this codebase can configure.
+ *
+ * It chose a quick-facts tile, which is ~160px wide on a phone. A hotel widget cannot
+ * render in 160px: it wrapped to one word per line and broke out of the card.
+ *
+ * `data-no-embed` marks a container that renders ONLY its own text, which makes the rule
+ * below structural rather than a guess at the third party's class names (those can change
+ * without notice; our own markup cannot change without us). Anything that is not the
+ * <dt>/<dd> we rendered was injected, and is hidden rather than allowed to wreck the
+ * layout. A widget squeezed into a 160px cell earns nothing anyway.
+ *
+ * Put `data-no-embed` on any container too narrow or too structured to survive an
+ * uninvited child.
+ */
+[data-no-embed] > :not(dt):not(dd),
+[data-no-embed] > dt > *,
+[data-no-embed] > dd > * {
+  display: none !important;
+}

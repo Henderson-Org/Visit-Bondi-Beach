@@ -20,7 +20,12 @@ export function QuickFacts({ items }: { items: QuickFact[] }) {
   return (
     <dl aria-label="Quick facts" className="my-6 grid grid-cols-2 gap-2.5 sm:grid-cols-4">
       {items.map((f) => (
-        <div key={f.label} className="rounded-xl border border-sand-200 bg-white p-4">
+        // data-no-embed: see app/globals.css. A quick-facts tile is ~160px wide on a
+        // phone, and the Travelpayouts web integration injected a hotel widget into one,
+        // which wrapped to one word per line and burst out of the card. The tile renders
+        // nothing but text, so the rule can hide foreign nodes without knowing anything
+        // about the third party's markup.
+        <div key={f.label} data-no-embed className="rounded-xl border border-sand-200 bg-white p-4">
           <dt className="text-[11px] uppercase tracking-wide text-ink-500">{f.label}</dt>
           <dd className="mt-1 text-sm font-medium text-ink-900">{f.value}</dd>
         </div>
