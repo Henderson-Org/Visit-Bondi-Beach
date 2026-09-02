@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
 
@@ -50,6 +50,18 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image' },
   // Belt-and-braces: staging/preview deployments are globally noindex.
   robots: isProduction() ? undefined : { index: false, follow: false },
+};
+
+/**
+ * The icons themselves are picked up from the app/ file conventions (icon.svg,
+ * favicon.ico, apple-icon.png), so there is no `metadata.icons` block to keep in sync
+ * with the files - Next emits the <link> tags from whatever is on disk.
+ *
+ * themeColor tints the browser UI around the page on Android Chrome and on iOS Safari,
+ * and is the same teal as the icon tile.
+ */
+export const viewport: Viewport = {
+  themeColor: '#186576',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
