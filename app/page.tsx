@@ -91,8 +91,8 @@ export default function HomePage() {
         <DayPlannerPromo variant="homepage" placement="homepage" />
       </div>
 
-      {/* Live surf cam - a genuinely useful live feature, pairing with the conditions bar
-          above. Embedded iframe (North Bondi SLSC's own public camera). */}
+      {/* Live camera - a link out to the club's own player. It used to be embedded here
+          until they domain-locked it; see the comment in components/SurfCam.tsx. */}
       <div className="pt-10">
         <SurfCam />
       </div>
