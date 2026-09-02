@@ -2,7 +2,7 @@
   "name": "visitbondibeach",
   "version": "0.1.0",
   "private": true,
-  "description": "VisitBondiBeach.com \u2014 modern Next.js rebuild migrated from Squarespace",
+  "description": "VisitBondiBeach.com — modern Next.js rebuild migrated from Squarespace",
   "scripts": {
     "dev": "next dev",
     "build:search": "node scripts/build-search-index.mjs",
@@ -30,7 +30,8 @@
     "water:snapshot": "node scripts/snapshot-water-quality.mjs",
     "build:rescue-csv": "node scripts/build-rescue-csv.mjs",
     "build:coffee-index": "node scripts/coffee-index.mjs",
-    "build:icons": "node scripts/build-icons.mjs"
+    "build:icons": "node scripts/build-icons.mjs",
+    "deploy:check": "node scripts/check-deploy-freshness.mjs"
   },
   "dependencies": {
     "isbot": "^5.2.1",

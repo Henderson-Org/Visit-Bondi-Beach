@@ -50,6 +50,13 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image' },
   // Belt-and-braces: staging/preview deployments are globally noindex.
   robots: isProduction() ? undefined : { index: false, follow: false },
+  // The commit this deployment was built from, baked in at build time. It exists so a
+  // FROZEN DEPLOY PIPELINE IS VISIBLE. When the repo moved to the Henderson-Org
+  // organisation, Vercel stayed connected to the old owner and silently stopped building;
+  // the site kept serving happily for thirteen days because ISR keeps regenerating pages
+  // with fresh weather from the live providers, so nothing looked wrong. Only the code was
+  // frozen. `npm run deploy:check` compares this value against origin/main and says so.
+  other: { 'build-commit': process.env.VERCEL_GIT_COMMIT_SHA?.slice(0, 40) ?? 'local' },
 };
 
 /**
