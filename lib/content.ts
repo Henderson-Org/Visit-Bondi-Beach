@@ -117,6 +117,10 @@ export interface Page {
   // re-checked → "Last reviewed". freshnessClass drives the maintenance cadence + audit.
   checkType?: 'local' | 'desk' | null;
   freshnessClass?: FreshnessClass | null;
+  // Suppresses the in-article ad units for this page. Set on content where running ads
+  // would be in poor taste and would cost more trust than the impressions are worth -
+  // an obituary, a death, a serious incident. Authored per page in content/bodies/*.json.
+  noAds?: boolean;
 }
 
 interface BodyOverride {
@@ -127,6 +131,7 @@ interface BodyOverride {
   checkType?: 'local' | 'desk';
   freshnessClass?: FreshnessClass;
   voice?: string;
+  noAds?: boolean;
 }
 
 // Authored first-person bodies, keyed by page path. Compiled from the per-article
@@ -146,6 +151,7 @@ const PAGES = (pagesData as unknown as Page[]).map((p) => {
     lastReviewed: ov.lastReviewed ?? null,
     checkType: ov.checkType ?? null,
     freshnessClass: ov.freshnessClass ?? null,
+    noAds: ov.noAds ?? false,
     authoredBody: true,
   } as Page;
 });

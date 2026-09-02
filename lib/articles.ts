@@ -18,6 +18,9 @@ export type ArticleTopic =
   | 'weather'
   | 'family'
   | 'stay'
+  // The television series and the people on it. Distinct from swim: this is the show,
+  // not beach safety.
+  | 'bondi-rescue'
   // Bondi as a subject in itself - history, names, landmarks, culture. These belong to the
   // Bondi Beach entity page, which is the canonical "what is this place" URL.
   | 'history'
@@ -39,6 +42,7 @@ export const TOPIC_LABEL: Record<ArticleTopic, string> = {
   weather: 'Weather',
   family: 'Family',
   stay: 'Stay',
+  'bondi-rescue': 'Bondi Rescue',
   history: 'Bondi Beach',
   practical: 'Know before you go',
   general: 'General',
@@ -58,6 +62,7 @@ export const TOPIC_SECTION: Partial<Record<ArticleTopic, string>> = {
   weather: '/bondi-weather',
   family: '/bondi-with-kids',
   stay: '/stay',
+  'bondi-rescue': '/bondi-rescue',
   history: '/bondi-beach',
   practical: '/start-here',
 };
@@ -83,6 +88,13 @@ export function articleTopic(p: Page): ArticleTopic {
   // Surfing (the sport) BEFORE swim - specific surf terms only, so "surf lifesaving" and
   // "surf lifesaver" stay under swim/safety, not surfing.
   if (/surf(ing| lesson| board| cam| school| break| guide)|learn to surf/.test(s)) return 'surfing';
+  // The TV series, BEFORE swim - the swim pattern below also matches "bondi rescue", so
+  // without this every article about the show filed under Swim and breadcrumbed
+  // "Home > Swim > …", even though /bondi-rescue exists as its own hub. Matching the show's
+  // full name and not a bare `lifeguard` is deliberate: "Are there lifeguards at Bondi
+  // Beach?" and "the lifeguards who ran toward danger" are beach-safety questions and
+  // belong under swim, not under a page about a television programme.
+  if (/bondi rescue/.test(s)) return 'bondi-rescue';
   if (/swim|snorkel|icebergs|ocean pool|\brip\b|lifeguard|bondi rescue|water temp|water (clean|quality|polluted)|shark|bluebottle|tar ball/.test(s)) return 'swim';
   if (/\bkid|family|children|toddler|pram|playground/.test(s)) return 'family';
   if (/coastal walk|bronte|tamarama|coogee|clovelly|gordons bay/.test(s)) return 'coastal-walk';
@@ -134,6 +146,6 @@ export function articleFacets(): ArticleFacet[] {
 export function articleTopicsWithCounts(): { topic: ArticleTopic; count: number }[] {
   const counts = new Map<ArticleTopic, number>();
   for (const f of articleFacets()) counts.set(f.topic, (counts.get(f.topic) || 0) + 1);
-  const order: ArticleTopic[] = ['things-to-do', 'itineraries', 'swim', 'surfing', 'eat-drink', 'coastal-walk', 'getting-here', 'parking', 'city2surf', 'weather', 'family', 'stay', 'practical', 'history', 'general'];
+  const order: ArticleTopic[] = ['things-to-do', 'itineraries', 'swim', 'surfing', 'eat-drink', 'coastal-walk', 'getting-here', 'parking', 'city2surf', 'weather', 'family', 'stay', 'bondi-rescue', 'practical', 'history', 'general'];
   return order.filter((t) => counts.has(t)).map((t) => ({ topic: t, count: counts.get(t)! }));
 }

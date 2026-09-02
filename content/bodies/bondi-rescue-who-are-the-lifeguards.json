@@ -1,7 +1,7 @@
 {
   "path": "/bondi-blog/bondi-rescue-who-are-the-lifeguards",
   "voice": "first-person",
-  "lastReviewed": "2026-08-20",
+  "lastReviewed": "2026-09-02",
   "freshnessClass": "seasonal",
   "sources": [
     {
@@ -41,6 +41,11 @@
     {
       "type": "p",
       "text": "The crew you know from Bondi Rescue are real professional lifeguards employed by Waverley Council - not actors, and not the volunteer surf lifesavers in the red-and-yellow caps. They're the same team in blue and yellow you'll see working the sand any day of the year. The show made them famous; the day job is keeping one of the world's busiest beaches safe. Rosters rotate season to season, so I treat the bios below as the well-known regulars rather than a live line-up."
+    },
+    {
+      "type": "callout",
+      "title": "Matt Dee, 2008-2017",
+      "text": "Former Bondi Rescue lifeguard **Matt Dee** has died, announced on 2 September 2026 by FTW Revolution, the label he founded. He was on the show for nine seasons and went on to work in suicide prevention and mental health advocacy. [What we know, and how he is being remembered](/bondi-blog/matt-dee-bondi-rescue)."
     },
     {
       "type": "h2",
@@ -164,6 +169,10 @@
     {
       "type": "faq",
       "items": [
+        {
+          "q": "What happened to Matt Dee?",
+          "a": "Matt Dee, who appeared on Bondi Rescue from 2008 to 2017, died in September 2026. His death was announced on 2 September by FTW Revolution, the clothing label he founded; no cause of death has been made public. He was an ambassador for Suicide Prevention Australia."
+        },
         {
           "q": "Are the Bondi Rescue lifeguards real?",
           "a": "Yes. They're professional lifeguards employed by Waverley Council who patrol Bondi year-round. The show is a documentary and the rescues are real."

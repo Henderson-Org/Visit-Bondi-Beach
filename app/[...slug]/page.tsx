@@ -378,13 +378,13 @@ function ArticlePage({ page }: { page: Page }) {
       {page.blocks && page.blocks.length > 0 ? (
         <>
           <BodyBlocks blocks={page.blocks.slice(0, 3)} />
-          {isArticle && <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE} />}
+          {isArticle && !page.noAds && <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE} />}
           <BodyBlocks blocks={page.blocks.slice(3)} />
         </>
       ) : (
         <div className="prose-editorial mt-6">
           {page.intro && <p className="text-lg text-ink-700">{page.intro}</p>}
-          {isArticle && <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE} />}
+          {isArticle && !page.noAds && <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE} />}
           {page.headings.length > 0 && (
             <>
               <h2>In this guide</h2>

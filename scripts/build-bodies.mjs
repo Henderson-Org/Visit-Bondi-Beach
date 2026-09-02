@@ -148,6 +148,9 @@ async function main() {
       // the class to schedule the next review. Dropping them here silently disabled all
       // three - every page fell back to the undated/desk default regardless of its source file.
       ...(rec.freshnessClass ? { freshnessClass: rec.freshnessClass } : {}),
+      // Must be emitted, like freshnessClass above: lib/content.ts overlays it onto the
+      // Page and the renderer uses it to suppress in-article ads on sensitive pages.
+      ...(rec.noAds ? { noAds: true } : {}),
       ...(rec.checkType ? { checkType: rec.checkType } : {}),
       ...(rec.voice ? { voice: rec.voice } : {}),
     };
@@ -204,6 +207,9 @@ async function buildCollectionBodies() {
       ...(rec.sources ? { sources: rec.sources } : {}),
       ...(rec.lastReviewed ? { lastReviewed: rec.lastReviewed } : {}),
       ...(rec.freshnessClass ? { freshnessClass: rec.freshnessClass } : {}),
+      // Must be emitted, like freshnessClass above: lib/content.ts overlays it onto the
+      // Page and the renderer uses it to suppress in-article ads on sensitive pages.
+      ...(rec.noAds ? { noAds: true } : {}),
       ...(rec.checkType ? { checkType: rec.checkType } : {}),
     };
   }

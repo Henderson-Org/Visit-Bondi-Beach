@@ -23,6 +23,29 @@ describe('articleTopic', () => {
     expect(articleTopic(p('/bondi-blog/2024/1/20/is-bondi-beach-water-clean-or-polluted'))).toBe('swim');
   });
 
+  it('routes articles about the TV series to the Bondi Rescue hub', () => {
+    // The swim pattern also matches "bondi rescue", so before this topic existed all of
+    // these filed under Swim and breadcrumbed "Home > Swim > …" despite /bondi-rescue
+    // being their actual hub.
+    expect(articleTopic(p('/bondi-blog/bondi-rescue-who-are-the-lifeguards'))).toBe('bondi-rescue');
+    expect(articleTopic(p('/bondi-blog/matt-dee-bondi-rescue'))).toBe('bondi-rescue');
+    expect(articleTopic(p('/bondi-blog/2023/9/5/20-obscure-facts-about-bondi-rescue'))).toBe('bondi-rescue');
+    expect(articleHub(p('/bondi-blog/matt-dee-bondi-rescue'))).toEqual({
+      label: 'Bondi Rescue',
+      path: '/bondi-rescue',
+    });
+  });
+
+  it('leaves beach-safety questions about lifeguards under swim', () => {
+    // The boundary that makes the topic above safe to add: these are questions about
+    // whether the beach is patrolled, not about a television programme. Matching a bare
+    // `lifeguard` instead of the show's name would have swallowed both.
+    expect(articleTopic(p('/bondi-blog/is-bondi-beach-patrolled-by-lifeguards'))).toBe('swim');
+    expect(
+      articleTopic(p('/bondi-blog/2025/12/19/the-inside-story-on-the-bondi-lifeguards-who-ran-toward-danger')),
+    ).toBe('swim');
+  });
+
   it('routes know-before-you-go questions to practical', () => {
     expect(articleTopic(p('/bondi-blog/2023/10/18/bondi-beach-etiquette-guide'))).toBe('practical');
     expect(articleTopic(p('/bondi-blog/2024/1/21/is-bondi-beach-a-safe-area-crime-rate'))).toBe('practical');
