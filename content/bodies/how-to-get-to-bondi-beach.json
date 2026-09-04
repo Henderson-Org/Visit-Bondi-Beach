@@ -1,7 +1,7 @@
 {
   "path": "/bondi-blog/how-to-get-to-bondi-beach",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-09-04",
   "freshnessClass": "monthly",
   "sources": [
     {
@@ -83,7 +83,7 @@
     },
     {
       "type": "p",
-      "text": "Driving is easy enough - Bondi sits only a handful of kilometres east of the CBD - but I'll be honest about parking, because it's the catch. There's metered street parking around Campbell Parade and the surrounding streets plus a car park behind the beach, but on any warm weekend it fills early and you'll be circling. The metered spots are paid and time-limited, so read the signs carefully and check current rates and time limits with Waverley Council."
+      "text": "Driving is easy enough - Bondi sits only a handful of kilometres east of the CBD - but I'll be honest about parking, because it's the catch. There's metered street parking around Campbell Parade and the surrounding streets plus a car park behind the beach, but on any warm weekend it fills early and you'll be circling. The metered spots are paid and time-limited, so read the signs carefully and check current rates and time limits with Waverley Council. If you would rather not pay at all, there is [free parking at Bondi Beach](/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy) in the unrestricted residential streets north of Blair Street - a five to seven minute walk, and worth arriving early for."
     },
     {
       "type": "localTip",
@@ -126,5 +126,6 @@
       "type": "p",
       "text": "However you come, my advice is the same: travel light, go early on a summer weekend, and let the bus or train do the work. Bondi's genuinely one of the easiest world-famous beaches to reach - the hardest part is leaving."
     }
-  ]
+  ],
+  "checkType": "desk"
 }

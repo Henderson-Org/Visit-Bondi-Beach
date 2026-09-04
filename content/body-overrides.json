@@ -1424,11 +1424,11 @@
       },
       {
         "type": "p",
-        "text": "Blair Street sits at the northern end of Bondi, near the corner of Warners Avenue, where the land begins to climb toward Ben Buckler - the headland at the top of Bondi Bay. Punch \"Blair Street\" into your maps app, then head north and uphill, away from the water, and start looking. On the quieter blocks up here the parking is free and unrestricted around the clock: no meters, no time limits."
+        "text": "Blair Street sits at the northern end of Bondi, near the corner of Warners Avenue, where the land begins to climb toward Ben Buckler - the headland at the top of Bondi Bay. Punch \"Blair Street\" into your maps app, then head north and uphill, away from the water, and start looking. On the quieter blocks up here the parking is free and unrestricted around the clock: no meters, no time limits. The rule that actually works is not a street name but a direction - keep going north until the restriction signs stop, then park. What is unrestricted on one block can be permit-only on the next, which is why I won't hand you a fixed list of \"free streets\": Waverley Council keeps extending its permit zones, and a list like that is wrong the moment it is published. The trade-off is the walk, and it is a modest one - roughly five to seven minutes down to the sand, downhill on the way there."
       },
       {
         "type": "p",
-        "text": "On weekdays there are spaces until late afternoon, when residents start arriving home from work. Weekends are busier, but the constant coming and going means a patient loop of the block usually turns something up - much more easily if you're early."
+        "text": "On weekdays there are spaces until late afternoon, when residents start arriving home from work. Weekends are busier, but the constant coming and going means a patient loop of the block usually turns something up - much more easily if you're early. Two things widen your odds on a bad day. The first is the southern end: almost everyone aims for the middle of the beach, so the blocks back from the south end and around the Beach Road Hotel often have room when North Bondi is chaos. The second is simply arriving later than everyone else - the council's beachfront meters run 7am to 7pm seven days a week and switch off after 7pm, so an evening swim is the one time the bays right behind the sand cost nothing at all. If you are weighing that against paying, our guide to [what parking at Bondi actually costs](/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days) has the meters and car parks in order of distance."
       },
       {
         "type": "localTip",
@@ -1449,16 +1449,20 @@
           },
           {
             "q": "What time should I arrive for a free spot?",
-            "a": "Before 9am on weekends. Weekdays are easier until the late afternoon, when residents return home from work."
+            "a": "Before 9am on weekends and public holidays - the 9am to 3pm window is the hardest of the day. Weekdays are easier until the late afternoon, when residents return home from work. The other quiet window is the evening: the beachfront meters switch off after 7pm, so from then the paid bays behind the sand are free too."
+          },
+          {
+            "q": "Is parking free at Bondi Beach after 7pm?",
+            "a": "Yes. Waverley Council's beachfront meters operate 7am to 7pm, seven days a week, and are not enforced outside those hours - so an evening swim or dinner on Campbell Parade is one of the few times you can park right behind the beach for nothing. Time-limited and permit-only signs can still apply overnight, so read the sign rather than assuming the whole street is open."
           },
           {
             "q": "Are the streets near Bondi Beach permit-only?",
-            "a": "Some are. Waverley Council's North Bondi resident parking scheme puts 2-hour limits with resident exemptions on certain streets, so read every sign - but plenty of unrestricted street parking remains a few blocks further north."
+            "a": "Some are. Waverley Council's North Bondi resident parking scheme puts 2-hour limits with resident exemptions on certain streets - the scheme covers streets such as the north side of Blair Street, Wairoa Avenue and Gould Street - so read every sign. Plenty of unrestricted street parking remains a few blocks further north, past where the signs stop."
           }
         ]
       }
     ],
-    "wordCount": 434,
+    "wordCount": 781,
     "sources": [
       {
         "label": "Waverley Council - Resident Parking Scheme, North Bondi",
@@ -1473,8 +1477,9 @@
         "url": "https://en.wikipedia.org/wiki/North_Bondi"
       }
     ],
-    "lastReviewed": "2026-08-10",
+    "lastReviewed": "2026-09-04",
     "freshnessClass": "monthly",
+    "checkType": "desk",
     "voice": "first-person"
   },
   "/bondi-blog/2023/11/16/hxnovb41qon8zebftsjodt0g8tvhde": {
@@ -15286,26 +15291,26 @@
     "blocks": [
       {
         "type": "p",
-        "text": "The honest answer to \"where do I park at Bondi?\" is this: yes, there's free, unrestricted parking, but it's in the residential streets north of Blair Street - about a 5–7 minute walk from the sand - and on a sunny weekend you need to be in it before roughly 9am. Everything closer is paid or time-limited. Here's every option, and what each one is actually good for."
+        "text": "This page is about what parking at Bondi actually costs you: which car parks and meters sit closest to the sand, how the council's pay-by-plate system works, when the meters switch off, and whether a permit is worth it. If you would rather not pay at all, that is a different question with its own answer - see **[free parking at Bondi Beach](/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy)**, which covers where the unrestricted streets are and when to arrive."
       },
       {
         "type": "quickFacts",
         "items": [
           {
-            "label": "Free option",
-            "value": "Residential streets north of Blair St"
-          },
-          {
             "label": "Closest paid",
-            "value": "Queen Elizabeth Drive car park (~500 bays)"
+            "value": "Queen Elizabeth Drive (~500 bays)"
           },
           {
             "label": "Meter hours",
             "value": "7am–7pm, seven days"
           },
           {
-            "label": "Golden hours",
-            "value": "Before ~9am or after ~7pm"
+            "label": "How to pay",
+            "value": "Pay-by-plate, or PayStay app"
+          },
+          {
+            "label": "Free after",
+            "value": "7pm, when meters switch off"
           },
           {
             "label": "Backup plan",
@@ -15314,20 +15319,8 @@
         ]
       },
       {
-        "type": "h2",
-        "text": "The free streets north of Blair Street"
-      },
-      {
-        "type": "p",
-        "text": "My go-to on a busy day is the residential grid north of Blair Street - the streets climbing away from the water. Get far enough back from the beach and you'll find bays that are genuinely free and untimed, with no meters. The trade-off is the walk and the timing: on weekdays the bays tend to hold until residents come home in the late afternoon; on a sunny weekend they fill from mid-morning, which is exactly why arriving early matters. One thing I won't do is hand you a fixed list of \"free streets\" - Waverley keeps expanding its permit zones and the rules change block by block, so read the sign at the bay you actually pick rather than trusting any list. What's unrestricted one street can be permit-only the next."
-      },
-      {
-        "type": "p",
-        "text": "The closer you get to the water, the more those free bays give way to Waverley Council Resident Parking Scheme zones - a free-looking bay near the beach can quietly be permit-only. My rule is simple: keep heading north until the restriction signs drop off, then park. The blocks behind the southern end are my quiet secret too - everyone aims for the middle of the beach, so the south end often has room when the north is chaos."
-      },
-      {
         "type": "localTip",
-        "text": "Read the closest sign every single time, even if the car in front of you is parked there. Time limits, permit zones and no-stopping lines change street by street in Bondi, and inspectors patrol hard on weekends. Blocking a driveway is one of the costliest tickets you can collect - never worth it for a five-minute dash."
+        "text": "Start the meter from your phone rather than the machine and you can top it up from the sand. The single most expensive mistake here is not the hourly rate - it is buying two hours, losing track of time in the surf, and collecting a ticket worth a whole day of parking."
       },
       {
         "type": "h2",
@@ -15362,7 +15355,7 @@
       },
       {
         "type": "p",
-        "text": "There are designated accessible bays around the beachfront, including near Queen Elizabeth Drive and the Bondi Pavilion, and a valid Mobility Parking Scheme permit gives concessions on time limits in metered and timed bays. Exact bay locations and any current works can change, so confirm on the council's parking page or with the Pavilion before relying on a specific spot."
+        "text": "On cost, the accessible bays are the one place the rules bend in your favour: a valid Mobility Parking Scheme permit gives concessions on the time limits in metered and timed bays, so the meter maths that governs everyone else largely does not apply. The designated bays sit around the beachfront, including near Queen Elizabeth Drive and the Bondi Pavilion. Locations and current works change, so confirm with the council or the Pavilion before relying on a specific spot."
       },
       {
         "type": "p",
@@ -15372,12 +15365,12 @@
         "type": "faq",
         "items": [
           {
-            "q": "Is there free parking at Bondi Beach?",
-            "a": "Yes - the residential streets north of Blair Street, heading away from the water, have free, unrestricted bays about a 5–7 minute walk from the sand. Watch for permit-only and timed zones closer to the beach, and get in before about 9am on sunny weekends."
+            "q": "Do I need coins for the parking meters at Bondi?",
+            "a": "No. Waverley Council's beach meters are pay-by-plate and take no cash at the machine - you enter your number plate, or pay from your phone through the PayStay app or the NSW Park'nPay app. If you extend from your phone you never have to walk back to the car."
           },
           {
-            "q": "What's the closest car park to Bondi Beach?",
-            "a": "Waverley Council's Queen Elizabeth Drive car park, a metered car park of around 500 bays right behind the beach. It's the first to fill on a nice day, so arrive early or have a backup ready."
+            "q": "Is a Waverley beach parking permit worth it?",
+            "a": "If you are down here most weeks, probably. The permit gives unlimited time in the metered bays on Queen Elizabeth Drive and Park Drive without feeding the meter. Anyone can apply, but residents, ratepayers, local teachers and active Surf Life Saving members pay a lower rate. Fees and eligibility are set by the council, so check the current terms on their beach parking permit page."
           },
           {
             "q": "What hours do the Bondi meters run, and how do I pay?",
@@ -15390,7 +15383,7 @@
         ]
       }
     ],
-    "wordCount": 1088,
+    "wordCount": 923,
     "sources": [
       {
         "label": "Waverley Council - Parking",
@@ -15413,8 +15406,9 @@
         "url": "https://en.wikipedia.org/wiki/Sydney_bus_route_333"
       }
     ],
-    "lastReviewed": "2026-08-10",
+    "lastReviewed": "2026-09-04",
     "freshnessClass": "monthly",
+    "checkType": "desk",
     "voice": "first-person"
   },
   "/bondi-blog/2025/4/27/how-to-score-a-booking-at-tottis-bondi-without-the-stress": {
@@ -26598,7 +26592,7 @@
       },
       {
         "type": "p",
-        "text": "Driving is easy enough - Bondi sits only a handful of kilometres east of the CBD - but I'll be honest about parking, because it's the catch. There's metered street parking around Campbell Parade and the surrounding streets plus a car park behind the beach, but on any warm weekend it fills early and you'll be circling. The metered spots are paid and time-limited, so read the signs carefully and check current rates and time limits with Waverley Council."
+        "text": "Driving is easy enough - Bondi sits only a handful of kilometres east of the CBD - but I'll be honest about parking, because it's the catch. There's metered street parking around Campbell Parade and the surrounding streets plus a car park behind the beach, but on any warm weekend it fills early and you'll be circling. The metered spots are paid and time-limited, so read the signs carefully and check current rates and time limits with Waverley Council. If you would rather not pay at all, there is [free parking at Bondi Beach](/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy) in the unrestricted residential streets north of Blair Street - a five to seven minute walk, and worth arriving early for."
       },
       {
         "type": "localTip",
@@ -26642,7 +26636,7 @@
         "text": "However you come, my advice is the same: travel light, go early on a summer weekend, and let the bus or train do the work. Bondi's genuinely one of the easiest world-famous beaches to reach - the hardest part is leaving."
       }
     ],
-    "wordCount": 985,
+    "wordCount": 1021,
     "sources": [
       {
         "label": "Transport for NSW - trip planner & timetables",
@@ -26657,8 +26651,9 @@
         "url": "https://www.waverley.nsw.gov.au/"
       }
     ],
-    "lastReviewed": "2026-08-08",
+    "lastReviewed": "2026-09-04",
     "freshnessClass": "monthly",
+    "checkType": "desk",
     "voice": "first-person"
   },
   "/bondi-blog/how-to-pronounce-bondi-beach": {
@@ -29392,7 +29387,7 @@
       },
       {
         "type": "p",
-        "text": "My go-to is the residential streets north of Blair Street, back from the beach. Much of it is free and unrestricted, and it's roughly a 5–7 minute walk down to the sand. On weekdays it's easy until residents get home late afternoon; on weekends it fills through the morning, so get in early. North Bondi is the hardest pocket to crack, but once you're past Blair Street heading away from Campbell Parade, spots open up."
+        "text": "My go-to is the residential streets north of Blair Street, back from the beach: much of it is free and unrestricted, roughly a 5–7 minute walk down to the sand, and the trick is to keep heading north until the restriction signs stop. It is worth doing properly, so it has its own guide - [free parking at Bondi Beach](/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy) covers exactly how far back to go, which streets fall inside the resident permit scheme, what time to arrive on a weekend, and when the beachfront itself becomes free."
       },
       {
         "type": "h2",
@@ -29409,7 +29404,7 @@
       },
       {
         "type": "p",
-        "text": "The council's beach meters are pay-by-plate - there's no paper ticket. Enter your number plate at the machine, or (far easier) pay from your phone through the PayStay app; the meters also take the NSW Park'nPay app. They run 7am to 7pm seven days a week and switch off after 7pm, so an evening swim is one of the few times the beachfront comes free. On rates I won't bake a dollar figure into this page: Waverley reviews meter prices and charges more for beach-adjacent bays in summer than for streets further back, so check the current rate on the council's parking page and budget a daily total before you go."
+        "text": "All of the council bays are pay-by-plate, so there's no paper ticket to display - and the meters run 7am to 7pm, seven days. If you want the detail on how the payment apps work, what the permits cost and how the rates change through summer, that is all on [what parking at Bondi actually costs](/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days)."
       },
       {
         "type": "localTip",
@@ -29445,8 +29440,8 @@
         "type": "faq",
         "items": [
           {
-            "q": "Is there free parking at Bondi Beach?",
-            "a": "Yes - many residential streets north of Blair Street are free and unrestricted, about a 5–7 minute walk to the beach. Always read the sign, as permit-only blocks are mixed in, and get there early on weekends."
+            "q": "Is it easier to park at the north or south end of Bondi?",
+            "a": "The south end, more often than people expect. Almost everyone aims for the middle of the beach and the North Bondi streets, so the blocks back from the southern end and around the Beach Road Hotel can still have room when the north is picked clean. It is a slightly longer walk to the main stretch of sand, and a shorter one to Icebergs."
           },
           {
             "q": "What's the closest car park to Bondi Beach?",
@@ -29459,7 +29454,7 @@
         ]
       }
     ],
-    "wordCount": 838,
+    "wordCount": 830,
     "sources": [
       {
         "label": "Waverley Council - parking (current meter rates & permits)",
@@ -29490,8 +29485,9 @@
         "url": "https://en.wikipedia.org/wiki/Sydney_bus_route_333"
       }
     ],
-    "lastReviewed": "2026-08-14",
+    "lastReviewed": "2026-09-04",
     "freshnessClass": "monthly",
+    "checkType": "desk",
     "voice": "first-person"
   },
   "/bondi-blog/where-to-go-afterparty-city-to-surf": {

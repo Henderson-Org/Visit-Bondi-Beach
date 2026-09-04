@@ -5,12 +5,69 @@
   "metaDescription": "Waar je écht gratis kunt parkeren bij Bondi Beach – de straten die locals gebruiken, de tijdslimieten om op te letten en wanneer je moet arriveren voor een plek.",
   "h1": "Gratis parkeren bij Bondi Beach, eenvoudig gemaakt",
   "blocks": [
-    {"type":"p","text":"Iedereen denkt dat je moet betalen om bij Bondi te parkeren. Dat hoeft niet – en dit is het insidertrucje dat ik aan elke vriend die op bezoek komt doorgeef: sla de parkeermeters op Campbell Parade over en parkeer gratis in de woonstraten ten noorden van Blair Street."},
-    {"type":"quickFacts","items":[{"label":"Waar","value":"Ten noorden van Blair Street, North Bondi"},{"label":"Kosten","value":"Gratis, 24 uur onbeperkt (straten zonder bord)"},{"label":"Lopen naar het strand","value":"Ongeveer 5–7 minuten"},{"label":"Wees er vóór","value":"9 uur in het weekend"}]},
-    {"type":"p","text":"Blair Street ligt aan het noordelijke uiteinde van Bondi, dicht bij de hoek met Warners Avenue, waar het land begint te klimmen richting Ben Buckler – de landtong bovenaan Bondi Bay. Tik \"Blair Street\" in je kaartenapp, ga daarna naar het noorden en bergop, weg van het water, en begin te zoeken. In de rustigere blokken hierboven is het parkeren gratis en de klok rond onbeperkt: geen parkeermeters, geen tijdslimieten."},
-    {"type":"p","text":"Doordeweeks zijn er plekken tot laat in de middag, wanneer bewoners van hun werk thuiskomen. Weekenden zijn drukker, maar door het constante komen en gaan levert een geduldig rondje om het blok meestal wel iets op – veel makkelijker als je vroeg bent."},
-    {"type":"localTip","text":"Vanaf ongeveer 9 uur op een zaterdag of zondag wordt parkeren waar dan ook in de buurt van Bondi een echte uitdaging. Wees de drukte voor: kom vroeg, bemachtig een gratis plek ten noorden van Blair Street en geniet van een rustige ochtend op het strand voordat de menigte binnenrolt."},
-    {"type":"callout","tone":"warning","title":"Lees de borden – niet elke straat is gratis","text":"Waverley Council heeft in delen van North Bondi bewonersparkeerregelingen met tijdslimieten van 2 uur en borden \"Permit Holders Excepted\" (uitgezonderd vergunninghouders) – de North Bondi-regeling van de council omvat straten zoals de noordzijde van Blair Street, Wairoa Avenue en Gould Street. Overal waar die borden staan, is het blok niet gratis voor bezoekers, dus rijd door tot de beperkingen wegvallen en controleer altijd het bord op de paal voordat je wegloopt. Waverley evalueert en breidt deze regelingen in de loop van de tijd uit, dus de officiële parkeerpagina's van de council hebben het laatste woord."},
-    {"type":"faq","items":[{"q":"Waar is het gratis parkeren bij Bondi Beach?","a":"In de woonstraten zonder borden ten noorden van Blair Street in North Bondi, bergop weg van het strand richting Ben Buckler. Waar geen tijdslimiet- of vergunningborden staan, is het gratis en 24 uur onbeperkt, ongeveer 5–7 minuten lopen naar het strand."},{"q":"Hoe laat moet ik er zijn voor een gratis plek?","a":"Vóór 9 uur in het weekend. Doordeweeks is het makkelijker tot laat in de middag, wanneer bewoners van hun werk thuiskomen."},{"q":"Zijn de straten bij Bondi Beach alleen voor vergunninghouders?","a":"Sommige wel. De bewonersparkeerregeling van Waverley Council voor North Bondi zet in bepaalde straten tijdslimieten van 2 uur met uitzonderingen voor bewoners, dus lees elk bord – maar een paar blokken verder naar het noorden blijft er volop onbeperkt straatparkeren over."}]}
+    {
+      "type": "p",
+      "text": "Iedereen denkt dat je moet betalen om bij Bondi te parkeren. Dat hoeft niet – en dit is het insidertrucje dat ik aan elke vriend die op bezoek komt doorgeef: sla de parkeermeters op Campbell Parade over en parkeer gratis in de woonstraten ten noorden van Blair Street."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Waar",
+          "value": "Ten noorden van Blair Street, North Bondi"
+        },
+        {
+          "label": "Kosten",
+          "value": "Gratis, 24 uur onbeperkt (straten zonder bord)"
+        },
+        {
+          "label": "Lopen naar het strand",
+          "value": "Ongeveer 5–7 minuten"
+        },
+        {
+          "label": "Wees er vóór",
+          "value": "9 uur in het weekend"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Blair Street ligt aan het noordelijke uiteinde van Bondi, dicht bij de hoek met Warners Avenue, waar het land begint te klimmen richting Ben Buckler – de landtong bovenaan Bondi Bay. Tik \"Blair Street\" in je kaartenapp, ga daarna naar het noorden en bergop, weg van het water, en begin te zoeken. In de rustigere blokken hierboven is het parkeren gratis en de klok rond onbeperkt: geen parkeermeters, geen tijdslimieten."
+    },
+    {
+      "type": "p",
+      "text": "Doordeweeks zijn er plekken tot laat in de middag, wanneer bewoners van hun werk thuiskomen. Weekenden zijn drukker, maar door het constante komen en gaan levert een geduldig rondje om het blok meestal wel iets op – veel makkelijker als je vroeg bent."
+    },
+    {
+      "type": "localTip",
+      "text": "Vanaf ongeveer 9 uur op een zaterdag of zondag wordt parkeren waar dan ook in de buurt van Bondi een echte uitdaging. Wees de drukte voor: kom vroeg, bemachtig een gratis plek ten noorden van Blair Street en geniet van een rustige ochtend op het strand voordat de menigte binnenrolt."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Lees de borden – niet elke straat is gratis",
+      "text": "Waverley Council heeft in delen van North Bondi bewonersparkeerregelingen met tijdslimieten van 2 uur en borden \"Permit Holders Excepted\" (uitgezonderd vergunninghouders) – de North Bondi-regeling van de council omvat straten zoals de noordzijde van Blair Street, Wairoa Avenue en Gould Street. Overal waar die borden staan, is het blok niet gratis voor bezoekers, dus rijd door tot de beperkingen wegvallen en controleer altijd het bord op de paal voordat je wegloopt. Waverley evalueert en breidt deze regelingen in de loop van de tijd uit, dus de officiële parkeerpagina's van de council hebben het laatste woord."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Waar is het gratis parkeren bij Bondi Beach?",
+          "a": "In de woonstraten zonder borden ten noorden van Blair Street in North Bondi, bergop weg van het strand richting Ben Buckler. Waar geen tijdslimiet- of vergunningborden staan, is het gratis en 24 uur onbeperkt, ongeveer 5–7 minuten lopen naar het strand."
+        },
+        {
+          "q": "Is parkeren bij Bondi Beach gratis na 19.00 uur?",
+          "a": "Ja. De parkeermeters van Waverley Council aan de boulevard werken zeven dagen per week van 7.00 tot 19.00 uur en worden daarbuiten niet gehandhaafd - een avondduik of een etentje aan Campbell Parade is dus een van de weinige momenten waarop je vlak achter het strand gratis kunt parkeren. Borden met een tijdslimiet of vergunninghouders kunnen ’s nachts nog wel gelden, dus lees het bord in plaats van aan te nemen dat de hele straat vrij is."
+        },
+        {
+          "q": "Hoe laat moet ik er zijn voor een gratis plek?",
+          "a": "Vóór 9 uur in het weekend. Doordeweeks is het makkelijker tot laat in de middag, wanneer bewoners van hun werk thuiskomen."
+        },
+        {
+          "q": "Zijn de straten bij Bondi Beach alleen voor vergunninghouders?",
+          "a": "Sommige wel. De bewonersparkeerregeling van Waverley Council voor North Bondi zet in bepaalde straten tijdslimieten van 2 uur met uitzonderingen voor bewoners, dus lees elk bord – maar een paar blokken verder naar het noorden blijft er volop onbeperkt straatparkeren over."
+        }
+      ]
+    }
   ]
 }

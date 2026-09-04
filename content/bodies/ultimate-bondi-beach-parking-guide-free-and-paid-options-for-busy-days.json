@@ -1,7 +1,7 @@
 {
   "path": "/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days",
   "voice": "first-person",
-  "lastReviewed": "2026-08-10",
+  "lastReviewed": "2026-09-04",
   "freshnessClass": "monthly",
   "sources": [
     {
@@ -28,26 +28,26 @@
   "blocks": [
     {
       "type": "p",
-      "text": "The honest answer to \"where do I park at Bondi?\" is this: yes, there's free, unrestricted parking, but it's in the residential streets north of Blair Street - about a 5–7 minute walk from the sand - and on a sunny weekend you need to be in it before roughly 9am. Everything closer is paid or time-limited. Here's every option, and what each one is actually good for."
+      "text": "This page is about what parking at Bondi actually costs you: which car parks and meters sit closest to the sand, how the council's pay-by-plate system works, when the meters switch off, and whether a permit is worth it. If you would rather not pay at all, that is a different question with its own answer - see **[free parking at Bondi Beach](/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy)**, which covers where the unrestricted streets are and when to arrive."
     },
     {
       "type": "quickFacts",
       "items": [
         {
-          "label": "Free option",
-          "value": "Residential streets north of Blair St"
-        },
-        {
           "label": "Closest paid",
-          "value": "Queen Elizabeth Drive car park (~500 bays)"
+          "value": "Queen Elizabeth Drive (~500 bays)"
         },
         {
           "label": "Meter hours",
           "value": "7am–7pm, seven days"
         },
         {
-          "label": "Golden hours",
-          "value": "Before ~9am or after ~7pm"
+          "label": "How to pay",
+          "value": "Pay-by-plate, or PayStay app"
+        },
+        {
+          "label": "Free after",
+          "value": "7pm, when meters switch off"
         },
         {
           "label": "Backup plan",
@@ -56,20 +56,8 @@
       ]
     },
     {
-      "type": "h2",
-      "text": "The free streets north of Blair Street"
-    },
-    {
-      "type": "p",
-      "text": "My go-to on a busy day is the residential grid north of Blair Street - the streets climbing away from the water. Get far enough back from the beach and you'll find bays that are genuinely free and untimed, with no meters. The trade-off is the walk and the timing: on weekdays the bays tend to hold until residents come home in the late afternoon; on a sunny weekend they fill from mid-morning, which is exactly why arriving early matters. One thing I won't do is hand you a fixed list of \"free streets\" - Waverley keeps expanding its permit zones and the rules change block by block, so read the sign at the bay you actually pick rather than trusting any list. What's unrestricted one street can be permit-only the next."
-    },
-    {
-      "type": "p",
-      "text": "The closer you get to the water, the more those free bays give way to Waverley Council Resident Parking Scheme zones - a free-looking bay near the beach can quietly be permit-only. My rule is simple: keep heading north until the restriction signs drop off, then park. The blocks behind the southern end are my quiet secret too - everyone aims for the middle of the beach, so the south end often has room when the north is chaos."
-    },
-    {
       "type": "localTip",
-      "text": "Read the closest sign every single time, even if the car in front of you is parked there. Time limits, permit zones and no-stopping lines change street by street in Bondi, and inspectors patrol hard on weekends. Blocking a driveway is one of the costliest tickets you can collect - never worth it for a five-minute dash."
+      "text": "Start the meter from your phone rather than the machine and you can top it up from the sand. The single most expensive mistake here is not the hourly rate - it is buying two hours, losing track of time in the surf, and collecting a ticket worth a whole day of parking."
     },
     {
       "type": "h2",
@@ -104,7 +92,7 @@
     },
     {
       "type": "p",
-      "text": "There are designated accessible bays around the beachfront, including near Queen Elizabeth Drive and the Bondi Pavilion, and a valid Mobility Parking Scheme permit gives concessions on time limits in metered and timed bays. Exact bay locations and any current works can change, so confirm on the council's parking page or with the Pavilion before relying on a specific spot."
+      "text": "On cost, the accessible bays are the one place the rules bend in your favour: a valid Mobility Parking Scheme permit gives concessions on the time limits in metered and timed bays, so the meter maths that governs everyone else largely does not apply. The designated bays sit around the beachfront, including near Queen Elizabeth Drive and the Bondi Pavilion. Locations and current works change, so confirm with the council or the Pavilion before relying on a specific spot."
     },
     {
       "type": "p",
@@ -114,12 +102,12 @@
       "type": "faq",
       "items": [
         {
-          "q": "Is there free parking at Bondi Beach?",
-          "a": "Yes - the residential streets north of Blair Street, heading away from the water, have free, unrestricted bays about a 5–7 minute walk from the sand. Watch for permit-only and timed zones closer to the beach, and get in before about 9am on sunny weekends."
+          "q": "Do I need coins for the parking meters at Bondi?",
+          "a": "No. Waverley Council's beach meters are pay-by-plate and take no cash at the machine - you enter your number plate, or pay from your phone through the PayStay app or the NSW Park'nPay app. If you extend from your phone you never have to walk back to the car."
         },
         {
-          "q": "What's the closest car park to Bondi Beach?",
-          "a": "Waverley Council's Queen Elizabeth Drive car park, a metered car park of around 500 bays right behind the beach. It's the first to fill on a nice day, so arrive early or have a backup ready."
+          "q": "Is a Waverley beach parking permit worth it?",
+          "a": "If you are down here most weeks, probably. The permit gives unlimited time in the metered bays on Queen Elizabeth Drive and Park Drive without feeding the meter. Anyone can apply, but residents, ratepayers, local teachers and active Surf Life Saving members pay a lower rate. Fees and eligibility are set by the council, so check the current terms on their beach parking permit page."
         },
         {
           "q": "What hours do the Bondi meters run, and how do I pay?",
@@ -131,5 +119,6 @@
         }
       ]
     }
-  ]
+  ],
+  "checkType": "desk"
 }

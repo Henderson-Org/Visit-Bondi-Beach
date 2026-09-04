@@ -192,6 +192,10 @@
             "a": "In den beschilderungsfreien Wohnstraßen nördlich der Blair Street in North Bondi, bergauf und weg vom Strand in Richtung Ben Buckler. Wo es keine Zeitlimit- oder Ausweis-Schilder gibt, ist es kostenlos und rund um die Uhr unbeschränkt, etwa 5–7 Minuten zu Fuß zum Strand."
           },
           {
+            "q": "Ist das Parken am Bondi Beach nach 19 Uhr kostenlos?",
+            "a": "Ja. Die Parkuhren des Waverley Council an der Strandpromenade laufen an sieben Tagen die Woche von 7 bis 19 Uhr und werden außerhalb dieser Zeiten nicht kontrolliert - ein Bad am Abend oder ein Essen an der Campbell Parade ist also eine der wenigen Gelegenheiten, direkt hinter dem Strand kostenlos zu parken. Zeitbeschränkungen und Anwohnerparkzonen können nachts weiterhin gelten, lesen Sie deshalb das Schild, statt anzunehmen, die ganze Straße sei frei."
+          },
+          {
             "q": "Wann sollte ich für einen kostenlosen Platz da sein?",
             "a": "Vor 9 Uhr am Wochenende. Unter der Woche ist es einfacher, bis am späten Nachmittag die Anwohner von der Arbeit zurückkommen."
           },
@@ -5672,8 +5676,8 @@
         "type": "faq",
         "items": [
           {
-            "q": "Gibt es kostenlose Parkplätze am Bondi Beach?",
-            "a": "Ja – viele Wohnstraßen nördlich der Blair Street sind kostenlos und unbeschränkt, etwa 5–7 Minuten zu Fuß zum Strand. Lesen Sie immer das Schild, denn Abschnitte nur mit Genehmigung sind dazwischen, und seien Sie am Wochenende früh dran."
+            "q": "Parkt man leichter am Nord- oder am Südende von Bondi?",
+            "a": "Häufiger im Süden, als die meisten erwarten. Fast alle steuern die Strandmitte und die Straßen von North Bondi an, deshalb ist in den Blocks hinter dem Südende und rund um das Beach Road Hotel oft noch Platz, wenn im Norden nichts mehr frei ist. Bis zum Hauptstrand läuft man etwas länger, bis zu den Icebergs kürzer."
           },
           {
             "q": "Was ist der nächste Parkplatz zum Bondi Beach?",
@@ -5878,6 +5882,10 @@
           {
             "q": "¿Dónde está el aparcamiento gratis en Bondi Beach?",
             "a": "En las calles residenciales sin señalizar al norte de Blair Street, en North Bondi, subiendo la cuesta que se aleja de la playa hacia Ben Buckler. Donde no hay señales de límite de tiempo ni de permiso, es gratis y sin restricciones las 24 horas, a unos 5–7 minutos a pie de la arena."
+          },
+          {
+            "q": "¿Es gratis aparcar en Bondi Beach después de las 19:00?",
+            "a": "Sí. Los parquímetros del paseo marítimo del Ayuntamiento de Waverley funcionan de 7:00 a 19:00, los siete días de la semana, y no se aplican fuera de ese horario, así que un baño al atardecer o una cena en Campbell Parade es de las pocas ocasiones en que se puede aparcar justo detrás de la playa sin pagar. Las señales de tiempo limitado y de solo residentes con permiso pueden seguir vigentes por la noche, así que lee la señal en lugar de dar por hecho que toda la calle está libre."
           },
           {
             "q": "¿A qué hora conviene llegar para encontrar sitio gratis?",
@@ -11360,8 +11368,8 @@
         "type": "faq",
         "items": [
           {
-            "q": "¿Hay aparcamiento gratis en Bondi Beach?",
-            "a": "Sí: muchas calles residenciales al norte de Blair Street son gratis y sin restricciones, a unos 5–7 minutos a pie de la playa. Lee siempre el cartel, porque hay tramos solo con permiso mezclados, y llega pronto los fines de semana."
+            "q": "¿Es más fácil aparcar en el extremo norte o sur de Bondi?",
+            "a": "En el sur, más a menudo de lo que la gente espera. Casi todo el mundo apunta al centro de la playa y a las calles de North Bondi, así que las manzanas retiradas del extremo sur y alrededor del Beach Road Hotel pueden tener sitio cuando el norte está saturado. Es un paseo algo más largo hasta el tramo principal de arena, y más corto hasta Icebergs."
           },
           {
             "q": "¿Cuál es el aparcamiento más cercano a Bondi Beach?",
@@ -11566,6 +11574,10 @@
           {
             "q": "Dov'è il parcheggio gratuito a Bondi Beach?",
             "a": "Nelle strade residenziali senza cartelli a nord di Blair Street, a North Bondi, salendo lontano dalla spiaggia verso Ben Buckler. Dove non ci sono cartelli di limite orario o di permesso è gratuito e senza limiti 24 ore su 24, a circa 5–7 minuti a piedi dalla sabbia."
+          },
+          {
+            "q": "Il parcheggio a Bondi Beach è gratuito dopo le 19?",
+            "a": "Sì. I parchimetri del lungomare del Waverley Council funzionano dalle 7 alle 19, sette giorni su sette, e non sono soggetti a controlli al di fuori di quegli orari: una nuotata la sera o una cena su Campbell Parade è una delle poche occasioni in cui si può parcheggiare proprio dietro la spiaggia senza pagare. I cartelli con limiti di tempo o riservati ai residenti possono valere anche di notte, quindi leggete il cartello invece di dare per scontato che tutta la via sia libera."
           },
           {
             "q": "A che ora devo arrivare per un posto gratuito?",
@@ -17048,8 +17060,8 @@
         "type": "faq",
         "items": [
           {
-            "q": "C'è parcheggio gratuito a Bondi Beach?",
-            "a": "Sì: molte strade residenziali a nord di Blair Street sono gratuite e senza limitazioni, a circa 5–7 minuti a piedi dalla spiaggia. Leggi sempre il cartello, perché ci sono tratti solo con permesso, e nei weekend arriva presto."
+            "q": "È più facile parcheggiare all’estremità nord o sud di Bondi?",
+            "a": "A sud, più spesso di quanto si pensi. Quasi tutti puntano al centro della spiaggia e alle strade di North Bondi, quindi gli isolati arretrati dell’estremità sud e attorno al Beach Road Hotel possono avere ancora posto quando a nord non si trova nulla. Si cammina un po’ di più per arrivare al tratto principale di sabbia, e un po’ meno per gli Icebergs."
           },
           {
             "q": "Qual è il parcheggio più vicino a Bondi Beach?",
@@ -17254,6 +17266,10 @@
           {
             "q": "Bondi Beachの無料駐車場はどこですか？",
             "a": "North BondiのBlair Streetより北側にある、標識のない住宅街の通りです。ビーチから離れてBen Bucklerに向かい坂を上っていきます。時間制限や許可証の標識がない場所なら無料で24時間制限がなく、砂浜まで徒歩約5〜7分です。"
+          },
+          {
+            "q": "ボンダイビーチの駐車場は19時以降は無料ですか？",
+            "a": "はい。ウェーバリー市議会のビーチ沿いのパーキングメーターは週7日、7時から19時まで稼働しており、その時間外は課金されません。そのため、夕方のひと泳ぎやキャンベル・パレードでの食事の際は、ビーチのすぐ裏に無料で駐車できる数少ない機会です。ただし時間制限や許可証専用の標識は夜間も適用される場合があるため、通り全体が空いていると決めつけず、必ず標識を確認してください。"
           },
           {
             "q": "無料の空きを確保するには何時に着けばいいですか？",
@@ -22736,8 +22752,8 @@
         "type": "faq",
         "items": [
           {
-            "q": "Bondi Beachに無料駐車場はありますか?",
-            "a": "はい。Blair Streetより北の住宅街の通りの多くは無料で時間制限もなく、ビーチまで歩いて5〜7分ほどです。許可証専用の区画が混在しているので必ず標識を読み、週末は早めに到着しましょう。"
+            "q": "Bondiの北側と南側、どちらが駐車しやすいですか?",
+            "a": "意外に思われるかもしれませんが、南側のほうが空いていることが多いです。ほとんどの人はビーチの中央やNorth Bondiの通りを目指すため、南端の一区画奥やBeach Road Hotel周辺は、北側が満車のときでもまだ空きがあることがあります。メインのビーチまでは少し歩きますが、Icebergsまでは近くなります。"
           },
           {
             "q": "Bondi Beachにいちばん近い駐車場はどこですか?",
@@ -22942,6 +22958,10 @@
           {
             "q": "Waar is het gratis parkeren bij Bondi Beach?",
             "a": "In de woonstraten zonder borden ten noorden van Blair Street in North Bondi, bergop weg van het strand richting Ben Buckler. Waar geen tijdslimiet- of vergunningborden staan, is het gratis en 24 uur onbeperkt, ongeveer 5–7 minuten lopen naar het strand."
+          },
+          {
+            "q": "Is parkeren bij Bondi Beach gratis na 19.00 uur?",
+            "a": "Ja. De parkeermeters van Waverley Council aan de boulevard werken zeven dagen per week van 7.00 tot 19.00 uur en worden daarbuiten niet gehandhaafd - een avondduik of een etentje aan Campbell Parade is dus een van de weinige momenten waarop je vlak achter het strand gratis kunt parkeren. Borden met een tijdslimiet of vergunninghouders kunnen ’s nachts nog wel gelden, dus lees het bord in plaats van aan te nemen dat de hele straat vrij is."
           },
           {
             "q": "Hoe laat moet ik er zijn voor een gratis plek?",
@@ -28424,8 +28444,8 @@
         "type": "faq",
         "items": [
           {
-            "q": "Is er gratis parkeren bij Bondi Beach?",
-            "a": "Ja – veel woonstraten ten noorden van Blair Street zijn gratis en zonder beperking, zo'n 5–7 minuten lopen naar het strand. Lees altijd het bord, want blokken met alleen vergunning zitten ertussen, en wees er in het weekend vroeg bij."
+            "q": "Kun je makkelijker parkeren aan de noord- of zuidkant van Bondi?",
+            "a": "Vaker aan de zuidkant dan mensen verwachten. Bijna iedereen mikt op het midden van het strand en de straten van North Bondi, dus in de blokken achter het zuidelijke uiteinde en rond het Beach Road Hotel is nog weleens plek als het noorden vol staat. Het is iets verder lopen naar het hoofdstrand, en korter naar Icebergs."
           },
           {
             "q": "Wat is het dichtstbijzijnde parkeerterrein bij Bondi Beach?",
@@ -28630,6 +28650,10 @@
           {
             "q": "Onde fica o estacionamento grátis em Bondi Beach?",
             "a": "Nas ruas residenciais sem placa ao norte da Blair Street, em North Bondi, subindo a ladeira que se afasta da praia em direção a Ben Buckler. Onde não há placas de limite de tempo ou de permissão, é grátis e sem restrição 24 horas, a cerca de 5–7 minutos a pé da areia."
+          },
+          {
+            "q": "O estacionamento em Bondi Beach é gratuito depois das 19h?",
+            "a": "Sim. Os parquímetros da orla, da Câmara de Waverley, funcionam das 7h às 19h, sete dias por semana, e não são fiscalizados fora desse horário - por isso um mergulho ao fim da tarde ou um jantar na Campbell Parade é uma das poucas ocasiões em que se pode estacionar mesmo atrás da praia sem pagar. Sinais de tempo limitado e de dístico obrigatório podem continuar a aplicar-se durante a noite, portanto leia a placa em vez de assumir que toda a rua está livre."
           },
           {
             "q": "A que horas devo chegar para pegar uma vaga grátis?",
@@ -34112,8 +34136,8 @@
         "type": "faq",
         "items": [
           {
-            "q": "Tem estacionamento gratuito em Bondi Beach?",
-            "a": "Tem: muitas ruas residenciais ao norte da Blair Street são gratuitas e sem restrição, a uns 5 a 7 minutos de caminhada da praia. Sempre leia a placa, porque há trechos somente com permissão misturados, e chegue cedo nos fins de semana."
+            "q": "É mais fácil estacionar no extremo norte ou sul de Bondi?",
+            "a": "No sul, mais vezes do que se esperaria. Quase toda a gente vai para o meio da praia e para as ruas de North Bondi, por isso os quarteirões recuados do extremo sul e à volta do Beach Road Hotel podem ainda ter lugar quando o norte já está cheio. É uma caminhada um pouco mais longa até ao areal principal, e mais curta até aos Icebergs."
           },
           {
             "q": "Qual é o estacionamento mais próximo de Bondi Beach?",
@@ -34318,6 +34342,10 @@
           {
             "q": "Bondi Beach的免费停车在哪里？",
             "a": "在North Bondi、Blair Street以北那些没有标志的住宅街，朝远离海滩、通往Ben Buckler的上坡方向走。凡是没有时间限制或持证标志的地方，就是免费、24小时不受限制的，到沙滩步行约5–7分钟。"
+          },
+          {
+            "q": "邦迪海滩晚上7点后停车免费吗？",
+            "a": "是的。韦弗利市议会的海滨咪表运营时间为每周七天上午7点至晚上7点，此时段之外不收费——所以傍晚去游泳或在坎贝尔大道用餐，是少数几个可以在海滩正后方免费停车的时段之一。但限时和仅限许可证的标识在夜间可能仍然有效，因此请查看标识，不要想当然地认为整条街都可以停。"
           },
           {
             "q": "几点到才能抢到免费车位？",
@@ -39800,8 +39828,8 @@
         "type": "faq",
         "items": [
           {
-            "q": "Bondi Beach有免费停车吗?",
-            "a": "有--Blair Street以北的许多住宅街道免费且不限时,走到沙滩约5到7分钟。一定要看清标志,因为其中夹杂着仅限许可证的区域,周末要早点到。"
+            "q": "邦迪的北端和南端，哪边更容易停车？",
+            "a": "通常是南端，这往往出乎人们意料。几乎所有人都往海滩中段和北邦迪的街道去，所以当北边已经停满时，南端往里一两个街区以及Beach Road Hotel周边可能还有空位。走到主海滩会稍远一些，但离Icebergs更近。"
           },
           {
             "q": "离Bondi Beach最近的停车场是哪个?",

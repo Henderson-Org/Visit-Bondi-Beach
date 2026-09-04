@@ -5,12 +5,69 @@
   "metaDescription": "Dove trovare davvero parcheggio gratuito vicino a Bondi Beach – le strade usate dai residenti, i limiti di tempo a cui fare attenzione e quando arrivare per un posto.",
   "h1": "Trovare parcheggio gratis a Bondi Beach, senza fatica",
   "blocks": [
-    {"type":"p","text":"Tutti danno per scontato che a Bondi si debba pagare per parcheggiare. Non è così – ed ecco il trucco da local che passo a ogni amico in visita: lascia perdere i parchimetri di Campbell Parade e parcheggia gratis nelle strade residenziali a nord di Blair Street."},
-    {"type":"quickFacts","items":[{"label":"Dove","value":"A nord di Blair Street, North Bondi"},{"label":"Costo","value":"Gratis, senza limiti 24 ore su 24 (strade senza cartelli)"},{"label":"A piedi fino alla spiaggia","value":"Circa 5–7 minuti"},{"label":"Arriva entro","value":"le 9 nel weekend"}]},
-    {"type":"p","text":"Blair Street si trova all'estremità nord di Bondi, vicino all'angolo con Warners Avenue, dove il terreno inizia a salire verso Ben Buckler – il promontorio in cima a Bondi Bay. Digita \"Blair Street\" nell'app delle mappe, poi prosegui verso nord e in salita, lontano dall'acqua, e comincia a cercare. Negli isolati più tranquilli quassù il parcheggio è gratuito e senza limiti tutto il giorno: niente parchimetri, niente limiti di tempo."},
-    {"type":"p","text":"Nei giorni feriali ci sono posti fino al tardo pomeriggio, quando i residenti iniziano a rientrare dal lavoro. I weekend sono più affollati, ma il continuo andirivieni fa sì che un paziente giro dell'isolato di solito faccia saltare fuori qualcosa – molto più facilmente se arrivi presto."},
-    {"type":"localTip","text":"Dalle 9 circa di un sabato o di una domenica, parcheggiare ovunque vicino a Bondi diventa una vera impresa. Anticipa la folla: arriva presto, accaparrati un posto gratuito a nord di Blair Street e goditi una mattinata tranquilla sulla sabbia prima che arrivino tutti."},
-    {"type":"callout","tone":"warning","title":"Leggi i cartelli – non tutte le strade sono gratuite","text":"Il Waverley Council gestisce regimi di sosta per residenti in alcune zone di North Bondi, con limiti di 2 ore e cartelli \"Permit Holders Excepted\" (esclusi i titolari di permesso) – il regime di North Bondi del council copre strade come il lato nord di Blair Street, Wairoa Avenue e Gould Street. Ovunque ci siano quei cartelli, l'isolato non è gratuito per i visitatori, quindi prosegui finché le restrizioni non spariscono e controlla sempre il cartello sul palo prima di allontanarti. Waverley rivede ed estende questi regimi nel tempo, perciò le pagine ufficiali del council sulla sosta hanno l'ultima parola."},
-    {"type":"faq","items":[{"q":"Dov'è il parcheggio gratuito a Bondi Beach?","a":"Nelle strade residenziali senza cartelli a nord di Blair Street, a North Bondi, salendo lontano dalla spiaggia verso Ben Buckler. Dove non ci sono cartelli di limite orario o di permesso è gratuito e senza limiti 24 ore su 24, a circa 5–7 minuti a piedi dalla sabbia."},{"q":"A che ora devo arrivare per un posto gratuito?","a":"Prima delle 9 nel weekend. Nei giorni feriali è più facile fino al tardo pomeriggio, quando i residenti rientrano dal lavoro."},{"q":"Le strade vicino a Bondi Beach sono solo per titolari di permesso?","a":"Alcune sì. Il regime di sosta per residenti del Waverley Council a North Bondi impone in certe strade limiti di 2 ore con esenzioni per i residenti, quindi leggi ogni cartello – ma qualche isolato più a nord resta molto parcheggio su strada senza limiti."}]}
+    {
+      "type": "p",
+      "text": "Tutti danno per scontato che a Bondi si debba pagare per parcheggiare. Non è così – ed ecco il trucco da local che passo a ogni amico in visita: lascia perdere i parchimetri di Campbell Parade e parcheggia gratis nelle strade residenziali a nord di Blair Street."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Dove",
+          "value": "A nord di Blair Street, North Bondi"
+        },
+        {
+          "label": "Costo",
+          "value": "Gratis, senza limiti 24 ore su 24 (strade senza cartelli)"
+        },
+        {
+          "label": "A piedi fino alla spiaggia",
+          "value": "Circa 5–7 minuti"
+        },
+        {
+          "label": "Arriva entro",
+          "value": "le 9 nel weekend"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Blair Street si trova all'estremità nord di Bondi, vicino all'angolo con Warners Avenue, dove il terreno inizia a salire verso Ben Buckler – il promontorio in cima a Bondi Bay. Digita \"Blair Street\" nell'app delle mappe, poi prosegui verso nord e in salita, lontano dall'acqua, e comincia a cercare. Negli isolati più tranquilli quassù il parcheggio è gratuito e senza limiti tutto il giorno: niente parchimetri, niente limiti di tempo."
+    },
+    {
+      "type": "p",
+      "text": "Nei giorni feriali ci sono posti fino al tardo pomeriggio, quando i residenti iniziano a rientrare dal lavoro. I weekend sono più affollati, ma il continuo andirivieni fa sì che un paziente giro dell'isolato di solito faccia saltare fuori qualcosa – molto più facilmente se arrivi presto."
+    },
+    {
+      "type": "localTip",
+      "text": "Dalle 9 circa di un sabato o di una domenica, parcheggiare ovunque vicino a Bondi diventa una vera impresa. Anticipa la folla: arriva presto, accaparrati un posto gratuito a nord di Blair Street e goditi una mattinata tranquilla sulla sabbia prima che arrivino tutti."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Leggi i cartelli – non tutte le strade sono gratuite",
+      "text": "Il Waverley Council gestisce regimi di sosta per residenti in alcune zone di North Bondi, con limiti di 2 ore e cartelli \"Permit Holders Excepted\" (esclusi i titolari di permesso) – il regime di North Bondi del council copre strade come il lato nord di Blair Street, Wairoa Avenue e Gould Street. Ovunque ci siano quei cartelli, l'isolato non è gratuito per i visitatori, quindi prosegui finché le restrizioni non spariscono e controlla sempre il cartello sul palo prima di allontanarti. Waverley rivede ed estende questi regimi nel tempo, perciò le pagine ufficiali del council sulla sosta hanno l'ultima parola."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Dov'è il parcheggio gratuito a Bondi Beach?",
+          "a": "Nelle strade residenziali senza cartelli a nord di Blair Street, a North Bondi, salendo lontano dalla spiaggia verso Ben Buckler. Dove non ci sono cartelli di limite orario o di permesso è gratuito e senza limiti 24 ore su 24, a circa 5–7 minuti a piedi dalla sabbia."
+        },
+        {
+          "q": "Il parcheggio a Bondi Beach è gratuito dopo le 19?",
+          "a": "Sì. I parchimetri del lungomare del Waverley Council funzionano dalle 7 alle 19, sette giorni su sette, e non sono soggetti a controlli al di fuori di quegli orari: una nuotata la sera o una cena su Campbell Parade è una delle poche occasioni in cui si può parcheggiare proprio dietro la spiaggia senza pagare. I cartelli con limiti di tempo o riservati ai residenti possono valere anche di notte, quindi leggete il cartello invece di dare per scontato che tutta la via sia libera."
+        },
+        {
+          "q": "A che ora devo arrivare per un posto gratuito?",
+          "a": "Prima delle 9 nel weekend. Nei giorni feriali è più facile fino al tardo pomeriggio, quando i residenti rientrano dal lavoro."
+        },
+        {
+          "q": "Le strade vicino a Bondi Beach sono solo per titolari di permesso?",
+          "a": "Alcune sì. Il regime di sosta per residenti del Waverley Council a North Bondi impone in certe strade limiti di 2 ore con esenzioni per i residenti, quindi leggi ogni cartello – ma qualche isolato più a nord resta molto parcheggio su strada senza limiti."
+        }
+      ]
+    }
   ]
 }

@@ -5,12 +5,69 @@
   "metaDescription": "Wo Sie am Bondi Beach wirklich kostenlos parken – die Straßen, die Einheimische nutzen, die Zeitlimits, auf die Sie achten müssen, und wann Sie da sein sollten.",
   "h1": "Kostenlos parken am Bondi Beach leicht gemacht",
   "blocks": [
-    {"type":"p","text":"Alle gehen davon aus, dass man am Bondi zahlen muss, um zu parken. Muss man nicht – und das ist der Insidertipp, den ich jedem Freund mitgebe, der zu Besuch kommt: Lassen Sie die Parkuhren an der Campbell Parade links liegen und parken Sie kostenlos in den Wohnstraßen nördlich der Blair Street."},
-    {"type":"quickFacts","items":[{"label":"Wo","value":"Nördlich der Blair Street, North Bondi"},{"label":"Kosten","value":"Kostenlos, rund um die Uhr ohne Beschränkung (Straßen ohne Schild)"},{"label":"Weg zum Strand","value":"Etwa 5–7 Minuten"},{"label":"Da sein bis","value":"9 Uhr am Wochenende"}]},
-    {"type":"p","text":"Die Blair Street liegt am nördlichen Ende von Bondi, nahe der Ecke Warners Avenue, dort wo das Gelände in Richtung Ben Buckler ansteigt – der Landzunge am oberen Ende der Bondi Bay. Geben Sie \"Blair Street\" in Ihre Karten-App ein, fahren Sie dann nach Norden und bergauf, weg vom Wasser, und halten Sie die Augen offen. In den ruhigeren Blocks hier oben ist das Parken kostenlos und rund um die Uhr unbeschränkt: keine Parkuhren, keine Zeitlimits."},
-    {"type":"p","text":"Unter der Woche gibt es Plätze bis zum späten Nachmittag, wenn die Anwohner von der Arbeit heimkommen. Am Wochenende ist mehr los, aber durch das ständige Kommen und Gehen findet sich bei einer geduldigen Runde um den Block meist doch etwas – deutlich leichter, wenn Sie früh dran sind."},
-    {"type":"localTip","text":"Ab etwa 9 Uhr an einem Samstag oder Sonntag wird das Parken irgendwo in der Nähe von Bondi zur echten Herausforderung. Kommen Sie dem Ansturm zuvor: Seien Sie früh da, schnappen Sie sich einen kostenlosen Platz nördlich der Blair Street und genießen Sie einen ruhigen Morgen am Strand, bevor die Menge einrollt."},
-    {"type":"callout","tone":"warning","title":"Lesen Sie die Schilder – nicht jede Straße ist kostenlos","text":"Der Waverley Council betreibt in Teilen von North Bondi Anwohnerparkregelungen mit 2-Stunden-Limits und Schildern \"Permit Holders Excepted\" (nur mit Anwohnerausweis) – die North-Bondi-Regelung des Councils umfasst Straßen wie die Nordseite der Blair Street, die Wairoa Avenue und die Gould Street. Wo immer solche Schilder stehen, ist der Block für Besucher nicht kostenlos, also fahren Sie weiter, bis die Beschränkungen wegfallen, und prüfen Sie stets das Schild am Pfosten, bevor Sie losgehen. Waverley überprüft und erweitert diese Regelungen im Lauf der Zeit, daher haben die offiziellen Parkseiten des Councils das letzte Wort."},
-    {"type":"faq","items":[{"q":"Wo gibt es am Bondi Beach kostenlose Parkplätze?","a":"In den beschilderungsfreien Wohnstraßen nördlich der Blair Street in North Bondi, bergauf und weg vom Strand in Richtung Ben Buckler. Wo es keine Zeitlimit- oder Ausweis-Schilder gibt, ist es kostenlos und rund um die Uhr unbeschränkt, etwa 5–7 Minuten zu Fuß zum Strand."},{"q":"Wann sollte ich für einen kostenlosen Platz da sein?","a":"Vor 9 Uhr am Wochenende. Unter der Woche ist es einfacher, bis am späten Nachmittag die Anwohner von der Arbeit zurückkommen."},{"q":"Sind die Straßen nahe Bondi Beach nur mit Ausweis befahrbar?","a":"Manche schon. Die Anwohnerparkregelung des Waverley Council für North Bondi setzt in bestimmten Straßen 2-Stunden-Limits mit Ausnahmen für Anwohner, lesen Sie also jedes Schild – aber ein paar Blocks weiter nördlich gibt es reichlich unbeschränktes Straßenparken."}]}
+    {
+      "type": "p",
+      "text": "Alle gehen davon aus, dass man am Bondi zahlen muss, um zu parken. Muss man nicht – und das ist der Insidertipp, den ich jedem Freund mitgebe, der zu Besuch kommt: Lassen Sie die Parkuhren an der Campbell Parade links liegen und parken Sie kostenlos in den Wohnstraßen nördlich der Blair Street."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Wo",
+          "value": "Nördlich der Blair Street, North Bondi"
+        },
+        {
+          "label": "Kosten",
+          "value": "Kostenlos, rund um die Uhr ohne Beschränkung (Straßen ohne Schild)"
+        },
+        {
+          "label": "Weg zum Strand",
+          "value": "Etwa 5–7 Minuten"
+        },
+        {
+          "label": "Da sein bis",
+          "value": "9 Uhr am Wochenende"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Die Blair Street liegt am nördlichen Ende von Bondi, nahe der Ecke Warners Avenue, dort wo das Gelände in Richtung Ben Buckler ansteigt – der Landzunge am oberen Ende der Bondi Bay. Geben Sie \"Blair Street\" in Ihre Karten-App ein, fahren Sie dann nach Norden und bergauf, weg vom Wasser, und halten Sie die Augen offen. In den ruhigeren Blocks hier oben ist das Parken kostenlos und rund um die Uhr unbeschränkt: keine Parkuhren, keine Zeitlimits."
+    },
+    {
+      "type": "p",
+      "text": "Unter der Woche gibt es Plätze bis zum späten Nachmittag, wenn die Anwohner von der Arbeit heimkommen. Am Wochenende ist mehr los, aber durch das ständige Kommen und Gehen findet sich bei einer geduldigen Runde um den Block meist doch etwas – deutlich leichter, wenn Sie früh dran sind."
+    },
+    {
+      "type": "localTip",
+      "text": "Ab etwa 9 Uhr an einem Samstag oder Sonntag wird das Parken irgendwo in der Nähe von Bondi zur echten Herausforderung. Kommen Sie dem Ansturm zuvor: Seien Sie früh da, schnappen Sie sich einen kostenlosen Platz nördlich der Blair Street und genießen Sie einen ruhigen Morgen am Strand, bevor die Menge einrollt."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Lesen Sie die Schilder – nicht jede Straße ist kostenlos",
+      "text": "Der Waverley Council betreibt in Teilen von North Bondi Anwohnerparkregelungen mit 2-Stunden-Limits und Schildern \"Permit Holders Excepted\" (nur mit Anwohnerausweis) – die North-Bondi-Regelung des Councils umfasst Straßen wie die Nordseite der Blair Street, die Wairoa Avenue und die Gould Street. Wo immer solche Schilder stehen, ist der Block für Besucher nicht kostenlos, also fahren Sie weiter, bis die Beschränkungen wegfallen, und prüfen Sie stets das Schild am Pfosten, bevor Sie losgehen. Waverley überprüft und erweitert diese Regelungen im Lauf der Zeit, daher haben die offiziellen Parkseiten des Councils das letzte Wort."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Wo gibt es am Bondi Beach kostenlose Parkplätze?",
+          "a": "In den beschilderungsfreien Wohnstraßen nördlich der Blair Street in North Bondi, bergauf und weg vom Strand in Richtung Ben Buckler. Wo es keine Zeitlimit- oder Ausweis-Schilder gibt, ist es kostenlos und rund um die Uhr unbeschränkt, etwa 5–7 Minuten zu Fuß zum Strand."
+        },
+        {
+          "q": "Ist das Parken am Bondi Beach nach 19 Uhr kostenlos?",
+          "a": "Ja. Die Parkuhren des Waverley Council an der Strandpromenade laufen an sieben Tagen die Woche von 7 bis 19 Uhr und werden außerhalb dieser Zeiten nicht kontrolliert - ein Bad am Abend oder ein Essen an der Campbell Parade ist also eine der wenigen Gelegenheiten, direkt hinter dem Strand kostenlos zu parken. Zeitbeschränkungen und Anwohnerparkzonen können nachts weiterhin gelten, lesen Sie deshalb das Schild, statt anzunehmen, die ganze Straße sei frei."
+        },
+        {
+          "q": "Wann sollte ich für einen kostenlosen Platz da sein?",
+          "a": "Vor 9 Uhr am Wochenende. Unter der Woche ist es einfacher, bis am späten Nachmittag die Anwohner von der Arbeit zurückkommen."
+        },
+        {
+          "q": "Sind die Straßen nahe Bondi Beach nur mit Ausweis befahrbar?",
+          "a": "Manche schon. Die Anwohnerparkregelung des Waverley Council für North Bondi setzt in bestimmten Straßen 2-Stunden-Limits mit Ausnahmen für Anwohner, lesen Sie also jedes Schild – aber ein paar Blocks weiter nördlich gibt es reichlich unbeschränktes Straßenparken."
+        }
+      ]
+    }
   ]
 }

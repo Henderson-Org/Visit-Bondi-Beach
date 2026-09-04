@@ -1,1 +1,73 @@
-{"locale":"pt","path":"/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy","title":"Estacionamento grátis em Bondi Beach, sem stress","metaDescription":"Onde realmente encontrar estacionamento grátis perto de Bondi Beach: as ruas que os moradores usam, os limites de tempo a que ficar atento e a que horas chegar para garantir uma vaga.","h1":"Encontrar estacionamento grátis em Bondi Beach é fácil","blocks":[{"type":"p","text":"Todo mundo acha que precisa pagar para estacionar em Bondi. Não precisa - e este é o truque local que passo para todo amigo que vem me visitar: esqueça os parquímetros da Campbell Parade e estacione de graça nas ruas residenciais ao norte da Blair Street."},{"type":"quickFacts","items":[{"label":"Onde","value":"Ao norte da Blair Street, North Bondi"},{"label":"Custo","value":"Grátis, sem restrição 24h (ruas sem placa)"},{"label":"Até a areia","value":"Cerca de 5–7 minutos a pé"},{"label":"Chegue até","value":"9h nos fins de semana"}]},{"type":"p","text":"A Blair Street fica na ponta norte de Bondi, perto da esquina com a Warners Avenue, onde o terreno começa a subir em direção a Ben Buckler - o promontório no alto da baía de Bondi. Digite \"Blair Street\" no seu app de mapas, siga para o norte e ladeira acima, afastando-se da água, e comece a procurar. Nas quadras mais tranquilas lá em cima o estacionamento é grátis e sem restrição a qualquer hora: sem parquímetros, sem limite de tempo."},{"type":"p","text":"Nos dias de semana há vagas até o fim da tarde, quando os moradores começam a chegar do trabalho. Os fins de semana são mais movimentados, mas o vai e vem constante faz com que uma volta paciente no quarteirão quase sempre revele algo - bem mais fácil se você chegar cedo."},{"type":"localTip","text":"A partir das 9h, mais ou menos, num sábado ou domingo, estacionar perto de Bondi vira um verdadeiro desafio. Chegue antes da multidão: venha cedo, garanta uma vaga grátis ao norte da Blair Street e aproveite uma manhã tranquila na areia antes que o povo chegue."},{"type":"callout","tone":"warning","title":"Leia as placas - nem toda rua é grátis","text":"O Waverley Council mantém esquemas de estacionamento para moradores em partes de North Bondi, com limites de 2 horas e placas de \"Permit Holders Excepted\" (exceto quem tem permissão). O esquema do conselho para North Bondi cobre ruas como o lado norte da Blair Street, a Wairoa Avenue e a Gould Street. Onde essas placas estiverem, a quadra não é grátis para visitantes, então siga em frente até as restrições acabarem e sempre confira a placa no poste antes de sair. O Waverley revê e amplia esses esquemas com o tempo, então as páginas oficiais de estacionamento do conselho são a palavra final."},{"type":"faq","items":[{"q":"Onde fica o estacionamento grátis em Bondi Beach?","a":"Nas ruas residenciais sem placa ao norte da Blair Street, em North Bondi, subindo a ladeira que se afasta da praia em direção a Ben Buckler. Onde não há placas de limite de tempo ou de permissão, é grátis e sem restrição 24 horas, a cerca de 5–7 minutos a pé da areia."},{"q":"A que horas devo chegar para pegar uma vaga grátis?","a":"Antes das 9h nos fins de semana. Nos dias de semana é mais fácil até o fim da tarde, quando os moradores voltam do trabalho."},{"q":"As ruas perto de Bondi Beach são só para quem tem permissão?","a":"Algumas são. O esquema de estacionamento para moradores do Waverley Council em North Bondi impõe limites de 2 horas com isenção para moradores em certas ruas, então leia todas as placas - mas algumas quadras mais ao norte ainda há bastante estacionamento na rua sem restrição."}]}]}
+{
+  "locale": "pt",
+  "path": "/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy",
+  "title": "Estacionamento grátis em Bondi Beach, sem stress",
+  "metaDescription": "Onde realmente encontrar estacionamento grátis perto de Bondi Beach: as ruas que os moradores usam, os limites de tempo a que ficar atento e a que horas chegar para garantir uma vaga.",
+  "h1": "Encontrar estacionamento grátis em Bondi Beach é fácil",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Todo mundo acha que precisa pagar para estacionar em Bondi. Não precisa - e este é o truque local que passo para todo amigo que vem me visitar: esqueça os parquímetros da Campbell Parade e estacione de graça nas ruas residenciais ao norte da Blair Street."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Onde",
+          "value": "Ao norte da Blair Street, North Bondi"
+        },
+        {
+          "label": "Custo",
+          "value": "Grátis, sem restrição 24h (ruas sem placa)"
+        },
+        {
+          "label": "Até a areia",
+          "value": "Cerca de 5–7 minutos a pé"
+        },
+        {
+          "label": "Chegue até",
+          "value": "9h nos fins de semana"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A Blair Street fica na ponta norte de Bondi, perto da esquina com a Warners Avenue, onde o terreno começa a subir em direção a Ben Buckler - o promontório no alto da baía de Bondi. Digite \"Blair Street\" no seu app de mapas, siga para o norte e ladeira acima, afastando-se da água, e comece a procurar. Nas quadras mais tranquilas lá em cima o estacionamento é grátis e sem restrição a qualquer hora: sem parquímetros, sem limite de tempo."
+    },
+    {
+      "type": "p",
+      "text": "Nos dias de semana há vagas até o fim da tarde, quando os moradores começam a chegar do trabalho. Os fins de semana são mais movimentados, mas o vai e vem constante faz com que uma volta paciente no quarteirão quase sempre revele algo - bem mais fácil se você chegar cedo."
+    },
+    {
+      "type": "localTip",
+      "text": "A partir das 9h, mais ou menos, num sábado ou domingo, estacionar perto de Bondi vira um verdadeiro desafio. Chegue antes da multidão: venha cedo, garanta uma vaga grátis ao norte da Blair Street e aproveite uma manhã tranquila na areia antes que o povo chegue."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Leia as placas - nem toda rua é grátis",
+      "text": "O Waverley Council mantém esquemas de estacionamento para moradores em partes de North Bondi, com limites de 2 horas e placas de \"Permit Holders Excepted\" (exceto quem tem permissão). O esquema do conselho para North Bondi cobre ruas como o lado norte da Blair Street, a Wairoa Avenue e a Gould Street. Onde essas placas estiverem, a quadra não é grátis para visitantes, então siga em frente até as restrições acabarem e sempre confira a placa no poste antes de sair. O Waverley revê e amplia esses esquemas com o tempo, então as páginas oficiais de estacionamento do conselho são a palavra final."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Onde fica o estacionamento grátis em Bondi Beach?",
+          "a": "Nas ruas residenciais sem placa ao norte da Blair Street, em North Bondi, subindo a ladeira que se afasta da praia em direção a Ben Buckler. Onde não há placas de limite de tempo ou de permissão, é grátis e sem restrição 24 horas, a cerca de 5–7 minutos a pé da areia."
+        },
+        {
+          "q": "O estacionamento em Bondi Beach é gratuito depois das 19h?",
+          "a": "Sim. Os parquímetros da orla, da Câmara de Waverley, funcionam das 7h às 19h, sete dias por semana, e não são fiscalizados fora desse horário - por isso um mergulho ao fim da tarde ou um jantar na Campbell Parade é uma das poucas ocasiões em que se pode estacionar mesmo atrás da praia sem pagar. Sinais de tempo limitado e de dístico obrigatório podem continuar a aplicar-se durante a noite, portanto leia a placa em vez de assumir que toda a rua está livre."
+        },
+        {
+          "q": "A que horas devo chegar para pegar uma vaga grátis?",
+          "a": "Antes das 9h nos fins de semana. Nos dias de semana é mais fácil até o fim da tarde, quando os moradores voltam do trabalho."
+        },
+        {
+          "q": "As ruas perto de Bondi Beach são só para quem tem permissão?",
+          "a": "Algumas são. O esquema de estacionamento para moradores do Waverley Council em North Bondi impõe limites de 2 horas com isenção para moradores em certas ruas, então leia todas as placas - mas algumas quadras mais ao norte ainda há bastante estacionamento na rua sem restrição."
+        }
+      ]
+    }
+  ]
+}

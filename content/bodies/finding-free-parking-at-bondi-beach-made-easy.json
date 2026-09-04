@@ -1,7 +1,7 @@
 {
   "path": "/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy",
   "voice": "first-person",
-  "lastReviewed": "2026-08-10",
+  "lastReviewed": "2026-09-04",
   "freshnessClass": "monthly",
   "sources": [
     {
@@ -45,11 +45,11 @@
     },
     {
       "type": "p",
-      "text": "Blair Street sits at the northern end of Bondi, near the corner of Warners Avenue, where the land begins to climb toward Ben Buckler - the headland at the top of Bondi Bay. Punch \"Blair Street\" into your maps app, then head north and uphill, away from the water, and start looking. On the quieter blocks up here the parking is free and unrestricted around the clock: no meters, no time limits."
+      "text": "Blair Street sits at the northern end of Bondi, near the corner of Warners Avenue, where the land begins to climb toward Ben Buckler - the headland at the top of Bondi Bay. Punch \"Blair Street\" into your maps app, then head north and uphill, away from the water, and start looking. On the quieter blocks up here the parking is free and unrestricted around the clock: no meters, no time limits. The rule that actually works is not a street name but a direction - keep going north until the restriction signs stop, then park. What is unrestricted on one block can be permit-only on the next, which is why I won't hand you a fixed list of \"free streets\": Waverley Council keeps extending its permit zones, and a list like that is wrong the moment it is published. The trade-off is the walk, and it is a modest one - roughly five to seven minutes down to the sand, downhill on the way there."
     },
     {
       "type": "p",
-      "text": "On weekdays there are spaces until late afternoon, when residents start arriving home from work. Weekends are busier, but the constant coming and going means a patient loop of the block usually turns something up - much more easily if you're early."
+      "text": "On weekdays there are spaces until late afternoon, when residents start arriving home from work. Weekends are busier, but the constant coming and going means a patient loop of the block usually turns something up - much more easily if you're early. Two things widen your odds on a bad day. The first is the southern end: almost everyone aims for the middle of the beach, so the blocks back from the south end and around the Beach Road Hotel often have room when North Bondi is chaos. The second is simply arriving later than everyone else - the council's beachfront meters run 7am to 7pm seven days a week and switch off after 7pm, so an evening swim is the one time the bays right behind the sand cost nothing at all. If you are weighing that against paying, our guide to [what parking at Bondi actually costs](/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days) has the meters and car parks in order of distance."
     },
     {
       "type": "localTip",
@@ -70,13 +70,18 @@
         },
         {
           "q": "What time should I arrive for a free spot?",
-          "a": "Before 9am on weekends. Weekdays are easier until the late afternoon, when residents return home from work."
+          "a": "Before 9am on weekends and public holidays - the 9am to 3pm window is the hardest of the day. Weekdays are easier until the late afternoon, when residents return home from work. The other quiet window is the evening: the beachfront meters switch off after 7pm, so from then the paid bays behind the sand are free too."
+        },
+        {
+          "q": "Is parking free at Bondi Beach after 7pm?",
+          "a": "Yes. Waverley Council's beachfront meters operate 7am to 7pm, seven days a week, and are not enforced outside those hours - so an evening swim or dinner on Campbell Parade is one of the few times you can park right behind the beach for nothing. Time-limited and permit-only signs can still apply overnight, so read the sign rather than assuming the whole street is open."
         },
         {
           "q": "Are the streets near Bondi Beach permit-only?",
-          "a": "Some are. Waverley Council's North Bondi resident parking scheme puts 2-hour limits with resident exemptions on certain streets, so read every sign - but plenty of unrestricted street parking remains a few blocks further north."
+          "a": "Some are. Waverley Council's North Bondi resident parking scheme puts 2-hour limits with resident exemptions on certain streets - the scheme covers streets such as the north side of Blair Street, Wairoa Avenue and Gould Street - so read every sign. Plenty of unrestricted street parking remains a few blocks further north, past where the signs stop."
         }
       ]
     }
-  ]
+  ],
+  "checkType": "desk"
 }
