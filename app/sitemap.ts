@@ -3,6 +3,7 @@ import { allPages } from '@/lib/content';
 import { PROD_ORIGIN } from '@/lib/site';
 import { stayCategorySlugs } from '@/data/stay-categories';
 import { guideSlugs } from '@/data/accommodation-guides';
+import { collectionSlugs as fitnessCollectionSlugs, venuesWithPages as fitnessVenuePages } from '@/lib/fitness';
 import { eventSlugs } from '@/data/events';
 import { indexableCollectionSlugs, venuesWithPages } from '@/lib/restaurantGuide';
 import { allTranslations, availableLocales } from '@/lib/translations';
@@ -48,6 +49,12 @@ const STATIC_ROUTES: { path: string; priority: number }[] = [
   { path: '/articles', priority: 0.7 },
   // Bondi Day Planner
   { path: '/plan', priority: 0.7 },
+  // Fitness & wellness directory. Only categories that clear the venue-count threshold in
+  // lib/fitness.ts get a route at all, so this list can never advertise a thin page.
+  { path: '/fitness', priority: 0.8 },
+  { path: '/fitness/bondi-beach-or-bondi-junction', priority: 0.7 },
+  ...fitnessCollectionSlugs().map((slug) => ({ path: `/fitness/${slug}`, priority: 0.7 })),
+  ...fitnessVenuePages().map((v) => ({ path: `/fitness/venues/${v.id}`, priority: 0.5 })),
   // Original data features - the site's proprietary datasets.
   { path: '/bondi-coffee-price-index', priority: 0.7 },
   { path: '/bondi-rescue-statistics', priority: 0.8 },

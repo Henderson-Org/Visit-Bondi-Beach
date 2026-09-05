@@ -501,3 +501,71 @@ export function breadcrumbJsonLd(items: { name: string; path: string }[]) {
     })),
   };
 }
+
+/**
+ * CollectionPage for a directory or category page. Deliberately minimal: it describes the
+ * page, and the ItemList emitted alongside it describes the members. No aggregate ratings
+ * or review counts - we hold none, and inventing them is the single most common way these
+ * pages earn a manual action.
+ */
+export function collectionPageJsonLd(opts: {
+  name: string;
+  description: string;
+  path: string;
+  /** Number of entries listed, when the page is a real listing. */
+  itemCount?: number;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': `${siteOrigin()}${opts.path}#collection`,
+    name: opts.name,
+    description: opts.description,
+    url: `${siteOrigin()}${opts.path}`,
+    isPartOf: { '@id': websiteId() },
+    ...(opts.itemCount != null ? { mainEntity: { '@type': 'ItemList', numberOfItems: opts.itemCount } } : {}),
+  };
+}
+
+/**
+ * Schema for a fitness venue, built ONLY from fields we verified on the venue's own site.
+ * Every property is conditional: a venue with no published phone emits no telephone, one
+ * with no published hours emits no openingHours. Nothing here is defaulted or inferred,
+ * and there is deliberately no aggregateRating - we do not collect ratings.
+ *
+ * The address always carries the venue's real suburb. That is the whole reason this
+ * emits PostalAddress rather than a string: a Bondi Junction gym must never be published
+ * to a search engine as being in Bondi Beach.
+ */
+export function fitnessVenueJsonLd(v: {
+  name: string;
+  description: string;
+  address: string;
+  suburbLabel: string;
+  postcode: string;
+  websiteUrl: string;
+  path: string;
+  phone?: string;
+  openingHours?: string;
+  schemaType?: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': v.schemaType ?? 'SportsActivityLocation',
+    '@id': `${siteOrigin()}${v.path}#venue`,
+    name: v.name,
+    description: v.description,
+    url: `${siteOrigin()}${v.path}`,
+    sameAs: v.websiteUrl,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: v.address,
+      addressLocality: v.suburbLabel,
+      addressRegion: 'NSW',
+      postalCode: v.postcode,
+      addressCountry: 'AU',
+    },
+    ...(v.phone ? { telephone: v.phone } : {}),
+    ...(v.openingHours ? { openingHours: v.openingHours } : {}),
+  };
+}

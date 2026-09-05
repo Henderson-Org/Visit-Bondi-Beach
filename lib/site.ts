@@ -119,6 +119,7 @@ export const HUB_NAV: { group: string; items: { label: string; href: string }[] 
     { label: 'Where to swim', href: '/where-to-swim-at-bondi-beach' },
     { label: 'Coastal walk', href: '/bondi-coastal-walk' },
     { label: 'Bondi Rescue', href: '/bondi-rescue' },
+    { label: 'Fitness & wellness', href: '/fitness' },
   ] },
   { group: 'Eat, stay & get here', items: [
     { label: 'Eat & drink', href: '/bondi-eat-and-drink' },
