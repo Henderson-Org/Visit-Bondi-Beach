@@ -7,6 +7,8 @@ import {
   venuesForCollection,
   byVisitorUsefulness,
   venuesInSuburb,
+  populatedSuburbs,
+  SUBURB_LABEL,
 } from '@/lib/fitness';
 import { FitnessVenueCard } from '@/components/fitness/FitnessVenueCard';
 import { FitnessMap } from '@/components/fitness/FitnessMap';
@@ -54,8 +56,6 @@ export default function FitnessHubPage() {
   const all = activeVenues().sort(byVisitorUsefulness);
   const casual = casualFriendlyVenues();
   const collections = indexableCollections();
-  const beach = venuesInSuburb('bondi-beach');
-  const junction = venuesInSuburb('bondi-junction');
 
   const crumbs = [
     { name: 'Home', path: '/' },
@@ -171,24 +171,28 @@ export default function FitnessHubPage() {
           site — where a venue does not publish something, we say so rather than guessing.
         </p>
 
-        <h3 className="mt-8 font-display text-xl text-ink-900">
-          Bondi Beach <span className="text-base font-normal text-ink-500">— {beach.length} venues, walk to the sand</span>
-        </h3>
-        <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {beach.sort(byVisitorUsefulness).map((v) => (
-            <FitnessVenueCard key={v.id} venue={v} />
-          ))}
-        </div>
-
-        <h3 className="mt-10 font-display text-xl text-ink-900">
-          Bondi Junction{' '}
-          <span className="text-base font-normal text-ink-500">— {junction.length} venues, 2.5 km inland</span>
-        </h3>
-        <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {junction.sort(byVisitorUsefulness).map((v) => (
-            <FitnessVenueCard key={v.id} venue={v} />
-          ))}
-        </div>
+        {/* Driven off populatedSuburbs() rather than a hardcoded pair: an earlier version
+            listed only Bondi Beach and Bondi Junction, which silently dropped every North
+            Bondi and Bondi venue from the directory the moment they were added. */}
+        {populatedSuburbs().map((s) => {
+          const list = venuesInSuburb(s).sort(byVisitorUsefulness);
+          return (
+            <div key={s}>
+              <h3 className="mt-10 font-display text-xl text-ink-900">
+                {SUBURB_LABEL[s]}{' '}
+                <span className="text-base font-normal text-ink-500">
+                  — {list.length} {list.length === 1 ? 'venue' : 'venues'},{' '}
+                  {s === 'bondi-junction' ? '2.5 km inland' : 'walking distance to the coast'}
+                </span>
+              </h3>
+              <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {list.map((v) => (
+                  <FitnessVenueCard key={v.id} venue={v} />
+                ))}
+              </div>
+            </div>
+          );
+        })}
       </section>
 
       {/* Outdoors: real, free, and already covered elsewhere on the site. */}

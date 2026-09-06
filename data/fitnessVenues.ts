@@ -225,7 +225,123 @@ export const FITNESS_VENUES: FitnessVenue[] = [
     sources: [{ label: 'Balance Moves — official site', url: 'https://www.balancemoves.com.au/' }],
   },
 
+  {
+    id: 'sarana-bondi',
+    name: 'Sarana Bondi — Yoga & Pilates',
+    suburb: 'bondi-beach',
+    address: '4 Jaques Avenue',
+    categories: ['yoga', 'pilates', 'group-classes'],
+    description:
+      'A yoga and pilates studio on Jaques Avenue, just off Campbell Parade behind the north end of the beach, running both disciplines from the one space.',
+    casualVisit: 'unknown',
+    websiteUrl: 'https://saranabondi.com.au/',
+    lastVerified: V,
+    sources: [{ label: 'Sarana Bondi — official site', url: 'https://saranabondi.com.au/' }],
+  },
+  {
+    id: 'kiel-x-vrtus',
+    name: 'Kiel x VRTUS',
+    suburb: 'bondi-beach',
+    address: '207 Bondi Road',
+    categories: ['pilates', 'recovery'],
+    description:
+      'A reformer pilates studio on Bondi Road sharing its site with VRTUS physiotherapy, so rehab and pilates run from the same address.',
+    casualVisit: 'unknown',
+    websiteUrl: 'https://www.vrtus.com.au/',
+    phone: '0475 849 161',
+    lastVerified: V,
+    // Their own site publishes this address as "Bondi Beach, NSW 2026", so that is what we
+    // record - we do not second-guess a business about its own published address.
+    sources: [{ label: 'VRTUS — official site', url: 'https://www.vrtus.com.au/' }],
+  },
+  {
+    id: 'lean-bean-fitness-bondi',
+    name: 'Lean Bean Fitness Bondi',
+    suburb: 'bondi',
+    address: '178 Beach House Lane, Campbell Parade',
+    categories: ['pilates', 'group-classes'],
+    description: 'A pilates studio off Campbell Parade running small group classes, with an online streaming option as well.',
+    casualVisit: 'yes',
+    casualNote: 'A seven-day free trial is published on their site.',
+    websiteUrl: 'https://leanbeanfitness.com/',
+    lastVerified: V,
+    // Published by the venue as "Bondi NSW 2026" rather than Bondi Beach.
+    sources: [{ label: 'Lean Bean Fitness — contact page', url: 'https://leanbeanfitness.com/contact' }],
+  },
+  {
+    id: 'the-wellness-studio-bondi',
+    name: 'The Wellness Studio',
+    suburb: 'bondi',
+    address: '290 Bondi Road (access via Castlefield Lane)',
+    categories: ['yoga', 'pilates', 'recovery', 'group-classes'],
+    description:
+      'A studio on Bondi Road running yin and infrared-heated vinyasa yoga, mat pilates and holistic healing sessions. They also operate a second studio in Bronte.',
+    casualVisit: 'unknown',
+    facilities: ['Infrared heated studio', 'Yoga and mat pilates', 'Energy healing and sound healing'],
+    websiteUrl: 'https://www.thewellnessstudio.com.au/',
+    lastVerified: V,
+    sources: [{ label: 'The Wellness Studio — official site', url: 'https://www.thewellnessstudio.com.au/' }],
+  },
+
+  /* ─────────────── North Bondi (2026, the quieter end past the beach) ─────────────── */
+  {
+    id: 'body-by-berner',
+    name: 'Body By Berner',
+    suburb: 'north-bondi',
+    address: '300 Campbell Parade',
+    categories: ['pilates', 'group-classes', 'recovery'],
+    description:
+      'A pilates studio at the North Bondi end of Campbell Parade that also runs sound healing, breathwork and meditation alongside its classes.',
+    casualVisit: 'yes',
+    casualNote: 'An introductory offer covering unlimited classes for new clients is published on their site.',
+    membershipModel: 'Memberships and class packs, with an intro offer for new clients.',
+    facilities: ['Pilates studio', 'Sound healing', 'Breathwork and meditation'],
+    websiteUrl: 'https://www.bodybyberner.com/',
+    lastVerified: V,
+    sources: [{ label: 'Body By Berner — official site', url: 'https://www.bodybyberner.com/' }],
+  },
+  {
+    id: 'gemma-clarke-pilates',
+    name: 'Gemma Clarke Pilates',
+    suburb: 'north-bondi',
+    address: '10 Curlewis Street',
+    categories: ['pilates', 'personal-training'],
+    description: 'A small pilates studio on Curlewis Street at the North Bondi end, working with small groups and individuals.',
+    casualVisit: 'unknown',
+    websiteUrl: 'https://www.gemmaclarkepilates.com/',
+    lastVerified: V,
+    sources: [{ label: 'Gemma Clarke Pilates — official site', url: 'https://www.gemmaclarkepilates.com/' }],
+  },
+  {
+    id: 'sea-sculpt-pilates',
+    name: 'Sea Sculpt Pilates',
+    suburb: 'north-bondi',
+    address: '111 Ramsgate Avenue',
+    categories: ['pilates', 'group-classes'],
+    description:
+      'A pilates studio at Ben Buckler in North Bondi that also runs sessions outdoors, including at Tamarama Beach — one of the few genuinely open-air options around here.',
+    casualVisit: 'unknown',
+    casualNote: 'Their site publishes booking rules and a live timetable — check there before a first class.',
+    websiteUrl: 'https://www.seasculptpilates.com.au/',
+    lastVerified: V,
+    sources: [{ label: 'Sea Sculpt Pilates — official site', url: 'https://www.seasculptpilates.com.au/' }],
+  },
+
   /* ─────────────── Bondi Junction (a separate suburb, 2.5km inland) ─────────────── */
+  {
+    id: 'healing-on-spring',
+    name: 'Healing on Spring',
+    suburb: 'bondi-junction',
+    address: '1/60 Spring Street',
+    categories: ['recovery'],
+    description:
+      'A recovery and wellness studio on Spring Street offering red light therapy and lymphatic drainage massage. It is a recovery space rather than a gym or class studio.',
+    casualVisit: 'unknown',
+    facilities: ['Red light therapy', 'Lymphatic drainage massage'],
+    websiteUrl: 'https://healingonspring.com/',
+    lastVerified: V,
+    sources: [{ label: 'Healing on Spring — official site', url: 'https://healingonspring.com/' }],
+  },
   {
     id: 'virgin-active-bondi-junction',
     name: 'Virgin Active Bondi Westfield',

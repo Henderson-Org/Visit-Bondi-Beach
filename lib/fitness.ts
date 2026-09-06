@@ -101,6 +101,17 @@ export const FITNESS_COLLECTIONS: FitnessCollection[] = [
     intro:
       'Bondi’s yoga studios are concentrated a block back from the beach rather than on the beachfront itself, which is why visitors often walk straight past them. Drop-in classes are common, so a single session while you are here is straightforward.',
   },
+  {
+    slug: 'recovery',
+    category: 'recovery',
+    title: 'Recovery & Wellness in Bondi: Saunas, Ice Baths & Bodywork',
+    h1: 'Recovery and wellness around Bondi',
+    metaDescription:
+      'Saunas, cold plunges, infrared, sound healing and bodywork around Bondi and Bondi Junction — what each venue actually offers, and which suburb it is in.',
+    intent: 'recovery bondi / sauna ice bath bondi / wellness bondi junction',
+    intro:
+      'Recovery has quietly become its own category here, and it splits into two kinds: the hot-and-cold rooms attached to gyms, and standalone studios doing bodywork, light therapy and breathwork. Bondi being Bondi, several of them will also sell you the ocean as the cold plunge, which is free and open all year.',
+  },
   // NO SWIMMING CATEGORY PAGE, DELIBERATELY. /where-to-swim-at-bondi-beach already owns
   // that intent and is an established page; a /fitness/swimming page would compete with it
   // for the same query and split the signal - the exact cannibalisation this site has spent
