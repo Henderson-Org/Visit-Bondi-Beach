@@ -117,6 +117,11 @@ export default function FitnessHubPage() {
           session, a day pass, a drop-in class or a trial. Prices move constantly, so we do not print them; each venue
           links straight to its own site.
         </p>
+        <p className="mt-3 text-[15px] leading-relaxed text-ink-700">
+          <Link href="/fitness/day-passes" className="font-medium text-ocean-700 hover:underline">
+            What each one actually offers →
+          </Link>
+        </p>
         <ul className="mt-4 flex flex-wrap gap-2">
           {casual.map((v) => (
             <li key={v.id}>

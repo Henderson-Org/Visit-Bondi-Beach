@@ -7,6 +7,8 @@ import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
 import { FITNESS_VENUES, SUBURB_LABEL, SUBURB_POSTCODE } from '@/data/fitnessVenues';
 import {
+  FITNESS_COLLECTIONS,
+  getCollection,
   activeVenues,
   getFitnessVenue,
   venuesInCategory,
@@ -132,6 +134,40 @@ describe('category pages', () => {
     expect(new Set(cols.map((c) => c.intent)).size, 'two category pages share an intent').toBe(cols.length);
     expect(new Set(cols.map((c) => c.title)).size, 'two category pages share a title').toBe(cols.length);
     expect(new Set(cols.map((c) => c.slug)).size).toBe(cols.length);
+  });
+
+  it('builds each collection from a category or a filter, never both', () => {
+    for (const c of FITNESS_COLLECTIONS) {
+      expect(
+        Boolean(c.category) !== Boolean(c.select),
+        `${c.slug} must set exactly one of category / select`
+      ).toBe(true);
+    }
+  });
+
+  it('lists only casual-friendly venues on the day-passes page', () => {
+    const c = getCollection('day-passes')!;
+    const venues = venuesForCollection(c);
+    expect(venues.length, 'day-passes has no venues').toBeGreaterThanOrEqual(MIN_VENUES_FOR_PAGE);
+    expect(venues.map((v) => v.id).sort()).toEqual(casualFriendlyVenues().map((v) => v.id).sort());
+    for (const v of venues) {
+      expect(v.casualVisit, `${v.id} is not casual-friendly`).toBe('yes');
+      // The page's entire value is saying what the casual option IS. A venue without one
+      // would render an empty promise.
+      expect(v.casualNote, `${v.id} is on the day-pass page but explains nothing`).toBeTruthy();
+    }
+  });
+
+  it('lets exactly one page target day-pass intent', () => {
+    // /fitness/gyms used to claim "gym day pass bondi" in its intent AND title while the
+    // day-passes page answered the same query across every category. Two pages chasing one
+    // query is the cannibalisation this site has spent a lot of effort undoing elsewhere,
+    // so it is a test rather than a note.
+    const claiming = FITNESS_COLLECTIONS.filter((c) => /day.?pass/i.test(c.intent));
+    expect(claiming.map((c) => c.slug), 'more than one page targets day-pass intent').toEqual(['day-passes']);
+
+    const inTitles = FITNESS_COLLECTIONS.filter((c) => /day.?pass/i.test(c.title));
+    expect(inTitles.map((c) => c.slug), 'another page’s title competes for day passes').toEqual(['day-passes']);
   });
 
   it('returns venues for every published category', () => {

@@ -54,6 +54,12 @@ export function populatedSuburbs(): FitnessSuburb[] {
 export interface FitnessCollection {
   slug: string;
   category?: FitnessCategory;
+  /**
+   * For a collection that is not a category but a genuine way people search - "which of
+   * these can I use without joining". A predicate over the dataset, so the page can never
+   * drift from the venue records it is built from. Set `category` OR `select`, never both.
+   */
+  select?: (v: FitnessVenue) => boolean;
   title: string;
   h1: string;
   metaDescription: string;
@@ -71,11 +77,15 @@ export const FITNESS_COLLECTIONS: FitnessCollection[] = [
   {
     slug: 'gyms',
     category: 'gym',
-    title: 'Gyms in Bondi: Day Passes, Casual Visits & What’s Where',
+    // RETARGETED off day-pass intent. This page used to claim "gym day pass bondi" in its
+    // title, meta and intent, which put it in direct competition with /fitness/day-passes -
+    // the page that actually answers that query across every category, not just gyms. The
+    // cards here still show each gym's casual terms; what changed is what the page targets.
+    title: 'Gyms in Bondi: Every Verified Club, by Suburb',
     h1: 'Gyms in Bondi Beach and Bondi Junction',
     metaDescription:
-      'Every verified gym around Bondi - which ones take casual visits or day passes, what each has, and whether it is at Bondi Beach or inland at Bondi Junction.',
-    intent: 'gyms bondi / bondi beach gym / gym day pass bondi',
+      'Every verified gym around Bondi - what each one has, and whether it is at Bondi Beach or 2.5 km inland at Bondi Junction. Two very different sets of gyms.',
+    intent: 'gyms bondi / bondi beach gym / gym bondi junction',
     intro:
       'Two very different sets of gyms sit within a few kilometres of each other here, and the distinction matters more than the marketing suggests. At Bondi Beach the gyms are small-floor, view-heavy and built around people who train and then swim. In Bondi Junction, 2.5 km inland, they are big indoor clubs inside and around the shopping centre. Every venue below carries its real suburb.',
   },
@@ -112,6 +122,21 @@ export const FITNESS_COLLECTIONS: FitnessCollection[] = [
     intro:
       'Recovery has quietly become its own category here, and it splits into two kinds: the hot-and-cold rooms attached to gyms, and standalone studios doing bodywork, light therapy and breathwork. Bondi being Bondi, several of them will also sell you the ocean as the cold plunge, which is free and open all year.',
   },
+  {
+    // Not a category - a filter. It is also the single most common thing a visitor asks,
+    // and the one question the category pages answer only in fragments: gyms, pilates,
+    // yoga and recovery each hold part of the answer. Built off the same casualVisit field
+    // the cards render, so it cannot drift from the records.
+    slug: 'day-passes',
+    select: (v) => v.casualVisit === 'yes',
+    title: 'Bondi Day Passes: Gyms & Studios You Can Use Casually',
+    h1: 'Where you can train in Bondi without joining',
+    metaDescription:
+      'The gyms, pilates and yoga studios around Bondi that publish a day pass, single session, drop-in class or trial - what each one actually offers, and its real suburb.',
+    intent: 'gym day pass bondi / casual gym bondi / drop in classes bondi',
+    intro:
+      'Almost every visitor asks the same question, and the answer here is usually yes. These are the venues around Bondi whose own site publishes a way in without a membership - a day pass, a single session, a drop-in class or a trial - and what each one actually offers. We do not print prices, because they change constantly; every listing goes straight to the venue’s own page so you are reading today’s terms rather than ours.',
+  },
   // NO SWIMMING CATEGORY PAGE, DELIBERATELY. /where-to-swim-at-bondi-beach already owns
   // that intent and is an established page; a /fitness/swimming page would compete with it
   // for the same query and split the signal - the exact cannibalisation this site has spent
@@ -129,7 +154,9 @@ export function getCollection(slug: string): FitnessCollection | undefined {
 }
 
 export function venuesForCollection(c: FitnessCollection): FitnessVenue[] {
-  return c.category ? venuesInCategory(c.category) : [];
+  if (c.category) return venuesInCategory(c.category);
+  if (c.select) return activeVenues().filter(c.select);
+  return [];
 }
 
 /**

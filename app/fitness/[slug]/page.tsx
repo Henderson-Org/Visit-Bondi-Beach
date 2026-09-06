@@ -97,7 +97,9 @@ export default async function FitnessCollectionPage({ params }: { params: Promis
       <header className="mt-2 max-w-prose">
         <h1 className="mt-2 font-display text-3xl leading-tight tracking-tight text-ink-900 md:text-4xl">{c.h1}</h1>
         <p className="mt-4 text-[15px] leading-relaxed text-ink-700">{c.intro}</p>
-        {casual.length > 0 && (
+        {/* Pointless on /fitness/day-passes, where every venue qualifies by definition -
+            "8 of these 8" reads like a bug. Only shown where it actually narrows things. */}
+        {casual.length > 0 && casual.length < venues.length && (
           <p className="mt-3 text-[15px] leading-relaxed text-ink-700">
             {casual.length} of these {venues.length} publish a casual visit, drop-in class or trial, so you can use them
             while visiting without joining anything.
