@@ -208,7 +208,7 @@ export function coastalWalkSchema(
     url,
     isAccessibleForFree: true,
     touristType: ['Walkers', 'Families', 'Photographers'],
-    containedInPlace: { '@id': `${origin}/${BONDI_PLACE_ID}` },
+    containedInPlace: { '@type': 'Place', '@id': `${origin}/${BONDI_PLACE_ID}`, name: 'Bondi Beach' },
     ...(opts?.image ? { image: opts.image.startsWith('http') ? opts.image : `${origin}${opts.image}` } : {}),
     sameAs: ['https://en.wikipedia.org/wiki/Bondi_to_Coogee_walk'],
   };
@@ -253,8 +253,20 @@ export function datasetJsonLd(d: {
     name: d.name,
     description: d.description,
     url: `${origin}${d.path}`,
-    creator: { '@id': `${origin}/#org` },
-    spatialCoverage: { '@id': `${origin}/${BONDI_PLACE_ID}` },
+    // Both of these carry an inline @type as well as the @id. A bare { '@id': ... } only
+    // resolves if the node it points at is in the SAME document, and these dataset pages are
+    // code routes - they never emit bondiPlaceJsonLd()/organizationJsonLd(), which render on
+    // the homepage and the [...slug] content pages. Google therefore saw an object with no
+    // type and reported "Invalid object type for field spatialCoverage" in Search Console.
+    // Keeping the @id preserves entity consolidation for consumers that do resolve graphs;
+    // the @type makes each node self-describing for those that do not.
+    creator: { '@type': 'Organization', '@id': `${origin}/#org`, name: SITE.name, url: origin },
+    spatialCoverage: {
+      '@type': 'Place',
+      '@id': `${origin}/${BONDI_PLACE_ID}`,
+      name: 'Bondi Beach',
+      geo: { '@type': 'GeoCoordinates', latitude: -33.8908, longitude: 151.2743 },
+    },
     ...(d.temporalCoverage ? { temporalCoverage: d.temporalCoverage } : {}),
     ...(d.keywords?.length ? { keywords: d.keywords } : {}),
     ...(d.license ? { license: d.license } : {}),
@@ -437,7 +449,9 @@ export function restaurantJsonLd(
       addressCountry: 'AU',
     },
     areaServed: 'Bondi Beach, Sydney',
-    containedInPlace: { '@id': `${siteOrigin()}/${BONDI_PLACE_ID}` },
+    // Typed as well as referenced - venue pages are code routes and never emit the place
+    // node, so a bare @id would dangle here the same way it did on the dataset pages.
+    containedInPlace: { '@type': 'Place', '@id': `${siteOrigin()}/${BONDI_PLACE_ID}`, name: 'Bondi Beach' },
   };
   const cuisines = r.cuisines.filter((c) => c && c !== '-');
   if (cuisines.length) data.servesCuisine = cuisines;
@@ -485,7 +499,7 @@ export function locationPlaceJsonLd(loc: {
   // Sub-locations sit within the canonical Bondi Beach entity; Bondi Beach itself sits in Sydney.
   data.containedInPlace = isBondiBeach
     ? { '@type': 'City', name: 'Sydney', containedInPlace: { '@type': 'AdministrativeArea', name: 'New South Wales', containedInPlace: { '@type': 'Country', name: 'Australia' } } }
-    : { '@id': `${siteOrigin()}/${BONDI_PLACE_ID}`, name: 'Bondi Beach' };
+    : { '@type': 'Place', '@id': `${siteOrigin()}/${BONDI_PLACE_ID}`, name: 'Bondi Beach' };
   return data;
 }
 
