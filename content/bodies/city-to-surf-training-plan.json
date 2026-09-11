@@ -1,7 +1,7 @@
 {
   "path": "/bondi-blog/city-to-surf-training-plan",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-09-11",
   "freshnessClass": "annual",
   "sources": [
     {
@@ -16,7 +16,7 @@
   "blocks": [
     {
       "type": "p",
-      "text": "If you've got eight weeks and a nagging fear of Heartbreak Hill, here's the honest answer: yes, a first-timer can get around the 14 km City2Surf on eight weeks of consistent training - the trick is building up slowly with a run/walk approach, not smashing yourself in week one. I live at the finish end of this race, and every August I watch thousands of self-described 'non-runners' cruise down towards Bondi grinning. This is the plan I'd hand a friend starting from scratch."
+      "text": "The next City2Surf is Sunday 8 August 2027, which means an eight-week build starts around Sunday 13 June 2027. If you've got eight weeks and a nagging fear of Heartbreak Hill, here's the honest answer: yes, a first-timer can get around the 14 km City2Surf on eight weeks of consistent training - the trick is building up slowly with a run/walk approach, not smashing yourself in week one. I live at the finish end of this race, and every August I watch thousands of self-described 'non-runners' cruise down towards Bondi grinning. This is the plan I'd hand a friend starting from scratch."
     },
     {
       "type": "quickFacts",
@@ -39,7 +39,7 @@
         },
         {
           "label": "Event date",
-          "value": "Held in August - confirm on the official site"
+          "value": "Sunday 8 August 2027"
         }
       ]
     },

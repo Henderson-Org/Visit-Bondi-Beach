@@ -255,11 +255,14 @@ export const EVENTS: BondiEvent[] = [
       'Tens of thousands take part, from elite runners to walkers in costume. Entry is ticketed and dates are set each year; confirm the date and register on the official site.',
     ],
     timezone: 'Australia/Sydney',
+    // 2027 date now published by the organiser: "Voltaren City2Surf returns on 8 August 2027".
+    // That is the second Sunday of August, consistent with typicalTiming.
+    startDate: '2027-08-08',
     recurrence: { freq: 'annual', month: 8 },
-    dateStatus: 'tbc',
+    dateStatus: 'confirmed',
     typicalTiming: 'The second Sunday of August',
     nextEditionYear: 2027,
-    whenText: 'Next edition August 2027 - dates to be announced',
+    whenText: 'Sunday 8 August 2027',
     venue: 'Finishes at Bondi Beach',
     suburb: 'Bondi Beach',
     categories: ['sport', 'fitness', 'community'],
@@ -271,11 +274,12 @@ export const EVENTS: BondiEvent[] = [
     organiser: 'The Sun-Herald City2Surf',
     featured: true,
     status: 'scheduled',
-    // The 2026 race ran on 9 August 2026 and has passed; the 2027 date is not yet published.
-    // TBC is therefore accurate here - flagged for re-check by scripts/verify-events.mjs.
-    dateSourceUrl: 'https://www.city2surf.com.au/',
+    // The 2026 race ran on 9 August 2026. The organiser has since published the next
+    // edition as 8 August 2027, so this is a confirmed date rather than typical timing -
+    // which also means it now qualifies for Event schema (see lib/eventSchema.ts).
+    dateSourceUrl: 'https://city2surf.com.au/',
     dateSourceName: 'Voltaren City2Surf (official)',
-    dateVerifiedAt: '2026-08-10',
+    dateVerifiedAt: '2026-09-11',
     lastVerified: VERIFIED,
     source: 'https://www.city2surf.com.au/',
     relatedArticles: [

@@ -1,7 +1,7 @@
 {
   "path": "/bondi-blog/city2surf-results",
   "voice": "first-person",
-  "lastReviewed": "2026-08-14",
+  "lastReviewed": "2026-09-11",
   "freshnessClass": "annual",
   "sources": [
     {
@@ -32,7 +32,7 @@
   "blocks": [
     {
       "type": "answer",
-      "text": "The 2026 Voltaren City2Surf was run on Sunday 9 August 2026, and Andy Buchanan won the men's race in 40:27 with Holly Campbell taking the women's in 46:35 on her elite debut. More than 90,000 people entered, making it the biggest field the race has seen. If you're here to find your own time rather than the winners', the official results search is below - and it goes back years, not just to this August."
+      "text": "The 2026 Voltaren City2Surf was run on Sunday 9 August 2026, and Andy Buchanan won the men's race in 40:27 with Holly Campbell taking the women's in 46:35 on her elite debut. More than 90,000 people entered, making it the biggest field the race has seen. If you're here to find your own time rather than the winners', the official results search is below - and it goes back years, not just to this August. The next race is Sunday 8 August 2027, so if you're here to set a target rather than look one up, that's the date to train back from."
     },
     {
       "type": "callout",
@@ -138,6 +138,10 @@
     {
       "type": "faq",
       "items": [
+        {
+          "q": "When is the next City2Surf?",
+          "a": "Sunday 8 August 2027. The organiser has published the date, and entries usually open earlier in the year at city2surf.com.au - the race has sold out before race day in recent years."
+        },
         {
           "q": "Who won City2Surf 2026?",
           "a": "Andy Buchanan won the men's race in 40:27 and Holly Campbell won the women's in 46:35, on Sunday 9 August 2026. Luke Hince (41:05) and Ed Goddard (41:50) completed the men's podium; Eloise Wellings (49:06) and Stacy Winter (49:19) rounded out the women's."

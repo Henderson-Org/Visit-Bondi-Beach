@@ -1,7 +1,7 @@
 {
   "path": "/bondi-blog/where-to-go-afterparty-city-to-surf",
   "voice": "first-person",
-  "lastReviewed": "2026-08-14",
+  "lastReviewed": "2026-09-11",
   "freshnessClass": "annual",
   "sources": [
     {
@@ -28,18 +28,18 @@
   "blocks": [
     {
       "type": "p",
-      "text": "You've just run 14 km from the city to the sea - now for the best part. The Voltaren City2Surf finishes, as it has for decades, on Queen Elizabeth Drive right here at Bondi, and the moment the runners start pouring in the whole beachfront turns into one long celebration. Here's where I'd point you the second you cross the line."
+      "text": "You've just run 14 km from the city to the sea - now for the best part. (Planning ahead? The next City2Surf is Sunday 8 August 2027.) The Voltaren City2Surf finishes, as it has for decades, on Queen Elizabeth Drive right here at Bondi, and the moment the runners start pouring in the whole beachfront turns into one long celebration. Here's where I'd point you the second you cross the line."
     },
     {
       "type": "quickFacts",
       "items": [
         {
           "label": "Event",
-          "value": "Voltaren City2Surf - held annually in August"
+          "value": "Voltaren City2Surf - next on Sun 8 Aug 2027"
         },
         {
           "label": "Most recent race",
-          "value": "Sunday 9 August 2026 - next date announced at city2surf.com.au"
+          "value": "Sunday 9 August 2026 - next race Sunday 8 August 2027"
         },
         {
           "label": "Course",
@@ -98,7 +98,7 @@
       "items": [
         {
           "q": "Where does the City2Surf finish?",
-          "a": "On Queen Elizabeth Drive at Bondi Beach - the end of the 14 km course from the Sydney CBD, which is why the whole beachfront becomes one big afterparty. The most recent race was run on Sunday 9 August 2026; the event is held annually on a Sunday in August."
+          "a": "On Queen Elizabeth Drive at Bondi Beach - the end of the 14 km course from the Sydney CBD, which is why the whole beachfront becomes one big afterparty. The next race is on Sunday 8 August 2027, so that is the date to plan the afterparty around. The most recent one was run on Sunday 9 August 2026."
         },
         {
           "q": "Where's the best City2Surf afterparty in Bondi?",

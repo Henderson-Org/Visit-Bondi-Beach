@@ -1,7 +1,7 @@
 {
   "path": "/bondi-blog/2024/4/1/city2surf-course-map",
   "voice": "first-person",
-  "lastReviewed": "2026-08-10",
+  "lastReviewed": "2026-09-11",
   "freshnessClass": "annual",
   "sources": [
     {
@@ -25,6 +25,10 @@
     {
       "type": "quickFacts",
       "items": [
+        {
+          "label": "Next race",
+          "value": "Sunday 8 August 2027"
+        },
         {
           "label": "Distance",
           "value": "~14 km (13.9 km)"

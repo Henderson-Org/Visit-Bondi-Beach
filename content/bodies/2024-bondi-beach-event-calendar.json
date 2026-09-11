@@ -1,7 +1,7 @@
 {
   "path": "/bondi-blog/2023/11/9/2024-bondi-beach-event-calendar",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-09-11",
   "freshnessClass": "annual",
   "sources": [
     {
@@ -85,7 +85,7 @@
     },
     {
       "type": "h3",
-      "text": "City2Surf (August)"
+      "text": "City2Surf (Sunday 8 August 2027)"
     },
     {
       "type": "p",
@@ -120,7 +120,7 @@
         },
         {
           "label": "Biggest ticketed run",
-          "value": "City2Surf (finishes at Bondi)"
+          "value": "City2Surf - Sun 8 Aug 2027 (finishes at Bondi)"
         },
         {
           "label": "Best for film",
@@ -141,7 +141,7 @@
       "items": [
         {
           "q": "What's the biggest event at Bondi Beach each year?",
-          "a": "For sheer scale, City2Surf in August - the world's largest fun run finishes at Bondi Beach. For visitor draw, Sculpture by the Sea (October–November) pulls hundreds of thousands of people to the free coastal-walk exhibition."
+          "a": "For sheer scale, City2Surf - the world's largest fun run finishes at Bondi Beach, next on Sunday 8 August 2027. For visitor draw, Sculpture by the Sea (October–November) pulls hundreds of thousands of people to the free coastal-walk exhibition."
         },
         {
           "q": "When is Sculpture by the Sea at Bondi?",

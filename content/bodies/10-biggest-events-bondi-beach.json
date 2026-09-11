@@ -1,7 +1,7 @@
 {
   "path": "/bondi-blog/10-biggest-events-bondi-beach",
   "voice": "first-person",
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-09-11",
   "freshnessClass": "monthly",
   "sources": [
     {
@@ -23,6 +23,10 @@
     {
       "label": "Waverley Council - Festival of the Winds",
       "url": "https://www.waverley.nsw.gov.au/recreation/events/festival_of_the_winds"
+    },
+    {
+      "label": "Voltaren City2Surf - official site (2027 date)",
+      "url": "https://city2surf.com.au/"
     }
   ],
   "blocks": [
@@ -43,7 +47,7 @@
         },
         {
           "label": "City2Surf finish line",
-          "value": "Bondi Beach, since 1971"
+          "value": "Bondi Beach, since 1971 - next 8 Aug 2027"
         },
         {
           "label": "Big spring event",
@@ -81,7 +85,7 @@
     },
     {
       "type": "p",
-      "text": "First run in 1971, the City2Surf pours 14 kilometres from the Sydney CBD down to Bondi Beach and has grown into the world's largest fun run. If you've never watched the finish, do it - tens of thousands of runners cresting the hill on a winter Sunday."
+      "text": "Next run on Sunday 8 August 2027. First held in 1971, the City2Surf pours 14 kilometres from the Sydney CBD down to Bondi Beach and has grown into the world's largest fun run. If you've never watched the finish, do it - tens of thousands of runners cresting the hill on a winter Sunday."
     },
     {
       "type": "h3",
@@ -158,7 +162,7 @@
         },
         {
           "q": "When is the City2Surf and where does it finish?",
-          "a": "It runs in winter and finishes at Bondi Beach after 14km from the Sydney CBD. First held in 1971, it's now the world's largest fun run. Check the official City2Surf website for this year's date and entry."
+          "a": "The next City2Surf is Sunday 8 August 2027. It runs in winter and finishes at Bondi Beach after 14km from the Sydney CBD. First held in 1971, it is now the world’s largest fun run. Entries open earlier in the year at city2surf.com.au and have sold out before race day in recent years."
         },
         {
           "q": "What is the Festival of the Winds?",

@@ -1,10 +1,14 @@
 {
   "path": "/bondi-blog/matt-dee-bondi-rescue",
   "voice": "first-person",
-  "lastReviewed": "2026-09-02",
+  "lastReviewed": "2026-09-11",
   "checkType": "desk",
   "freshnessClass": "live",
   "sources": [
+    {
+      "label": "ABC News - Former Bondi Rescue lifeguard and mental health advocate Matt Dee dies (2 September 2026)",
+      "url": "https://www.abc.net.au/news/2026-09-02/matt-dee-former-bondi-rescue-lifeguard-dies/107108070"
+    },
     {
       "label": "Nine - Former Bondi Rescue star Matt Dee dies (2 September 2026)",
       "url": "https://www.nine.com.au/entertainment/celebrity/matt-dee-death-former-bondi-rescue-star-passing-20260902-p60tso.html"
@@ -14,8 +18,24 @@
       "url": "https://thenightly.com.au/culture/matt-dee-former-bondi-rescue-lifeguards-death-announced-on-instagram-maxi-pays-tribute-c-22810547"
     },
     {
+      "label": "The Nightly - Matt Dee's public celebration of life at Bronte Beach (4 September 2026)",
+      "url": "https://thenightly.com.au/culture/heartwarming-detail-in-matt-dees-public-celebration-of-life-event-after-bondi-rescue-lifeguards-death-c-22823354"
+    },
+    {
+      "label": "Yahoo Lifestyle Australia - Public memorial for Matt Dee announced",
+      "url": "https://au.lifestyle.yahoo.com/public-memorial-for-matt-dee-announced-after-bondi-lifeguards-tragic-death-003857177.html"
+    },
+    {
+      "label": "Yahoo Lifestyle Australia - Funds raised ahead of the public memorial (7 September 2026)",
+      "url": "https://au.lifestyle.yahoo.com/bondi-rescue-star-matt-dees-death-sparks-12500-fundraiser-013932334.html"
+    },
+    {
       "label": "Lifeline Australia - 13 11 14",
       "url": "https://www.lifeline.org.au/"
+    },
+    {
+      "label": "Beyond Blue - 1300 22 4636",
+      "url": "https://www.beyondblue.org.au/"
     },
     {
       "label": "Suicide Prevention Australia",
@@ -25,7 +45,11 @@
   "blocks": [
     {
       "type": "p",
-      "text": "Matt Dee, the former Bondi Rescue lifeguard who appeared on the show from 2008 to 2017, has died. His death was announced on the morning of Wednesday 2 September 2026 on the Instagram page of FTW Revolution, the clothing label he founded and ran. His cause of death has not been made public, and the announcement said funeral arrangements will be shared once they are finalised."
+      "text": "Matt Dee, the former Bondi Rescue lifeguard who appeared on the show from 2008 to 2017, has died. His death was announced on the morning of Wednesday 2 September 2026 on the Instagram page of FTW Revolution, the suicide-prevention clothing label he co-founded and ran. His cause of death has not been made public."
+    },
+    {
+      "type": "p",
+      "text": "A public celebration of his life is being held at Bronte Beach on Saturday 12 September 2026 from midday, with a paddle-out, and anyone who wants to come has been told they are welcome. Details are below."
     },
     {
       "type": "quickFacts",
@@ -39,14 +63,42 @@
           "value": "2008 to 2017"
         },
         {
-          "label": "Announced",
+          "label": "Death announced",
           "value": "2 September 2026"
         },
         {
-          "label": "Cause",
+          "label": "Public memorial",
+          "value": "Bronte Beach, Saturday 12 September 2026, from midday"
+        },
+        {
+          "label": "Cause of death",
           "value": "Not made public"
         }
       ]
+    },
+    {
+      "type": "h2",
+      "text": "Matt Dee's memorial at Bronte Beach: what we know"
+    },
+    {
+      "type": "p",
+      "text": "The send-off is a public one. It is being held at Bronte Beach on Saturday 12 September 2026, starting at midday, and it was announced by the North Maroubra Surf Riders rather than by his family - which tells you something about the crowd he belonged to. There is a paddle-out, his ashes are being spread in the water, and afterwards there is food, drink, music and the part everyone actually comes for, which is standing around telling stories about him."
+    },
+    {
+      "type": "quote",
+      "text": "Next Saturday, we send off a true legend. A man that had time for everyone, a larrikin, a brother to all and a leader of men. His time with us has come to an end, but we owe it to him to send him off in style."
+    },
+    {
+      "type": "localTip",
+      "text": "One practical thing, because people will get this wrong: the memorial is at Bronte Beach, not Bondi Beach. Bronte is the next-but-one beach south, about 2 km down the coast, and the walk from Bondi along the clifftop path takes 25-30 minutes at an easy pace. There is very little parking at Bronte at the best of times and none worth hunting for on a Saturday with a crowd coming, so walk it from Bondi or take the 379 bus. If you are paddling out, you need your own board."
+    },
+    {
+      "type": "p",
+      "text": "A paddle-out, if you have not seen one, is the surfing world's funeral rite: everyone paddles out past the break, forms a circle sitting on their boards, and there is usually a moment of quiet, some splashing of water and a lot of hollering. It is not solemn in the church sense. It is loud, and it is meant to be."
+    },
+    {
+      "type": "p",
+      "text": "A fundraiser was also set up to cover the funeral and farewell costs, which had passed $12,500 of an $18,000 goal when Yahoo Lifestyle reported on it on 7 September. Donations had been made in the names of the Bondi Rescue lifeguard Harrison Reid and the boxer Harry Garside, among hundreds of others."
     },
     {
       "type": "h2",
@@ -54,7 +106,7 @@
     },
     {
       "type": "p",
-      "text": "The announcement came from FTW Revolution, the clothing brand connected to Suicide Prevention Australia that Dee founded and led as chief executive. It was posted on Wednesday morning alongside a photograph of him laughing, head thrown back, holding a beer - which is, by every account being posted today, exactly how the people who knew him want him remembered."
+      "text": "The announcement came from FTW Revolution, the clothing and events brand he co-founded as a suicide-prevention resource aimed at young Australians. It was posted on the Wednesday morning alongside a photograph of him laughing, head thrown back, holding a beer - which is, by every account posted since, exactly how the people who knew him want him remembered."
     },
     {
       "type": "quote",
@@ -62,7 +114,7 @@
     },
     {
       "type": "p",
-      "text": "The same statement asked for patience with messages, said that funeral arrangements and details would be made public once they had been finalised, and pointed anyone struggling with the news toward support. No cause of death has been confirmed, and until his family chooses to say more, there is nothing further to report on that - so this page will not speculate."
+      "text": "The same statement asked for patience with messages and pointed anyone struggling with the news toward support. No cause of death has been confirmed in the nine days since, and until his family chooses to say more there is nothing further to report on that - so this page will not speculate."
     },
     {
       "type": "h2",
@@ -82,7 +134,7 @@
     },
     {
       "type": "p",
-      "text": "What Dee became known for after the show is harder to watch than any rescue on it. He lost both of his siblings within a year of each other. His older brother Jonathan, who lived with bipolar disorder, died at 34. His younger sister Rachel Bridger Dee, who had lived with schizophrenia for around a decade, died in December 2009 at 30."
+      "text": "What Dee became known for after the show is harder to watch than any rescue on it. He lost both of his siblings within about a year of each other. His older brother Jonathan, who lived with bipolar disorder, died at 34. His younger sister Rachel Bridger Dee, who had lived with schizophrenia for around a decade, died in December 2009 at 30."
     },
     {
       "type": "p",
@@ -94,7 +146,11 @@
     },
     {
       "type": "p",
-      "text": "He went on to become an ambassador for Suicide Prevention Australia and for the Schizophrenia Research Institute, and founded FTW Revolution, a clothing label built around that advocacy. He also spoke about carrying guilt over his siblings' deaths, and the feeling that he might have done more - which is worth recording, because it is the thing so many people left behind carry silently, and he said it out loud."
+      "text": "He became an ambassador for Suicide Prevention Australia and for the Schizophrenia Research Institute, and FTW Revolution - the label he co-founded around that advocacy - has raised at least $500,000 for Suicide Prevention Australia, according to the ABC. He described who it was built for in his own words: 'the underdogs in the trenches, the battlers in the dark places'."
+    },
+    {
+      "type": "p",
+      "text": "He also spoke about carrying guilt over his siblings' deaths, and the feeling that he might have done more - which is worth recording, because it is the thing so many people left behind carry silently, and he said it out loud."
     },
     {
       "type": "h2",
@@ -102,45 +158,57 @@
     },
     {
       "type": "p",
-      "text": "Tributes filled the announcement post within hours, including from the lifeguards he worked alongside. Trent 'Maxi' Maxwell wrote 'Rest easy brother'. Ryan 'Whippet' Clark posted: 'Big love Matty Dee. You had a wild wide and you will be missed by many.' Among the hundreds of messages from people who only ever knew him through a television screen, the word that keeps coming back is that he was one of a kind."
+      "text": "Tributes filled the announcement post within hours, including from the lifeguards he worked alongside and from the official Bondi Lifeguards account. Trent 'Maxi' Maxwell wrote 'Rest easy brother'. Ryan 'Whippet' Clark posted: 'Big love Matty Dee. You had a wild wide and you will be missed by many.' The NRL player Josh Dugan was among those paying tribute too. Among the hundreds of messages from people who only ever knew him through a television screen, the word that keeps coming back is that he was one of a kind."
     },
     {
       "type": "callout",
       "title": "If this is difficult to read",
-      "text": "Matt Dee spent much of his life telling people that they did not have to sit with this on their own, so it would be wrong to write about him without saying the same thing. Lifeline Australia is available 24 hours a day on 13 11 14, or by text on 0477 13 11 14."
+      "text": "Matt Dee spent much of his life telling people that they did not have to sit with this on their own, so it would be wrong to write about him without saying the same thing. Lifeline Australia is available 24 hours a day on 13 11 14, or by text on 0477 13 11 14. Beyond Blue is on 1300 22 4636."
     },
     {
       "type": "faq",
       "items": [
         {
+          "q": "When is Matt Dee's memorial?",
+          "a": "A public celebration of his life is being held on Saturday 12 September 2026 from midday at Bronte Beach in Sydney's eastern suburbs. It was announced by the North Maroubra Surf Riders and includes a paddle-out, with his ashes spread in the water, followed by food, drinks and music on the beach."
+        },
+        {
+          "q": "Is Matt Dee's memorial open to the public?",
+          "a": "Yes. It was announced publicly with an open invitation - 'we are calling on everyone to get down to Bronte' - so anyone who wants to pay their respects is welcome. If you intend to join the paddle-out you will need to bring your own board."
+        },
+        {
+          "q": "Where is Bronte Beach, and how do I get there from Bondi?",
+          "a": "Bronte is about 2 km south of Bondi Beach, two beaches down the coast, and it is a different suburb with a different postcode. The nicest way there is on foot along the Bondi to Bronte clifftop path, which takes 25-30 minutes. Parking at Bronte is limited on any weekend and will be far worse with a crowd, so walking or the bus is the better plan."
+        },
+        {
           "q": "What happened to Matt Dee from Bondi Rescue?",
-          "a": "Matt Dee died, with his death announced on the morning of 2 September 2026 on the Instagram page of FTW Revolution, the clothing label he founded. The announcement described him as someone who 'touched the lives of many' and said funeral arrangements would be made public once finalised."
+          "a": "Matt Dee died, with his death announced on the morning of 2 September 2026 on the Instagram page of FTW Revolution, the suicide-prevention label he co-founded. The announcement described him as someone who 'touched the lives of many'. A public celebration of his life follows at Bronte Beach on 12 September 2026."
         },
         {
           "q": "What was Matt Dee's cause of death?",
-          "a": "It has not been made public. No cause of death has been confirmed by his family or in any published report, and anything circulating beyond that is speculation."
+          "a": "It has not been made public. No cause of death has been confirmed by his family or in any published report in the time since his death, and anything circulating beyond that is speculation."
+        },
+        {
+          "q": "How old was Matt Dee?",
+          "a": "His age has not been confirmed in Australian reporting of his death. One overseas entertainment site has published an age, but it is not corroborated by the ABC or any other outlet we would rely on, so we are not repeating it. His brother Jonathan died at 34 and his sister Rachel at 30."
         },
         {
           "q": "When was Matt Dee on Bondi Rescue?",
           "a": "He appeared on Bondi Rescue from 2008 to 2017, nine seasons of the show."
         },
         {
-          "q": "How old was Matt Dee?",
-          "a": "His age has not been stated in any of the published reports of his death. His brother Jonathan died at 34 and his sister Rachel at 30, but Dee's own age has not been confirmed, so we are not going to estimate it."
-        },
-        {
           "q": "What is FTW Revolution?",
-          "a": "It is a clothing brand connected to Suicide Prevention Australia that Matt Dee founded and ran as chief executive. He was an ambassador for Suicide Prevention Australia and for the Schizophrenia Research Institute, advocacy he took up after losing his brother and sister within a year of each other."
+          "a": "It is a clothing and events brand that Matt Dee co-founded and ran as a suicide-prevention resource for young Australians, and which the ABC reports has raised at least $500,000 for Suicide Prevention Australia. He was an ambassador for Suicide Prevention Australia and for the Schizophrenia Research Institute, advocacy he took up after losing his brother and sister within about a year of each other."
         },
         {
           "q": "Was Matt Dee still a Bondi lifeguard?",
-          "a": "He is described in reports of his death as a former Bondi Rescue lifeguard, and his time on the show ran from 2008 to 2017. The lifeguards currently patrolling Bondi are employed year-round by Waverley Council."
+          "a": "No - he is described in reports of his death as a former Bondi Rescue lifeguard, and his time on the show ran from 2008 to 2017. The lifeguards currently patrolling Bondi are employed year-round by Waverley Council."
         }
       ]
     },
     {
       "type": "p",
-      "text": "The lifeguards on this beach do a job most people only see the dramatic end of. If you want to know who is out there now, and what the service actually does across a season, our guide to the Bondi Rescue lifeguards is the place to start."
+      "text": "The lifeguards on this beach do a job most people only see the dramatic end of. If you want to know who is out there now, and what the service actually does across a season, our guide to the Bondi Rescue lifeguards is the place to start - and the coastal walk that gets you from Bondi down to Bronte is here."
     }
   ],
   "noAds": true
