@@ -220,11 +220,21 @@ export function buildEventFacet(e: BondiEvent, today: string): EventFacet {
 
 /* -------------------------------- formatting ------------------------------- */
 
-export function formatEventDate(ymd: string): string {
+/**
+ * "Sat 12 Sep" for something this year, "Sun 8 Aug 2027" for something that isn't.
+ *
+ * The year is not decoration. Without it, a confirmed date eleven months out rendered as
+ * "Sun, 8 Aug" - which reads as an undated fixture and makes a page look stale, exactly
+ * when we have the opposite news to deliver. It also left single dates inconsistent with
+ * formatDateRange(), which has always printed the year ("22-31 Jan 2027").
+ */
+export function formatEventDate(ymd: string, today: string = sydneyToday()): string {
+  const sameYear = ymd.slice(0, 4) === today.slice(0, 4);
   return new Intl.DateTimeFormat('en-AU', {
     weekday: 'short',
     day: 'numeric',
     month: 'short',
+    ...(sameYear ? {} : { year: 'numeric' }),
     timeZone: 'UTC',
   }).format(ymdToDate(ymd));
 }
@@ -280,5 +290,5 @@ export function whenLabel(r: ResolvedEvent): string {
 export function relativeDay(ymd: string, today: string = sydneyToday()): string {
   if (ymd === today) return 'Today';
   if (ymd === addDays(today, 1)) return 'Tomorrow';
-  return formatEventDate(ymd);
+  return formatEventDate(ymd, today);
 }

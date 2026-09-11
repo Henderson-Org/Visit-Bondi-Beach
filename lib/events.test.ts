@@ -11,6 +11,7 @@ import {
   occursInRange,
   passesDateFilter,
   relativeDay,
+  formatEventDate,
   formatTime,
   formatDateRange,
   whenLabel,
@@ -201,6 +202,15 @@ describe('formatting', () => {
     expect(relativeDay(WED, WED)).toBe('Today');
     expect(relativeDay('2026-08-13', WED)).toBe('Tomorrow');
     expect(relativeDay('2026-08-15', WED)).toBe('Sat, 15 Aug');
+  });
+  it('shows the year only for a date outside the current year', () => {
+    // A confirmed date eleven months out used to render as "Sun, 8 Aug" with no year, which
+    // reads as an undated annual fixture and makes the page look stale. Dates in the current
+    // year stay short, so the year appears exactly where it carries information.
+    expect(relativeDay('2027-08-08', WED)).toBe('Sun, 8 Aug 2027');
+    expect(relativeDay('2026-12-31', WED)).toBe('Thu, 31 Dec');
+    expect(formatEventDate('2027-08-08', WED)).toBe('Sun, 8 Aug 2027');
+    expect(formatEventDate('2026-08-15', WED)).toBe('Sat, 15 Aug');
   });
   it('formats times', () => {
     expect(formatTime('09:00')).toBe('9am');
