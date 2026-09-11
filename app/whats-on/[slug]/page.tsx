@@ -4,8 +4,9 @@ import { notFound } from 'next/navigation';
 import { EditorialHero } from '@/components/EditorialHero';
 import { EventCard } from '@/components/events/EventCard';
 import { GlanceItem } from '@/components/stay/primitives';
-import { isProduction, siteOrigin, seoTitle } from '@/lib/site';
-import { breadcrumbJsonLd, eventJsonLd } from '@/lib/structured-data';
+import { isProduction, seoTitle } from '@/lib/site';
+import { breadcrumbJsonLd } from '@/lib/structured-data';
+import { eventSchemaFor } from '@/lib/eventSchema';
 import {
   getEvent,
   eventSlugs,
@@ -15,7 +16,6 @@ import {
 } from '@/data/events';
 import {
   sydneyToday,
-  sydneyOffset,
   resolveEvent,
   upcomingEvents,
   whenLabel,
@@ -65,41 +65,9 @@ export default async function EventDetailPage({ params }: Props) {
     { name: e.title, path },
   ];
 
-  // Event schema only when we have a concrete date - never fabricate one.
-  const startIso = r.nextDate ? `${r.nextDate}${e.startTime ? `T${e.startTime}:00${sydneyOffset(r.nextDate)}` : ''}` : null;
-  // endDate (Google-recommended): published end for a multi-day edition; same-day end time
-  // for a timed single-day event; otherwise the same calendar day (a one-day event).
-  let endIso: string | undefined;
-  if (r.nextDate) {
-    if (e.startDate && e.endDate && e.endDate !== e.startDate && r.nextDate === e.startDate) {
-      endIso = `${e.endDate}${e.endTime ? `T${e.endTime}:00${sydneyOffset(e.endDate)}` : ''}`;
-    } else if (e.endTime) {
-      endIso = `${r.nextDate}T${e.endTime}:00${sydneyOffset(r.nextDate)}`;
-    } else {
-      endIso = r.nextDate; // one-day event, date-only end
-    }
-  }
-  const eventLd = startIso
-    ? eventJsonLd({
-        name: e.title,
-        description: e.summary,
-        startDate: startIso,
-        endDate: endIso,
-        url: `${siteOrigin()}${path}`,
-        venue: e.venue,
-        suburb: e.suburb,
-        address: e.address,
-        status: e.status,
-        priceType: e.priceType,
-        ticketUrl: e.ticketUrl,
-        organiser: e.organiser,
-        officialUrl: e.officialUrl,
-        // Recommended fields: an event-specific image when we hold one, else a representative
-        // Bondi location image; and a real offer validity date (never invented).
-        image: e.image ?? '/images/hero-bondi-sunrise.webp',
-        offerValidFrom: e.dateVerifiedAt ?? e.lastVerified,
-      })
-    : null;
+  // Event schema only when we have a concrete date - never fabricate one. Shared with the
+  // /whats-on listing so the two can never disagree about what a valid Event looks like.
+  const eventLd = eventSchemaFor(e, today);
 
   const related = upcomingEvents(today).filter((x) => x.event.slug !== e.slug).slice(0, 3);
   const cta = e.ticketUrl || e.officialUrl;

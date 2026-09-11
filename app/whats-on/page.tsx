@@ -5,7 +5,8 @@ import { Faq } from '@/components/blocks';
 import { EventCard } from '@/components/events/EventCard';
 import { EventBrowser } from '@/components/events/EventBrowser';
 import { isProduction } from '@/lib/site';
-import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from '@/lib/structured-data';
+import { breadcrumbJsonLd, faqJsonLd } from '@/lib/structured-data';
+import { eventListSchema } from '@/lib/eventSchema';
 import { upcomingEvents, sydneyToday, buildEventFacet } from '@/lib/events';
 import { EVENTS, type EventCategory, type Audience } from '@/data/events';
 
@@ -58,7 +59,11 @@ export default function WhatsOnHub() {
     <div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(CRUMBS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd("What's on in Bondi", upcoming.map((r) => ({ name: r.event.title, description: r.event.summary, url: `/whats-on/${r.event.slug}` })), 'Event')) }} />
+      {/* Complete Event nodes, not typeless stubs. Passing 'Event' to itemListJsonLd used to
+          emit { '@type': 'Event', name, url } with no location or startDate, which Search
+          Console rejected as invalid for all nine events. Events with no confirmed date are
+          left out of the markup entirely rather than given an invented one. */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventListSchema("What's on in Bondi", upcoming.map((r) => r.event), today)) }} />
 
       <EditorialHero
         image={HERO}
