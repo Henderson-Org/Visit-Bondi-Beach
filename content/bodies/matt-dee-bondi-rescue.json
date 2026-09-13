@@ -1,7 +1,7 @@
 {
   "path": "/bondi-blog/matt-dee-bondi-rescue",
   "voice": "first-person",
-  "lastReviewed": "2026-09-11",
+  "lastReviewed": "2026-09-13",
   "checkType": "desk",
   "freshnessClass": "live",
   "sources": [
@@ -20,6 +20,10 @@
     {
       "label": "The Nightly - Matt Dee's public celebration of life at Bronte Beach (4 September 2026)",
       "url": "https://thenightly.com.au/culture/heartwarming-detail-in-matt-dees-public-celebration-of-life-event-after-bondi-rescue-lifeguards-death-c-22823354"
+    },
+    {
+      "label": "The Nightly - the story behind Matt Dee's mental health advocacy (cause of death still unknown to friends)",
+      "url": "https://thenightly.com.au/australia/matt-dee-death-heartbreaking-story-behind-bondi-lifeguards-mental-health-advocacy-c-22819847"
     },
     {
       "label": "Yahoo Lifestyle Australia - Public memorial for Matt Dee announced",
@@ -49,7 +53,7 @@
     },
     {
       "type": "p",
-      "text": "A public celebration of his life is being held at Bronte Beach on Saturday 12 September 2026 from midday, with a paddle-out, and anyone who wants to come has been told they are welcome. Details are below."
+      "text": "A public celebration of his life was held at Bronte Beach on Saturday 12 September 2026, with a paddle-out and his ashes spread in the water. It was an open invitation, announced by the North Maroubra Surf Riders rather than by his family."
     },
     {
       "type": "quickFacts",
@@ -68,7 +72,7 @@
         },
         {
           "label": "Public memorial",
-          "value": "Bronte Beach, Saturday 12 September 2026, from midday"
+          "value": "Held at Bronte Beach, Saturday 12 September 2026"
         },
         {
           "label": "Cause of death",
@@ -78,19 +82,19 @@
     },
     {
       "type": "h2",
-      "text": "Matt Dee's memorial at Bronte Beach: what we know"
+      "text": "Matt Dee's memorial at Bronte Beach"
     },
     {
       "type": "p",
-      "text": "The send-off is a public one. It is being held at Bronte Beach on Saturday 12 September 2026, starting at midday, and it was announced by the North Maroubra Surf Riders rather than by his family - which tells you something about the crowd he belonged to. There is a paddle-out, his ashes are being spread in the water, and afterwards there is food, drink, music and the part everyone actually comes for, which is standing around telling stories about him."
+      "text": "The send-off was a public one, held at Bronte Beach on Saturday 12 September 2026 from midday. It was announced by the North Maroubra Surf Riders rather than by his family - which tells you something about the crowd he belonged to. The plan, as they set it out, was a paddle-out with his ashes spread in the water, then food, drink, music and the part everyone actually comes for, which is standing around telling stories about him."
     },
     {
       "type": "quote",
       "text": "Next Saturday, we send off a true legend. A man that had time for everyone, a larrikin, a brother to all and a leader of men. His time with us has come to an end, but we owe it to him to send him off in style."
     },
     {
-      "type": "localTip",
-      "text": "One practical thing, because people will get this wrong: the memorial is at Bronte Beach, not Bondi Beach. Bronte is the next-but-one beach south, about 2 km down the coast, and the walk from Bondi along the clifftop path takes 25-30 minutes at an easy pace. There is very little parking at Bronte at the best of times and none worth hunting for on a Saturday with a crowd coming, so walk it from Bondi or take the 379 bus. If you are paddling out, you need your own board."
+      "type": "p",
+      "text": "We have not written an account of the day, because as of now no news outlet has published one, and we were not there. If you are looking for photographs or a description of the paddle-out, the FTW Revolution and North Maroubra Surf Riders pages are where anything is most likely to appear first. We will add it here if it is reported."
     },
     {
       "type": "p",
@@ -98,7 +102,7 @@
     },
     {
       "type": "p",
-      "text": "A fundraiser was also set up to cover the funeral and farewell costs, which had passed $12,500 of an $18,000 goal when Yahoo Lifestyle reported on it on 7 September. Donations had been made in the names of the Bondi Rescue lifeguard Harrison Reid and the boxer Harry Garside, among hundreds of others."
+      "text": "A fundraiser was set up to cover the funeral and farewell costs, which had passed $12,500 of an $18,000 goal when Yahoo Lifestyle reported on it on 7 September - we have not printed a running total since, because it moves. Donations had been made in the names of the Bondi Rescue lifeguard Harrison Reid and the boxer Harry Garside, among hundreds of others."
     },
     {
       "type": "h2",
@@ -114,7 +118,7 @@
     },
     {
       "type": "p",
-      "text": "The same statement asked for patience with messages and pointed anyone struggling with the news toward support. No cause of death has been confirmed in the nine days since, and until his family chooses to say more there is nothing further to report on that - so this page will not speculate."
+      "text": "The same statement asked for patience with messages and pointed anyone struggling with the news toward support. No cause of death has been confirmed in the time since - The Nightly has reported that even close friends say they are unsure - and until his family chooses to say more there is nothing further to report on that, so this page will not speculate."
     },
     {
       "type": "h2",
@@ -169,24 +173,24 @@
       "type": "faq",
       "items": [
         {
-          "q": "When is Matt Dee's memorial?",
-          "a": "A public celebration of his life is being held on Saturday 12 September 2026 from midday at Bronte Beach in Sydney's eastern suburbs. It was announced by the North Maroubra Surf Riders and includes a paddle-out, with his ashes spread in the water, followed by food, drinks and music on the beach."
+          "q": "When was Matt Dee's memorial?",
+          "a": "A public celebration of his life was held on Saturday 12 September 2026 from midday at Bronte Beach in Sydney's eastern suburbs. It was announced by the North Maroubra Surf Riders, and was planned around a paddle-out with his ashes spread in the water, followed by food, drinks and music on the beach."
         },
         {
-          "q": "Is Matt Dee's memorial open to the public?",
-          "a": "Yes. It was announced publicly with an open invitation - 'we are calling on everyone to get down to Bronte' - so anyone who wants to pay their respects is welcome. If you intend to join the paddle-out you will need to bring your own board."
+          "q": "Was Matt Dee's memorial open to the public?",
+          "a": "Yes. It was announced publicly with an open invitation - 'we are calling on everyone to get down to Bronte' - so anyone who wanted to pay their respects could attend, and people were asked to bring their own board for the paddle-out."
         },
         {
-          "q": "Where is Bronte Beach, and how do I get there from Bondi?",
-          "a": "Bronte is about 2 km south of Bondi Beach, two beaches down the coast, and it is a different suburb with a different postcode. The nicest way there is on foot along the Bondi to Bronte clifftop path, which takes 25-30 minutes. Parking at Bronte is limited on any weekend and will be far worse with a crowd, so walking or the bus is the better plan."
+          "q": "Why was the memorial at Bronte rather than Bondi?",
+          "a": "That has not been explained publicly, and we are not going to guess at it. Worth knowing either way: Bronte is a different beach and a different suburb, about 2 km south of Bondi Beach along the coastal walk, so the send-off for a Bondi lifeguard did not take place at Bondi."
         },
         {
           "q": "What happened to Matt Dee from Bondi Rescue?",
-          "a": "Matt Dee died, with his death announced on the morning of 2 September 2026 on the Instagram page of FTW Revolution, the suicide-prevention label he co-founded. The announcement described him as someone who 'touched the lives of many'. A public celebration of his life follows at Bronte Beach on 12 September 2026."
+          "a": "Matt Dee died, with his death announced on the morning of 2 September 2026 on the Instagram page of FTW Revolution, the suicide-prevention label he co-founded. The announcement described him as someone who 'touched the lives of many'. A public celebration of his life was held at Bronte Beach on 12 September 2026."
         },
         {
           "q": "What was Matt Dee's cause of death?",
-          "a": "It has not been made public. No cause of death has been confirmed by his family or in any published report in the time since his death, and anything circulating beyond that is speculation."
+          "a": "It has not been made public. No cause of death has been confirmed by his family or in any published report, and The Nightly has reported that even close friends say they do not know. Anything circulating beyond that is speculation."
         },
         {
           "q": "How old was Matt Dee?",
