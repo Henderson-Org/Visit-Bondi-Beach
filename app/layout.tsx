@@ -21,7 +21,6 @@ const fraunces = localFont({
 });
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
-import { AdsenseScript } from '@/components/Adsense';
 import { Analytics } from '@/components/Analytics';
 import { AnalyticsBeacon } from '@/components/AnalyticsBeacon';
 import { TravelpayoutsEmbed } from '@/components/TravelpayoutsEmbed';
@@ -92,7 +91,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteHeader />
         <main id="main">{children}</main>
         <SiteFooter />
-        <AdsenseScript />
+        {/* AdsenseScript is deliberately NOT here. It mounts per page, only where an ad
+            slot actually renders (app/[...slug]/page.tsx) - in the layout it loaded the ad
+            and consent stack on 717 pages that show no ads. */}
         <Analytics />
         {/* First-party analytics. Runs alongside GA4 (which is untouched) and writes to
             our own database, so the site's history survives dropping any third party. */}

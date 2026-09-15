@@ -26,6 +26,7 @@ import { ArticleCard } from '@/components/ArticleCard';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { RelatedGuides } from '@/components/RelatedGuides';
 import { AdSlot } from '@/components/AdSlot';
+import { AdsenseScript } from '@/components/Adsense';
 import { BodyBlocks } from '@/components/BodyBlocks';
 import { HubView } from '@/components/HubView';
 import { EditorialHero } from '@/components/EditorialHero';
@@ -305,6 +306,11 @@ function ArticlePage({ page }: { page: Page }) {
   const hub = isArticle ? articleHub(page) : null;
   return (
     <article className="mx-auto max-w-3xl px-4 py-10">
+      {/* The AdSense bootstrap loads here rather than in the root layout, behind exactly the
+          condition that decides whether an AdSlot renders below. Anywhere that condition is
+          false - every hub, directory and tool route, and any page flagged noAds - the ad
+          and consent stack is never requested at all. */}
+      {isArticle && !page.noAds && <AdsenseScript />}
       {isArticle && (
         <script
           type="application/ld+json"
