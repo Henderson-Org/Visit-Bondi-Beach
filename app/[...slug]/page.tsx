@@ -212,6 +212,19 @@ async function CorePageHubView({ page }: { page: Page }) {
     const t = roundTemp(c.surf?.waterTempC ?? null);
     blocks = injectLiveFacts(blocks!, { waterTemp: t != null ? `≈ ${t}°C today` : null });
   }
+  /**
+   * A core hub page earns advertising only when it is genuinely a page someone reads:
+   * indexable, with a body WE authored (content/bodies/*.json), not the empty scaffold most
+   * of these hubs are. Today that is one page - /where-to-swim-at-bondi-beach, 849 YTD
+   * pageviews and third-highest on the site, which carried no advertising at all - and the
+   * other eleven core hubs correctly stay clean because they have no authored body.
+   *
+   * Deliberately self-maintaining: write a real body for another hub and it qualifies, with
+   * no code change. Strip one back to a scaffold and the ads leave with the content.
+   */
+  const showAds =
+    !page.noAds && page.indexable && Boolean(page.authoredBody) && Boolean(blocks && blocks.length > 0);
+
   const cards = coreHub.explore.links.map((l) => {
     const target = getPage(l.path);
     return { title: l.title, href: l.path, image: target?.heroImage || null, excerpt: excerptFor(target) };
@@ -239,9 +252,18 @@ async function CorePageHubView({ page }: { page: Page }) {
         intro={coreHub.intro}
         crumbs={crumbs}
       />
+      {showAds && <AdsenseScript />}
       {blocks && blocks.length > 0 && (
         <div className="mx-auto max-w-3xl px-4 pt-10">
-          <BodyBlocks blocks={blocks} />
+          {showAds ? (
+            <>
+              <BodyBlocks blocks={blocks.slice(0, 3)} />
+              <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE} />
+              <BodyBlocks blocks={blocks.slice(3)} />
+            </>
+          ) : (
+            <BodyBlocks blocks={blocks} />
+          )}
           {page.authoredBody && (page.lastReviewed || (page.sources && page.sources.length > 0)) && (
             <footer className="mt-8 border-t border-sand-200 pt-4 text-sm text-ink-500">
               {page.lastReviewed && page.freshnessClass !== 'evergreen' && (
@@ -304,13 +326,25 @@ function ArticlePage({ page }: { page: Page }) {
   // to its subject hub (concentrates topical authority; most articles otherwise have no
   // curated inbound link beyond the flat /articles index).
   const hub = isArticle ? articleHub(page) : null;
+  /**
+   * Which pages carry advertising: blog articles only, here.
+   *
+   * Widening this to every core-page was tried and reverted. It did not reach the pages
+   * worth monetising - locations and hub-designed core pages return earlier in this file
+   * and never get here - and the only three it did reach (/adstxt, /visit-bondi-beach,
+   * /tours) have no authored body at all. Thin auto-scaffolded pages, one of them noindex,
+   * are the worst possible place for ads: no revenue to speak of, and exactly the "low
+   * value content" AdSense penalises. Core pages that DO earn ads are handled in
+   * CorePageHubView, gated on having a real authored body.
+   */
+  const showAds = !page.noAds && isArticle;
   return (
     <article className="mx-auto max-w-3xl px-4 py-10">
       {/* The AdSense bootstrap loads here rather than in the root layout, behind exactly the
           condition that decides whether an AdSlot renders below. Anywhere that condition is
           false - every hub, directory and tool route, and any page flagged noAds - the ad
           and consent stack is never requested at all. */}
-      {isArticle && !page.noAds && <AdsenseScript />}
+      {showAds && <AdsenseScript />}
       {isArticle && (
         <script
           type="application/ld+json"
@@ -384,13 +418,13 @@ function ArticlePage({ page }: { page: Page }) {
       {page.blocks && page.blocks.length > 0 ? (
         <>
           <BodyBlocks blocks={page.blocks.slice(0, 3)} />
-          {isArticle && !page.noAds && <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE} />}
+          {showAds && <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE} />}
           <BodyBlocks blocks={page.blocks.slice(3)} />
         </>
       ) : (
         <div className="prose-editorial mt-6">
           {page.intro && <p className="text-lg text-ink-700">{page.intro}</p>}
-          {isArticle && !page.noAds && <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE} />}
+          {showAds && <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE} />}
           {page.headings.length > 0 && (
             <>
               <h2>In this guide</h2>
