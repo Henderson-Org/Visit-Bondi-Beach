@@ -455,6 +455,10 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'best-coffee-bondi',
+    // The morning queue at The Bakery on Glenayr - the intro above describes exactly this.
+    // This collection selects cafes across every precinct (not just Bondi Beach), so a
+    // North Bondi cafe is in scope here.
+    heroImage: '/images/articles/cafe-glenayr-bakery-morning-queue.webp',
     intent: 'cafes',
     h1: 'Where to find the best coffee in Bondi',
     kicker: 'Coffee',
@@ -470,7 +474,9 @@ export const COLLECTIONS: GuideCollection[] = [
   {
     slug: 'north-bondi',
     // The Bakery on Glenayr, 98 Glenayr Ave - North Bondi, which is what this page covers.
-    heroImage: '/images/articles/cafe-glenayr-bakery-morning-queue.webp',
+    // Signage-led frame: the painted 'on Glenayr' wall identifies the strip at a glance,
+    // which a crowd shot does not.
+    heroImage: '/images/articles/cafe-glenayr-bakery-shopfront.webp',
     intent: 'area-north-bondi',
     kind: 'area',
     h1: 'Where to eat & drink in North Bondi',
