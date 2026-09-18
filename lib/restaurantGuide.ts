@@ -181,6 +181,15 @@ export interface GuideCollection {
   /** Optional cap so a collection stays curated, not a dump. */
   limit?: number;
   /**
+   * Hero for this collection. Every dining page - the hub and all 21 collections - used to
+   * share one image, so they were indistinguishable from each other in search results and
+   * on social. Set this where we hold a photograph that genuinely depicts the collection's
+   * subject; anything without one falls back to the shared hero, which is correct rather
+   * than a gap. The suburb in the photo has to match the suburb the page is about: a
+   * North Bondi shopfront does not illustrate a Bondi Beach page.
+   */
+  heroImage?: string;
+  /**
    * 'best-of' = a curated ranked shortlist (the default); 'area' = a precinct landing
    * page that lists everywhere in one part of Bondi. Drives where the hub surfaces it.
    */
@@ -230,6 +239,8 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'breakfast-brunch-bondi-beach',
+    // The Glenayr Ave strip at breakfast: footpath dining opposite the park.
+    heroImage: '/images/articles/cafe-strip-glenayr-footpath-dining.webp',
     intent: 'breakfast',
     h1: 'The best breakfast & brunch in Bondi',
     kicker: 'Morning',
@@ -243,6 +254,8 @@ export const COLLECTIONS: GuideCollection[] = [
   },
   {
     slug: 'best-cafes-bondi-beach',
+    // Blackwood, 87-89 Glenayr Ave, Bondi Beach 2026 - footpath tables mid-morning.
+    heroImage: '/images/articles/cafe-glenayr-outdoor-tables.webp',
     intent: 'cafes',
     h1: 'The best cafés & coffee in Bondi',
     kicker: 'Coffee',
@@ -456,6 +469,8 @@ export const COLLECTIONS: GuideCollection[] = [
   // --- Area (precinct) landing pages: everywhere to eat in one pocket of Bondi. ---
   {
     slug: 'north-bondi',
+    // The Bakery on Glenayr, 98 Glenayr Ave - North Bondi, which is what this page covers.
+    heroImage: '/images/articles/cafe-glenayr-bakery-morning-queue.webp',
     intent: 'area-north-bondi',
     kind: 'area',
     h1: 'Where to eat & drink in North Bondi',

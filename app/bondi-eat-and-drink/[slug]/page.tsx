@@ -33,7 +33,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: c.metaDescription,
     alternates: { canonical: `/bondi-eat-and-drink/${slug}` },
     robots: indexable ? undefined : { index: false, follow: true },
-    openGraph: { title: c.metaTitle, description: c.metaDescription, type: 'website', images: HERO },
+    // Social card follows the page's own hero, so a shared link is recognisably that
+    // collection rather than the same stock frame for all 21.
+    openGraph: { title: c.metaTitle, description: c.metaDescription, type: 'website', images: c.heroImage ?? HERO },
   };
 }
 
@@ -77,7 +79,7 @@ export default async function DiningCollectionPage({ params }: Props) {
       />
 
       <EditorialHero
-        image={HERO}
+        image={collection.heroImage ?? HERO}
         kicker={collection.kicker}
         title={collection.h1}
         intro={collection.intro}
