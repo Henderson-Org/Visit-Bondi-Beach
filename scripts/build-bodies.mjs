@@ -153,6 +153,11 @@ async function main() {
       ...(rec.noAds ? { noAds: true } : {}),
       ...(rec.checkType ? { checkType: rec.checkType } : {}),
       ...(rec.voice ? { voice: rec.voice } : {}),
+      // Structured data for an article ABOUT a business (a bakery, a venue). Emitted so
+      // the page can publish openingHours/address in schema - the single most useful
+      // thing for a 'what time does X open' query, and what an assistant reads to answer
+      // it. Like the fields above, it must be forwarded here or the overlay never sees it.
+      ...(rec.business ? { business: rec.business } : {}),
     };
   }
 

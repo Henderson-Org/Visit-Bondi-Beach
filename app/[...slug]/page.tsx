@@ -16,7 +16,7 @@ import {
   type Page,
 } from '@/lib/content';
 import { isProduction, AUTHOR } from '@/lib/site';
-import { articleJsonLd, breadcrumbJsonLd, faqJsonLd, bondiPlaceJsonLd } from '@/lib/structured-data';
+import { articleJsonLd, breadcrumbJsonLd, faqJsonLd, bondiPlaceJsonLd, localBusinessJsonLd } from '@/lib/structured-data';
 import { getCorePageHub, getHubDesign } from '@/lib/hubs';
 import { articleHub } from '@/lib/articles';
 import { getConditions } from '@/lib/conditions/service';
@@ -349,6 +349,14 @@ function ArticlePage({ page }: { page: Page }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd(page)) }}
+        />
+      )}
+      {/* An article that profiles one venue also publishes that venue as a business node,
+          so "what time does it open" is answerable from structured data rather than prose. */}
+      {page.business && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd(page.business, page.path)) }}
         />
       )}
       {faqs.length > 0 && (

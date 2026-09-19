@@ -20,6 +20,7 @@ import {
   articleJsonLd,
   bondiPlaceJsonLd,
   organizationJsonLd,
+  localBusinessJsonLd,
   BONDI_PLACE_ID,
 } from './structured-data';
 import { allPages } from './content';
@@ -120,4 +121,79 @@ describe('references that resolve in-document are still typed', () => {
     const about = a.about as Record<string, unknown>;
     expect(about['@id']).toContain(BONDI_PLACE_ID);
   });
+});
+
+describe('business schema on an article', () => {
+  // The `business` block on a body lets an article that profiles one venue emit a typed
+  // LocalBusiness alongside the BlogPosting. It is opt-in per body, so the tests bind to a
+  // real page rather than a fixture: if the mechanism stops reaching content, they fail.
+  const pages = allPages().filter((p) => p.business);
+
+  it('at least one page declares a business', () => {
+    expect(pages.length, 'no page carries a business block — the overlay may have broken').toBeGreaterThan(0);
+  });
+
+  for (const page of pages) {
+    describe(page.path, () => {
+      const b = page.business!;
+      const doc = localBusinessJsonLd(b, page.path) as Record<string, unknown>;
+
+      it('types every node it references by @id', () => {
+        for (const { path, node } of nodesWithId(doc)) {
+          expect(node['@type'], `${path} carries @id "${node['@id']}" but no @type`).toBeTruthy();
+        }
+      });
+
+      it('emits a complete PostalAddress', () => {
+        const address = doc.address as Record<string, unknown>;
+        expect(address['@type']).toBe('PostalAddress');
+        expect(address.streetAddress).toBe(b.streetAddress);
+        expect(address.addressLocality).toBe(b.addressLocality);
+        expect(address.addressRegion).toBe('NSW');
+        expect(address.addressCountry).toBe('AU');
+        expect(address.postalCode).toMatch(/^\d{4}$/);
+      });
+
+      it('binds the business back to the page that describes it', () => {
+        const subjectOf = doc.subjectOf as Record<string, unknown>;
+        expect(subjectOf['@type']).toBe('WebPage');
+        expect(subjectOf['@id']).toContain(page.path);
+      });
+
+      it('emits opening hours in the 24-hour form schema.org expects', () => {
+        const spec = doc.openingHoursSpecification as Record<string, unknown>[] | undefined;
+        if (!b.openingHours?.length) {
+          expect(spec, 'no hours declared, so none should be emitted').toBeUndefined();
+          return;
+        }
+        expect(spec).toHaveLength(b.openingHours.length);
+        for (const entry of spec!) {
+          expect(entry['@type']).toBe('OpeningHoursSpecification');
+          expect(entry.opens).toMatch(/^\d{2}:\d{2}$/);
+          expect(entry.closes).toMatch(/^\d{2}:\d{2}$/);
+          expect(Array.isArray(entry.dayOfWeek) && (entry.dayOfWeek as string[]).length).toBeTruthy();
+        }
+      });
+
+      it('does not claim hours the page does not state', () => {
+        // Schema has to be backed by visible content. A body that publishes hours in
+        // structured data but not on the page is schema spam; worse, the two drift apart
+        // and we end up telling Google something the reader is never shown.
+        if (!b.openingHours?.length) return;
+        const visible = JSON.stringify(page.blocks ?? []);
+        for (const h of b.openingHours) {
+          // 07:00 → 7am, 13:00 → 1pm. Matches how the bodies are actually written.
+          for (const t of [h.opens, h.closes]) {
+            const hour = Number(t.slice(0, 2));
+            const twelve = hour % 12 === 0 ? 12 : hour % 12;
+            const suffix = hour < 12 ? 'am' : 'pm';
+            expect(
+              visible.includes(`${twelve}${suffix}`),
+              `${page.path}: schema says ${t} but the body never shows "${twelve}${suffix}"`
+            ).toBe(true);
+          }
+        }
+      });
+    });
+  }
 });

@@ -30049,5 +30049,31 @@
   "status": 200,
   "liveUrl": "",
   "authored": true
+ },
+ {
+  "path": "/bondi-blog/iggys-bread-bronte",
+  "contentType": "blog-post-legacy",
+  "section": "blog",
+  "title": "Iggy's Bread Bronte: Hours, Queues & Getting a Loaf",
+  "metaDescription": "Iggy's Bread, Bronte: open Tue-Sun 7am-1pm, closed Monday. Arrive about 7.30am to beat the queue - loaves sell out before 11am. Ordering and who serves it.",
+  "canonical": "https://www.visitbondibeach.com/bondi-blog/iggys-bread-bronte",
+  "h1": "Iggy's Bread, Bronte: how to actually get a loaf",
+  "headings": [],
+  "ogImage": "/images/articles/iggys-bread-bronte-racks.webp",
+  "heroImage": "/images/articles/iggys-bread-bronte-queue.webp",
+  "intro": null,
+  "blocks": [],
+  "wordCount": 0,
+  "jsonLdTypes": [
+   "WebSite",
+   "Article"
+  ],
+  "publishedAt": "2026-09-19",
+  "lastmod": "2026-09-19",
+  "impressions": 0,
+  "clicks": 0,
+  "indexable": true,
+  "status": 200,
+  "liveUrl": "https://www.visitbondibeach.com/bondi-blog/iggys-bread-bronte"
  }
 ]

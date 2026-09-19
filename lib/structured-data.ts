@@ -583,3 +583,55 @@ export function fitnessVenueJsonLd(v: {
     ...(v.openingHours ? { openingHours: v.openingHours } : {}),
   };
 }
+
+/**
+ * LocalBusiness-family schema for an article that profiles one real venue.
+ *
+ * This exists for the question these pages are most often asked - "what time does it open"
+ * - which prose alone cannot answer machine-readably. Opening hours, address and price
+ * range go in openingHoursSpecification/PostalAddress so a search engine or an assistant
+ * can answer directly rather than guessing from the page text.
+ *
+ * Emits only what the caller actually holds: no invented phone number, no rating, no
+ * aggregateRating. `url` points at the business's own site, never ours, so the entity
+ * resolves to the real operator.
+ */
+export function localBusinessJsonLd(b: {
+  type: string;
+  name: string;
+  streetAddress: string;
+  addressLocality: string;
+  postalCode: string;
+  url?: string;
+  priceRange?: string;
+  openingHours?: { days: string[]; opens: string; closes: string }[];
+}, path: string) {
+  const origin = siteOrigin();
+  return {
+    '@context': 'https://schema.org',
+    '@type': b.type,
+    name: b.name,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: b.streetAddress,
+      addressLocality: b.addressLocality,
+      addressRegion: 'NSW',
+      postalCode: b.postalCode,
+      addressCountry: 'AU',
+    },
+    ...(b.url ? { url: b.url } : {}),
+    ...(b.priceRange ? { priceRange: b.priceRange } : {}),
+    ...(b.openingHours?.length
+      ? {
+          openingHoursSpecification: b.openingHours.map((h) => ({
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: h.days,
+            opens: h.opens,
+            closes: h.closes,
+          })),
+        }
+      : {}),
+    // The page that describes it, so the business node and the article are connected.
+    subjectOf: { '@type': 'WebPage', '@id': `${origin}${path}` },
+  };
+}

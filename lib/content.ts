@@ -121,6 +121,26 @@ export interface Page {
   // would be in poor taste and would cost more trust than the impressions are worth -
   // an obituary, a death, a serious incident. Authored per page in content/bodies/*.json.
   noAds?: boolean;
+  // Set when this article profiles a single business, so the page can publish its address
+  // and opening hours as LocalBusiness-family structured data (see BusinessInfo below).
+  business?: BusinessInfo | null;
+}
+
+/**
+ * A business this article is about, for LocalBusiness-family structured data. Optional and
+ * only for pages that genuinely profile one venue - never a general guide.
+ */
+export interface BusinessInfo {
+  /** schema.org type, e.g. 'Bakery', 'CafeOrCoffeeShop', 'Restaurant'. */
+  type: string;
+  name: string;
+  streetAddress: string;
+  addressLocality: string;
+  postalCode: string;
+  url?: string;
+  priceRange?: string;
+  /** Day names as schema.org expects ('Tuesday'), with 24h opens/closes. */
+  openingHours?: { days: string[]; opens: string; closes: string }[];
 }
 
 interface BodyOverride {
@@ -132,6 +152,7 @@ interface BodyOverride {
   freshnessClass?: FreshnessClass;
   voice?: string;
   noAds?: boolean;
+  business?: BusinessInfo;
 }
 
 // Authored first-person bodies, keyed by page path. Compiled from the per-article
@@ -152,6 +173,7 @@ const PAGES = (pagesData as unknown as Page[]).map((p) => {
     checkType: ov.checkType ?? null,
     freshnessClass: ov.freshnessClass ?? null,
     noAds: ov.noAds ?? false,
+    business: ov.business ?? null,
     authoredBody: true,
   } as Page;
 });

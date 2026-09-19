@@ -1,0 +1,209 @@
+{
+  "path": "/bondi-blog/iggys-bread-bronte",
+  "voice": "first-person",
+  "lastReviewed": "2026-09-19",
+  "checkType": "local",
+  "freshnessClass": "quarterly",
+  "sources": [
+    {
+      "label": "Iggy's Bread - official site, About (address and trading hours)",
+      "url": "https://www.iggysbread.au/about"
+    },
+    {
+      "label": "Iggy's Bread Down Under - online pre-order shop (products and prices)",
+      "url": "https://iggysbronte.myshopify.com/"
+    },
+    {
+      "label": "Gourmet Traveller - Iggy's Bread: behind the scenes (method, founders, restaurants served)",
+      "url": "https://www.gourmettraveller.com.au/dining-out/food-news/iggys-bread-17456/"
+    },
+    {
+      "label": "Broadsheet - Fine diners get their bread from Iggy's",
+      "url": "https://www.broadsheet.com.au/sydney/bronte/shops/iggys-bread-world-bakery"
+    },
+    {
+      "label": "Concrete Playground - Iggy's Bread has opened a new bakery (Macpherson St site)",
+      "url": "https://concreteplayground.com/sydney/food-drink/food-2/brontes-iggys-bread-has-opened-a-new-bakery"
+    },
+    {
+      "label": "Concrete Playground - Three Blue Ducks Bronte, closed",
+      "url": "https://concreteplayground.com/sydney/restaurants/three-blue-ducks"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Iggy's Bread is a naturally leavened bakery on Macpherson Street in Bronte, open Tuesday to Sunday from 7am to 1pm and closed Mondays. It is the bakery other bakers queue at. The practical thing to know before you go: the bread does not last the morning. Get there around 7.30am and you will walk straight in with everything still on the racks; leave it until mid-morning and you will be standing in a line on the footpath choosing from what is left."
+    },
+    {
+      "type": "quickFacts",
+      "items": [
+        {
+          "label": "Where",
+          "value": "131 Macpherson Street, Bronte NSW 2024"
+        },
+        {
+          "label": "Hours",
+          "value": "Tuesday to Sunday, 7am–1pm. Closed Monday (per Iggy's own site)"
+        },
+        {
+          "label": "Best time to arrive",
+          "value": "About 7.30am — open, stocked, and usually no queue yet"
+        },
+        {
+          "label": "Sells out",
+          "value": "The popular loaves commonly go before 11am"
+        },
+        {
+          "label": "Ordering",
+          "value": "Pre-order online for collection; no phone orders published"
+        },
+        {
+          "label": "Founded",
+          "value": "Sydney, 2008, by Igor and Ludmilla Ivanovic"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Opening hours, and the 7.30am rule"
+    },
+    {
+      "type": "p",
+      "text": "Iggy's trades Tuesday to Sunday, 7am to 1pm, and is closed on Mondays. That 1pm close is earlier than most people assume, and it matters less than it sounds, because the bakery is usually picked over long before then — reporting on the bakery has consistently described the naturally leavened loaves going before about 11am."
+    },
+    {
+      "type": "localTip",
+      "text": "Arrive around 7.30am. That is the window: half an hour after opening, so the morning bake is out and the racks are full, but before the walkers and the school run arrive and the line starts running along the footpath. By 9am on a Saturday you are queuing. By 11am you are choosing from leftovers. If you want a specific loaf — the big round white sourdough, say — 7.30am is the difference between getting it and being told it went twenty minutes ago."
+    },
+    {
+      "type": "callout",
+      "title": "Check before a special trip",
+      "text": "Third-party listings disagree about Iggy's hours — you will find 7am–4pm and Saturday 8am–11am quoted around the web. The 7am–1pm, Tuesday to Sunday above is what Iggy's own site states. If you are driving across Sydney for this, confirm on their site or Instagram the night before."
+    },
+    {
+      "type": "h2",
+      "text": "What they bake"
+    },
+    {
+      "type": "p",
+      "text": "The range is bread first and almost nothing else — no coffee machine, no pastry counter theatre, no seating. The backbone is country sourdough, whole wheat sourdough, francese and a seedless white rye, alongside sourdough bagels and rolls. Around those sit the things regulars actually argue about: green and kalamata olive rolls, and bread sticks topped with parmigiano reggiano, chilli flakes and oregano. In the shop the loaves are priced on small handwritten tags on the racks — a spelt and kamut loaf was marked $13 and raisin and pecan rolls $3 when I was in during September 2026, though these move."
+    },
+    {
+      "type": "h2",
+      "text": "Why the bread is different"
+    },
+    {
+      "type": "p",
+      "text": "This is the part that explains the queue. Iggy's is naturally leavened — the sourdough starter does the work, and it is not a new one: Igor and Ludmilla Ivanovic's starter was born in Boston and came to Sydney with them when they opened here in 2008. Everything is hearth-baked on stone rather than in tins on trays."
+    },
+    {
+      "type": "p",
+      "text": "The numbers are unusually specific for a bakery, and they are the reason the crust behaves the way it does. Gourmet Traveller reported that the loaves run at 70 per cent water — a very wet dough, which is what gives the open, custardy crumb — and that the standard country sourdough takes 36 minutes in a 280°C thermal-oil, stone-floored, steam-injecting deck oven. The entire day's baking happens in a window of about two hours. That compressed bake is precisely why there is a finite amount of bread each day and why, once it is gone, it is gone."
+    },
+    {
+      "type": "h2",
+      "text": "Can you order ahead?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, for some things. Iggy's runs an online shop for pre-orders — the site's instruction is simply \"click below to pre-order your bread\" — and it is the sensible move if you need a particular loaf on a particular day. When I checked in September 2026 the listed items were a Wheel of Rolls ($50), a Mini Wheel ($27), a Big Round White Sourdough ($22) and a Super Long White Sourdough ($24), and every one of them was showing as sold out. That is not a broken website. That is the whole story of this bakery in one screen."
+    },
+    {
+      "type": "p",
+      "text": "There is also a wholesale arm, handled by email rather than a form, and no published phone-order service. If you want bread for an event, that is the channel — and given the above, ask early."
+    },
+    {
+      "type": "h2",
+      "text": "The restaurants that serve Iggy's bread"
+    },
+    {
+      "type": "p",
+      "text": "Iggy's reputation rests as much on restaurant tables as on its own counter — Broadsheet's write-up is headlined, flatly, \"fine diners get their bread from Iggy's\". Gourmet Traveller put names to it: the loaves not sold in the shop, it reported, \"are served on menus around Sydney, at restaurants including Bistro Guillaume, Monopole, and Three Blue Ducks just a couple of doors down\"."
+    },
+    {
+      "type": "callout",
+      "title": "One caveat on that list, because most pages repeat it uncorrected",
+      "text": "Three Blue Ducks' Bronte restaurant — the \"couple of doors down\" one — closed in 2021. The brand trades elsewhere, but that particular neighbour is gone, so treat the list above as reporting of who has served Iggy's rather than a current stockist directory. Iggy's does not publish its wholesale customers, and restaurant bread suppliers change quietly and often. If a specific restaurant's bread matters to you, ask the restaurant."
+    },
+    {
+      "type": "h2",
+      "text": "Getting there, and parking"
+    },
+    {
+      "type": "list",
+      "items": [
+        "On foot from Bondi — the clifftop coastal walk south takes about 25–30 minutes to Bronte, and arriving on foot removes the parking problem completely. This is the nicest way to do it.",
+        "By bus — the 379 runs to Bronte Beach from Bondi Junction, which is the closest train station. There is no train to Bronte.",
+        "By car — Macpherson Street has metered parking and the Bronte Cutting runs down through the park to the beach, but at 7.30am on a weekend you will still find a spot near the shops. Our [Bronte Beach parking guide](/bondi-blog/2023/11/20/an-insiders-guide-to-finding-a-car-park-at-bronte-beach) has the meter details."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The obvious move, and the one I would make: walk over from Bondi early, buy the bread, then take it down to [Bronte Beach](/bronte-beach) and eat half of it on the grass before you have got anywhere near home."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What time does Iggy's Bread in Bronte open?",
+          "a": "Iggy's Bread opens at 7am Tuesday to Sunday and closes at 1pm, according to its own website. It is closed on Mondays. Third-party listings quote different hours, so confirm with the bakery before making a special trip."
+        },
+        {
+          "q": "What time should I get to Iggy's to avoid the queue?",
+          "a": "Around 7.30am. Half an hour after opening the full morning bake is on the racks and the queue has usually not formed yet. From about 9am on weekends there is commonly a line along the footpath, and the popular loaves are typically gone before 11am."
+        },
+        {
+          "q": "Does Iggy's Bread sell out?",
+          "a": "Yes, routinely. All of the day's bread is baked in a window of roughly two hours, so the quantity is fixed and finite. Reporting on the bakery has consistently described the naturally leavened loaves selling out by around 11am, well before the 1pm close, and the online pre-order shop frequently shows every item sold out."
+        },
+        {
+          "q": "Can you order Iggy's bread online or in advance?",
+          "a": "Yes. Iggy's runs an online shop for pre-orders — its instruction is to \"click below to pre-order your bread\" — with items including a Wheel of Rolls, a Mini Wheel, a Big Round White Sourdough and a Super Long White Sourdough. Stock sells out online too. Wholesale enquiries are handled by email; there is no published phone-order line."
+        },
+        {
+          "q": "Which Sydney restaurants serve Iggy's bread?",
+          "a": "Gourmet Traveller reported Iggy's loaves being served at restaurants including Bistro Guillaume, Monopole and Three Blue Ducks. Note that the Three Blue Ducks restaurant in Bronte closed in 2021. Iggy's does not publish a list of wholesale customers, and restaurant suppliers change, so ask a restaurant directly if it matters to you."
+        },
+        {
+          "q": "Where exactly is Iggy's Bread?",
+          "a": "On Macpherson Street in Bronte, in Sydney's eastern suburbs — Iggy's own site gives the address as 131 Macpherson Street, Bronte NSW 2024. Bronte is about 2 km south of Bondi Beach, roughly a 25–30 minute walk along the coastal path."
+        },
+        {
+          "q": "What makes Iggy's bread different from other Sydney sourdough?",
+          "a": "It is naturally leavened from a starter the founders brought from Boston when they opened in Sydney in 2008, and it is hearth-baked on stone. The dough runs at about 70 per cent water, and the standard country sourdough bakes for 36 minutes in a 280°C stone-floored, steam-injecting deck oven — a very wet dough and a hot, steamy bake, which is what produces the blistered crust and open crumb."
+        },
+        {
+          "q": "Does Iggy's sell coffee or have seating?",
+          "a": "No. It is a bakery rather than a café — bread over the counter, no coffee service and no seating. The cafés of the Macpherson Street strip and Bronte Park are a short walk away if you want somewhere to sit."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If you are making a morning of it, the [Bondi to Bronte coastal walk](/bondi-coastal-walk) is the way to arrive, and our guide to [where to eat and drink around Bondi](/bondi-eat-and-drink) covers the coffee that Iggy's deliberately does not do."
+    }
+  ],
+  "business": {
+    "type": "Bakery",
+    "name": "Iggy's Bread",
+    "streetAddress": "131 Macpherson Street",
+    "addressLocality": "Bronte",
+    "postalCode": "2024",
+    "url": "https://www.iggysbread.au/",
+    "openingHours": [
+      {
+        "days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "07:00",
+        "closes": "13:00"
+      }
+    ]
+  }
+}
