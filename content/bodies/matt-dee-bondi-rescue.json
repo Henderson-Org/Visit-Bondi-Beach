@@ -1,9 +1,9 @@
 {
   "path": "/bondi-blog/matt-dee-bondi-rescue",
   "voice": "first-person",
-  "lastReviewed": "2026-09-13",
+  "lastReviewed": "2026-09-19",
   "checkType": "desk",
-  "freshnessClass": "live",
+  "freshnessClass": "monthly",
   "sources": [
     {
       "label": "ABC News - Former Bondi Rescue lifeguard and mental health advocate Matt Dee dies (2 September 2026)",
@@ -44,6 +44,10 @@
     {
       "label": "Suicide Prevention Australia",
       "url": "https://www.suicidepreventionaust.org/"
+    },
+    {
+      "label": "Yahoo News Australia - Emotional tribute for Bondi Rescue star (memorial, 12 September 2026)",
+      "url": "https://au.news.yahoo.com/emotional-tribute-bondi-rescue-star-060020861.html"
     }
   ],
   "blocks": [
@@ -53,7 +57,7 @@
     },
     {
       "type": "p",
-      "text": "A public celebration of his life was held at Bronte Beach on Saturday 12 September 2026, with a paddle-out and his ashes spread in the water. It was an open invitation, announced by the North Maroubra Surf Riders rather than by his family."
+      "text": "A public celebration of his life was held at Bronte Beach on Saturday 12 September 2026. Hundreds came. His ashes were scattered beyond the break during a paddle-out, and then, on his own instructions, it became a party on the sand."
     },
     {
       "type": "quickFacts",
@@ -94,7 +98,15 @@
     },
     {
       "type": "p",
-      "text": "We have not written an account of the day, because as of now no news outlet has published one, and we were not there. If you are looking for photographs or a description of the paddle-out, the FTW Revolution and North Maroubra Surf Riders pages are where anything is most likely to appear first. We will add it here if it is reported."
+      "text": "Hundreds of people came. His ashes were carried out into the surf and scattered beyond the break, with the surfers forming a circle on the water - the traditional surf burial - before they all came back in together on one wave. Friends and family carried flowers into the water and played the songs he liked. Then, as he had asked, it turned into a party on the sand: food, drinks, music and a lot of stories."
+    },
+    {
+      "type": "quote",
+      "text": "There's no race to the beach today, we're all coming in together."
+    },
+    {
+      "type": "p",
+      "text": "That was the former lifeguard Daniel McLaughlin, calling it as everyone paddled back. His best friend Kev Goodall told the crowd what Dee had actually asked for: “All he said is, if I ever go, just make sure you guys make it a big party.” Goodall’s description of him is the one that keeps coming back from people who knew him - “he always made you feel like he was everyone’s best mate”. His father, John Dee, spoke about the work: “He saved a lot of lives. He talked a lot of people off a cliff.”"
     },
     {
       "type": "p",
