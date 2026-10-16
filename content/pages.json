@@ -30075,5 +30075,30 @@
   "indexable": true,
   "status": 200,
   "liveUrl": "https://www.visitbondibeach.com/bondi-blog/iggys-bread-bronte"
+ },
+ {
+  "path": "/bondi-nippers-guide",
+  "contentType": "blog-post-legacy",
+  "section": "blog",
+  "title": "Bondi Nippers: A Parent's Guide to Joining",
+  "metaDescription": "When Bondi and North Bondi Nippers registrations open, swim requirements by age, costs, session times and what parents must do. Checked with both clubs.",
+  "canonical": "https://www.visitbondibeach.com/bondi-nippers-guide",
+  "h1": "Nippers in NSW: a parent's guide, with a focus on Bondi",
+  "headings": [],
+  "ogImage": "/images/hero-bondi-sunrise.webp",
+  "heroImage": "/images/hero-bondi-sunrise.webp",
+  "intro": "",
+  "wordCount": 0,
+  "jsonLdTypes": [
+   "WebSite",
+   "Article"
+  ],
+  "publishedAt": "2026-10-17",
+  "lastmod": "2026-10-17",
+  "impressions": 0,
+  "clicks": 0,
+  "indexable": true,
+  "status": 200,
+  "liveUrl": "https://www.visitbondibeach.com/bondi-nippers-guide"
  }
 ]

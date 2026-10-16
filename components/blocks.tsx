@@ -26,8 +26,13 @@ export function QuickFacts({ items }: { items: QuickFact[] }) {
         // nothing but text, so the rule can hide foreign nodes without knowing anything
         // about the third party's markup.
         <div key={f.label} data-no-embed className="rounded-xl border border-sand-200 bg-white p-4">
-          <dt className="text-[11px] uppercase tracking-wide text-ink-500">{f.label}</dt>
-          <dd className="mt-1 text-sm font-medium text-ink-900">{f.value}</dd>
+          {/* break-words because a tile is ~140px of content box at 390px wide, and a
+              single unbreakable token longer than that (an email address, a long URL)
+              sets the grid's min-content width and pushes the whole PAGE into horizontal
+              scroll - the tile overflows, the grid overflows, the article overflows.
+              Caught on the Nippers guide, whose quick facts carry club email addresses. */}
+          <dt className="text-[11px] uppercase tracking-wide text-ink-500 break-words">{f.label}</dt>
+          <dd className="mt-1 text-sm font-medium text-ink-900 break-words">{f.value}</dd>
         </div>
       ))}
     </dl>

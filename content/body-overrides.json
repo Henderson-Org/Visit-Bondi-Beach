@@ -30475,6 +30475,773 @@
     "freshnessClass": "evergreen",
     "voice": "first-person"
   },
+  "/bondi-nippers-guide": {
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Nippers is the junior arm of surf lifesaving: Sunday mornings on the sand, run by volunteers, teaching children aged 5 to under 14 how to read a beach and look after themselves in the water. Both Bondi clubs run one. The thing nobody tells you before you start looking is that the decision gets made in winter - registrations open around July and close in August, months before the first Sunday in October. If you are reading this mid-season hoping to sign up now, that is the single most useful thing on this page."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Who it is for",
+            "value": "Children aged 5 to Under 14"
+          },
+          {
+            "label": "When",
+            "value": "Sunday mornings, October to March, with a break over Christmas"
+          },
+          {
+            "label": "2026/27 season",
+            "value": "Starts Sunday 18 October 2026 at both Bondi clubs"
+          },
+          {
+            "label": "Registering",
+            "value": "Opens mid-year. Both Bondi clubs are closed for 2026/27"
+          },
+          {
+            "label": "Parents",
+            "value": "Not drop-off. A parent or carer stays on the beach and volunteers"
+          },
+          {
+            "label": "Swimming",
+            "value": "A proficiency test applies. Nippers is not a learn-to-swim program"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Registration status: can I sign up right now?"
+      },
+      {
+        "type": "p",
+        "text": "This is the question that brings most parents here, so it goes first. Both Bondi clubs closed their 2026/27 registrations before the season began, and neither has published a date for 2027/28."
+      },
+      {
+        "type": "table",
+        "caption": "Registration status, checked against each club's own website on 17 October 2026.",
+        "columns": [
+          "Club",
+          "2026/27 season",
+          "2027/28 registration"
+        ],
+        "rows": [
+          [
+            "Bondi Surf Bathers LSC",
+            "Closed",
+            "Not yet announced"
+          ],
+          [
+            "North Bondi SLSC",
+            "Closed",
+            "Not yet announced"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "What to do about it is the same at either club: email their Nippers address now and ask to be told when registrations open. Bondi is nippers@bondisurfclub.com and North Bondi is nippers@northbondisurfclub.com. Both clubs opened and closed their last intake inside about a month, so being on a list beats checking a website."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "Nothing here is a forecast",
+        "text": "Neither club has published a 2027/28 opening date, so I have not printed one. If you see a date for next season anywhere, including on this page in future, check it against the club's own site before you plan around it. Registration pages are the fastest-moving thing in this guide."
+      },
+      {
+        "type": "h2",
+        "text": "What Nippers actually is"
+      },
+      {
+        "type": "p",
+        "text": "Nippers is Surf Life Saving's Junior Development Program. Surf Life Saving NSW describes it as a beach program for children aged 5 to Under 14 that builds surf safety and lifesaving skills along a pathway towards becoming a qualified surf lifesaver. In practice that means a Sunday morning of wading, beach sprints, flags, board paddling and swimming, wrapped around lessons that start with \"what is a rip\" and end, by the U14 year, with resuscitation and rescue technique."
+      },
+      {
+        "type": "p",
+        "text": "Two things are worth getting straight early, because they cause most of the misunderstandings. Nippers is not swimming lessons - both Bondi clubs say so on their own websites and both recommend you enrol your child in a professional swim program alongside it. And it is not a sport you have to compete in. SLS NSW is explicit that club programs are \"focused on participation and enjoyment\" and not built around competition; carnivals are there for the children who want them."
+      },
+      {
+        "type": "h2",
+        "text": "When to register, and why it feels early"
+      },
+      {
+        "type": "p",
+        "text": "The season runs October to March, but the sign-up window sits in the middle of winter. Bondi's published timetable for the 2025/26 season shows the shape of it clearly: registrations opened on Wednesday 23 July 2025 for returning families, a week later on Wednesday 30 July 2025 for new families, and closed on Friday 22 August. New registrations and transfers were handled first come, first served."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Start watching in June. Bondi's own age-groups page says beach session times are updated in late June and that registrations open in July.",
+          "Returning families usually go first. Expect a week's head start for renewals before new families can register, as happened in 2025.",
+          "Places are finite. Bondi ran 2025/26 new registrations on a first come, first served basis, so the gap between opening and filling can be short.",
+          "Get on the list now rather than in July. Both clubs take Nippers enquiries by email, and asking to be notified costs you nothing.",
+          "Book the swim test into your winter, not your spring. Bondi held its 2026/27 proficiency on a single date in September, before the season started."
+        ]
+      },
+      {
+        "type": "localTip",
+        "text": "If you have missed the window entirely, email the club anyway and ask two questions: whether there is a waiting list, and whether they take mid-season transfers. Neither Bondi club publishes a policy on joining partway through a season, which means it is a conversation rather than a closed door. What is published, at North Bondi, is that the U14 Surf Rescue Certificate group takes no new registrations at all, because children need previous Nippers experience before they start it."
+      },
+      {
+        "type": "h2",
+        "text": "Bondi Surf Bathers Life Saving Club"
+      },
+      {
+        "type": "p",
+        "text": "The club at the south end of the beach, and the older of the two Nippers programs - it has been running since 1965. The 2026/27 season starts on Sunday 18 October 2026 and runs through to Sunday 21 March 2027 with a short break over Christmas."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "2026/27 fees",
+            "value": "First child $170; second and third siblings $140 each; any further siblings free"
+          },
+          {
+            "label": "Parent registration",
+            "value": "$30, new for 2026/27 - free if you are already a club member"
+          },
+          {
+            "label": "Swim test",
+            "value": "One club-run date. For 2026/27 it was Saturday 12 September, Cranbrook Aquatic Centre"
+          },
+          {
+            "label": "Uniform",
+            "value": "Age-group cap $10, plus a free high-vis pink rashie"
+          },
+          {
+            "label": "Refunds",
+            "value": "Only until the end of the second week of the season (25 October 2026)"
+          },
+          {
+            "label": "Contact",
+            "value": "nippers@bondisurfclub.com"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The change to know about for 2026/27 is the parent requirement. Every Nipper must now have at least one parent or carer registered with the club, which puts that adult under the club's insurance while they help out. The club's wording is blunt: children cannot participate without a registered parent or carer. It costs $30 if you are not already an Active, Associate or General member; if you are, your own membership renewal covers it."
+      },
+      {
+        "type": "p",
+        "text": "Bondi runs its swimming proficiency itself, on one date, and does not accept outside evidence - \"we do not accept swim certificates as proof of competency\". Every age group from U6 to U14 does a pool proficiency. The club also registers as an NSW Active Kids provider, so you can redeem a voucher against the fee after paying by emailing the voucher details through."
+      },
+      {
+        "type": "p",
+        "text": "Once you are in, communication runs through the Stack Team App - you download it, search for Bondi Nippers and request to join your child's age group - with WhatsApp groups used for anything time-sensitive. The merchandise stall opens on the beach every Sunday morning of the season from 8.00 to 11.00am."
+      },
+      {
+        "type": "callout",
+        "title": "One gap at Bondi",
+        "text": "Bondi had not published its 2026/27 Sunday session times in a readable form on its website when I checked. The page has a \"2026/27 Beach Session Times\" heading with nothing under it that I could read, and a separate page still says times will be updated in late June. Ask the club directly rather than assuming your child's start time matches North Bondi's."
+      },
+      {
+        "type": "h2",
+        "text": "North Bondi Surf Life Saving Club"
+      },
+      {
+        "type": "p",
+        "text": "The club at the northern end, by the Ben Buckler corner. Its 2026/27 season also starts on Sunday 18 October 2026 and runs to 21 March 2027. North Bondi publishes more of its detail as downloadable documents than Bondi does, including a full Nipper Information Pack for the season."
+      },
+      {
+        "type": "quickFacts",
+        "items": [
+          {
+            "label": "Session 1",
+            "value": "7:45am to 9:00am"
+          },
+          {
+            "label": "Session 2",
+            "value": "9:00am to 10:15am"
+          },
+          {
+            "label": "Arrive",
+            "value": "At least 15 minutes early - every Nipper is marked off before and after"
+          },
+          {
+            "label": "Swim test",
+            "value": "U8 to U14 only. You arrange it; a certificate goes to the club beforehand"
+          },
+          {
+            "label": "Uniform",
+            "value": "Club cap $15 from the merchandise stall, plus a free high-vis pink rash vest"
+          },
+          {
+            "label": "Contact",
+            "value": "nippers@northbondisurfclub.com"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "North Bondi splits the morning into two blocks and allocates age groups to each, so your Sunday start time depends on your child's age group and, in some cases, whether they are a boy or a girl. Published for 2026/27: Session 1 at 7:45am takes U6 boys, U6 girls, U8 girls, U9 girls, U10 girls, U11 boys, U11 girls and U12 boys; Session 2 at 9:00am takes U7 boys, U7 girls, U8 boys, U9 boys, U10 boys, U12 girls, U13 boys and U13 girls. U14s doing the Surf Rescue Certificate are handled separately."
+      },
+      {
+        "type": "callout",
+        "tone": "warning",
+        "title": "The club's two documents disagree about U9",
+        "text": "The session list above is from the club's Calendar and Start Times page. The club's own 2026/27 Nipper Information Pack PDF swaps them, putting U9 boys in Session 1 and U9 girls in Session 2. One of the two is out of date and I cannot tell which from the outside. If you have a U9, confirm the start time with the club before the first Sunday. Both documents also carry a \"subject to change\" note, and the season calendar PDF is still labelled tbc."
+      },
+      {
+        "type": "p",
+        "text": "Sign-in and sign-out are taken seriously. Every Nipper is marked off by their age manager before and after the session, and the Information Pack sets out what happens if a child is not marked off at the end: the club calls on the lifesavers to help find a missing child, then calls Bondi police. That is the clearest statement either club makes that this is not a drop-off service."
+      },
+      {
+        "type": "p",
+        "text": "On swimming, North Bondi works the opposite way to Bondi. Only U8s to U14s do a pool proficiency, it has to be continuous and unassisted, and you arrange it yourself: a certificate is filled out by a swim coach or club-authorised person and given to the club before your child starts. The pool has to be at least 25 metres. Wetsuits are allowed for the ocean component."
+      },
+      {
+        "type": "h2",
+        "text": "Bondi or North Bondi?"
+      },
+      {
+        "type": "p",
+        "text": "Both clubs deliver the same Surf Life Saving Australia program on the same beach, and I am not going to tell you one is better. What follows is what each has published, so you can see where they genuinely differ. The practical differences that will decide it for most families are the swim test, the session times and whichever club your child's friends are at."
+      },
+      {
+        "type": "table",
+        "caption": "Side by side, from each club's published information, checked 17 October 2026.",
+        "columns": [
+          "What to compare",
+          "Bondi SBLSC",
+          "North Bondi SLSC"
+        ],
+        "rows": [
+          [
+            "2026/27 registration",
+            "Closed",
+            "Closed"
+          ],
+          [
+            "Season",
+            "18 Oct 2026 to 21 Mar 2027",
+            "18 Oct 2026 to 21 Mar 2027"
+          ],
+          [
+            "Ages",
+            "5 to Under 14",
+            "5 to Under 14"
+          ],
+          [
+            "Session times",
+            "Not published",
+            "7:45am and 9:00am blocks"
+          ],
+          [
+            "Who swim tests",
+            "U6 to U14",
+            "U8 to U14"
+          ],
+          [
+            "How it is tested",
+            "Club-run, one date. No outside certificates",
+            "You arrange it. A coach signs a certificate"
+          ],
+          [
+            "Child's fee",
+            "$170, then $140 a sibling",
+            "Not published"
+          ],
+          [
+            "Parent fee",
+            "$30, compulsory. Free for members",
+            "$50, for age managers"
+          ],
+          [
+            "Cap",
+            "$10",
+            "$15"
+          ],
+          [
+            "Rashie",
+            "Free",
+            "Free"
+          ],
+          [
+            "Updates",
+            "Team App, WhatsApp",
+            "Email, SMS"
+          ],
+          [
+            "Refunds",
+            "Until 25 Oct 2026",
+            "Separate policy document"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "One difference worth dwelling on, because it changes what you need to do in the months beforehand: the two clubs set different swimming standards, and North Bondi times its swims where Bondi largely does not. A North Bondi U9 must swim 150 metres in six minutes; a Bondi U9 swims 100 metres untimed. If your child is a capable but unhurried swimmer, that distinction matters more than anything else on the table above."
+      },
+      {
+        "type": "h2",
+        "text": "What happens on a Sunday morning"
+      },
+      {
+        "type": "p",
+        "text": "The shape of the morning is consistent across clubs, even though the detail is each club's own. You arrive early, find your child's age group by the coloured caps and the age manager holding a sign, and your child is marked off. Then the group warms up and works through a rotation of activities for roughly an hour and a quarter."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Beach work: sprints, relays and beach flags, which is the scramble for a baton buried in the sand.",
+          "Wading: the youngest groups spend their water time in the shallows rather than the surf.",
+          "Swimming and board paddling: introduced as the age groups climb, with nipper boards from the U9 year at North Bondi.",
+          "Surf education: the lesson component, which steps up each year from basic beach awareness through rips, first aid and resuscitation.",
+          "Water safety: qualified adults in the water whenever Nippers are, which is why clubs ask so persistently for Bronze Medallion volunteers.",
+          "Sign-out: the session is not over until your child has been marked off again."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "North Bondi's own description of the tone is the one I would hold onto if you have a hesitant child: all children are encouraged to have a go, but \"no one is forced to participate in any activity that they are not comfortable with or don't want to do\"."
+      },
+      {
+        "type": "h2",
+        "text": "Does my child need to be a strong swimmer?"
+      },
+      {
+        "type": "p",
+        "text": "They need to meet a standard, and the standard is lower than most parents fear at the youngest ages and higher than they expect from about U9. At Bondi, every age group from U6 up does a pool proficiency, but for U6 and U7 there is no swim distance at all - it is floating, submerging and a short front glide. At North Bondi, U6 and U7 have no swim requirement; the pool test starts at U8."
+      },
+      {
+        "type": "table",
+        "caption": "Published 2026/27 swim requirements. Bondi's are from its age group proficiency page; North Bondi's from its swim proficiency document. They are not the same, so read the column for the club you are joining.",
+        "columns": [
+          "Age group",
+          "Bondi SBLSC",
+          "North Bondi SLSC"
+        ],
+        "rows": [
+          [
+            "U6",
+            "No swim. Float 5 sec, submerge and touch bottom, front glide 1-2m",
+            "No swim requirement. Submerge and touch bottom, front glide 1m"
+          ],
+          [
+            "U7",
+            "No swim. Float 10 sec, submerge, front glide 2-3m",
+            "No swim requirement. Submerge and touch bottom, front glide 2-3m"
+          ],
+          [
+            "U8",
+            "25m freestyle unaided, float 15 sec, swim 20m then 5m underwater",
+            "50m pool swim, 50m ocean wade, 1 min survival float"
+          ],
+          [
+            "U9",
+            "100m freestyle untimed, 150m ocean swim, tread 1 min",
+            "150m pool swim in 6 min, 150m ocean swim, 1 min survival float"
+          ],
+          [
+            "U10",
+            "150m freestyle untimed, 150m ocean swim, tread 1 min",
+            "150m pool swim in 6 min, 150m ocean swim, 1.5 min survival float"
+          ],
+          [
+            "U11",
+            "200m freestyle untimed, 200m ocean swim, tread 2 min",
+            "200m pool swim in 5:30, 200m ocean swim, 2 min survival float"
+          ],
+          [
+            "U12",
+            "200m freestyle untimed, 200m ocean swim, tread 3 min",
+            "200m pool swim in 5 min, 200m ocean swim, 3 min survival float"
+          ],
+          [
+            "U13",
+            "200m freestyle untimed, 200m ocean swim, tread 3 min",
+            "200m pool swim in 4:30, 200m ocean swim, 3 min survival float"
+          ],
+          [
+            "U14",
+            "200m freestyle in 5 min or less, 200m ocean swim, tread 3 min",
+            "200m pool swim in 4:30, 200m ocean swim, 3 min survival float"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The test exists because age managers and water safety volunteers need to know what every child in their group can do before they take them into the ocean. Failing it is not an expulsion. It means the skill is not there yet, and the fix is time in a pool - which is exactly why both clubs push families towards professional swimming lessons as a separate thing running alongside Nippers. Bondi puts it plainly: \"Nippers is not a learn to swim program.\" If you are weighing up whether your child is ready, the most useful thing you can do is take them to a pool in winter and try the distance for their age group, unassisted and without stopping."
+      },
+      {
+        "type": "h2",
+        "text": "Age groups and the 30 September rule"
+      },
+      {
+        "type": "p",
+        "text": "Age groups are set by how old your child is on 30 September of the year the season starts, not by their birthday during the season. SLS NSW gives the example: a child who is 11 on 30 September and turns 12 on 5 October is in the Under 12s. Your child does not move up mid-season, and Bondi notes that the system does not allow movement up or down an age group at all - not for friendship groups, not for swimming ability, not to suit your timetable."
+      },
+      {
+        "type": "table",
+        "caption": "2026/27 age groups with North Bondi's published dates of birth, and the Surf Life Saving award each group works towards.",
+        "columns": [
+          "Age group",
+          "Born between",
+          "Award"
+        ],
+        "rows": [
+          [
+            "Under 6",
+            "1 Oct 2020 - 30 Sep 2021",
+            "Surf Play 1"
+          ],
+          [
+            "Under 7",
+            "1 Oct 2019 - 30 Sep 2020",
+            "Surf Play 2"
+          ],
+          [
+            "Under 8",
+            "1 Oct 2018 - 30 Sep 2019",
+            "Surf Aware 1"
+          ],
+          [
+            "Under 9",
+            "1 Oct 2017 - 30 Sep 2018",
+            "Surf Aware 2"
+          ],
+          [
+            "Under 10",
+            "1 Oct 2016 - 30 Sep 2017",
+            "Surf Safe 1"
+          ],
+          [
+            "Under 11",
+            "1 Oct 2015 - 30 Sep 2016",
+            "Surf Safe 2"
+          ],
+          [
+            "Under 12",
+            "1 Oct 2014 - 30 Sep 2015",
+            "Surf Smart 1"
+          ],
+          [
+            "Under 13",
+            "1 Oct 2013 - 30 Sep 2014",
+            "Surf Smart 2"
+          ],
+          [
+            "Under 14",
+            "1 Oct 2012 - 30 Sep 2013",
+            "Surf Rescue Certificate"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The youngest two groups are games, tunnel races and obstacle courses with beach safety threaded through them. From U8 the lessons get structured, and from U10 resuscitation and rescue technique are introduced. The U14 year is the Surf Rescue Certificate, a six-week course that qualifies a 13 or 14 year old to patrol the beach alongside Bronze Medallion holders, with some limits on what they can do."
+      },
+      {
+        "type": "callout",
+        "title": "If your child turns five after 30 September",
+        "text": "They can still join when they turn five, according to Surf Life Saving NSW - but they will be in the U6 group that season and will repeat U6 the following season. Worth knowing before you decide whether to start this year or wait."
+      },
+      {
+        "type": "h2",
+        "text": "What to bring on the first Sunday"
+      },
+      {
+        "type": "p",
+        "text": "Two items are compulsory and non-negotiable at both clubs, and both clubs say so in almost the same words. Bondi: \"No Age Cap and/or no Pink Rashie = no Nippers.\" North Bondi: \"No Cap and No Pink Rashie = No Activities. No Exceptions.\" The high-vis pink rash vest is a Surf Life Saving Australia safety requirement so that every child is visible on the sand and in the water."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Compulsory: the club cap in your child's age-group colour. Bondi sells caps for $10 at the proficiency swim; North Bondi for $15 at the merchandise stall.",
+          "Compulsory: the club-issued high-vis pink rashie. Both clubs provide it free - Bondi at the start of the season, North Bondi during the first session.",
+          "Swimmers, and a wetsuit or thermal rash vest early and late in the season when the water is cold. Wetsuits are allowed for North Bondi's ocean proficiency.",
+          "Sunscreen, applied before you leave, plus a hat and a shirt for before and after.",
+          "A towel and a change of clothes, because a cold child on the sand at 8am stops enjoying it quickly.",
+          "A water bottle, labelled.",
+          "Nothing else is required. Boards are club equipment; you do not buy one to start."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What parents have to do"
+      },
+      {
+        "type": "p",
+        "text": "This is the part that surprises families coming from organised sport. Nippers is run by volunteers, and your involvement is assumed rather than invited. North Bondi states it directly: \"Nippers activities is not a child-minding service. At Sunday Nippers a parent / guardian must be present on the beach at all times.\" Bondi's version: \"All parents are expected to assist throughout the season, either on the BBQ or in the merch stall, as Age Group managers or assistants, as Officials or as Water Safety.\""
+      },
+      {
+        "type": "p",
+        "text": "So the realistic commitment is the whole Sunday morning, every week of the season, on the beach - plus a roster turn at something. At North Bondi each age group is assigned a week on the BBQ roster, and helping set up and pack up the beach when your group is rostered on is described as an expectation of all Nipper parents, not a favour. From 2026/27, Bondi additionally requires at least one parent or carer per child to be registered with the club so they are insured while helping."
+      },
+      {
+        "type": "h2",
+        "text": "How to volunteer, including if you don't swim"
+      },
+      {
+        "type": "p",
+        "text": "The roles divide into ones that need a qualification and ones that need a Sunday morning. It is worth saying plainly, because it puts people off unnecessarily: you do not need to be a lifesaver, or a strong swimmer, to help. The BBQ, the merchandise stall, setting up and packing away, and general help on the sand need none of the water qualifications below."
+      },
+      {
+        "type": "table",
+        "caption": "Volunteer roles and what each one requires. Requirements shown are North Bondi's published ones; Bondi lists the same roles and offers its Nipper parents a 20% discount on the Bronze Medallion course.",
+        "columns": [
+          "Role",
+          "What it involves",
+          "What you need"
+        ],
+        "rows": [
+          [
+            "Age manager",
+            "Leads one age group each week, runs the activities and communicates with the group",
+            "Club membership ($50 general at North Bondi), SLSA Child Safe Awareness and Age Manager online courses, a current Working with Children Check, and a pre-season briefing"
+          ],
+          [
+            "Water safety",
+            "In the water whenever the Nippers are; the role clubs need most",
+            "A current Bronze Medallion, then a minimum 30 hours a season and annual skills maintenance"
+          ],
+          [
+            "Surf sports official",
+            "Referees, starters, judges, recorders and marshals at club champs and carnivals",
+            "Level 1 Officials Accreditation - a 2 to 3 hour online course plus practical training, sponsored by North Bondi for Nipper parents - and a WWCC"
+          ],
+          [
+            "BBQ",
+            "Every Sunday; each age group gets a rostered week",
+            "Nothing. Turn up on your group's week"
+          ],
+          [
+            "Merchandise and uniforms",
+            "The Sunday stall selling caps, swimwear and club gear",
+            "Nothing formal"
+          ],
+          [
+            "Set-up and pack-down",
+            "Getting the equipment on and off the beach",
+            "Nothing. Expected of all parents when your group is rostered"
+          ],
+          [
+            "General help on the sand",
+            "Assisting your age manager with activities",
+            "Nothing"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Two qualification notes. A Working with Children Check is free for volunteers in NSW and you apply for it yourself; clubs ask for the number rather than issuing it. And if your child competes at carnivals, both the officials and water safety roles come with an expectation that you will help there too - North Bondi says so explicitly for parents who hold a Bronze Medallion."
+      },
+      {
+        "type": "h2",
+        "text": "What it costs"
+      },
+      {
+        "type": "p",
+        "text": "Less than most organised children's activities, because the people running it are not paid. Bondi publishes its full 2026/27 fee structure; North Bondi does not publish a Nippers registration fee on its website or in its information pack, so I have left it blank rather than guess at it."
+      },
+      {
+        "type": "table",
+        "caption": "2026/27 costs as published by each club, checked 17 October 2026. Blank means the club has not published a figure.",
+        "columns": [
+          "Cost",
+          "Bondi SBLSC",
+          "North Bondi SLSC"
+        ],
+        "rows": [
+          [
+            "First child",
+            "$170",
+            "Not published"
+          ],
+          [
+            "Second and third child",
+            "$140 each",
+            "Not published"
+          ],
+          [
+            "Fourth child onwards",
+            "Free",
+            "Not published"
+          ],
+          [
+            "Parent or carer registration",
+            "$30, or free if already a club member",
+            "$50 general membership, required for age managers"
+          ],
+          [
+            "Cap",
+            "$10",
+            "$15"
+          ],
+          [
+            "Rashie",
+            "Free",
+            "Free"
+          ],
+          [
+            "Swim proficiency",
+            "No separate fee published",
+            "Your own cost, if your pool or coach charges"
+          ],
+          [
+            "Active Kids voucher",
+            "Accepted - redeem after paying",
+            "Not published"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Beyond that, competition is where costs grow: carnival entries, travel and club racing kit are extra, and entirely optional. Bondi's refund window is short and worth noting before you pay - refunds are only available until the end of the second week of the season, which for 2026/27 meant 25 October 2026."
+      },
+      {
+        "type": "h2",
+        "text": "Do children have to compete?"
+      },
+      {
+        "type": "p",
+        "text": "No. Surf Life Saving NSW is clear that club programs are built around participation and enjoyment rather than competition, and that surf sports are an option for children who want to take their skills further. Both Bondi clubs run club championships and send teams to branch and state carnivals, and children who want to race can. Children who would rather do Sunday mornings and nothing else are doing Nippers properly."
+      },
+      {
+        "type": "p",
+        "text": "What a child does have to do to earn their age group's award is participate. SLS NSW notes that the award for each age group is achieved through attending and participating in the compulsory sessions across the season, which is a different kind of commitment from competing."
+      },
+      {
+        "type": "h2",
+        "text": "What happens if the weather is bad"
+      },
+      {
+        "type": "p",
+        "text": "Sessions can be cancelled or modified when the surf or the weather makes them unsafe, and the decision sits with the club on the morning. How you find out differs: North Bondi runs an email and SMS system using the mobile numbers from your registration form, and Bondi uses the Stack Team App with WhatsApp for anything urgent. Neither publishes a fixed rule about what conditions trigger a cancellation, so do not assume a rough-looking forecast means a sleep-in - check your club's channel."
+      },
+      {
+        "type": "h2",
+        "text": "Other clubs near Bondi"
+      },
+      {
+        "type": "p",
+        "text": "If both Bondi clubs are full, the eastern beaches have surf clubs within a short drive at Tamarama, Bronte, Clovelly, Coogee and Maroubra. I have not verified the junior program, registration status or fees at any of them, so rather than send you to a page I have not checked, the reliable route is Surf Life Saving NSW's own club directory, which lists every NSW club with its contact details. SLS NSW's advice on choosing is sensible: each club runs its own program, so start dates, times, prices and details vary, and most families join the club nearest home or the beach they already use."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Can my five-year-old join Nippers?",
+            "a": "Yes, once they have turned five. Both Bondi clubs take children from five, in the Under 6 group. If your child turns five after 30 September, Surf Life Saving NSW says they can join at that point but will be in U6 that season and repeat U6 the following season."
+          },
+          {
+            "q": "Can siblings be in the same group?",
+            "a": "No. Age groups are set strictly by age as at 30 September, and Bondi states that the Surf Life Saving system does not permit movement up or down an age group. At North Bondi siblings in different age groups may also be in different Sunday sessions, so check the start times for each child."
+          },
+          {
+            "q": "Can my child join with their friends?",
+            "a": "Only if they are the same age group. Bondi says directly that it cannot accommodate requests based on friendship groups, swimming ability or timetabling."
+          },
+          {
+            "q": "Can we change clubs?",
+            "a": "Transfers between surf clubs exist - Bondi refers to transfers alongside new registrations and handled both first come, first served in 2025/26. Contact the club you want to move to, during their registration window."
+          },
+          {
+            "q": "Can we join after the season has started?",
+            "a": "Neither Bondi club publishes a mid-season joining policy, and both closed 2026/27 registrations before the season began. It is worth emailing to ask about a waiting list. North Bondi's U14 Surf Rescue Certificate group is the firm exception: it takes no new registrations, because children need previous Nippers experience first."
+          },
+          {
+            "q": "What if we miss a Sunday?",
+            "a": "Missing the odd week is normal and nothing happens. The thing to be aware of is that each age group's award is earned by attending and participating in the compulsory sessions through the season, so sustained absence can affect whether your child receives it."
+          },
+          {
+            "q": "Do parents have to stay for the whole session?",
+            "a": "Yes. North Bondi requires a parent or guardian on the beach at all times and states that Nippers is not a child-minding service. Bondi expects all parents to assist through the season, and from 2026/27 requires at least one parent or carer per child to be registered with the club."
+          },
+          {
+            "q": "Can I volunteer if I'm not a confident swimmer?",
+            "a": "Yes. The BBQ, the merchandise stall, set-up and pack-down, and general help with your child's age group need no water qualification at all. Only water safety requires a Bronze Medallion. Age managers need a Working with Children Check and two short online courses, but no swimming qualification."
+          },
+          {
+            "q": "Can children with additional needs take part?",
+            "a": "Surf Life Saving runs the program on an inclusive basis and clubs tailor their programs to their members, but neither Bondi club publishes a specific policy or a named inclusion contact. This is a conversation to have with the club's Nippers email address before you register, so they can tell you honestly what support they can offer."
+          },
+          {
+            "q": "Does my child have to compete at carnivals?",
+            "a": "No. Surf Life Saving NSW states that programs focus on participation and enjoyment and are not built around competition. Carnivals are for children who want them."
+          },
+          {
+            "q": "What if my child is frightened of the waves?",
+            "a": "That is common and the program is built for it - the youngest groups spend their water time wading in the shallows, not in the surf. North Bondi's published approach is that children are encouraged to have a go but nobody is forced into an activity they are not comfortable with."
+          },
+          {
+            "q": "Can we try a session before joining?",
+            "a": "Neither Bondi club advertises a trial session, and both require a completed swim proficiency before a child takes part. Ask the club - but plan on the basis that you will register first."
+          },
+          {
+            "q": "What if both Bondi clubs are full?",
+            "a": "Ask to go on a waiting list for next season, and look at the other eastern beaches clubs through the Surf Life Saving NSW club directory. Registration windows do not open at the same moment across clubs, so a club a beach away may still be taking families."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Everything above comes from Surf Life Saving NSW and the two clubs' own published information, checked on 17 October 2026. Fees, dates and registration status move - especially between June and September - so treat the club links as the authority and this page as the map. If you are weighing up the rest of a Bondi family weekend, our [guide to Bondi with kids](/bondi-with-kids) and [where to swim at Bondi Beach](/where-to-swim-at-bondi-beach) are the places to go next."
+      }
+    ],
+    "wordCount": 4720,
+    "sources": [
+      {
+        "label": "Surf Life Saving NSW - Nippers (program, age rules, FAQs)",
+        "url": "https://www.surflifesaving.com.au/nippers/"
+      },
+      {
+        "label": "Surf Life Saving NSW - our clubs and branches (official club directory)",
+        "url": "https://www.surflifesaving.com.au/get-involved/our-clubs-and-branches/"
+      },
+      {
+        "label": "Bondi Surf Bathers Life Saving Club - Nippers",
+        "url": "https://bondisurfclub.com/nippers/"
+      },
+      {
+        "label": "Bondi SBLSC - Nippers season information (fees, parent registration, refunds, communication)",
+        "url": "https://bondisurfclub.com/nippers/bondi-nippers-season-information/"
+      },
+      {
+        "label": "Bondi SBLSC - age group proficiency swim (requirements by age group)",
+        "url": "https://bondisurfclub.com/nippers/age-group-proficiency-swim/"
+      },
+      {
+        "label": "Bondi SBLSC - Nippers uniforms and merchandise",
+        "url": "https://bondisurfclub.com/nippers/bondi-nippers-uniforms-and-merchandise/"
+      },
+      {
+        "label": "North Bondi SLSC - Nippers",
+        "url": "https://northbondisurfclub.com/nippers-public/"
+      },
+      {
+        "label": "North Bondi SLSC - Nippers registration and proficiency",
+        "url": "https://northbondisurfclub.com/nippers-registration/"
+      },
+      {
+        "label": "North Bondi SLSC - Nippers calendar and start times",
+        "url": "https://northbondisurfclub.com/nippers-calendar/"
+      },
+      {
+        "label": "North Bondi SLSC - Nipper Information Pack 2026-2027 (PDF)",
+        "url": "https://northbondisurfclub.com/wp-content/uploads/2026/07/Nipper-Information-Pack-2026-2027-.pdf"
+      },
+      {
+        "label": "North Bondi SLSC - swim proficiency requirements 26-27 (PDF)",
+        "url": "https://northbondisurfclub.com/wp-content/uploads/2026/07/Swim-Proficiency-Requirements-26-27.pdf"
+      },
+      {
+        "label": "North Bondi SLSC - Nippers parent volunteers",
+        "url": "https://northbondisurfclub.com/nippers-parent-volunteers/"
+      },
+      {
+        "label": "North Bondi SLSC - U14s Surf Rescue Certificate",
+        "url": "https://northbondisurfclub.com/nippers-competitions/"
+      }
+    ],
+    "lastReviewed": "2026-10-17",
+    "freshnessClass": "seasonal",
+    "checkType": "desk",
+    "voice": "first-person"
+  },
   "/where-to-swim-at-bondi-beach": {
     "blocks": [
       {

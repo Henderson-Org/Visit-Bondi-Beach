@@ -96,7 +96,7 @@ export function articleTopic(p: Page): ArticleTopic {
   // belong under swim, not under a page about a television programme.
   if (/bondi rescue/.test(s)) return 'bondi-rescue';
   if (/swim|snorkel|icebergs|ocean pool|\brip\b|lifeguard|bondi rescue|water temp|water (clean|quality|polluted)|shark|bluebottle|tar ball/.test(s)) return 'swim';
-  if (/\bkid|family|children|toddler|pram|playground/.test(s)) return 'family';
+  if (/\bkid|family|children|toddler|pram|playground|nipper/.test(s)) return 'family';
   if (/coastal walk|bronte|tamarama|coogee|clovelly|gordons bay/.test(s)) return 'coastal-walk';
   // "how to get to" / "how far is" are the two commonest phrasings of this intent and both
   // previously missed - the pattern only covered the gerund ("getting to").
