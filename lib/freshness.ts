@@ -17,6 +17,7 @@
  */
 import freshnessPolicy from '@/content/freshness-policy.json';
 import { FRESHNESS_MAX_DAYS, allPages, type FreshnessClass, type Page, type Source } from '@/lib/content';
+import { isRedirectedOrOwned } from '@/lib/redirects';
 
 export type ReviewStatus =
   /** Verified within cadence. */
@@ -91,10 +92,27 @@ export function reviewState(page: Page, now: Date = new Date()): ReviewState {
   return { ...base, nextReviewAt: isoDate(due), status, ageDays, overdueByDays };
 }
 
-/** Every page carrying an authored body, with its derived review state. */
+/**
+ * Whether a page's freshness is worth tracking at all.
+ *
+ * A redirected body is NOT a maintenance obligation. Its URL 301s to the survivor, so no
+ * reader ever sees the text and no crawler indexes it - re-verifying its facts changes
+ * nothing. We keep the body file (it is the record of what was consolidated, and the
+ * migration history), but it must not sit in the worklist: 48 of the 210 authored bodies
+ * are redirect sources, so leaving them in put a quarter of the corpus on a review clock
+ * for pages that cannot be read. That is how a worklist stops being believed.
+ *
+ * Noindex-but-live pages DO stay in scope - a visitor can still land on one and read a
+ * stale price, which is exactly what the system exists to prevent.
+ */
+export function tracksFreshness(page: Page): boolean {
+  return Boolean(page.authoredBody) && !isRedirectedOrOwned(page.path);
+}
+
+/** Every page carrying an authored, reachable body, with its derived review state. */
 export function allReviewStates(now: Date = new Date()): ReviewState[] {
   return allPages()
-    .filter((p) => p.authoredBody)
+    .filter(tracksFreshness)
     .map((p) => reviewState(p, now));
 }
 

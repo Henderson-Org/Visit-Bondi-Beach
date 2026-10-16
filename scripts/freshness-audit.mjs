@@ -21,6 +21,13 @@ const POLICY = JSON.parse(await readFile(join(ROOT, 'content', 'freshness-policy
 const MAX_DAYS = POLICY.maxDays;
 const DUE_SOON_FRACTION = POLICY.dueSoonAtFraction;
 
+// Redirected bodies are skipped, for the reason documented on tracksFreshness() in
+// lib/freshness.ts: their URLs 301 away, so no reader sees the text and re-verifying it
+// changes nothing. Read from the same registry the runtime uses so this CLI and the
+// /admin worklist can never disagree about what is in scope.
+const REGISTRY = JSON.parse(await readFile(join(ROOT, 'content', 'redirected-paths.json'), 'utf8'));
+const OUT_OF_SCOPE = new Set([...REGISTRY.redirected, ...REGISTRY.ownedByRoute]);
+
 const now = new Date();
 const DAY_MS = 86400000;
 const daysSince = (iso) => Math.floor((now - new Date(`${iso}T00:00:00Z`)) / DAY_MS);
@@ -33,10 +40,12 @@ const dueSoon = [];
 const neverVerified = [];
 const unclassified = [];
 let ok = 0;
+let redirected = 0;
 
 for (const f of files.sort()) {
   const rec = JSON.parse(await readFile(join(BODIES_DIR, f), 'utf8'));
   const path = rec.path || f;
+  if (OUT_OF_SCOPE.has(path)) { redirected++; continue; }
   const cls = rec.freshnessClass;
   if (!cls) { unclassified.push(path); continue; }
   // A page with no lastReviewed was authored but never verified. That is its own
@@ -52,7 +61,10 @@ for (const f of files.sort()) {
   else ok++;
 }
 
-console.log(`Freshness audit — ${files.length} authored bodies\n${'─'.repeat(60)}`);
+console.log(
+  `Freshness audit — ${files.length - redirected} tracked bodies ` +
+  `(${files.length} on disk, ${redirected} redirected and out of scope)\n${'─'.repeat(60)}`,
+);
 console.log(
   `✓ within cadence: ${ok}   ⚠ overdue: ${overdue.length}   ◷ due soon: ${dueSoon.length}   ` +
   `? never verified: ${neverVerified.length}   • unclassified: ${unclassified.length}\n`,

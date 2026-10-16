@@ -2,7 +2,8 @@
   "path": "/bondi-blog/how-to-get-to-bondi-beach",
   "voice": "first-person",
   "lastReviewed": "2026-09-04",
-  "freshnessClass": "monthly",
+  "checkType": "desk",
+  "freshnessClass": "quarterly",
   "sources": [
     {
       "label": "Transport for NSW - trip planner & timetables",
@@ -126,6 +127,5 @@
       "type": "p",
       "text": "However you come, my advice is the same: travel light, go early on a summer weekend, and let the bus or train do the work. Bondi's genuinely one of the easiest world-famous beaches to reach - the hardest part is leaving."
     }
-  ],
-  "checkType": "desk"
+  ]
 }

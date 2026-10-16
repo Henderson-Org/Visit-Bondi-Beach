@@ -2,7 +2,8 @@
   "path": "/bondi-blog/2025/4/25/ultimate-bondi-beach-parking-guide-free-and-paid-options-for-busy-days",
   "voice": "first-person",
   "lastReviewed": "2026-09-04",
-  "freshnessClass": "monthly",
+  "checkType": "desk",
+  "freshnessClass": "quarterly",
   "sources": [
     {
       "label": "Waverley Council - Parking",
@@ -119,6 +120,5 @@
         }
       ]
     }
-  ],
-  "checkType": "desk"
+  ]
 }

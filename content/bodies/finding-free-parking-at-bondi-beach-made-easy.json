@@ -2,7 +2,8 @@
   "path": "/bondi-blog/2023/10/4/finding-free-parking-at-bondi-beach-made-easy",
   "voice": "first-person",
   "lastReviewed": "2026-09-04",
-  "freshnessClass": "monthly",
+  "checkType": "desk",
+  "freshnessClass": "quarterly",
   "sources": [
     {
       "label": "Waverley Council - Resident Parking Scheme, North Bondi",
@@ -82,6 +83,5 @@
         }
       ]
     }
-  ],
-  "checkType": "desk"
+  ]
 }

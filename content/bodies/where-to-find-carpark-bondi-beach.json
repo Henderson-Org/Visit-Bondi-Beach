@@ -2,7 +2,8 @@
   "path": "/bondi-blog/where-to-find-carpark-bondi-beach",
   "voice": "first-person",
   "lastReviewed": "2026-09-04",
-  "freshnessClass": "monthly",
+  "checkType": "desk",
+  "freshnessClass": "quarterly",
   "sources": [
     {
       "label": "Waverley Council - parking (current meter rates & permits)",
@@ -137,6 +138,5 @@
         }
       ]
     }
-  ],
-  "checkType": "desk"
+  ]
 }

@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { reviewState } from './freshness';
-import type { Page } from './content';
+import { reviewState, tracksFreshness, allReviewStates } from './freshness';
+import { REDIRECTED_PATHS } from './redirects';
+import { allPages, type Page } from './content';
 
 /** Minimal Page stub - reviewState only reads the freshness/provenance fields. */
 const page = (over: Partial<Page>): Page =>
@@ -65,5 +66,36 @@ describe('reviewState', () => {
     expect(r.verificationMethod).toBe('local');
     expect(r.sources).toHaveLength(1);
     expect(r.sources[0].label).toBe('Waverley Council');
+  });
+});
+
+describe('what the worklist tracks', () => {
+  /**
+   * A redirected body is not a maintenance obligation: its URL 301s to the survivor, so
+   * no reader sees the text and re-verifying it changes nothing. 48 of the 210 authored
+   * bodies are redirect sources, and counting them put a quarter of the corpus on a
+   * review clock for pages that cannot be read - which is how a worklist stops being
+   * believed. Asserted against the real corpus so the exclusion can't quietly lapse.
+   */
+  it('excludes redirected bodies', () => {
+    const redirectedBody = allPages().find((p) => p.authoredBody && REDIRECTED_PATHS.has(p.path));
+    expect(redirectedBody, 'no redirected authored body to test against').toBeTruthy();
+    expect(tracksFreshness(redirectedBody!)).toBe(false);
+
+    const paths = new Set(allReviewStates().map((r) => r.path));
+    expect(paths.has(redirectedBody!.path)).toBe(false);
+    for (const p of paths) expect(REDIRECTED_PATHS.has(p), `${p} is redirected`).toBe(false);
+  });
+
+  it('still tracks a live authored body', () => {
+    const live = allPages().find((p) => p.authoredBody && !REDIRECTED_PATHS.has(p.path));
+    expect(live, 'no live authored body to test against').toBeTruthy();
+    expect(tracksFreshness(live!)).toBe(true);
+  });
+
+  it('keeps a noindex-but-live page in scope', () => {
+    // Deliberately NOT excluded by indexability: a visitor can still land on a noindex
+    // page and read a stale price, which is exactly what the system exists to catch.
+    expect(tracksFreshness(page({ indexable: false, path: '/not-a-redirect-anywhere' }))).toBe(true);
   });
 });
